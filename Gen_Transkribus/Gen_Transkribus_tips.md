@@ -1,4 +1,4 @@
-Good keyboard shortcuts
+### Good keyboard shortcuts
 
 -	“o” is the pointer
 -	“b” is the ink pen to make lines
@@ -7,7 +7,7 @@ Good keyboard shortcuts
 -	If you select a region/line and then hold down “v,” you can cut the region/line in two vertically. “h” will do the same, but horizontally.
 -	If you select a region and hold down SHIFT, can move a whole side up/down or right/left. (If you don’t hold SHIFT and try to grab a side, you’ll just grab that point and make a new corner and a new side, so to speak.)
 
-Other random observations for future me
+### Other random observations for future me
 
 Neither the ink pen nor the region maker is click-and-drag!!!!! This baffles me. For the region, click on one corner (DO NOT DRAG), then move mouse over the region and click on the other corner. For the ink pen, click on each point you want in the line and then when you’re done DOUBLE-CLICK to finish the line. Otherwise, the ink pen will continue making lines forever and you’ll be in ink pen hell.
 
