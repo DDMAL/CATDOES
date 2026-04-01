@@ -1,4 +1,6 @@
-Initial report - 24.03.26
+#### 24.03.26
+
+## Initial report - Layout models vs. Text models
 
 These are my initial impressions! For now, the proof is only in pretty pictures, but I’ll add the numbers to back those up shortly.
 
@@ -10,6 +12,8 @@ When analyzing a page, Transkribus tries to recognize regions and lines and then
 > I think the solution is to train a layout model and a text model, and run them in sequence (layout first, text second). 
 
 There are two kinds of layout analyses that could apply: the Layout analysis and the Fields analysis. The Fields analysis is behind a paywall, but from what I can tell so far, the Layout analysis finds lines of text, and the Fields analysis finds regions of text. It’s possible we may need both, unless Fields can do both regions and lines.
+
+### First training attempt - Layout model
 
 Since I can’t use the Field analysis at the moment, I tried to train a Layout analysis model to make sense of initials and rubrics and, most importantly, ignore staves and the neumes on them.
 
@@ -34,5 +38,15 @@ The very good news is that I also tried my little model on an Einsie folio (014r
 Just for laughs, I also tried my model on a folio with adiastematic neumes (A-Wn Cod. 1890 p.23) and it didn’t do as well, but it still ignored a lot more neumes than the Universal Lines model did, which is quite rad.
 
 <img width="1368" height="823" alt="A-Wn p 23 side by side" src="https://github.com/user-attachments/assets/64217b43-ce7f-44b2-919b-a57de8d9b9aa" />
+
+#### 01.04.26
+
+## Training a text model - Abbreviations edition
+
+Chant manuscripts have a lot of abbreviations, like virginē (virginem), qƺ (quem), or ſuꝑ (super). CantusDB expands all the abbreviations, so Rodan does as well, because we always give it the corrected chant text from CantusDB. We wanted to know whether it would be easier to create a Transkribus model that expands abbreviations, or a model that transcribes all abbreviations as is. (Transkribus gives the option to provide it with a corrected text, BUT that option is currently behind a paywall, so we wanted to see what it could do without any extra help.)
+
+TBC
+
+
 
 
