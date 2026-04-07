@@ -89,7 +89,7 @@ I can think of a few factors that could explain the poor performance of the expa
 
 ## Thoughts to expand on later
 
-When trying to give Transk pre-transcribed text, I think it tries to take line and paragraph breaks into consideration (https://help.transkribus.org/import-existing-transcriptions-with-text-image-matching). This isn't great for the text transcriptions you can get of CantusDB, because those are broken into paragraphs based on chants; new chant, new paragraph. The line breaks have nothing to do with how the chant is laid out on the folio.
+When trying to give Transk pre-transcribed text, I think it tries to take line and paragraph breaks into consideration (https://help.transkribus.org/import-existing-transcriptions-with-text-image-matching). This isn't great for the text transcriptions you can get off CantusDB, because those are broken into paragraphs based on chants; new chant, new paragraph. The line breaks have nothing to do with how the chant is laid out on the folio.
 
 Also, it feels like Transk isn't using the text to aid its transcription, but rather to validate its transcription. So it first transcribes the text on the folio using the model I created, then it tries to match that text to the provided transcription, line by line; if the Transk and the CantusDB transcription of a given line match (within a pre-established acceptable margin of error), then Transk will validate that line and it'll show up in the final transcription. Every line that doesn't match gets pushed to the bottom of the transcription, under the "Unmatched" category. So it's my impression that the Text Import feature might not actually help the text recognition training at all... Will keep exploring.
 
