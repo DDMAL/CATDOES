@@ -87,13 +87,33 @@ I can think of a few factors that could explain the poor performance of the expa
 
 #### 07.04.26
 
-## Thoughts to expand on later
+## Importing text
 
-When trying to give Transk pre-transcribed text, I think it tries to take line and paragraph breaks into consideration (https://help.transkribus.org/import-existing-transcriptions-with-text-image-matching). This isn't great for the text transcriptions you can get off CantusDB, because those are broken into paragraphs based on chants; new chant, new paragraph. The line breaks have nothing to do with how the chant is laid out on the folio.
+From my experiments so far, giving Transkribus chant texts from CantusDB doesn't actually seem to help... For one thing, when you give Transk pre-transcribed text, I think it tries to take line and paragraph breaks into consideration (https://help.transkribus.org/import-existing-transcriptions-with-text-image-matching). This isn't great for the text transcriptions you can get off CantusDB, because those are broken into paragraphs based on chants; new chant, new paragraph. The line breaks have nothing to do with how the chant is laid out on the folio.
 
-Also, it feels like Transk isn't using the text to aid its transcription, but rather to validate its transcription. So it first transcribes the text on the folio using the model I created, then it tries to match that text to the provided transcription, line by line; if the Transk and the CantusDB transcription of a given line match (within a pre-established acceptable margin of error), then Transk will validate that line and it'll show up in the final transcription. Every line that doesn't match gets pushed to the bottom of the transcription, under the "Unmatched" category. So it's my impression that the Text Import feature might not actually help the text recognition training at all... Will keep exploring.
+Also, it feels like Transk isn't using the text to aid its transcription, but rather to validate its transcription. So it first transcribes the text on the folio using the model I created, then it tries to match that text to the provided transcription, line by line; if the Transk and the CantusDB transcription of a given line match (within a pre-established acceptable margin of error), then Transk will validate that line and it'll show up in the final transcription. Every line that doesn't match gets pushed to the bottom of the transcription, under the "Unmatched" category. If you combine that with the fact that Transk's definition of a line is different from CantusDB's definition of a line (as explained above), you can see how problems arise quickly. So it's my impression that the Text Import feature might not actually help the text recognition training at all... Will keep exploring.
 
+#### 09.04.2026
 
+## First Fields model attempt
+
+Now that I have Pro Transk (woo!!) I have started exploring the Fields analysis function. I tried to train a Fields model using the eight Salzinnes folios I had used so far: 028r, 038v, 060v, 097r, 100r, 122r, 149v, and 191v. Just as I did for the Layout model I made, I made separate regions for initials, chants, rubrics, and folio numbers. In terms of the lines of text, I always separated initials from the text following, and rubrics from the text before or after. I also added one of four tags to every region: Chant, Initial, Folio number, or Rubric.
+
+When training a Fields model, you can choose to either train the tags or the line polygons. I _think_ that training the tags means you train the model to identify the tag of each region it finds, and training the line polygons means you train the model to identify the delineation of regions. BUT, Transk seems to suggest that you can run a tags Field analysis before you do anything else, which means that the model is also identifying regions? I'm honestly still confused about this, but I'm working on figuring it out. More later.
+
+For my first ever Fields model, I decided to train line polygons, because I'm still trying to figure out how to teach Transk to identify a manuscript's wonky regions. The resulting model has an MAP of 53,49%, which is... not bad? Transk defines 60% as a reasonably good MAP, so it's a good first attempt. Here it is:
+
+<img width="587" height="704" alt="First Fields model attempt" src="https://github.com/user-attachments/assets/55249c94-cdc6-4bfd-be88-6c5fa7db04eb" />
+
+Two things to note:
+1. You can't see any green region lines in this screenshot because the only region the model found was the entire folio. So that didn't work.
+2. On the other hand, the lines are _perfect_. All of the initials are separate lines, as are all the rubrics, including lines of rubric that are aligned with lines of chant! This is a much better result than the layout model did, which is slightly mystifying, but we'll take it.
+
+The news for the lines is great, but I don't understand why Transk is still completely incapable of identifying regions as I'm trying to teach it to do. So I'm now training a new Fields model on the exact same training data, but asking it to train the tags rather than the line polygons. I'm waiting on Transk to train that model, I'll report back soon.
+
+Once I've (hopefully) established how training tags differs from training line polygons, I'll increase the training dataset by four folios and try two things:
+- Including the initials in the chant regions (thereby removing the Initial regions altogether);
+- Not do that, and keep Initial regions as they are.
 
  
 
