@@ -20,3 +20,9 @@ I haven’t yet figured out if the order you create regions in affects the order
 To make yourself a special keyboard, click on the little gear in the keyboard section (bottom right) and then create your special keyboard. You can then add letters to special keyboard; back on the editing page, click on the little `refresh` button in the keyboard section and your new characters will appear. I personally find the extremely long alphabet menu to be way too long for my happiness, so I usually just google the symbol I want and copy-paste it. Don’t forget to press ENTER and actually add the letter before saving.
 
 I think that lines get assigned to regions you draw over them, and they don’t take into consideration any changes that might happen when you resize the region. In other words, when drawing a region it seems best to draw a larger region than you might need and then resize as necessary to exclude what needs to be excluded.
+
+Once you've made custom labels in one collection, they _won't_ appear in another collection. BUT, if you go to the label editing page in that other collection, you can import the labels from the first collection! Easy peasy.
+
+BTW: Two lines will only merge if they're part of the same region!!!! If you're trying to merge two lines and nothing is happening, that's probably why!!!!!!!
+
+Ooooooo, ahhhh, turns out you can scroll between pages in a collection without going back to the collection to select a new page every time. 
