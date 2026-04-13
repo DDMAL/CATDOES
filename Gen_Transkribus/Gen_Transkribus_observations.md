@@ -115,7 +115,21 @@ Once I've (hopefully) established how training tags differs from training line p
 - Including the initials in the chant regions (thereby removing the Initial regions altogether);
 - Not do that, and keep Initial regions as they are.
 
- 
+#### 13.04.2026
+
+## Report on training tags
+
+My first Field model trained on tags is complete, and I can confirm that a tags model _only_ finds the correct tag for each region; it cannot find the regions themselves. I'm still confused, because [the documentation](https://help.transkribus.org/newspapers-layout-recognition) clearly states that you should run a Fields analysis before running a Layout analysis, so I feel like something isn't clear somewhere. 
+
+(For the record, the mAP of that Field model is -100%, which is hilarious.)
+
+So! My next step is to train Baseline models and Field models on 12 folios instead of 8 to compare the two, and also to figure out whether each model performs better when the initials are included in the same regions as their corresponding chant, versus when they're their own regions. So it'll look something like this:
+
+| x  | Baseline model | Field model |
+| ------------- | ------------- | --- |
+| **Initials in chant**  | result | result |
+| **Initials out chant**  | result | result |
+
 
 
 
