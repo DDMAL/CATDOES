@@ -53,6 +53,10 @@ It's worth noting that I've found discrepancies between those two metrics in Tra
 
 https://github.com/user-attachments/assets/9d0114b0-9582-4676-b42f-274d016a4721
 
+## 16.04.26 IMPORTANT UPDATE!!!!!
+
+I have just discovered that although Field models are measured with MAP, so the higher the better, Layout models _say_ that they're measured with MAP but they're actually measured with Percentage Lost on Validation, so it should be low! It frustrates me NO END that Transkribus uses the same name for two OPPOSITE metrics!!!!!! GAH. So anyway, that explains why all my layout models had MAPs below 10% despite looking great.
+
 ## Training a text model - Abbreviations edition
 
 Chant manuscripts have a lot of abbreviations, like `virginē` ("virginem"), `qƺ` ("quem"), or `ſuꝑ` ("super"). CantusDB expands all the abbreviations, so Rodan does as well, because we always give it the corrected chant text from CantusDB. We wanted to know whether it would be easier to create a Transkribus model that expands abbreviations, or a model that transcribes all abbreviations as is. (Transkribus gives the option to provide it with a corrected text, BUT that option is currently behind a paywall, so we wanted to see what it could do without any extra help.)
@@ -123,13 +127,49 @@ My first Field model trained on tags is complete, and I can confirm that a tags 
 
 (For the record, the mAP of that Field model is -100%, which is hilarious.)
 
-So! My next step is to train Baseline models and Field models on 12 folios instead of 8 to compare the two, and also to figure out whether each model performs better when the initials are included in the same regions as their corresponding chant, versus when they're their own regions. So it'll look something like this:
+So! My next step is to train Layout models and Field models on 12 folios instead of 8 to compare the two, and also to figure out whether each model performs better when the initials are included in the same regions as their corresponding chant, versus when they're their own regions. So it'll look something like this:
 
-| x  | Baseline model | Field model |
+| x  | Layout model | Field model |
 | ------------- | ------------- | --- |
 | **Initials in chant**  | result | result |
 | **Initials out chant**  | result | result |
 
+#### 16.04.26
+
+## Many more tests done
+
+First, the result of the tests I described above, with two reminders:
+
+1. My goal for these models is to have lines of text under chant text, initials, and rubrics, and to haave one region per chant and per rubric; 
+2. Field models measure accuracy with the MAP, which should be high, and Layout models use Percentage Lost on Validation, which should be low).
+
+| x  | Layout model | Field model |
+| ------------- | ------------- | --- |
+| **Initials in chant**  | `PLV=4.24%` one big region but lines are great | `MAP=0.22%` one big region but lines are great |
+| **Initials out chant**  | `PLV=4.39%` one big region but lines are great  | `MAP=0.08%` one big region but lines are great|
+
+Looking at the four models applied to the same folio, it's clear that the results are super similar:
+
+In other words, whether initials are included in the same region as the chant or not makes very little difference. Transkribus can find lines, but it refuses to segment the different chants into different regions.
+
+Since the region segmentation just wasn't working, I decided to try a new tack and forget about regions for a bit. After all, the reason that I was trying to divide the folios into regions in the first place was to separate rubrics from chant, so that Transkribus would have a better chance at reading those in the correct order. So I realized that since Transkribus was so reluctant to make multiple regions, maybe it could learn to differentiate chant from rubric without using regions at all. I tried two new tests:
+
+1. Do one big region per folio, just like Transk would do;
+2. Keep the multiple regions, but delete every region that contains a rubric.
+
+For both, I trained a Field model, and the results look like this:
+
+
+| x  | Field model |
+| ------------- | ------------- |
+| **One big region**  | `MAP=40.67%` some rubrics have multiple lines under them |
+| **Multiple regions, rubric regions deleted**  | `MAP=48.9%` a few lines of rubric still included |
+
+Better! I wondered what would happen if I combined the two--one big region, and no lines of text under any rubrics. So I did both a Field and a Layout model with those characteristics:
+
+| x  | Layout model | Field model |
+| ------------- | ------------- | --- |
+| **One big region no rubrics**  | `PLV=5.29%` looks great! No rubrics included | `MAP=49.51%` looks great! No rubrics included |
 
 
 
