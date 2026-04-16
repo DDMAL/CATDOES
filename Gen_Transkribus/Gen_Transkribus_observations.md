@@ -140,8 +140,8 @@ So! My next step is to train Layout models and Field models on 12 folios instead
 
 First, the result of the tests I described above, with two reminders:
 
-1. My goal for these models is to have lines of text under chant text, initials, and rubrics, and to haave one region per chant and per rubric; 
-2. Field models measure accuracy with the MAP, which should be high, and Layout models use Percentage Lost on Validation, which should be low).
+1. My goal for these models is to have lines of text under chant text, initials, and rubrics, and to have one region per chant and per rubric; 
+2. Field models measure accuracy with the MAP, which should be high, and Layout models use Percentage Lost on Validation, which should be low.
 
 | x  | Layout model | Field model |
 | ------------- | ------------- | --- |
@@ -149,6 +149,8 @@ First, the result of the tests I described above, with two reminders:
 | **Initials out chant**  | `PLV=4.39%` one big region but lines are great  | `MAP=0.08%` one big region but lines are great|
 
 Looking at the four models applied to the same folio, it's clear that the results are super similar:
+
+<img width="1181" height="411" alt="083r four models" src="https://github.com/user-attachments/assets/116fa2a2-33df-490d-8358-7dc06bb0fee7" />
 
 In other words, whether initials are included in the same region as the chant or not makes very little difference. Transkribus can find lines, but it refuses to segment the different chants into different regions.
 
@@ -159,17 +161,24 @@ Since the region segmentation just wasn't working, I decided to try a new tack a
 
 For both, I trained a Field model, and the results look like this:
 
-
 | x  | Field model |
 | ------------- | ------------- |
 | **One big region**  | `MAP=40.67%` some rubrics have multiple lines under them |
 | **Multiple regions, rubric regions deleted**  | `MAP=48.9%` a few lines of rubric still included |
+
+<img width="845" height="626" alt="083r one region vs  no rubrics" src="https://github.com/user-attachments/assets/84ad241c-67b2-4d51-a779-307fb3300f2b" />
 
 Better! I wondered what would happen if I combined the two--one big region, and no lines of text under any rubrics. So I did both a Field and a Layout model with those characteristics:
 
 | x  | Layout model | Field model |
 | ------------- | ------------- | --- |
 | **One big region no rubrics**  | `PLV=5.29%` looks great! No rubrics included | `MAP=49.51%` looks great! No rubrics included |
+
+Here's 083r one final time with this final Layout model:
+
+<img width="456" height="634" alt="083r Layout one region no rubrics" src="https://github.com/user-attachments/assets/287c7b98-a2c2-4550-b3cc-ce9a80ceaedf" />
+
+Gorgeous! All initials have lines under them and rubrics are completely ignored. Job done! I guess regions are dumb anyway.
 
 
 
