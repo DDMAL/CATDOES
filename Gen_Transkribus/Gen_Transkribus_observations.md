@@ -178,7 +178,17 @@ Here's 083r one final time with this final Layout model:
 
 <img width="456" height="634" alt="083r Layout one region no rubrics" src="https://github.com/user-attachments/assets/287c7b98-a2c2-4550-b3cc-ce9a80ceaedf" />
 
-Gorgeous! All initials have lines under them and rubrics are completely ignored. Job done! I guess regions are dumb anyway.
+Gorgeous! All initials have lines under them and rubrics are completely ignored. Job done! I guess regions are dumb anyway. I will summarize these results back at the top.
+
+#### 17.04.26
+
+## Fake newspaper test
+
+I wanted to figure out whether Transkribus not being able to find more than one region was a me-problem or a Transk-problem, so I tried making a simple fake newspaper. My goal was to have super clear headings and columns of text; Transkribus says that it should be possible to transcribe newspapers with complex layouts, so I figured if I made a super simple layout it should at least be able to find a couple of different regions.
+
+I trained a model on four such pages of fake newspaper, making a separate region for each heading and column of text. And... it didn't work! Transk still wants to have one big region over the whole page. I just don't get it.
+
+
 
 
 
