@@ -1,3 +1,5 @@
+For the most recent summary of results, please refer to the [Overall summary](https://github.com/DDMAL/CATDOES/edit/main/Gen_Transkribus/Gen_Transkribus_observations.md#overall-summary) lower down on this page!
+
 #### 24.03.26
 
 ## Initial report - Layout models vs. Text models
@@ -101,7 +103,9 @@ Also, it feels like Transk isn't using the text to aid its transcription, but ra
 
 ## First Fields model attempt
 
-Now that I have Pro Transk (woo!!) I have started exploring the Fields analysis function. I tried to train a Fields model using the eight Salzinnes folios I had used so far: 028r, 038v, 060v, 097r, 100r, 122r, 149v, and 191v. Just as I did for the Layout model I made, I made separate regions for initials, chants, rubrics, and folio numbers. In terms of the lines of text, I always separated initials from the text following, and rubrics from the text before or after. I also added one of four tags to every region: Chant, Initial, Folio number, or Rubric.
+Now that I have Pro Transk (woo!!) I have started exploring the Fields analysis function. I tried to train a Fields model using the eight Salzinnes folios I had used so far: 028r, 038v, 060v, 097r, 100r, 122r, 149v, and 191v. Just as I did for the Layout model I made, I made separate regions for initials, chants, rubrics, and folio numbers. In terms of the lines of text, I always separated initials from the text following, and rubrics from the text before or after. I also added one of four tags to every region: Chant, Initial, Folio number, or Rubric. Final folios looked like this (lines of text are blue and regions are outlined in green):
+
+<img width="432" height="706" alt="028r ground truth" src="https://github.com/user-attachments/assets/9159f3dc-434e-41a9-b6c1-37b57922f757" />
 
 When training a Fields model, you can choose to either train the tags or the line polygons. I _think_ that training the tags means you train the model to identify the tag of each region it finds, and training the line polygons means you train the model to identify the delineation of regions. BUT, Transk seems to suggest that you can run a tags Field analysis before you do anything else, which means that the model is also identifying regions? I'm honestly still confused about this, but I'm working on figuring it out. More later.
 
@@ -178,7 +182,24 @@ Here's 083r one final time with this final Layout model:
 
 <img width="456" height="634" alt="083r Layout one region no rubrics" src="https://github.com/user-attachments/assets/287c7b98-a2c2-4550-b3cc-ce9a80ceaedf" />
 
-Gorgeous! All initials have lines under them and rubrics are completely ignored. Job done! I guess regions are dumb anyway. I will summarize these results back at the top.
+Gorgeous! All initials have lines under them and rubrics are completely ignored. Job done! I guess regions are dumb anyway. 
+
+# Overall summary
+
+If we want to use Transkribus to identify and transcribe the text of a chant manuscript folio, I suggest using these parametres:
+1. Train a layout (baseline) model that:
+   - Has one big region that covers the whole folio;
+   - Has a blue line of text under all chant text, including initials;
+   - Has **_no_** line of text under rubric text.
+2. Train a text model that transcribes the text as is, without expanding abbreviations like CantusDB does. (You can use Transkribus' handy dandy bespoke keyboards that have all the necessary fancy letters.)
+3. Once you have both models, run the layout model first, then the text model.
+
+From what I can tell so far, a layout model trained on a manuscript with staves works very well on other manuscripts with staves.
+
+Some questions remaining:
+- Seeing as Transk seems to be confused about CER vs. MAP vs. PLV, can we really trust those metrics to compare its performance with Rodan or other such websites? Especially the MAP, which to my eyes doesn't really represent how successful the model is visually.
+- What is up with the regions? Why can't I get Transk to figure those out?
+- If we ignore the rubrics, is there a way to use the text import function to improve text recognition performance? Or is that off the table if we don't train Transk to expand abbreviations?
 
 #### 17.04.26
 
@@ -198,7 +219,7 @@ And here's the best part: when testing the results of my model, I accidentally r
 
 <img width="480" height="635" alt="Fake newspaper result 2 w: Salz layout?" src="https://github.com/user-attachments/assets/d6956719-58ba-4e57-8b07-89701c94dd11" />
 
-What?!??? That model was _specifically_ trained to group the whole folio into one region, and that's what happens? Whereas the model that was trained to separate the regions gives me one big region? I am losing my grasp on reality.
+What?!??? That model was _specifically_ trained to group the whole folio into one region, and that's what happens? Whereas the model that was trained to separate the regions gives me one big region? Baffled.
 
 
 
