@@ -186,7 +186,19 @@ Gorgeous! All initials have lines under them and rubrics are completely ignored.
 
 I wanted to figure out whether Transkribus not being able to find more than one region was a me-problem or a Transk-problem, so I tried making a simple fake newspaper. My goal was to have super clear headings and columns of text; Transkribus says that it should be possible to transcribe newspapers with complex layouts, so I figured if I made a super simple layout it should at least be able to find a couple of different regions.
 
-I trained a model on four such pages of fake newspaper, making a separate region for each heading and column of text. And... it didn't work! Transk still wants to have one big region over the whole page. I just don't get it.
+I trained a model on four such pages of fake newspaper, making a separate region for each heading and column of text. Like this:
+
+<img width="872" height="551" alt="Fake newspaper goal" src="https://github.com/user-attachments/assets/ffcdb2c9-6486-4243-b7f9-fa60ab66b4e6" />
+
+And... it didn't work! Transk still wants to have one big region over the whole page. Like this: 
+
+<img width="826" height="489" alt="Fake newspaper result" src="https://github.com/user-attachments/assets/14c86ef6-5af8-43b9-b2c9-3965d3c95983" />
+
+And here's the best part: when testing the results of my model, I accidentally ran my Salzinnes one-region-no-rubrics model on the fake newspaper. This happened:
+
+<img width="480" height="635" alt="Fake newspaper result 2 w: Salz layout?" src="https://github.com/user-attachments/assets/d6956719-58ba-4e57-8b07-89701c94dd11" />
+
+What?!??? That model was _specifically_ trained to group the whole folio into one region, and that's what happens? Whereas the model that was trained to separate the regions gives me one big region? I am losing my grasp on reality.
 
 
 
