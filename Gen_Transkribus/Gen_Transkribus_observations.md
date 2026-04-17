@@ -184,6 +184,8 @@ Here's 083r one final time with this final Layout model:
 
 Gorgeous! All initials have lines under them and rubrics are completely ignored. Job done! I guess regions are dumb anyway. 
 
+#### 17.04.26
+
 # Overall summary
 
 If we want to use Transkribus to identify and transcribe the text of a chant manuscript folio, I suggest using these parametres:
@@ -201,9 +203,7 @@ Some questions remaining:
 - What is up with the regions? Why can't I get Transk to figure those out?
 - If we ignore the rubrics, is there a way to use the text import function to improve text recognition performance? Or is that off the table if we don't train Transk to expand abbreviations?
 
-#### 17.04.26
-
-## Fake newspaper test
+### P.S. Fake newspaper test
 
 I wanted to figure out whether Transkribus not being able to find more than one region was a me-problem or a Transk-problem, so I tried making a simple fake newspaper. My goal was to have super clear headings and columns of text; Transkribus says that it should be possible to transcribe newspapers with complex layouts, so I figured if I made a super simple layout it should at least be able to find a couple of different regions.
 
