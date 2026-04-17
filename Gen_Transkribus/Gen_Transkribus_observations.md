@@ -1,4 +1,4 @@
-For the most recent summary of results, please refer to the [Overall summary](https://github.com/DDMAL/CATDOES/edit/main/Gen_Transkribus/Gen_Transkribus_observations.md#overall-summary) lower down on this page!
+For the most recent summary of results, please refer to the [Overall summary](https://github.com/DDMAL/CATDOES/blob/main/Gen_Transkribus/Gen_Transkribus_observations.md#overall-summary) lower down on this page!
 
 #### 24.03.26
 
