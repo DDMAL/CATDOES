@@ -184,6 +184,17 @@ Here's 083r one final time with this final Layout model:
 
 Gorgeous! All initials have lines under them and rubrics are completely ignored. Job done! I guess regions are dumb anyway. 
 
+Good news, the model works quite well with other staff-full manuscripts, like F-Pn Latin 15181:
+
+<img width="666" height="703" alt="F-Pn Latin 15181 287r layout analysis" src="https://github.com/user-attachments/assets/74d7b225-e636-4726-af9b-a835f31bc20c" />
+
+(The only problem here is that a couple of lines go across the two columns, but that's easily fixed.)
+
+And NZ-Wt MSR-03:
+
+<img width="523" height="671" alt="NZ-Wt MSR-03 109v layout analysis" src="https://github.com/user-attachments/assets/dcda1b7b-252a-4245-913b-5b2914a78101" />
+
+(The rubric is ignored!! Amazing.)
 #### 17.04.26
 
 # Overall summary
