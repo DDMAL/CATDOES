@@ -16,6 +16,8 @@ I tried throwing my models at different manuscripts, just to figure out what eac
 
 \* The square notation model did best for these manuscripts, but it wasn't perfect; it seems that folios with text that is the same size as the neumes are a challenge for all three models. A new model might be in order!
 
+About PDF vs. jpg, there's a small difference in performance, but not as big as I suspected!
+
 All of these manuscripts had at least one staff line, which is why the Adiastematic model never worked best. 
 
 ### Folios used for model training
