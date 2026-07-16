@@ -1,0 +1,28 @@
+# CATDOES pipeline dependencies
+# Install inside the line-seg-eval conda environment, or create a new env with:
+#   conda create -n catdoes python=3.10
+#   pip install -r requirements.txt
+
+# Core pipeline (shared with mothra-text / line-seg-eval)
+kraken
+htrflow
+biopython
+Pillow
+torch
+torchvision
+ultralytics
+htrmopo
+numpy
+scipy
+scikit-image
+opencv-python
+pydantic
+transformers
+safetensors
+platformdirs
+
+# Syllabification (Latin)
+volpiano-display-utilities @ git+https://github.com/DDMAL/volpiano-display-utilities.git
+
+# Config file parsing (CATDOES-specific)
+pyyaml

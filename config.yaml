@@ -1,0 +1,12 @@
+# CATDOES pipeline configuration
+# Update mothra_text_path to the absolute path of your local mothra-text (line-seg-eval) clone.
+mothra_text_path: /Users/cassiebastress/Documents/DDMAL/line-seg-eval
+
+# Default output directory for pipeline JSONs and debug files.
+out_dir: ~/Downloads/DDMAL/catdoes/
+
+# Optional: paths to custom model files. Leave unset to use built-in defaults.
+# segmentation_model:    # local path to a Kraken BLLA .mlmodel or .safetensors
+# recognition_model:     # local path to a Kraken HTR .mlmodel (default: auto-find Tridis)
+# yolo_text_music_model: # local path to text_music_detector .pt (default: download from HF)
+# yolo_stave_model:      # local path to stave_detector .pt (default: download from HF)
