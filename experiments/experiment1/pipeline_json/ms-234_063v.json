@@ -5,7 +5,7 @@
   "image_height": 2063,
   "lines": [
     {
-      "label": "tmpwsnxf3t8_region0",
+      "label": "tmpxovpb6gm_region0",
       "bbox": [
         450,
         323,
@@ -273,96 +273,56 @@
       "text": "i qui inquirebant",
       "words": [
         {
-          "label": "tmpwsnxf3t8_region0_region0",
-          "text": "Quoniam",
+          "label": "tmpxovpb6gm_region0_region0",
+          "text": "Et",
           "bbox": [
             450,
             323,
-            658,
+            528,
             422
           ],
           "source": "gt",
           "syllables": [
             {
-              "label": "tmpwsnxf3t8_region0_region0_region0",
-              "text": "quo-",
+              "label": "tmpxovpb6gm_region0_region0_region0",
+              "text": "et",
               "bbox": [
                 450,
                 323,
-                542,
-                422
-              ]
-            },
-            {
-              "label": "tmpwsnxf3t8_region0_region0_region1",
-              "text": "ni-",
-              "bbox": [
-                542,
-                323,
-                611,
-                422
-              ]
-            },
-            {
-              "label": "tmpwsnxf3t8_region0_region0_region2",
-              "text": "am",
-              "bbox": [
-                611,
-                323,
-                658,
+                528,
                 422
               ]
             }
           ]
         },
         {
-          "label": "tmpwsnxf3t8_region0_region1",
-          "text": "ipsius",
+          "label": "tmpxovpb6gm_region0_region1",
+          "text": "qui",
           "bbox": [
-            658,
+            528,
             323,
-            840,
+            632,
             422
           ],
           "source": "gt",
           "syllables": [
             {
-              "label": "tmpwsnxf3t8_region0_region1_region0",
-              "text": "ip-",
+              "label": "tmpxovpb6gm_region0_region1_region0",
+              "text": "qui",
               "bbox": [
-                658,
+                528,
                 323,
-                726,
-                422
-              ]
-            },
-            {
-              "label": "tmpwsnxf3t8_region0_region1_region1",
-              "text": "si-",
-              "bbox": [
-                726,
-                323,
-                794,
-                422
-              ]
-            },
-            {
-              "label": "tmpwsnxf3t8_region0_region1_region2",
-              "text": "us",
-              "bbox": [
-                794,
-                323,
-                840,
+                632,
                 422
               ]
             }
           ]
         },
         {
-          "label": "tmpwsnxf3t8_region0_region2",
-          "text": "est",
+          "label": "tmpxovpb6gm_region0_region2",
+          "text": "inquirebant",
           "bbox": [
-            840,
+            632,
             323,
             944,
             422
@@ -370,10 +330,40 @@
           "source": "gt",
           "syllables": [
             {
-              "label": "tmpwsnxf3t8_region0_region2_region0",
-              "text": "est",
+              "label": "tmpxovpb6gm_region0_region2_region0",
+              "text": "in-",
               "bbox": [
-                840,
+                632,
+                323,
+                698,
+                422
+              ]
+            },
+            {
+              "label": "tmpxovpb6gm_region0_region2_region1",
+              "text": "qui-",
+              "bbox": [
+                698,
+                323,
+                787,
+                422
+              ]
+            },
+            {
+              "label": "tmpxovpb6gm_region0_region2_region2",
+              "text": "re-",
+              "bbox": [
+                787,
+                323,
+                853,
+                422
+              ]
+            },
+            {
+              "label": "tmpxovpb6gm_region0_region2_region3",
+              "text": "bant",
+              "bbox": [
+                853,
                 323,
                 944,
                 422
@@ -382,8 +372,8 @@
           ]
         },
         {
-          "label": "tmpwsnxf3t8_region0_region3",
-          "text": "mare",
+          "label": "tmpxovpb6gm_region0_region3",
+          "text": "mala",
           "bbox": [
             944,
             323,
@@ -393,7 +383,7 @@
           "source": "gt",
           "syllables": [
             {
-              "label": "tmpwsnxf3t8_region0_region3_region0",
+              "label": "tmpxovpb6gm_region0_region3_region0",
               "text": "ma-",
               "bbox": [
                 944,
@@ -403,8 +393,8 @@
               ]
             },
             {
-              "label": "tmpwsnxf3t8_region0_region3_region1",
-              "text": "re",
+              "label": "tmpxovpb6gm_region0_region3_region1",
+              "text": "la",
               "bbox": [
                 1006,
                 323,
@@ -417,7 +407,7 @@
       ]
     },
     {
-      "label": "tmpwsnxf3t8_region1",
+      "label": "tmpxovpb6gm_region1",
       "bbox": [
         1111,
         320,
@@ -553,33 +543,43 @@
       "text": "mnala muhi lo",
       "words": [
         {
-          "label": "tmpwsnxf3t8_region1_region0",
-          "text": "et",
+          "label": "tmpxovpb6gm_region1_region0",
+          "text": "michi",
           "bbox": [
             1111,
             320,
-            1252,
+            1273,
             420
           ],
           "source": "gt",
           "syllables": [
             {
-              "label": "tmpwsnxf3t8_region1_region0_region0",
-              "text": "et",
+              "label": "tmpxovpb6gm_region1_region0_region0",
+              "text": "mi-",
               "bbox": [
                 1111,
                 320,
-                1252,
+                1192,
+                420
+              ]
+            },
+            {
+              "label": "tmpxovpb6gm_region1_region0_region1",
+              "text": "chi",
+              "bbox": [
+                1192,
+                320,
+                1273,
                 420
               ]
             }
           ]
         },
         {
-          "label": "tmpwsnxf3t8_region1_region1",
-          "text": "ipse",
+          "label": "tmpxovpb6gm_region1_region1",
+          "text": "locuti",
           "bbox": [
-            1252,
+            1273,
             320,
             1440,
             420
@@ -587,20 +587,30 @@
           "source": "gt",
           "syllables": [
             {
-              "label": "tmpwsnxf3t8_region1_region1_region0",
-              "text": "ip-",
+              "label": "tmpxovpb6gm_region1_region1_region0",
+              "text": "lo-",
               "bbox": [
-                1252,
+                1273,
                 320,
-                1364,
+                1335,
                 420
               ]
             },
             {
-              "label": "tmpwsnxf3t8_region1_region1_region1",
-              "text": "se",
+              "label": "tmpxovpb6gm_region1_region1_region1",
+              "text": "cu-",
               "bbox": [
-                1364,
+                1335,
+                320,
+                1397,
+                420
+              ]
+            },
+            {
+              "label": "tmpxovpb6gm_region1_region1_region2",
+              "text": "ti",
+              "bbox": [
+                1397,
                 320,
                 1440,
                 420
@@ -611,7 +621,7 @@
       ]
     },
     {
-      "label": "tmpwsnxf3t8_region2",
+      "label": "tmpxovpb6gm_region2",
       "bbox": [
         445,
         501,
@@ -731,489 +741,198 @@
       "text": "cuti sunt vavita tes et delos tota die meo",
       "words": [
         {
-          "label": "tmpwsnxf3t8_region2_region0",
-          "text": "fecit",
+          "label": "tmpxovpb6gm_region2_region0",
+          "text": "sunt",
           "bbox": [
             445,
             501,
-            511,
+            600,
             601
           ],
           "source": "gt",
           "syllables": [
             {
-              "label": "tmpwsnxf3t8_region2_region0_region0",
-              "text": "fe-",
+              "label": "tmpxovpb6gm_region2_region0_region0",
+              "text": "sunt",
               "bbox": [
                 445,
                 501,
-                478,
-                601
-              ]
-            },
-            {
-              "label": "tmpwsnxf3t8_region2_region0_region1",
-              "text": "cit",
-              "bbox": [
-                478,
-                501,
-                511,
+                600,
                 601
               ]
             }
           ]
         },
         {
-          "label": "tmpwsnxf3t8_region2_region1",
-          "text": "illud",
+          "label": "tmpxovpb6gm_region2_region1",
+          "text": "vanitates",
           "bbox": [
-            511,
+            600,
             501,
-            577,
+            910,
             601
           ],
           "source": "gt",
           "syllables": [
             {
-              "label": "tmpwsnxf3t8_region2_region1_region0",
-              "text": "il-",
+              "label": "tmpxovpb6gm_region2_region1_region0",
+              "text": "va-",
               "bbox": [
-                511,
+                600,
                 501,
-                544,
+                677,
                 601
               ]
             },
             {
-              "label": "tmpwsnxf3t8_region2_region1_region1",
-              "text": "lud",
-              "bbox": [
-                544,
-                501,
-                577,
-                601
-              ]
-            }
-          ]
-        },
-        {
-          "label": "tmpwsnxf3t8_region2_region2",
-          "text": "et",
-          "bbox": [
-            577,
-            501,
-            610,
-            601
-          ],
-          "source": "gt",
-          "syllables": [
-            {
-              "label": "tmpwsnxf3t8_region2_region2_region0",
-              "text": "et",
-              "bbox": [
-                577,
-                501,
-                610,
-                601
-              ]
-            }
-          ]
-        },
-        {
-          "label": "tmpwsnxf3t8_region2_region3",
-          "text": "aridam",
-          "bbox": [
-            610,
-            501,
-            687,
-            601
-          ],
-          "source": "gt",
-          "syllables": [
-            {
-              "label": "tmpwsnxf3t8_region2_region3_region0",
-              "text": "a-",
-              "bbox": [
-                610,
-                501,
-                629,
-                601
-              ]
-            },
-            {
-              "label": "tmpwsnxf3t8_region2_region3_region1",
-              "text": "ri-",
-              "bbox": [
-                629,
-                501,
-                657,
-                601
-              ]
-            },
-            {
-              "label": "tmpwsnxf3t8_region2_region3_region2",
-              "text": "dam",
-              "bbox": [
-                657,
-                501,
-                687,
-                601
-              ]
-            }
-          ]
-        },
-        {
-          "label": "tmpwsnxf3t8_region2_region4",
-          "text": "fundaverunt",
-          "bbox": [
-            687,
-            501,
-            819,
-            601
-          ],
-          "source": "gt",
-          "syllables": [
-            {
-              "label": "tmpwsnxf3t8_region2_region4_region0",
-              "text": "fun-",
-              "bbox": [
-                687,
-                501,
-                724,
-                601
-              ]
-            },
-            {
-              "label": "tmpwsnxf3t8_region2_region4_region1",
-              "text": "da-",
-              "bbox": [
-                724,
-                501,
-                752,
-                601
-              ]
-            },
-            {
-              "label": "tmpwsnxf3t8_region2_region4_region2",
-              "text": "ve-",
-              "bbox": [
-                752,
-                501,
-                780,
-                601
-              ]
-            },
-            {
-              "label": "tmpwsnxf3t8_region2_region4_region3",
-              "text": "runt",
-              "bbox": [
-                780,
-                501,
-                819,
-                601
-              ]
-            }
-          ]
-        },
-        {
-          "label": "tmpwsnxf3t8_region2_region5",
-          "text": "manus",
-          "bbox": [
-            819,
-            501,
-            885,
-            601
-          ],
-          "source": "gt",
-          "syllables": [
-            {
-              "label": "tmpwsnxf3t8_region2_region5_region0",
-              "text": "ma-",
-              "bbox": [
-                819,
-                501,
-                852,
-                601
-              ]
-            },
-            {
-              "label": "tmpwsnxf3t8_region2_region5_region1",
-              "text": "nus",
-              "bbox": [
-                852,
-                501,
-                885,
-                601
-              ]
-            }
-          ]
-        },
-        {
-          "label": "tmpwsnxf3t8_region2_region6",
-          "text": "eius",
-          "bbox": [
-            885,
-            501,
-            940,
-            601
-          ],
-          "source": "gt",
-          "syllables": [
-            {
-              "label": "tmpwsnxf3t8_region2_region6_region0",
-              "text": "e-",
-              "bbox": [
-                885,
-                501,
-                907,
-                601
-              ]
-            },
-            {
-              "label": "tmpwsnxf3t8_region2_region6_region1",
-              "text": "ius",
-              "bbox": [
-                907,
-                501,
-                940,
-                601
-              ]
-            }
-          ]
-        },
-        {
-          "label": "tmpwsnxf3t8_region2_region7",
-          "text": "venite",
-          "bbox": [
-            940,
-            501,
-            1017,
-            601
-          ],
-          "source": "gt",
-          "syllables": [
-            {
-              "label": "tmpwsnxf3t8_region2_region7_region0",
-              "text": "ve-",
-              "bbox": [
-                940,
-                501,
-                968,
-                601
-              ]
-            },
-            {
-              "label": "tmpwsnxf3t8_region2_region7_region1",
+              "label": "tmpxovpb6gm_region2_region1_region1",
               "text": "ni-",
               "bbox": [
-                968,
+                677,
                 501,
-                996,
+                754,
                 601
               ]
             },
             {
-              "label": "tmpwsnxf3t8_region2_region7_region2",
-              "text": "te",
+              "label": "tmpxovpb6gm_region2_region1_region2",
+              "text": "ta-",
               "bbox": [
-                996,
+                754,
                 501,
-                1017,
+                831,
+                601
+              ]
+            },
+            {
+              "label": "tmpxovpb6gm_region2_region1_region3",
+              "text": "tes",
+              "bbox": [
+                831,
+                501,
+                910,
                 601
               ]
             }
           ]
         },
         {
-          "label": "tmpwsnxf3t8_region2_region8",
-          "text": "adoremus",
-          "bbox": [
-            1017,
-            501,
-            1116,
-            601
-          ],
-          "source": "gt",
-          "syllables": [
-            {
-              "label": "tmpwsnxf3t8_region2_region8_region0",
-              "text": "ad-",
-              "bbox": [
-                1017,
-                501,
-                1044,
-                601
-              ]
-            },
-            {
-              "label": "tmpwsnxf3t8_region2_region8_region1",
-              "text": "o-",
-              "bbox": [
-                1044,
-                501,
-                1062,
-                601
-              ]
-            },
-            {
-              "label": "tmpwsnxf3t8_region2_region8_region2",
-              "text": "re-",
-              "bbox": [
-                1062,
-                501,
-                1089,
-                601
-              ]
-            },
-            {
-              "label": "tmpwsnxf3t8_region2_region8_region3",
-              "text": "mus",
-              "bbox": [
-                1089,
-                501,
-                1116,
-                601
-              ]
-            }
-          ]
-        },
-        {
-          "label": "tmpwsnxf3t8_region2_region9",
+          "label": "tmpxovpb6gm_region2_region2",
           "text": "et",
           "bbox": [
-            1116,
+            910,
             501,
-            1149,
+            1003,
             601
           ],
           "source": "gt",
           "syllables": [
             {
-              "label": "tmpwsnxf3t8_region2_region9_region0",
+              "label": "tmpxovpb6gm_region2_region2_region0",
               "text": "et",
               "bbox": [
-                1116,
+                910,
                 501,
-                1149,
+                1003,
                 601
               ]
             }
           ]
         },
         {
-          "label": "tmpwsnxf3t8_region2_region10",
-          "text": "procidamus",
+          "label": "tmpxovpb6gm_region2_region3",
+          "text": "dolos",
           "bbox": [
-            1149,
+            1003,
             501,
-            1270,
+            1189,
             601
           ],
           "source": "gt",
           "syllables": [
             {
-              "label": "tmpwsnxf3t8_region2_region10_region0",
-              "text": "pro-",
+              "label": "tmpxovpb6gm_region2_region3_region0",
+              "text": "do-",
               "bbox": [
-                1149,
+                1003,
                 501,
-                1186,
+                1096,
                 601
               ]
             },
             {
-              "label": "tmpwsnxf3t8_region2_region10_region1",
-              "text": "ci-",
+              "label": "tmpxovpb6gm_region2_region3_region1",
+              "text": "los",
               "bbox": [
-                1186,
+                1096,
                 501,
-                1213,
-                601
-              ]
-            },
-            {
-              "label": "tmpwsnxf3t8_region2_region10_region2",
-              "text": "da-",
-              "bbox": [
-                1213,
-                501,
-                1240,
-                601
-              ]
-            },
-            {
-              "label": "tmpwsnxf3t8_region2_region10_region3",
-              "text": "mus",
-              "bbox": [
-                1240,
-                501,
-                1270,
+                1189,
                 601
               ]
             }
           ]
         },
         {
-          "label": "tmpwsnxf3t8_region2_region11",
-          "text": "ante",
+          "label": "tmpxovpb6gm_region2_region4",
+          "text": "tota",
           "bbox": [
-            1270,
+            1189,
             501,
-            1325,
+            1344,
             601
           ],
           "source": "gt",
           "syllables": [
             {
-              "label": "tmpwsnxf3t8_region2_region11_region0",
-              "text": "an-",
+              "label": "tmpxovpb6gm_region2_region4_region0",
+              "text": "to-",
               "bbox": [
-                1270,
+                1189,
                 501,
-                1303,
+                1282,
                 601
               ]
             },
             {
-              "label": "tmpwsnxf3t8_region2_region11_region1",
-              "text": "te",
+              "label": "tmpxovpb6gm_region2_region4_region1",
+              "text": "ta",
               "bbox": [
-                1303,
+                1282,
                 501,
-                1325,
+                1344,
                 601
               ]
             }
           ]
         },
         {
-          "label": "tmpwsnxf3t8_region2_region12",
-          "text": "deum",
+          "label": "tmpxovpb6gm_region2_region5",
+          "text": "die",
           "bbox": [
-            1325,
+            1344,
             501,
-            1380,
+            1442,
             601
           ],
           "source": "gt",
           "syllables": [
             {
-              "label": "tmpwsnxf3t8_region2_region12_region0",
-              "text": "de-",
+              "label": "tmpxovpb6gm_region2_region5_region0",
+              "text": "di-",
               "bbox": [
-                1325,
+                1344,
                 501,
-                1358,
+                1417,
                 601
               ]
             },
             {
-              "label": "tmpwsnxf3t8_region2_region12_region1",
-              "text": "um",
+              "label": "tmpxovpb6gm_region2_region5_region1",
+              "text": "e",
               "bbox": [
-                1358,
+                1417,
                 501,
-                1380,
+                1442,
                 601
               ]
             }
@@ -1222,7 +941,7 @@
       ]
     },
     {
-      "label": "tmpwsnxf3t8_region3",
+      "label": "tmpxovpb6gm_region3",
       "bbox": [
         455,
         686,
@@ -1550,198 +1269,218 @@
       "text": "ta vantur t viniDuitor et juscep",
       "words": [
         {
-          "label": "tmpwsnxf3t8_region3_region0",
-          "text": "ploremus",
+          "label": "tmpxovpb6gm_region3_region0",
+          "text": "meditabantur",
           "bbox": [
             455,
             686,
-            698,
+            767,
             793
           ],
           "source": "gt",
           "syllables": [
             {
-              "label": "tmpwsnxf3t8_region3_region0_region0",
-              "text": "plo-",
+              "label": "tmpxovpb6gm_region3_region0_region0",
+              "text": "me-",
               "bbox": [
                 455,
                 686,
-                552,
+                513,
                 793
               ]
             },
             {
-              "label": "tmpwsnxf3t8_region3_region0_region1",
-              "text": "re-",
+              "label": "tmpxovpb6gm_region3_region0_region1",
+              "text": "di-",
               "bbox": [
-                552,
+                513,
                 686,
-                624,
+                571,
                 793
               ]
             },
             {
-              "label": "tmpwsnxf3t8_region3_region0_region2",
-              "text": "mus",
+              "label": "tmpxovpb6gm_region3_region0_region2",
+              "text": "ta-",
               "bbox": [
-                624,
+                571,
                 686,
-                698,
+                629,
+                793
+              ]
+            },
+            {
+              "label": "tmpxovpb6gm_region3_region0_region3",
+              "text": "ban-",
+              "bbox": [
+                629,
+                686,
+                707,
+                793
+              ]
+            },
+            {
+              "label": "tmpxovpb6gm_region3_region0_region4",
+              "text": "tur",
+              "bbox": [
+                707,
+                686,
+                767,
                 793
               ]
             }
           ]
         },
         {
-          "label": "tmpwsnxf3t8_region3_region1",
-          "text": "coram",
+          "label": "tmpxovpb6gm_region3_region1",
+          "text": "Et",
           "bbox": [
-            698,
+            767,
             686,
-            860,
+            839,
             793
           ],
           "source": "gt",
           "syllables": [
             {
-              "label": "tmpwsnxf3t8_region3_region1_region0",
-              "text": "co-",
+              "label": "tmpxovpb6gm_region3_region1_region0",
+              "text": "et",
               "bbox": [
-                698,
+                767,
                 686,
-                779,
-                793
-              ]
-            },
-            {
-              "label": "tmpwsnxf3t8_region3_region1_region1",
-              "text": "ram",
-              "bbox": [
-                779,
-                686,
-                860,
+                839,
                 793
               ]
             }
           ]
         },
         {
-          "label": "tmpwsnxf3t8_region3_region2",
-          "text": "domino",
+          "label": "tmpxovpb6gm_region3_region2",
+          "text": "vim",
           "bbox": [
-            860,
+            839,
             686,
-            1049,
+            935,
             793
           ],
           "source": "gt",
           "syllables": [
             {
-              "label": "tmpwsnxf3t8_region3_region2_region0",
-              "text": "do-",
+              "label": "tmpxovpb6gm_region3_region2_region0",
+              "text": "vim",
               "bbox": [
-                860,
+                839,
                 686,
-                930,
-                793
-              ]
-            },
-            {
-              "label": "tmpwsnxf3t8_region3_region2_region1",
-              "text": "mi-",
-              "bbox": [
-                930,
-                686,
-                1000,
-                793
-              ]
-            },
-            {
-              "label": "tmpwsnxf3t8_region3_region2_region2",
-              "text": "no",
-              "bbox": [
-                1000,
-                686,
-                1049,
+                935,
                 793
               ]
             }
           ]
         },
         {
-          "label": "tmpwsnxf3t8_region3_region3",
-          "text": "qui",
+          "label": "tmpxovpb6gm_region3_region3",
+          "text": "Adiutor",
           "bbox": [
-            1049,
+            935,
             686,
-            1157,
+            1127,
             793
           ],
           "source": "gt",
           "syllables": [
             {
-              "label": "tmpwsnxf3t8_region3_region3_region0",
-              "text": "qui",
+              "label": "tmpxovpb6gm_region3_region3_region0",
+              "text": "ad-",
               "bbox": [
-                1049,
+                935,
                 686,
-                1157,
-                793
-              ]
-            }
-          ]
-        },
-        {
-          "label": "tmpwsnxf3t8_region3_region4",
-          "text": "fecit",
-          "bbox": [
-            1157,
-            686,
-            1319,
-            793
-          ],
-          "source": "gt",
-          "syllables": [
-            {
-              "label": "tmpwsnxf3t8_region3_region4_region0",
-              "text": "fe-",
-              "bbox": [
-                1157,
-                686,
-                1238,
+                999,
                 793
               ]
             },
             {
-              "label": "tmpwsnxf3t8_region3_region4_region1",
-              "text": "cit",
+              "label": "tmpxovpb6gm_region3_region3_region1",
+              "text": "iu-",
               "bbox": [
-                1238,
+                999,
                 686,
-                1319,
+                1063,
+                793
+              ]
+            },
+            {
+              "label": "tmpxovpb6gm_region3_region3_region2",
+              "text": "tor",
+              "bbox": [
+                1063,
+                686,
+                1127,
                 793
               ]
             }
           ]
         },
         {
-          "label": "tmpwsnxf3t8_region3_region5",
-          "text": "nos",
+          "label": "tmpxovpb6gm_region3_region4",
+          "text": "et",
           "bbox": [
-            1319,
+            1127,
             686,
-            1427,
+            1199,
             793
           ],
           "source": "gt",
           "syllables": [
             {
-              "label": "tmpwsnxf3t8_region3_region5_region0",
-              "text": "nos",
+              "label": "tmpxovpb6gm_region3_region4_region0",
+              "text": "et",
               "bbox": [
-                1319,
+                1127,
                 686,
-                1427,
+                1199,
+                793
+              ]
+            }
+          ]
+        },
+        {
+          "label": "tmpxovpb6gm_region3_region5",
+          "text": "susceptor",
+          "bbox": [
+            1199,
+            686,
+            1430,
+            793
+          ],
+          "source": "gt",
+          "syllables": [
+            {
+              "label": "tmpxovpb6gm_region3_region5_region0",
+              "text": "su-",
+              "bbox": [
+                1199,
+                686,
+                1262,
+                793
+              ]
+            },
+            {
+              "label": "tmpxovpb6gm_region3_region5_region1",
+              "text": "scep-",
+              "bbox": [
+                1262,
+                686,
+                1367,
+                793
+              ]
+            },
+            {
+              "label": "tmpxovpb6gm_region3_region5_region2",
+              "text": "tor",
+              "bbox": [
+                1367,
+                686,
+                1430,
                 793
               ]
             }
@@ -1750,7 +1489,7 @@
       ]
     },
     {
-      "label": "tmpwsnxf3t8_region4",
+      "label": "tmpxovpb6gm_region4",
       "bbox": [
         511,
         876,
@@ -1886,10 +1625,53 @@
       "text": "apiste me",
       "words": [
         {
-          "label": "tmpwsnxf3t8_region4_region0",
-          "text": "quia",
+          "label": "tmpxovpb6gm_region4_region0",
+          "text": "Eripe",
           "bbox": [
             511,
+            876,
+            655,
+            984
+          ],
+          "source": "gt",
+          "syllables": [
+            {
+              "label": "tmpxovpb6gm_region4_region0_region0",
+              "text": "e-",
+              "bbox": [
+                511,
+                876,
+                552,
+                984
+              ]
+            },
+            {
+              "label": "tmpxovpb6gm_region4_region0_region1",
+              "text": "ri-",
+              "bbox": [
+                552,
+                876,
+                613,
+                984
+              ]
+            },
+            {
+              "label": "tmpxovpb6gm_region4_region0_region2",
+              "text": "pe",
+              "bbox": [
+                613,
+                876,
+                655,
+                984
+              ]
+            }
+          ]
+        },
+        {
+          "label": "tmpxovpb6gm_region4_region1",
+          "text": "me",
+          "bbox": [
+            655,
             876,
             706,
             984
@@ -1897,20 +1679,10 @@
           "source": "gt",
           "syllables": [
             {
-              "label": "tmpwsnxf3t8_region4_region0_region0",
-              "text": "qui-",
+              "label": "tmpxovpb6gm_region4_region1_region0",
+              "text": "me",
               "bbox": [
-                511,
-                876,
-                667,
-                984
-              ]
-            },
-            {
-              "label": "tmpwsnxf3t8_region4_region0_region1",
-              "text": "a",
-              "bbox": [
-                667,
+                655,
                 876,
                 706,
                 984
@@ -1921,7 +1693,7 @@
       ]
     },
     {
-      "label": "tmpwsnxf3t8_region5",
+      "label": "tmpxovpb6gm_region5",
       "bbox": [
         753,
         877,
@@ -1961,142 +1733,185 @@
       "text": "de municis meis deus meus et",
       "words": [
         {
-          "label": "tmpwsnxf3t8_region5_region0",
-          "text": "ipse",
+          "label": "tmpxovpb6gm_region5_region0",
+          "text": "de",
           "bbox": [
             753,
             877,
-            878,
+            825,
             970
           ],
           "source": "gt",
           "syllables": [
             {
-              "label": "tmpwsnxf3t8_region5_region0_region0",
-              "text": "ip-",
+              "label": "tmpxovpb6gm_region5_region0_region0",
+              "text": "de",
               "bbox": [
                 753,
                 877,
-                828,
-                970
-              ]
-            },
-            {
-              "label": "tmpwsnxf3t8_region5_region0_region1",
-              "text": "se",
-              "bbox": [
-                828,
-                877,
-                878,
+                825,
                 970
               ]
             }
           ]
         },
         {
-          "label": "tmpwsnxf3t8_region5_region1",
-          "text": "est",
+          "label": "tmpxovpb6gm_region5_region1",
+          "text": "inimicis",
           "bbox": [
-            878,
+            825,
             877,
-            978,
+            1041,
             970
           ],
           "source": "gt",
           "syllables": [
             {
-              "label": "tmpwsnxf3t8_region5_region1_region0",
-              "text": "est",
+              "label": "tmpxovpb6gm_region5_region1_region0",
+              "text": "in-",
               "bbox": [
-                878,
+                825,
                 877,
-                978,
-                970
-              ]
-            }
-          ]
-        },
-        {
-          "label": "tmpwsnxf3t8_region5_region2",
-          "text": "dominus",
-          "bbox": [
-            978,
-            877,
-            1178,
-            970
-          ],
-          "source": "gt",
-          "syllables": [
-            {
-              "label": "tmpwsnxf3t8_region5_region2_region0",
-              "text": "do-",
-              "bbox": [
-                978,
-                877,
-                1044,
+                883,
                 970
               ]
             },
             {
-              "label": "tmpwsnxf3t8_region5_region2_region1",
+              "label": "tmpxovpb6gm_region5_region1_region1",
+              "text": "i-",
+              "bbox": [
+                883,
+                877,
+                922,
+                970
+              ]
+            },
+            {
+              "label": "tmpxovpb6gm_region5_region1_region2",
               "text": "mi-",
               "bbox": [
-                1044,
+                922,
                 877,
-                1110,
+                980,
                 970
               ]
             },
             {
-              "label": "tmpwsnxf3t8_region5_region2_region2",
-              "text": "nus",
+              "label": "tmpxovpb6gm_region5_region1_region3",
+              "text": "cis",
               "bbox": [
-                1110,
+                980,
                 877,
-                1178,
+                1041,
                 970
               ]
             }
           ]
         },
         {
-          "label": "tmpwsnxf3t8_region5_region3",
-          "text": "deus",
+          "label": "tmpxovpb6gm_region5_region2",
+          "text": "meis",
           "bbox": [
-            1178,
+            1041,
             877,
-            1303,
+            1161,
             970
           ],
           "source": "gt",
           "syllables": [
             {
-              "label": "tmpwsnxf3t8_region5_region3_region0",
-              "text": "de-",
+              "label": "tmpxovpb6gm_region5_region2_region0",
+              "text": "me-",
               "bbox": [
-                1178,
+                1041,
                 877,
-                1253,
+                1113,
                 970
               ]
             },
             {
-              "label": "tmpwsnxf3t8_region5_region3_region1",
-              "text": "us",
+              "label": "tmpxovpb6gm_region5_region2_region1",
+              "text": "is",
               "bbox": [
-                1253,
+                1113,
                 877,
-                1303,
+                1161,
                 970
               ]
             }
           ]
         },
         {
-          "label": "tmpwsnxf3t8_region5_region4",
-          "text": "noster",
+          "label": "tmpxovpb6gm_region5_region3",
+          "text": "deus",
           "bbox": [
-            1303,
+            1161,
+            877,
+            1281,
+            970
+          ],
+          "source": "gt",
+          "syllables": [
+            {
+              "label": "tmpxovpb6gm_region5_region3_region0",
+              "text": "de-",
+              "bbox": [
+                1161,
+                877,
+                1233,
+                970
+              ]
+            },
+            {
+              "label": "tmpxovpb6gm_region5_region3_region1",
+              "text": "us",
+              "bbox": [
+                1233,
+                877,
+                1281,
+                970
+              ]
+            }
+          ]
+        },
+        {
+          "label": "tmpxovpb6gm_region5_region4",
+          "text": "meus",
+          "bbox": [
+            1281,
+            877,
+            1401,
+            970
+          ],
+          "source": "gt",
+          "syllables": [
+            {
+              "label": "tmpxovpb6gm_region5_region4_region0",
+              "text": "me-",
+              "bbox": [
+                1281,
+                877,
+                1353,
+                970
+              ]
+            },
+            {
+              "label": "tmpxovpb6gm_region5_region4_region1",
+              "text": "us",
+              "bbox": [
+                1353,
+                877,
+                1401,
+                970
+              ]
+            }
+          ]
+        },
+        {
+          "label": "tmpxovpb6gm_region5_region5",
+          "text": "et",
+          "bbox": [
+            1401,
             877,
             1462,
             970
@@ -2104,20 +1919,10 @@
           "source": "gt",
           "syllables": [
             {
-              "label": "tmpwsnxf3t8_region5_region4_region0",
-              "text": "no-",
+              "label": "tmpxovpb6gm_region5_region5_region0",
+              "text": "et",
               "bbox": [
-                1303,
-                877,
-                1371,
-                970
-              ]
-            },
-            {
-              "label": "tmpwsnxf3t8_region5_region4_region1",
-              "text": "ster",
-              "bbox": [
-                1371,
+                1401,
                 877,
                 1462,
                 970
@@ -2128,7 +1933,7 @@
       ]
     },
     {
-      "label": "tmpwsnxf3t8_region6",
+      "label": "tmpxovpb6gm_region6",
       "bbox": [
         452,
         1067,
@@ -2396,142 +2201,119 @@
       "text": "ab insurgentibus in me libe",
       "words": [
         {
-          "label": "tmpwsnxf3t8_region6_region0",
-          "text": "nos",
+          "label": "tmpxovpb6gm_region6_region0",
+          "text": "ab",
           "bbox": [
             452,
             1067,
-            552,
+            536,
             1155
           ],
           "source": "gt",
           "syllables": [
             {
-              "label": "tmpwsnxf3t8_region6_region0_region0",
-              "text": "nos",
+              "label": "tmpxovpb6gm_region6_region0_region0",
+              "text": "ab",
               "bbox": [
                 452,
                 1067,
-                552,
+                536,
                 1155
               ]
             }
           ]
         },
         {
-          "label": "tmpwsnxf3t8_region6_region1",
-          "text": "autem",
+          "label": "tmpxovpb6gm_region6_region1",
+          "text": "insurgentibus",
           "bbox": [
-            552,
+            536,
             1067,
-            702,
+            928,
             1155
           ],
           "source": "gt",
           "syllables": [
             {
-              "label": "tmpwsnxf3t8_region6_region1_region0",
-              "text": "au-",
+              "label": "tmpxovpb6gm_region6_region1_region0",
+              "text": "in-",
               "bbox": [
-                552,
+                536,
                 1067,
-                627,
+                605,
                 1155
               ]
             },
             {
-              "label": "tmpwsnxf3t8_region6_region1_region1",
-              "text": "tem",
+              "label": "tmpxovpb6gm_region6_region1_region1",
+              "text": "sur-",
               "bbox": [
-                627,
+                605,
                 1067,
-                702,
+                697,
+                1155
+              ]
+            },
+            {
+              "label": "tmpxovpb6gm_region6_region1_region2",
+              "text": "gen-",
+              "bbox": [
+                697,
+                1067,
+                789,
+                1155
+              ]
+            },
+            {
+              "label": "tmpxovpb6gm_region6_region1_region3",
+              "text": "ti-",
+              "bbox": [
+                789,
+                1067,
+                858,
+                1155
+              ]
+            },
+            {
+              "label": "tmpxovpb6gm_region6_region1_region4",
+              "text": "bus",
+              "bbox": [
+                858,
+                1067,
+                928,
                 1155
               ]
             }
           ]
         },
         {
-          "label": "tmpwsnxf3t8_region6_region2",
-          "text": "populus",
+          "label": "tmpxovpb6gm_region6_region2",
+          "text": "in",
           "bbox": [
-            702,
+            928,
             1067,
-            902,
+            1012,
             1155
           ],
           "source": "gt",
           "syllables": [
             {
-              "label": "tmpwsnxf3t8_region6_region2_region0",
-              "text": "po-",
+              "label": "tmpxovpb6gm_region6_region2_region0",
+              "text": "in",
               "bbox": [
-                702,
+                928,
                 1067,
-                768,
-                1155
-              ]
-            },
-            {
-              "label": "tmpwsnxf3t8_region6_region2_region1",
-              "text": "pu-",
-              "bbox": [
-                768,
-                1067,
-                834,
-                1155
-              ]
-            },
-            {
-              "label": "tmpwsnxf3t8_region6_region2_region2",
-              "text": "lus",
-              "bbox": [
-                834,
-                1067,
-                902,
+                1012,
                 1155
               ]
             }
           ]
         },
         {
-          "label": "tmpwsnxf3t8_region6_region3",
-          "text": "eius",
+          "label": "tmpxovpb6gm_region6_region3",
+          "text": "me",
           "bbox": [
-            902,
-            1067,
-            1027,
-            1155
-          ],
-          "source": "gt",
-          "syllables": [
-            {
-              "label": "tmpwsnxf3t8_region6_region3_region0",
-              "text": "e-",
-              "bbox": [
-                902,
-                1067,
-                952,
-                1155
-              ]
-            },
-            {
-              "label": "tmpwsnxf3t8_region6_region3_region1",
-              "text": "ius",
-              "bbox": [
-                952,
-                1067,
-                1027,
-                1155
-              ]
-            }
-          ]
-        },
-        {
-          "label": "tmpwsnxf3t8_region6_region4",
-          "text": "et",
-          "bbox": [
-            1027,
+            1012,
             1067,
             1085,
             1155
@@ -2539,10 +2321,10 @@
           "source": "gt",
           "syllables": [
             {
-              "label": "tmpwsnxf3t8_region6_region4_region0",
-              "text": "et",
+              "label": "tmpxovpb6gm_region6_region3_region0",
+              "text": "me",
               "bbox": [
-                1027,
+                1012,
                 1067,
                 1085,
                 1155
@@ -2553,7 +2335,7 @@
       ]
     },
     {
-      "label": "tmpwsnxf3t8_region7",
+      "label": "tmpxovpb6gm_region7",
       "bbox": [
         1100,
         1048,
@@ -2593,8 +2375,8 @@
       "text": "ia",
       "words": [
         {
-          "label": "tmpwsnxf3t8_region7_region0",
-          "text": "oves",
+          "label": "tmpxovpb6gm_region7_region0",
+          "text": "libera",
           "bbox": [
             1100,
             1048,
@@ -2604,20 +2386,30 @@
           "source": "gt",
           "syllables": [
             {
-              "label": "tmpwsnxf3t8_region7_region0_region0",
-              "text": "o-",
+              "label": "tmpxovpb6gm_region7_region0_region0",
+              "text": "li-",
               "bbox": [
                 1100,
                 1048,
-                1137,
+                1135,
                 1161
               ]
             },
             {
-              "label": "tmpwsnxf3t8_region7_region0_region1",
-              "text": "ves",
+              "label": "tmpxovpb6gm_region7_region0_region1",
+              "text": "be-",
               "bbox": [
-                1137,
+                1135,
+                1048,
+                1170,
+                1161
+              ]
+            },
+            {
+              "label": "tmpxovpb6gm_region7_region0_region2",
+              "text": "ra",
+              "bbox": [
+                1170,
                 1048,
                 1194,
                 1161
@@ -2628,7 +2420,7 @@
       ]
     },
     {
-      "label": "tmpwsnxf3t8_region8",
+      "label": "tmpxovpb6gm_region8",
       "bbox": [
         1196,
         1062,
@@ -2768,53 +2560,33 @@
       "text": "me dedina",
       "words": [
         {
-          "label": "tmpwsnxf3t8_region8_region0",
-          "text": "pascue",
+          "label": "tmpxovpb6gm_region8_region0",
+          "text": "me",
           "bbox": [
             1196,
             1062,
-            1371,
+            1265,
             1157
           ],
           "source": "gt",
           "syllables": [
             {
-              "label": "tmpwsnxf3t8_region8_region0_region0",
-              "text": "pa-",
+              "label": "tmpxovpb6gm_region8_region0_region0",
+              "text": "me",
               "bbox": [
                 1196,
                 1062,
-                1261,
-                1157
-              ]
-            },
-            {
-              "label": "tmpwsnxf3t8_region8_region0_region1",
-              "text": "scu-",
-              "bbox": [
-                1261,
-                1062,
-                1348,
-                1157
-              ]
-            },
-            {
-              "label": "tmpwsnxf3t8_region8_region0_region2",
-              "text": "e",
-              "bbox": [
-                1348,
-                1062,
-                1371,
+                1265,
                 1157
               ]
             }
           ]
         },
         {
-          "label": "tmpwsnxf3t8_region8_region1",
-          "text": "eius",
+          "label": "tmpxovpb6gm_region8_region1",
+          "text": "Declinate",
           "bbox": [
-            1371,
+            1265,
             1062,
             1476,
             1157
@@ -2822,20 +2594,40 @@
           "source": "gt",
           "syllables": [
             {
-              "label": "tmpwsnxf3t8_region8_region1_region0",
-              "text": "e-",
+              "label": "tmpxovpb6gm_region8_region1_region0",
+              "text": "de-",
               "bbox": [
-                1371,
+                1265,
                 1062,
-                1413,
+                1317,
                 1157
               ]
             },
             {
-              "label": "tmpwsnxf3t8_region8_region1_region1",
-              "text": "ius",
+              "label": "tmpxovpb6gm_region8_region1_region1",
+              "text": "cli-",
               "bbox": [
-                1413,
+                1317,
+                1062,
+                1387,
+                1157
+              ]
+            },
+            {
+              "label": "tmpxovpb6gm_region8_region1_region2",
+              "text": "na-",
+              "bbox": [
+                1387,
+                1062,
+                1439,
+                1157
+              ]
+            },
+            {
+              "label": "tmpxovpb6gm_region8_region1_region3",
+              "text": "te",
+              "bbox": [
+                1439,
                 1062,
                 1476,
                 1157
@@ -2846,7 +2638,7 @@
       ]
     },
     {
-      "label": "tmpwsnxf3t8_region9",
+      "label": "tmpxovpb6gm_region9",
       "bbox": [
         486,
         1246,
@@ -3030,205 +2822,241 @@
       "text": "eme demicis me",
       "words": [
         {
-          "label": "tmpwsnxf3t8_region9_region0",
-          "text": "Hodie",
+          "label": "tmpxovpb6gm_region9_region0",
+          "text": "In",
           "bbox": [
             486,
             1246,
-            642,
+            558,
             1362
           ],
           "source": "gt",
           "syllables": [
             {
-              "label": "tmpwsnxf3t8_region9_region0_region0",
-              "text": "ho-",
+              "label": "tmpxovpb6gm_region9_region0_region0",
+              "text": "in",
               "bbox": [
                 486,
                 1246,
-                552,
-                1362
-              ]
-            },
-            {
-              "label": "tmpwsnxf3t8_region9_region0_region1",
-              "text": "di-",
-              "bbox": [
-                552,
-                1246,
-                618,
-                1362
-              ]
-            },
-            {
-              "label": "tmpwsnxf3t8_region9_region0_region2",
-              "text": "e",
-              "bbox": [
-                618,
-                1246,
-                642,
+                558,
                 1362
               ]
             }
           ]
         },
         {
-          "label": "tmpwsnxf3t8_region9_region1",
-          "text": "si",
+          "label": "tmpxovpb6gm_region9_region1",
+          "text": "proximo",
           "bbox": [
-            642,
+            558,
             1246,
-            720,
+            750,
             1362
           ],
           "source": "gt",
           "syllables": [
             {
-              "label": "tmpwsnxf3t8_region9_region1_region0",
-              "text": "si",
+              "label": "tmpxovpb6gm_region9_region1_region0",
+              "text": "prox-",
               "bbox": [
-                642,
+                558,
                 1246,
-                720,
-                1362
-              ]
-            }
-          ]
-        },
-        {
-          "label": "tmpwsnxf3t8_region9_region2",
-          "text": "vocem",
-          "bbox": [
-            720,
-            1246,
-            876,
-            1362
-          ],
-          "source": "gt",
-          "syllables": [
-            {
-              "label": "tmpwsnxf3t8_region9_region2_region0",
-              "text": "vo-",
-              "bbox": [
-                720,
-                1246,
-                798,
+                664,
                 1362
               ]
             },
             {
-              "label": "tmpwsnxf3t8_region9_region2_region1",
-              "text": "cem",
+              "label": "tmpxovpb6gm_region9_region1_region1",
+              "text": "i-",
               "bbox": [
-                798,
+                664,
                 1246,
-                876,
+                706,
+                1362
+              ]
+            },
+            {
+              "label": "tmpxovpb6gm_region9_region1_region2",
+              "text": "mo",
+              "bbox": [
+                706,
+                1246,
+                750,
                 1362
               ]
             }
           ]
         },
         {
-          "label": "tmpwsnxf3t8_region9_region3",
-          "text": "eius",
+          "label": "tmpxovpb6gm_region9_region2",
+          "text": "est",
           "bbox": [
-            876,
+            750,
             1246,
-            1006,
+            846,
             1362
           ],
           "source": "gt",
           "syllables": [
             {
-              "label": "tmpwsnxf3t8_region9_region3_region0",
+              "label": "tmpxovpb6gm_region9_region2_region0",
+              "text": "est",
+              "bbox": [
+                750,
+                1246,
+                846,
+                1362
+              ]
+            }
+          ]
+        },
+        {
+          "label": "tmpxovpb6gm_region9_region3",
+          "text": "Eripe",
+          "bbox": [
+            846,
+            1246,
+            990,
+            1362
+          ],
+          "source": "gt",
+          "syllables": [
+            {
+              "label": "tmpxovpb6gm_region9_region3_region0",
               "text": "e-",
               "bbox": [
-                876,
+                846,
                 1246,
-                928,
+                887,
                 1362
               ]
             },
             {
-              "label": "tmpwsnxf3t8_region9_region3_region1",
-              "text": "ius",
-              "bbox": [
-                928,
-                1246,
-                1006,
-                1362
-              ]
-            }
-          ]
-        },
-        {
-          "label": "tmpwsnxf3t8_region9_region4",
-          "text": "audieritis",
-          "bbox": [
-            1006,
-            1246,
-            1292,
-            1362
-          ],
-          "source": "gt",
-          "syllables": [
-            {
-              "label": "tmpwsnxf3t8_region9_region4_region0",
-              "text": "au-",
-              "bbox": [
-                1006,
-                1246,
-                1067,
-                1362
-              ]
-            },
-            {
-              "label": "tmpwsnxf3t8_region9_region4_region1",
-              "text": "di-",
-              "bbox": [
-                1067,
-                1246,
-                1128,
-                1362
-              ]
-            },
-            {
-              "label": "tmpwsnxf3t8_region9_region4_region2",
-              "text": "e-",
-              "bbox": [
-                1128,
-                1246,
-                1168,
-                1362
-              ]
-            },
-            {
-              "label": "tmpwsnxf3t8_region9_region4_region3",
+              "label": "tmpxovpb6gm_region9_region3_region1",
               "text": "ri-",
               "bbox": [
-                1168,
+                887,
                 1246,
-                1229,
+                948,
                 1362
               ]
             },
             {
-              "label": "tmpwsnxf3t8_region9_region4_region4",
-              "text": "tis",
+              "label": "tmpxovpb6gm_region9_region3_region2",
+              "text": "pe",
               "bbox": [
-                1229,
+                948,
                 1246,
-                1292,
+                990,
                 1362
               ]
             }
           ]
         },
         {
-          "label": "tmpwsnxf3t8_region9_region5",
-          "text": "nolite",
+          "label": "tmpxovpb6gm_region9_region4",
+          "text": "me",
           "bbox": [
-            1292,
+            990,
+            1246,
+            1062,
+            1362
+          ],
+          "source": "gt",
+          "syllables": [
+            {
+              "label": "tmpxovpb6gm_region9_region4_region0",
+              "text": "me",
+              "bbox": [
+                990,
+                1246,
+                1062,
+                1362
+              ]
+            }
+          ]
+        },
+        {
+          "label": "tmpxovpb6gm_region9_region5",
+          "text": "de",
+          "bbox": [
+            1062,
+            1246,
+            1134,
+            1362
+          ],
+          "source": "gt",
+          "syllables": [
+            {
+              "label": "tmpxovpb6gm_region9_region5_region0",
+              "text": "de",
+              "bbox": [
+                1062,
+                1246,
+                1134,
+                1362
+              ]
+            }
+          ]
+        },
+        {
+          "label": "tmpxovpb6gm_region9_region6",
+          "text": "inimicis",
+          "bbox": [
+            1134,
+            1246,
+            1350,
+            1362
+          ],
+          "source": "gt",
+          "syllables": [
+            {
+              "label": "tmpxovpb6gm_region9_region6_region0",
+              "text": "in-",
+              "bbox": [
+                1134,
+                1246,
+                1192,
+                1362
+              ]
+            },
+            {
+              "label": "tmpxovpb6gm_region9_region6_region1",
+              "text": "i-",
+              "bbox": [
+                1192,
+                1246,
+                1231,
+                1362
+              ]
+            },
+            {
+              "label": "tmpxovpb6gm_region9_region6_region2",
+              "text": "mi-",
+              "bbox": [
+                1231,
+                1246,
+                1289,
+                1362
+              ]
+            },
+            {
+              "label": "tmpxovpb6gm_region9_region6_region3",
+              "text": "cis",
+              "bbox": [
+                1289,
+                1246,
+                1350,
+                1362
+              ]
+            }
+          ]
+        },
+        {
+          "label": "tmpxovpb6gm_region9_region7",
+          "text": "meis",
+          "bbox": [
+            1350,
             1246,
             1460,
             1362
@@ -3236,30 +3064,20 @@
           "source": "gt",
           "syllables": [
             {
-              "label": "tmpwsnxf3t8_region9_region5_region0",
-              "text": "no-",
+              "label": "tmpxovpb6gm_region9_region7_region0",
+              "text": "me-",
               "bbox": [
-                1292,
+                1350,
                 1246,
-                1355,
+                1416,
                 1362
               ]
             },
             {
-              "label": "tmpwsnxf3t8_region9_region5_region1",
-              "text": "li-",
+              "label": "tmpxovpb6gm_region9_region7_region1",
+              "text": "is",
               "bbox": [
-                1355,
-                1246,
-                1418,
-                1362
-              ]
-            },
-            {
-              "label": "tmpwsnxf3t8_region9_region5_region2",
-              "text": "te",
-              "bbox": [
-                1418,
+                1416,
                 1246,
                 1460,
                 1362
@@ -3270,7 +3088,7 @@
       ]
     },
     {
-      "label": "tmpwsnxf3t8_region10",
+      "label": "tmpxovpb6gm_region10",
       "bbox": [
         452,
         1426,
@@ -3482,129 +3300,185 @@
       "text": "is deus me uis et ab insurgentis in me",
       "words": [
         {
-          "label": "tmpwsnxf3t8_region10_region0",
-          "text": "obdurare",
+          "label": "tmpxovpb6gm_region10_region0",
+          "text": "deus",
           "bbox": [
             452,
             1426,
-            749,
+            592,
             1543
           ],
           "source": "gt",
           "syllables": [
             {
-              "label": "tmpwsnxf3t8_region10_region0_region0",
-              "text": "ob-",
+              "label": "tmpxovpb6gm_region10_region0_region0",
+              "text": "de-",
               "bbox": [
                 452,
                 1426,
-                533,
+                536,
                 1543
               ]
             },
             {
-              "label": "tmpwsnxf3t8_region10_region0_region1",
-              "text": "du-",
+              "label": "tmpxovpb6gm_region10_region0_region1",
+              "text": "us",
               "bbox": [
-                533,
+                536,
                 1426,
-                614,
-                1543
-              ]
-            },
-            {
-              "label": "tmpwsnxf3t8_region10_region0_region2",
-              "text": "ra-",
-              "bbox": [
-                614,
-                1426,
-                695,
-                1543
-              ]
-            },
-            {
-              "label": "tmpwsnxf3t8_region10_region0_region3",
-              "text": "re",
-              "bbox": [
-                695,
-                1426,
-                749,
+                592,
                 1543
               ]
             }
           ]
         },
         {
-          "label": "tmpwsnxf3t8_region10_region1",
-          "text": "corda",
+          "label": "tmpxovpb6gm_region10_region1",
+          "text": "meus",
           "bbox": [
-            749,
+            592,
             1426,
-            947,
+            732,
             1543
           ],
           "source": "gt",
           "syllables": [
             {
-              "label": "tmpwsnxf3t8_region10_region1_region0",
-              "text": "cor-",
+              "label": "tmpxovpb6gm_region10_region1_region0",
+              "text": "me-",
               "bbox": [
-                749,
+                592,
                 1426,
-                881,
+                676,
                 1543
               ]
             },
             {
-              "label": "tmpwsnxf3t8_region10_region1_region1",
-              "text": "da",
+              "label": "tmpxovpb6gm_region10_region1_region1",
+              "text": "us",
               "bbox": [
-                881,
+                676,
                 1426,
-                947,
+                732,
                 1543
               ]
             }
           ]
         },
         {
-          "label": "tmpwsnxf3t8_region10_region2",
-          "text": "vestra",
+          "label": "tmpxovpb6gm_region10_region2",
+          "text": "et",
           "bbox": [
-            947,
+            732,
             1426,
-            1178,
+            816,
             1543
           ],
           "source": "gt",
           "syllables": [
             {
-              "label": "tmpwsnxf3t8_region10_region2_region0",
-              "text": "ve-",
+              "label": "tmpxovpb6gm_region10_region2_region0",
+              "text": "et",
               "bbox": [
-                947,
+                732,
                 1426,
-                1046,
-                1543
-              ]
-            },
-            {
-              "label": "tmpwsnxf3t8_region10_region2_region1",
-              "text": "stra",
-              "bbox": [
-                1046,
-                1426,
-                1178,
+                816,
                 1543
               ]
             }
           ]
         },
         {
-          "label": "tmpwsnxf3t8_region10_region3",
-          "text": "sicut",
+          "label": "tmpxovpb6gm_region10_region3",
+          "text": "ab",
           "bbox": [
-            1178,
+            816,
+            1426,
+            900,
+            1543
+          ],
+          "source": "gt",
+          "syllables": [
+            {
+              "label": "tmpxovpb6gm_region10_region3_region0",
+              "text": "ab",
+              "bbox": [
+                816,
+                1426,
+                900,
+                1543
+              ]
+            }
+          ]
+        },
+        {
+          "label": "tmpxovpb6gm_region10_region4",
+          "text": "insurgentibus",
+          "bbox": [
+            900,
+            1426,
+            1292,
+            1543
+          ],
+          "source": "gt",
+          "syllables": [
+            {
+              "label": "tmpxovpb6gm_region10_region4_region0",
+              "text": "in-",
+              "bbox": [
+                900,
+                1426,
+                969,
+                1543
+              ]
+            },
+            {
+              "label": "tmpxovpb6gm_region10_region4_region1",
+              "text": "sur-",
+              "bbox": [
+                969,
+                1426,
+                1061,
+                1543
+              ]
+            },
+            {
+              "label": "tmpxovpb6gm_region10_region4_region2",
+              "text": "gen-",
+              "bbox": [
+                1061,
+                1426,
+                1153,
+                1543
+              ]
+            },
+            {
+              "label": "tmpxovpb6gm_region10_region4_region3",
+              "text": "ti-",
+              "bbox": [
+                1153,
+                1426,
+                1222,
+                1543
+              ]
+            },
+            {
+              "label": "tmpxovpb6gm_region10_region4_region4",
+              "text": "bus",
+              "bbox": [
+                1222,
+                1426,
+                1292,
+                1543
+              ]
+            }
+          ]
+        },
+        {
+          "label": "tmpxovpb6gm_region10_region5",
+          "text": "in",
+          "bbox": [
+            1292,
             1426,
             1376,
             1543
@@ -3612,20 +3486,10 @@
           "source": "gt",
           "syllables": [
             {
-              "label": "tmpwsnxf3t8_region10_region3_region0",
-              "text": "si-",
+              "label": "tmpxovpb6gm_region10_region5_region0",
+              "text": "in",
               "bbox": [
-                1178,
-                1426,
-                1277,
-                1543
-              ]
-            },
-            {
-              "label": "tmpwsnxf3t8_region10_region3_region1",
-              "text": "cut",
-              "bbox": [
-                1277,
+                1292,
                 1426,
                 1376,
                 1543
@@ -3634,8 +3498,8 @@
           ]
         },
         {
-          "label": "tmpwsnxf3t8_region10_region4",
-          "text": "in",
+          "label": "tmpxovpb6gm_region10_region6",
+          "text": "me",
           "bbox": [
             1376,
             1426,
@@ -3645,8 +3509,8 @@
           "source": "gt",
           "syllables": [
             {
-              "label": "tmpwsnxf3t8_region10_region4_region0",
-              "text": "in",
+              "label": "tmpxovpb6gm_region10_region6_region0",
+              "text": "me",
               "bbox": [
                 1376,
                 1426,
@@ -3659,7 +3523,7 @@
       ]
     },
     {
-      "label": "tmpwsnxf3t8_region11",
+      "label": "tmpxovpb6gm_region11",
       "bbox": [
         465,
         1640,
@@ -3715,7 +3579,7 @@
       "text": "de",
       "words": [
         {
-          "label": "tmpwsnxf3t8_region11_region0",
+          "label": "tmpxovpb6gm_region11_region0",
           "text": "de",
           "bbox": [
             465,
@@ -3726,7 +3590,7 @@
           "source": "fallback",
           "syllables": [
             {
-              "label": "tmpwsnxf3t8_region11_region0_region0",
+              "label": "tmpxovpb6gm_region11_region0_region0",
               "text": "de",
               "bbox": [
                 465,
@@ -3740,7 +3604,7 @@
       ]
     },
     {
-      "label": "tmpwsnxf3t8_region12",
+      "label": "tmpxovpb6gm_region12",
       "bbox": [
         565,
         1614,
@@ -3780,21 +3644,41 @@
       "text": "",
       "words": [
         {
-          "label": "tmpwsnxf3t8_region12_region0",
-          "text": "",
+          "label": "tmpxovpb6gm_region12_region0",
+          "text": "libera",
           "bbox": [
             565,
             1614,
             633,
             1728
           ],
-          "source": "fallback",
+          "source": "gt",
           "syllables": [
             {
-              "label": "tmpwsnxf3t8_region12_region0_region0",
-              "text": "",
+              "label": "tmpxovpb6gm_region12_region0_region0",
+              "text": "li-",
               "bbox": [
                 565,
+                1614,
+                590,
+                1728
+              ]
+            },
+            {
+              "label": "tmpxovpb6gm_region12_region0_region1",
+              "text": "be-",
+              "bbox": [
+                590,
+                1614,
+                615,
+                1728
+              ]
+            },
+            {
+              "label": "tmpxovpb6gm_region12_region0_region2",
+              "text": "ra",
+              "bbox": [
+                615,
                 1614,
                 633,
                 1728
@@ -3805,7 +3689,7 @@
       ]
     },
     {
-      "label": "tmpwsnxf3t8_region13",
+      "label": "tmpxovpb6gm_region13",
       "bbox": [
         671,
         1617,
@@ -4069,169 +3953,135 @@
       "text": "me De Nariiete  te adlatus",
       "words": [
         {
-          "label": "tmpwsnxf3t8_region13_region0",
-          "text": "exacerbatione",
+          "label": "tmpxovpb6gm_region13_region0",
+          "text": "me",
           "bbox": [
             671,
             1617,
-            923,
+            752,
             1722
           ],
           "source": "gt",
           "syllables": [
             {
-              "label": "tmpwsnxf3t8_region13_region0_region0",
-              "text": "ex-",
+              "label": "tmpxovpb6gm_region13_region0_region0",
+              "text": "me",
               "bbox": [
                 671,
                 1617,
-                710,
-                1722
-              ]
-            },
-            {
-              "label": "tmpwsnxf3t8_region13_region0_region1",
-              "text": "a-",
-              "bbox": [
-                710,
-                1617,
-                736,
-                1722
-              ]
-            },
-            {
-              "label": "tmpwsnxf3t8_region13_region0_region2",
-              "text": "cer-",
-              "bbox": [
-                736,
-                1617,
-                789,
-                1722
-              ]
-            },
-            {
-              "label": "tmpwsnxf3t8_region13_region0_region3",
-              "text": "ba-",
-              "bbox": [
-                789,
-                1617,
-                828,
-                1722
-              ]
-            },
-            {
-              "label": "tmpwsnxf3t8_region13_region0_region4",
-              "text": "ti-",
-              "bbox": [
-                828,
-                1617,
-                867,
-                1722
-              ]
-            },
-            {
-              "label": "tmpwsnxf3t8_region13_region0_region5",
-              "text": "o-",
-              "bbox": [
-                867,
-                1617,
-                893,
-                1722
-              ]
-            },
-            {
-              "label": "tmpwsnxf3t8_region13_region0_region6",
-              "text": "ne",
-              "bbox": [
-                893,
-                1617,
-                923,
+                752,
                 1722
               ]
             }
           ]
         },
         {
-          "label": "tmpwsnxf3t8_region13_region1",
-          "text": "secundum",
+          "label": "tmpxovpb6gm_region13_region1",
+          "text": "Ut",
           "bbox": [
-            923,
+            752,
             1617,
-            1085,
+            833,
             1722
           ],
           "source": "gt",
           "syllables": [
             {
-              "label": "tmpwsnxf3t8_region13_region1_region0",
-              "text": "se-",
+              "label": "tmpxovpb6gm_region13_region1_region0",
+              "text": "ut",
               "bbox": [
-                923,
+                752,
                 1617,
-                971,
-                1722
-              ]
-            },
-            {
-              "label": "tmpwsnxf3t8_region13_region1_region1",
-              "text": "cun-",
-              "bbox": [
-                971,
-                1617,
-                1035,
-                1722
-              ]
-            },
-            {
-              "label": "tmpwsnxf3t8_region13_region1_region2",
-              "text": "dum",
-              "bbox": [
-                1035,
-                1617,
-                1085,
+                833,
                 1722
               ]
             }
           ]
         },
         {
-          "label": "tmpwsnxf3t8_region13_region2",
-          "text": "diem",
+          "label": "tmpxovpb6gm_region13_region2",
+          "text": "narrem",
           "bbox": [
-            1085,
+            833,
             1617,
-            1175,
+            1022,
             1722
           ],
           "source": "gt",
           "syllables": [
             {
-              "label": "tmpwsnxf3t8_region13_region2_region0",
-              "text": "di-",
+              "label": "tmpxovpb6gm_region13_region2_region0",
+              "text": "nar-",
               "bbox": [
-                1085,
+                833,
                 1617,
-                1139,
+                941,
                 1722
               ]
             },
             {
-              "label": "tmpwsnxf3t8_region13_region2_region1",
-              "text": "em",
+              "label": "tmpxovpb6gm_region13_region2_region1",
+              "text": "rem",
               "bbox": [
-                1139,
+                941,
                 1617,
-                1175,
+                1022,
                 1722
               ]
             }
           ]
         },
         {
-          "label": "tmpwsnxf3t8_region13_region3",
-          "text": "temptationis",
+          "label": "tmpxovpb6gm_region13_region3",
+          "text": "In",
           "bbox": [
-            1175,
+            1022,
+            1617,
+            1103,
+            1722
+          ],
+          "source": "gt",
+          "syllables": [
+            {
+              "label": "tmpxovpb6gm_region13_region3_region0",
+              "text": "in",
+              "bbox": [
+                1022,
+                1617,
+                1103,
+                1722
+              ]
+            }
+          ]
+        },
+        {
+          "label": "tmpxovpb6gm_region13_region4",
+          "text": "te",
+          "bbox": [
+            1103,
+            1617,
+            1184,
+            1722
+          ],
+          "source": "gt",
+          "syllables": [
+            {
+              "label": "tmpxovpb6gm_region13_region4_region0",
+              "text": "te",
+              "bbox": [
+                1103,
+                1617,
+                1184,
+                1722
+              ]
+            }
+          ]
+        },
+        {
+          "label": "tmpxovpb6gm_region13_region5",
+          "text": "iactatus",
+          "bbox": [
+            1184,
             1617,
             1403,
             1722
@@ -4239,50 +4089,30 @@
           "source": "gt",
           "syllables": [
             {
-              "label": "tmpwsnxf3t8_region13_region3_region0",
-              "text": "temp-",
+              "label": "tmpxovpb6gm_region13_region5_region0",
+              "text": "iac-",
               "bbox": [
-                1175,
+                1184,
                 1617,
-                1246,
+                1271,
                 1722
               ]
             },
             {
-              "label": "tmpwsnxf3t8_region13_region3_region1",
+              "label": "tmpxovpb6gm_region13_region5_region1",
               "text": "ta-",
               "bbox": [
-                1246,
+                1271,
                 1617,
-                1288,
+                1336,
                 1722
               ]
             },
             {
-              "label": "tmpwsnxf3t8_region13_region3_region2",
-              "text": "ti-",
+              "label": "tmpxovpb6gm_region13_region5_region2",
+              "text": "tus",
               "bbox": [
-                1288,
-                1617,
-                1330,
-                1722
-              ]
-            },
-            {
-              "label": "tmpwsnxf3t8_region13_region3_region3",
-              "text": "o-",
-              "bbox": [
-                1330,
-                1617,
-                1358,
-                1722
-              ]
-            },
-            {
-              "label": "tmpwsnxf3t8_region13_region3_region4",
-              "text": "nis",
-              "bbox": [
-                1358,
+                1336,
                 1617,
                 1403,
                 1722

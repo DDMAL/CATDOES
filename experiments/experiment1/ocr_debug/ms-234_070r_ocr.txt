@@ -14,24 +14,24 @@
 
 -- fused_0 --
   OCR:      'o ve antem homini illi per quem in'
-  Assigned: 'secundum diem temptationis in deserto ubi'
-  Words:    [0..6) consumed=6
-  NW score: k=6 (pre-snap), norm=-0.5892
+  Assigned: 'de illo ve autem homini illi per quem'
+  Words:    [0..8) consumed=8
+  NW score: k=8 (pre-snap), norm=5.6388
   Alignment:
     (pre-start continuation)
 
 -- fused_1 --
   OCR:      'cur Adcui. enebre facte sune'
-  Assigned: 'temptaverunt me patres vestri probaverunt et viderunt opera mea Quadraginta annis proximus fui generationi huic et dixi semper hii errant corde ipsi vero non cognoverunt vias meas quibus iuravi in ira mea si introibunt in requiem meam Gloria patri et filio et spiritui sancto sicut erat in principio et nunc et semper et in secula seculorum amen Omnes amici mei Et dederunt in escam meam fel et in siti mea Aceto Velum templi Amen dico tibi hodie mecum eris in paradyso Memento Vinea mea Ego quidem plantavi te vinea mea electa omne semen verum Quomodo Tamquam ad latronem Filius quidem hominis vadit sicut scriptum est de illo ve autem homini illi per quem tradetur Ad crucifigendum'
-  Words:    [6..122) consumed=116
-  NW score: k=116 (pre-snap), norm=-1.7547
+  Assigned: 'tradetur Ad crucifigendum'
+  Words:    [8..11) consumed=3
+  NW score: k=3 (pre-snap), norm=-1.0205
   Alignment:
     (pre-start continuation)
 
 -- fused_2 --
   OCR:      'elum Templi scissum ess a sumo ula'
   Assigned: 'Et velum templi scissum est a summo'
-  Words:    [125..132) consumed=7
+  Words:    [14..21) consumed=7
   NW score: k=7 (pre-snap), norm=5.0730
   Alignment:
     target            0 ----elum Templi scissum ess a su-mo ula 34
@@ -41,7 +41,7 @@
 -- fused_3 --
   OCR:      'eo sum et omnis teraeu'
   Assigned: 'usque deorsum et omnis terra'
-  Words:    [132..137) consumed=5
+  Words:    [21..26) consumed=5
   NW score: k=5 (pre-snap), norm=4.2306
   Alignment:
     target            0 -------eo sum et omnis te-raeu 22
@@ -51,7 +51,7 @@
 -- fused_4 --
   OCR:      'nus arrabas latro'
   Assigned: 'tremuit Tunc unus Barabbas latro'
-  Words:    [137..142) consumed=5
+  Words:    [26..31) consumed=5
   NW score: k=5 (pre-snap), norm=2.6154
   Alignment:
     target            0 --------------nus -arra-bas latro 17
@@ -61,7 +61,7 @@
 -- fused_5 --
   OCR:      'danne fallari ete mum Ragellam mi pi u'
   Assigned: 'Verax datur fallacibus pium flagellat impius'
-  Words:    [142..148) consumed=6
+  Words:    [31..37) consumed=6
   NW score: k=6 (pre-snap), norm=1.7853
   Alignment:
     target            0 ------danne fallari ete -mum -Ragellam mi pi u- 38
@@ -71,7 +71,7 @@
 -- fused_6 --
   OCR:      'ando abicerunt moond astu'
   Assigned: 'Osculando Tradiderunt me Astiterunt'
-  Words:    [148..152) consumed=4
+  Words:    [37..41) consumed=4
   NW score: k=4 (pre-snap), norm=1.8931
   Alignment:
     target            0 -----ando --abicerunt moond ast----u-- 25
@@ -81,7 +81,7 @@
 -- fused_7 --
   OCR:      'ter re et pnirs convenana'
   Assigned: 'reges terre et principes convenerunt'
-  Words:    [152..157) consumed=5
+  Words:    [41..46) consumed=5
   NW score: k=5 (pre-snap), norm=3.0000
   Alignment:
     target            0 ------ter re et p--n-i-rs conven--ana 25

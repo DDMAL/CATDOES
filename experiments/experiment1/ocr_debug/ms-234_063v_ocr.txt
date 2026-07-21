@@ -14,86 +14,82 @@
 
 -- fused_0 --
   OCR:      'i qui inquirebant mnala muhi lo'
-  Assigned: 'Quoniam ipsius est mare et ipse'
+  Assigned: 'Et qui inquirebant mala michi locuti'
   Words:    [0..6) consumed=6
-  NW score: k=6 (pre-snap), norm=-0.9032
+  NW score: k=6 (pre-snap), norm=5.2984
   Alignment:
-    target            0 i qu--i-- i-nquirebant mnala muhi lo 31
-                      0 --.|--|--  9
-    query             0 --Quoniam ipsius e--st m-are et ipse 31
+    target            0 -i qui inquirebant mnala m-uhi lo---- 31
+                      0 -.  2
+    query             0 Et qui inquirebant m-ala michi locuti 36
 
 -- fused_1 --
   OCR:      'cuti sunt vavita tes et delos tota die meo'
-  Assigned: 'fecit illud et aridam fundaverunt manus eius venite adoremus et procidamus ante deum'
-  Words:    [6..19) consumed=13
-  NW score: k=13 (pre-snap), norm=-0.4546
+  Assigned: 'sunt vanitates et dolos tota die'
+  Words:    [6..12) consumed=6
+  NW score: k=6 (pre-snap), norm=5.1281
   Alignment:
-    target            0 --c------u---t---i--- -------sunt va---------v--ita ---te--s
-                      0 --|------|---|---|---
-    query             0 fecit illud et aridam fundaverunt manus eius venite adoremus
-    
-    target           20  et -----delos tota die meo 42
-                     21  21
-    query            60  et procidamus ante d-eum-- 84
+    target            0 cuti sunt vavita tes et delos tota die meo 42
+                      0 -----||||  9
+    query             0 -----sunt vanita-tes et dolos tota die---- 32
 
 -- fused_2 --
   OCR:      'ta vantur t viniDuitor et juscep'
-  Assigned: 'ploremus coram domino qui fecit nos'
-  Words:    [19..25) consumed=6
-  NW score: k=6 (pre-snap), norm=-1.5538
+  Assigned: 'meditabantur Et vim Adiutor et susceptor'
+  Words:    [12..18) consumed=6
+  NW score: k=6 (pre-snap), norm=3.4380
   Alignment:
-    target            0 ta vantu----r-- t vin-iDuitor -e--t juscep 32
-                      0 -......|----|-- 15
-    query             0 -ploremus coram domino qui--- fecit nos--- 35
+    target            0 ----ta vantur -t vi---niDuitor et juscep--- 32
+                      0 ----||-.||||| 13
+    query             0 medita-bantur Et vim Adi-u-tor et susceptor 40
 
 -- fused_3 --
   OCR:      'apiste me de municis meis deus meus et'
-  Assigned: 'quia ipse est dominus deus noster'
-  Words:    [25..31) consumed=6
-  NW score: k=6 (pre-snap), norm=0.8189
+  Assigned: 'Eripe me de inimicis meis deus meus et'
+  Words:    [18..26) consumed=8
+  NW score: k=8 (pre-snap), norm=5.5789
   Alignment:
-    target            0 ---api-ste me-- de municis meis deus meus et 38
-                      0 ---|.|-|-| 10
-    query             0 quia ips-e -est d-omin-------us deus -noster 33
+    target            0 apiste me de mun--icis meis deus meus et 38
+                      0 ..|-.|  6
+    query             0 Eri-pe me de -inimicis meis deus meus et 38
 
 -- fused_4 --
   OCR:      'ab insurgentibus in me libe ia me dedina'
-  Assigned: 'nos autem populus eius et oves pascue eius'
-  Words:    [31..39) consumed=8
-  NW score: k=8 (pre-snap), norm=-0.9027
+  Assigned: 'ab insurgentibus in me libera me Declinate'
+  Words:    [26..33) consumed=7
+  NW score: k=7 (pre-snap), norm=6.0750
   Alignment:
-    target            0 ab in-s--urge---ntibus -i-n me- libe- ia- me dedina 40
-                      0 ----|-|--|-.|---....|| 22
-    query             0 ----nos au-tem populus eius -et -oves pascue -e-ius 42
+    target            0 ab insurgentibus in me libe ia me de-dina-- 40
+                      0 ||  2
+    query             0 ab insurgentibus in me libe-ra me Declinate 42
 
 -- fused_5 --
   OCR:      'eme demicis me'
-  Assigned: 'Hodie si vocem eius audieritis nolite'
-  Words:    [39..45) consumed=6
-  NW score: k=6 (pre-snap), norm=-0.8787
+  Assigned: 'In proximo est Eripe me de inimicis meis'
+  Words:    [33..41) consumed=8
+  NW score: k=8 (pre-snap), norm=0.7606
   Alignment:
-    target            0 ------------em-e--- --d-emicis ----me 14
-                      0 ------------||-|--- 19
-    query             0 Hodie si vocem eius audieritis nolite 37
+    target            0 -------------------e-me de----micis me-- 14
+                      0 -------------------|-|| 23
+    query             0 In proximo est Eripe me de inimicis meis 40
 
 -- fused_6 --
   OCR:      'is deus me uis et ab insurgentis in me'
-  Assigned: 'obdurare corda vestra sicut in'
-  Words:    [45..50) consumed=5
-  NW score: k=5 (pre-snap), norm=-0.8293
+  Assigned: 'deus meus et ab insurgentibus in me'
+  Words:    [41..48) consumed=7
+  NW score: k=7 (pre-snap), norm=6.2244
   Alignment:
-    target            0 is deus me --uis -e-t ab -insurgentis in me 38
-                      0 -..|-|...| 10
-    query             0 -obd-urare corda vestra- si-cu----t-- in--- 30
+    target            0 is deus me uis et ab insurgenti--s in me 38
+                      0 ---||||  7
+    query             0 ---deus me-u-s et ab insurgentibus in me 35
 
 -- fused_7 --
   OCR:      'de  me De Nariiete  te adlatus'
-  Assigned: 'exacerbatione secundum diem temptationis'
-  Words:    [50..54) consumed=4
-  NW score: k=4 (pre-snap), norm=-1.2990
+  Assigned: 'libera me Ut narrem In te iactatus'
+  Words:    [48..55) consumed=7
+  NW score: k=7 (pre-snap), norm=1.8474
   Alignment:
-    target            0 ---de----  me De------ Nariiete  te adlat---us 30
-                      0 ---.|----...| 13
-    query             0 exacerbatione secundum ---di--em te-mptationis 40
+    target            0 --de-  me De Nariiete -- te -adlatus 30
+                      0 --.|-.  6
+    query             0 libera me Ut nar-re-m In te iactatus 34
 === END DEBUG ===
 

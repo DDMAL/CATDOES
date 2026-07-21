@@ -15,16 +15,15 @@
 
 -- fused_0 --
   OCR:      'eum'
-  Assigned: 'Quoniam ipsius est mare et ipse fecit illud et aridam fundaverunt manus eius venite adoremus et procidamus ante deum ploremus coram domino qui fecit nos quia ipse est dominus deus noster nos autem populus eius et oves pascue eius Hodie si vocem eius audieritis nolite obdurare corda vestra sicut in exacerbatione secundum diem temptationis in deserto ubi temptaverunt me patres vestri probaverunt et viderunt opera mea Quadraginta annis proximus fui generationi huic et dixi semper hii errant corde ipsi vero non cognoverunt vias meas quibus iuravi in ira mea si introibunt in requiem meam Gloria patri et filio et spiritui sancto sicut erat in principio et nunc et semper et in secula seculorum amen'
-  Words:    [0..114) consumed=114
-  NW score: k=114 (pre-snap), norm=-1.0911
+  Assigned: ''
+  Words:    [0..0) consumed=0
   Alignment:
     (pre-start continuation)
 
 -- fused_1 --
   OCR:      'Monte Ol demumptamen non sicut'
   Assigned: 'In monte olyveti Verumptamen non sicut'
-  Words:    [114..120) consumed=6
+  Words:    [0..6) consumed=6
   NW score: k=6 (pre-snap), norm=4.6203
   Alignment:
     target            0 ---Monte Ol----- demumptamen non sicut 30
@@ -34,7 +33,7 @@
 -- fused_2 --
   OCR:      'ego volo ssicuo tu jus na ter nat'
   Assigned: 'ego volo sed sicut tu vis pater Fiat'
-  Words:    [120..128) consumed=8
+  Words:    [6..14) consumed=8
   NW score: k=8 (pre-snap), norm=4.7581
   Alignment:
     target            0 ego volo s---sicuo tu jus na ter -nat 33
@@ -44,7 +43,7 @@
 -- fused_3 --
   OCR:      'ristis est ani digllate eet ora te'
   Assigned: 'Tristis est anima Vigilate et orate'
-  Words:    [128..134) consumed=6
+  Words:    [14..20) consumed=6
   NW score: k=6 (pre-snap), norm=5.7687
   Alignment:
     target            0 -ristis est ani-- digllate eet ora te 34
@@ -54,7 +53,7 @@
 -- fused_4 --
   OCR:      'ci domi us os fir cce'
   Assigned: 'dicit dominus Vos fugam Ecce'
-  Words:    [134..139) consumed=5
+  Words:    [20..25) consumed=5
   NW score: k=5 (pre-snap), norm=3.6291
   Alignment:
     target            0 --ci- domi us -os f--ir -cce 21
@@ -64,7 +63,7 @@
 -- fused_5 --
   OCR:      'vudim oe lapsuores nositros inse'
   Assigned: 'vidimus Vere languores nostros ipse'
-  Words:    [139..144) consumed=5
+  Words:    [25..30) consumed=5
   NW score: k=5 (pre-snap), norm=4.6614
   Alignment:
     target            0 vudim-- --oe lapsuores nositros inse 32
@@ -74,7 +73,7 @@
 -- fused_6 --
   OCR:      'insuve et perata nostra in se porta'
   Assigned: 'tulit et peccata nostras ipse portavit'
-  Words:    [144..150) consumed=6
+  Words:    [30..36) consumed=6
   NW score: k=6 (pre-snap), norm=3.8389
   Alignment:
     target            0 insu-ve et pe-rata nostra- in se porta--- 35
@@ -84,7 +83,7 @@
 -- fused_7 --
   OCR:      'ur r ujus nnus ex discio'
   Assigned: 'Cuius Unus ex discipulis'
-  Words:    [150..154) consumed=4
+  Words:    [36..40) consumed=4
   NW score: k=4 (pre-snap), norm=3.1667
   Alignment:
     target            0 ur r ujus nnus ex disc----io 24
@@ -94,7 +93,7 @@
 -- fused_8 --
   OCR:      'metum manum in Paripsi'
   Assigned: 'Qui intingit mecum manum in parapside'
-  Words:    [154..160) consumed=6
+  Words:    [40..46) consumed=6
   NW score: k=6 (pre-snap), norm=2.9442
   Alignment:
     target            0 -------------metum manum in Paripsi-- 22
