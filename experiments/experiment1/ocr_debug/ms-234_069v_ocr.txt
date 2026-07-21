@@ -1,0 +1,99 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'es amici mederunt in escam'
+  [fused_1] 'meam fel et init me  te '
+  [fused_2] 'elsum Templi. men dico ni bi hod'
+  [fused_3] 'e mecumeris in para Mi so lemento.'
+  [fused_4] 'ca mer quicem planun e'
+  [fused_5] 'vunea mea ccta omne Semen veeu'
+  [fused_6] 'mmodo. amquam aditali'
+  [fused_7] 'quiem homins vadre suut sanpum elli'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'es amici mederunt in escam'
+  Assigned: 'Quoniam ipsius est mare et ipse fecit'
+  Words:    [0..7) consumed=7
+  NW score: k=7 (pre-snap), norm=-0.6771
+  Alignment:
+    target            0 --es am-i-ci------ m--ederunt i--n -escam 26
+                      0 --...||-|-.|------ 18
+    query             0 Quoniam ipsius est mare e---t ipse fe-cit 37
+
+-- fused_1 --
+  OCR:      'meam fel et init me  te'
+  Assigned: 'illud et aridam fundaverunt manus eius venite'
+  Words:    [7..14) consumed=7
+  NW score: k=7 (pre-snap), norm=-0.7149
+  Alignment:
+    target            0 -----me------am f-----el et -in----i-t me  te 23
+                      0 -----.|------|| 15
+    query             0 illud et aridam fundaverunt manus eius venite 45
+
+-- fused_2 --
+  OCR:      'elsum Templi. men dico ni bi hod'
+  Assigned: 'adoremus et procidamus ante deum ploremus coram domino qui fecit nos'
+  Words:    [14..25) consumed=11
+  NW score: k=11 (pre-snap), norm=-1.3291
+  Alignment:
+    target            0 ----e-ls------------u-----m Te-m-pl----i. ----men d--ico -ni
+                      0 ----|-.|------------|-----.
+    query             0 adoremus et procidamus ante deum ploremus coram-- domino qui
+    
+    target           25  --bi- hod 32
+                     27  27
+    query            58  fecit nos 68
+
+-- fused_3 --
+  OCR:      'e mecumeris in para Mi so lemento.'
+  Assigned: 'quia ipse est dominus'
+  Words:    [25..29) consumed=4
+  NW score: k=4 (pre-snap), norm=-1.4221
+  Alignment:
+    target            0 e mecumeris in para Mi so lemento. 34
+                      0 ----.|---|. 11
+    query             0 ----qu---ia i--p-se --est domin-us 21
+
+-- fused_4 --
+  OCR:      'ca mer quicem planun e'
+  Assigned: 'deus noster nos autem populus eius'
+  Words:    [29..35) consumed=6
+  NW score: k=6 (pre-snap), norm=-0.2925
+  Alignment:
+    target            0 --ca ---mer---- quicem p---lanun e--- 22
+                      0 --..  4
+    query             0 deus noster nos au-tem popul--us eius 34
+
+-- fused_5 --
+  OCR:      'vunea mea ccta omne Semen veeu'
+  Assigned: 'et oves pascue eius Hodie si vocem eius'
+  Words:    [35..43) consumed=8
+  NW score: k=8 (pre-snap), norm=-0.9648
+  Alignment:
+    target            0 vunea -mea --ccta ------omne -----Semen veeu- 30
+                      0 ---|.  5
+    query             0 ---et oves pascue eius Hodie si vocem-- -eius 39
+
+-- fused_6 --
+  OCR:      'mmodo. amquam aditali'
+  Assigned: 'audieritis nolite'
+  Words:    [43..45) consumed=2
+  NW score: k=2 (pre-snap), norm=-2.0641
+  Alignment:
+    target            0 mmodo. amquam ad---it----ali-- 21
+                      0 -------|--|----|---||----.||-- 30
+    query             0 -------a--u----dieritis nolite 17
+
+-- fused_7 --
+  OCR:      'quiem homins vadre suut sanpum elli'
+  Assigned: 'obdurare corda vestra sicut in exacerbatione'
+  Words:    [45..51) consumed=6
+  NW score: k=6 (pre-snap), norm=-1.0193
+  Alignment:
+    target            0 --qu--iem homins v-adre s-uut sanpum e------lli--- 35
+                      0 --.|--.|-  9
+    query             0 obdurare- co-rda vestra sicut -in--- exacerbatione 44
+=== END DEBUG ===
+

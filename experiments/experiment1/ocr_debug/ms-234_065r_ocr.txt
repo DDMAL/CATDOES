@@ -1,0 +1,91 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'tis mee in quo srerta vi am pliavii adversum'
+  [fused_1] 'mme suplan tati  nem Quia fode'
+  [fused_2] 'jumme facneanime mec'
+  [fused_3] 'ea litema am pter munitos meos'
+  [fused_4] 'me devonia tri Coli esse michi '
+  [fused_5] 'infundanu omines miniti mei qui'
+  [fused_6] 'querunt animam mea ut auferam '
+  [fused_7] 'mnt Ronfundat Dominus mecume'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'tis mee in quo srerta vi am pliavii adversum'
+  Assigned: 'mee in quo speravi ampliavit adversum'
+  Words:    [0..6) consumed=6
+  NW score: k=6 (pre-snap), norm=5.7747
+  Alignment:
+    (pre-start continuation)
+
+-- fused_1 --
+  OCR:      'mme suplan tati  nem Quia fode'
+  Assigned: 'me supplantationem Quia foderunt'
+  Words:    [6..10) consumed=4
+  NW score: k=4 (pre-snap), norm=5.1317
+  Alignment:
+    (pre-start continuation)
+
+-- fused_2 --
+  OCR:      'jumme facneanime mec'
+  Assigned: 'Salvum me fac Intende anime mee'
+  Words:    [10..16) consumed=6
+  NW score: k=6 (pre-snap), norm=3.2530
+  Alignment:
+    target            0 ---jum-me fac-----n-e-anime mec 20
+                      0 ---.||-||  9
+    query             0 Salvum me fac Intende anime mee 31
+
+-- fused_3 --
+  OCR:      'ea litema am pter munitos meos'
+  Assigned: 'et libera eam propter inimicos meos'
+  Words:    [16..22) consumed=6
+  NW score: k=6 (pre-snap), norm=4.0119
+  Alignment:
+    target            0 ea litema -am ---pter mun--itos meos 30
+                      0 |.  2
+    query             0 et libera eam propter -inimicos meos 35
+
+-- fused_4 --
+  OCR:      'me devonia tri Coli esse michi'
+  Assigned: 'eripe me Quoniam tribulor Noli esse michi'
+  Words:    [22..29) consumed=7
+  NW score: k=7 (pre-snap), norm=3.9633
+  Alignment:
+    target            0 ---me de--vonia- tri----- Coli esse michi 30
+                      0 ---.|  5
+    query             0 eripe me Quoniam tribulor Noli esse michi 41
+
+-- fused_5 --
+  OCR:      'infundanu omines miniti mei qui'
+  Assigned: 'Confundantur omnes inimici mei qui'
+  Words:    [29..34) consumed=5
+  NW score: k=5 (pre-snap), norm=4.9591
+  Alignment:
+    target            0 -infundan-u- omines min--iti mei qui 31
+                      0 -.|||||||-|- 12
+    query             0 Confundantur om-nes -inimici mei qui 34
+
+-- fused_6 --
+  OCR:      'querunt animam mea ut auferam'
+  Assigned: 'querunt animam meam ut auferant'
+  Words:    [34..39) consumed=5
+  NW score: k=5 (pre-snap), norm=6.8371
+  Alignment:
+    target            0 querunt animam mea- ut aufera-m 29
+                      0 |||||||  7
+    query             0 querunt animam meam ut auferant 31
+
+-- fused_7 --
+  OCR:      'mnt Ronfundat Dominus mecume'
+  Assigned: 'eam Confundantur Dominus mecum'
+  Words:    [39..43) consumed=4
+  NW score: k=4 (pre-snap), norm=4.9340
+  Alignment:
+    target            0 --mnt Ronfunda-t-- Dominus mecume 28
+                      0 --|--  5
+    query             0 eam-- Confundantur Dominus mecum- 30
+=== END DEBUG ===
+

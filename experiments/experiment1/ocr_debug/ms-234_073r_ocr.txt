@@ -1,0 +1,105 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'xex'
+  [fused_1] 'reri domin et venite'
+  [fused_2] 'nia magda ito euntes dicite'
+  [fused_3] 'discripulis ejus et re iro quia surter'
+  [fused_4] 'nus de Precedet urgens Jhesus.'
+  [fused_5] 'e cominus de senulchno qunmi prson'
+  [fused_6] 'is reem t in no davisi'
+  [fused_7] 'ongintulanin. Lulerune dominum'
+  [fused_8] 'eum et nescio ubi posuerunt e '
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'xex'
+  Assigned: 'venientes'
+  Words:    [0..1) consumed=1
+  NW score: k=1 (pre-snap), norm=-4.6188
+  Alignment:
+    (pre-start continuation)
+
+-- fused_1 --
+  OCR:      'reri domin et venite'
+  Assigned: ''
+  Words:    [1..1) consumed=0
+  Alignment:
+    (pre-start continuation)
+
+-- fused_2 --
+  OCR:      'nia magda ito euntes dicite'
+  Assigned: 'Surrexit dominus ~Venite Maria magdalena Cito euntes dicite'
+  Words:    [1..9) consumed=8
+  NW score: k=8 (pre-snap), norm=2.6057
+  Alignment:
+    target            0 --------------------n-------ia magd----a -ito euntes dicite
+                      0 --------------------|-------||
+    query             0 Surrexit dominus ~Venite Maria magdalena Cito euntes dicite
+    
+    target           27
+                     30
+    query            59
+
+-- fused_3 --
+  OCR:      'discripulis ejus et re iro quia surter'
+  Assigned: 'discipulis eius et petro quia surrexit'
+  Words:    [9..15) consumed=6
+  NW score: k=6 (pre-snap), norm=5.2368
+  Alignment:
+    target            0 discripulis ejus et re iro quia surte--r 38
+                      0 ||||-|||||| 11
+    query             0 disc-ipulis eius et pe-tro quia surrexit 38
+
+-- fused_4 --
+  OCR:      'nus de Precedet urgens Jhesus.'
+  Assigned: 'dominus Precedet Surgens ihesus'
+  Words:    [15..19) consumed=4
+  NW score: k=4 (pre-snap), norm=4.9843
+  Alignment:
+    target            0 ----nus de Precedet -urgens Jhesus. 30
+                      0 ----|||--- 10
+    query             0 dominus--- Precedet Surgens ihesus- 31
+
+-- fused_5 --
+  OCR:      'e cominus de senulchno qunmi prson'
+  Assigned: 'Surrexit dominus de sepulcro qui pro'
+  Words:    [19..25) consumed=6
+  NW score: k=6 (pre-snap), norm=3.8016
+  Alignment:
+    target            0 ----e--- cominus de senulchno qunmi prson 34
+                      0 ----|---  8
+    query             0 Surrexit dominus de sepulc-ro qu--i pr-o- 36
+
+-- fused_6 --
+  OCR:      'is reem t in no davisi'
+  Assigned: 'nobis pependit in ligno Gavisi'
+  Words:    [25..30) consumed=5
+  NW score: k=5 (pre-snap), norm=3.2697
+  Alignment:
+    target            0 ---is re-e-m t in ---no davisi 22
+                      0 ---||  5
+    query             0 nobis pependit in ligno Gavisi 30
+
+-- fused_7 --
+  OCR:      'ongintulanin. Lulerune dominum'
+  Assigned: 'sunt Congratulamini Tulerunt dominum'
+  Words:    [30..34) consumed=4
+  NW score: k=4 (pre-snap), norm=4.2601
+  Alignment:
+    target            0 ------ongintulanin. Lulerune dominum 30
+                      0 ------|||..||||.||. 19
+    query             0 sunt Congratulamini Tulerunt dominum 36
+
+-- fused_8 --
+  OCR:      'eum et nescio ubi posuerunt e'
+  Assigned: 'meum et nescio ubi posuerunt eum'
+  Words:    [34..40) consumed=6
+  NW score: k=6 (pre-snap), norm=7.0577
+  Alignment:
+    target            0 -eum et nescio ubi posuerunt e-- 29
+                      0 -|||  4
+    query             0 meum et nescio ubi posuerunt eum 32
+=== END DEBUG ===
+

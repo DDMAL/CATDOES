@@ -1,0 +1,105 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'Lx'
+  [fused_1] 'nentes  Mhecusalem liro imate pas'
+  [fused_2] 'tores et dlamate ahpergite suos uine re'
+  [fused_3] 'co Lange quasi vir . Plauscr'
+  [fused_4] 'super me manibs suis omnes transemites'
+  [fused_5] ' iisam sibilanerunt et moverimi ca'
+  [fused_6] 'anave um esto pastrnos'
+  [fused_7] 'ee cujus con um mors fugui aocu'
+  [fused_8] 'vocems mortui ienlurgunt vncentis avie'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'Lx'
+  Assigned: 'Ponentes'
+  Words:    [0..1) consumed=1
+  NW score: k=1 (pre-snap), norm=-8.0000
+  Alignment:
+    (pre-start continuation)
+
+-- fused_1 --
+  OCR:      'nentes  Mhecusalem liro imate pas'
+  Assigned: ''
+  Words:    [1..1) consumed=0
+  Alignment:
+    (pre-start continuation)
+
+-- fused_2 --
+  OCR:      'tores et dlamate ahpergite suos uine re'
+  Assigned: 'Iherusalem luge Ululate pastores et clamate aspergite vos cinere'
+  Words:    [1..10) consumed=9
+  NW score: k=9 (pre-snap), norm=2.9023
+  Alignment:
+    target            0 ---------------------------tores et dlamate ahpergite suos u
+                      0 ---------------------------|||||
+    query             0 Iherusalem luge Ululate pastores et clamate aspergite -vos c
+    
+    target           33 ine re 39
+                     32 |||-|| 38
+    query            59 ine-re 64
+
+-- fused_3 --
+  OCR:      'co Lange quasi vir . Plauscr'
+  Assigned: 'Quia Plange quasi virgo Plauserunt'
+  Words:    [10..15) consumed=5
+  NW score: k=5 (pre-snap), norm=3.7596
+  Alignment:
+    target            0 --co -Lange quasi vir . Plauscr--- 28
+                      0 --..  4
+    query             0 Quia Plange quasi virgo Plauserunt 34
+
+-- fused_4 --
+  OCR:      'super me manibs suis omnes transemites'
+  Assigned: 'super me manibus omnes transeuntes'
+  Words:    [15..20) consumed=5
+  NW score: k=5 (pre-snap), norm=6.2875
+  Alignment:
+    target            0 super me manibs suis omnes transemites 38
+                      0 |||||  5
+    query             0 super me manib---u-s omnes transeuntes 34
+
+-- fused_5 --
+  OCR:      'iisam sibilanerunt et moverimi ca'
+  Assigned: 'per viam sibilaverunt et moverunt caput'
+  Words:    [20..26) consumed=6
+  NW score: k=6 (pre-snap), norm=4.3206
+  Alignment:
+    target            0 ----iisam sibilanerunt et moverimi ca--- 33
+                      0 ----.|-||  9
+    query             0 per vi-am sibilaverunt et moverunt caput 39
+
+-- fused_6 --
+  OCR:      'anave um esto pastrnos'
+  Assigned: 'Quia veniet Percussit pastor noster'
+  Words:    [26..31) consumed=5
+  NW score: k=5 (pre-snap), norm=0.6487
+  Alignment:
+    target            0 -ana-ve- um -e----s-to past-r-nos--- 22
+                      0 -..|-||-... 11
+    query             0 Quia veniet Percussit- pastor noster 35
+
+-- fused_7 --
+  OCR:      'ee cujus con um mors fugui aocu'
+  Assigned: 'Ante cuius conspectum mors fugit ad'
+  Words:    [31..37) consumed=6
+  NW score: k=6 (pre-snap), norm=3.7038
+  Alignment:
+    target            0 --ee cujus con---- um mors fugui- aocu 31
+                      0 --.|  4
+    query             0 Ante cuius conspectum mors fug-it a--d 35
+
+-- fused_8 --
+  OCR:      'vocems mortui ienlurgunt vncentis avie'
+  Assigned: 'cuius vocem mortui resurgunt videntes autem'
+  Words:    [37..43) consumed=6
+  NW score: k=6 (pre-snap), norm=3.8097
+  Alignment:
+    target            0 ------vocems mortui ienlurgunt vncentis avie- 38
+                      0 ------|||||- 12
+    query             0 cuius vocem- mortui re-surgunt videntes autem 43
+=== END DEBUG ===
+

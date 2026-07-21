@@ -1,0 +1,104 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'LXV'
+  [fused_1] 'quonam contrarius est ore ribus nos tris'
+  [fused_2] 'rem ontumeli sas'
+  [fused_3] 'mici mci adversum me oigitaverunt mala'
+  [fused_4] 'michi verdum mianum mandaverunt ad'
+  [fused_5] 'ver sum me dicentes. teria'
+  [fused_6] 'mcus meus Velius uu '
+  [fused_7] 'rat si natus non suis set nfelx.'
+  [fused_8] 'das mai lius illi erac sina'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'LXV'
+  Assigned: 'quoniam'
+  Words:    [0..1) consumed=1
+  NW score: k=1 (pre-snap), norm=-6.7648
+  Alignment:
+    (pre-start continuation)
+
+-- fused_1 --
+  OCR:      'quonam contrarius est ore ribus nos tris'
+  Assigned: 'contrarius est operibus nostris'
+  Words:    [1..5) consumed=4
+  NW score: k=4 (pre-snap), norm=5.5660
+  Alignment:
+    (pre-start continuation)
+
+-- fused_2 --
+  OCR:      'rem ontumeli sas'
+  Assigned: 'Et rei'
+  Words:    [5..7) consumed=2
+  NW score: k=2 (pre-snap), norm=-3.3680
+  Alignment:
+    (pre-start continuation)
+
+-- fused_3 --
+  OCR:      'mici mci adversum me oigitaverunt mala'
+  Assigned: 'Contumelias Omnes inimici mei adversum me cogitabant mala'
+  Words:    [7..15) consumed=8
+  NW score: k=8 (pre-snap), norm=3.2230
+  Alignment:
+    target            0 ---------------------mici mci adversum me -oigitaverunt mala
+                      0 ---------------------||||
+    query             0 Contumelias Omnes inimici mei adversum me co-gita--bant mala
+    
+    target           38 
+                     25 
+    query            57 
+
+-- fused_4 --
+  OCR:      'michi verdum mianum mandaverunt ad'
+  Assigned: 'michi verbum iniquum mandaverunt'
+  Words:    [15..19) consumed=4
+  NW score: k=4 (pre-snap), norm=5.4267
+  Alignment:
+    target            0 michi verdum mian---um mandaverunt ad 34
+                      0 |||||  5
+    query             0 michi verbum -i-niquum mandaverunt--- 32
+
+-- fused_5 --
+  OCR:      'ver sum me dicentes. teria'
+  Assigned: 'adversum me Dicentes'
+  Words:    [19..22) consumed=3
+  NW score: k=3 (pre-snap), norm=3.9029
+  Alignment:
+    target            0 --ver sum me dicentes. teria 26
+                      0 --|||-|||  9
+    query             0 adver-sum me Dicentes------- 20
+
+-- fused_6 --
+  OCR:      'mcus meus Velius uu'
+  Assigned: 'Amicus meus Melius'
+  Words:    [22..25) consumed=3
+  NW score: k=3 (pre-snap), norm=4.7585
+  Alignment:
+    target            0 -m-cus meus Velius uu 19
+                      0 -|-|||  6
+    query             0 Amicus meus Melius--- 18
+
+-- fused_7 --
+  OCR:      'rat si natus non suis set nfelx.'
+  Assigned: 'illi erat si natus non fuisset Infelix'
+  Words:    [25..32) consumed=7
+  NW score: k=7 (pre-snap), norm=5.0758
+  Alignment:
+    target            0 ------rat si natus non suis set -nfel-x. 32
+                      0 ------|||  9
+    query             0 illi erat si natus non fuis-set Infelix- 38
+
+-- fused_8 --
+  OCR:      'das mai lius illi erac sina'
+  Assigned: 'Iudas mercator Melius illi fuerat si'
+  Words:    [32..38) consumed=6
+  NW score: k=6 (pre-snap), norm=3.5603
+  Alignment:
+    target            0 --das m---a--i --lius illi --erac sina 27
+                      0 --|||  5
+    query             0 Iudas mercator Melius illi fuerat si-- 36
+=== END DEBUG ===
+

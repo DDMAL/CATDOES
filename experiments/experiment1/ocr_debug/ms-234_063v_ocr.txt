@@ -1,0 +1,99 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'i qui inquirebant mnala muhi lo'
+  [fused_1] 'cuti sunt vavita tes et delos tota die meo'
+  [fused_2] 'ta vantur t viniDuitor et juscep'
+  [fused_3] 'apiste me de municis meis deus meus et'
+  [fused_4] 'ab insurgentibus in me libe ia me dedina'
+  [fused_5] 'eme demicis me'
+  [fused_6] 'is deus me uis et ab insurgentis in me'
+  [fused_7] 'de  me De Nariiete  te adlatus'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'i qui inquirebant mnala muhi lo'
+  Assigned: 'Quoniam ipsius est mare et ipse'
+  Words:    [0..6) consumed=6
+  NW score: k=6 (pre-snap), norm=-0.9032
+  Alignment:
+    target            0 i qu--i-- i-nquirebant mnala muhi lo 31
+                      0 --.|--|--  9
+    query             0 --Quoniam ipsius e--st m-are et ipse 31
+
+-- fused_1 --
+  OCR:      'cuti sunt vavita tes et delos tota die meo'
+  Assigned: 'fecit illud et aridam fundaverunt manus eius venite adoremus et procidamus ante deum'
+  Words:    [6..19) consumed=13
+  NW score: k=13 (pre-snap), norm=-0.4546
+  Alignment:
+    target            0 --c------u---t---i--- -------sunt va---------v--ita ---te--s
+                      0 --|------|---|---|---
+    query             0 fecit illud et aridam fundaverunt manus eius venite adoremus
+    
+    target           20  et -----delos tota die meo 42
+                     21  21
+    query            60  et procidamus ante d-eum-- 84
+
+-- fused_2 --
+  OCR:      'ta vantur t viniDuitor et juscep'
+  Assigned: 'ploremus coram domino qui fecit nos'
+  Words:    [19..25) consumed=6
+  NW score: k=6 (pre-snap), norm=-1.5538
+  Alignment:
+    target            0 ta vantu----r-- t vin-iDuitor -e--t juscep 32
+                      0 -......|----|-- 15
+    query             0 -ploremus coram domino qui--- fecit nos--- 35
+
+-- fused_3 --
+  OCR:      'apiste me de municis meis deus meus et'
+  Assigned: 'quia ipse est dominus deus noster'
+  Words:    [25..31) consumed=6
+  NW score: k=6 (pre-snap), norm=0.8189
+  Alignment:
+    target            0 ---api-ste me-- de municis meis deus meus et 38
+                      0 ---|.|-|-| 10
+    query             0 quia ips-e -est d-omin-------us deus -noster 33
+
+-- fused_4 --
+  OCR:      'ab insurgentibus in me libe ia me dedina'
+  Assigned: 'nos autem populus eius et oves pascue eius'
+  Words:    [31..39) consumed=8
+  NW score: k=8 (pre-snap), norm=-0.9027
+  Alignment:
+    target            0 ab in-s--urge---ntibus -i-n me- libe- ia- me dedina 40
+                      0 ----|-|--|-.|---....|| 22
+    query             0 ----nos au-tem populus eius -et -oves pascue -e-ius 42
+
+-- fused_5 --
+  OCR:      'eme demicis me'
+  Assigned: 'Hodie si vocem eius audieritis nolite'
+  Words:    [39..45) consumed=6
+  NW score: k=6 (pre-snap), norm=-0.8787
+  Alignment:
+    target            0 ------------em-e--- --d-emicis ----me 14
+                      0 ------------||-|--- 19
+    query             0 Hodie si vocem eius audieritis nolite 37
+
+-- fused_6 --
+  OCR:      'is deus me uis et ab insurgentis in me'
+  Assigned: 'obdurare corda vestra sicut in'
+  Words:    [45..50) consumed=5
+  NW score: k=5 (pre-snap), norm=-0.8293
+  Alignment:
+    target            0 is deus me --uis -e-t ab -insurgentis in me 38
+                      0 -..|-|...| 10
+    query             0 -obd-urare corda vestra- si-cu----t-- in--- 30
+
+-- fused_7 --
+  OCR:      'de  me De Nariiete  te adlatus'
+  Assigned: 'exacerbatione secundum diem temptationis'
+  Words:    [50..54) consumed=4
+  NW score: k=4 (pre-snap), norm=-1.2990
+  Alignment:
+    target            0 ---de----  me De------ Nariiete  te adlat---us 30
+                      0 ---.|----...| 13
+    query             0 exacerbatione secundum ---di--em te-mptationis 40
+=== END DEBUG ===
+

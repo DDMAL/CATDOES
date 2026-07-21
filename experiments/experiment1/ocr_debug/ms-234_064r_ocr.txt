@@ -1,0 +1,104 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'XII'
+  [fused_1] 'ne a framea deus animam me am eo'
+  [fused_2] 'de manu canis uniram me am Quonia'
+  [fused_3] 'anontad re me domine abhomi'
+  [fused_4] 'ne malo a viro miquo libe rame Ruo'
+  [fused_5] 'mant atisice Loo Annes miniti'
+  [fused_6] 'ma advensum me cogitabani Mala midhi'
+  [fused_7] 'uerbum miquum mandaverunt adversum'
+  [fused_8] ' * Vidisii ocram muquis omin'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'XII'
+  Assigned: 'in deserto ubi temptaverunt me patres vestri probaverunt et viderunt opera mea Quadraginta annis proximus fui generationi huic et dixi semper hii errant corde ipsi vero non cognoverunt vias meas quibus iuravi in ira mea si introibunt in requiem meam Gloria patri et filio et spiritui sancto sicut erat in principio et nunc et semper et in secula seculorum amen Et qui inquirebant mala michi locuti sunt vanitates et dolos tota die meditabantur Et vim Adiutor et susceptor Eripe me de inimicis meis deus meus et ab insurgentibus in me libera me Declinate In proximo est Eripe me de inimicis meis deus meus et ab insurgentibus in me libera me Ut narrem In te iactatus'
+  Words:    [0..115) consumed=115
+  NW score: k=115 (pre-snap), norm=-6.9402
+  Alignment:
+    (pre-start continuation)
+
+-- fused_1 --
+  OCR:      'ne a framea deus animam me am eo'
+  Assigned: 'Erue a framea deus animam meam et'
+  Words:    [115..122) consumed=7
+  NW score: k=7 (pre-snap), norm=6.3084
+  Alignment:
+    target            0 --ne a framea deus animam me am eo 32
+                      0 --.|  4
+    query             0 Erue a framea deus animam me-am et 33
+
+-- fused_2 --
+  OCR:      'de manu canis uniram me am Quonia'
+  Assigned: 'de manu canis unicam meam Quoniam'
+  Words:    [122..128) consumed=6
+  NW score: k=6 (pre-snap), norm=6.9394
+  Alignment:
+    target            0 de manu canis uniram me am Quonia- 33
+                      0 ||  2
+    query             0 de manu canis unicam me-am Quoniam 33
+
+-- fused_3 --
+  OCR:      'anontad re me domine abhomi'
+  Assigned: 'Ne avertas Eripe me domine ab homine'
+  Words:    [128..135) consumed=7
+  NW score: k=7 (pre-snap), norm=3.7528
+  Alignment:
+    target            0 ---anontad -r--e me domine ab-homi-- 27
+                      0 ---|...||. 10
+    query             0 Ne avertas Eripe me domine ab homine 36
+
+-- fused_4 --
+  OCR:      'ne malo a viro miquo libe rame Ruo'
+  Assigned: 'malo a viro iniquo libera me'
+  Words:    [135..141) consumed=6
+  NW score: k=6 (pre-snap), norm=4.6995
+  Alignment:
+    target            0 ne malo a viro -miquo libe ra-me Ruo 34
+                      0 ---||||  7
+    query             0 ---malo a viro iniquo libe-ra me---- 28
+
+-- fused_5 --
+  OCR:      'mant atisice Loo Annes miniti'
+  Assigned: 'Quoniam Pacifice loquebantur Omnes inimici'
+  Words:    [141..146) consumed=5
+  NW score: k=5 (pre-snap), norm=0.7163
+  Alignment:
+    target            0 -man--t -atisice Lo--------o Annes min--iti 29
+                      0 -..|--.  7
+    query             0 Quoniam Pacifice loquebantur Omnes -inimici 42
+
+-- fused_6 --
+  OCR:      'ma advensum me cogitabani Mala midhi'
+  Assigned: 'mei adversum me cogitabant mala michi'
+  Words:    [146..152) consumed=6
+  NW score: k=6 (pre-snap), norm=5.9184
+  Alignment:
+    target            0 m-a advensum me cogitabani Mala midhi 36
+                      0 |-.  3
+    query             0 mei adversum me cogitabant mala michi 37
+
+-- fused_7 --
+  OCR:      'uerbum miquum mandaverunt adversum'
+  Assigned: 'verbum iniquum mandaverunt adversum'
+  Words:    [152..156) consumed=4
+  NW score: k=4 (pre-snap), norm=6.9283
+  Alignment:
+    target            0 uerbum -miquum mandaverunt adversum 34
+                      0 .|||||  6
+    query             0 verbum iniquum mandaverunt adversum 35
+
+-- fused_8 --
+  OCR:      '* Vidisii ocram muquis omin'
+  Assigned: 'me Vidisti Doceam iniquos Domine'
+  Words:    [156..161) consumed=5
+  NW score: k=5 (pre-snap), norm=3.5041
+  Alignment:
+    target            0 -* Vidisii -ocram -muquis -omin- 27
+                      0 -.  2
+    query             0 me Vidisti Doceam iniquos Domine 32
+=== END DEBUG ===
+

@@ -1,0 +1,95 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'ium faciebant qui querebant anima'
+  [fused_1] 'meam et qui inquirebant Mala michilo'
+  [fused_2] 'cuti june vaniaes . Domine pro'
+  [fused_3] 'nobium facrmm er Leqar mi'
+  [fused_4] 'micos meos et compehendam il los etnon'
+  [fused_5] 'convetum domne enti ci ano aaunna '
+  [fused_6] 'coga po cu au ce domine susce'
+  [fused_7] 'tor mens es goria mra et eratans rapu'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'ium faciebant qui querebant anima'
+  Assigned: 'est Et vim faciebant qui querebant animam'
+  Words:    [0..7) consumed=7
+  NW score: k=7 (pre-snap), norm=5.8179
+  Alignment:
+    target            0 --------ium faciebant qui querebant anima- 33
+                      0 --------|-| 11
+    query             0 est Et vi-m faciebant qui querebant animam 41
+
+-- fused_1 --
+  OCR:      'meam et qui inquirebant Mala michilo'
+  Assigned: 'meam et qui inquirebant mala michi'
+  Words:    [7..13) consumed=6
+  NW score: k=6 (pre-snap), norm=7.1172
+  Alignment:
+    target            0 meam et qui inquirebant Mala michilo 36
+                      0 ||||  4
+    query             0 meam et qui inquirebant mala michi-- 34
+
+-- fused_2 --
+  OCR:      'cuti june vaniaes . Domine pro'
+  Assigned: 'locuti sunt vanitates Domine probas'
+  Words:    [13..18) consumed=5
+  NW score: k=5 (pre-snap), norm=4.6600
+  Alignment:
+    target            0 --cuti june vani-a-es . Domine pro--- 30
+                      0 --||||  6
+    query             0 locuti sunt vanitates-- Domine probas 35
+
+-- fused_3 --
+  OCR:      'nobium facrmm er Leqar mi'
+  Assigned: 'Obprobrium factus sum Persequar inimicos'
+  Words:    [18..23) consumed=5
+  NW score: k=5 (pre-snap), norm=1.8025
+  Alignment:
+    target            0 ---nob-ium fac----rmm -er Leq-ar ---mi--- 25
+                      0 ---.||-||| 10
+    query             0 Obprobrium factus sum Per-sequar inimicos 40
+
+-- fused_4 --
+  OCR:      'micos meos et compehendam il los etnon'
+  Assigned: 'meos et comprehendam illos et non'
+  Words:    [23..29) consumed=6
+  NW score: k=6 (pre-snap), norm=5.7890
+  Alignment:
+    target            0 micos meos et comp-ehendam il los et-non 38
+                      0 ------|||| 10
+    query             0 ------meos et comprehendam il-los et non 33
+
+-- fused_5 --
+  OCR:      'convetum domne enti ci ano aaunna'
+  Assigned: 'convertam donec deficiant Adiuva'
+  Words:    [29..33) consumed=4
+  NW score: k=4 (pre-snap), norm=2.5541
+  Alignment:
+    target            0 conve-tum domne- -enti ci ano -aaunna 33
+                      0 |||||-|.|  9
+    query             0 convertam do-nec de-fi-ci-ant Adiu-va 32
+
+-- fused_6 --
+  OCR:      'coga po cu au ce domine susce'
+  Assigned: 'Synagoga populorum Tu autem domine susceptor'
+  Words:    [33..39) consumed=6
+  NW score: k=6 (pre-snap), norm=3.1914
+  Alignment:
+    target            0 ----coga po------- cu au ce- domine susce---- 29
+                      0 ----.|||  8
+    query             0 Synagoga populorum Tu au-tem domine susceptor 44
+
+-- fused_7 --
+  OCR:      'tor mens es goria mra et eratans rapu'
+  Assigned: 'meus es gloria mea et exaltans caput'
+  Words:    [39..46) consumed=7
+  NW score: k=7 (pre-snap), norm=4.7950
+  Alignment:
+    target            0 tor mens es g-oria mra et era-tans rapu- 37
+                      0 ----||.|  8
+    query             0 ----meus es gloria mea et exaltans caput 36
+=== END DEBUG ===
+

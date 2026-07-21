@@ -1,0 +1,93 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'adversummedide do insurreperunt in'
+  [fused_1] 'mLicederunt in escam meam fel ei in'
+  [fused_2] 'siti mea potaverunt me a ce to'
+  [fused_3] 'cerunt inoin mp'
+  [fused_4] 'dixeerunt opramamus jurum justum inviste'
+  [fused_5] 'te soius onns squetem mittamus allo'
+  [fused_6] 'in m oece iixerunt ium apud'
+  [fused_7] 'Senon teste cigitantes cutumveniamus justum'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'adversummedide do insurreperunt in'
+  Assigned: 'adversum me Vide domine'
+  Words:    [0..4) consumed=4
+  NW score: k=4 (pre-snap), norm=2.8966
+  Alignment:
+    (pre-start continuation)
+
+-- fused_1 --
+  OCR:      'mLicederunt in escam meam fel ei in'
+  Assigned: 'me Et dederunt in escam meam fel et in'
+  Words:    [6..15) consumed=9
+  NW score: k=9 (pre-snap), norm=5.8954
+  Alignment:
+    target            0 m---Licederunt in escam meam fel ei in 35
+                      0 |---...||||||| 14
+    query             0 me Et dederunt in escam meam fel et in 38
+
+-- fused_2 --
+  OCR:      'siti mea potaverunt me a ce to'
+  Assigned: 'siti mea potaverunt me aceto'
+  Words:    [15..20) consumed=5
+  NW score: k=5 (pre-snap), norm=7.2457
+  Alignment:
+    target            0 siti mea potaverunt me a ce to 30
+                      0 ||||  4
+    query             0 siti mea potaverunt me a-ce-to 28
+
+-- fused_3 --
+  OCR:      'cerunt inoin mp'
+  Assigned: 'Ego Dixerunt impii'
+  Words:    [20..23) consumed=3
+  NW score: k=3 (pre-snap), norm=0.9737
+  Alignment:
+    target            0 ------cerunt inoin mp-- 15
+                      0 ------.||||| 12
+    query             0 Ego Dixerunt i-----mpii 18
+
+-- fused_4 --
+  OCR:      'dixeerunt opramamus jurum justum inviste'
+  Assigned: 'Viri impii dixerunt opprimamus virum iustum iniuste'
+  Words:    [23..30) consumed=7
+  NW score: k=7 (pre-snap), norm=4.1402
+  Alignment:
+    target            0 -----------dixeerunt o-pramamus jurum justum invi-ste 40
+                      0 -----------|||-||||| 20
+    query             0 Viri impii dix-erunt opprimamus virum iustum in-iuste 51
+
+-- fused_5 --
+  OCR:      'te soius onns squetem mittamus allo'
+  Assigned: 'et de spoliis eius sortem mittamus'
+  Words:    [30..36) consumed=6
+  NW score: k=6 (pre-snap), norm=2.8119
+  Alignment:
+    target            0 -t--e s-o-ius onns squetem mittamus allo 35
+                      0 -|--|  5
+    query             0 et de spoliis eius s-ortem mittamus----- 34
+
+-- fused_6 --
+  OCR:      'in m oece iixerunt ium apud'
+  Assigned: 'Morte Viri impii dixerunt Dixerunt impii apud'
+  Words:    [36..43) consumed=7
+  NW score: k=7 (pre-snap), norm=1.5779
+  Alignment:
+    target            0 -------i-n -m--- oece---- iixerunt ium--- apud 27
+                      0 -------|-. 10
+    query             0 Morte Viri impii dixerunt Dixerunt i-mpii apud 45
+
+-- fused_7 --
+  OCR:      'Senon teste cigitantes cutumveniamus justum'
+  Assigned: 'se non recte cogitantes circumveniamus iustum'
+  Words:    [43..49) consumed=6
+  NW score: k=6 (pre-snap), norm=5.4332
+  Alignment:
+    target            0 Se-non teste cigitantes c-utumveniamus justum 43
+                      0 .|-|||  6
+    query             0 se non recte cogitantes circumveniamus iustum 45
+=== END DEBUG ===
+

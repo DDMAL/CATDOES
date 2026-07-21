@@ -1,0 +1,93 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'in uelinum sicuti. Hesum tra di'
+  [fused_1] 'diet Mngressus Parus matrium pun'
+  [fused_2] 'cipis lacerdo tumaugave'
+  [fused_3] 'runt oculiomnes qui transins'
+  [fused_4] 'per vi lam attendite et vice'
+  [fused_5] 'ppulto domino eor e'
+  [fused_6] 'veniant discinuli ejus et furentureum'
+  [fused_7] ' outano peen suneeit Anor fu'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'in uelinum sicuti. Hesum tra di'
+  Assigned: 'in unum Et sicut'
+  Words:    [0..4) consumed=4
+  NW score: k=4 (pre-snap), norm=1.3021
+  Alignment:
+    (pre-start continuation)
+
+-- fused_1 --
+  OCR:      'diet Mngressus Parus matrium pun'
+  Assigned: 'Et ingressus petrus in atrium'
+  Words:    [6..11) consumed=5
+  NW score: k=5 (pre-snap), norm=3.2827
+  Alignment:
+    target            0 diet Mngressus -Parus --matrium pun 32
+                      0 --.|  4
+    query             0 --Et ingressus petrus in atrium---- 29
+
+-- fused_2 --
+  OCR:      'cipis lacerdo tumaugave'
+  Assigned: 'principis sacerdotum'
+  Words:    [11..13) consumed=2
+  NW score: k=2 (pre-snap), norm=3.2638
+  Alignment:
+    target            0 ----cipis lacerdo tumaugave 23
+                      0 ----|||||  9
+    query             0 principis sacerdo-tum------ 20
+
+-- fused_3 --
+  OCR:      'runt oculiomnes qui transins'
+  Assigned: 'Ut videret Caligaverunt oculi O vos omnes qui transitis'
+  Words:    [13..22) consumed=9
+  NW score: k=9 (pre-snap), norm=3.0069
+  Alignment:
+    target            0 -------------------runt oculi-------omnes qui transi-ns 28
+                      0 -------------------|||| 23
+    query             0 Ut videret Caligaverunt oculi O vos omnes qui transitis 55
+
+-- fused_4 --
+  OCR:      'per vi lam attendite et vice'
+  Assigned: 'per viam attendite et videte'
+  Words:    [22..27) consumed=5
+  NW score: k=5 (pre-snap), norm=6.2500
+  Alignment:
+    target            0 per vi lam attendite et vi--ce 28
+                      0 |||  3
+    query             0 per vi--am attendite et videte 28
+
+-- fused_5 --
+  OCR:      'ppulto domino eor e'
+  Assigned: 'Si est dolor Sepulto domino Ne forte'
+  Words:    [27..34) consumed=7
+  NW score: k=7 (pre-snap), norm=2.4089
+  Alignment:
+    target            0 --------------ppulto domino -e--or e 19
+                      0 --------------.||||| 20
+    query             0 Si est dolor Sepulto domino Ne forte 36
+
+-- fused_6 --
+  OCR:      'veniant discinuli ejus et furentureum'
+  Assigned: 'veniant discipuli eius et furentur eum'
+  Words:    [34..40) consumed=6
+  NW score: k=6 (pre-snap), norm=7.0140
+  Alignment:
+    target            0 veniant discinuli ejus et furentur-eum 37
+                      0 |||||||  7
+    query             0 veniant discipuli eius et furentur eum 38
+
+-- fused_7 --
+  OCR:      'outano peen suneeit Anor fu'
+  Assigned: 'et dicant plebi surrexit a mortuis'
+  Words:    [40..46) consumed=6
+  NW score: k=6 (pre-snap), norm=0.7261
+  Alignment:
+    target            0 out----ano p-een su-neeit -Anor fu-- 27
+                      0 -.|----||. 10
+    query             0 -et dicant plebi surrexit a mor-tuis 34
+=== END DEBUG ===
+

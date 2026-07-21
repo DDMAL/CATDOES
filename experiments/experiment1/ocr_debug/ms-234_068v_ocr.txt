@@ -1,0 +1,91 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'hic me traditurus est in manus peccar'
+  [fused_1] 'rum Alelius ram quasemne'
+  [fused_2] 'mimiti mei advensum me cogitabani ma'
+  [fused_3] 'la mi chi verbu miquu mandaverumt'
+  [fused_4] 'aovet sume dicano benerite dia hora'
+  [fused_5] 'mmi tejam et miesci te ee e a'
+  [fused_6] 'cmnqadio qui me mnovitus el in manu'
+  [fused_7] ' ta rum uuomodo ee mores'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'hic me traditurus est in manus peccar'
+  Assigned: 'hic me traditurus est in manus peccatorum'
+  Words:    [0..7) consumed=7
+  NW score: k=7 (pre-snap), norm=7.0862
+  Alignment:
+    (pre-start continuation)
+
+-- fused_1 --
+  OCR:      'rum Alelius ram quasemne'
+  Assigned: 'Melius'
+  Words:    [7..8) consumed=1
+  NW score: k=1 (pre-snap), norm=-2.2500
+  Alignment:
+    (pre-start continuation)
+
+-- fused_2 --
+  OCR:      'mimiti mei advensum me cogitabani ma'
+  Assigned: 'inimici mei adversum me cogitabant mala'
+  Words:    [11..17) consumed=6
+  NW score: k=6 (pre-snap), norm=5.8447
+  Alignment:
+    target            0 -mimiti mei advensum me cogitabani m--a 36
+                      0 -.|||.|  7
+    query             0 inimici mei adversum me cogitabant mala 39
+
+-- fused_3 --
+  OCR:      'la mi chi verbu miquu mandaverumt'
+  Assigned: 'michi verbum iniquum mandaverunt'
+  Words:    [17..21) consumed=4
+  NW score: k=4 (pre-snap), norm=5.0775
+  Alignment:
+    target            0 la mi chi verbu- -miquu- mandaverumt 33
+                      0 ---||-|||  9
+    query             0 ---mi-chi verbum iniquum mandaverunt 32
+
+-- fused_4 --
+  OCR:      'aovet sume dicano benerite dia hora'
+  Assigned: 'adversum me dicentes Venite Una hora'
+  Words:    [21..27) consumed=6
+  NW score: k=6 (pre-snap), norm=3.6060
+  Alignment:
+    target            0 aovet su--me dican--o benerite dia hora 35
+                      0 |.||-.||--|| 12
+    query             0 adve-rsum me dicentes Ven--ite Una hora 36
+
+-- fused_5 --
+  OCR:      'mmi tejam et miesci te ee e a'
+  Assigned: 'Dormite iam et requiescite ecce'
+  Words:    [27..32) consumed=5
+  NW score: k=5 (pre-snap), norm=2.7015
+  Alignment:
+    target            0 --mmi te-jam et ---miesci te ee e a 29
+                      0 --.||-||-.|| 12
+    query             0 Dormi-te iam et requiesci-te ecce-- 31
+
+-- fused_6 --
+  OCR:      'cmnqadio qui me mnovitus el in manu'
+  Assigned: 'appropinquabit qui me traditurus est in manus'
+  Words:    [32..39) consumed=7
+  NW score: k=7 (pre-snap), norm=2.8473
+  Alignment:
+    target            0 -----cmnq-adio qui me mnovit--us e-l in manu- 35
+                      0 -----..||-|.|. 14
+    query             0 appropinquabit qui me traditurus est in manus 45
+
+-- fused_7 --
+  OCR:      'ta rum uuomodo ee mores'
+  Assigned: 'peccatorum Quomodo Seniores'
+  Words:    [39..42) consumed=3
+  NW score: k=3 (pre-snap), norm=3.4511
+  Alignment:
+    target            0 ---ta- rum uuomodo ee mores 23
+                      0 ---.|-.||| 10
+    query             0 peccatorum Quomodo Seniores 27
+=== END DEBUG ===
+

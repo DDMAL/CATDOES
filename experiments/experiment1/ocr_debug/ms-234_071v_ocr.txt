@@ -1,0 +1,93 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'cum porte mortisconfrac te sunt Hcoe'
+  [fused_1] 'vos omnes ttendite umiersi'
+  [fused_2] 'populi eovidete do lorem meum diell'
+  [fused_3] 'color n ce quomen e in pare iaco'
+  [fused_4] 'locus et sis et in hon habitavo'
+  [fused_5] 'vuserie stimatus sum.'
+  [fused_6] 'vieut nnenti dornientis porei e'
+  [fused_7] 'monumento quorum non esst memor an'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'cum porte mortisconfrac te sunt Hcoe'
+  Assigned: 'eum porte mortis confracte sunt Hodie'
+  Words:    [0..6) consumed=6
+  NW score: k=6 (pre-snap), norm=6.2472
+  Alignment:
+    (pre-start continuation)
+
+-- fused_1 --
+  OCR:      'vos omnes ttendite umiersi'
+  Assigned: 'O vos omnes Attendite universi'
+  Words:    [6..11) consumed=5
+  NW score: k=5 (pre-snap), norm=6.1228
+  Alignment:
+    target            0 --vos omnes -ttendite umi-ersi 26
+                      0 --|||  5
+    query             0 O vos omnes Attendite universi 30
+
+-- fused_2 --
+  OCR:      'populi eovidete do lorem meum diell'
+  Assigned: 'populi et videte dolorem meum Si'
+  Words:    [11..17) consumed=6
+  NW score: k=6 (pre-snap), norm=5.8267
+  Alignment:
+    target            0 populi e-ovidete do lorem meum diell 35
+                      0 ||||||  6
+    query             0 populi et videte do-lorem meum Si--- 32
+
+-- fused_3 --
+  OCR:      'color n ce quomen e in pare iaco'
+  Assigned: 'est dolor Ecce quomodo In pace factus'
+  Words:    [17..24) consumed=7
+  NW score: k=7 (pre-snap), norm=2.4703
+  Alignment:
+    target            0 ----color n ce quomen e in pare iac--o 32
+                      0 ----.||||  9
+    query             0 est dolor Ecce quom-odo In pace factus 37
+
+-- fused_4 --
+  OCR:      'locus et sis et in hon habitavo'
+  Assigned: 'est locus eius et in syon habitatio'
+  Words:    [24..31) consumed=7
+  NW score: k=7 (pre-snap), norm=4.4931
+  Alignment:
+    target            0 ----locus et si-s et in -hon habita-vo 31
+                      0 ----|||||  9
+    query             0 est locus e---ius et in syon habitatio 35
+
+-- fused_5 --
+  OCR:      'vuserie stimatus sum.'
+  Assigned: 'eius Et erit Estimatus sum'
+  Words:    [31..36) consumed=5
+  NW score: k=5 (pre-snap), norm=4.1512
+  Alignment:
+    target            0 -vus----erie -stimatus sum. 21
+                      0 -.||----|||. 12
+    query             0 eius Et erit Estimatus sum- 26
+
+-- fused_6 --
+  OCR:      'vieut nnenti dornientis porei e'
+  Assigned: 'Et sicut vulnerati dormientes proiecti in'
+  Words:    [36..42) consumed=6
+  NW score: k=6 (pre-snap), norm=2.5245
+  Alignment:
+    target            0 ---vieut --nne-nti dornientis p-ore--i -e 31
+                      0 ---.|.||  8
+    query             0 Et sicut vulnerati dormientes proiecti in 41
+
+-- fused_7 --
+  OCR:      'monumento quorum non esst memor an'
+  Assigned: 'monumento quorum non es memor'
+  Words:    [42..47) consumed=5
+  NW score: k=5 (pre-snap), norm=6.6559
+  Alignment:
+    target            0 monumento quorum non esst memor an 34
+                      0 |||||||||  9
+    query             0 monumento quorum non es-- memor--- 29
+=== END DEBUG ===
+

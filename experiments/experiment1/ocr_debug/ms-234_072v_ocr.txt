@@ -1,0 +1,97 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'us do mi inge lus domi'
+  [fused_1] 'ni locutus est mulieri di cens quem qui'
+  [fused_2] 'ts anile i sum queri tis jam liv'
+  [fused_3] 's glus ioa ecce pecunet vos in qi'
+  [fused_4] 'esam ibi eum nunionis siut arer au '
+  [fused_5] 'eenite cm tansillet saro enali'
+  [fused_6] 'maneuma sabbatorum veniunt ad moninie'
+  [fused_7] 'tum oi toiam e * '
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'us do mi inge lus domi'
+  Assigned: 'Quoniam ipsius est mare et ipse fecit illud et aridam fundaverunt manus eius venite adoremus et procidamus ante deum ploremus coram domino qui fecit nos quia ipse est dominus deus noster nos autem populus eius et oves pascue eius Hodie si vocem eius audieritis nolite obdurare corda vestra sicut in exacerbatione secundum diem temptationis in deserto ubi temptaverunt me patres vestri probaverunt et viderunt opera mea Quadraginta annis proximus fui generationi huic et dixi semper hii errant corde ipsi vero non cognoverunt vias meas quibus iuravi in ira mea si introibunt in requiem meam Gloria patri et filio et spiritui sancto sicut erat in principio et nunc et semper et in secula seculorum amen'
+  Words:    [0..114) consumed=114
+  NW score: k=114 (pre-snap), norm=-1.2563
+  Alignment:
+    (pre-start continuation)
+
+-- fused_1 --
+  OCR:      'ni locutus est mulieri di cens quem qui'
+  Assigned: 'Angelus domini locutus est mulieribus dicens quem queritis'
+  Words:    [116..124) consumed=8
+  NW score: k=8 (pre-snap), norm=4.6467
+  Alignment:
+    target            0 ------------ni locutus est mulieri--- di cens quem qu----i-
+                      0 ------------||
+    query             0 Angelus domini locutus est mulieribus di-cens quem queritis
+    
+    target           39
+                     14
+    query            58
+
+-- fused_2 --
+  OCR:      'ts anile i sum queri tis jam liv'
+  Assigned: 'an ihesum queritis Iam'
+  Words:    [124..128) consumed=4
+  NW score: k=4 (pre-snap), norm=3.2412
+  Alignment:
+    target            0 ts anile i- sum queri tis jam liv 32
+                      0 ---||---  8
+    query             0 ---an--- ihesum queri-tis Iam---- 22
+
+-- fused_3 --
+  OCR:      's glus ioa ecce pecunet vos in qi'
+  Assigned: 'surrexit Angelus domini Ecce precedet vos in'
+  Words:    [128..135) consumed=7
+  NW score: k=7 (pre-snap), norm=2.6243
+  Alignment:
+    target            0 s------- --g-lus ---ioa ecce p-ecunet vos in qi 33
+                      0 |-------  8
+    query             0 surrexit Angelus domini Ecce precedet vos in--- 44
+
+-- fused_4 --
+  OCR:      'esam ibi eum nunionis siut arer au'
+  Assigned: 'galyleam ibi eum videbitis sicut'
+  Words:    [135..140) consumed=5
+  NW score: k=5 (pre-snap), norm=1.8797
+  Alignment:
+    target            0 -----esam ibi eum --nunionis si-ut arer au 34
+                      0 -----|-||  9
+    query             0 galyle-am ibi eum videbi-tis sicut-------- 32
+
+-- fused_5 --
+  OCR:      'eenite cm tansillet saro enali'
+  Assigned: 'dixit vobis Venite Dum transisset sabbatum'
+  Words:    [140..146) consumed=6
+  NW score: k=6 (pre-snap), norm=1.0705
+  Alignment:
+    target            0 ------------eenite -cm t-ansillet saro ena-li 30
+                      0 ------------.||||| 18
+    query             0 dixit vobis Venite Dum transisset sa---bbatum 42
+
+-- fused_6 --
+  OCR:      'maneuma sabbatorum veniunt ad moninie'
+  Assigned: 'Et valde mane una sabbatorum veniunt ad monumentum'
+  Words:    [146..154) consumed=8
+  NW score: k=8 (pre-snap), norm=4.3942
+  Alignment:
+    target            0 ---------mane-uma sabbatorum veniunt ad mon--in-ie 37
+                      0 ---------||||-|.| 17
+    query             0 Et valde mane una sabbatorum veniunt ad monumentum 50
+
+-- fused_7 --
+  OCR:      'tum oi toiam e *'
+  Assigned: 'orto iam sole Ut'
+  Words:    [154..158) consumed=4
+  NW score: k=4 (pre-snap), norm=0.7500
+  Alignment:
+    target            0 tum oi to-iam ---e -* 16
+                      0 ----|-.||-||| 13
+    query             0 ----o-rto iam sole Ut 16
+=== END DEBUG ===
+

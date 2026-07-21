@@ -1,0 +1,99 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'mm xongregaverunt miquitatem'
+  [fused_1] 'no cagidie bani sa ras etu gla'
+  [fused_2] 'enlarunmnsa c'
+  [fused_3] 'tam isis in laqueum et in retributiones'
+  [fused_4] 'et in scan dalum . Lum e 5'
+  [fused_5] 'vuda quitere uerarum datur salla'
+  [fused_6] 'bieus n um Nagel larim vi us'
+  [fused_7] 'tis osculum fere'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'mm xongregaverunt miquitatem'
+  Assigned: 'populi Congregaverunt iniquitatem'
+  Words:    [0..3) consumed=3
+  NW score: k=3 (pre-snap), norm=4.9017
+  Alignment:
+    target            0 ----mm xongregaverunt -miquitatem 28
+                      0 ----..  6
+    query             0 populi Congregaverunt iniquitatem 33
+
+-- fused_1 --
+  OCR:      'no cagidie bani sa ras etu gla'
+  Assigned: 'sibi et egrediebantur foras Cum gladiis'
+  Words:    [3..9) consumed=6
+  NW score: k=6 (pre-snap), norm=0.5262
+  Alignment:
+    target            0 --no --cag-idie ban--i sa ras etu- gla---- 30
+                      0 --..  4
+    query             0 sibi et egredie-bantur -foras -Cum gladiis 39
+
+-- fused_2 --
+  OCR:      'enlarunmnsa c'
+  Assigned: 'Revelabunt celi'
+  Words:    [9..11) consumed=2
+  NW score: k=2 (pre-snap), norm=0.0716
+  Alignment:
+    target            0 -e-nlarunmnsa c--- 13
+                      0 -|-.||.||---. 13
+    query             0 Revelabun---t celi 15
+
+-- fused_3 --
+  OCR:      'tam isis in laqueum et in retributiones'
+  Assigned: 'Fiat mensa eorum coram ipsis in laqueum et in retributiones'
+  Words:    [11..21) consumed=10
+  NW score: k=10 (pre-snap), norm=5.0033
+  Alignment:
+    target            0 ---t----------------am i-sis in laqueum et in retributiones
+                      0 ---|----------------||
+    query             0 Fiat mensa eorum coram ipsis in laqueum et in retributiones
+    
+    target           39
+                     22
+    query            59
+
+-- fused_4 --
+  OCR:      'et in scan dalum . Lum e 5'
+  Assigned: 'et in scandalum Cum eis'
+  Words:    [21..26) consumed=5
+  NW score: k=5 (pre-snap), norm=5.2343
+  Alignment:
+    target            0 et in scan dalum . Lum e 5 26
+                      0 ||  2
+    query             0 et in scan-dalum-- Cum eis 23
+
+-- fused_5 --
+  OCR:      'vuda quitere uerarum datur salla'
+  Assigned: 'O iuda qui dereliquisti Verax datur fallacibus'
+  Words:    [26..33) consumed=7
+  NW score: k=7 (pre-snap), norm=2.6325
+  Alignment:
+    target            0 --vuda qui-tere-------- uerarum datur salla----- 32
+                      0 --.|||  6
+    query             0 O iuda qui dereliquisti Vera--x datur fallacibus 46
+
+-- fused_6 --
+  OCR:      'bieus n um Nagel larim vi us'
+  Assigned: 'pium flagellat impius'
+  Words:    [33..36) consumed=3
+  NW score: k=3 (pre-snap), norm=1.7733
+  Alignment:
+    target            0 bieus n um -Nagel la-rim vi us 28
+                      0 .|------|| 10
+    query             0 pi------um flagel-lat im-pi-us 21
+
+-- fused_7 --
+  OCR:      'tis osculum fere'
+  Assigned: 'Et pacis osculum ferebas'
+  Words:    [36..40) consumed=4
+  NW score: k=4 (pre-snap), norm=4.6949
+  Alignment:
+    target            0 -t----is osculum fere--- 16
+                      0 -|----||  8
+    query             0 Et pacis osculum ferebas 24
+=== END DEBUG ===
+

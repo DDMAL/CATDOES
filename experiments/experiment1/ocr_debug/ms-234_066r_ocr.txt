@@ -1,0 +1,93 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'meum Xonlumet. ugrediente do'
+  [fused_1] 'umnqe audissent quia Jhese venet Jheroso'
+  [fused_2] 'ii mamerierunt oni uiam  euRa'
+  [fused_3] 'us rahelao deus deus me'
+  [fused_4] 'ccspice in mne quare me celiquis'
+  [fused_5] 'nomia. cndusit  imnes mn'
+  [fused_6] 'mei abverium me cogitaverim mala'
+  [fused_7] 'nichi verbum niquum mandavetumt'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'meum Xonlumet. ugrediente do'
+  Assigned: 'meum Consumetur'
+  Words:    [0..2) consumed=2
+  NW score: k=2 (pre-snap), norm=2.0982
+  Alignment:
+    (pre-start continuation)
+
+-- fused_1 --
+  OCR:      'umnqe audissent quia Jhese venet Jheroso'
+  Assigned: 'Cumque audissent quia venit ihecuc'
+  Words:    [4..9) consumed=5
+  NW score: k=5 (pre-snap), norm=3.8234
+  Alignment:
+    target            0 -umnq-e audissent quia Jhese venet Jheroso 40
+                      0 -||-|-|  7
+    query             0 Cum-que audissent quia------ venit ihe-cuc 34
+
+-- fused_2 --
+  OCR:      'ii mamerierunt oni uiam  euRa'
+  Assigned: 'iherosolimam exierunt obviam ei'
+  Words:    [9..13) consumed=4
+  NW score: k=4 (pre-snap), norm=2.2012
+  Alignment:
+    target            0 i-------i mam-erierunt oni uiam  euRa 29
+                      0 |-------|-|||-|.|||||| 22
+    query             0 iherosoli-mam exierunt o--bviam- e--i 31
+
+-- fused_3 --
+  OCR:      'us rahelao deus deus me'
+  Assigned: 'Cum ramis Deus israhel Deus deus meus'
+  Words:    [13..20) consumed=7
+  NW score: k=7 (pre-snap), norm=2.9138
+  Alignment:
+    target            0 ------------us --rahelao deus deus me-- 23
+                      0 ------------|| 14
+    query             0 Cum ramis Deus israhel-- Deus deus meus 37
+
+-- fused_4 --
+  OCR:      'ccspice in mne quare me celiquis'
+  Assigned: 'respice in me quare me dereliquisti'
+  Words:    [20..26) consumed=6
+  NW score: k=6 (pre-snap), norm=5.4383
+  Alignment:
+    target            0 ccspice in mne quare me --celiquis-- 32
+                      0 ..|||||  7
+    query             0 respice in m-e quare me dereliquisti 35
+
+-- fused_5 --
+  OCR:      'nomia. cndusit  imnes mn'
+  Assigned: 'Quoniam Conclusit Omnes'
+  Words:    [26..29) consumed=3
+  NW score: k=3 (pre-snap), norm=1.7451
+  Alignment:
+    target            0 -nomia. -cn-dusit  imnes mn 24
+                      0 -.|.||.  7
+    query             0 Quoniam Conclusit- Omnes--- 23
+
+-- fused_6 --
+  OCR:      'mei abverium me cogitaverim mala'
+  Assigned: 'inimici mei adversum me cogitabant mala'
+  Words:    [29..35) consumed=6
+  NW score: k=6 (pre-snap), norm=3.8214
+  Alignment:
+    target            0 --------mei abverium me cogitaverim mala 32
+                      0 --------||| 11
+    query             0 inimici mei adversum me cogita-bant mala 39
+
+-- fused_7 --
+  OCR:      'nichi verbum niquum mandavetumt'
+  Assigned: 'michi verbum iniquum mandaverunt'
+  Words:    [35..39) consumed=4
+  NW score: k=4 (pre-snap), norm=6.4135
+  Alignment:
+    target            0 nichi verbum -niquum mandavetumt 31
+                      0 .||||  5
+    query             0 michi verbum iniquum mandaverunt 32
+=== END DEBUG ===
+

@@ -1,0 +1,99 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'tus non fu is Be tui dena  cce curb.'
+  [fused_1] 'avs quidem hominis vadit sicut su'
+  [fused_2] 'cum ess ce il love aute homini illi rer'
+  [fused_3] 'quem trade tu . ad crutngressus'
+  [fused_4] ''
+  [fused_5] 'maius e. Luncaut nlis misa vus i'
+  [fused_6] 'pem vensitum una tagsam rehoe '
+  [fused_7] 'em non habe mus meu ee sarm'
+  [fused_8] 'Le cum indutus'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'tus non fu is Be tui dena  cce curb.'
+  Assigned: 'natus non fuisset Qui denariorum'
+  Words:    [0..5) consumed=5
+  NW score: k=5 (pre-snap), norm=2.6811
+  Alignment:
+    (pre-start continuation)
+
+-- fused_1 --
+  OCR:      'avs quidem hominis vadit sicut su'
+  Assigned: 'Filius quidem hominis vadit sicut'
+  Words:    [7..12) consumed=5
+  NW score: k=5 (pre-snap), norm=5.6970
+  Alignment:
+    target            0 ---avs quidem hominis vadit sicut su 33
+                      0 ---..|  6
+    query             0 Filius quidem hominis vadit sicut--- 33
+
+-- fused_2 --
+  OCR:      'cum ess ce il love aute homini illi rer'
+  Assigned: 'scriptum est de illo ve autem homini illi per'
+  Words:    [12..21) consumed=9
+  NW score: k=9 (pre-snap), norm=5.2754
+  Alignment:
+    target            0 -c----um ess ce il lo-ve aute- homini illi rer 39
+                      0 -|----||  8
+    query             0 scriptum est de il-lo ve autem homini illi per 45
+
+-- fused_3 --
+  OCR:      'quem trade tu . ad crutngressus'
+  Assigned: 'quem tradetur Ad crucifigendum Ingressus'
+  Words:    [21..26) consumed=5
+  NW score: k=5 (pre-snap), norm=4.0325
+  Alignment:
+    target            0 quem trade tu . ad cru-----------tngressus 31
+                      0 ||||  4
+    query             0 quem trade-tu-r Ad crucifigendum Ingressus 40
+
+-- fused_4 --
+  OCR:      ''
+  Assigned: 'pylatus Tunc ait'
+  Words:    [26..29) consumed=3
+
+-- fused_5 --
+  OCR:      'maius e. Luncaut nlis misa vus i'
+  Assigned: 'illis pylatus regem'
+  Words:    [29..32) consumed=3
+  NW score: k=3 (pre-snap), norm=-1.5005
+  Alignment:
+    target            0 maius e. Luncaut nlis misa vus ----i 32
+                      0 --|--------------.||| 21
+    query             0 --i--------------llis pyla-tus regem 19
+
+-- fused_6 --
+  OCR:      'pem vensitum una tagsam rehoe'
+  Assigned: 'vestrum crucifigam responderunt'
+  Words:    [32..35) consumed=3
+  NW score: k=3 (pre-snap), norm=0.3002
+  Alignment:
+    target            0 pem vensit-um --una tagsam re-ho--e---- 29
+                      0 ----||-|-|-|| 13
+    query             0 ----ve-s-trum cru-cifig-am responderunt 31
+
+-- fused_7 --
+  OCR:      'em non habe mus meu ee sarm'
+  Assigned: 'regem non habemus nisi cesarem'
+  Words:    [35..40) consumed=5
+  NW score: k=5 (pre-snap), norm=3.7596
+  Alignment:
+    target            0 ---em non habe mus -meu ee sar-m 27
+                      0 ---||  5
+    query             0 regem non habe-mus nisi ce-sarem 30
+
+-- fused_8 --
+  OCR:      'Le cum indutus'
+  Assigned: 'Et cum indutus'
+  Words:    [40..43) consumed=3
+  NW score: k=3 (pre-snap), norm=6.1429
+  Alignment:
+    target            0 Le cum indutus 14
+                      0 ..  2
+    query             0 Et cum indutus 14
+=== END DEBUG ===
+

@@ -1,0 +1,91 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'labia mnea aperi es et os meum annunciabit'
+  [fused_1] 'laudem cu  an iber. mica i palmis suu'
+  [fused_2] 'vero non eigno et Venrte exul'
+  [fused_3] 'oie qua mnuoro ecus ceis mens enne me'
+  [fused_4] 'de manu recratoris et de manu contra Legemia'
+  [fused_5] 'gentis et in  qui iidicasti '
+  [fused_6] 'mei uimici mei et moximi me'
+  [fused_7] 'Malens ttende domi VNomo pa'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'labia mnea aperi es et os meum annunciabit'
+  Assigned: 'labia mea aperies et os meum annunciabit'
+  Words:    [0..7) consumed=7
+  NW score: k=7 (pre-snap), norm=7.4656
+  Alignment:
+    (pre-start continuation)
+
+-- fused_1 --
+  OCR:      'laudem cu  an iber. mica i palmis suu'
+  Assigned: 'laudem tuam Libera'
+  Words:    [7..10) consumed=3
+  NW score: k=3 (pre-snap), norm=1.2012
+  Alignment:
+    (pre-start continuation)
+
+-- fused_2 --
+  OCR:      'vero non eigno et Venrte exul'
+  Assigned: 'Ipsi vero non cognoverunt ~Venite exultemus'
+  Words:    [10..16) consumed=6
+  NW score: k=6 (pre-snap), norm=3.4548
+  Alignment:
+    target            0 -----vero non eigno e---t -Venrte exul----- 29
+                      0 -----||||  9
+    query             0 Ipsi vero non cognoverunt ~Venite exultemus 43
+
+-- fused_3 --
+  OCR:      'oie qua mnuoro ecus ceis mens enne me'
+  Assigned: 'In die qua invocavi Deus deus meus eripe me'
+  Words:    [16..25) consumed=9
+  NW score: k=9 (pre-snap), norm=2.8580
+  Alignment:
+    target            0 ---oie qua mnuo--ro -ecus ceis mens e-nne me 37
+                      0 ---.||  6
+    query             0 In die qua invocavi De-us deus meus eripe me 43
+
+-- fused_4 --
+  OCR:      'de manu recratoris et de manu contra Legemia'
+  Assigned: 'de manu peccatoris et de manu contra legem'
+  Words:    [25..33) consumed=8
+  NW score: k=8 (pre-snap), norm=6.6762
+  Alignment:
+    target            0 de manu recratoris et de manu contra Legemia 44
+                      0 ||  2
+    query             0 de manu peccatoris et de manu contra legem-- 42
+
+-- fused_5 --
+  OCR:      'gentis et in  qui iidicasti'
+  Assigned: 'agentis et iniqui Iudicasti'
+  Words:    [33..37) consumed=4
+  NW score: k=4 (pre-snap), norm=5.7407
+  Alignment:
+    target            0 -gentis et in  qui iidicasti 27
+                      0 -||||||  7
+    query             0 agentis et in-iqui Iudicasti 27
+
+-- fused_6 --
+  OCR:      'mei uimici mei et moximi me'
+  Assigned: 'Fratres mei Amici mei et proximi mei'
+  Words:    [37..44) consumed=7
+  NW score: k=7 (pre-snap), norm=4.2660
+  Alignment:
+    target            0 --------mei uimici mei et -moximi me- 27
+                      0 --------||| 11
+    query             0 Fratres mei -Amici mei et proximi mei 36
+
+-- fused_7 --
+  OCR:      'Malens ttende domi VNomo pa'
+  Assigned: 'Quasi alieni Attende domine Homo pacis'
+  Words:    [44..50) consumed=6
+  NW score: k=6 (pre-snap), norm=3.3093
+  Alignment:
+    target            0 -----Mal-ens -ttende domi-- VNomo pa--- 27
+                      0 -----.||-||. 12
+    query             0 Quasi alieni Attende domine -Homo pacis 38
+=== END DEBUG ===
+

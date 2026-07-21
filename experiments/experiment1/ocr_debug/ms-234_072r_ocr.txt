@@ -1,0 +1,110 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'Lexi'
+  [fused_1] 'us et ipsi quidem de manu muarepul'
+  [fused_2] 'sune tactus. nuo ce e sis'
+  [fused_3] 'factus est rsos nobis oroiens ule ad morce'
+  [fused_4] 'mortem autem crucis ipse lignum'
+  [fused_5] 'uuc oiis adoco pace ffactus est'
+  [fused_6] 'docus esius et in srpou habita nous'
+  [fused_7] 'itus elt ad mor '
+  [fused_8] 'V ia allelu ia ps denite'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'Lexi'
+  Assigned: 'amplius et ipsi'
+  Words:    [0..3) consumed=3
+  NW score: k=3 (pre-snap), norm=-4.5185
+  Alignment:
+    target            0 -------Le----xi  4
+                      0 -------.|----.| 15
+    query             0 amplius et ipsi 15
+
+-- fused_1 --
+  OCR:      'us et ipsi quidem de manu muarepul'
+  Assigned: 'de manu tua repulsi'
+  Words:    [3..7) consumed=4
+  NW score: k=4 (pre-snap), norm=1.5738
+  Alignment:
+    target            0 us et ipsi quidem de manu mua-repul-- 34
+                      0 ------------------|| 20
+    query             0 ------------------de manu tua repulsi 19
+
+-- fused_2 --
+  OCR:      'sune tactus. nuo ce e sis'
+  Assigned: 'sunt Factus Agnus dei'
+  Words:    [7..11) consumed=4
+  NW score: k=4 (pre-snap), norm=2.6186
+  Alignment:
+    target            0 sune tactus. --nuo ce e sis 25
+                      0 |||.  4
+    query             0 sunt Factus- Agnus de----i- 21
+
+-- fused_3 --
+  OCR:      'factus est rsos nobis oroiens ule ad morce'
+  Assigned: 'xpistus Xpistus factus est pro nobis obediens usque ad mortem'
+  Words:    [11..21) consumed=10
+  NW score: k=10 (pre-snap), norm=3.3784
+  Alignment:
+    target            0 ----------------factus est -rsos nobis o-roiens u--le ad mor
+                      0 ----------------||||||
+    query             0 xpistus Xpistus factus est pr-o- nobis obediens usque ad mor
+    
+    target           40 ce- 42
+                     22 .|- 25
+    query            58 tem 61
+
+-- fused_4 --
+  OCR:      'mortem autem crucis ipse lignum'
+  Assigned: 'mortem autem crucis Ipse lignum'
+  Words:    [21..26) consumed=5
+  NW score: k=5 (pre-snap), norm=7.5806
+  Alignment:
+    target            0 mortem autem crucis ipse lignum 31
+                      0 ||||||  6
+    query             0 mortem autem crucis Ipse lignum 31
+
+-- fused_5 --
+  OCR:      'uuc oiis adoco pace ffactus est'
+  Assigned: 'Sicut ovis ad occisionem In pace factus est'
+  Words:    [26..34) consumed=8
+  NW score: k=8 (pre-snap), norm=3.8071
+  Alignment:
+    target            0 --uuc oiis ad-oc----o------ pace ffactus est 31
+                      0 --.|.  5
+    query             0 Sicut ovis ad occisionem In pace -factus est 43
+
+-- fused_6 --
+  OCR:      'docus esius et in srpou habita nous'
+  Assigned: 'locus eius et in syon habitatio eius'
+  Words:    [34..41) consumed=7
+  NW score: k=7 (pre-snap), norm=4.8456
+  Alignment:
+    target            0 docus esius et in srpou habita--- nous 35
+                      0 .||||  5
+    query             0 locus e-ius et in s-yon habitatio eius 36
+
+-- fused_7 --
+  OCR:      'itus elt ad mor'
+  Assigned: 'Traditus est ad mortem'
+  Words:    [41..45) consumed=4
+  NW score: k=4 (pre-snap), norm=4.2938
+  Alignment:
+    target            0 ----itus elt ad mor--- 15
+                      0 ----||||  8
+    query             0 Traditus est ad mortem 22
+
+-- fused_8 --
+  OCR:      'V ia allelu ia ps denite'
+  Assigned: 'Alleluia alleluia ~Venite'
+  Words:    [45..48) consumed=3
+  NW score: k=3 (pre-snap), norm=3.3885
+  Alignment:
+    target            0 ----V ia allelu ia ps denite 24
+                      0 ----..||  8
+    query             0 Alleluia allelu-ia --~Venite 25
+=== END DEBUG ===
+
