@@ -1,0 +1,11 @@
+,File Types,Storage granularity,Spatial encoding,Image reference,Metadata,Splits
+ICDAR2019-HDRC-IR,Heterogeneous (jpg/tif) + CSV,Aggregated per split,N/A (retrieval task),IIIF manifest (nested),"Writer ID, category; richer metadata external",No official train set; val/test separate files
+ICDAR2017-CLaMM,TIFF + CSV,Aggregated per task-pair,N/A (classification),Filename (multi-scheme),"Numeric script/date class, no inline legend","Task-paired train/test, split by file"
+ICFHR2016-CLaMM,TIFF + CSV,Aggregated per zip,"N/A (pre-cropped, no coords)",Filename (multi-scheme),"Numeric script class, no inline legend","Task-paired train/test, split by file"
+IAM,PNG + XML (+ ASCII variant),"Per-image, nested (form→line→word)",Bbox + baseline + contour,Hierarchical filename ID,"Writer, geometry params, POS tag","Writer-independent, 2 validation sets"
+RRC,JPEG/PNG + TXT,Mixed (per-image / per-split),Quadrilateral,Filename convention,Transcription only,"Shared pool, task-specific crops"
+COCO,JPG + JSON,Aggregated per split,Axis-aligned bbox (+ polygon/mask),Numeric ID join,"info/license/category, 2-level taxonomy","File per split, test withheld"
+VOC,JPG + XML,Per-image,Axis-aligned bbox (+ mask),Filename match,Class + truncated/difficult/pose flags,ID list per split (txt)
+ImageNet,JPEG + XML (VOC-derived),Per-image (+ CSV variant),Axis-aligned bbox,Filename match,WordNet synset hierarchy,"Multiple named tracks, test withheld"
+Open Images,JPEG + CSV,Aggregated per split,Axis-aligned bbox (normalized 0–1),Numeric ID join,Class + hierarchy + legend file,"3 splits, uneven annotation density"
+PAGE XML,JPG + XML,"Per-image, nested by archive",Polygon + baseline + reading order,Filename attribute,Creator/timestamp/region type,"Test-heavy, split by layout complexity"
