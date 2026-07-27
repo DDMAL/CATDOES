@@ -1,4 +1,4 @@
-,File Types,Storage granularity,Spatial encoding,Image reference,Metadata,Splits
+Dataset,File Types,Storage granularity,Spatial encoding,Image reference,Metadata,Splits
 ICDAR2019-HDRC-IR,Heterogeneous (jpg/tif) + CSV,Aggregated per split,N/A (retrieval task),IIIF manifest (nested),"Writer ID, category; richer metadata external",No official train set; val/test separate files
 ICDAR2017-CLaMM,TIFF + CSV,Aggregated per task-pair,N/A (classification),Filename (multi-scheme),"Numeric script/date class, no inline legend","Task-paired train/test, split by file"
 ICFHR2016-CLaMM,TIFF + CSV,Aggregated per zip,"N/A (pre-cropped, no coords)",Filename (multi-scheme),"Numeric script class, no inline legend","Task-paired train/test, split by file"
