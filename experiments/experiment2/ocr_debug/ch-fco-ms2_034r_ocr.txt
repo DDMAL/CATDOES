@@ -1,0 +1,167 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'benedixerunt viventem in secula'
+  [fused_1] 'norum. funderunt sanguinem sanc'
+  [fused_2] 'to Moa incirtuituherusalemet'
+  [fused_3] 'none tents an se pei ret . Nosuerunt mor'
+  [fused_4] 'talia servorum tuo rum escas volatilibus celi Carnes Sanc'
+  [fused_5] 'torimi tuorum be stus te icatu d in funt'
+  [fused_6] 'lanti qmm passi sunt propter tem commneumdie'
+  [fused_7] 'os. Quia clamant ad te co t noi o vendi'
+  [fused_8] 'Domine Sanguinem Sanctorum tuo rum qui effi sus'
+  [fused_9] 'ett demace in sulit san cti qui non mnqui'
+  [fused_10] 'nave runt vestimenta'
+  [fused_11] 'in bis qui digni sunt .'
+  [fused_12] 'sunt milietibus non suent comaina utr'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'benedixerunt viventem in secula'
+  Assigned: 'in facies suas et benedixerunt viventem in secula'
+  Words:    [0..8) consumed=8
+  NW score: k=8 (pre-snap), norm=4.8750
+  Anchor:   word 13 (within_chant_7), diff=5, snapped=False, forced=False
+  Alignment:
+    target            0 ------------------benedixerunt viventem in secula 31
+                      0 ------------------|||||||||||| 30
+    query             0 in facies suas et benedixerunt viventem in secula 49
+
+-- fused_1 --
+  OCR:      'norum. funderunt sanguinem sanc'
+  Assigned: 'seculorum Mittentes Effunderunt sanguinem sanc'
+  Words:    [8..13) consumed=5
+  NW score: k=5 (pre-snap), norm=3.6719
+  Anchor:   word 13 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ----norum---------. --funderunt sanguinem sanc----- 31
+                      0 ----.||||---------. 19
+    query             0 seculorum Mittentes Effunderunt sanguinem sanctorum 51
+
+-- fused_2 --
+  OCR:      'to Moa incirtuituherusalemet'
+  Assigned: 'torum velut aquam In circuitu iherusalem et'
+  Words:    [13..19) consumed=6
+  NW score: k=6 (pre-snap), norm=3.2001
+  Anchor:   word 19 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ----to -Moa- in-cirtuitu--herusalem-et 28
+                      0 ----|-  6
+    query             0 velut- aquam In circuitu iherusalem et 37
+
+-- fused_3 --
+  OCR:      'none tents an se pei ret . Nosuerunt mor'
+  Assigned: 'non erat qui sepeliret Posuerunt mor'
+  Words:    [19..25) consumed=6
+  NW score: k=6 (pre-snap), norm=3.1360
+  Anchor:   word 25 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 none te-nts -an se pe-i ret . Nosuerunt mor----- 40
+                      0 |||-  4
+    query             0 non- -erat- qui se-peli-ret-- Posuerunt mortalia 41
+
+-- fused_4 --
+  OCR:      'talia servorum tuo rum escas volatilibus celi Carnes Sanc'
+  Assigned: 'talia servorum tuorum escas volatilibus celi carnes sanc'
+  Words:    [25..32) consumed=7
+  NW score: k=6 (pre-snap), norm=5.9037
+  Anchor:   word 32 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 talia servorum tuo rum escas volatilibus celi Carnes Sanc---
+                      0 ------||||||||
+    query             0 ------servorum tuo-rum escas volatilibus celi carnes sanctor
+    
+    target           57 -- 57
+                     14 -- 16
+    query            53 um 55
+
+-- fused_5 --
+  OCR:      'torimi tuorum be stus te icatu d in funt'
+  Assigned: 'torum tuorum bestiis terre In circutu Isti sunt'
+  Words:    [32..39) consumed=7
+  NW score: k=7 (pre-snap), norm=2.3212
+  Anchor:   word 39 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 torimi tuorum be st-us te------ -i-catu -d in funt 40
+                      0 -------|||||| 13
+    query             0 -------tuorum be-stiis terre In circutu Isti- sunt 41
+
+-- fused_6 --
+  OCR:      'lanti qmm passi sunt propter tem commneumdie'
+  Assigned: 'sancti qui passi sunt propter te domine vindica e'
+  Words:    [39..48) consumed=9
+  NW score: k=7 (pre-snap), norm=4.9729
+  Anchor:   word 48 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 lan-ti qmm passi sunt propter tem commne--umdi---e-- 44
+                      0 .||-||  6
+    query             0 sancti qui passi sunt propter te- domine vindica eos 51
+
+-- fused_7 --
+  OCR:      'os. Quia clamant ad te co t noi o vendi'
+  Assigned: 'os Quia clamant ad te cotidie Vindica'
+  Words:    [48..54) consumed=6
+  NW score: k=5 (pre-snap), norm=4.2395
+  Anchor:   word 54 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 os. Quia clamant ad te co t noi o vendi-- 39
+                      0 ----||||  8
+    query             0 ----Quia clamant ad te co-t-idi-e Vindica 34
+
+-- fused_8 --
+  OCR:      'Domine Sanguinem Sanctorum tuo rum qui effi sus'
+  Assigned: 'domine sanguinem sanctorum tuorum qui effusus'
+  Words:    [54..60) consumed=6
+  NW score: k=6 (pre-snap), norm=6.3928
+  Anchor:   word 60 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 Domine Sanguinem Sanctorum tuo rum qui effi sus 47
+                      0 .|||||  6
+    query             0 domine sanguinem sanctorum tuo-rum qui eff-usus 45
+
+-- fused_9 --
+  OCR:      'ett demace in sulit san cti qui non mnqui'
+  Assigned: 'est Quia Isti sunt sancti qui non inqui'
+  Words:    [60..68) consumed=8
+  NW score: k=8 (pre-snap), norm=3.1437
+  Anchor:   word 68 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ett demace ---in sulit san cti qui non mnqui-------- 41
+                      0 |.|  3
+    query             0 est Quia-- Isti- su-nt san-cti qui non inquinaverunt 47
+
+-- fused_10 --
+  OCR:      'nave runt vestimenta'
+  Assigned: 'naverunt vestimenta sua Ambulabunt mecum'
+  Words:    [68..72) consumed=4
+  NW score: k=1 (pre-snap), norm=3.2527
+  Anchor:   word 72 (within_chant_7), diff=3, snapped=False, forced=True
+  Alignment:
+    target            0 nave runt vestimenta--------------------- 20
+                      0 ----------||||||||||--------------------- 41
+    query             0 ----------vestimenta sua Ambulabunt mecum 31
+
+-- fused_11 --
+  OCR:      'in bis qui digni sunt .'
+  Assigned: 'in albis quia digni sunt Hii'
+  Words:    [72..78) consumed=6
+  NW score: k=5 (pre-snap), norm=6.0014
+  Anchor:   word 78 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 in --bis qui- digni sunt --. 23
+                      0 ||  2
+    query             0 in albis quia digni sunt Hii 28
+
+-- fused_12 --
+  OCR:      'sunt milietibus non suent comaina utr'
+  Assigned: 'sunt qui cum mulieribus non sunt coinquinati virgines'
+  Words:    [78..86) consumed=8
+  NW score: k=7 (pre-snap), norm=3.7672
+  Anchor:   word 86 (page_break_77), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 sunt-------- milietibus non suent co--maina-- utr----- 37
+                      0 ||||-------- 12
+    query             0 sunt qui cum mulieribus non su-nt coinquinati virgines 53
+=== END DEBUG ===
+

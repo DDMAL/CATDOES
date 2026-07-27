@@ -1,0 +1,219 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'Notaus qd a dominica de adventuusque advas dominui et a doinica botreai usde ad Pascha resurrs cantas'
+  [fused_1] 'erm in dominicis diebus eor t edoin lau eideu infestis x se . ane quedenrus ad laudeminfta ebdam domini '
+  [fused_2] 'horas diei.'
+  [fused_3] '2 e stillabunt montes dulcedinem et colles fuent lac et mel'
+  [fused_4] 'Alleluya ps dominus Regis evovae a a syon et'
+  [fused_5] 'ecilta satis filia Iherusalems alleluya pro inbilate evovac ece'
+  [fused_6] 'dominus veniet et omnes Sancti ejus cum eo et erit in die illa lur'
+  [fused_7] 'agna Aeluya p Deus deus meus evovaentes'
+  [fused_8] 'dominum dum inveniri potest Allelu'
+  [fused_9] '|aenedicite ceveniet propbeta magnus'
+  [fused_10] 'tipse renoabit hesalem elaudate Eoae'
+  [fused_11] 'orclamantis in deserto parare viam domini'
+  [fused_12] 'tas facite semitas ejus piitus Sanctus in te descen'
+  [fused_13] 'det Maria ne timeas habens in utero filium dicti Alleluya Evovae'
+  [fused_14] 'ud  con drpis consitemm ad laudes nonditer ad preitiam et cuum nn diitur Douo'
+  [fused_15] 'mam sic em dominicis acleesaisque ad Pascha . adlandes et in vespis firales a'
+  [fused_16] 'psalmusta ad fiales ant laud et tunt de uede per dte horas set invesperis se'
+  [fused_17] 'ttihus Joilere fracires dacurts e vniti'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'Notaus qd a dominica de adventuusque advas dominui et a doinica botreai usde ad Pascha resurrs cantas'
+  Assigned: 'IN illa die stillabunt montes dulcedinem et colles fluent lac et mel'
+  Words:    [0..12) consumed=12
+  NW score: k=22 (pre-snap), norm=-0.8914
+  Anchor:   word 12 (within_chant_7), diff=10, snapped=False, forced=True
+  Alignment:
+    target            0 -Notaus qd a dominica de -----adventuusque advas d---ominui 
+                      0 -|-----
+    query             0 IN----- illa d----i----e stilla-bunt monte-----s dulcedinem 
+    
+    target           51 et a doinica botreai --usde ad Pascha resurrs cantas 101
+                      7 ||   9
+    query            41 et -------c---olle-s flu--e-nt la-c-- -e----t ---mel  68
+
+-- fused_1 --
+  OCR:      'erm in dominicis diebus eor t edoin lau eideu infestis x se . ane quedenrus ad laudeminfta ebdam domini'
+  Assigned: 'alleluya ~Dominus regnavit euouae Jocundare filia syon et exsulta satis filia jherusalem alleluya ~Jubilate euouae Ecce dominus'
+  Words:    [12..29) consumed=17
+  NW score: k=17 (pre-snap), norm=-0.5683
+  Anchor:   word 20 (within_chant_7), diff=9, snapped=False, forced=False
+  Alignment:
+    target            0 ---erm in -dominicis diebus -e--or t edo-------in---- --l-a-
+                      0 ---|-....
+    query             0 alle-luya ~Domin---------us regnavit euouae Jocundare filia 
+    
+    target           38 ---u eide--u--- infes-tis x se . ane quedenrus---- a-d l--a-
+                      9 ---.
+    query            50 syon et exsulta ----satis ---filia-- jhe---rusalem alleluya 
+    
+    target           81 --udeminfta e-bda-----m domin-i 103
+                     13 --|--.|..|.  24
+    query            98 ~Ju--bilate euouae Ecce dominus 127
+
+-- fused_2 --
+  OCR:      'horas diei.'
+  Assigned: 'veniet et omnes sancti eius cum eo et erit in die illa lux'
+  Words:    [29..42) consumed=13
+  NW score: k=5 (pre-snap), norm=-2.6112
+  Anchor:   word 42 (within_chant_7), diff=8, snapped=False, forced=True
+  Alignment:
+    target            0 ---------ho-----ra--------s------------------ die-i------. 11
+                      0 ---------.|-----.|--------|------------------ 45
+    query             0 veniet et omnes sancti eius cum eo et erit in die illa lux 58
+
+-- fused_3 --
+  OCR:      '2 e stillabunt montes dulcedinem et colles fuent lac et mel'
+  Assigned: 'magna alleluya ~Deus deus meus euouae Omnes sicientes venite ad aquas querite'
+  Words:    [42..54) consumed=12
+  NW score: k=12 (pre-snap), norm=-0.9050
+  Anchor:   word 50 (within_chant_7), diff=4, snapped=False, forced=False
+  Alignment:
+    target            0 --2 e stillabunt monte-s d------ulce-dine--m et --c-olles fu
+                      0 --...
+    query             0 magna --alleluya --~Deus deus meus euouae Omnes sicientes -v
+    
+    target           45 en-t---- --lac --e--t mel 59
+                      5 ||-|---- 13
+    query            55 enite ad aquas querit--e- 77
+
+-- fused_4 --
+  OCR:      'Alleluya ps dominus Regis evovae a a syon et'
+  Assigned: 'dominum dum inveniri potest allelu'
+  Words:    [54..59) consumed=5
+  NW score: k=6 (pre-snap), norm=-0.8704
+  Anchor:   word 59 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 Alleluya ps dominus ------Regi-s evovae a a--- syon et 44
+                      0 ------------||||||. 19
+    query             0 ------------dominum dum inveniri -po-test alleluy----a 36
+
+-- fused_5 --
+  OCR:      'ecilta satis filia Iherusalems alleluya pro inbilate evovac ece'
+  Assigned: 'ya ~Benedicite euouae Ecce veniet propheta magnus et ipse renovabit iherusalem alleluya ~Laudate euouae'
+  Words:    [59..72) consumed=13
+  NW score: k=13 (pre-snap), norm=0.5166
+  Anchor:   word 65 (within_chant_7), diff=7, snapped=False, forced=False
+  Alignment:
+    target            0 ----e--ci---------------------------lta sa------t-i-s- ----f
+                      0 ----|--||---------------------------.||
+    query             0 ~Benedicite euouae Ecce veniet propheta magnus et ipse renov
+    
+    target           14 ilia Iherusalems alleluya pro inbilate evovac ece  63
+                     39 ..|.  43
+    query            60 abit iherusalem- alleluya---- ~Laudate euoua----e 100
+
+-- fused_6 --
+  OCR:      'dominus veniet et omnes Sancti ejus cum eo et erit in die illa lur'
+  Assigned: 'Fratres scientes Vox clamantis in deserto parare viam domini rec'
+  Words:    [72..82) consumed=10
+  NW score: k=8 (pre-snap), norm=-0.8454
+  Anchor:   word 82 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 dominus venie-t et -omnes ---Sancti ejus cum -eo e-t- -er-it
+                      0 ......|
+    query             0 Fratres -scient-es Vo---x claman-ti----s -in de-serto parare
+    
+    target           50  -i-n d--i-e -illa lur 66
+                      7   7
+    query            48  viam domini Recta---s 67
+
+-- fused_7 --
+  OCR:      'agna Aeluya p Deus deus meus evovaentes'
+  Assigned: 'tas facite semitas eius Spiritus sanctus'
+  Words:    [82..87) consumed=5
+  NW score: k=5 (pre-snap), norm=-0.3203
+  Anchor:   word 90 (within_chant_7), diff=3, snapped=False, forced=False
+  Alignment:
+    target            0 -a-gna Aeluya p Deus de-us ----meus evovaen-tes 39
+                      0 -|-...  6
+    query             0 facite semita------s -eius Spiritus ---sa-nctus 36
+
+-- fused_8 --
+  OCR:      'dominum dum inveniri potest Allelu'
+  Assigned: 'in te descen'
+  Words:    [87..90) consumed=3
+  NW score: k=7 (pre-snap), norm=-1.0015
+  Anchor:   word 90 (within_chant_7), diff=4, snapped=False, forced=True
+  Alignment:
+    target            0 domin-um dum inveniri potest Allelu 34
+                      0 ---||-..  8
+    query             0 ---in te d---escen------de-t------- 15
+
+-- fused_9 --
+  OCR:      '|aenedicite ceveniet propbeta magnus'
+  Assigned: 'det maria ne timeas habens in utero filium'
+  Words:    [90..97) consumed=7
+  NW score: k=7 (pre-snap), norm=-1.0544
+  Anchor:   word 100 (page_break_77), diff=3, snapped=False, forced=False
+  Alignment:
+    target            0 ---|aenedicite-- ceven--i--et propbeta magnus 36
+                      0 ---.|.||-..|.|-- 16
+    query             0 maria ne- timeas habens in ut-ero----- filium 38
+
+-- fused_10 --
+  OCR:      'tipse renoabit hesalem elaudate Eoae'
+  Assigned: 'dei alleluya euouae'
+  Words:    [97..100) consumed=3
+  NW score: k=3 (pre-snap), norm=-0.3824
+  Anchor:   word 100 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 tipse renoabit hesalem elaudate Eo-ae 36
+                      0 ------.|----|- 14
+    query             0 ------de----i- ---al--lel-uya e-uouae 19
+
+-- fused_11 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [100..100) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_12 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [100..100) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_13 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [100..100) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_14 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [100..100) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_15 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [100..100) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_16 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [100..100) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_17 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [100..100) consumed=0
+  Alignment:
+    (no words left)
+=== END DEBUG ===
+

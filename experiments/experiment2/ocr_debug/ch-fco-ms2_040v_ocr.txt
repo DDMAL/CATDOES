@@ -1,0 +1,199 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'ferent  domluo P d di nes gentes'
+  [fused_1] 'quascumque fecisti venient et adorabunt coram te domine qd In'
+  [fused_2] 'V reges tharsis et in esamu'
+  [fused_3] 'offerentaru regesa'
+  [fused_4] 'Smo Sanct Augustimus episcopi LVI .'
+  [fused_5] 'dinia domine Aureni Evovae . at partum virgmis et Aminare'
+  [fused_6] 'illumina Jherusa lem ve nit lux tua'
+  [fused_7] 'ria domi in supate orta'
+  [fused_8] 'est t ambulabunt gentes in lunime tuet reges'
+  [fused_9] 'insplendore ortus tu * *m ves de Salba'
+  [fused_10] 'nemi ent aurume chis deferentes et laudento i'
+  [fused_11] 'no annimcantes i'
+  [fused_12] 'LuYa Charsis et insule nuera offerent'
+  [fused_13] 'arbin eclarico iun co Anelu.'
+  [fused_14] 'nemimnt aborente Mecosoimam queren'
+  [fused_15] 'tes et o ten te quinatus est cu ne'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'ferent  domluo P d di nes gentes'
+  Assigned: 'regi domino ~Deus iudicium euouae Omnes gentes'
+  Words:    [0..7) consumed=7
+  NW score: k=7 (pre-snap), norm=1.5899
+  Anchor:   word 7 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ferent  domluo ----P d di----------- --nes gentes 32
+                      0 --||-..  7
+    query             0 --re-gi domino ~Deus iudicium euouae Omnes gentes 46
+
+-- fused_1 --
+  OCR:      'quascumque fecisti venient et adorabunt coram te domine qd In'
+  Assigned: 'quascumque fecisti venient et adorabunt coram te domine ~Inclina'
+  Words:    [7..16) consumed=9
+  NW score: k=8 (pre-snap), norm=7.2166
+  Anchor:   word 16 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 quascumque fecisti venient et adorabunt coram te domine qd I
+                      0 ||||||||||
+    query             0 quascumque fecisti venient et adorabunt coram te domine --~I
+    
+    target           60 n----- 61
+                     10 |----- 16
+    query            58 nclina 64
+
+-- fused_2 --
+  OCR:      'V reges tharsis et in esamu'
+  Assigned: 'domine aurem euouae Illuminare'
+  Words:    [16..20) consumed=4
+  NW score: k=6 (pre-snap), norm=-1.6013
+  Anchor:   word 20 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 V reges tha-rsis e----t -----in esamu 27
+                      0 .....|-  7
+    query             0 domine- --aur-em euouae Illumin---are 30
+
+-- fused_3 --
+  OCR:      'offerentaru regesa'
+  Assigned: 'illuminare jherusalem venit lux tua'
+  Words:    [20..25) consumed=5
+  NW score: k=2 (pre-snap), norm=-1.0801
+  Anchor:   word 25 (within_chant_7), diff=3, snapped=False, forced=True
+  Alignment:
+    target            0 offerentaru ---r----e--ge---------sa 18
+                      0 ......|-||. 11
+    query             0 illumin-are jherusalem venit lux tua 35
+
+-- fused_4 --
+  OCR:      'Smo Sanct Augustimus episcopi LVI .'
+  Assigned: 'Et gloria domini super te orta'
+  Words:    [25..31) consumed=6
+  NW score: k=5 (pre-snap), norm=-2.3664
+  Anchor:   word 31 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 Smo Sanct Augustimus ---epi-scop-i LVI ---. 35
+                      0 -------.|  9
+    query             0 -------Et --glori--a domini s-uper -te orta 30
+
+-- fused_5 --
+  OCR:      'dinia domine Aureni Evovae . at partum virgmis et Aminare'
+  Assigned: 'est Et ambulabunt gentes in lumine tuo et reges in splendore ortus tui Et gloria'
+  Words:    [31..46) consumed=15
+  NW score: k=15 (pre-snap), norm=-1.2143
+  Anchor:   word 40 (within_chant_7), diff=6, snapped=False, forced=False
+  Alignment:
+    target            0 ------------------din----ia domine Au-----re---ni- ----Evova
+                      0 ------------------..|----|.
+    query             0 est Et ambulabunt gentes in lumine tuo et reges in splendo-r
+    
+    target           25 e . at partum virgmis et --Aminare 57
+                     27 | 28
+    query            59 e ------ortus ---tui- Et glori-a-- 80
+
+-- fused_6 --
+  OCR:      'illumina Jherusa lem ve nit lux tua'
+  Assigned: 'Omnes de salba'
+  Words:    [46..49) consumed=3
+  NW score: k=5 (pre-snap), norm=0.2556
+  Anchor:   word 49 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 illumina Jherusa lem ve nit lux tua 35
+                      0 ---.|-|----|--|----- 20
+    query             0 ---Om-n----e--s----- de --sal----ba 14
+
+-- fused_7 --
+  OCR:      'ria domi in supate orta'
+  Assigned: 'venient aurum et thus deferentes et laudem domino'
+  Words:    [49..57) consumed=8
+  NW score: k=5 (pre-snap), norm=-1.8430
+  Anchor:   word 57 (within_chant_7), diff=3, snapped=False, forced=True
+  Alignment:
+    target            0 --ri----a domi in ---s-----upate- ort--a----------- 23
+                      0 --.|----|...|- 14
+    query             0 venient aurum- et thus deferentes -et laudem domino 49
+
+-- fused_8 --
+  OCR:      'est t ambulabunt gentes in lunime tuet reges'
+  Assigned: 'annunciantes Alleluya alleluya alleluya Reges tharsis et insule munera offerrent reges'
+  Words:    [57..68) consumed=11
+  NW score: k=11 (pre-snap), norm=-0.3902
+  Anchor:   word 62 (within_chant_7), diff=6, snapped=False, forced=False
+  Alignment:
+    target            0 ----------est -------t a--mbu-----labunt --ge-nt-------es in
+                      0 ----------||-
+    query             0 annunciantes- Alleluya alleluya alleluya Reges tharsis et in
+    
+    target           26 ---- lunime-- ----tue-t reges 44
+                     13 ---- 17
+    query            59 sule mun--era offerrent reges 86
+
+-- fused_9 --
+  OCR:      'insplendore ortus tu * *m ves de Salba'
+  Assigned: 'arabum et salba'
+  Words:    [68..71) consumed=3
+  NW score: k=3 (pre-snap), norm=-1.4241
+  Anchor:   word 74 (within_chant_7), diff=3, snapped=False, forced=False
+  Alignment:
+    target            0 insplendore ortus tu * *m ves de Salba 38
+                      0 ------------.|---..|----| 25
+    query             0 ------------ar---abu----m -e---t salba 15
+
+-- fused_10 --
+  OCR:      'nemi ent aurume chis deferentes et laudento i'
+  Assigned: 'dona adducent Alleluia Magi veniunt ab oriente iherusolimam querentes et dicentes ubi'
+  Words:    [71..83) consumed=12
+  NW score: k=12 (pre-snap), norm=0.1779
+  Anchor:   word 74 (within_chant_7), diff=9, snapped=False, forced=False
+  Alignment:
+    target            0 -----------n-----e-------mi -e---nt a--ur--ume ch------i--s 
+                      0 -----------|-----|-------.|
+    query             0 dona adducent Alleluia Magi veniunt ab oriente iherusolimam 
+    
+    target           21 deferentes et laud--ent-o --i 45
+                     27 -..||||||| 37
+    query            60 -querentes et ---dicentes ubi 85
+
+-- fused_11 --
+  OCR:      'no annimcantes i'
+  Assigned: 'est qui natus est cuius stellam'
+  Words:    [83..89) consumed=6
+  NW score: k=4 (pre-snap), norm=-1.3946
+  Anchor:   word 89 (page_break_77), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 -no annimcant---es- --i---------- 16
+                      0 -..  3
+    query             0 est -qui na-tus est cuius stellam 31
+
+-- fused_12 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [89..89) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_13 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [89..89) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_14 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [89..89) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_15 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [89..89) consumed=0
+  Alignment:
+    (no words left)
+=== END DEBUG ===
+

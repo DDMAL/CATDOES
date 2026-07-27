@@ -1,0 +1,219 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'rte iherusalem orietur dominus X temdenitur'
+  [fused_1] '.aetur. Qne deus virtutum converte nos ad up aperos horas toci eb'
+  [fused_2] 'Etobente ficem mam emo Confitetor Pre. deatus vnr domade qu in ma diestu reliquis pres . dint dominus pos'
+  [fused_3] 'crate celi de super et nibes pluant justum '
+  [fused_4] 'am'
+  [fused_5] ' periatur terra etineas Maria invenisti graciam a'
+  [fused_6] 'pud dominum ecclese concipies et Paries filium'
+  [fused_7] 'egem venturum dominum venitedoremus'
+  [fused_8] 'Nota quod iaudinitatur cantatus per totum adventum in diebus fiealibus vsco'
+  [fused_9] 'ad fiam an quntuor temorum it cantatus in tono fiali vnmus ubum simum'
+  [fused_10] 'doino det deniaci ceneis et episus dominus i abso exanois'
+  [fused_11] 'et etlegum a le deyta et per ebe sise isent Uscipever'
+  [fused_12] 'Vnm non per angelum tra'
+  [fused_13] 'sum est concipiess deum pariter et ho'
+  [fused_14] 'dt benconta dicaniomnterom om Cmoop.'
+  [fused_15] 'ries qndem filium et iumnitatis non pacens decimen'
+  [fused_16] 'tum efsiaens in tacta ut renedita'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'rte iherusalem orietur dominus X temdenitur'
+  Assigned: 'te iherusalem orietur dominus Et'
+  Words:    [0..5) consumed=5
+  NW score: k=5 (pre-snap), norm=5.3377
+  Anchor:   word 10 (within_chant_7), diff=5, snapped=False, forced=False
+  Alignment:
+    target            0 rte iherusalem orietur dominus X temdenitur 43
+                      0 -||  3
+    query             0 -te iherusalem orietur dominus --------Et-- 32
+
+-- fused_1 --
+  OCR:      '.aetur. Qne deus virtutum converte nos ad up aperos horas toci eb'
+  Assigned: 'gloria eius in te videbitur Orietur Gloria patri Domine deus virtutum converte nos Et ostende faciem'
+  Words:    [5..21) consumed=16
+  NW score: k=16 (pre-snap), norm=1.1411
+  Anchor:   word 10 (within_chant_7), diff=11, snapped=False, forced=False
+  Alignment:
+    target            0 ----.a-------------------------etu------------r. ---Qne deus
+                      0 ----.|-------------------------|||------------|.
+    query             0 gloria eius in te videbitur Orietur Gloria patri Domine deus
+    
+    target           16  virtutum converte nos ad up aperos horas toci eb  65
+                     48   48
+    query            60  virtutum converte nos Et -------os-tende faci-em 100
+
+-- fused_2 --
+  OCR:      'Etobente ficem mam emo Confitetor Pre. deatus vnr domade qu in ma diestu reliquis pres . dint dominus pos'
+  Assigned: 'tuam et salvi erimus Rorate celi desuper et nubes pluant iustum ~Aperiatur terra et germinet'
+  Words:    [21..36) consumed=15
+  NW score: k=15 (pre-snap), norm=-0.6613
+  Anchor:   word 32 (within_chant_7), diff=4, snapped=False, forced=False
+  Alignment:
+    target            0 Etobente ficem ma--m e--m-o Confitetor Pre-. deatus vnr doma
+                      0 -|---...
+    query             0 -t---uam ---et salvi erimus Ro-rate--- -celi de---super ----
+    
+    target           54 de- qu in --ma-- diestu- --reli-quis pres . dint -dominus po
+                      8 -|-
+    query            41 -et nubes pluant -iustum ~Aperiatu-r -terra --et germin----e
+    
+    target          104 s 105
+                     11 .  12
+    query            91 t  92
+
+-- fused_3 --
+  OCR:      'crate celi de super et nibes pluant justum'
+  Assigned: 'salvatorem Ne timeas maria invenisti graciam a'
+  Words:    [36..43) consumed=7
+  NW score: k=5 (pre-snap), norm=-1.1573
+  Anchor:   word 43 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 --crat--e- ce-li de super-- ---et nibes-- plua--nt justum 42
+                      0 --..||--|- 10
+    query             0 salvatorem Ne ti-meas maria inve--ni--sti -graciam --apud 49
+
+-- fused_4 --
+  OCR:      'am'
+  Assigned: 'pud dominum'
+  Words:    [43..44) consumed=1
+  NW score: k=1 (pre-snap), norm=-4.2762
+  Anchor:   word 57 (within_chant_7), diff=13, snapped=False, forced=False
+  Alignment:
+    target            0 -----am 2
+                      0 -----.| 7
+    query             0 dominum 7
+
+-- fused_5 --
+  OCR:      'periatur terra etineas Maria invenisti graciam a'
+  Assigned: 'ecce concipies et paries filium alleluya'
+  Words:    [44..50) consumed=6
+  NW score: k=6 (pre-snap), norm=-1.2780
+  Anchor:   word 57 (within_chant_7), diff=7, snapped=False, forced=False
+  Alignment:
+    target            0 --pe----riatur terra etineas Maria invenisti graciam -------
+                      0 --.|----.|----..|--.
+    query             0 ecce conci----pie--s et----- pari-----e--s-- -filium alleluy
+    
+    target           47 a 48
+                     20 | 21
+    query            39 a 40
+
+-- fused_6 --
+  OCR:      'pud dominum ecclese concipies et Paries filium'
+  Assigned: '~Magnificat euouae Regem venturum dominum venite adoremus ~Venite Suscipe ver'
+  Words:    [50..60) consumed=10
+  NW score: k=10 (pre-snap), norm=-1.0220
+  Anchor:   word 57 (within_chant_7), diff=3, snapped=False, forced=False
+  Alignment:
+    target            0 ------------------------------pud dominum -ecclese -concipie
+                      0 ------------------------------.|.
+    query             0 ~Magnificat euouae Regem venturum dominum ve--nite ado----re
+    
+    target           28 --s --e--t- -Pari-es filium 46
+                     33 --| 36
+    query            54 mus ~Venite Suscipe- verbum 80
+
+-- fused_7 --
+  OCR:      'egem venturum dominum venitedoremus'
+  Assigned: 'bum virgo maria quod tibi a domino per angelum transmis'
+  Words:    [60..69) consumed=9
+  NW score: k=8 (pre-snap), norm=-1.0172
+  Anchor:   word 69 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 --eg-em---- --vent-urum dominum ve---nite---dor--em---us 35
+                      0 --.|-.|---- 11
+    query             0 virgo maria quod tibi a domin-o per an-gelum transmissum 54
+
+-- fused_8 --
+  OCR:      'Nota quod iaudinitatur cantatus per totum adventum in diebus fiealibus vsco'
+  Assigned: 'sum est concipies et paries deum pariter et hominem'
+  Words:    [69..77) consumed=8
+  NW score: k=12 (pre-snap), norm=-0.9396
+  Anchor:   word 77 (within_chant_7), diff=4, snapped=False, forced=True
+  Alignment:
+    target            0 Nota quod iaudinitatur cantatus per totum -adventum in diebu
+                      0 ..|-
+    query             0 est- -conci--pies et-- pa--ries de-----um pa--riter -----e--
+    
+    target           59 s --fi-ealibus vsco 75
+                      4 .  5
+    query            38 t homine----------m 47
+
+-- fused_9 --
+  OCR:      'ad fiam an quntuor temorum it cantatus in tono fiali vnmus ubum simum'
+  Assigned: 'Ut benedicta dicaris inter omnes mulieres Paries quidem filium et virginitatis non pacieris detrimen'
+  Words:    [77..91) consumed=14
+  NW score: k=14 (pre-snap), norm=-0.7592
+  Anchor:   word 84 (within_chant_7), diff=7, snapped=False, forced=False
+  Alignment:
+    target            0 ------ad---- fi-a--m an--- qun---tu--------or--- ---tem---or
+                      0 ------.|----
+    query             0 Ut benedicta dicaris inter omnes mulieres Paries quidem fili
+    
+    target           24 um it ---can-tatus in tono fiali vnmus ubum sim---um  69
+                     12 ||  14
+    query            60 um et virginitatis -n--on- -paci--eris --detrimentum 103
+
+-- fused_10 --
+  OCR:      'doino det deniaci ceneis et episus dominus i abso exanois'
+  Assigned: 'tum efficieris gravida et eris mater semper intacta Ut benedicta'
+  Words:    [91..100) consumed=9
+  NW score: k=9 (pre-snap), norm=-1.0602
+  Anchor:   word 100 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 doino det deniaci ceneis-------- et epis----us dom----in---u
+                      0 -------|---..|-||--|-.||--------
+    query             0 -------e---ffi-ci--e-ris gravida et eris mater semper intact
+    
+    target           41 s -i abso exan-oi--s 57
+                     32 . 33
+    query            46 a Ut -b---e--nedicta 60
+
+-- fused_11 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [100..100) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_12 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [100..100) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_13 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [100..100) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_14 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [100..100) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_15 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [100..100) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_16 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [100..100) consumed=0
+  Alignment:
+    (no words left)
+=== END DEBUG ===
+

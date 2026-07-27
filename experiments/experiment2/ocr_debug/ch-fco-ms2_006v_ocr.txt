@@ -1,0 +1,203 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'In abso amniclis pectorum secundum Luca'
+  [fused_1] 'Inio ipsi Diatiheunn'
+  [fused_2] 'Mg pa levii lecteo icai nni sei onis'
+  [fused_3] 'Mcona r cce virgo concipiet et Pariet faium'
+  [fused_4] 'dominus . Et vocabitur nomen ejus amnurabi '
+  [fused_5] 'uper so li umdavis et super regnum ejus'
+  [fused_6] 'sedebit metern tudite verbum domini'
+  [fused_7] 'tentes et annuncia te ano in finibus ter re . Et in nisu'
+  [fused_8] 'vs aneprocus sunt di cite salvator nos ster adveniet.'
+  [fused_9] 'nunciate et auditum facite loginum et clama'
+  [fused_10] ' etmie dies veniunt dicit dominus et'
+  [fused_11] 'Fulata terinen instami et regua bitiee etsa'
+  [fused_12] 'piens erit et faci etudicium et infticiam inter'
+  [fused_13] ' Carnomensi ouoo n. doi'
+  [fused_14] 'mlomtuo noster  in dicons cno tn'
+  [fused_15] 'vnne m oi pe nea motions Consten teet hor'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'In abso amniclis pectorum secundum Luca'
+  Assigned: 'Ecce virgo concipiet et pariet filium'
+  Words:    [0..6) consumed=6
+  NW score: k=8 (pre-snap), norm=-1.1884
+  Anchor:   word 6 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 --In -abso amn-icli----s p---ectorum secundum Luca 39
+                      0 --..  4
+    query             0 Ecce virgo conci-piet et parie-t---- --filium----- 37
+
+-- fused_1 --
+  OCR:      'Inio ipsi Diatiheunn'
+  Assigned: 'dicit dominus Et vocabitur nomen eius ammirabilis'
+  Words:    [6..13) consumed=7
+  NW score: k=5 (pre-snap), norm=-1.5416
+  Anchor:   word 13 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 -Ini---o i-ps--i -Diatiheu--n---n----------------- 20
+                      0 -..|---|.|-.|--. 16
+    query             0 dicit dominus Et vocabi-tur nomen eius ammirabilis 49
+
+-- fused_2 --
+  OCR:      'Mg pa levii lecteo icai nni sei onis'
+  Assigned: 'deus fortis Super solium david et super regnum eius'
+  Words:    [13..22) consumed=9
+  NW score: k=9 (pre-snap), norm=-1.4703
+  Anchor:   word 22 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 Mg pa -levii --lecteo i---ca-i- nni s--ei --on----i-s 36
+                      0 -....  5
+    query             0 -deus fortis Super solium david -et super regnum eius 51
+
+-- fused_3 --
+  OCR:      'Mcona r cce virgo concipiet et Pariet faium'
+  Assigned: 'sedebit in eternum Et vocabitur Audite verbum domini gentes et annunciate illud'
+  Words:    [22..34) consumed=12
+  NW score: k=12 (pre-snap), norm=-1.1495
+  Anchor:   word 30 (within_chant_7), diff=4, snapped=False, forced=False
+  Alignment:
+    target            0 ---------------------Mcona--- r ---cce vir-go co--ncipie-t--
+                      0 ---------------------..|.|---.|
+    query             0 sedebit in eternum Et vocabitur Audite verbum domin-i gentes
+    
+    target           27  et Pa----riet- fai--um 43
+                     31  31
+    query            59  et -annunciate --illud 79
+
+-- fused_4 --
+  OCR:      'dominus . Et vocabitur nomen ejus amnurabi'
+  Assigned: 'in finibus terre Et in insu'
+  Words:    [34..40) consumed=6
+  NW score: k=7 (pre-snap), norm=-0.8468
+  Anchor:   word 40 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 -domin--us ----. Et vocabitur nomen ejus amnurabi- 42
+                      0 -...||--|| 10
+    query             0 in finibus terre Et -----i--------n -ins----u--lis 30
+
+-- fused_5 --
+  OCR:      'uper so li umdavis et super regnum ejus'
+  Assigned: 'lis que procul sunt dicite salvator noster adveniet an'
+  Words:    [40..48) consumed=8
+  NW score: k=7 (pre-snap), norm=-1.1211
+  Anchor:   word 48 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 -u--per---- s--o li---- umda-vis et-- --super -----re---gnu-
+                      0 -|--|-|----
+    query             0 que p-rocul sunt dicite --salv---ator nos-ter adveniet Annun
+    
+    target           33 --m ejus 39
+                     11 --..|--- 19
+    query            53 ciate--- 58
+
+-- fused_6 --
+  OCR:      'sedebit metern tudite verbum domini'
+  Assigned: 'nunciate et auditum facite loquimini et clama'
+  Words:    [48..54) consumed=6
+  NW score: k=4 (pre-snap), norm=0.2602
+  Anchor:   word 54 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 se----debit metern tudite verbum domini----------- 35
+                      0 -|----|--||.|----- 18
+    query             0 -et aud--itum----- facite -loqu---imini et clamate 38
+
+-- fused_7 --
+  OCR:      'tentes et annuncia te ano in finibus ter re . Et in nisu'
+  Assigned: 'te Et in insulis Ecce dies veniunt dicit dominus et suscitabo david germen iustum et regnabit rex et sa'
+  Words:    [54..72) consumed=18
+  NW score: k=18 (pre-snap), norm=-0.7955
+  Anchor:   word 63 (within_chant_7), diff=9, snapped=False, forced=False
+  Alignment:
+    target            0 -t----en--tes -------et -annun----cia -------te- ------ano -
+                      0 -|----.|--..|
+    query             0 Et in insulis Ecce dies veniunt dicit dominus et suscitabo d
+    
+    target           26 --in ---fin-ibus--- -ter------- re . Et ---in nisu  56
+                     13 --|.  17
+    query            60 avid germen i-ustum et regnabit re-x et sapi-en-s- 105
+
+-- fused_8 --
+  OCR:      'vs aneprocus sunt di cite salvator nos ster adveniet.'
+  Assigned: 'piens erit et faciet iudicium et iustitiam in terra'
+  Words:    [72..80) consumed=8
+  NW score: k=12 (pre-snap), norm=-1.0292
+  Anchor:   word 80 (within_chant_7), diff=4, snapped=False, forced=True
+  Alignment:
+    target            0 --vs ane-proc-us sunt di ci--te- --salvat-or -nos ster adven
+                      0 --..
+    query             0 erit --et faciet iu---di-cium et ius--titiam in-- -terra----
+    
+    target           49 iet. 53
+                      4 ----  8
+    query            45 ---- 45
+
+-- fused_9 --
+  OCR:      'nunciate et auditum facite loginum et clama'
+  Assigned: 'Et hoc est nomen quod vocabunt eum dominus iustus'
+  Words:    [80..89) consumed=9
+  NW score: k=9 (pre-snap), norm=-1.1328
+  Anchor:   word 89 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 --nunc-iate ---et au-ditum fac---it-e-- loginum --et clama 43
+                      0 --...|-..|- 11
+    query             0 Et hoc est- nomen quod---- vocabunt eum dominus iust----us 49
+
+-- fused_10 --
+  OCR:      'etmie dies veniunt dicit dominus et'
+  Assigned: 'noster In diebus illis salva'
+  Words:    [89..94) consumed=5
+  NW score: k=7 (pre-snap), norm=-0.1848
+  Anchor:   word 94 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 --etmie---- die--s veniunt dicit ---dominus et 35
+                      0 --.|--|---- 11
+    query             0 nost--er In diebus ---i-----llis salvabitu---r 33
+
+-- fused_11 --
+  OCR:      'Fulata terinen instami et regua bitiee etsa'
+  Assigned: 'bitur iuda et israhel habitabit'
+  Words:    [94..98) consumed=4
+  NW score: k=4 (pre-snap), norm=-0.2745
+  Anchor:   word 101 (page_break_77), diff=3, snapped=False, forced=False
+  Alignment:
+    target            0 Fulata terinen instami et regua bit--iee etsa 43
+                      0 .|--.|  6
+    query             0 iu--da -----et i-sra--hel ---ha-bitabi----t-- 25
+
+-- fused_12 --
+  OCR:      'piens erit et faci etudicium et infticiam inter'
+  Assigned: 'confidenter Et hoc'
+  Words:    [98..101) consumed=3
+  NW score: k=3 (pre-snap), norm=-2.8880
+  Anchor:   word 101 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ---pi-ens erit et faci etudicium et infticiam inter 47
+                      0 ---.|-||-.||-- 14
+    query             0 confiden-ter-- Et hoc------------------------------ 18
+
+-- fused_13 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [101..101) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_14 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [101..101) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_15 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [101..101) consumed=0
+  Alignment:
+    (no words left)
+=== END DEBUG ===
+

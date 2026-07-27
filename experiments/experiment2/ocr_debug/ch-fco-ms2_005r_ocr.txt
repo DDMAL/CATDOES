@@ -1,0 +1,195 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'oria et spiriui Sancto .'
+  [fused_1] 'piciebamiii O mibibus ce li filius'
+  [fused_2] 'homino venebateto et ei reg Et omni'
+  [fused_3] 'Migue ser mente Potestas'
+  [fused_4] 'mo potesti e tur et regnum ejus quod non corrum'
+  [fused_5] ' tur . tomnis . missus est Gabriel augejus ad mari'
+  [fused_6] 'nem desponsa tamioseph nuncians ei verbumi et'
+  [fused_7] 'Mnelotinta mine nenmensman anmemsi unaan'
+  [fused_8] 'num Ecclesie conci et vocabi'
+  [fused_9] 'ssum filius bit ei dominus Deus sedem david Pasies'
+  [fused_10] 'esecundo'
+  [fused_11] 'regnabit in domo Jacobe tet min'
+  [fused_12] 'letare filia Iherusalem yo litime'
+  [fused_13] 'te ca ao vemet samo mui prat tonseuime trorie e l cenoster'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'oria et spiriui Sancto .'
+  Assigned: 'Gloria patri et filio et spiritui sancto'
+  Words:    [0..7) consumed=7
+  NW score: k=7 (pre-snap), norm=2.8079
+  Anchor:   word 7 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 --oria--------------- et spiri-ui Sancto . 24
+                      0 --||||--------------- 21
+    query             0 Gloria patri et filio et spiritui sancto-- 40
+
+-- fused_1 --
+  OCR:      'piciebamiii O mibibus ce li filius'
+  Assigned: 'Aspiciebam in visu noctis et ecce in nubibus celi filius'
+  Words:    [7..17) consumed=10
+  NW score: k=10 (pre-snap), norm=2.9793
+  Anchor:   word 17 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 --piciebam-i---i-------i- -O ----mi----bibus ce li filius 34
+                      0 --||||||||-|---|-------|- 25
+    query             0 Aspiciebam in visu noctis et ecce in nubibus ce-li filius 56
+
+-- fused_2 --
+  OCR:      'homino venebateto et ei reg Et omni'
+  Assigned: 'hominis veniebat et datum est ei regnum et honor Et omnis'
+  Words:    [17..28) consumed=11
+  NW score: k=11 (pre-snap), norm=3.5822
+  Anchor:   word 28 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 homin-o ven-ebat-et-----o e-t ei reg------------ Et omni- 35
+                      0 |||||-.  7
+    query             0 hominis veniebat et datum est ei regnum et honor Et omnis 57
+
+-- fused_3 --
+  OCR:      'Migue ser mente Potestas'
+  Assigned: 'populus tribus et lingue servient ei Potestas e'
+  Words:    [28..36) consumed=8
+  NW score: k=7 (pre-snap), norm=2.2517
+  Anchor:   word 36 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 ------------------Mi-gue ser ment-e- Potesta-----s 24
+                      0 ------------------.|-||| 24
+    query             0 populus tribus et lingue servient ei Potestas eius 50
+
+-- fused_4 --
+  OCR:      'mo potesti e tur et regnum ejus quod non corrum'
+  Assigned: 'ius potestas eterna que non auferetur et regnum eius quod non corrum'
+  Words:    [36..47) consumed=11
+  NW score: k=11 (pre-snap), norm=3.8983
+  Anchor:   word 47 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 mo potest-i e------------- ------tur et regnum ejus quod non
+                      0 ---||||||-.
+    query             0 ---potestas eterna que non auferetur et regnum eius quod non
+    
+    target           40  corrum----- 47
+                     11  11
+    query            57  corrumpetur 69
+
+-- fused_5 --
+  OCR:      'tur . tomnis . missus est Gabriel augejus ad mari'
+  Assigned: 'petur Et omnis Missus est gabriel angelus ad mari'
+  Words:    [47..55) consumed=8
+  NW score: k=8 (pre-snap), norm=4.9832
+  Anchor:   word 55 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -tur . tomnis . missus est Gabriel augejus ad mari-- 49
+                      0 -|----  6
+    query             0 Et---- -omnis-- Missus est gabriel angelus ad mariam 45
+
+-- fused_6 --
+  OCR:      'nem desponsa tamioseph nuncians ei verbumi et'
+  Assigned: 'am virginem desponsatam ioseph nuncians ei verbum et'
+  Words:    [55..62) consumed=7
+  NW score: k=7 (pre-snap), norm=6.4739
+  Anchor:   word 62 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -----nem desponsa tam-ioseph nuncians ei verbumi et 45
+                      0 -----|||  8
+    query             0 virginem desponsa-tam ioseph nuncians ei verbum- et 49
+
+-- fused_7 --
+  OCR:      'Mnelotinta mine nenmensman anmemsi unaan'
+  Assigned: 'expavescit virgo de lumine ne timeas maria invenisti graciam'
+  Words:    [62..71) consumed=9
+  NW score: k=9 (pre-snap), norm=0.2449
+  Anchor:   word 71 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ---Mne-lot--inta -----mine ne--nmens-ma--n anme-ms-i una--an
+                      0 ---..|-..|--|...
+    query             0 expavescit virgo de lumine ne timeas maria invenisti graciam
+    
+    target           40 
+                     16 
+    query            60 
+
+-- fused_8 --
+  OCR:      'num Ecclesie conci et vocabi'
+  Assigned: 'apud dominum Ecce concipies et paries et vocabitur al'
+  Words:    [71..80) consumed=9
+  NW score: k=8 (pre-snap), norm=2.2984
+  Anchor:   word 80 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 ---------num Ecclesie conci-------------- et vocab----------
+                      0 ---------|||
+    query             0 apud dominum Ecc----e concipies et paries et vocabitur altis
+    
+    target           27 ---i 28
+                     12 ---| 16
+    query            56 simi 60
+
+-- fused_9 --
+  OCR:      'ssum filius bit ei dominus Deus sedem david Pasies'
+  Assigned: 'tissimi filius Dabit ei dominus deus sedem david patris'
+  Words:    [80..88) consumed=8
+  NW score: k=8 (pre-snap), norm=5.5697
+  Anchor:   word 88 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ssum filius --bit ei dominus Deus sedem david Pa-sies 50
+                      0 -----|||||| 11
+    query             0 -----filius Dabit ei dominus deus sedem david patri-s 47
+
+-- fused_10 --
+  OCR:      'esecundo'
+  Assigned: 'eius et'
+  Words:    [88..90) consumed=2
+  NW score: k=2 (pre-snap), norm=-1.8708
+  Anchor:   word 97 (within_chant_7), diff=7, snapped=False, forced=False
+  Alignment:
+    target            0 e--s-ecundo  8
+                      0 |--|-|----. 11
+    query             0 eius e----t  7
+
+-- fused_11 --
+  OCR:      'regnabit in domo Jacobe tet min'
+  Assigned: 'regnabit in domo iacob in eternum Ecce'
+  Words:    [90..97) consumed=7
+  NW score: k=5 (pre-snap), norm=5.7833
+  Anchor:   word 97 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 regnabit in domo Jacob--e -te---t -min 31
+                      0 ||||||||  8
+    query             0 regnabit in domo iacob in eternum Ecce 38
+
+-- fused_12 --
+  OCR:      'letare filia Iherusalem yo litime'
+  Assigned: 'Gaude et letare filia iherusalem ecce rex tuus veniet tibi syon noli time'
+  Words:    [97..110) consumed=13
+  NW score: k=6 (pre-snap), norm=3.4914
+  Anchor:   word 110 (within_chant_7), diff=7, snapped=False, forced=True
+  Alignment:
+    target            0 ---------letare filia Iherusalem ---------------------------
+                      0 ---------||||||
+    query             0 Gaude et letare filia iherusalem ecce rex tuus veniet tibi s
+    
+    target           24 yo- --li-tim--e 33
+                     15 ||- 18
+    query            60 yon noli timere 75
+
+-- fused_13 --
+  OCR:      'te ca ao vemet samo mui prat tonseuime trorie e l cenoster'
+  Assigned: 're quia cito veniet salus tua ~Conserva me euouae Rex noster'
+  Words:    [110..120) consumed=10
+  NW score: k=10 (pre-snap), norm=1.6348
+  Anchor:   word 120 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 --te ca ao ve-met samo mui prat -tonse--uime trorie -e l cen
+                      0 --..
+    query             0 quia c-ito veniet sa---lus tua- ~Conserva me euouae Re-x --n
+    
+    target           53 oster 58
+                      4 |||||  9
+    query            52 oster 57
+=== END DEBUG ===
+

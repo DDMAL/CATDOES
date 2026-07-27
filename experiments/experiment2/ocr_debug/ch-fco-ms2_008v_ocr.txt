@@ -1,0 +1,182 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] '|etentur cela Montes lae'
+  [fused_1] 'quia dominus noster venet et pauperum suorum m'
+  [fused_2] 'sertur in diebus ejus justici a et habundan'
+  [fused_3] 'ciapacis . t paupe le in non transibunt per'
+  [fused_4] 'mecusaem anaano Jotaruvnit'
+  [fused_5] 'tes dulcedi nes et colles fuent l’ac etmel'
+  [fused_6] ' domalibano veni et et sanc'
+  [fused_7] 'tuo de Monteniiroloonden 6. caplus ad laudes non mutatur i fiali amiil.'
+  [fused_8] 'bus diebus visci ad vigi natui domini'
+  [fused_9] 'iserere mei deus pres ipsum evorae  capili venite ascendamus'
+  [fused_10] 'vox clamantis il pparmi domni Rectas faci se ejus'
+  [fused_11] 'adv'
+  [fused_12] 'tirami tomun imicantnane itconepete m ilis tn publice scienss que in lans'
+  [fused_13] 'to Allelya Evovae'
+  [fused_14] 'Jespas aut dier demer mon'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      '|etentur cela Montes lae'
+  Assigned: 'Letentur celi et exultet terra iubilate montes laudes'
+  Words:    [0..8) consumed=8
+  NW score: k=4 (pre-snap), norm=3.0833
+  Anchor:   word 8 (within_chant_7), diff=4, snapped=False, forced=True
+  Alignment:
+    target            0 |etentur ce------------------------la-- Montes la--e- 24
+                      0 .|||||||  8
+    query             0 Letentur celi et exultet terra iubilate montes laudes 53
+
+-- fused_1 --
+  OCR:      'quia dominus noster venet et pauperum suorum m'
+  Assigned: 'quia dominus noster veniet Et pauperum suorum mi'
+  Words:    [8..16) consumed=8
+  NW score: k=7 (pre-snap), norm=7.0774
+  Anchor:   word 16 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 quia dominus noster ven-et et pauperum suorum m---------- 46
+                      0 ||||  4
+    query             0 quia dominus noster veniet Et pauperum suorum miserebitur 57
+
+-- fused_2 --
+  OCR:      'sertur in diebus ejus justici a et habundan'
+  Assigned: 'serebitur Orietur in diebus eius iusticia et habundancia'
+  Words:    [16..23) consumed=7
+  NW score: k=7 (pre-snap), norm=5.6661
+  Anchor:   word 23 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 --sertur in diebus ejus justici a et habundan--- 43
+                      0 --.|-|||  8
+    query             0 Orie-tur in diebus eius iustici-a et habundancia 46
+
+-- fused_3 --
+  OCR:      'ciapacis . t paupe le in non transibunt per'
+  Assigned: 'pacis Et pauperum Alieni non transibunt per'
+  Words:    [23..30) consumed=7
+  NW score: k=7 (pre-snap), norm=5.2093
+  Anchor:   word 30 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ciapacis . t paupe--- -l-e in non transibunt per 43
+                      0 ---|||||  8
+    query             0 ---pacis -Et pauperum Alieni- non transibunt per 43
+
+-- fused_4 --
+  OCR:      'mecusaem anaano Jotaruvnit'
+  Assigned: 'iherusalem amplius Nam in illa die stillabunt montes'
+  Words:    [30..38) consumed=8
+  NW score: k=4 (pre-snap), norm=-0.3138
+  Anchor:   word 38 (within_chant_7), diff=4, snapped=False, forced=True
+  Alignment:
+    target            0 -mecusa-em a-------na--an----o ---Jot---aruvn----it-- 26
+                      0 -.|.|||-|| 10
+    query             0 iherusalem amplius Nam in illa die stillabu-nt montes 52
+
+-- fused_5 --
+  OCR:      'tes dulcedi nes et colles fuent l’ac etmel'
+  Assigned: 'dulcedines et colles fluent lac et mel dicit'
+  Words:    [38..46) consumed=8
+  NW score: k=7 (pre-snap), norm=6.1076
+  Anchor:   word 46 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    tes dulcedi nes et colles f-uent l’ac et-mel------
+    ----|||||||-|||||||||||||||-||||||-|||||-|||------
+    ----dulcedi-nes et colles fluent l-ac et mel dicit
+
+-- fused_6 --
+  OCR:      'domalibano veni et et sanc'
+  Assigned: 'dominus Deus a libano veniet et sanc'
+  Words:    [46..53) consumed=7
+  NW score: k=7 (pre-snap), norm=4.3651
+  Anchor:   word 53 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 dom----------a-libano veni et et sanc--- 26
+                      0 |||----------|-|||||| 21
+    query             0 dominus Deus a libano veni-et et sanctus 39
+
+-- fused_7 --
+  OCR:      'tuo de Monteniiroloonden 6. caplus ad laudes non mutatur i fiali amiil.'
+  Assigned: 'tus de monte umbroso et condenso Nam in illa'
+  Words:    [53..61) consumed=8
+  NW score: k=10 (pre-snap), norm=-0.3097
+  Anchor:   word 61 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 tuo de Monte-niirolo-----onden 6. caplus ad laudes non mutat
+                      0 ----||
+    query             0 ----de monte umbroso et conden---------s--o Na---------m----
+    
+    target           54 ur i- fiali amiil. 71
+                      6 --  8
+    query            32 -- in -i-l------la 40
+
+-- fused_8 --
+  OCR:      'bus diebus visci ad vigi natui domini'
+  Assigned: 'Miserere mei deus {Ipsum [Miserere]} euouae ~Vox clamantis in deserto parate viam domini'
+  Words:    [61..74) consumed=13
+  NW score: k=13 (pre-snap), norm=-1.1041
+  Anchor:   word 78 (within_chant_7), diff=4, snapped=False, forced=False
+  Alignment:
+    target            0 bus--------- diebus --------vis-----ci ----ad -----------vi-
+                      0 ..|---------
+    query             0 Miserere mei d-e-us {Ipsum [Miserere]} euouae ~Vox clamantis
+    
+    target           22 gi--------- --nat--ui-- domini 37
+                     12 .|--------- 23
+    query            58  in deserto parate viam domini 88
+
+-- fused_9 --
+  OCR:      'iserere mei deus pres ipsum evorae  capili venite ascendamus'
+  Assigned: '~Rectas facite semitas eius Angelus domini nunciavit marie et concepit de spiritu sancto alleluya'
+  Words:    [74..88) consumed=14
+  NW score: k=14 (pre-snap), norm=-0.8520
+  Anchor:   word 78 (within_chant_7), diff=10, snapped=False, forced=False
+  Alignment:
+    target            0 ise-------rere me-i--- de-us -pre--s -----ipsu-m ev----orae 
+                      0 ..|-------...|
+    query             0 ~Rectas facite semitas -eius Angelus domini nunciavit marie 
+    
+    target           35 -- ---capili ve----nite -ascenda---mu-s 60
+                     14 -- 16
+    query            59 et concepi-t de spiritu sancto alleluya 97
+
+-- fused_10 --
+  OCR:      'vox clamantis il pparmi domni Rectas faci se ejus'
+  Assigned: 'euouae'
+  Words:    [88..89) consumed=1
+  NW score: k=1 (pre-snap), norm=-7.9317
+  Alignment:
+    target            0 vox clamantis il pparmi domni Rectas faci se ejus 49
+                      0 -------------------------------|---...|------|--- 49
+    query             0 -------------------------------e---uoua------e---  6
+
+-- fused_11 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [89..89) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_12 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [89..89) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_13 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [89..89) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_14 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [89..89) consumed=0
+  Alignment:
+    (no words left)
+=== END DEBUG ===
+

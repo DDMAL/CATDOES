@@ -1,0 +1,175 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'in reppo lacro domina petorio fonte po ta vnt Dcta iba'
+  [fused_1] 'vit illum domi mus Peane te et intel'
+  [fused_2] 'ectus et aqua sapiencie salutaris pota vnt'
+  [fused_3] 'mm sterita inte  apud c'
+  [fused_4] 'mos su os  inme dio eccleie aperint os emo'
+  [fused_5] 'et implevit cum spmitu sapientie et'
+  [fused_6] 'Et ex alta. Alde Honorandus est beatus Johan'
+  [fused_7] 'nes am supra Pectus domini in cena recubuit p dominus Regis'
+  [fused_8] 'oa . Hic est discipulus ille aui testimonium pethi'
+  [fused_9] 'et scimus quia verum est testimonium ejus pe'
+  [fused_10] 'nbis eobae . ic est discipulus mens sic eum no'
+  [fused_11] 'o manere donec veniam Dsdis evovae'
+  [fused_12] 'mestantions qui non sustabunt mortem donec inteant'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'in reppo lacro domina petorio fonte po ta vnt Dcta iba'
+  Assigned: 'de ipso sacro dominici pectoris fonte potavit Beatus ciba'
+  Words:    [0..9) consumed=9
+  NW score: k=9 (pre-snap), norm=3.3907
+  Anchor:   word 9 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 in reppo lacro domin--a pe-torio fonte po ta vnt -Dct-a -iba
+                      0 ..
+    query             0 de -ipso sacro dominici pectoris fonte po-ta-vit Beatus Ciba
+    
+    target           54 --- 54
+                      2 ---  5
+    query            57 vit 60
+
+-- fused_1 --
+  OCR:      'vit illum domi mus Peane te et intel'
+  Assigned: 'vit illum dominus pane vite et intel'
+  Words:    [9..15) consumed=6
+  NW score: k=6 (pre-snap), norm=4.1096
+  Anchor:   word 15 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 vit illum domi mus Peane --te et intel------ 36
+                      0 ----|||||  9
+    query             0 ----illum domi-nus -pane vite et intellectus 38
+
+-- fused_2 --
+  OCR:      'ectus et aqua sapiencie salutaris pota vnt'
+  Assigned: 'lectus et aqua sapiencie salutaris potavit'
+  Words:    [15..20) consumed=5
+  NW score: k=5 (pre-snap), norm=6.2075
+  Anchor:   word 20 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ectus et aqua sapiencie salutaris pota vnt 42
+                      0 ------||  8
+    query             0 ------et aqua sapiencie salutaris pota-vit 35
+
+-- fused_3 --
+  OCR:      'mm sterita inte  apud c'
+  Assigned: 'eum Et exaltavit eum apud proximos suos'
+  Words:    [20..27) consumed=7
+  NW score: k=5 (pre-snap), norm=1.2511
+  Anchor:   word 27 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 -mm st-e-rita int-e-  apud ------------c 23
+                      0 -.|  3
+    query             0 eum Et exaltavi-t eum apud proximos suos 39
+
+-- fused_4 --
+  OCR:      'mos su os  inme dio eccleie aperint os emo'
+  Assigned: 'In medio ecclesie aperuit os eius'
+  Words:    [27..33) consumed=6
+  NW score: k=6 (pre-snap), norm=3.0890
+  Anchor:   word 33 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 mos su os  inme dio eccle-ie aper-int os e-mo 42
+                      0 --------.. 10
+    query             0 --------In --me-dio ecclesie aperui-t os eius 33
+
+-- fused_5 --
+  OCR:      'et implevit cum spmitu sapientie et'
+  Assigned: 'et implevit eum spiritu sapiencie et intellectus'
+  Words:    [33..40) consumed=7
+  NW score: k=6 (pre-snap), norm=6.5922
+  Anchor:   word 40 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 et implevit cum sp-mitu sapientie et------------ 35
+                      0 ||  2
+    query             0 et implevit eum spiritu sapiencie et intellectus 48
+
+-- fused_6 --
+  OCR:      'Et ex alta. Alde Honorandus est beatus Johan'
+  Assigned: 'Et exaltavit Valde honorandus est beatus iohan'
+  Words:    [40..47) consumed=7
+  NW score: k=7 (pre-snap), norm=5.4918
+  Anchor:   word 47 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 Et ex alta--. -Alde Honorandus est beatus Johan--- 44
+                      0 ||  2
+    query             0 Et ex-altavit Valde honorandus est beatus iohannes 49
+
+-- fused_7 --
+  OCR:      'nes am supra Pectus domini in cena recubuit p dominus Regis'
+  Assigned: 'nes qui supra pectus domini in cena recubuit ~Dominus'
+  Words:    [47..55) consumed=8
+  NW score: k=9 (pre-snap), norm=5.1797
+  Anchor:   word 55 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 nes am supra Pectus domini in cena recubuit p dominus Regis
+                      0 ---...
+    query             0 ---qui supra pectus domini in cena recubuit -~Dominu------s
+    
+    target           59
+                      6
+    query            49
+
+-- fused_8 --
+  OCR:      'oa . Hic est discipulus ille aui testimonium pethi'
+  Assigned: 'regnavit euouae Hic est discipulus ille qui testimonium perhi'
+  Words:    [55..64) consumed=9
+  NW score: k=9 (pre-snap), norm=5.1265
+  Anchor:   word 64 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ---oa--- -----. Hic est discipulus ille aui testimonium peth
+                      0 ---.|---
+    query             0 regnavit euouae Hic est discipulus ille qui testimonium perh
+    
+    target           49 i--- 50
+                      8 |--- 12
+    query            60 ibet 64
+
+-- fused_9 --
+  OCR:      'et scimus quia verum est testimonium ejus pe'
+  Assigned: 'bet de hiis et scimus quia verum est testimonium eius'
+  Words:    [64..73) consumed=9
+  NW score: k=9 (pre-snap), norm=5.9010
+  Anchor:   word 73 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 --------et scimus quia verum est testimonium ejus pe 44
+                      0 --------|| 10
+    query             0 de hiis et scimus quia verum est testimonium eius--- 49
+
+-- fused_10 --
+  OCR:      'nbis eobae . ic est discipulus mens sic eum no'
+  Assigned: '~Jubilate euouae Hic est discipulus meus sic eum vo'
+  Words:    [73..82) consumed=9
+  NW score: k=9 (pre-snap), norm=4.7594
+  Anchor:   word 82 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 --nbi---s e-obae . ic est discipulus mens sic eum --no 46
+                      0 --.||---.  9
+    query             0 ~Jubilate euouae -Hic est discipulus meus sic eum volo 53
+
+-- fused_11 --
+  OCR:      'o manere donec veniam Dsdis evovae'
+  Assigned: 'lo manere donec veniam ~Deus deus euouae Sunt de'
+  Words:    [82..90) consumed=8
+  NW score: k=6 (pre-snap), norm=4.9622
+  Anchor:   word 90 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 o manere donec veniam -D--s-d-is evova--------e 34
+                      0 --||||||  8
+    query             0 --manere donec veniam ~Deus deus euouae Sunt de 45
+
+-- fused_12 --
+  OCR:      'mestantions qui non sustabunt mortem donec inteant'
+  Assigned: 'hic stantibus qui non gustabunt mortem donec videant'
+  Words:    [90..98) consumed=8
+  NW score: k=8 (pre-snap), norm=5.6874
+  Anchor:   word 98 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 --mestantions qui non sustabunt mortem donec -inteant 50
+                      0 --..||||||..| 13
+    query             0 hic stantibus qui non gustabunt mortem donec vi-deant 52
+=== END DEBUG ===
+
