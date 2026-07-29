@@ -34,15 +34,65 @@ The pipeline reads `config.yaml` from the repo root, or falls back to `~/.catdoe
 
 ## Usage
 
-### Image naming convention
+### Image preparation
 
-Images must follow the pattern `{anything}_{folio_id}.{ext}`, where `folio_id` is the folio
-identifier (e.g., `063v`, `064r`). The pipeline extracts the folio ID from the last
+Images must follow the pattern `{anything}_{folio_id}.{ext}`, where `folio_id` exactly
+matches the folio identifier used in the CantusDB CSV for the target source (e.g. `063v`,
+`064r`, or `001` depending on the source). The pipeline extracts the folio ID from the last
 underscore-delimited component of the filename stem:
 
 ```
-ms-234_063v.jpg  →  folio 063v
-ms-234_064r.jpg  →  folio 064r
+CH-E_611_063v.jpg  →  folio 063v
+CH-E_611_064r.jpg  →  folio 064r
+```
+
+Use `fetch_images.py` to produce correctly-named images automatically. It supports two
+subcommands:
+
+- **`fetch`** — download images directly from a IIIF manifest, named correctly on arrival
+- **`rename`** — rename (or copy) images already downloaded via a browser
+
+Both subcommands require `--source-id`. The CantusDB CSV for that source determines the
+canonical folio IDs and derives the output filename prefix from the manuscript's
+`holding_institution` (RISM code) and `shelfmark` fields — e.g. `CH-E_611` for
+Einsiedeln, Stiftsbibliothek, Cod. 611. Use `--prefix` to override if needed.
+
+#### Finding the e-codices manuscript code
+
+The manuscript code is the slug visible in the e-codices URL. For example:
+```
+https://www.e-codices.unifr.ch/en/list/one/sbe/0611  →  code: sbe-0611
+https://www.e-codices.unifr.ch/en/list/one/fcc/0002  →  code: fcc-0002
+```
+
+#### Examples
+
+Download all folios for a manuscript:
+```bash
+python fetch_images.py fetch \
+    --source ecodices \
+    --code sbe-0611 \
+    --source-id 678936 \
+    --out-dir ~/Downloads/DDMAL/einsiedeln-611/
+```
+
+Download at medium resolution (faster, smaller files):
+```bash
+python fetch_images.py fetch \
+    --source ecodices \
+    --code sbe-0611 \
+    --source-id 678936 \
+    --size medium \
+    --out-dir ~/Downloads/DDMAL/einsiedeln-611/
+```
+
+Rename browser-downloaded images:
+```bash
+python fetch_images.py rename \
+    --source ecodices \
+    --source-id 678936 \
+    --input-dir ~/Downloads/e-codices-sbe-0611/ \
+    --out-dir ~/Downloads/DDMAL/einsiedeln-611/
 ```
 
 ### Running the pipeline
@@ -95,13 +145,57 @@ dataset under `data/{manuscript}/experiment{N}/`.
 
 ---
 
+## Adding a new image source to fetch_images.py
+
+`fetch_images.py` currently supports e-codices only. The `sources/` package is structured
+for extension: `sources/base.py` defines a `Source` typing.Protocol and shared folio
+helpers; `sources/ecodices.py` is the one concrete implementation.
+
+### What a new source must implement
+
+Create `sources/{name}.py` with a class implementing these five methods:
+
+| Method | Used by | Notes |
+|--------|---------|-------|
+| `manifest_url(code: str) -> str` | fetch | Construct the manifest URL from a short code string (e.g. an ARK, shelfmark slug, or full URL). |
+| `canvases(manifest: dict) -> list[dict]` | fetch | Navigate the manifest JSON to the ordered canvas list. For IIIF Presentation API 2.x this is `manifest["sequences"][0]["canvases"]`. |
+| `canvas_folio_label(canvas: dict) -> str\|None` | fetch | Return the raw folio label. IIIF standard is `canvas["label"]`; some sources embed it elsewhere or use structured label objects (IIIF 3.x). |
+| `canvas_image_url(canvas: dict, size: str = "full") -> str\|None` | fetch | Return a download URL. `size` is a IIIF Image API size string (`"full"`, `"!1218,1624"`, etc.). Sources that don't support IIIF sizing can ignore it and always return full resolution. |
+| `folio_from_filename(filename: str) -> str\|None` | rename | Parse the raw folio label out of a browser-downloaded filename using a source-specific regex. Return `None` if the filename isn't from this source. |
+
+Then register it in `fetch_images.py` and wire it into `_cmd_fetch` / `_cmd_rename`.
+
+### Known challenges for specific sources
+
+**Gallica (BnF)** — IIIF compliant, manifest URL is `https://gallica.bnf.fr/iiif/ark:/{ark}/manifest.json`. Canvas labels are often inconsistent: facing-page canvases share a label, some folios are skipped or repeated, and non-folio images (title pages, spines) appear mid-sequence. `canvas_folio_label` would need label normalisation before `folios_match` can reliably use it.
+
+**DigiVatLib** — IIIF compliant. Canvas labels are generally cleaner than Gallica but use a different URL scheme; `manifest_url` and `canvas_image_url` need source-specific construction.
+
+**e-manuscripta** — IIIF compliant (Swiss platform, similar in spirit to e-codices). Likely straightforward to add alongside e-codices.
+
+**Non-IIIF / flat-PDF sources** — fetch mode does not apply. A source with no manifest (e.g. a McGill manuscript available only as a PDF) would need either: (a) a sidecar metadata file mapping page numbers to folio IDs, or (b) a new CLI subcommand outside the current fetch/rename model. `rename` mode is still usable if browser-downloaded filenames embed a parseable folio label.
+
+### Restoring the `--source` CLI flag
+
+`--source` was removed while only one source exists. When a second source is added:
+
+1. Add a `SOURCES` dict: `SOURCES = {"ecodices": ECodiciesSource(), "gallica": GallicaSource()}`
+2. Restore `--source` as a required shared argument with `choices=list(SOURCES)`
+3. Replace the hardcoded `ECodiciesSource()` in `_cmd_fetch` and `_cmd_rename` with `SOURCES[args.source]`
+
+---
+
 ## Repository Structure
 
 ```
 run_chain.py              # pipeline CLI
+fetch_images.py           # image fetch/rename CLI (fetch + rename subcommands)
 config.py                 # config loader; injects mothra-text into sys.path
 config.yaml               # local configuration (mothra_text_path, out_dir, model paths)
 requirements.txt          # pip dependencies
+sources/
+  base.py                 # Source protocol + shared folio parse/match helpers
+  ecodices.py             # e-codices source adapter
 scripts/
   run_mothra_inference.py # YOLO Stage 0 wrapper (load_models, run_single)
 experiments/
