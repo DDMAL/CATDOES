@@ -52,6 +52,9 @@ subcommands:
 - **`fetch`** — download images directly from a IIIF manifest, named correctly on arrival
 - **`rename`** — rename (or copy) images already downloaded via a browser
 
+**Currently supported image source: e-codices only.** Both subcommands are implemented for
+the [e-codices](https://www.e-codices.unifr.ch) Swiss manuscript repository.
+
 Both subcommands require `--source-id`. The CantusDB CSV for that source determines the
 canonical folio IDs and derives the output filename prefix from the manuscript's
 `holding_institution` (RISM code) and `shelfmark` fields — e.g. `CH-E_611` for
@@ -70,7 +73,6 @@ https://www.e-codices.unifr.ch/en/list/one/fcc/0002  →  code: fcc-0002
 Download all folios for a manuscript:
 ```bash
 python fetch_images.py fetch \
-    --source ecodices \
     --code sbe-0611 \
     --source-id 678936 \
     --out-dir ~/Downloads/DDMAL/einsiedeln-611/
@@ -79,17 +81,24 @@ python fetch_images.py fetch \
 Download at medium resolution (faster, smaller files):
 ```bash
 python fetch_images.py fetch \
-    --source ecodices \
     --code sbe-0611 \
     --source-id 678936 \
     --size medium \
     --out-dir ~/Downloads/DDMAL/einsiedeln-611/
 ```
 
+Download a specific subset of folios (useful for testing):
+```bash
+python fetch_images.py fetch \
+    --code sbe-0611 \
+    --source-id 678936 \
+    --folios 063v 064r 064v \
+    --out-dir ~/Downloads/DDMAL/einsiedeln-611/
+```
+
 Rename browser-downloaded images:
 ```bash
 python fetch_images.py rename \
-    --source ecodices \
     --source-id 678936 \
     --input-dir ~/Downloads/e-codices-sbe-0611/ \
     --out-dir ~/Downloads/DDMAL/einsiedeln-611/
@@ -163,7 +172,8 @@ Create `sources/{name}.py` with a class implementing these five methods:
 | `canvas_image_url(canvas: dict, size: str = "full") -> str\|None` | fetch | Return a download URL. `size` is a IIIF Image API size string (`"full"`, `"!1218,1624"`, etc.). Sources that don't support IIIF sizing can ignore it and always return full resolution. |
 | `folio_from_filename(filename: str) -> str\|None` | rename | Parse the raw folio label out of a browser-downloaded filename using a source-specific regex. Return `None` if the filename isn't from this source. |
 
-Then register it in `fetch_images.py` and wire it into `_cmd_fetch` / `_cmd_rename`.
+Then register it in `fetch_images.py` and wire it into `_cmd_fetch` / `_cmd_rename`. See the
+developer notes at the top of `fetch_images.py` for the exact steps.
 
 ### Known challenges for specific sources
 
@@ -174,14 +184,6 @@ Then register it in `fetch_images.py` and wire it into `_cmd_fetch` / `_cmd_rena
 **e-manuscripta** — IIIF compliant (Swiss platform, similar in spirit to e-codices). Likely straightforward to add alongside e-codices.
 
 **Non-IIIF / flat-PDF sources** — fetch mode does not apply. A source with no manifest (e.g. a McGill manuscript available only as a PDF) would need either: (a) a sidecar metadata file mapping page numbers to folio IDs, or (b) a new CLI subcommand outside the current fetch/rename model. `rename` mode is still usable if browser-downloaded filenames embed a parseable folio label.
-
-### Restoring the `--source` CLI flag
-
-`--source` was removed while only one source exists. When a second source is added:
-
-1. Add a `SOURCES` dict: `SOURCES = {"ecodices": ECodiciesSource(), "gallica": GallicaSource()}`
-2. Restore `--source` as a required shared argument with `choices=list(SOURCES)`
-3. Replace the hardcoded `ECodiciesSource()` in `_cmd_fetch` and `_cmd_rename` with `SOURCES[args.source]`
 
 ---
 
@@ -199,7 +201,9 @@ sources/
 scripts/
   run_mothra_inference.py # YOLO Stage 0 wrapper (load_models, run_single)
 experiments/
-  experiment1/            # MS 0234, 20 folios, 2026-07-21
+  experiment1/            # CH-SGs 390 (source 678936), 20 folios, 2026-07-21
+  experiment2/            # CH-Fco Ms. 2 (source 123672), 20 non-contiguous folios
+spike/                    # Research spikes and format notes (not pipeline output)
 Gen_Transkribus/          # Notes on layout model evaluation with Transkribus
 data/                     # Annotation data and notes
 ```

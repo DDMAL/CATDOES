@@ -42,6 +42,22 @@ from pathlib import Path
 from sources.base import folios_match, parse_folio_label
 from sources.ecodices import ECodiciesSource
 
+# ---------------------------------------------------------------------------
+# Developer notes: adding a second image source
+# ---------------------------------------------------------------------------
+# fetch_images.py currently hardcodes ECodiciesSource. When a second source
+# is added (e.g. Gallica, DigiVatLib), restore multi-source support:
+#
+#   1. Create sources/{name}.py implementing the Source protocol in
+#      sources/base.py
+#   2. Add a SOURCES dict here:
+#        SOURCES = {"ecodices": ECodiciesSource(), "gallica": GallicaSource()}
+#   3. Restore --source as a required shared argument with
+#      choices=list(SOURCES)
+#   4. Replace the two hardcoded ECodiciesSource() calls in _cmd_fetch and
+#      _cmd_rename with: source = SOURCES[args.source]
+# ---------------------------------------------------------------------------
+
 IMAGE_EXTS = {".jpg", ".jpeg", ".png", ".tif", ".tiff"}
 CANTUS_CSV_URL = "https://cantusdatabase.org/source/{source_id}/csv/"
 
