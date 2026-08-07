@@ -108,6 +108,7 @@ def _run_one(
     image_path: Path,
     folio_id: str,
     prev_state: "object | None",
+    infer_continuation: bool,
     out_dir: Path,
     mothra_json_path: "str | None",
     debug: bool,
@@ -145,6 +146,7 @@ def _run_one(
                 column_bimodal_threshold=args.column_bimodal_threshold,
                 prev_folio_state=prev_state,
                 folio_state_out=tmp_path,
+                infer_continuation=infer_continuation,
                 debug_ocr=debug,
                 column_count=args.column_count,
                 mothra_json_path=mothra_json_path,
@@ -332,6 +334,14 @@ def main() -> None:
     completed = 0
 
     for i, (image_path, folio_id) in enumerate(folios):
+        # infer_continuation defaults True for the first folio (no true
+        # predecessor to know either way) or when this folio genuinely
+        # follows the previous one. When contiguity fails below, prev_state
+        # is reset - but build_flat_text_and_anchors' own infer_continuation
+        # default would otherwise still scan the CSV itself for "the nearest
+        # preceding folio with a 77 break" and re-derive the same wrong
+        # continuation independent of that reset, so it must be suppressed too.
+        infer_continuation = True
         if i > 0:
             prev_folio_id = folios[i - 1][1]
             if not _are_contiguous(prev_folio_id, folio_id):
@@ -340,6 +350,7 @@ def main() -> None:
                     prev_folio_id, folio_id,
                 )
                 prev_state = None
+                infer_continuation = False
 
         try:
             prev_state = _run_one(
@@ -348,6 +359,7 @@ def main() -> None:
                 image_path=image_path,
                 folio_id=folio_id,
                 prev_state=prev_state,
+                infer_continuation=infer_continuation,
                 out_dir=out_dir,
                 mothra_json_path=mothra_jsons.get(folio_id),
                 debug=args.debug,
