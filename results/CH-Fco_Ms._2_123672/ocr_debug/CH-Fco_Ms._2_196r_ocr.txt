@@ -1,0 +1,195 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'Libenter gloriabor in infirmitatibus meis ut inhabitet in me'
+  [fused_1] 'Lubil evovaeQuando emimi infirmor tunc'
+  [fused_2] 'racia Dei min me vacua non fuit sed gracia e'
+  [fused_3] 'vus semper in meaet Pdsracia Dei sum id'
+  [fused_4] 'amasci prepositus gentis a rethe regis voluit me'
+  [fused_5] 'comprehendere a fratribus per murum submissus sum in spor'
+  [fused_6] 'ta et sic evasi manus ejus in nomine domini Benedirinis ex'
+  [fused_7] 'eus et pater domini nostri Jhesn Christisti scit quian'
+  [fused_8] 'mencior  er virgis cesus sum semel lapidatus sum ter'
+  [fused_9] 'naufragium Pertulisom  Ladn evovae'
+  [fused_10] 'm ultet Cel'
+  [fused_11] 'Nocte et die in profundum maris fui. tois Sancte Paule'
+  [fused_12] 'os qui sequuti estis me sedebitis super sedes jidi'
+  [fused_13] 'cantes duotecum taons isithel dicit dominus Crrraexo l'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'Libenter gloriabor in infirmitatibus meis ut inhabitet in me'
+  Assigned: 'Libenter gloriabor in infirmitatibus meis ut inhabitet in me'
+  Words:    [0..9) consumed=9
+  NW score: k=9 (pre-snap), norm=8.0000
+  Anchor:   word 9 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 Libenter gloriabor in infirmitatibus meis ut inhabitet in me
+                      0 ||||||||
+    query             0 Libenter gloriabor in infirmitatibus meis ut inhabitet in me
+    
+    target           60 
+                      8 
+    query            60 
+
+-- fused_1 --
+  OCR:      'Lubil evovaeQuando emimi infirmor tunc'
+  Assigned: 'virtus xpisti ~Iubilate euouae Quando enim infirmor tunc'
+  Words:    [9..17) consumed=8
+  NW score: k=8 (pre-snap), norm=3.6419
+  Anchor:   word 17 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ---------------Lubil--- evovae-Quando emimi infirmor tunc 38
+                      0 ---------------.||||--- 23
+    query             0 virtus xpisti ~Iubilate euouae Quando enim- infirmor tunc 56
+
+-- fused_2 --
+  OCR:      'racia Dei min me vacua non fuit sed gracia e'
+  Assigned: 'fortior sum Gracia dei in me vacua non fuit sed gracia e'
+  Words:    [17..29) consumed=12
+  NW score: k=12 (pre-snap), norm=5.2600
+  Anchor:   word 29 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -------------racia Dei min me vacua non fuit sed gracia e---
+                      0 -------------|||||
+    query             0 fortior sum Gracia dei -in me vacua non fuit sed gracia eius
+    
+    target           44 
+                     18 
+    query            59 
+
+-- fused_3 --
+  OCR:      'vus semper in meaet Pdsracia Dei sum id'
+  Assigned: 'ius semper in me manet ~Deus deus euouae Gracia dei sum id'
+  Words:    [29..40) consumed=11
+  NW score: k=11 (pre-snap), norm=3.5083
+  Anchor:   word 40 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 vus semper in me--a-et -----Pd--s---------racia Dei sum id 39
+                      0 ----|||||| 10
+    query             0 ----semper in me manet ~Deus deus euouae Gracia dei sum id 54
+
+-- fused_4 --
+  OCR:      'amasci prepositus gentis a rethe regis voluit me'
+  Assigned: 'quod sum Damasci prepositus gentis arethe regis voluit me'
+  Words:    [40..49) consumed=9
+  NW score: k=9 (pre-snap), norm=6.4045
+  Anchor:   word 49 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ----------amasci prepositus gentis a rethe regis voluit me 48
+                      0 ----------|||||| 16
+    query             0 quod sum Damasci prepositus gentis a-rethe regis voluit me 57
+
+-- fused_5 --
+  OCR:      'comprehendere a fratribus per murum submissus sum in spor'
+  Assigned: 'comprehendere a fratribus per murum submissus sum in spor'
+  Words:    [49..58) consumed=9
+  NW score: k=9 (pre-snap), norm=7.6908
+  Anchor:   word 58 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 comprehendere a fratribus per murum submissus sum in spor--
+                      0 |||||||||||||
+    query             0 comprehendere a fratribus per murum submissus sum in sporta
+    
+    target           57
+                     13
+    query            59
+
+-- fused_6 --
+  OCR:      'ta et sic evasi manus ejus in nomine domini Benedirinis ex'
+  Assigned: 'ta et sic evasi manus eius in nomine domini ~Benedic'
+  Words:    [58..67) consumed=9
+  NW score: k=9 (pre-snap), norm=5.8713
+  Anchor:   word 67 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ta et sic evasi manus ejus in nomine domini -Benedirinis ex
+                      0 ---||
+    query             0 ---et sic evasi manus eius in nomine domini ~Benedi-------c
+    
+    target           58
+                      5
+    query            49
+
+-- fused_7 --
+  OCR:      'eus et pater domini nostri Jhesn Christisti scit quian'
+  Assigned: 'euouae Deus et pater domini nostri ihesu xpisti scit quia non'
+  Words:    [67..78) consumed=11
+  NW score: k=10 (pre-snap), norm=5.2091
+  Anchor:   word 78 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 --------eus et pater domini nostri Jhesn Christisti scit qui
+                      0 --------|||
+    query             0 euouae Deus et pater domini nostri ihesu ----xpisti scit qui
+    
+    target           52 a---n 54
+                     11 |---| 16
+    query            56 a non 61
+
+-- fused_8 --
+  OCR:      'mencior  er virgis cesus sum semel lapidatus sum ter'
+  Assigned: 'mencior Ter virgis cesus sum semel lapidatus sum ter'
+  Words:    [78..87) consumed=9
+  NW score: k=9 (pre-snap), norm=7.7500
+  Anchor:   word 87 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 mencior  er virgis cesus sum semel lapidatus sum ter 52
+                      0 |||||||  7
+    query             0 mencior Ter virgis cesus sum semel lapidatus sum ter 52
+
+-- fused_9 --
+  OCR:      'naufragium Pertulisom  Ladn evovae'
+  Assigned: 'naufragium pertuli pro christi nomine ~Laudate'
+  Words:    [87..93) consumed=6
+  NW score: k=3 (pre-snap), norm=3.4004
+  Anchor:   word 93 (within_chant_7), diff=3, snapped=False, forced=True
+  Alignment:
+    target            0 naufragium Pertul---------is----om---  La-dn evova-e 34
+                      0 |||||||||| 10
+    query             0 naufragium pertuli pro christi nomine ~Laud------ate 46
+
+-- fused_10 --
+  OCR:      'm ultet Cel'
+  Assigned: 'euouae Nocte et die'
+  Words:    [93..97) consumed=4
+  NW score: k=4 (pre-snap), norm=-1.5218
+  Anchor:   word 101 (within_chant_7), diff=4, snapped=False, forced=False
+  Alignment:
+    target            0 -----m -ult--et -Cel 11
+                      0 -----.  6
+    query             0 euouae Nocte et die- 19
+
+-- fused_11 --
+  OCR:      'Nocte et die in profundum maris fui. tois Sancte Paule'
+  Assigned: 'in profundum maris fui'
+  Words:    [97..101) consumed=4
+  NW score: k=6 (pre-snap), norm=2.7081
+  Anchor:   word 101 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 Nocte et die in profundum maris fui. tois Sancte Paule 54
+                      0 -------------|| 15
+    query             0 -------------in profundum maris fui------------------- 22
+
+-- fused_12 --
+  OCR:      'os qui sequuti estis me sedebitis super sedes jidi'
+  Assigned: 'Vos qui sequuti estis me sedebitis super sedes iudi'
+  Words:    [101..110) consumed=9
+  NW score: k=8 (pre-snap), norm=6.9644
+  Anchor:   word 110 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 -os qui sequuti estis me sedebitis super sedes ji-di------ 50
+                      0 -||  3
+    query             0 Vos qui sequuti estis me sedebitis super sedes -iudicantes 57
+
+-- fused_13 --
+  OCR:      'cantes duotecum taons isithel dicit dominus Crrraexo l'
+  Assigned: 'cantes duodecim tribus israhel dicit dominus'
+  Words:    [110..115) consumed=5
+  NW score: k=5 (pre-snap), norm=2.8636
+  Anchor:   word 115 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 cantes duotecum t-aons isithel dicit dominus Crrraexo l 54
+                      0 -------|||.||.| 15
+    query             0 -------duodecim tribus israhel dicit dominus----------- 37
+=== END DEBUG ===
+

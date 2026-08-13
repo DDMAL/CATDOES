@@ -1,0 +1,167 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'ruerunt il lis dispertite Lingue tamquam ig mi'
+  [fused_1] 'sedito suprasii gulose o rum.'
+  [fused_2] 'pleni sunt omes spiritu Sancto et ceperunt'
+  [fused_3] 'loqui variis Lingnis pront ipatitus lanc tus da'
+  [fused_4] 'Bate loqui  no qe inpa que iipa'
+  [fused_5] '  essent in unum di'
+  [fused_6] 'cipuli congregati propter metum judeo rum sonis re'
+  [fused_7] 'Pentete neint luper C ecceise unda'
+  [fused_8] 'Nonnocatis Jhesus duodecim discipulis suis'
+  [fused_9] 'lis virtutem et potestatem super omnia demonia et'
+  [fused_10] 'ut langores curarent etmisit illos pedicare regnum'
+  [fused_11] 'tei et lanare infirmons alieluya evorae '
+  [fused_12] 'titus q a patre poredit avelu ele me clanfica'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'ruerunt il lis dispertite Lingue tamquam ig mi'
+  Assigned: 'illis dispertite lingue tamquam ignis'
+  Words:    [0..5) consumed=5
+  NW score: k=5 (pre-snap), norm=5.1630
+  Anchor:   word 35 (within_chant_7), diff=30, snapped=False, forced=False
+  Alignment:
+    target            0 ruerunt il lis dispertite Lingue tamquam ig mi- 46
+                      0 --------||-||| 14
+    query             0 --------il-lis dispertite lingue tamquam ig-nis 37
+
+-- fused_1 --
+  OCR:      'sedito suprasii gulose o rum.'
+  Assigned: 'seditque supra singulos eorum'
+  Words:    [5..9) consumed=4
+  NW score: k=4 (pre-snap), norm=4.2069
+  Anchor:   word 35 (within_chant_7), diff=26, snapped=False, forced=False
+  Alignment:
+    target            0 sedit--o supra-sii gulos-e o rum. 29
+                      0 |||||--.  8
+    query             0 seditque supra s-ingulos e-o-rum- 29
+
+-- fused_2 --
+  OCR:      'pleni sunt omes spiritu Sancto et ceperunt'
+  Assigned: 'Et repleti sunt omnes spiritu sancto et ceperunt'
+  Words:    [9..17) consumed=8
+  NW score: k=8 (pre-snap), norm=6.3252
+  Anchor:   word 35 (within_chant_7), diff=18, snapped=False, forced=False
+  Alignment:
+    target            0 -----pleni sunt om-es spiritu Sancto et ceperunt 42
+                      0 -----|||.| 10
+    query             0 Et repleti sunt omnes spiritu sancto et ceperunt 48
+
+-- fused_3 --
+  OCR:      'loqui variis Lingnis pront ipatitus lanc tus da'
+  Assigned: 'loqui variis linguis prout spiritus sanctus dabat'
+  Words:    [17..24) consumed=7
+  NW score: k=7 (pre-snap), norm=5.3553
+  Anchor:   word 35 (within_chant_7), diff=11, snapped=False, forced=False
+  Alignment:
+    target            0 loqui variis Lingnis pront ipatitus lanc tus da--- 47
+                      0 |||||  5
+    query             0 loqui variis linguis prout spiritus sanc-tus dabat 49
+
+-- fused_4 --
+  OCR:      'Bate loqui  no qe inpa que iipa'
+  Assigned: 'eloqui illis alleluya'
+  Words:    [24..27) consumed=3
+  NW score: k=3 (pre-snap), norm=-0.4703
+  Anchor:   word 35 (within_chant_7), diff=8, snapped=False, forced=False
+  Alignment:
+    target            0 Bate loqui  no qe inpa que iipa 31
+                      0 ---|-|||||---- 14
+    query             0 ---e-loqui---- illis a-lle-luya 21
+
+-- fused_5 --
+  OCR:      'essent in unum di'
+  Assigned: 'alleluya alleluya Dum ergo essent in unum di'
+  Words:    [27..35) consumed=8
+  NW score: k=8 (pre-snap), norm=0.8830
+  Anchor:   word 35 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ---------------------------essent in unum d-------i 17
+                      0 ---------------------------|||||| 33
+    query             0 alleluya alleluya Dum ergo essent in unum discipuli 51
+
+-- fused_6 --
+  OCR:      'cipuli congregati propter metum judeo rum sonis re'
+  Assigned: 'scipuli congregati propter metum iudeorum sonus re'
+  Words:    [35..41) consumed=6
+  NW score: k=5 (pre-snap), norm=5.4576
+  Anchor:   word 41 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 cipuli congregati propter metum judeo rum sonis r-----e 50
+                      0 -------|||||||||| 17
+    query             0 -------congregati propter metum iudeo-rum sonus repente 47
+
+-- fused_7 --
+  OCR:      'Pentete neint luper C ecceise unda'
+  Assigned: 'pente de celo venit super eos Et repleti'
+  Words:    [41..48) consumed=7
+  NW score: k=6 (pre-snap), norm=0.6727
+  Anchor:   word 48 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 Pentete ne-int luper -----C -ecce-ise unda 34
+                      0 .|..|..  7
+    query             0 de celo veni-t super eos Et repleti------- 34
+
+-- fused_8 --
+  OCR:      'Nonnocatis Jhesus duodecim discipulis suis'
+  Assigned: 'Convocatis jhesus duodecim discipulis suis dedit il'
+  Words:    [48..55) consumed=7
+  NW score: k=5 (pre-snap), norm=7.0714
+  Anchor:   word 55 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 Nonnocatis Jhesus duodecim discipulis su------------is 42
+                      0 .||.|||||| 10
+    query             0 Convocatis jhesus duodecim discipulis suis dedit illis 54
+
+-- fused_9 --
+  OCR:      'lis virtutem et potestatem super omnia demonia et'
+  Assigned: 'lis virtutem et potestatem super omnia demonia et'
+  Words:    [55..62) consumed=7
+  NW score: k=7 (pre-snap), norm=7.3258
+  Anchor:   word 62 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 lis virtutem et potestatem super omnia demonia et 49
+                      0 ----|||||||| 12
+    query             0 ----virtutem et potestatem super omnia demonia et 45
+
+-- fused_10 --
+  OCR:      'ut langores curarent etmisit illos pedicare regnum'
+  Assigned: 'ut languores curarent et misit illos pedicare regnum'
+  Words:    [62..70) consumed=8
+  NW score: k=8 (pre-snap), norm=7.5701
+  Anchor:   word 70 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ut lang-ores curarent et-misit illos pedicare regnum 50
+                      0 ||  2
+    query             0 ut languores curarent et misit illos pedicare regnum 52
+
+-- fused_11 --
+  OCR:      'tei et lanare infirmons alieluya evorae'
+  Assigned: 'dei et sanare infirmos alleluya euouae'
+  Words:    [70..76) consumed=6
+  NW score: k=6 (pre-snap), norm=6.0265
+  Anchor:   word 85 (page_break_77), diff=9, snapped=False, forced=False
+  Alignment:
+    target            0 tei et lanare infirmons alieluya evorae 39
+                      0 .||  3
+    query             0 dei et sanare infirmo-s alleluya euouae 38
+
+-- fused_12 --
+  OCR:      'titus q a patre poredit avelu ele me clanfica'
+  Assigned: 'Spiritus qui a patre procedit alleluya ille me clarificabit'
+  Words:    [76..85) consumed=9
+  NW score: k=9 (pre-snap), norm=4.2890
+  Anchor:   word 85 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ---titus q-- a patre p-oredit a-velu-- -ele me cla-nfica---
+                      0 ---.||||
+    query             0 Spiritus qui a patre procedit alleluya ille me clarificabit
+    
+    target           45
+                      8
+    query            59
+=== END DEBUG ===
+

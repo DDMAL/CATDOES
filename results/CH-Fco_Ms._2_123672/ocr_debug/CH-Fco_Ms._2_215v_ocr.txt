@@ -1,0 +1,179 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'Ronem pe n dit  terminum calem cupidita'
+  [fused_1] 'u . ic curis cor extraneum'
+  [fused_2] 'providet in crastinum inzo nisesligatum oria pa'
+  [fused_3] 'm et si vo et spi d ni reencio Legressis'
+  [fused_4] 'emiserat completur bis sena rius fratrumdum'
+  [fused_5] 'Conr normam sancto quam scripserat Jussadat'
+  [fused_6] 'Innocentius pa pa depredicando.'
+  [fused_7] 'mna Franciscus fenerat quem dari mo net ratio de'
+  [fused_8] 'vicro reitando Jussa iopatri et fi et spi'
+  [fused_9] '.onum Lncto anctus Franciscus premis oratio'
+  [fused_10] 'num sardus aomno facerat instenctus aomin sibmi soni uenete sico'
+  [fused_11] 'aliis proficere vult Dei zeloductus evovae . Nic predican'
+  [fused_12] 'docntunt et quem non domo docunt to tortus instrporen'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'Ronem pe n dit  terminum calem cupidita'
+  Assigned: 'roneum Precludit et interminum calem cupiditatum'
+  Words:    [0..6) consumed=6
+  NW score: k=6 (pre-snap), norm=4.6225
+  Anchor:   word 11 (within_chant_7), diff=5, snapped=False, forced=False
+  Alignment:
+    target            0 Rone-m -pe n dit -- --terminum calem cupidita--- 39
+                      0 .|||-|  6
+    query             0 roneum Precludit et interminum calem cupiditatum 48
+
+-- fused_1 --
+  OCR:      'u . ic curis cor extraneum'
+  Assigned: 'Sic curis cor extraneum non'
+  Words:    [6..11) consumed=5
+  NW score: k=4 (pre-snap), norm=6.4611
+  Anchor:   word 11 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 u . ic curis cor extraneum---- 26
+                      0 ---.||  6
+    query             0 ---Sic curis cor extraneum non 27
+
+-- fused_2 --
+  OCR:      'providet in crastinum inzo nisesligatum oria pa'
+  Assigned: 'providet in crastinum in zonis es ligatum'
+  Words:    [11..18) consumed=7
+  NW score: k=7 (pre-snap), norm=5.6495
+  Anchor:   word 21 (within_chant_7), diff=3, snapped=False, forced=False
+  Alignment:
+    target            0 providet in crastinum in-zo nis-es-ligatum oria pa 47
+                      0 ||||||||  8
+    query             0 providet in crastinum in zo-nis es ligatum-------- 41
+
+-- fused_3 --
+  OCR:      'm et si vo et spi d ni reencio Legressis'
+  Assigned: 'Precludit Gloria patri et filio et spiritui sancto Regressis'
+  Words:    [18..27) consumed=9
+  NW score: k=9 (pre-snap), norm=1.6738
+  Anchor:   word 21 (within_chant_7), diff=6, snapped=False, forced=False
+  Alignment:
+    target            0 ---------------------m et si vo et spi d ni reencio Legressi
+                      0 ---------------------.
+    query             0 Precludit Gloria patri et filio et spiritui -sancto Regressi
+    
+    target           39 s 40
+                     22 | 23
+    query            59 s 60
+
+-- fused_4 --
+  OCR:      'emiserat completur bis sena rius fratrumdum'
+  Assigned: 'quos emiserat completur bis senarius fratrum dum'
+  Words:    [27..34) consumed=7
+  NW score: k=7 (pre-snap), norm=6.6694
+  Anchor:   word 34 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -----emiserat completur bis sena rius fratrum-dum 43
+                      0 -----|||||||| 13
+    query             0 quos emiserat completur bis sena-rius fratrum dum 48
+
+-- fused_5 --
+  OCR:      'Conr normam sancto quam scripserat Jussadat'
+  Assigned: 'confirmando normam sancto quam scripserat Iussa dat Innocentius papa de'
+  Words:    [34..44) consumed=10
+  NW score: k=7 (pre-snap), norm=6.0218
+  Anchor:   word 44 (within_chant_7), diff=3, snapped=False, forced=True
+  Alignment:
+    target            0 Con--r----- normam sancto quam scripserat Jussa-dat---------
+                      0 .||--|-----
+    query             0 confirmando normam sancto quam scripserat Iussa dat Innocent
+    
+    target           43 ----------- 43
+                     11 ----------- 22
+    query            60 ius papa de 71
+
+-- fused_6 --
+  OCR:      'Innocentius pa pa depredicando.'
+  Assigned: 'predicando'
+  Words:    [44..45) consumed=1
+  NW score: k=1 (pre-snap), norm=0.5112
+  Anchor:   word 54 (within_chant_7), diff=9, snapped=False, forced=False
+  Alignment:
+    target            0 Innocentius pa pa depredicando. 31
+                      0 --------------------||||||||||- 31
+    query             0 --------------------predicando- 10
+
+-- fused_7 --
+  OCR:      'mna Franciscus fenerat quem dari mo net ratio de'
+  Assigned: 'In mea franciscus fenerat quem dari monet ratio de'
+  Words:    [45..54) consumed=9
+  NW score: k=9 (pre-snap), norm=6.7361
+  Anchor:   word 54 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ---mna Franciscus fenerat quem dari mo net ratio de 48
+                      0 ---|.|  6
+    query             0 In mea franciscus fenerat quem dari mo-net ratio de 50
+
+-- fused_8 --
+  OCR:      'vicro reitando Jussa iopatri et fi et spi'
+  Assigned: 'lucro reportando Iussa Gloria patri et filio et spiri'
+  Words:    [54..63) consumed=9
+  NW score: k=9 (pre-snap), norm=4.1322
+  Anchor:   word 63 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 vicro re--itando Jussa ----i-opatri et fi--- et sp-----i 41
+                      0 ..|||  5
+    query             0 lucro reportando Iussa Gloria patri et filio et spiritui 56
+
+-- fused_9 --
+  OCR:      '.onum Lncto anctus Franciscus premis oratio'
+  Assigned: 'tui sancto Sanctus franciscus previis oratio'
+  Words:    [63..68) consumed=5
+  NW score: k=5 (pre-snap), norm=4.7907
+  Anchor:   word 68 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 .onum Lncto -anctus Franciscus pre-mis oratio--- 43
+                      0 -----..|||| 11
+    query             0 -----sancto Sanctus franciscus previis orationum 43
+
+-- fused_10 --
+  OCR:      'num sardus aomno facerat instenctus aomin sibmi soni uenete sico'
+  Assigned: 'num studiis quid faciat instructus non sibi soli vivere sed'
+  Words:    [68..77) consumed=9
+  NW score: k=9 (pre-snap), norm=2.3091
+  Anchor:   word 77 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 num sard-us aomno facerat instenctus aomin sibmi soni uenete
+                      0 ----|..|-.|
+    query             0 ----studiis -quid fac-iat instructus no--n sib-i soli vivere
+    
+    target           59  sico 64
+                     11  11
+    query            51  s-ed 55
+
+-- fused_11 --
+  OCR:      'aliis proficere vult Dei zeloductus evovae . Nic predican'
+  Assigned: 'aliis proficere vult dei zelo ductus euouae Hic predican'
+  Words:    [77..86) consumed=9
+  NW score: k=9 (pre-snap), norm=6.2785
+  Anchor:   word 86 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 aliis proficere vult Dei zelo-ductus evovae . Nic predican--
+                      0 |||||
+    query             0 aliis proficere vult dei zelo ductus euouae-- Hic predicando
+    
+    target           57 
+                      5 
+    query            58 
+
+-- fused_12 --
+  OCR:      'docntunt et quem non domo docunt to tortus instrporen'
+  Assigned: 'do circuit et quem non homo docuit fit doctis in stuporem'
+  Words:    [86..96) consumed=10
+  NW score: k=10 (pre-snap), norm=4.2806
+  Anchor:   word 96 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 doc-ntunt et quem non domo docunt --to tortus in-strporen 53
+                      0 --|-..|.|  9
+    query             0 --circuit et quem non homo docuit fit- doctis in stuporem 54
+=== END DEBUG ===
+

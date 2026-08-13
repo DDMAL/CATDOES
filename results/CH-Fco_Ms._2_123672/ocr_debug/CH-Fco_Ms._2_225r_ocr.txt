@@ -1,0 +1,171 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'tum urbanum . quia ad ipsum ha beo se'
+  [fused_1] 'tre taane perferam '
+  [fused_2] 'Lunc valeria mis perrexit ad antistitem'
+  [fused_3] 'sigo qo accepe t  a m .'
+  [fused_4] 'Qma.Lum auto s non ec cecilia'
+  [fused_5] 'di pt esimntes eri it abiate opeta te'
+  [fused_6] 'nebrarum et indui mni magnis'
+  [fused_7] ' ecilia vale dicens fratri bus et exhortans'
+  [fused_8] 'eos  Gya milites .'
+  [fused_9] 'antantibus organls cealia domino decantabat'
+  [fused_10] 'tens fiat cormeum immaculatum ut non confunidar'
+  [fused_11] ' Valerianus in cubiculo ceciliam cum'
+  [fused_12] 'angelo rantem invense eoonae a eciasa'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'tum urbanum . quia ad ipsum ha beo se'
+  Assigned: 'sanctum urbanum Quia ad ipsum habeo'
+  Words:    [0..6) consumed=6
+  NW score: k=6 (pre-snap), norm=5.2520
+  Anchor:   word 15 (within_chant_7), diff=9, snapped=False, forced=False
+  Alignment:
+    target            0 ----tum urbanum . quia ad ipsum ha beo se 37
+                      0 ----|||  7
+    query             0 sanctum urbanum-- Quia ad ipsum ha-beo--- 35
+
+-- fused_1 --
+  OCR:      'tre taane perferam'
+  Assigned: 'secreta que perferam'
+  Words:    [6..9) consumed=3
+  NW score: k=3 (pre-snap), norm=3.8474
+  Anchor:   word 15 (within_chant_7), diff=6, snapped=False, forced=False
+  Alignment:
+    target            0 --tre ta-ane perferam 18
+                      0 --.||-||-..| 12
+    query             0 secre-ta que perferam 20
+
+-- fused_2 --
+  OCR:      'Lunc valeria mis perrexit ad antistitem'
+  Assigned: 'Tunc valerianus perrexit ad antistitem et'
+  Words:    [9..15) consumed=6
+  NW score: k=5 (pre-snap), norm=6.7019
+  Anchor:   word 15 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 Lunc valeria mis perrexit ad antistitem--- 39
+                      0 .|||  4
+    query             0 Tunc valeria-nus perrexit ad antistitem et 41
+
+-- fused_3 --
+  OCR:      'sigo qo accepe t  a m .'
+  Assigned: 'signo quod acceperat invenit sanctum urbanum'
+  Words:    [15..21) consumed=6
+  NW score: k=3 (pre-snap), norm=2.9374
+  Anchor:   word 21 (within_chant_7), diff=3, snapped=False, forced=True
+  Alignment:
+    target            0 sig-o q-o- accepe--- ------t  a--- m ------. 23
+                      0 |||-|  5
+    query             0 signo quod acceperat invenit sanctum urbanum 44
+
+-- fused_4 --
+  OCR:      'Qma.Lum auto s non ec cecilia'
+  Assigned: 'Quia Cum aurora finem daret cecilia'
+  Words:    [21..27) consumed=6
+  NW score: k=6 (pre-snap), norm=2.6680
+  Anchor:   word 27 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 Q-ma.Lum auto-- s non ---ec cecilia 29
+                      0 |-.|..||  8
+    query             0 Quia Cum aurora finem daret cecilia 35
+
+-- fused_5 --
+  OCR:      'di pt esimntes eri it abiate opeta te'
+  Assigned: 'dixit Eya milites xpisti abicite opera te'
+  Words:    [27..34) consumed=7
+  NW score: k=6 (pre-snap), norm=1.9735
+  Anchor:   word 34 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 di pt ---esimntes eri- it abi-ate opeta te-------- 37
+                      0 ||..|  5
+    query             0 dixit Eya milites xpisti- abicite opera tenebrarum 49
+
+-- fused_6 --
+  OCR:      'nebrarum et indui mni magnis'
+  Assigned: 'nebrarum et induimini armis lu'
+  Words:    [34..38) consumed=4
+  NW score: k=3 (pre-snap), norm=2.5835
+  Anchor:   word 38 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 nebrarum et indui m-ni --m---agnis 28
+                      0 ---------|| 11
+    query             0 ---------et indui-mini armis lucis 24
+
+-- fused_7 --
+  OCR:      'ecilia vale dicens fratri bus et exhortans'
+  Assigned: 'cis Cecilia valedicens fratribus et exhortans'
+  Words:    [38..43) consumed=5
+  NW score: k=5 (pre-snap), norm=7.2053
+  Anchor:   word 43 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -ecilia vale dicens fratri bus et exhortans 42
+                      0 -||||||  7
+    query             0 Cecilia vale-dicens fratri-bus et exhortans 41
+
+-- fused_8 --
+  OCR:      'eos  Gya milites .'
+  Assigned: 'eos ait Eya'
+  Words:    [43..46) consumed=3
+  NW score: k=4 (pre-snap), norm=4.9748
+  Anchor:   word 46 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 eos  Gya milites --. 18
+                      0 |||  3
+    query             0 eos ---a----it-- Eya 11
+
+-- fused_9 --
+  OCR:      'antantibus organls cealia domino decantabat'
+  Assigned: 'milites Cantantibus organis cecilia domino decantabat di'
+  Words:    [46..53) consumed=7
+  NW score: k=6 (pre-snap), norm=5.8652
+  Anchor:   word 53 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 ---------antantibus organls ce-alia domino decantabat-------
+                      0 ---------||||||||||
+    query             0 milites Cantantibus organis cecilia domino decantabat dicens
+    
+    target           43 
+                     19 
+    query            60 
+
+-- fused_10 --
+  OCR:      'tens fiat cormeum immaculatum ut non confunidar'
+  Assigned: 'cens fiat cor meum immaculatum ut non confundar'
+  Words:    [53..60) consumed=7
+  NW score: k=7 (pre-snap), norm=6.6397
+  Anchor:   word 60 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 tens fiat cor-meum immaculatum ut non confunidar 47
+                      0 -----||||  9
+    query             0 -----fiat cor meum immaculatum ut non confun-dar 42
+
+-- fused_11 --
+  OCR:      'Valerianus in cubiculo ceciliam cum'
+  Assigned: '~Dominus regnavit euouae Valerianus in cubiculo ceciliam cum'
+  Words:    [60..68) consumed=8
+  NW score: k=8 (pre-snap), norm=4.3862
+  Anchor:   word 68 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -------------------------Valerianus in cubiculo ceciliam cum
+                      0 -------------------------||||||||||
+    query             0 ~Dominus regnavit euouae Valerianus in cubiculo ceciliam cum
+    
+    target           35 
+                     35 
+    query            60 
+
+-- fused_12 --
+  OCR:      'angelo rantem invense eoonae a eciasa'
+  Assigned: 'angelo orantem invenit ~Iubilate euouae Cecilia famula'
+  Words:    [68..75) consumed=7
+  NW score: k=6 (pre-snap), norm=3.8848
+  Anchor:   word 75 (page_break_77), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 angelo -rantem inven----------se eoonae a eci-----a--sa 37
+                      0 ||||||  6
+    query             0 angelo orantem invenit ~Iubilate euouae -Cecilia famula 54
+=== END DEBUG ===
+

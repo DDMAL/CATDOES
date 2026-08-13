@@ -1,0 +1,167 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'ges terre et principes num ad'
+  [fused_1] 'versus donum et adversus Xpististum'
+  [fused_2] 'modnare fremuerunt gentes et populi'
+  [fused_3] 'tati sunt in ani stimatus sumcum'
+  [fused_4] 'descendentibus in cu . tus sum si'
+  [fused_5] 'mo sine adnito o inter mormos'
+  [fused_6] 'osuerunt me mn laci n fena n mecontbono'
+  [fused_7] 'umbra mortis . Lactuepulto do mino signa'
+  [fused_8] 'tum est monumen tum iloluen tes lapi o hosti'
+  [fused_9] 'in nomines onei coma ttes alii custodi'
+  [fused_10] 'rent  uodo eedem rto peinares sacerotes ad paa'
+  [fused_11] 'mana seraint Pone alandes'
+  [fused_12] 'm os cio moo morlis cali bei aletietin'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'ges terre et principes num ad'
+  Assigned: 'terre et principes'
+  Words:    [0..3) consumed=3
+  NW score: k=3 (pre-snap), norm=4.5082
+  Anchor:   word 18 (within_chant_7), diff=15, snapped=False, forced=False
+  Alignment:
+    target            0 ges terre et principes num ad 29
+                      0 ----|||||  9
+    query             0 ----terre et principes------- 18
+
+-- fused_1 --
+  OCR:      'versus donum et adversus Xpististum'
+  Assigned: 'convenerunt in unum Adversus dominum et adversus xpistum'
+  Words:    [3..11) consumed=8
+  NW score: k=8 (pre-snap), norm=3.3882
+  Anchor:   word 18 (within_chant_7), diff=7, snapped=False, forced=False
+  Alignment:
+    target            0 ----------------------versus do--num et adversus Xpististum
+                      0 ----------------------||||||
+    query             0 convenerunt in unum Adversus dominum et adversus xp---istum
+    
+    target           35
+                     28
+    query            56
+
+-- fused_2 --
+  OCR:      'modnare fremuerunt gentes et populi'
+  Assigned: 'eius Quare fremuerunt gentes et populi medi'
+  Words:    [11..18) consumed=7
+  NW score: k=6 (pre-snap), norm=5.8954
+  Anchor:   word 18 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 ---modnare fremuerunt gentes et popul--------i 35
+                      0 ---....||| 10
+    query             0 eius Quare fremuerunt gentes et populi mediati 46
+
+-- fused_3 --
+  OCR:      'tati sunt in ani stimatus sumcum'
+  Assigned: 'ati sunt inania Adversus Estimatus sum cum'
+  Words:    [18..24) consumed=6
+  NW score: k=6 (pre-snap), norm=3.8427
+  Anchor:   word 24 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 tati sunt in ani---------- -stimatus sum-cum 32
+                      0 -----||||  9
+    query             0 -----sunt in-ania Adversus Estimatus sum cum 38
+
+-- fused_4 --
+  OCR:      'descendentibus in cu . tus sum si'
+  Assigned: 'descendentibus in lacum Factus sum sicut ho'
+  Words:    [24..31) consumed=7
+  NW score: k=6 (pre-snap), norm=5.5323
+  Anchor:   word 31 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 descendentibus in --cu- -. tus sum si-------- 33
+                      0 |||||||||||||| 14
+    query             0 descendentibus in lacum Factus sum sicut homo 45
+
+-- fused_5 --
+  OCR:      'mo sine adnito o inter mormos'
+  Assigned: 'mo sine adiutorio inter mortuos liber'
+  Words:    [31..36) consumed=5
+  NW score: k=4 (pre-snap), norm=4.6674
+  Anchor:   word 36 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 mo sine adni-to- o inter mor-mos------ 29
+                      0 ---||||  7
+    query             0 ---sine ad-iutorio inter mortuos liber 34
+
+-- fused_6 --
+  OCR:      'osuerunt me mn laci n fena n mecontbono'
+  Assigned: 'Posuerunt me in lacu inferiori in tenebrosis et in'
+  Words:    [36..45) consumed=9
+  NW score: k=7 (pre-snap), norm=2.8727
+  Anchor:   word 45 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 -osuerunt me mn laci -n fe---na -n mecontb-o--------no 39
+                      0 -||||||||  9
+    query             0 Posuerunt me in lacu in-feriori in te--nebrosis et in- 50
+
+-- fused_7 --
+  OCR:      'umbra mortis . Lactuepulto do mino signa'
+  Assigned: 'umbra mortis Factus Sepulto domino signa'
+  Words:    [45..51) consumed=6
+  NW score: k=6 (pre-snap), norm=5.7869
+  Anchor:   word 51 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 umbra mortis . Lactu---epulto do mino signa--- 40
+                      0 |||||  5
+    query             0 umbra mortis-- Factus Sepulto do-mino signatum 43
+
+-- fused_8 --
+  OCR:      'tum est monumen tum iloluen tes lapi o hosti'
+  Assigned: 'tum est monumentum volventes lapidem ad hosti'
+  Words:    [51..57) consumed=6
+  NW score: k=6 (pre-snap), norm=4.3681
+  Anchor:   word 57 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 tum est monumen tum iloluen tes lapi--- -o hosti-- 44
+                      0 ----|||  7
+    query             0 ----est monumen-tum -volven-tes lapidem ad hostium 43
+
+-- fused_9 --
+  OCR:      'in nomines onei coma ttes alii custodi'
+  Assigned: 'um monumenti Ponentes milites qui custodi'
+  Words:    [57..62) consumed=5
+  NW score: k=5 (pre-snap), norm=1.4018
+  Anchor:   word 62 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 in nomines -on---ei coma ttes alii custodi---- 38
+                      0 -..|.|.|.. 10
+    query             0 -monumenti Ponentes --milites -qui custodirent 42
+
+-- fused_10 --
+  OCR:      'rent  uodo eedem rto peinares sacerotes ad paa'
+  Assigned: 'rent illud Accendentes principes sacerdotes ad pila'
+  Words:    [62..68) consumed=6
+  NW score: k=6 (pre-snap), norm=1.9167
+  Anchor:   word 68 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 rent  uodo ---eedem rt-o pein-ares sacer-otes ad p--a--a 46
+                      0 ---...|-|- 10
+    query             0 ---illu-d- Accende--ntes principes sacerdotes ad pilatum 49
+
+-- fused_11 --
+  OCR:      'mana seraint Pone alandes'
+  Assigned: 'tum pecierunt illum Ponentes'
+  Words:    [68..71) consumed=3
+  NW score: k=3 (pre-snap), norm=0.4491
+  Anchor:   word 71 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 mana seraint------ Pone alandes 25
+                      0 --....||-.||------ 18
+    query             0 --pecier-unt illum Pone----ntes 24
+
+-- fused_12 --
+  OCR:      'm os cio moo morlis cali bei aletietin'
+  Assigned: 'O mors ero mors tua morsus tuus ero inferne ~Miserere'
+  Words:    [71..81) consumed=10
+  NW score: k=9 (pre-snap), norm=0.3216
+  Anchor:   word 81 (page_break_77), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 m -o-s cio mo-----o morlis cali be-i -aletie--ti-----n 38
+                      0 .  1
+    query             0 O mors ero mors tua morsus tuus -ero inferne ~Miserere 53
+=== END DEBUG ===
+

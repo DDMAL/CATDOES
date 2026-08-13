@@ -1,0 +1,201 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'eorae agister quiud faciendo vitam eternam poni'
+  [fused_1] 'debo atille dixit ad eum intege quid scriptum est quomodo le'
+  [fused_2] 'liges dominum Deum tuum ex toto cordet'
+  [fused_3] ''
+  [fused_4] 'Luya evovac. Nonio quidam descendebat ab Jheru'
+  [fused_5] 'Lamancio et incidit in latrones qui etiam despoli'
+  [fused_6] 'averunt eum et plagis impositis abierunt semiio relicto'
+  [fused_7] 'Ce . um transiret Jheesiis quoddam castei'
+  [fused_8] 'occurrerunt ei decem viri lebrosi qui steterunt a lon'
+  [fused_9] 'ge et levaverunt vocem dicentes ad m Jhesu preceptor mu'
+  [fused_10] 'ant'
+  [fused_11] 'serere nostri exovae bnus autem extrillis ut ju'
+  [fused_12] 'mndatus estragresus els cum nlagna vocema'
+  [fused_13] 'mnsirems cam anany u crorle olite solliciti'
+  [fused_14] 'dicentes quid manducabimus aut auto oibemus sct'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'eorae agister quiud faciendo vitam eternam poni'
+  Assigned: 'euouae Magister quid faciendo vitam eternam possi'
+  Words:    [0..7) consumed=7
+  NW score: k=6 (pre-snap), norm=6.1172
+  Anchor:   word 7 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 e-orae -agister quiud faciendo vitam eternam po-ni---- 47
+                      0 |-|.||  6
+    query             0 euouae Magister qui-d faciendo vitam eternam possidebo 53
+
+-- fused_1 --
+  OCR:      'debo atille dixit ad eum intege quid scriptum est quomodo le'
+  Assigned: 'debo at ille dixit ad eum in lege quid scriptum est quomodo le'
+  Words:    [7..19) consumed=12
+  NW score: k=12 (pre-snap), norm=6.3500
+  Anchor:   word 19 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 debo at-ille dixit ad eum in-tege quid scriptum est quomodo 
+                      0 -----||-||||
+    query             0 -----at ille dixit ad eum in lege quid scriptum est quomodo 
+    
+    target           58 le--- 60
+                     12 ||--- 17
+    query            55 legis 60
+
+-- fused_2 --
+  OCR:      'liges dominum Deum tuum ex toto cordet'
+  Assigned: 'gis diliges dominum deum tuum ex toto corde tuo alle'
+  Words:    [19..28) consumed=9
+  NW score: k=7 (pre-snap), norm=6.9097
+  Anchor:   word 28 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 --liges dominum Deum tuum ex toto corde-t----------- 38
+                      0 --|||||  7
+    query             0 diliges dominum deum tuum ex toto corde tuo alleluya 52
+
+-- fused_3 --
+  OCR:      ''
+  Assigned: 'luya euouae Homo quidam descendebat ab iheru'
+  Words:    [28..34) consumed=6
+
+-- fused_4 --
+  OCR:      'Luya evovac. Nonio quidam descendebat ab Jheru'
+  Assigned: 'salem in ihericho et incidit in latrones qui etiam despoli'
+  Words:    [34..43) consumed=9
+  NW score: k=10 (pre-snap), norm=-0.8359
+  Anchor:   word 43 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 -------Luya evovac------. ---Nonio qui---dam descendebat ab 
+                      0 -------....
+    query             0 in ihericho et incidit in latrones qui etiam des-----polia--
+    
+    target           41 Jheru-- 46
+                     11 -.|||-- 18
+    query            53 -verunt 59
+
+-- fused_5 --
+  OCR:      'Lamancio et incidit in latrones qui etiam despoli'
+  Assigned: 'averunt eum et plagis impositis abierunt semivivo relicto'
+  Words:    [43..50) consumed=7
+  NW score: k=7 (pre-snap), norm=-0.5918
+  Anchor:   word 50 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 Lamancio et ----inci---dit in la--tron-es qui etiam despoli-
+                      0 ..|-----
+    query             0 eum----- et plagis imposit-is -abierunt s-emi--vivo re---lic
+    
+    target           49 -- 49
+                      8 -- 10
+    query            47 to 49
+
+-- fused_6 --
+  OCR:      'averunt eum et plagis impositis abierunt semiio relicto'
+  Assigned: 'euouae Cum transiret ihesus quoddam castellum occurrerunt ei decem'
+  Words:    [50..59) consumed=9
+  NW score: k=9 (pre-snap), norm=-0.4315
+  Anchor:   word 56 (within_chant_7), diff=3, snapped=False, forced=False
+  Alignment:
+    target            0 ave-runt eum -------et plagi----s -----im-posit---is ---abie
+                      0 --|-.|..
+    query             0 --euouae Cum transiret ----ihesus quoddam cas-tellum occurre
+    
+    target           36 runt semiio relicto 55
+                      8 |||| 12
+    query            53 runt -e--i- de--cem 66
+
+-- fused_7 --
+  OCR:      'Ce . um transiret Jheesiis quoddam castei'
+  Assigned: 'viri leprosi qui steterunt a lon'
+  Words:    [59..65) consumed=6
+  NW score: k=10 (pre-snap), norm=-1.2199
+  Anchor:   word 65 (within_chant_7), diff=4, snapped=False, forced=True
+  Alignment:
+    target            0 Ce . um transiret Jhe--esiis quoddam caste-------------i 41
+                      0 ------------.||-. 17
+    query             0 ------------vir-i -leprosi-- qu----i --steterunt a longe 34
+
+-- fused_8 --
+  OCR:      'occurrerunt ei decem viri lebrosi qui steterunt a lon'
+  Assigned: 'ge et levaverunt vocem dicentes ihesu preceptor mi'
+  Words:    [65..72) consumed=7
+  NW score: k=6 (pre-snap), norm=-0.4556
+  Anchor:   word 72 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 --occurrerunt ---ei dec---em vi--ri ---lebrosi qui steterunt
+                      0 --......|||||
+    query             0 et levaverunt vocem dicentes -ihesu precepto-r -mi-s-erer---
+    
+    target           47  a lon 53
+                     13 -----. 19
+    query            52 -----e 53
+
+-- fused_9 --
+  OCR:      'ge et levaverunt vocem dicentes ad m Jhesu preceptor mu'
+  Assigned: 'serere nostri euouae Unus autem ex illis ut vidit quia mundatus est regressus est cum'
+  Words:    [72..86) consumed=14
+  NW score: k=14 (pre-snap), norm=-1.1298
+  Anchor:   word 80 (within_chant_7), diff=6, snapped=False, forced=False
+  Alignment:
+    target            0 ge et-- le--vaverun-t vocem --------------dicentes ---ad m--
+                      0 -...|--
+    query             0 -nostri -euoua-e Unus autem ex illis ut vidi---t-- quia- mun
+    
+    target           36 ----- Jhesu --pre----ceptor mu- 55
+                      7 ----- 12
+    query            51 datus --est regressus est-- cum 78
+
+-- fused_10 --
+  OCR:      'ant'
+  Assigned: 'magna voce ma'
+  Words:    [86..89) consumed=3
+  NW score: k=1 (pre-snap), norm=-0.7746
+  Anchor:   word 89 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 -------------------ant  3
+                      0 -------------------||. 22
+    query             0 magna voce magnificans 22
+
+-- fused_11 --
+  OCR:      'serere nostri exovae bnus autem extrillis ut ju'
+  Assigned: 'gnificans deum alleluya euouae Nolite solliciti esse dicentes quid manducabimus aut quid'
+  Words:    [89..100) consumed=11
+  NW score: k=11 (pre-snap), norm=-1.1891
+  Anchor:   word 94 (within_chant_7), diff=6, snapped=False, forced=False
+  Alignment:
+    target            0 se-----------re---re no-----s------tri exovae ---bn-us au-te
+                      0 .|-----------.|---.|
+    query             0 deum alleluya euouae Nolite sollicit-i e--sse dicentes quid 
+    
+    target           30 m-- extrillis -ut ju-- 47
+                     20 |--.....|-..| 33
+    query            57 manducabi-mus aut quid 78
+
+-- fused_12 --
+  OCR:      'mndatus estragresus els cum nlagna vocema'
+  Assigned: 'bibemus scit'
+  Words:    [100..102) consumed=2
+  NW score: k=2 (pre-snap), norm=-3.8321
+  Anchor:   word 102 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 mndatus estragresus els cum nlagna vocema 41
+                      0 ------------...|.|| 19
+    query             0 ------------bibemus --s--------------c-it 12
+
+-- fused_13 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [102..102) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_14 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [102..102) consumed=0
+  Alignment:
+    (no words left)
+=== END DEBUG ===
+

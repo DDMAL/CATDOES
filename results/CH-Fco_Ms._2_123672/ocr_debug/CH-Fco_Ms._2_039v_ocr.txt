@@ -1,0 +1,251 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'adlaudu et cadmirable co ceteris aud ve descam'
+  [fused_1] 'Dun mediu or ompsitesepitor Deo di admissa omia de'
+  [fused_2] 'Defucto he ad an et Vie XX aV . de natti obi Ymne'
+  [fused_3] 'de Domino secunda Ecclesie me temia de papt or ds oni fidelium'
+  [fused_4] 'por'
+  [fused_5] 'agi indenses stellani di'
+  [fused_6] 'terunt ad invicem hoc signum regis est ea mus etimn'
+  [fused_7] 'Muramus eum et offeramus ei munera aurum this et Myrram'
+  [fused_8] 'tooro deus qui hodierdie in epiphania domiul aduct'
+  [fused_9] 'Ide domine labia mea eim . Domadinitorium meum'
+  [fused_10] 'Crorae . ponan tende sed absolute incipit eb domadarius an fferte Domino'
+  [fused_11] 'filii Dei adorate dominum in aula sancta ejus Pi. ipsum evovac'
+  [fused_12] 'uminis impetus letificat anemya civitatem Dei Alleluya'
+  [fused_13] 'sallite Deo nostro psalite psallite regi'
+  [fused_14] 'mosto prsalent lapentes Peo omneo gentes eroruemist Usalmum dicat nomini tuo domine.'
+  [fused_15] 'es primelectiones legunts de Ysaia'
+  [fused_16] 'ectio pri. omnes sicientes'
+  [fused_17] 'ra adorett.'
+  [fused_18] 'die miordane baptizatodo'
+  [fused_19] 'mmno apertisunt cei et sicut colum'
+  [fused_20] 'Pece nm sntus mi sit et vor patis intomi'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'adlaudu et cadmirable co ceteris aud ve descam'
+  Assigned: 'Magi videntes stellam dix'
+  Words:    [0..4) consumed=4
+  NW score: k=12 (pre-snap), norm=-0.9941
+  Anchor:   word 4 (within_chant_7), diff=8, snapped=False, forced=True
+  Alignment:
+    target            0 adlaudu et cadmirable co ceteris aud ve---- d--escam 46
+                      0 --.|----.. 10
+    query             0 --Ma----gi vid------e-----nte--s ---stellam dixerunt 30
+
+-- fused_1 --
+  OCR:      'Dun mediu or ompsitesepitor Deo di admissa omia de'
+  Assigned: 'erunt ad invicem hoc signum magni regis est eamus et in'
+  Words:    [4..14) consumed=10
+  NW score: k=9 (pre-snap), norm=-1.4179
+  Anchor:   word 14 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 Dun medi--u -or ompsi----tesepitor De--o -di -admis-sa --omi
+                      0 -..
+    query             0 -ad invicem hoc ---signum magni--- regis est ea-mus et inqui
+    
+    target           46 -a de 50
+                      3 -|...  8
+    query            52 ramus 57
+
+-- fused_2 --
+  OCR:      'Defucto he ad an et Vie XX aV . de natti obi Ymne'
+  Assigned: 'quiramus eum et offeramus ei munera aurem thus et myrram'
+  Words:    [14..23) consumed=9
+  NW score: k=12 (pre-snap), norm=-1.2383
+  Anchor:   word 23 (within_chant_7), diff=3, snapped=False, forced=True
+  Alignment:
+    target            0 Defu--ct-o he ad an et -Vie XX a---V ---. de natti obi Ymne
+                      0 -|-|--.|-|..|.|-...
+    query             0 -e-um et offera-mus ei mune-ra aurem thus -e----t- myrram--
+    
+    target           49
+                     19
+    query            47
+
+-- fused_3 --
+  OCR:      'de Domino secunda Ecclesie me temia de papt or ds oni fidelium'
+  Assigned: 'euouae Afferte domino filii dei adorate dominum'
+  Words:    [23..30) consumed=7
+  NW score: k=7 (pre-snap), norm=-0.5187
+  Anchor:   word 26 (within_chant_7), diff=4, snapped=False, forced=False
+  Alignment:
+    target            0 ------------de Domino secunda Ecclesie me temia de- papt or-
+                      0 ------------.|
+    query             0 euouae Afferte domino ---------fil--i--------i- dei -a--dora
+    
+    target           46 -- ds oni fidelium 62
+                     14 -- 16
+    query            37 te d--omi------num 47
+
+-- fused_4 --
+  OCR:      'por'
+  Assigned: 'in aula sancta eius ~Ipsum [Afferte]'
+  Words:    [30..36) consumed=6
+  NW score: k=2 (pre-snap), norm=-6.7648
+  Anchor:   word 36 (within_chant_7), diff=4, snapped=False, forced=True
+  Alignment:
+    target            0 ----------------------p--------or---  3
+                      0 ----------------------|--------.|--- 36
+    query             0 in aula sancta eius ~Ipsum [Afferte] 36
+
+-- fused_5 --
+  OCR:      'agi indenses stellani di'
+  Assigned: 'euouae Fluminis impetus letificat alleluya civitatem dei alleluya'
+  Words:    [36..44) consumed=8
+  NW score: k=7 (pre-snap), norm=-1.6094
+  Anchor:   word 44 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 ----agi ----indens----e--s -------st----el-la---ni----- d-i-
+                      0 ----|-.
+    query             0 euoua-e Flumin--is impetus letificat alleluya civitatem dei 
+    
+    target           24 -------- 24
+                      7 -------- 15
+    query            57 alleluya 65
+
+-- fused_6 --
+  OCR:      'terunt ad invicem hoc signum regis est ea mus etimn'
+  Assigned: '~Deus noster euouae Psallite deo nostro psallite psallite regi'
+  Words:    [44..53) consumed=9
+  NW score: k=11 (pre-snap), norm=-1.1257
+  Anchor:   word 53 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 -teru--n--t-- ----ad --invicem -hoc signum regis es----t ea 
+                      0 -.|-|--|--|--
+    query             0 ~De-us noster euouae Psallite- deo- ---nostr---o psallit-e- 
+    
+    target           42 mus------ -etimn 51
+                     13 -.|------ 22
+    query            49 -psallite regi-- 62
+
+-- fused_7 --
+  OCR:      'Muramus eum et offeramus ei munera aurum this et Myrram'
+  Assigned: 'nostro psallite sapienter ~Omnes gentes euouae ~Omnis terra adoret te deus et psallat'
+  Words:    [53..66) consumed=13
+  NW score: k=13 (pre-snap), norm=-0.7898
+  Anchor:   word 61 (within_chant_7), diff=5, snapped=False, forced=False
+  Alignment:
+    target            0 --Mur----amus eum ----e-t offer--am-us ----ei mu--------n---
+                      0 --..|----|....|--
+    query             0 nostro psallite-- sapient----er ~Omnes gentes euouae ~Omnis 
+    
+    target           31 -e-ra a-urum t---his et -Myrram 55
+                     17 -|-|| 22
+    query            54 terra adoret te deus et psallat 85
+
+-- fused_8 --
+  OCR:      'tooro deus qui hodierdie in epiphania domiul aduct'
+  Assigned: 'tibi {Psalmum dicat nomini tuo domine} Hodie in iordane baptizato do'
+  Words:    [66..77) consumed=11
+  NW score: k=12 (pre-snap), norm=-0.0318
+  Anchor:   word 77 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 t--------ooro d--------eus qui hodi-e---rdie in epi-phan----
+                      0 |--------....
+    query             0 tibi {Psalmum dicat nomini tuo domine} Hodie in --iordane ba
+    
+    target           35 --i-a-- domiul aduct 50
+                     13 --|-|-- 20
+    query            58 ptizato domi------no 72
+
+-- fused_9 --
+  OCR:      'Ide domine labia mea eim . Domadinitorium meum'
+  Assigned: 'mino aperti sunt celi et sicut columba su'
+  Words:    [77..84) consumed=7
+  NW score: k=8 (pre-snap), norm=-0.6521
+  Anchor:   word 84 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 Ide--- domine --labia mea eim . Domadinitorium-- --meum 46
+                      0 ..|---  6
+    query             0 aperti --sunt cel--i- -et sicut co---------lumba supe-r 39
+
+-- fused_10 --
+  OCR:      'Crorae . ponan tende sed absolute incipit eb domadarius an fferte Domino'
+  Assigned: 'per eum spiritus mansit et vox patris intonuit Hic'
+  Words:    [84..92) consumed=8
+  NW score: k=7 (pre-snap), norm=-1.0365
+  Anchor:   word 92 (page_break_77), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 Crorae . -ponan tende sed -absolute incipit eb domada-rius a
+                      0 -----|..
+    query             0 -----eum sp--irit----us-- mans-----------it et vox patri-s i
+    
+    target           57 n fferte Domino 72
+                      8 |.....|- 16
+    query            35 ntonuit- --Hi-c 46
+
+-- fused_11 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [92..92) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_12 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [92..92) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_13 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [92..92) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_14 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [92..92) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_15 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [92..92) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_16 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [92..92) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_17 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [92..92) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_18 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [92..92) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_19 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [92..92) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_20 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [92..92) consumed=0
+  Alignment:
+    (no words left)
+=== END DEBUG ===
+

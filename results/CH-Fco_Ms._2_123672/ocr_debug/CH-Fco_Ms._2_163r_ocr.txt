@@ -1,0 +1,215 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'oro dot quan samncholi episcopi ofo s qibeat '
+  [fused_1] 'Molau ectiones legunt dedita ejus licholans'
+  [fused_2] ' imbrolum episcopi legi deita e'
+  [fused_3] 'qui pependit inte evovae na Damali papter Lee damasus natione gitur posito in annistratione in Sancto Melchiadoo'
+  [fused_4] 'esteo sancte Lucie ad vesnas coson'
+  [fused_5] 'in tua pacientia animam Posoa'
+  [fused_6] 'cia sponsa Christisti Odisti que inmunto sunt et coruscas cum an'
+  [fused_7] 'gelis Sanguine proprio mimicum incisteri'
+  [fused_8] 'nci a vurgo quid a me'
+  [fused_9] 'Petis qodixi poteno presta .e con tum'
+  [fused_10] 'nan fmatem e fides tna subveniat et ecclesie Salvata'
+  [fused_11] 'est. Quia jocundum de o intua virginita te'
+  [fused_12] 'habitaculum pre ra sti. cutper mec'
+  [fused_13] 'sta et per te ciracusa'
+  [fused_14] 'nacinitas decora bi tur . Quia m oga do'
+  [fused_15] 'minum me cm che sum cpastim nc p iste'
+  [fused_16] 'non dominetur mi M. Et impeter m ato minom'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'oro dot quan samncholi episcopi ofo s qibeat'
+  Assigned: 'qui pependit in te euouae In tua paciencia possedisti animam tuam lu'
+  Words:    [0..12) consumed=12
+  NW score: k=10 (pre-snap), norm=-1.2261
+  Anchor:   word 12 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 oro -----dot --------qua---n---- sa--mncholi- ----episcopi -
+                      0 ...
+    query             0 qui pependit in te euouae In tua pacienc---ia possedis--ti a
+    
+    target           32 --ofo ---s --qibeat 44
+                      3 --...  8
+    query            55 nimam tuam luci--a- 71
+
+-- fused_1 --
+  OCR:      'Molau ectiones legunt dedita ejus licholans'
+  Assigned: 'cia sponsa xpisti odisti que in mundo sunt et coruscas cum an'
+  Words:    [12..23) consumed=11
+  NW score: k=9 (pre-snap), norm=-0.7548
+  Anchor:   word 23 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 -Mo-lau --ecti-ones-- -le----------gunt dedita -eju---s lich
+                      0 -.|-.|-
+    query             0 sponsa- xpisti odisti que in mundo sunt -e--t- coruscas --cu
+    
+    target           38 olan----s 43
+                      7 ..||----| 16
+    query            53 m angelis 62
+
+-- fused_2 --
+  OCR:      'imbrolum episcopi legi deita e'
+  Assigned: 'gelis sanguine proprio inimicum incisti'
+  Words:    [23..27) consumed=4
+  NW score: k=5 (pre-snap), norm=-1.2124
+  Anchor:   word 27 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 imbrolum e-piscop-i- -legi--- -dei-ta e 30
+                      0 --....|..|-|--.||-|- 20
+    query             0 --sanguine p--roprio inimicum incist--i 33
+
+-- fused_3 --
+  OCR:      'qui pependit inte evovae na Damali papter Lee damasus natione gitur posito in annistratione in Sancto Melchiadoo'
+  Assigned: 'euouae Lucia virgo quid a me petis quod ipsa poteris prestare continuo nam et matri tue fides tua subveniat et ecce salvata est Quia'
+  Words:    [27..51) consumed=24
+  NW score: k=24 (pre-snap), norm=-0.9787
+  Anchor:   word 33 (within_chant_7), diff=18, snapped=False, forced=False
+  Alignment:
+    target            0 qui pependit -inte evovae na Dam---ali------ -p-a-p-ter-- Le
+                      0 .|...|....|.
+    query             0 euouae Lucia virgo --quid -a --me petis quod ipsa poteris pr
+    
+    target           44 e damasus --nati--o-n---e- ---gi-tur --posit-o in annistrati
+                     12 |..|---..
+    query            55 esta---re con-tinuo nam et matri tue fides tua subveniat et-
+    
+    target           88 one in Sa-ncto Me--lchiadoo 112
+                     21 -.|...  27
+    query           110 - ecce salvata -est Quia--- 132
+
+-- fused_4 --
+  OCR:      'esteo sancte Lucie ad vesnas coson'
+  Assigned: 'iocundum deo in tua'
+  Words:    [51..55) consumed=4
+  NW score: k=6 (pre-snap), norm=-1.9092
+  Anchor:   word 55 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 esteo sancte Lucie ad-- vesnas coson---- 34
+                      0 ---.|----|----|----.|-- 23
+    query             0 ---io----c----u----ndum de------o in tua 19
+
+-- fused_5 --
+  OCR:      'in tua pacientia animam Posoa'
+  Assigned: 'virginitate habitaculum preparasti'
+  Words:    [55..58) consumed=3
+  NW score: k=3 (pre-snap), norm=-1.0828
+  Anchor:   word 62 (within_chant_7), diff=4, snapped=False, forced=False
+  Alignment:
+    target            0 ----in tua-- pacientia animam -----Posoa 29
+                      0 ----||.|-|-- 12
+    query             0 virginit-ate habi--t---aculum preparasti 34
+
+-- fused_6 --
+  OCR:      'cia sponsa Christisti Odisti que inmunto sunt et coruscas cum an'
+  Assigned: 'Sicut per me civi'
+  Words:    [58..62) consumed=4
+  NW score: k=13 (pre-snap), norm=-0.7127
+  Anchor:   word 62 (within_chant_7), diff=9, snapped=False, forced=True
+  Alignment:
+    target            0 cia sponsa Christisti Odisti que- inmunto sunt et coruscas c
+                      0 .|----------------------..|-
+    query             0 Si----------------------cut- -per --m----------e- c-ivitas--
+    
+    target           59 um an 64
+                     28 ----- 33
+    query            20 ----- 20
+
+-- fused_7 --
+  OCR:      'gelis Sanguine proprio mimicum incisteri'
+  Assigned: 'tas catheniensium sublimatur a xpristo ita et per te ciracusa'
+  Words:    [62..71) consumed=9
+  NW score: k=7 (pre-snap), norm=-1.2728
+  Anchor:   word 71 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 ---geli--s--- Sangu--i---ne propri--o mimicum --------i-ncis
+                      0 ---.|.|--|---
+    query             0 catheniensium ---sublimatur a xpristo -ita et per te ciracus
+    
+    target           36 teri 40
+                     13 -... 17
+    query            56 -ana 59
+
+-- fused_8 --
+  OCR:      'nci a vurgo quid a me'
+  Assigned: 'na civitas decorabitur Quia Rogavi do'
+  Words:    [71..76) consumed=5
+  NW score: k=6 (pre-snap), norm=-0.8882
+  Anchor:   word 76 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 nci----- -----a- vurgo quid ---a-- --m---e 21
+                      0 -||-----  8
+    query             0 -civitas decorabitur-- Quia Rogavi dominum 39
+
+-- fused_9 --
+  OCR:      'Petis qodixi poteno presta .e con tum'
+  Assigned: 'minum meum ihesum christum ut ignis iste'
+  Words:    [76..82) consumed=6
+  NW score: k=8 (pre-snap), norm=-0.7119
+  Anchor:   word 82 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 Petis qodixi pote-no -prest-a .e con-- --tum 37
+                      0 .|-..  5
+    query             0 me-um -----i---hesum christum ut ignis ist-e 34
+
+-- fused_10 --
+  OCR:      'nan fmatem e fides tna subveniat et ecclesie Salvata'
+  Assigned: 'non dominetur michi Et impetravi a domino'
+  Words:    [82..89) consumed=7
+  NW score: k=6 (pre-snap), norm=-0.8800
+  Anchor:   word 89 (page_break_77), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 nan fmatem e fides tna subveniat et ecclesi--e Salvata------
+                      0 |.|
+    query             0 non ---dom----ine--tur --michi-- Et ------impetra-vi a domin
+    
+    target           52 - 52
+                      3 -  4
+    query            40 o 41
+
+-- fused_11 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [89..89) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_12 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [89..89) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_13 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [89..89) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_14 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [89..89) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_15 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [89..89) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_16 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [89..89) consumed=0
+  Alignment:
+    (no words left)
+=== END DEBUG ===
+

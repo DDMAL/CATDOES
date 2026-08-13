@@ -1,0 +1,221 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'tes deprecabuntur . veni ad liberandum nos jam noli tardare evovae'
+  [fused_1] 'clavis david et sceptrum domus israel qui aperis et'
+  [fused_2] 'rit veni et educ junctum'
+  [fused_3] 'ris sedentem in tenebris et umbra mortis evo'
+  [fused_4] 'Doine . riens splendor lucis eterne et sol justici'
+  [fused_5] 'vem et ilum la sedentem in tenebris et imibra mortis'
+  [fused_6] 'evovae . rex gentium et desideratus earum lapis'
+  [fused_7] 'que Angularis qui facis utraque unum veni salva homine'
+  [fused_8] ''
+  [fused_9] 'quem delimo formasti evovae  Hemanuel rex'
+  [fused_10] 'et legifer noster expectatio gentium et salvator carum veni'
+  [fused_11] 'Antipbone iste suris'
+  [fused_12] 'posite dn diebusante'
+  [fused_13] 'ad salvandum nos domine deus noster evovac Vignat ommcpi'
+  [fused_14] 'antm quolibet die varum canter ad magite ad laudes'
+  [fused_15] 'nn omputans diebus dominicis et si festum aliquid atur et per horas'
+  [fused_16] 'rerit similie canter cumoraione de Dominica ita quod'
+  [fused_17] 'dieultima ane vignats domini cxpleantur frara pue dici antem denemettomis'
+  [fused_18] 'pmene ligmi tete teni cupenulentibire u acte'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'tes deprecabuntur . veni ad liberandum nos jam noli tardare evovae'
+  Assigned: 'deprecabuntur veni ad liberandum nos jam noli tardare euouae'
+  Words:    [0..9) consumed=9
+  NW score: k=9 (pre-snap), norm=6.8014
+  Anchor:   word 19 (within_chant_7), diff=10, snapped=False, forced=False
+  Alignment:
+    target            0 tes deprecabuntur . veni ad liberandum nos jam noli tardare 
+                      0 ----|||||||||||||--
+    query             0 ----deprecabuntur-- veni ad liberandum nos jam noli tardare 
+    
+    target           60 evovae 66
+                     19 |.|.|| 25
+    query            54 euouae 60
+
+-- fused_1 --
+  OCR:      'clavis david et sceptrum domus israel qui aperis et'
+  Assigned: 'O clavis david et sceptrum domus israel qui aperis et'
+  Words:    [9..19) consumed=10
+  NW score: k=10 (pre-snap), norm=7.6553
+  Anchor:   word 19 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 --clavis david et sceptrum domus israel qui aperis et 51
+                      0 --||||||  8
+    query             0 O clavis david et sceptrum domus israel qui aperis et 53
+
+-- fused_2 --
+  OCR:      'rit veni et educ junctum'
+  Assigned: 'nemo claudit claudis et nemo aperit veni et educ vinctum'
+  Words:    [19..29) consumed=10
+  NW score: k=10 (pre-snap), norm=1.8003
+  Anchor:   word 29 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 --------------------------------rit veni et educ junctum 24
+                      0 --------------------------------||| 35
+    query             0 nemo claudit claudis et nemo aperit veni et educ vinctum 56
+
+-- fused_3 --
+  OCR:      'ris sedentem in tenebris et umbra mortis evo'
+  Assigned: 'de domo carceris sedentem in tenebris et umbra mortis euouae'
+  Words:    [29..39) consumed=10
+  NW score: k=10 (pre-snap), norm=5.5079
+  Anchor:   word 47 (within_chant_7), diff=8, snapped=False, forced=False
+  Alignment:
+    target            0 -------------ris sedentem in tenebris et umbra mortis evo---
+                      0 -------------|||
+    query             0 de domo carceris sedentem in tenebris et umbra mortis euouae
+    
+    target           44 
+                     16 
+    query            60 
+
+-- fused_4 --
+  OCR:      'Doine . riens splendor lucis eterne et sol justici'
+  Assigned: 'O oriens splendor lucis eterne et sol iustici'
+  Words:    [39..47) consumed=8
+  NW score: k=8 (pre-snap), norm=6.0678
+  Anchor:   word 47 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 Doine . riens splendor lucis eterne et sol justici- 50
+                      0 ----.  5
+    query             0 ----O -oriens splendor lucis eterne et sol iusticie 46
+
+-- fused_5 --
+  OCR:      'vem et ilum la sedentem in tenebris et imibra mortis'
+  Assigned: 'e veni et illumina sedentem in tenebris et umbra mortis'
+  Words:    [47..56) consumed=9
+  NW score: k=9 (pre-snap), norm=6.3812
+  Anchor:   word 56 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ve-m et i-lum la sedentem in tenebris et imibra mortis 52
+                      0 ||-.  4
+    query             0 veni et illumina sedentem in tenebris et um-bra mortis 53
+
+-- fused_6 --
+  OCR:      'evovae . rex gentium et desideratus earum lapis'
+  Assigned: 'euouae O rex gentium et desideratus earum lapis'
+  Words:    [56..64) consumed=8
+  NW score: k=8 (pre-snap), norm=6.6836
+  Anchor:   word 64 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 evovae . rex gentium et desideratus earum lapis--- 47
+                      0 |.|.||  6
+    query             0 euouae O rex gentium et desideratus earum lapisque 50
+
+-- fused_7 --
+  OCR:      'que Angularis qui facis utraque unum veni salva homine'
+  Assigned: 'que angularis qui facis utraque unum veni salva hominem'
+  Words:    [64..72) consumed=8
+  NW score: k=8 (pre-snap), norm=6.9362
+  Anchor:   word 72 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 que Angularis qui facis utraque unum veni salva homine- 54
+                      0 ----.|||||||| 13
+    query             0 ----angularis qui facis utraque unum veni salva hominem 51
+
+-- fused_8 --
+  OCR:      ''
+  Assigned: 'quem de limo formasti euouae O hemanuel rex'
+  Words:    [72..80) consumed=8
+
+-- fused_9 --
+  OCR:      'quem delimo formasti evovae  Hemanuel rex'
+  Assigned: 'et legifer noster expectatio gentium et salvator earum veni'
+  Words:    [80..89) consumed=9
+  NW score: k=6 (pre-snap), norm=-0.6752
+  Anchor:   word 89 (within_chant_7), diff=3, snapped=False, forced=True
+  Alignment:
+    target            0 quem deli-mo fo---r------ma------sti-- e---vova-e  Hemanuel 
+                      0 --|.
+    query             0 --et legifer noster expectatio gentium et salvator -e-aru-m 
+    
+    target           38 re-x 41
+                      4 .|-.  8
+    query            55 veni 59
+
+-- fused_10 --
+  OCR:      'et legifer noster expectatio gentium et salvator carum veni'
+  Assigned: 'ad salvandum nos domine deus noster euouae Ecce veniet dominus princeps regum terre'
+  Words:    [89..102) consumed=13
+  NW score: k=13 (pre-snap), norm=-0.6288
+  Anchor:   word 96 (within_chant_7), diff=6, snapped=False, forced=False
+  Alignment:
+    target            0 et --l------------egife----r noster e--xpe--ctatio gentium e
+                      0 ..
+    query             0 ad salvandum nos domine deus noster euouae Ec---ce ven-i---e
+    
+    target           38 t ------salvator- c---ar--um ve-ni 59
+                      2 |  3
+    query            53 t dominus---- princeps regum terre 83
+
+-- fused_11 --
+  OCR:      'Antipbone iste suris'
+  Assigned: 'beati qui parati sunt'
+  Words:    [102..106) consumed=4
+  NW score: k=4 (pre-snap), norm=-1.2199
+  Anchor:   word 109 (page_break_77), diff=3, snapped=False, forced=False
+  Alignment:
+    target            0 -Antipbone --i----ste suris 20
+                      0 -..||----- 10
+    query             0 beati----- qui parati su-nt 21
+
+-- fused_12 --
+  OCR:      'posite dn diebusante'
+  Assigned: 'occurrere illi ~Miserere'
+  Words:    [106..109) consumed=3
+  NW score: k=3 (pre-snap), norm=-2.2365
+  Anchor:   word 109 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 po----site --dn -di-ebusante 20
+                      0 -|----...| 10
+    query             0 -occurrere illi ~Mise---rere 24
+
+-- fused_13 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [109..109) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_14 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [109..109) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_15 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [109..109) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_16 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [109..109) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_17 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [109..109) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_18 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [109..109) consumed=0
+  Alignment:
+    (no words left)
+=== END DEBUG ===
+

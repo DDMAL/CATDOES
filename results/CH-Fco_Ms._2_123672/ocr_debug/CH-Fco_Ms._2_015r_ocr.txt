@@ -1,0 +1,215 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'iminabit abscondita tenebrarum et manifestabit se ad omnes'
+  [fused_1] 'gentes Allelnya Dominus eovae eernsalem gaude Gau'
+  [fused_2] 'o quia veniet tibi salvator Allelvya pres jubilate evo'
+  [fused_3] 'vaDabo in Syonis salutem et in Jherusalem gloriam mea'
+  [fused_4] 'Aenya alds deons exona ontes et omnes colles hu'
+  [fused_5] 'miliabuntur et erunt prava indirecta et aspera min vias planas'
+  [fused_6] 'vemi domine et noli tardare Aveluya pos Bndicite evovae et Ju'
+  [fused_7] 'de etpenniamus coamitantes reatas sem et adventum domi'
+  [fused_8] 'fratresnt'
+  [fused_9] 'mono lanone crmale uper solvmi david undict supra ad Annet'
+  [fused_10] 'super regnum ejus sedebit meternum Allelvya evovae e'
+  [fused_11] 'cacati ad ar acaius'
+  [fused_12] 'Pearta eo mana aonre tredidist pesficientum inteae'
+  [fused_13] 'dicta sunt tibi a domino Aveluya evovae Viatco'
+  [fused_14] 'mns premtentiem agie apropimenanit emm mgninice'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'iminabit abscondita tenebrarum et manifestabit se ad omnes'
+  Assigned: 'abscondita tenebrarum et manifestabit se ad omnes'
+  Words:    [0..7) consumed=7
+  NW score: k=7 (pre-snap), norm=6.7717
+  Anchor:   word 14 (within_chant_7), diff=7, snapped=False, forced=False
+  Alignment:
+    target            0 iminabit abscondita tenebrarum et manifestabit se ad omnes 58
+                      0 ---------|||||||||| 19
+    query             0 ---------abscondita tenebrarum et manifestabit se ad omnes 49
+
+-- fused_1 --
+  OCR:      'gentes Allelnya Dominus eovae eernsalem gaude Gau'
+  Assigned: 'gentes alleluya ~Dominus euouae Jherusalem gaude gau'
+  Words:    [7..14) consumed=7
+  NW score: k=7 (pre-snap), norm=5.3936
+  Anchor:   word 14 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 gentes Allelnya -Dominus e-ovae -eernsalem gaude Gau--- 49
+                      0 ||||||  6
+    query             0 gentes alleluya ~Dominus euouae Jherusalem gaude gaudio 55
+
+-- fused_2 --
+  OCR:      'o quia veniet tibi salvator Allelvya pres jubilate evo'
+  Assigned: 'dio magno quia veniet tibi salvator alleluya ~Jubilate euouae'
+  Words:    [14..22) consumed=8
+  NW score: k=8 (pre-snap), norm=5.2271
+  Anchor:   word 22 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ----o quia veniet tibi salvator Allelvya pres jubilate evo--
+                      0 ----|
+    query             0 magno quia veniet tibi salvator alleluya ----~Jubilate euoua
+    
+    target           54 - 54
+                      5 -  6
+    query            56 e 57
+
+-- fused_3 --
+  OCR:      'vaDabo in Syonis salutem et in Jherusalem gloriam mea'
+  Assigned: 'Dabo in syon salutem et in iherusalem gloriam meam'
+  Words:    [22..31) consumed=9
+  NW score: k=9 (pre-snap), norm=6.5853
+  Anchor:   word 31 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 vaDabo in Syonis salutem et in Jherusalem gloriam mea- 53
+                      0 --||||  6
+    query             0 --Dabo in syon-- salutem et in iherusalem gloriam meam 50
+
+-- fused_4 --
+  OCR:      'Aenya alds deons exona ontes et omnes colles hu'
+  Assigned: 'alleluya ~Deus deus euouae Montes et omnes colles hu'
+  Words:    [31..40) consumed=9
+  NW score: k=8 (pre-snap), norm=3.7925
+  Anchor:   word 40 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 --Ae-nya -alds deons exona- -ontes et omnes colles hu-------
+                      0 --.|-.||
+    query             0 alleluya ~Deus de-us euouae Montes et omnes colles humiliabu
+    
+    target           47 ---- 47
+                      8 ---- 12
+    query            59 ntur 63
+
+-- fused_5 --
+  OCR:      'miliabuntur et erunt prava indirecta et aspera min vias planas'
+  Assigned: 'miliabuntur et erunt prava in directa et aspera in vias planas'
+  Words:    [40..50) consumed=10
+  NW score: k=10 (pre-snap), norm=6.0707
+  Anchor:   word 50 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 miliabuntur et erunt prava in-directa et aspera min vias pla
+                      0 ------------||
+    query             0 ------------et erunt prava in directa et aspera -in vias pla
+    
+    target           59 nas 62
+                     14 ||| 17
+    query            47 nas 50
+
+-- fused_6 --
+  OCR:      'vemi domine et noli tardare Aveluya pos Bndicite evovae et Ju'
+  Assigned: 'veni domine et noli tardare alleluya Benedicite euouae ju'
+  Words:    [50..59) consumed=9
+  NW score: k=9 (pre-snap), norm=5.0250
+  Anchor:   word 59 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 vemi domine et noli tardare -Aveluya pos B-n-dicite evovae e
+                      0 ||.|
+    query             0 veni domine et noli tardare alleluya---- Benedicite euouae--
+    
+    target           57 t Ju--- 61
+                      4 -  5
+    query            54 - Juste 60
+
+-- fused_7 --
+  OCR:      'de etpenniamus coamitantes reatas sem et adventum domi'
+  Assigned: 'ste et pie vivamus exspectantes beatam spem et adventum domi'
+  Words:    [59..68) consumed=9
+  NW score: k=9 (pre-snap), norm=4.2527
+  Anchor:   word 68 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 de et-p-enni-amus -----coamitantes reatas s-em et adventum d
+                      0 ---||-|-|..|-||||
+    query             0 ---et pie vivamus exspec----tantes beatam spem et adventum d
+    
+    target           51 om--i 54
+                     17 ||--| 22
+    query            53 omini 58
+
+-- fused_8 --
+  OCR:      'fratresnt'
+  Assigned: 'ni Laudate'
+  Words:    [68..69) consumed=1
+  NW score: k=1 (pre-snap), norm=-2.0158
+  Anchor:   word 74 (within_chant_7), diff=5, snapped=False, forced=False
+  Alignment:
+    target            0 --fratresnt  9
+                      0 --..||-|--- 11
+    query             0 Laudat-e---  7
+
+-- fused_9 --
+  OCR:      'mono lanone crmale uper solvmi david undict supra ad Annet'
+  Assigned: 'euouae Super solium david et'
+  Words:    [69..74) consumed=5
+  NW score: k=6 (pre-snap), norm=1.4187
+  Anchor:   word 74 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 mono lanone crmale uper sol-vmi david undict supra ad Annet
+                      0 -..|-.|---|
+    query             0 -euo-ua---e ------Super solium- david -------------------et
+    
+    target           58
+                     11
+    query            28
+
+-- fused_10 --
+  OCR:      'super regnum ejus sedebit meternum Allelvya evovae e'
+  Assigned: 'super regnum eius sedebit in eternum alleluya euouae'
+  Words:    [74..82) consumed=8
+  NW score: k=8 (pre-snap), norm=5.8077
+  Anchor:   word 91 (within_chant_7), diff=9, snapped=False, forced=False
+  Alignment:
+    target            0 super regnum ejus sedebit --meternum Allelvya evovae e 52
+                      0 |||||  5
+    query             0 super regnum eius sedebit in eternum alleluya euoua--e 52
+
+-- fused_11 --
+  OCR:      'cacati ad ar acaius'
+  Assigned: 'Beata es maria que credidisti perficientur in te que'
+  Words:    [82..91) consumed=9
+  NW score: k=4 (pre-snap), norm=-0.1081
+  Anchor:   word 91 (within_chant_7), diff=5, snapped=False, forced=True
+  Alignment:
+    target            0 cacati ad -ar a---------------------c------ai------us 19
+                      0 -..||.  6
+    query             0 -Beata es maria que credidisti perficientur in te que 52
+
+-- fused_12 --
+  OCR:      'Pearta eo mana aonre tredidist pesficientum inteae'
+  Assigned: 'dicta sunt tibi a domino alleluya euouae Dicit do'
+  Words:    [91..100) consumed=9
+  NW score: k=11 (pre-snap), norm=-0.5500
+  Anchor:   word 100 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 --Pea-----rt----a eo mana aonre---- tredidist pesficient--um
+                      0 --..|-----.|----|
+    query             0 dicta sunt tibi a do-mino a-lleluya --e----uouae Dici--t dom
+    
+    target           43  inteae 50
+                     17 -||--.. 24
+    query            50 -in--us 54
+
+-- fused_13 --
+  OCR:      'dicta sunt tibi a domino Aveluya evovae Viatco'
+  Assigned: 'minus penitenciam agite appropinquabit enim regnum celorum'
+  Words:    [100..106) consumed=6
+  NW score: k=4 (pre-snap), norm=-1.6240
+  Anchor:   word 106 (page_break_77), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 --di---cta- sunt tibi a- domino Aveluya--- e-vovae---- Viatc
+                      0 --.|---|.|-
+    query             0 penitenciam ----agite appropin-----qu-abit enim regnum ----c
+    
+    target           45 --o--- 46
+                     11 --|--- 17
+    query            46 elorum 52
+
+-- fused_14 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [106..106) consumed=0
+  Alignment:
+    (no words left)
+=== END DEBUG ===
+

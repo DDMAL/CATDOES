@@ -1,0 +1,163 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'Lulitergodo hominem et posuit eum inpa'
+  [fused_1] 'radiso volu tis . ut operare tur et custodi'
+  [fused_2] 'ret lum iantaverat antem domi'
+  [fused_3] 'mis tens pearadisum noluptatis popanapi o mano po'
+  [fused_4] 'sint hominem quem Formane rat.'
+  [fused_5] 'ixt dominus de est bonun esse ho'
+  [fused_6] 'mm neniso num facannoovto vm'
+  [fused_7] '  bti X de vero non invenebat'
+  [fused_8] 'adiitor similis sibi dixit vero de us . tatia '
+  [fused_9] 'Univesis do mnno dam et tu lit'
+  [fused_10] 'uam de costis vis . Et edificavit costam'
+  [fused_11] 'quam tulerat dominus de Adam tom paodent'
+  [fused_12] 'amad dam nt inde ret quid vocaret'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'Lulitergodo hominem et posuit eum inpa'
+  Assigned: 'Tulit ergo dominus hominem et posuit eum in pa'
+  Words:    [0..9) consumed=9
+  NW score: k=8 (pre-snap), norm=5.7393
+  Anchor:   word 9 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 Lulit-ergo-do----- hominem et posuit eum in-pa------ 38
+                      0 .||||-||||-||----- 18
+    query             0 Tulit ergo dominus hominem et posuit eum in paradiso 52
+
+-- fused_1 --
+  OCR:      'radiso volu tis . ut operare tur et custodi'
+  Assigned: 'radiso voluptatis Ut operaretur et custodi'
+  Words:    [9..14) consumed=5
+  NW score: k=5 (pre-snap), norm=4.2798
+  Anchor:   word 14 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 radiso volu-- tis . ut operare tur et custodi--- 43
+                      0 -------||||--.|||-- 19
+    query             0 -------voluptatis-- Ut operare-tur et custodiret 38
+
+-- fused_2 --
+  OCR:      'ret lum iantaverat antem domi'
+  Assigned: 'ret illum Plantaverat autem domi'
+  Words:    [14..18) consumed=4
+  NW score: k=4 (pre-snap), norm=4.4692
+  Anchor:   word 18 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ret lum -iantaverat antem domi--- 29
+                      0 --..|||  7
+    query             0 --illum Plantaverat autem dominus 31
+
+-- fused_3 --
+  OCR:      'mis tens pearadisum noluptatis popanapi o mano po'
+  Assigned: 'nus deus paradisum voluptatis a principio in quo po'
+  Words:    [18..26) consumed=8
+  NW score: k=7 (pre-snap), norm=3.1443
+  Anchor:   word 26 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 mis tens pearadisum noluptatis pop-an-api o man---o po---- 49
+                      0 ----.|.|  8
+    query             0 ----deus p-aradisum voluptatis a principi-o -in quo posuit 51
+
+-- fused_4 --
+  OCR:      'sint hominem quem Formane rat.'
+  Assigned: 'suit hominem quem formaverat Ut operare'
+  Words:    [26..31) consumed=5
+  NW score: k=3 (pre-snap), norm=4.7587
+  Anchor:   word 31 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 sint hominem quem Formane------ ---rat. 30
+                      0 -----||||||| 12
+    query             0 -----hominem quem formaverat Ut operare 34
+
+-- fused_5 --
+  OCR:      'ixt dominus de est bonun esse ho'
+  Assigned: 'Dixit dominus deus non est bonum esse ho'
+  Words:    [31..39) consumed=8
+  NW score: k=8 (pre-snap), norm=4.9542
+  Anchor:   word 39 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -ix-t dominus de------ est bonun esse ho----- 32
+                      0 -||-|  5
+    query             0 Dixit dominus deus non est bonum esse hominem 45
+
+-- fused_6 --
+  OCR:      'mm neniso num facannoovto vm'
+  Assigned: 'minem solum Faciamus ei'
+  Words:    [39..42) consumed=3
+  NW score: k=3 (pre-snap), norm=-0.8250
+  Anchor:   word 49 (within_chant_7), diff=7, snapped=False, forced=False
+  Alignment:
+    target            0 mm neniso num fac-annoovto vm 28
+                      0 -------||-.|| 13
+    query             0 -------so-lum Facia----mus ei 17
+
+-- fused_7 --
+  OCR:      'bti X de vero non invenebat'
+  Assigned: 'adiutorium simile sibi Ade vero non inveniebatur'
+  Words:    [42..49) consumed=7
+  NW score: k=7 (pre-snap), norm=2.7500
+  Anchor:   word 49 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ---bt---------i-- ---X -de vero non inven-ebat-- 27
+                      0 ---.|---------|-- 17
+    query             0 adiutorium simile sibi Ade vero non inveniebatur 48
+
+-- fused_8 --
+  OCR:      'adiitor similis sibi dixit vero de us . tatia'
+  Assigned: 'adiutor similis sibi dixit vero deus Faciamus'
+  Words:    [49..56) consumed=7
+  NW score: k=6 (pre-snap), norm=5.9628
+  Anchor:   word 56 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 adiitor similis sibi dixit vero de us . tatia--- 45
+                      0 |||.|||  7
+    query             0 adiutor similis sibi dixit vero de-us-- Faciamus 45
+
+-- fused_9 --
+  OCR:      'Univesis do mnno dam et tu lit'
+  Assigned: 'Immisit dominus soporem in adam et tulit'
+  Words:    [56..63) consumed=7
+  NW score: k=7 (pre-snap), norm=2.1362
+  Anchor:   word 63 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -Univesis do mnn------o------ -dam et tu lit 30
+                      0 -..|--||.  9
+    query             0 Immi--sit do-minus soporem in adam et tu-lit 40
+
+-- fused_10 --
+  OCR:      'uam de costis vis . Et edificavit costam'
+  Assigned: 'unam de costis eius Et edificavit costam'
+  Words:    [63..70) consumed=7
+  NW score: k=7 (pre-snap), norm=6.6750
+  Anchor:   word 70 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 u-am de costis vi-s . Et edificavit costam 40
+                      0 |-||  4
+    query             0 unam de costis eius-- Et edificavit costam 40
+
+-- fused_11 --
+  OCR:      'quam tulerat dominus de Adam tom paodent'
+  Assigned: 'quam tulerat dominus de adam in mulierem et adduxit'
+  Words:    [70..79) consumed=9
+  NW score: k=6 (pre-snap), norm=5.3104
+  Anchor:   word 79 (within_chant_7), diff=3, snapped=False, forced=True
+  Alignment:
+    target            0 quam tulerat dominus de Adam --------tom --paod-ent 40
+                      0 ||||  4
+    query             0 quam tulerat dominus de adam in mulierem et adduxit 51
+
+-- fused_12 --
+  OCR:      'amad dam nt inde ret quid vocaret'
+  Assigned: 'eam ad adam ut videret quid vocaret eam'
+  Words:    [79..87) consumed=8
+  NW score: k=7 (pre-snap), norm=5.6789
+  Anchor:   word 87 (page_break_77), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 -am-ad -dam nt -inde ret quid vocaret---- 33
+                      0 -||-||  6
+    query             0 eam ad adam ut vi-de-ret quid vocaret eam 39
+=== END DEBUG ===
+

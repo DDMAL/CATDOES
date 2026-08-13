@@ -1,0 +1,163 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'di et adue os . die enebre facte sunt'
+  [fused_1] 'dum crucifixissent ihesum ju  et circa ho'
+  [fused_2] 'tam nonam qua manc Jhe sus voce'
+  [fused_3] 'mag ns tevont quid teene qi .etmane'
+  [fused_4] 't pre cvlite  tum rclamanshe'
+  [fused_5] '.n voem  ii stuas commendo spiri'
+  [fused_6] ' me ui et indire alnimam meam dilec'
+  [fused_7] 'canoi di in manus minico mne facta est'
+  [fused_8] 'men verditas. a sicut levam dedit'
+  [fused_9] 'voces adversari us dicens congrega mini'
+  [fused_10] 'et properate ad devorandum illum posuerunt me'
+  [fused_11] 'inteserto soli tudi xit super me'
+  [fused_12] 'omnis in ama non est inientus qu me agno'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'di et adue os . die enebre facte sunt'
+  Assigned: 'dixit ad eos Cotidie Tenebre facte sunt'
+  Words:    [0..7) consumed=7
+  NW score: k=7 (pre-snap), norm=5.2387
+  Anchor:   word 7 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 di et adue os --. die -enebre facte sunt 37
+                      0 ||..|  5
+    query             0 dixit ad e-os Cotidie Tenebre facte sunt 39
+
+-- fused_1 --
+  OCR:      'dum crucifixissent ihesum ju  et circa ho'
+  Assigned: 'dum crucifixissent ihesum in dei et circa horam nonam'
+  Words:    [7..16) consumed=9
+  NW score: k=8 (pre-snap), norm=6.2874
+  Anchor:   word 16 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 dum crucifixissent ihesum ju --- et circa ho--------- 41
+                      0 |||  3
+    query             0 dum crucifixissent ihesum in dei et circa horam nonam 53
+
+-- fused_2 --
+  OCR:      'tam nonam qua manc Jhe sus voce'
+  Assigned: 'exclamavit ihesus voce magna'
+  Words:    [16..20) consumed=4
+  NW score: k=3 (pre-snap), norm=1.1105
+  Anchor:   word 20 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 tam nonam qua manc Jhe sus voce------ 31
+                      0 ---....||---|--... 18
+    query             0 ---exclam---a--vit ihe-sus voce magna 28
+
+-- fused_3 --
+  OCR:      'mag ns tevont quid teene qi .etmane'
+  Assigned: 'deus ut quid me dereliquisti Et inclinato capite'
+  Words:    [20..28) consumed=8
+  NW score: k=6 (pre-snap), norm=0.1822
+  Anchor:   word 28 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 mag ns tevont quid te--ene- q----i .etman-------------e 35
+                      0 --...|  6
+    query             0 --deus ----ut quid me dereliquisti -Et inclinato capite 48
+
+-- fused_4 --
+  OCR:      't pre cvlite  tum rclamanshe'
+  Assigned: 'emisit spiritum Exclamans ihe'
+  Words:    [28..32) consumed=4
+  NW score: k=3 (pre-snap), norm=1.4363
+  Anchor:   word 32 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 -----t -p-re cvlite  tum -rclamans--he--- 28
+                      0 -----|  6
+    query             0 emisit spir-----i----tum Exclamans ihesus 32
+
+-- fused_5 --
+  OCR:      '.n voem  ii stuas commendo spiri'
+  Assigned: 'sus voce magna ait pater in manus tuas commendo spiritum'
+  Words:    [32..41) consumed=9
+  NW score: k=9 (pre-snap), norm=2.6721
+  Anchor:   word 41 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 .n vo-e-m-------- ----- ii ----s-tuas commendo spiri--- 32
+                      0 ---||-|-|-------- 17
+    query             0 ---voce magna ait pater in manus tuas commendo spiritum 52
+
+-- fused_6 --
+  OCR:      'me ui et indire alnimam meam dilec'
+  Assigned: 'meum Et inclinato Animam meam dilec'
+  Words:    [41..47) consumed=6
+  NW score: k=6 (pre-snap), norm=3.7280
+  Anchor:   word 47 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 me ui et in-di--re alnimam meam dilec--- 34
+                      0 ||-|.  5
+    query             0 me-um Et inclinato -Animam meam dilectam 38
+
+-- fused_7 --
+  OCR:      'canoi di in manus minico mne facta est'
+  Assigned: 'tam tradidi in manus inimicorum et facta est'
+  Words:    [47..54) consumed=7
+  NW score: k=7 (pre-snap), norm=4.5143
+  Anchor:   word 54 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -canoi di in manus min--ico- mne- facta est 38
+                      0 -.|-.|-||  9
+    query             0 tra-di-di in manus -inimicorum et facta est 40
+
+-- fused_8 --
+  OCR:      'men verditas. a sicut levam dedit'
+  Assigned: 'michi hereditas mea sicut leo in silvam dedit con'
+  Words:    [54..63) consumed=9
+  NW score: k=8 (pre-snap), norm=4.0222
+  Anchor:   word 63 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 m--en ver-ditas. --a sicut le--------vam dedit------- 33
+                      0 |--..  5
+    query             0 michi hereditas- mea sicut leo in silvam dedit contra 52
+
+-- fused_9 --
+  OCR:      'voces adversari us dicens congrega mini'
+  Assigned: 'tra me voces adversarius dicens congregamini'
+  Words:    [63..68) consumed=5
+  NW score: k=5 (pre-snap), norm=6.8107
+  Anchor:   word 68 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ---voces adversari us dicens congrega mini 39
+                      0 ---|||||  8
+    query             0 me voces adversari-us dicens congrega-mini 40
+
+-- fused_10 --
+  OCR:      'et properate ad devorandum illum posuerunt me'
+  Assigned: 'et properate ad devorandum illum posuerunt me in'
+  Words:    [68..76) consumed=8
+  NW score: k=7 (pre-snap), norm=8.0000
+  Anchor:   word 76 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 et properate ad devorandum illum posuerunt me--- 45
+                      0 ||  2
+    query             0 et properate ad devorandum illum posuerunt me in 48
+
+-- fused_11 --
+  OCR:      'inteserto soli tudi xit super me'
+  Assigned: 'deserto solitudinis et luxit super me omnis terra'
+  Words:    [76..84) consumed=8
+  NW score: k=6 (pre-snap), norm=4.9405
+  Anchor:   word 84 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 inteserto soli tudi------ --xit super me------------ 32
+                      0 --.||||||  9
+    query             0 --deserto soli-tudinis et luxit super me omnis terra 49
+
+-- fused_12 --
+  OCR:      'omnis in ama non est inientus qu me agno'
+  Assigned: 'Quia non est inventus qui me agnosceret et faceret'
+  Words:    [84..93) consumed=9
+  NW score: k=7 (pre-snap), norm=3.9497
+  Anchor:   word 93 (page_break_77), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 omnis in ama non est inientus qu- me agno----------------- 40
+                      0 ----..|----| 12
+    query             0 ----Qui----a non est inventus qui me agnosceret et faceret 50
+=== END DEBUG ===
+

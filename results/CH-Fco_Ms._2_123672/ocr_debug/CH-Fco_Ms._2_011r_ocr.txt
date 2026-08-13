@@ -1,0 +1,183 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'bis quia dies domini veni et surge '
+  [fused_1] 'on convertere a umtuum gaude et letare ia'
+  [fused_2] 'cob . Quia de no ogentium salvator tu vem et'
+  [fused_3] 'Xxulta satis filia sy dli Nbila filiaiherusa Secudumathum . inillo empori'
+  [fused_4] 'cum andissetiohs Omir Sancti'
+  [fused_5] 'lem. Emarde ua G pape Le Vi Erendini eredietar do mine'
+  [fused_6] 'de Saman ii ad portam entem'
+  [fused_7] 'eveniet in Bethleem ambulans super a quas eedemp'
+  [fused_8] 'tionis in de cuncsaliist omnis ho mo'
+  [fused_9] 'quia ec ceve in et.  prepara bitur'
+  [fused_10] 'iicordia solium ejus et sedebit super ilud in verita'
+  [fused_11] 'ea sestmaetanda ne no domine . et'
+  [fused_12] 'te qui popidum tm in domine et noli tar'
+  [fused_13] 'da reclam ta no inecuem ie siee com'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'bis quia dies domini veni et surge'
+  Assigned: 'tuis et exaltabis quia dies domini veniet surge'
+  Words:    [0..8) consumed=8
+  NW score: k=8 (pre-snap), norm=5.2783
+  Anchor:   word 31 (within_chant_7), diff=23, snapped=False, forced=False
+  Alignment:
+    target            0 --------------bis quia dies domini veni et surge 34
+                      0 --------------||| 17
+    query             0 tuis et exaltabis quia dies domini veni-et surge 47
+
+-- fused_1 --
+  OCR:      'on convertere a umtuum gaude et letare ia'
+  Assigned: 'syon convertere ad deum tuum gaude et letare iacob'
+  Words:    [8..17) consumed=9
+  NW score: k=9 (pre-snap), norm=6.2063
+  Anchor:   word 31 (within_chant_7), diff=14, snapped=False, forced=False
+  Alignment:
+    target            0 --on convertere a- --um-tuum gaude et letare ia--- 41
+                      0 --||  4
+    query             0 syon convertere ad deum tuum gaude et letare iacob 50
+
+-- fused_2 --
+  OCR:      'cob . Quia de no ogentium salvator tu vem et'
+  Assigned: 'Quia de medio gentium salvator tuus veniet'
+  Words:    [17..24) consumed=7
+  NW score: k=7 (pre-snap), norm=4.7687
+  Anchor:   word 31 (within_chant_7), diff=7, snapped=False, forced=False
+  Alignment:
+    target            0 cob . Quia de ---no ogentium salvator tu-- vem et 44
+                      0 ------|||| 10
+    query             0 ------Quia de medio -gentium salvator tuus veniet 42
+
+-- fused_3 --
+  OCR:      'Xxulta satis filia sy dli Nbila filiaiherusa Secudumathum . inillo empori'
+  Assigned: 'Exulta satis filia syon iubila filia iherusa'
+  Words:    [24..31) consumed=7
+  NW score: k=7 (pre-snap), norm=3.4486
+  Anchor:   word 31 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 Xxulta satis filia sy-- dli Nbila filia-iherusa Secudumathum
+                      0 .|||||
+    query             0 Exulta satis filia syon --i-ubila filia iherusa-------------
+    
+    target           57  . inillo empori 73
+                      6 -------|--||---- 22
+    query            44 -------l--em---- 47
+
+-- fused_4 --
+  OCR:      'cum andissetiohs Omir Sancti'
+  Assigned: 'lem Quia de Egredietur dominus'
+  Words:    [31..35) consumed=4
+  NW score: k=6 (pre-snap), norm=-1.2117
+  Anchor:   word 35 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 cu----m --andissetiohs -Omir Sancti 28
+                      0 .|----.  7
+    query             0 Quia de Egredi--et--ur domi----n-us 26
+
+-- fused_5 --
+  OCR:      'lem. Emarde ua G pape Le Vi Erendini eredietar do mine'
+  Assigned: 'de samaria ad portam que respicit ad orientem'
+  Words:    [35..43) consumed=8
+  NW score: k=11 (pre-snap), norm=0.1442
+  Anchor:   word 43 (within_chant_7), diff=3, snapped=False, forced=True
+  Alignment:
+    target            0 lem. -Emarde ua G p---ape -Le Vi Erendini- eredietar do mi-n
+                      0 .|--
+    query             0 de-- samaria -a-d porta-m que ----respicit -------ad -o-rien
+    
+    target           53 -e- 54
+                      4 -|-  7
+    query            42 tem 45
+
+-- fused_6 --
+  OCR:      'de Saman ii ad portam entem'
+  Assigned: 'e veniet in bethleem ambulans super aquas redemp'
+  Words:    [43..51) consumed=8
+  NW score: k=4 (pre-snap), norm=-0.7746
+  Anchor:   word 51 (within_chant_7), diff=4, snapped=False, forced=True
+  Alignment:
+    target            0 de Saman--- ii --------------a-d --por---tam -entem------- 27
+                      0 -|  2
+    query             0 -e --veniet in bethleem ambulans super aquas re-demptionis 54
+
+-- fused_7 --
+  OCR:      'eveniet in Bethleem ambulans super a quas eedemp'
+  Assigned: 'tionis iude Tunc salvus erit omnis homo'
+  Words:    [51..57) consumed=6
+  NW score: k=8 (pre-snap), norm=-1.0690
+  Anchor:   word 57 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 eveni--et -in- Bethleem ambulans super a -quas eedemp 48
+                      0 ----|--|-  9
+    query             0 ----iude- Tunc --------sa---lvus ---erit omnis --homo 32
+
+-- fused_8 --
+  OCR:      'tionis in de cuncsaliist omnis ho mo'
+  Assigned: 'quia ecce veniet Et preparabitur in mise'
+  Words:    [57..64) consumed=7
+  NW score: k=8 (pre-snap), norm=-1.8428
+  Anchor:   word 64 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 tionis in de cuncsaliist --------omni--s ho m------o---- 36
+                      0 --..|.  6
+    query             0 --quia -ecce ven-----iet Et preparabitur in misericordia 48
+
+-- fused_9 --
+  OCR:      'quia ec ceve in et.  prepara bitur'
+  Assigned: 'ricordia solium eius et sedebit super illud in verita'
+  Words:    [64..72) consumed=8
+  NW score: k=6 (pre-snap), norm=-0.4412
+  Anchor:   word 72 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 ---qu---i-a ec ceve in ---et. ----- --prepara bit-ur 34
+                      0 ---.|---|-. 11
+    query             0 solium eius et sedebit supe-r illud in ve--r---itate 46
+
+-- fused_10 --
+  OCR:      'iicordia solium ejus et sedebit super ilud in verita'
+  Assigned: 'te Tunc salvus Festina ne tardaveris domine Et'
+  Words:    [72..79) consumed=7
+  NW score: k=8 (pre-snap), norm=-0.6864
+  Anchor:   word 79 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 -iicordia solium -ejus et--- sedebit- super ilud- in verita
+                      0 -..|-----
+    query             0 Tunc----- salvus Fe--s--tina ne--- tardaver-is domin--e Et-
+    
+    target           52
+                      9
+    query            43
+
+-- fused_11 --
+  OCR:      'ea sestmaetanda ne no domine . et'
+  Assigned: 'libera populum tuum Veni domine et noli tar'
+  Words:    [79..87) consumed=8
+  NW score: k=6 (pre-snap), norm=0.9852
+  Anchor:   word 87 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 ---e-a --sestmaetanda ne no domine . et------------- 33
+                      0 ---|-|  6
+    query             0 libera populum- t-uum Ve-ni domine-- et noli tardare 47
+
+-- fused_12 --
+  OCR:      'te qui popidum tm in domine et noli tar'
+  Assigned: 'dare relaxa facinora Et libera Ecce dominus'
+  Words:    [87..93) consumed=6
+  NW score: k=6 (pre-snap), norm=-1.5326
+  Anchor:   word 93 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 te qui popi-dum -tm -i--------n domine et noli tar 39
+                      0 .|....  6
+    query             0 relaxa facinora Et- libera Ecce domin-----------us 38
+
+-- fused_13 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [93..93) consumed=0
+  Alignment:
+    (no words left)
+=== END DEBUG ===
+

@@ -1,0 +1,187 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'cima die advesperum Pascha domi in est et in quinta decima'
+  [fused_1] 'sollempnitatem celebrabi tis al tal simo. domi'
+  [fused_2] 'nodominus ad moysendicens lo que'
+  [fused_3] 're filiis Esrahel et dices ad  18'
+  [fused_4] 'tiplicati sunt qui tribulant me et di cunt'
+  [fused_5] 'non est salus illi in Deo ejus Exurge dopane sa'
+  [fused_6] 'num me fac deus me s equando'
+  [fused_7] 'ditatinimcus me prevalvi ad versus e m.'
+  [fused_8] 'Exiurm usquequo exaltabitur minicus me'
+  [fused_9] 'super me rt espi ce et exaudi me dommede'
+  [fused_10] 'us meus in tribulant me exustabunt'
+  [fused_11] 'si motus sue ro ego autem in misericordia tu'
+  [fused_12] 'n aute Bonorumeoro'
+  [fused_13] 'Seorelconis siio Sancti ambrosi'
+  [fused_14] ' vo rohice Le aiii saitote fanto cona'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'cima die advesperum Pascha domi in est et in quinta decima'
+  Assigned: 'die ad vesperum pascha domini est et in quintadecima'
+  Words:    [0..9) consumed=9
+  NW score: k=9 (pre-snap), norm=6.2275
+  Anchor:   word 20 (within_chant_7), diff=11, snapped=False, forced=False
+  Alignment:
+    target            0 cima die ad-vesperum Pascha domi in est et in quinta decima
+                      0 -----|||
+    query             0 -----die ad vesperum pascha domini- est et in quinta-decima
+    
+    target           58
+                      8
+    query            52
+
+-- fused_1 --
+  OCR:      'sollempnitatem celebrabi tis al tal simo. domi'
+  Assigned: 'sollempnitatem celebrabitis altissimo domino'
+  Words:    [9..13) consumed=4
+  NW score: k=4 (pre-snap), norm=6.0459
+  Anchor:   word 20 (within_chant_7), diff=7, snapped=False, forced=False
+  Alignment:
+    target            0 sollempnitatem celebrabi tis al tal simo. domi-- 46
+                      0 |||||||||||||| 14
+    query             0 sollempnitatem celebrabi-tis al-t-issimo- domino 44
+
+-- fused_2 --
+  OCR:      'nodominus ad moysendicens lo que'
+  Assigned: 'Loquutus est dominus ad moysen dicens loque'
+  Words:    [13..20) consumed=7
+  NW score: k=7 (pre-snap), norm=4.5853
+  Anchor:   word 20 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 no-----------dominus ad moysen-dicens lo qu--e 32
+                      0 .|-----------||||||| 20
+    query             0 Loquutus est dominus ad moysen dicens lo-quere 45
+
+-- fused_3 --
+  OCR:      're filiis Esrahel et dices ad  18'
+  Assigned: 're filiis israhel et dices ad'
+  Words:    [20..25) consumed=5
+  NW score: k=5 (pre-snap), norm=5.6671
+  Anchor:   word 34 (within_chant_7), diff=9, snapped=False, forced=False
+  Alignment:
+    target            0 re filiis Esrahel et dices ad  18 33
+                      0 ---||||||  9
+    query             0 ---filiis israhel et dices ad---- 26
+
+-- fused_4 --
+  OCR:      'tiplicati sunt qui tribulant me et di cunt'
+  Assigned: 'eos Quartadecima Multiplicati sunt qui tribulant me et dicunt'
+  Words:    [25..34) consumed=9
+  NW score: k=9 (pre-snap), norm=5.0774
+  Anchor:   word 34 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 --------------------tiplicati sunt qui tribulant me et di cu
+                      0 --------------------|||||||||
+    query             0 eos Quartadecima Multiplicati sunt qui tribulant me et di-cu
+    
+    target           40 nt 42
+                     29 || 31
+    query            59 nt 61
+
+-- fused_5 --
+  OCR:      'non est salus illi in Deo ejus Exurge dopane sa'
+  Assigned: 'non est salus illi in deo eius Exurge domine sal'
+  Words:    [34..44) consumed=10
+  NW score: k=9 (pre-snap), norm=6.3111
+  Anchor:   word 44 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 non est salus illi in Deo ejus Exurge dopane sa---- 47
+                      0 |||  3
+    query             0 non est salus illi in deo eius Exurge domine salvum 51
+
+-- fused_6 --
+  OCR:      'num me fac deus me s equando'
+  Assigned: 'vum me fac deus meus Nequando'
+  Words:    [44..49) consumed=5
+  NW score: k=5 (pre-snap), norm=5.8962
+  Anchor:   word 49 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 num me fac deus me s -equando 28
+                      0 ----||  6
+    query             0 ----me fac deus meus Nequando 25
+
+-- fused_7 --
+  OCR:      'ditatinimcus me prevalvi ad versus e m.'
+  Assigned: 'dicat inimicus meus prevalui adversus eum'
+  Words:    [49..55) consumed=6
+  NW score: k=6 (pre-snap), norm=5.4767
+  Anchor:   word 55 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ditat-inim-cus me-- prevalvi ad versus e m. 39
+                      0 ||.||-||||-||| 14
+    query             0 dicat inimicus meus prevalui ad-versus eum- 41
+
+-- fused_8 --
+  OCR:      'Exiurm usquequo exaltabitur minicus me'
+  Assigned: 'Exurge Usquequo exaltabitur inimicus me'
+  Words:    [55..60) consumed=5
+  NW score: k=5 (pre-snap), norm=5.5990
+  Anchor:   word 60 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 Exiur-m usquequo exaltabitur min--icus me-- 38
+                      0 ||-||-.  7
+    query             0 Ex-urge Usquequo exaltabitur -inimicus meus 41
+
+-- fused_9 --
+  OCR:      'super me rt espi ce et exaudi me dommede'
+  Assigned: 'us super me Respice et exaudi me domine de'
+  Words:    [60..68) consumed=8
+  NW score: k=7 (pre-snap), norm=5.9293
+  Anchor:   word 68 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 super me rt espi ce et exaudi me dom-me-de-- 40
+                      0 |||||  5
+    query             0 super me --Respi-ce et exaudi me domine deus 41
+
+-- fused_10 --
+  OCR:      'us meus in tribulant me exustabunt'
+  Assigned: 'us meus Qui tribulant me exultabunt'
+  Words:    [68..73) consumed=5
+  NW score: k=5 (pre-snap), norm=5.9724
+  Anchor:   word 73 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 us meus --in tribulant me exustabunt 34
+                      0 ---||||  7
+    query             0 ---meus Qui- tribulant me exultabunt 32
+
+-- fused_11 --
+  OCR:      'si motus sue ro ego autem in misericordia tu'
+  Assigned: 'si motus fuero ego autem in misericordia tua spe'
+  Words:    [73..82) consumed=9
+  NW score: k=8 (pre-snap), norm=7.2045
+  Anchor:   word 82 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 si motus sue ro ego autem in misericordia tu--------- 44
+                      0 ||  2
+    query             0 si motus fue-ro ego autem in misericordia tua sperabo 52
+
+-- fused_12 --
+  OCR:      'n aute Bonorumeoro'
+  Assigned: 'rabo respice Deus meus es tu'
+  Words:    [82..87) consumed=5
+  NW score: k=3 (pre-snap), norm=-2.4010
+  Anchor:   word 87 (page_break_77), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 -n aute Bonoru--me-----oro 18
+                      0 -.....|  7
+    query             0 respice ---Deus meus es tu 23
+
+-- fused_13 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [87..87) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_14 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [87..87) consumed=0
+  Alignment:
+    (no words left)
+=== END DEBUG ===
+

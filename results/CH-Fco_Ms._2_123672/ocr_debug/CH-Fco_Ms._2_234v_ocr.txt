@@ -1,0 +1,179 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'abo sanctis meis locum nominatum in regno patris me'
+  [fused_1] 'idicit dominus pro Domine quis Havovacanctinim'
+  [fused_2] 'tetrasunit emno nineficavit omnes meloites'
+  [fused_3] 'los P conserva me eovae anctati qui sperant in'
+  [fused_4] 'domino habebunt fortitudinem assument pennas ut a qua'
+  [fused_5] 'le volabunt et non deficient po domini est tens evovac'
+  [fused_6] 'Canceatum domi ne moa ieti conlegunt sium'
+  [fused_7] '.elanenu Precen 1 tinne'
+  [fused_8] 'mietur ille domi Letri ame'
+  [fused_9] 'oi tmimarie bro masine immredi'
+  [fused_10] 'mento Ano mai rerssit petram et finperunt'
+  [fused_11] 'runti Terra.'
+  [fused_12] 'mmerunt Sanct'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'abo sanctis meis locum nominatum in regno patris me'
+  Assigned: 'meruerunt Dabo sanctis meis locum nominatum in regno patris me'
+  Words:    [0..10) consumed=10
+  NW score: k=10 (pre-snap), norm=6.4216
+  Anchor:   word 10 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -----------abo sanctis meis locum nominatum in regno patris 
+                      0 -----------|||
+    query             0 meruerunt Dabo sanctis meis locum nominatum in regno patris 
+    
+    target           49 me- 51
+                     14 ||- 17
+    query            60 mei 63
+
+-- fused_1 --
+  OCR:      'idicit dominus pro Domine quis Havovacanctinim'
+  Assigned: 'i dicit dominus ~Domine quis habitabit'
+  Words:    [10..15) consumed=5
+  NW score: k=5 (pre-snap), norm=3.8089
+  Anchor:   word 19 (within_chant_7), diff=4, snapped=False, forced=False
+  Alignment:
+    target            0 idicit dominus pro Domine quis Havovacanctinim 46
+                      0 -|||||  6
+    query             0 -dicit dominus ---~Domine quis ------habitabit 36
+
+-- fused_2 --
+  OCR:      'tetrasunit emno nineficavit omnes meloites'
+  Assigned: 'euouae Sanctis qui in terra sunt eius mirificavit omnes voluntates'
+  Words:    [15..25) consumed=10
+  NW score: k=10 (pre-snap), norm=1.7284
+  Anchor:   word 19 (within_chant_7), diff=6, snapped=False, forced=False
+  Alignment:
+    target            0 ----------------------tetra-sunit emno nineficavit omnes mel
+                      0 ----------------------||.||-|||-|
+    query             0 euouae Sanctis qui in terra sun-t eius mirificavit omnes vol
+    
+    target           37 --oites 42
+                     33 --..||| 40
+    query            59 untates 66
+
+-- fused_3 --
+  OCR:      'los P conserva me eovae anctati qui sperant in'
+  Assigned: 'meas inter'
+  Words:    [25..27) consumed=2
+  NW score: k=10 (pre-snap), norm=4.3947
+  Anchor:   word 27 (within_chant_7), diff=8, snapped=False, forced=True
+  Alignment:
+    target            0 los P conserva me eovae anctati qui sperant in 46
+                      0 ---------------||----|. 23
+    query             0 ---------------me----as in---t--------er------ 10
+
+-- fused_4 --
+  OCR:      'domino habebunt fortitudinem assument pennas ut a qua'
+  Assigned: 'alios ~Conserva me euouae Sancti qui sperant in domino habebunt fortitudinem assument pennas ut aqui'
+  Words:    [27..42) consumed=15
+  NW score: k=15 (pre-snap), norm=3.2370
+  Anchor:   word 35 (within_chant_7), diff=7, snapped=False, forced=False
+  Alignment:
+    target            0 ------------------------------------------------domino habeb
+                      0 ------------------------------------------------||||||
+    query             0 alios ~Conserva me euouae Sancti qui sperant in domino habeb
+    
+    target           12 unt fortitudinem assument pennas ut a qu--a  53
+                     54 |||  57
+    query            60 unt fortitudinem assument pennas ut a-quile 102
+
+-- fused_5 --
+  OCR:      'le volabunt et non deficient po domini est tens evovac'
+  Assigned: 'le volabunt et non deficient ~Domini'
+  Words:    [42..47) consumed=5
+  NW score: k=8 (pre-snap), norm=5.2154
+  Anchor:   word 47 (within_chant_7), diff=3, snapped=False, forced=True
+  Alignment:
+    target            0 le volabunt et non deficient po domini est tens evovac 54
+                      0 ---|||||||| 11
+    query             0 ---volabunt et non deficient --~Domini---------------- 33
+
+-- fused_6 --
+  OCR:      'Canceatum domi ne moa ieti conlegunt sium'
+  Assigned: 'est terra euouae Sancti tui domine mirabile consequuti sunt'
+  Words:    [47..56) consumed=9
+  NW score: k=9 (pre-snap), norm=1.0573
+  Anchor:   word 56 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -----------------Canc-eatum domi ne m-oa i-eti conlegunt- si
+                      0 -----------------.|||-..||.
+    query             0 est terra euouae Sancti tui domi-ne mirabile-- consequuti s-
+    
+    target           39 u-m 41
+                     27 |-. 30
+    query            56 unt 59
+
+-- fused_7 --
+  OCR:      '.elanenu Precen 1 tinne'
+  Assigned: 'iter servientes praeceptis tuis ut inve'
+  Words:    [56..62) consumed=6
+  NW score: k=3 (pre-snap), norm=-0.7770
+  Anchor:   word 62 (within_chant_7), diff=3, snapped=False, forced=True
+  Alignment:
+    target            0 -----.elanen--u Pr-ece---n ---1 -t-in--n-e--- 23
+                      0 -----.|...||--. 15
+    query             0 iter servientes praeceptis tuis ut invenietur 45
+
+-- fused_8 --
+  OCR:      'mietur ille domi Letri ame'
+  Assigned: 'nietur illesi in aquis validis Terra'
+  Words:    [62..67) consumed=5
+  NW score: k=3 (pre-snap), norm=-0.7089
+  Anchor:   word 67 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 mietur ille----------- ----domi- Letri ame 26
+                      0 -------||||----------- 22
+    query             0 -------illesi in aquis valid--is Terr--a-- 29
+
+-- fused_9 --
+  OCR:      'oi tmimarie bro masine immredi'
+  Assigned: 'apparuit arida et in mari rubro via sine'
+  Words:    [67..75) consumed=8
+  NW score: k=9 (pre-snap), norm=1.3672
+  Anchor:   word 75 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 ----------oi-- -tmi--marie --bro -ma-sine immredi 30
+                      0 ----------.|-- 14
+    query             0 apparuit arida et in mari- rubro via sine-------- 40
+
+-- fused_10 --
+  OCR:      'mento Ano mai rerssit petram et finperunt'
+  Assigned: 'impedimento Quoniam percussit petram et fluxerunt'
+  Words:    [75..81) consumed=6
+  NW score: k=6 (pre-snap), norm=3.9936
+  Anchor:   word 81 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ------mento Ano mai rer--ssit petram et finperunt 41
+                      0 ------||||| 11
+    query             0 impedimento Quoniam percussit petram et fluxerunt 49
+
+-- fused_11 --
+  OCR:      'runti Terra.'
+  Assigned: 'aque et torrentes inundaverunt'
+  Words:    [81..85) consumed=4
+  NW score: k=5 (pre-snap), norm=-0.7698
+  Anchor:   word 85 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 -----------runt---i---- Terra. 12
+                      0 -----------|.||---|----..||... 30
+    query             0 aque et torrentes inundaverunt 30
+
+-- fused_12 --
+  OCR:      'mmerunt Sanct'
+  Assigned: 'Terra Verbera carnificum non timuerunt sancti'
+  Words:    [85..91) consumed=6
+  NW score: k=6 (pre-snap), norm=-0.8682
+  Anchor:   word 91 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -----------------------m-------m-erunt Sanct- 13
+                      0 -----------------------|-------|-||||| 38
+    query             0 Terra Verbera carnificum non timuerunt sancti 45
+=== END DEBUG ===
+

@@ -1,0 +1,195 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'lorum tibi tradite sunt danes regni celorum eo'
+  [fused_1] 'ro do qui beato Pers postea de Sancto Paulo et Sancte Paule ipse d tenesvase pdi'
+  [fused_2] 'atis ioro dees quiniltitudinem gecium . Ro ditur alicuna de Pace sciendu est quod qunoqu alique festimu'
+  [fused_3] 'telcbrats de Beato Petrus facimus commin de Sancto Paulo Petrus dicendo d SanctePaule apostole eorbe'
+  [fused_4] 'oac . isimilie et qundo facini de Sancto Paulo facimus commenior de sicto Petro Snichilfa'
+  [fused_5] '|ues paoprincepso rum'
+  [fused_6] 'tibi tra didit deus claves regni celorum  venerite'
+  [fused_7] 'Quodoe ninclis adnocteruo et Beatus mrcalisaep c Petrus ipoe'
+  [fused_8] 'teus siose cam instructo'
+  [fused_9] ' macii quin illot veniti'
+  [fused_10] 'm Camasine'
+  [fused_11] '  ore'
+  [fused_12] ''
+  [fused_13] '. oleti nobs'
+  [fused_14] ' desin cu'
+  [fused_15] ' danui   festimitati'
+  [fused_16] 'megullat'
+  [fused_17] 'piritus Sanctus in te descendet Maria et juxtus altissimu d doa de lema Nonfit a'
+  [fused_18] 'memorato de apostolis neci'
+  [fused_19] 'Jbumbrabit tion erome . ne man'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'lorum tibi tradite sunt danes regni celorum eo'
+  Assigned: 'Tu es pastor ovium princeps apostolorum'
+  Words:    [0..6) consumed=6
+  NW score: k=12 (pre-snap), norm=2.0238
+  Anchor:   word 6 (within_chant_7), diff=6, snapped=False, forced=True
+  Alignment:
+    target            0 ---------lorum -tibi tradi-te sunt danes regni celorum eo 46
+                      0 ---------.||-- 14
+    query             0 Tu es pastor-- ovium pr--inceps--- -apos-------tolorum--- 39
+
+-- fused_1 --
+  OCR:      'ro do qui beato Pers postea de Sancto Paulo et Sancte Paule ipse d tenesvase pdi'
+  Assigned: 'tibi tradidit deus claves regni celorum'
+  Words:    [6..12) consumed=6
+  NW score: k=12 (pre-snap), norm=-0.6625
+  Anchor:   word 12 (within_chant_7), diff=6, snapped=False, forced=True
+  Alignment:
+    target            0 ro do qui beato Pers postea de Sancto Paulo et Sancte Paule 
+                      0 -------.|-|..|----|.....|--
+    query             0 -------ti-bi t----radidit-- de----------u----s ---c---la-ve-
+    
+    target           60 ipse d te-nesvase- pdi 80
+                     27 --|--- 33
+    query            24 --s--- regn--i celorum 39
+
+-- fused_2 --
+  OCR:      'atis ioro dees quiniltitudinem gecium . Ro ditur alicuna de Pace sciendu est quod qunoqu alique festimu'
+  Assigned: '~Venite Spiritus sanctus in te descendet maria et virtus altissimi'
+  Words:    [12..22) consumed=10
+  NW score: k=10 (pre-snap), norm=-0.8490
+  Anchor:   word 22 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 atis ioro dees quiniltitudinem gecium . Ro ditur -alic-u---n
+                      0 ----------..|-----|---||----|-
+    query             0 ----------~Ve-----n---it----e- -Spi--------ritus sa-nctus in
+    
+    target           55 a de Pace sciend-------u est quod qunoqu al-ique festimu 103
+                     30 -  31
+    query            27 - te --de-sc-endet maria e-t --virtu---s alti------ssimi  66
+
+-- fused_3 --
+  OCR:      'telcbrats de Beato Petrus facimus commin de Sancto Paulo Petrus dicendo d SanctePaule apostole eorbe'
+  Assigned: 'obumbrabit tibi euouae Ave Maria'
+  Words:    [22..27) consumed=5
+  NW score: k=5 (pre-snap), norm=-2.9875
+  Anchor:   word 27 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 telcbrats de Beato Petrus facimus commin de Sancto Paulo Pet
+                      0 ....|||-------..|-
+    query             0 obumbra-------bit- --t-------i-------bi- -e----------u-o----
+    
+    target           60 rus dicendo d SanctePaule apostole eorbe 100
+                     18 -|-------------------|--|  43
+    query            19 -u-------------------a--e -----Ave Maria  32
+
+-- fused_4 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [27..27) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_5 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [27..27) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_6 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [27..27) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_7 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [27..27) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_8 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [27..27) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_9 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [27..27) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_10 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [27..27) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_11 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [27..27) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_12 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [27..27) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_13 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [27..27) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_14 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [27..27) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_15 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [27..27) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_16 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [27..27) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_17 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [27..27) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_18 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [27..27) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_19 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [27..27) consumed=0
+  Alignment:
+    (no words left)
+=== END DEBUG ===
+

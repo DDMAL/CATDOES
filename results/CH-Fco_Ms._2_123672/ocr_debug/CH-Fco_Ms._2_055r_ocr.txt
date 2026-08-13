@@ -1,0 +1,175 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'cbis nom domep ofie'
+  [fused_1] 'biues deus qui facis nurabilia pos voce me'
+  [fused_2] 'ropitius esto pectatis nostris domine'
+  [fused_3] 'Gandebunt abia mea dum cant'
+  [fused_4] 'novenerant evorae'
+  [fused_5] 'us inte eeni in domi non confini'
+  [fused_6] 'dar ineternum in tuajusti aa era me . et'
+  [fused_7] 'ripe me udina ad me aurem'
+  [fused_8] 'tuam et me Ete Neplacta tur os meuni'
+  [fused_9] 'lan de tuut cam glorie'
+  [fused_10] 'tu e Magnificenciatm'
+  [fused_11] 'icere in tempore senetum . Dum defecerit virtus'
+  [fused_12] 'meadeus ne derelinquasud'
+  [fused_13] 'vunt labiamea dimi cantavero tibi et anma'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'cbis nom domep ofie'
+  Assigned: 'euouae Et invocabimus nomen tuum domine confite'
+  Words:    [0..7) consumed=7
+  NW score: k=6 (pre-snap), norm=-0.0735
+  Anchor:   word 7 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 --------------c-bi--s no-------m dom--ep --o-fi-e----- 19
+                      0 --------------|-||--| 21
+    query             0 euouae Et invocabimus nomen tuum domine- ~Confitebimur 53
+
+-- fused_1 --
+  OCR:      'biues deus qui facis nurabilia pos voce me'
+  Assigned: 'bimur euouae Tu es deus qui facis mirabilia ~Voce'
+  Words:    [7..15) consumed=8
+  NW score: k=9 (pre-snap), norm=4.1639
+  Anchor:   word 15 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 ------biu-es deus qui facis nurabilia pos voce me 42
+                      0 ------..|-|| 12
+    query             0 euouae Tu es deus qui facis mirabilia ---~Voc---e 43
+
+-- fused_2 --
+  OCR:      'ropitius esto pectatis nostris domine'
+  Assigned: 'mea euouae Propitius esto peccatis nostris domine ~Deus'
+  Words:    [15..23) consumed=8
+  NW score: k=7 (pre-snap), norm=5.7070
+  Anchor:   word 23 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 ------------ropitius esto pectatis nostris domine------ 37
+                      0 ------------|||||||| 20
+    query             0 mea euouae Propitius esto peccatis nostris domine ~Deus 55
+
+-- fused_3 --
+  OCR:      'Gandebunt abia mea dum cant'
+  Assigned: 'venerunt'
+  Words:    [23..24) consumed=1
+  NW score: k=5 (pre-snap), norm=0.1510
+  Anchor:   word 24 (within_chant_7), diff=4, snapped=False, forced=True
+  Alignment:
+    target            0 Gandebunt abia mea dum cant 27
+                      0 ---.|--|--------|--.|----|| 27
+    query             0 ---ve--n--------e--ru----nt  8
+
+-- fused_4 --
+  OCR:      'novenerant evorae'
+  Assigned: 'euouae Deus in te speravi'
+  Words:    [24..29) consumed=5
+  NW score: k=5 (pre-snap), norm=-1.4552
+  Anchor:   word 32 (within_chant_7), diff=3, snapped=False, forced=False
+  Alignment:
+    target            0 -no-ve-ne--ran-t- --evora-e 17
+                      0 -.|-.|-.|--..|-|- 17
+    query             0 euouae Deus in te spe--ravi 25
+
+-- fused_5 --
+  OCR:      'us inte eeni in domi non confini'
+  Assigned: 'domine non confundar'
+  Words:    [29..32) consumed=3
+  NW score: k=3 (pre-snap), norm=1.1859
+  Anchor:   word 32 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 us inte eeni in domi-- non confin--i 32
+                      0 ----------------||||-- 22
+    query             0 ----------------domine non confundar 20
+
+-- fused_6 --
+  OCR:      'dar ineternum in tuajusti aa era me . et'
+  Assigned: 'in eternum in tua iusticia libera me Et eripe'
+  Words:    [32..41) consumed=9
+  NW score: k=8 (pre-snap), norm=4.2282
+  Anchor:   word 41 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 dar in-eternum in tua-justi aa ---era me -. e---t 40
+                      0 ----||-||||||| 14
+    query             0 ----in eternum in tua iusticia libera me Et eripe 45
+
+-- fused_7 --
+  OCR:      'ripe me udina ad me aurem'
+  Assigned: 'me Inclina ad me aurem'
+  Words:    [41..46) consumed=5
+  NW score: k=5 (pre-snap), norm=4.4772
+  Anchor:   word 46 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ripe me --udina ad me aurem 25
+                      0 -----||  7
+    query             0 -----me Inclina ad me aurem 22
+
+-- fused_8 --
+  OCR:      'tuam et me Ete Neplacta tur os meuni'
+  Assigned: 'tuam et salva me Et eripe Repleatur os meum'
+  Words:    [46..55) consumed=9
+  NW score: k=9 (pre-snap), norm=3.8633
+  Anchor:   word 55 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 tuam et------ me Et-----e Neplacta tur os meuni 36
+                      0 ||||  4
+    query             0 tuam et salva me Et eripe Repl--ea-tur os meu-m 43
+
+-- fused_9 --
+  OCR:      'lan de tuut cam glorie'
+  Assigned: 'laude tu aut ymnum dicam glorie tue'
+  Words:    [55..62) consumed=7
+  NW score: k=6 (pre-snap), norm=4.2121
+  Anchor:   word 62 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 lan de tu--ut --------cam glori----e 22
+                      0 ||-.||  6
+    query             0 la-ude tu aut ymnum dicam glorie tue 35
+
+-- fused_10 --
+  OCR:      'tu e Magnificenciatm'
+  Assigned: 'tota die magnificencia tua noli me prohicere in'
+  Words:    [62..70) consumed=8
+  NW score: k=3 (pre-snap), norm=4.1952
+  Anchor:   word 70 (within_chant_7), diff=5, snapped=False, forced=True
+  Alignment:
+    target            0 --tu --e Magnificencia-t--------m-------------- 20
+                      0 --|.  4
+    query             0 tota die magnificencia tua noli me prohicere in 47
+
+-- fused_11 --
+  OCR:      'icere in tempore senetum . Dum defecerit virtus'
+  Assigned: 'tempore senectutis Dum defecerit virtus mea'
+  Words:    [70..76) consumed=6
+  NW score: k=5 (pre-snap), norm=5.3021
+  Anchor:   word 76 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 icere in tempore sene-tum . Dum defecerit virtus---- 47
+                      0 ---------||||||| 16
+    query             0 ---------tempore senectutis Dum defecerit virtus mea 43
+
+-- fused_12 --
+  OCR:      'meadeus ne derelinquasud'
+  Assigned: 'deus ne derelinquas me gaude'
+  Words:    [76..81) consumed=5
+  NW score: k=3 (pre-snap), norm=6.0410
+  Anchor:   word 81 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 meadeus ne derelinquas------ud----- 24
+                      0 ---||||  7
+    query             0 ---deus ne derelinquas me Gaudebunt 32
+
+-- fused_13 --
+  OCR:      'vunt labiamea dimi cantavero tibi et anma'
+  Assigned: 'bunt labia mea dum cantavero tibi et anima'
+  Words:    [81..88) consumed=7
+  NW score: k=7 (pre-snap), norm=5.8282
+  Anchor:   word 88 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 vunt labia-mea dimi cantavero tibi et an-ma 41
+                      0 -----|||||-||| 14
+    query             0 -----labia mea dum- cantavero tibi et anima 37
+=== END DEBUG ===
+

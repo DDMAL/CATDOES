@@ -1,0 +1,167 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'cum ange io. Virtu artinus habra'
+  [fused_1] 'Hesimi le tus ex tur marti nis hic pau'
+  [fused_2] 'per et modi cus Celum divestu Hym'
+  [fused_3] 'mis celesti bus hono ratur artinus'
+  [fused_4] 'episcopus migravit a secu lo vivit in Critisto gemma'
+  [fused_5] 'sacer to tum . Cctum'
+  [fused_6] 'quantus erat Luctus homi num quanta preci'
+  [fused_7] 'pu merenum lamenta monacho'
+  [fused_8] 'mest'
+  [fused_9] ' tinum . eati viri cor'
+  [fused_10] 'pus usque ad locum Sepulchai hymis canora celestis'
+  [fused_11] 'Bprose quitur Quia'
+  [fused_12] 'nerunt disapuli ad beatani martinum carnos pa'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'cum ange io. Virtu artinus habra'
+  Assigned: 'cum angelis Virtutum Martinus habra'
+  Words:    [0..5) consumed=5
+  NW score: k=5 (pre-snap), norm=5.3765
+  Anchor:   word 5 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 cum ange io. Virtu--- -artinus habra-- 32
+                      0 |||  3
+    query             0 cum angeli-s Virtutum Martinus habrahe 37
+
+-- fused_1 --
+  OCR:      'Hesimi le tus ex tur marti nis hic pau'
+  Assigned: 'he sinu letus excipitur martinus hic pau'
+  Words:    [5..11) consumed=6
+  NW score: k=6 (pre-snap), norm=4.3604
+  Anchor:   word 11 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 Hesimi le tus ex--- tur marti nis hic pau--- 38
+                      0 --||..  6
+    query             0 --sinu le-tus excipitur marti-nus hic pauper 40
+
+-- fused_2 --
+  OCR:      'per et modi cus Celum divestu Hym'
+  Assigned: 'per et modicus Celum dives in'
+  Words:    [11..16) consumed=5
+  NW score: k=4 (pre-snap), norm=4.8619
+  Anchor:   word 16 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 per et modi cus Celum dives--------tu Hym 33
+                      0 ----||  6
+    query             0 ----et modi-cus Celum dives ingreditu---r 33
+
+-- fused_3 --
+  OCR:      'mis celesti bus hono ratur artinus'
+  Assigned: 'greditur hymnis celestibus honoratur Martinus'
+  Words:    [16..20) consumed=4
+  NW score: k=4 (pre-snap), norm=6.2311
+  Anchor:   word 20 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 --m-is celesti bus hono ratur -artinus 34
+                      0 --|-||  6
+    query             0 hymnis celesti-bus hono-ratur Martinus 36
+
+-- fused_4 --
+  OCR:      'episcopus migravit a secu lo vivit in Critisto gemma'
+  Assigned: 'episcopus migravit a seculo vivit in xpisto gemma sacerdotum'
+  Words:    [20..29) consumed=9
+  NW score: k=8 (pre-snap), norm=6.9139
+  Anchor:   word 29 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 episcopus migravit a secu lo vivit in Critisto gemma--------
+                      0 |||||||||
+    query             0 episcopus migravit a secu-lo vivit in --xpisto gemma sacerdo
+    
+    target           52 --- 52
+                      9 --- 12
+    query            57 tum 60
+
+-- fused_5 --
+  OCR:      'sacer to tum . Cctum'
+  Assigned: 'Celum O'
+  Words:    [29..31) consumed=2
+  NW score: k=3 (pre-snap), norm=-0.7506
+  Anchor:   word 31 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 sacer to tum . Cctum 20
+                      0 --.|-----.|| 12
+    query             0 --Ce-----lum ------O  7
+
+-- fused_6 --
+  OCR:      'quantus erat Luctus homi num quanta preci'
+  Assigned: 'quantus erat luctus hominum quanta precipue meren'
+  Words:    [31..38) consumed=7
+  NW score: k=6 (pre-snap), norm=6.8353
+  Anchor:   word 38 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 quantus erat Luctus homi num quanta preci------------- 41
+                      0 |||||||  7
+    query             0 quantus erat luctus homi-num quanta precipue merentium 53
+
+-- fused_7 --
+  OCR:      'pu merenum lamenta monacho'
+  Assigned: 'tium lamenta monachorum Quia'
+  Words:    [38..41) consumed=3
+  NW score: k=2 (pre-snap), norm=3.2358
+  Anchor:   word 41 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 pu merenum lamenta monacho-------- 26
+                      0 -----------||||||| 18
+    query             0 -----------lamenta monachorum Quia 23
+
+-- fused_8 --
+  OCR:      'mest'
+  Assigned: 'et pium est gaudere martino et pium est'
+  Words:    [41..49) consumed=8
+  NW score: k=1 (pre-snap), norm=0.7071
+  Anchor:   word 49 (within_chant_7), diff=7, snapped=False, forced=True
+  Alignment:
+    target            0 ----------------------------------m-est  4
+                      0 ----------------------------------|-||| 39
+    query             0 et pium est gaudere martino et pium est 39
+
+-- fused_9 --
+  OCR:      'tinum . eati viri cor'
+  Assigned: 'flere martinum Beati viri cor'
+  Words:    [49..54) consumed=5
+  NW score: k=5 (pre-snap), norm=3.7033
+  Anchor:   word 54 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ---------tinum . eati viri cor--- 21
+                      0 ---------||||| 14
+    query             0 flere martinum -Beati viri corpus 32
+
+-- fused_10 --
+  OCR:      'pus usque ad locum Sepulchai hymis canora celestis'
+  Assigned: 'pus usque ad locum sepulchri hymnis canora celestis tur'
+  Words:    [54..62) consumed=8
+  NW score: k=7 (pre-snap), norm=6.5805
+  Anchor:   word 62 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 pus usque ad locum Sepulchai hym-is canora celestis------ 50
+                      0 ----|||||  9
+    query             0 ----usque ad locum sepulchri hymnis canora celestis turba 53
+
+-- fused_11 --
+  OCR:      'Bprose quitur Quia'
+  Assigned: 'ba prosequitur'
+  Words:    [62..63) consumed=1
+  NW score: k=2 (pre-snap), norm=6.7175
+  Anchor:   word 63 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 Bprose quitur Quia 18
+                      0 -|||||-||||||----- 18
+    query             0 -prose-quitur----- 11
+
+-- fused_12 --
+  OCR:      'nerunt disapuli ad beatani martinum carnos pa'
+  Assigned: 'Quia Dixerunt discipuli ad beatum martinum cur nos pater'
+  Words:    [63..72) consumed=9
+  NW score: k=9 (pre-snap), norm=4.5419
+  Anchor:   word 72 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -------nerunt dis-apuli ad beatani martinum car-nos pa--- 45
+                      0 -------.||||| 13
+    query             0 Quia Dixerunt discipuli ad beat-um martinum cur nos pater 56
+=== END DEBUG ===
+

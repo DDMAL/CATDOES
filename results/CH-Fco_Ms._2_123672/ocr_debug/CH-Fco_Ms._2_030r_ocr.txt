@@ -1,0 +1,211 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'Le Sanctievangli secundum Matheum'
+  [fused_1] 'Innio eristrur dicebat ihee mils e'
+  [fused_2] 'romuini prerebri hii pod anaXX. tephanus servus Dei quem la'
+  [fused_3] 'psrea bantin de mdoit ce tos jidit et in'
+  [fused_4] 'tro nic. P ho mo cui ce cupa te'
+  [fused_5] 'vunt Lumigitu saxorum crepitancium turbine e'
+  [fused_6] 'teretur inter ethereos aule celestis sinus divina ei dla ritas fui'
+  [fused_7] 'sit eatus.ate facte sunt Ianue celi'
+  [fused_8] 'Sti Martiri Beato Stephano qui in numero Marty rum vine'
+  [fused_9] 'c ra mius. de tamphat ince lis co'
+  [fused_10] 'io natusortem  Salvatorno'
+  [fused_11] 'ster dignatusr s reddt'
+  [fused_12] 'salvato doetemo mi miona'
+  [fused_13] 'Ste Phanno nascere turin'
+  [fused_14] 'o sugessis est comno mundum ut die .'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'Le Sanctievangli secundum Matheum'
+  Assigned: 'ille Stephanus servus dei quem la'
+  Words:    [0..6) consumed=6
+  NW score: k=5 (pre-snap), norm=-0.1589
+  Anchor:   word 6 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 --Le Sanctie-vangli se-cu-nd----u-m Ma-------theum 33
+                      0 --.|  4
+    query             0 ille S---t-ephan-us servus dei quem lapidabant---- 41
+
+-- fused_1 --
+  OCR:      'Innio eristrur dicebat ihee mils e'
+  Assigned: 'pidabant iudei vidit celos apertos vidit et in'
+  Words:    [6..13) consumed=7
+  NW score: k=6 (pre-snap), norm=-0.8529
+  Anchor:   word 13 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 Innio eristrur --di--cebat ihe---e mi-ls e----------- 34
+                      0 ---|..|-|----- 14
+    query             0 ---iude-i----- vidit celos apertos vidit et introivit 44
+
+-- fused_2 --
+  OCR:      'romuini prerebri hii pod anaXX. tephanus servus Dei quem la'
+  Assigned: 'troivit Beatus homo cui celi'
+  Words:    [13..17) consumed=4
+  NW score: k=11 (pre-snap), norm=-1.1062
+  Anchor:   word 17 (within_chant_7), diff=7, snapped=False, forced=True
+  Alignment:
+    target            0 romuini prerebri hii pod anaXX. tephanus servus Dei quem la
+                      0 -----------.|--------------|----|-----||
+    query             0 -----------Be--------------a----t-----us --homo cui -ce--li
+    
+    target           59
+                     40
+    query            20
+
+-- fused_3 --
+  OCR:      'psrea bantin de mdoit ce tos jidit et in'
+  Assigned: 'patebunt Cum igitur saxorum crepitancium turbine qua'
+  Words:    [17..24) consumed=7
+  NW score: k=6 (pre-snap), norm=-1.0270
+  Anchor:   word 24 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 psrea bantin -de mdoit---------- c-e--------- t----os jidit-
+                      0 |..|--|.||--
+    query             0 pate--bunt-- Cum -igitur saxorum crepitancium turbine -quate
+    
+    target           34  et in 40
+                     12 .||-.. 18
+    query            54 ret-ur 59
+
+-- fused_4 --
+  OCR:      'tro nic. P ho mo cui ce cupa te'
+  Assigned: 'teretur inter ethereos aule celestis sinus divina ei claritas fulsit'
+  Words:    [24..33) consumed=9
+  NW score: k=4 (pre-snap), norm=-1.1880
+  Anchor:   word 33 (within_chant_7), diff=5, snapped=False, forced=True
+  Alignment:
+    target            0 --t-ro nic. P h---o- --mo c-----------u-----i-- ce- c---upa-
+                      0 --|-|------
+    query             0 inter------ ethereos aule celestis sinus divina -ei claritas
+    
+    target           28  -----te 31
+                     11  11
+    query            53  fulsit- 60
+
+-- fused_5 --
+  OCR:      'vunt Lumigitu saxorum crepitancium turbine e'
+  Assigned: 'Beatus Patefacte sunt januae celi xpi'
+  Words:    [33..39) consumed=6
+  NW score: k=8 (pre-snap), norm=-1.1078
+  Anchor:   word 39 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 ---vu--------nt- Lumigitu saxoru-m crepitancium turbine e 44
+                      0 ---.|--------.|- 16
+    query             0 Beatus Patefacte su---nt- ja--nuae c-eli- xpi--st---i---- 40
+
+-- fused_6 --
+  OCR:      'teretur inter ethereos aule celestis sinus divina ei dla ritas fui'
+  Assigned: 'sti martyri beato stephano qui in numero martyrum inventus'
+  Words:    [39..47) consumed=8
+  NW score: k=14 (pre-snap), norm=-0.5044
+  Anchor:   word 47 (within_chant_7), diff=6, snapped=False, forced=True
+  Alignment:
+    target            0 teretur inte--r --ethereos aule celestis sinus divina e-i dl
+                      0 ..|-|.|-|..|--.
+    query             0 mar-tyr-i beato steph-ano- qu---------i- -in-- ----numero -m
+    
+    target           55 a rit--as -----fui 66
+                     15 |-|-|--.. 24
+    query            38 a-r-tyrum inventus 54
+
+-- fused_7 --
+  OCR:      'sit eatus.ate facte sunt Ianue celi'
+  Assigned: 'est primus Et ideo triumphat in celis co'
+  Words:    [47..55) consumed=8
+  NW score: k=7 (pre-snap), norm=0.0556
+  Anchor:   word 55 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 -sit -eatus.ate facte- --su---nt Ianue celi----------- 35
+                      0 -|-|  4
+    query             0 es-t primus Et- --ideo triumphat -in-- celis coronatus 47
+
+-- fused_8 --
+  OCR:      'Sti Martiri Beato Stephano qui in numero Marty rum vine'
+  Assigned: 'ronatus Mortem enim quam salvator no'
+  Words:    [55..60) consumed=5
+  NW score: k=7 (pre-snap), norm=-1.1256
+  Anchor:   word 60 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 Sti Martiri Beato Stephan-o qui in numero Ma--rty rum vin---
+                      0 ----|.||-----|--.
+    query             0 ----Mort-----e--m --e---nim qu------am--- salvat-or-- --nost
+    
+    target           54 e- 55
+                     17 |- 19
+    query            30 er 32
+
+-- fused_9 --
+  OCR:      'c ra mius. de tamphat ince lis co'
+  Assigned: 'ster dignatus est pro omnibus pati hanc ille primus reddidit'
+  Words:    [60..69) consumed=9
+  NW score: k=8 (pre-snap), norm=-0.8727
+  Anchor:   word 69 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 -----------c -ra -m-i-us. de ta-mpha-t ince -li--s ------co
+                      0 -----------.
+    query             0 dignatus est pro omnibus---- pati hanc ille primus reddidit
+    
+    target           33
+                     12
+    query            55
+
+-- fused_10 --
+  OCR:      'io natusortem  Salvatorno'
+  Assigned: 'salvatori'
+  Words:    [69..70) consumed=1
+  NW score: k=1 (pre-snap), norm=-0.0667
+  Anchor:   word 76 (within_chant_7), diff=6, snapped=False, forced=False
+  Alignment:
+    target            0 io natusortem  Salvatorno 25
+                      0 -------|--------|||||||-. 25
+    query             0 -------s--------alvator-i  9
+
+-- fused_11 --
+  OCR:      'ster dignatusr s reddt'
+  Assigned: 'Et ideo Hesterna die dominus na'
+  Words:    [70..76) consumed=6
+  NW score: k=7 (pre-snap), norm=0.2767
+  Anchor:   word 76 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 ----------ster-- di---------gnatusr s reddt 22
+                      0 ----------||||-- 16
+    query             0 Et ideo Hesterna die dominus natus--------- 34
+
+-- fused_12 --
+  OCR:      'salvato doetemo mi miona'
+  Assigned: 'tus est in terris ut stephanus nasceretur in'
+  Words:    [76..83) consumed=7
+  NW score: k=4 (pre-snap), norm=-1.9902
+  Anchor:   word 83 (within_chant_7), diff=3, snapped=False, forced=True
+  Alignment:
+    target            0 -salvato doete--mo mi -------miona----------- 24
+                      0 -|----|-  8
+    query             0 es----t- in terris ut stephanus nasceretur in 40
+
+-- fused_13 --
+  OCR:      'Ste Phanno nascere turin'
+  Assigned: 'celis Ingressus est dominus'
+  Words:    [83..87) consumed=4
+  NW score: k=4 (pre-snap), norm=-1.8856
+  Anchor:   word 90 (page_break_77), diff=3, snapped=False, forced=False
+  Alignment:
+    target            0 Ste--- Phan-no nascere turin-- 24
+                      0 -.|---  6
+    query             0 -celis --Ingressus est dominus 27
+
+-- fused_14 --
+  OCR:      'o sugessis est comno mundum ut die .'
+  Assigned: 'mundum ut stephanus'
+  Words:    [87..90) consumed=3
+  NW score: k=3 (pre-snap), norm=-0.5735
+  Anchor:   word 90 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 o sugessis est comno mundum ut die---- . 36
+                      0 ---------------------|||||| 27
+    query             0 ---------------------mundum ut stephanus 19
+=== END DEBUG ===
+

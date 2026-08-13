@@ -1,0 +1,167 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'canene quando pretermitas precepta nis.'
+  [fused_1] 'ufficiebat nobis paupertas nostra ut di'
+  [fused_2] 'vicie computarentur nunquam fuisset pecunia ip pro aa'
+  [fused_3] 'sstrum Baculum senectu'
+  [fused_4] 'en me fili mu ut quid te misimus peregrin ari lu'
+  [fused_5] 'men oculorum ostro Baculum enedicite'
+  [fused_6] 'li et coram omnibus inventi'
+  [fused_7] 'num cit nobiscum misericor'
+  [fused_8] 'di an sum psum benedicite et cantate illi'
+  [fused_9] 'et en narrate omnia mirabi jus . Quia  Lem'
+  [fused_10] 'pus est ut revertar ad eum qui misit me vos autem be'
+  [fused_11] 'moni me dum . et ennarrate omma'
+  [fused_12] 'mrabi na mo. Confitemun ei coram om'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'canene quando pretermitas precepta nis.'
+  Assigned: 'eum et cave nequando pretermitas precepta eius'
+  Words:    [0..7) consumed=7
+  NW score: k=7 (pre-snap), norm=5.1233
+  Anchor:   word 14 (within_chant_7), diff=7, snapped=False, forced=False
+  Alignment:
+    target            0 -------cane-ne quando pretermitas precepta ni-s. 39
+                      0 -------||.|-||-|||||| 21
+    query             0 eum et cave ne-quando pretermitas precepta eius- 46
+
+-- fused_1 --
+  OCR:      'ufficiebat nobis paupertas nostra ut di'
+  Assigned: 'Habebis Sufficiebat nobis paupertas nostra ut di'
+  Words:    [7..14) consumed=7
+  NW score: k=6 (pre-snap), norm=5.8244
+  Anchor:   word 14 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 ---------ufficiebat nobis paupertas nostra ut di----- 39
+                      0 ---------|||||||||| 19
+    query             0 Habebis Sufficiebat nobis paupertas nostra ut divicie 53
+
+-- fused_2 --
+  OCR:      'vicie computarentur nunquam fuisset pecunia ip pro aa'
+  Assigned: 'vicie computarentur numquam fuisset pecunia ipsa pro qua'
+  Words:    [14..21) consumed=7
+  NW score: k=7 (pre-snap), norm=6.0414
+  Anchor:   word 21 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 vicie computarentur nunquam fuisset pecunia ip-- pro -aa 53
+                      0 ------||||||||||||| 19
+    query             0 ------computarentur numquam fuisset pecunia ipsa pro qua 50
+
+-- fused_3 --
+  OCR:      'sstrum Baculum senectu'
+  Assigned: 'misisti filium nostrum Baculum senectutis nostre'
+  Words:    [21..27) consumed=6
+  NW score: k=5 (pre-snap), norm=3.5627
+  Anchor:   word 27 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 ----s------------strum Baculum senectu---------- 22
+                      0 ----|------------||||| 22
+    query             0 misisti filium nostrum Baculum senectutis nostre 48
+
+-- fused_4 --
+  OCR:      'en me fili mu ut quid te misimus peregrin ari lu'
+  Assigned: 'Heu me fili mi ut quid te misimus peregrinari lu'
+  Words:    [27..37) consumed=10
+  NW score: k=10 (pre-snap), norm=6.5283
+  Anchor:   word 37 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -en me fili mu ut quid te misimus peregrin ari lu--- 48
+                      0 -|.  3
+    query             0 Heu me fili mi ut quid te misimus peregrin-ari lumen 51
+
+-- fused_5 --
+  OCR:      'men oculorum ostro Baculum enedicite'
+  Assigned: 'men oculorum nostrorum Baculum Benedicite'
+  Words:    [37..41) consumed=4
+  NW score: k=4 (pre-snap), norm=5.8362
+  Anchor:   word 41 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 men oculorum -ostro--- Baculum -enedicite 36
+                      0 ----|||||||| 12
+    query             0 ----oculorum nostrorum Baculum Benedicite 37
+
+-- fused_6 --
+  OCR:      'li et coram omnibus inventi'
+  Assigned: 'deum celi et coram omnibus viventibus confitemini ei'
+  Words:    [41..49) consumed=8
+  NW score: k=6 (pre-snap), norm=4.9356
+  Anchor:   word 49 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 -------li et coram omnibus -invent------------------i 27
+                      0 -------||  9
+    query             0 deum celi et coram omnibus vi-ventibus confitemini ei 52
+
+-- fused_7 --
+  OCR:      'num cit nobiscum misericor'
+  Assigned: 'Quia fecit nobiscum misericordiam suam'
+  Words:    [49..54) consumed=5
+  NW score: k=4 (pre-snap), norm=5.0868
+  Anchor:   word 54 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 nu-m --cit nobiscum misericor--------- 26
+                      0 .|-.  4
+    query             0 Quia fecit nobiscum misericordiam suam 38
+
+-- fused_8 --
+  OCR:      'di an sum psum benedicite et cantate illi'
+  Assigned: 'Ipsum benedicite et cantate illi'
+  Words:    [54..59) consumed=5
+  NW score: k=5 (pre-snap), norm=5.8529
+  Anchor:   word 59 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 di an sum psum benedicite et cantate illi 41
+                      0 ---------.|||| 14
+    query             0 ---------Ipsum benedicite et cantate illi 32
+
+-- fused_9 --
+  OCR:      'et en narrate omnia mirabi jus . Quia  Lem'
+  Assigned: 'et enarrate omnia mirabilia eius Quia tem'
+  Words:    [59..66) consumed=7
+  NW score: k=7 (pre-snap), norm=4.8850
+  Anchor:   word 66 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 et en narrate omnia mirabi--- -jus . Quia  Lem--- 42
+                      0 ||  2
+    query             0 et e--narrate omnia mirabilia eius-- Quia- Tempus 44
+
+-- fused_10 --
+  OCR:      'pus est ut revertar ad eum qui misit me vos autem be'
+  Assigned: 'pus est ut revertar ad eum qui me misit vos autem be'
+  Words:    [66..77) consumed=11
+  NW score: k=10 (pre-snap), norm=5.8090
+  Anchor:   word 77 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 pus est ut revertar ad eum qui--- misit me vos autem b------
+                      0 ----|||
+    query             0 ----est ut revertar ad eum qui me misit--- vos autem benedic
+    
+    target           51 --e 52
+                      7 --| 10
+    query            53 ite 56
+
+-- fused_11 --
+  OCR:      'moni me dum . et ennarrate omma'
+  Assigned: 'nedicite deum Et enarrate omnia'
+  Words:    [77..81) consumed=4
+  NW score: k=4 (pre-snap), norm=2.9102
+  Anchor:   word 81 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 moni me dum . et ennarrate om-ma 31
+                      0 -----.|--||-- 13
+    query             0 -----de--um-- Et e-narrate omnia 22
+
+-- fused_12 --
+  OCR:      'mrabi na mo. Confitemun ei coram om'
+  Assigned: 'mirabilia eius Confitemini ei coram omnibus'
+  Words:    [81..87) consumed=6
+  NW score: k=6 (pre-snap), norm=4.1759
+  Anchor:   word 87 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 m-rabi na -mo. Confitemun- ei coram om----- 35
+                      0 |-||||..|  9
+    query             0 mirabilia eius Confitemini ei coram omnibus 43
+=== END DEBUG ===
+

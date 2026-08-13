@@ -1,0 +1,199 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'in universa terra gloria et honore coronasti cum p domine do'
+  [fused_1] ' Posinsti domini'
+  [fused_2] 't ejus qu coro'
+  [fused_3] 'noster evovae . pide pecoso onestum fecit illum domi'
+  [fused_4] 'nus et custodiinte vm abmi mi'
+  [fused_5] 'a seouctoribus tatantlcum t dedit il'
+  [fused_6] 'clarta tem ter nam escendit q'
+  [fused_7] 'cum illo in fove ami etin vinculis videre non dereli'
+  [fused_8] 'quid  . Et dedit esiderium anme'
+  [fused_9] 'ejus tribu isti e domine . et voluntate labioeius'
+  [fused_10] 'non frauda sti eum voniam preveni'
+  [fused_11] 'sti eum in benedictionibus dulcedinis posuisti in capite ejus'
+  [fused_12] 'toronam de lapide preci so et volun deto'
+  [fused_13] 'Doon pocuoia tis inoiic es m Domimis.'
+  [fused_14] 'to nam ulcreicitonus potlupere'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'in universa terra gloria et honore coronasti cum p domine do'
+  Assigned: 'euouae In universa terra gloria et honore coronasti eum'
+  Words:    [0..9) consumed=9
+  NW score: k=10 (pre-snap), norm=5.7090
+  Anchor:   word 9 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 -------in universa terra gloria et honore coronasti cum p do
+                      0 -------.|
+    query             0 euouae In universa terra gloria et honore coronasti eum-----
+    
+    target           53 mine do 60
+                      9 ------- 16
+    query            55 ------- 55
+
+-- fused_1 --
+  OCR:      'Posinsti domini'
+  Assigned: '~Domine dominus'
+  Words:    [9..11) consumed=2
+  NW score: k=2 (pre-snap), norm=1.8667
+  Anchor:   word 17 (within_chant_7), diff=6, snapped=False, forced=False
+  Alignment:
+    target            0 -Posinsti domin-i 15
+                      0 -.|.||--.  9
+    query             0 ~Domin--e dominus 15
+
+-- fused_2 --
+  OCR:      't ejus qu coro'
+  Assigned: 'noster euouae Honestum'
+  Words:    [11..14) consumed=3
+  NW score: k=3 (pre-snap), norm=-1.7094
+  Anchor:   word 17 (within_chant_7), diff=3, snapped=False, forced=False
+  Alignment:
+    target            0 ---t-- ejus qu-- co----ro 14
+                      0 ---|--  6
+    query             0 noster e-u--ouae Honestum 22
+
+-- fused_3 --
+  OCR:      'noster evovae . pide pecoso onestum fecit illum domi'
+  Assigned: 'fecit illum domi'
+  Words:    [14..17) consumed=3
+  NW score: k=3 (pre-snap), norm=0.0954
+  Anchor:   word 17 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 noster evovae . pide pecoso onestum fecit illum domi--- 52
+                      0 ------------------------------------||||| 41
+    query             0 ------------------------------------fecit illum dominus 19
+
+-- fused_4 --
+  OCR:      'nus et custodiinte vm abmi mi'
+  Assigned: 'nus et custodivit eum ab'
+  Words:    [17..21) consumed=4
+  NW score: k=4 (pre-snap), norm=2.8235
+  Anchor:   word 33 (within_chant_7), diff=12, snapped=False, forced=False
+  Alignment:
+    target            0 nus et custodi-int-e vm abmi mi 29
+                      0 ----||  6
+    query             0 ----et custodivi-t e-um ab----- 20
+
+-- fused_5 --
+  OCR:      'a seouctoribus tatantlcum t dedit il'
+  Assigned: 'inimicis et a seductoribus tutavit illum Et dedit illi'
+  Words:    [21..30) consumed=9
+  NW score: k=9 (pre-snap), norm=3.6742
+  Anchor:   word 33 (within_chant_7), diff=3, snapped=False, forced=False
+  Alignment:
+    target            0 ------------a seouctoribus tata-nt--lcum -t dedit il-- 36
+                      0 ------------| 13
+    query             0 inimicis et a seductoribus tutavit illum Et dedit illi 54
+
+-- fused_6 --
+  OCR:      'clarta tem ter nam escendit q'
+  Assigned: 'claritatem eternam Descenditque'
+  Words:    [30..33) consumed=3
+  NW score: k=3 (pre-snap), norm=5.2029
+  Anchor:   word 33 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 clar-ta tem -ter nam -escendit q-- 29
+                      0 ||||-||-||| 11
+    query             0 clarita-tem eter-nam Descendit-que 31
+
+-- fused_7 --
+  OCR:      'cum illo in fove ami etin vinculis videre non dereli'
+  Assigned: 'cum illo in foveam et in vinculis non dereliquid eum'
+  Words:    [33..43) consumed=10
+  NW score: k=9 (pre-snap), norm=5.6445
+  Anchor:   word 43 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 cum illo in fove ami et-in vinculis videre non dereli-------
+                      0 |||
+    query             0 cum illo in fove-am- et in vinculis------- non dereliquid eu
+    
+    target           52 - 52
+                      3 -  4
+    query            51 m 52
+
+-- fused_8 --
+  OCR:      'quid  . Et dedit esiderium anme'
+  Assigned: 'Et dedit Desiderium anime'
+  Words:    [43..47) consumed=4
+  NW score: k=4 (pre-snap), norm=5.1008
+  Anchor:   word 47 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 quid  . Et dedit -esiderium an-me 31
+                      0 --------|| 10
+    query             0 --------Et dedit Desiderium anime 25
+
+-- fused_9 --
+  OCR:      'ejus tribu isti e domine . et voluntate labioeius'
+  Assigned: 'eius tribuisti ei domine Et voluntate labiorum'
+  Words:    [47..54) consumed=7
+  NW score: k=8 (pre-snap), norm=6.0412
+  Anchor:   word 54 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 ejus tribu isti e- domine . et voluntate labioeius 49
+                      0 |.||  4
+    query             0 eius tribu-isti ei domine-- Et voluntate labio-rum 46
+
+-- fused_10 --
+  OCR:      'non frauda sti eum voniam preveni'
+  Assigned: 'eius non fraudasti eum Quoniam preveni'
+  Words:    [54..60) consumed=6
+  NW score: k=6 (pre-snap), norm=5.3557
+  Anchor:   word 60 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -----non frauda sti eum -voniam preven---i 33
+                      0 -----|||  8
+    query             0 eius non frauda-sti eum Quoniam prevenisti 41
+
+-- fused_11 --
+  OCR:      'sti eum in benedictionibus dulcedinis posuisti in capite ejus'
+  Assigned: 'sti eum in benedictionibus dulcedinis posuisti in capite eius'
+  Words:    [60..68) consumed=8
+  NW score: k=8 (pre-snap), norm=7.2414
+  Anchor:   word 68 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 sti eum in benedictionibus dulcedinis posuisti in capite eju
+                      0 ----|||
+    query             0 ----eum in benedictionibus dulcedinis posuisti in capite eiu
+    
+    target           60 s 61
+                      7 |  8
+    query            56 s 57
+
+-- fused_12 --
+  OCR:      'toronam de lapide preci so et volun deto'
+  Assigned: 'coronam de lapide precioso Et voluntate sto'
+  Words:    [68..75) consumed=7
+  NW score: k=6 (pre-snap), norm=5.7473
+  Anchor:   word 75 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 toronam de lapide preci so et volun- de--to--- 40
+                      0 .||||||  7
+    query             0 coronam de lapide precioso Et voluntate Stolam 46
+
+-- fused_13 --
+  OCR:      'Doon pocuoia tis inoiic es m Domimis.'
+  Assigned: 'lam iocunditatis induit eum dominus'
+  Words:    [75..79) consumed=4
+  NW score: k=4 (pre-snap), norm=1.8011
+  Anchor:   word 79 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 Doon pocu-oi-a tis inoiic es m Domimis. 37
+                      0 -----.|||-.|-|-||| 18
+    query             0 -----iocundita-tis induit e-um dominus- 31
+
+-- fused_14 --
+  OCR:      'to nam ulcreicitonus potlupere'
+  Assigned: 'Et coronam pulchritudinis posuit super'
+  Words:    [79..84) consumed=5
+  NW score: k=5 (pre-snap), norm=2.0140
+  Anchor:   word 84 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -t--o- nam -ulc-reicit--onus po---t-lupere 30
+                      0 -|--|-.||| 10
+    query             0 Et coronam pulchr---itudinis posuit super- 38
+=== END DEBUG ===
+

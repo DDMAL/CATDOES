@@ -1,0 +1,175 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'ent emso sumDabit ei dominus deus'
+  [fused_1] ' regnabit in domo Jacob meter'
+  [fused_2] 'mum. .Docebit nos dominus vias'
+  [fused_3] 'dn labi mus. mitisvels Qnia de'
+  [fused_4] 'lex et verbum domin de Iherusalem x benite ascenda'
+  [fused_5] 'mus ad Montem domini et ad domum'
+  [fused_6] 'te multum temi peseo propheta'
+  [fused_7] 'el indi portam clau sam et ecclesie no eci'
+  [fused_8] 'la ex ea proce deBat mumvi mme'
+  [fused_9] 'd monsrans virgi nem quia post pu'
+  [fused_10] 'mansit or tammam moi'
+  [fused_11] 'solus transi bit per ea etis cne c'
+  [fused_12] 'Man emet dominus .ons '
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'ent emso sumDabit ei dominus deus'
+  Assigned: 'erit nomen eius gloriosum Dabit ei dominus deus'
+  Words:    [0..8) consumed=8
+  NW score: k=8 (pre-snap), norm=4.0373
+  Anchor:   word 8 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 e----n---t e-ms---o-- sum-Dabit ei dominus deus 33
+                      0 |----|---. 10
+    query             0 erit nomen eius gloriosum Dabit ei dominus deus 47
+
+-- fused_1 --
+  OCR:      'regnabit in domo Jacob meter'
+  Assigned: 'sedem david patris eius et regnabit in domo iacob in eter'
+  Words:    [8..19) consumed=11
+  NW score: k=11 (pre-snap), norm=2.1958
+  Anchor:   word 19 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ---------------------------regnabit in domo Jacob --meter---
+                      0 ---------------------------||||||||
+    query             0 sedem david patris eius et regnabit in domo iacob in eternum
+    
+    target           28 
+                     35 
+    query            60 
+
+-- fused_2 --
+  OCR:      'mum. .Docebit nos dominus vias'
+  Assigned: 'num Et erit Docebit nos dominus vias'
+  Words:    [19..25) consumed=6
+  NW score: k=6 (pre-snap), norm=5.1640
+  Anchor:   word 28 (within_chant_7), diff=3, snapped=False, forced=False
+  Alignment:
+    target            0 ---mum. .Docebit nos dominus vias 30
+                      0 ---....  7
+    query             0 Et erit -Docebit nos dominus vias 32
+
+-- fused_3 --
+  OCR:      'dn labi mus. mitisvels Qnia de'
+  Assigned: 'suas et am'
+  Words:    [25..28) consumed=3
+  NW score: k=8 (pre-snap), norm=2.3666
+  Anchor:   word 28 (within_chant_7), diff=5, snapped=False, forced=True
+  Alignment:
+    target            0 -----dn ----labi mus. mitisvels Qnia de 30
+                      0 -----..  7
+    query             0 suas et ambulabi-mus------------------- 19
+
+-- fused_4 --
+  OCR:      'lex et verbum domin de Iherusalem x benite ascenda'
+  Assigned: 'bulabimus in semitis eius Quia de syon exibit'
+  Words:    [28..35) consumed=7
+  NW score: k=15 (pre-snap), norm=3.2563
+  Anchor:   word 35 (within_chant_7), diff=8, snapped=False, forced=True
+  Alignment:
+    target            0 lex -e--t-- verbum domin de Iherusalem -x benite ascenda 50
+                      0 -..  3
+    query             0 -in semitis -e-ius -Quia de -----s-yon exib--it--------- 35
+
+-- fused_5 --
+  OCR:      'mus ad Montem domini et ad domum'
+  Assigned: 'lex et verbum domini de iherusalem Venite ascendamus ad montem domini et ad domum'
+  Words:    [35..49) consumed=14
+  NW score: k=14 (pre-snap), norm=1.8071
+  Anchor:   word 43 (within_chant_7), diff=6, snapped=False, forced=False
+  Alignment:
+    target            0 -------------------------------------------------mus ad Mont
+                      0 -------------------------------------------------|||
+    query             0 lex et verbum domini de iherusalem Venite ascendamus ad mont
+    
+    target           11 em domini et ad domum 32
+                     52 || 54
+    query            60 em domini et ad domum 81
+
+-- fused_6 --
+  OCR:      'te multum temi peseo propheta'
+  Assigned: 'dei iacob Quia Ante multum tempus prophetavit'
+  Words:    [49..56) consumed=7
+  NW score: k=7 (pre-snap), norm=2.7405
+  Anchor:   word 52 (within_chant_7), diff=4, snapped=False, forced=False
+  Alignment:
+    target            0 -----------------te multum temi peseo propheta--- 29
+                      0 -----------------|| 19
+    query             0 dei iacob Quia Ante multum tem--pus-- prophetavit 45
+
+-- fused_7 --
+  OCR:      'el indi portam clau sam et ecclesie no eci'
+  Assigned: 'ezechiel'
+  Words:    [56..57) consumed=1
+  NW score: k=7 (pre-snap), norm=3.9521
+  Anchor:   word 57 (within_chant_7), diff=6, snapped=False, forced=True
+  Alignment:
+    target            0 el indi portam clau sam et ecclesie no eci 42
+                      0 |-------------------------.||---.||------. 42
+    query             0 e-------------------------zec---hie------l  8
+
+-- fused_8 --
+  OCR:      'la ex ea proce deBat mumvi mme'
+  Assigned: 'vidi portam clausam et ecce deus ante secula ex'
+  Words:    [57..66) consumed=9
+  NW score: k=15 (pre-snap), norm=-0.4463
+  Anchor:   word 66 (within_chant_7), diff=6, snapped=False, forced=True
+  Alignment:
+    target            0 -------------la---- ex ea proce de--Ba-t- --mumvi mme- 30
+                      0 -------------||---- 19
+    query             0 vidi portam clausam et e----cce deus ante secu-la --ex 47
+
+-- fused_9 --
+  OCR:      'd monsrans virgi nem quia post pu'
+  Assigned: 'ea procedebat pro salute mundi Et iterum erat clau'
+  Words:    [66..75) consumed=9
+  NW score: k=14 (pre-snap), norm=0.9358
+  Anchor:   word 75 (within_chant_7), diff=5, snapped=False, forced=True
+  Alignment:
+    target            0 --------d---- -monsra--ns virgi ----ne--m quia post --pu-- 33
+                      0 --------|---- 13
+    query             0 ea procedebat pro s-alute mundi Et iterum -era----t clausa 52
+
+-- fused_10 --
+  OCR:      'mansit or tammam moi'
+  Assigned: 'sa demonstrans virginem quia'
+  Words:    [75..78) consumed=3
+  NW score: k=3 (pre-snap), norm=-1.1180
+  Anchor:   word 82 (within_chant_7), diff=4, snapped=False, forced=False
+  Alignment:
+    target            0 --mansit or--- --tammam moi- 20
+                      0 --|.||-|--|--- 14
+    query             0 demons-t--rans virginem quia 25
+
+-- fused_11 --
+  OCR:      'solus transi bit per ea etis cne c'
+  Assigned: 'post partum permansit virgo Portam quam vidisti dominus solus transibit per eam Et iterum'
+  Words:    [78..92) consumed=14
+  NW score: k=14 (pre-snap), norm=-0.3636
+  Anchor:   word 82 (within_chant_7), diff=10, snapped=False, forced=False
+  Alignment:
+    target            0 --------------------------------------------------------solu
+                      0 --------------------------------------------------------||||
+    query             0 post partum permansit virgo Portam quam vidisti dominus solu
+    
+    target            4 s transi bit per ea- etis cne- c 34
+                     60 | 61
+    query            60 s transi-bit per eam Et-- iterum 89
+
+-- fused_12 --
+  OCR:      'Man emet dominus .ons'
+  Assigned: 'Erumpant'
+  Words:    [92..93) consumed=1
+  NW score: k=6 (pre-snap), norm=1.5426
+  Anchor:   word 93 (within_chant_7), diff=5, snapped=False, forced=True
+  Alignment:
+    target            0 ----Man emet dominus .ons 21
+                      0 ----.||----|------------- 25
+    query             0 Erumpan----t-------------  8
+=== END DEBUG ===
+

@@ -1,0 +1,171 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'mirtu te He  ut convertat corda pa trum'
+  [fused_1] 'os parare domino Pbem per'
+  [fused_2] 'fectam xrit enm Magnus coram domino et'
+  [fused_3] 'speitirtu Sancto replebitur . ut quel et intertos'
+  [fused_4] 'milie Ruminon surre doim mnotion nebay'
+  [fused_5] 'sta . Qui vam domino prepara nit in'
+  [fused_6] 'remo Luit nomo millis a ce o cu nomenso hamnes'
+  [fused_7] ' rat . Qui mam. Elysabeth Zacharie magnimivi'
+  [fused_8] 'rum geneint Johannem Baptistam precursorem Domini dominus'
+  [fused_9] 'niivebat pati ejus aen velet noan eum et'
+  [fused_10] 'scripsit dicens Johannes estnomen ejus presubilate exovae'
+  [fused_11] 'Johannes vocabitur nomen ejus et in Nativitate ejus mul'
+  [fused_12] 't gaudebunt dodo erorae internatos milie'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'mirtu te He  ut convertat corda pa trum'
+  Assigned: 'virtute helye Ut convertat corda patrum'
+  Words:    [0..6) consumed=6
+  NW score: k=6 (pre-snap), norm=5.6410
+  Anchor:   word 18 (within_chant_7), diff=12, snapped=False, forced=False
+  Alignment:
+    target            0 mirtu te He--  ut convertat corda pa trum 39
+                      0 .||||-||  8
+    query             0 virtu-te helye Ut convertat corda pa-trum 39
+
+-- fused_1 --
+  OCR:      'os parare domino Pbem per'
+  Assigned: 'in filios parare domino plebem perfectam'
+  Words:    [6..12) consumed=6
+  NW score: k=6 (pre-snap), norm=4.1110
+  Anchor:   word 18 (within_chant_7), diff=6, snapped=False, forced=False
+  Alignment:
+    target            0 -------os parare domino --Pbem per------ 25
+                      0 -------||  9
+    query             0 in filios parare domino plebem perfectam 40
+
+-- fused_2 --
+  OCR:      'fectam xrit enm Magnus coram domino et'
+  Assigned: 'Erit enim magnus coram domino et'
+  Words:    [12..18) consumed=6
+  NW score: k=6 (pre-snap), norm=5.4486
+  Anchor:   word 18 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 fectam xrit en-m Magnus coram domino et 38
+                      0 -------.||| 11
+    query             0 -------Erit enim magnus coram domino et 32
+
+-- fused_3 --
+  OCR:      'speitirtu Sancto replebitur . ut quel et intertos'
+  Assigned: 'spiritu sancto replebitur Ut convertat Inter natos'
+  Words:    [18..25) consumed=7
+  NW score: k=7 (pre-snap), norm=3.9598
+  Anchor:   word 25 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 speitirtu Sancto replebitur . ut --quel et inter---tos 49
+                      0 ||-|.|-||  9
+    query             0 sp-iri-tu sancto replebitur-- Ut convertat Inter natos 50
+
+-- fused_4 --
+  OCR:      'milie Ruminon surre doim mnotion nebay'
+  Assigned: 'mulierum non surrexit maior iohanne baptista'
+  Words:    [25..31) consumed=6
+  NW score: k=5 (pre-snap), norm=2.6324
+  Anchor:   word 31 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 milie Ruminon surre doim m-no-tio--n ne-ba-----y 38
+                      0 |.|||-.||.||| 13
+    query             0 mulie-rum non surre--xit maior iohan-ne baptista 44
+
+-- fused_5 --
+  OCR:      'sta . Qui vam domino prepara nit in'
+  Assigned: 'Qui viam domino preparavit in he'
+  Words:    [31..37) consumed=6
+  NW score: k=5 (pre-snap), norm=5.4929
+  Anchor:   word 37 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 sta . Qui v-am domino prepara nit in------- 35
+                      0 ------|||  9
+    query             0 ------Qui viam domino prepara-vit in heremo 36
+
+-- fused_6 --
+  OCR:      'remo Luit nomo millis a ce o cu nomenso hamnes'
+  Assigned: 'remo Fuit homo missus a deo cui nomen iohannes'
+  Words:    [37..45) consumed=8
+  NW score: k=8 (pre-snap), norm=3.7073
+  Anchor:   word 45 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 remo Luit nomo millis a ce o cu- nomen-so hamnes 46
+                      0 -----.|||  9
+    query             0 -----Fuit homo missus a de-o cui nomen io-hannes 41
+
+-- fused_7 --
+  OCR:      'rat . Qui mam. Elysabeth Zacharie magnimivi'
+  Assigned: 'erat Qui viam Helysabeth zacharie magnum vi'
+  Words:    [45..52) consumed=7
+  NW score: k=6 (pre-snap), norm=4.6536
+  Anchor:   word 52 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 -rat . Qui -mam. -Elysabeth Zacharie magnimivi--- 43
+                      0 -|||--  6
+    query             0 erat-- Qui viam- Helysabeth zacharie magnum virum 46
+
+-- fused_8 --
+  OCR:      'rum geneint Johannem Baptistam precursorem Domini dominus'
+  Assigned: 'rum genuit iohannem baptistam precursorem domini'
+  Words:    [52..57) consumed=5
+  NW score: k=6 (pre-snap), norm=5.8402
+  Anchor:   word 57 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 rum geneint Johannem Baptistam precursorem Domini dominus 57
+                      0 ----|||.|-| 11
+    query             0 ----genui-t iohannem baptistam precursorem domini-------- 44
+
+-- fused_9 --
+  OCR:      'niivebat pati ejus aen velet noan eum et'
+  Assigned: '~Dominus regnavit euouae Innuebant patri eius quem vellet vocari eum et'
+  Words:    [57..68) consumed=11
+  NW score: k=11 (pre-snap), norm=1.8765
+  Anchor:   word 68 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ------------n--i-----------iveba-t pat-i ejus -aen ve-let no
+                      0 ------------|--|-----------..|||-|
+    query             0 ~Dominus regnavit euouae Innuebant patri eius quem vellet vo
+    
+    target           31 -a-n eum et 40
+                     34 -|-. 38
+    query            60 cari eum et 71
+
+-- fused_10 --
+  OCR:      'scripsit dicens Johannes estnomen ejus presubilate exovae'
+  Assigned: 'scripsit dicens iohannes est nomen eius ~Iubilate'
+  Words:    [68..75) consumed=7
+  NW score: k=8 (pre-snap), norm=6.1064
+  Anchor:   word 75 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 scripsit dicens Johannes est-nomen ejus presubilate exovae 57
+                      0 ||||||||  8
+    query             0 scripsit dicens iohannes est nomen eius --~Iubilat-------e 49
+
+-- fused_11 --
+  OCR:      'Johannes vocabitur nomen ejus et in Nativitate ejus mul'
+  Assigned: 'euouae Iohannes vocabitur nomen eius et in nativitate eius mul'
+  Words:    [75..85) consumed=10
+  NW score: k=10 (pre-snap), norm=5.9498
+  Anchor:   word 85 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -------Johannes vocabitur nomen ejus et in Nativitate ejus m
+                      0 -------.|||||||
+    query             0 euouae Iohannes vocabitur nomen eius et in nativitate eius m
+    
+    target           53 ul-- 55
+                     15 ||-- 19
+    query            60 ulti 64
+
+-- fused_12 --
+  OCR:      't gaudebunt dodo erorae internatos milie'
+  Assigned: 'ti gaudebunt ~Deus deus euouae Inter natos mulierum'
+  Words:    [85..92) consumed=7
+  NW score: k=7 (pre-snap), norm=3.6743
+  Anchor:   word 92 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 t gaudebunt------ dodo erorae inter-natos milie--- 40
+                      0 --|||||||||------ 17
+    query             0 --gaudebunt ~Deus deus euouae Inter natos mulierum 48
+=== END DEBUG ===
+

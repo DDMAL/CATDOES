@@ -1,0 +1,163 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'cun ge luxea bat Cyburtium et Valeria num'
+  [fused_1] 'coronas ca bat et est virgo sapi'
+  [fused_2] 'ens etimme co panden tami Tyburci.'
+  [fused_3] 'eciliam intra cubicu tumorantem ive int'
+  [fused_4] 'tiuxta e am stantem ange dominim . Quem'
+  [fused_5] 'videns Valeria nus mmo terrore correptus eelt .'
+  [fused_6] 'lus domii descendit de ce lo et lumen reful'
+  [fused_7] 'bitacu lo . Queomine cesu'
+  [fused_8] 'xptiste pastor bone .omina tor casti con'
+  [fused_9] '. culr seminum fructus quos in cecilia se'
+  [fused_10] 'msti cecilia famula quasi apis'
+  [fused_11] 'tibi Argmento ser nit. Ram'
+  [fused_12] 'Sonsan onem quasi leo nem ferocem acte pit'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'cun ge luxea bat Cyburtium et Valeria num'
+  Assigned: 'exsuperabat Tyburcium et valerianum'
+  Words:    [0..4) consumed=4
+  NW score: k=4 (pre-snap), norm=4.0653
+  Anchor:   word 11 (within_chant_7), diff=7, snapped=False, forced=False
+  Alignment:
+    target            0 cun ge luxe-a bat Cyburtium et Valeria num 41
+                      0 -----|..|.|-|-||| 17
+    query             0 -----exsupera-bat Tyburcium et valeria-num 35
+
+-- fused_1 --
+  OCR:      'coronas ca bat et est virgo sapi'
+  Assigned: 'ad coronas vocabat Hec est virgo sapi'
+  Words:    [4..11) consumed=7
+  NW score: k=7 (pre-snap), norm=5.1709
+  Anchor:   word 11 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ---coronas --ca bat -et est virgo sapi--- 32
+                      0 ---||||||| 10
+    query             0 ad coronas voca-bat Hec est virgo sapiens 40
+
+-- fused_2 --
+  OCR:      'ens etimme co panden tami Tyburci.'
+  Assigned: 'ens et una de numero prudentum'
+  Words:    [11..16) consumed=5
+  NW score: k=6 (pre-snap), norm=2.3724
+  Anchor:   word 16 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 e---ns -etimme co panden tami Tyburci. 34
+                      0 |---|.  6
+    query             0 et una de nume-ro pruden-tum---------- 26
+
+-- fused_3 --
+  OCR:      'eciliam intra cubicu tumorantem ive int'
+  Assigned: 'Tyburcium Ceciliam intra cubiculum orantem invenit'
+  Words:    [16..22) consumed=6
+  NW score: k=6 (pre-snap), norm=4.6423
+  Anchor:   word 22 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -----------eciliam intra cubicu tum-orantem i-ve int 39
+                      0 -----------||||||| 18
+    query             0 Tyburcium Ceciliam intra cubicu-lum orantem inveni-t 50
+
+-- fused_4 --
+  OCR:      'tiuxta e am stantem ange dominim . Quem'
+  Assigned: 'et iuxta eam stantem angelum domini'
+  Words:    [22..28) consumed=6
+  NW score: k=7 (pre-snap), norm=5.8992
+  Anchor:   word 28 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 -t-iuxta e am stantem ange--- dominim . Quem 39
+                      0 -|-|||||  8
+    query             0 et iuxta e-am stantem angelum domini-------- 35
+
+-- fused_5 --
+  OCR:      'videns Valeria nus mmo terrore correptus eelt .'
+  Assigned: 'Quem videns valerianus nimio terrore correptus'
+  Words:    [28..34) consumed=6
+  NW score: k=7 (pre-snap), norm=5.1984
+  Anchor:   word 34 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 -----videns Valeria nus --mmo terrore correptus eelt . 47
+                      0 -----|||||| 11
+    query             0 Quem videns valeria-nus nimio terrore correptus------- 46
+
+-- fused_6 --
+  OCR:      'lus domii descendit de ce lo et lumen reful'
+  Assigned: 'est Angelus domini descendit de celo et lumen reful'
+  Words:    [34..43) consumed=9
+  NW score: k=9 (pre-snap), norm=5.8314
+  Anchor:   word 43 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 --------lus domi-i descendit de ce lo et lumen reful--- 43
+                      0 --------||| 11
+    query             0 est Angelus domini descendit de ce-lo et lumen refulsit 54
+
+-- fused_7 --
+  OCR:      'bitacu lo . Queomine cesu'
+  Assigned: 'sit in habitaculo Quem Domine ihesu'
+  Words:    [43..48) consumed=5
+  NW score: k=5 (pre-snap), norm=3.8436
+  Anchor:   word 48 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -----bitacu lo . Que---omine -cesu 25
+                      0 -----||||||-||-- 16
+    query             0 in habitacu-lo-- Quem Domine ihesu 31
+
+-- fused_8 --
+  OCR:      'xptiste pastor bone .omina tor casti con'
+  Assigned: 'xpiste pastor bone seminator casti con'
+  Words:    [48..54) consumed=6
+  NW score: k=6 (pre-snap), norm=5.9075
+  Anchor:   word 54 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 xptiste pastor bone .omina tor casti con----- 40
+                      0 ||-||||  7
+    query             0 xp-iste pastor bone semina-tor casti consilii 43
+
+-- fused_9 --
+  OCR:      '. culr seminum fructus quos in cecilia se'
+  Assigned: 'silii suscipe seminum fructus quos in cecilia seminasti'
+  Words:    [54..61) consumed=7
+  NW score: k=6 (pre-snap), norm=5.4767
+  Anchor:   word 61 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 -. culr seminum fructus quos in cecilia se------- 41
+                      0 -..|...  7
+    query             0 suscipe seminum fructus quos in cecilia seminasti 49
+
+-- fused_10 --
+  OCR:      'msti cecilia famula quasi apis'
+  Assigned: 'Cecilia famula tua quasi apis'
+  Words:    [61..66) consumed=5
+  NW score: k=5 (pre-snap), norm=5.1533
+  Anchor:   word 66 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 msti cecilia famul----a quasi apis 30
+                      0 -----.|||||| 12
+    query             0 -----Cecilia famula tua quasi apis 29
+
+-- fused_11 --
+  OCR:      'tibi Argmento ser nit. Ram'
+  Assigned: 'tibi argumentosa deservit Nam'
+  Words:    [66..70) consumed=4
+  NW score: k=4 (pre-snap), norm=4.0788
+  Anchor:   word 70 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 tibi Arg-mento-- --ser nit. Ram 26
+                      0 ||||  4
+    query             0 tibi argumentosa deser-vit- Nam 29
+
+-- fused_12 --
+  OCR:      'Sonsan onem quasi leo nem ferocem acte pit'
+  Assigned: 'sponsum quem quasi leonem ferocem accepit'
+  Words:    [70..76) consumed=6
+  NW score: k=6 (pre-snap), norm=5.3257
+  Anchor:   word 76 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -Sonsan onem quasi leo nem ferocem acte pit 42
+                      0 -.|||..  7
+    query             0 sponsum quem quasi leo-nem ferocem acce-pit 41
+=== END DEBUG ===
+

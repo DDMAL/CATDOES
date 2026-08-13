@@ -1,0 +1,247 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'vie Clmeeas dicovobis quia nemo propheta ac'
+  [fused_1] 'centus est in pama sona exorie hesus autem tran'
+  [fused_2] 'oro subnemat nobis d. falla ii'
+  [fused_3] 'secundum Machm inio tepi respicies'
+  [fused_4] 'ang episcopi quare illum cor'
+  [fused_5] 'siens per medium illorum ibat evovac porio ad vendict ante'
+  [fused_6] 'domino et vobis consenserint super terram de omni re qua'
+  [fused_7] 'cumque pecie runt fiet illis a patre meo dicit dominus evor'
+  [fused_8] 'e'
+  [fused_9] 'ubi duo vel tres congregati fuerint in nomine'
+  [fused_10] 'meo in vledio eorum sum dicit dominus evovae'
+  [fused_11] 'et intelligite tradiciones quas dominus'
+  [fused_12] 'dedit vobis evovaemanbus i anducare'
+  [fused_13] 'oro concedecis ompe dees fria secundum'
+  [fused_14] 'Lucam Inmo tempoi Surgens ihe de Syna'
+  [fused_15] 'omis Sancti Abrosu episcopi vide clemenciam'
+  [fused_16] 'non comquinat hominem evovae ad vndictus autem'
+  [fused_17] 'ribant autem demonia a multis clamancia et dicentia a'
+  [fused_18] 'in co rpisetis fi luodei et Mochans non suelit lo'
+  [fused_19] 'in qoa sacent ipu esie ipistum eroras'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'vie Clmeeas dicovobis quia nemo propheta ac'
+  Assigned: 'Amen dico vobis quia nemo propheta ac'
+  Words:    [0..7) consumed=7
+  NW score: k=6 (pre-snap), norm=4.9430
+  Anchor:   word 7 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 vie Clmeeas dico-vobis quia nemo propheta ac------ 43
+                      0 -----.||--. 11
+    query             0 -----Ame--n dico vobis quia nemo propheta acceptus 43
+
+-- fused_1 --
+  OCR:      'centus est in pama sona exorie hesus autem tran'
+  Assigned: 'ceptus est in patria sua euouae Ihesus autem tran'
+  Words:    [7..15) consumed=8
+  NW score: k=8 (pre-snap), norm=3.8085
+  Anchor:   word 15 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 centus est in pa--ma sona exorie -hesus autem tran----- 47
+                      0 -------||| 10
+    query             0 -------est in patria s-ua euouae Ihesus autem transiens 47
+
+-- fused_2 --
+  OCR:      'oro subnemat nobis d. falla ii'
+  Assigned: 'siens per medium illorum ibat euouae'
+  Words:    [15..20) consumed=5
+  NW score: k=6 (pre-snap), norm=-1.7162
+  Anchor:   word 20 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 -oro ---subnemat nobis d. fall---a i---------i 30
+                      0 -.|-  4
+    query             0 per- mediu---m-- ---i-------llorum ibat euouae 30
+
+-- fused_3 --
+  OCR:      'secundum Machm inio tepi respicies'
+  Assigned: 'Si duo ex vobis consenserint super terram de omni re quam'
+  Words:    [20..31) consumed=11
+  NW score: k=6 (pre-snap), norm=-1.6471
+  Anchor:   word 31 (within_chant_7), diff=5, snapped=False, forced=True
+  Alignment:
+    target            0 secundum Machm ---i-------n---i-------o te----------pi re--s
+                      0 --...||.
+    query             0 --Si duo ---ex vobis consenserint super terram de omni re qu
+    
+    target           28 pic---ies 34
+                      8 ..|---.|- 17
+    query            55 amcumque- 63
+
+-- fused_4 --
+  OCR:      'ang episcopi quare illum cor'
+  Assigned: 'cumque pecierint fiet illis a'
+  Words:    [31..35) consumed=4
+  NW score: k=4 (pre-snap), norm=-0.9670
+  Anchor:   word 40 (within_chant_7), diff=5, snapped=False, forced=False
+  Alignment:
+    target            0 ang episcopi quare- illum cor 28
+                      0 ....|.|....|-----|- 19
+    query             0 pecierint fi-----et illis --a 22
+
+-- fused_5 --
+  OCR:      'siens per medium illorum ibat evovac porio ad vendict ante'
+  Assigned: 'patre meo dicit dominus euouae Ubi duo vel tres'
+  Words:    [35..44) consumed=9
+  NW score: k=9 (pre-snap), norm=-0.3064
+  Anchor:   word 40 (within_chant_7), diff=4, snapped=False, forced=False
+  Alignment:
+    target            0 siens p-er- me--dium i-llorum ibat evovac porio ad-- vendict
+                      0 ------|-.|-
+    query             0 ------patre meo di--cit do--m-inus euouae -Ubi- -duo ve----l
+    
+    target           53  ant-e- 58
+                     11  11
+    query            42  --tres 47
+
+-- fused_6 --
+  OCR:      'domino et vobis consenserint super terram de omni re qua'
+  Assigned: 'congregati fuerint in nomine'
+  Words:    [44..48) consumed=4
+  NW score: k=12 (pre-snap), norm=-0.3937
+  Anchor:   word 48 (within_chant_7), diff=8, snapped=False, forced=True
+  Alignment:
+    target            0 domino e--t vobis consenserint super terram de omni re qua 56
+                      0 .|--|..|--|----|- 17
+    query             0 co--ngregat----i- -----fuerint ----------in --nom-i-ne---- 28
+
+-- fused_7 --
+  OCR:      'cumque pecie runt fiet illis a patre meo dicit dominus evor'
+  Assigned: 'meo in medio eorum sum dicit dominus euouae'
+  Words:    [48..56) consumed=8
+  NW score: k=8 (pre-snap), norm=1.1317
+  Anchor:   word 56 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 cumque---- peci--e runt fiet illis a patre meo dicit dominus
+                      0 --|--|----
+    query             0 --m--eo in medio eoru------m ----s--------um-- dicit dominus
+    
+    target           54  evo--r 59
+                     10  10
+    query            36  euouae 43
+
+-- fused_8 --
+  OCR:      'e'
+  Assigned: 'Audite et intellegite traditiones quas dominus'
+  Words:    [56..62) consumed=6
+  NW score: k=1 (pre-snap), norm=-4.4907
+  Anchor:   word 62 (within_chant_7), diff=5, snapped=False, forced=True
+  Alignment:
+    target            0 -------------------------------e--------------  1
+                      0 -------------------------------|-------------- 46
+    query             0 Audite et intellegite traditiones quas dominus 46
+
+-- fused_9 --
+  OCR:      'ubi duo vel tres congregati fuerint in nomine'
+  Assigned: 'dedit vobis euouae Non lotis manibus manducare non coinquinat hominem'
+  Words:    [62..72) consumed=10
+  NW score: k=10 (pre-snap), norm=-0.3410
+  Anchor:   word 69 (within_chant_7), diff=3, snapped=False, forced=False
+  Alignment:
+    target            0 -------ubi- duo ve-----l t-------res con---gregati fuerint i
+                      0 -------.||-
+    query             0 dedit vobis euouae Non lotis manibus manducare non --coinqui
+    
+    target           37 n-- nomine- 45
+                     11 |-- 14
+    query            58 nat hominem 69
+
+-- fused_10 --
+  OCR:      'meo in vledio eorum sum dicit dominus evovae'
+  Assigned: 'euouae Exibant autem demonia a multis clamancia et dicentia'
+  Words:    [72..81) consumed=9
+  NW score: k=9 (pre-snap), norm=-1.2561
+  Anchor:   word 73 (within_chant_7), diff=8, snapped=False, forced=False
+  Alignment:
+    target            0 me-o--- --i--n- -vle--d----io eoru---m -sum dici---t dominus
+                      0 -|-|---
+    query             0 -euouae Exibant autem demonia a multis clam-ancia et d--i---
+    
+    target           37  evovae 44
+                      7 .|...|- 14
+    query            53 centia- 59
+
+-- fused_11 --
+  OCR:      'et intelligite tradiciones quas dominus'
+  Assigned: 'qui'
+  Words:    [81..82) consumed=1
+  NW score: k=5 (pre-snap), norm=-1.1209
+  Anchor:   word 82 (within_chant_7), diff=4, snapped=False, forced=True
+  Alignment:
+    target            0 et intelligite tradiciones quas dominus 39
+                      0 ---------------------------||------|--. 39
+    query             0 ---------------------------qu------i--a  4
+
+-- fused_12 --
+  OCR:      'dedit vobis evovaemanbus i anducare'
+  Assigned: 'a tu es xpistus filius dei et increpans non sinebat ea lo'
+  Words:    [82..93) consumed=11
+  NW score: k=7 (pre-snap), norm=-1.2783
+  Anchor:   word 93 (within_chant_7), diff=4, snapped=False, forced=True
+  Alignment:
+    target            0 --de---di-t-- vobi-s---- e--vovaemanbus --i -anduca-re------
+                      0 --.|---.|-|--
+    query             0 tu es xpistus filius dei et increpan--s non sin-ebat ea loqu
+    
+    target           35 - 35
+                     13 - 14
+    query            57 i 58
+
+-- fused_13 --
+  OCR:      'oro concedecis ompe dees fria secundum'
+  Assigned: 'qui quia sciebant ipsum esse christum euouae'
+  Words:    [93..99) consumed=6
+  NW score: k=5 (pre-snap), norm=-1.1296
+  Anchor:   word 99 (page_break_77), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 -oro -conce--deci-s ompe dees- -fri---a secundu-m 38
+                      0 -...  4
+    query             0 quia sc--iebant ips-um-- -esse christum -e-u-ouae 40
+
+-- fused_14 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [99..99) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_15 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [99..99) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_16 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [99..99) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_17 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [99..99) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_18 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [99..99) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_19 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [99..99) consumed=0
+  Alignment:
+    (no words left)
+=== END DEBUG ===
+

@@ -1,0 +1,239 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'et minister mens Do eovaich str'
+  [fused_1] 'verit honorificabit eum pater meus qui est incelis dicit Do'
+  [fused_2] 'minus po Bndicii evovae et volo pater ut ubi ego sum ibi'
+  [fused_3] ' ets ine conui mvents ymus'
+  [fused_4] 'Martoidi justus ut palma'
+  [fused_5] 'sit et minister meus . pris Laudensis evovae mistiolicabit norebit . et sicut cedrusiba'
+  [fused_6] 'uodit animam suam in hoc mundo in vitam'
+  [fused_7] 'tom'
+  [fused_8] 'eternam custodit eam evovae oria et honore coro'
+  [fused_9] 'nalte eum dominea t constituisti cum super opera manum G . Dolusti domine super caputenus'
+  [fused_10] 'R corona delapite paoso ad'
+  [fused_11] 'tuarum Coronasti Bloria lirx. osuisti domi'
+  [fused_12] 'super ca put ejus  Loronam de lapide precioso super v'
+  [fused_13] 'Gioria agna est gioria ejus in saluta'
+  [fused_14] 'tuo  Nioriam et magnum decorem impones super eum GustusPalma rX sic cedrus ad vespas et de laud pres'
+  [fused_15] ' confiteo p seatuu ps andpi pres Eredidi primlis'
+  [fused_16] '*la. entpaia ex sicutce ad magnificant an'
+  [fused_17] ''
+  [fused_18] 'mlt ilenire post me abveget senet ipsum et tollat eo'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'et minister mens Do eovaich str'
+  Assigned: 'et minister meus ~Deus'
+  Words:    [0..4) consumed=4
+  NW score: k=4 (pre-snap), norm=3.5612
+  Anchor:   word 10 (within_chant_7), diff=6, snapped=False, forced=False
+  Alignment:
+    target            0 et minister mens -Do eovaich str 31
+                      0 ||  2
+    query             0 et minister meus ~D--e------us-- 22
+
+-- fused_1 --
+  OCR:      'verit honorificabit eum pater meus qui est incelis dicit Do'
+  Assigned: 'deus euouae Si quis michi ministraverit honorificabit eum pater meus qui est in celis dicit'
+  Words:    [4..19) consumed=15
+  NW score: k=15 (pre-snap), norm=4.3945
+  Anchor:   word 10 (within_chant_7), diff=9, snapped=False, forced=False
+  Alignment:
+    target            0 ----------------------------------verit honorificabit eum pa
+                      0 ----------------------------------|||||
+    query             0 deus euouae Si quis michi ministraverit honorificabit eum pa
+    
+    target           26 ter meus qui est in-celis dicit Do 59
+                     39 ||| 42
+    query            60 ter meus qui est in celis dicit--- 91
+
+-- fused_2 --
+  OCR:      'minus po Bndicii evovae et volo pater ut ubi ego sum ibi'
+  Assigned: 'do'
+  Words:    [19..20) consumed=1
+  NW score: k=10 (pre-snap), norm=5.0993
+  Anchor:   word 20 (within_chant_7), diff=9, snapped=False, forced=True
+  Alignment:
+    target            0 --minus po Bndicii evovae et volo pater ut ubi ego sum ibi 56
+                      0 --|||||--------------------------------------------------- 58
+    query             0 dominus---------------------------------------------------  7
+
+-- fused_3 --
+  OCR:      'ets ine conui mvents ymus'
+  Assigned: 'minus ~Benedicam euouae Volo pater ut'
+  Words:    [20..25) consumed=5
+  NW score: k=5 (pre-snap), norm=-1.9757
+  Anchor:   word 29 (within_chant_7), diff=4, snapped=False, forced=False
+  Alignment:
+    target            0 --ets i--------ne conui -mvents ymus 25
+                      0 --|...|--------.| 17
+    query             0 ~Benedicam euouae Vo-lo pate--r --ut 31
+
+-- fused_4 --
+  OCR:      'Martoidi justus ut palma'
+  Assigned: 'ubi ego sum ibi'
+  Words:    [25..29) consumed=4
+  NW score: k=7 (pre-snap), norm=-1.6864
+  Anchor:   word 29 (within_chant_7), diff=3, snapped=False, forced=True
+  Alignment:
+    target            0 Martoidi justus ut palma 24
+                      0 -----..|  8
+    query             0 -----ubi -ego s-um --ibi 15
+
+-- fused_5 --
+  OCR:      'sit et minister meus . pris Laudensis evovae mistiolicabit norebit . et sicut cedrusiba'
+  Assigned: 'sit et minister meus ~Laudate euouae Qui odit animam suam'
+  Words:    [29..39) consumed=10
+  NW score: k=10 (pre-snap), norm=1.8603
+  Anchor:   word 44 (within_chant_7), diff=5, snapped=False, forced=False
+  Alignment:
+    target            0 sit et minister meus . pris Laud--ensis evovae -mistiolicabi
+                      0 |||
+    query             0 sit et minister meus ------~Laudate---- euouae Qui-- o----di
+    
+    target           57 t -norebit . et sicut cedrusiba- 87
+                      3 |  4
+    query            44 t an----i---mam s---------u---am 57
+
+-- fused_6 --
+  OCR:      'uodit animam suam in hoc mundo in vitam'
+  Assigned: 'in hoc mundo in vitam'
+  Words:    [39..44) consumed=5
+  NW score: k=5 (pre-snap), norm=3.8437
+  Anchor:   word 44 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 uodit animam suam in hoc mundo in vitam 39
+                      0 ------------------|| 20
+    query             0 ------------------in hoc mundo in vitam 21
+
+-- fused_7 --
+  OCR:      'tom'
+  Assigned: 'eternam'
+  Words:    [44..45) consumed=1
+  NW score: k=1 (pre-snap), norm=-1.9640
+  Anchor:   word 51 (within_chant_7), diff=6, snapped=False, forced=False
+  Alignment:
+    target            0 -t---om 3
+                      0 -|---.| 7
+    query             0 eternam 7
+
+-- fused_8 --
+  OCR:      'eternam custodit eam evovae oria et honore coro'
+  Assigned: 'custodit eam euouae Gloria et honore'
+  Words:    [45..51) consumed=6
+  NW score: k=7 (pre-snap), norm=4.9250
+  Anchor:   word 51 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 eternam custodit eam evovae --oria et honore coro 47
+                      0 --------|||||||| 16
+    query             0 --------custodit eam euouae Gloria et honore----- 36
+
+-- fused_9 --
+  OCR:      'nalte eum dominea t constituisti cum super opera manum G . Dolusti domine super caputenus'
+  Assigned: 'coronasti eum domine Et constituisti eum super opera manum tuarum Coronasti Gloria Posuisti domine super caput eius'
+  Words:    [51..68) consumed=17
+  NW score: k=17 (pre-snap), norm=4.8237
+  Anchor:   word 60 (within_chant_7), diff=8, snapped=False, forced=False
+  Alignment:
+    target            0 ----nalte eum dominea -t constituisti cum super opera manum-
+                      0 ----||.|.
+    query             0 coronasti eum domine- Et constituisti eum super opera manum 
+    
+    target           54 ---------------- G--- . Dolu-sti domine super caput-enus  89
+                      9 ----------------  25
+    query            59 tuarum Coronasti Gloria Posuisti domine super caput eius 115
+
+-- fused_10 --
+  OCR:      'R corona delapite paoso ad'
+  Assigned: 'Coronam de lapide precioso'
+  Words:    [68..72) consumed=4
+  NW score: k=4 (pre-snap), norm=3.0385
+  Anchor:   word 72 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 R corona- de-lapite p---aoso ad 26
+                      0 --.|||||-  9
+    query             0 --Coronam de lapide precioso--- 26
+
+-- fused_11 --
+  OCR:      'tuarum Coronasti Bloria lirx. osuisti domi'
+  Assigned: 'super Magna est gloria eius in'
+  Words:    [72..78) consumed=6
+  NW score: k=6 (pre-snap), norm=0.4789
+  Anchor:   word 78 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 tu-arum Corona--sti Bloria lirx. osuisti domi- 42
+                      0 .|-.|--  7
+    query             0 super-- -Magna est- gloria ei------u-s-- ---in 30
+
+-- fused_12 --
+  OCR:      'super ca put ejus  Loronam de lapide precioso super v'
+  Assigned: 'salutari tuo Gloriam et magnum decorem impones super eum'
+  Words:    [78..87) consumed=9
+  NW score: k=9 (pre-snap), norm=0.7526
+  Anchor:   word 87 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 s--uper ca put ejus  Loronam de- la---pide pre-ci--o--so sup
+                      0 |--|..|--.
+    query             0 salutar--i --t---uo Glor-iam -et magnum decorem impones- sup
+    
+    target           49 er --v 53
+                     10 || 12
+    query            50 er eum 56
+
+-- fused_13 --
+  OCR:      'Gioria agna est gioria ejus in saluta'
+  Assigned: 'In salutari Qui'
+  Words:    [87..90) consumed=3
+  NW score: k=4 (pre-snap), norm=-1.5440
+  Anchor:   word 90 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 Gioria agna est gioria ejus in saluta------ 37
+                      0 ----------------------------.| 30
+    query             0 ----------------------------In salutari Qui 15
+
+-- fused_14 --
+  OCR:      'tuo  Nioriam et magnum decorem impones super eum GustusPalma rX sic cedrus ad vespas et de laud pres'
+  Assigned: 'vult venire post me abneget semetipsum et tollat crucem'
+  Words:    [90..99) consumed=9
+  NW score: k=9 (pre-snap), norm=-1.3619
+  Anchor:   word 99 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 tuo  Nioriam et magnum decorem impones- super ---eum GustusP
+                      0 .|-----------.|-------
+    query             0 vu-----------lt------- venire- --po--st --me- abne----get---
+    
+    target           56 alma rX sic cedrus ad ve-spas-- et de laud pr--es 100
+                     22 -------  29
+    query            27 ------- s----e--------metip-sum et tolla-t crucem  55
+
+-- fused_15 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [99..99) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_16 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [99..99) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_17 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [99..99) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_18 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [99..99) consumed=0
+  Alignment:
+    (no words left)
+=== END DEBUG ===
+

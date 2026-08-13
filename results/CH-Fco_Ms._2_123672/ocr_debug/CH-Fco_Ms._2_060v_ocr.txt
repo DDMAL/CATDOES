@@ -1,0 +1,187 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'am et vorunt nomene usvir ago qi'
+  [fused_1] 'de vuro sump taest XLumq obdormisset'
+  [fused_2] 'liius et replevit carnem pro e'
+  [fused_3] 'secudum Machum Inillot dix'
+  [fused_4] 'he s. pabolam hanc si'
+  [fused_5] 'Et edi Regni celorum. mile cilies Beat gregoriu lantaverat autem dominus de'
+  [fused_6] 'no paradisum voluptatis a principio .'
+  [fused_7] 'nenam mante maverat Xodi'
+  [fused_8] 'Rator dominus deus de Humo omne lignum plr'
+  [fused_9] 's'
+  [fused_10] 'dio para ccc qua'
+  [fused_11] 'smis ee nobis factus esti saens bo num et'
+  [fused_12] 'ma cum vten qe fore din mat de Ligno '
+  [fused_13] 'et nivat ie termni ecit'
+  [fused_14] 'qomnoqu cominus teno ade tinncam peice am et indiit'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'am et vorunt nomene usvir ago qi'
+  Assigned: 'et vocavit nomen eius virago quia'
+  Words:    [0..6) consumed=6
+  NW score: k=6 (pre-snap), norm=3.6004
+  Anchor:   word 12 (within_chant_7), diff=6, snapped=False, forced=False
+  Alignment:
+    target            0 am et vo-runt nomen-e us-vir ago q-i- 32
+                      0 ---||  5
+    query             0 ---et vocavit nomen eius vir-ago quia 33
+
+-- fused_1 --
+  OCR:      'de vuro sump taest XLumq obdormisset'
+  Assigned: 'de viro sumpta est Cumque obdormisset'
+  Words:    [6..12) consumed=6
+  NW score: k=6 (pre-snap), norm=5.8910
+  Anchor:   word 12 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 de vuro sump ta-est XLumq-- obdormisset 36
+                      0 ||  2
+    query             0 de viro sump-ta est -Cumque obdormisset 37
+
+-- fused_2 --
+  OCR:      'liius et replevit carnem pro e'
+  Assigned: 'tulit unam de costis eius et replevit carnem pro ea'
+  Words:    [12..22) consumed=10
+  NW score: k=10 (pre-snap), norm=4.2183
+  Anchor:   word 22 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 --li------------------ius et replevit carnem pro e- 30
+                      0 --||------------------||| 25
+    query             0 tulit unam de costis eius et replevit carnem pro ea 51
+
+-- fused_3 --
+  OCR:      'secudum Machum Inillot dix'
+  Assigned: 'Et edificavit Plantaverat autem dominus de'
+  Words:    [22..28) consumed=6
+  NW score: k=6 (pre-snap), norm=-2.5722
+  Anchor:   word 28 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 --se----cudum --------Ma-chu--m -Inillot d-ix 26
+                      0 --.|----|.... 13
+    query             0 Et edificavit Plantaverat autem domi-nus deus 44
+
+-- fused_4 --
+  OCR:      'he s. pabolam hanc si'
+  Assigned: 'us paradisum voluptatis a principio In quo posuit'
+  Words:    [28..35) consumed=7
+  NW score: k=4 (pre-snap), norm=-1.6588
+  Anchor:   word 35 (within_chant_7), diff=3, snapped=False, forced=True
+  Alignment:
+    target            0 ---he s-. pabol---a--m ha----nc----------- --s-i- 21
+                      0 ---...|-.  9
+    query             0 paradisum --voluptatis -a principio In quo posuit 46
+
+-- fused_5 --
+  OCR:      'Et edi Regni celorum. mile cilies Beat gregoriu lantaverat autem dominus de'
+  Assigned: 'hominem quem formaverat produx'
+  Words:    [35..39) consumed=4
+  NW score: k=6 (pre-snap), norm=0.2500
+  Anchor:   word 39 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 Et edi Regni celorum. mile- cilies Beat gregoriu lantaverat 
+                      0 ---------------.|-----||.|-
+    query             0 ---------------ho-----minem --quem --------for------maverat 
+    
+    target           59 autem domi-nus de 75
+                     27 ---...|..|-.|---| 44
+    query            24 ---Produxitqu---e 35
+
+-- fused_6 --
+  OCR:      'no paradisum voluptatis a principio .'
+  Assigned: 'itque dominus deus de humo omne lignum pulcrum'
+  Words:    [39..46) consumed=7
+  NW score: k=5 (pre-snap), norm=-1.9399
+  Anchor:   word 46 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 no----- parad-is-----um- vo----luptati-s a principio . 37
+                      0 .|-----  7
+    query             0 dominus ----deus de humo -omne l-----ignum p-ulc---rum 40
+
+-- fused_7 --
+  OCR:      'nenam mante maverat Xodi'
+  Assigned: 'visu et ad vescendum suave lignum etiam vite in me'
+  Words:    [46..56) consumed=10
+  NW score: k=10 (pre-snap), norm=-1.7384
+  Anchor:   word 56 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 --------------nen-am -mante -----m----a--v--erat Xodi- 24
+                      0 --------------.||-.| 20
+    query             0 visu et ad vescendum sua-ve lignum etiam vite in medio 53
+
+-- fused_8 --
+  OCR:      'Rator dominus deus de Humo omne lignum plr'
+  Assigned: 'dio paradisi In quo Ecce adam qua'
+  Words:    [56..62) consumed=6
+  NW score: k=8 (pre-snap), norm=-0.9142
+  Anchor:   word 62 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 Rator dominus deus de Humo omne lignum --plr 42
+                      0 .|--|.|--|--|----. 18
+    query             0 pa--rad--i--s----i In qu-o Ecce --adam quasi 31
+
+-- fused_9 --
+  OCR:      's'
+  Assigned: 'si unus ex nobis factus est sciens bonum et'
+  Words:    [62..70) consumed=8
+  NW score: k=1 (pre-snap), norm=-2.5000
+  Anchor:   word 70 (within_chant_7), diff=7, snapped=False, forced=True
+  Alignment:
+    target            0 ------------------------------s---------  1
+                      0 ------------------------------|--------- 40
+    query             0 unus ex nobis factus est sciens bonum et 40
+
+-- fused_10 --
+  OCR:      'dio para ccc qua'
+  Assigned: 'malum Videte ne forte sumat de ligno vite et'
+  Words:    [70..79) consumed=9
+  NW score: k=5 (pre-snap), norm=-2.7905
+  Anchor:   word 79 (within_chant_7), diff=4, snapped=False, forced=True
+  Alignment:
+    target            0 --------d----io para ccc qu-a------------------ 16
+                      0 --------|----.. 15
+    query             0 malum Videte ne for---te sumat de ligno vite et 44
+
+-- fused_11 --
+  OCR:      'smis ee nobis factus esti saens bo num et'
+  Assigned: 'vivat in eternum Fecit quoque dominus deus ade tunicam pelliceam et'
+  Words:    [79..90) consumed=11
+  NW score: k=11 (pre-snap), norm=-0.9158
+  Anchor:   word 83 (within_chant_7), diff=7, snapped=False, forced=False
+  Alignment:
+    target            0 ----smis e-e nobis fac-t-----us esti- s-aens -bo nu---------
+                      0 ----..|.
+    query             0 vivat in etern--um Fecit quoque dominus deus ade tunicam pel
+    
+    target           37 -----m et 41
+                      8 -----| 14
+    query            58 liceam et 67
+
+-- fused_12 --
+  OCR:      'ma cum vten qe fore din mat de Ligno'
+  Assigned: 'induit'
+  Words:    [90..91) consumed=1
+  NW score: k=1 (pre-snap), norm=-5.7155
+  Anchor:   word 91 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ma cum vten qe fore din mat de Ligno 36
+                      0 ---------------------||-----|--.|--. 36
+    query             0 ---------------------in-----d--ui--t  6
+
+-- fused_13 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [91..91) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_14 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [91..91) consumed=0
+  Alignment:
+    (no words left)
+=== END DEBUG ===
+

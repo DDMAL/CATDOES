@@ -1,0 +1,175 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'et prophetami in gentibus edominus . Ii innoca.'
+  [fused_1] 'erorae. ce dedi verba mea in ore tuo ecclesie constitui te'
+  [fused_2] 'super gentes et regna pr be eovae ominus ab'
+  [fused_3] 'utero vocavit me de ventre matris mee recordatus est nomi'
+  [fused_4] 'nus mei pre domine dominus noster exovae Velcen dit ange'
+  [fused_5] 'mo domini adzachariam di cens accipe'
+  [fused_6] 'prme tum mne mea te tu a . Et habe bit'
+  [fused_7] 'nmen Johan nes Bap  ste puer'
+  [fused_8] 'magnus coram domi no vani et manus ejus'
+  [fused_9] 't. et habe . Hic est precurir lordieatus'
+  [fused_10] 'cernalucens ante domi ierm si se certe mm'
+  [fused_11] 'tm no oninant mm no prepari vit in'
+  [fused_12] 'ee mo sed et agnim de demon sta inteta mmia'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'et prophetami in gentibus edominus . Ii innoca.'
+  Assigned: 'et prophetam in gentibus dedit me dominus ~Cum invocarem'
+  Words:    [0..9) consumed=9
+  NW score: k=9 (pre-snap), norm=4.6976
+  Anchor:   word 20 (within_chant_7), diff=11, snapped=False, forced=False
+  Alignment:
+    target            0 et prophetami in gentibus -------e-dominus . Ii innoca--. 47
+                      0 ||  2
+    query             0 et prophetam- in gentibus dedit me dominus ~Cum invocarem 56
+
+-- fused_1 --
+  OCR:      'erorae. ce dedi verba mea in ore tuo ecclesie constitui te'
+  Assigned: 'euouae Ecce dedi verba mea in ore tuo ecce constitui te'
+  Words:    [9..20) consumed=11
+  NW score: k=11 (pre-snap), norm=6.4625
+  Anchor:   word 20 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 erorae. --ce dedi verba mea in ore tuo ecclesie constitui te
+                      0 |.|.||-
+    query             0 euouae- Ecce dedi verba mea in ore tuo ecc----e constitui te
+    
+    target           58 
+                      7 
+    query            55 
+
+-- fused_2 --
+  OCR:      'super gentes et regna pr be eovae ominus ab'
+  Assigned: 'super gentes et regna ~Verba mea euouae Dominus ab'
+  Words:    [20..29) consumed=9
+  NW score: k=9 (pre-snap), norm=5.6936
+  Anchor:   word 29 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 super gentes et regna --pr-- be- e-ovae -ominus ab 43
+                      0 |||||  5
+    query             0 super gentes et regna ~Verba mea euouae Dominus ab 50
+
+-- fused_3 --
+  OCR:      'utero vocavit me de ventre matris mee recordatus est nomi'
+  Assigned: 'utero vocavit me de ventre matris mee recordatus est nomi'
+  Words:    [29..39) consumed=10
+  NW score: k=10 (pre-snap), norm=7.5751
+  Anchor:   word 39 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 utero vocavit me de ventre matris mee recordatus est nomi---
+                      0 |||||
+    query             0 utero vocavit me de ventre matris mee recordatus est nominis
+    
+    target           57 
+                      5 
+    query            60 
+
+-- fused_4 --
+  OCR:      'nus mei pre domine dominus noster exovae Velcen dit ange'
+  Assigned: 'nis mei ~Domine dominus noster euouae Descendit ange'
+  Words:    [39..46) consumed=7
+  NW score: k=7 (pre-snap), norm=4.8090
+  Anchor:   word 46 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 nus mei pre domine dominus noster exovae Velcen dit ange---
+                      0 ----|||
+    query             0 ----mei ---~Domine dominus noster euouae Descen-dit angelus
+    
+    target           56
+                      7
+    query            51
+
+-- fused_5 --
+  OCR:      'mo domini adzachariam di cens accipe'
+  Assigned: 'lus domini ad zachariam dicens accipe'
+  Words:    [46..51) consumed=5
+  NW score: k=5 (pre-snap), norm=6.6440
+  Anchor:   word 51 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 mo domini ad-zachariam di cens accipe 36
+                      0 ---||||||  9
+    query             0 ---domini ad zachariam di-cens accipe 33
+
+-- fused_6 --
+  OCR:      'prme tum mne mea te tu a . Et habe bit'
+  Assigned: 'puerum in senectute tua Et'
+  Words:    [51..56) consumed=5
+  NW score: k=6 (pre-snap), norm=3.1159
+  Anchor:   word 56 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 prme tum mne me---a te tu a . Et habe bit 38
+                      0 |-.|-.||  8
+    query             0 p-ue-rum in- senectute tu-a-- E---------t 26
+
+-- fused_7 --
+  OCR:      'nmen Johan nes Bap  ste puer'
+  Assigned: 'habebit nomen iohannes baptista Iste puer'
+  Words:    [56..62) consumed=6
+  NW score: k=6 (pre-snap), norm=3.4236
+  Anchor:   word 62 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 --------n-men Johan nes Bap-----  ste puer 28
+                      0 --------|-||| 13
+    query             0 habebit nomen iohan-nes baptista Iste puer 41
+
+-- fused_8 --
+  OCR:      'magnus coram domi no vani et manus ejus'
+  Assigned: 'magnus coram domino nam et manus eius cum ipso est'
+  Words:    [62..72) consumed=10
+  NW score: k=7 (pre-snap), norm=6.3970
+  Anchor:   word 72 (within_chant_7), diff=3, snapped=False, forced=True
+  Alignment:
+    target            0 magnus coram domi no vani et manus ejus------------- 39
+                      0 ||||||  6
+    query             0 magnus coram domi-no na-m et manus eius cum ipso est 50
+
+-- fused_9 --
+  OCR:      't. et habe . Hic est precurir lordieatus'
+  Assigned: 'Et habebit Hic est precursor dilectus et lu'
+  Words:    [72..80) consumed=8
+  NW score: k=6 (pre-snap), norm=4.1590
+  Anchor:   word 80 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 t. et habe- . Hic est precur-ir lordi-eatus----------- 40
+                      0 ---.|  5
+    query             0 ---Et habebit Hic est precursor ---dilectus et lucerna 48
+
+-- fused_10 --
+  OCR:      'cernalucens ante domi ierm si se certe mm'
+  Assigned: 'cerna lucens ante dominum Ipse est enim'
+  Words:    [80..86) consumed=6
+  NW score: k=6 (pre-snap), norm=3.1264
+  Anchor:   word 86 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 cernalucens ante domi ierm si se cert-e mm 41
+                      0 -----|||||| 11
+    query             0 -----lucens ante dom--inum -Ipse -est enim 33
+
+-- fused_11 --
+  OCR:      'tm no oninant mm no prepari vit in'
+  Assigned: 'iohannes qui viam domino preparavit in'
+  Words:    [86..92) consumed=6
+  NW score: k=6 (pre-snap), norm=1.8083
+  Anchor:   word 92 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 --tm n-o oni--nant -mm no prepari vit in 34
+                      0 --...|-.  8
+    query             0 iohannes qui via-m domino prepar-avit in 38
+
+-- fused_12 --
+  OCR:      'ee mo sed et agnim de demon sta inteta mmia'
+  Assigned: 'heremo sed et agnum dei demonstravit et'
+  Words:    [92..99) consumed=7
+  NW score: k=7 (pre-snap), norm=4.1024
+  Anchor:   word 99 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -e-e mo sed et agnim de- demon st-a int-eta mmia 43
+                      0 -|-|-||  7
+    query             0 here-mo sed et agnum dei demon-stravi-t et------ 39
+=== END DEBUG ===
+

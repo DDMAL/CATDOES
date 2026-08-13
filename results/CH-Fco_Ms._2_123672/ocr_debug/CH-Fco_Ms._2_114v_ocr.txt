@@ -1,0 +1,175 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'Heluya ego sum vitis vera Allelnya vos balmites veri al'
+  [fused_1] 'Lelvya Alleluya eovae rdeus estcormeum'
+  [fused_2] 'vndere Dominum Deum quero et non mueni'
+  [fused_3] 'ubi posuerunt eum Allelvya exovae t venerunt ad'
+  [fused_4] 'monumentum mari ne et altera Maria'
+  [fused_5] 'videre Sepulchilim Aleluya evovae'
+  [fused_6] 'dum Allelnya docete omnes gentes Allelva evovac'
+  [fused_7] 'Luntes in mundum docete omnes gentes baptizantes eos'
+  [fused_8] 'in nomine patris et filii et spiritus Sancti'
+  [fused_9] 'ae . te nunciate fratribus meis Allelvya ut eant'
+  [fused_10] 'e galileam ibi me vndebunt AnelnyaAlleluya Allelu'
+  [fused_11] 'ya evovae Lu solus peregrinus es et non audisti de'
+  [fused_12] 'mesi ano moto tudterunte um indampnationem'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'Heluya ego sum vitis vera Allelnya vos balmites veri al'
+  Assigned: 'Alleluya ego sum vitis vera alleluya vos palmites veri al'
+  Words:    [0..10) consumed=10
+  NW score: k=9 (pre-snap), norm=6.2571
+  Anchor:   word 10 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 --Heluya ego sum vitis vera Allelnya vos balmites veri al---
+                      0 --.|||||
+    query             0 Alleluya ego sum vitis vera alleluya vos palmites veri allel
+    
+    target           55 --- 55
+                      8 --- 11
+    query            60 uya 63
+
+-- fused_1 --
+  OCR:      'Lelvya Alleluya eovae rdeus estcormeum'
+  Assigned: 'leluya alleluya euouae Ardens est cor meum'
+  Words:    [10..16) consumed=6
+  NW score: k=6 (pre-snap), norm=4.5244
+  Anchor:   word 16 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 Lelvya Alleluya e-ovae -rdeus est-cor-meum 38
+                      0 -----|--||||||| 15
+    query             0 -----a--lleluya euouae Ardens est cor meum 35
+
+-- fused_2 --
+  OCR:      'vndere Dominum Deum quero et non mueni'
+  Assigned: 'desidero videre dominum deum quero et non inveni'
+  Words:    [16..24) consumed=8
+  NW score: k=8 (pre-snap), norm=4.4959
+  Anchor:   word 24 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ---------vndere Dominum Deum quero et non -mueni- 38
+                      0 ---------|.|||| 15
+    query             0 desidero videre dominum deum quero et non invenio 49
+
+-- fused_3 --
+  OCR:      'ubi posuerunt eum Allelvya exovae t venerunt ad'
+  Assigned: 'o ubi posuerunt eum alleluya euouae Venerunt ad'
+  Words:    [24..31) consumed=7
+  NW score: k=7 (pre-snap), norm=6.1971
+  Anchor:   word 31 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ubi posuerunt eum Allelvya exovae t venerunt ad 47
+                      0 |||  3
+    query             0 ubi posuerunt eum alleluya euouae-- Venerunt ad 45
+
+-- fused_4 --
+  OCR:      'monumentum mari ne et altera Maria'
+  Assigned: 'monumentum maria magdalene et altera maria'
+  Words:    [31..37) consumed=6
+  NW score: k=6 (pre-snap), norm=6.0071
+  Anchor:   word 37 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 monumentum mari- -------ne et altera Maria 34
+                      0 |||||||||| 10
+    query             0 monumentum maria magdalene et altera maria 42
+
+-- fused_5 --
+  OCR:      'videre Sepulchilim Aleluya evovae'
+  Assigned: 'videre sepulchrum alleluya euouae'
+  Words:    [37..41) consumed=4
+  NW score: k=4 (pre-snap), norm=4.9697
+  Anchor:   word 44 (within_chant_7), diff=3, snapped=False, forced=False
+  Alignment:
+    target            0 videre Sepulchilim -Aleluya evovae 33
+                      0 ||||||  6
+    query             0 videre sepulch-rum alleluya euouae 33
+
+-- fused_6 --
+  OCR:      'dum Allelnya docete omnes gentes Allelva evovac'
+  Assigned: 'Euntes in mun'
+  Words:    [41..44) consumed=3
+  NW score: k=9 (pre-snap), norm=4.3889
+  Anchor:   word 44 (within_chant_7), diff=6, snapped=False, forced=True
+  Alignment:
+    target            0 dum Allelnya docete omnes gentes Allelva evovac 47
+                      0 .|-------|-------|-----|| 25
+    query             0 Eu-------n-------t-----es -in----------- mundum 16
+
+-- fused_7 --
+  OCR:      'Luntes in mundum docete omnes gentes baptizantes eos'
+  Assigned: 'dum alleluya docete omnes gentes alleluya euouae Euntes in mundum docete omnes gentes baptizantes eos'
+  Words:    [44..58) consumed=14
+  NW score: k=14 (pre-snap), norm=3.7172
+  Anchor:   word 50 (within_chant_7), diff=8, snapped=False, forced=False
+  Alignment:
+    target            0 ---------------------------------------------Luntes in mundu
+                      0 ---------------------------------------------.|||||
+    query             0 alleluya docete omnes gentes alleluya euouae Euntes in mundu
+    
+    target           15 m docete omnes gentes baptizantes eos 52
+                     51 | 52
+    query            60 m docete omnes gentes baptizantes eos 97
+
+-- fused_8 --
+  OCR:      'in nomine patris et filii et spiritus Sancti'
+  Assigned: 'in nomine patris et filii et spiritus sancti alleluya euouae'
+  Words:    [58..68) consumed=10
+  NW score: k=8 (pre-snap), norm=7.7045
+  Anchor:   word 68 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 in nomine patris et filii et spiritus Sancti----------------
+                      0 ||
+    query             0 in nomine patris et filii et spiritus sancti alleluya euouae
+    
+    target           44 
+                      2 
+    query            60 
+
+-- fused_9 --
+  OCR:      'ae . te nunciate fratribus meis Allelvya ut eant'
+  Assigned: 'Ite nunciate fratribus meis alleluya ut eant'
+  Words:    [68..75) consumed=7
+  NW score: k=7 (pre-snap), norm=6.4626
+  Anchor:   word 75 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ae . te nunciate fratribus meis Allelvya ut eant 48
+                      0 ----.||  7
+    query             0 ----Ite nunciate fratribus meis alleluya ut eant 44
+
+-- fused_10 --
+  OCR:      'e galileam ibi me vndebunt AnelnyaAlleluya Allelu'
+  Assigned: 'in galileam ibi me videbunt alleluya alleluya allelu'
+  Words:    [75..83) consumed=8
+  NW score: k=7 (pre-snap), norm=5.3453
+  Anchor:   word 83 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 -e galileam ibi me vndebunt -Anelnya-Alleluya Allelu-- 49
+                      0 -.  2
+    query             0 in galileam ibi me videbunt alleluya alleluya alleluya 54
+
+-- fused_11 --
+  OCR:      'ya evovae Lu solus peregrinus es et non audisti de'
+  Assigned: 'ya euouae Tu solus peregrinus es et non audisti de'
+  Words:    [83..92) consumed=9
+  NW score: k=9 (pre-snap), norm=6.6836
+  Anchor:   word 92 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ya evovae Lu solus peregrinus es et non audisti de 50
+                      0 ---|.|.||  9
+    query             0 ---euouae Tu solus peregrinus es et non audisti de 47
+
+-- fused_12 --
+  OCR:      'mesi ano moto tudterunte um indampnationem'
+  Assigned: 'ihesu quomodo tradiderunt eum in dampnationem'
+  Words:    [92..98) consumed=6
+  NW score: k=6 (pre-snap), norm=4.1404
+  Anchor:   word 98 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -mesi ano moto t-ud-terunt-e um in-dampnationem 42
+                      0 -.||.  5
+    query             0 ihesu quo-modo tradiderunt e-um in dampnationem 45
+=== END DEBUG ===
+

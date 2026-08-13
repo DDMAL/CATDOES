@@ -1,0 +1,205 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'in Nourne domini pres enefac domine Bo'
+  [fused_1] 'nis et rectis cordis prei . qui confidunt evovae pacti sumus'
+  [fused_2] 'capillni Benedict deo upa Ymnis'
+  [fused_3] 'tenuris ingens . Dirigatu'
+  [fused_4] 'sicut consolati p Incovertendo vovae Pectu admagnificat ant oro X sicunt incensum in cous'
+  [fused_5] 'rultet spiritus meus in Domino Deo salutari meo evovae'
+  [fused_6] ''
+  [fused_7] 'In mau tua domine omnes fines terre pres venite '
+  [fused_8] 'vertit dominus Captinitatem plebis sue pi'
+  [fused_9] 'eus crornenona nnte confidit anima mea pro'
+  [fused_10] 'Misere. uste iudicate filii hominum pi'
+  [fused_11] 'a nobis domine auxilium de Tribulatio'
+  [fused_12] 'ne pldi cuo repuli enonas  omne Deo subjecta erit ani'
+  [fused_13] 'mamea prps eoae enedicite gentes Deum no'
+  [fused_14] 'um p Jubilare erooaer Domitian at po tin Jat'
+  [fused_15] '.icoann domi necum man'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'in Nourne domini pres enefac domine Bo'
+  Assigned: 'in nomine domini {Nisi quia} euouae Benefac domine bo'
+  Words:    [0..9) consumed=9
+  NW score: k=9 (pre-snap), norm=3.1866
+  Anchor:   word 9 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 in Nourne domini pres-------------- -enefac domine Bo--- 38
+                      0 ||  2
+    query             0 in nomine domini {Nisi quia} euouae Benefac domine bonis 56
+
+-- fused_1 --
+  OCR:      'nis et rectis cordis prei . qui confidunt evovae pacti sumus'
+  Assigned: 'nis et rectis corde {Qui confidunt} euouae Facti sumus'
+  Words:    [9..17) consumed=8
+  NW score: k=8 (pre-snap), norm=4.9478
+  Anchor:   word 17 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 nis et rectis cordis prei . qui confidunt- evovae pacti sumu
+                      0 ----||
+    query             0 ----et rectis cord-----e- -{Qui confidunt} euouae Facti sumu
+    
+    target           59 s 60
+                      6 |  7
+    query            49 s 50
+
+-- fused_2 --
+  OCR:      'capillni Benedict deo upa Ymnis'
+  Assigned: 'sicut consolati {In'
+  Words:    [17..20) consumed=3
+  NW score: k=6 (pre-snap), norm=-1.8924
+  Anchor:   word 20 (within_chant_7), diff=3, snapped=False, forced=True
+  Alignment:
+    target            0 capillni Benedic-t deo- upa-- Ymnis 31
+                      0 -------------.||-| 18
+    query             0 -------------sicut -consolati {In-- 19
+
+-- fused_3 --
+  OCR:      'tenuris ingens . Dirigatu'
+  Assigned: 'convertendo} euouae Exsultet spiritus'
+  Words:    [20..24) consumed=4
+  NW score: k=4 (pre-snap), norm=-1.3152
+  Anchor:   word 31 (within_chant_7), diff=7, snapped=False, forced=False
+  Alignment:
+    target            0 ------tenuris --inge--ns--- . -Dirigatu- 25
+                      0 ------|||-... 13
+    query             0 converten-do} euouae Exsultet spiri--tus 37
+
+-- fused_4 --
+  OCR:      'sicut consolati p Incovertendo vovae Pectu admagnificat ant oro X sicunt incensum in cous'
+  Assigned: 'meus in domino deo salutari meo euouae In manu tua domine omnes fines'
+  Words:    [24..37) consumed=13
+  NW score: k=13 (pre-snap), norm=-0.7529
+  Anchor:   word 31 (within_chant_7), diff=6, snapped=False, forced=False
+  Alignment:
+    target            0 ---s-icut co--n------sol--ati p Incovertendo -vovae Pectu ad
+                      0 ---|-|--.
+    query             0 meus i--n domino deo salutari ---------me--o euouae ---In --
+    
+    target           45 magnificat ant oro X sicunt -incensum -in cous 89
+                      9 ||-|---..|.|-- 23
+    query            42 ma-n---u tua-- -do---mi--ne omn-e-s-- fin---es 69
+
+-- fused_5 --
+  OCR:      'rultet spiritus meus in Domino Deo salutari meo evovae'
+  Assigned: 'terre ~Venite Avertet dominus captivitatem plebis sue ~Dixit insipiens euouae'
+  Words:    [37..47) consumed=10
+  NW score: k=10 (pre-snap), norm=-0.9615
+  Anchor:   word 39 (within_chant_7), diff=8, snapped=False, forced=False
+  Alignment:
+    target            0 ---r------------ultet ------s---p-iritus m---e-us -in -Domin
+                      0 ---|------------..|||
+    query             0 terre ~Venite Avertet dominus captivitatem plebis sue ~Dixi-
+    
+    target           29 o Deo salutari me-o evovae 54
+                     21 . 22
+    query            59 t --ins------ipiens euouae 77
+
+-- fused_6 --
+  OCR:      ''
+  Assigned: 'Quoniam in te confidit anima mea'
+  Words:    [47..53) consumed=6
+
+-- fused_7 --
+  OCR:      'In mau tua domine omnes fines terre pres venite'
+  Assigned: '~Miserere mei euouae Iuste iudicate filii hominum ~Si vere euouae Da nobis domine'
+  Words:    [53..66) consumed=13
+  NW score: k=13 (pre-snap), norm=-1.1345
+  Anchor:   word 61 (within_chant_7), diff=5, snapped=False, forced=False
+  Alignment:
+    target            0 -------In m-------au tu--a --domi--ne -------om-nes -fines t
+                      0 -------..
+    query             0 ~Miserere mei euouae Iuste iud--icate filii hominum ~Si--- v
+    
+    target           31 erre ---pre--------s venite 47
+                      9 |-|| 13
+    query            55 e-re euouae Da nobis domine 81
+
+-- fused_8 --
+  OCR:      'vertit dominus Captinitatem plebis sue pi'
+  Assigned: 'auxilium de tribulatio'
+  Words:    [66..69) consumed=3
+  NW score: k=5 (pre-snap), norm=-0.9877
+  Anchor:   word 69 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 vertit dominus Capt-initatem plebis sue pi 41
+                      0 -...|----.|-|. 14
+    query             0 -auxi----li-um de tribulat-------i--one--- 24
+
+-- fused_9 --
+  OCR:      'eus crornenona nnte confidit anima mea pro'
+  Assigned: 'ne ~Deus repulisti euouae Nonne deo subiecta erit ani'
+  Words:    [69..77) consumed=8
+  NW score: k=10 (pre-snap), norm=1.1275
+  Anchor:   word 77 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 --eus cr------ornenona- --nnte -co--nfi------dit anima mea p
+                      0 --|||
+    query             0 ~Deus -repulisti euouae Nonn-e deo subiecta erit anima------
+    
+    target           40 ro 42
+                      5 --  7
+    query            52 -- 52
+
+-- fused_10 --
+  OCR:      'Misere. uste iudicate filii hominum pi'
+  Assigned: 'ma mea ~Ipsum [Nonne] euouae Benedicite gentes deum no'
+  Words:    [77..85) consumed=8
+  NW score: k=8 (pre-snap), norm=-1.3440
+  Anchor:   word 85 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -----Mis------ere. -u-ste --iudicate -filii -homin----um pi
+                      0 -----..|------..|.
+    query             0 mea ~Ipsum [Nonne] euouae Benedicite gentes deum nostrum---
+    
+    target           38
+                     18
+    query            56
+
+-- fused_11 --
+  OCR:      'a nobis domine auxilium de Tribulatio'
+  Assigned: 'strum {Jubilate} euouae Ne perdideris me domine cum iniquitatibus'
+  Words:    [85..93) consumed=8
+  NW score: k=8 (pre-snap), norm=-0.4709
+  Anchor:   word 93 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ------a--- -no--------------bis--- domine auxilium de Tribu-
+                      0 ------|---
+    query             0 {Jubilate} euouae Ne perdideris me domine -----cum--- iniqui
+    
+    target           32 lati--o 37
+                     10 .|||--. 17
+    query            52 tatibus 59
+
+-- fused_12 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [93..93) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_13 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [93..93) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_14 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [93..93) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_15 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [93..93) consumed=0
+  Alignment:
+    (no words left)
+=== END DEBUG ===
+

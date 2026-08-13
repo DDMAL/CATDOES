@@ -1,0 +1,167 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'suis nusticas ei munerum species runt . In auro t'
+  [fused_1] 'e inte lumen tuum iherusalem et elora  mi'
+  [fused_2] 'siperte orta est qt amonlabant gen tes'
+  [fused_3] 'in lumine tu o et reges splendo re or'
+  [fused_4] 'tus ta Lilii tui  de Longeveni'
+  [fused_5] 'ent et fine tere sur. ggent et amibu esce'
+  [fused_6] 'dit  moi. rege in cus'
+  [fused_7] 'tro vit in uterum virginis nobis  appareret visi'
+  [fused_8] 'lis indutus Carne Humana Prothoparen'
+  [fused_9] '  clausam portamdeuset homo lux et in'
+  [fused_10] 'conditoru mudi Xanquamsponsus domiis'
+  [fused_11] 'procicens de ca lamo sn ecnte. Nic crtons'
+  [fused_12] 'Peclatio inquo sala tormundi ay pan'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'suis nusticas ei munerum species runt . In auro t'
+  Assigned: 'suis misticas ei munerum species obtulerunt In auro'
+  Words:    [0..8) consumed=8
+  NW score: k=8 (pre-snap), norm=5.8412
+  Anchor:   word 15 (within_chant_7), diff=7, snapped=False, forced=False
+  Alignment:
+    target            0 suis nusticas ei munerum species ------runt . In auro t 49
+                      0 ||||  4
+    query             0 suis misticas ei munerum species obtulerunt-- In auro-- 51
+
+-- fused_1 --
+  OCR:      'e inte lumen tuum iherusalem et elora  mi'
+  Assigned: 'Venit lumen tuum iherusalem et gloria domini'
+  Words:    [8..15) consumed=7
+  NW score: k=6 (pre-snap), norm=5.3917
+  Anchor:   word 15 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 -e inte lumen tuum iherusalem et elor-a - m--i 41
+                      0 -|.|-|-  7
+    query             0 Veni-t- lumen tuum iherusalem et gloria domini 44
+
+-- fused_2 --
+  OCR:      'siperte orta est qt amonlabant gen tes'
+  Assigned: 'super te orta est Et ambulabunt gentes'
+  Words:    [15..22) consumed=7
+  NW score: k=7 (pre-snap), norm=5.7105
+  Anchor:   word 22 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 siper-te orta est qt amonlabant gen tes 38
+                      0 |.|||-||  8
+    query             0 super te orta est Et ambulabunt gen-tes 38
+
+-- fused_3 --
+  OCR:      'in lumine tu o et reges splendo re or'
+  Assigned: 'in lumine tuo et reges in splendore or'
+  Words:    [22..30) consumed=8
+  NW score: k=8 (pre-snap), norm=6.1620
+  Anchor:   word 30 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 in lumine tu o et reges--- splendo re or--- 37
+                      0 ||  2
+    query             0 in lumine tu-o et reges in splendo-re ortus 41
+
+-- fused_4 --
+  OCR:      'tus ta Lilii tui  de Longeveni'
+  Assigned: 'tus tui Filii tui de longe veni'
+  Words:    [30..36) consumed=6
+  NW score: k=6 (pre-snap), norm=4.3000
+  Anchor:   word 36 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 tus ta Lilii tui  de Longe-veni--- 30
+                      0 ||---.  6
+    query             0 tu---i Filii tui- de longe venient 30
+
+-- fused_5 --
+  OCR:      'ent et fine tere sur. ggent et amibu esce'
+  Assigned: 'ent et filie tue de latere surgent Et ambulabunt Descendit'
+  Words:    [36..45) consumed=9
+  NW score: k=9 (pre-snap), norm=2.5928
+  Anchor:   word 53 (within_chant_7), diff=8, snapped=False, forced=False
+  Alignment:
+    target            0 ent ----e-t-- fine --tere sur. ggent et am---ibu-- -esce----
+                      0 |-|
+    query             0 e-t filie tue --de latere sur---gent Et ambulabunt Descendit
+    
+    target           41 
+                      3 
+    query            54 
+
+-- fused_6 --
+  OCR:      'dit  moi. rege in cus'
+  Assigned: 'de celis deus verus a patre genitus in'
+  Words:    [45..53) consumed=8
+  NW score: k=4 (pre-snap), norm=-0.2503
+  Anchor:   word 53 (within_chant_7), diff=4, snapped=False, forced=True
+  Alignment:
+    target            0 d-----it ---- ---moi. ---re-ge----- in--- cus 21
+                      0 |-----|.  8
+    query             0 de celis deus verus a patre genitus introivit 45
+
+-- fused_7 --
+  OCR:      'tro vit in uterum virginis nobis  appareret visi'
+  Assigned: 'troivit in uterum virginis nobis ut appareret visi'
+  Words:    [53..60) consumed=7
+  NW score: k=7 (pre-snap), norm=5.5371
+  Anchor:   word 60 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 tro vit in uterum virginis nobis -- appareret visi----- 48
+                      0 --------|| 10
+    query             0 --------in uterum virginis nobis ut appareret visibilis 47
+
+-- fused_8 --
+  OCR:      'lis indutus Carne Humana Prothoparen'
+  Assigned: 'bilis indutus carne humana prothoparentis edita'
+  Words:    [60..65) consumed=5
+  NW score: k=4 (pre-snap), norm=5.2963
+  Anchor:   word 65 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 lis indutus Carne Humana Prothoparen--------- 36
+                      0 ----||||||| 11
+    query             0 ----indutus carne humana prothoparentis edita 41
+
+-- fused_9 --
+  OCR:      'clausam portamdeuset homo lux et in'
+  Assigned: 'Et exivit per clausam portam deus et homo lux et vita'
+  Words:    [65..76) consumed=11
+  NW score: k=11 (pre-snap), norm=4.4811
+  Anchor:   word 76 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 --------------clausam portam-deus-et homo lux et -i-n 35
+                      0 --------------||||||| 21
+    query             0 Et exivit per clausam portam deus et homo lux et vita 53
+
+-- fused_10 --
+  OCR:      'conditoru mudi Xanquamsponsus domiis'
+  Assigned: 'conditor mundi Tanquam sponsus dominus'
+  Words:    [76..81) consumed=5
+  NW score: k=5 (pre-snap), norm=6.1103
+  Anchor:   word 81 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 conditoru mu-di Xanquam-sponsus domi-is 36
+                      0 ||||||||-  9
+    query             0 conditor- mundi Tanquam sponsus dominus 38
+
+-- fused_11 --
+  OCR:      'procicens de ca lamo sn ecnte. Nic crtons'
+  Assigned: 'procedens de thalamo suo Et exivit Hic est dies'
+  Words:    [81..90) consumed=9
+  NW score: k=8 (pre-snap), norm=2.4098
+  Anchor:   word 90 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 procicens de -ca lamo s----n e--cnte. Nic crt--ons 41
+                      0 ||||..|||  9
+    query             0 procedens de tha-lamo suo Et exivit-- Hic est dies 47
+
+-- fused_12 --
+  OCR:      'Peclatio inquo sala tormundi ay pan'
+  Assigned: 'preclarus in quo salvator mundi apparuit'
+  Words:    [90..96) consumed=6
+  NW score: k=6 (pre-snap), norm=3.5011
+  Anchor:   word 96 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -Peclatio in-quo sal-a tor-mundi ay pa---n 35
+                      0 -.||||...  9
+    query             0 preclarus in quo salva-tor mundi a-pparuit 40
+=== END DEBUG ===
+

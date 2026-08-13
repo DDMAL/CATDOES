@@ -1,0 +1,167 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'Perat Symeon a spiritu Sancto nonvisurum'
+  [fused_1] 'se mor tem nisi videret xpristum domi mi et te'
+  [fused_2] 'mit  vm es di xit numedimittis servum'
+  [fused_3] 'tuum in ce quia viderunt oculi me'
+  [fused_4] 'luta retuum ne Lum inducerent i'
+  [fused_5] 'erum Jhesum parentes ejus ut facerent secundum con'
+  [fused_6] 'oemet ipse acepit eum in uelium'
+  [fused_7] 'o. et Benedi . um inducerent puerum'
+  [fused_8] 'Mesam parentes ejus in Templo secundum consue'
+  [fused_9] 'tudinem legio paeroteput eum sime on'
+  [fused_10] 'mas su ao et fendorue demenn cens . Nunc divit'
+  [fused_11] 'tomine servum tuum in pa dea y Mageno'
+  [fused_12] 'puerum in manibus ecclesia mavit di cen Pucoi'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'Perat Symeon a spiritu Sancto nonvisurum'
+  Assigned: 'symeon a spiritu sancto non visurum'
+  Words:    [0..6) consumed=6
+  NW score: k=6 (pre-snap), norm=5.7996
+  Anchor:   word 33 (within_chant_7), diff=27, snapped=False, forced=False
+  Alignment:
+    target            0 Perat Symeon a spiritu Sancto non-visurum 40
+                      0 ------.||||| 12
+    query             0 ------symeon a spiritu sancto non visurum 35
+
+-- fused_1 --
+  OCR:      'se mor tem nisi videret xpristum domi mi et te'
+  Assigned: 'se mortem nisi videret xpristum domini Et'
+  Words:    [6..13) consumed=7
+  NW score: k=7 (pre-snap), norm=6.3323
+  Anchor:   word 33 (within_chant_7), diff=20, snapped=False, forced=False
+  Alignment:
+    target            0 se mor tem nisi videret xpristum domi mi et te 46
+                      0 ||  2
+    query             0 se mor-tem nisi videret xpristum domi-ni Et--- 41
+
+-- fused_2 --
+  OCR:      'mit  vm es di xit numedimittis servum'
+  Assigned: 'benedixit eum ex dixit nunc dimittis servum'
+  Words:    [13..20) consumed=7
+  NW score: k=7 (pre-snap), norm=4.3623
+  Anchor:   word 33 (within_chant_7), diff=13, snapped=False, forced=False
+  Alignment:
+    target            0 ------mit  vm es di xit nu-medimittis servum 37
+                      0 ------.||  9
+    query             0 benedixit eum ex di-xit nunc dimittis servum 43
+
+-- fused_3 --
+  OCR:      'tuum in ce quia viderunt oculi me'
+  Assigned: 'tuum in pace quia viderunt oculi mei'
+  Words:    [20..27) consumed=7
+  NW score: k=7 (pre-snap), norm=7.1662
+  Anchor:   word 33 (within_chant_7), diff=6, snapped=False, forced=False
+  Alignment:
+    target            0 tuum in --ce quia viderunt oculi me- 33
+                      0 ||||  4
+    query             0 tuum in pace quia viderunt oculi mei 36
+
+-- fused_4 --
+  OCR:      'luta retuum ne Lum inducerent i'
+  Assigned: 'salutare tuum domine Cum inducerent pu'
+  Words:    [27..33) consumed=6
+  NW score: k=5 (pre-snap), norm=4.8878
+  Anchor:   word 33 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 --luta re-tuum ----ne Lum inducerent -----i 31
+                      0 --||||-||-|||| 14
+    query             0 saluta-re tuum domine Cum inducerent puerum 42
+
+-- fused_5 --
+  OCR:      'erum Jhesum parentes ejus ut facerent secundum con'
+  Assigned: 'erum ihesum parentes eius ut facerent secundum con'
+  Words:    [33..40) consumed=7
+  NW score: k=6 (pre-snap), norm=5.8970
+  Anchor:   word 40 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 erum Jhesum parentes ejus ut facerent secundum con----------
+                      0 -----.|||||
+    query             0 -----ihesum parentes eius ut facerent secundum consuetudinem
+    
+    target           50 
+                     11 
+    query            55 
+
+-- fused_6 --
+  OCR:      'oemet ipse acepit eum in uelium'
+  Assigned: 'suetudinem legis pro eo et ipse accepit eum in ulnas'
+  Words:    [40..49) consumed=9
+  NW score: k=9 (pre-snap), norm=3.7026
+  Anchor:   word 49 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 --------o-e-met ipse a-cepit eum in uelium 31
+                      0 --------|-|-.|| 15
+    query             0 legis pro eo et ipse accepit eum in u-lnas 41
+
+-- fused_7 --
+  OCR:      'o. et Benedi . um inducerent puerum'
+  Assigned: 'suas Et benedixit Cum inducerent puerum'
+  Words:    [49..55) consumed=6
+  NW score: k=6 (pre-snap), norm=4.8179
+  Anchor:   word 55 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 --o. et Benedi- . -um inducerent puerum 35
+                      0 --..  4
+    query             0 suas Et benedixit Cum inducerent puerum 39
+
+-- fused_8 --
+  OCR:      'Mesam parentes ejus in Templo secundum consue'
+  Assigned: 'ihesum parentes eius in templo secundum consue'
+  Words:    [55..62) consumed=7
+  NW score: k=7 (pre-snap), norm=5.6515
+  Anchor:   word 62 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -Mesam parentes ejus in Templo secundum consue------- 45
+                      0 -.||.|  6
+    query             0 ihesum parentes eius in templo secundum consuetudinem 53
+
+-- fused_9 --
+  OCR:      'tudinem legio paeroteput eum sime on'
+  Assigned: 'tudinem legis pro eo accepit eum symeon in ul'
+  Words:    [62..70) consumed=8
+  NW score: k=6 (pre-snap), norm=2.4247
+  Anchor:   word 70 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 tudinem legio paero------teput eum sime-- on------ 36
+                      0 --------||||. 13
+    query             0 --------legis p--ro eo accepit eum symeon in ulnas 40
+
+-- fused_10 --
+  OCR:      'mas su ao et fendorue demenn cens . Nunc divit'
+  Assigned: 'nas suas et benedixit deum dicens Nunc'
+  Words:    [70..76) consumed=6
+  NW score: k=7 (pre-snap), norm=2.5633
+  Anchor:   word 76 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 mas su ao et fen-dorue de-menn --cens . Nunc divit 46
+                      0 ----||-|.  9
+    query             0 ----su-as et benedixit deum--- dicens-- Nunc------ 34
+
+-- fused_11 --
+  OCR:      'tomine servum tuum in pa dea y Mageno'
+  Assigned: 'dimittis domine servum tuum in pace Suscipiens'
+  Words:    [76..83) consumed=7
+  NW score: k=6 (pre-snap), norm=3.3068
+  Anchor:   word 83 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 -----t----omine servum tuum in pa dea --y Mageno 37
+                      0 -----|----||||| 15
+    query             0 dimittis domine servum tuum in pa-ce- Suscipiens 46
+
+-- fused_12 --
+  OCR:      'puerum in manibus ecclesia mavit di cen Pucoi'
+  Assigned: 'puerum in manibus exclamavit dicens Nunc'
+  Words:    [83..89) consumed=6
+  NW score: k=6 (pre-snap), norm=5.3504
+  Anchor:   word 89 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 puerum in manibus ecclesia mavit di cen- Pu-coi 45
+                      0 ||||||  6
+    query             0 puerum in manibus excl---a-mavit di-cens Nunc-- 40
+=== END DEBUG ===
+

@@ -1,0 +1,295 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'tarare l d eominus veniet coturri'
+  [fused_1] 'erti'
+  [fused_2] 'nus deus fortis dominator princeps pacis Alleluya Alleluya'
+  [fused_3] 'ndiae exoras omimpotens serulo tuus dominem'
+  [fused_4] 'tegabois senbus nenes aliavusi pro landice erorle'
+  [fused_5] 'onte'
+  [fused_6] 'ned'
+  [fused_7] 'm Lue Maria gracia plena dominus tecum benedictatuin'
+  [fused_8] 'fratres sic nos etistimet ad'
+  [fused_9] 'cinolite adne'
+  [fused_10] 'etes'
+  [fused_11] 'mulieribus Alleliva eovae a presenta dicantur'
+  [fused_12] 'eei sade sa De antrobois fealius qu domini V Diebus aute Viella nac doin aii Inni Notandu eoot sinat dominine dominico on s l i.'
+  [fused_13] 'os alied a paten t dtechome dus le evemofe in precedent et . da Thome domine it aliaes'
+  [fused_14] 'osimilibusdbs exceptisebde etsuit mnc excer'
+  [fused_15] 'mn fratric odindini in pecedenti c la scdetn fratre Domininbda'
+  [fused_16] 'sivenerit in die laioi fratre domni in aebda sed pedenti.'
+  [fused_17] '  doinvenerit a deDinci I IIo abu pmnus de adventu omlins i officium debit fier hicd menssivitat de vig Yuii de aoven adbnd et admag de vios et fitome'
+  [fused_18] 'precedictis oilintis uesr qua'
+  [fused_19] 'Expecter lic p ad luino '
+  [fused_20] 'Ludceesi fess na'
+  [fused_21] 'iltos albo agti officium vige o'
+  [fused_22] 'vespet prdefunctis nnaur Completo'
+  [fused_23] 'tetons at elaneulors ae purgnat'
+  [fused_24] ' die scietis quma veniet dominis et mne videli'
+  [fused_25] ' ymi bbum suprnium et psalmos de fri'
+  [fused_26] ' hodiescie pvominctons etmon'
+  [fused_27] 'telatis gliam ejus secundum Matuerim . Sum ecc'
+  [fused_28] 'no Noriam ejus pt venite'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'tarare l d eominus veniet coturri'
+  Assigned: 'tardare alleluya ~Deus deus euouae Dominus veniet occurri'
+  Words:    [0..8) consumed=8
+  NW score: k=8 (pre-snap), norm=2.8782
+  Anchor:   word 8 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 tar-are ----l--------- d--- e-------ominus veniet -coturri--
+                      0 |||-|||
+    query             0 tardare alleluya ~Deus deus euouae Dominus veniet oc-currite
+    
+    target           33 
+                      7 
+    query            59 
+
+-- fused_1 --
+  OCR:      'erti'
+  Assigned: 'te illi dicentes magnum principium et regni eius non erit fi'
+  Words:    [8..18) consumed=10
+  NW score: k=1 (pre-snap), norm=-1.7500
+  Anchor:   word 18 (within_chant_7), diff=9, snapped=False, forced=True
+  Alignment:
+    target            0 --------------------------------------------------er-t----i-
+                      0 --------------------------------------------------||-|----|-
+    query             0 illi dicentes magnum principium et regni eius non erit finis
+    
+    target            4 
+                     60 
+    query            60 
+
+-- fused_2 --
+  OCR:      'nus deus fortis dominator princeps pacis Alleluya Alleluya'
+  Assigned: 'nis deus fortis dominator princeps pacis alleluya alleluya'
+  Words:    [18..25) consumed=7
+  NW score: k=7 (pre-snap), norm=6.9687
+  Anchor:   word 32 (within_chant_7), diff=7, snapped=False, forced=False
+  Alignment:
+    target            0 nus deus fortis dominator princeps pacis Alleluya Alleluya 58
+                      0 ----||||  8
+    query             0 ----deus fortis dominator princeps pacis alleluya alleluya 54
+
+-- fused_3 --
+  OCR:      'ndiae exoras omimpotens serulo tuus dominem'
+  Assigned: '~Benedicite euouae Omnipotens sermo tuus domine a'
+  Words:    [25..32) consumed=7
+  NW score: k=6 (pre-snap), norm=4.0929
+  Anchor:   word 32 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 ---n-d--iae exoras om-impotens serulo tuus domine-m 43
+                      0 ---|-|--|.| 11
+    query             0 ~Benedicite euouae Omni-potens ser-mo tuus domine a 49
+
+-- fused_4 --
+  OCR:      'tegabois senbus nenes aliavusi pro landice erorle'
+  Assigned: 'regalibus sedibus veniet alleluya ~Laudate euouae'
+  Words:    [32..38) consumed=6
+  NW score: k=6 (pre-snap), norm=1.6735
+  Anchor:   word 50 (within_chant_7), diff=12, snapped=False, forced=False
+  Alignment:
+    target            0 tega--bois se-nbus nen-es aliavusi pro landice erorle 49
+                      0 .|||--|-.| 10
+    query             0 regalib-us sedibus veniet alleluya ---~Laudate euouae 49
+
+-- fused_5 --
+  OCR:      'onte'
+  Assigned: 'Ave'
+  Words:    [38..39) consumed=1
+  NW score: k=1 (pre-snap), norm=-2.5981
+  Anchor:   word 50 (within_chant_7), diff=11, snapped=False, forced=False
+  Alignment:
+    target            0 onte 4
+                      0 -..| 4
+    query             0 -Ave 3
+
+-- fused_6 --
+  OCR:      'ned'
+  Assigned: 'Maria'
+  Words:    [39..40) consumed=1
+  NW score: k=1 (pre-snap), norm=-6.4550
+  Anchor:   word 50 (within_chant_7), diff=10, snapped=False, forced=False
+  Alignment:
+    target            0 --ned 3
+                      0 --... 5
+    query             0 Maria 5
+
+-- fused_7 --
+  OCR:      'm Lue Maria gracia plena dominus tecum benedictatuin'
+  Assigned: 'gratia plena dominus tecum benedicta tu in'
+  Words:    [40..47) consumed=7
+  NW score: k=7 (pre-snap), norm=5.4137
+  Anchor:   word 50 (within_chant_7), diff=3, snapped=False, forced=False
+  Alignment:
+    target            0 m Lue Maria gracia plena dominus tecum benedicta-tu-in 52
+                      0 ------------|||.|| 18
+    query             0 ------------gratia plena dominus tecum benedicta tu in 42
+
+-- fused_8 --
+  OCR:      'fratres sic nos etistimet ad'
+  Assigned: 'mulieribus alleluya euouae Hodie scietis quia veniet dominus'
+  Words:    [47..55) consumed=8
+  NW score: k=8 (pre-snap), norm=-1.6834
+  Anchor:   word 50 (within_chant_7), diff=5, snapped=False, forced=False
+  Alignment:
+    target            0 ----fr-----atre---s ---sic no----s- etis--ti-----met ad-----
+                      0 ----.|-----|..|---.
+    query             0 mulieribus alleluya euouae Hodie scietis quia veniet -dominu
+    
+    target           28 - 28
+                     19 - 20
+    query            59 s 60
+
+-- fused_9 --
+  OCR:      'cinolite adne'
+  Assigned: 'et mane videbi'
+  Words:    [55..58) consumed=3
+  NW score: k=2 (pre-snap), norm=-0.5241
+  Anchor:   word 58 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 ---cinolite -adne----- 13
+                      0 ---..|----| 11
+    query             0 et man----e vid-ebitis 17
+
+-- fused_10 --
+  OCR:      'etes'
+  Assigned: 'tis gloriam eius ~Venite'
+  Words:    [58..61) consumed=3
+  NW score: k=2 (pre-snap), norm=-3.1754
+  Anchor:   word 61 (page_break_77), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 ---------------e--tes  4
+                      0 ---------------|--||- 21
+    query             0 gloriam eius ~Venite- 20
+
+-- fused_11 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [61..61) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_12 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [61..61) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_13 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [61..61) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_14 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [61..61) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_15 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [61..61) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_16 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [61..61) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_17 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [61..61) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_18 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [61..61) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_19 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [61..61) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_20 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [61..61) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_21 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [61..61) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_22 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [61..61) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_23 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [61..61) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_24 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [61..61) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_25 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [61..61) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_26 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [61..61) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_27 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [61..61) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_28 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [61..61) consumed=0
+  Alignment:
+    (no words left)
+=== END DEBUG ===
+

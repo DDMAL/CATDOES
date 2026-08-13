@@ -1,0 +1,199 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'Mitrix murgo Gauduuni annunciavit min'
+  [fused_1] 'do Er te enim ortus est soi expistus de'
+  [fused_2] 'ster exsolvens maledictio  deditbe'
+  [fused_3] 'nem et confundeus mortem tonatno'
+  [fused_4] 'tam sempi ternam  enedicta tu mmu '
+  [fused_5] 'veribus et benedictus fructusventris tu  . Ex te.'
+  [fused_6] 'a et pross ivitium Sancti Englii secundumm'
+  [fused_7] 'thin liber gene o. Seroniini p'
+  [fused_8] 'aslumptione ejusdem aa Beatam me dicente Lelix namque es lacra vingo'
+  [fused_9] 'ma onn ade dignis'
+  [fused_10] 'Quia exte ortus est sol justi c'
+  [fused_11] 'stus deus no sterra pro populo intervem'
+  [fused_12] 'pro clero intercede pro devoto femmeo sexu senciant omnes'
+  [fused_13] 'tium levamen quicumque celebrant tuam sanctami nai Dano'
+  [fused_14] 'in ta tem dmena atuntas'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'Mitrix murgo Gauduuni annunciavit min'
+  Assigned: 'Ex te enim ortus est sol'
+  Words:    [0..6) consumed=6
+  NW score: k=6 (pre-snap), norm=-2.1141
+  Anchor:   word 26 (within_chant_7), diff=20, snapped=False, forced=False
+  Alignment:
+    target            0 Mitrix murgo Gauduuni- annunciavit min 37
+                      0 ----.|  6
+    query             0 ----Ex ---te -----enim ortu--s est sol 24
+
+-- fused_1 --
+  OCR:      'do Er te enim ortus est soi expistus de'
+  Assigned: 'iusticie xpistus deus'
+  Words:    [6..9) consumed=3
+  NW score: k=3 (pre-snap), norm=0.6290
+  Anchor:   word 26 (within_chant_7), diff=17, snapped=False, forced=False
+  Alignment:
+    target            0 do Er te enim ortus est soi- expistus de-- 39
+                      0 -----------|-----|---||-..|- 28
+    query             0 -----------i-----u---st-icie -xpistus deus 21
+
+-- fused_2 --
+  OCR:      'ster exsolvens maledictio  deditbe'
+  Assigned: 'noster ex solvens maledictionem dedit'
+  Words:    [9..14) consumed=5
+  NW score: k=5 (pre-snap), norm=5.8080
+  Anchor:   word 26 (within_chant_7), diff=12, snapped=False, forced=False
+  Alignment:
+    target            0 --ster ex-solvens maledictio--  deditbe 34
+                      0 --||||  6
+    query             0 noster ex solvens maledictionem dedit-- 37
+
+-- fused_3 --
+  OCR:      'nem et confundeus mortem tonatno'
+  Assigned: 'benedictionem et confundens mortem donavit'
+  Words:    [14..19) consumed=5
+  NW score: k=5 (pre-snap), norm=4.3644
+  Anchor:   word 26 (within_chant_7), diff=7, snapped=False, forced=False
+  Alignment:
+    target            0 ----------nem et confundeus mortem tona--tno 32
+                      0 ----------||| 13
+    query             0 benedictionem et confundens mortem donavit-- 42
+
+-- fused_4 --
+  OCR:      'tam sempi ternam  enedicta tu mmu'
+  Assigned: 'nobis vitam sempiternam Benedicta tu in mu'
+  Words:    [19..26) consumed=7
+  NW score: k=6 (pre-snap), norm=4.6551
+  Anchor:   word 26 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 --------tam sempi ternam  enedicta tu --mmu-------- 33
+                      0 --------||| 11
+    query             0 nobis vitam sempi-ternam Benedicta tu in mulieribus 50
+
+-- fused_5 --
+  OCR:      'veribus et benedictus fructusventris tu  . Ex te.'
+  Assigned: 'lieribus et benedictus fructus ventris tui Ex'
+  Words:    [26..32) consumed=6
+  NW score: k=7 (pre-snap), norm=5.4672
+  Anchor:   word 32 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 veribus et benedictus fructus-ventris tu  . Ex te. 49
+                      0 --------|| 10
+    query             0 --------et benedictus fructus ventris tu--i Ex---- 36
+
+-- fused_6 --
+  OCR:      'a et pross ivitium Sancti Englii secundumm'
+  Assigned: 'te Felix namque es sacra virgo maria et omni laude'
+  Words:    [32..42) consumed=10
+  NW score: k=10 (pre-snap), norm=-1.6585
+  Anchor:   word 38 (within_chant_7), diff=4, snapped=False, forced=False
+  Alignment:
+    target            0 ----------a---- et --pross ivi-tium- Sancti -Englii secundum
+                      0 ----------|----
+    query             0 te Felix namque es sacr--a -virgo maria et- omn---i -lau-d--
+    
+    target           41 m 42
+                     15 . 16
+    query            49 e 50
+
+-- fused_7 --
+  OCR:      'thin liber gene o. Seroniini p'
+  Assigned: 'dignissima'
+  Words:    [42..43) consumed=1
+  NW score: k=8 (pre-snap), norm=-1.3762
+  Anchor:   word 43 (within_chant_7), diff=7, snapped=False, forced=True
+  Alignment:
+    target            0 thin liber gene o. Seroniini p 30
+                      0 -----.|----|-----------||..|.. 30
+    query             0 -----di----g-----------nissima 10
+
+-- fused_8 --
+  OCR:      'aslumptione ejusdem aa Beatam me dicente Lelix namque es lacra vingo'
+  Assigned: 'Quia ex te ortus est sol iusticie xpi'
+  Words:    [43..51) consumed=8
+  NW score: k=12 (pre-snap), norm=-1.0869
+  Anchor:   word 51 (within_chant_7), diff=4, snapped=False, forced=True
+  Alignment:
+    target            0 aslumptione ejusdem aa Beatam me dicente Lelix namque es lac
+                      0 --.|---|--.
+    query             0 --Qu---i--a -----ex te -ortus ------est- sol-- ---iu---s-tic
+    
+    target           60 ra -vi-ngo 68
+                     11 .. 13
+    query            31 ie xpistus 41
+
+-- fused_9 --
+  OCR:      'ma onn ade dignis'
+  Assigned: 'stus deus noster'
+  Words:    [51..53) consumed=2
+  NW score: k=2 (pre-snap), norm=-2.1207
+  Anchor:   word 57 (within_chant_7), diff=4, snapped=False, forced=False
+  Alignment:
+    target            0 ma onn ade-- dignis--- 17
+                      0 --------||-- 12
+    query             0 --------deus ---noster 11
+
+-- fused_10 --
+  OCR:      'Quia exte ortus est sol justi c'
+  Assigned: 'Ora pro populo interveni'
+  Words:    [53..57) consumed=4
+  NW score: k=7 (pre-snap), norm=-1.9766
+  Anchor:   word 57 (within_chant_7), diff=3, snapped=False, forced=True
+  Alignment:
+    target            0 Quia exte ortus est so--l- just-----i c 31
+                      0 -..|-----  9
+    query             0 -Ora----- pr------o populo -interveni-- 24
+
+-- fused_11 --
+  OCR:      'stus deus no sterra pro populo intervem'
+  Assigned: 'pro clero intercede pro devoto femineo sexu senciant omnes'
+  Words:    [57..66) consumed=9
+  NW score: k=6 (pre-snap), norm=-0.1039
+  Anchor:   word 66 (within_chant_7), diff=3, snapped=False, forced=True
+  Alignment:
+    target            0 stus -deus no -ster--ra pro --populo ---in---te--rve--------
+                      0 -...
+    query             0 -pro cle---ro intercede pro devo--to femineo sexu senciant o
+    
+    target           38 m--- 39
+                      4 |---  8
+    query            54 mnes 58
+
+-- fused_12 --
+  OCR:      'pro clero intercede pro devoto femmeo sexu senciant omnes'
+  Assigned: 'tuum levamen quicumque celebrant tuam sanctam nati'
+  Words:    [66..73) consumed=7
+  NW score: k=7 (pre-snap), norm=-1.2982
+  Anchor:   word 73 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -pro cle---ro --i---ntercede pro devoto femmeo sexu sencia--
+                      0 -...
+    query             0 tuum -levamen quicumque cele-br----ant- tuam------- sanctam 
+    
+    target           49 n-t-- omnes 57
+                      4 |-|--....|. 15
+    query            46 nativitatem 57
+
+-- fused_13 --
+  OCR:      'tium levamen quicumque celebrant tuam sanctami nai Dano'
+  Assigned: 'vitatem Quia Nativitas'
+  Words:    [73..75) consumed=2
+  NW score: k=2 (pre-snap), norm=-3.8920
+  Anchor:   word 75 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 tium levamen quicumque celebrant tuam sanctami nai Dano 55
+                      0 -------------.||-------------------|- 37
+    query             0 -------------Qui-------------------a- Na--t--i--vi-ta-s 14
+
+-- fused_14 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [75..75) consumed=0
+  Alignment:
+    (no words left)
+=== END DEBUG ===
+

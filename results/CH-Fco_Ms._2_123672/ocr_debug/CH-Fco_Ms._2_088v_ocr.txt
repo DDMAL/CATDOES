@@ -1,0 +1,163 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'ne disce das a me . Quomam tribulati opri'
+  [fused_1] 'ma est et non est qui adiu vet .'
+  [fused_2] 'VLn autem domine ne clongaveris auxilium tu'
+  [fused_3] 'me ad defensionem me am aspi ce Quo'
+  [fused_4] 'm inte pactatus sum exntero de ventre ma s'
+  [fused_5] 'me us eo tu ne dis cedas me'
+  [fused_6] 'Ano niam tribulatio proxima est et non'
+  [fused_7] 'est qui advinet al ex ore leo mi'
+  [fused_8] 'et a cornibus iincorniorum humili tatem me a .'
+  [fused_9] 'Qno manex in protino est tribulatio mea do'
+  [fused_10] 'mu neccuon est qui adiu necuefori'
+  [fused_11] 'ent manus meas et peces me'
+  [fused_12] 'desreleo ns ut nattem nomenti'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'ne disce das a me . Quomam tribulati opri'
+  Assigned: 'ne discedas a me Quoniam tribulatio'
+  Words:    [0..6) consumed=6
+  NW score: k=6 (pre-snap), norm=5.6756
+  Anchor:   word 20 (within_chant_7), diff=14, snapped=False, forced=False
+  Alignment:
+    target            0 ne disce das a me . Quo-mam tribulati opri 41
+                      0 ||  2
+    query             0 ne disce-das a me-- Quoniam tribulati-o--- 35
+
+-- fused_1 --
+  OCR:      'ma est et non est qui adiu vet .'
+  Assigned: 'proxima est et non est qui adiuvet'
+  Words:    [6..13) consumed=7
+  NW score: k=7 (pre-snap), norm=5.9421
+  Anchor:   word 20 (within_chant_7), diff=7, snapped=False, forced=False
+  Alignment:
+    target            0 -----ma est et non est qui adiu vet . 32
+                      0 -----||  7
+    query             0 proxima est et non est qui adiu-vet-- 34
+
+-- fused_2 --
+  OCR:      'VLn autem domine ne clongaveris auxilium tu'
+  Assigned: 'Tu autem domine ne elongaveris auxilium tu'
+  Words:    [13..20) consumed=7
+  NW score: k=7 (pre-snap), norm=6.4372
+  Anchor:   word 20 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 VLn autem domine ne clongaveris auxilium tu-- 43
+                      0 -..  3
+    query             0 -Tu autem domine ne elongaveris auxilium tuum 44
+
+-- fused_3 --
+  OCR:      'me ad defensionem me am aspi ce Quo'
+  Assigned: 'um a me ad defensionem meam aspice quo'
+  Words:    [20..27) consumed=7
+  NW score: k=7 (pre-snap), norm=6.0629
+  Anchor:   word 27 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 --me ad defensionem me am aspi ce Quo---- 35
+                      0 --||  4
+    query             0 a me ad defensionem me-am aspi-ce Quoniam 39
+
+-- fused_4 --
+  OCR:      'm inte pactatus sum exntero de ventre ma s'
+  Assigned: 'niam In te iactatus sum ex utero de ventre matris'
+  Words:    [27..36) consumed=9
+  NW score: k=9 (pre-snap), norm=5.4433
+  Anchor:   word 36 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -m inte pactatus sum ex-ntero de ventre ma-- s 42
+                      0 -.  2
+    query             0 In --te iactatus sum ex utero de ventre matris 44
+
+-- fused_5 --
+  OCR:      'me us eo tu ne dis cedas me'
+  Assigned: 'mee deus meus es tu ne discedas a me Quoniam tribulatio proxima est et non'
+  Words:    [36..51) consumed=15
+  NW score: k=9 (pre-snap), norm=4.6830
+  Anchor:   word 51 (within_chant_7), diff=6, snapped=False, forced=True
+  Alignment:
+    target            0 me------ --us eo tu ne dis cedas-- me-----------------------
+                      0 ||------
+    query             0 mee deus meus es tu ne dis-cedas a me Quoniam tribulatio pro
+    
+    target           27 --------------- 27
+                      8 --------------- 23
+    query            59 xima est et non 74
+
+-- fused_6 --
+  OCR:      'Ano niam tribulatio proxima est et non'
+  Assigned: 'est qui adiuvet Salva me ex ore leonis'
+  Words:    [51..59) consumed=8
+  NW score: k=7 (pre-snap), norm=-0.9615
+  Anchor:   word 59 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 Ano -niam tribulatio proxima -est et -----non-- 38
+                      0 ...  3
+    query             0 est qui-- adi-uvet-- --Salva me-- ex ore leonis 38
+
+-- fused_7 --
+  OCR:      'est qui advinet al ex ore leo mi'
+  Assigned: 'et a cornibus unicorniorum humilitatem meam'
+  Words:    [59..65) consumed=6
+  NW score: k=6 (pre-snap), norm=-1.5366
+  Anchor:   word 72 (within_chant_7), diff=7, snapped=False, forced=False
+  Alignment:
+    target            0 est -------qui advi---net al ex or-e ----l----eo m--i 32
+                      0 |-|  3
+    query             0 e-t a cornibus -unicorn--------iorum humilitatem meam 43
+
+-- fused_8 --
+  OCR:      'et a cornibus iincorniorum humili tatem me a .'
+  Assigned: 'Quoniam In proximo est tribulatio mea do'
+  Words:    [65..72) consumed=7
+  NW score: k=6 (pre-snap), norm=-0.8969
+  Anchor:   word 72 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 et a cornibus iincorniorum- humili t-----atem me a -----. 46
+                      0 ----..|-||-.. 13
+    query             0 ----Quo-ni-am -In pr--oximo ---est tribulatio me-a domine 44
+
+-- fused_9 --
+  OCR:      'Qno manex in protino est tribulatio mea do'
+  Assigned: 'mine et non est qui adiuvet ut fodi'
+  Words:    [72..79) consumed=7
+  NW score: k=6 (pre-snap), norm=-0.2777
+  Anchor:   word 79 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 Qno manex in protino est tribulatio mea -----d---o 42
+                      0 -------|.  9
+    query             0 -------et -n---o--n- est qui-- adi-uvet ut fodiant 33
+
+-- fused_10 --
+  OCR:      'mu neccuon est qui adiu necuefori'
+  Assigned: 'ant manus meas et pedes meos libera me'
+  Words:    [79..86) consumed=7
+  NW score: k=9 (pre-snap), norm=-0.6525
+  Anchor:   word 86 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 m--u- neccuon est qui adiu ne----cuefor---i 33
+                      0 |--|-  5
+    query             0 manus me---as e-t ---pedes meos libe--ra me 34
+
+-- fused_11 --
+  OCR:      'ent manus meas et peces me'
+  Assigned: 'de ore leonis Ut narrem nomen tuum fratribus'
+  Words:    [86..94) consumed=8
+  NW score: k=6 (pre-snap), norm=-0.5463
+  Anchor:   word 94 (page_break_77), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 -ent manus me--as et -peces --me---------------- 26
+                      0 -|--  4
+    query             0 de-- --ore leonis Ut narrem nomen tuum fratribus 44
+
+-- fused_12 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [94..94) consumed=0
+  Alignment:
+    (no words left)
+=== END DEBUG ===
+

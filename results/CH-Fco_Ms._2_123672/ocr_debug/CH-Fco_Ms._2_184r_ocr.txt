@@ -1,0 +1,187 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'cus  in o absens genere sig ni pre'
+  [fused_1] 'senta bat X Lan'
+  [fused_2] 'in patibulo crucis ipse Brachi is tensus hoc sig'
+  [fused_3] 'naculo truci consignabat se Fran . Nio ria pa'
+  [fused_4] 'tri et filio et spintu i Sancto si cute ratin pan'
+  [fused_5] 'cipio . Se Franmus ab antono supra'
+  [fused_6] 'stabit quam Maris elacio'
+  [fused_7] 'finctus seu vox fluminum ultra non turbabit .  dominus Regis'
+  [fused_8] 'tuo jbilat in conspectudomne'
+  [fused_9] 'quoiam intarioni intr li men quod esi milat hune ni vi'
+  [fused_10] 'qui lumine ferintur quo ubilate oa'
+  [fused_11] 'Lotus inte siciens Deus ad te nigilans extitit de Luce'
+  [fused_12] 'tu fons indesiciens tulueili tuti lans qi sintce'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'cus  in o absens genere sig ni pre'
+  Assigned: 'franciscus filiis absens novo genere signi presentabat tan'
+  Words:    [0..8) consumed=8
+  NW score: k=7 (pre-snap), norm=2.9406
+  Anchor:   word 8 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 -------cus  i-n o absens----- genere sig ni pre-------------
+                      0 -------|||
+    query             0 franciscus filiis absens novo genere sig-ni presentabat Tanq
+    
+    target           34 --- 34
+                     10 --- 13
+    query            59 uam 62
+
+-- fused_1 --
+  OCR:      'senta bat X Lan'
+  Assigned: 'quam in patibulo crucis ipse bracchiis tensus hoc si'
+  Words:    [8..16) consumed=8
+  NW score: k=2 (pre-snap), norm=-2.1019
+  Anchor:   word 16 (within_chant_7), diff=6, snapped=False, forced=True
+  Alignment:
+    target            0 ---------------------senta b-a-------t----- --X ---La---n 15
+                      0 ---------------------||--- 26
+    query             0 in patibulo crucis ipse--- bracchiis tensus hoc signaculo 54
+
+-- fused_2 --
+  OCR:      'in patibulo crucis ipse Brachi is tensus hoc sig'
+  Assigned: 'gnaculo crucis consignabat Se franciscus Gloria pa'
+  Words:    [16..22) consumed=6
+  NW score: k=5 (pre-snap), norm=-0.1387
+  Anchor:   word 22 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 in patibulo crucis ----i------pse Bra-chi is tensus -ho--c -
+                      0 ------------||||||
+    query             0 ------------crucis consignabat Se franc---is----cus Gloria p
+    
+    target           45 --sig 48
+                     18 --.|- 23
+    query            41 atri- 45
+
+-- fused_3 --
+  OCR:      'naculo truci consignabat se Fran . Nio ria pa'
+  Assigned: 'tri et filio et spiritui sancto sicut erat in prin'
+  Words:    [22..31) consumed=9
+  NW score: k=9 (pre-snap), norm=-0.2922
+  Anchor:   word 31 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -nacul-o -t----r--uci ---c-onsignabat se Fran . Nio -ri-a p-
+                      0 -....|-|
+    query             0 et filio et spiritu-i sancto si---cut -e--rat ---in principi
+    
+    target           44 a 45
+                      8 .  9
+    query            50 o 51
+
+-- fused_4 --
+  OCR:      'tri et filio et spintu i Sancto si cute ratin pan'
+  Assigned: 'cipio Se franciscus Domus ab antonio supra'
+  Words:    [31..37) consumed=6
+  NW score: k=7 (pre-snap), norm=-0.7189
+  Anchor:   word 37 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 tri et f--ilio et spintu- -i Sancto si- cute ratin pan 49
+                      0 ---.|-  6
+    query             0 ---Se- franci--scus Domus ab -an-to-nio su--pra------- 36
+
+-- fused_5 --
+  OCR:      'cipio . Se Franmus ab antono supra'
+  Assigned: 'petram dominum posita perstabit quam maris elacio'
+  Words:    [37..44) consumed=7
+  NW score: k=5 (pre-snap), norm=-1.6292
+  Anchor:   word 44 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 cipio . Se Fra------n-m--us--- -----ab-- --antono ----supra-
+                      0 --|------|-.||------|-|--.|---
+    query             0 --p------e-tram dominum posita perstabit qua----m maris elac
+    
+    target           34 -- 34
+                     30 -- 32
+    query            47 io 49
+
+-- fused_6 --
+  OCR:      'stabit quam Maris elacio'
+  Assigned: 'fluctus seu vox fluminum ultra non turbabit'
+  Words:    [44..51) consumed=7
+  NW score: k=9 (pre-snap), norm=-2.1170
+  Anchor:   word 51 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 --------s-tabit -qu---am ---Ma-ris --elacio 24
+                      0 --------|-..... 15
+    query             0 fluctus seu vox fluminum ultra non turbabit 43
+
+-- fused_7 --
+  OCR:      'finctus seu vox fluminum ultra non turbabit .  dominus Regis'
+  Assigned: '~Dominus regnavit euouae Letus tuo iubilat in conspectu domine'
+  Words:    [51..60) consumed=9
+  NW score: k=11 (pre-snap), norm=-0.1852
+  Anchor:   word 60 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 ---finctus se-u vox fluminu-m ultra -non turbabi--t -. -----
+                      0 ---.||--||
+    query             0 ~Domin--us regnavit -eu--ouae Letus tuo- iu---bilat in consp
+    
+    target           46 ---- dominus Regis 60
+                     10 ---- 14
+    query            51 ectu domin----e--- 62
+
+-- fused_8 --
+  OCR:      'tuo jbilat in conspectudomne'
+  Assigned: 'quo iam introivit lumen quod es similat hunc tibi'
+  Words:    [60..69) consumed=9
+  NW score: k=4 (pre-snap), norm=0.3152
+  Anchor:   word 69 (within_chant_7), diff=5, snapped=False, forced=True
+  Alignment:
+    target            0 tuo jbilat in co-----nspe-ctu-d-----om-------n-----e 28
+                      0 .||  3
+    query             0 quo --i-am introivit lumen quod es similat hunc tibi 49
+
+-- fused_9 --
+  OCR:      'quoiam intarioni intr li men quod esi milat hune ni vi'
+  Assigned: 'qui lumine fruitur quo vivit ~Iubilate'
+  Words:    [69..75) consumed=6
+  NW score: k=9 (pre-snap), norm=-0.0556
+  Anchor:   word 75 (within_chant_7), diff=3, snapped=False, forced=True
+  Alignment:
+    target            0 quoi--am in-tarioni int-r li men quod -esi- ---milat hune ni
+                      0 ||-|--.|-||-..|----.|-|-|-------
+    query             0 qu-i lum-ine fr----ui-tur------- quo- vivit ~Iubilat----e---
+    
+    target           51  vi 54
+                     32 --- 35
+    query            38 --- 38
+
+-- fused_10 --
+  OCR:      'qui lumine ferintur quo ubilate oa'
+  Assigned: 'euouae Totus in te siciens deus ad te vigilans'
+  Words:    [75..84) consumed=9
+  NW score: k=9 (pre-snap), norm=-0.8850
+  Anchor:   word 87 (within_chant_7), diff=3, snapped=False, forced=False
+  Alignment:
+    target            0 qu---i --lu-min--e feri-ntur -quo ubila--te ----oa-- 34
+                      0 .|---.  6
+    query             0 euouae Totus in te sicien--s deus ----ad te vigilans 46
+
+-- fused_11 --
+  OCR:      'Lotus inte siciens Deus ad te nigilans extitit de Luce'
+  Assigned: 'extitit de luce tu fons indeficiens tu lux illi rutilans qui sitis in cruce'
+  Words:    [84..98) consumed=14
+  NW score: k=14 (pre-snap), norm=0.6914
+  Anchor:   word 87 (within_chant_7), diff=11, snapped=False, forced=False
+  Alignment:
+    target            0 --------------Lotu----s inte siciens Deus -ad --te nigilans 
+                      0 --------------..||----|
+    query             0 extitit de luce tu fons inde-ficiens -tu- lux illi rutilans 
+    
+    target           39 --extitit de -Luce 54
+                     23 --...|||. 32
+    query            57 qui sitis in cruce 75
+
+-- fused_12 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [98..98) consumed=0
+  Alignment:
+    (no words left)
+=== END DEBUG ===
+

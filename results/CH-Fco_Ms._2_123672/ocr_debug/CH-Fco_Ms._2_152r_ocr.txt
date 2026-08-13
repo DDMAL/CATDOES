@@ -1,0 +1,163 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'domi no. * ic est fratrum ama'
+  [fused_1] 'tor et puli rahael . hic est qui multum'
+  [fused_2] 'vat po p lo niver Sancta'
+  [fused_3] 'canta teme rusalem Xvir ste xxpi'
+  [fused_4] 'mutissimus appa ruit. Hic est.'
+  [fused_5] 'u domine universo rum qui nullam habes in'
+  [fused_6] 'di gentiam volui sti Templum tuum fieri in no'
+  [fused_7] 'conserva i macutaetr'
+  [fused_8] 'sti domine domum istam ad in'
+  [fused_9] 'aut esset domus orationis'
+  [fused_10] 'et obsecrationis po pulotu o . Conserva | peri'
+  [fused_11] 'celos tuos domine et jnte afsictio nem nottram'
+  [fused_12] 'cntan decerunt. tes ddo p men dm'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'domi no. * ic est fratrum ama'
+  Assigned: 'domino Qui magna Hic est fratrum ama'
+  Words:    [0..7) consumed=7
+  NW score: k=7 (pre-snap), norm=4.2224
+  Anchor:   word 7 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 domi no---. ----* -ic est fratrum ama--- 29
+                      0 ||||-||---. 11
+    query             0 domi-no Qui magna Hic est fratrum amator 39
+
+-- fused_1 --
+  OCR:      'tor et puli rahael . hic est qui multum'
+  Assigned: 'tor et populi israhel Hic est qui multum'
+  Words:    [7..14) consumed=7
+  NW score: k=7 (pre-snap), norm=5.0707
+  Anchor:   word 14 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 tor et --puli --rahael . hic est qui multum 39
+                      0 ----||  6
+    query             0 ----et populi israh-el-- Hic est qui multum 36
+
+-- fused_2 --
+  OCR:      'vat po p lo niver Sancta'
+  Assigned: 'orat pro populo et universa sancta'
+  Words:    [14..20) consumed=6
+  NW score: k=6 (pre-snap), norm=3.6057
+  Anchor:   word 20 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -vat p-o --p lo ----niver-- Sancta 24
+                      0 -.||  4
+    query             0 orat pro populo et universa sancta 34
+
+-- fused_3 --
+  OCR:      'canta teme rusalem Xvir ste xxpi'
+  Assigned: 'civitate iherusalem Vir iste in po'
+  Words:    [20..26) consumed=6
+  NW score: k=5 (pre-snap), norm=2.8893
+  Anchor:   word 26 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 c-anta te--me rusalem Xvir -ste--- xxp--i 32
+                      0 |-..||-||--.|-||||||| 21
+    query             0 civita-te ihe-rusalem -Vir iste in populo 38
+
+-- fused_4 --
+  OCR:      'mutissimus appa ruit. Hic est.'
+  Assigned: 'pulo suo mitissimus apparuit Hic est'
+  Words:    [26..31) consumed=5
+  NW score: k=5 (pre-snap), norm=5.4434
+  Anchor:   word 31 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ----mutissimus appa ruit. Hic est. 30
+                      0 ----|.|||||||| 14
+    query             0 suo mitissimus appa-ruit- Hic est- 31
+
+-- fused_5 --
+  OCR:      'u domine universo rum qui nullam habes in'
+  Assigned: 'Tu domine universorum qui nullam habes in'
+  Words:    [31..38) consumed=7
+  NW score: k=6 (pre-snap), norm=6.8150
+  Anchor:   word 38 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 -u domine universo rum qui nullam habes in--------- 41
+                      0 -|  2
+    query             0 Tu domine universo-rum qui nullam habes indigentiam 50
+
+-- fused_6 --
+  OCR:      'di gentiam volui sti Templum tuum fieri in no'
+  Assigned: 'digentiam voluisti templum tuum fieri in nobis'
+  Words:    [38..44) consumed=6
+  NW score: k=6 (pre-snap), norm=4.8200
+  Anchor:   word 44 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 di gentiam volui sti Templum tuum fieri in no--- 45
+                      0 -----------|||||-||| 20
+    query             0 -----------volui-sti templum tuum fieri in nobis 36
+
+-- fused_7 --
+  OCR:      'conserva i macutaetr'
+  Assigned: 'Conserva domum istam immaculatam in eternum'
+  Words:    [44..50) consumed=6
+  NW score: k=2 (pre-snap), norm=2.0319
+  Anchor:   word 50 (within_chant_7), diff=4, snapped=False, forced=True
+  Alignment:
+    target            0 conserva------ i---- --macu--ta-----et-r--- 20
+                      0 .|||||||------ 14
+    query             0 Conserva domum istam immaculatam in eternum 43
+
+-- fused_8 --
+  OCR:      'sti domine domum istam ad in'
+  Assigned: 'domine Tu elegisti domine domum istam ad in'
+  Words:    [50..58) consumed=8
+  NW score: k=7 (pre-snap), norm=4.1235
+  Anchor:   word 58 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 ---------------sti domine domum istam ad in-------- 28
+                      0 ---------------||| 18
+    query             0 domine Tu elegisti domine domum istam ad invocandum 51
+
+-- fused_9 --
+  OCR:      'aut esset domus orationis'
+  Assigned: 'vocandum nomen tuum in ea ut esset domus orationis'
+  Words:    [58..66) consumed=8
+  NW score: k=8 (pre-snap), norm=4.4978
+  Anchor:   word 66 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ---------------a-ut esset domus orationis 25
+                      0 ---------------|-|| 19
+    query             0 nomen tuum in ea ut esset domus orationis 41
+
+-- fused_10 --
+  OCR:      'et obsecrationis po pulotu o . Conserva | peri'
+  Assigned: 'et obsecrationis populo tuo Conserva Aperi'
+  Words:    [66..72) consumed=6
+  NW score: k=6 (pre-snap), norm=6.3020
+  Anchor:   word 72 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 et obsecrationis po pulo-tu o . Conserva | peri 46
+                      0 ||  2
+    query             0 et obsecrationis po-pulo tu-o-- Conserva -Aperi 42
+
+-- fused_11 --
+  OCR:      'celos tuos domine et jnte afsictio nem nottram'
+  Assigned: 'celos tuos domine et vide afflictionem nostram'
+  Words:    [72..79) consumed=7
+  NW score: k=7 (pre-snap), norm=6.1087
+  Anchor:   word 79 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 celos tuos domine et jnte a-fsictio nem nottram 46
+                      0 |||||  5
+    query             0 celos tuos domine et vide afflictio-nem nostram 46
+
+-- fused_12 --
+  OCR:      'cntan decerunt. tes ddo p men dm'
+  Assigned: 'circumdederunt nos gentes ad puniendum'
+  Words:    [79..84) consumed=5
+  NW score: k=5 (pre-snap), norm=1.6059
+  Anchor:   word 84 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 cntan decerunt---. ---tes ddo p- men d-m 32
+                      0 |.....||.|||||---. 18
+    query             0 circumdederunt nos gentes ad- punien-dum 38
+=== END DEBUG ===
+

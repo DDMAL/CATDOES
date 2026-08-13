@@ -1,0 +1,259 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'm madata esecul seculionfi'
+  [fused_1] 'bor datis eus cupitiis . pr eatus'
+  [fused_2] ' tnome domini benedic'
+  [fused_3] 'Laudens Pueri evovaeos qum mnimus benedicimus'
+  [fused_4] 'capitais Benedicts ds .'
+  [fused_5] 'Lucis creas diri'
+  [fused_6] 'dominum pres in exitu evovae cutinte ad no a mesi'
+  [fused_7] 'nissit Jhesus implere Ydrias a qua que'
+  [fused_8] '.ii. i pe xers ioso dicp Constitues'
+  [fused_9] 'sunt ae via evonae'
+  [fused_10] 'tia busero ane opletonis dicimus vieet'
+  [fused_11] 'ico ad vig'
+  [fused_12] 'etdiebus retices et n de qoide te ho dioro sitan'
+  [fused_13] 'Raibus diebus simti dicant e capitulad Prmodici'
+  [fused_14] 'ms pots b qainceptiones a rnsco e mero Re'
+  [fused_15] 'demensna et t de Preut e a pdrtalt vobi r absolnequis . postea preqlapat Crie nie cxay et'
+  [fused_16] 'meninto ocrgrationispossedisti v domine exandiorum et claveo'
+  [fused_17] ' Depfinidis ul laudateomim omne'
+  [fused_18] 'V salvos fac svos tuos et ancillas tuas'
+  [fused_19] 'Donis petantes in te  Lamor nis dominu vobucet cumsperitutuo'
+  [fused_20] 'Pretende domine Fanisis'
+  [fused_21] 'Posterea dicinus offi deme'
+  [fused_22] 'tatoriu Virginis feria nvi venite exi temius domino In Bilemius'
+  [fused_23] 'dnco santan nosicto ominus defensor vite mee ex'
+  [fused_24] 'orae. Aarate tommumi in oula sancta eus eroo'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'm madata esecul seculionfi'
+  Assigned: 'omnia mandata eius confirmata in seculum seculi ~Confitebor'
+  Words:    [0..8) consumed=8
+  NW score: k=8 (pre-snap), norm=2.0681
+  Anchor:   word 23 (within_chant_7), diff=15, snapped=False, forced=False
+  Alignment:
+    target            0 -m--- ma-data e------------------secul-- seculi---onfi-----
+                      0 -|---
+    query             0 omnia mandata eius confirmata in seculum seculi ~Confitebor
+    
+    target           26
+                      5
+    query            59
+
+-- fused_1 --
+  OCR:      'bor datis eus cupitiis . pr eatus'
+  Assigned: 'euouae In mandatis eius cupit nimis ~Beatus'
+  Words:    [8..15) consumed=7
+  NW score: k=7 (pre-snap), norm=2.9732
+  Anchor:   word 23 (within_chant_7), diff=8, snapped=False, forced=False
+  Alignment:
+    target            0 -bo-----r ---datis e-us cupit--i-is . pr eatus 33
+                      0 -.|-----.  9
+    query             0 euouae In mandatis eius cupit nimis ---~Beatus 43
+
+-- fused_2 --
+  OCR:      'tnome domini benedic'
+  Assigned: 'vir euouae Sit nomen domini benedictum in secula'
+  Words:    [15..23) consumed=8
+  NW score: k=6 (pre-snap), norm=3.2646
+  Anchor:   word 23 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 -------------t-nome- domini benedic------------- 20
+                      0 -------------|-||||- 20
+    query             0 vir euouae Sit nomen domini benedictum in secula 48
+
+-- fused_3 --
+  OCR:      'Laudens Pueri evovaeos qum mnimus benedicimus'
+  Assigned: '~Laudate pueri euouae Nos qui vivimus benedicimus'
+  Words:    [23..30) consumed=7
+  NW score: k=7 (pre-snap), norm=4.7277
+  Anchor:   word 30 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -Laud--ens Pueri evovae--os qum -mnimus benedicimus 45
+                      0 -||||--|-- 10
+    query             0 ~Laudate-- pueri euouae Nos qui vivimus benedicimus 49
+
+-- fused_4 --
+  OCR:      'capitais Benedicts ds .'
+  Assigned: 'dominum ~In exitu euouae Deficiente vino'
+  Words:    [30..36) consumed=6
+  NW score: k=4 (pre-snap), norm=-1.9153
+  Anchor:   word 36 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 capi--------tai-s ----Be-nedic---ts ds . 23
+                      0 ...|--------..|-. 17
+    query             0 dominum ~In exitu euouae Deficiente vino 40
+
+-- fused_5 --
+  OCR:      'Lucis creas diri'
+  Assigned: 'iussit ihesus implere'
+  Words:    [36..39) consumed=3
+  NW score: k=3 (pre-snap), norm=-0.4364
+  Anchor:   word 52 (within_chant_7), diff=13, snapped=False, forced=False
+  Alignment:
+    target            0 Lu-cis cre-as di----ri 16
+                      0 .|-.|.  6
+    query             0 iussit ihesus -implere 21
+
+-- fused_6 --
+  OCR:      'dominum pres in exitu evovae cutinte ad no a mesi'
+  Assigned: 'ydrias aqua que in vinum converse sunt alleluia euouae Venite'
+  Words:    [39..49) consumed=10
+  NW score: k=10 (pre-snap), norm=0.0549
+  Anchor:   word 52 (within_chant_7), diff=3, snapped=False, forced=False
+  Alignment:
+    target            0 -domi----num pres in exitu- evo-v--ae cutinte a------d -no a
+                      0 -|-.|----.|.
+    query             0 yd-rias aqua que- in -vinum -converse su--nt- alleluia euoua
+    
+    target           44 - mesi-- 49
+                     12 - 13
+    query            53 e Venite 61
+
+-- fused_7 --
+  OCR:      'nissit Jhesus implere Ydrias a qua que'
+  Assigned: 'exsultemus domino Iubilemus'
+  Words:    [49..52) consumed=3
+  NW score: k=5 (pre-snap), norm=-1.1542
+  Anchor:   word 52 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 nissit Jhesus implere Yd-rias a qu--a que 38
+                      0 ..|..|---|.|| 13
+    query             0 exsult---emus ---------domi--no Iubilemus 27
+
+-- fused_8 --
+  OCR:      '.ii. i pe xers ioso dicp Constitues'
+  Assigned: 'deo salutari nostro Dominus'
+  Words:    [52..56) consumed=4
+  NW score: k=4 (pre-snap), norm=-1.2361
+  Anchor:   word 60 (within_chant_7), diff=4, snapped=False, forced=False
+  Alignment:
+    target            0 .ii. i pe- ----xers ios--o dicp Constitues 35
+                      0 -------.|- 10
+    query             0 -------deo salutari nostro----- Do--minu-s 27
+
+-- fused_9 --
+  OCR:      'sunt ae via evonae'
+  Assigned: 'defensor vite mee euouae'
+  Words:    [56..60) consumed=4
+  NW score: k=4 (pre-snap), norm=-0.1443
+  Anchor:   word 60 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 --sun--t --ae via evonae 18
+                      0 --..|--.  8
+    query             0 defensor vite mee euouae 24
+
+-- fused_10 --
+  OCR:      'tia busero ane opletonis dicimus vieet'
+  Assigned: 'Adorate dominum in aula sancta eius euouae'
+  Words:    [60..67) consumed=7
+  NW score: k=7 (pre-snap), norm=-1.5269
+  Anchor:   word 67 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 tia busero ane -opleton---is ------dic----imus vie----et 38
+                      0 -------..|.|.| 14
+    query             0 -------Adorate do---minum in aula sancta ei-us --euouae- 42
+
+-- fused_11 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [67..67) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_12 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [67..67) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_13 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [67..67) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_14 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [67..67) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_15 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [67..67) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_16 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [67..67) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_17 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [67..67) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_18 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [67..67) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_19 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [67..67) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_20 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [67..67) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_21 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [67..67) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_22 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [67..67) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_23 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [67..67) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_24 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [67..67) consumed=0
+  Alignment:
+    (no words left)
+=== END DEBUG ===
+

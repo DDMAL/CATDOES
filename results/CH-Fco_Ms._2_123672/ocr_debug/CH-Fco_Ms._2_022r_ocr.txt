@@ -1,0 +1,171 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'eos qui sub lege erant re dimeretx ro'
+  [fused_1] 'prter mimiam caritatem suam qua dilerit nos de'
+  [fused_2] 'suum misit in similitudine ti ut eos.'
+  [fused_3] 'unio ibahes renertere ad cueitates iu Josmnano'
+  [fused_4] 'ris generabis dominum Salvato oblati'
+  [fused_5] 'onem nvam in terram anbulabunt homines in salvati'
+  [fused_6] '0 ne X Incantate perpetuadilei e ideo adtrarite mi'
+  [fused_7] 'serans ti 1. usque quo'
+  [fused_8] 'nostram dicit dominus ultra jam non iascarsu'
+  [fused_9] 'pter ran montes meum et colles suscipient justiciam me'
+  [fused_10] 'et testamentum paaisent in Jherusale'
+  [fused_11] 'uscael alim et infacia nut'
+  [fused_12] 'mele tan conerinns ace ivnsis'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'eos qui sub lege erant re dimeretx ro'
+  Assigned: 'Ut eos qui sub lege erant redimeret prop'
+  Words:    [0..8) consumed=8
+  NW score: k=7 (pre-snap), norm=6.1135
+  Anchor:   word 8 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 ---eos qui sub lege erant re dimeretx -ro---- 37
+                      0 ---|||  6
+    query             0 Ut eos qui sub lege erant re-dimeret- Propter 43
+
+-- fused_1 --
+  OCR:      'prter mimiam caritatem suam qua dilerit nos de'
+  Assigned: 'ter nimiam caritatem suam qua dilexit nos deus filium'
+  Words:    [8..16) consumed=8
+  NW score: k=7 (pre-snap), norm=5.9607
+  Anchor:   word 16 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 prter mimiam caritatem suam qua dilerit nos de--------- 46
+                      0 ------.||||| 12
+    query             0 ------nimiam caritatem suam qua dilexit nos deus filium 49
+
+-- fused_2 --
+  OCR:      'suum misit in similitudine ti ut eos.'
+  Assigned: 'suum misit in similitudine carnis peccati Ut'
+  Words:    [16..23) consumed=7
+  NW score: k=4 (pre-snap), norm=5.5133
+  Anchor:   word 23 (within_chant_7), diff=3, snapped=False, forced=True
+  Alignment:
+    target            0 suum misit in similitudine ------------ti ut eos. 37
+                      0 ||||  4
+    query             0 suum misit in similitudine carnis peccati Ut----- 44
+
+-- fused_3 --
+  OCR:      'unio ibahes renertere ad cueitates iu Josmnano'
+  Assigned: 'eos Virgo israhel revertere in civitates tuas'
+  Words:    [23..30) consumed=7
+  NW score: k=7 (pre-snap), norm=2.4177
+  Anchor:   word 30 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ---uni--o i-bahes renertere ad cueitates iu Josmnano 46
+                      0 ---..|--|  9
+    query             0 eos Virgo israhel revertere in civitates tu------a-s 45
+
+-- fused_4 --
+  OCR:      'ris generabis dominum Salvato oblati'
+  Assigned: 'Usquequo dolens averteris generabis dominum salvatorem oblati'
+  Words:    [30..37) consumed=7
+  NW score: k=7 (pre-snap), norm=3.6384
+  Anchor:   word 37 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ----------------------ris generabis dominum Salvato--- oblat
+                      0 ----------------------|||
+    query             0 Usquequo dolens averteris generabis dominum salvatorem oblat
+    
+    target           35 i---- 36
+                     25 |---- 30
+    query            60 ionem 65
+
+-- fused_5 --
+  OCR:      'onem nvam in terram anbulabunt homines in salvati'
+  Assigned: 'onem novam in terra ambulabunt homines in salvati'
+  Words:    [37..44) consumed=7
+  NW score: k=7 (pre-snap), norm=5.9596
+  Anchor:   word 44 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 onem nvam in terram anbulabunt homines in salvati--- 49
+                      0 -|---.|||  9
+    query             0 -n---ovam in terra- ambulabunt homines in salvatione 47
+
+-- fused_6 --
+  OCR:      '0 ne X Incantate perpetuadilei e ideo adtrarite mi'
+  Assigned: 'one In caritate perpetua dilexi te ideo adtraxi te miserans'
+  Words:    [44..53) consumed=9
+  NW score: k=8 (pre-snap), norm=4.4622
+  Anchor:   word 53 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 0 ne X In-ca-ntate perpetua-dile-i -e ideo adtrari-te mi----
+                      0 -------||-||-.||||
+    query             0 -------In caritate perpetua dilexi te ideo adtraxi te misera
+    
+    target           50 -- 50
+                     18 -- 20
+    query            53 ns 55
+
+-- fused_7 --
+  OCR:      'serans ti 1. usque quo'
+  Assigned: 'tui Usquequo'
+  Words:    [53..55) consumed=2
+  NW score: k=2 (pre-snap), norm=1.4156
+  Anchor:   word 64 (within_chant_7), diff=9, snapped=False, forced=False
+  Alignment:
+    target            0 serans t-i 1. usque quo 22
+                      0 -------|-|--- 13
+    query             0 -------tui--- Usque-quo 12
+
+-- fused_8 --
+  OCR:      'nostram dicit dominus ultra jam non iascarsu'
+  Assigned: 'Juravi dicit dominus ut ultra iam non irascar su'
+  Words:    [55..64) consumed=9
+  NW score: k=8 (pre-snap), norm=4.9666
+  Anchor:   word 64 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 nostra-m dicit dominus--- ultra jam non i-ascar-su--- 44
+                      0 --..||-.  8
+    query             0 --Juravi dicit dominus ut ultra iam non irascar super 51
+
+-- fused_9 --
+  OCR:      'pter ran montes meum et colles suscipient justiciam me'
+  Assigned: 'per terram montes enim et colles suscipient iusticiam meam'
+  Words:    [64..72) consumed=8
+  NW score: k=8 (pre-snap), norm=6.1296
+  Anchor:   word 72 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 pter ran montes me-um et colles suscipient justiciam me-- 54
+                      0 -|||-||.  8
+    query             0 -ter-ram montes -enim et colles suscipient iusticiam meam 54
+
+-- fused_10 --
+  OCR:      'et testamentum paaisent in Jherusale'
+  Assigned: 'Et testamentum pacis erit in iherusalem'
+  Words:    [72..78) consumed=6
+  NW score: k=6 (pre-snap), norm=5.7379
+  Anchor:   word 78 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 et testamentum paais-e-nt in Jherusale- 36
+                      0 .|  2
+    query             0 Et testamentum pacis erit in iherusalem 39
+
+-- fused_11 --
+  OCR:      'uscael alim et infacia nut'
+  Assigned: 'Justa est salus mea ut veniat et iusticia ut'
+  Words:    [78..87) consumed=9
+  NW score: k=9 (pre-snap), norm=0.8870
+  Anchor:   word 87 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -usca-e-l -al-------------i-m et i-nfacia nut 26
+                      0 -||.|-|-.  9
+    query             0 Justa est salus mea ut veniat et iusticia -ut 44
+
+-- fused_12 --
+  OCR:      'mele tan conerinns ace ivnsis'
+  Assigned: 'reveletur Et testamentum Non discedimus a te vivificabis'
+  Words:    [87..95) consumed=8
+  NW score: k=8 (pre-snap), norm=0.2730
+  Anchor:   word 95 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 --mele------ ---ta--n--- con-----erinns a-ce -iv----nsis 29
+                      0 --.|||------ 12
+    query             0 reveletur Et testamentum Non discedimus a te vivificabis 56
+=== END DEBUG ===
+

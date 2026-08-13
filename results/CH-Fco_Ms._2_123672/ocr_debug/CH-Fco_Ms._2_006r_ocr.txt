@@ -1,0 +1,203 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'expectantes beatam Sprem et adventum glorie magni de Q refor'
+  [fused_1] 'ite aem mili velo conveine ablicions'
+  [fused_2] 'populi  sicut loquutus es venietr libera'
+  [fused_3] ' de qui deducis velut ovem jo Lpmyansarosi'
+  [fused_4] 'Vii sicut . abrei Angelus logntus est mane'
+  [fused_5] 'ena dicens ave gracia dominus tecum benedicta tu inter muliete'
+  [fused_6] 'nedictus fructus ventris tuips Lelienarrant evovae et'
+  [fused_7] 'patputas qualis est ista salutatio quia conturbata est anima'
+  [fused_8] 'meclaustrum virgiitatis mee'
+  [fused_9] 'nlit  audiat tede oenadventu sumi re'
+  [fused_10] 'es mundentur corda hominum ut digne ambulemus in cccursum il'
+  [fused_11] 'Anis quna ecclesieneset et non tandabit prm . Domine mvuerturte evoras'
+  [fused_12] 'proretur oio de leto santosioVenituts pe sum'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'expectantes beatam Sprem et adventum glorie magni de Q refor'
+  Assigned: 'expectantes beatam spem et adventum glorie magni dei Qui reformavit'
+  Words:    [0..10) consumed=10
+  NW score: k=10 (pre-snap), norm=6.5612
+  Anchor:   word 18 (within_chant_7), diff=8, snapped=False, forced=False
+  Alignment:
+    target            0 expectantes beatam Sprem et adventum glorie magni de- Q-- re
+                      0 |||||||||||
+    query             0 expectantes beatam sp-em et adventum glorie magni dei Qui re
+    
+    target           57 for----- 60
+                     11 |||----- 19
+    query            59 formavit 67
+
+-- fused_1 --
+  OCR:      'ite aem mili velo conveine ablicions'
+  Assigned: 'Obsecro domine mitte quem missurus es vide afflictionem'
+  Words:    [10..18) consumed=8
+  NW score: k=8 (pre-snap), norm=0.2697
+  Anchor:   word 18 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ----------------i-te -aem mi----li velo conveine a-blic-ion-
+                      0 ----------------|-||
+    query             0 Obsecro domine mitte quem missurus -e-s ---v-ide afflictione
+    
+    target           35 s 36
+                     20 . 21
+    query            54 m 55
+
+-- fused_2 --
+  OCR:      'populi  sicut loquutus es venietr libera'
+  Assigned: 'populi tui Sicut loquutus es veni et libera'
+  Words:    [18..26) consumed=8
+  NW score: k=8 (pre-snap), norm=6.5585
+  Anchor:   word 29 (within_chant_7), diff=3, snapped=False, forced=False
+  Alignment:
+    target            0 populi --- sicut loquutus es veni-etr libera 40
+                      0 ||||||  6
+    query             0 populi tui Sicut loquutus es veni et- libera 43
+
+-- fused_3 --
+  OCR:      'de qui deducis velut ovem jo Lpmyansarosi'
+  Assigned: 'nos Qui regis israhel intende qui deducis velut ovem ioseph qui'
+  Words:    [26..37) consumed=11
+  NW score: k=11 (pre-snap), norm=1.8299
+  Anchor:   word 29 (within_chant_7), diff=8, snapped=False, forced=False
+  Alignment:
+    target            0 ---------------------------de qui deducis velut ovem jo Lpmy
+                      0 ---------------------------||
+    query             0 nos Qui regis israhel intende qui deducis velut ovem iosep--
+    
+    target           33 ansarosi 41
+                     29 ---....| 37
+    query            58 ---h qui 63
+
+-- fused_4 --
+  OCR:      'Vii sicut . abrei Angelus logntus est mane'
+  Assigned: 'sedes su'
+  Words:    [37..39) consumed=2
+  NW score: k=9 (pre-snap), norm=2.5288
+  Anchor:   word 39 (within_chant_7), diff=7, snapped=False, forced=True
+  Alignment:
+    target            0 Vii sicut . abrei Angelus logntus est mane 42
+                      0 ----|----------|----.|--| 25
+    query             0 ----s----------e----de--s ----su-pe------r 11
+
+-- fused_5 --
+  OCR:      'ena dicens ave gracia dominus tecum benedicta tu inter muliete'
+  Assigned: 'per cherubin Sicut Gabriel angelus loquutus est marie dicens ave gratia -ena dominus tecum benedicta tu inter mulieres'
+  Words:    [39..56) consumed=17
+  NW score: k=17 (pre-snap), norm=3.4494
+  Anchor:   word 46 (within_chant_7), diff=10, snapped=False, forced=False
+  Alignment:
+    target            0 --------------------e---n--------------------a--- dicens ave
+                      0 --------------------|---|--------------------|---
+    query             0 cherubin Sicut Gabriel angelus loquutus est marie dicens ave
+    
+    target           14  graci-----a dominus tecum benedicta tu inter muliete-  62
+                     49   49
+    query            60  gratia -ena dominus tecum benedicta tu inter mulieres 114
+
+-- fused_6 --
+  OCR:      'nedictus fructus ventris tuips Lelienarrant evovae et'
+  Assigned: 'et be'
+  Words:    [56..58) consumed=2
+  NW score: k=8 (pre-snap), norm=5.3528
+  Anchor:   word 58 (within_chant_7), diff=6, snapped=False, forced=True
+  Alignment:
+    target            0 nedictus fructus ventris tuips Lelienarrant evovae et 53
+                      0 -|-----------|-- 16
+    query             0 -e-----------t-- benedi-ctu--s----------------------- 13
+
+-- fused_7 --
+  OCR:      'patputas qualis est ista salutatio quia conturbata est anima'
+  Assigned: 'nedictus fructus ventris tui ~Celi enarrant euouae Maria dixit putas qualis est ista salutatio quia conturbata est anima'
+  Words:    [58..75) consumed=17
+  NW score: k=17 (pre-snap), norm=3.7006
+  Anchor:   word 66 (within_chant_7), diff=9, snapped=False, forced=False
+  Alignment:
+    target            0 ---------------------------------------------pa-----t-putas 
+                      0 ---------------------------------------------.|-----|-|||||
+    query             0 fructus ventris tui ~Celi enarrant euouae Maria dixit putas 
+    
+    target            9 qualis est ista salutatio quia conturbata est anima  60
+                     59 ||||||  65
+    query            60 qualis est ista salutatio quia conturbata est anima 111
+
+-- fused_8 --
+  OCR:      'meclaustrum virgiitatis mee'
+  Assigned: 'mea et quia paritura sum regem qui claustrum virginitatis mee'
+  Words:    [75..85) consumed=10
+  NW score: k=10 (pre-snap), norm=2.6119
+  Anchor:   word 85 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 me---------------------------------claustrum virgi-itatis me
+                      0 ||---------------------------------|||||||||
+    query             0 mea et quia paritura sum regem qui claustrum virginitatis me
+    
+    target           26 e 27
+                     44 | 45
+    query            60 e 61
+
+-- fused_9 --
+  OCR:      'nlit  audiat tede oenadventu sumi re'
+  Assigned: 'non violabit ~Exaudiat te dominus euouae In adventu summi re'
+  Words:    [85..95) consumed=10
+  NW score: k=10 (pre-snap), norm=2.9607
+  Anchor:   word 95 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 n------l--it -- audiat te-d-------e o--e--n-adventu su-mi re
+                      0 |------|--||
+    query             0 non violabit ~Exaudiat te dominus euouae In adventu summi re
+    
+    target           36 --- 36
+                     12 --- 15
+    query            60 gis 63
+
+-- fused_10 --
+  OCR:      'es mundentur corda hominum ut digne ambulemus in cccursum il'
+  Assigned: 'gis minidentur corda hominum ut digne ambulemus in occursum il'
+  Words:    [95..104) consumed=9
+  NW score: k=8 (pre-snap), norm=6.4931
+  Anchor:   word 104 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 es mun-dentur corda hominum ut digne ambulemus in cccursum i
+                      0 ---|.|-||||||
+    query             0 ---minidentur corda hominum ut digne ambulemus in occursum i
+    
+    target           59 l---- 60
+                     13 |---- 18
+    query            57 llius 62
+
+-- fused_11 --
+  OCR:      'Anis quna ecclesieneset et non tandabit prm . Domine mvuerturte evoras'
+  Assigned: 'lius quia ecce veniet et non tardabit ~Domine in'
+  Words:    [104..112) consumed=8
+  NW score: k=10 (pre-snap), norm=3.5940
+  Anchor:   word 112 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 Anis quna ecclesieneset et non tandabit prm . Domine mvuertu
+                      0 -----||.|
+    query             0 -----quia ecc-e ven-iet et non tardabit -----~Domine -------
+    
+    target           60 rte evoras 70
+                      9 --------.. 19
+    query            41 --------in 43
+
+-- fused_12 --
+  OCR:      'proretur oio de leto santosioVenituts pe sum'
+  Assigned: 'virtute euouae Egredietur dominus de loco sancto suo Veniet ut salvet populum suum'
+  Words:    [112..125) consumed=13
+  NW score: k=13 (pre-snap), norm=1.5982
+  Anchor:   word 125 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -pr-------o------r---etur -o-i--o de leto san-to-sio-Veni-t-
+                      0 -.|-------|------|---||||
+    query             0 virtute euouae Egredietur dominus de loco sancto suo Veniet 
+    
+    target           34 ut-s----- p-----e s-um 44
+                     25 ||-|----- 34
+    query            60 ut salvet populum suum 82
+=== END DEBUG ===
+

@@ -1,0 +1,195 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'et di rit tues deus mens quem vidi ne me paciaris ab'
+  [fused_1] 'pio judice dep qia virtutem Sancte Cru cis ag'
+  [fused_2] 'no mico Cuco magister meus ppiste quem dileri'
+  [fused_3] 'quem cognovi quem confessus sum tantimimodo in ista voce'
+  [fused_4] 'exaudi me. Qma mI . idens Crucem Andre'
+  [fused_5] 'crux admurabiliso crux in emarrabilis'
+  [fused_6] 'ocrux que per totum munidum ruti lans suscipe discipulum'
+  [fused_7] 'pepisie mon se remictus erine caato vem non habente'
+  [fused_8] 'pastorem | na crux que decorem et pulcritudinem'
+  [fused_9] 'ad laudes et ad ves'
+  [fused_10] 'de Membris domini Silsce Suscipe. pas et per horas diei aut'
+  [fused_11] 'alne crux preciosa suscipe discipulum ejus qui pependit in'
+  [fused_12] 'te Magister meus Chptistus . ps dominus Regis cum aliis exovae'
+  [fused_13] 'eatus aroreus rabut diens to mne rre etcime eone'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'et di rit tues deus mens quem vidi ne me paciaris ab'
+  Assigned: 'et dixit tu es deus meus quem vidi ne me paciaris ab'
+  Words:    [0..12) consumed=12
+  NW score: k=12 (pre-snap), norm=7.0769
+  Anchor:   word 27 (within_chant_7), diff=15, snapped=False, forced=False
+  Alignment:
+    target            0 et di rit tu-es deus mens quem vidi ne me paciaris ab 52
+                      0 ||  2
+    query             0 et di-xit tu es deus meus quem vidi ne me paciaris ab 52
+
+-- fused_1 --
+  OCR:      'pio judice dep qia virtutem Sancte Cru cis ag'
+  Assigned: 'impio iudice deponi Quia virtutem sancte crucis agnovi'
+  Words:    [12..20) consumed=8
+  NW score: k=8 (pre-snap), norm=5.0106
+  Anchor:   word 27 (within_chant_7), diff=7, snapped=False, forced=False
+  Alignment:
+    target            0 --pio judice dep--- -qia virtutem Sancte Cru cis ag---- 45
+                      0 --|||  5
+    query             0 impio iudice deponi Quia virtutem sancte cru-cis agnovi 54
+
+-- fused_2 --
+  OCR:      'no mico Cuco magister meus ppiste quem dileri'
+  Assigned: 'Tu es magister meus christe quem dilexi'
+  Words:    [20..27) consumed=7
+  NW score: k=7 (pre-snap), norm=4.3206
+  Anchor:   word 27 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 no mico Cuco magister meus -ppiste quem dileri 45
+                      0 ..  2
+    query             0 Tu -------es magister meus christe quem dilexi 39
+
+-- fused_3 --
+  OCR:      'quem cognovi quem confessus sum tantimimodo in ista voce'
+  Assigned: 'quem cognovi quem confessus sum tantummodo in ista voce'
+  Words:    [27..36) consumed=9
+  NW score: k=9 (pre-snap), norm=7.5679
+  Anchor:   word 36 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 quem cognovi quem confessus sum tantimimodo in ista voce 56
+                      0 ||||  4
+    query             0 quem cognovi quem confessus sum tantum-modo in ista voce 55
+
+-- fused_4 --
+  OCR:      'exaudi me. Qma mI . idens Crucem Andre'
+  Assigned: 'exaudi me Quia virtutem Videns crucem andreas'
+  Words:    [36..43) consumed=7
+  NW score: k=7 (pre-snap), norm=3.9901
+  Anchor:   word 43 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 exaudi me. Q-ma -------mI . idens Crucem Andre-- 38
+                      0 ||||||  6
+    query             0 exaudi me- Quia virtutem- -Videns crucem andreas 45
+
+-- fused_5 --
+  OCR:      'crux admurabiliso crux in emarrabilis'
+  Assigned: 'exclamavit dicens o crux admirabilis o crux inerrabilis'
+  Words:    [43..51) consumed=8
+  NW score: k=8 (pre-snap), norm=3.7907
+  Anchor:   word 51 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 --------------------crux admurabilis-o crux in emarrabilis 37
+                      0 --------------------|||| 24
+    query             0 exclamavit dicens o crux admirabilis o crux in-e--rrabilis 55
+
+-- fused_6 --
+  OCR:      'ocrux que per totum munidum ruti lans suscipe discipulum'
+  Assigned: 'o crux quae per totum mundum rutilans Suscipe discipulum xpisti non me permittas errare sicut ovem non'
+  Words:    [51..68) consumed=17
+  NW score: k=9 (pre-snap), norm=6.9821
+  Anchor:   word 68 (within_chant_7), diff=8, snapped=False, forced=True
+  Alignment:
+    target            0 o-crux qu-e per totum munidum ruti lans suscipe discipulum--
+                      0 |-||||
+    query             0 o crux quae per totum mun-dum ruti-lans Suscipe discipulum x
+    
+    target           56 --------------------------------------------  56
+                      6 --------------------------------------------  50
+    query            58 pisti non me permittas errare sicut ovem non 102
+
+-- fused_7 --
+  OCR:      'pepisie mon se remictus erine caato vem non habente'
+  Assigned: 'habentem pastorem O bona crux que decorem et pulcritudimen'
+  Words:    [68..77) consumed=9
+  NW score: k=8 (pre-snap), norm=-0.9711
+  Anchor:   word 77 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 --pepisie mon --se rem-------ictus erine --caato vem non ---
+                      0 --.|--..|-|--
+    query             0 habe--nte-m-- pastorem O bona crux --que dec---o-rem -et pul
+    
+    target           44 -----habente 51
+                     13 -----...||-- 25
+    query            48 critudimen-- 58
+
+-- fused_8 --
+  OCR:      'pastorem | na crux que decorem et pulcritudinem'
+  Assigned: 'de membris domini suscepisti'
+  Words:    [77..81) consumed=4
+  NW score: k=10 (pre-snap), norm=-1.4148
+  Anchor:   word 81 (within_chant_7), diff=6, snapped=False, forced=True
+  Alignment:
+    target            0 pastorem | na crux que decorem et pulc-ri-tudinem 47
+                      0 -----.|--- 10
+    query             0 -----de--- membr----is d--o--mini suscepist--i--- 28
+
+-- fused_9 --
+  OCR:      'ad laudes et ad ves'
+  Assigned: 'Suscipe Salve'
+  Words:    [81..83) consumed=2
+  NW score: k=2 (pre-snap), norm=-1.4635
+  Anchor:   word 91 (within_chant_7), diff=8, snapped=False, forced=False
+  Alignment:
+    target            0 ad laudes-- et -ad ves 19
+                      0 ----.|--|--.|- 14
+    query             0 ----Su--scipe- Sa-lve- 13
+
+-- fused_10 --
+  OCR:      'de Membris domini Silsce Suscipe. pas et per horas diei aut'
+  Assigned: 'crux preciosa suscipe discipulum eius qui pependit in'
+  Words:    [83..91) consumed=8
+  NW score: k=9 (pre-snap), norm=-0.8525
+  Anchor:   word 91 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 --de -Membris domini Silsc--e Suscip--e. -pas -et per horas 
+                      0 --..
+    query             0 crux pre--ci---o--sa -suscipe discipulum eius qui pe-----pen
+    
+    target           51 diei aut 59
+                      4 ||-.  8
+    query            47 di-t -in 53
+
+-- fused_11 --
+  OCR:      'alne crux preciosa suscipe discipulum ejus qui pependit in'
+  Assigned: 'te magister meus xpistus ~Dominus'
+  Words:    [91..96) consumed=5
+  NW score: k=7 (pre-snap), norm=-1.1616
+  Anchor:   word 96 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 alne crux preciosa suscipe- discipulum ejus qui pependi-t-- 
+                      0 --.|
+    query             0 --te -----------ma-gis--ter ---------m-e-us -----xp---istus 
+    
+    target           56 ----in-- 58
+                      4 ----||-- 12
+    query            25 ~Dominus 33
+
+-- fused_12 --
+  OCR:      'te Magister meus Chptistus . ps dominus Regis cum aliis exovae'
+  Assigned: 'regnavit cum aliis euouae'
+  Words:    [96..100) consumed=4
+  NW score: k=4 (pre-snap), norm=0.0762
+  Anchor:   word 108 (page_break_77), diff=8, snapped=False, forced=False
+  Alignment:
+    target            0 te Magister meus Chptistus . ps dominus Regis cum aliis exov
+                      0 .|..|.|----------------|---------------------
+    query             0 regnavi----------------t--------------------- cum aliis euou
+    
+    target           60 ae 62
+                     45 || 47
+    query            23 ae 25
+
+-- fused_13 --
+  OCR:      'eatus aroreus rabut diens to mne rre etcime eone'
+  Assigned: 'Beatus Andreas orabat dicens domine rex eterne glorie'
+  Words:    [100..108) consumed=8
+  NW score: k=7 (pre-snap), norm=3.5966
+  Anchor:   word 108 (page_break_77), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 -eatus aroreus -rabut di-ens to m-ne rre- etcime -eo-ne 48
+                      0 -|||||  6
+    query             0 Beatus Andreas orabat dicens do-mine -rex eterne glorie 53
+=== END DEBUG ===
+

@@ -1,0 +1,275 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'mane conducere operarios in vineam suam dicit dominus ex ou'
+  [fused_1] 'hecoratio Preces pro'
+  [fused_2] 'peluritum ad omes bo'
+  [fused_3] 'ras d prina aut . onventione autem fac ta cum opera'
+  [fused_4] 'riis ex denario diur non misit eos in vineam suam evovae'
+  [fused_5] 'ab hac domincusi ad pascha dominui Bu'
+  [fused_6] 'pesado domo preo domino Reo domin'
+  [fused_7] 'innoine p dominus Resis paei eeati ima p ete adted p judicame pra d te et nos inuineam meam'
+  [fused_8] 'capitlus fertris . Rescitis quod rosu'
+  [fused_9] 'dina cormeu e averteo'
+  [fused_10] 'culos meos ne indeatva'
+  [fused_11] 'et quod justum fuerit dabo nobis evovae ad Vi aut'
+  [fused_12] 'resprionderunt et dixerunt'
+  [fused_13] 'capilis domis enni qun e '
+  [fused_14] 'etim domine V In seculum'
+  [fused_15] 'quia nemo nos conduxerit evovac ceelai neri ab qut a Noca ope'
+  [fused_16] 'rarios et redde illis mercedem suam dicit dominus evovae'
+  [fused_17] 'ca vibebant antem  Cla'
+  [fused_18] 'mamintoto cor ad vues'
+  [fused_19] 'irit paterfamilias opera dixit dominus po ordine captfrtro'
+  [fused_20] 'riis suis quid hic statis totadie occiosi at ili responden'
+  [fused_21] 'tes dicerunt quia nemo nos conduxitie'
+  [fused_22] 'neam meam et quod justum fuerit dabo vobis evovac'
+  [fused_23] 'sicut fecimus. In hac domie thus qui ecpretant ad psalmis'
+  [fused_24] 'tam sic faciens in aliis duabus dominicis vetis et pr totam'
+  [fused_25] 'ebromada etlectiones legimus deresiduo ystorie geneii tom ees er con an dios die anmplone  in nomissimmma'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'mane conducere operarios in vineam suam dicit dominus ex ou'
+  Assigned: 'mane conducere operarios in vineam suam dicit dominus euouae'
+  Words:    [0..9) consumed=9
+  NW score: k=9 (pre-snap), norm=7.2944
+  Anchor:   word 14 (within_chant_7), diff=5, snapped=False, forced=False
+  Alignment:
+    target            0 mane conducere operarios in vineam suam dicit dominus ex ou-
+                      0 ||||
+    query             0 mane conducere operarios in vineam suam dicit dominus e-uoua
+    
+    target           59 - 59
+                      4 -  5
+    query            59 e 60
+
+-- fused_1 --
+  OCR:      'hecoratio Preces pro'
+  Assigned: 'Conventione autem facta cum opera'
+  Words:    [9..14) consumed=5
+  NW score: k=4 (pre-snap), norm=-1.6783
+  Anchor:   word 14 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 heco--ratio-- -Pre--------ces -p---r--o 20
+                      0 --.|--..|||-- 13
+    query             0 --Conventione autem facta cum operariis 37
+
+-- fused_2 --
+  OCR:      'peluritum ad omes bo'
+  Assigned: 'riis ex denario diurno misit eos'
+  Words:    [14..19) consumed=5
+  NW score: k=5 (pre-snap), norm=-0.9467
+  Anchor:   word 23 (within_chant_7), diff=4, snapped=False, forced=False
+  Alignment:
+    target            0 ---peluritum ad--- o-mes-- bo- 20
+                      0 ---.|..||--. 12
+    query             0 ex denari--o -diurno misit eos 27
+
+-- fused_3 --
+  OCR:      'ras d prina aut . onventione autem fac ta cum opera'
+  Assigned: 'in vineam suam euouae Ite et vos in vineam meam et quod iustum fuerit'
+  Words:    [19..33) consumed=14
+  NW score: k=14 (pre-snap), norm=-0.6912
+  Anchor:   word 23 (within_chant_7), diff=10, snapped=False, forced=False
+  Alignment:
+    target            0 ras d prin-a- --a-----u----t- -. -o---n-ventione autem -fac 
+                      0 ---..
+    query             0 ---in -vineam suam euouae Ite et vos in v---i-ne-a---m meam 
+    
+    target           39 -t----a ---cum oper-a 51
+                      5 -|----. 12
+    query            48 et quod iustum fuerit 69
+
+-- fused_4 --
+  OCR:      'riis ex denario diur non misit eos in vineam suam evovae'
+  Assigned: 'dabo vobis euouae Quid hic statis tota die occiosi responderunt et dixerunt quia nemo nos conduxit euouae'
+  Words:    [33..50) consumed=17
+  NW score: k=17 (pre-snap), norm=-0.6781
+  Anchor:   word 36 (within_chant_7), diff=14, snapped=False, forced=False
+  Alignment:
+    target            0 ------riis e----x ---d-----enari---o-- diur non mi-si-------
+                      0 ------..||
+    query             0 dabo vobis euouae Quid hic statis tota di-e -o-cciosi respon
+    
+    target           29 -----t eos -i----n- -vi--neam- --s-----u-am evovae  56
+                     10 -----|  16
+    query            57 derunt e-t dixerunt quia ne-mo nos conduxit euouae 105
+
+-- fused_5 --
+  OCR:      'ab hac domincusi ad pascha dominui Bu'
+  Assigned: 'Voca ope'
+  Words:    [50..52) consumed=2
+  NW score: k=10 (pre-snap), norm=-0.8014
+  Anchor:   word 52 (within_chant_7), diff=8, snapped=False, forced=True
+  Alignment:
+    target            0 ab hac domincusi ad -pascha dominui Bu 37
+                      0 -------.|---|----|- 19
+    query             0 -------Vo---c----a- op--erario-------s 14
+
+-- fused_6 --
+  OCR:      'pesado domo preo domino Reo domin'
+  Assigned: 'rarios et redde illis mercedem suam dicit dominus euouae'
+  Words:    [52..60) consumed=8
+  NW score: k=7 (pre-snap), norm=-0.7521
+  Anchor:   word 60 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 pe---sado -----------domo preo domino Reo domin--------- 33
+                      0 -|---..|.  9
+    query             0 -et redde illis mercedem- suam dici-----t dominus euouae 49
+
+-- fused_7 --
+  OCR:      'innoine p dominus Resis paei eeati ima p ete adted p judicame pra d te et nos inuineam meam'
+  Assigned: 'Dixit paterfamilias operariis suis quid hic statis tota die occiosi at illi respondentes dixerunt quia nemo nos conduxit ite in vineam meam'
+  Words:    [60..82) consumed=22
+  NW score: k=22 (pre-snap), norm=-0.2312
+  Anchor:   word 63 (within_chant_7), diff=19, snapped=False, forced=False
+  Alignment:
+    target            0 -innoine p--- domi-nus -Re-------s-is ---paei- eeati- -ima p
+                      0 -|--.|-.
+    query             0 Di--xi-t paterfamilias operariis suis quid hic statis tota d
+    
+    target           40  e------te a-------------d--ted p judicame pr--a d te -e-t n
+                      8 .|------..
+    query            57 ie occiosi at illi respondentes ----di--xe--runt quia nemo n
+    
+    target           75 os------------- in-uineam meam  91
+                     18 ||-------------  33
+    query           109 os conduxit ite in vineam meam 139
+
+-- fused_8 --
+  OCR:      'capitlus fertris . Rescitis quod rosu'
+  Assigned: 'et quod justum fuerit dabo vobis euouae'
+  Words:    [82..89) consumed=7
+  NW score: k=7 (pre-snap), norm=-0.8424
+  Anchor:   word 89 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 capit------lus--- f-ertris ---. Rescitis quod rosu-- 37
+                      0 ---.|------.||--- 17
+    query             0 ---et quod justum fue--rit dabo ---vobis euo-----uae 39
+
+-- fused_9 --
+  OCR:      'dina cormeu e averteo'
+  Assigned: 'Hi novissimi una'
+  Words:    [89..92) consumed=3
+  NW score: k=3 (pre-snap), norm=-2.0185
+  Anchor:   word 92 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 dina co----rmeu e averteo 21
+                      0 .|--  4
+    query             0 Hi-- novissim-i una------ 16
+
+-- fused_10 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [92..92) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_11 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [92..92) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_12 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [92..92) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_13 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [92..92) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_14 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [92..92) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_15 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [92..92) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_16 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [92..92) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_17 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [92..92) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_18 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [92..92) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_19 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [92..92) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_20 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [92..92) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_21 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [92..92) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_22 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [92..92) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_23 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [92..92) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_24 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [92..92) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_25 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [92..92) consumed=0
+  Alignment:
+    (no words left)
+=== END DEBUG ===
+

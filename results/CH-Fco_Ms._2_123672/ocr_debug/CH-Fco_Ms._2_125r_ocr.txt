@@ -1,0 +1,163 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'neat nobiscum num spiritus verita tis'
+  [fused_1] 'non habiero para'
+  [fused_2] 'ditus non veniet ad vos si autem abi ero mittam euz'
+  [fused_3] 'ao vos ut maneat. Donisubem Ascensum'
+  [fused_4] 'tuimidomne . Quiam bu .ao li pes nas ven'
+  [fused_5] 'mili aneonfessio nem et decorem indomiu siti'
+  [fused_6] 'duletim iespreti secnt nesa mui trlusm setm ambonu'
+  [fused_7] 'm non abi eno paraclitus non veniet ad'
+  [fused_8] 'nos li au ten babiero mittam cum ad vos . Cum'
+  [fused_9] 'docebit vos omnem verita tem al'
+  [fused_10] 'e daha lones cum loquetur a semet'
+  [fused_11] 'peso set quecumoue audiet loqunetur et qe nengira sunt'
+  [fused_12] 'anma abit no bis . cum autems'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'neat nobiscum num spiritus verita tis'
+  Assigned: 'maneat vobiscum in eternum spiritus veritatis'
+  Words:    [0..6) consumed=6
+  NW score: k=6 (pre-snap), norm=5.7102
+  Anchor:   word 12 (within_chant_7), diff=6, snapped=False, forced=False
+  Alignment:
+    target            0 --neat nobiscum -------num spiritus verita tis 37
+                      0 --||||  6
+    query             0 maneat vobiscum in eternum spiritus verita-tis 45
+
+-- fused_1 --
+  OCR:      'non habiero para'
+  Assigned: 'alleluya Si enim non habiero para'
+  Words:    [6..12) consumed=6
+  NW score: k=6 (pre-snap), norm=2.0416
+  Anchor:   word 12 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -----------------non habiero para------ 16
+                      0 -----------------||| 20
+    query             0 alleluya Si enim non habiero paraclitus 39
+
+-- fused_2 --
+  OCR:      'ditus non veniet ad vos si autem abi ero mittam euz'
+  Assigned: 'clitus non veniet ad vos si autem abiero mittam eum'
+  Words:    [12..21) consumed=9
+  NW score: k=9 (pre-snap), norm=6.5441
+  Anchor:   word 21 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ditus non veniet ad vos si autem abi ero mittam euz 51
+                      0 ------|||  9
+    query             0 ------non veniet ad vos si autem abi-ero mittam eum 44
+
+-- fused_3 --
+  OCR:      'ao vos ut maneat. Donisubem Ascensum'
+  Assigned: 'ad vos Ut maneat Ponis nubem ascensum'
+  Words:    [21..28) consumed=7
+  NW score: k=7 (pre-snap), norm=5.7814
+  Anchor:   word 28 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ao vos ut maneat. Donis--ubem Ascensum 36
+                      0 |.  2
+    query             0 ad vos Ut maneat- Ponis nubem ascensum 37
+
+-- fused_4 --
+  OCR:      'tuimidomne . Quiam bu .ao li pes nas ven'
+  Assigned: 'tuum domine Qui ambulas super pennas'
+  Words:    [28..34) consumed=6
+  NW score: k=7 (pre-snap), norm=2.6399
+  Anchor:   word 34 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 tuimidom-ne . Qui-am bu .ao ---li pes nas ven 40
+                      0 ||.|.|||-||-- 13
+    query             0 tuum domine-- Qui am-bu-las super pe-nnas---- 36
+
+-- fused_5 --
+  OCR:      'mili aneonfessio nem et decorem indomiu siti'
+  Assigned: 'ventorum alleluya Confessionem et decorem induisti'
+  Words:    [34..40) consumed=6
+  NW score: k=6 (pre-snap), norm=3.5818
+  Anchor:   word 40 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -------mili a-ne------onfessio nem et decorem indomiu siti 44
+                      0 -------|--- 11
+    query             0 ventorum--- alleluya Confessio-nem et decorem ind---uis-ti 50
+
+-- fused_6 --
+  OCR:      'duletim iespreti secnt nesa mui trlusm setm ambonu'
+  Assigned: 'amictus lumen sicut vestimentum Qui ambulas Si'
+  Words:    [40..47) consumed=7
+  NW score: k=6 (pre-snap), norm=-0.2372
+  Anchor:   word 47 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 duletim iespreti secnt nesa mui trlusm setm ambonu------ 50
+                      0 ....|..  7
+    query             0 amictus --lume-n sicut vestim-ent--u-m -Qui amb--ulas Si 46
+
+-- fused_7 --
+  OCR:      'm non abi eno paraclitus non veniet ad'
+  Assigned: 'enim non abiero paraclitus non veniet ad'
+  Words:    [47..54) consumed=7
+  NW score: k=7 (pre-snap), norm=6.7458
+  Anchor:   word 54 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ---m non abi eno paraclitus non veniet ad 38
+                      0 ---|  4
+    query             0 enim non abi-ero paraclitus non veniet ad 40
+
+-- fused_8 --
+  OCR:      'nos li au ten babiero mittam cum ad vos . Cum'
+  Assigned: 'vos si autem habiero mittam eum ad vos Cum'
+  Words:    [54..63) consumed=9
+  NW score: k=9 (pre-snap), norm=5.8426
+  Anchor:   word 63 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 nos li au ten babiero mittam cum ad vos . Cum 45
+                      0 .||  3
+    query             0 vos si au-tem habiero mittam eum ad vos-- Cum 42
+
+-- fused_9 --
+  OCR:      'docebit vos omnem verita tem al'
+  Assigned: 'autem venerit ille docebit vos omnem veritatem al'
+  Words:    [63..71) consumed=8
+  NW score: k=8 (pre-snap), norm=3.6327
+  Anchor:   word 71 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -------------------docebit vos omnem verita tem al------ 31
+                      0 -------------------||||||| 26
+    query             0 autem venerit ille docebit vos omnem verita-tem alleluya 55
+
+-- fused_10 --
+  OCR:      'e daha lones cum loquetur a semet'
+  Assigned: 'leluya Non enim loquetur a seme'
+  Words:    [71..76) consumed=5
+  NW score: k=5 (pre-snap), norm=3.0709
+  Anchor:   word 76 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 e daha lon-es cum loquetur a semet---- 33
+                      0 -------.||-|--..| 17
+    query             0 -------Non e--nim loquetur a semetipso 29
+
+-- fused_11 --
+  OCR:      'peso set quecumoue audiet loqunetur et qe nengira sunt'
+  Assigned: 'tipso set quecumque audiet loquetur et que ventura sunt'
+  Words:    [76..84) consumed=8
+  NW score: k=8 (pre-snap), norm=5.8127
+  Anchor:   word 84 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 peso set quecumoue audiet loqunetur et q-e nengira sunt 54
+                      0 -----|||  8
+    query             0 -----set quecumque audiet loqu-etur et que ventura sunt 49
+
+-- fused_12 --
+  OCR:      'anma abit no bis . cum autems'
+  Assigned: 'annunciabit vobis Cum autem Ascendit'
+  Words:    [84..89) consumed=5
+  NW score: k=4 (pre-snap), norm=3.6094
+  Anchor:   word 89 (page_break_77), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 an--ma abit no bis . cum autem--s------ 29
+                      0 ||--...|||| 11
+    query             0 annunciabit vo-bis-- Cum autem Ascendit 36
+=== END DEBUG ===
+

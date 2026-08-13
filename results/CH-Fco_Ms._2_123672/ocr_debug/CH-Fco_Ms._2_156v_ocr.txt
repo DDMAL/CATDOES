@@ -1,0 +1,119 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'mis tue potencie protege nos semper deus noster evovae'
+  [fused_1] 'Qui celorum contines thronum et abyssos intueris'
+  [fused_2] 'mine rex regum Montes ponderas terram palmo condudis'
+  [fused_3] 'erandi nos domine vl genutibus nostris evovae '
+  [fused_4] 'mumus pacem et non venit domine quesivimus bona et ec'
+  [fused_5] 'ceturbatio cognovimus domine qnitata nostes ne m etes'
+  [fused_6] 'num oblivuscaris nos Deus Israhel evovae . uper muro'
+  [fused_7] 'tuos iherisalem constitui custotes tota die et nocte non ta'
+  [fused_8] 'tebunt laudarenomen domnni exonae'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'mis tue potencie protege nos semper deus noster evovae'
+  Assigned: 'tue potencie protege nos semper deus noster euouae'
+  Words:    [0..8) consumed=8
+  NW score: k=8 (pre-snap), norm=6.8897
+  Anchor:   word 16 (within_chant_7), diff=8, snapped=False, forced=False
+  Alignment:
+    target            0 mis tue potencie protege nos semper deus noster evovae 54
+                      0 ----|||  7
+    query             0 ----tue potencie protege nos semper deus noster euouae 50
+
+-- fused_1 --
+  OCR:      'Qui celorum contines thronum et abyssos intueris'
+  Assigned: 'Qui celorum contines thronum et abyssos intueris do'
+  Words:    [8..16) consumed=8
+  NW score: k=7 (pre-snap), norm=8.0000
+  Anchor:   word 16 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 Qui celorum contines thronum et abyssos intueris------- 48
+                      0 |||  3
+    query             0 Qui celorum contines thronum et abyssos intueris domine 55
+
+-- fused_2 --
+  OCR:      'mine rex regum Montes ponderas terram palmo condudis'
+  Assigned: 'mine rex regum montes ponderas terram palmo concludis'
+  Words:    [16..23) consumed=7
+  NW score: k=7 (pre-snap), norm=6.4852
+  Anchor:   word 23 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 mine rex regum Montes ponderas terram palmo con-dudis 52
+                      0 -----|||  8
+    query             0 -----rex regum montes ponderas terram palmo concludis 48
+
+-- fused_3 --
+  OCR:      'erandi nos domine vl genutibus nostris evovae'
+  Assigned: 'exaudi nos domine in gemitibus nostris euouae susti'
+  Words:    [23..31) consumed=8
+  NW score: k=7 (pre-snap), norm=5.6889
+  Anchor:   word 31 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 erandi nos domine vl genutibus nostris evovae------------ 45
+                      0 |.|.||  6
+    query             0 exaudi nos domine in gemitibus nostris euouae Sustinuimus 57
+
+-- fused_4 --
+  OCR:      'mumus pacem et non venit domine quesivimus bona et ec'
+  Assigned: 'nuimus pacem et non venit domine quesivimus bona et ec'
+  Words:    [31..40) consumed=9
+  NW score: k=9 (pre-snap), norm=6.7503
+  Anchor:   word 40 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 mumus pacem et non venit domine quesivimus bona et ec-- 53
+                      0 ------||||| 11
+    query             0 ------pacem et non venit domine quesivimus bona et ecce 49
+
+-- fused_5 --
+  OCR:      'ceturbatio cognovimus domine qnitata nostes ne m etes'
+  Assigned: 'ce turbatio cognovimus domine peccata nostra ne in eter'
+  Words:    [40..48) consumed=8
+  NW score: k=8 (pre-snap), norm=5.0749
+  Anchor:   word 48 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ceturbatio cognovimus domine qnitata nostes ne -m ete---s 53
+                      0 --|||||||| 10
+    query             0 --turbatio cognovimus domine peccata nostra ne in eternum 55
+
+-- fused_6 --
+  OCR:      'num oblivuscaris nos Deus Israhel evovae . uper muro'
+  Assigned: 'num obliviscaris nos deus israhel euouae Super muros'
+  Words:    [48..55) consumed=7
+  NW score: k=7 (pre-snap), norm=5.3643
+  Anchor:   word 55 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 num oblivuscaris nos Deus Israhel evovae . uper muro- 52
+                      0 ----|||||.|||||| 16
+    query             0 ----obliviscaris nos deus israhel euouae -Super muros 48
+
+-- fused_7 --
+  OCR:      'tuos iherisalem constitui custotes tota die et nocte non ta'
+  Assigned: 'tuos iherusalem constitui custodes tota die et nocte non ta'
+  Words:    [55..65) consumed=10
+  NW score: k=9 (pre-snap), norm=7.1155
+  Anchor:   word 65 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 tuos iherisalem constitui custotes tota die et nocte non ta-
+                      0 ||||
+    query             0 tuos iherusalem constitui custodes tota die et nocte non tac
+    
+    target           59 ----- 59
+                      4 -----  9
+    query            60 ebunt 65
+
+-- fused_8 --
+  OCR:      'tebunt laudarenomen domnni exonae'
+  Assigned: 'cebunt laudare nomen domini'
+  Words:    [65..68) consumed=3
+  NW score: k=3 (pre-snap), norm=3.1918
+  Anchor:   word 68 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 tebunt laudare-nomen domnni exonae 33
+                      0 -------|||||||-||||| 20
+    query             0 -------laudare nomen domini------- 20
+=== END DEBUG ===
+

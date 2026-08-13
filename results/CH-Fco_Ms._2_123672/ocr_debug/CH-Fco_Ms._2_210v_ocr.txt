@@ -1,0 +1,163 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'juxta aram Templi habens Churibulum aureum in ma'
+  [fused_1] 'momin su stett  idelis ser mo et omni accep'
+  [fused_2] 'tione dit nis mntonel atchange nuo ein pugna'
+  [fused_3] 'mo o gtiacia deiille mctor incelis'
+  [fused_4] 'equs patuit mine'
+  [fused_5] 'magne audent Angeli letantur Archangeli de '
+  [fused_6] 'deee iua'
+  [fused_7] 'tetit angelus juxta aram Templi habens Thuribu'
+  [fused_8] 'dominus Regis evovae et um'
+  [fused_9] 'tur Michaci Archangelus cum Drachone audi'
+  [fused_10] 'not orcegtan salus Deo nostro Alelvya presubi'
+  [fused_11] 'oae  Archangele Michaci constitui te principem'
+  [fused_12] 'fuper omnies amas suscipiendaso do eonae'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'juxta aram Templi habens Churibulum aureum in ma'
+  Assigned: 'iuxta aram templi habens thuribulum aureum in manu'
+  Words:    [0..8) consumed=8
+  NW score: k=8 (pre-snap), norm=6.8382
+  Anchor:   word 15 (within_chant_7), diff=7, snapped=False, forced=False
+  Alignment:
+    target            0 juxta aram Templi habens Churibulum aureum in ma-- 48
+                      0 .||||  5
+    query             0 iuxta aram templi habens thuribulum aureum in manu 50
+
+-- fused_1 --
+  OCR:      'momin su stett  idelis ser mo et omni accep'
+  Assigned: 'sua Stetit Fidelis sermo et omni accep'
+  Words:    [8..15) consumed=7
+  NW score: k=7 (pre-snap), norm=4.6512
+  Anchor:   word 15 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 momin su- stet-t  idelis ser mo et omni accep----- 43
+                      0 ------||-  9
+    query             0 ------sua Stetit Fidelis ser-mo et omni acceptione 43
+
+-- fused_2 --
+  OCR:      'tione dit nis mntonel atchange nuo ein pugna'
+  Assigned: 'tione dignus michael archangelus Qui'
+  Words:    [15..19) consumed=4
+  NW score: k=5 (pre-snap), norm=2.1002
+  Anchor:   word 19 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 tione dit nis mntonel atchange nuo ein pugna 44
+                      0 ------||-.|.| 13
+    query             0 ------di-gnus michael archange-lu----s Qu--i 30
+
+-- fused_3 --
+  OCR:      'mo o gtiacia deiille mctor incelis'
+  Assigned: 'pugnavit cum diabolo gracia dei ille victor in celis'
+  Words:    [19..28) consumed=9
+  NW score: k=9 (pre-snap), norm=3.3533
+  Anchor:   word 28 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -----------m-----o o gtiacia dei-ille -mctor in-celis 34
+                      0 -----------|-----|.| 20
+    query             0 pugnavit cum diabolo g-racia dei ille victor in celis 52
+
+-- fused_4 --
+  OCR:      'equs patuit mine'
+  Assigned: 'extitit et ille hostis antiquus patuit ruine'
+  Words:    [28..35) consumed=7
+  NW score: k=7 (pre-snap), norm=0.7161
+  Anchor:   word 35 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 e--------------------------q-us patuit -mine 16
+                      0 |--------------------------|-|| 31
+    query             0 extitit et ille hostis antiquus patuit ruine 44
+
+-- fused_5 --
+  OCR:      'magne audent Angeli letantur Archangeli de'
+  Assigned: 'magne Gaudent angeli letantur archangeli de michael'
+  Words:    [35..42) consumed=7
+  NW score: k=6 (pre-snap), norm=7.1299
+  Anchor:   word 42 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 magne -audent Angeli letantur Archangeli de-------- 42
+                      0 |||||  5
+    query             0 magne Gaudent angeli letantur archangeli de michael 51
+
+-- fused_6 --
+  OCR:      'deee iua'
+  Assigned: 'dei nuncio'
+  Words:    [42..44) consumed=2
+  NW score: k=1 (pre-snap), norm=0.2041
+  Anchor:   word 44 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 deee iu---a  8
+                      0 |-|.  4
+    query             0 d-ei nuncio 10
+
+-- fused_7 --
+  OCR:      'tetit angelus juxta aram Templi habens Thuribu'
+  Assigned: 'Qui Stetit angelus iuxta aram templi habens thuribu'
+  Words:    [44..52) consumed=8
+  NW score: k=8 (pre-snap), norm=5.9591
+  Anchor:   word 52 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -----tetit angelus juxta aram Templi habens Thuribu--- 46
+                      0 -----||||| 10
+    query             0 Qui Stetit angelus iuxta aram templi habens thuribulum 54
+
+-- fused_8 --
+  OCR:      'dominus Regis evovae et um'
+  Assigned: 'lum aureum in manu sua ~Dominus regnavit euouae Dum'
+  Words:    [52..60) consumed=8
+  NW score: k=8 (pre-snap), norm=0.7724
+  Anchor:   word 60 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 --------------------dominus Reg---is evovae et um 26
+                      0 --------------------.|||||| 27
+    query             0 aureum in manu sua ~Dominus regnavit euouae --Dum 47
+
+-- fused_9 --
+  OCR:      'tur Michaci Archangelus cum Drachone audi'
+  Assigned: 'preliaretur michael archangelus cum drachone audi'
+  Words:    [60..66) consumed=6
+  NW score: k=6 (pre-snap), norm=4.9205
+  Anchor:   word 66 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 --------tur Michaci Archangelus cum Drachone audi-- 41
+                      0 --------||| 11
+    query             0 preliaretur michael archangelus cum drachone audita 51
+
+-- fused_10 --
+  OCR:      'not orcegtan salus Deo nostro Alelvya presubi'
+  Assigned: 'ta est vox dicentium salus deo nostro alleluya'
+  Words:    [66..73) consumed=7
+  NW score: k=8 (pre-snap), norm=2.8872
+  Anchor:   word 73 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 not -o---rcegt-an salus Deo nostro -Alelvya presubi 45
+                      0 ..|  3
+    query             0 est vox dicentium salus deo nostro alleluya-------- 43
+
+-- fused_11 --
+  OCR:      'oae  Archangele Michaci constitui te principem'
+  Assigned: '~Iubilate euouae Archangele michael constitui te principem'
+  Words:    [73..80) consumed=7
+  NW score: k=7 (pre-snap), norm=5.1885
+  Anchor:   word 80 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -----oa-e ------ Archangele Michaci constitui te principem 46
+                      0 -----.|-|  9
+    query             0 ~Iubilate euouae Archangele michael constitui te principem 58
+
+-- fused_12 --
+  OCR:      'fuper omnies amas suscipiendaso do eonae'
+  Assigned: 'super omnes animas suscipiendas ~Deus'
+  Words:    [80..85) consumed=5
+  NW score: k=4 (pre-snap), norm=4.7709
+  Anchor:   word 85 (page_break_77), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 fuper omnies a--mas suscipiendaso do eonae 40
+                      0 .||||  5
+    query             0 super omn-es animas suscipiendas- -~De--us 37
+=== END DEBUG ===
+

@@ -1,0 +1,227 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'eus deus meus adte de Luce vigilo p ipsum evo'
+  [fused_1] 'vae . Nonversus est furor tuus domine et consolatus es'
+  [fused_2] 'me ps Confitebor evovae  Landate dominum de Celis'
+  [fused_3] 'p ipsum evovae.  enedictus'
+  [fused_4] 'Ntmra di submissa noce cr po'
+  [fused_5] 'nel prto spsum exoras in falls dits ab octe pohieus ad dominies tepasione tragia Gdi'
+  [fused_6] ' ab octs penit usque ad adventu postmatutu ad ueous dici indominica verti t festis ix et eum set fit comin'
+  [fused_7] 'pluris etdepate sed in festo duplici non fit oro de fia dicatus alte e benedicamus do post ea suffragia dica'
+  [fused_8] 'submissa voce et benedicam do a. per signum crucis V . In conspectu etce . Hus finitis domini lauds'
+  [fused_9] 'prrefunctis ad primam absolutione campituli dominus anterdi'
+  [fused_10] 'eati qui amibulant in legetua domine pes Des in nomine'
+  [fused_11] 'Sean eronae educ me domine in aapm danamed et'
+  [fused_12] 'Semitai torm  liberte poi erorae Sanabor sal'
+  [fused_13] 'ana annmam quia pecca tibi'
+  [fused_14] 'domine miserere mei qmia . Bioria patri et filio et'
+  [fused_15] 'advitor'
+  [fused_16] 'mia esto ds'
+  [fused_17] 'spiritui Sancto Rectorpo  desa   dima me et salvus ero do'
+  [fused_18] 'mne  etec oae enedudan domini'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'eus deus meus adte de Luce vigilo p ipsum evo'
+  Assigned: 'mea} euouae Deus deus meus ad te de luce vigilo {Ipsum'
+  Words:    [0..11) consumed=11
+  NW score: k=11 (pre-snap), norm=4.2195
+  Anchor:   word 11 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -------------eus deus meus ad-te de Luce vigilo p ipsum evo
+                      0 -------------|||
+    query             0 mea} euouae Deus deus meus ad te de luce vigilo -{Ipsum----
+    
+    target           45
+                     16
+    query            54
+
+-- fused_1 --
+  OCR:      'vae . Nonversus est furor tuus domine et consolatus es'
+  Assigned: '[Deus]} euouae Conversus est furor tuus domine et consolatus es'
+  Words:    [11..21) consumed=10
+  NW score: k=10 (pre-snap), norm=5.9150
+  Anchor:   word 21 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 vae---- -----. Nonversus est furor tuus domine et consolatus
+                      0 ..|----
+    query             0 [Deus]} euouae Conversus est furor tuus domine et consolatus
+    
+    target           51  es 54
+                      7   7
+    query            60  es 63
+
+-- fused_2 --
+  OCR:      'me ps Confitebor evovae  Landate dominum de Celis'
+  Assigned: 'me ~Confitebor euouae Laudate dominum de celis'
+  Words:    [21..28) consumed=7
+  NW score: k=7 (pre-snap), norm=6.0241
+  Anchor:   word 28 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 me ps Confitebor evovae  Landate dominum de Celis 49
+                      0 ||  2
+    query             0 me --~Confitebor euouae- Laudate dominum de celis 46
+
+-- fused_3 --
+  OCR:      'p ipsum evovae.  enedictus'
+  Assigned: '~Ipsum [Laudate] euouae Benedictus deus isra'
+  Words:    [28..34) consumed=6
+  NW score: k=4 (pre-snap), norm=2.6571
+  Anchor:   word 34 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 p ipsum---------- evovae.  enedictus------------- 26
+                      0 -..||||---------- 17
+    query             0 -~Ipsum [Laudate] euouae- Benedictus deus israhel 47
+
+-- fused_4 --
+  OCR:      'Ntmra di submissa noce cr po'
+  Assigned: 'hel ~Ipsum [Benedictus]'
+  Words:    [34..36) consumed=2
+  NW score: k=4 (pre-snap), norm=-1.7372
+  Anchor:   word 36 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 Ntmra di submissa ---noce- cr po 28
+                      0 ------...||-|---- 17
+    query             0 ------~Ipsu-m---- [Ben--edictus] 19
+
+-- fused_5 --
+  OCR:      'nel prto spsum exoras in falls dits ab octe pohieus ad dominies tepasione tragia Gdi'
+  Assigned: 'euouae Beati qui ambulant in lege tua domine ~Deus in nomine ~Beati euouae Deduc'
+  Words:    [36..50) consumed=14
+  NW score: k=14 (pre-snap), norm=-0.3904
+  Anchor:   word 45 (within_chant_7), diff=5, snapped=False, forced=False
+  Alignment:
+    target            0 ne----l -prto spsum -exora-s in fal-ls dits ab -o-cte pohieu
+                      0 -|----.
+    query             0 -euouae Beati --qui ambulant in --lege --t-ua- domine --~Deu
+    
+    target           50 s ad dominies -tepasione tragia -Gd-i 84
+                      7 |  8
+    query            49 s in nomin-e- ~Be-ati- euoua--e Deduc 80
+
+-- fused_6 --
+  OCR:      'ab octs penit usque ad adventu postmatutu ad ueous dici indominica verti t festis ix et eum set fit comin'
+  Assigned: 'me domine in semita mandatorum tuorum ~Legem po euouae Sana animam meam quia peccavi tibi Ego dixi domine'
+  Words:    [50..68) consumed=18
+  NW score: k=18 (pre-snap), norm=-0.8381
+  Anchor:   word 53 (within_chant_7), diff=15, snapped=False, forced=False
+  Alignment:
+    target            0 ab -octs penit usque-- ad -a-dventu postmatu-tu-------- ad -
+                      0 ..
+    query             0 me do--mine in -s--emita- mand--at---orum tuorum ~Legem po e
+    
+    target           45 ueou-s dici indominica- ve---rti t festis ix et eum set fi-t
+                      2 |-||-.
+    query            49 u-ouae Sana -----animam meam qui-a pe-ccavi- -t-ibi Ego dixi
+    
+    target           99  comin- 105
+                      8    8
+    query            98  domine 105
+
+-- fused_7 --
+  OCR:      'pluris etdepate sed in festo duplici non fit oro de fia dicatus alte e benedicamus do post ea suffragia dica'
+  Assigned: 'miserere mei Quia Gloria patri et filio et spiritui sancto Adjuva me et salvus ero domine ~Defectam euouae Benedicam'
+  Words:    [68..87) consumed=19
+  NW score: k=19 (pre-snap), norm=-0.3127
+  Anchor:   word 76 (within_chant_7), diff=11, snapped=False, forced=False
+  Alignment:
+    target            0 pluris etdepate sed --in festo--- duplici non fit oro de- -f
+                      0 ---.||-|-.|--.|
+    query             0 ---mis-e-re--re mei Quia --Gloria --patri -et fi--lio -et sp
+    
+    target           53 ia dicatus -a-lte -----e benedica-mus -do po--st ----e--a- s
+                     15 |--.|--||.
+    query            45 i--ri--tui sancto Adjuva me et salvus ero domine ~Defectam e
+    
+    target           95 uffragia ----dica- 108
+                     25 |-..|--.  33
+    query           101 u-oua--e Benedicam 116
+
+-- fused_8 --
+  OCR:      'submissa voce et benedicam do a. per signum crucis V . In conspectu etce . Hus finitis domini lauds'
+  Assigned: 'dominum'
+  Words:    [87..88) consumed=1
+  NW score: k=1 (pre-snap), norm=-9.3068
+  Anchor:   word 88 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 submissa voce et benedicam do a. per signum crucis V . In co
+                      0 ------------------------------------------------------------
+    query             0 ------------------------------------------------------------
+    
+    target           60 nspectu etce . Hus finitis domini lauds 99
+                     60 ---------------------------|||||----|-. 99
+    query             0 ---------------------------domin----u-m  7
+
+-- fused_9 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [88..88) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_10 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [88..88) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_11 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [88..88) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_12 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [88..88) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_13 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [88..88) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_14 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [88..88) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_15 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [88..88) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_16 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [88..88) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_17 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [88..88) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_18 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [88..88) consumed=0
+  Alignment:
+    (no words left)
+=== END DEBUG ===
+

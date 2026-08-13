@@ -1,0 +1,203 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'us in tortura manullarum mearum . pro Conservaevorae'
+  [fused_1] 'V. Elegit ea de intabna'
+  [fused_2] 'teres alie le legnt de comun'
+  [fused_3] 'i viginum'
+  [fused_4] 'aagatha ingressa carcerem'
+  [fused_5] 'dit manus su asad deum et di nocio m'
+  [fused_6] 'me fecisti vincere t car cum jube me do'
+  [fused_7] 'mine atu am m pervenirex'
+  [fused_8] 'omine qui me creasti et tulisti amorem seculi qui'
+  [fused_9] 'corpus meum a ponutionep ti jube  C'
+  [fused_10] 'cinam carnalem  num quam ex hi'
+  [fused_11] ' so Habeo tomnum mclum Xristiams Qui solo'
+  [fused_12] 'Sermione restaurat uni versa Ii'
+  [fused_13] 'me dignatus est ab omni plaga curare et manulam'
+  [fused_14] 'mea Deum in'
+  [fused_15] 'am .  audeamus omnes into mi'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'us in tortura manullarum mearum . pro Conservaevorae'
+  Assigned: 'in tortura mamillarum mearum ~Conserva me euouae'
+  Words:    [0..7) consumed=7
+  NW score: k=7 (pre-snap), norm=4.7838
+  Anchor:   word 12 (within_chant_7), diff=5, snapped=False, forced=False
+  Alignment:
+    target            0 us in tortura manullarum mearum . pro Conserva----evorae 52
+                      0 ---||  5
+    query             0 ---in tortura mamillarum mearum -----~Conserva me euouae 48
+
+-- fused_1 --
+  OCR:      'V. Elegit ea de intabna'
+  Assigned: 'Beata agatha ingressa carcerem expan'
+  Words:    [7..12) consumed=5
+  NW score: k=3 (pre-snap), norm=-1.3650
+  Anchor:   word 12 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 ---V. Elegit-- ----e--a -----de- intabn--a 23
+                      0 ---..  5
+    query             0 Beata --agatha ingressa carcerem expa-ndit 39
+
+-- fused_2 --
+  OCR:      'teres alie le legnt de comun'
+  Assigned: 'dit manus suas ad deum et dixit domine'
+  Words:    [12..19) consumed=7
+  NW score: k=7 (pre-snap), norm=-0.2269
+  Anchor:   word 19 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 teres --a-lie le-- legnt d---e comun- 28
+                      0 ....|  5
+    query             0 manus suas ad deum -e--t dixit domine 34
+
+-- fused_3 --
+  OCR:      'i viginum'
+  Assigned: 'qui me fecisti vincere tormenta carnificum Iube me'
+  Words:    [19..27) consumed=8
+  NW score: k=2 (pre-snap), norm=-2.0412
+  Anchor:   word 27 (within_chant_7), diff=6, snapped=False, forced=True
+  Alignment:
+    target            0 -------------i v--------------------iginum--------  9
+                      0 -------------| 14
+    query             0 qui me fecisti vincere tormenta carnificum Iube me 50
+
+-- fused_4 --
+  OCR:      'aagatha ingressa carcerem'
+  Assigned: 'domine ad tuam misericordiam'
+  Words:    [27..31) consumed=4
+  NW score: k=5 (pre-snap), norm=-1.2004
+  Anchor:   word 31 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 ------aagatha- -ingressa car-cer--em 25
+                      0 ------.|..|.|- 14
+    query             0 domine ad tuam mi-----s---ericordiam 28
+
+-- fused_5 --
+  OCR:      'dit manus su asad deum et di nocio m'
+  Assigned: 'pervenire Domine qui me creasti et tulisti a me'
+  Words:    [31..40) consumed=9
+  NW score: k=9 (pre-snap), norm=-0.8995
+  Anchor:   word 43 (within_chant_7), diff=3, snapped=False, forced=False
+  Alignment:
+    target            0 -----di-t --man---us su ---asad deum et -----di nocio m- 36
+                      0 -----.|-.  9
+    query             0 pervenire Domine qui me creas-----ti et tulisti ----a me 47
+
+-- fused_6 --
+  OCR:      'me fecisti vincere t car cum jube me do'
+  Assigned: 'amorem seculi qui'
+  Words:    [40..43) consumed=3
+  NW score: k=6 (pre-snap), norm=-0.4602
+  Anchor:   word 43 (within_chant_7), diff=3, snapped=False, forced=True
+  Alignment:
+    target            0 -m--e- fecisti vincere t car cu-m jube me do 39
+                      0 -|--|-  6
+    query             0 amorem ----s---------e-------culi qu-------i 17
+
+-- fused_7 --
+  OCR:      'mine atu am m pervenirex'
+  Assigned: 'corpus meum a pollutione'
+  Words:    [43..47) consumed=4
+  NW score: k=4 (pre-snap), norm=-1.4583
+  Anchor:   word 50 (within_chant_7), diff=3, snapped=False, forced=False
+  Alignment:
+    target            0 --mine atu am m perveni-rex 24
+                      0 --....  6
+    query             0 corpus meu--m a pollutione- 24
+
+-- fused_8 --
+  OCR:      'omine qui me creasti et tulisti amorem seculi qui'
+  Assigned: 'separasti Iube Medicinam carnalem corpori meo'
+  Words:    [47..53) consumed=6
+  NW score: k=6 (pre-snap), norm=-0.5111
+  Anchor:   word 50 (within_chant_7), diff=3, snapped=False, forced=False
+  Alignment:
+    target            0 omine qui me creasti ---et tulisti am--or---em sec---uli qui
+                      0 ----------.|..|-||||
+    query             0 ----------separ-asti Iube- Medi-cinam carnalem --corpori meo
+    
+    target           49 
+                     20 
+    query            45 
+
+-- fused_9 --
+  OCR:      'corpus meum a ponutionep ti jube  C'
+  Assigned: 'numquam exhi'
+  Words:    [53..55) consumed=2
+  NW score: k=4 (pre-snap), norm=-1.2508
+  Anchor:   word 55 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 corpus meu-m a ponutionep ti jube  C 35
+                      0 ---.|--|.|-| 12
+    query             0 ---nu--mquam ----------e-xhi---b--ui 15
+
+-- fused_10 --
+  OCR:      'cinam carnalem  num quam ex hi'
+  Assigned: 'bui sed habeo dominum ihesum xpistum Qui'
+  Words:    [55..61) consumed=6
+  NW score: k=6 (pre-snap), norm=-0.7607
+  Anchor:   word 61 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 cinam carnalem --- num ---quam ex------ -hi 30
+                      0 --...  5
+    query             0 --sed ---habeo dominum ihesu-m -xpistum Qui 36
+
+-- fused_11 --
+  OCR:      'so Habeo tomnum mclum Xristiams Qui solo'
+  Assigned: 'solo sermone restaurat universa Qui'
+  Words:    [61..66) consumed=5
+  NW score: k=6 (pre-snap), norm=-0.5899
+  Anchor:   word 66 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 so Habeo -tom-num mclum Xrist--------i-ams- Qui solo 40
+                      0 ||----.|  8
+    query             0 so----lo sermon-------e -restaurat universa Qui----- 35
+
+-- fused_12 --
+  OCR:      'Sermione restaurat uni versa Ii'
+  Assigned: 'me dignatus est ab omni plaga curare et mamillam'
+  Words:    [66..75) consumed=9
+  NW score: k=6 (pre-snap), norm=-0.2001
+  Anchor:   word 75 (within_chant_7), diff=3, snapped=False, forced=True
+  Alignment:
+    target            0 Sermion---e restaurat -uni------ versa----- --Ii---- 31
+                      0 .|..|.|---. 11
+    query             0 me dignatus -est-- ab omni plaga cur-are et mamillam 48
+
+-- fused_13 --
+  OCR:      'me dignatus est ab omni plaga curare et manulam'
+  Assigned: 'meam meo pectori restituere ipsum invoco deum vivum'
+  Words:    [75..83) consumed=8
+  NW score: k=5 (pre-snap), norm=-1.2950
+  Anchor:   word 83 (within_chant_7), diff=3, snapped=False, forced=True
+  Alignment:
+    target            0 me-- --dignat-us -est------ ab omni plaga curare -e-t manula
+                      0 ||--
+    query             0 meam meo pectori restituere ipsum i----nvoc----o deum vivu--
+    
+    target           46 m 47
+                      4 |  5
+    query            50 m 51
+
+-- fused_14 --
+  OCR:      'mea Deum in'
+  Assigned: 'Qui solo Gaudeamus omnes in domino'
+  Words:    [83..89) consumed=6
+  NW score: k=5 (pre-snap), norm=-1.6247
+  Anchor:   word 89 (page_break_77), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 --------mea De--u---m--- in------- 11
+                      0 --------..|..|--|---|--- 24
+    query             0 Qui solo Gaudeamus omnes in domino 34
+
+-- fused_15 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [89..89) consumed=0
+  Alignment:
+    (no words left)
+=== END DEBUG ===
+

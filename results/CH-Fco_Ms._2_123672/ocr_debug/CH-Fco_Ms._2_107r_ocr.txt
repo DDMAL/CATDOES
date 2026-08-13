@@ -1,0 +1,175 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'nes ai transtio vmattendite et est dolor'
+  [fused_1] ' sicut dolor me vo  olitendite'
+  [fused_2] 'si popu li et jndete do lorem meum. ce'
+  [fused_3] 'quomodo moritur nestus nnemo pescipit corde et'
+  [fused_4] 'tolluntur et nemorata faci e miqitatis'
+  [fused_5] 'sublatus eststus . et erit in emor'
+  [fused_6] 'Lauquam agnus coram condente se obmutuit et non'
+  [fused_7] 'apervitos suum de Augustia et  Saia tus'
+  [fused_8] 'ell cus advunna et dominus susceptor n'
+  [fused_9] 'est anne me p dom nomine erorae . in pace factus est'
+  [fused_10] ' in Syon habitatio ejus ps notus in il'
+  [fused_11] 'actus sum sicut homo sine adjutorio inter mortuos liber'
+  [fused_12] 'do san eronae strte tant te'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'nes ai transtio vmattendite et est dolor'
+  Assigned: 'qui transitis per viam attendite et videte Si est dolor'
+  Words:    [0..10) consumed=10
+  NW score: k=10 (pre-snap), norm=3.6244
+  Anchor:   word 16 (within_chant_7), diff=6, snapped=False, forced=False
+  Alignment:
+    target            0 nes ai trans-ti----o v--m-attendite et---------- est dolor 40
+                      0 ---..|  6
+    query             0 ---qui transitis per viam attendite et videte Si est dolor 55
+
+-- fused_1 --
+  OCR:      'sicut dolor me vo  olitendite'
+  Assigned: 'similis sicut dolor meus Attendite univer'
+  Words:    [10..16) consumed=6
+  NW score: k=5 (pre-snap), norm=3.5350
+  Anchor:   word 16 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 --------sicut dolor me vo  olitendite--------- 29
+                      0 --------||||| 13
+    query             0 similis sicut dolor me--us -Attendite universi 43
+
+-- fused_2 --
+  OCR:      'si popu li et jndete do lorem meum. ce'
+  Assigned: 'si populi et videte dolorem meum'
+  Words:    [16..21) consumed=5
+  NW score: k=5 (pre-snap), norm=4.9102
+  Anchor:   word 24 (within_chant_7), diff=3, snapped=False, forced=False
+  Alignment:
+    target            0 si popu li et jndete do lorem meum. ce 38
+                      0 ---||||-|| 10
+    query             0 ---popu-li et videte do-lorem meum---- 29
+
+-- fused_3 --
+  OCR:      'quomodo moritur nestus nnemo pescipit corde et'
+  Assigned: 'Si est Ecce quomodo moritur iustus et nemo percipit corde et'
+  Words:    [21..32) consumed=11
+  NW score: k=11 (pre-snap), norm=5.0632
+  Anchor:   word 24 (within_chant_7), diff=8, snapped=False, forced=False
+  Alignment:
+    target            0 ------------quomodo moritur nestus --nnemo pescipit corde et
+                      0 ------------|||||||
+    query             0 Si est Ecce quomodo moritur iustus et nemo percipit corde et
+    
+    target           46 
+                     19 
+    query            60 
+
+-- fused_4 --
+  OCR:      'tolluntur et nemorata faci e miqitatis'
+  Assigned: 'viri iusti'
+  Words:    [32..34) consumed=2
+  NW score: k=9 (pre-snap), norm=4.0127
+  Anchor:   word 34 (within_chant_7), diff=7, snapped=False, forced=True
+  Alignment:
+    target            0 tolluntur et nemorata faci e miqitatis 38
+                      0 ---------------..|-------| 26
+    query             0 ---------------vir-------i -----iusti- 10
+
+-- fused_5 --
+  OCR:      'sublatus eststus . et erit in emor'
+  Assigned: 'tolluntur et nemo considerat a facie iniquitatis'
+  Words:    [34..41) consumed=7
+  NW score: k=15 (pre-snap), norm=0.6616
+  Anchor:   word 41 (within_chant_7), diff=8, snapped=False, forced=True
+  Alignment:
+    target            0 subl-atus eststus ---. ------e--t ---erit in---- emor 34
+                      0 ...|-.||.  9
+    query             0 tolluntur e---t-- nemo considerat a facie iniquitatis 48
+
+-- fused_6 --
+  OCR:      'Lauquam agnus coram condente se obmutuit et non'
+  Assigned: 'sublatus est iustus Et erit in pace memoria eius Tamquam agnus coram tondente se obmutuit et non'
+  Words:    [41..58) consumed=17
+  NW score: k=17 (pre-snap), norm=2.8435
+  Anchor:   word 51 (within_chant_7), diff=7, snapped=False, forced=False
+  Alignment:
+    target            0 -----------------------------------------La---u-----quam agn
+                      0 -----------------------------------------.|---|-----||||
+    query             0 sublatus est iustus Et erit in pace memoria eius Tamquam agn
+    
+    target           11 us coram condente se obmutuit et non 47
+                     56 || 58
+    query            60 us coram tondente se obmutuit et non 96
+
+-- fused_7 --
+  OCR:      'apervitos suum de Augustia et  Saia tus'
+  Assigned: 'aperuit os suum de angustia et de iudicio sublatus'
+  Words:    [58..67) consumed=9
+  NW score: k=6 (pre-snap), norm=4.4438
+  Anchor:   word 67 (within_chant_7), diff=3, snapped=False, forced=True
+  Alignment:
+    target            0 apervit-os suum de Augustia et -- ---Saia -----tus 39
+                      0 ||||.||-|| 10
+    query             0 aperuit os suum de angustia et de iudicio sublatus 50
+
+-- fused_8 --
+  OCR:      'ell cus advunna et dominus susceptor n'
+  Assigned: 'est Et erit Deus adiuva me et dominus susceptor'
+  Words:    [67..76) consumed=9
+  NW score: k=9 (pre-snap), norm=3.6440
+  Anchor:   word 76 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ell ---------cus advunna--- et dominus susceptor n 38
+                      0 |..  3
+    query             0 est Et erit Deus adiu-va me et dominus susceptor-- 47
+
+-- fused_9 --
+  OCR:      'est anne me p dom nomine erorae . in pace factus est'
+  Assigned: 'est anime mee ~Deus in nomine euouae In pace factus'
+  Words:    [76..86) consumed=10
+  NW score: k=11 (pre-snap), norm=4.7495
+  Anchor:   word 86 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 est an-ne m-e ----p dom nomine erorae . in pace factus est 52
+                      0 |||  3
+    query             0 est anime mee ~Deus -in nomine euouae-- In pace factus---- 51
+
+-- fused_10 --
+  OCR:      'in Syon habitatio ejus ps notus in il'
+  Assigned: 'est locus eius et in syon habitatio eius ~Notus'
+  Words:    [86..95) consumed=9
+  NW score: k=11 (pre-snap), norm=2.9438
+  Anchor:   word 95 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 ------------------in Syon habitatio ejus ps notus in il 37
+                      0 ------------------|| 20
+    query             0 est locus eius et in syon habitatio eius --~Notus------ 47
+
+-- fused_11 --
+  OCR:      'actus sum sicut homo sine adjutorio inter mortuos liber'
+  Assigned: 'in iudea euouae Factus sum sicut homo sine adiutorio inter mortuos liber'
+  Words:    [95..107) consumed=12
+  NW score: k=12 (pre-snap), norm=5.9115
+  Anchor:   word 107 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -----------------actus sum sicut homo sine adjutorio inter m
+                      0 -----------------|||||
+    query             0 in iudea euouae Factus sum sicut homo sine adiutorio inter m
+    
+    target           43 ortuos liber 55
+                     22 |||||| 28
+    query            60 ortuos liber 72
+
+-- fused_12 --
+  OCR:      'do san eronae strte tant te'
+  Assigned: '~Domine deus salutis euouae Astiterunt re'
+  Words:    [107..113) consumed=6
+  NW score: k=6 (pre-snap), norm=0.6673
+  Anchor:   word 113 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 --------d--o sa----n eronae -strte tant te--- 27
+                      0 --------|--. 12
+    query             0 ~Domine deus salutis euouae Astite-runt reges 44
+=== END DEBUG ===
+

@@ -1,0 +1,179 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'um Christi st gerebat in Pecto e et non die bns'
+  [fused_1] 'neque noctibus vaca bat a Collo divi'
+  [fused_2] 'et erca nest secretum Valeriane'
+  [fused_3] 'quod tibi volo dicere Angelum Dei Habeo amato'
+  [fused_4] 'mmo  custodns corpus me ii. a col'
+  [fused_5] 'omine Jhesu et piste seminator casti consilui suscipe seminum'
+  [fused_6] 'fructus quos in cecilia Seminasti t tructavit evovae'
+  [fused_7] 'eata cecilia dixit ad Tyburcium hodie te fateor meum es'
+  [fused_8] 'se cognatum quia amor Dei te fecit esse contemptorem ydo'
+  [fused_9] 'iat domine cormeum et cor'
+  [fused_10] 'pus meum imaculatum ut non confundars'
+  [fused_11] 'taerorasin ao ceclia membra to me'
+  [fused_12] 'bat temmn gemi taibus et a bas alna'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'um Christi st gerebat in Pecto e et non die bns'
+  Assigned: 'xpisti gerebat in pectore et non diebus'
+  Words:    [0..7) consumed=7
+  NW score: k=7 (pre-snap), norm=4.9283
+  Anchor:   word 18 (within_chant_7), diff=11, snapped=False, forced=False
+  Alignment:
+    target            0 um Christi st gerebat in Pecto e et non die bns 47
+                      0 ----..||||--- 13
+    query             0 ----xpisti--- gerebat in pectore et non die-bus 39
+
+-- fused_1 --
+  OCR:      'neque noctibus vaca bat a Collo divi'
+  Assigned: 'neque noctibus vacabat A colloquiis'
+  Words:    [7..12) consumed=5
+  NW score: k=5 (pre-snap), norm=5.6062
+  Anchor:   word 18 (within_chant_7), diff=6, snapped=False, forced=False
+  Alignment:
+    target            0 neque noctibus vaca bat a Collo divi- 36
+                      0 |||||  5
+    query             0 neque noctibus vaca-bat A colloqui-is 35
+
+-- fused_2 --
+  OCR:      'et erca nest secretum Valeriane'
+  Assigned: 'divinis et oratione Est secretum valeriane'
+  Words:    [12..18) consumed=6
+  NW score: k=6 (pre-snap), norm=4.0462
+  Anchor:   word 18 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 --------et erca-- ne--st secretum Valeriane 31
+                      0 --------|| 10
+    query             0 divinis et or-atione Est secretum valeriane 42
+
+-- fused_3 --
+  OCR:      'quod tibi volo dicere Angelum Dei Habeo amato'
+  Assigned: 'quod tibi volo dicere angelum dei habeo amatorem qui'
+  Words:    [18..27) consumed=9
+  NW score: k=8 (pre-snap), norm=6.6271
+  Anchor:   word 27 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 quod tibi volo dicere Angelum Dei Habeo amato------- 45
+                      0 ||||  4
+    query             0 quod tibi volo dicere angelum dei habeo amatorem qui 52
+
+-- fused_4 --
+  OCR:      'mmo  custodns corpus me ii. a col'
+  Assigned: 'nimio zelo custodit corpus meum A'
+  Words:    [27..33) consumed=6
+  NW score: k=7 (pre-snap), norm=2.8605
+  Anchor:   word 33 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 --mmo ---- custodns corpus me ii. a col 33
+                      0 --|.|  5
+    query             0 nimio zelo custodit corpus me----um --A 33
+
+-- fused_5 --
+  OCR:      'omine Jhesu et piste seminator casti consilui suscipe seminum'
+  Assigned: 'colloquiis Domine ihesu christe seminator casti consilii suscipe seminum'
+  Words:    [33..42) consumed=9
+  NW score: k=9 (pre-snap), norm=5.5529
+  Anchor:   word 42 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ------------omine Jhesu et piste seminator casti consilui su
+                      0 ------------|||||
+    query             0 colloquiis Domine ihesu -christe seminator casti consilii su
+    
+    target           48 scipe seminum 61
+                     17 ||||| 22
+    query            59 scipe seminum 72
+
+-- fused_6 --
+  OCR:      'fructus quos in cecilia Seminasti t tructavit evovae'
+  Assigned: 'fructus quos in cecilia seminasti ~Eructavit'
+  Words:    [42..48) consumed=6
+  NW score: k=7 (pre-snap), norm=6.5246
+  Anchor:   word 48 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 fructus quos in cecilia Seminasti t tructavit evovae 52
+                      0 |||||||  7
+    query             0 fructus quos in cecilia seminasti -~Eructavit------- 44
+
+-- fused_7 --
+  OCR:      'eata cecilia dixit ad Tyburcium hodie te fateor meum es'
+  Assigned: 'euouae Beata cecilia dixit ad tyburcium hodie te fateor meum es'
+  Words:    [48..59) consumed=11
+  NW score: k=11 (pre-snap), norm=6.5060
+  Anchor:   word 59 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 --------eata cecilia dixit ad Tyburcium hodie te fateor meum
+                      0 --------||||
+    query             0 euouae Beata cecilia dixit ad tyburcium hodie te fateor meum
+    
+    target           52  es-- 55
+                     12  12
+    query            60  esse 65
+
+-- fused_8 --
+  OCR:      'se cognatum quia amor Dei te fecit esse contemptorem ydo'
+  Assigned: 'se cognatum quia amor dei te fecit esse contemptorem ydo'
+  Words:    [59..68) consumed=9
+  NW score: k=8 (pre-snap), norm=6.6815
+  Anchor:   word 68 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 se cognatum quia amor Dei te fecit esse contemptorem ydo----
+                      0 ---||||||||
+    query             0 ---cognatum quia amor dei te fecit esse contemptorem ydoloru
+    
+    target           56 - 56
+                     11 - 12
+    query            57 m 58
+
+-- fused_9 --
+  OCR:      'iat domine cormeum et cor'
+  Assigned: 'lorum ~Deus noster refugium euouae Fiat domine cor meum et cor'
+  Words:    [68..78) consumed=10
+  NW score: k=10 (pre-snap), norm=2.2392
+  Anchor:   word 78 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ------------------------------iat domine cor-meum et cor---
+                      0 ------------------------------|||
+    query             0 ~Deus noster refugium euouae Fiat domine cor meum et corpus
+    
+    target           25
+                     33
+    query            59
+
+-- fused_10 --
+  OCR:      'pus meum imaculatum ut non confundars'
+  Assigned: 'pus meum immaculatum ut non confundar'
+  Words:    [78..83) consumed=5
+  NW score: k=5 (pre-snap), norm=6.4677
+  Anchor:   word 83 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 pus meum i-maculatum ut non confundars 37
+                      0 ----||||  8
+    query             0 ----meum immaculatum ut non confundar- 33
+
+-- fused_11 --
+  OCR:      'taerorasin ao ceclia membra to me'
+  Assigned: 'Fundamenta euouae Cilicio cecilia membra doma'
+  Words:    [83..89) consumed=6
+  NW score: k=6 (pre-snap), norm=1.8342
+  Anchor:   word 89 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 --------ta-erora--si-n ao cec-lia membra to m---e 33
+                      0 --------||-|.|.|--.|-...| 25
+    query             0 Fundamenta euouae Cilicio cecilia membra do-mabat 48
+
+-- fused_12 --
+  OCR:      'bat temmn gemi taibus et a bas alna'
+  Assigned: 'bat deum gemitibus exorabat almachium'
+  Words:    [89..93) consumed=4
+  NW score: k=4 (pre-snap), norm=2.0009
+  Anchor:   word 93 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 bat temmn gemi taibus e-t a bas alna----- 35
+                      0 ----.|.|-  9
+    query             0 ----deum- gemi-t-ibus exora-bat almachium 33
+=== END DEBUG ===
+

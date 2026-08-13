@@ -1,0 +1,185 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'doremus . Quia nes cinus hora ymiis antiso ad  et adlaudes et per boras quando ve ilet dommu'
+  [fused_1] 'diei re i biaris ma ista dicantur per omnia sicut in'
+  [fused_2] 'Venente pima dyica de Adnentu domini Resposu'
+  [fused_3] ''
+  [fused_4] 'Hensalem ator et salvo a quare merore'
+  [fused_5] 'consume ris nniquid consivarius non esttibi qva in'
+  [fused_6] 'lor salvabo te et liberabo te no'
+  [fused_7] 'ii timere. so s Deus tunis Sanctus'
+  [fused_8] 'srahel rdemptorudominus ve'
+  [fused_9] 'niet et omnes Sancti ejus cum ete'
+  [fused_10] 'int indie a lux magna et exibunt de Jhe ru'
+  [fused_11] 'salem sicuat aqua munda et regnabit dominus in eternum'
+  [fused_12] 'd um omnis gentes XccC dominus cum'
+  [fused_13] 'mrtnte iem et et  emns et potestas et mm'
+  [fused_14] 'Pe mm sup intas mheculalem no'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'doremus . Quia nes cinus hora ymiis antiso ad  et adlaudes et per boras quando ve ilet dommu'
+  Assigned: 'Quia nescimus horam quando veniet dominus'
+  Words:    [0..6) consumed=6
+  NW score: k=6 (pre-snap), norm=1.3026
+  Anchor:   word 14 (within_chant_7), diff=8, snapped=False, forced=False
+  Alignment:
+    target            0 doremus . Quia nes cinus hora ymiis antiso ad  et adlaudes e
+                      0 ----------||||
+    query             0 ----------Quia nes-cimus hora--m----------------------------
+    
+    target           60 t per boras quando ve ilet dom-mu- 92
+                     14 ----------- 25
+    query            19 ----------- quando veni-et dominus 41
+
+-- fused_1 --
+  OCR:      'diei re i biaris ma ista dicantur per omnia sicut in'
+  Assigned: '~Venite Jherusalem cito veniet salus tua quare merore'
+  Words:    [6..14) consumed=8
+  NW score: k=9 (pre-snap), norm=-0.8494
+  Anchor:   word 14 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 die-i-- ---r----e- -i-- biari-s ma is-t-a dicantur- per omni
+                      0 ..|-|--
+    query             0 ~Venite Jherusalem cito -veniet salus tua -qua---re mer-o---
+    
+    target           42 a sicut in 52
+                      7 --------.. 17
+    query            51 --------re 53
+
+-- fused_2 --
+  OCR:      'Venente pima dyica de Adnentu domini Resposu'
+  Assigned: 'consumeris numquid consiliarius non est tibi quia innovabit te'
+  Words:    [14..23) consumed=9
+  NW score: k=5 (pre-snap), norm=-1.5208
+  Anchor:   word 23 (within_chant_7), diff=4, snapped=False, forced=True
+  Alignment:
+    target            0 Ven---ente pim---a --dyi-ca- de Adn-ent-------u-- domin-----
+                      0 ..|---|...
+    query             0 consumeris numquid consiliarius non est tibi quia ---innovab
+    
+    target           35 i- Resposu 44
+                     10 |- 12
+    query            57 it te----- 62
+
+-- fused_3 --
+  OCR:      ''
+  Assigned: 'dolor Salvabo te et liberabo te noli ti'
+  Words:    [23..31) consumed=8
+
+-- fused_4 --
+  OCR:      'Hensalem ator et salvo a quare merore'
+  Assigned: 'mere Ego enim sum dominus deus tuus sanctus'
+  Words:    [31..38) consumed=7
+  NW score: k=9 (pre-snap), norm=-0.9886
+  Anchor:   word 38 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 ---Hen---salem ato----r -e---t--- salvo a quare merore 37
+                      0 ---.||---|--.| 14
+    query             0 Ego enim s--um -dominus deus tuus sa----nctu---------s 38
+
+-- fused_5 --
+  OCR:      'consume ris nniquid consivarius non esttibi qva in'
+  Assigned: 'israhel redemptor tuus Salvabo Ecce dominus veniet et omnes sancti eius cum eo et erit in'
+  Words:    [38..54) consumed=16
+  NW score: k=16 (pre-snap), norm=-1.4241
+  Anchor:   word 45 (within_chant_7), diff=9, snapped=False, forced=False
+  Alignment:
+    target            0 --------------co----ns----------ume --ri--s -nni-quid co-n-s
+                      0 --------------.|----.|----------..|
+    query             0 israhel redemptor tuus Salvabo Ecce dominus veniet et -omnes
+    
+    target           24 iva-----rius---- non esttibi qva in 50
+                     35 ..|-----.|||---- 51
+    query            59  sancti eius cum eo- e-t eri---t in 89
+
+-- fused_6 --
+  OCR:      'lor salvabo te et liberabo te no'
+  Assigned: 'die illa lux magna et exibunt de iheru'
+  Words:    [54..62) consumed=8
+  NW score: k=7 (pre-snap), norm=-0.9062
+  Anchor:   word 62 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 ---------lor salvabo -te e-----t --liber--abo te no 32
+                      0 ---------|.. 12
+    query             0 die illa lux magna-- et- exibunt de iherusa---le--m 43
+
+-- fused_7 --
+  OCR:      'ii timere. so s Deus tunis Sanctus'
+  Assigned: 'salem sicut aqua munda et regnabit dominus in eternum'
+  Words:    [62..70) consumed=8
+  NW score: k=11 (pre-snap), norm=-0.9922
+  Anchor:   word 70 (within_chant_7), diff=3, snapped=False, forced=True
+  Alignment:
+    target            0 ii--- ---tim-----e--re-----. so s Deus tunis --Sanctus 34
+                      0 .|---  5
+    query             0 sicut aqua munda et regnabit do--minus ---in etern--um 47
+
+-- fused_8 --
+  OCR:      'srahel rdemptorudominus ve'
+  Assigned: 'Super omnes gentes Ecce dominus cum'
+  Words:    [70..76) consumed=6
+  NW score: k=6 (pre-snap), norm=-0.4641
+  Anchor:   word 76 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ---sr--ahel rdempt-----orudominus -ve 26
+                      0 ---.|--..|. 11
+    query             0 Super omnes -ge-ntes Ecce dominus cum 35
+
+-- fused_9 --
+  OCR:      'niet et omnes Sancti ejus cum ete'
+  Assigned: 'virtute veniet et regnum in manu eius et potestas et im'
+  Words:    [76..87) consumed=11
+  NW score: k=8 (pre-snap), norm=1.0184
+  Anchor:   word 87 (within_chant_7), diff=3, snapped=False, forced=True
+  Alignment:
+    target            0 ----------niet et ----om--nes Sancti ejus --------cum et----
+                      0 ----------||||
+    query             0 virtute veniet et regnum in-- man--u eius et potestas et imp
+    
+    target           32 e---- 33
+                     14 |---- 19
+    query            56 erium 61
+
+-- fused_10 --
+  OCR:      'int indie a lux magna et exibunt de Jhe ru'
+  Assigned: 'perium Super Civitas iherusalem noli'
+  Words:    [87..91) consumed=4
+  NW score: k=3 (pre-snap), norm=-2.4253
+  Anchor:   word 91 (page_break_77), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 int indie a lux magna et exibunt de Jhe ru---------- 42
+                      0 ------------.|-------.|. 24
+    query             0 ------------Su-------per -Ci-vit-as ihe-rusalem noli 29
+
+-- fused_11 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [91..91) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_12 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [91..91) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_13 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [91..91) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_14 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [91..91) consumed=0
+  Alignment:
+    (no words left)
+=== END DEBUG ===
+

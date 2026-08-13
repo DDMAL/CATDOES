@@ -1,0 +1,171 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'de Bersabee et pergeret aram Loquu est eideus'
+  [fused_1] 'diens ter'
+  [fused_2] 'int et lapidibus altare in honore do'
+  [fused_3] 'in in finidens olenn de super et benedixit um di'
+  [fused_4] 'cens terpariunt deus Ja cob et benedi'
+  [fused_5] 'xiteun et  di Ego sum deusbeThel ubi'
+  [fused_6] 'lapidem et vo i Santimichi Cres'
+  [fused_7] 'teretesa  an etmultiplica nonote veeo'
+  [fused_8] 'mus est nescie bam Cres'
+  [fused_9] 'omine labia mea aperies et os e aabt l'
+  [fused_10] 'demMiserere Cvovae aertera domni fecit jur'
+  [fused_11] 'tutem dertera domini eraltavit me eo confitemim evor'
+  [fused_12] 'attus est adintor mnenus devo mens  . Do deo Cronae'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'de Bersabee et pergeret aram Loquu est eideus'
+  Assigned: 'de bersabee et pergeret aram loquutus est ei deus'
+  Words:    [0..9) consumed=9
+  NW score: k=9 (pre-snap), norm=6.6869
+  Anchor:   word 26 (within_chant_7), diff=17, snapped=False, forced=False
+  Alignment:
+    target            0 de Bersabee et pergeret aram Loquu--- est ei-deus 45
+                      0 ||  2
+    query             0 de bersabee et pergeret aram loquutus est ei deus 49
+
+-- fused_1 --
+  OCR:      'diens ter'
+  Assigned: 'dicens Terram'
+  Words:    [9..11) consumed=2
+  NW score: k=2 (pre-snap), norm=3.6056
+  Anchor:   word 26 (within_chant_7), diff=15, snapped=False, forced=False
+  Alignment:
+    target            0 di-ens ter---  9
+                      0 ||-|||  6
+    query             0 dicens Terram 13
+
+-- fused_2 --
+  OCR:      'int et lapidibus altare in honore do'
+  Assigned: 'in qua dormis tibi dabo et semini tuo Hedificavit et lapidibus altare in honore do'
+  Words:    [11..26) consumed=15
+  NW score: k=15 (pre-snap), norm=2.3364
+  Anchor:   word 26 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 in----------------------------------------------t et lapidib
+                      0 ||----------------------------------------------|
+    query             0 in qua dormis tibi dabo et semini tuo Hedificavit et lapidib
+    
+    target           14 us altare in honore do---- 36
+                     49 || 51
+    query            60 us altare in honore domini 86
+
+-- fused_3 --
+  OCR:      'in in finidens olenn de super et benedixit um di'
+  Assigned: 'mini fundens oleum desuper et benedixit eum di'
+  Words:    [26..33) consumed=7
+  NW score: k=7 (pre-snap), norm=4.7767
+  Anchor:   word 33 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 in in finidens olenn de super et benedixit -um di---- 48
+                      0 ------|.|-|||| 14
+    query             0 ------fun-dens oleum de-super et benedixit eum dicens 45
+
+-- fused_4 --
+  OCR:      'cens terpariunt deus Ja cob et benedi'
+  Assigned: 'cens Terram Apparuit deus iacob et benedix'
+  Words:    [33..39) consumed=6
+  NW score: k=6 (pre-snap), norm=3.6065
+  Anchor:   word 39 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ce--ns terpariunt deus Ja cob et benedi--- 37
+                      0 .|--..  6
+    query             0 Terram -Appar-uit deus ia-cob et benedixit 39
+
+-- fused_5 --
+  OCR:      'xiteun et  di Ego sum deusbeThel ubi'
+  Assigned: 'it eum et dixit ego sum deus bethel ubi'
+  Words:    [39..47) consumed=8
+  NW score: k=8 (pre-snap), norm=4.9167
+  Anchor:   word 47 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 xiteun et  di--- Ego sum deus-beThel ubi 36
+                      0 ---||.  6
+    query             0 ---eum et- dixit ego sum deus bethel ubi 36
+
+-- fused_6 --
+  OCR:      'lapidem et vo i Santimichi Cres'
+  Assigned: 'unxisti lapidem et votum vovisti michi cre'
+  Words:    [47..54) consumed=7
+  NW score: k=7 (pre-snap), norm=3.1700
+  Anchor:   word 54 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 --------lapidem et vo--- ---i Santi-michi Cres---- 31
+                      0 --------||||||| 15
+    query             0 unxisti lapidem et votum vovi---sti michi Crescere 47
+
+-- fused_7 --
+  OCR:      'teretesa  an etmultiplica nonote veeo'
+  Assigned: 'scere te faciam et multiplicabo te Vere do'
+  Words:    [54..61) consumed=7
+  NW score: k=6 (pre-snap), norm=2.7473
+  Anchor:   word 61 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 teretesa  an et-multiplica nonote ve-e--o----- 37
+                      0 ||---..|..|. 12
+    query             0 te--- faciam et multiplica-bo- te Vere dominus 41
+
+-- fused_8 --
+  OCR:      'mus est nescie bam Cres'
+  Assigned: 'minus est in loco isto et ego nesciebam Crescere'
+  Words:    [61..69) consumed=8
+  NW score: k=8 (pre-snap), norm=1.7052
+  Anchor:   word 78 (within_chant_7), diff=9, snapped=False, forced=False
+  Alignment:
+    target            0 mus--------- est-------- nescie bam Cres---- 23
+                      0 -.|--------- 12
+    query             0 -est in loco isto et ego nescie-bam Crescere 42
+
+-- fused_9 --
+  OCR:      'omine labia mea aperies et os e aabt l'
+  Assigned: 'Domine labia mea aperies et os meum annunciabit lau'
+  Words:    [69..78) consumed=9
+  NW score: k=6 (pre-snap), norm=5.7458
+  Anchor:   word 78 (within_chant_7), diff=3, snapped=False, forced=True
+  Alignment:
+    target            0 -omine labia mea aperies et os -e-- a------ab-t l----- 38
+                      0 -|||||  6
+    query             0 Domine labia mea aperies et os meum annunciabit laudem 54
+
+-- fused_10 --
+  OCR:      'demMiserere Cvovae aertera domni fecit jur'
+  Assigned: 'dem tuam ~Miserere euouae Dextera domini fecit vir'
+  Words:    [78..85) consumed=7
+  NW score: k=6 (pre-snap), norm=4.1190
+  Anchor:   word 85 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 -dem--Miserere Cvovae aertera dom-ni fecit jur----- 42
+                      0 -..|--|||||||| 14
+    query             0 tuam ~Miserere euouae Dextera domini fecit virtutem 51
+
+-- fused_11 --
+  OCR:      'tutem dertera domini eraltavit me eo confitemim evor'
+  Assigned: 'tutem dextera domini exaltavit me ~Confitemini euouae'
+  Words:    [85..91) consumed=6
+  NW score: k=6 (pre-snap), norm=4.2883
+  Anchor:   word 91 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 tutem dertera domini eraltavit me eo confitemi-m evo--r 52
+                      0 ------||.|||| 13
+    query             0 ------dextera domini exaltavit me --~Confitemini euouae 47
+
+-- fused_12 --
+  OCR:      'attus est adintor mnenus devo mens  . Do deo Cronae'
+  Assigned: 'Factus est adiutor meus deus meus {Deus deus} euouae Trium'
+  Words:    [91..101) consumed=10
+  NW score: k=9 (pre-snap), norm=3.5341
+  Anchor:   word 101 (page_break_77), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 -attus est adintor mnenus devo mens  . D--o de--o Cronae----
+                      0 -|.|||
+    query             0 Factus est adiutor m-e-us deus meus --{Deus deus} euouae Tri
+    
+    target           51 -- 51
+                      6 --  8
+    query            56 um 58
+=== END DEBUG ===
+

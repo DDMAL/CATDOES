@@ -1,0 +1,183 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'racumdilexisseret suos in fi nem'
+  [fused_1] 'oro . ompisies sempiterne deo'
+  [fused_2] '.cte vovae . ad vespeit et in dommum domini trel ad maistrm an Pontestatem habeo po'
+  [fused_3] 'iterum silmendi cam evovae'
+  [fused_4] 'Noqunti sunt adversum me lungia'
+  [fused_5] 'co lo sa et servionibus odu'
+  [fused_6] 'ediligerent e detrahebant iii'
+  [fused_7] 'autem orabam et exaudisti me domi nee'
+  [fused_8] 'us runt adversum me mala'
+  [fused_9] 'mo podium pro diecti one me go.'
+  [fused_10] 'me de Sanguinibus'
+  [fused_11] 'deus deus meus et exultabit lingua mea iusticiam'
+  [fused_12] 't Miserere Evovac on tumelias et'
+  [fused_13] 'tertores passus sum ab eis et dominis mecum est tan'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'racumdilexisseret suos in fi nem'
+  Assigned: 'ihesus quia venit eius hora cum dilexisset suos in finem'
+  Words:    [0..10) consumed=10
+  NW score: k=10 (pre-snap), norm=2.8820
+  Anchor:   word 16 (within_chant_7), diff=6, snapped=False, forced=False
+  Alignment:
+    target            0 -------------------------ra-cum-dilexisseret suos in fi nem
+                      0 -------------------------||-|||-||||||||--||
+    query             0 ihesus quia venit eius hora cum dilexiss--et suos in fi-nem
+    
+    target           32
+                     44
+    query            56
+
+-- fused_1 --
+  OCR:      'oro . ompisies sempiterne deo'
+  Assigned: 'dilexit eos euouae Potestatem habeo po'
+  Words:    [10..16) consumed=6
+  NW score: k=5 (pre-snap), norm=-1.4752
+  Anchor:   word 16 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 --oro . -ompisie----s ----s---em-pite---rne deo 29
+                      0 --.....  7
+    query             0 dilexit eo---s euouae Potestatem habeo ponend-i 43
+
+-- fused_2 --
+  OCR:      '.cte vovae . ad vespeit et in dommum domini trel ad maistrm an Pontestatem habeo po'
+  Assigned: 'nendi animam meam et iterum sumendi eam euouae Loquuti sunt adversum me'
+  Words:    [16..27) consumed=11
+  NW score: k=11 (pre-snap), norm=-0.8033
+  Anchor:   word 23 (within_chant_7), diff=4, snapped=False, forced=False
+  Alignment:
+    target            0 .cte vovae . ad vespeit et in dommum domin-i trel ad maistrm
+                      0 --------|-...|.
+    query             0 --------a-nimam ---meam et i---terum sumendi --e------a----m
+    
+    target           59  ----an Po--nt-es--t-a-te---m habeo po 83
+                     15  15
+    query            33  euouae Loquuti sunt adversum --me---- 65
+
+-- fused_3 --
+  OCR:      'iterum silmendi cam evovae'
+  Assigned: 'lingua'
+  Words:    [27..28) consumed=1
+  NW score: k=6 (pre-snap), norm=-1.7164
+  Anchor:   word 28 (within_chant_7), diff=5, snapped=False, forced=True
+  Alignment:
+    target            0 iterum silmendi cam evovae 26
+                      0 ---------|----|------...|- 26
+    query             0 ---------l----i------ngua-  6
+
+-- fused_4 --
+  OCR:      'Noqunti sunt adversum me lungia'
+  Assigned: 'dolosa et sermonibus odii circumdederunt'
+  Words:    [28..33) consumed=5
+  NW score: k=7 (pre-snap), norm=-1.3885
+  Anchor:   word 33 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 No---qunti s---un---t ad---versum me- lungia 31
+                      0 .|---...|- 10
+    query             0 dolosa et- sermonibus odii circum-dederun--t 40
+
+-- fused_5 --
+  OCR:      'co lo sa et servionibus odu'
+  Assigned: 'me pro eo diligerent me detrahebant michi'
+  Words:    [33..40) consumed=7
+  NW score: k=8 (pre-snap), norm=-1.5492
+  Anchor:   word 40 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 ----co lo ----sa e-t se----rvionib-us --odu 27
+                      0 ----.|  6
+    query             0 me pro eo diligerent me detr--ahebant michi 41
+
+-- fused_6 --
+  OCR:      'ediligerent e detrahebant iii'
+  Assigned: 'Ego autem orabam et exaudisti'
+  Words:    [40..45) consumed=5
+  NW score: k=5 (pre-snap), norm=-1.0345
+  Anchor:   word 49 (within_chant_7), diff=4, snapped=False, forced=False
+  Alignment:
+    target            0 ediligerent e- detraheba--nt -----i-ii 29
+                      0 ----.|....|-|- 14
+    query             0 ----Ego aut-em --ora--bam et exaudisti 29
+
+-- fused_7 --
+  OCR:      'autem orabam et exaudisti me domi nee'
+  Assigned: 'me domine deus me'
+  Words:    [45..49) consumed=4
+  NW score: k=6 (pre-snap), norm=-1.2206
+  Anchor:   word 49 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 autem -orabam- et -exaudisti me domi nee 37
+                      0 --.|-  5
+    query             0 --me- do----mine- de--u--s-- me-------us 19
+
+-- fused_8 --
+  OCR:      'us runt adversum me mala'
+  Assigned: 'us Et posuerunt adversum me mala'
+  Words:    [49..54) consumed=5
+  NW score: k=5 (pre-snap), norm=5.5720
+  Anchor:   word 54 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 us -----runt adversum me mala 24
+                      0 ..  2
+    query             0 Et posuerunt adversum me mala 29
+
+-- fused_9 --
+  OCR:      'mo podium pro diecti one me go.'
+  Assigned: 'pro bonis et odium pro dilectione mea Ego'
+  Words:    [54..62) consumed=8
+  NW score: k=8 (pre-snap), norm=3.8148
+  Anchor:   word 62 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -mo --------podium pro di-ecti one me- -go. 31
+                      0 -.|  3
+    query             0 pro bonis et odium pro dilecti-one mea Ego- 41
+
+-- fused_10 --
+  OCR:      'me de Sanguinibus'
+  Assigned: 'Libera me de sanguinibus'
+  Words:    [62..66) consumed=4
+  NW score: k=4 (pre-snap), norm=4.8517
+  Anchor:   word 66 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -------me de Sanguinibus 17
+                      0 -------||  9
+    query             0 Libera me de sanguinibus 24
+
+-- fused_11 --
+  OCR:      'deus deus meus et exultabit lingua mea iusticiam'
+  Assigned: 'deus deus meus et exultabit lingua mea iustitiam'
+  Words:    [66..74) consumed=8
+  NW score: k=8 (pre-snap), norm=7.7292
+  Anchor:   word 74 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 deus deus meus et exultabit lingua mea iusticiam 48
+                      0 ||||  4
+    query             0 deus deus meus et exultabit lingua mea iustitiam 48
+
+-- fused_12 --
+  OCR:      't Miserere Evovac on tumelias et'
+  Assigned: 'tuam ~Miserere euouae Contumelias et'
+  Words:    [74..79) consumed=5
+  NW score: k=5 (pre-snap), norm=4.7730
+  Anchor:   word 79 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 t--- -Miserere Evovac -on tumelias et 32
+                      0 |---  4
+    query             0 tuam ~Miserere euouae Con-tumelias et 36
+
+-- fused_13 --
+  OCR:      'tertores passus sum ab eis et dominis mecum est tan'
+  Assigned: 'terrores passus sum ab eis et dominus mecum est tanquam'
+  Words:    [79..89) consumed=10
+  NW score: k=10 (pre-snap), norm=6.9106
+  Anchor:   word 89 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 tertores passus sum ab eis et dominis mecum est tan---- 51
+                      0 |||.||||  8
+    query             0 terrores passus sum ab eis et dominus mecum est tanquam 55
+=== END DEBUG ===
+

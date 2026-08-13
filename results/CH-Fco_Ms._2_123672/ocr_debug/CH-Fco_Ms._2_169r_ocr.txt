@@ -1,0 +1,179 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'in ege domiemimpleti sunt'
+  [fused_1] 'dies purgationis Marie secundum legem moy si tulerunt u'
+  [fused_2] 'limi in Iherusalem ut sisterent eum dono sicut.'
+  [fused_3] 'pecie tua et pulcritudine tua intende prospere procede et'
+  [fused_4] 'regna ructavit abit ea'
+  [fused_5] 'tu suo deus in medio ejus non commovebitur . P. Deus noster evor'
+  [fused_6] 'icut letancium omnium nostrum habitacio estu'
+  [fused_7] 'Sancta Dei Genitrix . ps fudamenta oa Yme'
+  [fused_8] 'onii stus et timo atans redempti'
+  [fused_9] 'onem is ra ha et prematus laneneni eo rat.'
+  [fused_10] 'in esponu acceperat Symeon aspi'
+  [fused_11] 'ritu sanc to non visurum se mortem insippeius videret Christi'
+  [fused_12] 'stum co iii et Romq  esponsim ace'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'in ege domiemimpleti sunt'
+  Assigned: 'in lege domini Postquam autem impleti sunt'
+  Words:    [0..7) consumed=7
+  NW score: k=7 (pre-snap), norm=4.2279
+  Anchor:   word 7 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 in -ege domi---------------em-impleti sunt 25
+                      0 ||  2
+    query             0 in lege domini Postquam autem impleti sunt 42
+
+-- fused_1 --
+  OCR:      'dies purgationis Marie secundum legem moy si tulerunt u'
+  Assigned: 'dies purgationis marie secundum legem moysi tulerunt il'
+  Words:    [7..15) consumed=8
+  NW score: k=7 (pre-snap), norm=7.2178
+  Anchor:   word 15 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 dies purgationis Marie secundum legem moy si tulerunt ---u-
+                      0 ||||
+    query             0 dies purgationis marie secundum legem moy-si tulerunt illum
+    
+    target           55
+                      4
+    query            58
+
+-- fused_2 --
+  OCR:      'limi in Iherusalem ut sisterent eum dono sicut.'
+  Assigned: 'lum in iherusalem ut sisterent eum domino'
+  Words:    [15..21) consumed=6
+  NW score: k=7 (pre-snap), norm=5.9170
+  Anchor:   word 21 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 limi in Iherusalem ut sisterent eum do--no sicut. 47
+                      0 -----||  7
+    query             0 -----in iherusalem ut sisterent eum domino------- 37
+
+-- fused_3 --
+  OCR:      'pecie tua et pulcritudine tua intende prospere procede et'
+  Assigned: 'Sicut Specie tua et pulcritudine tua intende prospere procede et'
+  Words:    [21..31) consumed=10
+  NW score: k=10 (pre-snap), norm=7.1359
+  Anchor:   word 31 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -------pecie tua et pulcritudine tua intende prospere proced
+                      0 -------|||||
+    query             0 Sicut Specie tua et pulcritudine tua intende prospere proced
+    
+    target           53 e et 57
+                     12 | 13
+    query            60 e et 64
+
+-- fused_4 --
+  OCR:      'regna ructavit abit ea'
+  Assigned: 'regna ~Eructavit euouae Adiuvabit eam deus vul'
+  Words:    [31..38) consumed=7
+  NW score: k=5 (pre-snap), norm=4.1709
+  Anchor:   word 38 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 regna --ructavit ------------abit ea------------ 22
+                      0 |||||  5
+    query             0 regna ~Eructavit euouae Adiuvabit eam deus vultu 48
+
+-- fused_5 --
+  OCR:      'tu suo deus in medio ejus non commovebitur . P. Deus noster evor'
+  Assigned: 'tu suo deus in medio eus non commovebitur Deus noster'
+  Words:    [38..47) consumed=9
+  NW score: k=9 (pre-snap), norm=6.0458
+  Anchor:   word 47 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 tu suo deus in medio ejus non commovebitur . P. Deus noster 
+                      0 ---|||
+    query             0 ---suo deus in medio e-us non commovebitur----- Deus noste--
+    
+    target           60 evor 64
+                      6 ---| 10
+    query            49 ---r 50
+
+-- fused_6 --
+  OCR:      'icut letancium omnium nostrum habitacio estu'
+  Assigned: 'euouae Sicut letancium omnium nostrum habitacio est in te'
+  Words:    [47..56) consumed=9
+  NW score: k=7 (pre-snap), norm=6.5230
+  Anchor:   word 56 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 --------icut letancium omnium nostrum habitacio es-----tu 44
+                      0 --------|||| 12
+    query             0 euouae Sicut letancium omnium nostrum habitacio est in te 57
+
+-- fused_7 --
+  OCR:      'Sancta Dei Genitrix . ps fudamenta oa Yme'
+  Assigned: 'sancta dei genetrix ~Fundamenta euouae syme'
+  Words:    [56..62) consumed=6
+  NW score: k=5 (pre-snap), norm=3.5722
+  Anchor:   word 62 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 Sancta Dei Genitrix . ps fu-damenta --o-a- -Yme-- 41
+                      0 .|||||  6
+    query             0 sancta dei genetrix ----~Fundamenta euouae Symeon 45
+
+-- fused_8 --
+  OCR:      'onii stus et timo atans redempti'
+  Assigned: 'on iustus et timoratus expectans redempti'
+  Words:    [62..67) consumed=5
+  NW score: k=5 (pre-snap), norm=3.9825
+  Anchor:   word 67 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 onii stus et timo a---------tans redempti---- 32
+                      0 ---|.||||  9
+    query             0 ---iustus et timoratus expectans redemptionem 42
+
+-- fused_9 --
+  OCR:      'onem is ra ha et prematus laneneni eo rat.'
+  Assigned: 'onem israhel Et spiritus sanctus'
+  Words:    [67..71) consumed=4
+  NW score: k=5 (pre-snap), norm=1.0911
+  Anchor:   word 71 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 onem is ra h-a et -p-rematus laneneni eo rat-. 42
+                      0 -----||-||-|-. 14
+    query             0 -----is-ra-hel Et spir--itus san----------ctus 27
+
+-- fused_10 --
+  OCR:      'in esponu acceperat Symeon aspi'
+  Assigned: 'erat in eo Responsum acceperat symeon a spi'
+  Words:    [71..79) consumed=8
+  NW score: k=7 (pre-snap), norm=4.2852
+  Anchor:   word 79 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 -----in ----espon-u- acceperat Symeon a-spi---- 31
+                      0 -----||  7
+    query             0 erat in eo Responsum acceperat symeon a spiritu 47
+
+-- fused_11 --
+  OCR:      'ritu sanc to non visurum se mortem insippeius videret Christi'
+  Assigned: 'ritu sancto non visurum se mortem nisi prius videret xpistum'
+  Words:    [79..88) consumed=9
+  NW score: k=9 (pre-snap), norm=5.2657
+  Anchor:   word 88 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ritu sanc to non visurum se mortem -insippeius videret Chris
+                      0 -----||||-||
+    query             0 -----sanc-to non visurum se mortem ni-si prius videret -xpis
+    
+    target           59 t-i 61
+                     12 |-. 15
+    query            52 tum 55
+
+-- fused_12 --
+  OCR:      'stum co iii et Romq  esponsim ace'
+  Assigned: 'domini Et spiritus Responsum acceperat'
+  Words:    [88..93) consumed=5
+  NW score: k=5 (pre-snap), norm=0.9319
+  Anchor:   word 93 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 stum co iii et ----Romq  esponsim ac---e--- 33
+                      0 -----.|.|.| 11
+    query             0 -----domini Et spiritus Responsum acceperat 38
+=== END DEBUG ===
+

@@ -1,0 +1,279 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'acerdotes Dei benedicite dominum servi domini hymnu'
+  [fused_1] 'Derve bone et fidelis intra in'
+  [fused_2] 'Ymvs hu redem'
+  [fused_3] 'torselid do qustu'
+  [fused_4] 'dunt dominus Par ad'
+  [fused_5] 'gaudium domini tuipos Laudunsis evovae . bendicto aut uge ser'
+  [fused_6] 'elone et sete nuno amam panci fuisi ficesuperaati'
+  [fused_7] 'te constituam dicit dominus exorae'
+  [fused_8] 'mis . et ornavit eum Stolam glorie induit eum Glia'
+  [fused_9] 'V. Elegit en dominu sacotes'
+  [fused_10] ' ad sacticandit hostian'
+  [fused_11] 'laudis advi r legit eum dominus sacerdotem sibi'
+  [fused_12] 'G. Eues lacdos'
+  [fused_13] 'ecn Scm'
+  [fused_14] 'Domine ad cecia .'
+  [fused_15] 'sacrificandum hostiam laudis Gla In es sacerdos'
+  [fused_16] 'X qustum deant per vi recru etos dadress meternum X setundum Odinem melhiscrems . Bloriam'
+  [fused_17] '. Ecce sacros cumrelicis pdintd p confi'
+  [fused_18] 'teboreat P ladate e P '
+  [fused_19] 'minicite confessor x justumd mavit eum dominus et o'
+  [fused_20] 'navit eum stolam glorie induntrts'
+  [fused_21] 'hec a s di esset'
+  [fused_22] 'c pontitee de ad ma'
+  [fused_23] 'radisi coronavit cum eo fcibs pro soli summis ponti esse'
+  [fused_24] 'summus pontiber tenena non metut ses ad clestua nen'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'acerdotes Dei benedicite dominum servi domini hymnu'
+  Assigned: 'deus euoue Sacerdotes dei benedicite dominum servi domini hymnum dici'
+  Words:    [0..10) consumed=10
+  NW score: k=9 (pre-snap), norm=6.0912
+  Anchor:   word 10 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 ------------acerdotes Dei benedicite dominum servi domini hy
+                      0 ------------|||||||||
+    query             0 deus euoue Sacerdotes dei benedicite dominum servi domini hy
+    
+    target           48 mnu-------- 51
+                     21 |||-------- 32
+    query            60 mnum dicite 71
+
+-- fused_1 --
+  OCR:      'Derve bone et fidelis intra in'
+  Assigned: 'te deo alleluya ~Benedicam euouae Serve bone et fidelis intra in'
+  Words:    [10..20) consumed=10
+  NW score: k=10 (pre-snap), norm=3.0389
+  Anchor:   word 20 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -------------------------------Derve bone et fidelis intra i
+                      0 -------------------------------.||||
+    query             0 deo alleluya ~Benedicam euouae Serve bone et fidelis intra i
+    
+    target           29 n 30
+                     36 | 37
+    query            60 n 61
+
+-- fused_2 --
+  OCR:      'Ymvs hu redem'
+  Assigned: 'gaudium domini'
+  Words:    [20..22) consumed=2
+  NW score: k=2 (pre-snap), norm=-2.5944
+  Anchor:   word 27 (within_chant_7), diff=5, snapped=False, forced=False
+  Alignment:
+    target            0 Ymvs hu- redem--- 13
+                      0 -.....|-  8
+    query             0 -gaudium --domini 14
+
+-- fused_3 --
+  OCR:      'torselid do qustu'
+  Assigned: 'tui ~Laudate euouae Euge ser'
+  Words:    [22..27) consumed=5
+  NW score: k=3 (pre-snap), norm=-1.6692
+  Anchor:   word 27 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 torseli-----d--- -do--- qu---s--tu 17
+                      0 |----.|-----|--- 16
+    query             0 t----ui ~Laudate euouae Euge serve 30
+
+-- fused_4 --
+  OCR:      'dunt dominus Par ad'
+  Assigned: 've bone et fidelis quia in pauca fuisti fidelis supra multa'
+  Words:    [27..37) consumed=10
+  NW score: k=5 (pre-snap), norm=-0.6219
+  Anchor:   word 37 (within_chant_7), diff=5, snapped=False, forced=True
+  Alignment:
+    target            0 dun---t --d--------omin--------u-----------s -Par- ----ad 19
+                      0 ..|---|  7
+    query             0 bone et fidelis quia in pauca fuisti fidelis supra multa- 56
+
+-- fused_5 --
+  OCR:      'gaudium domini tuipos Laudunsis evovae . bendicto aut uge ser'
+  Assigned: 'te constituam dicit dominus euouae Amavit eum domi'
+  Words:    [37..45) consumed=8
+  NW score: k=8 (pre-snap), norm=-0.6507
+  Anchor:   word 45 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ----gaudi-u-m domini tuipos Laud--unsis evovae . bendicto au
+                      0 ----....|-|-|
+    query             0 te constituam d--ici-t----- ---domin-us euouae-- Amavi-t- eu
+    
+    target           52 t -----uge ser 61
+                     13 . 14
+    query            44 m dominu---s-- 53
+
+-- fused_6 --
+  OCR:      'elone et sete nuno amam panci fuisi ficesuperaati'
+  Assigned: 'nus Et ornavit eum Stola glorie induit eum Gloria'
+  Words:    [45..53) consumed=8
+  NW score: k=8 (pre-snap), norm=-1.2565
+  Anchor:   word 53 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -elo-ne et sete nuno amam panci- --fuisi ficesu---peraati 49
+                      0 -..|-|...| 10
+    query             0 Et ornavit -eum -Stola--- glorie indui-t ---e-um Gloria-- 45
+
+-- fused_7 --
+  OCR:      'te constituam dicit dominus exorae'
+  Assigned: 'Elegit eum dominus sacerdotem sibi Ad'
+  Words:    [53..59) consumed=6
+  NW score: k=4 (pre-snap), norm=0.5414
+  Anchor:   word 59 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 -te constit--uam dicit dominus ---e-xorae--------- 34
+                      0 -.|-----.||--|-|------ 22
+    query             0 Ele-----git eu-m------ dominus sacerdo-tem sibi Ad 37
+
+-- fused_8 --
+  OCR:      'mis . et ornavit eum Stolam glorie induit eum Glia'
+  Assigned: 'sacrificandum hostiam laudis Gloria Tu es sacerdos in aeternum Secundum ordinem melchisedech Gloria Amavit eum dominus et ornavit eum stolam glorie induit eum et ad'
+  Words:    [59..84) consumed=25
+  NW score: k=25 (pre-snap), norm=-0.2540
+  Anchor:   word 66 (within_chant_7), diff=18, snapped=False, forced=False
+  Alignment:
+    target            0 --------------------m-----is -------------------------------
+                      0 --------------------|-----||
+    query             0 sacrificandum hostiam laudis Gloria Tu es sacerdos in aetern
+    
+    target            4 ---------------------------------------------------------. e
+                     28 ---------------------------------------------------------.
+    query            60 um Secundum ordinem melchisedech Gloria Amavit eum dominus e
+    
+    target            7 t ornavit eum Stolam glorie induit eum Glia-  50
+                     86 |  87
+    query           120 t ornavit eum stolam glorie induit eum et ad 164
+
+-- fused_9 --
+  OCR:      'V. Elegit en dominu sacotes'
+  Assigned: 'portas pa'
+  Words:    [84..86) consumed=2
+  NW score: k=5 (pre-snap), norm=-2.3094
+  Anchor:   word 86 (within_chant_7), diff=3, snapped=False, forced=True
+  Alignment:
+    target            0 V. Elegit en dominu sacotes- 27
+                      0 -------------.|.... 19
+    query             0 -------------portas paradisi 15
+
+-- fused_10 --
+  OCR:      'ad sacticandit hostian'
+  Assigned: 'radisi coronavit eum euouae Dum esset'
+  Words:    [86..91) consumed=5
+  NW score: k=3 (pre-snap), norm=-1.9546
+  Anchor:   word 91 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 ad sac-ticandit -----ho----------s-tian 22
+                      0 -----|-...|-.|| 15
+    query             0 -----corona-vit eum euouae Dum esset--- 30
+
+-- fused_11 --
+  OCR:      'laudis advi r legit eum dominus sacerdotem sibi'
+  Assigned: 'summus pontifex terrena non metuit sed ad celestia regna'
+  Words:    [91..100) consumed=9
+  NW score: k=8 (pre-snap), norm=-1.1964
+  Anchor:   word 100 (page_break_77), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 lau-dis -advi- r legit eum do--minu-s s---a--cerdotem -sibi
+                      0 -.|-..|
+    query             0 -summus pontifex te--rrena non metuit sed ad celestia regna
+    
+    target           47
+                      7
+    query            56
+
+-- fused_12 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [100..100) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_13 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [100..100) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_14 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [100..100) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_15 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [100..100) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_16 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [100..100) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_17 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [100..100) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_18 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [100..100) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_19 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [100..100) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_20 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [100..100) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_21 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [100..100) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_22 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [100..100) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_23 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [100..100) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_24 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [100..100) consumed=0
+  Alignment:
+    (no words left)
+=== END DEBUG ===
+

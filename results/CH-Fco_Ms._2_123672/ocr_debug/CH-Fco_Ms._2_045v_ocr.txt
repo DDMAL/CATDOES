@@ -1,0 +1,187 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'qui inspiritu et igne Purificas mana contagia Deum ac redempto'
+  [fused_1] 'tem onnes eaceasitenio enoraeput dras'
+  [fused_2] 'nis salvator contrunt in jord ejus potestate omnes'
+  [fused_3] 'eripunt pd domini est terra evovae aptista'
+  [fused_4] 'contrenunt et non audet tangere sanctum Dei verticem sed clamat'
+  [fused_5] 'cum tremore sanctifica me salvator pts afferte Domino'
+  [fused_6] 'agnum musterium decaratur hodie comma creator omnnium'
+  [fused_7] 'in jordane expurgat nostra facinora s quem admodum evo'
+  [fused_8] 'qua comburit peccatum hodie apparens liberator'
+  [fused_9] 'et rorat omnem mundum divinitatis copempti eovae.'
+  [fused_10] ' * celis filium testificat irtus'
+  [fused_11] 'Lancti reser um contonis qui baptizatur Christist'
+  [fused_12] ' Peton callens corter meno'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'qui inspiritu et igne Purificas mana contagia Deum ac redempto'
+  Assigned: 'qui in spiritu et igne purificas humana contagia deum et redemptorem'
+  Words:    [0..11) consumed=11
+  NW score: k=11 (pre-snap), norm=6.3760
+  Anchor:   word 18 (within_chant_7), diff=7, snapped=False, forced=False
+  Alignment:
+    target            0 qui in-spiritu et igne Purificas --mana contagia Deum ac red
+                      0 |||
+    query             0 qui in spiritu et igne purificas humana contagia deum et red
+    
+    target           57 empto--- 62
+                      3 |||||--- 11
+    query            60 emptorem 68
+
+-- fused_1 --
+  OCR:      'tem onnes eaceasitenio enoraeput dras'
+  Assigned: 'omnes glorificamus {Celi enarrant} euouae Caput draco'
+  Words:    [11..18) consumed=7
+  NW score: k=7 (pre-snap), norm=0.7250
+  Anchor:   word 18 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 tem onnes -----eacea--s-----ite-----nio enorae---put dra----
+                      0 ----|.|||
+    query             0 ----omnes glorific-amus {Celi enarrant} euouae Caput draconi
+    
+    target           36 s 37
+                      9 | 10
+    query            55 s 56
+
+-- fused_2 --
+  OCR:      'nis salvator contrunt in jord ejus potestate omnes'
+  Assigned: 'nis salvator contrunt in iordane flumine ab eius potestate omnes'
+  Words:    [18..27) consumed=9
+  NW score: k=9 (pre-snap), norm=5.1121
+  Anchor:   word 27 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 nis salvator contrunt in jord-------------- ejus potestate o
+                      0 ----||||||||
+    query             0 ----salvator contrunt in iordane flumine ab eius potestate o
+    
+    target           46 mnes 50
+                     12 |||| 16
+    query            56 mnes 60
+
+-- fused_3 --
+  OCR:      'eripunt pd domini est terra evovae aptista'
+  Assigned: 'eripuit {Domine est terra} euouae Baptista'
+  Words:    [27..33) consumed=6
+  NW score: k=6 (pre-snap), norm=5.1905
+  Anchor:   word 33 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 eripunt pd domini est terra- evovae -aptista 42
+                      0 |||||.|  7
+    query             0 eripuit --{Domine est terra} euouae Baptista 42
+
+-- fused_4 --
+  OCR:      'contrenunt et non audet tangere sanctum Dei verticem sed clamat'
+  Assigned: 'contremuit et non audet tangere sanctum dei verticem sed clamat'
+  Words:    [33..43) consumed=10
+  NW score: k=10 (pre-snap), norm=7.3810
+  Anchor:   word 43 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 contrenunt et non audet tangere sanctum Dei verticem sed cla
+                      0 ||||||.|.|
+    query             0 contremuit et non audet tangere sanctum dei verticem sed cla
+    
+    target           60 mat 63
+                     10 ||| 13
+    query            60 mat 63
+
+-- fused_5 --
+  OCR:      'cum tremore sanctifica me salvator pts afferte Domino'
+  Assigned: 'cum tremore sanctifica me salvator ~Afferte domino'
+  Words:    [43..50) consumed=7
+  NW score: k=7 (pre-snap), norm=6.7601
+  Anchor:   word 50 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 cum tremore sanctifica me salvator pts afferte Domino 53
+                      0 |||  3
+    query             0 cum tremore sanctifica me salvator ---~Afferte domino 50
+
+-- fused_6 --
+  OCR:      'agnum musterium decaratur hodie comma creator omnnium'
+  Assigned: 'euouae Magnum misterium declaratur hodie quia creator omnium'
+  Words:    [50..58) consumed=8
+  NW score: k=8 (pre-snap), norm=5.4441
+  Anchor:   word 58 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 --------agnum musterium dec-aratur hodie comma creator omnni
+                      0 --------|||||
+    query             0 euouae Magnum misterium declaratur hodie -quia creator om-ni
+    
+    target           51 um 53
+                     13 || 15
+    query            58 um 60
+
+-- fused_7 --
+  OCR:      'in jordane expurgat nostra facinora s quem admodum evo'
+  Assigned: 'in iordane expurgat nostra facinora {Quemadmodum}'
+  Words:    [58..64) consumed=6
+  NW score: k=6 (pre-snap), norm=6.0848
+  Anchor:   word 64 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 in jordane expurgat nostra facinora s quem admodum evo 54
+                      0 ||  2
+    query             0 in iordane expurgat nostra facinora -{Quem-admodum---} 49
+
+-- fused_8 --
+  OCR:      'qua comburit peccatum hodie apparens liberator'
+  Assigned: 'euouae Aqua comburit peccatum hodie apparens liberator'
+  Words:    [64..71) consumed=7
+  NW score: k=7 (pre-snap), norm=6.8219
+  Anchor:   word 71 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 --------qua comburit peccatum hodie apparens liberator 46
+                      0 --------||| 11
+    query             0 euouae Aqua comburit peccatum hodie apparens liberator 54
+
+-- fused_9 --
+  OCR:      'et rorat omnem mundum divinitatis copempti eovae.'
+  Assigned: 'et rorat omnem mundum divinitatis ope {Deus'
+  Words:    [71..78) consumed=7
+  NW score: k=6 (pre-snap), norm=5.9184
+  Anchor:   word 78 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 et rorat omnem mundum divinitatis copempti eovae-. 49
+                      0 ||  2
+    query             0 et rorat omnem mundum divinitatis -ope---- --{Deus 43
+
+-- fused_10 --
+  OCR:      '* celis filium testificat irtus'
+  Assigned: 'noster} euouae Pater de celis filium testificat spiritus'
+  Words:    [78..86) consumed=8
+  NW score: k=8 (pre-snap), norm=3.5521
+  Anchor:   word 86 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ----------------------* celis filium testificat --ir-tus 31
+                      0 ----------------------. 23
+    query             0 noster} euouae Pater de celis filium testificat spiritus 56
+
+-- fused_11 --
+  OCR:      'Lancti reser um contonis qui baptizatur Christist'
+  Assigned: 'sancti presentia advenit unum edocens qui baptizatur xpistus'
+  Words:    [86..94) consumed=8
+  NW score: k=8 (pre-snap), norm=3.1168
+  Anchor:   word 94 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 Lancti -rese-----------r --um ---contonis qui baptizatur Chr
+                      0 .|||||
+    query             0 sancti presentia advenit unum edocen----s qui baptizatur -xp
+    
+    target           43 istist 49
+                      6 |||.|- 12
+    query            55 istus- 60
+
+-- fused_12 --
+  OCR:      'Peton callens corter meno'
+  Assigned: '{Deus iudicium} euouae Peccati aculeus conteritur hodie'
+  Words:    [94..101) consumed=7
+  NW score: k=7 (pre-snap), norm=-0.9978
+  Anchor:   word 101 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ---------------Peto--n ---ca-----llens corte----r ---meno 25
+                      0 ---------------.|.|--. 22
+    query             0 {Deus iudicium} euouae Peccati aculeus conteritur hodie-- 55
+=== END DEBUG ===
+

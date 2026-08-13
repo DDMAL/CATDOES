@@ -1,0 +1,167 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'as pacem lem . Dic civita tibus inde et habi'
+  [fused_1] 'tatoribussy quem expectabamus'
+  [fused_2] ' veni uper Montem et ascende'
+  [fused_3] 'tulizas sy on exalta in fortitudine vocem tu'
+  [fused_4] 'am . rie tur stella ex Jacobi etgiget'
+  [fused_5] 'homo de Is et confringet omnes du cesa'
+  [fused_6] 'Nenge na num etent omnis. possessio'
+  [fused_7] 'e tadorabunt eum omnes reges'
+  [fused_8] 'onmes gentes ser mente et eritrum o'
+  [fused_9] 'doVemet'
+  [fused_10] 'Maio c tur rietur mo'
+  [fused_11] '.ii e eranenu i as . et nom'
+  [fused_12] 'Rophete pecdianerunt vaso saluatorem de Vurgmema'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'as pacem lem . Dic civita tibus inde et habi'
+  Assigned: 'pacem in iherusalem Dic civitatibus iude et habitatoribus'
+  Words:    [0..8) consumed=8
+  NW score: k=8 (pre-snap), norm=3.9137
+  Anchor:   word 19 (within_chant_7), diff=11, snapped=False, forced=False
+  Alignment:
+    target            0 as pacem ----------lem . Dic civita tibus inde et habi------
+                      0 ---|||||
+    query             0 ---pacem in iherusalem-- Dic civita-tibus iude et habitatori
+    
+    target           44 --- 44
+                      8 --- 11
+    query            54 bus 57
+
+-- fused_1 --
+  OCR:      'tatoribussy quem expectabamus'
+  Assigned: 'syon ecce deus noster quem expectabamus'
+  Words:    [8..14) consumed=6
+  NW score: k=6 (pre-snap), norm=2.7951
+  Anchor:   word 19 (within_chant_7), diff=5, snapped=False, forced=False
+  Alignment:
+    target            0 tato------ribus---s--y quem expectabamus 29
+                      0 -..|------...||---|--. 22
+    query             0 -syon ecce deus noster quem expectabamus 39
+
+-- fused_2 --
+  OCR:      'veni uper Montem et ascende'
+  Assigned: 'adveniet Super montem excelsum ascende'
+  Words:    [14..19) consumed=5
+  NW score: k=5 (pre-snap), norm=4.4020
+  Anchor:   word 19 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 --veni-- -uper Montem e------t ascende 27
+                      0 --||||--  8
+    query             0 adveniet Super montem excelsum ascende 38
+
+-- fused_3 --
+  OCR:      'tulizas sy on exalta in fortitudine vocem tu'
+  Assigned: 'tu qui evangelizas syon exalta in fortitudine vocem tuam'
+  Words:    [19..28) consumed=9
+  NW score: k=9 (pre-snap), norm=5.8422
+  Anchor:   word 28 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 tu-----------lizas sy on exalta in fortitudine vocem tu-- 44
+                      0 ||-----------||||| 18
+    query             0 tu qui evangelizas sy-on exalta in fortitudine vocem tuam 56
+
+-- fused_4 --
+  OCR:      'am . rie tur stella ex Jacobi etgiget'
+  Assigned: 'Dic Orietur stella ex iacob et exurget'
+  Words:    [28..35) consumed=7
+  NW score: k=7 (pre-snap), norm=4.0804
+  Anchor:   word 35 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -am . rie tur stella ex Jacobi et---giget 37
+                      0 -..  3
+    query             0 Dic -Orie-tur stella ex iacob- et exurget 38
+
+-- fused_5 --
+  OCR:      'homo de Is et confringet omnes du cesa'
+  Assigned: 'homo de israhel et confringet omnes duces a'
+  Words:    [35..43) consumed=8
+  NW score: k=7 (pre-snap), norm=6.1310
+  Anchor:   word 43 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 homo de Is----- et confringet omnes du ces----------a--- 38
+                      0 ||||  4
+    query             0 homo de israhel et confringet omnes du-ces alienigenarum 55
+
+-- fused_6 --
+  OCR:      'Nenge na num etent omnis. possessio'
+  Assigned: 'lienigenarum Et erit omnis terra possessio'
+  Words:    [43..48) consumed=5
+  NW score: k=5 (pre-snap), norm=2.1030
+  Anchor:   word 48 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 Nenge na num etent omnis-----. possessio 35
+                      0 ----------.. 12
+    query             0 ----------Et e-rit omnis terra possessio 29
+
+-- fused_7 --
+  OCR:      'e tadorabunt eum omnes reges'
+  Assigned: 'eius Et adorabunt eum omnes reges'
+  Words:    [48..54) consumed=6
+  NW score: k=6 (pre-snap), norm=6.4808
+  Anchor:   word 54 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 e--- -t-adorabunt eum omnes reges 28
+                      0 |---  4
+    query             0 eius Et adorabunt eum omnes reges 33
+
+-- fused_8 --
+  OCR:      'onmes gentes ser mente et eritrum o'
+  Assigned: 'terre omnes gentes servient ei Et erit mo'
+  Words:    [54..62) consumed=8
+  NW score: k=8 (pre-snap), norm=3.4283
+  Anchor:   word 62 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ------o-nmes gentes ser ment-e- et eritrum ---o 35
+                      0 ------|-|-|| 12
+    query             0 terre omn-es gentes servient ei Et erit--- Modo 43
+
+-- fused_9 --
+  OCR:      'doVemet'
+  Assigned: 'do veniet dominator dominus Et nomen eius hema'
+  Words:    [62..69) consumed=7
+  NW score: k=1 (pre-snap), norm=-0.4629
+  Anchor:   word 69 (within_chant_7), diff=6, snapped=False, forced=True
+  Alignment:
+    target            0 -----------------do--------------------Vem----et  7
+                      0 -----------------||--------------------.||----|. 48
+    query             0 veniet dominator dominus Et nomen eius hemanuhel 48
+
+-- fused_10 --
+  OCR:      'Maio c tur rietur mo'
+  Assigned: 'nuhel vocabitur Orietur in diebus eius'
+  Words:    [69..74) consumed=5
+  NW score: k=3 (pre-snap), norm=2.5000
+  Anchor:   word 74 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 Maio c-- tur -rietur ------------mo 20
+                      0 --.|-|--.||| 12
+    query             0 --vo-cabitur Orietur in diebus eius 32
+
+-- fused_11 --
+  OCR:      '.ii e eranenu i as . et nom'
+  Assigned: 'iusticia et habundancia pacis Et nomen'
+  Words:    [74..80) consumed=6
+  NW score: k=6 (pre-snap), norm=0.3122
+  Anchor:   word 80 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ---.i-i- e- era--n-enu i- -a--s . et nom-- 27
+                      0 ---.|-|-  8
+    query             0 iusticia et -habundan-cia pacis-- Et nomen 38
+
+-- fused_12 --
+  OCR:      'Rophete pecdianerunt vaso saluatorem de Vurgmema'
+  Assigned: 'Prophete predicaverunt nasci salvatorem de virgine maria'
+  Words:    [80..87) consumed=7
+  NW score: k=6 (pre-snap), norm=4.1641
+  Anchor:   word 87 (page_break_77), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 -Rophete p-ecdi-anerunt vas-o saluatorem de Vurg-me-m---a 48
+                      0 -.||||||  8
+    query             0 Prophete pre-dicaverunt nasci salvatorem de virgine maria 56
+=== END DEBUG ===
+

@@ -1,0 +1,299 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'dro do qui micitu'
+  [fused_1] 'domme  dit'
+  [fused_2] 'Cum sederit filius hominis in sede majestatis sune or'
+  [fused_3] 'espastor petrus . Do a Beatum Petrum in di de pace ad in capitula bonum certamu ad oius capitam re magnituto Renela ad ex capetla ego ejum sit ste dueGliosi principes terre et Petrus apostolo'
+  [fused_4] 'diocesinfra octasi ad magitr et ad bn Gliosi di ad magni cum . constites eos a . Et petro apistolis'
+  [fused_5] 'nonmietta dicunt adbu qnfra annum dit Giulus ad veon post ad oratio diei di Petrios apostoli B.'
+  [fused_6] 'constitues eos principes bu post de Glosi principes terre'
+  [fused_7] 'In omnemterram exunt sommis eorum'
+  [fused_8] 'et in fines or orio si principes ter re quomo'
+  [fused_9] 'ta suadileta et in morte non sunt se'
+  [fused_10] 'parati evovac Detrus a postolus et Paulus doctor ge'
+  [fused_11] ''
+  [fused_12] 'a relpas quntunt domino pro ordinens ad capiumpr senito octus a i obno cuiis  . fuit hommo ad magistri aute.'
+  [fused_13] 'ncipes tre . cConstitues'
+  [fused_14] 'd capelli eccendi per totum diem Pverqui processi *I mum Glioli Prarincipes  ottin dominicis non ooro . do quinos ooro qle tane Notam pocesisi e'
+  [fused_15] ' ventis tustimus et festivit'
+  [fused_16] 'facinus usque ad'
+  [fused_17] 'omemoratione advenientis'
+  [fused_18] 'Bro Done oncomemoratione dron dmno  officia ad bon'
+  [fused_19] '. '
+  [fused_20] 'lorum postea addit et dedinta cueb s a justor ecmn res'
+  [fused_21] ' o tiendum quod at sedo die post festum Sacti Pauli die VeMariengis'
+  [fused_22] '4 * alqua omemorato de pace in octs aptolorum mertius denbis dobiii salce primae duplee offii.'
+  [fused_23] ' plis os qer presbitri apostlic des suos ono . do cuustexta invat'
+  [fused_24] 'ea Romet mo  aug episcopi sev magini spectacuum positum omro praas'
+  [fused_25] 'festo Sancti Phiyi popt pyus natione in festo sanctorum vaboris et Felicis oro pta quod Domine'
+  [fused_26] 'done iin Sancte Hn forose t doii filiis suis lca apd Tybuitiaci'
+  [fused_27] 'desto'
+  [fused_28] 'ccapilti confitebor'
+  [fused_29] 'Domisi pisticido i noie bus auio milier que erat'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'dro do qui micitu'
+  Assigned: 'euouae Cum sederit filius'
+  Words:    [0..4) consumed=4
+  NW score: k=4 (pre-snap), norm=-1.0672
+  Anchor:   word 9 (within_chant_7), diff=5, snapped=False, forced=False
+  Alignment:
+    target            0 dro do qu-------i- micitu- 17
+                      0 ..|...  6
+    query             0 euouae Cum sederit fili-us 25
+
+-- fused_1 --
+  OCR:      'domme  dit'
+  Assigned: 'hominis in'
+  Words:    [4..6) consumed=2
+  NW score: k=2 (pre-snap), norm=-0.7000
+  Anchor:   word 9 (within_chant_7), diff=3, snapped=False, forced=False
+  Alignment:
+    target            0 dom-me  dit 10
+                      0 .||-...  7
+    query             0 hominis -in 10
+
+-- fused_2 --
+  OCR:      'Cum sederit filius hominis in sede majestatis sune or'
+  Assigned: 'sede maiestatis sue'
+  Words:    [6..9) consumed=3
+  NW score: k=4 (pre-snap), norm=0.9345
+  Anchor:   word 9 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 Cum sederit filius hominis in sede majestatis sune or 53
+                      0 ------------------------------|||| 34
+    query             0 ------------------------------sede maiestatis su-e--- 19
+
+-- fused_3 --
+  OCR:      'espastor petrus . Do a Beatum Petrum in di de pace ad in capitula bonum certamu ad oius capitam re magnituto Renela ad ex capetla ego ejum sit ste dueGliosi principes terre et Petrus apostolo'
+  Assigned: 'Gloriosi principes terre quomodo in vita sua dilexerunt se ita et in morte non sunt separati euouae Petrus apostolus'
+  Words:    [9..28) consumed=19
+  NW score: k=19 (pre-snap), norm=-0.5710
+  Anchor:   word 13 (within_chant_7), diff=15, snapped=False, forced=False
+  Alignment:
+    target            0 espastor petrus . Do a Beatum Petrum in di--- de pace ----ad
+                      0 ----..||----------.|..
+    query             0 ----Glor----------iosi ---------pr---in-cipes te--rre quomod
+    
+    target           53 - in capitula bonum ----certamu ad oius- capitam re magnitut
+                     22 -
+    query            31 o in --vit--a --sua dilexer---u-nt ---se ---ita- -e--------t
+    
+    target          107 o Renela ad ex capetla ego ejum s-it ste dueGliosi p-rincipe
+                     23 -
+    query            65 - -in--------- -mort---e-- -non sunt s-----e-------par-ati--
+    
+    target          165 s terre et Petrus apostol-o 191
+                     24 -  25
+    query            92 - -euouae- Petrus apostolus 116
+
+-- fused_4 --
+  OCR:      'diocesinfra octasi ad magitr et ad bn Gliosi di ad magni cum . constites eos a . Et petro apistolis'
+  Assigned: 'et paulus doctor gen'
+  Words:    [28..32) consumed=4
+  NW score: k=14 (pre-snap), norm=-0.8663
+  Anchor:   word 32 (within_chant_7), diff=10, snapped=False, forced=True
+  Alignment:
+    target            0 diocesinfra octasi ad magitr et -ad bn Gliosi di ad magni cu
+                      0 -----------------------------||
+    query             0 -----------------------------et pa-----ul-us- d-------------
+    
+    target           59 m . constites eos a . Et petro apistolis 99
+                     31 -----|---.|----|-------. 55
+    query            11 -----o---ct----o-------r ge----nci----um 24
+
+-- fused_5 --
+  OCR:      'nonmietta dicunt adbu qnfra annum dit Giulus ad veon post ad oratio diei di Petrios apostoli B.'
+  Assigned: 'cium ipsi nos docuerunt legem tuam domine'
+  Words:    [32..38) consumed=6
+  NW score: k=12 (pre-snap), norm=-1.0914
+  Anchor:   word 38 (within_chant_7), diff=6, snapped=False, forced=True
+  Alignment:
+    target            0 -----nonmietta dicunt adbu qnfra annum dit Giulus ad veon po
+                      0 -----||------.
+    query             0 ipsi no------s docu----------er-----u---nt ---l-----ege-m --
+    
+    target           55 st ad oratio diei di Petrios apostoli B. 95
+                     14 -|.|------------. 31
+    query            25 -tua------------m d---------------omi-ne 36
+
+-- fused_6 --
+  OCR:      'constitues eos principes bu post de Glosi principes terre'
+  Assigned: 'euouae In diebus illis mulier que erat'
+  Words:    [38..45) consumed=7
+  NW score: k=7 (pre-snap), norm=-1.3537
+  Anchor:   word 45 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -constitu-e--s --e-os principes bu post de Glosi principes t
+                      0 -.|-----|-|--.
+    query             0 euo-----uae In diebus --illi--s mu----------l--i-er-- que- -
+    
+    target           53 erre 57
+                     14 ||.. 18
+    query            34 erat 38
+
+-- fused_7 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [45..45) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_8 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [45..45) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_9 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [45..45) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_10 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [45..45) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_11 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [45..45) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_12 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [45..45) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_13 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [45..45) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_14 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [45..45) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_15 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [45..45) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_16 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [45..45) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_17 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [45..45) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_18 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [45..45) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_19 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [45..45) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_20 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [45..45) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_21 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [45..45) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_22 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [45..45) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_23 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [45..45) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_24 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [45..45) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_25 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [45..45) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_26 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [45..45) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_27 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [45..45) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_28 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [45..45) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_29 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [45..45) consumed=0
+  Alignment:
+    (no words left)
+=== END DEBUG ===
+

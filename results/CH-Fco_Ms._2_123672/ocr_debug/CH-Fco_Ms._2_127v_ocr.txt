@@ -1,0 +1,208 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'li magnalia de et convenit o ria patri et'
+  [fused_1] 'fili spiri tui Canc to. hhoras diei aut'
+  [fused_2] 'um complerentur dies Pentecostes erant omnes pari'
+  [fused_3] 'ter dicentes Alleluya prss dominus Regis evovae  Piritus do'
+  [fused_4] ' plet orlpb o'
+  [fused_5] 'Nepleti sunt omnies spiritum Sancto et ceperunt loqui al'
+  [fused_6] 'Mayi dsdusontes et omnia que mo'
+  [fused_7] 'ventur in aquino vunnum diate dei avelin si ei bendius eo'
+  [fused_8] '.ome. oquebantur variis linguis aposto limag'
+  [fused_9] 'maliam Dei allesuor ane jumi alie jurap Lanidoni oorae'
+  [fused_10] 'pmis Beatonobile'
+  [fused_11] '|epleti sut omni cepert ions ali ad bente cipi te spiritum Sanctum quorum'
+  [fused_12] 'remiseritis peccata remittuntur eis Allelnya evovae'
+  [fused_13] 'Sciendo po tonibus pmmista noctis qu divri'
+  [fused_14] 'adjungit in fine Elapat dmonatoque ad'
+  [fused_15] 'dee u veucant de paticus domii replennt'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'li magnalia de et convenit o ria patri et'
+  Assigned: 'magnalia dei Et convenit Gloria patri et'
+  Words:    [0..7) consumed=7
+  NW score: k=7 (pre-snap), norm=6.0745
+  Anchor:   word 7 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 li magnalia de- et convenit --o ria patri et 41
+                      0 ---|||||||| 11
+    query             0 ---magnalia dei Et convenit Glo-ria patri et 40
+
+-- fused_1 --
+  OCR:      'fili spiri tui Canc to. hhoras diei aut'
+  Assigned: 'filio et spiritui sancto Dum'
+  Words:    [7..12) consumed=5
+  NW score: k=5 (pre-snap), norm=2.4209
+  Anchor:   word 18 (within_chant_7), diff=6, snapped=False, forced=False
+  Alignment:
+    target            0 fili---- spiri tui Canc to. hhoras diei aut 39
+                      0 ||||----  8
+    query             0 filio et spiri-tui sanc-to------------- Dum 28
+
+-- fused_2 --
+  OCR:      'um complerentur dies Pentecostes erant omnes pari'
+  Assigned: 'complerentur dies pentecostes erant omnes pari'
+  Words:    [12..18) consumed=6
+  NW score: k=6 (pre-snap), norm=6.7143
+  Anchor:   word 18 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 um complerentur dies Pentecostes erant omnes pari--- 49
+                      0 ---|||||||||||| 15
+    query             0 ---complerentur dies pentecostes erant omnes pariter 49
+
+-- fused_3 --
+  OCR:      'ter dicentes Alleluya prss dominus Regis evovae  Piritus do'
+  Assigned: 'ter dicentes alleluya ~Dominus regnavit euouae Spiritus do'
+  Words:    [18..25) consumed=7
+  NW score: k=7 (pre-snap), norm=3.9318
+  Anchor:   word 25 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ter dicentes Alleluya prss dominus Reg---is evovae  Piritus 
+                      0 ----||||||||
+    query             0 ----dicentes alleluya ----~Dominus regnavit euouae Spiritus 
+    
+    target           57 do---- 59
+                     12 ||---- 18
+    query            52 domini 58
+
+-- fused_4 --
+  OCR:      'plet orlpb o'
+  Assigned: 'mini replevit orbem'
+  Words:    [25..27) consumed=2
+  NW score: k=2 (pre-snap), norm=1.8516
+  Anchor:   word 31 (within_chant_7), diff=4, snapped=False, forced=False
+  Alignment:
+    target            0 --ple--t orlpb o 12
+                      0 --|||--|  8
+    query             0 replevit or--bem 14
+
+-- fused_5 --
+  OCR:      'Nepleti sunt omnies spiritum Sancto et ceperunt loqui al'
+  Assigned: 'terrarum alleluya ~Iubilate euouae Repleti sunt omnes spiritu sancto et ceperunt loqui al'
+  Words:    [27..40) consumed=13
+  NW score: k=13 (pre-snap), norm=3.5784
+  Anchor:   word 31 (within_chant_7), diff=9, snapped=False, forced=False
+  Alignment:
+    target            0 -----------------------------------Nepleti sunt omnies spiri
+                      0 -----------------------------------.||||||
+    query             0 terrarum alleluya ~Iubilate euouae Repleti sunt omn-es spiri
+    
+    target           25 tum Sancto et ceperunt loqui al------ 56
+                     42 ||- 45
+    query            59 tu- sancto et ceperunt loqui alleluya 95
+
+-- fused_6 --
+  OCR:      'Mayi dsdusontes et omnia que mo'
+  Assigned: 'leluya ~Deus deus euouae Fontes et omnia quae mo'
+  Words:    [40..48) consumed=8
+  NW score: k=8 (pre-snap), norm=2.6460
+  Anchor:   word 48 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -Mayi dsdus---------ontes et omnia qu-e mo------ 31
+                      0 -....  5
+    query             0 ~Deus d-eus euouae Fontes et omnia quae moventur 47
+
+-- fused_7 --
+  OCR:      'ventur in aquino vunnum diate dei avelin si ei bendius eo'
+  Assigned: 'ventur in aquis ymnum dicite deo alleluya ~Benedictus euouae'
+  Words:    [48..56) consumed=8
+  NW score: k=8 (pre-snap), norm=1.8012
+  Anchor:   word 56 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ventur in aquino vunnum di-ate dei a-velin si ei ben-di--us 
+                      0 -------||
+    query             0 -------in aqui-s -ymnum dicite deo allel--uya --~Benedictus 
+    
+    target           55 e-o--- 57
+                      9 |-|--- 15
+    query            47 euouae 53
+
+-- fused_8 --
+  OCR:      '.ome. oquebantur variis linguis aposto limag'
+  Assigned: 'Loquebantur variis linguis apostoli ma'
+  Words:    [56..61) consumed=5
+  NW score: k=4 (pre-snap), norm=5.8100
+  Anchor:   word 61 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 .ome. oquebantur variis linguis aposto li-mag----- 44
+                      0 -----.|||||||||| 16
+    query             0 -----Loquebantur variis linguis aposto-li magnalia 44
+
+-- fused_9 --
+  OCR:      'maliam Dei allesuor ane jumi alie jurap Lanidoni oorae'
+  Assigned: 'gnalia dei alleluya alleluya alleluya {Laudate}'
+  Words:    [61..66) consumed=5
+  NW score: k=6 (pre-snap), norm=0.8337
+  Anchor:   word 66 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 maliam Dei allesuor a-ne jumi alie jurap -Lanidoni oora-e- 54
+                      0 -------.|| 10
+    query             0 -------dei alleluya alle-luya alle-luya- {La-ud-------ate} 40
+
+-- fused_10 --
+  OCR:      'pmis Beatonobile'
+  Assigned: 'euouae Accipite'
+  Words:    [66..68) consumed=2
+  NW score: k=2 (pre-snap), norm=-2.7756
+  Anchor:   word 71 (within_chant_7), diff=3, snapped=False, forced=False
+  Alignment:
+    target            0 pmis Beatonobile 16
+                      0 -.....|......|.| 16
+    query             0 -euouae Accipite 15
+
+-- fused_11 --
+  OCR:      '|epleti sut omni cepert ions ali ad bente cipi te spiritum Sanctum quorum'
+  Assigned: 'spiritum sanctum quorum'
+  Words:    [68..71) consumed=3
+  NW score: k=3 (pre-snap), norm=0.4149
+  Anchor:   word 71 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 |epleti sut omni cepert ions ali ad bente cipi te spiritum S
+                      0 --------------------------------------------------||||||||
+    query             0 --------------------------------------------------spiritum s
+    
+    target           60 anctum quorum 73
+                     58 |||||| 64
+    query            10 anctum quorum 23
+
+-- fused_12 --
+  OCR:      'remiseritis peccata remittuntur eis Allelnya evovae'
+  Assigned: 'remiseritis peccata remittuntur eis alleluya euouae'
+  Words:    [71..77) consumed=6
+  NW score: k=6 (pre-snap), norm=6.9804
+  Alignment:
+    target            0 remiseritis peccata remittuntur eis Allelnya evovae 51
+                      0 ||||||||||| 11
+    query             0 remiseritis peccata remittuntur eis alleluya euouae 51
+
+-- fused_13 --
+  OCR:      'Sciendo po tonibus pmmista noctis qu divri'
+  Assigned: 'Spiritus domini replevit'
+  Words:    [77..80) consumed=3
+  NW score: k=3 (pre-snap), norm=-0.9449
+  Alignment:
+    target            0 Sciendo po tonibus pmmista noctis qu divri- 42
+                      0 |.|----------.|.|| 18
+    query             0 Spi----------ritus domi----n---i- replev-it 24
+
+-- fused_14 --
+  OCR:      'adjungit in fine Elapat dmonatoque ad'
+  Assigned: 'orbem terrarum alleluya alleluya'
+  Words:    [80..84) consumed=4
+  NW score: k=4 (pre-snap), norm=-2.6737
+  Alignment:
+    target            0 ----------adjungit in fine Elapat dmona-toque ad 37
+                      0 ----------|-.|------. 21
+    query             0 orbem terra-ru------m alle--luya- ----allelu-ya- 32
+
+-- fused_15 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [84..84) consumed=0
+  Alignment:
+    (no words left)
+=== END DEBUG ===
+

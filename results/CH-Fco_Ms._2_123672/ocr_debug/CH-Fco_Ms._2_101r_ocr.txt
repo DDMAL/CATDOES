@@ -1,0 +1,175 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'fitebimur evovac erra tremint et quieint domim exur'
+  [fused_1] 'geret injudicio Deus pnotus in in evovae a indietribu'
+  [fused_2] 'lationis mee denni erquisivi manibus meis voceme'
+  [fused_3] 'a evovae . Ego quasi agnus nino'
+  [fused_4] '. ens domines tero d ini mo dum et vescie bam'
+  [fused_5] 'runt munici mei adversum me dicentes ve'
+  [fused_6] 'inte mittamus lignum in pane nis et eradamus eum'
+  [fused_7] 'deter ra in venti un V mnnes'
+  [fused_8] 'munici mei cogitabant malamiichi verbum iniquim man'
+  [fused_9] 'daverunt adversum cen tes. venite XX'
+  [fused_10] 'Vnabo ra non potuu stis vigilare me'
+  [fused_11] 'cum qu eccetabamini mori pro me vel iu'
+  [fused_12] 'dam non vte ti mon au non tor mit sancto festi'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'fitebimur evovac erra tremint et quieint domim exur'
+  Assigned: 'euouae Terra tremuit et quievit dum exur'
+  Words:    [0..7) consumed=7
+  NW score: k=7 (pre-snap), norm=3.1520
+  Anchor:   word 7 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 fitebimur evovac -erra trem-int et quie-int domim exur-----
+                      0 ---|---|----|.|.
+    query             0 ---e---u----ouae Terra tremui-t et quievi-t d--um exurgeret
+    
+    target           51
+                     16
+    query            45
+
+-- fused_1 --
+  OCR:      'geret injudicio Deus pnotus in in evovae a indietribu'
+  Assigned: 'geret in iudicio deus ~Notus in iudea euouae In die tribu'
+  Words:    [7..17) consumed=10
+  NW score: k=10 (pre-snap), norm=2.9149
+  Anchor:   word 17 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 geret injudicio Deus pnotus in i---n evovae -a indie-tribu--
+                      0 ---..
+    query             0 ---in i--udicio deus ~Notus in iudea euouae In --die tribula
+    
+    target           53 ------ 53
+                      5 ------ 11
+    query            53 tionis 59
+
+-- fused_2 --
+  OCR:      'lationis mee denni erquisivi manibus meis voceme'
+  Assigned: 'lationis mee deum exquisivi manibus meis ~Voce'
+  Words:    [17..23) consumed=6
+  NW score: k=7 (pre-snap), norm=4.3506
+  Anchor:   word 23 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 lationis mee denni erquisivi manibus meis -voceme 48
+                      0 ---------||| 12
+    query             0 ---------mee de-um exquisivi manibus meis ~Voc--e 37
+
+-- fused_3 --
+  OCR:      'a evovae . Ego quasi agnus nino'
+  Assigned: 'mea euouae Ego quasi agnus innocens'
+  Words:    [23..29) consumed=6
+  NW score: k=6 (pre-snap), norm=4.4931
+  Anchor:   word 29 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 --a evovae . Ego quasi agnus -nino---- 31
+                      0 --|  3
+    query             0 mea euouae-- Ego quasi agnus in-nocens 35
+
+-- fused_4 --
+  OCR:      '. ens domines tero d ini mo dum et vescie bam'
+  Assigned: 'ductus sum ad immolandum et nesciebam consilium'
+  Words:    [29..36) consumed=7
+  NW score: k=6 (pre-snap), norm=1.8625
+  Anchor:   word 36 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 -. ens domines tero d ini mo-- dum et vescie ba----------m 45
+                      0 -....|  6
+    query             0 ductus sum---- ----ad --immolandum et nescie-bam consilium 47
+
+-- fused_5 --
+  OCR:      'runt munici mei adversum me dicentes ve'
+  Assigned: 'fecerunt inimici mei adversum me dicentes Venite mit'
+  Words:    [36..44) consumed=8
+  NW score: k=6 (pre-snap), norm=5.5267
+  Anchor:   word 44 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 ----runt mun--ici mei adversum me dicentes ve------------- 39
+                      0 ----||||  8
+    query             0 fecerunt -inimici mei adversum me dicentes Venite mittamus 57
+
+-- fused_6 --
+  OCR:      'inte mittamus lignum in pane nis et eradamus eum'
+  Assigned: 'tamus lignum in pane eius et eradamus eum de'
+  Words:    [44..52) consumed=8
+  NW score: k=7 (pre-snap), norm=5.0259
+  Anchor:   word 52 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 inte mittamus lignum in pane ni-s et eradamus eum--- 48
+                      0 --------------|||||| 20
+    query             0 --------------lignum in pane eius et eradamus eum de 38
+
+-- fused_7 --
+  OCR:      'deter ra in venti un V mnnes'
+  Assigned: 'terra viventium Omnes'
+  Words:    [52..55) consumed=3
+  NW score: k=3 (pre-snap), norm=3.2579
+  Anchor:   word 55 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 deter ra -in venti un V mnnes 28
+                      0 --|||-||  8
+    query             0 --ter-ra vi--venti-um -Om-nes 21
+
+-- fused_8 --
+  OCR:      'munici mei cogitabant malamiichi verbum iniquim man'
+  Assigned: 'inimici mei cogitabant mala michi verbum iniquum man'
+  Words:    [55..63) consumed=8
+  NW score: k=7 (pre-snap), norm=5.8006
+  Anchor:   word 63 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 mun--ici mei cogitabant mala-miichi verbum iniquim man------
+                      0 -.|--|||
+    query             0 -inimici mei cogitabant mala m-ichi verbum iniquum mandaveru
+    
+    target           51 -- 51
+                      8 -- 10
+    query            58 nt 60
+
+-- fused_9 --
+  OCR:      'daverunt adversum cen tes. venite XX'
+  Assigned: 'daverunt adversum me dicentes Venite'
+  Words:    [63..67) consumed=4
+  NW score: k=4 (pre-snap), norm=2.7585
+  Anchor:   word 73 (within_chant_7), diff=6, snapped=False, forced=False
+  Alignment:
+    target            0 daverunt adversum -----cen tes. venite XX 36
+                      0 ---------|||||||| 17
+    query             0 ---------adversum me dicen-tes- Venite--- 27
+
+-- fused_10 --
+  OCR:      'Vnabo ra non potuu stis vigilare me'
+  Assigned: 'Una hora non potuistis vigilare me'
+  Words:    [67..73) consumed=6
+  NW score: k=6 (pre-snap), norm=5.3076
+  Anchor:   word 73 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 Vna-bo ra non potuu stis vigilare me--- 35
+                      0 .||-.|-||  9
+    query             0 Una ho-ra non pot-uistis vigilare mecum 37
+
+-- fused_11 --
+  OCR:      'cum qu eccetabamini mori pro me vel iu'
+  Assigned: 'cum Qui exhortabimini mori pro me vel iu'
+  Words:    [73..80) consumed=7
+  NW score: k=7 (pre-snap), norm=4.3900
+  Anchor:   word 80 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 cum qu e-ccetabamini mori pro me vel iu--- 38
+                      0 .|---.  6
+    query             0 Qu---i exhortabimini mori pro me vel iudam 39
+
+-- fused_12 --
+  OCR:      'dam non vte ti mon au non tor mit sancto festi'
+  Assigned: 'dam non videtis quomodo non dormit sed festinat'
+  Words:    [80..87) consumed=7
+  NW score: k=7 (pre-snap), norm=2.4508
+  Anchor:   word 87 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 dam non v-te ti- ---mon au non tor mit sancto festi--- 46
+                      0 ----|||  7
+    query             0 ----non vide-tis quomo--do non dor-mit s---ed festinat 43
+=== END DEBUG ===
+

@@ -1,0 +1,175 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'Eta cia piena cominus tecam veni te'
+  [fused_1] 'issus est Gabrihel Angeliis'
+  [fused_2] 'ad Mariam virginem desponsatam Iosep . dominus Regis evor'
+  [fused_3] 'aene Maria a dominus tecum benedic'
+  [fused_4] 'tatuns mnulietibus alselupa  nbilate eoa'
+  [fused_5] 'timeas Maria invenisti graciam apud Dominum ecclesie conci'
+  [fused_6] 'pies et Paries filium Aelvya  sdes evovae a abit'
+  [fused_7] 'ei dominus sedem david patris sui et regnabit meternum pre'
+  [fused_8] 'Bndiate exorae. e anci a dommi fiat michi secuto'
+  [fused_9] 'verbum tuum  laudate evovac'
+  [fused_10] 'nomodo fiet istud Angele Dei quia virum inconcipien'
+  [fused_11] 'donon pettuti audi manio xepisti mr go ponitus sanctuo si'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'Eta cia piena cominus tecam veni te'
+  Assigned: 'gratia plena dominus tecum ~Venite'
+  Words:    [0..5) consumed=5
+  NW score: k=5 (pre-snap), norm=4.4063
+  Anchor:   word 9 (within_chant_7), diff=4, snapped=False, forced=False
+  Alignment:
+    target            0 Eta cia piena cominus tecam -veni te 35
+                      0 ..|-.||  7
+    query             0 gra-tia plena dominus tecum ~Veni-te 34
+
+-- fused_1 --
+  OCR:      'issus est Gabrihel Angeliis'
+  Assigned: 'Missus est gabrihel angelus'
+  Words:    [5..9) consumed=4
+  NW score: k=4 (pre-snap), norm=5.7407
+  Anchor:   word 9 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -issus est Gabrihel Angeliis 27
+                      0 -|||||  6
+    query             0 Missus est gabrihel angel-us 27
+
+-- fused_2 --
+  OCR:      'ad Mariam virginem desponsatam Iosep . dominus Regis evor'
+  Assigned: 'ad mariam virginem desponsatam ioseph ~Dominus'
+  Words:    [9..15) consumed=6
+  NW score: k=7 (pre-snap), norm=5.1973
+  Anchor:   word 15 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 ad Mariam virginem desponsatam Iosep- . dominus Regis evor 57
+                      0 ||  2
+    query             0 ad mariam virginem desponsatam ioseph -~Dominus----------- 46
+
+-- fused_3 --
+  OCR:      'aene Maria a dominus tecum benedic'
+  Assigned: 'regnavit euouae Ave maria gracia plena dominus tecum benedic'
+  Words:    [15..24) consumed=9
+  NW score: k=9 (pre-snap), norm=3.1799
+  Anchor:   word 24 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -------------ae--ne Maria -----------a dominus tecum benedic
+                      0 -------------||--.|
+    query             0 regnavit euouae Ave maria gracia plena dominus tecum benedic
+    
+    target           34 -- 34
+                     19 -- 21
+    query            60 ta 62
+
+-- fused_4 --
+  OCR:      'tatuns mnulietibus alselupa  nbilate eoa'
+  Assigned: 'ta tu in mulieribus alleluya ~Iubilate euouae Ne'
+  Words:    [24..31) consumed=7
+  NW score: k=6 (pre-snap), norm=3.9280
+  Anchor:   word 31 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 tatu--ns mnulietibus alselupa - nbilate e-o-a---- 40
+                      0 --||--|-  8
+    query             0 --tu in- m-ulieribus alleluya ~Iubilate euouae Ne 45
+
+-- fused_5 --
+  OCR:      'timeas Maria invenisti graciam apud Dominum ecclesie conci'
+  Assigned: 'timeas maria invenisti graciam apud dominum ecce conci'
+  Words:    [31..39) consumed=8
+  NW score: k=8 (pre-snap), norm=6.4483
+  Anchor:   word 39 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 timeas Maria invenisti graciam apud Dominum ecclesie conci--
+                      0 ||||||
+    query             0 timeas maria invenisti graciam apud dominum ecc----e concipi
+    
+    target           58 -- 58
+                      6 --  8
+    query            56 es 58
+
+-- fused_6 --
+  OCR:      'pies et Paries filium Aelvya  sdes evovae a abit'
+  Assigned: 'pies et paries filium alleluya ~Deus deus euouae Dabit'
+  Words:    [39..47) consumed=8
+  NW score: k=8 (pre-snap), norm=3.7528
+  Anchor:   word 47 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 pies et Paries filium --Aelvya --- s-de-s evovae a abit 48
+                      0 -----||  7
+    query             0 -----et paries filium alleluya ~Deus deus euouae -Dabit 49
+
+-- fused_7 --
+  OCR:      'ei dominus sedem david patris sui et regnabit meternum pre'
+  Assigned: 'ei dominus sedem david patris sui et regnabit in eternum'
+  Words:    [47..57) consumed=10
+  NW score: k=10 (pre-snap), norm=6.8958
+  Anchor:   word 57 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ei dominus sedem david patris sui et regnabit --meternum pre
+                      0 ||
+    query             0 ei dominus sedem david patris sui et regnabit in eternum----
+    
+    target           58 
+                      2 
+    query            56 
+
+-- fused_8 --
+  OCR:      'Bndiate exorae. e anci a dommi fiat michi secuto'
+  Assigned: '~Benedicite euouae Ecce ancilla domini fiat michi secundum'
+  Words:    [57..65) consumed=8
+  NW score: k=8 (pre-snap), norm=4.0369
+  Anchor:   word 65 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -B-n-di-ate exorae. ---e anci- a dom-mi fiat michi secu--to
+                      0 -|-|-||-.||
+    query             0 ~Benedicite euouae- Ecce ancilla domini fiat michi secundum
+    
+    target           48
+                     11
+    query            58
+
+-- fused_9 --
+  OCR:      'verbum tuum  laudate evovac'
+  Assigned: 'verbum tuum ~Laudate'
+  Words:    [65..68) consumed=3
+  NW score: k=4 (pre-snap), norm=5.5926
+  Anchor:   word 68 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 verbum tuum  laudate evovac 27
+                      0 ||||||  6
+    query             0 verbum tuum ~Laudate------- 20
+
+-- fused_10 --
+  OCR:      'nomodo fiet istud Angele Dei quia virum inconcipien'
+  Assigned: 'euouae Quomodo fiet istud angele dei quia virum in concipien'
+  Words:    [68..78) consumed=10
+  NW score: k=10 (pre-snap), norm=5.7619
+  Anchor:   word 78 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 --------nomodo fiet istud Angele Dei quia virum in-concipien
+                      0 --------.|||||
+    query             0 euouae Quomodo fiet istud angele dei quia virum in concipien
+    
+    target           51 -- 51
+                     14 -- 16
+    query            60 do 62
+
+-- fused_11 --
+  OCR:      'donon pettuti audi manio xepisti mr go ponitus sanctuo si'
+  Assigned: 'do non pertuli audi maria xpisti virgo spiritus sanctus superveniet'
+  Words:    [78..87) consumed=9
+  NW score: k=8 (pre-snap), norm=4.6655
+  Anchor:   word 87 (page_break_77), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 donon pettuti audi manio xepisti -mr go -ponitus sanctuo s--
+                      0 --|||
+    query             0 --non pertuli audi maria x-pisti vir-go spiritus sanctus sup
+    
+    target           56 -----i-- 57
+                      5 -----|-- 13
+    query            56 erveniet 64
+=== END DEBUG ===
+

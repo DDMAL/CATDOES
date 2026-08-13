@@ -1,0 +1,195 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'tato'
+  [fused_1] 'nobis filium Dei evovae egen confessorum dominum'
+  [fused_2] 'doremus venite eatus vir qui mle'
+  [fused_3] 'redomini medita tur voluntas ejus permanet die ac nocte'
+  [fused_4] 'et omnia quecumque faciet semper prosperabuntur pbeatus vir'
+  [fused_5] 'eatus iste Sanctus qui confisus est in domino'
+  [fused_6] 'predicavit preceptum domini constitutus est in Monte'
+  [fused_7] 'm  qar fora mea tu ee susceptorme'
+  [fused_8] 'us domine tu eraltans caput meum et exandisti me de Monte sace'
+  [fused_9] 'totuo prtos domine quid exorae X amavitrenm '
+  [fused_10] 'uge serve bone et fide lis quia in panca'
+  [fused_11] 'fuisti fide lis supra multa te constituam inter'
+  [fused_12] 'mndoi uco mmi cu mi'
+  [fused_13] '. cunon sueucca'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'tato'
+  Assigned: 'transierunt'
+  Words:    [0..1) consumed=1
+  NW score: k=1 (pre-snap), norm=-2.2613
+  Anchor:   word 7 (within_chant_7), diff=6, snapped=False, forced=False
+  Alignment:
+    target            0 t-a-------to  4
+                      0 |-|-------|- 12
+    query             0 transierunt- 11
+
+-- fused_1 --
+  OCR:      'nobis filium Dei evovae egen confessorum dominum'
+  Assigned: '~Laudate pueri euouae Regem confessorum dominum'
+  Words:    [1..7) consumed=6
+  NW score: k=6 (pre-snap), norm=3.4949
+  Anchor:   word 7 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ---nobis filium De-i evovae -egen confessorum dominum 48
+                      0 ---.....  8
+    query             0 ~Laudate ---pu---eri euouae Regem confessorum dominum 47
+
+-- fused_2 --
+  OCR:      'doremus venite eatus vir qui mle'
+  Assigned: 'Venite adoremus Venite Beatus vir qui in le'
+  Words:    [7..15) consumed=8
+  NW score: k=7 (pre-snap), norm=4.6678
+  Anchor:   word 15 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 --------doremus venite -eatus vir qui --ml--e 32
+                      0 --------||||||| 15
+    query             0 Venite adoremus Venite Beatus vir qui in lege 45
+
+-- fused_3 --
+  OCR:      'redomini medita tur voluntas ejus permanet die ac nocte'
+  Assigned: 'ge domini meditatur voluntas eius permanet die ac nocte'
+  Words:    [15..23) consumed=8
+  NW score: k=8 (pre-snap), norm=7.2178
+  Anchor:   word 23 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 redomini medita tur voluntas ejus permanet die ac nocte 55
+                      0 --||||||  8
+    query             0 --domini medita-tur voluntas eius permanet die ac nocte 52
+
+-- fused_4 --
+  OCR:      'et omnia quecumque faciet semper prosperabuntur pbeatus vir'
+  Assigned: 'et omnia quecumque faciet semper prosperabuntur'
+  Words:    [23..29) consumed=6
+  NW score: k=8 (pre-snap), norm=7.5593
+  Anchor:   word 29 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 et omnia quecumque faciet semper prosperabuntur pbeatus vir
+                      0 ||
+    query             0 et omnia quecumque faciet semper prosperabuntu------------r
+    
+    target           59
+                      2
+    query            47
+
+-- fused_5 --
+  OCR:      'eatus iste Sanctus qui confisus est in domino'
+  Assigned: '~Beatus vir euouae Beatus iste sanctus qui confisus est in domino'
+  Words:    [29..40) consumed=11
+  NW score: k=11 (pre-snap), norm=5.2327
+  Anchor:   word 40 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 --------------------eatus iste Sanctus qui confisus est in d
+                      0 --------------------|||||
+    query             0 ~Beatus vir euouae Beatus iste sanctus qui confisus est in d
+    
+    target           40 omino 45
+                     25 ||||| 30
+    query            60 omino 65
+
+-- fused_6 --
+  OCR:      'predicavit preceptum domini constitutus est in Monte'
+  Assigned: 'predicavit preceptum domini constitutus est in monte sancto e'
+  Words:    [40..49) consumed=9
+  NW score: k=7 (pre-snap), norm=7.7500
+  Anchor:   word 49 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 predicavit preceptum domini constitutus est in Monte--------
+                      0 ||||||||||
+    query             0 predicavit preceptum domini constitutus est in monte sancto 
+    
+    target           52 ---- 52
+                     10 ---- 14
+    query            60 eius 64
+
+-- fused_7 --
+  OCR:      'm  qar fora mea tu ee susceptorme'
+  Assigned: 'ius ~Quare fremuerunt euouae Tu es gloria mea tu es susceptor me'
+  Words:    [49..60) consumed=11
+  NW score: k=11 (pre-snap), norm=1.9234
+  Anchor:   word 60 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 m  qar- f-------------------------or-a mea tu ee susceptor-m
+                      0 -...||-
+    query             0 -~Quare fremuerunt euouae Tu es gloria mea tu es susceptor m
+    
+    target           32 e-- 33
+                      7 |-- 10
+    query            59 eus 62
+
+-- fused_8 --
+  OCR:      'us domine tu eraltans caput meum et exandisti me de Monte sace'
+  Assigned: 'us domine tu exaltans caput meum et exaudisti me de monte sanc'
+  Words:    [60..71) consumed=11
+  NW score: k=11 (pre-snap), norm=6.3905
+  Anchor:   word 71 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 us domine tu eraltans caput meum et exandisti me de Monte sa
+                      0 ---||||||
+    query             0 ---domine tu exaltans caput meum et exaudisti me de monte sa
+    
+    target           60 -c-e 62
+                      9 -|-. 13
+    query            57 ncto 61
+
+-- fused_9 --
+  OCR:      'totuo prtos domine quid exorae X amavitrenm'
+  Assigned: 'to tuo ~Domine quid euouae Euge'
+  Words:    [71..76) consumed=5
+  NW score: k=5 (pre-snap), norm=2.0750
+  Anchor:   word 83 (within_chant_7), diff=7, snapped=False, forced=False
+  Alignment:
+    target            0 totuo prtos domine quid exorae X amavitrenm 43
+                      0 --|||  5
+    query             0 --tuo -----~Domine quid euouae ------Euge-- 28
+
+-- fused_10 --
+  OCR:      'uge serve bone et fide lis quia in panca'
+  Assigned: 'serve bone et fidelis quia in pauca'
+  Words:    [76..83) consumed=7
+  NW score: k=7 (pre-snap), norm=6.5212
+  Anchor:   word 83 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 uge serve bone et fide lis quia in panca 40
+                      0 ----|||||  9
+    query             0 ----serve bone et fide-lis quia in pauca 35
+
+-- fused_11 --
+  OCR:      'fuisti fide lis supra multa te constituam inter'
+  Assigned: 'fuisti fidelis supra multa te constituam Intra'
+  Words:    [83..90) consumed=7
+  NW score: k=7 (pre-snap), norm=7.0112
+  Anchor:   word 96 (within_chant_7), diff=6, snapped=False, forced=False
+  Alignment:
+    target            0 fuisti fide lis supra multa te constituam inter- 47
+                      0 ||||||  6
+    query             0 fuisti fide-lis supra multa te constituam Int-ra 46
+
+-- fused_12 --
+  OCR:      'mndoi uco mmi cu mi'
+  Assigned: 'in gaudium domini tui Domine quin'
+  Words:    [90..96) consumed=6
+  NW score: k=4 (pre-snap), norm=-0.2003
+  Anchor:   word 96 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 ---------mndo---i -uco -mmi-- cu mi---- 19
+                      0 ---------|.||---| 17
+    query             0 in gaudium domini tu-i Domine qu--inque 36
+
+-- fused_13 --
+  OCR:      '. cunon sueucca'
+  Assigned: 'que talenta tradidisti michi ecce'
+  Words:    [96..100) consumed=4
+  NW score: k=4 (pre-snap), norm=-2.4932
+  Anchor:   word 103 (page_break_77), diff=3, snapped=False, forced=False
+  Alignment:
+    target            0 . cunon -------s--------ueucca 15
+                      0 ....|..  7
+    query             0 talenta tradidisti michi e-cce 29
+=== END DEBUG ===
+

@@ -1,0 +1,251 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'ab mniquo rege lacterantes interfecti sunt ipsum'
+  [fused_1] 'num sine macula dicunt semper gloria tibi domine evovac'
+  [fused_2] ' domanis et stesets o. doclum ecclesia demdesit oni de o '
+  [fused_3] 'Gliolini'
+  [fused_4] 'comluocti'
+  [fused_5] ' pote'
+  [fused_6] 'licet prnat Dit.'
+  [fused_7] 'viditu  aro Felto mocentioru e ub trono'
+  [fused_8] 'dios lacla x. tim alicuus festi omnia dicantur ina'
+  [fused_9] 'Eptmisso ni storie I . fir oregen ceni elegntus Sevices'
+  [fused_10] 'saciavss em'
+  [fused_11] 'lum  '
+  [fused_12] 'masi episcopu'
+  [fused_13] ' regem ce licui ralia famulau'
+  [fused_14] 'tur ob Hmi astarino po nitur qui continet'
+  [fused_15] 'mini dium sacet in prese pio et in ce lis'
+  [fused_16] ' nat. tus est nobis ho'
+  [fused_17] 'die salvator qui est rbistus dominus in civi si restinvitates santrum quenixta nat domni venriris saida et Sa Johannis In nocencium'
+  [fused_18] 'In domine evenit nidude dominica facinus . S.iuocr eorum facius qomiin de dominc et codie ovi'
+  [fused_19] 'vid Jacet mves neneriti e sine festo aliquo ofificii  t venit tontum officiam'
+  [fused_20] ' t omien oro nd ad'
+  [fused_21] 'veli'
+  [fused_22] 'um medium silentium tenerent omni'
+  [fused_23] 'cnsu medium nec pet apert omnintus setuo tuni domine'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'ab mniquo rege lacterantes interfecti sunt ipsum'
+  Assigned: 'ab iniquo rege lactantes interfecti sunt ipsum'
+  Words:    [0..7) consumed=7
+  NW score: k=7 (pre-snap), norm=7.3421
+  Anchor:   word 23 (within_chant_7), diff=16, snapped=False, forced=False
+  Alignment:
+    target            0 ab mniquo rege lacterantes interfecti sunt ipsum 48
+                      0 ||  2
+    query             0 ab iniquo rege lact--antes interfecti sunt ipsum 46
+
+-- fused_1 --
+  OCR:      'num sine macula dicunt semper gloria tibi domine evovac'
+  Assigned: 'sequuntur agnum sine macula dicunt semper gloria tibi domine euouae'
+  Words:    [7..17) consumed=10
+  NW score: k=10 (pre-snap), norm=5.9469
+  Anchor:   word 23 (within_chant_7), diff=6, snapped=False, forced=False
+  Alignment:
+    target            0 ------------num sine macula dicunt semper gloria tibi domine
+                      0 ------------|||
+    query             0 sequuntur agnum sine macula dicunt semper gloria tibi domine
+    
+    target           48  evovac 55
+                     15  15
+    query            60  euouae 67
+
+-- fused_2 --
+  OCR:      'domanis et stesets o. doclum ecclesia demdesit oni de o'
+  Assigned: 'O regem celi cui talia famulan'
+  Words:    [17..23) consumed=6
+  NW score: k=8 (pre-snap), norm=-1.4302
+  Anchor:   word 23 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 domanis ---et stesets o. doclum ecclesia demdesit oni de o 55
+                      0 ------.  7
+    query             0 ------O regem ---celi -----c-ui -tal--ia famulant-------ur 33
+
+-- fused_3 --
+  OCR:      'Gliolini'
+  Assigned: 'tur obsequia stabulo ponitur qui continet'
+  Words:    [23..28) consumed=5
+  NW score: k=1 (pre-snap), norm=-3.6250
+  Anchor:   word 28 (within_chant_7), diff=4, snapped=False, forced=True
+  Alignment:
+    target            0 -------------Gl------------i--o-lin-i  8
+                      0 -------------.|------------|--|-.||-. 37
+    query             0 obsequia stabulo ponitur qui continet 37
+
+-- fused_4 --
+  OCR:      'comluocti'
+  Assigned: 'mundum Iacet in presepio et in celis'
+  Words:    [28..35) consumed=7
+  NW score: k=3 (pre-snap), norm=-2.0656
+  Anchor:   word 35 (within_chant_7), diff=4, snapped=False, forced=True
+  Alignment:
+    target            0 com--lu------------------o-------c-ti-  9
+                      0 --|--.|------------------|-------|-.|- 38
+    query             0 --mundum Iacet in presepio et in celis 36
+
+-- fused_5 --
+  OCR:      'pote'
+  Assigned: 'regnat'
+  Words:    [35..36) consumed=1
+  NW score: k=1 (pre-snap), norm=-4.4907
+  Anchor:   word 40 (within_chant_7), diff=4, snapped=False, forced=False
+  Alignment:
+    target            0 ---pote 4
+                      0 ---..|- 7
+    query             0 regnat- 6
+
+-- fused_6 --
+  OCR:      'licet prnat Dit.'
+  Assigned: 'Natus est nobis ho'
+  Words:    [36..40) consumed=4
+  NW score: k=2 (pre-snap), norm=-2.3333
+  Anchor:   word 40 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 ---lice-t prn--at --Dit. 16
+                      0 ---...|-|  9
+    query             0 Natus est --nobis hodi-e 21
+
+-- fused_7 --
+  OCR:      'viditu  aro Felto mocentioru e ub trono'
+  Assigned: 'die salvator qui est xpistus dominus in civitate da'
+  Words:    [40..48) consumed=8
+  NW score: k=6 (pre-snap), norm=-1.6511
+  Anchor:   word 48 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 ---viditu  aro Felt-------o mocentioru- -e ------ub trono 39
+                      0 ---|--.|.. 10
+    query             0 salv--ator qui -est xpistus domin----us in civitate david 50
+
+-- fused_8 --
+  OCR:      'dios lacla x. tim alicuus festi omnia dicantur ina'
+  Assigned: 'vid Iacet Dum medium silencium tenerent omnia et nox in'
+  Words:    [48..57) consumed=9
+  NW score: k=9 (pre-snap), norm=0.1188
+  Anchor:   word 49 (within_chant_7), diff=8, snapped=False, forced=False
+  Alignment:
+    target            0 dios lacla -x. --ti-m -al-icuus ----festi omnia dicantur ina
+                      0 -----.||..
+    query             0 -----Iacet Dum medium silencium tenerent- omnia -et n-ox in-
+    
+    target           50 
+                     10 
+    query            51 
+
+-- fused_9 --
+  OCR:      'Eptmisso ni storie I . fir oregen ceni elegntus Sevices'
+  Assigned: 'suo cursu iter perageret omnipotens sermo tuus domine'
+  Words:    [57..65) consumed=8
+  NW score: k=8 (pre-snap), norm=-0.6853
+  Anchor:   word 65 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 Eptmisso ni stori-e I . fir -orege------n-- ceni -elegnt-us 
+                      0 -----|.|
+    query             0 -----suo curs-u ite-------r perageret omnipotens sermo tuus 
+    
+    target           48 Sevices 55
+                      8 ...|.|- 15
+    query            47 domine- 53
+
+-- fused_10 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [65..65) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_11 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [65..65) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_12 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [65..65) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_13 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [65..65) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_14 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [65..65) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_15 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [65..65) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_16 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [65..65) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_17 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [65..65) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_18 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [65..65) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_19 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [65..65) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_20 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [65..65) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_21 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [65..65) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_22 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [65..65) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_23 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [65..65) consumed=0
+  Alignment:
+    (no words left)
+=== END DEBUG ===
+

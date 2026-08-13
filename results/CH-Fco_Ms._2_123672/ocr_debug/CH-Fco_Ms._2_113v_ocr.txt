@@ -1,0 +1,251 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'elura Alleliryam asseluya po Laudunis evovac'
+  [fused_1] 'caplilai emi domne quo natii e  alirora bicisresur'
+  [fused_2] 'rectone tuaxt alla e . Celi et terraletantur alla ad bn'
+  [fused_3] 'commemorats de Cruce ant cum eset sero dicia require retur in salbto rucifitus surrexit a mor '
+  [fused_4] 'tus te denit nos alie jennou Alleluya evovac. Ans'
+  [fused_5] 'eluya alleluya alleluya AllelvyaDeus in nomine'
+  [fused_6] ' Beatimiacitr pr retonep doq nult et i alii quom istim'
+  [fused_7] 'cass Kegiseclor hoc ca dicitur sngulis diebus ad primam versu ad'
+  [fused_8] 'eonae . octs pen . domini cum alsea usque ad octas pent Apiste'
+  [fused_9] 'fili deivim miserere nobis allelua Alleluya'
+  [fused_10] 'Cturgeee adiinanos ala et conidie'
+  [fused_11] 'diebs fralibus prestos frales dicimus sub una '
+  [fused_12] 'surrecisti am mortius Alleluya ita eleginus an ct et cateam domino pria et o an . Et det ad modum prims  depsalimi'
+  [fused_13] 'nocte Ledin lan'
+  [fused_14] 'nelua allelua Alleluya anelua'
+  [fused_15] 'gen enovac urrerit dominus de Sepul'
+  [fused_16] 'oinpro nobis pepeudit in ligno'
+  [fused_17] 'V durrerit domins'
+  [fused_18] 'vere alsa aparrit ad vet'
+  [fused_19] 'allaalla an Neluya Allelnya Alleluya'
+  [fused_20] 'Defecit evovac rrerit dominus ve'
+  [fused_21] 'te aleluna alauya  tapaennt Semom allau'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'elura Alleliryam asseluya po Laudunis evovac'
+  Assigned: 'Alleluya alleluya alleluya ~Laudate euouae'
+  Words:    [0..5) consumed=5
+  NW score: k=5 (pre-snap), norm=2.6054
+  Anchor:   word 5 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ---elura Alleliryam asseluya po Laudunis evovac 44
+                      0 ---|||.|  8
+    query             0 Alleluya allel-uya- alleluya --~Laud-ate euouae 42
+
+-- fused_1 --
+  OCR:      'caplilai emi domne quo natii e  alirora bicisresur'
+  Assigned: 'Crucifixus surrexit a'
+  Words:    [5..8) consumed=3
+  NW score: k=8 (pre-snap), norm=-1.4361
+  Anchor:   word 8 (within_chant_7), diff=5, snapped=False, forced=True
+  Alignment:
+    target            0 ---caplilai--- ----emi domne quo natii e  alirora bicisresur
+                      0 ---|---|-.|---
+    query             0 Cruc---i-fixus surrexi-------------t----- a-----------------
+    
+    target           50 
+                     14 
+    query            21 
+
+-- fused_2 --
+  OCR:      'rectone tuaxt alla e . Celi et terraletantur alla ad bn'
+  Assigned: 'mortuis redemit nos alleluya alleluya euouae Alleluya alleluya alleluya alleluya ~Deus in'
+  Words:    [8..20) consumed=12
+  NW score: k=12 (pre-snap), norm=-0.5431
+  Anchor:   word 14 (within_chant_7), diff=6, snapped=False, forced=False
+  Alignment:
+    target            0 --------re---cton-e ----tu-axt all----a -----e . Cel--i ---e
+                      0 --------||---.|.|-.
+    query             0 mortuis redemit nos alleluya-- alleluya euouae Alleluya alle
+    
+    target           29 ---t terra-letantu-r all----a ---ad bn 55
+                     19 ---. 23
+    query            58 luya ----alle---luya alleluya ~Deus in 89
+
+-- fused_3 --
+  OCR:      'commemorats de Cruce ant cum eset sero dicia require retur in salbto rucifitus surrexit a mor'
+  Assigned: 'nomine euouae Xpiste fili dei vivi miserere nobis alleluya alleluya Qui surrexisti a mortuis'
+  Words:    [20..34) consumed=14
+  NW score: k=14 (pre-snap), norm=0.0973
+  Anchor:   word 23 (within_chant_7), diff=11, snapped=False, forced=False
+  Alignment:
+    target            0 com-memorats de Cruce --ant cum eset sero dicia require retu
+                      0 .||-.|------
+    query             0 nomine------ -e-uouae Xpist---e fili de-i vivi- ---mise-re--
+    
+    target           57 r- ---in sa---lbto ----rucifitus surrexi-t- a mor---- 93
+                     12 |- 14
+    query            41 re nobis -alleluya allelu-ya Qui surrexisti a mortuis 92
+
+-- fused_4 --
+  OCR:      'tus te denit nos alie jennou Alleluya evovac. Ans'
+  Assigned: 'alleluya'
+  Words:    [34..35) consumed=1
+  NW score: k=3 (pre-snap), norm=-0.4483
+  Anchor:   word 35 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 tus te denit nos alie jennou Alleluya evovac. Ans 49
+                      0 -----------------|------------|||||||------------ 49
+    query             0 -----------------a------------lleluya------------  8
+
+-- fused_5 --
+  OCR:      'eluya alleluya alleluya AllelvyaDeus in nomine'
+  Assigned: 'Alleluya alleluya alleluya alleluya le'
+  Words:    [35..40) consumed=5
+  NW score: k=4 (pre-snap), norm=4.2617
+  Anchor:   word 40 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 ---eluya alleluya alleluya AllelvyaDeus in nomine 46
+                      0 ---|||||  8
+    query             0 Alleluya alleluya alleluya alleluya---- ~Legem--- 42
+
+-- fused_6 --
+  OCR:      'Beatimiacitr pr retonep doq nult et i alii quom istim'
+  Assigned: 'gem euouae Surrexit dominus de sepulchro alleluya alleluya Qui pro nobis'
+  Words:    [40..50) consumed=10
+  NW score: k=10 (pre-snap), norm=-1.0827
+  Anchor:   word 45 (within_chant_7), diff=5, snapped=False, forced=False
+  Alignment:
+    target            0 Beatimiacitr -pr re--t--o--nep doq --nul---t ---e-t i al----
+                      0 -|--...|---.
+    query             0 -e--uoua---e Sur-rexit dominus d-e sepulchro alleluya allelu
+    
+    target           40 ----ii quom ---istim 53
+                     12 ----.| 18
+    query            52 ya Qui pro- nobis--- 68
+
+-- fused_7 --
+  OCR:      'cass Kegiseclor hoc ca dicitur sngulis diebus ad primam versu ad'
+  Assigned: 'pependit in ligno'
+  Words:    [50..53) consumed=3
+  NW score: k=6 (pre-snap), norm=-1.7148
+  Anchor:   word 53 (within_chant_7), diff=3, snapped=False, forced=True
+  Alignment:
+    target            0 cass Kegiseclor hoc ca dicitur sngulis diebus ad primam vers
+                      0 -----.|--.|-----------.|--||--
+    query             0 -----pe--pe-----------nd--it-- -----in li-------------------
+    
+    target           60 u ad 64
+                     30 -... 34
+    query            14 -gno 17
+
+-- fused_8 --
+  OCR:      'eonae . octs pen . domini cum alsea usque ad octas pent Apiste'
+  Assigned: 'alleluya alleluya Alleluya alleluya alleluya ~Defecit euouae Surrexit dominus ve'
+  Words:    [53..63) consumed=10
+  NW score: k=10 (pre-snap), norm=-1.7531
+  Anchor:   word 58 (within_chant_7), diff=5, snapped=False, forced=False
+  Alignment:
+    target            0 eona--e-- . octs pe---n . domini ----cu-m alse---a usque ad 
+                      0 ---|--|--..
+    query             0 ---alleluya ---alleluya Alleluya alleluya alleluya ~Defecit 
+    
+    target           45 --octas ---pe-nt -Api--s---te 62
+                     11 --|-.|. 18
+    query            54 euo-uae Surrexit dominus vere 82
+
+-- fused_9 --
+  OCR:      'fili deivim miserere nobis allelua Alleluya'
+  Assigned: 're alleluya alleluya'
+  Words:    [63..65) consumed=2
+  NW score: k=2 (pre-snap), norm=0.8507
+  Anchor:   word 69 (page_break_77), diff=4, snapped=False, forced=False
+  Alignment:
+    target            0 fili deivim miserere nobis allelu-a Alleluya 43
+                      0 ---------------------------||||||-| 35
+    query             0 ---------------------------alleluya alleluya 17
+
+-- fused_10 --
+  OCR:      'Cturgeee adiinanos ala et conidie'
+  Assigned: 'Et apparuit symoni alleluya'
+  Words:    [65..69) consumed=4
+  NW score: k=3 (pre-snap), norm=-1.6412
+  Anchor:   word 69 (page_break_77), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 Cturgeee adiinanos ala et --coni--die---- 33
+                      0 .|------  8
+    query             0 Et------ a-------ppa-ruit symoni alleluya 27
+
+-- fused_11 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [69..69) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_12 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [69..69) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_13 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [69..69) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_14 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [69..69) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_15 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [69..69) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_16 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [69..69) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_17 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [69..69) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_18 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [69..69) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_19 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [69..69) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_20 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [69..69) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_21 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [69..69) consumed=0
+  Alignment:
+    (no words left)
+=== END DEBUG ===
+

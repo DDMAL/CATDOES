@@ -1,0 +1,171 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'pro fi de Christi stacer taminado os quasi se'
+  [fused_1] 'nes lenioris pugne cursum recipimus te autem quasi'
+  [fused_2] 'iumenem manet loriosior de Tyranno Trimphus posttridu'
+  [fused_3] 'um me sequeris sacerdo . None'
+  [fused_4] 'catus Laurentius clama vit et di xit de'
+  [fused_5] 'um meumco lo et illi so  serni G.Grideo'
+  [fused_6] 'non ti meo tormenta Neanox'
+  [fused_7] 'obscurum nonmnia in Lu ce cla rescunt .'
+  [fused_8] 'Et iteo. trinxerunt corporis membra posita super'
+  [fused_9] 'traticulam subicientibus primas insultat levita Chpitistip'
+  [fused_10] 'domine quis Ha eovac . X Larnifices vero urgentes ministra'
+  [fused_11] 'bant Carbones subter eratem ferream  gie meecamnasti'
+  [fused_12] 'et non est inenta Leromaer'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'pro fi de Christi stacer taminado os quasi se'
+  Assigned: 'pro fide xpisti certamina Nos quasi se'
+  Words:    [0..7) consumed=7
+  NW score: k=7 (pre-snap), norm=4.7959
+  Anchor:   word 7 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 pro fi de Christi stacer taminado -os quasi se--- 45
+                      0 |||  3
+    query             0 pro fi-de -xpisti ---cer-tamina-- Nos quasi senes 41
+
+-- fused_1 --
+  OCR:      'nes lenioris pugne cursum recipimus te autem quasi'
+  Assigned: 'nes levioris pugne cursum recipimus te autem quasi'
+  Words:    [7..14) consumed=7
+  NW score: k=7 (pre-snap), norm=7.0686
+  Anchor:   word 14 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 nes lenioris pugne cursum recipimus te autem quasi 50
+                      0 ----||.||||| 12
+    query             0 ----levioris pugne cursum recipimus te autem quasi 46
+
+-- fused_2 --
+  OCR:      'iumenem manet loriosior de Tyranno Trimphus posttridu'
+  Assigned: 'iuvenem magnum gloriosior de tyranno triumphus post tridu'
+  Words:    [14..22) consumed=8
+  NW score: k=8 (pre-snap), norm=5.7404
+  Anchor:   word 22 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 iumenem ma-net -loriosior de Tyranno Tri-mphus post-tridu--
+                      0 ||.||||
+    query             0 iuvenem magnum gloriosior de tyranno triumphus post triduum
+    
+    target           53
+                      7
+    query            59
+
+-- fused_3 --
+  OCR:      'um me sequeris sacerdo . None'
+  Assigned: 'um me sequeris sacerdotem levita Non'
+  Words:    [22..27) consumed=5
+  NW score: k=3 (pre-snap), norm=4.5925
+  Anchor:   word 27 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 um me sequeris sacerdo--- -----. None 29
+                      0 ---||  5
+    query             0 ---me sequeris sacerdotem levita Non- 33
+
+-- fused_4 --
+  OCR:      'catus Laurentius clama vit et di xit de'
+  Assigned: 'ego Beatus laurentius clamavit et dixit de'
+  Words:    [27..34) consumed=7
+  NW score: k=7 (pre-snap), norm=5.4798
+  Anchor:   word 34 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -----catus Laurentius clama vit et di xit de-- 39
+                      0 -----.|||| 10
+    query             0 ego Beatus laurentius clama-vit et di-xit deum 44
+
+-- fused_5 --
+  OCR:      'um meumco lo et illi so  serni G.Grideo'
+  Assigned: 'um meum colo et illi soli servio Et'
+  Words:    [34..41) consumed=7
+  NW score: k=8 (pre-snap), norm=4.1857
+  Anchor:   word 41 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 um meum-co lo et illi so-  serni- G.Grideo 39
+                      0 ---||||-||-|| 13
+    query             0 ---meum co-lo et illi soli servio ------Et 32
+
+-- fused_6 --
+  OCR:      'non ti meo tormenta Neanox'
+  Assigned: 'ideo non timeo tormenta tua Mea nox'
+  Words:    [41..48) consumed=7
+  NW score: k=7 (pre-snap), norm=4.5747
+  Anchor:   word 48 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -----non ti meo torment----a Nea-nox 26
+                      0 -----|||  8
+    query             0 ideo non ti-meo tormenta tua Mea nox 35
+
+-- fused_7 --
+  OCR:      'obscurum nonmnia in Lu ce cla rescunt .'
+  Assigned: 'obscurum non habet sed omnia in luce clarescunt'
+  Words:    [48..56) consumed=8
+  NW score: k=8 (pre-snap), norm=4.7415
+  Anchor:   word 56 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 obscurum non------------mnia in Lu ce cla rescunt . 39
+                      0 ||||||||  8
+    query             0 obscurum non habet sed omnia in lu-ce cla-rescunt-- 47
+
+-- fused_8 --
+  OCR:      'Et iteo. trinxerunt corporis membra posita super'
+  Assigned: 'Et ideo Strinxerunt corporis membra posita super'
+  Words:    [56..63) consumed=7
+  NW score: k=7 (pre-snap), norm=7.2708
+  Anchor:   word 63 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 Et iteo. -trinxerunt corporis membra posita super 48
+                      0 ||  2
+    query             0 Et ideo- Strinxerunt corporis membra posita super 48
+
+-- fused_9 --
+  OCR:      'traticulam subicientibus primas insultat levita Chpitistip'
+  Assigned: 'craticulam subicientibus prunas insultat levita christi'
+  Words:    [63..69) consumed=6
+  NW score: k=6 (pre-snap), norm=6.3385
+  Anchor:   word 69 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 traticulam subicientibus primas insultat levita Chpitistip 58
+                      0 .||||||||| 10
+    query             0 craticulam subicientibus prunas insultat levita ch--risti- 55
+
+-- fused_10 --
+  OCR:      'domine quis Ha eovac . X Larnifices vero urgentes ministra'
+  Assigned: '~Domine quis habetabit euouae Carnifices vero urguentes ministra'
+  Words:    [69..77) consumed=8
+  NW score: k=8 (pre-snap), norm=4.6018
+  Anchor:   word 77 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -domine quis Ha------- e-ovac . X Larnifices vero urg-entes 
+                      0 -.|||||
+    query             0 ~Domine quis habetabit euoua----e Carnifices vero urguentes 
+    
+    target           50 ministra---- 58
+                      7 ||||||||---- 19
+    query            56 ministrabant 68
+
+-- fused_11 --
+  OCR:      'bant Carbones subter eratem ferream  gie meecamnasti'
+  Assigned: 'bant carbones subter cratem ferream Igne me examinasti'
+  Words:    [77..84) consumed=7
+  NW score: k=7 (pre-snap), norm=5.5074
+  Anchor:   word 84 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 bant Carbones subter eratem ferream  gie me-ecam-nasti 52
+                      0 -----.||||||| 13
+    query             0 -----carbones subter cratem ferream Igne me examinasti 49
+
+-- fused_12 --
+  OCR:      'et non est inenta Leromaer'
+  Assigned: 'et non est inventa in me iniquitas ~Exaudi'
+  Words:    [84..92) consumed=8
+  NW score: k=6 (pre-snap), norm=4.6837
+  Anchor:   word 92 (page_break_77), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 et non est in-enta--- Le-----------roma-er 26
+                      0 ||  2
+    query             0 et non est inventa in me iniquitas ~Exaudi 42
+=== END DEBUG ===
+

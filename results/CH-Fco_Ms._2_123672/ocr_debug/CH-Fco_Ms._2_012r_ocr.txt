@@ -1,0 +1,214 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'ebus fortitudinis nostre Syon salvator ponetur in ea murus'
+  [fused_1] 'et antemurale a perite portas quia nobis cum deus Alleluya preo'
+  [fused_2] 'jubilate evovae  . Acce apparebit dominus et non menci'
+  [fused_3] 'ta veniet et non tardabit'
+  [fused_4] 'Alleluya. Gmeus EVovae e Montes ca et Colles d'
+  [fused_5] 'tabunt coram Deo laudeni et omnia ligna silvarum plandent'
+  [fused_6] 'manibus quoniam veniet dominus dominator in regnum e'
+  [fused_7] 'ternum alleiya Allelua p bundiie eoae ece domi'
+  [fused_8] 'nus nostercum virtute veniet et illumimabit oculos servorum'
+  [fused_9] 'capitli Beateres quesque scripta sunt'
+  [fused_10] 'vimus voxdara V vox cla'
+  [fused_11] 'suorum Allelnya proo laudate eovae mantis indeser ad bne aute'
+  [fused_12] 'cubus anent em aroieit mnmncan piem ps iteni dim'
+  [fused_13] 'ediscripulis suis ait illi tu es qui venturus es an alium'
+  [fused_14] 'Etat diecori ablontions cip .aetm'
+  [fused_15] 'expctamus eronae'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'ebus fortitudinis nostre Syon salvator ponetur in ea murus'
+  Assigned: 'euouae Urbs fortitudinis nostre syon salvator ponetur in ea murus'
+  Words:    [0..10) consumed=10
+  NW score: k=10 (pre-snap), norm=6.6612
+  Anchor:   word 10 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 e-bu------s fortitudinis nostre Syon salvator ponetur in ea 
+                      0 |-.|------|
+    query             0 euouae Urbs fortitudinis nostre syon salvator ponetur in ea 
+    
+    target           53 murus 58
+                     11 ||||| 16
+    query            60 murus 65
+
+-- fused_1 --
+  OCR:      'et antemurale a perite portas quia nobis cum deus Alleluya preo'
+  Assigned: 'et antemurale aperite portas quia nobiscum deus alleluya'
+  Words:    [10..18) consumed=8
+  NW score: k=8 (pre-snap), norm=6.7680
+  Anchor:   word 18 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 et antemurale a perite portas quia nobis cum deus Alleluya p
+                      0 ||
+    query             0 et antemurale a-perite portas quia nobis-cum deus alleluya--
+    
+    target           60 reo 63
+                      2 ---  5
+    query            56 --- 56
+
+-- fused_2 --
+  OCR:      'jubilate evovae  . Acce apparebit dominus et non menci'
+  Assigned: '~Jubilate euouae Ecce apparebit dominus et non menci'
+  Words:    [18..26) consumed=8
+  NW score: k=8 (pre-snap), norm=5.8191
+  Anchor:   word 26 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -jubilate evovae  . Acce apparebit dominus et non menci----
+                      0 -.|||||||
+    query             0 ~Jubilate euouae--- Ecce apparebit dominus et non mencietur
+    
+    target           54
+                      9
+    query            56
+
+-- fused_3 --
+  OCR:      'ta veniet et non tardabit'
+  Assigned: 'etur si moram fecerit expecta eum quia veniet et non tardabit'
+  Words:    [26..36) consumed=10
+  NW score: k=10 (pre-snap), norm=2.6459
+  Anchor:   word 36 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ----------------------t---------a veniet et non tardabit 25
+                      0 ----------------------|---------| 33
+    query             0 si moram fecerit expecta eum quia veniet et non tardabit 56
+
+-- fused_4 --
+  OCR:      'Alleluya. Gmeus EVovae e Montes ca et Colles d'
+  Assigned: 'alleluya ~Deus deus meus euouae Montes et colles can'
+  Words:    [36..45) consumed=9
+  NW score: k=8 (pre-snap), norm=3.2561
+  Anchor:   word 45 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 Alleluya-----. ----Gmeus EVovae e Montes ca et Colles ------
+                      0 .|||||||-----.
+    query             0 alleluya ~Deus deus meus euoua--e Montes--- et colles cantab
+    
+    target           45 --d 46
+                     14 --. 17
+    query            55 unt 58
+
+-- fused_5 --
+  OCR:      'tabunt coram Deo laudeni et omnia ligna silvarum plandent'
+  Assigned: 'tabunt coram deo laudem et omnia ligna silvarum plaudent'
+  Words:    [45..53) consumed=8
+  NW score: k=8 (pre-snap), norm=6.0739
+  Anchor:   word 53 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 tabunt coram Deo laudeni et omnia ligna silvarum plandent 57
+                      0 -------||||| 12
+    query             0 -------coram deo laude-m et omnia ligna silvarum plaudent 49
+
+-- fused_6 --
+  OCR:      'manibus quoniam veniet dominus dominator in regnum e'
+  Assigned: 'manibus quoniam veniet dominus dominator in regnum'
+  Words:    [53..60) consumed=7
+  NW score: k=7 (pre-snap), norm=7.6485
+  Anchor:   word 67 (within_chant_7), diff=7, snapped=False, forced=False
+  Alignment:
+    target            0 manibus quoniam veniet dominus dominator in regnum e 52
+                      0 |||||||  7
+    query             0 manibus quoniam veniet dominus dominator in regnum-- 50
+
+-- fused_7 --
+  OCR:      'ternum alleiya Allelua p bundiie eoae ece domi'
+  Assigned: 'eternum alleluya alleluya ~Benedic euouae Ecce domi'
+  Words:    [60..67) consumed=7
+  NW score: k=7 (pre-snap), norm=3.7119
+  Anchor:   word 67 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -ternum alle-iya Allelu-a p bun-diie e-o-ae -ece domi--- 46
+                      0 -||||||  7
+    query             0 eternum alleluya alleluya -~Bened-ic euouae Ecce dominus 54
+
+-- fused_8 --
+  OCR:      'nus nostercum virtute veniet et illumimabit oculos servorum'
+  Assigned: 'nus noster cum virtute veniet et illuminabit oculos servorum'
+  Words:    [67..75) consumed=8
+  NW score: k=8 (pre-snap), norm=7.0285
+  Anchor:   word 75 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 nus noster-cum virtute veniet et illumimabit oculos servorum
+                      0 ----||||||-|||
+    query             0 ----noster cum virtute veniet et illuminabit oculos servorum
+    
+    target           59 
+                     14 
+    query            56 
+
+-- fused_9 --
+  OCR:      'capitli Beateres quesque scripta sunt'
+  Assigned: 'suorum alleluya ~Laudate euouae Joannes autem cum audisset'
+  Words:    [75..83) consumed=8
+  NW score: k=8 (pre-snap), norm=-1.5542
+  Anchor:   word 89 (within_chant_7), diff=6, snapped=False, forced=False
+  Alignment:
+    target            0 ------capitl--i ---Beate------------res qu-e-sque scripta su
+                      0 ------.|...|--.
+    query             0 suorum alleluya ~Laudate euouae Joannes autem cum audi----ss
+    
+    target           35 nt 37
+                     15 .| 17
+    query            56 et 58
+
+-- fused_10 --
+  OCR:      'vimus voxdara V vox cla'
+  Assigned: 'in vinculis opera xpisti mittens du'
+  Words:    [83..89) consumed=6
+  NW score: k=4 (pre-snap), norm=-0.9364
+  Anchor:   word 89 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 ---vi-mu--s voxdara -----V ----vox -cla 23
+                      0 ---||-.|--| 11
+    query             0 in vinculis -o-pera xpisti mittens duos 37
+
+-- fused_11 --
+  OCR:      'suorum Allelnya proo laudate eovae mantis indeser ad bne aute'
+  Assigned: 'os de discipulis suis ait illi tu es qui venturus es an alium'
+  Words:    [89..101) consumed=12
+  NW score: k=12 (pre-snap), norm=-1.2777
+  Anchor:   word 101 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -----s---u---oru-----m Allelnya proo laudate e-----ovae mant
+                      0 -----|---|---..|-----.
+    query             0 de discipulis suis ait ill---------i -----tu es qui v-e---nt
+    
+    target           39 --is indeser ad bne a--ute 61
+                     22 --.| 26
+    query            42 urus ---es-- a---n- aliu-m 58
+
+-- fused_12 --
+  OCR:      'cubus anent em aroieit mnmncan piem ps iteni dim'
+  Assigned: 'exspectamus euouae'
+  Words:    [101..103) consumed=2
+  NW score: k=2 (pre-snap), norm=-3.5382
+  Alignment:
+    target            0 cubus anent em aroieit mnmncan piem ps iteni dim 48
+                      0 ------------|---...|.|------|-----|-.| 38
+    query             0 ------------e---xspect------a-----m-us --e-uouae 18
+
+-- fused_13 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [103..103) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_14 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [103..103) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_15 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [103..103) consumed=0
+  Alignment:
+    (no words left)
+=== END DEBUG ===
+

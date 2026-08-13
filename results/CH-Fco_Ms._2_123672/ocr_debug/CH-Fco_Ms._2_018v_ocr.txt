@@ -1,0 +1,231 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'pesenlitus dolinim supranele ev angeniia'
+  [fused_1] 're pamperibus misit me Ps le decet evovae Propter Syon'
+  [fused_2] 'non tacebo donec egrediatur ut splendor justus ejusdes'
+  [fused_3] '.cce veniet dominus ut sedeat cum principibu'
+  [fused_4] 'et solium glorie teneat .tavt o '
+  [fused_5] 'nunciate populis et dicite ecclesie denris salidator noster venient'
+  [fused_6] 'adbe'
+  [fused_7] 'nedict'
+  [fused_8] 'diss est Gabriel Angelus ad Mariam Nota quod si cuntuor ipsi fiat peedenti'
+  [fused_9] 'eebdall anti missus esga adicis'
+  [fused_10] 'virginem desponsatam Iosepha evovae IIia fria precedentis ebde qsuntte ad unde et alia que ditur ad mag diotur'
+  [fused_11] 'enanglio IIIor trin et ille que dicende cent'
+  [fused_12] 'natali die ipsius ebde dicentur ultima'
+  [fused_13] 'I frra ante nati or Pra quis hoc omro dicitu'
+  [fused_14] 'cce incuia domini fiat michi secum'
+  [fused_15] 'dum verbum tuum exovae'
+  [fused_16] 'e Mariam conjugem tuam quod emm in ea natum est de'
+  [fused_17] 'spiritu Sancto est Allelnya evovae . mertacii'
+  [fused_18] 'oentomimo et pelantus contrage'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'pesenlitus dolinim supranele ev angeniia'
+  Assigned: '~Miserere euouae Spiritus domini super me evangeliza'
+  Words:    [0..7) consumed=7
+  NW score: k=7 (pre-snap), norm=1.6568
+  Anchor:   word 7 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -------pese--------nlitus dolinim sup-ranele ev angeniia-- 40
+                      0 -------.|.|--------..|||| 25
+    query             0 ~Miserere euouae Spiritus domini- super-- me ev-angelizare 54
+
+-- fused_1 --
+  OCR:      're pamperibus misit me Ps le decet evovae Propter Syon'
+  Assigned: 're pauperibus misit me ~Te decet euouae Propter syon'
+  Words:    [7..15) consumed=8
+  NW score: k=8 (pre-snap), norm=5.6572
+  Anchor:   word 15 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 re pamperibus misit me Ps le decet evovae Propter Syon 54
+                      0 ---||.||||||| 13
+    query             0 ---pauperibus misit me --~Te decet euouae Propter syon 49
+
+-- fused_2 --
+  OCR:      'non tacebo donec egrediatur ut splendor justus ejusdes'
+  Assigned: 'non tacebo donec egrediatur ut splendor iustus eius'
+  Words:    [15..23) consumed=8
+  NW score: k=8 (pre-snap), norm=7.0314
+  Anchor:   word 33 (within_chant_7), diff=10, snapped=False, forced=False
+  Alignment:
+    target            0 non tacebo donec egrediatur ut splendor justus ejusdes 54
+                      0 |||  3
+    query             0 non tacebo donec egrediatur ut splendor iustus eiu---s 51
+
+-- fused_3 --
+  OCR:      '.cce veniet dominus ut sedeat cum principibu'
+  Assigned: '~Deus deus euouae Ecce veniet dominus ut sedeat cum principibus'
+  Words:    [23..33) consumed=10
+  NW score: k=10 (pre-snap), norm=5.2042
+  Anchor:   word 33 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ------------------.cce veniet dominus ut sedeat cum principi
+                      0 ------------------.|||
+    query             0 ~Deus deus euouae Ecce veniet dominus ut sedeat cum principi
+    
+    target           42 bu- 44
+                     22 ||- 25
+    query            60 bus 63
+
+-- fused_4 --
+  OCR:      'et solium glorie teneat .tavt o'
+  Assigned: 'et solium glorie teneat'
+  Words:    [33..37) consumed=4
+  NW score: k=4 (pre-snap), norm=5.8422
+  Anchor:   word 41 (within_chant_7), diff=4, snapped=False, forced=False
+  Alignment:
+    target            0 et solium glorie teneat .tavt o 31
+                      0 ||  2
+    query             0 et solium glorie teneat-------- 23
+
+-- fused_5 --
+  OCR:      'nunciate populis et dicite ecclesie denris salidator noster venient'
+  Assigned: '~Exultavit cor euouae Annuntiate populis et dicite ecce deus salvator noster veniet'
+  Words:    [37..49) consumed=12
+  NW score: k=12 (pre-snap), norm=4.2509
+  Anchor:   word 41 (within_chant_7), diff=8, snapped=False, forced=False
+  Alignment:
+    target            0 ------------------------nunciate populis et dicite ecclesie 
+                      0 ------------------------|||.||||
+    query             0 ~Exultavit cor euouae Annuntiate populis et dicite ecc----e 
+    
+    target           36 denris salidator noster venient 67
+                     32 ||--.| 38
+    query            56 de--us sal-vator noster venie-t 83
+
+-- fused_6 --
+  OCR:      'adbe'
+  Assigned: '~Laudate'
+  Words:    [49..50) consumed=1
+  NW score: k=1 (pre-snap), norm=-0.8839
+  Anchor:   word 57 (within_chant_7), diff=7, snapped=False, forced=False
+  Alignment:
+    target            0 --a-d-be 4
+                      0 --|-|-.| 8
+    query             0 ~Laudate 8
+
+-- fused_7 --
+  OCR:      'nedict'
+  Assigned: 'euouae Missus est'
+  Words:    [50..53) consumed=3
+  NW score: k=3 (pre-snap), norm=-3.5645
+  Anchor:   word 57 (within_chant_7), diff=4, snapped=False, forced=False
+  Alignment:
+    target            0 ----ne-di------ct  6
+                      0 ----.|-.|------.| 17
+    query             0 euouae Missus est 17
+
+-- fused_8 --
+  OCR:      'diss est Gabriel Angelus ad Mariam Nota quod si cuntuor ipsi fiat peedenti'
+  Assigned: 'gabriel angelus ad mariam'
+  Words:    [53..57) consumed=4
+  NW score: k=6 (pre-snap), norm=0.9427
+  Anchor:   word 57 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 diss est Gabriel Angelus ad Mariam Nota quod si cuntuor ipsi
+                      0 ---------.||||||
+    query             0 ---------gabriel angelus ad mariam--------------------------
+    
+    target           60  fiat peedenti 74
+                     16 -------------- 30
+    query            25 -------------- 25
+
+-- fused_9 --
+  OCR:      'eebdall anti missus esga adicis'
+  Assigned: 'virginem desponsatam joseph euouae'
+  Words:    [57..61) consumed=4
+  NW score: k=6 (pre-snap), norm=-1.7815
+  Anchor:   word 61 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 ------eebd--all ant-i missus esga adicis 31
+                      0 ------|..|--....|-|-. 21
+    query             0 virginem desponsa-tam joseph e-uoua----e 34
+
+-- fused_10 --
+  OCR:      'virginem desponsatam Iosepha evovae IIia fria precedentis ebde qsuntte ad unde et alia que ditur ad mag diotur'
+  Assigned: 'Ecce ancilla domini fiat michi secundum verbum tuum euouae Joseph fili david noli timere accipere mariam coniugem tuam quod enim in ea natum est de spiritu sancto est alleluya euouae Egredietur dominus et preliabitur'
+  Words:    [61..95) consumed=34
+  NW score: k=34 (pre-snap), norm=-1.0056
+  Anchor:   word 67 (within_chant_7), diff=28, snapped=False, forced=False
+  Alignment:
+    target            0 -------vi-----rgin--------------e-----m desponsat--------am 
+                      0 -------.|-----..||--------------|-----|
+    query             0 Ecce ancilla domini fiat michi secundum ve-rbum tuum euouae 
+    
+    target           21 Ioseph----a -ev----o------vae -IIi---a -fria- prec-----e----
+                     39 .|||||----.
+    query            59 Joseph fili david noli timere accipere mariam ---coniugem tu
+    
+    target           51 ------d-en-----------tis e--bde qs-untte -ad un-de e-t al---
+                     50 ------|-||-----------|..
+    query           116 am quod enim in ea natum est de -spiritu sa---ncto est allel
+    
+    target           84 -ia qu---e ----di-tur ad m-----ag ---di--otur 110
+                     74 -.|  77
+    query           172 uya euouae Egredietur -dominus et preliabitur 216
+
+-- fused_11 --
+  OCR:      'enanglio IIIor trin et ille que dicende cent'
+  Assigned: 'contra gentes'
+  Words:    [95..97) consumed=2
+  NW score: k=2 (pre-snap), norm=-3.5540
+  Anchor:   word 97 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 enanglio IIIor trin et ille que dicende cent-- 44
+                      0 -----------.|-.||---------------------. 39
+    query             0 -----------co-ntr---------------------a gentes 13
+
+-- fused_12 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [97..97) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_13 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [97..97) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_14 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [97..97) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_15 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [97..97) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_16 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [97..97) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_17 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [97..97) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_18 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [97..97) consumed=0
+  Alignment:
+    (no words left)
+=== END DEBUG ===
+

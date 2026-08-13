@@ -1,0 +1,163 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'tes . Et stabunt pedes ejus supra Montesoblivarum ad'
+  [fused_1] 'o  t elenabitur super omnes colles et flient ad'
+  [fused_2] 'eum mness tstarecursor pro no'
+  [fused_3] 'bis vigreditur. Agnus sinemacula secundum or'
+  [fused_4] 'conen Melchi se dech . Pontifex factus'
+  [fused_5] 'in ecce mum et inseai im li se est rex'
+  [fused_6] 'ustice cuus generatio non nem Ponti'
+  [fused_7] 'fex videbunt gentes justum tinimi et cuncti regesi'
+  [fused_8] 'ditum tunn . et vocabutur tibi no men nonum quod os'
+  [fused_9] 'dominnuo mi nantceno corona glorie'
+  [fused_10] 'm ddomini et diademia regni minamie tu '
+  [fused_11] 'vocabitur. e Syonveniet dominus omnipotens'
+  [fused_12] 'te lauin fariet pepium sumu es ilitere croas'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'tes . Et stabunt pedes ejus supra Montesoblivarum ad'
+  Assigned: 'Et stabunt pedes eius supra montes oblivarum ad'
+  Words:    [0..8) consumed=8
+  NW score: k=8 (pre-snap), norm=6.3313
+  Anchor:   word 17 (within_chant_7), diff=9, snapped=False, forced=False
+  Alignment:
+    target            0 tes . Et stabunt pedes ejus supra Montes-oblivarum ad 52
+                      0 ------||  8
+    query             0 ------Et stabunt pedes eius supra montes oblivarum ad 47
+
+-- fused_1 --
+  OCR:      'o  t elenabitur super omnes colles et flient ad'
+  Assigned: 'orientem Et elevabitur super omnes colles et fluent ad'
+  Words:    [8..17) consumed=9
+  NW score: k=9 (pre-snap), norm=6.1931
+  Anchor:   word 17 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 o-------  t elenabitur super omnes colles et flient ad 47
+                      0 |-------  8
+    query             0 orientem Et elevabitur super omnes colles et fluent ad 54
+
+-- fused_2 --
+  OCR:      'eum mness tstarecursor pro no'
+  Assigned: 'eum omnes gentes Et stabunt Precursor pro no'
+  Words:    [17..25) consumed=8
+  NW score: k=8 (pre-snap), norm=4.1713
+  Anchor:   word 25 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 eum -mnes------s -t-sta------recursor pro no--- 29
+                      0 |||  3
+    query             0 eum omnes gentes Et stabunt Precursor pro nobis 47
+
+-- fused_3 --
+  OCR:      'bis vigreditur. Agnus sinemacula secundum or'
+  Assigned: 'bis ingreditur agnus sine macula secundum or'
+  Words:    [25..31) consumed=6
+  NW score: k=5 (pre-snap), norm=5.3286
+  Anchor:   word 31 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 bis vigreditur. Agnus sine-macula secundum or----- 44
+                      0 -|---.||||||||- 15
+    query             0 -i---ngreditur- agnus sine macula secundum ordinem 45
+
+-- fused_4 --
+  OCR:      'conen Melchi se dech . Pontifex factus'
+  Assigned: 'dinem melchisedech Pontifex factus est'
+  Words:    [31..35) consumed=4
+  NW score: k=3 (pre-snap), norm=5.0584
+  Anchor:   word 35 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 conen Melchi se dech . Pontifex factus---- 38
+                      0 ------.|||||-||-||||-- 22
+    query             0 ------melchi-se-dech-- Pontifex factus est 32
+
+-- fused_5 --
+  OCR:      'in ecce mum et inseai im li se est rex'
+  Assigned: 'in eternum et in seculum seculi Ipse est rex'
+  Words:    [35..44) consumed=9
+  NW score: k=9 (pre-snap), norm=4.0352
+  Anchor:   word 44 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 in ecce mum et in-seai im ----li --se est rex 38
+                      0 ||  2
+    query             0 in e-ternum et in seculum seculi Ipse est rex 44
+
+-- fused_6 --
+  OCR:      'ustice cuus generatio non nem Ponti'
+  Assigned: 'iusticie cuius generatio non habet finem ponti'
+  Words:    [44..51) consumed=7
+  NW score: k=7 (pre-snap), norm=5.2641
+  Anchor:   word 51 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -ustic-e cu-us generatio non --------nem Ponti--- 35
+                      0 -|||||-|  8
+    query             0 iusticie cuius generatio non habet finem Pontifex 49
+
+-- fused_7 --
+  OCR:      'fex videbunt gentes justum tinimi et cuncti regesi'
+  Assigned: 'fex Videbunt gentes iustum tuum et cuncti reges in'
+  Words:    [51..59) consumed=8
+  NW score: k=7 (pre-snap), norm=5.4995
+  Anchor:   word 59 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 fex videbunt gentes justum tinimi et cuncti reges-----i--- 50
+                      0 ----.||||||| 12
+    query             0 ----Videbunt gentes iustum t-uum- et cuncti reges inclitum 52
+
+-- fused_8 --
+  OCR:      'ditum tunn . et vocabutur tibi no men nonum quod os'
+  Assigned: 'clitum tuum Et vocabitur tibi nomen novum quod os'
+  Words:    [59..67) consumed=8
+  NW score: k=8 (pre-snap), norm=5.2072
+  Anchor:   word 67 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ditum tunn . et vocabutur tibi no men nonum quod os 51
+                      0 --||---|---. 12
+    query             0 --tu---u---m Et vocabitur tibi no-men novum quod os 42
+
+-- fused_9 --
+  OCR:      'dominnuo mi nantceno corona glorie'
+  Assigned: 'domini nominavit Et eris corona glorie'
+  Words:    [67..73) consumed=6
+  NW score: k=6 (pre-snap), norm=3.9505
+  Anchor:   word 73 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 domin--nuo mi na----ntce-no corona glorie 34
+                      0 |||||--|-|-||-||----.|.|-.. 27
+    query             0 domini n-o-mi-navit Et eris corona glorie 38
+
+-- fused_10 --
+  OCR:      'm ddomini et diademia regni minamie tu'
+  Assigned: 'in manu domini et diadema regni in manu dei tui Et'
+  Words:    [73..84) consumed=11
+  NW score: k=8 (pre-snap), norm=4.3640
+  Anchor:   word 84 (within_chant_7), diff=3, snapped=False, forced=True
+  Alignment:
+    target            0 ---m--- ddomini et diademia regni minam----ie- tu---- 38
+                      0 ---|---  7
+    query             0 in manu -domini et diadem-a regni -in manu dei tui Et 50
+
+-- fused_11 --
+  OCR:      'vocabitur. e Syonveniet dominus omnipotens'
+  Assigned: 'vocabitur De syon veniet dominus omnipotens'
+  Words:    [84..90) consumed=6
+  NW score: k=6 (pre-snap), norm=6.9181
+  Anchor:   word 90 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 vocabitur. -e Syon-veniet dominus omnipotens 42
+                      0 |||||||||- 10
+    query             0 vocabitur- De syon veniet dominus omnipotens 43
+
+-- fused_12 --
+  OCR:      'te lauin fariet pepium sumu es ilitere croas'
+  Assigned: 'ut salvum faciat populum suum ~Miserere euouae'
+  Words:    [90..97) consumed=7
+  NW score: k=7 (pre-snap), norm=1.6004
+  Anchor:   word 97 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -te --lauin fariet pep-ium s-umu es ilitere cro-as 44
+                      0 -|-  3
+    query             0 ut- salvu-m faciat populum suum- -~Miserere euouae 46
+=== END DEBUG ===
+

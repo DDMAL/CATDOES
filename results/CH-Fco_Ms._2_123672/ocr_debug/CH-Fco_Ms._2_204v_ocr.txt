@@ -1,0 +1,221 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'mater nichil aliud petas nisi caput Johannis  s dis eo'
+  [fused_1] 'ae'
+  [fused_2] 'tem quam tulerat fratri suo Philippo uxorem  Bndininis eo'
+  [fused_3] 'moie . a michi in disicto caput Johannis Baptiste et con'
+  [fused_4] 'tristatus est rex propter insiurandum  Lauduenis evovac'
+  [fused_5] 'caapelai d die ana'
+  [fused_6] 'isit rex incredulus ministro ad bula misso Herotes ipi omrno'
+  [fused_7] ''
+  [fused_8] 'orouts in felto Sancti Felicis et audacti se Romeviaho ormaie'
+  [fused_9] 'in festo sanctorum duodetimus fratrum ad maiaa instorum est emim orio fratra no'
+  [fused_10] 'me pe saco Egidio de Simlabo eu viro anosde per sancto Egidi'
+  [fused_11] 'Cromae vor ac fuit deniribus are de Sancto Egidio quvi'
+  [fused_12] 'orio se virginis Marie ortum'
+  [fused_13] 'dignissimum recolamnis quem et genitricis digmtatem'
+  [fused_14] 'cbtinerut et incemalemi prndiciciam non amilit eorae'
+  [fused_15] 'mo fam '
+  [fused_16] 'Cacumna tem vngimino man e cele'
+  [fused_17] 'meinno ppistum e moon te iu atore mus comu'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'mater nichil aliud petas nisi caput Johannis  s dis eo'
+  Assigned: 'mater nichil aliud petas nisi caput iohannis'
+  Words:    [0..7) consumed=7
+  NW score: k=7 (pre-snap), norm=6.2572
+  Anchor:   word 15 (within_chant_7), diff=8, snapped=False, forced=False
+  Alignment:
+    target            0 mater nichil aliud petas nisi caput Johannis  s dis eo 54
+                      0 |||||  5
+    query             0 mater nichil aliud petas nisi caput iohannis---------- 44
+
+-- fused_1 --
+  OCR:      'ae'
+  Assigned: '~Deus'
+  Words:    [7..8) consumed=1
+  NW score: k=1 (pre-snap), norm=-4.4272
+  Anchor:   word 15 (within_chant_7), diff=7, snapped=False, forced=False
+  Alignment:
+    target            0 -ae-- 2
+                      0 -.|-- 5
+    query             0 ~Deus 5
+
+-- fused_2 --
+  OCR:      'tem quam tulerat fratri suo Philippo uxorem  Bndininis eo'
+  Assigned: 'deus euouae Arguebat herodem iohannes propter herodiadem quam tulerat fratri suo philippo uxorem ~Benedic euouae'
+  Words:    [8..23) consumed=15
+  NW score: k=15 (pre-snap), norm=2.1026
+  Anchor:   word 15 (within_chant_7), diff=8, snapped=False, forced=False
+  Alignment:
+    target            0 ------------------------------------------t-----------em qua
+                      0 ------------------------------------------|-----------||
+    query             0 deus euouae Arguebat herodem iohannes propter herodiadem qua
+    
+    target            7 m tulerat fratri suo Philippo uxorem  B-n-dininis e-o---  57
+                     56 |  57
+    query            60 m tulerat fratri suo philippo uxorem ~Bened----ic euouae 112
+
+-- fused_3 --
+  OCR:      'moie . a michi in disicto caput Johannis Baptiste et con'
+  Assigned: 'Da michi in disco caput iohannis baptiste et con'
+  Words:    [23..32) consumed=9
+  NW score: k=8 (pre-snap), norm=5.2580
+  Anchor:   word 32 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 moie . a michi in disicto caput Johannis Baptiste et con----
+                      0 ------.|
+    query             0 ------Da michi in dis-c-o caput iohannis baptiste et contris
+    
+    target           56 ----- 56
+                      8 ----- 13
+    query            52 tatus 57
+
+-- fused_4 --
+  OCR:      'tristatus est rex propter insiurandum  Lauduenis evovac'
+  Assigned: 'tristatus est rex propter iusiurandum ~Laudate'
+  Words:    [32..37) consumed=5
+  NW score: k=6 (pre-snap), norm=4.1948
+  Anchor:   word 37 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 tristatus est rex propter insiurandum  Lauduenis evovac 55
+                      0 ----------||| 13
+    query             0 ----------est rex propter iusiurandum ~Laud----ate----- 36
+
+-- fused_5 --
+  OCR:      'caapelai d die ana'
+  Assigned: 'euouae Misit rex incredulus ministros'
+  Words:    [37..42) consumed=5
+  NW score: k=3 (pre-snap), norm=-1.8267
+  Anchor:   word 42 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 --caapelai--- --d di---e----- -an-----a 18
+                      0 --..|-|..|--- 13
+    query             0 euoua-e Misit rex -incredulus ministros 37
+
+-- fused_6 --
+  OCR:      'isit rex incredulus ministro ad bula misso Herotes ipi omrno'
+  Assigned: 'detestabiles et amputari iussit caput iohannis baptiste'
+  Words:    [42..49) consumed=7
+  NW score: k=9 (pre-snap), norm=-1.0418
+  Anchor:   word 49 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 isit re--x incredulus ministro ad bula-- mi-ss-o Herotes ipi
+                      0 -..|--|--..|------|.|
+    query             0 -det--estabi------les ----et-- a-mputari -iussit caput-- i--
+    
+    target           54  omrn-----------o 60
+                     21 -|..|-----------. 38
+    query            39 -ohannis baptiste 55
+
+-- fused_7 --
+  OCR:      ''
+  Assigned: 'euouae Gloriose virginis marie ortum'
+  Words:    [49..54) consumed=5
+
+-- fused_8 --
+  OCR:      'orouts in felto Sancti Felicis et audacti se Romeviaho ormaie'
+  Assigned: 'dignissimum recolamus que et genetricis dignitatem'
+  Words:    [54..60) consumed=6
+  NW score: k=9 (pre-snap), norm=-1.0490
+  Anchor:   word 60 (within_chant_7), diff=3, snapped=False, forced=True
+  Alignment:
+    target            0 -----------or--o---uts -in felto Sancti Felicis et audacti s
+                      0 -----------.|--|---|-|
+    query             0 dignissimum recolamu-s que -e-t- genet----ricis -----d---i--
+    
+    target           43 e Romeviaho ormaie- 61
+                     22 -----..|------.|.|- 41
+    query            42 -----gni------tatem 50
+
+-- fused_9 --
+  OCR:      'in festo sanctorum duodetimus fratrum ad maiaa instorum est emim orio fratra no'
+  Assigned: 'obtinuit et virginalem pudiciciam non amisit'
+  Words:    [60..66) consumed=6
+  NW score: k=13 (pre-snap), norm=-1.1418
+  Anchor:   word 66 (within_chant_7), diff=7, snapped=False, forced=True
+  Alignment:
+    target            0 ---in--- festo ---sanctorum duodetimus fratrum ad maiaa inst
+                      0 ---||---
+    query             0 obtinuit -e-t- virgin--alem pu-dici----------------ciam -n--
+    
+    target           51 orum est emim orio fratra no 79
+                      8 |------. 16
+    query            35 o------n ami---si-----t----- 44
+
+-- fused_10 --
+  OCR:      'me pe saco Egidio de Simlabo eu viro anosde per sancto Egidi'
+  Assigned: 'euouae Nativitatem virginis marie cele'
+  Words:    [66..71) consumed=5
+  NW score: k=7 (pre-snap), norm=-1.1019
+  Anchor:   word 71 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 me-- pe saco Egidio de Simlabo eu viro anos----de pe---r-- s
+                      0 -|--..|
+    query             0 -euouae Na----tivi--------ta--tem vir-ginis marie celebremus
+    
+    target           49 ancto Egidi 60
+                      7 ----------- 18
+    query            44 ----------- 44
+
+-- fused_11 --
+  OCR:      'Cromae vor ac fuit deniribus are de Sancto Egidio quvi'
+  Assigned: 'bremus christum eius filium adoremus dominum'
+  Words:    [71..76) consumed=5
+  NW score: k=5 (pre-snap), norm=-1.5213
+  Anchor:   word 76 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -Cr---omae vor ac fuit deniribus a--re--- de Sancto Egidio q
+                      0 -.|---.|.|----...
+    query             0 christum e----ius f-------ili-um adoremus d-------o----mi--n
+    
+    target           51 uvi 54
+                     17 |-. 20
+    query            35 u-m 37
+
+-- fused_12 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [76..76) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_13 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [76..76) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_14 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [76..76) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_15 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [76..76) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_16 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [76..76) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_17 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [76..76) consumed=0
+  Alignment:
+    (no words left)
+=== END DEBUG ===
+

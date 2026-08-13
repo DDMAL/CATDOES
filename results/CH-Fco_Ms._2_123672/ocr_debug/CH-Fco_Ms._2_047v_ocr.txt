@@ -1,0 +1,287 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'tato'
+  [fused_1] 'rex magnus super omnosde Veniteuma'
+  [fused_2] 'nu tua domine omnes fines ter re ve'
+  [fused_3] 'mnte em  oremus dominumquife'
+  [fused_4] 'tat'
+  [fused_5] 'at nos Venite. ominum qui fecit nos aud vitatorium cantater per to'
+  [fused_6] 'tam estate in dominicis diebus usi'
+  [fused_7] 'te accoe .io ena ad la octobris scilicet Adoremusiaori In domincis die'
+  [fused_8] 'bradnotter'
+  [fused_9] 'minum qum fecit nos p venite cantatus .'
+  [fused_10] 'ddier omni a vel octob usi ad adventu et ab octaas epiphie usi ad primam dominicam XLa t ad lautes'
+  [fused_11] 'ererum et ab octabis pentunisuisque ad kaldi octabs IIIIIo nocte surge Ymus ecclesia '
+  [fused_12] 'Sepipbia qu  ante.'
+  [fused_13] 'erveite domino in timore et exultate ei cum tremore evore'
+  [fused_14] 'mrcin'
+  [fused_15] 'eus index justiis fortis et ugaminus ium'
+  [fused_16] 'Dne domens'
+  [fused_17] 'quid irascrur ver singulos dies evonae oni'
+  [fused_18] 'Salvumes.'
+  [fused_19] 'ccis domine'
+  [fused_20] 'Lixisipiens'
+  [fused_21] 'i domine servabiss et custodies nos evodus Memorfuimocte  et custodiam legem'
+  [fused_22] 'hac nocte ponunt episle Pauli et legitur deipsis'
+  [fused_23] 'mimi neonenos le p rantine cns r jusque ad septuagesimam incipit epistola in ad'
+  [fused_24] 'm agnas menea infiro'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'tato'
+  Assigned: 'rex magnus'
+  Words:    [0..2) consumed=2
+  NW score: k=2 (pre-snap), norm=-5.2178
+  Anchor:   word 8 (within_chant_7), diff=6, snapped=False, forced=False
+  Alignment:
+    target            0 ----ta--to  4
+                      0 ----.|--.. 10
+    query             0 rex magnus 10
+
+-- fused_1 --
+  OCR:      'rex magnus super omnosde Veniteuma'
+  Assigned: 'super omnes deos ~Venite In ma'
+  Words:    [2..8) consumed=6
+  NW score: k=4 (pre-snap), norm=2.5555
+  Anchor:   word 8 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 rex magnus super omnos-de-- -Venite---uma-- 34
+                      0 -----------||||| 16
+    query             0 -----------super omnes deos ~Venite In manu 32
+
+-- fused_2 --
+  OCR:      'nu tua domine omnes fines ter re ve'
+  Assigned: 'nu tua domine omnes fines terre ~Venite'
+  Words:    [8..14) consumed=6
+  NW score: k=5 (pre-snap), norm=6.1013
+  Anchor:   word 14 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 nu tua domine omnes fines ter re -----ve 35
+                      0 ---|||  6
+    query             0 ---tua domine omnes fines ter-re ~Venite 36
+
+-- fused_3 --
+  OCR:      'mnte em  oremus dominumquife'
+  Assigned: 'Venite adoremus dominum qui fecit nos'
+  Words:    [14..20) consumed=6
+  NW score: k=4 (pre-snap), norm=4.0734
+  Anchor:   word 20 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 -mn-te em  oremus dominum-qui-fe------- 28
+                      0 -.|-||  6
+    query             0 Venite --adoremus dominum qui fecit nos 37
+
+-- fused_4 --
+  OCR:      'tat'
+  Assigned: 'Venite'
+  Words:    [20..21) consumed=1
+  NW score: k=1 (pre-snap), norm=-4.4783
+  Anchor:   word 25 (within_chant_7), diff=4, snapped=False, forced=False
+  Alignment:
+    target            0 --tat- 3
+                      0 --..|- 6
+    query             0 Venite 6
+
+-- fused_5 --
+  OCR:      'at nos Venite. ominum qui fecit nos aud vitatorium cantater per to'
+  Assigned: 'Dominum qui fecit nos'
+  Words:    [21..25) consumed=4
+  NW score: k=7 (pre-snap), norm=1.6514
+  Anchor:   word 25 (within_chant_7), diff=3, snapped=False, forced=True
+  Alignment:
+    target            0 at nos Venite. ominum qui fecit nos aud vitatorium cantater 
+                      0 --------------.||||||
+    query             0 --------------Dominum qui fecit nos-------------------------
+    
+    target           60 per to 66
+                     21 ------ 27
+    query            21 ------ 21
+
+-- fused_6 --
+  OCR:      'tam estate in dominicis diebus usi'
+  Assigned: 'venite adoremus ~Venite Adoremus dominum qui'
+  Words:    [25..31) consumed=6
+  NW score: k=6 (pre-snap), norm=-0.3620
+  Anchor:   word 28 (within_chant_7), diff=3, snapped=False, forced=False
+  Alignment:
+    target            0 ----t--a----m-- --estate in do--minicis d--iebus -usi 34
+                      0 ----|--|----|-- 15
+    query             0 venite adoremus ~Ve-nite --Adorem----us domi-num qu-i 44
+
+-- fused_7 --
+  OCR:      'te accoe .io ena ad la octobris scilicet Adoremusiaori In domincis die'
+  Assigned: 'fecit nos ~Venite Servite domino in timore'
+  Words:    [31..38) consumed=7
+  NW score: k=7 (pre-snap), norm=-0.6455
+  Anchor:   word 34 (within_chant_7), diff=4, snapped=False, forced=False
+  Alignment:
+    target            0 te accoe .io ena ad la octobris scilicet Adoremusiaor-i In d
+                      0 .|---|----|.
+    query             0 fe---c----it -n-----------o---s ~Venite- ---Se------rvi-te d
+    
+    target           59 omin-cis di---e 70
+                     12 ||||-.|. 20
+    query            27 omino in timore 42
+
+-- fused_8 --
+  OCR:      'bradnotter'
+  Assigned: 'et exultate ei cum tremore euoue'
+  Words:    [38..44) consumed=6
+  NW score: k=2 (pre-snap), norm=-2.5743
+  Anchor:   word 44 (within_chant_7), diff=4, snapped=False, forced=True
+  Alignment:
+    target            0 ------bradnot---------t-e--r------- 10
+                      0 ------..|---|---------|-|--|------- 35
+    query             0 et exulta---te ei cum tremore euoue 32
+
+-- fused_9 --
+  OCR:      'minum qum fecit nos p venite cantatus .'
+  Assigned: '{Beatus vir qui} {Quare fremuerunt} {Domine quid'
+  Words:    [44..51) consumed=7
+  NW score: k=7 (pre-snap), norm=-2.1264
+  Anchor:   word 63 (within_chant_7), diff=12, snapped=False, forced=False
+  Alignment:
+    target            0 --minu----m qu--------m f-e-cit nos p venite cantatus . 39
+                      0 --...|----. 11
+    query             0 {Beatus vir qui} {Quare fremuerunt} -{Domine -----qu-id 48
+
+-- fused_10 --
+  OCR:      'ddier omni a vel octob usi ad adventu et ab octaas epiphie usi ad primam dominicam XLa t ad lautes'
+  Assigned: 'multiplicati} {Domine ne in furore} Deus iudex iustus fortis et longaminis nunquid irascatur per singulos dies euouae {Domine deus'
+  Words:    [51..70) consumed=19
+  NW score: k=19 (pre-snap), norm=-1.2403
+  Anchor:   word 63 (within_chant_7), diff=7, snapped=False, forced=False
+  Alignment:
+    target            0 -----ddi---er --omni a ve--l octo--b --us-i ad-- adventu----
+                      0 -----..|---..
+    query             0 multiplicati} {Dom-ine ne in furore} Deus i-udex --iustus fo
+    
+    target           37 ---- et ab octa---as ---epiphi----------e- usi------ ad--- p
+                     13 ----
+    query            56 rtis et --longaminis nunquid irascatur per -singulos -dies e
+    
+    target           67 rimam -dominicam XLa t ad lautes  98
+                     17 ...|.  22
+    query           112 uouae {Domin---------e -d--eu--s 130
+
+-- fused_11 --
+  OCR:      'ererum et ab octabis pentunisuisque ad kaldi octabs IIIIIo nocte surge Ymus ecclesia'
+  Assigned: 'meus} {Domine deus noster} {Confitebor tibi} {In domino confido} Tu domine servabis nos et custodies nos euouae Domine ne in'
+  Words:    [70..90) consumed=20
+  NW score: k=20 (pre-snap), norm=-1.5579
+  Anchor:   word 87 (within_chant_7), diff=3, snapped=False, forced=False
+  Alignment:
+    target            0 ereru------m--- -e------t--- -------ab o-ctabis pen--------t
+                      0 -.|-|------|---
+    query             0 -me-us} {Domine deus noster} {Confiteb-or tibi} {In domino c
+    
+    target           25 un-i----su----isque ad kaldi- -octabs --IIIIIo---- nocte sur
+                     15 .|-|----.|----|--.|
+    query            57 onfido} Tu domi--ne serva-bis no----s et custodies nos euou-
+    
+    target           68 ge -Ymus ecclesia  84
+                     34 .|  36
+    query           109 ae Dom-ine- ne in 124
+
+-- fused_12 --
+  OCR:      'Sepipbia qu  ante.'
+  Assigned: 'ira tua arguas me'
+  Words:    [90..94) consumed=4
+  NW score: k=4 (pre-snap), norm=-1.0290
+  Anchor:   word 97 (page_break_77), diff=3, snapped=False, forced=False
+  Alignment:
+    target            0 Sepipbia qu  a-----nte. 18
+                      0 ---|--.|  8
+    query             0 ---i--ra tua arguas me- 17
+
+-- fused_13 --
+  OCR:      'erveite domino in timore et exultate ei cum tremore evore'
+  Assigned: 'neque in furore'
+  Words:    [94..97) consumed=3
+  NW score: k=3 (pre-snap), norm=-2.5307
+  Anchor:   word 97 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 erveite domino in timore et exultate ei- cum tremore evore 57
+                      0 ----------------|-----------|.|----| 36
+    query             0 ----------------n-----------equ----e -in fu-------r----ore 15
+
+-- fused_14 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [97..97) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_15 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [97..97) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_16 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [97..97) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_17 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [97..97) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_18 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [97..97) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_19 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [97..97) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_20 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [97..97) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_21 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [97..97) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_22 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [97..97) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_23 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [97..97) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_24 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [97..97) consumed=0
+  Alignment:
+    (no words left)
+=== END DEBUG ===
+

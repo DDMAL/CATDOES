@@ -1,0 +1,179 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'ise no mi nat et gloriatur patrem se habere'
+  [fused_1] 'den videa musi Sermones ve r'
+  [fused_2] 'sunt et si estve rus filius Dei liberet mum de manibus'
+  [fused_3] 'ltis morte turpissima contemine muse'
+  [fused_4] 'Lanquam nugaces estimati sumus ab ulio et abstinet'
+  [fused_5] 'se a mis nostris tamquam ab in mundiciis et profert novis'
+  [fused_6] 'smausto  videa utum de runt.'
+  [fused_7] 'noem .nen  ne cansa Flageluis'
+  [fused_8] 'teede runt ine dicto moae doimni noen defentis soni nmun '
+  [fused_9] 'ca meno mam tio prorima'
+  [fused_10] 'es e qui adiunet sedtu'
+  [fused_11] 'tormens et ideo non sum confusus pe'
+  [fused_12] 'mictere erorie a ntandantes catundecerunt mee no'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'ise no mi nat et gloriatur patrem se habere'
+  Assigned: 'se nominat et gloriatur patrem se habere'
+  Words:    [0..7) consumed=7
+  NW score: k=7 (pre-snap), norm=7.2095
+  Anchor:   word 37 (within_chant_7), diff=30, snapped=False, forced=False
+  Alignment:
+    target            0 ise no mi nat et gloriatur patrem se habere 43
+                      0 -||  3
+    query             0 -se no-mi-nat et gloriatur patrem se habere 40
+
+-- fused_1 --
+  OCR:      'den videa musi Sermones ve r'
+  Assigned: 'deum Videamus si sermones'
+  Words:    [7..11) consumed=4
+  NW score: k=4 (pre-snap), norm=3.5529
+  Anchor:   word 37 (within_chant_7), diff=26, snapped=False, forced=False
+  Alignment:
+    target            0 de-n videa mu--si Sermones ve r 28
+                      0 ||-.  4
+    query             0 deum Videa-mus si sermones----- 25
+
+-- fused_2 --
+  OCR:      'sunt et si estve rus filius Dei liberet mum de manibus'
+  Assigned: 'illius veri sunt et si est verus filius dei liberet illum de manibus'
+  Words:    [11..24) consumed=13
+  NW score: k=13 (pre-snap), norm=5.5118
+  Anchor:   word 37 (within_chant_7), diff=13, snapped=False, forced=False
+  Alignment:
+    target            0 ------------sunt et si est-ve rus filius Dei liberet --mum d
+                      0 ------------||||
+    query             0 illius veri sunt et si est ve-rus filius dei liberet illum d
+    
+    target           45 e manibus 54
+                     16 | 17
+    query            59 e manibus 68
+
+-- fused_3 --
+  OCR:      'ltis morte turpissima contemine muse'
+  Assigned: 'nostris morte turpissima condempnemus'
+  Words:    [24..28) consumed=4
+  NW score: k=4 (pre-snap), norm=5.5348
+  Anchor:   word 37 (within_chant_7), diff=9, snapped=False, forced=False
+  Alignment:
+    target            0 --lt-is morte turpissima contemine muse 36
+                      0 --.|-||  7
+    query             0 nostris morte turpissima condempne-mus- 37
+
+-- fused_4 --
+  OCR:      'Lanquam nugaces estimati sumus ab ulio et abstinet'
+  Assigned: 'eum Tamquam nugaces estimati sumus ab illo et abstinet'
+  Words:    [28..37) consumed=9
+  NW score: k=9 (pre-snap), norm=6.3893
+  Anchor:   word 37 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ----Lanquam nugaces estimati sumus ab ulio et abstinet 50
+                      0 ----.|.|||| 11
+    query             0 eum Tamquam nugaces estimati sumus ab illo et abstinet 54
+
+-- fused_5 --
+  OCR:      'se a mis nostris tamquam ab in mundiciis et profert novis'
+  Assigned: 'se a viis nostris tamquam ab inmundiciis et profert novis'
+  Words:    [37..47) consumed=10
+  NW score: k=10 (pre-snap), norm=6.8684
+  Anchor:   word 47 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 se a -mis nostris tamquam ab in mundiciis et profert novis--
+                      0 ||
+    query             0 se a viis nostris tamquam ab in-mundiciis et profert novissi
+    
+    target           57 -- 57
+                      2 --  4
+    query            59 ma 61
+
+-- fused_6 --
+  OCR:      'smausto  videa utum de runt.'
+  Assigned: 'sima iustorum Videamus Circumdederunt'
+  Words:    [47..50) consumed=3
+  NW score: k=3 (pre-snap), norm=1.8040
+  Anchor:   word 50 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 smausto--  videa u-----tum de- runt. 28
+                      0 --.||||--. 10
+    query             0 --iustorum Videamus Circum-dederunt- 32
+
+-- fused_7 --
+  OCR:      'noem .nen  ne cansa Flageluis'
+  Assigned: 'me viri mendaces sine causa flagellis'
+  Words:    [50..56) consumed=6
+  NW score: k=6 (pre-snap), norm=2.1370
+  Anchor:   word 56 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 noe----m -.n---en - ne cansa Flageluis 29
+                      0 -.|----.  8
+    query             0 -me viri mendaces sine causa flagellis 37
+
+-- fused_8 --
+  OCR:      'teede runt ine dicto moae doimni noen defentis soni nmun'
+  Assigned: 'ceciderunt me Sed tu domine defensor vindi'
+  Words:    [56..63) consumed=7
+  NW score: k=8 (pre-snap), norm=1.2670
+  Anchor:   word 63 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 te-ede runt ine --dicto moae doimni noen defentis so--ni n-m
+                      0 .|-.||-||||
+    query             0 cecide-runt -me Sed---- --tu do-m-i-n-e- defen----sor vi-ndi
+    
+    target           54 un 56
+                     11 .. 13
+    query            42 ca 44
+
+-- fused_9 --
+  OCR:      'ca meno mam tio prorima'
+  Assigned: 'ca me Quoniam tribulatio proxima'
+  Words:    [63..67) consumed=4
+  NW score: k=4 (pre-snap), norm=2.3232
+  Anchor:   word 67 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ca me--no mam -------tio prorima 23
+                      0 ---||--.|..|| 13
+    query             0 ---me Quoniam tribulatio proxima 29
+
+-- fused_10 --
+  OCR:      'es e qui adiunet sedtu'
+  Assigned: 'est et non est qui adiuvet Sed tu'
+  Words:    [67..75) consumed=8
+  NW score: k=8 (pre-snap), norm=3.8969
+  Anchor:   word 75 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 es-------- e-- qui adiunet sed-tu 22
+                      0 ||-------- 10
+    query             0 est et non est qui adiuvet Sed tu 33
+
+-- fused_11 --
+  OCR:      'tormens et ideo non sum confusus pe'
+  Assigned: 'Dominus deus auxiliator meus et ideo non sum confusus'
+  Words:    [75..84) consumed=9
+  NW score: k=9 (pre-snap), norm=3.6917
+  Anchor:   word 84 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 --------------------tor-mens et ideo non sum confusus pe 35
+                      0 --------------------|||-||.| 28
+    query             0 Dominus deus auxiliator meus et ideo non sum confusus--- 53
+
+-- fused_12 --
+  OCR:      'mictere erorie a ntandantes catundecerunt mee no'
+  Assigned: '~Miserere euouae Circundantes circundederunt me et in nomine'
+  Words:    [84..92) consumed=8
+  NW score: k=7 (pre-snap), norm=2.8748
+  Anchor:   word 92 (page_break_77), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 -mi-ctere erorie a ntandantes c-atundecerunt me-e---- no----
+                      0 -.|-..|||
+    query             0 ~Miserere euouae Circundantes circundederunt me et in nomine
+    
+    target           48 
+                      9 
+    query            60 
+=== END DEBUG ===
+

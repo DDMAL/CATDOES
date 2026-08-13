@@ -1,0 +1,195 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'venet et salvabit nos evovae LX syon species decoris e'
+  [fused_1] 'nis. Deus noster m annfeste veniet'
+  [fused_2] 'absolutio etnenos Exaudi domine Jheu ppiste preces servorum tuorum et miserere nobis qui cum pret'
+  [fused_3] 'ipisu sancto unus et regnas in secla seculorum amen . Hac nocteponitur liber Ysane prophae quilegendus'
+  [fused_4] 'estusa adnatu domini tam in dominics qua inferiar . Ec prima visio Ysaie filii amnos .'
+  [fused_5] 'opiciensa longe ecclesie meco de'
+  [fused_6] 't neb lam'
+  [fused_7] 'totam terram tegen .on teob'
+  [fused_8] 'mane toiace ia'
+  [fused_9] 'a nobis situes ise Qui regnaturuses'
+  [fused_10] 'in populo terrigene et'
+  [fused_11] 'fii hominum sis etpan per'
+  [fused_12] 'iregisaededucis velut'
+  [fused_13] ' l ia Lol lite petus penatione sita'
+  [fused_14] 't acuanus pede uentiseoit Mcon vit'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'venet et salvabit nos evovae LX syon species decoris e'
+  Assigned: 'veniet et salvabit nos euouae'
+  Words:    [0..5) consumed=5
+  NW score: k=5 (pre-snap), norm=2.7544
+  Anchor:   word 19 (within_chant_7), diff=14, snapped=False, forced=False
+  Alignment:
+    target            0 ven-et et salvabit nos evovae LX syon species decoris e 54
+                      0 |||-||  6
+    query             0 veniet et salvabit nos euoua--------------------------e 29
+
+-- fused_1 --
+  OCR:      'nis. Deus noster m annfeste veniet'
+  Assigned: '~Salvum me ~Usquequo domine ~Dixit insipiens ~Domine quis habitabit Ex syon species decoris eius Deus noster manifeste veniet'
+  Words:    [5..23) consumed=18
+  NW score: k=18 (pre-snap), norm=-0.8743
+  Anchor:   word 19 (within_chant_7), diff=4, snapped=False, forced=False
+  Alignment:
+    target            0 ------------------------------------------------------------
+                      0 ------------------------------------------------------------
+    query             0 ~Salvum me ~Usquequo domine ~Dixit insipiens ~Domine quis ha
+    
+    target            0 --------------n--------------is----. Deus noster m annfeste 
+                     60 --------------|--------------||----.
+    query            60 bitabit Ex syon species decoris eius Deus noster m-anifeste 
+    
+    target           28 veniet  34
+                     96 |||||| 102
+    query           119 veniet 125
+
+-- fused_2 --
+  OCR:      'absolutio etnenos Exaudi domine Jheu ppiste preces servorum tuorum et miserere nobis qui cum pret'
+  Assigned: 'Aspiciens a longe ecce video dei potentiam venientem et nebulam totam terram regentem Ite obviam ei et dicite Nuncia nobis si tu es'
+  Words:    [23..46) consumed=23
+  NW score: k=23 (pre-snap), norm=-0.6298
+  Anchor:   word 29 (within_chant_7), diff=17, snapped=False, forced=False
+  Alignment:
+    target            0 absoluti-------o--- etne----nos Exaud-i do------m----i-n-e- 
+                      0 -.|-...|-------|---
+    query             0 -As-piciens a longe ecce video- ----dei potentiam venientem 
+    
+    target           32 --Jhe-u--- --ppiste---- preces servorum -t-uo--rum--- et mis
+                     19 --..|-|---
+    query            53 et nebulam totam terram -rege-nte-----m Ite obviam ei et dic
+    
+    target           73 ere-----re nobis qui cum pret  97
+                     29 ..|-----..  39
+    query           106 ite Nuncia nobis -si tu- --es 131
+
+-- fused_3 --
+  OCR:      'ipisu sancto unus et regnas in secla seculorum amen . Hac nocteponitur liber Ysane prophae quilegendus'
+  Assigned: 'ipse Qui regnaturus es'
+  Words:    [46..50) consumed=4
+  NW score: k=12 (pre-snap), norm=-0.4259
+  Anchor:   word 50 (within_chant_7), diff=8, snapped=False, forced=True
+  Alignment:
+    target            0 ipisu sancto unus et regnas in secla seculorum amen . Hac no
+                      0 ||-|.
+    query             0 ip-se --------Qu---i regna----------------------------------
+    
+    target           60 cteponitur liber Ysane prophae quilegendus 102
+                      5 -------|||-------.|-----------  35
+    query            14 -------tur-------us----------- ------e---s  22
+
+-- fused_4 --
+  OCR:      'estusa adnatu domini tam in dominics qua inferiar . Ec prima visio Ysaie filii amnos .'
+  Assigned: 'in populo israhel Quique terrigene et filii hominum simul in unum dives et pauper Ite Qui regis israhel intende qui'
+  Words:    [50..70) consumed=20
+  NW score: k=20 (pre-snap), norm=-1.0960
+  Anchor:   word 56 (within_chant_7), diff=14, snapped=False, forced=False
+  Alignment:
+    target            0 ---estu----s-a--- adnatu- -domi--ni -tam ---in domin-ics qua
+                      0 ---...|----|-|---
+    query             0 in populo israhel -Quique terrigene et-- filii hominum simul
+    
+    target           40  in-----------fe-ria---r . Ec prima --visio Ys-aie filii amn
+                     17 
+    query            57  in unum dives et pauper -Ite Qui-- regis-- israhe---l inten
+    
+    target           82 os --.  86
+                     17 ..  19
+    query           109 de qui 115
+
+-- fused_5 --
+  OCR:      'opiciensa longe ecclesie meco de'
+  Assigned: 'deducis velut ovem'
+  Words:    [70..73) consumed=3
+  NW score: k=6 (pre-snap), norm=-1.6491
+  Anchor:   word 73 (within_chant_7), diff=3, snapped=False, forced=True
+  Alignment:
+    target            0 -opiciensa longe ecclesie meco de- 32
+                      0 -...||--|- 10
+    query             0 deduci--s- -----ve--l--ut ---o-vem 18
+
+-- fused_6 --
+  OCR:      't neb lam'
+  Assigned: 'ioseph Nuncia'
+  Words:    [73..75) consumed=2
+  NW score: k=2 (pre-snap), norm=-2.8660
+  Anchor:   word 79 (within_chant_7), diff=4, snapped=False, forced=False
+  Alignment:
+    target            0 t ne-b ----lam  9
+                      0 ...|-.  6
+    query             0 ioseph Nuncia- 13
+
+-- fused_7 --
+  OCR:      'totam terram tegen .on teob'
+  Assigned: 'Tollite portas principes vestras'
+  Words:    [75..79) consumed=4
+  NW score: k=7 (pre-snap), norm=-0.8893
+  Anchor:   word 79 (within_chant_7), diff=3, snapped=False, forced=True
+  Alignment:
+    target            0 to---tam terram ----tegen .on teob 27
+                      0 .|---|-.  8
+    query             0 Tollit-e portas principes -vestras 32
+
+-- fused_8 --
+  OCR:      'mane toiace ia'
+  Assigned: 'et elevamini porte eternales et'
+  Words:    [79..84) consumed=5
+  NW score: k=5 (pre-snap), norm=-1.7761
+  Anchor:   word 87 (page_break_77), diff=3, snapped=False, forced=False
+  Alignment:
+    target            0 --------man------e -t-oiace- ia 14
+                      0 --------|.|------| 18
+    query             0 et elevamini porte eternales et 31
+
+-- fused_9 --
+  OCR:      'a nobis situes ise Qui regnaturuses'
+  Assigned: 'introibit Qui regnaturus'
+  Words:    [84..87) consumed=3
+  NW score: k=3 (pre-snap), norm=2.7948
+  Anchor:   word 87 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 a n--obis situes ise Qui regnaturuses 35
+                      0 -.|--|-|--.||------- 20
+    query             0 -intro-i--bit------- Qui regnaturu--s 24
+
+-- fused_10 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [87..87) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_11 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [87..87) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_12 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [87..87) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_13 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [87..87) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_14 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [87..87) consumed=0
+  Alignment:
+    (no words left)
+=== END DEBUG ===
+

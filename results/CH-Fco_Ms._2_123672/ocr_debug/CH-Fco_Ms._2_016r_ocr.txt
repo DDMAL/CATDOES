@@ -1,0 +1,241 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'c est testimonium quod phibuit Johannes qui postie'
+  [fused_1] 'nemt a factus est exonae. Quomodo fiet istud al'
+  [fused_2] 'quia vurimi in concipiendo non pertuli audi Maria virgo'
+  [fused_3] 'xptisti spiritus Sanctus superveni et in te et jurtus altissimun'
+  [fused_4] 'ad m'
+  [fused_5] 'gnificat'
+  [fused_6] 'obumbrabit tibi evovae aant. abit ei dominus sedem da'
+  [fused_7] 'antiphone maio'
+  [fused_8] 'res ad mact ad'
+  [fused_9] 'vid patris ejus et regnabit ineternum evovae vade ordedminca dns has antipho'
+  [fused_10] ''
+  [fused_11] 'ore altissimi prodisti attingens a fi'
+  [fused_12] 'ne usque ad finem fortiter suaviter disponensque omnia veni ad'
+  [fused_13] 'docendum nos viam prudencie enonae Adonay'
+  [fused_14] 'et dux domus Israhei qui moysi m igne fame Rubi appariusti'
+  [fused_15] 'legem dedisti . Veneis ad redimendum nos in Bra'
+  [fused_16] 'chio extento eovae ante. moit Jeseam staomnsigns'
+  [fused_17] 'momilorum sux oen comniebunt tres oo sum'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'c est testimonium quod phibuit Johannes qui postie'
+  Assigned: 'veniet euouae Hoc est testimonium quod perhibuit iohannes qui post me'
+  Words:    [0..11) consumed=11
+  NW score: k=10 (pre-snap), norm=5.2049
+  Anchor:   word 11 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 ----------------c est testimonium quod p--hibuit Johannes qu
+                      0 ----------------|
+    query             0 veniet euouae Hoc est testimonium quod perhibuit iohannes qu
+    
+    target           42 i post-ie 50
+                     17 | 18
+    query            60 i post me 69
+
+-- fused_1 --
+  OCR:      'nemt a factus est exonae. Quomodo fiet istud al'
+  Assigned: 'venit ante me factus est euouae Quomodo fiet istud an'
+  Words:    [11..21) consumed=10
+  NW score: k=10 (pre-snap), norm=5.0233
+  Anchor:   word 21 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ne-mt a------ factus est exonae. Quomodo fiet istud a---l- 47
+                      0 .|-.|  5
+    query             0 venit ante me factus est euouae- Quomodo fiet istud angele 57
+
+-- fused_2 --
+  OCR:      'quia vurimi in concipiendo non pertuli audi Maria virgo'
+  Assigned: 'gele dei quia virum in concipiendo non pertuli audi maria virgo'
+  Words:    [21..31) consumed=10
+  NW score: k=10 (pre-snap), norm=6.5510
+  Anchor:   word 31 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ----quia vurimi in concipiendo non pertuli audi Maria virgo
+                      0 ----||||
+    query             0 dei quia virum- in concipiendo non pertuli audi maria virgo
+    
+    target           55
+                      8
+    query            58
+
+-- fused_3 --
+  OCR:      'xptisti spiritus Sanctus superveni et in te et jurtus altissimun'
+  Assigned: 'xpisti spiritus sanctus superveniet in te et virtus altissimi'
+  Words:    [31..40) consumed=9
+  NW score: k=9 (pre-snap), norm=6.6419
+  Anchor:   word 40 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 xptisti spiritus Sanctus superveni et in te et jurtus altiss
+                      0 ||-||||
+    query             0 xp-isti spiritus sanctus superveni-et in te et virtus altiss
+    
+    target           60 imun 64
+                      7 ||-. 11
+    query            58 im-i 61
+
+-- fused_4 --
+  OCR:      'ad m'
+  Assigned: 'obumbrabit'
+  Words:    [40..41) consumed=1
+  NW score: k=1 (pre-snap), norm=-4.5853
+  Anchor:   word 48 (within_chant_7), diff=7, snapped=False, forced=False
+  Alignment:
+    target            0 ------ad m  4
+                      0 ------|... 10
+    query             0 obumbrabit 10
+
+-- fused_5 --
+  OCR:      'gnificat'
+  Assigned: 'tibi euouae'
+  Words:    [41..43) consumed=2
+  NW score: k=2 (pre-snap), norm=-2.0254
+  Anchor:   word 48 (within_chant_7), diff=5, snapped=False, forced=False
+  Alignment:
+    target            0 gnifi----cat  8
+                      0 -.|.|----.|. 12
+    query             0 -tibi euouae 11
+
+-- fused_6 --
+  OCR:      'obumbrabit tibi evovae aant. abit ei dominus sedem da'
+  Assigned: 'Dabit ei dominus sedem da'
+  Words:    [43..48) consumed=5
+  NW score: k=5 (pre-snap), norm=2.2324
+  Anchor:   word 48 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 obumbrabit tibi evovae aant. abit ei dominus sedem da--- 53
+                      0 ----------------------------.|||| 33
+    query             0 ----------------------------Dabit ei dominus sedem david 28
+
+-- fused_7 --
+  OCR:      'antiphone maio'
+  Assigned: 'vid patris eius et regnabit'
+  Words:    [48..52) consumed=4
+  NW score: k=4 (pre-snap), norm=-1.9505
+  Anchor:   word 55 (within_chant_7), diff=3, snapped=False, forced=False
+  Alignment:
+    target            0 -ant-i---phone- ---ma-io 14
+                      0 -|-|-|---....|- 15
+    query             0 pa-tris eius et regnabit 23
+
+-- fused_8 --
+  OCR:      'res ad mact ad'
+  Assigned: 'in eternum euouae'
+  Words:    [52..55) consumed=3
+  NW score: k=5 (pre-snap), norm=-2.4318
+  Anchor:   word 55 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 --res ad mact ----ad 14
+                      0 --.|.....|--- 13
+    query             0 in eternum--- euouae 17
+
+-- fused_9 --
+  OCR:      'vid patris ejus et regnabit ineternum evovae vade ordedminca dns has antipho'
+  Assigned: 'O sapientia que ex ore altissimi prodisti attingens a fi'
+  Words:    [55..65) consumed=10
+  NW score: k=10 (pre-snap), norm=-1.0543
+  Anchor:   word 65 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 vid pa----tris ejus et -regna-bit ineternum- evo--vae vade o
+                      0 --.
+    query             0 --O sapient-ia -que ex ore- altissi-------mi prodisti -a----
+    
+    target           51 rdedminca dns has antipho 76
+                      3 ---..||--..|| 16
+    query            43 ---ttin--gens -a- --fi-ne 58
+
+-- fused_10 --
+  OCR:      ''
+  Assigned: 'ne usque ad finem fortiter suaviter disponensque omnia veni ad'
+  Words:    [65..74) consumed=9
+
+-- fused_11 --
+  OCR:      'ore altissimi prodisti attingens a fi'
+  Assigned: 'docendum nos viam prudencie euouae O adonay'
+  Words:    [74..81) consumed=7
+  NW score: k=8 (pre-snap), norm=-0.9453
+  Anchor:   word 81 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 -ore---- altis-si-mi prodisti- ----attingens a-- fi 37
+                      0 -|.|----  8
+    query             0 docendum --nos viam- prudencie euoua-----e O adonay 43
+
+-- fused_12 --
+  OCR:      'ne usque ad finem fortiter suaviter disponensque omnia veni ad'
+  Assigned: 'et dux domus israhel qui moysi in igne flamme rubi apparuisti'
+  Words:    [81..92) consumed=11
+  NW score: k=19 (pre-snap), norm=-0.4513
+  Anchor:   word 92 (within_chant_7), diff=8, snapped=False, forced=True
+  Alignment:
+    target            0 ne- usque ad finem-- fortiter suaviter -dis-pon--ensque --om
+                      0 -|-
+    query             0 -et --dux -d----omus isr-ahel qu--i--- moysi in ign---e flam
+    
+    target           51 nia veni a--------d 62
+                      3 -..  6
+    query            43 -me rubi apparuisti 61
+
+-- fused_13 --
+  OCR:      'docendum nos viam prudencie enonae Adonay'
+  Assigned: 'et ei in syna legem dedisti veni ad redimendum nos in brachio ex'
+  Words:    [92..105) consumed=13
+  NW score: k=14 (pre-snap), norm=-0.9136
+  Anchor:   word 105 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 --------------------------------------docendum nos viam prud
+                      0 --------------------------------------|..|||||
+    query             0 et ei in syna legem dedisti veni ad redimendum nos -i-n br--
+    
+    target           22 enc-ie enonae Adonay 41
+                     46 -.|-|. 52
+    query            56 -achio e--xte----nto 69
+
+-- fused_14 --
+  OCR:      'et dux domus Israhei qui moysi m igne fame Rubi appariusti'
+  Assigned: 'tento euouae O radix iesse qui stas in signum'
+  Words:    [105..113) consumed=8
+  NW score: k=9 (pre-snap), norm=-0.4314
+  Anchor:   word 113 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 et dux domu-s Isra----he--i qui moys-i- m igne fame Rubi app
+                      0 |---|---|-|-.
+    query             0 e---u---o-uae O radix iesse qui stas in -sign---------------
+    
+    target           51 ariusti 58
+                     13 ---|--. 20
+    query            37 ---u--m 39
+
+-- fused_15 --
+  OCR:      'legem dedisti . Veneis ad redimendum nos in Bra'
+  Assigned: 'populorum super quem continebunt reges os suum quem gentes'
+  Words:    [113..122) consumed=9
+  NW score: k=7 (pre-snap), norm=-1.4409
+  Anchor:   word 122 (page_break_77), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 ----l--------e---gem dedisti---- . Veneis ad redimendu-m --n
+                      0 ----|--------|---.||
+    query             0 populorum super quem --continebunt rege-s os -suum- quem gen
+    
+    target           38 -os in Bra 47
+                     20 -.|------- 30
+    query            55 tes------- 58
+
+-- fused_16 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [122..122) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_17 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [122..122) consumed=0
+  Alignment:
+    (no words left)
+=== END DEBUG ===
+

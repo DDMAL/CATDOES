@@ -1,0 +1,247 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'venite benedicti patris mei percipite regnum quod Cominteno '
+  [fused_1] 'vobis pa ratum est ab origine mundi evonae '
+  [fused_2] 'go dicit dominus volo mortem peccatoris sed'
+  [fused_3] 'vinta'
+  [fused_4] 'ut magis convertatur et vinat evovae ovene'
+  [fused_5] 'runt nobis dies penitentie ad redimenda peccata ad salvandas'
+  [fused_6] 'Convertimini'
+  [fused_7] 'me ad vi Ym'
+  [fused_8] 'animas evovae .ccpaeo Comniendemus nosmet ipsos'
+  [fused_9] 'in multa paciencia in jeiimiis multis per arma justicie evovae'
+  [fused_10] 'monarti.'
+  [fused_11] 'etu arma justicie virtutis deicommendemus'
+  [fused_12] 'Frange essimenti ad respas'
+  [fused_13] 'cl intervestibulum ymnu'
+  [fused_14] 'nosmet ipsos in multa pacienta evovae us suis ad madueieat an audi benigne conditor us auge'
+  [fused_15] 'exmunmus meis fecilulis michi fecillis doicis Scapitulis suis capitula supra p'
+  [fused_16] 'sita aimmutanter in fralibus diebus jusque ad dominicam de Passione'
+  [fused_17] 'domsovae in episcoi covent Herosoniam ad vildictus ante Secundum Mathui IuniCum interset ihe omess augusti'
+  [fused_18] 'intravit ihesus in Templum Dei et eicebat omnesve'
+  [fused_19] 'rentes et ementes et mensas nsimilanor cacheoras vende'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'venite benedicti patris mei percipite regnum quod Cominteno'
+  Assigned: 'Venite benedicti patris mei percipite regnum quod'
+  Words:    [0..7) consumed=7
+  NW score: k=8 (pre-snap), norm=6.5303
+  Anchor:   word 7 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 venite benedicti patris mei percipite regnum quod Cominteno
+                      0 .|||||
+    query             0 Venite benedicti patris mei percipite regnum quod----------
+    
+    target           59
+                      6
+    query            49
+
+-- fused_1 --
+  OCR:      'vobis pa ratum est ab origine mundi evonae'
+  Assigned: 'vobis paratum est ab origine mundi euouae'
+  Words:    [7..14) consumed=7
+  NW score: k=7 (pre-snap), norm=7.1089
+  Anchor:   word 14 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 vobis pa ratum est ab origine mundi evonae 42
+                      0 |||||  5
+    query             0 vobis pa-ratum est ab origine mundi euouae 41
+
+-- fused_2 --
+  OCR:      'go dicit dominus volo mortem peccatoris sed'
+  Assigned: 'Vivo ego dicit dominus nolo mortem peccatoris sed'
+  Words:    [14..22) consumed=8
+  NW score: k=8 (pre-snap), norm=6.7317
+  Anchor:   word 22 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ------go dicit dominus volo mortem peccatoris sed 43
+                      0 ------||  8
+    query             0 Vivo ego dicit dominus nolo mortem peccatoris sed 49
+
+-- fused_3 --
+  OCR:      'vinta'
+  Assigned: 'ut magis convertatur'
+  Words:    [22..25) consumed=3
+  NW score: k=3 (pre-snap), norm=-3.4000
+  Anchor:   word 29 (within_chant_7), diff=4, snapped=False, forced=False
+  Alignment:
+    target            0 -----vi----n---ta---  5
+                      0 -----.|----|---||--- 20
+    query             0 ut magis convertatur 20
+
+-- fused_4 --
+  OCR:      'ut magis convertatur et vinat evovae ovene'
+  Assigned: 'et vivat euouae advene'
+  Words:    [25..29) consumed=4
+  NW score: k=4 (pre-snap), norm=0.7868
+  Anchor:   word 29 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ut magis convertatur et vinat evovae -ovene---- 42
+                      0 ---------------------|| 23
+    query             0 ---------------------et vivat euouae Advenerunt 26
+
+-- fused_5 --
+  OCR:      'runt nobis dies penitentie ad redimenda peccata ad salvandas'
+  Assigned: 'runt nobis dies penitentie ad redimenda peccata ad salvandas'
+  Words:    [29..37) consumed=8
+  NW score: k=8 (pre-snap), norm=7.3287
+  Anchor:   word 37 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 runt nobis dies penitentie ad redimenda peccata ad salvandas
+                      0 -----|||||
+    query             0 -----nobis dies penitentie ad redimenda peccata ad salvandas
+    
+    target           60 
+                     10 
+    query            55 
+
+-- fused_6 --
+  OCR:      'Convertimini'
+  Assigned: 'animas'
+  Words:    [37..38) consumed=1
+  NW score: k=1 (pre-snap), norm=-2.4749
+  Anchor:   word 41 (within_chant_7), diff=3, snapped=False, forced=False
+  Alignment:
+    target            0 Convertimini 12
+                      0 -.|----||-.. 12
+    query             0 -an----im-as  6
+
+-- fused_7 --
+  OCR:      'me ad vi Ym'
+  Assigned: 'euouae Commendemus nosmetipsos'
+  Words:    [38..41) consumed=3
+  NW score: k=2 (pre-snap), norm=-2.9137
+  Anchor:   word 41 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 ----me -----ad---- -----vi- Ym 11
+                      0 ----.|  6
+    query             0 euouae Commendemus nosmetipsos 30
+
+-- fused_8 --
+  OCR:      'animas evovae .ccpaeo Comniendemus nosmet ipsos'
+  Assigned: 'in multa paciencia in ieiuniis multis per arma iustitie euouae Per arma iustitie virtutis dei commendemus nosmetipsos'
+  Words:    [41..58) consumed=17
+  NW score: k=17 (pre-snap), norm=-0.1483
+  Anchor:   word 51 (within_chant_7), diff=7, snapped=False, forced=False
+  Alignment:
+    target            0 -----------------a--------ni----------------ma---s----- evov
+                      0 -----------------|--------||----------------||---|-----
+    query             0 in multa paciencia in ieiuniis multis per arma iustitie euou
+    
+    target           11 ae .ccpa-----------------------eo Comniendemus nosmet ipsos
+                     55 ||
+    query            60 ae Per arma iustitie virtutis dei com-mendemus nosmet-ipsos
+    
+    target           47
+                     57
+    query           117
+
+-- fused_9 --
+  OCR:      'in multa paciencia in jeiimiis multis per arma justicie evovae'
+  Assigned: 'in multa paciencia euouae Quod uni ex minimis meis fecistis'
+  Words:    [58..68) consumed=10
+  NW score: k=10 (pre-snap), norm=1.8353
+  Anchor:   word 71 (within_chant_7), diff=3, snapped=False, forced=False
+  Alignment:
+    target            0 in multa paciencia------------ in- je---i-imiis multis per a
+                      0 ||
+    query             0 in multa paciencia euouae Quod uni -ex minim-is m--eis fe---
+    
+    target           43 rma justicie evovae 62
+                      2 ----..|||---------. 21
+    query            53 ----cisti---------s 59
+
+-- fused_10 --
+  OCR:      'monarti.'
+  Assigned: 'michi fecistis dicit'
+  Words:    [68..71) consumed=3
+  NW score: k=2 (pre-snap), norm=-2.1733
+  Anchor:   word 71 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 m------onart------i.  8
+                      0 |------....|------|. 20
+    query             0 michi fecistis dicit 20
+
+-- fused_11 --
+  OCR:      'etu arma justicie virtutis deicommendemus'
+  Assigned: 'dominus euouae Intravit ihesus in templum dei et eiciebat omnes ven'
+  Words:    [71..82) consumed=11
+  NW score: k=11 (pre-snap), norm=-1.0419
+  Anchor:   word 82 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 --------e-tu-- --arma--- ---justicie virt----utis d------eic
+                      0 --------|-.|--
+    query             0 dominus euouae Intr-avit ihesus-- in ---templu--m dei et eic
+    
+    target           31 ------om----mende-mus 41
+                     14 ------||----.||||-..| 35
+    query            52 iebat omnes vendentes 73
+
+-- fused_12 --
+  OCR:      'Frange essimenti ad respas'
+  Assigned: 'dentes et ementes et mensas'
+  Words:    [82..86) consumed=4
+  NW score: k=4 (pre-snap), norm=1.0525
+  Anchor:   word 89 (page_break_77), diff=3, snapped=False, forced=False
+  Alignment:
+    target            0 Frange- essiment-i ad re-spas 26
+                      0 -----|-  7
+    query             0 -----et e---mentes et mens-as 20
+
+-- fused_13 --
+  OCR:      'cl intervestibulum ymnu'
+  Assigned: 'nummulariorum cathedras vendentium'
+  Words:    [86..89) consumed=3
+  NW score: k=3 (pre-snap), norm=-1.6092
+  Anchor:   word 89 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ----cl------- int-e-r---v---estibulum ymnu 23
+                      0 ----.|------- 13
+    query             0 nummulariorum cathedras vendenti---um----- 34
+
+-- fused_14 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [89..89) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_15 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [89..89) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_16 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [89..89) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_17 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [89..89) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_18 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [89..89) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_19 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [89..89) consumed=0
+  Alignment:
+    (no words left)
+=== END DEBUG ===
+

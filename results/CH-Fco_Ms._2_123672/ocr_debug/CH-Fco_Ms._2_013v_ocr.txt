@@ -1,0 +1,183 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'i moram fecerit expecta eum quia vemi ens ve'
+  [fused_1] 'Dethleem cintasDei sumii el exiet dominator'
+  [fused_2] 'et egressus ejus sait apenapio die tum'
+  [fused_3] 'Cecemta tu et magisciour mindio universe ter'
+  [fused_4] 'e nono dinue nerit '
+  [fused_5] 'pacem genti bus et potestas ejus a marius'
+  [fused_6] 'imenturns est uenet et non'
+  [fused_7] '. amnon Anno . Enoma'
+  [fused_8] 'seane noe ut omni man'
+  [fused_9] 'tes no atras etceprofundum maris omnia petrata no Sermo dicti ambro'
+  [fused_10] 'u le Scis ha'
+  [fused_11] 'a Enonam Gunde O. ne se te omoi'
+  [fused_12] 'ectum oebuntur'
+  [fused_13] 'aysi liter reppam sn mdenam potena exo'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'i moram fecerit expecta eum quia vemi ens ve'
+  Assigned: 'si moram fecerit expecta eum quia veniens'
+  Words:    [0..7) consumed=7
+  NW score: k=7 (pre-snap), norm=6.5923
+  Anchor:   word 18 (within_chant_7), diff=11, snapped=False, forced=False
+  Alignment:
+    target            0 -i moram fecerit expecta eum quia vemi ens ve 44
+                      0 -|  2
+    query             0 si moram fecerit expecta eum quia veni-ens--- 41
+
+-- fused_1 --
+  OCR:      'Dethleem cintasDei sumii el exiet dominator'
+  Assigned: 'veniet Et cum Bethleem civitas dei summi ex te exiet dominator'
+  Words:    [7..18) consumed=11
+  NW score: k=11 (pre-snap), norm=3.9897
+  Anchor:   word 18 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 --------------Dethleem ci-ntas-Dei sumii e---l exiet dominat
+                      0 --------------.|||||||
+    query             0 veniet Et cum Bethleem civitas dei summi ex te exiet dominat
+    
+    target           41 or 43
+                     22 || 24
+    query            60 or 62
+
+-- fused_2 --
+  OCR:      'et egressus ejus sait apenapio die tum'
+  Assigned: 'israhel et egressus eius sicut a principio dierum'
+  Words:    [18..26) consumed=8
+  NW score: k=8 (pre-snap), norm=3.7774
+  Anchor:   word 26 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 --------et egressus ejus sai--t a-p-en-apio die tum 38
+                      0 --------|| 10
+    query             0 israhel et egressus eius s-icut a principio die-rum 49
+
+-- fused_3 --
+  OCR:      'Cecemta tu et magisciour mindio universe ter'
+  Assigned: 'eternitatis et magnificabitur in medio universe terre'
+  Words:    [26..33) consumed=7
+  NW score: k=7 (pre-snap), norm=3.6860
+  Anchor:   word 33 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 Cece--mta t-u et mag-i-sc--iour min---dio universe ter-- 44
+                      0 -|.|--.||-|-. 13
+    query             0 -eternita-tis et magnificabitur -in medio universe terre 53
+
+-- fused_4 --
+  OCR:      'e nono dinue nerit'
+  Assigned: 'Et pax erit in terra nostra dum venerit Loquetur'
+  Words:    [33..42) consumed=9
+  NW score: k=8 (pre-snap), norm=-0.0377
+  Anchor:   word 42 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 -------e--- -n------ono---- dinue --nerit--------- 18
+                      0 -------|--- 11
+    query             0 Et pax erit in terra nostra d--um venerit Loquetur 48
+
+-- fused_5 --
+  OCR:      'pacem genti bus et potestas ejus a marius'
+  Assigned: 'pacem gentibus et potestas eius a mari usque ad'
+  Words:    [42..51) consumed=9
+  NW score: k=7 (pre-snap), norm=6.9417
+  Anchor:   word 51 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 pacem genti bus et potestas ejus a mari-us------ 41
+                      0 |||||  5
+    query             0 pacem genti-bus et potestas eius a mari usque ad 47
+
+-- fused_6 --
+  OCR:      'imenturns est uenet et non'
+  Assigned: 'mare Et pax Qui venturus est veniet et non'
+  Words:    [51..60) consumed=9
+  NW score: k=9 (pre-snap), norm=3.2985
+  Anchor:   word 60 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 --------------i-menturns est uen-et et non 26
+                      0 --------------|-.|||||.| 24
+    query             0 mare Et pax Qui venturus est veniet et non 42
+
+-- fused_7 --
+  OCR:      '. amnon Anno . Enoma'
+  Assigned: 'tardabit iam non erit timor in finibus nostris Quoniam'
+  Words:    [60..69) consumed=9
+  NW score: k=6 (pre-snap), norm=-0.9390
+  Anchor:   word 69 (within_chant_7), diff=3, snapped=False, forced=True
+  Alignment:
+    target            0 -------. -am-non ---------------An-----no--- . Eno-ma- 20
+                      0 -------.  8
+    query             0 tardabit iam non erit timor in finibus nostris Quoniam 54
+
+-- fused_8 --
+  OCR:      'seane noe ut omni man'
+  Assigned: 'ipse est salvator noster Deponet omnes iniquita'
+  Words:    [69..76) consumed=7
+  NW score: k=6 (pre-snap), norm=-0.6372
+  Anchor:   word 76 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 --se---------a-ne no--e- -----ut om-----ni-- ma--n 21
+                      0 --||---------|-.. 17
+    query             0 ipse est salvator noster Deponet omnes iniquitates 50
+
+-- fused_9 --
+  OCR:      'tes no atras etceprofundum maris omnia petrata no Sermo dicti ambro'
+  Assigned: 'tes nostras et prohiciet in profundum maris omnia peccata no'
+  Words:    [76..85) consumed=9
+  NW score: k=10 (pre-snap), norm=3.1556
+  Anchor:   word 85 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 tes no atras et------c-e-----profundum maris omnia petrata n
+                      0 ----||-.||||
+    query             0 ----no-stras et prohiciet in profundum maris omnia peccata n
+    
+    target           48 o Sermo dicti ambro 67
+                     12 |---------.|-----|. 31
+    query            55 o---------st-----ra 60
+
+-- fused_10 --
+  OCR:      'u le Scis ha'
+  Assigned: 'stra Quoniam Egypte noli flere quia do'
+  Words:    [85..91) consumed=6
+  NW score: k=5 (pre-snap), norm=-2.4244
+  Anchor:   word 91 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 -u----------------- -l--e Scis ----ha--- 12
+                      0 -|----------------- 19
+    query             0 Quoniam Egypte noli flere quia dominator 40
+
+-- fused_11 --
+  OCR:      'a Enonam Gunde O. ne se te omoi'
+  Assigned: 'minator tuus veniet tibi ante cuius conspectum movebuntur'
+  Words:    [91..98) consumed=7
+  NW score: k=5 (pre-snap), norm=-1.7628
+  Anchor:   word 98 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 a Enonam Gunde- --O. -n-e ---------s-e t-e omo-------i 31
+                      0 ----....  8
+    query             0 ----tuus veniet tibi ante cuius conspectum -movebuntur 49
+
+-- fused_12 --
+  OCR:      'ectum oebuntur'
+  Assigned: 'abyssi Liberare populum suum'
+  Words:    [98..102) consumed=4
+  NW score: k=4 (pre-snap), norm=-2.7274
+  Anchor:   word 106 (page_break_77), diff=4, snapped=False, forced=False
+  Alignment:
+    target            0 --------------e----ctum oebuntur 14
+                      0 --------------|----..|| 23
+    query             0 abyssi Liberare populum --su--um 28
+
+-- fused_13 --
+  OCR:      'aysi liter reppam sn mdenam potena exo'
+  Assigned: 'de manu potencie Ecce'
+  Words:    [102..106) consumed=4
+  NW score: k=3 (pre-snap), norm=-0.9328
+  Anchor:   word 106 (page_break_77), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 aysi liter reppam sn mdenam poten--a ---exo 38
+                      0 -----------.|------- 20
+    query             0 -----------de------- m-an-u potencie Ecce-- 21
+=== END DEBUG ===
+

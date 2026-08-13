@@ -1,0 +1,173 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'Mociono nomene saac tres dLempta vit de'
+  [fused_1] 'no etdi um. de fili'
+  [fused_2] ''
+  [fused_3] 'caustims supra uium moncim quem dire roti bi'
+  [fused_4] 'tus quoque ae domno respndit ad sin etare'
+  [fused_5] 'mio eo oenor ininnocn'
+  [fused_6] 'di .i Mlanim cilamn cum'
+  [fused_7] 'oquodti mn . umque extendisset manimi'
+  [fused_8] 'ut mmolaret fiium ecclesie Angelus domini manit'
+  [fused_9] 'di ceno . tangelus domini Abraham'
+  [fused_10] 'lo dicens benedicam t bi . Et multiplicabo .e'
+  [fused_11] '. acla las ce.ossidebit Lemen'
+  [fused_12] 'mmmor tuo et et bendicentur insomnie mo omnes '
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'Mociono nomene saac tres dLempta vit de'
+  Assigned: 'vocabis nomen eius ysaac Tres Temptavit de'
+  Words:    [0..7) consumed=7
+  NW score: k=7 (pre-snap), norm=3.7900
+  Anchor:   word 7 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 Moc--iono nomen-e--- -saac tres dLempta vit de-- 39
+                      0 .||--|--.  9
+    query             0 vocabi--s nomen eius ysaac Tres -Tempta-vit deus 44
+
+-- fused_1 --
+  OCR:      'no etdi um. de fili'
+  Assigned: 'us abraham et dixit ad eum Tolle fili'
+  Words:    [7..14) consumed=7
+  NW score: k=7 (pre-snap), norm=0.7647
+  Anchor:   word 14 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -----no et-di------ -um. ---de fili-- 19
+                      0 -----..  7
+    query             0 abraham et dixit ad eum- Tolle filium 36
+
+-- fused_2 --
+  OCR:      ''
+  Assigned: 'um tuum quem diligis ysaac et offerres illum ibi in holo'
+  Words:    [14..24) consumed=10
+
+-- fused_3 --
+  OCR:      'caustims supra uium moncim quem dire roti bi'
+  Assigned: 'caustum super unum moncium quem dixero tibi'
+  Words:    [24..30) consumed=6
+  NW score: k=6 (pre-snap), norm=4.0007
+  Anchor:   word 30 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 caustims sup-ra uium monci-m quem dire ro-ti bi 44
+                      0 ---------|||-|- 15
+    query             0 ---------super- unum moncium quem dixe-ro ti-bi 35
+
+-- fused_4 --
+  OCR:      'tus quoque ae domno respndit ad sin etare'
+  Assigned: 'Vocatus quoque a domino respondit adsum et ait ei dominus'
+  Words:    [30..40) consumed=10
+  NW score: k=7 (pre-snap), norm=4.9401
+  Anchor:   word 40 (within_chant_7), diff=3, snapped=False, forced=True
+  Alignment:
+    target            0 ----tus quoque ae dom-no resp-ndit ad sin et-a--re---------
+                      0 ----|||
+    query             0 Vocatus quoque a- domino respondit ad-sum et ait ei dominus
+    
+    target           41
+                      7
+    query            57
+
+-- fused_5 --
+  OCR:      'mio eo oenor ininnocn'
+  Assigned: 'Tolle Angelus domini vocavit abraham'
+  Words:    [40..45) consumed=5
+  NW score: k=4 (pre-snap), norm=-0.9073
+  Anchor:   word 45 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 mio- eo --oenor ---ininnoc-----------n 21
+                      0 -.|-.|-  7
+    query             0 -Tolle- Angelus domini vocavit abraham 36
+
+-- fused_6 --
+  OCR:      'di .i Mlanim cilamn cum'
+  Assigned: 'dicens Ne extendas manum tuam super puerum'
+  Words:    [45..52) consumed=7
+  NW score: k=6 (pre-snap), norm=-0.5992
+  Anchor:   word 52 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 di---- .i --------Mlanim cilam-----n ---cum 23
+                      0 ||----  6
+    query             0 dicens Ne extendas manum -tuam super puerum 42
+
+-- fused_7 --
+  OCR:      'oquodti mn . umque extendisset manimi'
+  Assigned: 'eo quod timeas dominum Cumque extendisset manum'
+  Words:    [52..59) consumed=7
+  NW score: k=7 (pre-snap), norm=4.3404
+  Anchor:   word 59 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -o-quod-ti---- --m-n . -umque extendisset manimi 37
+                      0 -|-||||-||---- 14
+    query             0 eo quod timeas dominum Cumque extendisset manum- 47
+
+-- fused_8 --
+  OCR:      'ut mmolaret fiium ecclesie Angelus domini manit'
+  Assigned: 'ut immolaret filium ecce angelus domini de celo clamavit'
+  Words:    [59..68) consumed=9
+  NW score: k=6 (pre-snap), norm=5.3955
+  Anchor:   word 68 (within_chant_7), diff=3, snapped=False, forced=True
+  Alignment:
+    target            0 ut -mmolaret fi-ium ecclesie Angelus domini -----------manit
+                      0 ||
+    query             0 ut immolaret filium ecc----e angelus domini de celo clamavit
+    
+    target           47 
+                      2 
+    query            56 
+
+-- fused_9 --
+  OCR:      'di ceno . tangelus domini Abraham'
+  Assigned: 'dicens Ne extendisset Vocavit angelus domini abraham de ce'
+  Words:    [68..77) consumed=9
+  NW score: k=7 (pre-snap), norm=3.3314
+  Anchor:   word 77 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 di ceno -------------. ------t-angelus domini Abraham-------
+                      0 ||-|||.
+    query             0 di-cens Ne extendisset Vocavit angelus domini abraham de cel
+    
+    target           33 - 33
+                      7 -  8
+    query            59 o 60
+
+-- fused_10 --
+  OCR:      'lo dicens benedicam t bi . Et multiplicabo .e'
+  Assigned: 'lo dicens benedicam tibi Et multiplicabo te si'
+  Words:    [77..84) consumed=7
+  NW score: k=6 (pre-snap), norm=6.3875
+  Anchor:   word 84 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 lo dicens benedicam t bi . Et multiplicabo .e------ 45
+                      0 ---||||||  9
+    query             0 ---dicens benedicam tibi-- Et multiplicabo te sicut 46
+
+-- fused_11 --
+  OCR:      '. acla las ce.ossidebit Lemen'
+  Assigned: 'cut stellas celi Possidebit semen tuum por'
+  Words:    [84..90) consumed=6
+  NW score: k=4 (pre-snap), norm=3.8966
+  Anchor:   word 90 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 . acla las ce---.ossidebit Lemen------------ 29
+                      0 -...|--||| 10
+    query             0 -stel--las celi Possidebit semen tuum portas 41
+
+-- fused_12 --
+  OCR:      'mmmor tuo et et bendicentur insomnie mo omnes'
+  Assigned: 'tas inimicorum tuorum et benedicentur en semine tuo omnes reges'
+  Words:    [90..99) consumed=9
+  NW score: k=8 (pre-snap), norm=3.8905
+  Anchor:   word 99 (page_break_77), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 ---mmmor-- tuo et et ben-dicentur in-som-nie -mo omn------es
+                      0 ---|..||--
+    query             0 inimicorum tuorum et benedicentur en semin-e tuo omnes reges
+    
+    target           45 
+                     10 
+    query            59 
+=== END DEBUG ===
+

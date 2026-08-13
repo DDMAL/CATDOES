@@ -1,0 +1,169 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'non erit ampli us tus nequcla mor'
+  [fused_1] 'sedelor Quoniam prio'
+  [fused_2] 'Lou esurient tneligens amol nonasennt'
+  [fused_3] 'super illos solneos Cllus e tus . nomame'
+  [fused_4] 'esonosum sanemi nem fute runt pro'
+  [fused_5] 'no amave runt Christistum isi vi ta sua'
+  [fused_6] 'mintati suinte m telua utites corom nas'
+  [fused_7] 'Triumphalesmeru  runt Xnus'
+  [fused_8] 'titus et ma fi deseratme i Et ideo'
+  [fused_9] 'dide Raproprpter dev'
+  [fused_10] 'Et meruerunt habe coro nas recpetu aoru '
+  [fused_11] 'funt qui venerunt ex magna tribulatio ne et lave'
+  [fused_12] ''
+  [fused_13] 'runt soiano seias in san Guie as mi . Etmerii s on'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'non erit ampli us tus nequcla mor'
+  Assigned: 'non erit amplius neque luctus neque clamor'
+  Words:    [0..7) consumed=7
+  NW score: k=7 (pre-snap), norm=5.1841
+  Anchor:   word 21 (within_chant_7), diff=14, snapped=False, forced=False
+  Alignment:
+    target            0 non erit ampli us ---------tus nequ--cla mor 33
+                      0 |||  3
+    query             0 non erit ampli-us neque luctus neque cla-mor 42
+
+-- fused_1 --
+  OCR:      'sedelor Quoniam prio'
+  Assigned: 'sed nec ullus dolor Quoniam priora'
+  Words:    [7..13) consumed=6
+  NW score: k=6 (pre-snap), norm=4.0649
+  Anchor:   word 21 (within_chant_7), diff=8, snapped=False, forced=False
+  Alignment:
+    target            0 sed--e----------lor Quoniam prio-- 20
+                      0 |||--|----------||| 19
+    query             0 sed nec ullus dolor Quoniam priora 34
+
+-- fused_2 --
+  OCR:      'Lou esurient tneligens amol nonasennt'
+  Assigned: 'mansuerunt Non esurient neque sitient amplius neque cadet'
+  Words:    [13..21) consumed=8
+  NW score: k=8 (pre-snap), norm=1.0670
+  Anchor:   word 21 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -----------Lou esurient tne----li-gens amol--- n----onasennt
+                      0 -----------.|.
+    query             0 mansuerunt Non esurient -neque sitient amplius neque cade--t
+    
+    target           37 
+                     14 
+    query            57 
+
+-- fused_3 --
+  OCR:      'super illos solneos Cllus e tus . nomame'
+  Assigned: 'super illos sol neque ullus estus'
+  Words:    [21..27) consumed=6
+  NW score: k=7 (pre-snap), norm=4.2696
+  Anchor:   word 27 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 super illos sol-ne-os Cllus e tus . nomame 40
+                      0 |||||  5
+    query             0 super illos sol neque ullus estus--------- 33
+
+-- fused_4 --
+  OCR:      'esonosum sanemi nem fute runt pro'
+  Assigned: 'Quoaniam Viri sancti gloriosum sanguinem fuderunt pro'
+  Words:    [27..34) consumed=7
+  NW score: k=7 (pre-snap), norm=2.2716
+  Anchor:   word 34 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -------------eson---------osum sanemi nem fute runt pro 33
+                      0 -------------.|.|---------|||| 30
+    query             0 Quoaniam Viri sancti gloriosum sangui-nem fude-runt pro 53
+
+-- fused_5 --
+  OCR:      'no amave runt Christistum isi vi ta sua'
+  Assigned: 'domino amaverunt xpistum in vita sua imitati sunt'
+  Words:    [34..42) consumed=8
+  NW score: k=6 (pre-snap), norm=4.3768
+  Anchor:   word 42 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 ----no amave runt Christistum isi vi ta sua------------- 39
+                      0 ----||  6
+    query             0 domino amave-runt ----xpistum i-n vi-ta sua imitati sunt 49
+
+-- fused_6 --
+  OCR:      'mintati suinte m telua utites corom nas'
+  Assigned: 'eum in morte sua Et ideo coronas'
+  Words:    [42..49) consumed=7
+  NW score: k=7 (pre-snap), norm=1.9249
+  Anchor:   word 49 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 --mintati suinte m- te-lua ut-ites corom nas 39
+                      0 --|------  9
+    query             0 eum------ --in-- morte sua Et ideo coro--nas 32
+
+-- fused_7 --
+  OCR:      'Triumphalesmeru  runt Xnus'
+  Assigned: 'triumphales meruerunt Unus spi'
+  Words:    [49..53) consumed=4
+  NW score: k=3 (pre-snap), norm=5.6538
+  Anchor:   word 53 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 Triumphales-meru  runt Xn---------us 26
+                      0 .||||||||||-||||-.|||| 22
+    query             0 triumphales meru-erunt Unus spiritus 35
+
+-- fused_8 --
+  OCR:      'titus et ma fi deseratme i Et ideo'
+  Assigned: 'ritus et una fides erat in eis Et ideo tra'
+  Words:    [53..62) consumed=9
+  NW score: k=8 (pre-snap), norm=3.4864
+  Anchor:   word 62 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 titus et -ma fi des-eratme i----- Et ideo------------ 34
+                      0 ------||  8
+    query             0 ------et una fi-des erat-- in eis Et ideo Tradiderunt 44
+
+-- fused_9 --
+  OCR:      'dide Raproprpter dev'
+  Assigned: 'diderunt corpora sua proppter deum ad supplicia'
+  Words:    [62..68) consumed=6
+  NW score: k=4 (pre-snap), norm=1.4758
+  Anchor:   word 68 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 ---dide -Ra-proprpter de--------------v 20
+                      0 ---....  7
+    query             0 corpora sua prop-pter deum ad supplicia 38
+
+-- fused_10 --
+  OCR:      'Et meruerunt habe coro nas recpetu aoru'
+  Assigned: 'Et meruerunt habere coronas perpetuas Isti'
+  Words:    [68..74) consumed=6
+  NW score: k=5 (pre-snap), norm=5.4493
+  Anchor:   word 74 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 Et meruerunt hab--e coro nas recpetu-- aoru 39
+                      0 ||  2
+    query             0 Et meruerunt habere coro-nas perpetuas Isti 42
+
+-- fused_11 --
+  OCR:      'funt qui venerunt ex magna tribulatio ne et lave'
+  Assigned: 'sunt qui venerunt ex magna tribulatione et lave'
+  Words:    [74..82) consumed=8
+  NW score: k=8 (pre-snap), norm=6.8718
+  Anchor:   word 82 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 funt qui venerunt ex magna tribulatio ne et lave---- 48
+                      0 .|||  4
+    query             0 sunt qui venerunt ex magna tribulatio-ne et laverunt 51
+
+-- fused_12 --
+  OCR:      ''
+  Assigned: 'runt stolas suas in sanguine agni Et'
+  Words:    [82..88) consumed=6
+
+-- fused_13 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [88..88) consumed=0
+  Alignment:
+    (no words left)
+=== END DEBUG ===
+

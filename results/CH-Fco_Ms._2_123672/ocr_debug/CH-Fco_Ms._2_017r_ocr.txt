@@ -1,0 +1,247 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'Lum venerit filius hominis putas inveniet'
+  [fused_1] 'fidem super tenra p Verba mea eroraeeent'
+  [fused_2] 'plenitudo temporis in quo misit deus filium suum in terris Pre ds de'
+  [fused_3] ' eoaurietis aquas in gaudio de Fontibus Salvatoris'
+  [fused_4] 'posconfitem oae greoietur dominus '
+  [fused_5] 'ad beani'
+  [fused_6] 'deus'
+  [fused_7] 'to suo veniet ut salvet populum suum pres laudunenis evovae ante .'
+  [fused_8] 'de radice Jesse et remplebi tari omnis ter'
+  [fused_9] 'gloria domini et videbit omnis carosalutare Dei pre Benedictins'
+  [fused_10] 'ad os a Indinau'
+  [fused_11] 'po de psalmista'
+  [fused_12] 'fratra M ad p'
+  [fused_13] 'Eovae . Horadiei autem. orante celide super et nibes pluant vu'
+  [fused_14] 'stum aperiatur terra et germinet salvatorem pos misere exor'
+  [fused_15] 'Qmitte Agnum domine dominatorem terre de Petra deser'
+  [fused_16] 'd Montem filies udica me evovae ut cognos'
+  [fused_17] 'canus domine in terra man tuam in omnibus gentibus sautare'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'Lum venerit filius hominis putas inveniet'
+  Assigned: 'mei euouae Cum venerit filius hominis putas inveniet'
+  Words:    [0..8) consumed=8
+  NW score: k=8 (pre-snap), norm=6.0208
+  Anchor:   word 8 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -----------Lum venerit filius hominis putas inveniet 41
+                      0 -----------.|| 14
+    query             0 mei euouae Cum venerit filius hominis putas inveniet 52
+
+-- fused_1 --
+  OCR:      'fidem super tenra p Verba mea eroraeeent'
+  Assigned: 'fidem super terram ~Verba mea euouae'
+  Words:    [8..14) consumed=6
+  NW score: k=6 (pre-snap), norm=5.2178
+  Anchor:   word 17 (within_chant_7), diff=3, snapped=False, forced=False
+  Alignment:
+    target            0 fidem super tenra- p Verba mea eroraeeent 40
+                      0 |||||  5
+    query             0 fidem super terram -~Verba mea euouae---- 36
+
+-- fused_2 --
+  OCR:      'plenitudo temporis in quo misit deus filium suum in terris Pre ds de'
+  Assigned: 'Ecce iam veniet plenitudo temporis in quo misit deus filium suum in terris ~Deus deus'
+  Words:    [14..29) consumed=15
+  NW score: k=15 (pre-snap), norm=5.6296
+  Anchor:   word 17 (within_chant_7), diff=12, snapped=False, forced=False
+  Alignment:
+    target            0 ----------------plenitudo temporis in quo misit deus filium 
+                      0 ----------------|||||||||
+    query             0 Ecce iam veniet plenitudo temporis in quo misit deus filium 
+    
+    target           44 suum in terris Pre ds de-- 68
+                     25 |||| 29
+    query            60 suum in terris ~De-us deus 85
+
+-- fused_3 --
+  OCR:      'eoaurietis aquas in gaudio de Fontibus Salvatoris'
+  Assigned: 'euouae Aurietis aquas in gaudio de fontibus salvatoris'
+  Words:    [29..37) consumed=8
+  NW score: k=8 (pre-snap), norm=6.5903
+  Anchor:   word 37 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 e-o-a---urietis aquas in gaudio de Fontibus Salvatoris 49
+                      0 |-|-|---||||||| 15
+    query             0 euouae Aurietis aquas in gaudio de fontibus salvatoris 54
+
+-- fused_4 --
+  OCR:      'posconfitem oae greoietur dominus'
+  Assigned: '~Confitemini euouae Egredietur dominus'
+  Words:    [37..41) consumed=4
+  NW score: k=4 (pre-snap), norm=4.5747
+  Anchor:   word 44 (within_chant_7), diff=3, snapped=False, forced=False
+  Alignment:
+    target            0 posconfitem--- --o-ae -greoietur dominus 33
+                      0 --..|||||||--- 14
+    query             0 --~Confitemini euouae Egredietur dominus 38
+
+-- fused_5 --
+  OCR:      'ad beani'
+  Assigned: 'de loco sanc'
+  Words:    [41..44) consumed=3
+  NW score: k=3 (pre-snap), norm=-2.1733
+  Anchor:   word 44 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ad- ----bean--i  8
+                      0 -|-  3
+    query             0 -de loco sancto 14
+
+-- fused_6 --
+  OCR:      'deus'
+  Assigned: 'to suo'
+  Words:    [44..45) consumed=1
+  NW score: k=1 (pre-snap), norm=-2.5981
+  Anchor:   word 52 (within_chant_7), diff=7, snapped=False, forced=False
+  Alignment:
+    target            0 deus 4
+                      0 -.|. 4
+    query             0 -suo 3
+
+-- fused_7 --
+  OCR:      'to suo veniet ut salvet populum suum pres laudunenis evovae ante .'
+  Assigned: 'veniet ut salvet populum suum ~Laudate euouae'
+  Words:    [45..52) consumed=7
+  NW score: k=7 (pre-snap), norm=3.7249
+  Anchor:   word 52 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 to suo veniet ut salvet populum suum pres laudunenis evovae 
+                      0 -------||||||
+    query             0 -------veniet ut salvet populum suum ----~Laudate--- euouae-
+    
+    target           60 ante . 66
+                     13 ------ 19
+    query            45 ------ 45
+
+-- fused_8 --
+  OCR:      'de radice Jesse et remplebi tari omnis ter'
+  Assigned: 'Egredietur virga de radice iesse et replebitur omnis ter'
+  Words:    [52..61) consumed=9
+  NW score: k=9 (pre-snap), norm=4.0522
+  Anchor:   word 61 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -----------------de radice Jesse et remplebi tari omnis ter-
+                      0 -----------------||
+    query             0 Egredietur virga de radice iesse et re-plebi-tur- omnis terr
+    
+    target           42 - 42
+                     19 - 20
+    query            57 a 58
+
+-- fused_9 --
+  OCR:      'gloria domini et videbit omnis carosalutare Dei pre Benedictins'
+  Assigned: 'ra gloria domini et videbit omnis caro salutare dei ~Benedictus'
+  Words:    [61..70) consumed=9
+  NW score: k=9 (pre-snap), norm=6.6036
+  Anchor:   word 70 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 gloria domini et videbit omnis caro-salutare Dei pre Benedic
+                      0 ||||||
+    query             0 gloria domini et videbit omnis caro salutare dei ---~Benedic
+    
+    target           59 tins 63
+                      6 |-.| 10
+    query            57 t-us 60
+
+-- fused_10 --
+  OCR:      'ad os a Indinau'
+  Assigned: 'euouae Rorate celi'
+  Words:    [70..73) consumed=3
+  NW score: k=3 (pre-snap), norm=-1.8257
+  Anchor:   word 78 (within_chant_7), diff=5, snapped=False, forced=False
+  Alignment:
+    target            0 ----ad -os a-- Indinau 15
+                      0 ----|.  6
+    query             0 euouae Ro-rate celi--- 18
+
+-- fused_11 --
+  OCR:      'po de psalmista'
+  Assigned: 'desuper et nubes pluant iu'
+  Words:    [73..78) consumed=5
+  NW score: k=5 (pre-snap), norm=-1.6499
+  Anchor:   word 78 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ----p----o --de- p-sa-lmi-st-a 15
+                      0 ----|----. 10
+    query             0 desuper et nubes pluant iustum 30
+
+-- fused_12 --
+  OCR:      'fratra M ad p'
+  Assigned: 'stum aperiatur terra et'
+  Words:    [78..81) consumed=3
+  NW score: k=3 (pre-snap), norm=-1.2421
+  Anchor:   word 85 (within_chant_7), diff=4, snapped=False, forced=False
+  Alignment:
+    target            0 --fr-at-ra --M ad -p 13
+                      0 --.|-||-|- 10
+    query             0 aperiatur- terra- et 18
+
+-- fused_13 --
+  OCR:      'Eovae . Horadiei autem. orante celide super et nibes pluant vu'
+  Assigned: 'germinet salvatorem ~Miserere euouae'
+  Words:    [81..85) consumed=4
+  NW score: k=6 (pre-snap), norm=-1.1974
+  Anchor:   word 85 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 Eovae . Horadi-ei -a--utem. orante- celide super et nibes pl
+                      0 ---.|-----|-.|-|.
+    query             0 ---ge-----r-minet salvat----or---em -~Mi---serer-e- ---e--uo
+    
+    target           55 uant vu 62
+                     17 ||----. 24
+    query            33 ua----e 36
+
+-- fused_14 --
+  OCR:      'stum aperiatur terra et germinet salvatorem pos misere exor'
+  Assigned: 'Emitte agnum domine dominatorem terre de petra deser'
+  Words:    [85..93) consumed=8
+  NW score: k=6 (pre-snap), norm=-0.0206
+  Anchor:   word 93 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 stum aperiatur terra- et germinet -salvatorem --pos -mise-re
+                      0 --.|-----|-|---||-.|-...
+    query             0 --Em-----i-t---te- agnum -domine- dominatorem terre de petra
+    
+    target           54  -exor-- 59
+                     24  24
+    query            46  deserti 54
+
+-- fused_15 --
+  OCR:      'Qmitte Agnum domine dominatorem terre de Petra deser'
+  Assigned: 'ti ad montem filie syon ~Judica me euouae Ut cognoscamus domine in terra viam tuam in'
+  Words:    [93..108) consumed=15
+  NW score: k=15 (pre-snap), norm=-0.8116
+  Anchor:   word 102 (within_chant_7), diff=6, snapped=False, forced=False
+  Alignment:
+    target            0 --Qmitte--------------------------------- -Agn-----um domine
+                      0 --.|..||---------------------------------
+    query             0 ad montem filie syon ~Judica me euouae Ut cognoscamus domine
+    
+    target           19  dominatorem terre --de Petra- deser 52
+                     41  41
+    query            60  ---in------ terra viam --tuam ---in 82
+
+-- fused_16 --
+  OCR:      'd Montem filies udica me evovae ut cognos'
+  Assigned: 'omnibus gentibus salutare'
+  Words:    [108..111) consumed=3
+  NW score: k=3 (pre-snap), norm=-2.5300
+  Anchor:   word 111 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 d Montem filies --udica me evovae ut cognos 41
+                      0 ---|---|-.|-..| 15
+    query             0 ---o---m-ni-bus genti--bus ---sa-lut----are 25
+
+-- fused_17 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [111..111) consumed=0
+  Alignment:
+    (no words left)
+=== END DEBUG ===
+

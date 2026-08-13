@@ -1,0 +1,195 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] ' et peccata nostra ipse portavit pres Laudnis vovac '
+  [fused_1] ' no pacis mee in quo sperabamQui hedebat pro anes'
+  [fused_2] 'mos ampliavit adversum me supplantationem'
+  [fused_3] 'tor autem eis signum dicens quem obsculatus fuero'
+  [fused_4] 'din ebdomadaris pronunciat hanc et cantado acoliter'
+  [fused_5] 'uacandela teream quam in manu tenet ettingua'
+  [fused_6] 'Minsetenent eumeovae acolitur ed lampades qui ad officium mncense sentet abscon santequam officai lindis expleatus extinguat idem'
+  [fused_7] ' daitantn ale '
+  [fused_8] '.ats nooi   pestus factus et pono '
+  [fused_9] '.ei den'
+  [fused_10] 'alicem salutaris'
+  [fused_11] ' nome inocabo Eredidi papter evovae'
+  [fused_12] 'u oderunt pacera eram pacificus cam lamie'
+  [fused_13] 'bar Maen ebant m ot coe'
+  [fused_14] 'val'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'et peccata nostra ipse portavit pres Laudnis vovac'
+  Assigned: 'volu- {#} et peccata nostra ipse portavit ~Laudate euouae'
+  Words:    [0..9) consumed=9
+  NW score: k=9 (pre-snap), norm=4.1210
+  Anchor:   word 18 (within_chant_7), diff=9, snapped=False, forced=False
+  Alignment:
+    target            0 ----------et peccata nostra ipse portavit pres Laudnis -vova
+                      0 ----|-----||
+    query             0 volu- {#} et peccata nostra ipse portavit ----~Laudate euoua
+    
+    target           49 c 50
+                     12 . 13
+    query            56 e 57
+
+-- fused_1 --
+  OCR:      'no pacis mee in quo sperabamQui hedebat pro anes'
+  Assigned: 'H- {-mo} pacis mee in quo sperabam Qui hedebat'
+  Words:    [9..18) consumed=9
+  NW score: k=10 (pre-snap), norm=6.0248
+  Anchor:   word 18 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 -----no- pacis mee in quo sperabam-Qui hedebat pro anes 48
+                      0 -|--|.|-  8
+    query             0 H- {-mo} pacis mee in quo sperabam Qui hedebat--------- 46
+
+-- fused_2 --
+  OCR:      'mos ampliavit adversum me supplantationem'
+  Assigned: 'panes m-# -os ampliavit adversum me supplantationem tradi'
+  Words:    [18..26) consumed=8
+  NW score: k=7 (pre-snap), norm=6.3419
+  Anchor:   word 26 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 ------m----os ampliavit adversum me supplantationem---------
+                      0 ------||--|||
+    query             0 panes m-# -os ampliavit adversum me supplantationem Traditor
+    
+    target           41 
+                     13 
+    query            60 
+
+-- fused_3 --
+  OCR:      'tor autem eis signum dicens quem obsculatus fuero'
+  Assigned: 'tor autem dedit eis signum dicens quem obsculatus fuero'
+  Words:    [26..34) consumed=8
+  NW score: k=8 (pre-snap), norm=6.4413
+  Anchor:   word 34 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 tor autem------ eis signum dicens quem obsculatus fuero 49
+                      0 ----|||||------ 15
+    query             0 ----autem dedit eis signum dicens quem obsculatus fuero 51
+
+-- fused_4 --
+  OCR:      'din ebdomadaris pronunciat hanc et cantado acoliter'
+  Assigned: 'ipse est tenete eum euouae Xpistus factus est pro nobis'
+  Words:    [34..44) consumed=10
+  NW score: k=10 (pre-snap), norm=-1.2839
+  Anchor:   word 39 (within_chant_7), diff=5, snapped=False, forced=False
+  Alignment:
+    target            0 di----------n--- ebdomadaris pronu---nciat-- hanc--- e-t can
+                      0 -|----------|---
+    query             0 -ipse est tenete e--um------ euo-uae Xpistus fa-ctus est ---
+    
+    target           38 tado acoliter 51
+                     16 -..| 20
+    query            46 -pro -nobi--s 55
+
+-- fused_5 --
+  OCR:      'uacandela teream quam in manu tenet ettingua'
+  Assigned: 'obediens usque ad mortem'
+  Words:    [44..48) consumed=4
+  NW score: k=11 (pre-snap), norm=-1.3319
+  Anchor:   word 48 (within_chant_7), diff=7, snapped=False, forced=True
+  Alignment:
+    target            0 uacand-ela teream quam in manu tenet ettingua 44
+                      0 --...|-|.. 10
+    query             0 --obediens -----usqu-e ad m--orte-----------m 24
+
+-- fused_6 --
+  OCR:      'Minsetenent eumeovae acolitur ed lampades qui ad officium mncense sentet abscon santequam officai lindis expleatus extinguat idem'
+  Assigned: 'mortem Calicem salutaris accipiam et nomen domini invocabo ~Credidi propter euouae Cum'
+  Words:    [48..60) consumed=12
+  NW score: k=12 (pre-snap), norm=-1.0918
+  Anchor:   word 51 (within_chant_7), diff=9, snapped=False, forced=False
+  Alignment:
+    target            0 Minsetenent eumeovae -acolitur ed la-mpades qui ad officium 
+                      0 --...||-------|-----
+    query             0 --morte-------m----- Ca--li---cem salutaris---- a---ccipiam 
+    
+    target           58 mncense sen-tet absco--n- santequam offica-i ----lindis expl
+                     20 ---|--.
+    query            34 ---e--t --nomen ---domini -in------vo---cabo ~Credi-di- --pr
+    
+    target          109 eatus extinguat idem 129
+                     27 ..|..  32
+    query            70 opter e---uouae -Cum  86
+
+-- fused_7 --
+  OCR:      'daitantn ale'
+  Assigned: 'hiis qui oderunt pacem eram pacificus cum loque'
+  Words:    [60..68) consumed=8
+  NW score: k=4 (pre-snap), norm=-1.7848
+  Anchor:   word 68 (within_chant_7), diff=4, snapped=False, forced=True
+  Alignment:
+    target            0 dai---------tant----------n -a------------l---e--- 12
+                      0 ..|---------..||----------. 27
+    query             0 hiis qui oderunt pacem eram pacificus cum loquebar 50
+
+-- fused_8 --
+  OCR:      '.ats nooi   pestus factus et pono'
+  Assigned: 'bar illis impugnabant me gratis ~Ad dominum'
+  Words:    [68..74) consumed=6
+  NW score: k=6 (pre-snap), norm=-1.4216
+  Anchor:   word 74 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -.ats -----nooi   pestus -factus -et po--n-o 33
+                      0 -...|  5
+    query             0 illis impugnabant me---- gra-tis ~Ad dominum 39
+
+-- fused_9 --
+  OCR:      '.ei den'
+  Assigned: 'cum tribularer'
+  Words:    [74..76) consumed=2
+  NW score: k=2 (pre-snap), norm=-3.4345
+  Anchor:   word 84 (page_break_77), diff=8, snapped=False, forced=False
+  Alignment:
+    target            0 .ei -------den  7
+                      0 ...  3
+    query             0 cum tribularer 14
+
+-- fused_10 --
+  OCR:      'alicem salutaris'
+  Assigned: 'euouae Ab hominibus iniquis'
+  Words:    [76..80) consumed=4
+  NW score: k=4 (pre-snap), norm=-2.5019
+  Anchor:   word 84 (page_break_77), diff=4, snapped=False, forced=False
+  Alignment:
+    target            0 ----alice------m------ -salutaris 16
+                      0 ----|---|------|------ 22
+    query             0 euoua---e Ab hominibus iniqu---is 27
+
+-- fused_11 --
+  OCR:      'nome inocabo Eredidi papter evovae'
+  Assigned: 'libera me domine ~Eripe'
+  Words:    [80..84) consumed=4
+  NW score: k=4 (pre-snap), norm=-1.5019
+  Anchor:   word 84 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -----nome ---inocabo -Eredidi papter evovae 34
+                      0 -----..||  9
+    query             0 libera me domin----e ~Er----i---p---------e 23
+
+-- fused_12 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [84..84) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_13 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [84..84) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_14 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [84..84) consumed=0
+  Alignment:
+    (no words left)
+=== END DEBUG ===
+

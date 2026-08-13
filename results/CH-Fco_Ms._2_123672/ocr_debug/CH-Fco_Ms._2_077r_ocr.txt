@@ -1,0 +1,243 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'um puerorum cantemus hymmun quem cautabant'
+  [fused_1] 'in camino ignis benedicentes dominum'
+  [fused_2] ' seculum seculi preceptum posuit et non'
+  [fused_3] 'capillis deis oganins nos '
+  [fused_4] 'Bii de ablumplit che equireo'
+  [fused_5] 'preteribit prt Laudunsis evovae tiam antiphona d a conspitas ad prima omine bonum'
+  [fused_6] 'est esse si vis faciamus hic trria tabemacula tribii'
+  [fused_7] 'd ii cai '
+  [fused_8] 'Rogannns nos'
+  [fused_9] 'num moysi uium et Helye viin evovae Laci'
+  [fused_10] 'anis hic tria tabernacula tibi unum moysi unum et Helye'
+  [fused_11] 'caplinus ece emm volum ad e et ad'
+  [fused_12] 'mangiifi visionem quam judic'
+  [fused_13] 'unum Eovae Dirihetribs eid e lonas eda tib secundum Johannem inino t ao . rrang'
+  [fused_14] 'Nomor vobis erome |mn me misit mecum'
+  [fused_15] 'cati et von revanit me solm quia ane placita et adesto suplicationibus R facio'
+  [fused_16] 'secundum Moch . Hillo t loquit e'
+  [fused_17] 'semper exor icmansuetis ad bndeo  hhe dmileromini presbiteri quio mis est enim i a'
+  [fused_18] 'gister ne clisipistus dominus covae'
+  [fused_19] 'nes anten nos fratrs estis et pattrem nolite noci'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'um puerorum cantemus hymmun quem cautabant'
+  Assigned: 'puerorum cantemus hymnum quem cantabant'
+  Words:    [0..5) consumed=5
+  NW score: k=5 (pre-snap), norm=6.4242
+  Anchor:   word 13 (within_chant_7), diff=8, snapped=False, forced=False
+  Alignment:
+    target            0 um puerorum cantemus hymmun quem cautabant 42
+                      0 ---|||||||| 11
+    query             0 ---puerorum cantemus hymnum quem cantabant 39
+
+-- fused_1 --
+  OCR:      'in camino ignis benedicentes dominum'
+  Assigned: 'in camino ignis benedicentes dominum'
+  Words:    [5..10) consumed=5
+  NW score: k=5 (pre-snap), norm=8.0000
+  Anchor:   word 13 (within_chant_7), diff=3, snapped=False, forced=False
+  Alignment:
+    target            0 in camino ignis benedicentes dominum 36
+                      0 ||  2
+    query             0 in camino ignis benedicentes dominum 36
+
+-- fused_2 --
+  OCR:      'seculum seculi preceptum posuit et non'
+  Assigned: '~Benedic euouae Statuit ea in eternum et in seculum seculi preceptum posuit et non'
+  Words:    [10..24) consumed=14
+  NW score: k=14 (pre-snap), norm=3.0096
+  Anchor:   word 13 (within_chant_7), diff=11, snapped=False, forced=False
+  Alignment:
+    target            0 --------------------------------------------seculum seculi p
+                      0 --------------------------------------------|||||||
+    query             0 ~Benedic euouae Statuit ea in eternum et in seculum seculi p
+    
+    target           16 receptum posuit et non 38
+                     51 |||||||| 59
+    query            60 receptum posuit et non 82
+
+-- fused_3 --
+  OCR:      'capillis deis oganins nos'
+  Assigned: 'preteribit {Laudate} euouae Domine bonum'
+  Words:    [24..29) consumed=5
+  NW score: k=7 (pre-snap), norm=-0.8660
+  Anchor:   word 29 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 cap-----illis ----d--eis --oga----nins --nos 25
+                      0 --|-----|-.|. 13
+    query             0 --preteri-bit {Laudate-} euouae Domine bonum 40
+
+-- fused_4 --
+  OCR:      'Bii de ablumplit che equireo'
+  Assigned: 'est nos hic esse si vis faciamus hic tria tabernacula tibi u'
+  Words:    [29..41) consumed=12
+  NW score: k=5 (pre-snap), norm=-2.2978
+  Anchor:   word 41 (within_chant_7), diff=7, snapped=False, forced=True
+  Alignment:
+    target            0 --------Bii --de --------a--blumpli--t--- -------c-he equi--
+                      0 --------.|.
+    query             0 est nos hic esse si vis faciamus hic tria tabernacula tibi u
+    
+    target           25 reo 28
+                     11 ... 14
+    query            60 num 63
+
+-- fused_5 --
+  OCR:      'preteribit prt Laudunsis evovae tiam antiphona d a conspitas ad prima omine bonum'
+  Assigned: 'num moysi unum et helye unum euouae Faciamus hic tria tabernacula tibi unum moysi unum'
+  Words:    [41..55) consumed=14
+  NW score: k=14 (pre-snap), norm=-0.7976
+  Anchor:   word 48 (within_chant_7), diff=7, snapped=False, forced=False
+  Alignment:
+    target            0 preteri--bit prt --Laudunsis evovae --tiam-- --ant-iphona d 
+                      0 --....|--...
+    query             0 --moysi unum -et helye un-um euouae Faciamus hic tri----a -t
+    
+    target           49 a conspitas --ad prima -o-mine bonum 81
+                     12 |...|....|- 23
+    query            51 abernacula- tibi unum- moysi-- -unum 82
+
+-- fused_6 --
+  OCR:      'est esse si vis faciamus hic trria tabemacula tribii'
+  Assigned: 'et helye'
+  Words:    [55..57) consumed=2
+  NW score: k=10 (pre-snap), norm=-1.1219
+  Anchor:   word 57 (within_chant_7), diff=8, snapped=False, forced=True
+  Alignment:
+    target            0 est esse si vis faciamus hic trria tabemacula tribii 52
+                      0 |-|--------------------- 24
+    query             0 e-t--------------------- h------------e----l------ye  8
+
+-- fused_7 --
+  OCR:      'd ii cai'
+  Assigned: 'unum euouae'
+  Words:    [57..59) consumed=2
+  NW score: k=2 (pre-snap), norm=-2.8782
+  Anchor:   word 62 (within_chant_7), diff=3, snapped=False, forced=False
+  Alignment:
+    target            0 ---d ii cai  8
+                      0 ---.  4
+    query             0 unum euouae 11
+
+-- fused_8 --
+  OCR:      'Rogannns nos'
+  Assigned: 'Ego principium qui'
+  Words:    [59..62) consumed=3
+  NW score: k=3 (pre-snap), norm=-3.1979
+  Anchor:   word 62 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -Rogannn-----s nos 12
+                      0 -.|....|-----. 14
+    query             0 Ego principium qui 18
+
+-- fused_9 --
+  OCR:      'num moysi uium et Helye viin evovae Laci'
+  Assigned: 'et loquor vobis euouae Qui'
+  Words:    [62..67) consumed=5
+  NW score: k=5 (pre-snap), norm=-0.4341
+  Anchor:   word 70 (within_chant_7), diff=3, snapped=False, forced=False
+  Alignment:
+    target            0 num moysi uium et Hel---ye v-iin evovae Laci 40
+                      0 ---------------|| 17
+    query             0 ---------------et --loquor vobis euouae -Qui 26
+
+-- fused_10 --
+  OCR:      'anis hic tria tabernacula tibi unum moysi unum et Helye'
+  Assigned: 'me misit mecum'
+  Words:    [67..70) consumed=3
+  NW score: k=9 (pre-snap), norm=-1.2132
+  Anchor:   word 70 (within_chant_7), diff=6, snapped=False, forced=True
+  Alignment:
+    target            0 anis hic tria tabernacula tibi unum moysi unum et Helye 55
+                      0 ----------------.|----------------- 35
+    query             0 ----------------me----------------- m-isi-------t mecum 14
+
+-- fused_11 --
+  OCR:      'caplinus ece emm volum ad e et ad'
+  Assigned: 'est et non reliquit me solum quia que placita sunt ei facio'
+  Words:    [70..82) consumed=12
+  NW score: k=9 (pre-snap), norm=-0.5190
+  Anchor:   word 82 (within_chant_7), diff=3, snapped=False, forced=True
+  Alignment:
+    target            0 caplinus- e---ce -e-------mm volum ---ad --e------------- et
+                      0 ------.|-
+    query             0 ------est et non reliquit me solum quia- que placita sunt ei
+    
+    target           30  -a--d 33
+                      9   9
+    query            53  facio 59
+
+-- fused_12 --
+  OCR:      'mangiifi visionem quam judic'
+  Assigned: 'semper euouae Unus est enim magister vester qui in'
+  Words:    [82..91) consumed=9
+  NW score: k=9 (pre-snap), norm=-1.6570
+  Anchor:   word 88 (within_chant_7), diff=3, snapped=False, forced=False
+  Alignment:
+    target            0 --m--------a------------n-----gi-ifi visionem quam judic 28
+                      0 --|--------|------------|-----||-... 36
+    query             0 semper euouae Unus est enim magister ves--ter qu-i ---in 50
+
+-- fused_13 --
+  OCR:      'unum Eovae Dirihetribs eid e lonas eda tib secundum Johannem inino t ao . rrang'
+  Assigned: 'celis est xpistus dominus euouae Omnes enim vos fratres estis et patrem nolite vocare'
+  Words:    [91..105) consumed=14
+  NW score: k=14 (pre-snap), norm=-0.7688
+  Anchor:   word 96 (within_chant_7), diff=9, snapped=False, forced=False
+  Alignment:
+    target            0 ---------------u------num -Eovae Dirihetribs e-id --e lona--
+                      0 ---------------|------||.
+    query             0 celis est xpistus dominus euouae --Omne----s enim vos -fratr
+    
+    target           33 -s eda tib secundum Johannem inino- t- ao . rrang 79
+                     25 -| 27
+    query            53 es e--stis -e-----t --patrem ---nolite vo----care 85
+
+-- fused_14 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [105..105) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_15 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [105..105) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_16 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [105..105) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_17 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [105..105) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_18 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [105..105) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_19 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [105..105) consumed=0
+  Alignment:
+    (no words left)
+=== END DEBUG ===
+

@@ -1,0 +1,207 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'filia Ihernsalem ideo dilexit me rex et introduxit me nnc'
+  [fused_1] 'sum P cantate  eoarale me postte modorem'
+  [fused_2] 'curremus unguentorum tuorum oleum effusum nomentu'
+  [fused_3] 'dominus Regis evovac Veni sponsa Christisti accipe corona'
+  [fused_4] 'quam tibi dominus preparavit in eternum pro cantare II'
+  [fused_5] 'B. Elegit cando'
+  [fused_6] 'pelegit eam'
+  [fused_7] 'In tabnaclo Thica'
+  [fused_8] 'vae cfaec est virgo saeus qam do'
+  [fused_9] 'in moneen conun neiit que acceptis Lampa'
+  [fused_10] 'dibus sumplit se cumo tuemente domi'
+  [fused_11] 'no introunit cum e qu ad nupcia'
+  [fused_12] 'autem nocte clamor factus est ec ce sponsus ne'
+  [fused_13] 'nnt ente ob man EtnegCoiano'
+  [fused_14] 'Rranno .a est Ecce pnsno ao '
+  [fused_15] 'ecite Obviam  centes .urgaeo'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'filia Ihernsalem ideo dilexit me rex et introduxit me nnc'
+  Assigned: 'filia iherusalem ideo dilexit me rex et introduxit me in'
+  Words:    [0..10) consumed=10
+  NW score: k=10 (pre-snap), norm=7.1153
+  Anchor:   word 21 (within_chant_7), diff=11, snapped=False, forced=False
+  Alignment:
+    target            0 filia Ihernsalem ideo dilexit me rex et introduxit me nnc 57
+                      0 |||||  5
+    query             0 filia iherusalem ideo dilexit me rex et introduxit me in- 56
+
+-- fused_1 --
+  OCR:      'sum P cantate  eoarale me postte modorem'
+  Assigned: 'cubiculum suum ~Cantate i euouae Trahe me post te in odorem'
+  Words:    [10..21) consumed=11
+  NW score: k=11 (pre-snap), norm=3.3347
+  Anchor:   word 21 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ------sum ---P -cantate - e-o-a---rale me post-te --modorem
+                      0 ------.||
+    query             0 cubiculum suum ~Cantate i euouae Trahe me post te in odorem
+    
+    target           40
+                      9
+    query            59
+
+-- fused_2 --
+  OCR:      'curremus unguentorum tuorum oleum effusum nomentu'
+  Assigned: 'curremus unguentorum tuorum oleum effusum nomen tu'
+  Words:    [21..28) consumed=7
+  NW score: k=6 (pre-snap), norm=7.6267
+  Anchor:   word 28 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 curremus unguentorum tuorum oleum effusum nomen-tu-- 49
+                      0 ||||||||  8
+    query             0 curremus unguentorum tuorum oleum effusum nomen tuum 52
+
+-- fused_3 --
+  OCR:      'dominus Regis evovac Veni sponsa Christisti accipe corona'
+  Assigned: 'um ~Dominus regnavit euouae Veni sponsa xpisti accipe coronam'
+  Words:    [28..36) consumed=8
+  NW score: k=8 (pre-snap), norm=4.8176
+  Anchor:   word 36 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -dominus Reg---is evovac Veni sponsa Christisti accipe coron
+                      0 -.||||||
+    query             0 ~Dominus regnavit euouae Veni sponsa ----xpisti accipe coron
+    
+    target           56 a- 57
+                      8 |- 10
+    query            56 am 58
+
+-- fused_4 --
+  OCR:      'quam tibi dominus preparavit in eternum pro cantare II'
+  Assigned: 'quam tibi dominus preparavit in eternum'
+  Words:    [36..42) consumed=6
+  NW score: k=8 (pre-snap), norm=6.2883
+  Anchor:   word 42 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 quam tibi dominus preparavit in eternum pro cantare II 54
+                      0 ||||  4
+    query             0 quam tibi dominus preparavit in eternum--------------- 39
+
+-- fused_5 --
+  OCR:      'B. Elegit cando'
+  Assigned: '~Cantate ii euouae'
+  Words:    [42..45) consumed=3
+  NW score: k=3 (pre-snap), norm=-2.7995
+  Anchor:   word 51 (within_chant_7), diff=6, snapped=False, forced=False
+  Alignment:
+    target            0 --B. Elegit ---cando 15
+                      0 --.....|.|. 11
+    query             0 ~Cantate ii euoua--e 18
+
+-- fused_6 --
+  OCR:      'pelegit eam'
+  Assigned: 'Hec est virgo sapiens quam do'
+  Words:    [45..51) consumed=6
+  NW score: k=2 (pre-snap), norm=-1.3675
+  Anchor:   word 51 (within_chant_7), diff=4, snapped=False, forced=True
+  Alignment:
+    target            0 pe-legit ----------e-----am-------- 11
+                      0 .|-.|-.|  8
+    query             0 Hec e-st virgo sapiens quam dominus 34
+
+-- fused_7 --
+  OCR:      'In tabnaclo Thica'
+  Assigned: 'minus vigilantem invenit que acceptis lampa'
+  Words:    [51..56) consumed=5
+  NW score: k=4 (pre-snap), norm=-3.2671
+  Anchor:   word 56 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 -----In--- ------t--abnac----lo Thica----- 17
+                      0 -----.|--- 10
+    query             0 vigilantem invenit que acceptis lampadibus 42
+
+-- fused_8 --
+  OCR:      'vae cfaec est virgo saeus qam do'
+  Assigned: 'dibus sumpsit secum oleum Et veniente'
+  Words:    [56..61) consumed=5
+  NW score: k=6 (pre-snap), norm=-1.3765
+  Anchor:   word 61 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 ----vae cfaec-- --e---st v--irgo saeus qam do 32
+                      0 ----...  7
+    query             0 sumpsit --secum oleum Et veni------e------nte 31
+
+-- fused_9 --
+  OCR:      'in moneen conun neiit que acceptis Lampa'
+  Assigned: 'domino introivit cum eo ad nupcias Media'
+  Words:    [61..68) consumed=7
+  NW score: k=7 (pre-snap), norm=-0.2750
+  Anchor:   word 68 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ---in moneen conun nei-it qu--e- a-ccepti-s Lampa 40
+                      0 ---||--|---- 12
+    query             0 domin--o---- ---introivit cum eo ad nupcias Media 40
+
+-- fused_10 --
+  OCR:      'dibus sumplit se cumo tuemente domi'
+  Assigned: 'autem nocte clamor factus est ecce sponsus venit ex'
+  Words:    [68..77) consumed=9
+  NW score: k=6 (pre-snap), norm=-0.8407
+  Anchor:   word 77 (within_chant_7), diff=3, snapped=False, forced=True
+  Alignment:
+    target            0 dibus sum-plit se c-umo- ---tuement----e -do------------mi--
+                      0 --.|--..|-...|--|
+    query             0 --au--tem noct--e clamor factus est ecce sponsus venit exite
+    
+    target           35 
+                     17 
+    query            54 
+
+-- fused_11 --
+  OCR:      'no introunit cum e qu ad nupcia'
+  Assigned: 'ite obviam ei Et veniente Media noc'
+  Words:    [77..83) consumed=6
+  NW score: k=5 (pre-snap), norm=-1.1061
+  Anchor:   word 83 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 no----- -i-ntrouni--t cum e -qu ad nupcia 31
+                      0 -|-----  7
+    query             0 -obviam ei Et venient-----e Media- n-octe 33
+
+-- fused_12 --
+  OCR:      'autem nocte clamor factus est ec ce sponsus ne'
+  Assigned: 'te clamor factus est Ecce sponsus'
+  Words:    [83..88) consumed=5
+  NW score: k=5 (pre-snap), norm=4.4955
+  Anchor:   word 88 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 autem nocte clamor factus est ec ce sponsus ne 46
+                      0 ------------|||||| 18
+    query             0 ------------clamor factus est Ec-ce sponsus--- 30
+
+-- fused_13 --
+  OCR:      'nnt ente ob man EtnegCoiano'
+  Assigned: 'advenit exite obviam ei'
+  Words:    [88..92) consumed=4
+  NW score: k=4 (pre-snap), norm=0.6822
+  Anchor:   word 95 (page_break_77), diff=3, snapped=False, forced=False
+  Alignment:
+    target            0 ----nnt e-nte ob man EtnegCoiano 27
+                      0 ----|.|  7
+    query             0 advenit exite obviam ---e---i--- 23
+
+-- fused_14 --
+  OCR:      'Rranno .a est Ecce pnsno ao'
+  Assigned: 'Prudentes virgines aptate'
+  Words:    [92..95) consumed=3
+  NW score: k=3 (pre-snap), norm=-1.8475
+  Anchor:   word 95 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 Rr-anno .a est Ecce pn-sno a----o 27
+                      0 .|-..|----.||- 14
+    query             0 Pruden----tes- -virgines-- aptate 25
+
+-- fused_15 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [95..95) consumed=0
+  Alignment:
+    (no words left)
+=== END DEBUG ===
+

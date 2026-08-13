@@ -1,0 +1,207 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'robasti domine cormeum et insitasti nocte nterrogatus'
+  [fused_1] 'edmi cnfessusss gracias ago  '
+  [fused_2] 'evovae  racias tibi ago domine quia jannas tuas jigre'
+  [fused_3] '.agn fia cius in salutari tuo'
+  [fused_4] 'Johaneinot dixicid samam di'
+  [fused_5] 'Sctiangs episcopi Le Dni ipse domino Jhegnu'
+  [fused_6] 'di Merii.  nncraticula tedeum'
+  [fused_7] 'nonne gavi et ad ie nem plica tusCedo'
+  [fused_8] 'miium Jhesum Cpisti stum con fessus suu robasti'
+  [fused_9] 'domine cormeum et visitasti nocte Ce dominum ipo'
+  [fused_10] 'lite si credideris in dominum Jhesimi Xpististum .'
+  [fused_11] 'Et thesauros tibi ostendo nita enam pro'
+  [fused_12] 'eatus Laurencius Ypolito diriti'
+  [fused_13] 'dis in Dominum ei stum. etcee an'
+  [fused_14] 'Deo plane Sti effici meru'
+  [fused_15] 'aatusatus non negi in jutero cano iti contelius'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'robasti domine cormeum et insitasti nocte nterrogatus'
+  Assigned: 'domine iusticiam euouae Probasti domine cor meum et visitasti nocte Interrogatus'
+  Words:    [0..11) consumed=11
+  NW score: k=11 (pre-snap), norm=4.7454
+  Anchor:   word 11 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -------------------------robasti domine cor-meum et -insitas
+                      0 -------------------------|||||||
+    query             0 domine iusticiam euouae Probasti domine cor meum et vi-sitas
+    
+    target           33 ti nocte -nterrogatus 53
+                     32 || 34
+    query            59 ti nocte Interrogatus 80
+
+-- fused_1 --
+  OCR:      'edmi cnfessusss gracias ago'
+  Assigned: 'te dominum confessus sum assatus gracias ago'
+  Words:    [11..18) consumed=7
+  NW score: k=7 (pre-snap), norm=3.9748
+  Anchor:   word 18 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -e-d-mi--- c-nfessu-------ss---s gracias ago 27
+                      0 -|-|-||--- 10
+    query             0 te dominum confessus sum assatus gracias ago 44
+
+-- fused_2 --
+  OCR:      'evovae  racias tibi ago domine quia jannas tuas jigre'
+  Assigned: '~Domine in virtute euouae Gratias tibi ago domine quia ianuas tuas ingre'
+  Words:    [18..30) consumed=12
+  NW score: k=12 (pre-snap), norm=4.1197
+  Anchor:   word 30 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ------e----v---------ovae  racias tibi ago domine quia janna
+                      0 ------|----|---------|.||
+    query             0 ~Domine in virtute euouae Gratias tibi ago domine quia ianua
+    
+    target           41 s tuas ji-gre-- 53
+                     25 | 26
+    query            60 s tuas -ingredi 74
+
+-- fused_3 --
+  OCR:      '.agn fia cius in salutari tuo'
+  Assigned: 'di merui In craticula te deum'
+  Words:    [30..35) consumed=5
+  NW score: k=5 (pre-snap), norm=-1.3110
+  Anchor:   word 35 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 .agn fia cius in -sa--lutari t----uo 29
+                      0 --------...|. 13
+    query             0 --------merui In craticula-- te deum 26
+
+-- fused_4 --
+  OCR:      'Johaneinot dixicid samam di'
+  Assigned: 'non negavi et ad ignem applicatus Te'
+  Words:    [35..42) consumed=7
+  NW score: k=5 (pre-snap), norm=-0.9437
+  Anchor:   word 42 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 Johane---inot -d-i--------xicid samam di 27
+                      0 .|..||---|..| 13
+    query             0 non negavi et ad ignem applic----atus Te 36
+
+-- fused_5 --
+  OCR:      'Sctiangs episcopi Le Dni ipse domino Jhegnu'
+  Assigned: 'dominum ihesum xpistum confessus sum Probasti domine cor meum'
+  Words:    [42..51) consumed=9
+  NW score: k=9 (pre-snap), norm=-0.5467
+  Anchor:   word 48 (within_chant_7), diff=3, snapped=False, forced=False
+  Alignment:
+    target            0 Sctian-----gs-- epis----copi Le---- Dni ---ips-e domin---o- 
+                      0 ...|-|-----.|--
+    query             0 domi-num ihesum xpistum co--nfessus sum Probasti domine cor 
+    
+    target           37 Jhegnu- 43
+                     15 -.|--|- 22
+    query            57 -me--um 61
+
+-- fused_6 --
+  OCR:      'di Merii.  nncraticula tedeum'
+  Assigned: 'et visitasti nocte Te dominum O ypo'
+  Words:    [51..58) consumed=7
+  NW score: k=5 (pre-snap), norm=-0.7241
+  Anchor:   word 58 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 di Meri----i.  nncrat--------icu-la -----tedeum 29
+                      0 ..  2
+    query             0 et visitasti-- noc--te Te dominum O ypolyte---- 39
+
+-- fused_7 --
+  OCR:      'nonne gavi et ad ie nem plica tusCedo'
+  Assigned: 'lyte si credideris in dominum ihesum xpistum'
+  Words:    [58..64) consumed=6
+  NW score: k=10 (pre-snap), norm=-1.4478
+  Anchor:   word 64 (within_chant_7), diff=4, snapped=False, forced=True
+  Alignment:
+    target            0 nonne gavi --et ad---- ie ----n-----e--m -plica tusCedo 37
+                      0 --------.| 10
+    query             0 --------si cre-dideris in dominum ihesum xp-i--stu----m 39
+
+-- fused_8 --
+  OCR:      'miium Jhesum Cpisti stum con fessus suu robasti'
+  Assigned: 'Et thesauros tibi ostendo et vitam eternam'
+  Words:    [64..71) consumed=7
+  NW score: k=10 (pre-snap), norm=-0.8253
+  Anchor:   word 71 (within_chant_7), diff=3, snapped=False, forced=True
+  Alignment:
+    target            0 miium Jhes-u--m Cpisti -stum con fessus --suu ---robasti 47
+                      0 ---..  5
+    query             0 ---Et thesauros -ti-bi ost-endo- -e---t vitam eter-na--m 42
+
+-- fused_9 --
+  OCR:      'domine cormeum et visitasti nocte Ce dominum ipo'
+  Assigned: 'promitto Beatus laurentius ypolyto dixit si credis in dominum ihesum'
+  Words:    [71..81) consumed=10
+  NW score: k=10 (pre-snap), norm=0.6651
+  Anchor:   word 78 (within_chant_7), diff=3, snapped=False, forced=False
+  Alignment:
+    target            0 -domi----ne---- -corme---um ----et- visitasti nocte--- Ce do
+                      0 -.|||----.|----
+    query             0 promitto Beatus laur-entius ypolyto dixit s-i --credis in do
+    
+    target           39 minum i---po 48
+                     15 ||||| 20
+    query            56 minum ihesum 68
+
+-- fused_10 --
+  OCR:      'lite si credideris in dominum Jhesimi Xpististum .'
+  Assigned: 'xpistum Et thesauros Gaudeo plane quia hostia xpisti'
+  Words:    [81..89) consumed=8
+  NW score: k=8 (pre-snap), norm=-0.5295
+  Anchor:   word 85 (within_chant_7), diff=4, snapped=False, forced=False
+  Alignment:
+    target            0 -li-t-e si credideris in d-o--min---u-m Jhes-imi Xpististum 
+                      0 -.|-|-.
+    query             0 xpistum Et the-sauros Gaudeo plane quia -hosti-a xpisti-----
+    
+    target           49 . 50
+                      7 -  8
+    query            52 - 52
+
+-- fused_11 --
+  OCR:      'Et thesauros tibi ostendo nita enam pro'
+  Assigned: 'effici merui accu'
+  Words:    [89..92) consumed=3
+  NW score: k=6 (pre-snap), norm=-1.5346
+  Anchor:   word 92 (within_chant_7), diff=3, snapped=False, forced=True
+  Alignment:
+    target            0 Et thesauros tibi ostendo nita- enam pro 39
+                      0 -----|------..|.| 17
+    query             0 -----e------ffici --me---rui accusa--tus 22
+
+-- fused_12 --
+  OCR:      'eatus Laurencius Ypolito diriti'
+  Assigned: 'satus non negavi Interrogatus xpistum confessus'
+  Words:    [92..97) consumed=5
+  NW score: k=4 (pre-snap), norm=-2.0000
+  Anchor:   word 97 (page_break_77), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 -----e-atus --Laurencius Ypoli-t----o diriti 31
+                      0 -----|-|-.. 11
+    query             0 non nega-vi Interrogatus xp--istum confessus 41
+
+-- fused_13 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [97..97) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_14 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [97..97) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_15 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [97..97) consumed=0
+  Alignment:
+    (no words left)
+=== END DEBUG ===
+

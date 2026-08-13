@@ -1,0 +1,199 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'est ab omni plaga curare et mannullam meam meo pectorum re'
+  [fused_1] 'reproper  vcoit domi ne et ex'
+  [fused_2] ' d Mags nm me um quomo do pugna'
+  [fused_3] 'iu stadi o sed quia volui obedie manda'
+  [fused_4] 'tis Princi pim sula ti in manlla Tor que'
+  [fused_5] 'veritatem et mansuetudi'
+  [fused_6] 'n'
+  [fused_7] 'iustici am Jussa isi diligenter perfeceris corpus'
+  [fused_8] 'meum a carnificibus actractari non potest anima meam'
+  [fused_9] 'sum domini cum palma intrare martyrii P in Domino confi evovac'
+  [fused_10] 'Lrdisti domine agonem meum quomodo pugnavi iustadio'
+  [fused_11] 'sed quia nolui obedire mandatis principum jussa'
+  [fused_12] 'milla Torqueri P Domine quis eoaPropter fidem castita'
+  [fused_13] 'tio vissa sum susendi n eqiles adinua me dominecname'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'est ab omni plaga curare et mannullam meam meo pectorum re'
+  Assigned: 'est ab omni plaga curare et mamillam meam meo pectori'
+  Words:    [0..10) consumed=10
+  NW score: k=10 (pre-snap), norm=6.5291
+  Anchor:   word 16 (within_chant_7), diff=6, snapped=False, forced=False
+  Alignment:
+    target            0 est ab omni plaga curare et mannullam meam meo pectorum re 58
+                      0 |||  3
+    query             0 est ab omni plaga curare et ma-millam meam meo pecto----ri 53
+
+-- fused_1 --
+  OCR:      'reproper  vcoit domi ne et ex'
+  Assigned: 'restituere Propter Vidisti domine et ex'
+  Words:    [10..16) consumed=6
+  NW score: k=5 (pre-snap), norm=1.8879
+  Anchor:   word 16 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 re---------prop-er  vcoi-t- domi ne et ex--------- 29
+                      0 ||---------.|||-||- 19
+    query             0 restituere Propter- Vidisti domi-ne et exspectasti 48
+
+-- fused_2 --
+  OCR:      'd Mags nm me um quomo do pugna'
+  Assigned: 'spectasti agonem meum quomodo pugna'
+  Words:    [16..20) consumed=4
+  NW score: k=4 (pre-snap), norm=4.4975
+  Anchor:   word 20 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 d Mags n-m me um quomo do pugna-- 30
+                      0 ---||-.|-| 10
+    query             0 ---ag-onem me-um quomo-do pugnavi 27
+
+-- fused_3 --
+  OCR:      'iu stadi o sed quia volui obedie manda'
+  Assigned: 'vi in stadio sed quia nolui obedire manda'
+  Words:    [20..27) consumed=7
+  NW score: k=7 (pre-snap), norm=6.1563
+  Anchor:   word 27 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 iu stadi o sed quia volui obedi-e manda--- 38
+                      0 |.  2
+    query             0 in stadi-o sed quia nolui obedire mandatis 41
+
+-- fused_4 --
+  OCR:      'tis Princi pim sula ti in manlla Tor que'
+  Assigned: 'tis principum Iussa sum in mamilla'
+  Words:    [27..32) consumed=5
+  NW score: k=6 (pre-snap), norm=2.7091
+  Anchor:   word 32 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 tis Princi pim su-la -ti in ma-nlla Tor que 40
+                      0 ----.|||||-|.| 14
+    query             0 ----princi-pum Iussa sum in mamilla-------- 30
+
+-- fused_5 --
+  OCR:      'veritatem et mansuetudi'
+  Assigned: 'torqueri Propter veritatem et mansuetudinem et'
+  Words:    [32..38) consumed=6
+  NW score: k=5 (pre-snap), norm=3.6886
+  Anchor:   word 38 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 -----------------veritatem et mansuetudi------ 23
+                      0 -----------------||||||||| 26
+    query             0 torqueri Propter veritatem et mansuetudinem et 46
+
+-- fused_6 --
+  OCR:      'n'
+  Assigned: 'iusticiam'
+  Words:    [38..39) consumed=1
+  NW score: k=1 (pre-snap), norm=-11.0000
+  Anchor:   word 44 (within_chant_7), diff=5, snapped=False, forced=False
+  Alignment:
+    target            0 --------n 1
+                      0 --------. 9
+    query             0 iusticiam 9
+
+-- fused_7 --
+  OCR:      'iustici am Jussa isi diligenter perfeceris corpus'
+  Assigned: 'Iussa Nisi diligenter perfeceris corpus'
+  Words:    [39..44) consumed=5
+  NW score: k=5 (pre-snap), norm=5.6502
+  Anchor:   word 44 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 iustici am Jussa -isi diligenter perfeceris corpus 49
+                      0 -----------.|||| 16
+    query             0 -----------Iussa Nisi diligenter perfeceris corpus 39
+
+-- fused_8 --
+  OCR:      'meum a carnificibus actractari non potest anima meam'
+  Assigned: 'meum a carnificibus actractari non potest anima mea in paradi'
+  Words:    [44..54) consumed=10
+  NW score: k=8 (pre-snap), norm=7.7868
+  Anchor:   word 54 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 meum a carnificibus actractari non potest anima mea---------
+                      0 ||||
+    query             0 meum a carnificibus actractari non potest anima mea in parad
+    
+    target           51 ---m 52
+                      4 ---|  8
+    query            60 isum 64
+
+-- fused_9 --
+  OCR:      'sum domini cum palma intrare martyrii P in Domino confi evovac'
+  Assigned: 'sum domini cum palma intrare martyrii ~In'
+  Words:    [54..60) consumed=6
+  NW score: k=9 (pre-snap), norm=5.5124
+  Anchor:   word 60 (within_chant_7), diff=3, snapped=False, forced=True
+  Alignment:
+    target            0 sum domini cum palma intrare martyrii P in Domino confi evov
+                      0 ----||||||
+    query             0 ----domini cum palma intrare martyrii------------ ~In-------
+    
+    target           60 ac 62
+                     10 -- 12
+    query            37 -- 37
+
+-- fused_10 --
+  OCR:      'Lrdisti domine agonem meum quomodo pugnavi iustadio'
+  Assigned: 'domino confidunt euouae Vidisti domine agonem meum quomodo pugnavi in stadio'
+  Words:    [60..71) consumed=11
+  NW score: k=11 (pre-snap), norm=4.5938
+  Anchor:   word 71 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ------------------------Lrdisti domine agonem meum quomodo p
+                      0 ------------------------..|||||
+    query             0 domino confidunt euouae Vidisti domine agonem meum quomodo p
+    
+    target           36 ugnavi i-ustadio 51
+                     31 |||||| 37
+    query            60 ugnavi in stadio 76
+
+-- fused_11 --
+  OCR:      'sed quia nolui obedire mandatis principum jussa'
+  Assigned: 'sed quia nolui obedire mandatis principum iussa sum in ma'
+  Words:    [71..81) consumed=10
+  NW score: k=7 (pre-snap), norm=7.7234
+  Anchor:   word 81 (within_chant_7), diff=3, snapped=False, forced=True
+  Alignment:
+    target            0 sed quia nolui obedire mandatis principum juss--------------
+                      0 |||
+    query             0 sed quia nolui obedire mandatis principum iussa sum in mamil
+    
+    target           46 -a 47
+                      3 -|  5
+    query            60 la 62
+
+-- fused_12 --
+  OCR:      'milla Torqueri P Domine quis eoaPropter fidem castita'
+  Assigned: 'milla torqueri ~Domine quis euouae Propter fidem castita'
+  Words:    [81..88) consumed=7
+  NW score: k=7 (pre-snap), norm=5.2075
+  Anchor:   word 88 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 milla Torqueri P Domine quis e-o-a--Propter fidem castita---
+                      0 ------.|||||||
+    query             0 ------torqueri -~Domine quis euouae Propter fidem castitatis
+    
+    target           53 
+                     14 
+    query            53 
+
+-- fused_13 --
+  OCR:      'tio vissa sum susendi n eqiles adinua me dominecname'
+  Assigned: 'tis iussa sum suspendi in equuleo adiuva me domine deus meus'
+  Words:    [88..98) consumed=10
+  NW score: k=8 (pre-snap), norm=4.5596
+  Anchor:   word 98 (page_break_77), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 tio vissa sum sus-endi -n eq-iles adinu-a me domin---ecname-
+                      0 -|---.|||
+    query             0 -i---ussa sum suspendi in equuleo adi-uva me domine deus meu
+    
+    target           52 - 52
+                      9 - 10
+    query            55 s 56
+=== END DEBUG ===
+

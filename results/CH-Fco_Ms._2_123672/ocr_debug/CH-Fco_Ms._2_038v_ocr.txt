@@ -1,0 +1,179 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'urabile commercium cicato '
+  [fused_1] 'mani annua in corpus sumens menasci digna'
+  [fused_2] 'tus est et procedens homo sine semimen rargitus est nobis'
+  [fused_3] 'a ceitatem  dominus Regi ovae Vandonatus'
+  [fused_4] 'es in effabilitei ex virgine sunt scripture'
+  [fused_5] 'sicut plum a muanus descendistiutanum facerese'
+  [fused_6] 'nus humanum te laudanus'
+  [fused_7] 'ubum quem indeiat mo ees incombnscima'
+  [fused_8] 'natam aonovimas tuam abilem'
+  [fused_9] 'enitrhe interce dus'
+  [fused_10] 'intradie resse orta ca acob 29'
+  [fused_11] 'tem te lardanno aa cors'
+  [fused_12] '  .ator'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'urabile commercium cicato'
+  Assigned: 'concepit filium Salvatorem O amirabile commercium creator generis hu'
+  Words:    [0..9) consumed=9
+  NW score: k=7 (pre-snap), norm=1.7484
+  Anchor:   word 9 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 -------------u------------------rabile commercium cicato----
+                      0 -------------|------------------||||||
+    query             0 concepit filium Salvatorem O amirabile commercium creator ge
+    
+    target           25 ------------ 25
+                     38 ------------ 50
+    query            60 neris humani 72
+
+-- fused_1 --
+  OCR:      'mani annua in corpus sumens menasci digna'
+  Assigned: 'mani animatum corpus sumens de virgine nasci digna'
+  Words:    [9..16) consumed=7
+  NW score: k=7 (pre-snap), norm=3.7194
+  Anchor:   word 16 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 mani annua in corpus sumens me---------nasci digna--- 41
+                      0 -|||.|-.|---. 13
+    query             0 -anima-tu---m corpus sumens de virgine nasci dignatus 48
+
+-- fused_2 --
+  OCR:      'tus est et procedens homo sine semimen rargitus est nobis'
+  Assigned: 'tus est et procedens homo sine semine largitus est no'
+  Words:    [16..25) consumed=9
+  NW score: k=9 (pre-snap), norm=6.7410
+  Anchor:   word 25 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 tus est et procedens homo sine semimen rargitus est nobis 57
+                      0 ----|||  7
+    query             0 ----est et procedens homo sine semine- largitus est nobis 52
+
+-- fused_3 --
+  OCR:      'a ceitatem  dominus Regi ovae Vandonatus'
+  Assigned: 'bis suam deitatem ~Dominus regnavit euouae Quando natus'
+  Words:    [25..32) consumed=7
+  NW score: k=7 (pre-snap), norm=4.0074
+  Anchor:   word 32 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 --a- ceitatem  dominus Reg---i- --ovae -Vando-natus 40
+                      0 --|-  4
+    query             0 suam deitatem ~Dominus regnavit euouae Quando natus 51
+
+-- fused_4 --
+  OCR:      'es in effabilitei ex virgine sunt scripture'
+  Assigned: 'est ineffabiliter ex virgine tunc implete sunt scripture'
+  Words:    [32..40) consumed=8
+  NW score: k=8 (pre-snap), norm=5.4207
+  Anchor:   word 40 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 es- in effabilitei ex virgin-------------e sunt scripture 43
+                      0 ||-  3
+    query             0 est in-effabiliter ex virgine tunc implete sunt scripture 56
+
+-- fused_5 --
+  OCR:      'sicut plum a muanus descendistiutanum facerese'
+  Assigned: 'sicut pluvia in vellus descendisti ut salvum faceres ge'
+  Words:    [40..49) consumed=9
+  NW score: k=8 (pre-snap), norm=4.7436
+  Anchor:   word 49 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 sicut plum a muan-----us descendisti-ut--a-num faceres--e---
+                      0 |||||
+    query             0 sicut pluvia --in vellus descendisti ut salvum faceres genus
+    
+    target           46 
+                      5 
+    query            58 
+
+-- fused_6 --
+  OCR:      'nus humanum te laudanus'
+  Assigned: 'nus humanum te laudamus'
+  Words:    [49..52) consumed=3
+  NW score: k=3 (pre-snap), norm=5.8839
+  Anchor:   word 56 (within_chant_7), diff=4, snapped=False, forced=False
+  Alignment:
+    target            0 nus humanum te laudanus 23
+                      0 ----||||||| 11
+    query             0 ----humanum te laudamus 19
+
+-- fused_7 --
+  OCR:      'ubum quem indeiat mo ees incombnscima'
+  Assigned: 'deus noster ~Iubilate euouae Rubum quem viderat moyses incombustum'
+  Words:    [52..61) consumed=9
+  NW score: k=9 (pre-snap), norm=1.7605
+  Anchor:   word 56 (within_chant_7), diff=5, snapped=False, forced=False
+  Alignment:
+    target            0 ------------------------------ubum quem -indeiat mo ees inco
+                      0 ------------------------------||||
+    query             0 deus noster ~Iubilate euouae Rubum quem vi-derat moyses inco
+    
+    target           29 mbnscima 37
+                     34 ||.|..|- 42
+    query            59 mbustum- 66
+
+-- fused_8 --
+  OCR:      'natam aonovimas tuam abilem'
+  Assigned: 'con'
+  Words:    [61..62) consumed=1
+  NW score: k=4 (pre-snap), norm=4.6825
+  Anchor:   word 62 (within_chant_7), diff=3, snapped=False, forced=True
+  Alignment:
+    target            0 natam aon--ovimas tuam abilem 27
+                      0 ------.||--.|--|--|----|----| 29
+    query             0 ------conserv--a--t----a----m 11
+
+-- fused_9 --
+  OCR:      'enitrhe interce dus'
+  Assigned: 'servatam agnovimus tuam laudabilem virginitatem'
+  Words:    [62..66) consumed=4
+  NW score: k=7 (pre-snap), norm=-1.5568
+  Anchor:   word 66 (within_chant_7), diff=3, snapped=False, forced=True
+  Alignment:
+    target            0 -en--i----t----------rhe- ----in---terce dus 19
+                      0 -.|--|----|----------..|- 25
+    query             0 agnovimus tuam laudabilem virginitate------m 38
+
+-- fused_10 --
+  OCR:      'intradie resse orta ca acob 29'
+  Assigned: 'dei genitrix intercede pro nobis'
+  Words:    [66..71) consumed=5
+  NW score: k=5 (pre-snap), norm=-0.7423
+  Anchor:   word 74 (within_chant_7), diff=3, snapped=False, forced=False
+  Alignment:
+    target            0 --i---n-tradie ----r-esse orta ca acob 29 30
+                      0 --|---|-||--|. 14
+    query             0 dei genitr--ix interce-de pr----o -nob-is 32
+
+-- fused_11 --
+  OCR:      'tem te lardanno aa cors'
+  Assigned: '~Deus deus germina'
+  Words:    [71..74) consumed=3
+  NW score: k=5 (pre-snap), norm=-1.4156
+  Anchor:   word 74 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 -te-m te-- lardanno aa cors 23
+                      0 -.|-.  5
+    query             0 ~Deus deus Germin----a--vit 21
+
+-- fused_12 --
+  OCR:      '.ator'
+  Assigned: 'vit radix iesse orta est stella ex iacob virgo peperit salvato'
+  Words:    [74..84) consumed=10
+  NW score: k=1 (pre-snap), norm=-2.4000
+  Anchor:   word 84 (within_chant_7), diff=9, snapped=False, forced=True
+  Alignment:
+    target            0 ------------------------------------------------------.ator-
+                      0 ------------------------------------------------------.||||-
+    query             0 radix iesse orta est stella ex iacob virgo peperit salvatore
+    
+    target            5 -  5
+                     60 - 61
+    query            60 m 61
+=== END DEBUG ===
+

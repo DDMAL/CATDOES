@@ -1,0 +1,175 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'de morientes pro Christisti no ut herede'
+  [fused_1] 'te rent in domo domiiradide'
+  [fused_2] 'corpora su a propter Deum ad there'
+  [fused_3] 'Lanquami aurum in foraceppobanite lectos'
+  [fused_4] 'nus et quasi HolocaustiHocpit'
+  [fused_5] 'los et in tempore rit respectus'
+  [fused_6] 'am donum et pax est .ctio de Cui confi'
+  [fused_7] 'ominc inan. iugent veritatem et fideles in dilecti a'
+  [fused_8] 'one acqui .ait Anoni  usti autem in'
+  [fused_9] 'perpetuum vivent et apud Dominum est merces eorum po'
+  [fused_10] 'radiderunt corpora sua in morte'
+  [fused_11] 'ne servient idolis ideo coronati possident palmami qos ene'
+  [fused_12] 'ditameeemeres sancto re coiosa esc apio'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'de morientes pro Christisti no ut herede'
+  Assigned: 'dei morientes pro xpisti nomine Ut heredes'
+  Words:    [0..7) consumed=7
+  NW score: k=7 (pre-snap), norm=4.9527
+  Anchor:   word 12 (within_chant_7), diff=5, snapped=False, forced=False
+  Alignment:
+    target            0 de- morientes pro Christisti no---- ut herede- 40
+                      0 ||-  3
+    query             0 dei morientes pro ----xpisti nomine Ut heredes 42
+
+-- fused_1 --
+  OCR:      'te rent in domo domiiradide'
+  Assigned: 'fierent in domo domini Tradiderunt'
+  Words:    [7..12) consumed=5
+  NW score: k=5 (pre-snap), norm=4.8847
+  Anchor:   word 12 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -te rent in domo domi-i--radide---- 27
+                      0 -.|-||||  8
+    query             0 fie-rent in domo domini Tradiderunt 34
+
+-- fused_2 --
+  OCR:      'corpora su a propter Deum ad there'
+  Assigned: 'corpora sua propter deum ad'
+  Words:    [12..17) consumed=5
+  NW score: k=5 (pre-snap), norm=5.7429
+  Anchor:   word 20 (within_chant_7), diff=3, snapped=False, forced=False
+  Alignment:
+    target            0 corpora su a propter Deum ad there 34
+                      0 |||||||  7
+    query             0 corpora su-a propter deum ad------ 27
+
+-- fused_3 --
+  OCR:      'Lanquami aurum in foraceppobanite lectos'
+  Assigned: 'supplicia Ut heredes Tanquam aurum in fornace probavit electos'
+  Words:    [17..26) consumed=9
+  NW score: k=9 (pre-snap), norm=3.2731
+  Anchor:   word 20 (within_chant_7), diff=6, snapped=False, forced=False
+  Alignment:
+    target            0 ---------------------Lanquami aurum in for-ace-ppobanit-e le
+                      0 ---------------------.||||||-
+    query             0 supplicia Ut heredes Tanquam- aurum in fornace probavit e-le
+    
+    target           36 ctos 40
+                     29 |||| 33
+    query            58 ctos 62
+
+-- fused_4 --
+  OCR:      'nus et quasi HolocaustiHocpit'
+  Assigned: 'dominus et quasi holocausti hostiam accepit illos et'
+  Words:    [26..34) consumed=8
+  NW score: k=4 (pre-snap), norm=4.7530
+  Anchor:   word 34 (within_chant_7), diff=4, snapped=False, forced=True
+  Alignment:
+    target            0 ----nus et quasi Holocausti-Ho--------c-pi---------t 29
+                      0 ----|||  7
+    query             0 dominus et quasi holocausti hostiam accepit illos et 52
+
+-- fused_5 --
+  OCR:      'los et in tempore rit respectus'
+  Assigned: 'in tempore erit respectus illorum quoni'
+  Words:    [34..40) consumed=6
+  NW score: k=4 (pre-snap), norm=5.7474
+  Anchor:   word 40 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 los et in tempore -rit respectus---------------- 31
+                      0 -------||  9
+    query             0 -------in tempore erit respectus illorum Quoniam 41
+
+-- fused_6 --
+  OCR:      'am donum et pax est .ctio de Cui confi'
+  Assigned: 'am donum et pax est electis dei Qui confi'
+  Words:    [40..48) consumed=8
+  NW score: k=8 (pre-snap), norm=4.8811
+  Anchor:   word 48 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 am donum et pax est --.ctio de- Cui confi---- 38
+                      0 ---|||||  8
+    query             0 ---donum et pax est electis dei Qui confidunt 42
+
+-- fused_7 --
+  OCR:      'ominc inan. iugent veritatem et fideles in dilecti a'
+  Assigned: 'dunt in illum intellegent veritatem et fideles in dilecti'
+  Words:    [48..56) consumed=8
+  NW score: k=8 (pre-snap), norm=4.8243
+  Anchor:   word 56 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ominc inan. i-----ugent veritatem et fideles in dilecti- a 52
+                      0 --||-  5
+    query             0 --in- illum intellegent veritatem et fideles in dilectione 55
+
+-- fused_8 --
+  OCR:      'one acqui .ait Anoni  usti autem in'
+  Assigned: 'one acquiescent illi Quoniam Iusti autem in'
+  Words:    [56..62) consumed=6
+  NW score: k=6 (pre-snap), norm=3.0585
+  Anchor:   word 62 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 one acqui------ -.ait Anoni--  usti autem in 35
+                      0 ----|||||------ 15
+    query             0 ----acquiescent illi- Quoniam Iusti autem in 39
+
+-- fused_9 --
+  OCR:      'perpetuum vivent et apud Dominum est merces eorum po'
+  Assigned: 'perpetuum vivent et apud dominum est merces eorum'
+  Words:    [62..70) consumed=8
+  NW score: k=8 (pre-snap), norm=7.2507
+  Anchor:   word 70 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 perpetuum vivent et apud Dominum est merces eorum po 52
+                      0 |||||||||  9
+    query             0 perpetuum vivent et apud dominum est merces eorum--- 49
+
+-- fused_10 --
+  OCR:      'radiderunt corpora sua in morte'
+  Assigned: '~Exultate iusti euouae Tradiderunt corpora sua in morte'
+  Words:    [70..78) consumed=8
+  NW score: k=8 (pre-snap), norm=4.1655
+  Anchor:   word 78 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ------------------------radiderunt corpora sua in morte 31
+                      0 ------------------------|||||||||| 34
+    query             0 ~Exultate iusti euouae Tradiderunt corpora sua in morte 55
+
+-- fused_11 --
+  OCR:      'ne servient idolis ideo coronati possident palmami qos ene'
+  Assigned: 'ne servirent idolis ideo coronati possident palmam'
+  Words:    [78..85) consumed=7
+  NW score: k=7 (pre-snap), norm=6.5736
+  Anchor:   word 85 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ne servi-ent idolis ideo coronati possident palmami qos ene
+                      0 ||
+    query             0 ne servirent idolis ideo coronati possident palmam---------
+    
+    target           58
+                      2
+    query            50
+
+-- fused_12 --
+  OCR:      'ditameeemeres sancto re coiosa esc apio'
+  Assigned: '~Benedicam euouae Ecce merces sanctorum copiosa est apud deum'
+  Words:    [85..94) consumed=9
+  NW score: k=8 (pre-snap), norm=3.1241
+  Anchor:   word 94 (page_break_77), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 -----ditam-e----e----e-mer-es sancto r-e co-iosa esc ap-----
+                      0 -----||.||-|----|----|-|||-||
+    query             0 ~Benedicam euouae Ecce merces sancto-rum copiosa est apud de
+    
+    target           37 io 39
+                     29 .. 31
+    query            59 um 61
+=== END DEBUG ===
+

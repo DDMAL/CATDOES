@@ -1,0 +1,173 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'tens ne Ancly . etdomi mus'
+  [fused_1] 'in voce tu beAllelnya allenscendit ppp'
+  [fused_2] 'stus in altum dominus captinam duxit captum tatem .'
+  [fused_3] 'iquid aspicitis incelum hic ihe Et'
+  [fused_4] 'sus qui assumptus est a vobis incelum sic veniet Allelvya'
+  [fused_5] ' regi eovae umque intuerentur in celeum eim'
+  [fused_6] 'tem illum dixerunt Alleluyas'
+  [fused_7] 'vatis manibus ferebatur in celum et benedicit eis anelu'
+  [fused_8] 'raltate regem regimi et ymnum'
+  [fused_9] 'dicite Deo Alely Budicis evovae et videntibus illis'
+  [fused_10] 'et mibes suscepit eum in cel'
+  [fused_11] 'ans evoras Dnoili elo alauna'
+  [fused_12] ''
+  [fused_13] 'm nclean leiani aianis sendo ad patenue'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'tens ne Ancly . etdomi mus'
+  Assigned: 'deus in iubilatione alleluya Et dominus'
+  Words:    [0..6) consumed=6
+  NW score: k=6 (pre-snap), norm=0.4082
+  Anchor:   word 13 (within_chant_7), diff=7, snapped=False, forced=False
+  Alignment:
+    target            0 tens ------------ne -Ancl-y . et-domi mus 26
+                      0 .|.|  4
+    query             0 deus in iubilatione alleluy-a Et domi-nus 39
+
+-- fused_1 --
+  OCR:      'in voce tu beAllelnya allenscendit ppp'
+  Assigned: 'in voce tube alleluya allelua Ascendit xpi'
+  Words:    [6..13) consumed=7
+  NW score: k=6 (pre-snap), norm=4.7105
+  Anchor:   word 13 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 in voce tu be-Allelnya alle----nscendit pp----p 38
+                      0 ||  2
+    query             0 in voce tu-be alleluya allelua Ascendit xpistus 46
+
+-- fused_2 --
+  OCR:      'stus in altum dominus captinam duxit captum tatem .'
+  Assigned: 'stus in altum dominus captivam duxit captivitatem'
+  Words:    [13..19) consumed=6
+  NW score: k=6 (pre-snap), norm=5.7208
+  Anchor:   word 19 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 stus in altum dominus captinam duxit captum tatem . 51
+                      0 -----||  7
+    query             0 -----in altum dominus captivam duxit captivitatem-- 44
+
+-- fused_3 --
+  OCR:      'iquid aspicitis incelum hic ihe Et'
+  Assigned: 'Et Viri galilei quid aspicitis in celum hic ihe'
+  Words:    [19..28) consumed=9
+  NW score: k=9 (pre-snap), norm=4.1959
+  Anchor:   word 20 (within_chant_7), diff=8, snapped=False, forced=False
+  Alignment:
+    target            0 --------------i-quid aspicitis in-celum hic ihe Et 34
+                      0 --------------|-|||| 20
+    query             0 Et Viri galilei quid aspicitis in celum hic ihesus 50
+
+-- fused_4 --
+  OCR:      'sus qui assumptus est a vobis incelum sic veniet Allelvya'
+  Assigned: 'sus qui assumptus est a vobis in celum sic veniet alleluya'
+  Words:    [28..38) consumed=10
+  NW score: k=10 (pre-snap), norm=6.7592
+  Anchor:   word 38 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 sus qui assumptus est a vobis in-celum sic veniet Allelvya 57
+                      0 ----|||  7
+    query             0 ----qui assumptus est a vobis in celum sic veniet alleluya 54
+
+-- fused_5 --
+  OCR:      'regi eovae umque intuerentur in celeum eim'
+  Assigned: '~Dominus regnavit euouae Cumque intuerentur in celum euntem'
+  Words:    [38..46) consumed=8
+  NW score: k=8 (pre-snap), norm=4.3592
+  Anchor:   word 50 (within_chant_7), diff=4, snapped=False, forced=False
+  Alignment:
+    target            0 ---------reg---i- e-ovae -umque intuerentur in celeum e---im
+                      0 ---------|||---|-
+    query             0 ~Dominus regnavit euouae Cumque intuerentur in cel-um euntem
+    
+    target           42 
+                     17 
+    query            59 
+
+-- fused_6 --
+  OCR:      'tem illum dixerunt Alleluyas'
+  Assigned: 'illum dixerunt alleluya iubila'
+  Words:    [46..50) consumed=4
+  NW score: k=3 (pre-snap), norm=5.8320
+  Anchor:   word 50 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 tem illum dixerunt Alleluya---------s 28
+                      0 ----|||||  9
+    query             0 ----illum dixerunt alleluya ~Iubilate 33
+
+-- fused_7 --
+  OCR:      'vatis manibus ferebatur in celum et benedicit eis anelu'
+  Assigned: 'te euouae Elevatis manibus ferebatur in celum et benedixit eis allelu'
+  Words:    [50..60) consumed=10
+  NW score: k=10 (pre-snap), norm=5.9357
+  Anchor:   word 52 (within_chant_7), diff=8, snapped=False, forced=False
+  Alignment:
+    target            0 ----------vatis manibus ferebatur in celum et benedicit eis 
+                      0 ----------|||||
+    query             0 euouae Elevatis manibus ferebatur in celum et benedixit eis 
+    
+    target           50 a-nelu-- 55
+                     15 |-.|||-- 23
+    query            60 alleluya 68
+
+-- fused_8 --
+  OCR:      'raltate regem regimi et ymnum'
+  Assigned: 'ya ~Deus deus euouae Exaltate regem regum et ymnum'
+  Words:    [60..68) consumed=8
+  NW score: k=8 (pre-snap), norm=3.5212
+  Anchor:   word 68 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -------------------raltate regem regimi et ymnum 29
+                      0 -------------------.|||||| 26
+    query             0 ~Deus deus euouae Exaltate regem regum- et ymnum 47
+
+-- fused_9 --
+  OCR:      'dicite Deo Alely Budicis evovae et videntibus illis'
+  Assigned: 'dicite deo alleluya ~Benedicam euouae Videntibus illis'
+  Words:    [68..75) consumed=7
+  NW score: k=7 (pre-snap), norm=4.3637
+  Anchor:   word 75 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 dicite Deo -Alel-y- -B--udicis evovae et videntibus illis 51
+                      0 ||||||  6
+    query             0 dicite deo alleluya ~Benedicam euouae--- Videntibus illis 54
+
+-- fused_10 --
+  OCR:      'et mibes suscepit eum in cel'
+  Assigned: 'elevatus est et nubes suscepit eum in celo alleluya'
+  Words:    [75..84) consumed=9
+  NW score: k=8 (pre-snap), norm=4.3158
+  Anchor:   word 84 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 -------------et mibes suscepit eum in cel---------- 28
+                      0 -------------|| 15
+    query             0 elevatus est et nubes suscepit eum in celo alleluya 51
+
+-- fused_11 --
+  OCR:      'ans evoras Dnoili elo alauna'
+  Assigned: '~Laudate euouae Dominus in celo alleluya pa'
+  Words:    [84..91) consumed=7
+  NW score: k=6 (pre-snap), norm=1.2550
+  Anchor:   word 91 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 -----ans evoras Dno-i---li- -elo al-----auna----- 28
+                      0 -----|..  8
+    query             0 ~Laudate euouae D-ominus in celo alleluya Paravit 48
+
+-- fused_12 --
+  OCR:      ''
+  Assigned: 'ravit sedem suam alleluya Ascendo ad patrem meum'
+  Words:    [91..98) consumed=7
+
+-- fused_13 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [98..98) consumed=0
+  Alignment:
+    (no words left)
+=== END DEBUG ===
+

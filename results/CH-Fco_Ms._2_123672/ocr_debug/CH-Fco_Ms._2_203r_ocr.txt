@@ -1,0 +1,263 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'enedic ta fi  domino quia perte fructum vnte'
+  [fused_1] 'mclch tdeco'
+  [fused_2] 'ra filia Iherusalem terribilis ut castrorum acies ordinata '
+  [fused_3] 'capi in omibus rediem  lola'
+  [fused_4] 'te premi die omibs fes et omn'
+  [fused_5] 'do evovae . .altata  Que est ista que ascendit'
+  [fused_6] 'sicut alliora consurgenis pulchia ut linia electa ut sol'
+  [fused_7] 'ter ribilis ut castrorum acies ordinata  Benedictus exone'
+  [fused_8] 'oro familorum tuorum. Nota quod in omnibus uninis que diotus adjungis'
+  [fused_9] 'edqnar ad prima ymis javi Lucisorto a assumpta ce p'
+  [fused_10] 'ae. dice et manalii r iep cais oibi et redem nonedna Pa Retbue capetli egi seclorum  Xpiste Jhesi DAan Exige Ynin ad xaltata es'
+  [fused_11] ' .uper choros Angelorum ad celestia r'
+  [fused_12] 'Vallumpta esmaria icelum e lau'
+  [fused_13] 'Santes bndicite dominium ad u'
+  [fused_14] 'na Btoria Tfi. casii et lethyoni firmata sue sumpta est'
+  [fused_15] 'Maria in celum gaudent Angeli X Laudantes benedicunt'
+  [fused_16] 'V Mariaugorasie ad he'
+  [fused_17] 'tinc ristisis ad ixaca'
+  [fused_18] 'dominum. In plateis sicut cinamo aria virgo assumpta est'
+  [fused_19] 'ad Hetereum thalamuni u in quo rex regum stellato sedet so'
+  [fused_20] 'dignareme alitars ex damal boit ad ut'
+  [fused_21] 'e allumpta cisicat sunt t laudps de Scamaria'
+  [fused_22] 'capellanii omnibus rediem quo avemaris stellao'
+  [fused_23] 'no Connc  domet  Nooie mana migo ce'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'enedic ta fi  domino quia perte fructum vnte'
+  Assigned: 'Benedicta filia tu a domino quia per te fructum vite com'
+  Words:    [0..11) consumed=11
+  NW score: k=10 (pre-snap), norm=5.8746
+  Anchor:   word 11 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 -enedic ta fi------ - domino quia per-te fructum vnte-------
+                      0 -||||||-||
+    query             0 Benedic-ta filia tu a domino quia per te fructum vite commun
+    
+    target           44 -------- 44
+                     10 -------- 18
+    query            59 icavimus 67
+
+-- fused_1 --
+  OCR:      'mclch tdeco'
+  Assigned: 'municavimus ~Benedicite euouae Pulchra es et deco'
+  Words:    [11..17) consumed=6
+  NW score: k=6 (pre-snap), norm=-1.5933
+  Anchor:   word 17 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ------mc-------------lch----- -t-deco-- 11
+                      0 ------.|-------------|||----- 29
+    query             0 ~Benedicite euouae Pulchra es et decora 39
+
+-- fused_2 --
+  OCR:      'ra filia Iherusalem terribilis ut castrorum acies ordinata'
+  Assigned: 'ra filia iherusalem terribilis ut castrorum acies or'
+  Words:    [17..24) consumed=7
+  NW score: k=7 (pre-snap), norm=7.3300
+  Anchor:   word 24 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ra filia Iherusalem terribilis ut castrorum acies ordinata 58
+                      0 ---|||||  8
+    query             0 ---filia iherusalem terribilis ut castrorum acies ordinata 55
+
+-- fused_3 --
+  OCR:      'capi in omibus rediem  lola'
+  Assigned: 'dinata ~Laudate euouae Que est ista que ascendit'
+  Words:    [24..31) consumed=7
+  NW score: k=5 (pre-snap), norm=-1.7821
+  Anchor:   word 31 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 -capi in --o--mibus re--di-em --- lola------- 27
+                      0 -.|.....  8
+    query             0 ~Laudate euouae Que -est ista que ---ascendit 41
+
+-- fused_4 --
+  OCR:      'te premi die omibs fes et omn'
+  Assigned: 'sicut aurora consurgens pulchra ut luna electa ut sol'
+  Words:    [31..40) consumed=9
+  NW score: k=6 (pre-snap), norm=-1.8138
+  Anchor:   word 40 (within_chant_7), diff=3, snapped=False, forced=True
+  Alignment:
+    target            0 ----t---------------e-- p----remi die omibs -fe--s et -omn 29
+                      0 ----|---------------|-- 23
+    query             0 sicut aurora consurgens pulchr--a -ut -luna electa ut so-l 53
+
+-- fused_5 --
+  OCR:      'do evovae . .altata  Que est ista que ascendit'
+  Assigned: 'terribilis ut castrorum acies ordinata ~Benedictus'
+  Words:    [40..46) consumed=6
+  NW score: k=6 (pre-snap), norm=-1.1051
+  Anchor:   word 46 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 do e---vovae -. .altata  Que ---est ---i-sta que ascendi-t--
+                      0 --.|---.....
+    query             0 --terribilis ut cast---rorum acies- ordinata ~Be---ne-dictus
+    
+    target           46 
+                     12 
+    query            50 
+
+-- fused_6 --
+  OCR:      'sicut alliora consurgenis pulchia ut linia electa ut sol'
+  Assigned: 'euouae Exaltata es sancta dei genetrix Super choros angelorum ad celestia regna Gloria'
+  Words:    [46..59) consumed=13
+  NW score: k=13 (pre-snap), norm=-1.0231
+  Anchor:   word 49 (within_chant_7), diff=10, snapped=False, forced=False
+  Alignment:
+    target            0 sicu-t --alliora cons--------urgen---is pu---lch----ia----- 
+                      0 ...|-.
+    query             0 euouae Exa-ltata es sancta dei genetrix Super choros angelor
+    
+    target           34 ut linia- -elect-a ---ut -so--l 56
+                      6 |.  8
+    query            59 um ----ad celestia regna Gloria 86
+
+-- fused_7 --
+  OCR:      'ter ribilis ut castrorum acies ordinata  Benedictus exone'
+  Assigned: 'patri et filio Assumpta est maria in celum gaudent angeli Laudantes benedicunt'
+  Words:    [59..71) consumed=12
+  NW score: k=12 (pre-snap), norm=-0.2250
+  Anchor:   word 64 (within_chant_7), diff=7, snapped=False, forced=False
+  Alignment:
+    target            0 --t---er ribili---s u--t- cast---r-------orum-------- acie-s
+                      0 --|---|.
+    query             0 patri et --filio Assumpta -est maria in celum gaudent angeli
+    
+    target           30  -ordinata  Benedictus exone 57
+                      8   8
+    query            57  Laudan-tes benedic-u-----nt 78
+
+-- fused_8 --
+  OCR:      'oro familorum tuorum. Nota quod in omnibus uninis que diotus adjungis'
+  Assigned: 'dominum Maria virgo assumpta est ad hethereum thalamum In quo rex regum'
+  Words:    [71..83) consumed=12
+  NW score: k=12 (pre-snap), norm=-1.4287
+  Anchor:   word 76 (within_chant_7), diff=7, snapped=False, forced=False
+  Alignment:
+    target            0 oro familorum --------tuo---rum. Nota --quod -------in ----o
+                      0 -.|---||--.||
+    query             0 -do---mi--num Maria virgo assum---pta est ad hethereum thala
+    
+    target           36 mnibus uninis que diotus adjungis 69
+                     13 |---|. 19
+    query            51 m---um In---- quo ---rex ---regum 71
+
+-- fused_9 --
+  OCR:      'edqnar ad prima ymis javi Lucisorto a assumpta ce p'
+  Assigned: 'stellato sedet solio Hodie Maria virgo celos'
+  Words:    [83..90) consumed=7
+  NW score: k=7 (pre-snap), norm=-1.4566
+  Anchor:   word 86 (within_chant_7), diff=4, snapped=False, forced=False
+  Alignment:
+    target            0 --edqna-r -ad-- -prima -ymis javi- Lucisorto a assumpta ce- 
+                      0 --|-..|-.
+    query             0 ste-llato sedet soli-o Hodie Maria --vi--rgo----------- celo
+    
+    target           50 p 51
+                      9 . 10
+    query            43 s 44
+
+-- fused_10 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [90..90) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_11 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [90..90) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_12 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [90..90) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_13 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [90..90) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_14 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [90..90) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_15 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [90..90) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_16 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [90..90) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_17 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [90..90) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_18 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [90..90) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_19 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [90..90) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_20 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [90..90) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_21 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [90..90) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_22 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [90..90) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_23 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [90..90) consumed=0
+  Alignment:
+    (no words left)
+=== END DEBUG ===
+

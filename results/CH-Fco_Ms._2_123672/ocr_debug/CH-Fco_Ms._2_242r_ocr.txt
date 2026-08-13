@@ -1,0 +1,185 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'prepara'
+  [fused_1] 's e cam au gelis in paradisum intipi ti'
+  [fused_2] 'i electa mea et ponam in te thronum meum qva con'
+  [fused_3] 'ccipuit ec haes aentuctisiet guaa'
+  [fused_4] 'in sablis cuus priotere anioni de no'
+  [fused_5] 'm ternumpecie tua et pulcritudine'
+  [fused_6] 'tende prospere proceen proptereu'
+  [fused_7] ' et pematatu Dmentente prose rep'
+  [fused_8] 'c et reg naxDifficiai sa est gracia isabus tu'
+  [fused_9] 'io propteream benciorunt te teners meternm Intende'
+  [fused_10] ''
+  [fused_11] 'ant'
+  [fused_12] 'decietua et pulcritudine tua prospetenrum'
+  [fused_13] 'cede et mna inctavit exorasdumabite'
+  [fused_14] 'ami dens iitu suo deus mneuedii cins non con'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'prepara'
+  Assigned: 'pro'
+  Words:    [0..1) consumed=1
+  NW score: k=1 (pre-snap), norm=-1.0911
+  Anchor:   word 13 (within_chant_7), diff=12, snapped=False, forced=False
+  Alignment:
+    target            0 prepara 7
+                      0 |----|. 7
+    query             0 p----ro 3
+
+-- fused_1 --
+  OCR:      's e cam au gelis in paradisum intipi ti'
+  Assigned: 'cuius amore sanguinem tuum fudisti Et cum angelis in paradisum introisti ve'
+  Words:    [1..13) consumed=12
+  NW score: k=11 (pre-snap), norm=2.4155
+  Anchor:   word 13 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 ----s ----e ca-----------m au------------ --gelis in paradis
+                      0 ----|
+    query             0 cuius amore sanguinem tuum fudisti Et cum angelis in paradis
+    
+    target           27 um int--i-pi --ti 39
+                      5 ||  7
+    query            60 um introisti Veni 77
+
+-- fused_2 --
+  OCR:      'i electa mea et ponam in te thronum meum qva con'
+  Assigned: 'ni electa mea et ponam in te thronum meum quia con'
+  Words:    [13..23) consumed=10
+  NW score: k=9 (pre-snap), norm=6.3833
+  Anchor:   word 23 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 i electa mea et ponam in te thronum meum q-va con------- 48
+                      0 --||||||  8
+    query             0 --electa mea et ponam in te thronum meum quia concupivit 54
+
+-- fused_3 --
+  OCR:      'ccipuit ec haes aentuctisiet guaa'
+  Assigned: 'cupivit rex speciem tuam Diffusa est gracia'
+  Words:    [23..29) consumed=6
+  NW score: k=6 (pre-snap), norm=-0.6179
+  Anchor:   word 29 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 --ccipuit ec haes aentu--cti---s-ie-t gua--a 33
+                      0 --...|----||--.|. 17
+    query             0 rex sp----ec--iem ---tuam Diffusa est gracia 35
+
+-- fused_4 --
+  OCR:      'in sablis cuus priotere anioni de no'
+  Assigned: 'in labiis tuis Propterea benedixit te deus'
+  Words:    [29..36) consumed=7
+  NW score: k=8 (pre-snap), norm=2.1864
+  Anchor:   word 36 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 in sablis cuus prio-tere- -an--ioni- de --no 36
+                      0 ||  2
+    query             0 in labiis tuis Pr-opterea benedi-xit te deus 42
+
+-- fused_5 --
+  OCR:      'm ternumpecie tua et pulcritudine'
+  Assigned: 'in eternum Specie tua et pulcritudine tua in'
+  Words:    [36..44) consumed=8
+  NW score: k=6 (pre-snap), norm=6.4963
+  Anchor:   word 44 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 -m -ternum--pecie tua et pulcritudin------------e 33
+                      0 -.  2
+    query             0 in eternum Specie tua et pulcritudine tua intende 49
+
+-- fused_6 --
+  OCR:      'tende prospere proceen proptereu'
+  Assigned: 'tende prospere procede et regna Proptere Specie tua'
+  Words:    [44..51) consumed=7
+  NW score: k=5 (pre-snap), norm=3.6077
+  Anchor:   word 51 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 tende prospere proce-------e-n- proptere---------u- 32
+                      0 ------|||||||| 14
+    query             0 ------prospere procede et regna Proptere Specie tua 45
+
+-- fused_7 --
+  OCR:      'et pematatu Dmentente prose rep'
+  Assigned: 'et pulcritudine tua Intende prospere pro'
+  Words:    [51..57) consumed=6
+  NW score: k=5 (pre-snap), norm=2.1553
+  Anchor:   word 57 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 et pematatu Dme------ntente pros---e -r--e-p 31
+                      0 ||  2
+    query             0 et pulcritudine tua Intende prospere procede 44
+
+-- fused_8 --
+  OCR:      'c et reg naxDifficiai sa est gracia isabus tu'
+  Assigned: 'cede et regna Diffusa est gracia in labiis tu'
+  Words:    [57..65) consumed=8
+  NW score: k=8 (pre-snap), norm=4.1634
+  Anchor:   word 65 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 c et reg naxDifficiai sa est gracia i--sab-us tu-- 45
+                      0 --||  4
+    query             0 --et reg-na Diff-----usa est gracia in labiis tuis 42
+
+-- fused_9 --
+  OCR:      'io propteream benciorunt te teners meternm Intende'
+  Assigned: 'is propterea benedixit te deus in eternum'
+  Words:    [65..71) consumed=6
+  NW score: k=7 (pre-snap), norm=4.0452
+  Anchor:   word 71 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 io propteream ben-ciorunt te teners --metern-m Intende 50
+                      0 ---|||||||||- 13
+    query             0 ---propterea- benedi--xit te --deus in eternum-------- 38
+
+-- fused_10 --
+  OCR:      ''
+  Assigned: 'Intende Specie tua et pulcritudine tua intende prospere pro'
+  Words:    [71..80) consumed=9
+
+-- fused_11 --
+  OCR:      'ant'
+  Assigned: 'cede et'
+  Words:    [80..81) consumed=1
+  NW score: k=1 (pre-snap), norm=-1.6330
+  Anchor:   word 86 (within_chant_7), diff=5, snapped=False, forced=False
+  Alignment:
+    target            0 ant 3
+                      0 -.| 3
+    query             0 -et 2
+
+-- fused_12 --
+  OCR:      'decietua et pulcritudine tua prospetenrum'
+  Assigned: 'regna {Eructavit} euouae Adiuvabit eam deus vultu suo deus'
+  Words:    [81..90) consumed=9
+  NW score: k=9 (pre-snap), norm=-1.1689
+  Anchor:   word 86 (within_chant_7), diff=4, snapped=False, forced=False
+  Alignment:
+    target            0 de--------c---i---e-tua et --pulcrit----udine-- ---tua prosp
+                      0 .|--------|---|---|-.||-|-
+    query             0 regna {Eructavit} euoua-e- Adiuvabit eam d--eus vultu- suo d
+    
+    target           34 etenrum 41
+                     26 |----|. 33
+    query            55 e----us 58
+
+-- fused_13 --
+  OCR:      'cede et mna inctavit exorasdumabite'
+  Assigned: 'in medio eius non commovebitur'
+  Words:    [90..95) consumed=5
+  NW score: k=5 (pre-snap), norm=-1.3887
+  Anchor:   word 95 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ---ced-e e--t mna inctavit exorasdum--abit-e 35
+                      0 ---.||-.  8
+    query             0 in medio eius -n--on------ -co----mmovebitur 30
+
+-- fused_14 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [95..95) consumed=0
+  Alignment:
+    (no words left)
+=== END DEBUG ===
+

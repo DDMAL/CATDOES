@@ -1,0 +1,195 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'tum easi minas hominum impio rum et spurticias'
+  [fused_1] 'diatoli in posluto calletransi e confiteor'
+  [fused_2] 'labus et cor de te totis insceribus concupisco . Quia'
+  [fused_3] 'gressa Agnes turpitudinis locum Angelum do'
+  [fused_4] 'rratominus Regis cum'
+  [fused_5] 'cum enim habeo custodem corporis mei Angelumi domini evo'
+  [fused_6] 'vaeA nilo suo subarravit me dominus meus Jhesus Christi'
+  [fused_7] 'stus et tanquam sponsam decoravit me corona exovac'
+  [fused_8] 'enedico te pater domini mei ibesu Chpitisti quia per filium'
+  [fused_9] 'tuum ignis extinctus est a latere meo evovac '
+  [fused_10] 'dete mecum et congratulamim quia hiis omnibus'
+  [fused_11] 'Cotitebo'
+  [fused_12] 'mi hi coro'
+  [fused_13] 'edas sctes acepi eorae os cupins  Distusoe'
+  [fused_14] 'anvntes quloo specan jam teneo ipsi sanmm'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'tum easi minas hominum impio rum et spurticias'
+  Assigned: 'unigenitum evasi minas hominum impiorum et spurcicias'
+  Words:    [0..7) consumed=7
+  NW score: k=7 (pre-snap), norm=6.2378
+  Anchor:   word 13 (within_chant_7), diff=6, snapped=False, forced=False
+  Alignment:
+    target            0 -------tum e-asi minas hominum impio rum et spurticias 46
+                      0 -------||| 10
+    query             0 unigenitum evasi minas hominum impio-rum et spurcicias 53
+
+-- fused_1 --
+  OCR:      'diatoli in posluto calletransi e confiteor'
+  Assigned: 'diaboli inpolluto calle transivi Te confiteor'
+  Words:    [7..13) consumed=6
+  NW score: k=6 (pre-snap), norm=6.2336
+  Anchor:   word 13 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 diatoli in posluto calle-trans--i -e confiteor 42
+                      0 |||.|||  7
+    query             0 diaboli in-polluto calle transivi Te confiteor 45
+
+-- fused_2 --
+  OCR:      'labus et cor de te totis insceribus concupisco . Quia'
+  Assigned: 'labiis te corde te totis visceribus concupisco'
+  Words:    [13..20) consumed=7
+  NW score: k=8 (pre-snap), norm=6.1358
+  Anchor:   word 20 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 lab-us -et cor de te totis -insceribus concupisco . Quia 53
+                      0 |||-.|  6
+    query             0 labiis te- cor-de te totis vi-sceribus concupisco------- 46
+
+-- fused_3 --
+  OCR:      'gressa Agnes turpitudinis locum Angelum do'
+  Assigned: 'Quia INgressa agnes turpitudinis locum angelum do'
+  Words:    [20..27) consumed=7
+  NW score: k=7 (pre-snap), norm=5.7015
+  Anchor:   word 27 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -------gressa Agnes turpitudinis locum Angelum do---- 42
+                      0 -------|||||| 13
+    query             0 Quia INgressa agnes turpitudinis locum angelum domini 53
+
+-- fused_4 --
+  OCR:      'rratominus Regis cum'
+  Assigned: 'mini preparatum invenit ~Dominus regit cum'
+  Words:    [27..32) consumed=5
+  NW score: k=5 (pre-snap), norm=2.6100
+  Anchor:   word 35 (within_chant_7), diff=3, snapped=False, forced=False
+  Alignment:
+    target            0 -r---rat-------------ominus Regis cum 20
+                      0 -|---|||-------------|||||| 27
+    query             0 preparatum invenit ~Dominus regit cum 37
+
+-- fused_5 --
+  OCR:      'cum enim habeo custodem corporis mei Angelumi domini evo'
+  Assigned: 'aliis euouae Mecum enim habeo custodem corporis mei angelum domini euouae'
+  Words:    [32..43) consumed=11
+  NW score: k=11 (pre-snap), norm=5.3959
+  Anchor:   word 35 (within_chant_7), diff=8, snapped=False, forced=False
+  Alignment:
+    target            0 ---------------cum enim habeo custodem corporis mei Angelumi
+                      0 ---------------|||
+    query             0 aliis euouae Mecum enim habeo custodem corporis mei angelum-
+    
+    target           45  domini evo--- 56
+                     18  18
+    query            59  domini euouae 73
+
+-- fused_6 --
+  OCR:      'vaeA nilo suo subarravit me dominus meus Jhesus Christi'
+  Assigned: 'Annulo suo subarravit me dominus meus ihesus xpi'
+  Words:    [43..51) consumed=8
+  NW score: k=8 (pre-snap), norm=5.6658
+  Anchor:   word 51 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 vaeA nilo suo subarravit me dominus meus Jhesus Christ-i 55
+                      0 ---|.|.||  9
+    query             0 ---Annulo suo subarravit me dominus meus ihesus -xpistus 52
+
+-- fused_7 --
+  OCR:      'stus et tanquam sponsam decoravit me corona exovac'
+  Assigned: 'stus et tamquam sponsam decoravit me corona'
+  Words:    [51..57) consumed=6
+  NW score: k=7 (pre-snap), norm=6.0927
+  Anchor:   word 57 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 stus et tanquam sponsam decoravit me corona exovac 50
+                      0 -----||  7
+    query             0 -----et tamquam sponsam decoravit me corona------- 38
+
+-- fused_8 --
+  OCR:      'enedico te pater domini mei ibesu Chpitisti quia per filium'
+  Assigned: 'euouae Benedico te pater domini mei ihesu xpisti quia per filium'
+  Words:    [57..68) consumed=11
+  NW score: k=11 (pre-snap), norm=6.1352
+  Anchor:   word 68 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 --------enedico te pater domini mei ibesu Chpitisti quia per
+                      0 --------|||||||
+    query             0 euouae Benedico te pater domini mei ihesu -xp--isti quia per
+    
+    target           52  filium 59
+                     15  15
+    query            57  filium 64
+
+-- fused_9 --
+  OCR:      'tuum ignis extinctus est a latere meo evovac'
+  Assigned: 'tuum ignis extinctus est a latere meo euouae congau'
+  Words:    [68..77) consumed=9
+  NW score: k=8 (pre-snap), norm=7.1136
+  Anchor:   word 77 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 tuum ignis extinctus est a latere meo evova-----------c 44
+                      0 ||||  4
+    query             0 tuum ignis extinctus est a latere meo euouae Congaudete 55
+
+-- fused_10 --
+  OCR:      'dete mecum et congratulamim quia hiis omnibus'
+  Assigned: 'dete mecum et congratulamini quia cum hiis omnibus lu'
+  Words:    [77..85) consumed=8
+  NW score: k=7 (pre-snap), norm=5.8889
+  Anchor:   word 85 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 dete mecum et congratulami-m quia---- hiis omnibu--------s 45
+                      0 -----||||| 10
+    query             0 -----mecum et congratulamini quia cum hiis omnibus lucidas 53
+
+-- fused_11 --
+  OCR:      'Cotitebo'
+  Assigned: 'cidas sedes accepi euouae'
+  Words:    [85..88) consumed=3
+  NW score: k=3 (pre-snap), norm=-3.4066
+  Anchor:   word 91 (within_chant_7), diff=3, snapped=False, forced=False
+  Alignment:
+    target            0 --------Cotitebo---  8
+                      0 --------...|.|.|--- 19
+    query             0 sedes accepi euouae 19
+
+-- fused_12 --
+  OCR:      'mi hi coro'
+  Assigned: 'Ecce quod cupivi'
+  Words:    [88..91) consumed=3
+  NW score: k=5 (pre-snap), norm=-3.1009
+  Anchor:   word 91 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 --mi --hi c--oro 10
+                      0 --..  4
+    query             0 Ecce quod cupivi 16
+
+-- fused_13 --
+  OCR:      'edas sctes acepi eorae os cupins  Distusoe'
+  Assigned: 'iam video quod speravi iam teneo ipsi sum'
+  Words:    [91..99) consumed=8
+  NW score: k=8 (pre-snap), norm=-1.2290
+  Anchor:   word 102 (page_break_77), diff=3, snapped=False, forced=False
+  Alignment:
+    target            0 edas scte-----s ace--pi eorae ----os cupins  Distusoe 42
+                      0 -.|.  4
+    query             0 -iam video quod speravi --iam teneo- ---ipsi --s-u--m 41
+
+-- fused_14 --
+  OCR:      'anvntes quloo specan jam teneo ipsi sanmm'
+  Assigned: 'iuncta in celis'
+  Words:    [99..102) consumed=3
+  NW score: k=3 (pre-snap), norm=-3.1049
+  Anchor:   word 102 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 anvntes quloo specan jam teneo ipsi sanmm 41
+                      0 --------.|---------|..|- 24
+    query             0 --------iu---------ncta- -in-- celi-s---- 15
+=== END DEBUG ===
+

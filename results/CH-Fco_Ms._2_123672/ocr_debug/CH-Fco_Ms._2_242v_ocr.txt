@@ -1,0 +1,187 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'vitur po des nos e que multe non potuerunt extingne'
+  [fused_1] 'i'
+  [fused_2] 'rekaritatem p Magnus dominus Evovae ropter veri'
+  [fused_3] 'ta tem et mansuetudineni et in sti ciam . et'
+  [fused_4] 'deducet te mirabili ter dex tera tua'
+  [fused_5] 'Pecie  et pulcritudine tu a intende prospere proce de'
+  [fused_6] 'et reg na . Et deducet ilexisti iusticiam et'
+  [fused_7] 'odisti muni tatem . Propte rea mixit tedeus deus tu'
+  [fused_8] 'ciropter veritatem et man'
+  [fused_9] 'suetudineri etusti Proptereaen'
+  [fused_10] 't ar de cm g nes post am proxime'
+  [fused_11] 'eius Offe rentur tibi in leticiet emstatione'
+  [fused_12] 'reci tua et pulcritudine tua intende prospere proce '
+  [fused_13] 'n Oserentur ti su sesomobis'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'vitur po des nos e que multe non potuerunt extingne'
+  Assigned: '{Deus noster} euouae Aque multa non potuerunt extingue'
+  Words:    [0..8) consumed=8
+  NW score: k=8 (pre-snap), norm=3.9295
+  Anchor:   word 8 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 vitur po des nos---- -----e -que multe non potuerunt exting-
+                      0 ...|-------|
+    query             0 {Deu-------s noster} euouae Aque multa non potuerunt extingu
+    
+    target           49 -ne 51
+                     12 -.| 15
+    query            53 ere 56
+
+-- fused_1 --
+  OCR:      'i'
+  Assigned: 're karitatem'
+  Words:    [8..9) consumed=1
+  NW score: k=1 (pre-snap), norm=-8.0000
+  Anchor:   word 14 (within_chant_7), diff=5, snapped=False, forced=False
+  Alignment:
+    target            0 ---i----- 1
+                      0 ---|----- 9
+    query             0 karitatem 9
+
+-- fused_2 --
+  OCR:      'rekaritatem p Magnus dominus Evovae ropter veri'
+  Assigned: '~Magnus dominus euouae Propter veri'
+  Words:    [9..14) consumed=5
+  NW score: k=5 (pre-snap), norm=3.4826
+  Anchor:   word 14 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 rekaritatem p Magnus dominus Evovae -ropter veri----- 47
+                      0 -------------.|||||| 20
+    query             0 -------------~Magnus dominus euouae Propter veritatem 40
+
+-- fused_3 --
+  OCR:      'ta tem et mansuetudineni et in sti ciam . et'
+  Assigned: 'tatem et mansuetudinem et iusticiam'
+  Words:    [14..18) consumed=4
+  NW score: k=5 (pre-snap), norm=4.2907
+  Anchor:   word 18 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 ta tem et mansuetudineni et in sti ciam . et 44
+                      0 -------||  9
+    query             0 -------et mansuetudine-m et i-usti-ciam----- 29
+
+-- fused_4 --
+  OCR:      'deducet te mirabili ter dex tera tua'
+  Assigned: 'Et deducet te mirabiliter dextera'
+  Words:    [18..23) consumed=5
+  NW score: k=6 (pre-snap), norm=6.7130
+  Anchor:   word 23 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 ---deducet te mirabili ter dex tera tua 36
+                      0 ---||||||| 10
+    query             0 Et deducet te mirabili-ter dex-ter----a 33
+
+-- fused_5 --
+  OCR:      'Pecie  et pulcritudine tu a intende prospere proce de'
+  Assigned: 'tua Specie tua et pulcritudine tua intende prospere procede'
+  Words:    [23..32) consumed=9
+  NW score: k=9 (pre-snap), norm=6.2411
+  Anchor:   word 32 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -----Pecie --- et pulcritudine tu a intende prospere proce d
+                      0 -----.||||
+    query             0 tua Specie tua et pulcritudine tu-a intende prospere proce-d
+    
+    target           52 e 53
+                     10 | 11
+    query            58 e 59
+
+-- fused_6 --
+  OCR:      'et reg na . Et deducet ilexisti iusticiam et'
+  Assigned: 'et regna Et deducet Dilexisti iusticiam et'
+  Words:    [32..39) consumed=7
+  NW score: k=7 (pre-snap), norm=7.0717
+  Anchor:   word 39 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 et reg na . Et deducet -ilexisti iusticiam et 44
+                      0 ||  2
+    query             0 et reg-na-- Et deducet Dilexisti iusticiam et 42
+
+-- fused_7 --
+  OCR:      'odisti muni tatem . Propte rea mixit tedeus deus tu'
+  Assigned: 'odisti iniquitatem Propterea unxit te deus de'
+  Words:    [39..46) consumed=7
+  NW score: k=8 (pre-snap), norm=5.3012
+  Anchor:   word 46 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 odisti muni-- tatem . Propte rea mixit te-deus deus tu 51
+                      0 ||||||  6
+    query             0 odisti -iniquitatem-- Propte-rea unxit te deus deus--- 47
+
+-- fused_8 --
+  OCR:      'ciropter veritatem et man'
+  Assigned: 'us tuus oleo leticie Propter veritatem et man'
+  Words:    [46..53) consumed=7
+  NW score: k=6 (pre-snap), norm=3.0173
+  Anchor:   word 53 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 --------------ci---ropter veritatem et man---------- 25
+                      0 --------------||---|||||| 25
+    query             0 tuus oleo leticie Propter veritatem et mansuetudinem 52
+
+-- fused_9 --
+  OCR:      'suetudineri etusti Proptereaen'
+  Assigned: 'suetudinem et iusticiam Propterea offerren'
+  Words:    [53..57) consumed=4
+  NW score: k=3 (pre-snap), norm=2.4523
+  Anchor:   word 57 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 suetudineri etusti---- Propterea-------en--- 30
+                      0 --||------- 11
+    query             0 --et------- -iusticiam Propterea Offerrentur 34
+
+-- fused_10 --
+  OCR:      't ar de cm g nes post am proxime'
+  Assigned: 'tur regi virgines post eam proxime'
+  Words:    [57..62) consumed=5
+  NW score: k=5 (pre-snap), norm=4.0021
+  Anchor:   word 62 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 t ar de-- cm g nes post -am proxime 32
+                      0 ---|--|--  9
+    query             0 ---r--egi virgines post eam proxime 30
+
+-- fused_11 --
+  OCR:      'eius Offe rentur tibi in leticiet emstatione'
+  Assigned: 'eius Offerrentur tibi in leticia et'
+  Words:    [62..68) consumed=6
+  NW score: k=7 (pre-snap), norm=6.5090
+  Anchor:   word 68 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 eius Offe rentur tibi in leticiet emstatione 44
+                      0 ||||  4
+    query             0 eius Offerrentur tibi in letici-a e----t---- 35
+
+-- fused_12 --
+  OCR:      'reci tua et pulcritudine tua intende prospere proce'
+  Assigned: 'exultatione Specie tua et pulcritudine tua intende prospere proce'
+  Words:    [68..77) consumed=9
+  NW score: k=9 (pre-snap), norm=5.7309
+  Anchor:   word 77 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -------------reci- tua et pulcritudine tua intende prospere 
+                      0 -------------.|||-
+    query             0 exultatione Specie tua et pulcritudine tua intende prospere 
+    
+    target           46 proc--e 51
+                     18 ||||--| 25
+    query            60 procede 67
+
+-- fused_13 --
+  OCR:      'n Oserentur ti su sesomobis'
+  Assigned: 'de et regna Offerentur Nigra sum sed formosa'
+  Words:    [77..84) consumed=7
+  NW score: k=7 (pre-snap), norm=2.1340
+  Anchor:   word 84 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ------n- O-serentur ti--- su- se--so-mobis- 27
+                      0 ------|-  8
+    query             0 et regna Offerentur Nigra sum sed formo--sa 41
+=== END DEBUG ===
+

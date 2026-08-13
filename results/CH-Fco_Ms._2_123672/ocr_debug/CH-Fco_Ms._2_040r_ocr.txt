@@ -1,0 +1,167 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'est filius meus dilectus Inquo mi chi com'
+  [fused_1] 'placuit escendit spiritus Sanctus corpora'
+  [fused_2] 'i specie sicut columba in ipsum et vorde ce lo facta ees'
+  [fused_3] 'ncomnte Hecie spmttus sane tuoss'
+  [fused_4] 'et pater navor aroita est . Hic est filius meus di'
+  [fused_5] 'nt mo bene complacu'
+  [fused_6] 'apttisint sipes es nemm et norpatsmo mit . Hic'
+  [fused_7] 'tharsis et in sule muveraofferent.'
+  [fused_8] 'duno dii bui prelani tosi u comno de ad'
+  [fused_9] 'nes de sabba veni ent aurum e'
+  [fused_10] 'cae reges araterraadoret te'
+  [fused_11] 'et psavat tibi psalinum dicar nomini tuo domine qot jubi'
+  [fused_12] 'ate aeges chatsis et insile mmmer o'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'est filius meus dilectus Inquo mi chi com'
+  Assigned: 'est filius meus dilectus in quo michi'
+  Words:    [0..7) consumed=7
+  NW score: k=7 (pre-snap), norm=6.2903
+  Anchor:   word 12 (within_chant_7), diff=5, snapped=False, forced=False
+  Alignment:
+    target            0 est filius meus dilectus In-quo mi chi com 41
+                      0 |||  3
+    query             0 est filius meus dilectus in quo mi-chi---- 37
+
+-- fused_1 --
+  OCR:      'placuit escendit spiritus Sanctus corpora'
+  Assigned: 'complacuit Descendit spiritus sanctus corpora'
+  Words:    [7..12) consumed=5
+  NW score: k=5 (pre-snap), norm=6.4924
+  Anchor:   word 12 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ---placuit -escendit spiritus Sanctus corpora-- 41
+                      0 ---||||||| 10
+    query             0 complacuit Descendit spiritus sanctus corporali 47
+
+-- fused_2 --
+  OCR:      'i specie sicut columba in ipsum et vorde ce lo facta ees'
+  Assigned: 'li specie sicut columba in ipsum et vox de celo facta est'
+  Words:    [12..23) consumed=11
+  NW score: k=11 (pre-snap), norm=6.6375
+  Anchor:   word 31 (within_chant_7), diff=8, snapped=False, forced=False
+  Alignment:
+    target            0 i specie sicut columba in ipsum et vo-rde ce lo facta ees- 56
+                      0 --||||||  8
+    query             0 --specie sicut columba in ipsum et vox de ce-lo facta -est 54
+
+-- fused_3 --
+  OCR:      'ncomnte Hecie spmttus sane tuoss'
+  Assigned: 'Hic est In columbe specie spiritus sanctus visus'
+  Words:    [23..31) consumed=8
+  NW score: k=7 (pre-snap), norm=1.9912
+  Anchor:   word 31 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 ---------n-co--mnte -Hecie sp-mttus sane tu---os-s 32
+                      0 ---------|-||--|-.| 19
+    query             0 Hic est In colum-be specie spiritus san-ctus visus 48
+
+-- fused_4 --
+  OCR:      'et pater navor aroita est . Hic est filius meus di'
+  Assigned: 'est paterna vox audita est Hic est filius meus di'
+  Words:    [31..41) consumed=10
+  NW score: k=9 (pre-snap), norm=5.6090
+  Anchor:   word 41 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 e-t pater na-vor aroita est . Hic est filius meus di------ 50
+                      0 |-|  3
+    query             0 est pater-na vox audita est-- Hic est filius meus dilectus 55
+
+-- fused_5 --
+  OCR:      'nt mo bene complacu'
+  Assigned: 'lectus in quo michi bene complacui Celi'
+  Words:    [41..47) consumed=6
+  NW score: k=5 (pre-snap), norm=3.7970
+  Anchor:   word 47 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 -n---t m---o bene complacu------ 19
+                      0 -|---.  6
+    query             0 in quo michi bene complacui Celi 32
+
+-- fused_6 --
+  OCR:      'apttisint sipes es nemm et norpatsmo mit . Hic'
+  Assigned: 'aperti sunt super eum et vox patris intonit'
+  Words:    [47..55) consumed=8
+  NW score: k=9 (pre-snap), norm=2.5378
+  Anchor:   word 55 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 ap-tti-sint sipes es nemm et no-rpat--smo mi-t . Hic 46
+                      0 ||-.||-|.|| 11
+    query             0 aperti sunt super ----eum et vox patris-- -int--onit 43
+
+-- fused_7 --
+  OCR:      'tharsis et in sule muveraofferent.'
+  Assigned: 'Hic est Reges tharsis et insule munera offerent'
+  Words:    [55..63) consumed=8
+  NW score: k=8 (pre-snap), norm=4.4028
+  Anchor:   word 63 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 --------------tharsis et in sule muvera-offerent. 34
+                      0 --------------||||||| 21
+    query             0 Hic est Reges tharsis et in-sule munera offerent- 47
+
+-- fused_8 --
+  OCR:      'duno dii bui prelani tosi u comno de ad'
+  Assigned: 'Reges arabum et sabba dona domino deo ad'
+  Words:    [63..71) consumed=8
+  NW score: k=8 (pre-snap), norm=-0.2361
+  Anchor:   word 71 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -duno dii bui pre--la-ni tosi u com-no de- ad------ 39
+                      0 -....  5
+    query             0 Reges -arabum --et sabba do--na domino deo adducent 46
+
+-- fused_9 --
+  OCR:      'nes de sabba veni ent aurum e'
+  Assigned: 'ducent Omnes de sabba venient aurum et thus'
+  Words:    [71..78) consumed=7
+  NW score: k=6 (pre-snap), norm=6.6704
+  Anchor:   word 78 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 --nes de sabba veni ent aurum e------ 29
+                      0 --|||  5
+    query             0 Omnes de sabba veni-ent aurum et thus 36
+
+-- fused_10 --
+  OCR:      'cae reges araterraadoret te'
+  Assigned: 'deferentes Reges arabum Omnis terra adoret te'
+  Words:    [78..85) consumed=7
+  NW score: k=7 (pre-snap), norm=3.0697
+  Anchor:   word 85 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ------cae- reges ara----------terra-adoret te 27
+                      0 ------..|- 10
+    query             0 deferentes Reges arabum Omnis terra adoret te 45
+
+-- fused_11 --
+  OCR:      'et psavat tibi psalinum dicar nomini tuo domine qot jubi'
+  Assigned: 'et psallat tibi psalmum dicam nomini tuo domine iubi'
+  Words:    [85..94) consumed=9
+  NW score: k=8 (pre-snap), norm=5.5357
+  Anchor:   word 94 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 et psa-vat tibi psalinum dicar nomini tuo domine qot jubi---
+                      0 ||
+    query             0 et psallat tibi psal-mum dicam nomini tuo domine ---~Iubilat
+    
+    target           56 - 56
+                      2 -  3
+    query            56 e 57
+
+-- fused_12 --
+  OCR:      'ate aeges chatsis et insile mmmer o'
+  Assigned: 'late euouae Reges tharsis et insule munera offerrent'
+  Words:    [94..101) consumed=7
+  NW score: k=6 (pre-snap), norm=3.9738
+  Anchor:   word 101 (page_break_77), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 ----ate aeges chatsis et insile mmmer- o-------- 35
+                      0 ----|-|  7
+    query             0 euoua-e Reges tharsis et insule munera offerrent 47
+=== END DEBUG ===
+

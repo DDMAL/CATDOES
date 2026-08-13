@@ -1,0 +1,171 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'quod eum luperare non possent di n.'
+  [fused_1] 'Dimitte Vi di dominimuFa faci em . et'
+  [fused_2] 'salva facta est nima meatdit'
+  [fused_3] 'aob ed Israhel erit nome'
+  [fused_4] 'tu um. et sal p.um audisset ja cob quod Esau'
+  [fused_5] 'ne nretum divisit filios su'
+  [fused_6] 'res dicens si pertusse nt clai unam turnam salvabitur'
+  [fused_7] 'altera libera medo qui Chimul'
+  [fused_8] 'tiplicabo semen tuum sicut stei las celi et sicut are na'
+  [fused_9] 'maris que patre multitudine nnera'
+  [fused_10] 'ri non potest Xomine   michi reverte'
+  [fused_11] 're in tertam natuvitatis tue domme qui pascis me'
+  [fused_12] 'annen ntine labelitet'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'quod eum luperare non possent di n.'
+  Assigned: 'quod eum superare non posset dixit'
+  Words:    [0..6) consumed=6
+  NW score: k=6 (pre-snap), norm=6.1746
+  Anchor:   word 15 (within_chant_7), diff=9, snapped=False, forced=False
+  Alignment:
+    target            0 quod eum luperare non possent di n. 35
+                      0 ||||  4
+    query             0 quod eum superare non posse-t dixit 34
+
+-- fused_1 --
+  OCR:      'Dimitte Vi di dominimuFa faci em . et'
+  Assigned: 'ad eum Dimitte Vidi dominum facie ad faciem Et'
+  Words:    [6..15) consumed=9
+  NW score: k=7 (pre-snap), norm=3.5072
+  Anchor:   word 15 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 -------Dimitte Vi di dominimuFa------ faci em . et 37
+                      0 -------||||||| 14
+    query             0 ad eum Dimitte Vi-di dominum facie ad faci-em-- Et 46
+
+-- fused_2 --
+  OCR:      'salva facta est nima meatdit'
+  Assigned: 'salva facta est anima mea Et dixit'
+  Words:    [15..22) consumed=7
+  NW score: k=5 (pre-snap), norm=6.3876
+  Anchor:   word 22 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 salva facta est -nima mea--t-d--it 28
+                      0 |||||  5
+    query             0 salva facta est anima mea Et dixit 34
+
+-- fused_3 --
+  OCR:      'aob ed Israhel erit nome'
+  Assigned: 'michi nequaquam vocaberis iacob sed israel erit nomen'
+  Words:    [22..30) consumed=8
+  NW score: k=8 (pre-snap), norm=1.6262
+  Anchor:   word 30 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ---------------------------a-ob -ed Israhel erit nome- 24
+                      0 ---------------------------|-|| 31
+    query             0 michi nequaquam vocaberis iacob sed isra-el erit nomen 53
+
+-- fused_4 --
+  OCR:      'tu um. et sal p.um audisset ja cob quod Esau'
+  Assigned: 'tuum Et salva Cum audisset iacob quod esau'
+  Words:    [30..38) consumed=8
+  NW score: k=8 (pre-snap), norm=5.3503
+  Anchor:   word 38 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 tu um. et sal-- p.um audisset ja cob quod Esau 44
+                      0 ||-||-  6
+    query             0 tu-um- Et salva -Cum audisset ia-cob quod esau 42
+
+-- fused_5 --
+  OCR:      'ne nretum divisit filios su'
+  Assigned: 'veniret contra eum divisit filios suos et uxo'
+  Words:    [38..46) consumed=8
+  NW score: k=6 (pre-snap), norm=4.3707
+  Anchor:   word 46 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 ne n-ret---------um divisit filios su------------ 27
+                      0 .|-|-|||---------|| 19
+    query             0 ve-niret contra eum divisit filios suos et uxores 48
+
+-- fused_6 --
+  OCR:      'res dicens si pertusse nt clai unam turnam salvabitur'
+  Assigned: 'res dicens si percusserit esau unam turmam salvabitur'
+  Words:    [46..53) consumed=7
+  NW score: k=7 (pre-snap), norm=5.5925
+  Anchor:   word 53 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 res dicens si pertusse nt clai unam turnam salvabitur 53
+                      0 ----|||||| 10
+    query             0 ----dicens si percusserit esau unam turmam salvabitur 49
+
+-- fused_7 --
+  OCR:      'altera libera medo qui Chimul'
+  Assigned: 'altera Libera me domine qui dixisti michi multiplicabo semen'
+  Words:    [53..62) consumed=9
+  NW score: k=5 (pre-snap), norm=4.1098
+  Anchor:   word 62 (within_chant_7), diff=4, snapped=False, forced=True
+  Alignment:
+    target            0 altera libera me-do---- qui ----------Chi-mul---------------
+                      0 ||||||
+    query             0 altera Libera me domine qui dixisti michi multiplicabo semen
+    
+    target           29 
+                      6 
+    query            60 
+
+-- fused_8 --
+  OCR:      'tiplicabo semen tuum sicut stei las celi et sicut are na'
+  Assigned: 'tuum sicut stellas celi et sicut arenam maris'
+  Words:    [62..70) consumed=8
+  NW score: k=7 (pre-snap), norm=4.6648
+  Anchor:   word 70 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 tiplicabo semen tuum sicut stei las celi et sicut are--- na-
+                      0 ----------------||||
+    query             0 ----------------tuum sicut ste-llas celi et sicut arenam mar
+    
+    target           56 -- 56
+                     20 -- 22
+    query            43 is 45
+
+-- fused_9 --
+  OCR:      'maris que patre multitudine nnera'
+  Assigned: 'que pre multitudine numerari non potest'
+  Words:    [70..76) consumed=6
+  NW score: k=4 (pre-snap), norm=4.5399
+  Anchor:   word 76 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 maris que patre multitudine n-nera------------- 33
+                      0 ------|||  9
+    query             0 ------que p--re multitudine numerari non potest 39
+
+-- fused_10 --
+  OCR:      'ri non potest Xomine   michi reverte'
+  Assigned: 'Domine qui dixisti michi reverte'
+  Words:    [76..81) consumed=5
+  NW score: k=5 (pre-snap), norm=1.9722
+  Anchor:   word 81 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ri non potest Xomine --- ------- michi revert--e 36
+                      0 --------------.||||| 20
+    query             0 --------------Domine qui dixisti michi revertere 34
+
+-- fused_11 --
+  OCR:      're in tertam natuvitatis tue domme qui pascis me'
+  Assigned: 're in terram nativitatis tue domine qui pascis me'
+  Words:    [81..89) consumed=8
+  NW score: k=8 (pre-snap), norm=6.1898
+  Anchor:   word 89 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 re in tertam natuvitatis tue dom-me qui pascis me- 48
+                      0 ---||  5
+    query             0 ---in terram nativitatis tue domine qui pascis mea 47
+
+-- fused_12 --
+  OCR:      'annen ntine labelitet'
+  Assigned: 'a inventu te mea Libera Dum iret iacob'
+  Words:    [89..96) consumed=7
+  NW score: k=6 (pre-snap), norm=0.3984
+  Anchor:   word 96 (page_break_77), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 annen-- ntine -la---be------litet------ 21
+                      0 .|.||--  7
+    query             0 inventu -t--e mea Libera Dum iret iacob 36
+=== END DEBUG ===
+

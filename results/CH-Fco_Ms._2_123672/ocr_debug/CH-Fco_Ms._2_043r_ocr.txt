@@ -1,0 +1,191 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'stus baptizatusest  est tibs mare'
+  [fused_1] 'sti et tum jordanis ania conversus Hoc ultimum responsum in dicitur es reteor'
+  [fused_2] 'nisim octabis epiphane et ibi fit ot'
+  [fused_3] 'sum. Quia tavus . ad laudes ant'
+  [fused_4] 'ande manlerum gemertus est ante secula dominis saluva'
+  [fused_5] 'tor noster hodie mundo aar dominus Reg '
+  [fused_6] 'turam Jhe  lem et esonado'
+  [fused_7] 'mini superteor ambulabunt gentes'
+  [fused_8] 't nme neo a ie su erorae. pertis'
+  [fused_9] ' domo aurum this et inyrram'
+  [fused_10] 'alleMyadoo umbene'
+  [fused_11] 'dicite domino Hymium dicite fontes Domino Alieluyan'
+  [fused_12] 'eonatela ista sint aamma chomiscat et nno'
+  [fused_13] 'rogum deun demonsrat ma'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'stus baptizatusest  est tibs mare'
+  Assigned: 'baptizatus est Quid est tibi mare'
+  Words:    [0..6) consumed=6
+  NW score: k=6 (pre-snap), norm=5.1212
+  Anchor:   word 6 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 stus baptizatus-est ---- est tibs mare 33
+                      0 -----||||||||||-||| 19
+    query             0 -----baptizatus est Quid est tibi mare 33
+
+-- fused_1 --
+  OCR:      'sti et tum jordanis ania conversus Hoc ultimum responsum in dicitur es reteor'
+  Assigned: 'quod fugisti et tu iordanis quia conversus es retrorsum'
+  Words:    [6..15) consumed=9
+  NW score: k=14 (pre-snap), norm=2.3717
+  Anchor:   word 15 (within_chant_7), diff=5, snapped=False, forced=True
+  Alignment:
+    target            0 ---------sti et tum jordanis ania conversus Hoc ultimum resp
+                      0 ---------|||
+    query             0 quod fugisti et tu- iordanis quia conversus-----------------
+    
+    target           51 onsum in dicitur es reteor--- 77
+                     12 ---------------- 28
+    query            42 ---------------- es retrorsum 55
+
+-- fused_2 --
+  OCR:      'nisim octabis epiphane et ibi fit ot'
+  Assigned: 'Quia Ante luciferum genitus et'
+  Words:    [15..20) consumed=5
+  NW score: k=5 (pre-snap), norm=-1.5519
+  Anchor:   word 17 (within_chant_7), diff=3, snapped=False, forced=False
+  Alignment:
+    target            0 nisim octabis -epiphane--- -et ibi fit-- ot 36
+                      0 -..|.  5
+    query             0 -Quia Ant---e luci---ferum ge------nitus et 30
+
+-- fused_3 --
+  OCR:      'sum. Quia tavus . ad laudes ant'
+  Assigned: 'ante secula dominus salva'
+  Words:    [20..24) consumed=4
+  NW score: k=5 (pre-snap), norm=-1.1840
+  Anchor:   word 24 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 sum. --Quia --tavus . ad laudes ant-- 31
+                      0 ....  4
+    query             0 ante secula dominus -sa--l-----va-tor 28
+
+-- fused_4 --
+  OCR:      'ande manlerum gemertus est ante secula dominis saluva'
+  Assigned: 'tor noster hodie mundo apparuit ~Dominus regnavit'
+  Words:    [24..30) consumed=6
+  NW score: k=15 (pre-snap), norm=-0.6091
+  Anchor:   word 30 (within_chant_7), diff=9, snapped=False, forced=True
+  Alignment:
+    target            0 an--------d-e manlerum gemertus est ante secula dominis ---s
+                      0 -|--------|-|
+    query             0 -noster hodie mun---do appar-u---it -----------~Dominus regn
+    
+    target           48 aluv-a 53
+                     13 |--|-. 19
+    query            41 a--vit 45
+
+-- fused_5 --
+  OCR:      'tor noster hodie mundo aar dominus Reg'
+  Assigned: 'euouae Venit lumen tuum iherusalem et gloria do'
+  Words:    [30..38) consumed=8
+  NW score: k=9 (pre-snap), norm=-0.9884
+  Anchor:   word 38 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 -to--r --nost----er ------h---odie- -mundo aar dominus Reg 38
+                      0 -.|--.  6
+    query             0 euouae Ven-it lumen tuum iherusalem et gloria- domin-----i 51
+
+-- fused_6 --
+  OCR:      'turam Jhe  lem et esonado'
+  Assigned: 'mini super te orta est et ambulabunt gentes in lu'
+  Words:    [38..47) consumed=9
+  NW score: k=5 (pre-snap), norm=-0.3578
+  Anchor:   word 47 (within_chant_7), diff=4, snapped=False, forced=True
+  Alignment:
+    target            0 tu--ram Jhe ---- le-m et ---------------es-on----ado 25
+                      0 .|--|--  7
+    query             0 super-- -te orta -est et ambulabunt gentes in lumine 48
+
+-- fused_7 --
+  OCR:      'mini superteor ambulabunt gentes'
+  Assigned: 'mine tuo alleluya ~iubilate euouae Apertis thesau'
+  Words:    [47..53) consumed=6
+  NW score: k=5 (pre-snap), norm=-1.4531
+  Anchor:   word 53 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 mini superteor a----------mbula-----bunt -gent-----e-----s 32
+                      0 ----------|.|- 14
+    query             0 ----------tuo- alleluya ~iubilate euouae Apertis thesauris 47
+
+-- fused_8 --
+  OCR:      't nme neo a ie su erorae. pertis'
+  Assigned: 'ris suis obtulerunt magi domino aurum thus et myrram'
+  Words:    [53..61) consumed=8
+  NW score: k=10 (pre-snap), norm=-1.4254
+  Anchor:   word 61 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 --------------t nm--e ----neo a---- ie su e----rorae. pertis
+                      0 --------------|
+    query             0 suis obtulerunt -magi domin-o aurum thus- et myr-ra--------m
+    
+    target           32 
+                     15 
+    query            48 
+
+-- fused_9 --
+  OCR:      'domo aurum this et inyrram'
+  Assigned: 'alleluya ~Deus deus euouae Maria et flumina bene'
+  Words:    [61..69) consumed=8
+  NW score: k=7 (pre-snap), norm=-1.1963
+  Anchor:   word 69 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 ---------------domo auru-m -this et ----inyrra----------m 26
+                      0 ---------------|... 19
+    query             0 alleluya ~Deus deus euouae Maria et flumin---a benedicite 54
+
+-- fused_10 --
+  OCR:      'alleMyadoo umbene'
+  Assigned: 'dicite domino hymnum dicite fontes domino alleluya bene'
+  Words:    [69..76) consumed=7
+  NW score: k=3 (pre-snap), norm=-1.4100
+  Anchor:   word 76 (within_chant_7), diff=4, snapped=False, forced=True
+  Alignment:
+    target            0 -----------------------------------alle-Myadoo umbene------
+                      0 -----------------------------------||||-.||---
+    query             0 domino hymnum dicite fontes domino alleluya--- -~Benedictus
+    
+    target           17
+                     46
+    query            55
+
+-- fused_11 --
+  OCR:      'dicite domino Hymium dicite fontes Domino Alieluyan'
+  Assigned: 'dictus dominus euouae Stella ista sicut'
+  Words:    [76..81) consumed=5
+  NW score: k=5 (pre-snap), norm=-1.1882
+  Anchor:   word 85 (within_chant_7), diff=4, snapped=False, forced=False
+  Alignment:
+    target            0 dicite domino Hymium dicite fonte--s Domi-no Alieluyan 51
+                      0 -------|||||------|. 20
+    query             0 -------domin------us euouae --Stella ---ista -si-cu--t 32
+
+-- fused_12 --
+  OCR:      'eonatela ista sint aamma chomiscat et nno'
+  Assigned: 'flamma choruscat et regem'
+  Words:    [81..85) consumed=4
+  NW score: k=3 (pre-snap), norm=1.2540
+  Anchor:   word 85 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 eonatela ista sint aamma chomiscat et --nno 41
+                      0 -----.|-------------|||| 24
+    query             0 -----fl-------------amma choruscat et regem 25
+
+-- fused_13 --
+  OCR:      'rogum deun demonsrat ma'
+  Assigned: 'regum deum demonstrat magi'
+  Words:    [85..89) consumed=4
+  NW score: k=4 (pre-snap), norm=5.7659
+  Anchor:   word 93 (page_break_77), diff=4, snapped=False, forced=False
+  Alignment:
+    target            0 rogum deun demons-rat ma-- 23
+                      0 |.|||  5
+    query             0 regum deum demonstrat magi 26
+=== END DEBUG ===
+

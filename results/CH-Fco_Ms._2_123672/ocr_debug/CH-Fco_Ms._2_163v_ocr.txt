@@ -1,0 +1,191 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'ducias Martyri me ut me dili'
+  [fused_1] 'gerent detrahebant michi ego au bani . Et impe.'
+  [fused_2] 'rata facta est a domino in cer tamne oma'
+  [fused_3] 'um et apud Homi nes glorificata prnoris'
+  [fused_4] 'loqueba tur sapi am Et dominus omni'
+  [fused_5] 't mdiabit eamdeus nultu su'
+  [fused_6] 'temes in medio eiuo non commone bi tur . Et dominus.'
+  [fused_7] 'omnia aiosra'
+  [fused_8] 'apparuit ei beata aga'
+  [fused_9] 'tha et consolabatur ancillam Christi dCoorie '
+  [fused_10] 'ci v go qda mepsas poteris prestare continu'
+  [fused_11] 'maublae oer te Luciam virgo cinitas'
+  [fused_12] 'siracusana tecorabitur a domino Jhesu Ctpristo evovae e'
+  [fused_13] 'judicto tepater domini mei mesi epiisti uie per filum cuum'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'ducias Martyri me ut me dili'
+  Assigned: 'inducias martyrii mei Pro eo ut me dili'
+  Words:    [0..8) consumed=8
+  NW score: k=8 (pre-snap), norm=4.0567
+  Anchor:   word 8 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 --ducias Martyr-i me-------- ut me dili------ 28
+                      0 --||||||  8
+    query             0 inducias martyrii mei Pro eo ut me diligerent 45
+
+-- fused_1 --
+  OCR:      'gerent detrahebant michi ego au bani . Et impe.'
+  Assigned: 'gerent detrahebant michi ego autem orabam Et'
+  Words:    [8..14) consumed=6
+  NW score: k=7 (pre-snap), norm=4.0426
+  Anchor:   word 14 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 gerent detrahebant michi ego au--- ---bani . Et impe. 47
+                      0 -------||||||||||| 18
+    query             0 -------detrahebant michi ego autem oraba---m Et------ 37
+
+-- fused_2 --
+  OCR:      'rata facta est a domino in cer tamne oma'
+  Assigned: 'impetravi Grata facta est a domino in certamine quia apud de'
+  Words:    [14..25) consumed=11
+  NW score: k=9 (pre-snap), norm=4.9992
+  Anchor:   word 25 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 -----------rata facta est a domino in cer tam-ne ---oma-----
+                      0 -----------||||
+    query             0 impetravi Grata facta est a domino in cer-tamine quia apud d
+    
+    target           40 --- 40
+                     15 --- 18
+    query            59 eum 62
+
+-- fused_3 --
+  OCR:      'um et apud Homi nes glorificata prnoris'
+  Assigned: 'um et apud homines glorificata est in conspectu principis'
+  Words:    [25..33) consumed=8
+  NW score: k=5 (pre-snap), norm=4.8317
+  Anchor:   word 33 (within_chant_7), diff=3, snapped=False, forced=True
+  Alignment:
+    target            0 um et apud Homi nes glorificata----------------- pr-n-oris 39
+                      0 ---||  5
+    query             0 ---et apud homi-nes glorificata est in conspectu principis 54
+
+-- fused_4 --
+  OCR:      'loqueba tur sapi am Et dominus omni'
+  Assigned: 'loquebatur sapienciam Et dominus omni'
+  Words:    [33..38) consumed=5
+  NW score: k=5 (pre-snap), norm=6.1983
+  Anchor:   word 38 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 loqueba tur sapi--- am Et dominus omni-- 35
+                      0 |||||||-||| 11
+    query             0 loqueba-tur sapienciam Et dominus omnium 39
+
+-- fused_5 --
+  OCR:      't mdiabit eamdeus nultu su'
+  Assigned: 'um dilexit eam Adiuvabit eam deus vultu suo'
+  Words:    [38..45) consumed=7
+  NW score: k=7 (pre-snap), norm=4.0001
+  Anchor:   word 45 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ------t --m--di--abit eam-deus nultu su- 26
+                      0 ------|  7
+    query             0 dilexit eam Adiuvabit eam deus vultu suo 40
+
+-- fused_6 --
+  OCR:      'temes in medio eiuo non commone bi tur . Et dominus.'
+  Assigned: 'deus in medio eius non commovebitur Et'
+  Words:    [45..52) consumed=7
+  NW score: k=8 (pre-snap), norm=5.6841
+  Anchor:   word 52 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 temes in medio eiuo non commone bi tur . Et dominus. 52
+                      0 .|-.|  5
+    query             0 de-us in medio eius non commove-bi-tur-- Et--------- 38
+
+-- fused_7 --
+  OCR:      'omnia aiosra'
+  Assigned: 'dominus Orante'
+  Words:    [52..54) consumed=2
+  NW score: k=2 (pre-snap), norm=-0.5401
+  Anchor:   word 60 (within_chant_7), diff=6, snapped=False, forced=False
+  Alignment:
+    target            0 -om-nia aiosra--- 12
+                      0 -||-|..  7
+    query             0 dominus ---Orante 14
+
+-- fused_8 --
+  OCR:      'apparuit ei beata aga'
+  Assigned: 'sancta lucia apparuit ei beata aga'
+  Words:    [54..60) consumed=6
+  NW score: k=6 (pre-snap), norm=4.0180
+  Anchor:   word 60 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -------------apparuit ei beata ag---a 21
+                      0 -------------|||||||| 21
+    query             0 sancta lucia apparuit ei beata agatha 37
+
+-- fused_9 --
+  OCR:      'tha et consolabatur ancillam Christi dCoorie'
+  Assigned: 'tha et consolabatur ancillam xpisti'
+  Words:    [60..64) consumed=4
+  NW score: k=4 (pre-snap), norm=4.6301
+  Anchor:   word 68 (within_chant_7), diff=4, snapped=False, forced=False
+  Alignment:
+    target            0 tha et consolabatur ancillam Christi dCoorie 44
+                      0 ----||  6
+    query             0 ----et consolabatur ancillam -xpisti-------- 31
+
+-- fused_10 --
+  OCR:      'ci v go qda mepsas poteris prestare continu'
+  Assigned: '~Dominus regnavit euouae Lucia virgo quid a me petis quod ipsa poteris prestare continu'
+  Words:    [64..78) consumed=14
+  NW score: k=14 (pre-snap), norm=2.4385
+  Anchor:   word 68 (within_chant_7), diff=10, snapped=False, forced=False
+  Alignment:
+    target            0 ---------------------------ci- v- go q--d-a me-------------p
+                      0 ---------------------------||-
+    query             0 ~Dominus regnavit euouae Lucia virgo quid a me petis quod ip
+    
+    target           15 sas poteris prestare continu- 43
+                     30 ||- 33
+    query            60 sa- poteris prestare continuo 88
+
+-- fused_11 --
+  OCR:      'maublae oer te Luciam virgo cinitas'
+  Assigned: 'o matri tue ~Iubilate euouae Per te Lucia virgo civitas'
+  Words:    [78..87) consumed=9
+  NW score: k=9 (pre-snap), norm=4.0632
+  Anchor:   word 87 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ma----------ub-la-e --o-----er te Luciam virgo cinitas 35
+                      0 ||----------||-||-| 19
+    query             0 matri tue ~Iubilate euouae Per te Lucia- virgo civitas 53
+
+-- fused_12 --
+  OCR:      'siracusana tecorabitur a domino Jhesu Ctpristo evovae e'
+  Assigned: 'siracusana decorabitur a domino ihesu xpristo euouae be'
+  Words:    [87..95) consumed=8
+  NW score: k=7 (pre-snap), norm=6.2454
+  Anchor:   word 95 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 siracusana tecorabitur a domino Jhesu Ctpristo evovae ---e--
+                      0 ||||||||||
+    query             0 siracusana decorabitur a domino ihesu -xpristo euouae Benedi
+    
+    target           55 -- 55
+                     10 -- 12
+    query            59 co 61
+
+-- fused_13 --
+  OCR:      'judicto tepater domini mei mesi epiisti uie per filum cuum'
+  Assigned: 'nedico te pater domini mei ihesu xpisti quia per filium tuum'
+  Words:    [95..105) consumed=10
+  NW score: k=10 (pre-snap), norm=4.7796
+  Anchor:   word 105 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 judicto tepater domini mei -mesi epiisti -uie per fil-um cuu
+                      0 -----|.
+    query             0 -----te --pater domini mei ihesu xp-isti quia per filium tuu
+    
+    target           57 m 58
+                      7 |  8
+    query            52 m 53
+=== END DEBUG ===
+

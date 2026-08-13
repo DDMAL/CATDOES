@@ -1,0 +1,191 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'ra ce celi de super et nubes pluant iustum ape riatur ter'
+  [fused_1] 'ra et germinet salvatoem. Lte Agnum domi'
+  [fused_2] 'ne dominatorem terre de Petra deserti ad Montem fi '
+  [fused_3] 'on apeaur '
+  [fused_4] 'Oodo ris cedeus noster cum virtute'
+  [fused_5] 'eeme et et pesendor ejus ali X Syoni spe'
+  [fused_6] 'cmatoroe mo deno noster manteeint ecc'
+  [fused_7] 'onstantes estote videbitis auxilium domini'
+  [fused_8] 'supnos dn ote domine levaui anin'
+  [fused_9] 'meam veni et empeme domine ad confugi poo dise exaudi II'
+  [fused_10] 'vovae  e et noli tardare rel quara facinora plebistu'
+  [fused_11] 'cisrahels deus eo eus a libano venients et spilen'
+  [fused_12] 'dorems sicit sumen ent qpat ominus ancoini enoraeam o an'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'ra ce celi de super et nubes pluant iustum ape riatur ter'
+  Assigned: 'celi desuper et nubes pluant iustum Aperiatur terra'
+  Words:    [0..8) consumed=8
+  NW score: k=8 (pre-snap), norm=6.1762
+  Anchor:   word 14 (within_chant_7), diff=6, snapped=False, forced=False
+  Alignment:
+    target            0 ra ce celi de super et nubes pluant iustum ape riatur ter--
+                      0 ------||||
+    query             0 ------celi de-super et nubes pluant iustum Ape-riatur terra
+    
+    target           57
+                     10
+    query            51
+
+-- fused_1 --
+  OCR:      'ra et germinet salvatoem. Lte Agnum domi'
+  Assigned: 'et germinet salvatorem Emitte agnum domi'
+  Words:    [8..14) consumed=6
+  NW score: k=6 (pre-snap), norm=5.1723
+  Anchor:   word 14 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ra et germinet salvato-em. ---Lte Agnum domi-- 40
+                      0 ---||  5
+    query             0 ---et germinet salvatorem- Emitte agnum domine 42
+
+-- fused_2 --
+  OCR:      'ne dominatorem terre de Petra deserti ad Montem fi'
+  Assigned: 'ne dominatorem terre de petra deserti ad montem filie sy'
+  Words:    [14..23) consumed=9
+  NW score: k=8 (pre-snap), norm=6.4800
+  Anchor:   word 23 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 ne dominatorem terre de Petra deserti ad Montem fi-------- 50
+                      0 ---||||||||||| 14
+    query             0 ---dominatorem terre de petra deserti ad montem filie syon 55
+
+-- fused_3 --
+  OCR:      'on apeaur'
+  Assigned: 'on Aperiatur'
+  Words:    [23..24) consumed=1
+  NW score: k=1 (pre-snap), norm=0.5556
+  Anchor:   word 28 (within_chant_7), diff=4, snapped=False, forced=False
+  Alignment:
+    target            0 on ape--a-ur  9
+                      0 ---.||--|-|| 12
+    query             0 ---Aperiatur  9
+
+-- fused_4 --
+  OCR:      'Oodo ris cedeus noster cum virtute'
+  Assigned: 'Germinaverunt campi heremi gemen'
+  Words:    [24..28) consumed=4
+  NW score: k=12 (pre-snap), norm=1.6769
+  Anchor:   word 28 (within_chant_7), diff=8, snapped=False, forced=True
+  Alignment:
+    target            0 Oodo r-is cedeus noster cum-- ----virtute- 34
+                      0 ---..|-|...|-.|--|--|-- 23
+    query             0 ---Germinave-ru--n--t-- campi heremi gemen 32
+
+-- fused_5 --
+  OCR:      'eeme et et pesendor ejus ali X Syoni spe'
+  Assigned: 'odoris israhel quia ecce deus noster cum virtute'
+  Words:    [28..36) consumed=8
+  NW score: k=17 (pre-snap), norm=-0.2758
+  Anchor:   word 36 (within_chant_7), diff=9, snapped=False, forced=True
+  Alignment:
+    target            0 ------------e---eme et et pe-sendo---r ejus ali X Syoni spe
+                      0 ------------|---...
+    query             0 odoris israhel quia ecce- deus n-oster -cum -vi-------rtute
+    
+    target           40
+                     19
+    query            48
+
+-- fused_6 --
+  OCR:      'cmatoroe mo deno noster manteeint ecc'
+  Assigned: 'veniet Et splendor eius cum eo Ex syon species decoris eius deus noster manifeste veniet Et'
+  Words:    [36..52) consumed=16
+  NW score: k=16 (pre-snap), norm=-0.4825
+  Anchor:   word 45 (within_chant_7), diff=7, snapped=False, forced=False
+  Alignment:
+    target            0 -----cmat-------oroe--- --m---------o--------- deno---------
+                      0 -----...|-------||.|---
+    query             0 veniet Et splendor eius cum eo Ex syon species decoris eius 
+    
+    target           16 ---- noster man----te--e-int ecc 37
+                     23 ---- 27
+    query            60 deus noster manifeste veniet -Et 91
+
+-- fused_7 --
+  OCR:      'onstantes estote videbitis auxilium domini'
+  Assigned: 'splendor Constantes estote videbitis auxilium domini'
+  Words:    [52..58) consumed=6
+  NW score: k=6 (pre-snap), norm=6.4622
+  Anchor:   word 58 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ----------onstantes estote videbitis auxilium domini 42
+                      0 ----------||||||||| 19
+    query             0 splendor Constantes estote videbitis auxilium domini 52
+
+-- fused_8 --
+  OCR:      'supnos dn ote domine levaui anin'
+  Assigned: 'super vos ~Miserere euouae Ad te domine levavi animam'
+  Words:    [58..67) consumed=9
+  NW score: k=9 (pre-snap), norm=2.6225
+  Anchor:   word 67 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 sup---nos -------dn --o-------te domine levaui ani--n 32
+                      0 |||---.||  9
+    query             0 super vos ~Miserere euouae Ad te domine levavi animam 53
+
+-- fused_9 --
+  OCR:      'meam veni et empeme domine ad confugi poo dise exaudi II'
+  Assigned: 'meam veni et eripe me domine ad te confugi ~Domine'
+  Words:    [67..77) consumed=10
+  NW score: k=12 (pre-snap), norm=5.4343
+  Anchor:   word 77 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 meam veni et e-mpe-me domine ad--- confugi poo dise exaudi I
+                      0 ||||
+    query             0 meam veni et eripe me domine ad te confugi ~Do-mine---------
+    
+    target           55 I 56
+                      4 -  5
+    query            50 - 50
+
+-- fused_10 --
+  OCR:      'vovae  e et noli tardare rel quara facinora plebistu'
+  Assigned: 'exaudi ii euouae Veni domine et noli tardare relaxa facinora plebis tu'
+  Words:    [77..89) consumed=12
+  NW score: k=12 (pre-snap), norm=4.1803
+  Anchor:   word 89 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -----------vovae ---- -----e et noli tardare rel quara facin
+                      0 -----------.|.||
+    query             0 exaudi ii euouae Veni domine et noli tardare rel---axa facin
+    
+    target           40 ora plebis-tu- 52
+                     16 ||| 19
+    query            57 ora plebis tue 71
+
+-- fused_11 --
+  OCR:      'cisrahels deus eo eus a libano venients et spilen'
+  Assigned: 'e israhel ~Deus deus euouae Deus a libano veniet et splen'
+  Words:    [89..99) consumed=10
+  NW score: k=10 (pre-snap), norm=5.1210
+  Anchor:   word 99 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 cisrahel-----s deus e-o--- -eus a libano venients et spilen-
+                      0 -|||||||-----|
+    query             0 -israhel ~Deus deus euouae Deus a libano venie-t- et sp-lend
+    
+    target           49 -- 49
+                     14 -- 16
+    query            56 or 58
+
+-- fused_12 --
+  OCR:      'dorems sicit sumen ent qpat ominus ancoini enoraeam o an'
+  Assigned: 'dor eius sicut lumen erit ~Domine audivi euouae Ego autem'
+  Words:    [99..108) consumed=9
+  NW score: k=9 (pre-snap), norm=2.0558
+  Anchor:   word 108 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 dore-ms sicit sumen e-nt qpat ominus ancoini enoraeam --o a-
+                      0 ---|-.|
+    query             0 ---eius sicut lumen erit ---~Domin-e a-udivi euouae-- Ego au
+    
+    target           55 --n 56
+                      7 --. 10
+    query            50 tem 53
+=== END DEBUG ===
+

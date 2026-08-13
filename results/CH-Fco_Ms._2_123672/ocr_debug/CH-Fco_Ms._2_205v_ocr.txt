@@ -1,0 +1,181 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'pit Salvato rem mundi Deatis'
+  [fused_1] 'me virginisvirginis ariTitt cele'
+  [fused_2] ''
+  [fused_3] 'nenno . Cujus. detnabis ditectis acnntaso'
+  [fused_4] 'no Senegi momae et semie'
+  [fused_5] 'orta de Tribu iu da cea ta da'
+  [fused_6] 'vid . cuius vita glorio sa cunc ta. strat'
+  [fused_7] ' cen as odie nata est beata virgo ma'
+  [fused_8] 'na et proge me da vid . cujus. Cum jocundi'
+  [fused_9] 'tate  cl vemis.'
+  [fused_10] 'Ut ipsa intercedat pro nobis Aoto mnnum Jhesum'
+  [fused_11] 'Xpstistum Lorde et anino xpisto cananino'
+  [fused_12] 'giori am in hac latra sollempnitate precesse genitricis de'
+  [fused_13] 'mon . utipsarem pr launtas ta daige'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'pit Salvato rem mundi Deatis'
+  Assigned: 'concepit salvatorem mundi beatissi'
+  Words:    [0..4) consumed=4
+  NW score: k=4 (pre-snap), norm=4.6616
+  Anchor:   word 4 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -----pit Salvato rem mundi Deatis---- 28
+                      0 -----|||  8
+    query             0 concepit salvato-rem mundi Beatissime 36
+
+-- fused_1 --
+  OCR:      'me virginisvirginis ariTitt cele'
+  Assigned: 'me virginis {virginis} marie nati'
+  Words:    [4..8) consumed=4
+  NW score: k=3 (pre-snap), norm=3.6416
+  Anchor:   word 8 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 me virginis--virginis- -ar------iTit-t cele 32
+                      0 ---||||||||--||||||||- 22
+    query             0 ---virginis {virginis} marie nativitat--e-m 37
+
+-- fused_2 --
+  OCR:      ''
+  Assigned: 'vitatem celebremus Cuius Nativitas glo'
+  Words:    [8..12) consumed=4
+
+-- fused_3 --
+  OCR:      'nenno . Cujus. detnabis ditectis acnntaso'
+  Assigned: 'riose virginis marie ex semine habrae'
+  Words:    [12..17) consumed=5
+  NW score: k=10 (pre-snap), norm=-1.7322
+  Anchor:   word 17 (within_chant_7), diff=5, snapped=False, forced=True
+  Alignment:
+    target            0 --nenno . Cujus. detnabi-----s ditectis -acnntaso 41
+                      0 --...|-------.|- 16
+    query             0 virgin-------is- ---marie ex semine---- ha--bra-e 31
+
+-- fused_4 --
+  OCR:      'no Senegi momae et semie'
+  Assigned: 'orta de tribu iuda clara ex tyrpe david'
+  Words:    [17..25) consumed=8
+  NW score: k=7 (pre-snap), norm=-1.2081
+  Anchor:   word 25 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 no--- Senegi-- moma-----e e--t---- semie 24
+                      0 -|---  5
+    query             0 -orta de tribu iuda clara ex tyrpe david 39
+
+-- fused_5 --
+  OCR:      'orta de Tribu iu da cea ta da'
+  Assigned: 'Cuius vita gloriosa cunctas illustrat'
+  Words:    [25..30) consumed=5
+  NW score: k=4 (pre-snap), norm=-1.1793
+  Anchor:   word 30 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 ------orta de Tribu iu da cea ta- ------da- 29
+                      0 ------..|| 10
+    query             0 Cuius vita -glori-----osa cunctas illustrat 37
+
+-- fused_6 --
+  OCR:      'vid . cuius vita glorio sa cunc ta. strat'
+  Assigned: 'ecclesias Hodie nata est beata virgo ma'
+  Words:    [30..37) consumed=7
+  NW score: k=5 (pre-snap), norm=-0.5703
+  Anchor:   word 37 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 vid . cuius vita- glorio --sa cunc ---ta. str----a--t 41
+                      0 -----.|...|--|-|- 17
+    query             0 -----eccles--i-as -Hodie nata -est beata- virgo maria 42
+
+-- fused_7 --
+  OCR:      'cen as odie nata est beata virgo ma'
+  Assigned: 'ria ex progenie david Cuius Cum iocunditate nativitatem beate marie'
+  Words:    [37..46) consumed=9
+  NW score: k=9 (pre-snap), norm=0.0426
+  Anchor:   word 43 (within_chant_7), diff=3, snapped=False, forced=False
+  Alignment:
+    target            0 ------cen-- -a--------s -----o---di---e na----ta est beata v
+                      0 ------.||--
+    query             0 ex progenie david Cuius Cum iocunditate nativitate-m beat---
+    
+    target           28 irgo ma--- 35
+                     11 ---. 15
+    query            56 ---e marie 63
+
+-- fused_8 --
+  OCR:      'na et proge me da vid . cujus. Cum jocundi'
+  Assigned: 'celebremus'
+  Words:    [46..47) consumed=1
+  NW score: k=11 (pre-snap), norm=-1.3917
+  Anchor:   word 47 (within_chant_7), diff=10, snapped=False, forced=True
+  Alignment:
+    target            0 na et proge me da vid . cujus. Cum jocundi 42
+                      0 --.|...|--|-|--------------||------------- 42
+    query             0 --celebr--e-m--------------us------------- 10
+
+-- fused_9 --
+  OCR:      'tate  cl vemis.'
+  Assigned: 'Ut ipsa intercedat pro nobis ad dominum'
+  Words:    [47..54) consumed=7
+  NW score: k=5 (pre-snap), norm=-1.5126
+  Anchor:   word 54 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 -t----a---te---------- ----- cl vemi-s. 15
+                      0 -|----|---||---------- 22
+    query             0 Ut ipsa intercedat pro nobis ad dominum 39
+
+-- fused_10 --
+  OCR:      'Ut ipsa intercedat pro nobis Aoto mnnum Jhesum'
+  Assigned: 'ihesum xpistum Corde et animo xpisto canamus'
+  Words:    [54..61) consumed=7
+  NW score: k=7 (pre-snap), norm=-0.5557
+  Anchor:   word 61 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 Ut i-ps-a --int----ercedat --pro nobis Aoto mnnum Jhesum 46
+                      0 ---|-.|-.  9
+    query             0 ---ihesum xpistum Corde et animo -xpis---to canam-----us 44
+
+-- fused_11 --
+  OCR:      'Xpstistum Lorde et anino xpisto cananino'
+  Assigned: 'gloriam in hac sacra sollempnitate precelse genitricis de'
+  Words:    [61..69) consumed=8
+  NW score: k=5 (pre-snap), norm=-2.1964
+  Anchor:   word 69 (within_chant_7), diff=3, snapped=False, forced=True
+  Alignment:
+    target            0 Xpsti----------s-tum Lo--------rde ----e--t -anino xpisto ca
+                      0 ....|----------|-...
+    query             0 gloriam in hac sacra sollempnitate precelse geni-tricis-- --
+    
+    target           34 nanino 40
+                     20 -..|-- 26
+    query            55 -dei-- 58
+
+-- fused_12 --
+  OCR:      'giori am in hac latra sollempnitate precesse genitricis de'
+  Assigned: 'i marie Ut ipsa Nativitas tua dei ge'
+  Words:    [69..76) consumed=7
+  NW score: k=7 (pre-snap), norm=-0.2491
+  Anchor:   word 76 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 giori- am in hac latra sollempnita--t-e precesse genitricis 
+                      0 -..||-
+    query             0 -marie Ut i-psa- Nat---------ivitas tua ---de--i genetri----
+    
+    target           56 de 58
+                      6 -.  8
+    query            39 -x 40
+
+-- fused_13 --
+  OCR:      'mon . utipsarem pr launtas ta daige'
+  Assigned: 'netrix virgo gaudium annunciavit universo mun'
+  Words:    [76..81) consumed=5
+  NW score: k=4 (pre-snap), norm=-0.9276
+  Anchor:   word 81 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 ---mon . utipsarem pr la--un-tas ta daige--------- 35
+                      0 ---.|-  6
+    query             0 virgo- gaudi----um ----annunciavit- universo mundo 40
+=== END DEBUG ===
+

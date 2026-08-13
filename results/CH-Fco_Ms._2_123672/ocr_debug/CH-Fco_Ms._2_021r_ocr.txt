@@ -1,0 +1,217 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'laa jupes pesum continebunt reges omnes suil ipsimi trira ad laudes e defia Tertium re cantes de Dominica pr'
+  [fused_1] 'engne fac de dominica preti'
+  [fused_2] 'gentes deprecabini tur . eterit tadicatur   adc'
+  [fused_3] 'xpectetur sicut pluma eloquium meum et descendat super'
+  [fused_4] 'bi  Auonles'
+  [fused_5] 'nos sent ros deus norernnoie cenengoie boris de quiosincis ad'
+  [fused_6] 'Xyn'
+  [fused_7] ' ceinter rex occurramus ob'
+  [fused_8] 'Etora'
+  [fused_9] ''
+  [fused_10] 'am salaton nostro pres venite de Ysaia . lectio'
+  [fused_11] 'mnce y n no categentes annunciate'
+  [fused_12] 'primn netoi cite teate denirs salvontor no'
+  [fused_13] 'tter ad nemet incate et auditum facite lo'
+  [fused_14] 'anm et clamaon anseretur seeptm'
+  [fused_15] 'de Iuda et dux . etani cois donet nem'
+  [fused_16] 'i imerone d tie int oxpeitatio'
+  [fused_17] 'n Pulcio tes sunt ocaniejus in no'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'laa jupes pesum continebunt reges omnes suil ipsimi trira ad laudes e defia Tertium re cantes de Dominica pr'
+  Assigned: 'Super ipsum continebunt reges os suum ipsum'
+  Words:    [0..7) consumed=7
+  NW score: k=9 (pre-snap), norm=1.9486
+  Anchor:   word 7 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 laa jupes -pesum continebunt reges omnes suil ipsimi trira a
+                      0 ----.|||.
+    query             0 ----Super ip-sum continebunt reges o---s suum ips-----------
+    
+    target           59 d laudes e defia Tertium re cantes de Dominica pr 108
+                      9 ----------------------||-------------------------  58
+    query            41 ----------------------um-------------------------  43
+
+-- fused_1 --
+  OCR:      'engne fac de dominica preti'
+  Assigned: 'gentes deprecabuntur'
+  Words:    [7..9) consumed=2
+  NW score: k=2 (pre-snap), norm=-0.9467
+  Anchor:   word 19 (within_chant_7), diff=10, snapped=False, forced=False
+  Alignment:
+    target            0 -engne fac de dominica pre-----t-i 27
+                      0 -||-.|---. 10
+    query             0 gen-te---s de----------precabuntur 20
+
+-- fused_2 --
+  OCR:      'gentes deprecabini tur . eterit tadicatur   adc'
+  Assigned: 'Et erit Expectetur sicut pluvia'
+  Words:    [9..14) consumed=5
+  NW score: k=5 (pre-snap), norm=-1.1789
+  Anchor:   word 19 (within_chant_7), diff=5, snapped=False, forced=False
+  Alignment:
+    target            0 gent-e--s deprecabini tur . eterit tadicat---ur   adc 47
+                      0 --.|-|--.  9
+    query             0 --Et erit Exp-ec------t-----etur-- --sicut plu--via-- 31
+
+-- fused_3 --
+  OCR:      'xpectetur sicut pluma eloquium meum et descendat super'
+  Assigned: 'eloquium meum et descendat super'
+  Words:    [14..19) consumed=5
+  NW score: k=5 (pre-snap), norm=4.4745
+  Anchor:   word 19 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 xpectetur sicut pluma eloquium meum et descendat super 54
+                      0 ----------------------|||||||| 30
+    query             0 ----------------------eloquium meum et descendat super 32
+
+-- fused_4 --
+  OCR:      'bi  Auonles'
+  Assigned: 'nos sicut ros deus noster ~Audite celi'
+  Words:    [19..26) consumed=7
+  NW score: k=4 (pre-snap), norm=-1.9188
+  Anchor:   word 26 (within_chant_7), diff=3, snapped=False, forced=True
+  Alignment:
+    target            0 ----bi------------ ------ -Auonle----s 11
+                      0 ----.|------------ 18
+    query             0 nos sicut ros deus noster ~Audite celi 38
+
+-- fused_5 --
+  OCR:      'nos sent ros deus norernnoie cenengoie boris de quiosincis ad'
+  Assigned: 'euouae Ecce venit rex occurramus obviam salvatori nostro ~Venite Canite tuba in syon'
+  Words:    [26..39) consumed=13
+  NW score: k=13 (pre-snap), norm=-0.8801
+  Anchor:   word 32 (within_chant_7), diff=7, snapped=False, forced=False
+  Alignment:
+    target            0 -no-------s sen-t r---o--------s ----deus-------- norernnoie
+                      0 -.|-------.
+    query             0 euouae Ecce venit rex occurramus obviam salvatori nostr--o--
+    
+    target           28  cenengoi-e boris de quiosincis ad 61
+                     11  11
+    query            56  -~Ven--ite Cani--te tuba in- syon 84
+
+-- fused_6 --
+  OCR:      'Xyn'
+  Assigned: 'vocate gentes annunciate'
+  Words:    [39..42) consumed=3
+  NW score: k=2 (pre-snap), norm=-6.4051
+  Anchor:   word 42 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 ----------------Xyn-----  3
+                      0 ----------------..|----- 24
+    query             0 vocate gentes annunciate 24
+
+-- fused_7 --
+  OCR:      'ceinter rex occurramus ob'
+  Assigned: 'populi et dicite Ecce deus salvator no'
+  Words:    [42..49) consumed=7
+  NW score: k=6 (pre-snap), norm=-1.3184
+  Anchor:   word 49 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 ---ceinter ----rex occurramus ----------o---b 25
+                      0 ---..|-.|. 10
+    query             0 populi- et dicite- Ecc-e deus salvator noster 42
+
+-- fused_8 --
+  OCR:      'Etora'
+  Assigned: 'ster adveniet'
+  Words:    [49..50) consumed=1
+  NW score: k=1 (pre-snap), norm=-5.0596
+  Anchor:   word 55 (within_chant_7), diff=5, snapped=False, forced=False
+  Alignment:
+    target            0 ------Etora  5
+                      0 ------.|--- 11
+    query             0 adveniet---  8
+
+-- fused_9 --
+  OCR:      ''
+  Assigned: 'Annunciate et auditum facite lo'
+  Words:    [50..55) consumed=5
+
+-- fused_10 --
+  OCR:      'am salaton nostro pres venite de Ysaia . lectio'
+  Assigned: 'quimini et clamate Ecce Non auferetur sceptrum de iuda et'
+  Words:    [55..64) consumed=9
+  NW score: k=9 (pre-snap), norm=-0.3959
+  Anchor:   word 61 (within_chant_7), diff=3, snapped=False, forced=False
+  Alignment:
+    target            0 am -salat--------on nostro pres venit--e de Ysai--a . lectio
+                      0 ..
+    query             0 et clamate Ecce Non auferetur s-ce-ptrum de ---iuda ---e-t--
+    
+    target           47 
+                      2 
+    query            49 
+
+-- fused_11 --
+  OCR:      'mnce y n no categentes annunciate'
+  Assigned: 'dux de femore eius donec veniat qui'
+  Words:    [64..71) consumed=7
+  NW score: k=6 (pre-snap), norm=-1.1881
+  Anchor:   word 71 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 mnce -y n no categentes ann----unciat---e 33
+                      0 -...  4
+    query             0 -dux de femo---re e-ius donec ven-iat qui 35
+
+-- fused_12 --
+  OCR:      'primn netoi cite teate denirs salvontor no'
+  Assigned: 'mittendus est Et ipse erit expectatio gencium'
+  Words:    [71..78) consumed=7
+  NW score: k=9 (pre-snap), norm=-0.5334
+  Anchor:   word 78 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 pri--mn--- ne----toi--- -cit-e te--at-e den-irs salvontor no
+                      0 -.|--.|---
+    query             0 -mittendus -est Et ipse erit expectatio genci-------------um
+    
+    target           42 
+                     10 
+    query            45 
+
+-- fused_13 --
+  OCR:      'tter ad nemet incate et auditum facite lo'
+  Assigned: 'Pulcriores sunt oculi eius vino'
+  Words:    [78..83) consumed=5
+  NW score: k=5 (pre-snap), norm=-1.5147
+  Anchor:   word 83 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ------tter ad nemet incate et auditum facite lo 41
+                      0 ------..|. 10
+    query             0 Pulcriores -sun---t -oculi e-----i-us --vi---no 31
+
+-- fused_14 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [83..83) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_15 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [83..83) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_16 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [83..83) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_17 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [83..83) consumed=0
+  Alignment:
+    (no words left)
+=== END DEBUG ===
+

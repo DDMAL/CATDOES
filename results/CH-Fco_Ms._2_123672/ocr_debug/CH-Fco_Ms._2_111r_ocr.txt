@@ -1,0 +1,173 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'LuyaXtenim Pascha nostrum miniola'
+  [fused_1] 'tus estepi stus alla pruden tis'
+  [fused_2] 'dit mel aieya dulcedo meli est lingua eius'
+  [fused_3] 'va leanus distillans labia e mo deluYa'
+  [fused_4] 'alleluyaapiencia requiescit in corde ejus et'
+  [fused_5] 'prudencia in sermoneo ris vus. tanus.'
+  [fused_6] ''
+  [fused_7] 'anam stabat ad monunientum presorans judit duos'
+  [fused_8] 'anctelos in albis sedentes et sudarium quod fuerat super ca'
+  [fused_9] 'prut Jhesu Alleluya evovae m ulerunt dominum me'
+  [fused_10] 'um et vescio ubi posuerunt eum si tu sustulisti eum dicito'
+  [fused_11] 'michi Alleluya et ego cum tollani Allelvya evovac'
+  [fused_12] 'jngens mesus co minus no fer stans in me'
+  [fused_13] 'di Oosapulo tum sno rm dit.'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'LuyaXtenim Pascha nostrum miniola'
+  Assigned: 'Etenim pascha nostrum immola'
+  Words:    [0..4) consumed=4
+  NW score: k=4 (pre-snap), norm=4.2521
+  Anchor:   word 4 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 LuyaXtenim Pascha nostrum miniola--- 33
+                      0 ----.||||| 10
+    query             0 ----Etenim pascha nostrum -immolatus 31
+
+-- fused_1 --
+  OCR:      'tus estepi stus alla pruden tis'
+  Assigned: 'tus est xpistus Alleluya De ore prudentis proce'
+  Words:    [4..11) consumed=7
+  NW score: k=6 (pre-snap), norm=2.8346
+  Anchor:   word 11 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 tus est-epi stus all----a------- pruden tis--------- 31
+                      0 ----|||-.||-|||| 16
+    query             0 ----est xpi-stus Alleluya De ore pruden-tis procedit 46
+
+-- fused_2 --
+  OCR:      'dit mel aieya dulcedo meli est lingua eius'
+  Assigned: 'dit mel alleluya dulcedo mellis est lingua eius'
+  Words:    [11..18) consumed=7
+  NW score: k=7 (pre-snap), norm=5.7416
+  Anchor:   word 18 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 dit mel a-ie--ya dulcedo me-li- est lingua eius 42
+                      0 ----|||  7
+    query             0 ----mel alleluya dulcedo mellis est lingua eius 43
+
+-- fused_3 --
+  OCR:      'va leanus distillans labia e mo deluYa'
+  Assigned: 'alleluya Favus distillans labia eius alleluya'
+  Words:    [18..24) consumed=6
+  NW score: k=6 (pre-snap), norm=4.0143
+  Anchor:   word 24 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 va le------anus distillans labia e mo --deluYa 38
+                      0 -|.||------|.|| 15
+    query             0 -alleluya Favus distillans labia eius alleluya 45
+
+-- fused_4 --
+  OCR:      'alleluyaapiencia requiescit in corde ejus et'
+  Assigned: 'alleluya Sapiencia requiescit in corde eius et'
+  Words:    [24..31) consumed=7
+  NW score: k=7 (pre-snap), norm=7.3129
+  Anchor:   word 31 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 alleluya--apiencia requiescit in corde ejus et 44
+                      0 ||||||||--|||||||| 18
+    query             0 alleluya Sapiencia requiescit in corde eius et 46
+
+-- fused_5 --
+  OCR:      'prudencia in sermoneo ris vus. tanus.'
+  Assigned: 'prudencia in sermone oris eius Favus'
+  Words:    [31..37) consumed=6
+  NW score: k=6 (pre-snap), norm=5.4252
+  Anchor:   word 37 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 prudencia in sermone-o ris -vus. tanus. 37
+                      0 |||||||||  9
+    query             0 prudencia in sermone o-ris eius- Favus- 36
+
+-- fused_6 --
+  OCR:      ''
+  Assigned: 'Maria stabat ad monumentum plorans vidit duos'
+  Words:    [37..44) consumed=7
+
+-- fused_7 --
+  OCR:      'anam stabat ad monunientum presorans judit duos'
+  Assigned: 'angelos in albis sedentes et sudarium quod fuerat super ca'
+  Words:    [44..54) consumed=10
+  NW score: k=7 (pre-snap), norm=-0.5177
+  Anchor:   word 54 (within_chant_7), diff=3, snapped=False, forced=True
+  Alignment:
+    target            0 an---am -sta-bat -ad monunientum pre--s--orans ju-d-----it d
+                      0 ||---..
+    query             0 angelos in albis sed-------entes --et sudarium quod fuerat s
+    
+    target           44 u-------os 47
+                      7 |-------.. 17
+    query            51 uper caput 61
+
+-- fused_8 --
+  OCR:      'anctelos in albis sedentes et sudarium quod fuerat super ca'
+  Assigned: 'put ihesu alleluya euouae Tulerunt dominum meum et nescio ubi posuerunt'
+  Words:    [54..64) consumed=10
+  NW score: k=10 (pre-snap), norm=-0.8748
+  Anchor:   word 60 (within_chant_7), diff=4, snapped=False, forced=False
+  Alignment:
+    target            0 anctelos in a---lbis sedentes ---e---t sudari-um -quod fuera
+                      0 --..|--|--.
+    query             0 --ihe--s--u alleluya -euouae- Tulerunt --dominum meu-m --e--
+    
+    target           49 t --s----u---p---er ca 59
+                     11 | 12
+    query            45 t nescio ubi posuerunt 67
+
+-- fused_9 --
+  OCR:      'prut Jhesu Alleluya evovae m ulerunt dominum me'
+  Assigned: 'eum si tu sustulisti eum dicito michi alleluya et ego eum tollam alleluya euouae Surgens ihesus dominus noster'
+  Words:    [64..82) consumed=18
+  NW score: k=18 (pre-snap), norm=-0.6815
+  Anchor:   word 70 (within_chant_7), diff=12, snapped=False, forced=False
+  Alignment:
+    target            0 --------------------pru------t- --Jh-----esu----------------
+                      0 --------------------..|------|-
+    query             0 eum si tu sustulisti eum dicito michi alleluya et ego eum to
+    
+    target           10 ---- Alleluya evovae ------m ulerunt dominum ---me-  47
+                     31 ----  35
+    query            60 llam alleluya euouae Surgens ihesu-s dominus noster 110
+
+-- fused_10 --
+  OCR:      'um et vescio ubi posuerunt eum si tu sustulisti eum dicito'
+  Assigned: 'stans in me'
+  Words:    [82..85) consumed=3
+  NW score: k=6 (pre-snap), norm=-0.2907
+  Anchor:   word 85 (within_chant_7), diff=3, snapped=False, forced=True
+  Alignment:
+    target            0 um et vescio ubi posuerunt eum si tu sustulisti eum dicito 58
+                      0 ---.|-..|--- 12
+    query             0 ---st-ans--- --i--------n- --m------------------e---di---o 14
+
+-- fused_11 --
+  OCR:      'michi Alleluya et ego cum tollani Allelvya evovac'
+  Assigned: 'dio discipulorum suorum dixit'
+  Words:    [85..88) consumed=3
+  NW score: k=3 (pre-snap), norm=-2.3714
+  Anchor:   word 88 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 mi-chi Alleluya et ego cum tollani Allelvya evovac 49
+                      0 .|-|-|-..|..|----. 18
+    query             0 disc-i-puloru----m suo-rum -----di-------------xit 25
+
+-- fused_12 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [88..88) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_13 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [88..88) consumed=0
+  Alignment:
+    (no words left)
+=== END DEBUG ===
+

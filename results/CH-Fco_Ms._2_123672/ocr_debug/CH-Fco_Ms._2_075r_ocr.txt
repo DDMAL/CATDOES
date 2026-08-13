@@ -1,0 +1,163 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'de us et de Pinguedine terre'
+  [fused_1] 'am serviant tibi tribus popu  Esto'
+  [fused_2] 'domi mus fratrum tu o rum Xt in'
+  [fused_3] 'curven tur autete filii matris t Esto.'
+  [fused_4] 'acob deterra su a vn dit'
+  [fused_5] 'gloriam Dei et it quam terribilis est locus i ste'
+  [fused_6] 'nnoli et meanus ndium an to inmode et por ta'
+  [fused_7] 'ce  ne dominus est in loco in sto et'
+  [fused_8] 'egonescie bam . Quamdominus deus'
+  [fused_9] 'me us fuerit mecum in vaista per'
+  [fused_10] 'Maan Eo aaii custodient nle et cedent'
+  [fused_11] 'michi panem ad eden'
+  [fused_12] 'pen ar et revocaverit me cum saluteut mi'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'de us et de Pinguedine terre'
+  Assigned: 'deus de rore celi et de pinguedine terre'
+  Words:    [0..8) consumed=8
+  NW score: k=8 (pre-snap), norm=4.5717
+  Anchor:   word 19 (within_chant_7), diff=11, snapped=False, forced=False
+  Alignment:
+    target            0 de us------------- et de Pinguedine terre 28
+                      0 ||-||------------- 18
+    query             0 de-us de rore celi et de pinguedine terre 40
+
+-- fused_1 --
+  OCR:      'am serviant tibi tribus popu  Esto'
+  Assigned: 'abundanciam serviant tibi tribus populi Esto'
+  Words:    [8..14) consumed=6
+  NW score: k=6 (pre-snap), norm=5.7138
+  Anchor:   word 19 (within_chant_7), diff=5, snapped=False, forced=False
+  Alignment:
+    target            0 ---------am serviant tibi tribus popu-  Esto 34
+                      0 ---------|| 11
+    query             0 abundanciam serviant tibi tribus populi Esto 44
+
+-- fused_2 --
+  OCR:      'domi mus fratrum tu o rum Xt in'
+  Assigned: 'dominus fratrum tuorum Et in'
+  Words:    [14..19) consumed=5
+  NW score: k=4 (pre-snap), norm=5.0289
+  Anchor:   word 19 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 domi mus fratrum tu o rum Xt in--------- 31
+                      0 ||||-.||  8
+    query             0 domi-nus fratrum tu-o-rum Et incurventur 37
+
+-- fused_3 --
+  OCR:      'curven tur autete filii matris t Esto.'
+  Assigned: 'curventur ante te filii matris tue Esto'
+  Words:    [19..25) consumed=6
+  NW score: k=6 (pre-snap), norm=4.0366
+  Anchor:   word 25 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 curven tur aute-te filii matris t-- Esto. 38
+                      0 -----------|.||-|| 18
+    query             0 -----------ante te filii matris tue Esto- 29
+
+-- fused_4 --
+  OCR:      'acob deterra su a vn dit'
+  Assigned: 'Dum exiret iacob de terra sua vidit'
+  Words:    [25..32) consumed=7
+  NW score: k=7 (pre-snap), norm=3.5193
+  Anchor:   word 32 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ------------acob de-terra su a vn dit 24
+                      0 ------------|||| 16
+    query             0 Dum exiret iacob de terra su-a v-idit 35
+
+-- fused_5 --
+  OCR:      'gloriam Dei et it quam terribilis est locus i ste'
+  Assigned: 'gloriam dei et ait Quam terribilis est locus iste'
+  Words:    [32..41) consumed=9
+  NW score: k=9 (pre-snap), norm=7.0204
+  Anchor:   word 41 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 gloriam Dei et -it quam terribilis est locus i ste 49
+                      0 |||||||  7
+    query             0 gloriam dei et ait Quam terribilis est locus i-ste 49
+
+-- fused_6 --
+  OCR:      'nnoli et meanus ndium an to inmode et por ta'
+  Assigned: 'non est hic aliud nisi domus dei et porta'
+  Words:    [41..50) consumed=9
+  NW score: k=9 (pre-snap), norm=1.5068
+  Anchor:   word 50 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 nnoli e-t meanus ndium an--- to inm--ode- et por ta 44
+                      0 -||-.  5
+    query             0 -no-n est ---hic aliud -nisi do---mus dei et por-ta 41
+
+-- fused_7 --
+  OCR:      'ce  ne dominus est in loco in sto et'
+  Assigned: 'celi Vere dominus est in loco isto et'
+  Words:    [50..58) consumed=8
+  NW score: k=8 (pre-snap), norm=6.0006
+  Anchor:   word 58 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ce-- - ne dominus est in loco in sto et 36
+                      0 ||--  4
+    query             0 celi Vere dominus est in loco i--sto et 37
+
+-- fused_8 --
+  OCR:      'egonescie bam . Quamdominus deus'
+  Assigned: 'ego nesciebam Quam Si dominus deus'
+  Words:    [58..64) consumed=6
+  NW score: k=6 (pre-snap), norm=5.8209
+  Anchor:   word 64 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ego-nescie bam . Quam----dominus deus 32
+                      0 |||-||||||-|||-- 16
+    query             0 ego nescie-bam-- Quam Si dominus deus 34
+
+-- fused_9 --
+  OCR:      'me us fuerit mecum in vaista per'
+  Assigned: 'meus fuerit mecum in via ista per'
+  Words:    [64..71) consumed=7
+  NW score: k=7 (pre-snap), norm=6.9854
+  Anchor:   word 71 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 me us fuerit mecum in v-a-ista per 32
+                      0 ||-||  5
+    query             0 me-us fuerit mecum in via ista per 33
+
+-- fused_10 --
+  OCR:      'Maan Eo aaii custodient nle et cedent'
+  Assigned: 'quam ego ambulo et custodierit me et dederit'
+  Words:    [71..79) consumed=8
+  NW score: k=8 (pre-snap), norm=2.4288
+  Anchor:   word 79 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 Maan -Eo a-----aii custodie-nt nle et cede-nt 37
+                      0 ..|.  4
+    query             0 quam ego ambulo et custodierit -me et dederit 44
+
+-- fused_11 --
+  OCR:      'michi panem ad eden'
+  Assigned: 'michi panem ad edendum et vestimentum quo operiar'
+  Words:    [79..87) consumed=8
+  NW score: k=4 (pre-snap), norm=6.7987
+  Anchor:   word 87 (within_chant_7), diff=4, snapped=False, forced=True
+  Alignment:
+    target            0 michi panem ad eden------------------------------ 19
+                      0 |||||  5
+    query             0 michi panem ad edendum et vestimentum quo operiar 49
+
+-- fused_12 --
+  OCR:      'pen ar et revocaverit me cum saluteut mi'
+  Assigned: 'et revocaverit me cum salute'
+  Words:    [87..92) consumed=5
+  NW score: k=5 (pre-snap), norm=5.3785
+  Anchor:   word 95 (page_break_77), diff=3, snapped=False, forced=False
+  Alignment:
+    target            0 pen ar et revocaverit me cum saluteut mi 40
+                      0 -------||  9
+    query             0 -------et revocaverit me cum salute----- 28
+=== END DEBUG ===
+

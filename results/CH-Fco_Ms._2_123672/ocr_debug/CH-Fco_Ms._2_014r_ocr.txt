@@ -1,0 +1,167 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'veniet dominus exercituum deustu'
+  [fused_1] 'na. copere est ut veniat tempus ejus et dies ejus'
+  [fused_2] 'non elongabuntur Miseretur dominis et Israhei'
+  [fused_3] ' re vurgo Israhel revertere ad cun'
+  [fused_4] 'tates escendet dominus sicut plu'
+  [fused_5] 'mamvellus'
+  [fused_6] 'Mabandanos patadorabunt cum Sanct einosi omnes'
+  [fused_7] 'ter re ommes gentes ser vient be'
+  [fused_8] 'emi domine re relaxa facino tu'
+  [fused_9] 'etrenos diher soomtram suam cita'
+  [fused_10] 'domine potentiam t salvosfaci asnos.'
+  [fused_11] 'Et reno a cce Maore se ascen cetinsa in tem'
+  [fused_12] 'copas lo cum preson tonte de preca vi tur .'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'veniet dominus exercituum deustu'
+  Assigned: 'veniet dominus exercituum deus'
+  Words:    [0..4) consumed=4
+  NW score: k=4 (pre-snap), norm=7.4232
+  Anchor:   word 18 (within_chant_7), diff=14, snapped=False, forced=False
+  Alignment:
+    target            0 veniet dominus exercituum deustu 32
+                      0 ||||||  6
+    query             0 veniet dominus exercituum deus-- 30
+
+-- fused_1 --
+  OCR:      'na. copere est ut veniat tempus ejus et dies ejus'
+  Assigned: 'tuus in potestate magna Liberare Prope est ut veniat tempus eius et dies eius'
+  Words:    [4..18) consumed=14
+  NW score: k=14 (pre-snap), norm=3.5328
+  Anchor:   word 18 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ---------------------na. coper--------e est ut veniat tempus
+                      0 ---------------------||-
+    query             0 tuus in potestate magna- Liberare Prope est ut veniat tempus
+    
+    target           31  ejus et dies ejus 49
+                     24  24
+    query            59  eius et dies eius 77
+
+-- fused_2 --
+  OCR:      'non elongabuntur Miseretur dominis et Israhei'
+  Assigned: 'non elongabuntur Miserebitur dominus iacob et israhel'
+  Words:    [18..25) consumed=7
+  NW score: k=7 (pre-snap), norm=5.9177
+  Anchor:   word 25 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 non elongabuntur Misere--tur dominis------ et Israhei 45
+                      0 |||  3
+    query             0 non elongabuntur Miserebitur dominus iacob et israhel 53
+
+-- fused_3 --
+  OCR:      're vurgo Israhel revertere ad cun'
+  Assigned: 'salvabitur Revertere virgo israhel revertere ad civi'
+  Words:    [25..32) consumed=7
+  NW score: k=6 (pre-snap), norm=3.3517
+  Anchor:   word 32 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 ------------------re vurgo Israhel revertere ad c------un 33
+                      0 ------------------|| 20
+    query             0 salvabitur Revertere virgo israhel revertere ad civitates 57
+
+-- fused_4 --
+  OCR:      'tates escendet dominus sicut plu'
+  Assigned: 'tates tuas Miserebitur Descendet dominus sicut plu'
+  Words:    [32..38) consumed=6
+  NW score: k=6 (pre-snap), norm=4.3578
+  Anchor:   word 38 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 t-a----------tes -escendet dominus sicut plu--- 32
+                      0 |-|----------|.. 16
+    query             0 tuas Miserebitur Descendet dominus sicut pluvia 47
+
+-- fused_5 --
+  OCR:      'mamvellus'
+  Assigned: 'via in vellus Orietur in diebus eius iusticia et'
+  Words:    [38..46) consumed=8
+  NW score: k=2 (pre-snap), norm=3.6667
+  Anchor:   word 46 (within_chant_7), diff=6, snapped=False, forced=True
+  Alignment:
+    target            0 mamvellus-----------------------------------  9
+                      0 ...||||||----------------------------------- 44
+    query             0 in vellus Orietur in diebus eius iusticia et 44
+
+-- fused_6 --
+  OCR:      'Mabandanos patadorabunt cum Sanct einosi omnes'
+  Assigned: 'habundancia pacis Et adorabunt eum omnes re'
+  Words:    [46..53) consumed=7
+  NW score: k=6 (pre-snap), norm=2.8675
+  Anchor:   word 53 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 Mabandan-os pa-----t-adorabunt cum Sanct einosi omnes 46
+                      0 .||.||||-.. 11
+    query             0 habundancia pacis Et adorabunt eum omn---e---s- reges 46
+
+-- fused_7 --
+  OCR:      'ter re ommes gentes ser vient be'
+  Assigned: 'ges terre omnes gentes servient ei Orietur'
+  Words:    [53..59) consumed=6
+  NW score: k=5 (pre-snap), norm=6.1645
+  Anchor:   word 59 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 ter re ommes gentes ser vient -----be--- 32
+                      0 |||-||  6
+    query             0 ter-re omnes gentes ser-vient ei Orietur 38
+
+-- fused_8 --
+  OCR:      'emi domine re relaxa facino tu'
+  Assigned: 'Veni domine et noli tardare relaxa facinora plebi tu'
+  Words:    [59..68) consumed=9
+  NW score: k=7 (pre-snap), norm=3.7866
+  Anchor:   word 68 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 -emi domine -------------re relaxa facino-------- tu- 30
+                      0 -|.|  4
+    query             0 Veni domine et noli tardare relaxa facinora plebi tue 53
+
+-- fused_9 --
+  OCR:      'etrenos diher soomtram suam cita'
+  Assigned: 'e Et revoca dispersos in terram suam Excita'
+  Words:    [68..75) consumed=7
+  NW score: k=7 (pre-snap), norm=3.0093
+  Anchor:   word 75 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 et-reno-s di-her so---omt--ram suam --cita 32
+                      0 .|-||.|-.  9
+    query             0 Et revoca disper-sos in terram suam Excita 41
+
+-- fused_10 --
+  OCR:      'domine potentiam t salvosfaci asnos.'
+  Assigned: 'domine potentiam tuam et veni ut salvos facias nos'
+  Words:    [75..84) consumed=9
+  NW score: k=9 (pre-snap), norm=4.6669
+  Anchor:   word 84 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 domine potentiam --------------t salvos-faci as-nos. 36
+                      0 ||||||  6
+    query             0 domine potentiam tuam et veni ut salvos faci-as nos- 50
+
+-- fused_11 --
+  OCR:      'Et reno a cce Maore se ascen cetinsa in tem'
+  Assigned: 'Et revoca Ecce radix iesse ascendet in salutem'
+  Words:    [84..92) consumed=8
+  NW score: k=8 (pre-snap), norm=3.4626
+  Anchor:   word 92 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 Et reno a -cce Ma---ore se ascen cetinsa in ----tem 43
+                      0 ||  2
+    query             0 Et revoca Ecce radix iesse ascen-det---- in salutem 46
+
+-- fused_12 --
+  OCR:      'copas lo cum preson tonte de preca vi tur .'
+  Assigned: 'populorum ipsum gentes deprecabuntur Et'
+  Words:    [92..97) consumed=5
+  NW score: k=5 (pre-snap), norm=2.0268
+  Anchor:   word 97 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 copas lo cum -preson tonte- de preca vi tur -. 43
+                      0 .||--.||-.|| 12
+    query             0 pop--ulo-rum ip--sum gentes de-preca-buntur Et 39
+=== END DEBUG ===
+

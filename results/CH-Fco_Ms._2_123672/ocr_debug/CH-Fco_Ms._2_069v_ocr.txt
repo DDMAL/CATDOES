@@ -1,0 +1,251 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'nepuer meus jacet paraliticus in come et male tolquetur ame 28a'
+  [fused_1] 'dico tibi ego veniam et curabo eum exovac Domine'
+  [fused_2] 'non sum dignus ut intres subtum meum sed tantum dic u'
+  [fused_3] 'EVia Sancundou Mathum invot'
+  [fused_4] 'Dratids audutis que coiilorig'
+  [fused_5] 'bo et sanabitur puermens euvae. nis sicut ina precepta ad budicto'
+  [fused_6] 'um facis elemosinam nesciat sinistra tua quid faciat dertera'
+  [fused_7] 'cnerorie.  auteneris incubiculum loc . cum sero esset omnis be Salbato secundum Marchum Liui'
+  [fused_8] 'de presbyter . et ceum dimisise ad'
+  [fused_9] 'et clauso hostio ora patrem tuum exonae vilo'
+  [fused_10] 'etenim de die indiem aerunt et scire masmeas vo'
+  [fused_11] 'ad esto due abisto die usi ad in feriam majoris'
+  [fused_12] 'ebdedne cantatus ad ue tam infialibus quam et in festivis diebus'
+  [fused_13] 'ecceptisdinicis quod catatu ichoris consuetis ad ves e a ps benedicam'
+  [fused_14] 'snt exorae incodies fec hortulure drolilus  Cuncm'
+  [fused_15] 'vocabis et dominius exaudietc et dicet ecclesie'
+  [fused_16] 'da ecclesiam'
+  [fused_17] 'ome . a nun nane sitette a'
+  [fused_18] 'cem qua promisit domn mm emors mis coro .is z'
+  [fused_19] 'ci b venite'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'nepuer meus jacet paraliticus in come et male tolquetur ame 28a'
+  Assigned: 'puer meus iacet paraliticus in domo et male torquetur amen'
+  Words:    [0..10) consumed=10
+  NW score: k=10 (pre-snap), norm=6.2202
+  Anchor:   word 19 (within_chant_7), diff=9, snapped=False, forced=False
+  Alignment:
+    target            0 nepuer meus jacet paraliticus in come et male tolquetur ame 
+                      0 --||||
+    query             0 --puer meus iacet paraliticus in domo et male torquetur ame-
+    
+    target           60 28a 63
+                      6 --.  9
+    query            57 --n 58
+
+-- fused_1 --
+  OCR:      'dico tibi ego veniam et curabo eum exovac Domine'
+  Assigned: 'dico tibi ego veniam et curabo eum euouae Domine'
+  Words:    [10..19) consumed=9
+  NW score: k=9 (pre-snap), norm=7.1875
+  Anchor:   word 19 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 dico tibi ego veniam et curabo eum exovac Domine 48
+                      0 ||||  4
+    query             0 dico tibi ego veniam et curabo eum euouae Domine 48
+
+-- fused_2 --
+  OCR:      'non sum dignus ut intres subtum meum sed tantum dic u'
+  Assigned: 'non sum dignus ut intres sub tectum meum sed tantum dic ver'
+  Words:    [19..31) consumed=12
+  NW score: k=11 (pre-snap), norm=7.0753
+  Anchor:   word 31 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 non sum dignus ut intres sub----tum meum sed tantum dic ----
+                      0 |||
+    query             0 non sum dignus ut intres sub tectum meum sed tantum dic verb
+    
+    target           52 u 53
+                      3 .  4
+    query            60 o 61
+
+-- fused_3 --
+  OCR:      'EVia Sancundou Mathum invot'
+  Assigned: 'bo et sanabitur puer meus euouae'
+  Words:    [31..36) consumed=5
+  NW score: k=7 (pre-snap), norm=-1.8798
+  Anchor:   word 36 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 EVia San---cundou-- Mathum invo--t 27
+                      0 --..  4
+    query             0 --et sanabitur puer --meus -euouae 29
+
+-- fused_4 --
+  OCR:      'Dratids audutis que coiilorig'
+  Assigned: 'Cum facis elemosinam nesciat sinistra tua quid faciat dextera'
+  Words:    [36..45) consumed=9
+  NW score: k=3 (pre-snap), norm=-1.7855
+  Anchor:   word 45 (within_chant_7), diff=6, snapped=False, forced=True
+  Alignment:
+    target            0 ---Dratids --------a-----udut----is------- qu-e --coi-----il
+                      0 ---..|.|-|
+    query             0 Cum faci-s elemosinam nesciat sinistra tua quid fac-iat dext
+    
+    target           25 orig 29
+                     10 .|-. 14
+    query            58 er-a 61
+
+-- fused_5 --
+  OCR:      'bo et sanabitur puermens euvae. nis sicut ina precepta ad budicto'
+  Assigned: 'tua euouae Tu autem cum oraveris intra in cubiculum'
+  Words:    [45..54) consumed=9
+  NW score: k=10 (pre-snap), norm=-0.7764
+  Anchor:   word 54 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 -bo et sanabitur pu-ermens eu---va-e. nis sicut ina precepta
+                      0 -..
+    query             0 tua e--uouae Tu- aute-m--- cum orave--ris------ in--tr-----a
+    
+    target           54  ad budic--to 65
+                      3   3
+    query            38  in cubiculum 51
+
+-- fused_6 --
+  OCR:      'um facis elemosinam nesciat sinistra tua quid faciat dertera'
+  Assigned: 'et clauso hostio ora patrem tuum euouae'
+  Words:    [54..61) consumed=7
+  NW score: k=9 (pre-snap), norm=-0.9959
+  Anchor:   word 61 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 um -facis- elemos-inam nesciat sinistr-a tua quid faciat der
+                      0 ..
+    query             0 et cla-uso ---hosti--o ---ora- ---patrem tu---u-m euoua-----
+    
+    target           56 tera 60
+                      2 -|--  6
+    query            38 -e-- 39
+
+-- fused_7 --
+  OCR:      'cnerorie.  auteneris incubiculum loc . cum sero esset omnis be Salbato secundum Marchum Liui'
+  Assigned: 'Me etenim de die in diem querunt et scire vias meas vo'
+  Words:    [61..73) consumed=12
+  NW score: k=15 (pre-snap), norm=-0.8859
+  Anchor:   word 73 (within_chant_7), diff=3, snapped=False, forced=True
+  Alignment:
+    target            0 cnerorie.  auten----e-ris incubiculum loc . cum ser--o e--s-
+                      0 ------.|--
+    query             0 ------Me-- -etenim de die in- di---em------ qu---erunt et sc
+    
+    target           50 -set omni-s be Salbato secundum Marchum Liui 92
+                     10 -.|- 14
+    query            38 ire- --vias me-----a-s volun---------------t 58
+
+-- fused_8 --
+  OCR:      'de presbyter . et ceum dimisise ad'
+  Assigned: 'lunt euouae Tunc invocabis et dominus exaudiet'
+  Words:    [73..79) consumed=6
+  NW score: k=6 (pre-snap), norm=-1.2320
+  Anchor:   word 85 (within_chant_7), diff=6, snapped=False, forced=False
+  Alignment:
+    target            0 ----de -------presbyter . et ceum dimisis-e a-d--- 34
+                      0 ----.|  6
+    query             0 euouae Tunc invocab----is et----- dominus exaudiet 41
+
+-- fused_9 --
+  OCR:      'et clauso hostio ora patrem tuum exonae vilo'
+  Assigned: 'clamabis et dicet ecce adsum euouae'
+  Words:    [79..85) consumed=6
+  NW score: k=7 (pre-snap), norm=-0.2414
+  Anchor:   word 85 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 et cla---uso hostio ora patre--m -tuum exonae vilo 44
+                      0 ---|||---.|- 12
+    query             0 ---clamabis- --et-- --dicet ecce adsum euouae----- 35
+
+-- fused_10 --
+  OCR:      'etenim de die indiem aerunt et scire masmeas vo'
+  Assigned: 'Non sit vobis vanum mane surgere an'
+  Words:    [85..92) consumed=7
+  NW score: k=7 (pre-snap), norm=-0.8393
+  Anchor:   word 92 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 eten--im de die -indiem -aerunt et s--cire masmeas vo 47
+                      0 -..|--|.  8
+    query             0 -Non sit -vobis van--um ma---n--e- surgere -ante----- 37
+
+-- fused_11 --
+  OCR:      'ad esto due abisto die usi ad in feriam majoris'
+  Assigned: 'te lucem quia promisit dominus coronam vigilan'
+  Words:    [92..98) consumed=6
+  NW score: k=6 (pre-snap), norm=-0.7790
+  Anchor:   word 98 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ad esto du-e --abis-to d--ie usi ad in feriam ----majori--s
+                      0 ...|--.
+    query             0 luce--m quia promisit- domi-nus- coron-----am vigila-ntibus
+    
+    target           47
+                      7
+    query            48
+
+-- fused_12 --
+  OCR:      'ebdedne cantatus ad ue tam infialibus quam et in festivis diebus'
+  Assigned: 'tibus Venite'
+  Words:    [98..99) consumed=1
+  NW score: k=1 (pre-snap), norm=-8.3181
+  Anchor:   word 99 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ebdedne cantatus ad ue tam infialibus quam et in festivis di
+                      0 --------------------.|------|-----------------|-----|-------
+    query             0 --------------------Ve------n-----------------i-----t-------
+    
+    target           60 ebus 64
+                     60 |--- 64
+    query             5 e---  6
+
+-- fused_13 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [99..99) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_14 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [99..99) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_15 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [99..99) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_16 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [99..99) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_17 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [99..99) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_18 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [99..99) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_19 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [99..99) consumed=0
+  Alignment:
+    (no words left)
+=== END DEBUG ===
+

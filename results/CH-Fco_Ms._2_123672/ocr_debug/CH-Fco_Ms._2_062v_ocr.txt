@@ -1,0 +1,195 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'hora fecerunt et pares illos nobis fecilti am preortavimius pondus di'
+  [fused_1] 'ixit autem paterfamilias anrice vel'
+  [fused_2] 'facio tibi muiriam nonne ex denario convenisti mecum tone'
+  [fused_3] 'quod tuum est et vade eonon facio tibi'
+  [fused_4] 'miuri an noe e denario convesti ecu quod'
+  [fused_5] ' .olle quod tuumi est et vade'
+  [fused_6] 'quia ego bonus sul dicit dominus evovac on licet mi'
+  [fused_7] ' facere oculis tuus nequam est'
+  [fused_8] 'ego boniis suu dicit dominus evovaeicebmit novis'
+  [fused_9] 'sum prum et prum novissimi multi enim sunt vocati'
+  [fused_10] 'Salbeto ie ad resp cau'
+  [fused_11] 'o libentes suffecri ad'
+  [fused_12] 'panci vero electi exovacMagnificat autdomi'
+  [fused_13] 'nnio apo noe funs iniverse car movenit coram me facti'
+  [fused_14] 'Vi achan de non Jigatio ut saveturminecsum'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'hora fecerunt et pares illos nobis fecilti am preortavimius pondus di'
+  Assigned: 'hora fecerunt et pares illos nobis fecisti qui portavimus pondus diei'
+  Words:    [0..11) consumed=11
+  NW score: k=11 (pre-snap), norm=6.5942
+  Anchor:   word 19 (within_chant_7), diff=8, snapped=False, forced=False
+  Alignment:
+    target            0 hora fecerunt et pares illos nobis fecilti -am preortavimius
+                      0 ||||
+    query             0 hora fecerunt et pares illos nobis fecisti qui p--ortavim-us
+    
+    target           59  pondus d--i 69
+                      4   4
+    query            57  pondus diei 69
+
+-- fused_1 --
+  OCR:      'ixit autem paterfamilias anrice vel'
+  Assigned: 'et estus euouae Dixit autem paterfamilias amice non'
+  Words:    [11..19) consumed=8
+  NW score: k=8 (pre-snap), norm=3.7397
+  Anchor:   word 19 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -----------------ixit autem paterfamilias anrice vel 35
+                      0 -----------------|||| 21
+    query             0 et estus euouae Dixit autem paterfamilias a-mice non 51
+
+-- fused_2 --
+  OCR:      'facio tibi muiriam nonne ex denario convenisti mecum tone'
+  Assigned: 'facio tibi iniuriam nonne ex denario convenisti mecum tolle'
+  Words:    [19..28) consumed=9
+  NW score: k=9 (pre-snap), norm=6.9493
+  Anchor:   word 28 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 facio tibi mui-riam nonne ex denario convenisti mecum to-ne
+                      0 |||||
+    query             0 facio tibi iniuriam nonne ex denario convenisti mecum tolle
+    
+    target           57
+                      5
+    query            59
+
+-- fused_3 --
+  OCR:      'quod tuum est et vade eonon facio tibi'
+  Assigned: 'quod tuum est et vade euouae Amice non facio tibi'
+  Words:    [28..38) consumed=10
+  NW score: k=10 (pre-snap), norm=6.0949
+  Anchor:   word 38 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 quod tuum est et vade e-o----------non facio tibi 38
+                      0 ||||  4
+    query             0 quod tuum est et vade euouae Amice non facio tibi 49
+
+-- fused_4 --
+  OCR:      'miuri an noe e denario convesti ecu quod'
+  Assigned: 'iniuriam nonne ex denario convenisti mecum tolle quod'
+  Words:    [38..46) consumed=8
+  NW score: k=8 (pre-snap), norm=4.6261
+  Anchor:   word 46 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -miuri an no--e e- denario conve--sti -ecu------- quod 40
+                      0 -.||||-|.  9
+    query             0 iniuri-am nonne ex denario convenisti mecum tolle quod 53
+
+-- fused_5 --
+  OCR:      '.olle quod tuumi est et vade'
+  Assigned: 'tuum est et vade'
+  Words:    [46..50) consumed=4
+  NW score: k=4 (pre-snap), norm=3.9686
+  Anchor:   word 57 (within_chant_7), diff=7, snapped=False, forced=False
+  Alignment:
+    target            0 .olle quod tuumi est et vade 28
+                      0 -----------||||- 16
+    query             0 -----------tuum- est et vade 16
+
+-- fused_6 --
+  OCR:      'quia ego bonus sul dicit dominus evovac on licet mi'
+  Assigned: 'euouae Tolle quod tuum est et vade quia ego bonus sum dicit dominus euouae Non licet mi'
+  Words:    [50..67) consumed=17
+  NW score: k=17 (pre-snap), norm=3.3506
+  Anchor:   word 57 (within_chant_7), diff=10, snapped=False, forced=False
+  Alignment:
+    target            0 -----------------------------------quia ego bonus sul dicit 
+                      0 -----------------------------------||||
+    query             0 euouae Tolle quod tuum est et vade quia ego bonus sum dicit 
+    
+    target           25 dominus evovac -on licet m---i 51
+                     39 ||||||| 46
+    query            60 dominus euouae Non licet michi 90
+
+-- fused_7 --
+  OCR:      'facere oculis tuus nequam est'
+  Assigned: 'chi facere quod volo an oculus tuus nequam est quia'
+  Words:    [67..76) consumed=9
+  NW score: k=8 (pre-snap), norm=5.0430
+  Anchor:   word 76 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 facere------------- oculis tuus nequam est----- 29
+                      0 ||||||------------- 19
+    query             0 facere quod volo an oculus tuus nequam est quia 47
+
+-- fused_8 --
+  OCR:      'ego boniis suu dicit dominus evovaeicebmit novis'
+  Assigned: 'ego bonus sum dicit dominus euouae Sic erunt novis'
+  Words:    [76..85) consumed=9
+  NW score: k=9 (pre-snap), norm=4.8123
+  Anchor:   word 85 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ego boniis suu dicit dominus evovae--ic-ebmit novis---- 48
+                      0 |||  3
+    query             0 ego bon-us sum dicit dominus euouae Sic erunt novissimi 54
+
+-- fused_9 --
+  OCR:      'sum prum et prum novissimi multi enim sunt vocati'
+  Assigned: 'simi primi et primi novissimi multi enim sunt vocati'
+  Words:    [85..93) consumed=8
+  NW score: k=8 (pre-snap), norm=6.3347
+  Anchor:   word 93 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 sum prum- et prum- novissimi multi enim sunt vocati 49
+                      0 ----||.|-  9
+    query             0 ----primi et primi novissimi multi enim sunt vocati 47
+
+-- fused_10 --
+  OCR:      'Salbeto ie ad resp cau'
+  Assigned: 'pauci vero electi euouae Dixit domi'
+  Words:    [93..99) consumed=6
+  NW score: k=4 (pre-snap), norm=-1.3056
+  Anchor:   word 99 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 Sa---lbeto -----i-e-- ad -resp ---cau- 22
+                      0 .|---..|.| 10
+    query             0 pauci vero electi euouae Dixit dominus 38
+
+-- fused_11 --
+  OCR:      'o libentes suffecri ad'
+  Assigned: 'nus ad noe finis universe carnis venit coram me fac ti'
+  Words:    [99..109) consumed=10
+  NW score: k=5 (pre-snap), norm=-1.2087
+  Anchor:   word 109 (within_chant_7), diff=5, snapped=False, forced=True
+  Alignment:
+    target            0 ----o- libentes su----ffe-c-r-------i---------- -a-----d 22
+                      0 ----|-  6
+    query             0 ad noe fi--n-is -universe carnis venit coram me fac tibi 52
+
+-- fused_12 --
+  OCR:      'panci vero electi exovacMagnificat autdomi'
+  Assigned: 'bi archam de lignis levigatis ut salvetur universum'
+  Words:    [109..116) consumed=7
+  NW score: k=5 (pre-snap), norm=-0.6877
+  Anchor:   word 116 (page_break_77), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 panc--i vero electi exovacMagni----fica-----t -a----utdomi--
+                      0 -|.|--.
+    query             0 -archam de-- -l---i---------gnis levigatis ut salvetur unive
+    
+    target           42 ---- 42
+                      7 ---- 11
+    query            44 rsum 48
+
+-- fused_13 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [116..116) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_14 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [116..116) consumed=0
+  Alignment:
+    (no words left)
+=== END DEBUG ===
+

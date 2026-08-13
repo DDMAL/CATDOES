@@ -1,0 +1,219 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'non bibet et omnie in mundum non manducabit extr utero capellai audite Insule .'
+  [fused_1] 'utqiantlaris  . fuit'
+  [fused_2] 'homomissis a Deo r'
+  [fused_3] 'matris sue p ladate . gentes eoac . n noms erat ileses ad'
+  [fused_4] 'Ingresso Zacharia Templum domini appa'
+  [fused_5] 'Gabrihel Angelus stans a dextris alta ris micensi eVo'
+  [fused_6] 'od de cmibsen'
+  [fused_7] 'Legem precuro ris domi mu .'
+  [fused_8] 'Ve inte adoremus venite. Pansans'
+  [fused_9] 'te formarem in utero novi te et antequam procrede re'
+  [fused_10] 'ancti fic Beatus r m e'
+  [fused_11] 'bis neti meas et que manda'
+  [fused_12] 'ibi ers'
+  [fused_13] 'mmicas a facie eorum quia ego tecum sum dicit comnnus Do. Finche'
+  [fused_14] 'vic homo domine quod evovac.'
+  [fused_15] ' eo n nomen Johannes e'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'non bibet et omnie in mundum non manducabit extr utero capellai audite Insule .'
+  Assigned: 'non bibet et omne immundum non manducabit ex utero matris sue'
+  Words:    [0..11) consumed=11
+  NW score: k=11 (pre-snap), norm=4.8546
+  Anchor:   word 22 (within_chant_7), diff=11, snapped=False, forced=False
+  Alignment:
+    target            0 non bibet et omnie in mundum non manducabit extr utero capel
+                      0 |||
+    query             0 non bibet et omn-e i-mmundum non manducabit ex-- utero -----
+    
+    target           60 lai audite Insule . 79
+                      3 ---.|..|-. 13
+    query            51 ---matri-s --su-e-- 61
+
+-- fused_1 --
+  OCR:      'utqiantlaris  . fuit'
+  Assigned: '~Laudate dominum omnes gentes euouae'
+  Words:    [11..16) consumed=5
+  NW score: k=5 (pre-snap), norm=-2.5715
+  Anchor:   word 22 (within_chant_7), diff=6, snapped=False, forced=False
+  Alignment:
+    target            0 ---u--t----qian--tlaris ------ . fuit 20
+                      0 ---|--|----.|-|--.....| 23
+    query             0 ~Laudate domi-num omnes gentes euouae 36
+
+-- fused_2 --
+  OCR:      'homomissis a Deo r'
+  Assigned: 'Ingresso zacharia templum domini apparuit ei'
+  Words:    [16..22) consumed=6
+  NW score: k=3 (pre-snap), norm=-2.4042
+  Anchor:   word 22 (within_chant_7), diff=3, snapped=False, forced=True
+  Alignment:
+    target            0 ------------h----------om--omissis a------- Deo r 18
+                      0 ------------|----------.|--|||-.|- 34
+    query             0 Ingresso zacharia templum domi-ni- apparuit -e--i 44
+
+-- fused_3 --
+  OCR:      'matris sue p ladate . gentes eoac . n noms erat ileses ad'
+  Assigned: 'gabrihel angelus stans a dexteris altaris incensi'
+  Words:    [22..29) consumed=7
+  NW score: k=9 (pre-snap), norm=-0.5383
+  Anchor:   word 29 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 matris sue p ladate . gentes eoac . n noms ------er---a-t---
+                      0 .|.||---.|---|-----
+    query             0 gabri---he---l----- ange-lus sta------n--s a dexteris altari
+    
+    target           47 - i-leses ad 57
+                     19 - 20
+    query            40 s ince-ns--i 49
+
+-- fused_4 --
+  OCR:      'Ingresso Zacharia Templum domini appa'
+  Assigned: 'euouae Regem precursoris dominum'
+  Words:    [29..33) consumed=4
+  NW score: k=6 (pre-snap), norm=-1.0915
+  Anchor:   word 33 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 Ingresso Zacharia --Tem-p--lu-----m domini appa 37
+                      0 ----|-.|----.|--. 17
+    query             0 ----e-uo----ua--e Regem precursoris domin----um 32
+
+-- fused_5 --
+  OCR:      'Gabrihel Angelus stans a dextris alta ris micensi eVo'
+  Assigned: 'Venite adoremus ~Venite Priusquam te formarem in utero'
+  Words:    [33..41) consumed=8
+  NW score: k=8 (pre-snap), norm=-0.6355
+  Anchor:   word 37 (within_chant_7), diff=4, snapped=False, forced=False
+  Alignment:
+    target            0 Gabrihel -Angelus stans a dextri-s- a-lta --ris micensi- --e
+                      0 -...|.|-
+    query             0 -Venite- adoremus ~Ven---ite Priusquam te for---marem in ute
+    
+    target           51 Vo 53
+                      8 .| 10
+    query            52 ro 54
+
+-- fused_6 --
+  OCR:      'od de cmibsen'
+  Assigned: 'novi te et antequam progredereris'
+  Words:    [41..46) consumed=5
+  NW score: k=3 (pre-snap), norm=-0.7016
+  Anchor:   word 46 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 -o-d de ---------cm------------ibsen 13
+                      0 -|-.  4
+    query             0 novi te et antequam progredereri-s-- 33
+
+-- fused_7 --
+  OCR:      'Legem precuro ris domi mu .'
+  Assigned: 'sanctificavi te ~Beatus vir euouae Ad omnia que'
+  Words:    [46..54) consumed=8
+  NW score: k=8 (pre-snap), norm=-1.8247
+  Anchor:   word 54 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -----------Legem pre-curo ris --------d-om-i- mu . 27
+                      0 -----------...|- 16
+    query             0 sanctificavi te- ~Beatu-s vir euouae Ad omnia qu-e 47
+
+-- fused_8 --
+  OCR:      'Ve inte adoremus venite. Pansans'
+  Assigned: 'mittam te dicit dominus ibis ne timeas et que manda'
+  Words:    [54..64) consumed=10
+  NW score: k=7 (pre-snap), norm=-0.6022
+  Anchor:   word 64 (within_chant_7), diff=3, snapped=False, forced=True
+  Alignment:
+    target            0 -------Ve -i-nte adorem--u-----s ve-ni------t---e. Pansa--ns
+                      0 -------.|
+    query             0 mittam te dicit- -do--minus ibis ne timeas et que- mandavero
+    
+    target           32 
+                      9 
+    query            55 
+
+-- fused_9 --
+  OCR:      'te formarem in utero novi te et antequam procrede re'
+  Assigned: 'vero tibi loqueris ad eos ~Quare fremuerunt euouae Ne'
+  Words:    [64..72) consumed=8
+  NW score: k=8 (pre-snap), norm=-0.8207
+  Anchor:   word 72 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 t--e formarem in utero- novi te --e--t ant-e-quam procrede r
+                      0 |--.
+    query             0 tibi loqueris ad --e-os -~Quare fremuerunt euoua---------e N
+    
+    target           51 e 52
+                      4 |  5
+    query            47 e 48
+
+-- fused_10 --
+  OCR:      'ancti fic Beatus r m e'
+  Assigned: 'timeas a facie eorum quia ego tecum sum dicit dominus'
+  Words:    [72..82) consumed=10
+  NW score: k=3 (pre-snap), norm=-0.4558
+  Anchor:   word 82 (within_chant_7), diff=7, snapped=False, forced=True
+  Alignment:
+    target            0 ancti------ f--ic Be--------a-----t--us r m ------------e 22
+                      0 ---||------ 11
+    query             0 ---timeas a facie -eorum quia ego tecum sum dicit dominus 53
+
+-- fused_11 --
+  OCR:      'bis neti meas et que manda'
+  Assigned: '~Domine'
+  Words:    [82..83) consumed=1
+  NW score: k=7 (pre-snap), norm=-1.1453
+  Anchor:   word 83 (within_chant_7), diff=6, snapped=False, forced=True
+  Alignment:
+    target            0 ---bis neti meas et que manda 26
+                      0 ---.|--||-------------------- 29
+    query             0 ~Domi--ne--------------------  7
+
+-- fused_12 --
+  OCR:      'ibi ers'
+  Assigned: 'quid euouae'
+  Words:    [83..85) consumed=2
+  NW score: k=2 (pre-snap), norm=-1.8234
+  Anchor:   word 88 (within_chant_7), diff=3, snapped=False, forced=False
+  Alignment:
+    target            0 ibi- e---rs  7
+                      0 ..|-  4
+    query             0 quid euouae 11
+
+-- fused_13 --
+  OCR:      'mmicas a facie eorum quia ego tecum sum dicit comnnus Do. Finche'
+  Assigned: 'Fuit homo missus'
+  Words:    [85..88) consumed=3
+  NW score: k=9 (pre-snap), norm=-0.9399
+  Anchor:   word 88 (within_chant_7), diff=6, snapped=False, forced=True
+  Alignment:
+    target            0 mmicas a facie eorum quia ego tecum sum dicit comnnus Do. Fi
+                      0 ----------..|.
+    query             0 ----------Fuit ho--m--------o ----mis-------------sus-------
+    
+    target           60 nche 64
+                     14 ---- 18
+    query            16 ---- 16
+
+-- fused_14 --
+  OCR:      'vic homo domine quod evovac.'
+  Assigned: 'a deo cui nomen iohannes erat'
+  Words:    [88..94) consumed=6
+  NW score: k=6 (pre-snap), norm=-1.2283
+  Anchor:   word 94 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ----vic-- hom-o do-mine quod evovac. 28
+                      0 ----..|--  9
+    query             0 a deo cui nomen iohanne----s e--ra-t 29
+
+-- fused_15 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [94..94) consumed=0
+  Alignment:
+    (no words left)
+=== END DEBUG ===
+

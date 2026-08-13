@@ -1,0 +1,187 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'fructum multum alle alleLuYaincut dile'
+  [fused_1] 'xit me pa dileri nos. Taudidi fac'
+  [fused_2] 'telirents veoxares ejus ane yasplendorem Deo dede'
+  [fused_3] 'Alaum e.  congulati fint avcuins ae LuyaX.'
+  [fused_4] 'resniue jutidiores lacte Rubicundiores ebore anti'
+  [fused_5] 'quo saphiro res . Et sicut'
+  [fused_6] 'anenti tuidomimne norebunt  Allelvya et si'
+  [fused_7] 'cut Odor Balsanu erunt ante te Ancluya Pre. dominus Regis evovaea'
+  [fused_8] 'in celestibus regnis sanctorum habitatio est alleluya'
+  [fused_9] 'num requies eorum Alseluyam'
+  [fused_10] 'to clamabant Sancti Tui domine Alleluya Alleluya Alleluya pres'
+  [fused_11] 'piritus et anime justorum hymum dicite'
+  [fused_12] 'teonosteo alona altean et Bencorate enorne aoe'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'fructum multum alle alleLuYaincut dile'
+  Assigned: 'fert fructum multum alleluya alleluya Sicut dilexit'
+  Words:    [0..7) consumed=7
+  NW score: k=7 (pre-snap), norm=4.6567
+  Anchor:   word 17 (within_chant_7), diff=10, snapped=False, forced=False
+  Alignment:
+    target            0 -----fructum multum alle---- alleLuYa--incut dile--- 38
+                      0 -----||||||| 12
+    query             0 fert fructum multum alleluya alleluya Si-cut dilexit 51
+
+-- fused_1 --
+  OCR:      'xit me pa dileri nos. Taudidi fac'
+  Assigned: 'me pater et ego dilexi vos Qui manet Candidi fac'
+  Words:    [7..17) consumed=10
+  NW score: k=10 (pre-snap), norm=1.8710
+  Anchor:   word 17 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 xit me pa---------- dileri nos---------. Taudidi fac-- 33
+                      0 ----||  6
+    query             0 ----me pater et ego dilexi vos Qui manet Candidi facti 50
+
+-- fused_2 --
+  OCR:      'telirents veoxares ejus ane yasplendorem Deo dede'
+  Assigned: 'ti sunt nazarei eius alleluya splendorem deo dederunt'
+  Words:    [17..24) consumed=7
+  NW score: k=7 (pre-snap), norm=2.9698
+  Anchor:   word 24 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 telirents veoxares ejus a-ne- ya-splendorem Deo dede---- 49
+                      0 ----..||-  9
+    query             0 ----sunt- -nazarei eius alleluya splendorem deo dederunt 50
+
+-- fused_3 --
+  OCR:      'Alaum e.  congulati fint avcuins ae LuyaX.'
+  Assigned: 'alleluya Et sicut lac coagulati sunt alleluya'
+  Words:    [24..31) consumed=7
+  NW score: k=8 (pre-snap), norm=0.9869
+  Anchor:   word 31 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 Al-----a-------um e.  congulati fint avcuins ae LuyaX. 42
+                      0 .|-----|-------|. 17
+    query             0 alleluya Et sicut lac coagulati sunt a------lle-luya-- 45
+
+-- fused_4 --
+  OCR:      'resniue jutidiores lacte Rubicundiores ebore anti'
+  Assigned: 'alleluya Candidiores nive nitidiores lacte rubicundiores ebore anti'
+  Words:    [31..39) consumed=8
+  NW score: k=8 (pre-snap), norm=4.5248
+  Anchor:   word 39 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -----------------res-niue jutidiores lacte Rubicundiores ebo
+                      0 -----------------|||-||.|
+    query             0 alleluya Candidiores nive nitidiores lacte rubicundiores ebo
+    
+    target           42 re anti--- 49
+                     25 || 27
+    query            60 re antiquo 70
+
+-- fused_5 --
+  OCR:      'quo saphiro res . Et sicut'
+  Assigned: 'quo saphiro pulcriores Et'
+  Words:    [39..42) consumed=3
+  NW score: k=4 (pre-snap), norm=4.1139
+  Anchor:   word 42 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 quo saphiro -------res . Et sicut 26
+                      0 ----||||||| 11
+    query             0 ----saphiro pulcriores-- E------t 21
+
+-- fused_6 --
+  OCR:      'anenti tuidomimne norebunt  Allelvya et si'
+  Assigned: 'sicut Sancti tui domine florebunt sicut lilium alleluya et si'
+  Words:    [42..52) consumed=10
+  NW score: k=10 (pre-snap), norm=3.1246
+  Anchor:   word 52 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -------anenti tui-domimne -norebunt ------------ Allelvya et
+                      0 -------||-.||
+    query             0 sicut San-cti tui domi-ne florebunt sicut lilium alleluya et
+    
+    target           39  si--- 42
+                     13  13
+    query            58  sicut 64
+
+-- fused_7 --
+  OCR:      'cut Odor Balsanu erunt ante te Ancluya Pre. dominus Regis evovaea'
+  Assigned: 'cut odor balsami erunt ante te alleluya ~Dominus'
+  Words:    [52..59) consumed=7
+  NW score: k=9 (pre-snap), norm=3.5228
+  Anchor:   word 59 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 cut Odor Balsanu erunt ante te -Ancluya Pre. dominus Regis e
+                      0 ----.|||
+    query             0 ----odor balsami erunt ante te alleluya ----~Dominus--------
+    
+    target           59 vovaea 65
+                      8 ------ 14
+    query            44 ------ 44
+
+-- fused_8 --
+  OCR:      'in celestibus regnis sanctorum habitatio est alleluya'
+  Assigned: 'regnavit euouae In celestibus regnis sanctorum habitatio est alleluya'
+  Words:    [59..68) consumed=9
+  NW score: k=9 (pre-snap), norm=6.0853
+  Anchor:   word 71 (within_chant_7), diff=3, snapped=False, forced=False
+  Alignment:
+    target            0 ------i----------n celestibus regnis sanctorum habitatio est
+                      0 ------|----------|
+    query             0 regnavit euouae In celestibus regnis sanctorum habitatio est
+    
+    target           44  alleluya 53
+                     18  18
+    query            60  alleluya 69
+
+-- fused_9 --
+  OCR:      'num requies eorum Alseluyam'
+  Assigned: 'et in eter'
+  Words:    [68..71) consumed=3
+  NW score: k=6 (pre-snap), norm=4.5226
+  Anchor:   word 71 (within_chant_7), diff=3, snapped=False, forced=True
+  Alignment:
+    target            0 num requies e-orum Alseluyam 27
+                      0 -----|..|-. 11
+    query             0 -----et i-n eter-------nu--m 13
+
+-- fused_10 --
+  OCR:      'to clamabant Sancti Tui domine Alleluya Alleluya Alleluya pres'
+  Assigned: 'num requies eorum alleluya ~Iubilate euouae In velamento clamabunt sancti tui domine alleluya alleluya alleluya'
+  Words:    [71..85) consumed=14
+  NW score: k=15 (pre-snap), norm=2.7598
+  Anchor:   word 85 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 --------------------------------------------------to clamaba
+                      0 --------------------------------------------------||
+    query             0 requies eorum alleluya ~Iubilate euouae In velamento clamabu
+    
+    target           10 nt Sancti Tui domine Alleluya Alleluya Alleluya pres  62
+                     52 ||  54
+    query            60 nt sancti tui domine alleluya alleluya alleluya----- 107
+
+-- fused_11 --
+  OCR:      'piritus et anime justorum hymum dicite'
+  Assigned: '~Deus deus euouae Spiritus et anime iustorum hymnum dicite'
+  Words:    [85..94) consumed=9
+  NW score: k=9 (pre-snap), norm=4.7501
+  Anchor:   word 94 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -------------------piritus et anime justorum hym-um dicite 38
+                      0 -------------------||||||| 26
+    query             0 ~Deus deus euouae Spiritus et anime iustorum hymnum dicite 58
+
+-- fused_12 --
+  OCR:      'teonosteo alona altean et Bencorate enorne aoe'
+  Assigned: 'deo nostro alleluya alleluya ~Benedicite euouae Fulgebunt'
+  Words:    [94..101) consumed=7
+  NW score: k=6 (pre-snap), norm=1.8496
+  Anchor:   word 101 (page_break_77), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 teo-nosteo a---lona alte---an et Ben---corate enorne --aoe--
+                      0 .||-||||.|
+    query             0 deo nostro alleluya alleluya- --~Benedic--ite euouae Fulgebu
+    
+    target           46 -- 46
+                     10 -- 12
+    query            55 nt 57
+=== END DEBUG ===
+

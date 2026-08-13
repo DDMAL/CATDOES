@@ -1,0 +1,179 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'tus sum ntsacerds magus quin bus'
+  [fused_1] 'su oplacuit deDeo jure iuran do fecit illum'
+  [fused_2] 'mio crescere in plebem suenedictionem'
+  [fused_3] 'liet testamentum suum confu'
+  [fused_4] 'mavit superco caput e ius. Deo uraiut domi'
+  [fused_5] 'nus et non Penitebit. m tumes sacer'
+  [fused_6] 'eternum secundum ordi nem mel chi'
+  [fused_7] ' dominus dominodecis me'
+  [fused_8] 'Tnes nnocantem exauduvit dominus sanctum simm'
+  [fused_9] 'domius exaudivit cum et constituit eum in pace precummo'
+  [fused_10] 'eentur omnes qui speruit in tedommne quoma'
+  [fused_11] 'tu benedixisti justo scuto bone voluntatis tue eum qu'
+  [fused_12] 'mea exoras  Dominetominus noste'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'tus sum ntsacerds magus quin bus'
+  Assigned: 'sum Intra Ecce sacerdos magnus qui in diebus'
+  Words:    [0..8) consumed=8
+  NW score: k=8 (pre-snap), norm=3.6244
+  Anchor:   word 8 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 tus sum -nt--------sacerd-s mag-us qu--in ---bus 32
+                      0 ----|||  7
+    query             0 ----sum Intra Ecce sacerdos magnus qui in diebus 44
+
+-- fused_1 --
+  OCR:      'su oplacuit deDeo jure iuran do fecit illum'
+  Assigned: 'suis placuit deo Ideo iureiurando fecit illum'
+  Words:    [8..15) consumed=7
+  NW score: k=7 (pre-snap), norm=5.6833
+  Anchor:   word 15 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 su-- oplacuit de---Deo jure iuran do fecit illum 43
+                      0 ||--  4
+    query             0 suis -placuit deo Ideo iure-iuran-do fecit illum 45
+
+-- fused_2 --
+  OCR:      'mio crescere in plebem suenedictionem'
+  Assigned: 'dominus crescere in plebem suam Benedictionem'
+  Words:    [15..21) consumed=6
+  NW score: k=6 (pre-snap), norm=6.0533
+  Anchor:   word 21 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 --mi--o crescere in plebem su----enedictionem 37
+                      0 --||--.  7
+    query             0 dominus crescere in plebem suam Benedictionem 45
+
+-- fused_3 --
+  OCR:      'liet testamentum suum confu'
+  Assigned: 'omnium gencium dedit illi et testamentum suum confirmavit super'
+  Words:    [21..30) consumed=9
+  NW score: k=8 (pre-snap), norm=2.5746
+  Anchor:   word 30 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 -----------------------li-et testamentum suum conf---------u
+                      0 -----------------------||-||
+    query             0 omnium gencium dedit illi et testamentum suum confirmavit su
+    
+    target           27 --- 27
+                     28 --- 31
+    query            60 per 63
+
+-- fused_4 --
+  OCR:      'mavit superco caput e ius. Deo uraiut domi'
+  Assigned: 'caput eius Ideo Iuravit domi'
+  Words:    [30..35) consumed=5
+  NW score: k=5 (pre-snap), norm=2.3834
+  Anchor:   word 35 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 mavit superco caput e ius. -Deo -ura-iut domi--- 42
+                      0 --------------||||| 19
+    query             0 --------------caput e-ius- Ideo Iuravi-t dominus 31
+
+-- fused_5 --
+  OCR:      'nus et non Penitebit. m tumes sacer'
+  Assigned: 'nus et non penitebit eum Tu es sacerdos'
+  Words:    [35..42) consumed=7
+  NW score: k=7 (pre-snap), norm=4.4286
+  Anchor:   word 42 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 nus et non Penitebit. --m tumes sacer--- 35
+                      0 ----||  6
+    query             0 ----et non penitebit- eum Tu es sacerdos 35
+
+-- fused_6 --
+  OCR:      'eternum secundum ordi nem mel chi'
+  Assigned: 'in eternum secundum ordinem'
+  Words:    [42..46) consumed=4
+  NW score: k=5 (pre-snap), norm=5.4773
+  Anchor:   word 46 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 ---eternum secundum ordi nem mel chi 33
+                      0 ---||||||| 10
+    query             0 in eternum secundum ordi-nem-------- 27
+
+-- fused_7 --
+  OCR:      'dominus dominodecis me'
+  Assigned: 'melchisedech Dixit dominus domino meo'
+  Words:    [46..51) consumed=5
+  NW score: k=5 (pre-snap), norm=1.7174
+  Anchor:   word 55 (within_chant_7), diff=4, snapped=False, forced=False
+  Alignment:
+    target            0 -------------------dominus dominodecis me- 22
+                      0 -------------------||||||| 26
+    query             0 melchisedech Dixit dominus domino----- meo 37
+
+-- fused_8 --
+  OCR:      'Tnes nnocantem exauduvit dominus sanctum simm'
+  Assigned: 'sede a dexteris meis'
+  Words:    [51..55) consumed=4
+  NW score: k=11 (pre-snap), norm=3.8686
+  Anchor:   word 55 (within_chant_7), diff=7, snapped=False, forced=True
+  Alignment:
+    target            0 Tne-s nnocantem -exauduvit dominus sanctum simm 45
+                      0 -.|-.  5
+    query             0 -sede ----a---- dex------t--eri--s ------m-ei-s 20
+
+-- fused_9 --
+  OCR:      'domius exaudivit cum et constituit eum in pace precummo'
+  Assigned: 'Tu es Invocantem exaudivit dominus sanctum suum dominus exaudivit eum et constituit eum in pace ~Cum'
+  Words:    [55..71) consumed=16
+  NW score: k=16 (pre-snap), norm=2.6159
+  Anchor:   word 62 (within_chant_7), diff=9, snapped=False, forced=False
+  Alignment:
+    target            0 ------------------------------------------------domi-us exau
+                      0 ------------------------------------------------||||-||
+    query             0 Tu es Invocantem exaudivit dominus sanctum suum dominus exau
+    
+    target           11 divit cum et constituit eum in pace precummo  55
+                     55 |||||  60
+    query            60 divit eum et constituit eum in pace --~Cum-- 100
+
+-- fused_10 --
+  OCR:      'eentur omnes qui speruit in tedommne quoma'
+  Assigned: 'invocarem euouae Letentur omnes qui sperant in te domine quoniam'
+  Words:    [71..81) consumed=10
+  NW score: k=10 (pre-snap), norm=3.8190
+  Anchor:   word 81 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ------------------e-entur omnes qui speruit in te-dommne quo
+                      0 ------------------|-|||||
+    query             0 invocarem euouae Letentur omnes qui sperant in te domine quo
+    
+    target           40 -ma- 42
+                     25 -.|- 29
+    query            60 niam 64
+
+-- fused_11 --
+  OCR:      'tu benedixisti justo scuto bone voluntatis tue eum qu'
+  Assigned: 'tu benedixisti iusto scuto bone voluntatis tue coronasti eum'
+  Words:    [81..90) consumed=9
+  NW score: k=7 (pre-snap), norm=6.6834
+  Anchor:   word 90 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 tu benedixisti justo scuto bone voluntatis tue---------- eum
+                      0 ||
+    query             0 tu benedixisti iusto scuto bone voluntatis tue coronasti eum
+    
+    target           50  qu 53
+                      2 ---  5
+    query            60 --- 60
+
+-- fused_12 --
+  OCR:      'mea exoras  Dominetominus noste'
+  Assigned: '~Verba mea euouae Domine dominus noster quam admirabile'
+  Words:    [90..98) consumed=8
+  NW score: k=6 (pre-snap), norm=4.0839
+  Anchor:   word 98 (page_break_77), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 -------mea exoras  Domine-tominus nost-----------------e 31
+                      0 -------||| 10
+    query             0 ~Verba mea euoua-e Domine dominus noster quam admirabile 55
+=== END DEBUG ===
+

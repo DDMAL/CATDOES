@@ -1,0 +1,215 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'P. dominus regnavit excl Par . cantateVcsignum'
+  [fused_1] 'ttis ertnn celo ambersius in libro de obitu Theodosu'
+  [fused_2] 'lecteio VII Constantino licet  . de sancta cece'
+  [fused_3] 'ulce lignum dulces'
+  [fused_4] 'cavos diu ce pondus sus timu it Que digna fu'
+  [fused_5] 'int petane Pntum mno secun aveinya'
+  [fused_6] 'oc signum . ai do cum dominus adjudi'
+  [fused_7] 'candum vene me que dig  . Noc signum cru'
+  [fused_8] 'mo lo cum dominus ad judicandim'
+  [fused_9] 'tit cantmanfeti e mt abscondita cordis'
+  [fused_10] 'Alleluya alle in YaLu sederit'
+  [fused_11] 'filius hominis in sede majestatis sue et ceperit judicare secu lo. e. Secundi Johannem . inmoterm Grat hon erio'
+  [fused_12] 'omi Sancti Aug episcopi an hoc nostis qoma'
+  [fused_13] 'vum peris . Tunc. ad laudes aut.'
+  [fused_14] 'le na Constantini mater Jherosolimam peciit Alleluya'
+  [fused_15] 'Dominus Regis vovae  unc precepit eos omnes igne cremari'
+  [fused_16] 'at an tinentes teadoiderunt indam Aviceluga e iubilate erro'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'P. dominus regnavit excl Par . cantateVcsignum'
+  Assigned: 'i euouae Dulce lignum dulces'
+  Words:    [0..5) consumed=5
+  NW score: k=4 (pre-snap), norm=-1.5444
+  Anchor:   word 5 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 P. dominus re-gnavit excl Par . cantateVcsignum------- 46
+                      0 ------|--- 10
+    query             0 ------i--- -euoua----e--- ---Dulc-----e- lignum dulces 28
+
+-- fused_1 --
+  OCR:      'ttis ertnn celo ambersius in libro de obitu Theodosu'
+  Assigned: 'clavos dulce pondus sustinuit Que di'
+  Words:    [5..11) consumed=6
+  NW score: k=8 (pre-snap), norm=-1.4231
+  Anchor:   word 11 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 --ttis ertnn ce-lo---- ambersius in libro de obitu Theod-osu
+                      0 --...|
+    query             0 clavos ---dulce pondus -----s-ustin-----------uit- Que digna
+    
+    target           52 
+                      6 
+    query            39 
+
+-- fused_2 --
+  OCR:      'lecteio VII Constantino licet  . de sancta cece'
+  Assigned: 'gna fuit portare precium huius saculi'
+  Words:    [11..16) consumed=5
+  NW score: k=7 (pre-snap), norm=-1.7635
+  Anchor:   word 16 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 lecteio VII Constantino -lic-et  . de sancta cece 47
+                      0 ...|------- 11
+    query             0 fuit------- po-rta---re precium huius sa-----culi 33
+
+-- fused_3 --
+  OCR:      'ulce lignum dulces'
+  Assigned: 'alleluia Hoc signum crucis'
+  Words:    [16..20) consumed=4
+  NW score: k=4 (pre-snap), norm=1.3405
+  Anchor:   word 27 (within_chant_7), diff=7, snapped=False, forced=False
+  Alignment:
+    target            0 ulce-------- lignum -dulces 18
+                      0 .|.|-------- 12
+    query             0 alleluia Hoc signum cru-cis 26
+
+-- fused_4 --
+  OCR:      'cavos diu ce pondus sus timu it Que digna fu'
+  Assigned: 'erit in celo cum dominus ad iudi'
+  Words:    [20..27) consumed=7
+  NW score: k=11 (pre-snap), norm=0.9342
+  Anchor:   word 27 (within_chant_7), diff=4, snapped=False, forced=True
+  Alignment:
+    target            0 cavos diu ce pondus sus --timu- it Que digna fu- 44
+                      0 -....  5
+    query             0 -erit -in ce-lo---- cum dominus ad iu--di-candum 38
+
+-- fused_5 --
+  OCR:      'int petane Pntum mno secun aveinya'
+  Assigned: 'candum venerit Que digna Hoc signum crucis erit in calo cum dominus'
+  Words:    [27..38) consumed=11
+  NW score: k=11 (pre-snap), norm=-1.1734
+  Anchor:   word 33 (within_chant_7), diff=5, snapped=False, forced=False
+  Alignment:
+    target            0 -in---t -pe--tane ------Pntum------------ mn----o secun avei
+                      0 -.|---|
+    query             0 venerit Que digna Hoc sign-um crucis erit in calo --cum domi
+    
+    target           31 nya 34
+                      7 |.. 10
+    query            57 nus 60
+
+-- fused_6 --
+  OCR:      'oc signum . ai do cum dominus adjudi'
+  Assigned: 'ad iudicandum vene'
+  Words:    [38..41) consumed=3
+  NW score: k=6 (pre-snap), norm=-1.1058
+  Anchor:   word 41 (within_chant_7), diff=3, snapped=False, forced=True
+  Alignment:
+    target            0 oc signum . ai do cum dominus adjudi- 36
+                      0 ..  2
+    query             0 ad -i--u-dica-nd---um --ven------erit 21
+
+-- fused_7 --
+  OCR:      'candum vene me que dig  . Noc signum cru'
+  Assigned: 'rit Tunc manifesta erunt abscondita cordis'
+  Words:    [41..46) consumed=5
+  NW score: k=6 (pre-snap), norm=-1.6971
+  Anchor:   word 46 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 candum ven--e me que dig  . Noc signum c-r--u 40
+                      0 ..|--.  6
+    query             0 Tun--c manifesta --erunt absco-ndi--ta cordis 38
+
+-- fused_8 --
+  OCR:      'mo lo cum dominus ad judicandim'
+  Assigned: 'nostri alleluya alleluya Cum sederit filius hominis in sede maiestatis'
+  Words:    [46..56) consumed=10
+  NW score: k=10 (pre-snap), norm=-1.2451
+  Anchor:   word 51 (within_chant_7), diff=5, snapped=False, forced=False
+  Alignment:
+    target            0 mo------------- ----l--o cum --d-------------ominus ad jud--
+                      0 .|-------------
+    query             0 nostri alleluya alleluya Cum sederit filius hominis in sede 
+    
+    target           24 --i--candim 31
+                     15 --|--.|-.|. 26
+    query            60 maiesta-tis 70
+
+-- fused_9 --
+  OCR:      'tit cantmanfeti e mt abscondita cordis'
+  Assigned: 'sue et ceperit iudicare seculum'
+  Words:    [56..61) consumed=5
+  NW score: k=4 (pre-snap), norm=-1.4883
+  Anchor:   word 61 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 ---tit cantmanfeti e mt abscondita cordis------ 38
+                      0 ---..|  6
+    query             0 sue et c-------e--perit ----iudi---care seculum 31
+
+-- fused_10 --
+  OCR:      'Alleluya alle in YaLu sederit'
+  Assigned: 'per ignem Tunc Elena constantini mater'
+  Words:    [61..67) consumed=6
+  NW score: k=6 (pre-snap), norm=-1.6869
+  Anchor:   word 64 (within_chant_7), diff=3, snapped=False, forced=False
+  Alignment:
+    target            0 ----Alle--luya alle-- --------in- YaLu sederit 29
+                      0 ----...|--.|.. 14
+    query             0 per ignem Tunc -Elena constantini ma-----ter-- 38
+
+-- fused_11 --
+  OCR:      'filius hominis in sede majestatis sue et ceperit judicare secu lo. e. Secundi Johannem . inmoterm Grat hon erio'
+  Assigned: 'iherusolimam peciit alleluya ~Dominus regnavit euouae Tunc precepit eos omnes igne cremari at illi timentes tradiderunt'
+  Words:    [67..83) consumed=16
+  NW score: k=16 (pre-snap), norm=-0.8614
+  Anchor:   word 70 (within_chant_7), diff=13, snapped=False, forced=False
+  Alignment:
+    target            0 fi-lius hominis ----in sede---- ---m----ajestatis su---e --e
+                      0 -|-..||--|.|...
+    query             0 -iherus--olimam peciit alleluya ~Dominus regnavit euouae Tun
+    
+    target           39 t ---ceperit judicare secu lo. e. --Se-c--undi Johannem ---.
+                     15 .
+    query            57 c precep--it -------eos--- -omnes igne cremari ---a---t illi
+    
+    target           88  -inm-oterm Grat hon er-io 111
+                     16   16
+    query            98  ti-mente-s tra---diderunt 119
+
+-- fused_12 --
+  OCR:      'omi Sancti Aug episcopi an hoc nostis qoma'
+  Assigned: 'iudam alleluya ~Iubilate'
+  Words:    [83..86) consumed=3
+  NW score: k=3 (pre-snap), norm=-3.1497
+  Anchor:   word 86 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 omi Sancti Aug episcopi an hoc nostis qoma-- 42
+                      0 --|..|---. 10
+    query             0 --iuda---m -alle-----luya----- ~Iubi----late 24
+
+-- fused_13 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [86..86) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_14 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [86..86) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_15 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [86..86) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_16 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [86..86) consumed=0
+  Alignment:
+    (no words left)
+=== END DEBUG ===
+

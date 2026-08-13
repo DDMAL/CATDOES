@@ -1,0 +1,199 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'Damospicis dominica in'
+  [fused_1] 'invitatorium . Preocipemuis faciem ejus . Le prii'
+  [fused_2] 'Nocnero cum qiugentorum annorum esset'
+  [fused_3] 'Semen in ca evovac'
+  [fused_4] 'pat dominus ad noc fi nis universe car'
+  [fused_5] 'ns venit coramme repleta est ter a'
+  [fused_6] 'rum et ego disperdam eos cumra'
+  [fused_7] 'ac tibi archami de lignis levigatimansii'
+  [fused_8] 'Canliometaa oet egor oe mem'
+  [fused_9] 'stus atque perfectus cum deOambulaiit .'
+  [fused_10] 'Et fecit omnia qecumque precepit es de'
+  [fused_11] 'IX sibi archam ut salvaretur unu'
+  [fused_12] 'vensimm men. Et fecit e Quadraginta di'
+  [fused_13] 'noctes i it  ec omn car'
+  [fused_14] 'tehatentem speiitum in temgresi sunt.'
+  [fused_15] 'cham se clansitafo . Atuum d'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'Damospicis dominica in'
+  Assigned: 'semen in ea euouae Dixit dominus ad noe'
+  Words:    [0..8) consumed=8
+  NW score: k=8 (pre-snap), norm=-0.5804
+  Anchor:   word 11 (within_chant_7), diff=3, snapped=False, forced=False
+  Alignment:
+    target            0 Dam-----------o---spicis domin-ica- in-- 22
+                      0 ..|-----------|---..|.|. 24
+    query             0 semen in ea euouae Dixit dominus ad -noe 39
+
+-- fused_1 --
+  OCR:      'invitatorium . Preocipemuis faciem ejus . Le prii'
+  Assigned: 'finis universe car'
+  Words:    [8..11) consumed=3
+  NW score: k=9 (pre-snap), norm=-1.1275
+  Anchor:   word 11 (within_chant_7), diff=6, snapped=False, forced=True
+  Alignment:
+    target            0 -invitatorium . Preocipemuis faciem ejus . Le -pr-ii 49
+                      0 -||-----------------------|| 28
+    query             0 fin-----------------------is -uni--ve-rs----e carnis 21
+
+-- fused_2 --
+  OCR:      'Nocnero cum qiugentorum annorum esset'
+  Assigned: 'nis venit coram me repleta est terra'
+  Words:    [11..17) consumed=6
+  NW score: k=4 (pre-snap), norm=-1.0515
+  Anchor:   word 17 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 Nocnero cum qiugentorum annor----um esset---- 37
+                      0 -..|-..  7
+    query             0 -ven-it c----------oram -me repleta est terra 32
+
+-- fused_3 --
+  OCR:      'Semen in ca evovac'
+  Assigned: 'iniquitate eorum'
+  Words:    [17..19) consumed=2
+  NW score: k=2 (pre-snap), norm=-1.7088
+  Anchor:   word 32 (within_chant_7), diff=13, snapped=False, forced=False
+  Alignment:
+    target            0 Semen in--- ca-- evovac 18
+                      0 ------||---..|-- 16
+    query             0 ------iniquitate e-orum 16
+
+-- fused_4 --
+  OCR:      'pat dominus ad noc fi nis universe car'
+  Assigned: 'Et ego disperdam eos cum terra Fac'
+  Words:    [19..26) consumed=7
+  NW score: k=7 (pre-snap), norm=-0.5842
+  Anchor:   word 32 (within_chant_7), diff=6, snapped=False, forced=False
+  Alignment:
+    target            0 pat -do-minus--- ad noc fi nis -universe car 38
+                      0 -.|  3
+    query             0 -Et ego di--sperdam eo-------s cum terra Fac 34
+
+-- fused_5 --
+  OCR:      'ns venit coramme repleta est ter a'
+  Assigned: 'tibi arcam de lignis levigatis mansiun'
+  Words:    [26..32) consumed=6
+  NW score: k=5 (pre-snap), norm=-1.4716
+  Anchor:   word 32 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 ns venit cor-am-me ----reple----t-a --est ter a- 34
+                      0 ---...|-  8
+    query             0 ---tibi- -arcam de lignis levigatis mansiunculas 43
+
+-- fused_6 --
+  OCR:      'rum et ego disperdam eos cumra'
+  Assigned: 'culas in ea facies Et ego Noe vir iustus atque perfectus cum'
+  Words:    [32..43) consumed=11
+  NW score: k=11 (pre-snap), norm=-0.3230
+  Anchor:   word 40 (within_chant_7), diff=3, snapped=False, forced=False
+  Alignment:
+    target            0 rum e----------t ego -------di----s-------perdam e--os cumra
+                      0 -..
+    query             0 -in ea facies Et ego Noe vir iustus atque per---fectus cum--
+    
+    target           30 
+                      3 
+    query            54 
+
+-- fused_7 --
+  OCR:      'ac tibi archami de lignis levigatimansii'
+  Assigned: 'deo ambulavit Et fecit omnia quecumque precepit ei de'
+  Words:    [43..52) consumed=9
+  NW score: k=11 (pre-snap), norm=-1.4597
+  Anchor:   word 52 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 ac tibi a-rchami- de --li---gnis -------------levigat--i-man
+                      0 ----...
+    query             0 ----deo ambulavit Et fecit omnia quecumque precepi--t ei deu
+    
+    target           37 sii 40
+                      7 |-- 10
+    query            54 s-- 55
+
+-- fused_8 --
+  OCR:      'Canliometaa oet egor oe mem'
+  Assigned: 'us Fecit sibi arcam ut salvaretur universum'
+  Words:    [52..58) consumed=6
+  NW score: k=7 (pre-snap), norm=-1.5606
+  Anchor:   word 58 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 Canliomet------a--a- oet ------egor ---oe mem 27
+                      0 -...|---|------|--|- 20
+    query             0 -Feci---t sibi arcam -ut salvaretur universum 40
+
+-- fused_9 --
+  OCR:      'stus atque perfectus cum deOambulaiit .'
+  Assigned: 'semen Et fecit Quadraginta dies'
+  Words:    [58..63) consumed=5
+  NW score: k=4 (pre-snap), norm=-0.7851
+  Anchor:   word 63 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 s-tus atque perfec-tus cum deOambulaiit- ---. 39
+                      0 |-...  5
+    query             0 semen Et--- ---fecit-- Qu-ad-ra----ginta dies 31
+
+-- fused_10 --
+  OCR:      'Et fecit omnia qecumque precepit es de'
+  Assigned: 'et noctes aperti sunt celi et ex omni carne habentem'
+  Words:    [63..73) consumed=10
+  NW score: k=7 (pre-snap), norm=-0.4302
+  Anchor:   word 73 (within_chant_7), diff=3, snapped=False, forced=True
+  Alignment:
+    target            0 Et --------fe---------c--i--t--- omnia qecumque precepit es 
+                      0 .|
+    query             0 et noctes aperti sunt celi et ex omni- --c-arne -habe-nt-e--
+    
+    target           36 de 38
+                      2 -.  4
+    query            51 -m 52
+
+-- fused_11 --
+  OCR:      'IX sibi archam ut salvaretur unu'
+  Assigned: 'spiritum vite ingressi sunt in archam Et'
+  Words:    [73..80) consumed=7
+  NW score: k=9 (pre-snap), norm=-0.5500
+  Anchor:   word 80 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 -----------IX ------si-----bi- archam ut salvaretur unu 32
+                      0 -----------.. 13
+    query             0 spiritum vite ingressi sunt in archam Et--------------- 40
+
+-- fused_12 --
+  OCR:      'vensimm men. Et fecit e Quadraginta di'
+  Assigned: 'clausit a foris hostium dominus'
+  Words:    [80..85) consumed=5
+  NW score: k=5 (pre-snap), norm=-1.8938
+  Anchor:   word 85 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -vensimm men. Et fecit --e Qu-adraginta di 38
+                      0 -...||------. 13
+    query             0 clausi------t -a foris hostium d-omin---us 31
+
+-- fused_13 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [85..85) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_14 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [85..85) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_15 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [85..85) consumed=0
+  Alignment:
+    (no words left)
+=== END DEBUG ===
+

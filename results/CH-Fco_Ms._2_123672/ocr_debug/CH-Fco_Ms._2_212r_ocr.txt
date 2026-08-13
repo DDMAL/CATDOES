@@ -1,0 +1,201 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'ranciscus envangelicum nec apicem vel jnncum trans'
+  [fused_1] 'greditur nec iota jugo Cpiisti suamus hinc honere villem'
+  [fused_2] 'us inhuius vite rota  Lauduis Pi evovaeic creaturi'
+  [fused_3] 'inxerat qui nutui subjecerat se totum creatoris quicquid'
+  [fused_4] 'ion rebus reperit delectamenti regerit in gloriam factoris p'
+  [fused_5] 'laudd ons evovae stupor et gaudium ojudex'
+  [fused_6] 'homo mentium tu nostre mili die currus et autem riga ignea'
+  [fused_7] 'sentabro fratribus insolari specie vexit'
+  [fused_8] 'quadriga in te signis radians in te ventura nuncians'
+  [fused_9] 'requmenit spititus dup plex prophetarum tu'
+  [fused_10] 'ris pater Francisce miseris nam increscunt genu tuso'
+  [fused_11] 'mir'
+  [fused_12] ''
+  [fused_13] 'mumtuarum P agnificat evovac Aegi'
+  [fused_14] 'anese eit optra xpisto consitean tur cujus insancton'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'ranciscus envangelicum nec apicem vel jnncum trans'
+  Assigned: 'vir euo Franciscus evangelicum nec apicem vel unicum trans'
+  Words:    [0..9) consumed=9
+  NW score: k=9 (pre-snap), norm=5.2223
+  Anchor:   word 9 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ---------ranciscus envangelicum nec apicem vel jnncum trans-
+                      0 ---------|||||||||
+    query             0 vir euo Franciscus e-vangelicum nec apicem vel unicum transg
+    
+    target           50 ------- 50
+                     18 ------- 25
+    query            59 reditur 66
+
+-- fused_1 --
+  OCR:      'greditur nec iota jugo Cpiisti suamus hinc honere villem'
+  Assigned: 'greditur nec iota nil iugo xpisti suavius huic honere nil levi'
+  Words:    [9..19) consumed=10
+  NW score: k=9 (pre-snap), norm=3.7804
+  Anchor:   word 19 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 greditur nec iota---- jugo Cpiisti sua-mus h-inc honere vil-
+                      0 ---------|||
+    query             0 ---------nec iota nil iugo xp-isti suavius hui-c honere nil 
+    
+    target           53 le---m 56
+                     12 ||---. 18
+    query            49 levius 55
+
+-- fused_2 --
+  OCR:      'us inhuius vite rota  Lauduis Pi evovaeic creaturi'
+  Assigned: 'us in huius vite rota ~Laudate pueri euouae Hic creaturis'
+  Words:    [19..28) consumed=9
+  NW score: k=9 (pre-snap), norm=4.5226
+  Anchor:   word 28 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 us in-huius vite rota  Lauduis ---Pi evovae--ic creaturi- 50
+                      0 ---||-||||| 11
+    query             0 ---in huius vite rota ~Laudate pueri euouae Hic creaturis 54
+
+-- fused_3 --
+  OCR:      'inxerat qui nutui subjecerat se totum creatoris quicquid'
+  Assigned: 'imperat qui nutui subiecerat se totum creatoris quicquid'
+  Words:    [28..36) consumed=8
+  NW score: k=8 (pre-snap), norm=7.3036
+  Anchor:   word 36 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 inxerat qui nutui subjecerat se totum creatoris quicquid 56
+                      0 |..||||  7
+    query             0 imperat qui nutui subiecerat se totum creatoris quicquid 56
+
+-- fused_4 --
+  OCR:      'ion rebus reperit delectamenti regerit in gloriam factoris p'
+  Assigned: 'in rebus reperit delectamenti regerit in gloriam factoris'
+  Words:    [36..44) consumed=8
+  NW score: k=8 (pre-snap), norm=7.5067
+  Anchor:   word 44 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ion rebus reperit delectamenti regerit in gloriam factoris p
+                      0 |-|
+    query             0 i-n rebus reperit delectamenti regerit in gloriam factoris--
+    
+    target           60 
+                      3 
+    query            57 
+
+-- fused_5 --
+  OCR:      'laudd ons evovae stupor et gaudium ojudex'
+  Assigned: '~Laudate dominum omnes euouae O stupor et gaudium o iudex'
+  Words:    [44..54) consumed=10
+  NW score: k=10 (pre-snap), norm=4.1371
+  Anchor:   word 54 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -laud----d------ o-n-s evovae-- stupor et gaudium o-judex 41
+                      0 -.|||----|------ 16
+    query             0 ~Laudate dominum omnes euouae O stupor et gaudium o iudex 57
+
+-- fused_6 --
+  OCR:      'homo mentium tu nostre mili die currus et autem riga ignea'
+  Assigned: 'homo mentium tu nostre milicie currus et auriga ignea pre'
+  Words:    [54..64) consumed=10
+  NW score: k=9 (pre-snap), norm=6.9981
+  Anchor:   word 64 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 homo mentium tu nostre mili die currus et autem riga ignea--
+                      0 ||||
+    query             0 homo mentium tu nostre mili-cie currus et au----riga ignea p
+    
+    target           58 ---------- 58
+                      4 ---------- 14
+    query            55 resentibus 65
+
+-- fused_7 --
+  OCR:      'sentabro fratribus insolari specie vexit'
+  Assigned: 'sentibus transfiguratum fratribus in solari specie vexit te'
+  Words:    [64..71) consumed=7
+  NW score: k=6 (pre-snap), norm=4.8664
+  Anchor:   word 71 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 sent-a-----br---o fratribus in-solari specie vexit--- 40
+                      0 ---|-|-----.|---. 17
+    query             0 ---transfiguratum fratribus in solari specie vexit te 50
+
+-- fused_8 --
+  OCR:      'quadriga in te signis radians in te ventura nuncians'
+  Assigned: 'quadriga in te signis radians in te ventura nuncians'
+  Words:    [71..80) consumed=9
+  NW score: k=9 (pre-snap), norm=8.0000
+  Anchor:   word 80 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 quadriga in te signis radians in te ventura nuncians 52
+                      0 ||||||||  8
+    query             0 quadriga in te signis radians in te ventura nuncians 52
+
+-- fused_9 --
+  OCR:      'requmenit spititus dup plex prophetarum tu'
+  Assigned: 'requievit spiritus duplex prophetarum tuis asta poste'
+  Words:    [80..87) consumed=7
+  NW score: k=5 (pre-snap), norm=6.2143
+  Anchor:   word 87 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 requmenit spititus dup plex prophetarum tu---------------- 42
+                      0 ||||.|.||  9
+    query             0 requievit spiritus du--plex prophetarum tuis asta posteris 56
+
+-- fused_10 --
+  OCR:      'ris pater Francisce miseris nam increscunt genu tuso'
+  Assigned: 'ris pater francisce miseris nam increscunt gemitus ovium'
+  Words:    [87..94) consumed=7
+  NW score: k=6 (pre-snap), norm=6.1135
+  Anchor:   word 94 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 ris pater Francisce miseris nam increscunt genu tus-o---- 52
+                      0 ----|||||  9
+    query             0 ----pater francisce miseris nam increscunt ge-mitus ovium 52
+
+-- fused_11 --
+  OCR:      'mir'
+  Assigned: 'tuarum'
+  Words:    [94..95) consumed=1
+  NW score: k=1 (pre-snap), norm=-4.4783
+  Anchor:   word 98 (within_chant_7), diff=3, snapped=False, forced=False
+  Alignment:
+    target            0 -mir-- 3
+                      0 -..|-- 6
+    query             0 tuarum 6
+
+-- fused_12 --
+  OCR:      ''
+  Assigned: '~Magnificat euouae Regi'
+  Words:    [95..98) consumed=3
+
+-- fused_13 --
+  OCR:      'mumtuarum P agnificat evovac Aegi'
+  Assigned: 'que fecit opera christo'
+  Words:    [98..102) consumed=4
+  NW score: k=4 (pre-snap), norm=-1.5971
+  Anchor:   word 107 (page_break_77), diff=5, snapped=False, forced=False
+  Alignment:
+    target            0 mumtuarum P agnificat --evovac Aegi--- 33
+                      0 .|--------. 11
+    query             0 qu--------e ----fecit ope--ra- christo 23
+
+-- fused_14 --
+  OCR:      'anese eit optra xpisto consitean tur cujus insancton'
+  Assigned: 'confiteantur cuius in sancto vulnera'
+  Words:    [102..107) consumed=5
+  NW score: k=4 (pre-snap), norm=2.5159
+  Anchor:   word 107 (page_break_77), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 anese eit optra xpisto consitean tur cujus in-sancto----n---
+                      0 -----------------------|||.|||||-|||
+    query             0 -----------------------confitean-tur cuius in sancto vulnera
+    
+    target           52 
+                     36 
+    query            36 
+=== END DEBUG ===
+

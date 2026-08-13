@@ -1,0 +1,203 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'secundum Johannem Innio trisrus abunt'
+  [fused_1] 'hhe tansmare . Omnel sant Aangnsi episcopii'
+  [fused_2] 'nocti bus Utle gem . Me Miracula que fecit domino me p'
+  [fused_3] 'dida facta u fa Ysi dum respiceret in cum'
+  [fused_4] 'domus V iden acno res claritatem multus'
+  [fused_5] 'jus admirantes valde'
+  [fused_6] 'Lumque descendisset de Monte Synai portabat duas'
+  [fused_7] 'tamulas testimoni iona quod cornuta esset facies ejus'
+  [fused_8] 'monis de bideni ece mitto'
+  [fused_9] 'menni quam precedat te et custodiat semper'
+  [fused_10] 'Obsema et aud vocemme a et mimicus ero'
+  [fused_11] 'is et affligentes te tam et preceret'
+  [fused_12] 'te M ngemo nee Al si me audieris non e'
+  [fused_13] 'ut in te tens recens nem atorabis deum alie numi ego e'
+  [fused_14] 'mnco mn mo solerua tteu dite porileneus'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'secundum Johannem Innio trisrus abunt'
+  Assigned: 'noctibus Ut legem splen'
+  Words:    [0..4) consumed=4
+  NW score: k=6 (pre-snap), norm=-1.4054
+  Anchor:   word 4 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 secundum Johannem ---Innio trisrus abunt 37
+                      0 ..|...|.  8
+    query             0 noctibus Ut legem Splendi---------da---- 27
+
+-- fused_1 --
+  OCR:      'hhe tansmare . Omnel sant Aangnsi episcopii'
+  Assigned: 'dida facta est facies moysi dum respiceret in eum'
+  Words:    [4..12) consumed=8
+  NW score: k=7 (pre-snap), norm=-1.3262
+  Anchor:   word 12 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 hhe tansmare . Omnel sant Aa-----ngnsi -----e-pisc---opi----
+                      0 -...||--------
+    query             0 -facta-------- ---e--s--t facies moysi dum respi-ceret in eu
+    
+    target           42 i 43
+                     14 . 15
+    query            43 m 44
+
+-- fused_2 --
+  OCR:      'nocti bus Utle gem . Me Miracula que fecit domino me p'
+  Assigned: 'dominus Videntes seniores claritatem vultus'
+  Words:    [12..17) consumed=5
+  NW score: k=7 (pre-snap), norm=-0.7087
+  Anchor:   word 17 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 nocti bus Utle gem . Me Mi-r--acula que fecit domino --me p
+                      0 .|-.|-.||
+    query             0 do-mi-nus Vidente--s se-niores c-la-------ritatem--- vultus
+    
+    target           54
+                      9
+    query            43
+
+-- fused_3 --
+  OCR:      'dida facta u fa Ysi dum respiceret in cum'
+  Assigned: 'eius admirantes timuerunt valde Cumque descendisset de monte'
+  Words:    [17..25) consumed=8
+  NW score: k=8 (pre-snap), norm=-0.6855
+  Anchor:   word 21 (within_chant_7), diff=4, snapped=False, forced=False
+  Alignment:
+    target            0 di----da fact-a ------u-- fa Ysi dum--- respice----ret in cu
+                      0 .|----|...|.|-.
+    query             0 eius admirantes timuerunt va-lde Cumque des--cendisset de --
+    
+    target           40 m---- 41
+                     15 |---- 20
+    query            55 monte 60
+
+-- fused_4 --
+  OCR:      'domus V iden acno res claritatem multus'
+  Assigned: 'synai portabat duas'
+  Words:    [25..28) consumed=3
+  NW score: k=4 (pre-snap), norm=-1.4176
+  Anchor:   word 28 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 domus V iden acno res claritatem multus 39
+                      0 ----|...|--- 12
+    query             0 ----synai--- --po-r----ta--bat-- du--as 19
+
+-- fused_5 --
+  OCR:      'jus admirantes valde'
+  Assigned: 'tabulas testimonii ignorans quod cornuta effet facies eius'
+  Words:    [28..36) consumed=8
+  NW score: k=4 (pre-snap), norm=-0.9487
+  Anchor:   word 36 (within_chant_7), diff=4, snapped=False, forced=True
+  Alignment:
+    target            0 --ju--s ---adm-----i---ran------------t-----es valde------ 20
+                      0 --.|--|  7
+    query             0 tabulas testimonii ignorans quod cornuta effet facies eius 58
+
+-- fused_6 --
+  OCR:      'Lumque descendisset de Monte Synai portabat duas'
+  Assigned: 'ex consortio sermonis dei Videntes Ecce mitto'
+  Words:    [36..43) consumed=7
+  NW score: k=5 (pre-snap), norm=-1.2872
+  Anchor:   word 43 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 Lumque- descen---di-sse-----t de- --Monte- Synai portabat du
+                      0 -----|-
+    query             0 -----ex ---consortio sermonis dei Videntes -Ecce -mit---t---
+    
+    target           46 as 48
+                      7 -.  9
+    query            44 -o 45
+
+-- fused_7 --
+  OCR:      'tamulas testimoni iona quod cornuta esset facies ejus'
+  Assigned: 'angelum meum qui precedat te et custodiat semper'
+  Words:    [43..51) consumed=8
+  NW score: k=7 (pre-snap), norm=-1.2013
+  Anchor:   word 51 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 ta-mulas testimoni iona quod cor-nuta- -esset fac-----ies -e
+                      0 -|-..|..
+    query             0 -angelum me--um-------- qu-i -precedat te- et --custodiat se
+    
+    target           50 -jus 53
+                      8 -... 12
+    query            44 mper 48
+
+-- fused_8 --
+  OCR:      'monis de bideni ece mitto'
+  Assigned: 'Observa et audi vocem meam et inimicus ero inimicis tuis et affligentes te affligam et precedet'
+  Words:    [51..67) consumed=16
+  NW score: k=6 (pre-snap), norm=-0.8542
+  Anchor:   word 67 (within_chant_7), diff=10, snapped=False, forced=True
+  Alignment:
+    target            0 ---------------------------------m-------o--n----is ----de- 
+                      0 ---------------------------------|-------|--|----||
+    query             0 Observa et audi vocem meam et inimicus ero inimicis tuis et 
+    
+    target            9 ---biden-----------i------ --ece mitto 25
+                     51 ---.|.||-----------|------ 77
+    query            60 affligentes te affligam et prece--det- 95
+
+-- fused_9 --
+  OCR:      'menni quam precedat te et custodiat semper'
+  Assigned: 'te angelus meus Israhel si me audieris non e'
+  Words:    [67..76) consumed=9
+  NW score: k=7 (pre-snap), norm=-1.0763
+  Anchor:   word 76 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 me-nni qu-am--- -precedat te -et custodi--at semper-- 42
+                      0 .|-.|...|-.|--- 15
+    query             0 te angelus meus Israhe--l si me- au---dieris non erit 47
+
+-- fused_10 --
+  OCR:      'Obsema et aud vocemme a et mimicus ero'
+  Assigned: 'rit in te deus recens neque adorabis deum alienum ego e'
+  Words:    [76..86) consumed=10
+  NW score: k=9 (pre-snap), norm=-0.8111
+  Anchor:   word 86 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 Obsema -et -aud voc-----emme a------- -e-t -mimicus ero-----
+                      0 ----..
+    query             0 ----in te- deus recens neque adorabis deum ali-enum ego enim
+    
+    target           38 
+                      6 
+    query            54 
+
+-- fused_11 --
+  OCR:      'is et affligentes te tam et preceret'
+  Assigned: 'nim dominus Observa Attendite popule meus'
+  Words:    [86..91) consumed=5
+  NW score: k=5 (pre-snap), norm=-1.4796
+  Anchor:   word 91 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ---i--s ---et affligen--tes ----te tam et preceret 36
+                      0 ---|--|  7
+    query             0 dominus Observa- Attendite- popule --m--------e-us 37
+
+-- fused_12 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [91..91) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_13 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [91..91) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_14 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [91..91) consumed=0
+  Alignment:
+    (no words left)
+=== END DEBUG ===
+

@@ -1,0 +1,167 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] ' bnedus egressus sum de utero matri'
+  [fused_1] 'me emidus revertaruc Dominus  intequam'
+  [fused_2] 'comedam suspiro et tanquam mundantis aque'
+  [fused_3] 'sic Rugitus meus qumor quem ti mebam'
+  [fused_4] 'evenit michi et quod verebar ac'
+  [fused_5] 'mi  in nome silnoe qe Et venit'
+  [fused_6] 'super me indig nati ce non esi'
+  [fused_7] 'necessarii quoque mei reces'
+  [fused_8] 'nnc meEt venit Quare detraristis'
+  [fused_9] 'sermonibus .onta ti Adum nerbas'
+  [fused_10] 'po tis et suberte mmin an'
+  [fused_11] 'cum vestrum . Verumpta men que cogita tisex'
+  [fused_12] 'pletex  vodistum est jndica eetnon mue'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'bnedus egressus sum de utero matri'
+  Assigned: 'domini benedictum Nudus egressus sum de utero matris'
+  Words:    [0..8) consumed=8
+  NW score: k=8 (pre-snap), norm=4.8041
+  Anchor:   word 8 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -------b-ne---------dus egressus sum de utero matri- 34
+                      0 -------|-||---------||| 23
+    query             0 domini benedictum Nudus egressus sum de utero matris 52
+
+-- fused_1 --
+  OCR:      'me emidus revertaruc Dominus  intequam'
+  Assigned: 'mee nudus revertar illuc Dominus Antequam'
+  Words:    [8..14) consumed=6
+  NW score: k=6 (pre-snap), norm=5.3710
+  Anchor:   word 14 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 m-e emidus revertar----uc Dominus  intequam 38
+                      0 |-|  3
+    query             0 mee -nudus revertar illuc Dominus- Antequam 41
+
+-- fused_2 --
+  OCR:      'comedam suspiro et tanquam mundantis aque'
+  Assigned: 'comedam suspiro et tamquam inundantis aque'
+  Words:    [14..20) consumed=6
+  NW score: k=6 (pre-snap), norm=7.1089
+  Anchor:   word 20 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 comedam suspiro et tanquam -mundantis aque 41
+                      0 |||||||  7
+    query             0 comedam suspiro et tamquam inundantis aque 42
+
+-- fused_3 --
+  OCR:      'sic Rugitus meus qumor quem ti mebam'
+  Assigned: 'sic rugitus meus quia timor quem timebam evenit'
+  Words:    [20..28) consumed=8
+  NW score: k=7 (pre-snap), norm=6.3509
+  Anchor:   word 28 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 sic Rugitus meus qu-----mor quem ti mebam------- 36
+                      0 |||  3
+    query             0 sic rugitus meus quia timor quem ti-mebam evenit 47
+
+-- fused_4 --
+  OCR:      'evenit michi et quod verebar ac'
+  Assigned: 'michi et quod verebar accidit nonne dissimulavi nonne silui'
+  Words:    [28..37) consumed=9
+  NW score: k=4 (pre-snap), norm=5.0951
+  Anchor:   word 37 (within_chant_7), diff=5, snapped=False, forced=True
+  Alignment:
+    target            0 evenit michi et quod verebar ac-----------------------------
+                      0 -------|||||
+    query             0 -------michi et quod verebar accidit nonne dissimulavi nonne
+    
+    target           31 ------ 31
+                     12 ------ 18
+    query            53  silui 59
+
+-- fused_5 --
+  OCR:      'mi  in nome silnoe qe Et venit'
+  Assigned: 'nonne quievi Et venit super'
+  Words:    [37..42) consumed=5
+  NW score: k=4 (pre-snap), norm=2.2311
+  Anchor:   word 42 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 mi  in nome silnoe q--e-- Et venit------ 30
+                      0 -------||------|.| 18
+    query             0 -------no------nne quievi Et venit super 27
+
+-- fused_6 --
+  OCR:      'super me indig nati ce non esi'
+  Assigned: 'me indignatio Ecce non est'
+  Words:    [42..47) consumed=5
+  NW score: k=5 (pre-snap), norm=4.4757
+  Anchor:   word 47 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 super me indig nati- --ce non esi 30
+                      0 ------||  8
+    query             0 ------me indig-natio Ecce non est 26
+
+-- fused_7 --
+  OCR:      'necessarii quoque mei reces'
+  Assigned: 'auxilium michi in me et necessarii quoque mei recesse'
+  Words:    [47..56) consumed=9
+  NW score: k=9 (pre-snap), norm=3.0079
+  Anchor:   word 56 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ------------------------necessarii quoque mei reces------ 27
+                      0 ------------------------|||||||||| 34
+    query             0 auxilium michi in me et necessarii quoque mei recesserunt 57
+
+-- fused_8 --
+  OCR:      'nnc meEt venit Quare detraristis'
+  Assigned: 'runt a me Et venit Quare detraxistis'
+  Words:    [56..62) consumed=6
+  NW score: k=6 (pre-snap), norm=6.2548
+  Anchor:   word 62 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 nnc me-Et venit Quare detraristis 32
+                      0 --.  3
+    query             0 --a me Et venit Quare detraxistis 31
+
+-- fused_9 --
+  OCR:      'sermonibus .onta ti Adum nerbas'
+  Assigned: 'sermonibus veritatis ad increpandum verba componitis et'
+  Words:    [62..69) consumed=7
+  NW score: k=5 (pre-snap), norm=2.9452
+  Anchor:   word 69 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 sermonibus -.onta ti---- -------Adum nerba----------s--- 31
+                      0 |||||||||| 10
+    query             0 sermonibus verita-tis ad increpandum verba componitis et 55
+
+-- fused_10 --
+  OCR:      'po tis et suberte mmin an'
+  Assigned: 'subvertere nitimini amicum ve'
+  Words:    [69..73) consumed=4
+  NW score: k=3 (pre-snap), norm=0.2746
+  Anchor:   word 73 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 po tis et sub-ert--e ---mmin- a------------n 25
+                      0 ----------|||-|||--| 20
+    query             0 ----------subvertere nitimini amicum vestrum 34
+
+-- fused_11 --
+  OCR:      'cum vestrum . Verumpta men que cogita tisex'
+  Assigned: 'strum Verumptamen que cogitastis ex'
+  Words:    [73..77) consumed=4
+  NW score: k=3 (pre-snap), norm=3.9478
+  Anchor:   word 77 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 cum vestrum . Verumpta men que cogita tis-ex----- 43
+                      0 --------------||||||||-||| 26
+    query             0 --------------Verumpta-men que cogitastis explete 34
+
+-- fused_12 --
+  OCR:      'pletex  vodistum est jndica eetnon mue'
+  Assigned: 'plete Quod iustum est iudicate et non inve'
+  Words:    [77..84) consumed=7
+  NW score: k=6 (pre-snap), norm=2.3891
+  Anchor:   word 84 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 pletex  vod-i-stum est jndica e-et-non ----mue--- 38
+                      0 -------..||-|-|||| 18
+    query             0 -------Quod iustum est iudicate et non invenietis 42
+=== END DEBUG ===
+

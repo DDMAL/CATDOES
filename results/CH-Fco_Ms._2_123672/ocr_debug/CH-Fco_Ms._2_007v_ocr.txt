@@ -1,0 +1,219 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'Domne P adtedieq judicame orelicis'
+  [fused_1] 'caiis Regiseclorum Capilisto de sepu domini'
+  [fused_2] 'ad octabas pentetose Raus . a pascham linglis diebitis Piste miserere nobis'
+  [fused_3] 'inventurus es in mundimi miserere . Dioria patri et filio'
+  [fused_4] 'et spintui Sancto irg pse adina noser'
+  [fused_5] 'Lipueis e fetis Nynei . Dem patin et credo et preces aor'
+  [fused_6] 'Doine de omit . Hetornn mutas per totum anum officium prime'
+  [fused_7] 'nos propter nomentuum deelis oapsams iepchi scans potona daio'
+  [fused_8] 'dcett et apias chauspn ao cet'
+  [fused_9] 'emi ad liberandum nos domine dictus virtutum'
+  [fused_10] 'stende faciem tuam et salvim erimus Domine Diona patri et filio et'
+  [fused_11] 'animebunt gentes nomentuum domine'
+  [fused_12] 's reges terre gloriam tuam. sten'
+  [fused_13] 'teien tome mseantidonium cumd lee santnte term dimiii'
+  [fused_14] 'Ansentori emento nostri domine in beneplacito'
+  [fused_15] 'ad ixa a e'
+  [fused_16] 'veniet capilis Ror'
+  [fused_17] 'in comessation'
+  [fused_18] 'tormet Viltonos insantanno vii'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'Domne P adtedieq judicame orelicis'
+  Assigned: 'Xpiste fili dei vivi miserere nobis'
+  Words:    [0..6) consumed=6
+  NW score: k=6 (pre-snap), norm=-0.9566
+  Anchor:   word 6 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -Domne ---P adtedieq judicam--e ore-licis 34
+                      0 -....|  6
+    query             0 Xpiste fili -d-e-i-- vivi- miserere nobis 35
+
+-- fused_1 --
+  OCR:      'caiis Regiseclorum Capilisto de sepu domini'
+  Assigned: 'Qui venturus es in mundum Miserere Qui sedes ad'
+  Words:    [6..15) consumed=9
+  NW score: k=9 (pre-snap), norm=-1.3569
+  Anchor:   word 22 (within_chant_7), diff=7, snapped=False, forced=False
+  Alignment:
+    target            0 cai-------is Re-giseclorum Capilisto de---- se-pu -domini 43
+                      0 ..|-------.| 12
+    query             0 Qui venturus -es in mundum ----Miserere Qui sedes ad----- 47
+
+-- fused_2 --
+  OCR:      'ad octabas pentetose Raus . a pascham linglis diebitis Piste miserere nobis'
+  Assigned: 'dexteram patris Miserere Gloria patri et filio et spiritui sancto Xpiste fili Exurge xpiste'
+  Words:    [15..29) consumed=14
+  NW score: k=14 (pre-snap), norm=-0.5447
+  Anchor:   word 22 (within_chant_7), diff=7, snapped=False, forced=False
+  Alignment:
+    target            0 ad octabas pent-------etose Raus . a pa-scham linglis ----di
+                      0 -|-..|..|.
+    query             0 -d-exteram p-atris Miserere --Gloria patri et fi--lio et spi
+    
+    target           48 ebit-i-s----- -Piste --miserer-e nobis-- 75
+                     10 -.||-|-|----- 23
+    query            53 -ritui sancto Xpiste fili Exurge -xpiste 91
+
+-- fused_3 --
+  OCR:      'inventurus es in mundimi miserere . Dioria patri et filio'
+  Assigned: 'adiuva nos Et libera nos propter nomen tuum Veni ad liberandum nos domine deus virtutum Ostende faciem tuam et salvi erimus Domine Gloria patri et filio'
+  Words:    [29..55) consumed=26
+  NW score: k=26 (pre-snap), norm=-0.4942
+  Anchor:   word 33 (within_chant_7), diff=22, snapped=False, forced=False
+  Alignment:
+    target            0 --inv-------------------------------en-tu---------------r---
+                      0 --|.|-------------------------------||-||---------------|---
+    query             0 adiuva nos Et libera nos propter nomen tuum Veni ad liberand
+    
+    target            8 us -es ---in------ -------m----und-----i-mi ---m--------iser
+                     60 |.
+    query            60 um nos domine deus virtutum Ostende faciem- tuam et salvi er
+    
+    target           30 ere . D--i-----oria patri et filio  57
+                     62 -....  67
+    query           119 -imus Domine Gloria patri et filio 152
+
+-- fused_4 --
+  OCR:      'et spintui Sancto irg pse adina noser'
+  Assigned: 'et'
+  Words:    [55..56) consumed=1
+  NW score: k=5 (pre-snap), norm=2.5148
+  Anchor:   word 56 (within_chant_7), diff=4, snapped=False, forced=True
+  Alignment:
+    target            0 et spintui Sancto irg pse adina noser 37
+                      0 ||----------------------------------- 37
+    query             0 et-----------------------------------  2
+
+-- fused_5 --
+  OCR:      'Lipueis e fetis Nynei . Dem patin et credo et preces aor'
+  Assigned: 'spiritui sancto Veni ad Timebunt gentes nomen tuum domine Et omnes reges terre'
+  Words:    [56..69) consumed=13
+  NW score: k=13 (pre-snap), norm=-0.3631
+  Anchor:   word 65 (within_chant_7), diff=4, snapped=False, forced=False
+  Alignment:
+    target            0 ---Lipu----------e-i--s ---e---- fe-tis Nyn--ei . Dem patin-
+                      0 ---.|.|----------|-|--.
+    query             0 spiritui sancto Veni ad Timebunt gentes --nomen -tuum domine
+    
+    target           33  et credo- et preces aor-- 56
+                     23  23
+    query            57  Et ----omnes -reges terre 78
+
+-- fused_6 --
+  OCR:      'Doine de omit . Hetornn mutas per totum anum officium prime'
+  Assigned: 'gloriam tuam Ostende nobis domine misericordiam tuam Et salutare tuum da nobis Misericordiam Gloria'
+  Words:    [69..83) consumed=14
+  NW score: k=14 (pre-snap), norm=-0.7066
+  Anchor:   word 72 (within_chant_7), diff=11, snapped=False, forced=False
+  Alignment:
+    target            0 -Do-i----------ne de -------omi-t . He--tor--nn ---m-------u
+                      0 -.|-|----------.|.||
+    query             0 gloriam tuam Ostende nobis domine misericordiam tuam Et salu
+    
+    target           26 tas per totum -a-n--um --offic---ium --prime 59
+                     20 ||--.|- 27
+    query            60 ta--re- t-uum da nobis Misericordiam Glori-a 99
+
+-- fused_7 --
+  OCR:      'nos propter nomentuum deelis oapsams iepchi scans potona daio'
+  Assigned: '{patri} Memento nostri domine in beneplacito populi tui Visita nos in salutari tuo'
+  Words:    [83..96) consumed=13
+  NW score: k=13 (pre-snap), norm=-0.9191
+  Anchor:   word 89 (within_chant_7), diff=7, snapped=False, forced=False
+  Alignment:
+    target            0 ------------n-os propter- nomentuum de-e-l--i-s -oapsams iep
+                      0 ------------|-|-
+    query             0 {patri} Memento- -nost-ri domine in beneplacito po-p---uli- 
+    
+    target           40 chi --s-ca-n-s potona da-----i---o 61
+                     16 ..| 19
+    query            52 tui Visita nos ---in- salutari tuo 82
+
+-- fused_8 --
+  OCR:      'dcett et apias chauspn ao cet'
+  Assigned: 'Super'
+  Words:    [96..97) consumed=1
+  NW score: k=1 (pre-snap), norm=-5.8132
+  Anchor:   word 97 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 dcett et apias chauspn ao cet 29
+                      0 -----------------.|-|------|. 29
+    query             0 -----------------Su-p------er  5
+
+-- fused_9 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [97..97) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_10 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [97..97) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_11 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [97..97) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_12 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [97..97) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_13 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [97..97) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_14 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [97..97) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_15 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [97..97) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_16 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [97..97) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_17 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [97..97) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_18 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [97..97) consumed=0
+  Alignment:
+    (no words left)
+=== END DEBUG ===
+

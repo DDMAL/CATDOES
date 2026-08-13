@@ -1,0 +1,249 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'dominicaifra Cobascensi totum officiali fit sic t ascensione'
+  [fused_1] 'pretecapilela ad mn acoseir ad bendictos  . cuveni'
+  [fused_2] 'paditus X . de Ascensione ad magistri  et logntus sum vobis'
+  [fused_3] 'ut cum venerit hora quoorum reminiscanumi quia ego dixi'
+  [fused_4] 'in vigla Pentecost ad vesper a dum apoleret con relia'
+  [fused_5] 'pris dix domino in fine laudate dominim aies getes'
+  [fused_6] 'sit ons'
+  [fused_7] 'vobisAlleluya evovac'
+  [fused_8] 'on vos relinquam orphanos Alleluya t venio'
+  [fused_9] 'advos alsenps et gandebit coml vestitm alieluna eoorae'
+  [fused_10] 'Lem p spiritus domini replevit orsemum'
+  [fused_11] 'rarum venite adoremus ale'
+  [fused_12] '.i'
+  [fused_13] 'actus est repente de Celosomisadvenentis'
+  [fused_14] 'spiritus Vehementis Alleluya Allelvya p Magnus do'
+  [fused_15] 'onaequod operatus es in no'
+  [fused_16] 'batis a Templo Sancto tuo quod est in Jherusalem aneluya'
+  [fused_17] 'y pturgat eovac mitte spiritum tu'
+  [fused_18] 'um et crrabuntur et renonabis facem terre allelusa'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'dominicaifra Cobascensi totum officiali fit sic t ascensione'
+  Assigned: 'Hec loquutus sum vobis'
+  Words:    [0..4) consumed=4
+  NW score: k=12 (pre-snap), norm=-1.2257
+  Anchor:   word 4 (within_chant_7), diff=8, snapped=False, forced=True
+  Alignment:
+    target            0 dominicaifra Cobascensi totum -officiali fit sic t ascension
+                      0 ----..|-----
+    query             0 ----Hec----- lo-quutus- --sum vo-------------bi---------s---
+    
+    target           59 e 60
+                     12 - 13
+    query            22 - 22
+
+-- fused_1 --
+  OCR:      'pretecapilela ad mn acoseir ad bendictos  . cuveni'
+  Assigned: 'ut cum venerit hora eorum reminiscamini quia ego dixi'
+  Words:    [4..13) consumed=9
+  NW score: k=6 (pre-snap), norm=-1.4267
+  Anchor:   word 13 (within_chant_7), diff=3, snapped=False, forced=True
+  Alignment:
+    target            0 pretecapilela ad mn acoseir ad be--ndi-ctos  . cu--ve-----ni
+                      0 --.|.|....|.....
+    query             0 --ut cum venerit hora-- eor-um remin-isc-amini quia ego dixi
+    
+    target           50 
+                     16 
+    query            53 
+
+-- fused_2 --
+  OCR:      'paditus X . de Ascensione ad magistri  et logntus sum vobis'
+  Assigned: 'vobis alleluya euouae Non vos relinquam orphanos alleluya vado et venio'
+  Words:    [13..24) consumed=11
+  NW score: k=13 (pre-snap), norm=-1.3562
+  Anchor:   word 24 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 paditus -------X --. de -----As-censione ad ---magistri -- e
+                      0 ...|--|
+    query             0 vobi--s alleluya euouae Non vos re-li-nquam orphanos--- alle
+    
+    target           40 ---t --logntus sum vobis 59
+                      7 ---. 11
+    query            53 luya vado et------ venio 71
+
+-- fused_3 --
+  OCR:      'ut cum venerit hora quoorum reminiscanumi quia ego dixi'
+  Assigned: 'ad vos alleluya et gaudebit cor vestrum alleluya euouae'
+  Words:    [24..33) consumed=9
+  NW score: k=9 (pre-snap), norm=-0.8727
+  Anchor:   word 33 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ut --------cu-m ve-----nerit hora quoorum reminiscanumi quia
+                      0 ..
+    query             0 ad vos alleluya -et gaudebit cor- vestrum --------a--lleluya
+    
+    target           46  ego dixi 55
+                      2   2
+    query            48  euo--uae 55
+
+-- fused_4 --
+  OCR:      'in vigla Pentecost ad vesper a dum apoleret con relia'
+  Assigned: 'Alleluya Spiritus domini replevit orbem'
+  Words:    [33..38) consumed=5
+  NW score: k=6 (pre-snap), norm=-1.3482
+  Anchor:   word 38 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 in vigla Pentecost ad vesper-- a dum--- -apoleret con r-elia
+                      0 -----.|-----.|--...|-
+    query             0 -----Al-----le--luya- --Spiritus domini rep-levit -o--rbe--m
+    
+    target           53 
+                     21 
+    query            39 
+
+-- fused_5 --
+  OCR:      'pris dix domino in fine laudate dominim aies getes'
+  Assigned: 'terrarum Venite adoremus alleluya ~Venite Factus est repente'
+  Words:    [38..46) consumed=8
+  NW score: k=8 (pre-snap), norm=-1.0042
+  Anchor:   word 43 (within_chant_7), diff=3, snapped=False, forced=False
+  Alignment:
+    target            0 ----pris --di-x -do--mino in fine laudate domini-m -a----ies
+                      0 ----.|..
+    query             0 terrarum Venite adorem----us alle-l-uya-- -~Venite Factus es
+    
+    target           44 - ge---tes 50
+                      8 -  9
+    query            51 t repente- 60
+
+-- fused_6 --
+  OCR:      'sit ons'
+  Assigned: 'de celo sonus advenientis'
+  Words:    [46..50) consumed=4
+  NW score: k=3 (pre-snap), norm=-1.3628
+  Anchor:   word 50 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 ----sit -on-------------s  7
+                      0 ----...  7
+    query             0 de celo sonus advenientis 25
+
+-- fused_7 --
+  OCR:      'vobisAlleluya evovac'
+  Assigned: 'spiritus vehementis alleluya alleluya ~Magnus'
+  Words:    [50..55) consumed=5
+  NW score: k=4 (pre-snap), norm=-0.1103
+  Anchor:   word 55 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 ---------v-----obis-Alleluya ---evova-------c 20
+                      0 ---------|-----..||-.||||||| 28
+    query             0 spiritus vehementis alleluya alleluya ~Magnus 45
+
+-- fused_8 --
+  OCR:      'on vos relinquam orphanos Alleluya t venio'
+  Assigned: 'dominus euouae Confirma hoc deus quod operatus es in nobis'
+  Words:    [55..65) consumed=10
+  NW score: k=9 (pre-snap), norm=-1.0485
+  Anchor:   word 65 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 ----------------on----- vos relinquam orp-hanos Alleluya -t 
+                      0 ----------------||-----
+    query             0 dominus euouae Confirma hoc deus quod o-peratus ---e---s in 
+    
+    target           37 ven--io 42
+                     23 --|--|. 30
+    query            53 --nobis 58
+
+-- fused_9 --
+  OCR:      'advos alsenps et gandebit coml vestitm alieluna eoorae'
+  Assigned: 'a templo sancto tuo quod est in iherusalem alleluya'
+  Words:    [65..74) consumed=9
+  NW score: k=10 (pre-snap), norm=-0.0878
+  Anchor:   word 74 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 advos alsenps et gandebit-- -coml vest----i-------tm alielun
+                      0 |----
+    query             0 a---- --temp--lo sancto tuo quo-d -est in iherusalem alleluy
+    
+    target           46 a eoorae 54
+                      5 |------- 13
+    query            50 a------- 51
+
+-- fused_10 --
+  OCR:      'Lem p spiritus domini replevit orsemum'
+  Assigned: 'alleluya ~Exurgat euouae Emitte spiritum tu'
+  Words:    [74..80) consumed=6
+  NW score: k=8 (pre-snap), norm=-1.0982
+  Anchor:   word 80 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 ----------------------Le--m-- p spiritus domini replevit ors
+                      0 ----------------------.|--|--..
+    query             0 alleluya ~Exurgat euouae Emitte spiritu----m--- -------t----
+    
+    target           34 emum 38
+                     31 -.|| 35
+    query            42 -uum 45
+
+-- fused_11 --
+  OCR:      'rarum venite adoremus ale'
+  Assigned: 'um et creabuntur et renovabis faciem terre alleluya'
+  Words:    [80..87) consumed=7
+  NW score: k=5 (pre-snap), norm=-1.0793
+  Anchor:   word 87 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 ----r-aru------m ven----i-----te- adoremus a-le---- 25
+                      0 ----|-|.|------. 16
+    query             0 et creabuntur et renovabis faciem terre--- alleluya 48
+
+-- fused_12 --
+  OCR:      '.i'
+  Assigned: 'alleluya'
+  Words:    [87..88) consumed=1
+  NW score: k=1 (pre-snap), norm=-8.0000
+  Alignment:
+    target            0 ------.i 2
+                      0 ------.. 8
+    query             0 alleluya 8
+
+-- fused_13 --
+  OCR:      'actus est repente de Celosomisadvenentis'
+  Assigned: '~Benedic anima ii euouae'
+  Words:    [88..92) consumed=4
+  NW score: k=4 (pre-snap), norm=-2.7434
+  Alignment:
+    target            0 actus e-st repen-te de Celosomisadvenentis 40
+                      0 --....|-.. 10
+    query             0 --~Benedic ---anima ii -euo----ua----e---- 24
+
+-- fused_14 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [92..92) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_15 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [92..92) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_16 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [92..92) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_17 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [92..92) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_18 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [92..92) consumed=0
+  Alignment:
+    (no words left)
+=== END DEBUG ===
+

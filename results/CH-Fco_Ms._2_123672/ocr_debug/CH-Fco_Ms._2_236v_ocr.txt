@@ -1,0 +1,209 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'm dc Benedicinis evovae a'
+  [fused_1] 'artorum chorus laudate dominum de Celis Aveluya'
+  [fused_2] 'Lauds evovae. Bestris capilli capitis omnes'
+  [fused_3] 'nmenati suent nonte tumenre miustio passetbus meliores escis'
+  [fused_4] 'nos cume Letamini in domino et exultate justi p V. eciatet instiicion'
+  [fused_5] 'Ppectu Di etdelecti'
+  [fused_6] 'Et gloriamum omnes recti corde Bla tureleticia ad vi e Raltet'
+  [fused_7] 'justi in conspectu Deitdelectentur in letic a sa'
+  [fused_8] ''
+  [fused_9] 'usti autem imperpetuum vivent  V. Ecultaontia'
+  [fused_10] 'glia . leta'
+  [fused_11] 'minum est mercescrumioria vmnitur ad vespa a funt'
+  [fused_12] 'Liicti an pro testamento dei suna coporam tuadice runt et'
+  [fused_13] 'in sanguine agni laverunt stolas suas pd . dixit dominus'
+  [fused_14] 'ancti per fidem vicerunt regna operati sunt justici'
+  [fused_15] 'i adrti sunt repromislioneconsitebor erona'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'm dc Benedicinis evovae a'
+  Assigned: 'dominum benedicite in eternum'
+  Words:    [0..4) consumed=4
+  NW score: k=4 (pre-snap), norm=0.3343
+  Anchor:   word 13 (within_chant_7), diff=9, snapped=False, forced=False
+  Alignment:
+    target            0 --m- dc Benedici--nis evovae-- a 25
+                      0 --|-...  7
+    query             0 dominum benedicite in e---ternum 29
+
+-- fused_1 --
+  OCR:      'artorum chorus laudate dominum de Celis Aveluya'
+  Assigned: '~Benedicam euouae Martyrum chorus laudate dominum de celis alleluya'
+  Words:    [4..13) consumed=9
+  NW score: k=9 (pre-snap), norm=4.5620
+  Anchor:   word 13 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -------------------artorum chorus laudate dominum de Celis -
+                      0 -------------------|||.|||
+    query             0 ~Benedicam euouae Martyrum chorus laudate dominum de celis a
+    
+    target           40 Aveluya 47
+                     26 ..||||| 33
+    query            60 lleluya 67
+
+-- fused_2 --
+  OCR:      'Lauds evovae. Bestris capilli capitis omnes'
+  Assigned: '~Laudate euouae Vestri capilli capitis omnes'
+  Words:    [13..19) consumed=6
+  NW score: k=6 (pre-snap), norm=5.6326
+  Anchor:   word 19 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -Laud--s evovae. Bestris capilli capitis omnes 43
+                      0 -||||--.  8
+    query             0 ~Laudate euouae- Vestri- capilli capitis omnes 44
+
+-- fused_3 --
+  OCR:      'nmenati suent nonte tumenre miustio passetbus meliores escis'
+  Assigned: 'numerati sunt nolite timere multis passeribus meliores estis'
+  Words:    [19..27) consumed=8
+  NW score: k=8 (pre-snap), norm=5.3833
+  Anchor:   word 27 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 n-menati suent no-nte tumenre miustio passe-tbus meliores es
+                      0 |-||.|||
+    query             0 numerati su-nt nolite time-re m-ultis passeribus meliores es
+    
+    target           57 cis 60
+                      8 .|| 11
+    query            57 tis 60
+
+-- fused_4 --
+  OCR:      'nos cume Letamini in domino et exultate justi p V. eciatet instiicion'
+  Assigned: 'vos euouae Letamini in domino et exultate iusti'
+  Words:    [27..35) consumed=8
+  NW score: k=10 (pre-snap), norm=4.1309
+  Anchor:   word 35 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 nos --cume Letamini in domino et exultate justi p V. eciatet
+                      0 .||
+    query             0 vos euouae Letamini in domino et exultate iusti-------------
+    
+    target           58  instiicion 69
+                      3 ----------- 14
+    query            47 ----------- 47
+
+-- fused_5 --
+  OCR:      'Ppectu Di etdelecti'
+  Assigned: 'Et gloriamini omnes recti'
+  Words:    [35..39) consumed=4
+  NW score: k=4 (pre-snap), norm=-0.7341
+  Anchor:   word 42 (within_chant_7), diff=3, snapped=False, forced=False
+  Alignment:
+    target            0 Ppectu --------Di etde--lecti 19
+                      0 ---.|-  6
+    query             0 ---Et- gloriamini omnes recti 25
+
+-- fused_6 --
+  OCR:      'Et gloriamum omnes recti corde Bla tureleticia ad vi e Raltet'
+  Assigned: 'corde Gloria Exultent iusti in conspectu dei Et delectentur in leticia Gloria Justi autem'
+  Words:    [39..53) consumed=14
+  NW score: k=14 (pre-snap), norm=0.3122
+  Anchor:   word 42 (within_chant_7), diff=11, snapped=False, forced=False
+  Alignment:
+    target            0 ---Et gloria----------mu-----m -omnes rect----i corde Bl---a
+                      0 ---..
+    query             0 corde Gloria Exultent iusti in co-n-s-pectu dei Et de--lecte
+    
+    target           34  tur---eleticia -----ad ---vi e Raltet 61
+                      5 .|||---.||||||| 20
+    query            55 ntur in leticia Gloria- Justi ---autem 89
+
+-- fused_7 --
+  OCR:      'justi in conspectu Deitdelectentur in letic a sa'
+  Assigned: 'im perpetuum vivent Et apud do'
+  Words:    [53..59) consumed=6
+  NW score: k=7 (pre-snap), norm=-0.9707
+  Anchor:   word 59 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 justi in conspectu-- Deitdelectentur in letic a--- -----sa 48
+                      0 ------|.  8
+    query             0 ------im -perpe-tuum -vi------vent----- -Et-- apud dominum 35
+
+-- fused_8 --
+  OCR:      ''
+  Assigned: 'minum est merces eorum Gloria Isti sunt'
+  Words:    [59..65) consumed=6
+
+-- fused_9 --
+  OCR:      'usti autem imperpetuum vivent  V. Ecultaontia'
+  Assigned: 'sancti qui pro testamento dei sua corpora tradiderunt et'
+  Words:    [65..74) consumed=9
+  NW score: k=7 (pre-snap), norm=-0.4423
+  Anchor:   word 74 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 us---ti autem imper--pe-tuum vivent- --- -V. Ec-----ult-a---
+                      0 -|---||
+    query             0 -sancti qu----i p-ro test-am----ento dei sua -corpora tradid
+    
+    target           40 --ont-ia 45
+                      7 --.||-.. 15
+    query            48 erunt et 56
+
+-- fused_10 --
+  OCR:      'glia . leta'
+  Assigned: 'in sanguine agni laverunt stolas suas ~Dixit'
+  Words:    [74..81) consumed=7
+  NW score: k=4 (pre-snap), norm=-1.8694
+  Anchor:   word 81 (within_chant_7), diff=3, snapped=False, forced=True
+  Alignment:
+    target            0 ------gli---a- . l--e------t-------a-------- 11
+                      0 ------|.|---|-.. 16
+    query             0 in sanguine agni laverunt stolas suas ~Dixit 44
+
+-- fused_11 --
+  OCR:      'minum est mercescrumioria vmnitur ad vespa a funt'
+  Assigned: 'dominus euouae Sancti per fidem vicerunt regna operati sunt iustici'
+  Words:    [81..91) consumed=10
+  NW score: k=9 (pre-snap), norm=0.0558
+  Anchor:   word 91 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 --minum e---------st- mer---cescrumioria vmnitur ad vespa --
+                      0 --||||.
+    query             0 dominus euouae Sancti per fide----m----- v--icerunt regna op
+    
+    target           43 --a-- funt---------- 49
+                      7 --|-- 12
+    query            49 erati sunt iusticiam 69
+
+-- fused_12 --
+  OCR:      'Liicti an pro testamento dei suna coporam tuadice runt et'
+  Assigned: 'am adepti sunt repromissiones ~Confitebor euouae Sanctorum'
+  Words:    [91..97) consumed=6
+  NW score: k=6 (pre-snap), norm=-0.8573
+  Anchor:   word 97 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 Liicti -an- --pro testamento dei -suna coporam --tuadice run
+                      0 ....||
+    query             0 adepti sunt repromiss-----io-nes ~Confitebor-- euoua---e San
+    
+    target           53 -t- et 57
+                      6 -|-... 12
+    query            49 ctorum 55
+
+-- fused_13 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [97..97) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_14 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [97..97) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_15 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [97..97) consumed=0
+  Alignment:
+    (no words left)
+=== END DEBUG ===
+

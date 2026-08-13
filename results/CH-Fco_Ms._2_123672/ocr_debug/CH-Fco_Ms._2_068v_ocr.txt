@@ -1,0 +1,261 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'get exovae . ter faciente Jhesu dum appropinqua'
+  [fused_1] 'cetus clamabat ad eum ut limen recipere mereretur'
+  [fused_2] 'ad'
+  [fused_3] ''
+  [fused_4] 'ranseunte domino clamabat cecus ad eum mi'
+  [fused_5] 'capitulum'
+  [fused_6] 'fratres silvi'
+  [fused_7] 'guis hoi'
+  [fused_8] 'serere mei fili david eonac adbantr'
+  [fused_9] 'pabant eum ut taceret ipse vero multomagis clamabat'
+  [fused_10] 'minserete mei faidamno exorue Vecus ma'
+  [fused_11] 'eis ac magio clamabat ut eum dominus unnmimaret eo'
+  [fused_12] 'capil ce inneantur manenti'
+  [fused_13] 'advos e dint domino cum'
+  [fused_14] 'tns autem sielsiso vusit aceum aodina  relo dirigatur primilicis'
+  [fused_15] 'ait illi quid jus ut faciam tibi domine ut indictam et ihesus a'
+  [fused_16] 'etiu rebolte stes tus desamin secit et confestum jndit et seqe Infra ebdam istis duobus diebis sui e'
+  [fused_17] 'festum cantat de psalista prete exia'
+  [fused_18] 'legitur de resiono Ystorie Ica po'
+  [fused_19] 'batur illum msagnificans Deum evoras mnon a riadicit te Dominc'
+  [fused_20] ' qui preibant. anate mosan ii no'
+  [fused_21] 'comne ut vlteam exonae'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'get exovae . ter faciente Jhesu dum appropinqua'
+  Assigned: 'euouae Iter faciente ihesu dum ambularet'
+  Words:    [0..6) consumed=6
+  NW score: k=6 (pre-snap), norm=3.3442
+  Anchor:   word 6 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 get exovae . ter faciente Jhesu dum appropinqu-a--- 47
+                      0 ----|.|.|| 10
+    query             0 ----euouae -Iter faciente ihesu dum a------mbularet 40
+
+-- fused_1 --
+  OCR:      'cetus clamabat ad eum ut limen recipere mereretur'
+  Assigned: 'ihericho cecus clamabat ad eum ut lumen recipere mereretur'
+  Words:    [6..15) consumed=9
+  NW score: k=9 (pre-snap), norm=6.2840
+  Anchor:   word 15 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ---------cetus clamabat ad eum ut limen recipere mereretur 49
+                      0 ---------||.|| 14
+    query             0 ihericho cecus clamabat ad eum ut lumen recipere mereretur 58
+
+-- fused_2 --
+  OCR:      'ad'
+  Assigned: 'euouae'
+  Words:    [15..16) consumed=1
+  NW score: k=1 (pre-snap), norm=-3.7528
+  Anchor:   word 23 (within_chant_7), diff=7, snapped=False, forced=False
+  Alignment:
+    target            0 ----ad 2
+                      0 ----|. 6
+    query             0 euouae 6
+
+-- fused_3 --
+  OCR:      ''
+  Assigned: 'Transeunte domino clamabat cecus ad eum mi'
+  Words:    [16..23) consumed=7
+
+-- fused_4 --
+  OCR:      'ranseunte domino clamabat cecus ad eum mi'
+  Assigned: 'serere mei fili david euouae Et qui preibant incre'
+  Words:    [23..31) consumed=8
+  NW score: k=10 (pre-snap), norm=-1.0643
+  Anchor:   word 31 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 ---------ra--nseu-nte --domino clamaba-t cecus ad eum mi 41
+                      0 ---------.|--..||-..| 21
+    query             0 mei fili david euouae Et qui-- -preibant increpa----bant 49
+
+-- fused_5 --
+  OCR:      'capitulum'
+  Assigned: 'pabant eum ut taceret ipse vero multo magis clamabat'
+  Words:    [31..39) consumed=8
+  NW score: k=1 (pre-snap), norm=-2.1170
+  Anchor:   word 39 (within_chant_7), diff=7, snapped=False, forced=True
+  Alignment:
+    target            0 ---------c----------------------api-tulum----  9
+                      0 ---------|----------------------|.|-..|.|---- 45
+    query             0 eum ut taceret ipse vero multo magis clamabat 45
+
+-- fused_6 --
+  OCR:      'fratres silvi'
+  Assigned: 'miserere mei fili'
+  Words:    [39..42) consumed=3
+  NW score: k=3 (pre-snap), norm=-0.2691
+  Anchor:   word 46 (within_chant_7), diff=4, snapped=False, forced=False
+  Alignment:
+    target            0 ---fratr---es silvi 13
+                      0 ---.|-.|---|. 13
+    query             0 miser-ere mei fil-i 17
+
+-- fused_7 --
+  OCR:      'guis hoi'
+  Assigned: 'david euouae Caecus ma'
+  Words:    [42..46) consumed=4
+  NW score: k=2 (pre-snap), norm=-2.5516
+  Anchor:   word 46 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 --------gu-------is -hoi-  8
+                      0 --------.|-------.| 19
+    query             0 david euouae Caecus magis 25
+
+-- fused_8 --
+  OCR:      'serere mei fili david eonac adbantr'
+  Assigned: 'gis ac magis clamabat'
+  Words:    [46..49) consumed=3
+  NW score: k=3 (pre-snap), norm=-1.3939
+  Anchor:   word 54 (within_chant_7), diff=5, snapped=False, forced=False
+  Alignment:
+    target            0 serere mei fili david eonac a-dbantr 35
+                      0 ----..  6
+    query             0 ----ac m---------agis ----clamaba-t- 17
+
+-- fused_9 --
+  OCR:      'pabant eum ut taceret ipse vero multomagis clamabat'
+  Assigned: 'ut eum dominus illuminaret euouae'
+  Words:    [49..54) consumed=5
+  NW score: k=7 (pre-snap), norm=-0.4384
+  Anchor:   word 54 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 pabant eum -----ut ------taceret ipse vero multomagis clamab
+                      0 ----.|
+    query             0 ----ut eum dominus illumina--ret ------euo--u---------------
+    
+    target           49 at 51
+                      6 |.  8
+    query            31 ae 33
+
+-- fused_10 --
+  OCR:      'minserete mei faidamno exorue Vecus ma'
+  Assigned: 'Stans autem ihesus iussit cecum adduci ad'
+  Words:    [54..61) consumed=7
+  NW score: k=5 (pre-snap), norm=-0.8741
+  Anchor:   word 61 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 -minserete mei faidamno exoru---e Vecus ------ma- 38
+                      0 -..||...||-|-- 14
+    query             0 Stans aute-m-- --ihesus ---iussit cecum adduci ad 41
+
+-- fused_11 --
+  OCR:      'eis ac magio clamabat ut eum dominus unnmimaret eo'
+  Assigned: 'se et ait illi quid vis ut faciam tibi domine ut videam et ihesus a'
+  Words:    [61..76) consumed=15
+  NW score: k=13 (pre-snap), norm=-0.1671
+  Anchor:   word 76 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 -eis ac magio cl-----amabat ut ---eum----- dominus unnmi-ma-
+                      0 -|--
+    query             0 se-- et -a-it illi quid vis ut faciam tibi domin-e ut videam
+    
+    target           44 ret --e------o 50
+                      4 .||  7
+    query            55  et ihesus ait 69
+
+-- fused_12 --
+  OCR:      'capil ce inneantur manenti'
+  Assigned: 'it illi respice fides tua te salvum fecit et confestim vidit et seque'
+  Words:    [76..88) consumed=12
+  NW score: k=5 (pre-snap), norm=-0.1569
+  Anchor:   word 88 (within_chant_7), diff=7, snapped=False, forced=True
+  Alignment:
+    target            0 capil-- -----ce -inneantur --------m-----------an-enti------
+                      0 ---||--
+    query             0 ---illi respice fi-des tua te salvum fecit et confestim vidi
+    
+    target           26 --------------- 26
+                      7 --------------- 22
+    query            56 t et sequebatur 71
+
+-- fused_13 --
+  OCR:      'advos e dint domino cum'
+  Assigned: 'batur illum magnificans deum euouae'
+  Words:    [88..92) consumed=4
+  NW score: k=3 (pre-snap), norm=-1.7338
+  Anchor:   word 92 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 advos ---e di--nt d-omino cu---m 23
+                      0 .....  5
+    query             0 illum magnificans deum--- euouae 29
+
+-- fused_14 --
+  OCR:      'tns autem sielsiso vusit aceum aodina  relo dirigatur primilicis'
+  Assigned: 'Et qui preibant Miserere mei fili david quid'
+  Words:    [92..100) consumed=8
+  NW score: k=9 (pre-snap), norm=-1.2088
+  Anchor:   word 100 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 -tns autem sielsi--so vusit aceum aodina  relo dirigatur pri
+                      0 -|--
+    query             0 Et-- qu--i pre--ibant Mis---erere -mei--- fili david qu-----
+    
+    target           57 milicis 64
+                      4 -----|. 11
+    query            42 -----id 44
+
+-- fused_15 --
+  OCR:      'ait illi quid jus ut faciam tibi domine ut indictam et ihesus a'
+  Assigned: 'vis ut faciam tibi domine ut videam euouae'
+  Words:    [100..108) consumed=8
+  NW score: k=8 (pre-snap), norm=3.2854
+  Anchor:   word 108 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ait illi quid jus ut faciam tibi domine ut -indictam et ihes
+                      0 .|--------------|
+    query             0 vi--------------s ut faciam tibi domine ut vi-d--eam e------
+    
+    target           59 us a- 63
+                     17 |..|- 22
+    query            37 uouae 42
+
+-- fused_16 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [108..108) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_17 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [108..108) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_18 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [108..108) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_19 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [108..108) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_20 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [108..108) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_21 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [108..108) consumed=0
+  Alignment:
+    (no words left)
+=== END DEBUG ===
+

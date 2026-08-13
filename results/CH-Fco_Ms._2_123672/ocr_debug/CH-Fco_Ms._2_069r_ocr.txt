@@ -1,0 +1,283 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'creator ad noctaris et antit dominus pero ordinem ut ad'
+  [fused_1] 'Ssecundum Mathem Inilote dominit iheediis en'
+  [fused_2] 'henmatis nolite omi sant augeni en aut epa'
+  [fused_3] 'Aobhate ad etaduoumutat nuatis nolite fieri si'
+  [fused_4] 'oro pra domine fidelibus istos velr dies ad prima in v'
+  [fused_5] 'teriales  de pt rotand ad'
+  [fused_6] 'cut Ypochrite tristes exovac maoro dedie ad onto us dode ad tdoe cotidiepri'
+  [fused_7] 'oli qeneces p prptuum abisto dierost  qgiodo laudes defunctoru pestratis intia fratribus cotidie fiant leta'
+  [fused_8] 'Johae Baptista Sanctepl i domini ex festimsVIi . prs specialibus rbsiculis omnibus Sancte duabus mntibus dicimus similiter euid ut'
+  [fused_9] 'officio niset de vele q in tota m da compnum apostolicum qufii omptisicors dominosAm . Notandum eo per acto'
+  [fused_10] 'nesperas premissamii doie salbeti minsero sic talusre'
+  [fused_11] 'trdiebus grones vir cn funt immissa si ipsuum dictus es'
+  [fused_12] 'pispredies albati in dieros salbati advios dicits onio de Domin ca hesaurizate nobis The'
+  [fused_13] 'sauros in celo ubi nec erugo neque termea exterminat evovac'
+  [fused_14] 'indmantes Nota qo sifectum sintiscolastices quadragesim a venit tale offiaim facimus ad veos vigle proter dictos Cmi e Hhi coro tua ad mact pveni  omro postei'
+  [fused_15] 'apl de pace eli dies predefunctis eta stre ada'
+  [fused_16] 'canticum gradum et ad omse obones stamu ceta iri pestos ditus sedem proulat de s diamus'
+  [fused_17] 'ad mas vitat Regemvirginum ymus vinginis proles adr cenca douel'
+  [fused_18] 'ncoronar diffusas etaroia de Feslo tercia de onil fractre ad laudes q Hecenvirgo t ceteris et pres suis up Olii gie imilee or post ea de faapoliace'
+  [fused_19] 'Huo lixs ores quullo officiali genva flectinus ad primam Ryreli tibus Misseren da u omoe de'
+  [fused_20] 'Potte an ibus sine conmone epum festo tu'
+  [fused_21] 'Fontca a Cogli Seduumathui'
+  [fused_22] 'ule pctie con nccun Hnillo teri eic iei tisili i hee c api Matheo er Lucas. Gaugnis episcopi Videamus uter'
+  [fused_23] 'cicus et male torquetur mendico'
+  [fused_24] 'ne mani et curato  omine  sum dignus'
+  [fused_25] 'ut intres sub tectum meum sed tantum dic verbo et sanabu duo aliares dedelictis hostorie'
+  [fused_26] 'Abrahe addat sili fi vi et salb'
+  [fused_27] 'tur puer me nomen  ddanmo 10mn'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'creator ad noctaris et antit dominus pero ordinem ut ad'
+  Assigned: 'Cum ieiunatis nolite fieri si'
+  Words:    [0..5) consumed=5
+  NW score: k=15 (pre-snap), norm=-0.9479
+  Anchor:   word 5 (within_chant_7), diff=10, snapped=False, forced=True
+  Alignment:
+    target            0 creator -ad noctaris et an-tit- dominus pero ordinem ut ad 55
+                      0 ----...  7
+    query             0 ----Cum ieiun---atis ----nolite --fi-----eri --si---cut--- 32
+
+-- fused_1 --
+  OCR:      'Ssecundum Mathem Inilote dominit iheediis en'
+  Assigned: 'cut ypochrite tristes euouae Thesaurizate vobis thesauros in'
+  Words:    [5..12) consumed=7
+  NW score: k=7 (pre-snap), norm=-0.9267
+  Anchor:   word 8 (within_chant_7), diff=4, snapped=False, forced=False
+  Alignment:
+    target            0 ------------Ss-e--cundu-m Mathem Inilote dominit ihe-ediis e
+                      0 ------------.|-|--.|-.|-.
+    query             0 ypochrite tristes eu-ouae --Thesaurizate vo--bis thesauros i
+    
+    target           43 n 44
+                     25 | 26
+    query            55 n 56
+
+-- fused_2 --
+  OCR:      'henmatis nolite omi sant augeni en aut epa'
+  Assigned: 'celo ubi nec erugo neque tinea exterminat euouae'
+  Words:    [12..20) consumed=8
+  NW score: k=6 (pre-snap), norm=-0.9015
+  Anchor:   word 20 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 he-nmatis nolite- ----omi sant auge---n-i e------n aut e--pa
+                      0 .|-....|-
+    query             0 celo ubi- n----ec erugo-- --n-equ-e tinea extermin-a-t euoua
+    
+    target           42 - 42
+                      9 - 10
+    query            47 e 48
+
+-- fused_3 --
+  OCR:      'Aobhate ad etaduoumutat nuatis nolite fieri si'
+  Assigned: 'Domine puer meus iacet in domo'
+  Words:    [20..26) consumed=6
+  NW score: k=8 (pre-snap), norm=-1.1209
+  Anchor:   word 26 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 Aobhate --ad -etaduoumuta--t nuatis nolite fieri si 46
+                      0 .|-...|  7
+    query             0 Do-mine puer me-----us iacet ----in do-----------mo 30
+
+-- fused_4 --
+  OCR:      'oro pra domine fidelibus istos velr dies ad prima in v'
+  Assigned: 'paraliticus et male torquetur Amen dico tibi ego'
+  Words:    [26..34) consumed=8
+  NW score: k=8 (pre-snap), norm=-1.0607
+  Anchor:   word 34 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 oro p-ra domine fidelibus ------istos ve-lr dies ad prima -i
+                      0 ----|-||--------.|--.|.||
+    query             0 ----para--------li--ticus et male torquetur Amen -d---ico ti
+    
+    target           51 -n --v 54
+                     25 -. 27
+    query            42 bi ego 48
+
+-- fused_5 --
+  OCR:      'teriales  de pt rotand ad'
+  Assigned: 'veniam et curabo eum'
+  Words:    [34..38) consumed=4
+  NW score: k=4 (pre-snap), norm=-0.5367
+  Anchor:   word 42 (within_chant_7), diff=4, snapped=False, forced=False
+  Alignment:
+    target            0 teriales  de pt --rotand -ad 25
+                      0 .|.||---.  9
+    query             0 venia---m -e--t cur--abo eum 20
+
+-- fused_6 --
+  OCR:      'cut Ypochrite tristes exovac maoro dedie ad onto us dode ad tdoe cotidiepri'
+  Assigned: 'Domine non sum dignus ut intres sub tectum meum sed tantum dic verbo et sanabi'
+  Words:    [38..53) consumed=15
+  NW score: k=15 (pre-snap), norm=-1.1547
+  Anchor:   word 42 (within_chant_7), diff=11, snapped=False, forced=False
+  Alignment:
+    target            0 cut Ypochrite ----------------trist-es -----exovac--- maoro 
+                      0 -----.|--.|.|
+    query             0 -----Do--mine non sum dignus ut intres sub te----ctum m-eum 
+    
+    target           35 dedie -ad onto us d--ode ad -tdoe cotidiepri 75
+                     13 .||-- 18
+    query            48 sed-- ta---nt--um dic verbo et--- sanabitur- 81
+
+-- fused_7 --
+  OCR:      'oli qeneces p prptuum abisto dierost  qgiodo laudes defunctoru pestratis intia fratribus cotidie fiant leta'
+  Assigned: 'tur puer meus Amen Domine'
+  Words:    [53..57) consumed=4
+  NW score: k=4 (pre-snap), norm=-4.4723
+  Anchor:   word 57 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 oli qeneces p prptuum abisto dierost  qgiodo laudes defuncto
+                      0 ----------------|--|-----------||-----------
+    query             0 ----------------p--u-----------er----------- meu--s --------
+    
+    target           60 ru pestratis intia fratribus cotidie fiant leta 107
+                     44 --..|---------|-------------  72
+    query            10 --Ame---------n------------- Domi-------n---e--  21
+
+-- fused_8 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [57..57) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_9 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [57..57) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_10 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [57..57) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_11 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [57..57) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_12 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [57..57) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_13 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [57..57) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_14 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [57..57) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_15 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [57..57) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_16 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [57..57) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_17 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [57..57) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_18 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [57..57) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_19 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [57..57) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_20 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [57..57) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_21 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [57..57) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_22 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [57..57) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_23 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [57..57) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_24 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [57..57) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_25 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [57..57) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_26 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [57..57) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_27 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [57..57) consumed=0
+  Alignment:
+    (no words left)
+=== END DEBUG ===
+

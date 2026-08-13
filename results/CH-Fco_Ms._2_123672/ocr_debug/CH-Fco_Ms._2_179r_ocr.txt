@@ -1,0 +1,255 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'veritas et vita nemo venit ad patrem nisi per vie Alseluya ex capillanis e . per omnis horas dici sic supradictiume'
+  [fused_1] 'ad vell a domine dstende nob crelpis te ap'
+  [fused_2] 'ovae V preciosamcon ad magni ante. apostolis . capitlais scebut iti Ynius . Tristes erant manseritis in me et ver'
+  [fused_3] 'ba mea in nobis manserint quodcumque pecieritis fiet vobis al'
+  [fused_4] 'oout supras sciendum quod in duabus festumenta'
+  [fused_5] 'tibus sacte tertis et duabus festimitatibus Anglo'
+  [fused_6] 'pr nulla fit mommn de apostolis nec de pace'
+  [fused_7] 'Lelvya Allelvya Alleluya evovae'
+  [fused_8] 'cedtis ad vespericap fates hoc enim sentitem nobis Yuinus Otrur qve spes unita hoc'
+  [fused_9] 'inventionis tesuma et cantetur iii tono Paschali en dicitur . quos auctor omniim . Net Gleria'
+  [fused_10] 'doine a sureo hoc signum centis erit in celo allarim cum dominus advu m alla ad magistrim ant'
+  [fused_11] 'crux splendidior cunctis astris munidi celebris hominibus'
+  [fused_12] 'multum amablus sanctior uniersis que sola fuisti digna por'
+  [fused_13] 'tare talentum mundi dulce lignum dulces clavos ferens Pon dulcia'
+  [fused_14] 'dera salva presentem Cathernam in tiis hodie laudibus'
+  [fused_15] 'congregatam Alleluya alleluya Allemya Alleluya evovac'
+  [fused_16] 'dd Deot cmpclara post ea de Sanctis s. Aleralid eventu et Theodoli Juvclals et Lux perpetua do strivistiin domino G . xvos eleg dorom pra cui ompendos juvit . Exultent i Domino Sancti VIu Etn'
+  [fused_17] 'estabuntjusti cum rel X sancti et it . uonoctum a firut de Sanctis I de festo certis It de'
+  [fused_18] 'sancti Romne via nunintina etin alide cmni Sanctorum dignii quus a antem.'
+  [fused_19] 'et bene dicimus tibi qua per crucem'
+  [fused_20] 'tuam edemisti mnnnoimum ale suya qui cantatei eronae'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'veritas et vita nemo venit ad patrem nisi per vie Alseluya ex capillanis e . per omnis horas dici sic supradictiume'
+  Assigned: 'veritas et vita nemo venit ad patrem nisi per me alleluya euouae Si manseritis in me et ver'
+  Words:    [0..18) consumed=18
+  NW score: k=16 (pre-snap), norm=3.7340
+  Anchor:   word 18 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 veritas et vita nemo venit ad patrem nisi per vie Alseluya e
+                      0 |||||||
+    query             0 veritas et vita nemo venit ad patrem nisi per -me alleluya e
+    
+    target           60 x ca--pillanis e . per omnis horas dici sic supr-adictiume
+                      7 ...|--.|..||-|------||--..||
+    query            59 uouae Si man-s------er--itis ---in --me -et -verba--------
+    
+    target          115
+                     35
+    query            93
+
+-- fused_1 --
+  OCR:      'ad vell a domine dstende nob crelpis te ap'
+  Assigned: 'ba mea in vobis manserint quodcumque pecieritis fiet vobis al'
+  Words:    [18..27) consumed=9
+  NW score: k=7 (pre-snap), norm=-1.1022
+  Anchor:   word 27 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 --a--d v-ell -a domine ---dstende nob cre-lpis ---t-----e a-
+                      0 --|--.
+    query             0 mea in vobis manserint quodcumque --pecieritis fiet vobis al
+    
+    target           41 -----p 42
+                      6 -----. 12
+    query            58 leluia 64
+
+-- fused_2 --
+  OCR:      'ovae V preciosamcon ad magni ante. apostolis . capitlais scebut iti Ynius . Tristes erant manseritis in me et ver'
+  Assigned: 'leluia alleluia alleluia euouae O crux splendidior cunctis astris mundi celebris hominibus multum amabilis sanctior universis'
+  Words:    [27..42) consumed=15
+  NW score: k=15 (pre-snap), norm=-0.8747
+  Anchor:   word 29 (within_chant_7), diff=13, snapped=False, forced=False
+  Alignment:
+    target            0 --------------------ovae V preciosamcon ad magni-- -an-te. a
+                      0 --------------------|.||
+    query             0 alleluia alleluia euouae O cr-ux s-plendid-----ior cunctis a
+    
+    target           36 postolis ----. capitl--ais scebut iti Yni-us . Tristes erant
+                     24 --||-.||
+    query            53 --st-ris mundi c---elebris ------homi--nibus ---multum --a--
+    
+    target           89  manseritis -in me et--- ---ver--- 113
+                     32 -||---.|.||  43
+    query            92 -ma---bilis san----ctior universis 118
+
+-- fused_3 --
+  OCR:      'ba mea in nobis manserint quodcumque pecieritis fiet vobis al'
+  Assigned: 'que sola fuisti digna por'
+  Words:    [42..47) consumed=5
+  NW score: k=12 (pre-snap), norm=-1.2033
+  Anchor:   word 47 (within_chant_7), diff=7, snapped=False, forced=True
+  Alignment:
+    target            0 ba mea in nobis manserint quodcumque pecieritis fi-et vobis 
+                      0 --..|----
+    query             0 --que---- ----sola------- fu------------i--sti- digna po--rt
+    
+    target           59 a-l 61
+                      9 |-. 12
+    query            26 are 29
+
+-- fused_4 --
+  OCR:      'oout supras sciendum quod in duabus festumenta'
+  Assigned: 'tare talentum mundi dulce lignum dulces clavos dulcia ferens pon'
+  Words:    [47..56) consumed=9
+  NW score: k=4 (pre-snap), norm=-0.3405
+  Anchor:   word 56 (within_chant_7), diff=5, snapped=False, forced=True
+  Alignment:
+    target            0 oout supras sciendum quod------- -i-n-- du-------abus-------
+                      0 ---|-----|----.||.||
+    query             0 ---t-----a----lentum mundi dulce lignum dulces clavos dulcia
+    
+    target           35  festumen-------ta 46
+                     20  20
+    query            48  fe---rens pondera 63
+
+-- fused_5 --
+  OCR:      'tibus sacte tertis et duabus festimitatibus Anglo'
+  Assigned: 'dera salva presentem cathervam in tuis hodie laudibus'
+  Words:    [56..63) consumed=7
+  NW score: k=8 (pre-snap), norm=-0.5533
+  Anchor:   word 63 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 tibus---- ---sacte- --t-ertis et duabus festimita-tibus Angl
+                      0 ----|----
+    query             0 ----salva presentem cathervam in tu--is -hodie laudibus-----
+    
+    target           48 o 49
+                      9 - 10
+    query            48 - 48
+
+-- fused_6 --
+  OCR:      'pr nulla fit mommn de apostolis nec de pace'
+  Assigned: 'congregatam alleluya alleluya alleluya alleluya'
+  Words:    [63..68) consumed=5
+  NW score: k=14 (pre-snap), norm=-2.0837
+  Anchor:   word 68 (within_chant_7), diff=9, snapped=False, forced=True
+  Alignment:
+    target            0 pr n-ulla fit mommn --de---- apostol-is --nec de pa-ce---- 43
+                      0 -..|-...|---|.|---- 19
+    query             0 -congrega---tam---- alleluya a--lleluya alleluya -alleluya 47
+
+-- fused_7 --
+  OCR:      'Lelvya Allelvya Alleluya evovae'
+  Assigned: 'euouae Adoramus te xpiste'
+  Words:    [68..72) consumed=4
+  NW score: k=4 (pre-snap), norm=-1.9397
+  Anchor:   word 78 (within_chant_7), diff=6, snapped=False, forced=False
+  Alignment:
+    target            0 Lelvya- Allelvya--- Alleluya evovae 31
+                      0 -|...|-  7
+    query             0 -euouae A---doramus --te---- xpiste 25
+
+-- fused_8 --
+  OCR:      'cedtis ad vespericap fates hoc enim sentitem nobis Yuinus Otrur qve spes unita hoc'
+  Assigned: 'et benedicimus tibi quia per crucem'
+  Words:    [72..78) consumed=6
+  NW score: k=7 (pre-snap), norm=-1.2397
+  Anchor:   word 78 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 cedtis ad vespericap fates hoc enim sentitem nobis Yuinus Ot
+                      0 -|-|-----
+    query             0 -e-t----- be-nedic---------------imus- ti------bi- qui------
+    
+    target           60 rur qve spes --unita hoc-- 82
+                      9 ------. 16
+    query            23 ------a -per cru-------cem 35
+
+-- fused_9 --
+  OCR:      'inventionis tesuma et cantetur iii tono Paschali en dicitur . quos auctor omniim . Net Gleria'
+  Assigned: 'tuam redemisti mundum alleluya ~Cantate'
+  Words:    [78..83) consumed=5
+  NW score: k=5 (pre-snap), norm=-2.8560
+  Anchor:   word 83 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 inventionis tesu-ma -et cantetur iii tono Paschali -en dicit
+                      0 ------------|--|-|-
+    query             0 ------------t--uam- re-----de-----mist-----------i mun-d----
+    
+    target           57 ur --. quos --auctor omniim . Net Gleria 93
+                     19 |. 21
+    query            19 um alleluya ~Ca--------n--------t-ate--- 39
+
+-- fused_10 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [83..83) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_11 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [83..83) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_12 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [83..83) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_13 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [83..83) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_14 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [83..83) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_15 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [83..83) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_16 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [83..83) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_17 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [83..83) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_18 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [83..83) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_19 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [83..83) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_20 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [83..83) consumed=0
+  Alignment:
+    (no words left)
+=== END DEBUG ===
+

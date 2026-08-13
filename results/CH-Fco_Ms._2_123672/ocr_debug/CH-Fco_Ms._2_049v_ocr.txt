@@ -1,0 +1,223 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] ' soi. Douo Seraphin ad'
+  [fused_1] 'dominus pape innocentiris Reteris antat'
+  [fused_2] 'ab octabas epiphaie usque ad lxe et'
+  [fused_3] 'patri et Peth aitu sango Prlena autesi psu ca'
+  [fused_4] 'udiam dominevo tu eut'
+  [fused_5] 'temi nurabi lia tu  . enedic'
+  [fused_6] 'estu domi ne do ce sejustificati ones tu as.'
+  [fused_7] 'ficti pro peccatis nostris cotiie cm '
+  [fused_8] 'cans expetenino dinem strum dolor cordis no'
+  [fused_9] 'ati ascen domive . Ut ervas nos a ma'
+  [fused_10] 'us que innovan tur in no bis omine'
+  [fused_11] 'deno iraha eranor auribus percipe dolorem'
+  [fused_12] '.on o emneria nemya Allelu'
+  [fused_13] 'Va evovas. Lres pueri vis su regis in Forvace missi'
+  [fused_14] 'sunt non timentes namiam ignis dicentes Benedictus Deus'
+  [fused_15] 'badis enorae el neng alengi alcuun ee lausero'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'soi. Douo Seraphin ad'
+  Assigned: 'patri et filio et spiritui sancto'
+  Words:    [0..6) consumed=6
+  NW score: k=6 (pre-snap), norm=-2.2032
+  Anchor:   word 14 (within_chant_7), diff=8, snapped=False, forced=False
+  Alignment:
+    target            0 --soi--. -Douo Se-----raphin -a---d 21
+                      0 --..|--.  8
+    query             0 patri et filio -et spiritui- sancto 33
+
+-- fused_1 --
+  OCR:      'dominus pape innocentiris Reteris antat'
+  Assigned: 'Plena Audiam domine vocem laudis tue Ut enar'
+  Words:    [6..14) consumed=8
+  NW score: k=7 (pre-snap), norm=-0.5641
+  Anchor:   word 14 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 -------------dominus pape innoce--ntiris Ret-eris anta---t 39
+                      0 -------------|||||------| 25
+    query             0 Plena Audiam domin------e --vocem laudis --tue Ut en-arrem 47
+
+-- fused_2 --
+  OCR:      'ab octabas epiphaie usque ad lxe et'
+  Assigned: 'rem universa mirabilia tua Benedictus es tu domine doce me'
+  Words:    [14..23) consumed=9
+  NW score: k=9 (pre-snap), norm=-1.4721
+  Anchor:   word 18 (within_chant_7), diff=5, snapped=False, forced=False
+  Alignment:
+    target            0 -------ab octab---a---s ---epiphaie us-qu------e ad lxe -et
+                      0 -------|-
+    query             0 universa- mirabilia tua Benedi-ctus es tu domine -d-oce me-
+    
+    target           35
+                      9
+    query            54
+
+-- fused_3 --
+  OCR:      'patri et Peth aitu sango Prlena autesi psu ca'
+  Assigned: 'iustificationes tuas'
+  Words:    [23..25) consumed=2
+  NW score: k=7 (pre-snap), norm=-0.9419
+  Anchor:   word 25 (within_chant_7), diff=5, snapped=False, forced=True
+  Alignment:
+    target            0 patri et Peth aitu sango Prlena autesi psu ca- 45
+                      0 ----|..|-------|-...|..|-----|-----||- 38
+    query             0 ----iust-------i-ficatio-----n-----es- -tu--as 20
+
+-- fused_4 --
+  OCR:      'udiam dominevo tu eut'
+  Assigned: 'Ut ennarem Afflicti pro peccatis'
+  Words:    [25..30) consumed=5
+  NW score: k=5 (pre-snap), norm=-2.3146
+  Anchor:   word 34 (within_chant_7), diff=4, snapped=False, forced=False
+  Alignment:
+    target            0 ---udia--m ----dominevo tu e--ut-- 21
+                      0 ---...|--| 10
+    query             0 Ut ennarem Afflicti pro --peccatis 32
+
+-- fused_5 --
+  OCR:      'temi nurabi lia tu  . enedic'
+  Assigned: 'nostris cottidie cum lacrimis'
+  Words:    [30..34) consumed=4
+  NW score: k=4 (pre-snap), norm=-1.7196
+  Anchor:   word 34 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ---temi- nurabi lia tu  . enedic 28
+                      0 ---|-.|-  8
+    query             0 nost-ris -cotti-die cum lacrimis 29
+
+-- fused_6 --
+  OCR:      'estu domi ne do ce sejustificati ones tu as.'
+  Assigned: 'expectemus finem nostrum dolor cordis nostri a'
+  Words:    [34..41) consumed=7
+  NW score: k=12 (pre-snap), norm=-0.5048
+  Anchor:   word 41 (within_chant_7), diff=5, snapped=False, forced=True
+  Alignment:
+    target            0 ---est--u- --domi n-----e do ce sejustific-ati- ones t-u as-
+                      0 ---|.|--|-
+    query             0 expectemus finem- nostrum dolor ---------cordis -nos-tri asc
+    
+    target           43 ----. 44
+                     10 ----. 15
+    query            48 endat 53
+
+-- fused_7 --
+  OCR:      'ficti pro peccatis nostris cotiie cm'
+  Assigned: 'scendat ad te domine Ut eruas nos a malis que'
+  Words:    [41..50) consumed=9
+  NW score: k=9 (pre-snap), norm=-0.6850
+  Anchor:   word 50 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ficti pro---- --peccatis nos----tris cotiie cm 36
+                      0 ...|.  5
+    query             0 ad te -domine Ut erua--s nos a malis ---que--- 37
+
+-- fused_8 --
+  OCR:      'cans expetenino dinem strum dolor cordis no'
+  Assigned: 'innovantur in nobis Domine deus israel exaudi preces nostras auribus percipe dolorem cordis nostri'
+  Words:    [50..64) consumed=14
+  NW score: k=14 (pre-snap), norm=-0.1232
+  Anchor:   word 54 (within_chant_7), diff=10, snapped=False, forced=False
+  Alignment:
+    target            0 ----can-----------s -----expeteni---no ----di----nem --str--
+                      0 ----.||-----------|
+    query             0 innovantur in nobis Domine deus israel exaudi preces nostras
+    
+    target           25 ------u--------m dolor-- cordis no---- 43
+                     19 ------|--------. 35
+    query            60  auribus percipe dolorem cordis nostri 98
+
+-- fused_9 --
+  OCR:      'ati ascen domive . Ut ervas nos a ma'
+  Assigned: 'Ut eruas Alleluya allelu'
+  Words:    [64..68) consumed=4
+  NW score: k=3 (pre-snap), norm=-1.1723
+  Anchor:   word 68 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 ati ascen domive . Ut ervas -----nos a---- ma 36
+                      0 -------------------|| 21
+    query             0 -------------------Ut eruas Alleluya alleluya 26
+
+-- fused_10 --
+  OCR:      'us que innovan tur in no bis omine'
+  Assigned: 'ya euouae {Dominus regnavit} {Iubilate'
+  Words:    [68..72) consumed=4
+  NW score: k=4 (pre-snap), norm=-1.2755
+  Anchor:   word 83 (within_chant_7), diff=11, snapped=False, forced=False
+  Alignment:
+    target            0 -us qu-e innovan tur ------i-n no bis omine 34
+                      0 -|--.|-|  8
+    query             0 eu--ouae -{Domin--us regnavit} {Iubi---late 35
+
+-- fused_11 --
+  OCR:      'deno iraha eranor auribus percipe dolorem'
+  Assigned: 'deo} {Deus deus meus} Tres pueri iussu regis'
+  Words:    [72..80) consumed=8
+  NW score: k=8 (pre-snap), norm=-0.8711
+  Anchor:   word 83 (within_chant_7), diff=3, snapped=False, forced=False
+  Alignment:
+    target            0 deno- iraha -eranor -au----ribus p-ercipe --dolore--m 41
+                      0 ||-|-  5
+    query             0 de-o} {Deus de---us meus} Tr--es puer-i-- iussu regis 44
+
+-- fused_12 --
+  OCR:      '.on o emneria nemya Allelu'
+  Assigned: 'in fornace missi'
+  Words:    [80..83) consumed=3
+  NW score: k=4 (pre-snap), norm=-1.7546
+  Anchor:   word 83 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 .on -o emneria nemya Allelu 26
+                      0 -.|  3
+    query             0 -in fo-----rna-ce--- -missi 16
+
+-- fused_13 --
+  OCR:      'Va evovas. Lres pueri vis su regis in Forvace missi'
+  Assigned: 'sunt non timentes flammam ignis dicentes benedictus deus'
+  Words:    [83..91) consumed=8
+  NW score: k=6 (pre-snap), norm=-1.7491
+  Anchor:   word 91 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 --Va evovas. ----Lres ----pueri vis -------su --regi---s in 
+                      0 --..
+    query             0 sunt -no---n timentes flammam ignis dicentes- benedictus ---
+    
+    target           38 Forvace missi 51
+                      4 -----.|---.|- 17
+    query            52 -----de---us- 56
+
+-- fused_14 --
+  OCR:      'sunt non timentes namiam ignis dicentes Benedictus Deus'
+  Assigned: '{Benedicam} euouae Alleluya alleluya alleluya ~Lauda euouae'
+  Words:    [91..98) consumed=7
+  NW score: k=5 (pre-snap), norm=-2.2513
+  Anchor:   word 98 (page_break_77), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 sunt non timentes nam-----iam ---ignis dicentes Bene----dict
+                      0 ----------..||-|...||-----.|.
+    query             0 ----------{Ben-edicam} euouae Alleluya alleluya alleluya ~La
+    
+    target           48 u-s Deu---s 55
+                     29 |-. 32
+    query            49 uda -euouae 59
+
+-- fused_15 --
+  OCR:      'badis enorae el neng alengi alcuun ee lausero'
+  Assigned: '{ } sunt in chana galilee et erat ibi ihesus cum maria matre'
+  Words:    [98..111) consumed=13
+  NW score: k=8 (pre-snap), norm=-1.0899
+  Anchor:   word 111 (within_chant_7), diff=5, snapped=False, forced=True
+  Alignment:
+    target            0 badis--- en------ora----e el neng alengi -alcu---un ---ee la
+                      0 ....|---
+    query             0 { } sunt in chana galilee et -e--rat ibi ihesus cum maria ma
+    
+    target           40 usero 45
+                      8 --.|. 13
+    query            57 --tre 60
+=== END DEBUG ===
+

@@ -1,0 +1,167 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'ls eleva tus est allelu ya et mi bes suscepit'
+  [fused_1] 'ab oculiserum alle'
+  [fused_2] 'conves cens precepit esd ab Jherosolimis ne discederent sed'
+  [fused_3] 'expatarent promissi onempa tris . Et viden et'
+  [fused_4] 'ninis pulcritudo domini exaltata est super'
+  [fused_5] 'n viin ibi  ce'
+  [fused_6] 'no mene Lummcetm permanet ave'
+  [fused_7] 'summo celo egressi o c jus et occursus ejus'
+  [fused_8] 'sessummmis species . co'
+  [fused_9] 'imne alle in m simetutemu e'
+  [fused_10] 'm lenaaemagnificenciau *'
+  [fused_11] 'celoste no  xaltare domine iniur'
+  [fused_12] 'cantabino et psalemus aleluya domine min'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'ls eleva tus est allelu ya et mi bes suscepit'
+  Assigned: 'elevatus est alleluya et nubes suscepit'
+  Words:    [0..6) consumed=6
+  NW score: k=6 (pre-snap), norm=6.0154
+  Anchor:   word 12 (within_chant_7), diff=6, snapped=False, forced=False
+  Alignment:
+    target            0 ls eleva tus est allelu ya et mi bes suscepit 45
+                      0 ---|||||-||| 12
+    query             0 ---eleva-tus est allelu-ya et -nubes suscepit 39
+
+-- fused_1 --
+  OCR:      'ab oculiserum alle'
+  Assigned: 'eum ab oculis eorum alleluya Et'
+  Words:    [6..12) consumed=6
+  NW score: k=5 (pre-snap), norm=4.3653
+  Anchor:   word 12 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 ----ab oculis-e-rum alle------- 18
+                      0 ----||  6
+    query             0 eum ab oculis eorum alleluya Et 31
+
+-- fused_2 --
+  OCR:      'conves cens precepit esd ab Jherosolimis ne discederent sed'
+  Assigned: 'convescens precepit eis ab iherosolunis ne discederent sed'
+  Words:    [12..20) consumed=8
+  NW score: k=8 (pre-snap), norm=6.7695
+  Anchor:   word 20 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 conves cens precepit e-sd ab Jherosolimis ne discederent sed
+                      0 ||||||-||||
+    query             0 conves-cens precepit eis- ab iherosolunis ne discederent sed
+    
+    target           59 
+                     11 
+    query            58 
+
+-- fused_3 --
+  OCR:      'expatarent promissi onempa tris . Et viden et'
+  Assigned: 'exspectarent promissionem patris Et videntibus'
+  Words:    [20..25) consumed=5
+  NW score: k=5 (pre-snap), norm=5.0113
+  Anchor:   word 25 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ex-p-atarent promissi onem-pa tris . Et viden et---- 45
+                      0 ||-|-.|||||| 12
+    query             0 exspectarent promissi-onem pa-tris-- Et viden--tibus 46
+
+-- fused_4 --
+  OCR:      'ninis pulcritudo domini exaltata est super'
+  Assigned: 'Omnis pulcritudo domini exaltata est super'
+  Words:    [25..31) consumed=6
+  NW score: k=6 (pre-snap), norm=7.3810
+  Anchor:   word 31 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ninis pulcritudo domini exaltata est super 42
+                      0 ..|||  5
+    query             0 Omnis pulcritudo domini exaltata est super 42
+
+-- fused_5 --
+  OCR:      'n viin ibi  ce'
+  Assigned: 'sydera Species eius in nubibus celi'
+  Words:    [31..37) consumed=6
+  NW score: k=6 (pre-snap), norm=-0.8583
+  Anchor:   word 37 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -------------n vi---in ---ibi  ce-- 14
+                      0 -------------. 14
+    query             0 sydera Species eius in nubibus celi 35
+
+-- fused_6 --
+  OCR:      'no mene Lummcetm permanet ave'
+  Assigned: 'et nomen eius in eternum permanet allelu'
+  Words:    [37..44) consumed=7
+  NW score: k=7 (pre-snap), norm=1.9484
+  Anchor:   word 44 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ---no men-e Lu--mmcet----m permanet a-ve---- 29
+                      0 ---||-|||-|-.|--...||----| 26
+    query             0 et no-men e-ius in eternum permanet alleluya 42
+
+-- fused_7 --
+  OCR:      'summo celo egressi o c jus et occursus ejus'
+  Assigned: 'ya A summo celo egressio eius et occursus eius'
+  Words:    [44..52) consumed=8
+  NW score: k=8 (pre-snap), norm=6.1628
+  Anchor:   word 52 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 --summo celo egressi o c jus et occursus ejus 43
+                      0 --|||||  7
+    query             0 A summo celo egressi-o -eius et occursus eius 43
+
+-- fused_8 --
+  OCR:      'sessummmis species . co'
+  Assigned: 'usque ad summum eius Species Exaltare do'
+  Words:    [52..59) consumed=7
+  NW score: k=5 (pre-snap), norm=1.7732
+  Anchor:   word 59 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 -s--e---ssumm-m--i-s species -------. co---- 23
+                      0 -|--|---.||||-|--|-| 20
+    query             0 usque ad summum eius Species Exaltare domine 44
+
+-- fused_9 --
+  OCR:      'imne alle in m simetutemu e'
+  Assigned: 'mine alleluya In virtute tua alle'
+  Words:    [59..64) consumed=5
+  NW score: k=3 (pre-snap), norm=0.5740
+  Anchor:   word 64 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 imne alle---- in m simetute-mu- ---e---- 27
+                      0 -----||||---- 13
+    query             0 -----alleluya In-- vi-rtute tua alleluya 32
+
+-- fused_10 --
+  OCR:      'm lenaaemagnificenciau *'
+  Assigned: 'luya Elevata est magnificencia tua super'
+  Words:    [64..69) consumed=5
+  NW score: k=3 (pre-snap), norm=3.5518
+  Anchor:   word 69 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 m lena-a-e---magnificencia--u- ----* 24
+                      0 -.||.|-|-|---|||||||||||||--|- 30
+    query             0 -Elevata est magnificencia tua super 35
+
+-- fused_11 --
+  OCR:      'celoste no  xaltare domine iniur'
+  Assigned: 'celos deus In virtute Exaltare domine in vir'
+  Words:    [69..77) consumed=8
+  NW score: k=7 (pre-snap), norm=3.7734
+  Anchor:   word 77 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 celos-te-- -no ------- -xaltare domine in--i--u-r 32
+                      0 |||||-.|-- 10
+    query             0 celos deus In- virtute Exaltare domine in virtute 48
+
+-- fused_12 --
+  OCR:      'cantabino et psalemus aleluya domine min'
+  Assigned: 'tute tua cantabimus et psallemus alleluya ~Domine'
+  Words:    [77..83) consumed=6
+  NW score: k=6 (pre-snap), norm=4.5051
+  Anchor:   word 83 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ----cantabi-no et psa-lemus a-leluya -domine min 40
+                      0 ----|||||||-.. 14
+    query             0 tua cantabimus et psallemus alleluya ~Domine---- 44
+=== END DEBUG ===
+

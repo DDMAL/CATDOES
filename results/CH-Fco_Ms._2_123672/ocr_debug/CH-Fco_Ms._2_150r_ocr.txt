@@ -1,0 +1,155 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'aperiat domi corvestrum in le'
+  [fused_1] '.es a et in preceptis Fa Ciatpa'
+  [fused_2] 'cem in diebusno stus concedat nobis salu temi'
+  [fused_3] 'Ctco mie nosa malisa di'
+  [fused_4] 'at dominus orationes vestras et reconcilietur vo bis'
+  [fused_5] 'nec nos deserat in tem pore ma lo concedat '
+  [fused_6] 'Xau diat do minus oratio nnco ne stras'
+  [fused_7] 'concilietur vo bis nec vos deserat in tem pre'
+  [fused_8] 'malo. Dminus deuset vo'
+  [fused_9] 'um et faciatis ejus no'
+  [fused_10] 'nta tem . Dominus  ongrega ci sunt minici'
+  [fused_11] 'nosta et moriantur in metute sua'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'aperiat domi corvestrum in le'
+  Assigned: 'ADaperiat dominus cor vestrum in le'
+  Words:    [0..6) consumed=6
+  NW score: k=6 (pre-snap), norm=5.8614
+  Anchor:   word 6 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 --aperiat domi--- cor-vestrum in l--e 29
+                      0 --|||||||  9
+    query             0 ADaperiat dominus cor vestrum in lege 37
+
+-- fused_1 --
+  OCR:      '.es a et in preceptis Fa Ciatpa'
+  Assigned: 'ge sua et in preceptis suis et faciat pa'
+  Words:    [6..14) consumed=8
+  NW score: k=5 (pre-snap), norm=3.9228
+  Anchor:   word 14 (within_chant_7), diff=3, snapped=False, forced=True
+  Alignment:
+    target            0 .es a et in precept-----is Fa --Ciat-pa--- 31
+                      0 --|.|  5
+    query             0 --sua et in preceptis suis et faciat pacem 40
+
+-- fused_2 --
+  OCR:      'cem in diebusno stus concedat nobis salu temi'
+  Assigned: 'cem in diebus nostris Concedat vobis salutem'
+  Words:    [14..20) consumed=6
+  NW score: k=6 (pre-snap), norm=5.0440
+  Anchor:   word 20 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 cem in diebus-no st-us concedat nobis salu temi 45
+                      0 ----||  6
+    query             0 ----in diebus no-stris Concedat vobis salu-tem- 40
+
+-- fused_3 --
+  OCR:      'Ctco mie nosa malisa di'
+  Assigned: 'et redimat vos a malis Exaudiat'
+  Words:    [20..26) consumed=6
+  NW score: k=6 (pre-snap), norm=1.7602
+  Anchor:   word 26 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 Ctco ----mie nos-a malis---a di-- 23
+                      0 .|--  4
+    query             0 et-- redimat vos a malis Exaudiat 31
+
+-- fused_4 --
+  OCR:      'at dominus orationes vestras et reconcilietur vo bis'
+  Assigned: 'dominus orationes vestras et reconcilietur vobis nec'
+  Words:    [26..33) consumed=7
+  NW score: k=6 (pre-snap), norm=7.2858
+  Anchor:   word 33 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 at dominus orationes vestras et reconcilietur vo bis---- 52
+                      0 ---||||||| 10
+    query             0 ---dominus orationes vestras et reconcilietur vo-bis nec 52
+
+-- fused_5 --
+  OCR:      'nec nos deserat in tem pore ma lo concedat'
+  Assigned: 'vos deserat in tempore malo Concedat Exaudiat'
+  Words:    [33..40) consumed=7
+  NW score: k=6 (pre-snap), norm=5.9664
+  Anchor:   word 40 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 nec nos deserat in tem pore ma lo conced---------at 42
+                      0 ----.||  7
+    query             0 ----vos deserat in tem-pore ma-lo Concedat Exaudiat 45
+
+-- fused_6 --
+  OCR:      'Xau diat do minus oratio nnco ne stras'
+  Assigned: 'dominus orationes vestras'
+  Words:    [40..43) consumed=3
+  NW score: k=3 (pre-snap), norm=3.4391
+  Anchor:   word 43 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 Xau diat do minus oratio nnco ne stras 38
+                      0 ---------||-||||| 17
+    query             0 ---------do-minus oratio--nes ve-stras 25
+
+-- fused_7 --
+  OCR:      'concilietur vo bis nec vos deserat in tem pre'
+  Assigned: 'et reconcilietur vobis nec vos deserat in tempore'
+  Words:    [43..51) consumed=8
+  NW score: k=8 (pre-snap), norm=6.4739
+  Anchor:   word 51 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -----concilietur vo bis nec vos deserat in tem p-re 45
+                      0 -----||||||||||| 16
+    query             0 et reconcilietur vo-bis nec vos deserat in tem-pore 49
+
+-- fused_8 --
+  OCR:      'malo. Dminus deuset vo'
+  Assigned: 'malo Dominus deus'
+  Words:    [51..54) consumed=3
+  NW score: k=3 (pre-snap), norm=4.9123
+  Anchor:   word 70 (within_chant_7), diff=16, snapped=False, forced=False
+  Alignment:
+    target            0 malo. D-minus deuset vo 22
+                      0 ||||-  5
+    query             0 malo- Dominus deus----- 17
+
+-- fused_9 --
+  OCR:      'um et faciatis ejus no'
+  Assigned: 'vester Det vobis cor omnibus ut colatis eum et faciatis eius'
+  Words:    [54..65) consumed=11
+  NW score: k=11 (pre-snap), norm=-0.0275
+  Anchor:   word 70 (within_chant_7), diff=5, snapped=False, forced=False
+  Alignment:
+    target            0 -----------------------------------------um et faciatis ejus
+                      0 -----------------------------------------||
+    query             0 vester Det vobis cor omnibus ut colatis eum et faciatis eius
+    
+    target           19  no 22
+                     43 --- 46
+    query            60 --- 60
+
+-- fused_10 --
+  OCR:      'nta tem . Dominus  ongrega ci sunt minici'
+  Assigned: 'voluntatem Dominus Congregati sunt inimici'
+  Words:    [65..70) consumed=5
+  NW score: k=5 (pre-snap), norm=4.9401
+  Anchor:   word 70 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ----nta tem . Dominus  ongrega ci sunt min--ici 41
+                      0 ----|||-|||-- 13
+    query             0 volunta-tem-- Dominus Congrega-ti sunt -inimici 42
+
+-- fused_11 --
+  OCR:      'nosta et moriantur in metute sua'
+  Assigned: 'nostri et gloriantur in virtute sua contere'
+  Words:    [70..77) consumed=7
+  NW score: k=6 (pre-snap), norm=5.4682
+  Anchor:   word 77 (page_break_77), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 nost-a et -moriantur in -metute sua-------- 32
+                      0 ||||-.  6
+    query             0 nostri et gloriantur in virtute sua contere 43
+=== END DEBUG ===
+

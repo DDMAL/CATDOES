@@ -1,0 +1,175 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'et excecavit illos malici rum Insipien pprobri'
+  [fused_1] 'm factus sumus numi cs me is inderunt'
+  [fused_2] 'me et moverunt ca pnti si  meconi'
+  [fused_3] 'ne deusmenLoquu ti sunt adversum'
+  [fused_4] 'sa et servionibus dede'
+  [fused_5] '*'
+  [fused_6] 'runtme aduinasurrexerunt viri mi'
+  [fused_7] 'qi .nni  a quesierunt me interfice'
+  [fused_8] 're et non peperterunt in faciem meam spiue re et'
+  [fused_9] 'anceis su neraverunt me et concussa sunt omn'
+  [fused_10] 'ma osla  Ego autem estimabam me'
+  [fused_11] 'tamquam mortu uni super terram uderunt'
+  [fused_12] 'famrem suum n me stemientine conta mecen tibus'
+  [fused_13] 's  eo anten Hnon'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'et excecavit illos malici rum Insipien pprobri'
+  Assigned: 'et excecavit illis malicia eorum Insipientes opprobri'
+  Words:    [0..7) consumed=7
+  NW score: k=7 (pre-snap), norm=6.1234
+  Anchor:   word 7 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 et excecavit illos malici- --rum Insipien--- -pprobri-- 46
+                      0 ||  2
+    query             0 et excecavit illis malicia eorum Insipientes Opprobrium 55
+
+-- fused_1 --
+  OCR:      'm factus sumus numi cs me is inderunt'
+  Assigned: 'um factus sum nimis inimicis meis viderunt'
+  Words:    [7..13) consumed=6
+  NW score: k=6 (pre-snap), norm=4.2646
+  Anchor:   word 13 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 m factus su----mus -numi c-s me is -inderunt 37
+                      0 --||||||  8
+    query             0 --factus sum nimis inimi-cis me-is vi-derunt 39
+
+-- fused_2 --
+  OCR:      'me et moverunt ca pnti si  meconi'
+  Assigned: 'me et moverunt capita sua Adiuva me domine deus'
+  Words:    [13..22) consumed=9
+  NW score: k=5 (pre-snap), norm=4.0386
+  Anchor:   word 22 (within_chant_7), diff=4, snapped=False, forced=True
+  Alignment:
+    target            0 me et moverunt ca pnti s-----i--  me-coni------- 33
+                      0 ||  2
+    query             0 me et moverunt ca-pita sua Adiuva me domine deus 47
+
+-- fused_3 --
+  OCR:      'ne deusmenLoquu ti sunt adversum'
+  Assigned: 'meus Loquuti sunt adversum'
+  Words:    [22..26) consumed=4
+  NW score: k=4 (pre-snap), norm=5.2697
+  Anchor:   word 26 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ne deusmenLoquu ti sunt adversum 32
+                      0 ---.|||--.|||||-|| 18
+    query             0 ---meus-- Loquu-ti sunt adversum 26
+
+-- fused_4 --
+  OCR:      'sa et servionibus dede'
+  Assigned: 'me lingua dolosa et sermonibus odii circumdederunt'
+  Words:    [26..33) consumed=7
+  NW score: k=6 (pre-snap), norm=1.9460
+  Anchor:   word 33 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 --------------sa et servionibus -----------dede---- 22
+                      0 --------------|| 16
+    query             0 me lingua dolosa et ser-monibus odii circumdederunt 50
+
+-- fused_5 --
+  OCR:      '*'
+  Assigned: 'me'
+  Words:    [33..34) consumed=1
+  NW score: k=1 (pre-snap), norm=-8.4853
+  Anchor:   word 40 (within_chant_7), diff=6, snapped=False, forced=False
+  Alignment:
+    target            0 -* 1
+                      0 -. 2
+    query             0 me 2
+
+-- fused_6 --
+  OCR:      'runtme aduinasurrexerunt viri mi'
+  Assigned: 'Adiuva Insurrexerunt in me viri ini'
+  Words:    [34..40) consumed=6
+  NW score: k=4 (pre-snap), norm=2.0801
+  Anchor:   word 40 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 --runtme aduinasurrexerunt------ viri ----mi 32
+                      0 --.|----.|-..|-|||||||||||------ 32
+    query             0 Adiu----va- In-surrexerunt in me viri iniqui 38
+
+-- fused_7 --
+  OCR:      'qi .nni  a quesierunt me interfice'
+  Assigned: 'qui absque misericordia quesierunt me interficere'
+  Words:    [40..45) consumed=5
+  NW score: k=5 (pre-snap), norm=3.6559
+  Anchor:   word 45 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ---q--------i .nni  a quesierunt me interfic--e 34
+                      0 ---|--------|....|--| 21
+    query             0 absque misericordi--a quesierunt me interficere 45
+
+-- fused_8 --
+  OCR:      're et non peperterunt in faciem meam spiue re et'
+  Assigned: 'et non pepercerunt in faciem meam spuere et lanceis'
+  Words:    [45..54) consumed=9
+  NW score: k=8 (pre-snap), norm=6.6914
+  Anchor:   word 54 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 re et non peperterunt in faciem meam spiue re et-------- 48
+                      0 ---||  5
+    query             0 ---et non pepercerunt in faciem meam sp-ue-re et lanceis 51
+
+-- fused_9 --
+  OCR:      'anceis su neraverunt me et concussa sunt omn'
+  Assigned: 'suis vulneraverunt me et concussa sunt omnia ossa'
+  Words:    [54..62) consumed=8
+  NW score: k=7 (pre-snap), norm=6.0000
+  Anchor:   word 62 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 anceis su neraverunt me et concussa sunt omn------- 44
+                      0 --..||  6
+    query             0 --suis vulneraverunt me et concussa sunt omnia ossa 49
+
+-- fused_10 --
+  OCR:      'ma osla  Ego autem estimabam me'
+  Assigned: 'mea Ego autem estimabam me tamquam'
+  Words:    [62..68) consumed=6
+  NW score: k=5 (pre-snap), norm=6.0584
+  Anchor:   word 68 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 ma osla  Ego autem estimabam me-------- 31
+                      0 |----.|-  8
+    query             0 m----ea- Ego autem estimabam me tamquam 34
+
+-- fused_11 --
+  OCR:      'tamquam mortu uni super terram uderunt'
+  Assigned: 'mortuum super terram Effuderunt'
+  Words:    [68..72) consumed=4
+  NW score: k=4 (pre-snap), norm=4.5452
+  Anchor:   word 72 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 tamquam mortu uni super terram ---uderunt 38
+                      0 --------|||||-|-. 17
+    query             0 --------mortu-u-m super terram Effuderunt 31
+
+-- fused_12 --
+  OCR:      'famrem suum n me stemientine conta mecen tibus'
+  Assigned: 'furorem suum in me fremuerunt contra me dentibus suis'
+  Words:    [72..81) consumed=9
+  NW score: k=8 (pre-snap), norm=4.2563
+  Anchor:   word 81 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 f-amrem suum -n me stemie--ntine cont-a me-cen tibu-----s 46
+                      0 |-..|||  7
+    query             0 furorem suum in me fremuerunt--- contra me den-tibus suis 53
+
+-- fused_13 --
+  OCR:      's  eo anten Hnon'
+  Assigned: 'Ego autem'
+  Words:    [81..84) consumed=3
+  NW score: k=2 (pre-snap), norm=-0.7500
+  Anchor:   word 84 (page_break_77), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 s  eo anten Hnon 16
+                      0 --..|  5
+    query             0 --Ego aute-----m  9
+=== END DEBUG ===
+

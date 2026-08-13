@@ -1,0 +1,239 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'Sabbato ad'
+  [fused_1] 'M aut'
+  [fused_2] 'bit nobis Alleluya evovae s modo   pet'
+  [fused_3] 'stis quicquam in nomine meo petite et accipietis Allelnya'
+  [fused_4] 'Crone etite et accipietis ut gaudi'
+  [fused_5] 'um vestrum plenum sit ipse enum pater amiat nos qui '
+  [fused_6] 'a vos me amastis et credidistis Allelnya evovae'
+  [fused_7] 'pset'
+  [fused_8] 'didistis elu ort vn'
+  [fused_9] 'in mundum iterum relinquo mundum et vladoa'
+  [fused_10] 'trem Allelnya Allelvya eovae'
+  [fused_11] 'neet moneibrm niliem ico mncso'
+  [fused_12] ' sanctisomnaon opusi tqise nte'
+  [fused_13] 'miclie sc'
+  [fused_14] 'Roget Alleluya evovae Viri Galile'
+  [fused_15] 'pras dite domins Part. confitelor po seatus ii pre lauda'
+  [fused_16] 'tempi pres laudate de ces gto Ymus Jhes nostra'
+  [fused_17] ' o magi te abendit de imbaus ma cy et o suo ater mantestam'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'Sabbato ad'
+  Assigned: 'vobis alleluya euouae'
+  Words:    [0..3) consumed=3
+  NW score: k=3 (pre-snap), norm=-2.6913
+  Anchor:   word 7 (within_chant_7), diff=4, snapped=False, forced=False
+  Alignment:
+    target            0 Sab---------ba--to ad 10
+                      0 ..|---------.|--.|.|. 21
+    query             0 vobis alleluya euouae 21
+
+-- fused_1 --
+  OCR:      'M aut'
+  Assigned: 'Usque modo non peti'
+  Words:    [3..7) consumed=4
+  NW score: k=1 (pre-snap), norm=-2.4000
+  Anchor:   word 7 (within_chant_7), diff=3, snapped=False, forced=True
+  Alignment:
+    target            0 M au----------------t--  5
+                      0 ...|----------------|-- 23
+    query             0 Usque modo non petistis 23
+
+-- fused_2 --
+  OCR:      'bit nobis Alleluya evovae s modo   pet'
+  Assigned: 'stis quicquam in nomine meo petite et accipietis alleluya'
+  Words:    [7..15) consumed=8
+  NW score: k=11 (pre-snap), norm=0.0195
+  Anchor:   word 15 (within_chant_7), diff=3, snapped=False, forced=True
+  Alignment:
+    target            0 --------bit no--------------------------bis Alleluya evovae 
+                      0 --------.|.
+    query             0 quicquam in nomine meo petite et accipietis alleluya--------
+    
+    target           26 s modo   pet 38
+                     11 ------------ 23
+    query            52 ------------ 52
+
+-- fused_3 --
+  OCR:      'stis quicquam in nomine meo petite et accipietis Allelnya'
+  Assigned: 'euouae Petite et accipietis ut gaudi'
+  Words:    [15..21) consumed=6
+  NW score: k=5 (pre-snap), norm=1.7895
+  Anchor:   word 21 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 stis quicquam in nomine meo petite et accipietis Allelnya---
+                      0 -----.|--.||-------------|-
+    query             0 -----eu--oua-------------e- Petite et accipietis ---ut gaudi
+    
+    target           57 -- 57
+                     27 -- 29
+    query            36 um 38
+
+-- fused_4 --
+  OCR:      'Crone etite et accipietis ut gaudi'
+  Assigned: 'um vestrum plenum sit ipse enim pater amat vos qui'
+  Words:    [21..30) consumed=9
+  NW score: k=7 (pre-snap), norm=-1.2907
+  Anchor:   word 30 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 ---Cr-----on-e etit----e e--t accipietis --ut ---gaudi- 34
+                      0 ---.|-----.|-. 14
+    query             0 vestrum plenum -sit ipse enim ----p-ater amat vos qu-ia 48
+
+-- fused_5 --
+  OCR:      'um vestrum plenum sit ipse enum pater amiat nos qui'
+  Assigned: 'a vos me amastis et credidistis alleluya euouae Ipse enim pater amat vos quia'
+  Words:    [30..43) consumed=13
+  NW score: k=13 (pre-snap), norm=1.6816
+  Anchor:   word 37 (within_chant_7), diff=6, snapped=False, forced=False
+  Alignment:
+    target            0 -um ve----st-------r-------um -plenu-m ---sit ipse enum pate
+                      0 -..
+    query             0 vos me amastis et credidistis alleluya euouae Ipse enim pate
+    
+    target           36 r amiat nos qui- 51
+                      3 |  4
+    query            60 r am-at vos quia 75
+
+-- fused_6 --
+  OCR:      'a vos me amastis et credidistis Allelnya evovae'
+  Assigned: 'nos me amastis et credidistis alleluya euouae'
+  Words:    [43..50) consumed=7
+  NW score: k=7 (pre-snap), norm=6.1971
+  Anchor:   word 55 (within_chant_7), diff=5, snapped=False, forced=False
+  Alignment:
+    target            0 a vos me amastis et credidistis Allelnya evovae 47
+                      0 --.||  5
+    query             0 --nos me amastis et credidistis alleluya euouae 45
+
+-- fused_7 --
+  OCR:      'pset'
+  Assigned: 'Exivi a patre et veni'
+  Words:    [50..55) consumed=5
+  NW score: k=4 (pre-snap), norm=-3.1250
+  Anchor:   word 55 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 --------p----set-----  4
+                      0 --------|----.||----- 21
+    query             0 Exivi a patre et veni 21
+
+-- fused_8 --
+  OCR:      'didistis elu ort vn'
+  Assigned: 'in mundum iterum relinquo mundum et vado ad pa'
+  Words:    [55..64) consumed=9
+  NW score: k=4 (pre-snap), norm=-1.5600
+  Anchor:   word 64 (within_chant_7), diff=5, snapped=False, forced=True
+  Alignment:
+    target            0 di-----d---ist--is -el---u- ------ort v------------n 19
+                      0 -|-----|---|-|--.. 18
+    query             0 -in mundum i-terum relinquo mundum et vado ad patrem 50
+
+-- fused_9 --
+  OCR:      'in mundum iterum relinquo mundum et vladoa'
+  Assigned: 'trem alleluya alleluya euouae Ecce nunc palam loqueris'
+  Words:    [64..71) consumed=7
+  NW score: k=6 (pre-snap), norm=-1.8298
+  Anchor:   word 71 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 -in mundum -iteru-m relinquo-------- mundum et vla--do-----a
+                      0 -....|--..
+    query             0 allelu--ya alleluya -e----uouae Ecce nun--c --palam loqueris
+    
+    target           42 
+                     10 
+    query            49 
+
+-- fused_10 --
+  OCR:      'trem Allelnya Allelvya eovae'
+  Assigned: 'et proverbium nullum dicis nunc scimus quia'
+  Words:    [71..78) consumed=7
+  NW score: k=4 (pre-snap), norm=-2.0755
+  Anchor:   word 78 (within_chant_7), diff=3, snapped=False, forced=True
+  Alignment:
+    target            0 -t--r--e----m -All-------eln-ya Allelvya eovae 28
+                      0 -|--|--|----| 13
+    query             0 et proverbium nullum dicis nunc --scimus quia- 43
+
+-- fused_11 --
+  OCR:      'neet moneibrm niliem ico mncso'
+  Assigned: 'scis omnia et non opus est tibi ut quis te interroget alle'
+  Words:    [78..90) consumed=12
+  NW score: k=5 (pre-snap), norm=-1.1288
+  Anchor:   word 90 (within_chant_7), diff=7, snapped=False, forced=True
+  Alignment:
+    target            0 -------n--eet mon------e----ib--rm -ni-liem i----co--- ---mn
+                      0 -------|--.||
+    query             0 scis omnia et non opus est tibi ut quis te- interroget allel
+    
+    target           27 cso 30
+                     13 ... 16
+    query            59 uya 62
+
+-- fused_12 --
+  OCR:      'sanctisomnaon opusi tqise nte'
+  Assigned: 'luya euouae Viri galilei ~Dixit dominus ~Confitebor'
+  Words:    [90..96) consumed=6
+  NW score: k=6 (pre-snap), norm=-2.1082
+  Anchor:   word 93 (within_chant_7), diff=3, snapped=False, forced=False
+  Alignment:
+    target            0 ---sanctisomna---on opusi- -tqi--se ---n--te--- 29
+                      0 ---.|...|....|---.. 19
+    query             0 euouae Viri galilei ~Dixit dominus- ~Confitebor 46
+
+-- fused_13 --
+  OCR:      'miclie sc'
+  Assigned: '~Beatus'
+  Words:    [96..97) consumed=1
+  NW score: k=1 (pre-snap), norm=-3.6537
+  Anchor:   word 106 (page_break_77), diff=9, snapped=False, forced=False
+  Alignment:
+    target            0 miclie-- sc  9
+                      0 ---..|--.|- 11
+    query             0 ---~Beatus-  7
+
+-- fused_14 --
+  OCR:      'Roget Alleluya evovae Viri Galile'
+  Assigned: 'vir ~Laudate pueri ~Laudate'
+  Words:    [97..101) consumed=4
+  NW score: k=4 (pre-snap), norm=-1.6416
+  Anchor:   word 106 (page_break_77), diff=5, snapped=False, forced=False
+  Alignment:
+    target            0 Roget Alleluya evovae Viri -Ga-lile 33
+                      0 --...  5
+    query             0 --vir --~Laudate- pue---ri ~Laudate 27
+
+-- fused_15 --
+  OCR:      'pras dite domins Part. confitelor po seatus ii pre lauda'
+  Assigned: 'dominum omnes gentes Pater manifestavi'
+  Words:    [101..106) consumed=5
+  NW score: k=5 (pre-snap), norm=-1.1489
+  Anchor:   word 106 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 pras dite domins Part. co-nfitelor po seatus ii pre la----ud
+                      0 ----------|||||-----..
+    query             0 ----------domin-----um -omn---e-----s gentes Pater- manifest
+    
+    target           55 a-- 56
+                     22 |-- 25
+    query            35 avi 38
+
+-- fused_16 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [106..106) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_17 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [106..106) consumed=0
+  Alignment:
+    (no words left)
+=== END DEBUG ===
+

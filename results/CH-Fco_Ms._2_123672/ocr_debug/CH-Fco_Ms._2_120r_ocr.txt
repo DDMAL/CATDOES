@@ -1,0 +1,171 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'strum et gaudium vestrum nemo tollet a vobis Aveluya'
+  [fused_1] 'Alicluya evonaristicia vestra ancluya vertetur in'
+  [fused_2] 'gaudii Aeluyaterum videbo vos Alleluya'
+  [fused_3] 'et gaudebit corvestum avellima Alanni alcelines eoo'
+  [fused_4] 'Amei dico vo batis mundus autem gaudebit et'
+  [fused_5] 'vos gaudebitis et gaudium vestrum nemio tollet a vobis'
+  [fused_6] 'terum autem videbo nos et gaude'
+  [fused_7] 'bit corvestrum Alielnya et gaudium vestrum nemo tor'
+  [fused_8] 'Iet a vobis Allelvya Eovae'
+  [fused_9] 'sticiam habet quia venit hora eius Alleluya cum autem'
+  [fused_10] 'pepererit puerum jam non memunt pressure propter'
+  [fused_11] 'gaudiimi alleluya eoa .ec loquitus'
+  [fused_12] 'mno ut gandium ncum in vobiis sit et gauduum nettu'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'strum et gaudium vestrum nemo tollet a vobis Aveluya'
+  Assigned: 'et gaudium vestrum nemo tollet a vobis alleluya'
+  Words:    [0..8) consumed=8
+  NW score: k=8 (pre-snap), norm=6.3313
+  Anchor:   word 15 (within_chant_7), diff=7, snapped=False, forced=False
+  Alignment:
+    target            0 strum et gaudium vestrum nemo tollet a vobis -Aveluya 52
+                      0 ------||  8
+    query             0 ------et gaudium vestrum nemo tollet a vobis alleluya 47
+
+-- fused_1 --
+  OCR:      'Alicluya evonaristicia vestra ancluya vertetur in'
+  Assigned: 'alleluya euouae Tristicia vestra alleluia vertetur in'
+  Words:    [8..15) consumed=7
+  NW score: k=7 (pre-snap), norm=5.2589
+  Anchor:   word 15 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 Alicluya evona---risticia vestra a-ncluya vertetur in 49
+                      0 .|..||||  8
+    query             0 alleluya euouae Tristicia vestra alleluia vertetur in 53
+
+-- fused_2 --
+  OCR:      'gaudii Aeluyaterum videbo vos Alleluya'
+  Assigned: 'gaudium alleluya euouae Iterum videbo vos alleluya'
+  Words:    [15..22) consumed=7
+  NW score: k=7 (pre-snap), norm=4.9783
+  Anchor:   word 22 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 gaudi-i --Aeluya---------terum videbo vos Alleluya 38
+                      0 |||||-.  7
+    query             0 gaudium alleluya euouae Iterum videbo vos alleluya 50
+
+-- fused_3 --
+  OCR:      'et gaudebit corvestum avellima Alanni alcelines eoo'
+  Assigned: 'et gaudebit cor vestrum alleluya alleluya alleluya euouae'
+  Words:    [22..30) consumed=8
+  NW score: k=6 (pre-snap), norm=3.2584
+  Anchor:   word 30 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 et gaudebit cor-vest-um a-vellima Al-----anni alcelines eoo-
+                      0 ||
+    query             0 et gaudebit cor vestrum alle-luya alleluya--- allel-uya euou
+    
+    target           51 -- 51
+                      2 --  4
+    query            55 ae 57
+
+-- fused_4 --
+  OCR:      'Amei dico vo batis mundus autem gaudebit et'
+  Assigned: 'Amen dico vobis mundus autem gaudebit et'
+  Words:    [30..37) consumed=7
+  NW score: k=7 (pre-snap), norm=6.9925
+  Anchor:   word 37 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 Amei dico vo batis mundus autem gaudebit et 43
+                      0 |||.  4
+    query             0 Amen dico vo-b--is mundus autem gaudebit et 40
+
+-- fused_5 --
+  OCR:      'vos gaudebitis et gaudium vestrum nemio tollet a vobis'
+  Assigned: 'vos gaudebitis et gaudium vestrum nemo tollet a vobis'
+  Words:    [37..46) consumed=9
+  NW score: k=9 (pre-snap), norm=7.7947
+  Anchor:   word 46 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 vos gaudebitis et gaudium vestrum nemio tollet a vobis 54
+                      0 |||  3
+    query             0 vos gaudebitis et gaudium vestrum nem-o tollet a vobis 53
+
+-- fused_6 --
+  OCR:      'terum autem videbo nos et gaude'
+  Assigned: 'alleluya euouae Iterum autem videbo vos et gaude'
+  Words:    [46..54) consumed=8
+  NW score: k=8 (pre-snap), norm=4.2000
+  Anchor:   word 54 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -----------------terum autem videbo nos et gaude--- 31
+                      0 -----------------||||| 22
+    query             0 alleluya euouae Iterum autem videbo vos et gaudebit 51
+
+-- fused_7 --
+  OCR:      'bit corvestrum Alielnya et gaudium vestrum nemo tor'
+  Assigned: 'bit cor vestrum alleluya et gaudium vestrum nemo tol'
+  Words:    [54..62) consumed=8
+  NW score: k=8 (pre-snap), norm=5.6471
+  Anchor:   word 62 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 bit cor-vestrum Alielnya et gaudium vestrum nemo to---r 51
+                      0 ----|||-||||||| 15
+    query             0 ----cor vestrum alleluya et gaudium vestrum nemo tollet 51
+
+-- fused_8 --
+  OCR:      'Iet a vobis Allelvya Eovae'
+  Assigned: 'let a vobis alleluya euouae'
+  Words:    [62..66) consumed=4
+  NW score: k=4 (pre-snap), norm=4.1302
+  Anchor:   word 70 (within_chant_7), diff=4, snapped=False, forced=False
+  Alignment:
+    target            0 Iet a vobis Allelvya -Eovae 26
+                      0 ----|  5
+    query             0 ----a vobis alleluya euouae 23
+
+-- fused_9 --
+  OCR:      'sticiam habet quia venit hora eius Alleluya cum autem'
+  Assigned: 'Mulier cum parit tri'
+  Words:    [66..70) consumed=4
+  NW score: k=12 (pre-snap), norm=5.5787
+  Anchor:   word 70 (within_chant_7), diff=8, snapped=False, forced=True
+  Alignment:
+    target            0 sticiam habet quia venit hora eius Alleluya cum autem 53
+                      0 -...|------|. 13
+    query             0 -Muli------er cu-m parit -tr---i-s--------tic--ia---m 27
+
+-- fused_10 --
+  OCR:      'pepererit puerum jam non memunt pressure propter'
+  Assigned: 'sticiam habet quia venit hora eius alleluya cum autem'
+  Words:    [70..78) consumed=8
+  NW score: k=15 (pre-snap), norm=3.0950
+  Anchor:   word 78 (within_chant_7), diff=7, snapped=False, forced=True
+  Alignment:
+    target            0 pepe-------rerit ---puerum jam non memunt pressure propter 48
+                      0 ...|-------.|.|| 16
+    query             0 habet quia venit hora eius -a-----lleluya ----cu-m --autem 45
+
+-- fused_11 --
+  OCR:      'gaudiimi alleluya eoa .ec loquitus'
+  Assigned: 'pepererit puerum iam non meminit pressure propter'
+  Words:    [78..85) consumed=7
+  NW score: k=12 (pre-snap), norm=0.7952
+  Anchor:   word 85 (within_chant_7), diff=5, snapped=False, forced=True
+  Alignment:
+    target            0 gaudiimi- allelu--ya- eoa .e----c --loqu------itus 34
+                      0 .......|-  9
+    query             0 pepererit -puerum iam non meminit pressure propter 49
+
+-- fused_12 --
+  OCR:      'mno ut gandium ncum in vobiis sit et gauduum nettu'
+  Assigned: 'gaudium alleluya euouae Hec loquutus sum vobis ut gaudium meum in vobis sit et gaudium vestrum'
+  Words:    [85..101) consumed=16
+  NW score: k=16 (pre-snap), norm=2.0275
+  Anchor:   word 92 (within_chant_7), diff=9, snapped=False, forced=False
+  Alignment:
+    target            0 ---------------------------------------m-no--- ut gandium nc
+                      0 ---------------------------------------|-.|---
+    query             0 gaudium alleluya euouae Hec loquutus sum vobis ut gaudium me
+    
+    target           17 um in vobiis sit et gauduum ne-ttu- 50
+                     46 || 48
+    query            60 um in vob-is sit et gaudium vestrum 94
+=== END DEBUG ===
+

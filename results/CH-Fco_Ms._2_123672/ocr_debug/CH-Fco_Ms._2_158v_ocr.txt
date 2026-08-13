@@ -1,0 +1,199 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'populus contra dominum anima nostra nauseat super cibo isto levissimo'
+  [fused_1] 'Lenantibus illis accepit ihesus panem et bendixit ac fregit de'
+  [fused_2] 'it accipite et comedite baec est corpus'
+  [fused_3] 'meum iterunt juri tabemaculi me quio det te'
+  [fused_4] 'cmibus qum et siturtnino aculi pis ee pt ibe clicen pot'
+  [fused_5] 'quam cenavit di cens hic calix nonum tes tamentum est in meo'
+  [fused_6] 'sanguine cite e comemoratio nem '
+  [fused_7] 'emoria me mor el ro et tabescet in me animea me a letre'
+  [fused_8] 'oria patri ei filio et spiritui Sancto Come aut'
+  [fused_9] 'deisumam Cspistum qi renovat invettem ea'
+  [fused_10] 'Libavit nos dominus ex adipe frumenti et'
+  [fused_11] 'intim dilatero coorueaaltari tuo domine eprasami sm'
+  [fused_12] 'mno in quen cor et ciro noscta cculten tip dadi '
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'populus contra dominum anima nostra nauseat super cibo isto levissimo'
+  Assigned: 'populus contra dominum anima nostra nauseat super cibo isto levissimo'
+  Words:    [0..10) consumed=10
+  NW score: k=10 (pre-snap), norm=8.0000
+  Anchor:   word 21 (within_chant_7), diff=11, snapped=False, forced=False
+  Alignment:
+    target            0 populus contra dominum anima nostra nauseat super cibo isto 
+                      0 |||||||
+    query             0 populus contra dominum anima nostra nauseat super cibo isto 
+    
+    target           60 levissimo 69
+                      7 ||||||||| 16
+    query            60 levissimo 69
+
+-- fused_1 --
+  OCR:      'Lenantibus illis accepit ihesus panem et bendixit ac fregit de'
+  Assigned: 'Quomodo Cenantibus illis accepit ihesus panem et benedixit ac fregit de'
+  Words:    [10..21) consumed=11
+  NW score: k=10 (pre-snap), norm=6.3298
+  Anchor:   word 21 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 --------Lenantibus illis accepit ihesus panem et ben-dixit a
+                      0 --------.|||||||||
+    query             0 Quomodo Cenantibus illis accepit ihesus panem et benedixit a
+    
+    target           51 c fregit d------e 62
+                     18 | 19
+    query            60 c fregit deditque 77
+
+-- fused_2 --
+  OCR:      'it accipite et comedite baec est corpus'
+  Assigned: 'ditque discipulis suis et ait Accipe et comedite hoc est'
+  Words:    [21..30) consumed=9
+  NW score: k=10 (pre-snap), norm=3.7019
+  Anchor:   word 30 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 -------------i---t a----ccipite et comedite baec est corpus
+                      0 -------------|---|
+    query             0 discipulis suis et ait Accip--e et comedite -hoc est-------
+    
+    target           39
+                     18
+    query            49
+
+-- fused_3 --
+  OCR:      'meum iterunt juri tabemaculi me quio det te'
+  Assigned: 'corpus meum Dixerunt viri tabernaculi mei quis det de'
+  Words:    [30..39) consumed=9
+  NW score: k=9 (pre-snap), norm=4.6084
+  Anchor:   word 39 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -------meum -iterunt juri tabe-maculi me- quio det te 43
+                      0 -------|||| 11
+    query             0 corpus meum Dixerunt viri tabernaculi mei quis det de 53
+
+-- fused_4 --
+  OCR:      'cmibus qum et siturtnino aculi pis ee pt ibe clicen pot'
+  Assigned: 'carnibus eius ut saturemur Accipite Accepit ihesus calicem po'
+  Words:    [39..48) consumed=9
+  NW score: k=9 (pre-snap), norm=1.7132
+  Anchor:   word 48 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 c--mibus -qum et siturtnino aculi pis ee ----p-t ibe--- c-li
+                      0 |--.||||
+    query             0 carnibus eius ut satur-emur Ac-ci-pi--te Accepit ihesus cali
+    
+    target           48 cen po-t---- 55
+                      8 ||. 11
+    query            55 cem postquam 67
+
+-- fused_5 --
+  OCR:      'quam cenavit di cens hic calix nonum tes tamentum est in meo'
+  Assigned: 'stquam cenavit dicens hic calix novum testamentum est in meo'
+  Words:    [48..57) consumed=9
+  NW score: k=9 (pre-snap), norm=6.7031
+  Anchor:   word 57 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 quam cenavit di cens hic calix nonum tes tamentum est in meo
+                      0 -----|||||||
+    query             0 -----cenavit di-cens hic calix novum tes-tamentum est in meo
+    
+    target           60 
+                     12 
+    query            53 
+
+-- fused_6 --
+  OCR:      'sanguine cite e comemoratio nem'
+  Assigned: 'sanguine Hoc facite in meam'
+  Words:    [57..62) consumed=5
+  NW score: k=6 (pre-snap), norm=4.8753
+  Anchor:   word 62 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 sanguine ------cite -e comemoratio nem 31
+                      0 ||||||||  8
+    query             0 sanguine Hoc facite in --me---a------m 27
+
+-- fused_7 --
+  OCR:      'emoria me mor el ro et tabescet in me animea me a letre'
+  Assigned: 'commemorationem Memoria memor ero et tabescet in me anima mea'
+  Words:    [62..72) consumed=10
+  NW score: k=10 (pre-snap), norm=4.2125
+  Anchor:   word 72 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -----------------emoria me mor el ro et tabescet in me anime
+                      0 -----------------||||||
+    query             0 commemorationem Memoria me-mor e--ro et tabescet in me anim-
+    
+    target           43 a me a letre 55
+                     23 | 24
+    query            56 a me-a------ 61
+
+-- fused_8 --
+  OCR:      'oria patri ei filio et spiritui Sancto Come aut'
+  Assigned: 'Hoc Gloria patri et filio et spiritui sancto Commemorationem'
+  Words:    [72..81) consumed=9
+  NW score: k=9 (pre-snap), norm=4.9714
+  Anchor:   word 92 (within_chant_7), diff=11, snapped=False, forced=False
+  Alignment:
+    target            0 ------oria patri ei filio et spiritui Sancto Co-me-- aut----
+                      0 ------||||
+    query             0 Hoc Gloria patri et filio et spiritui sancto Commemora-tione
+    
+    target           47 - 47
+                     10 - 11
+    query            59 m 60
+
+-- fused_9 --
+  OCR:      'deisumam Cspistum qi renovat invettem ea'
+  Assigned: 'Introibo ad altare dei sumam xpistum qui renovat iuventutem meam ~Iudica'
+  Words:    [81..92) consumed=11
+  NW score: k=10 (pre-snap), norm=3.4785
+  Anchor:   word 92 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 -------------------dei-sumam Cspistum q-i renovat inve-t-tem
+                      0 -------------------|||-|||||
+    query             0 Introibo ad altare dei sumam -xpistum qui renovat iuventutem
+    
+    target           37  -e---------a 40
+                     28  28
+    query            59  meam ~Iudica 72
+
+-- fused_10 --
+  OCR:      'Libavit nos dominus ex adipe frumenti et'
+  Assigned: 'me euouae Cibavit nos dominus ex adipe frumenti et'
+  Words:    [92..101) consumed=9
+  NW score: k=9 (pre-snap), norm=6.1045
+  Anchor:   word 105 (within_chant_7), diff=4, snapped=False, forced=False
+  Alignment:
+    target            0 ----------Libavit nos dominus ex adipe frumenti et 40
+                      0 ----------.|||||| 17
+    query             0 me euouae Cibavit nos dominus ex adipe frumenti et 50
+
+-- fused_11 --
+  OCR:      'intim dilatero coorueaaltari tuo domine eprasami sm'
+  Assigned: 'de petra melle satura'
+  Words:    [101..105) consumed=4
+  NW score: k=13 (pre-snap), norm=0.9587
+  Anchor:   word 105 (within_chant_7), diff=9, snapped=False, forced=True
+  Alignment:
+    target            0 intim dilatero coorueaaltari tuo domine- epra--sami sm 51
+                      0 ------|----|-- 14
+    query             0 ------d----e-- ----pe---t-ra ------m--elle saturavi--t 24
+
+-- fused_12 --
+  OCR:      'mno in quen cor et ciro noscta cculten tip dadi'
+  Assigned: 'vit nos ~Exultate domino euouae Ex altari tuo domine xpristum sumimus in quem cor et caro nostra exultavit'
+  Words:    [105..122) consumed=17
+  NW score: k=17 (pre-snap), norm=-0.1155
+  Anchor:   word 115 (within_chant_7), diff=7, snapped=False, forced=False
+  Alignment:
+    target            0 ----------------m-no----------------------------------------
+                      0 ----------------|-||----------------------------------------
+    query             0 nos ~Exultate domino euouae Ex altari tuo domine xpristum su
+    
+    target            3 ----- in quen cor et ciro nosct-a cculten tip dadi-  47
+                     60 -----  65
+    query            60 mimus in quem cor et caro nos-tra exult--------avit 102
+=== END DEBUG ===
+

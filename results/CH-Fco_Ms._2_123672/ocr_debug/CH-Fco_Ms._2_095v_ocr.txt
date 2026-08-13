@@ -1,0 +1,203 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'ne meus evovae. Iocabo nomentuum domine'
+  [fused_1] 'ne avertas faciem tuam a clamore meo evovae crip'
+  [fused_2] 'tum est et ium pertuciam pastorem e dispergentur oves gre'
+  [fused_3] 'ggis postquam autem resurrere io preedam nos in gaule'
+  [fused_4] 'am ibi me indebitis dicit dominus evovac'
+  [fused_5] 'dicitr ha usque incena domini Ymnus'
+  [fused_6] 'Pangelingua ad oct a . dominus defensor pre ordine'
+  [fused_7] 'secundum Johannem In vile ante sex dies Pasche nenit Jihee'
+  [fused_8] 'Omils ang episcopi t eputaret homines fantasin impi dixerunt'
+  [fused_9] 'opprimamus jurum justum in e aglicas me'
+  [fused_10] 'um tanquam in ferusvi num auferamus me'
+  [fused_11] 'moriam illius deter ra et de spoliis eius sortemi'
+  [fused_12] 'mini mus inter nos ipsi es m homicide thesauei'
+  [fused_13] 'zaverunt sibi ma ia insipientes et maligni oderunt'
+  [fused_14] 'sapenion et rel fat ti sunt in cogitacio'
+  [fused_15] 'Mons it ceranc et etaverunt'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'ne meus evovae. Iocabo nomentuum domine'
+  Assigned: 'deus meus euouae Invocabo nomen tuum domine'
+  Words:    [0..7) consumed=7
+  NW score: k=7 (pre-snap), norm=5.6409
+  Anchor:   word 7 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ne-- meus evovae. I--ocabo nomen-tuum domine 39
+                      0 .|--  4
+    query             0 deus meus euouae- Invocabo nomen tuum domine 43
+
+-- fused_1 --
+  OCR:      'ne avertas faciem tuam a clamore meo evovae crip'
+  Assigned: 'ne avertas faciem tuam a clamore meo euouae scrip'
+  Words:    [7..16) consumed=9
+  NW score: k=9 (pre-snap), norm=6.7654
+  Anchor:   word 16 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ne avertas faciem tuam a clamore meo evovae -crip--- 48
+                      0 ||  2
+    query             0 ne avertas faciem tuam a clamore meo euouae Scriptum 52
+
+-- fused_2 --
+  OCR:      'tum est et ium pertuciam pastorem e dispergentur oves gre'
+  Assigned: 'tum est enim percuciam pastorem et dispergentur oves gre'
+  Words:    [16..24) consumed=8
+  NW score: k=8 (pre-snap), norm=5.9295
+  Anchor:   word 24 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 tum est et ium pertuciam pastorem e- dispergentur oves gre--
+                      0 ----|||
+    query             0 ----est e-ni-m percuciam pastorem et dispergentur oves gregi
+    
+    target           57 - 57
+                      7 -  8
+    query            54 s 55
+
+-- fused_3 --
+  OCR:      'ggis postquam autem resurrere io preedam nos in gaule'
+  Assigned: 'gis postquam autem resurrexero precedam vos in galilae'
+  Words:    [24..31) consumed=7
+  NW score: k=7 (pre-snap), norm=5.0859
+  Anchor:   word 31 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ggis postquam autem resurrere io pre-edam nos in ga-ul-e-- 53
+                      0 -----|||||||| 13
+    query             0 -----postquam autem resurrexe-ro precedam vos in galilaeam 52
+
+-- fused_4 --
+  OCR:      'am ibi me indebitis dicit dominus evovac'
+  Assigned: 'am ibi me videbitis dicit dominus euouae'
+  Words:    [31..37) consumed=6
+  NW score: k=6 (pre-snap), norm=5.7706
+  Anchor:   word 37 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 am ibi me -indebitis dicit dominus evovac 40
+                      0 ---|||  6
+    query             0 ---ibi me vi-debitis dicit dominus euouae 37
+
+-- fused_5 --
+  OCR:      'dicitr ha usque incena domini Ymnus'
+  Assigned: 'Viri impii dixerunt'
+  Words:    [37..40) consumed=3
+  NW score: k=4 (pre-snap), norm=-0.7098
+  Anchor:   word 40 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 dicitr ha usque incena dom-ini --Ymnu-s 35
+                      0 .|.|----------- 15
+    query             0 Viri----------- i--------mpi-i dixerunt 19
+
+-- fused_6 --
+  OCR:      'Pangelingua ad oct a . dominus defensor pre ordine'
+  Assigned: 'opprimamus virum iustum iniuste et degluciamus eum'
+  Words:    [40..47) consumed=7
+  NW score: k=12 (pre-snap), norm=-1.8086
+  Anchor:   word 47 (within_chant_7), diff=5, snapped=False, forced=True
+  Alignment:
+    target            0 Pangeli-ngua ---ad -oct a . domin-us defensor pre ordi----ne
+                      0 --....|-..|.
+    query             0 --opprimamus virum iustum -----inius-te e---t -degluciamus e
+    
+    target           50 -- 50
+                     12 -- 14
+    query            48 um 50
+
+-- fused_7 --
+  OCR:      'secundum Johannem In vile ante sex dies Pasche nenit Jihee'
+  Assigned: 'tamquam inferus vivum auferamus memoriam illius'
+  Words:    [47..53) consumed=6
+  NW score: k=10 (pre-snap), norm=-1.0006
+  Anchor:   word 53 (within_chant_7), diff=4, snapped=False, forced=True
+  Alignment:
+    target            0 -secundum Johannem In vi-le ante----- sex dies Pasche nenit 
+                      0 -...|--.|
+    query             0 tamqu--am ---infe-rus vivum auferamus memori----a---m ---i-l
+    
+    target           53 Jihee 58
+                      9 .|-.. 14
+    query            43 li-us 47
+
+-- fused_8 --
+  OCR:      'Omils ang episcopi t eputaret homines fantasin impi dixerunt'
+  Assigned: 'de terra et de spoliis eius sortem mittamus'
+  Words:    [53..61) consumed=8
+  NW score: k=12 (pre-snap), norm=-0.5205
+  Anchor:   word 61 (within_chant_7), diff=4, snapped=False, forced=True
+  Alignment:
+    target            0 Omils ----ang e---piscopi t epu--tar-et homines fantasin imp
+                      0 ---..
+    query             0 ---de terra-- et de spoliis eius sortem --mi------tta-----m-
+    
+    target           50 i dixerunt 60
+                      5 -------|-. 15
+    query            41 -------u-s 43
+
+-- fused_9 --
+  OCR:      'opprimamus jurum justum in e aglicas me'
+  Assigned: 'inter nos ipsi enim homicide thesaurizaverunt sibi mala Insipientes et maligni oderunt sapienciam'
+  Words:    [61..74) consumed=13
+  NW score: k=5 (pre-snap), norm=-1.5131
+  Anchor:   word 74 (within_chant_7), diff=8, snapped=False, forced=True
+  Alignment:
+    target            0 -------o---p---prim--am---us ----ju------ru--------m--- jus-
+                      0 -------|---|---..||--.|---..
+    query             0 inter nos ipsi enim homicide thesaurizaverunt sibi mala Insi
+    
+    target           20 ---------tum- i-n- --e---- -agli--c-as me 39
+                     28 ---------|.|-.|-|- 46
+    query            60 pientes et maligni oderunt sa-piencia--m- 97
+
+-- fused_10 --
+  OCR:      'um tanquam in ferusvi num auferamus me'
+  Assigned: 'et rei facti sunt in cogitacionibus suis'
+  Words:    [74..81) consumed=7
+  NW score: k=8 (pre-snap), norm=-0.9293
+  Anchor:   word 81 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 um -------tanquam in -ferusvi n--um auferamus me 38
+                      0 ..  2
+    query             0 et rei facti sunt in cogitacionibus su-----is--- 40
+
+-- fused_11 --
+  OCR:      'moriam illius deter ra et de spoliis eius sortemi'
+  Assigned: 'Hec cogitaverunt et erraverunt'
+  Words:    [81..85) consumed=4
+  NW score: k=4 (pre-snap), norm=-1.7736
+  Anchor:   word 85 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 moriam illius det--er ra et de spoliis eius sortemi 49
+                      0 ---...  6
+    query             0 ---Hec cogi-----taverunt et -e-----rraveru----nt--- 30
+
+-- fused_12 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [85..85) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_13 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [85..85) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_14 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [85..85) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_15 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [85..85) consumed=0
+  Alignment:
+    (no words left)
+=== END DEBUG ===
+

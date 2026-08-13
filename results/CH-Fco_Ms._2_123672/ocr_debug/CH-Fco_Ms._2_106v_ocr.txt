@@ -1,0 +1,183 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'in magis naet ama  val de Vel ceingere'
+  [fused_1] 'vos sacerdotes et plangite ministri alta ris aspergite nos'
+  [fused_2] 'cine te Rma Nievamini porte eternales et introi'
+  [fused_3] 'voit reglorie P  est terra  redo videre'
+  [fused_4] 'bona domini in terra viventium Po dominus vell evovac a Domi'
+  [fused_5] 'ne abstran ab inferis animam meam praltabote evon'
+  [fused_6] 'ena'
+  [fused_7] 'encessit pastor nor fons a'
+  [fused_8] 'que ve ad cu jus transitum sol obsara'
+  [fused_9] 'tus est . nam et ille captus  qui captinam'
+  [fused_10] 'tene bat primum homi nem hodieportas'
+  [fused_11] 'mor ns et le mo tier saliatore m i'
+  [fused_12] 'pites  estcurit quidem claustra infer nn et subum'
+  [fused_13] 't potenaias dnio  nos om'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'in magis naet ama  val de Vel ceingere'
+  Assigned: 'magna et amara valde Accingere'
+  Words:    [0..5) consumed=5
+  NW score: k=5 (pre-snap), norm=3.7022
+  Anchor:   word 5 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 in magis na-et ama-  val de Vel ceingere 38
+                      0 ---|||---||-|| 14
+    query             0 ---mag---na et amara val-de ---Accingere 30
+
+-- fused_1 --
+  OCR:      'vos sacerdotes et plangite ministri alta ris aspergite nos'
+  Assigned: 'vos sacerdotes et plangite ministri altaris aspergite vos cinere'
+  Words:    [5..14) consumed=9
+  NW score: k=8 (pre-snap), norm=7.5829
+  Anchor:   word 14 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 vos sacerdotes et plangite ministri alta ris aspergite nos--
+                      0 |||
+    query             0 vos sacerdotes et plangite ministri alta-ris aspergite vos c
+    
+    target           58 ----- 58
+                      3 -----  8
+    query            59 inere 64
+
+-- fused_2 --
+  OCR:      'cine te Rma Nievamini porte eternales et introi'
+  Assigned: 'Quia Elevamini porte aternales et introi'
+  Words:    [14..20) consumed=6
+  NW score: k=6 (pre-snap), norm=4.7158
+  Anchor:   word 20 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -cine te Rma Nievamini porte eternales et introi--- 47
+                      0 -.|--------| 12
+    query             0 Qui--------a Elevamini porte aternales et introibit 43
+
+-- fused_3 --
+  OCR:      'voit reglorie P  est terra  redo videre'
+  Assigned: 'bit rex glorie ~Domini est terra euouae Credo videre'
+  Words:    [20..28) consumed=8
+  NW score: k=8 (pre-snap), norm=3.9060
+  Anchor:   word 28 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 voit re--glorie -----P  est terra ------ -redo videre 39
+                      0 -----||--|||||| 15
+    query             0 -----rex glorie ~Domini est terra euouae Credo videre 48
+
+-- fused_4 --
+  OCR:      'bona domini in terra viventium Po dominus vell evovac a Domi'
+  Assigned: 'bona domini in terra viventium ~Dominus illuminatio euouae domi'
+  Words:    [28..37) consumed=9
+  NW score: k=9 (pre-snap), norm=4.7558
+  Anchor:   word 37 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 bona domini in terra viventium Po dominus vell-------- evova
+                      0 ||||
+    query             0 bona domini in terra viventium --~Dominus -illuminatio euoua
+    
+    target           52 c a Domi-- 60
+                      4 --.  7
+    query            57 --e Domine 65
+
+-- fused_5 --
+  OCR:      'ne abstran ab inferis animam meam praltabote evon'
+  Assigned: 'ne abstraxisti ab inferis animam meam ~Exaltabo te'
+  Words:    [37..44) consumed=7
+  NW score: k=8 (pre-snap), norm=4.8601
+  Anchor:   word 44 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 ne abstra----n ab inferis animam meam -praltabo-te evon 49
+                      0 ---||||||----. 14
+    query             0 ---abstraxisti ab inferis animam meam ~Exaltabo te----- 47
+
+-- fused_6 --
+  OCR:      'ena'
+  Assigned: 'euouae'
+  Words:    [44..45) consumed=1
+  NW score: k=1 (pre-snap), norm=-1.4142
+  Anchor:   word 50 (within_chant_7), diff=5, snapped=False, forced=False
+  Alignment:
+    target            0 e--na- 3
+                      0 |--.|- 6
+    query             0 euouae 6
+
+-- fused_7 --
+  OCR:      'encessit pastor nor fons a'
+  Assigned: 'Recessit pastor noster fons a'
+  Words:    [45..50) consumed=5
+  NW score: k=4 (pre-snap), norm=5.5482
+  Anchor:   word 50 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 -encessit pastor no---r fons a--- 26
+                      0 -|-||||||  9
+    query             0 Re-cessit pastor noster fons aque 32
+
+-- fused_8 --
+  OCR:      'que ve ad cu jus transitum sol obsara'
+  Assigned: 'que vive ad cuius transitum sol obscura'
+  Words:    [50..56) consumed=6
+  NW score: k=6 (pre-snap), norm=4.8804
+  Anchor:   word 56 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 que ve ad cu jus transitum sol obs-ara--- 37
+                      0 --..||  6
+    query             0 --vive ad cu-ius transitum sol obscuratus 38
+
+-- fused_9 --
+  OCR:      'tus est . nam et ille captus  qui captinam'
+  Assigned: 'tus est Nam et ille captus est qui captivam'
+  Words:    [56..64) consumed=8
+  NW score: k=8 (pre-snap), norm=5.5100
+  Anchor:   word 64 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 tus est . nam et ille captus --- qui captinam 42
+                      0 ----|||--  9
+    query             0 ----est-- Nam et ille captus est qui captivam 39
+
+-- fused_10 --
+  OCR:      'tene bat primum homi nem hodieportas'
+  Assigned: 'tenebat primum hominem hodie portas'
+  Words:    [64..69) consumed=5
+  NW score: k=5 (pre-snap), norm=7.0711
+  Anchor:   word 69 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 tene bat primum homi nem hodie-portas 36
+                      0 ||||-|||  8
+    query             0 tene-bat primum homi-nem hodie portas 35
+
+-- fused_11 --
+  OCR:      'mor ns et le mo tier saliatore m i'
+  Assigned: 'mortis et seras pariter salvator noster diru'
+  Words:    [69..76) consumed=7
+  NW score: k=5 (pre-snap), norm=2.7892
+  Anchor:   word 76 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 mor ns et le mo --ti-er saliator-----e- ---m i- 34
+                      0 |||..|  6
+    query             0 mortis et seras pariter salvator noster dirupit 47
+
+-- fused_12 --
+  OCR:      'pites  estcurit quidem claustra infer nn et subum'
+  Assigned: 'pit Destruxit quidem claustra inferni et subver'
+  Words:    [76..82) consumed=6
+  NW score: k=6 (pre-snap), norm=4.4864
+  Anchor:   word 82 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 pites  estcurit quidem claustra infer nn et sub----um 49
+                      0 ------.|||.|.|| 15
+    query             0 ------Destruxit quidem claustra infer-ni et subvertit 46
+
+-- fused_13 --
+  OCR:      't potenaias dnio  nos om'
+  Assigned: 'tit potencias diaboli Nam O vos omnes'
+  Words:    [82..88) consumed=6
+  NW score: k=6 (pre-snap), norm=2.5939
+  Anchor:   word 88 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 t potenaias dni--o------ - nos om--- 24
+                      0 --|||||.||| 11
+    query             0 --potencias d-iaboli Nam O vos omnes 33
+=== END DEBUG ===
+

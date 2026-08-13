@@ -1,0 +1,171 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'miit adoravitccipiens Symeon puerum in'
+  [fused_1] 'mbus gracias agens benedi n om  nst'
+  [fused_2] 'aude mari avirgo hreses sola intere'
+  [fused_3] 'nm sa onnte gtabre no arhingei dicus Crocosa Dum mr'
+  [fused_4] 'o denetomn'
+  [fused_5] 'mmola ta permansabrie lem archanse'
+  [fused_6] 'lum credimus divinitus te esse affatum'
+  [fused_7] 'de Homti saito cecomiuns impagiatum ecnes cat'
+  [fused_8] 'qm dicit Christistum ex Josephan semine esse na'
+  [fused_9] 'tum dim . ioria patri et filio et spiri tui Sanc'
+  [fused_10] 'Ymcon justus et timoratus expecta to. doomi'
+  [fused_11] 'vat redemptionem israhei et speintus sanctus es'
+  [fused_12] ' eromechonsim accepit Himico a sptu'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'miit adoravitccipiens Symeon puerum in'
+  Assigned: 'genuit adoravit Accipiens symeon puerum in'
+  Words:    [0..6) consumed=6
+  NW score: k=6 (pre-snap), norm=6.1327
+  Anchor:   word 6 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 --miit adoravit--ccipiens Symeon puerum in 38
+                      0 --..||  6
+    query             0 genuit adoravit Accipiens symeon puerum in 42
+
+-- fused_1 --
+  OCR:      'mbus gracias agens benedi n om  nst'
+  Assigned: 'manibus gracias agens benedixit dominum'
+  Words:    [6..11) consumed=5
+  NW score: k=4 (pre-snap), norm=4.8574
+  Anchor:   word 11 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 m---bus gracias agens benedi- n -om  nst 35
+                      0 |---|||  7
+    query             0 manibus gracias agens benedixit dom-inum 39
+
+-- fused_2 --
+  OCR:      'aude mari avirgo hreses sola intere'
+  Assigned: 'Quem Gaude maria virgo cunctas hereses sola intere'
+  Words:    [11..19) consumed=8
+  NW score: k=8 (pre-snap), norm=4.1482
+  Anchor:   word 19 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ------aude mari- avirgo-------- h-reses sola intere----- 35
+                      0 ------|||| 10
+    query             0 Quem Gaude maria -virgo cunctas hereses sola interemisti 55
+
+-- fused_3 --
+  OCR:      'nm sa onnte gtabre no arhingei dicus Crocosa Dum mr'
+  Assigned: 'misti que gabrielis archangeli dictis credidisti Dum'
+  Words:    [19..25) consumed=6
+  NW score: k=7 (pre-snap), norm=1.3593
+  Anchor:   word 25 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 nm sa onnte gtabr-e no ar-hinge-i dic-us Cr--ocos-a Dum mr 51
+                      0 --------..| 11
+    query             0 --------que g-abrielis archangeli dictis credidisti Dum--- 46
+
+-- fused_4 --
+  OCR:      'o denetomn'
+  Assigned: 'virgo deum et hominem genuisti et post partum'
+  Words:    [25..33) consumed=8
+  NW score: k=4 (pre-snap), norm=0.9661
+  Anchor:   word 33 (within_chant_7), diff=4, snapped=False, forced=True
+  Alignment:
+    target            0 ----o de--net--om-------n-------------------- 10
+                      0 ----|  5
+    query             0 virgo deum et hominem genuisti et post partum 45
+
+-- fused_5 --
+  OCR:      'mmola ta permansabrie lem archanse'
+  Assigned: 'virgo inviolata permansisti Gabrielem archange'
+  Words:    [33..38) consumed=5
+  NW score: k=5 (pre-snap), norm=3.4300
+  Anchor:   word 38 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 --------mmola ta permans------abrie lem archanse--- 34
+                      0 --------..|||-|| 16
+    query             0 virgo inviola-ta permansisti Gabrie-lem archangelum 49
+
+-- fused_6 --
+  OCR:      'lum credimus divinitus te esse affatum'
+  Assigned: 'lum credimus divinitus te esse affatum uterum tuum'
+  Words:    [38..45) consumed=7
+  NW score: k=5 (pre-snap), norm=7.1221
+  Anchor:   word 45 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 lum credimus divinitus te esse affat------------um 38
+                      0 ----|||||||| 12
+    query             0 ----credimus divinitus te esse affatum uterum tuum 46
+
+-- fused_7 --
+  OCR:      'de Homti saito cecomiuns impagiatum ecnes cat'
+  Assigned: 'de spiritu sancto credimus impregnatum erubescat iu'
+  Words:    [45..52) consumed=7
+  NW score: k=6 (pre-snap), norm=2.8832
+  Anchor:   word 52 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 de --Homti sa-ito c-ecomiuns imp-agiatum e-cnes cat------- 45
+                      0 ||  2
+    query             0 de spiritu sancto credim-u-s impregnatum erubes-cat iudeus 55
+
+-- fused_8 --
+  OCR:      'qm dicit Christistum ex Josephan semine esse na'
+  Assigned: 'deus infelix qui dicit xpistum ex ioseph semine esse na'
+  Words:    [52..61) consumed=9
+  NW score: k=9 (pre-snap), norm=4.0473
+  Anchor:   word 61 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 --------q-m dicit Christistum ex Josephan semine esse na---
+                      0 --------|-.
+    query             0 infelix qui dicit ----xpistum ex ioseph-- semine esse natum
+    
+    target           47
+                     11
+    query            53
+
+-- fused_9 --
+  OCR:      'tum dim . ioria patri et filio et spiri tui Sanc'
+  Assigned: 'tum Dum virgo Gloria patri et filio et spiritui sanc'
+  Words:    [61..70) consumed=9
+  NW score: k=9 (pre-snap), norm=5.3276
+  Anchor:   word 70 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 tum dim . -ioria patri et filio et spiri tui Sanc-- 48
+                      0 .||  3
+    query             0 Dum virgo Gloria patri et filio et spiri-tui sancto 50
+
+-- fused_10 --
+  OCR:      'Ymcon justus et timoratus expecta to. doomi'
+  Assigned: 'to Dum Symeon iustus et timoratus expecta'
+  Words:    [70..76) consumed=6
+  NW score: k=6 (pre-snap), norm=4.1440
+  Anchor:   word 76 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -----Ymcon justus et timoratus expecta- to. doomi 43
+                      0 -----.|.|| 10
+    query             0 Dum Symeon iustus et timoratus expectabat-------- 41
+
+-- fused_11 --
+  OCR:      'vat redemptionem israhei et speintus sanctus es'
+  Assigned: 'bat redemptionem israhel et spiritus sanctus erat in eo'
+  Words:    [76..84) consumed=8
+  NW score: k=5 (pre-snap), norm=5.6044
+  Anchor:   word 84 (within_chant_7), diff=3, snapped=False, forced=True
+  Alignment:
+    target            0 vat redemptionem israhei et spei-ntus sanctus-------- es 47
+                      0 ----|||||||||||| 16
+    query             0 ----redemptionem israhel et sp-iritus sanctus erat in eo 51
+
+-- fused_12 --
+  OCR:      'eromechonsim accepit Himico a sptu'
+  Assigned: '~Dominus regnavit euouae Responsum accepit symeon a spiritu'
+  Words:    [84..92) consumed=8
+  NW score: k=8 (pre-snap), norm=1.4066
+  Anchor:   word 92 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 erom----------------------echonsim accepit Himico- a sp---tu
+                      0 ..||----------------------|..|||.|
+    query             0 ~Dominus regnavit euouae Responsum accepit sym-eon a spiritu
+    
+    target           34 
+                     34 
+    query            59 
+=== END DEBUG ===
+

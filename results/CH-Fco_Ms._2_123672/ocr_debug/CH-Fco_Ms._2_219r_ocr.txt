@@ -1,0 +1,277 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'dat exercitus te omnes Sancti et electi voce confiren'
+  [fused_1] 'tur umanimes beata Trinitas unus deus pre Benedictus exovac o ompten sempradie et ficomenio de Sancto casario ad in ccapitu'
+  [fused_2] 'Ecclegoiohanne Ma plimorum mtuni ad voi capetulm posthecundi'
+  [fused_3] 'ad ix capetlam ndicto telari ad vel et vidi turbam per ordine'
+  [fused_4] 'Pos de M capillan. Ecce ego Ymis e redep Gestabut ad a quam Gloriosum'
+  [fused_5] 'est regnumi in quo cum xhpististo gaudent omnes Sancti Amicti sto'
+  [fused_6] ''
+  [fused_7] 'bi Restunitas'
+  [fused_8] 'us abis se quintur agnum quocumque jerit evovae m facimus det iifra ebedam dictus pionem et officiali misse dominicaveni incipia mcor'
+  [fused_9] ' d aps le II .anta'
+  [fused_10] 'noe ebcomadaru absolutett Regem cuio ddamortuorum et ita adlaudes ronetidenu sequenti nodte dominis antis '
+  [fused_11] 'sanctorum . cum pervenisset oro'
+  [fused_12] ' n d delaud'
+  [fused_13] 'Heodoro ostii ii apstulorum pe'
+  [fused_14] 'cheotoro in fe eoton le 1oro'
+  [fused_15] 'aliqua as scilicet e ona celebrat lecto et sequenti o'
+  [fused_16] 'testimitas aligiu sai de que solmmus fiat comenio ad'
+  [fused_17] 'es restivitatis dicit capitulum unius bet a ad magistrim oro . Deinte te Sancto cujus con'
+  [fused_18] 'menio . posteat refumit de festi pretita a dicit acrior sice phuus instrespicii'
+  [fused_19] 'Eodie fuitix le secundo diec feot sact Nart confesso et ancti mene dictis velp'
+  [fused_20] 'pelictotphone et respicio diitu capilli yer tor prosctomart posteade ator'
+  [fused_21] 'restomena etp Sancto Tphonearespicio et sicte silibus Etiois e si fests marti edcavenit Salbato toie ipsi capitul ece sacdos magii pnteaanrci stol beatum'
+  [fused_22] 'ma paradisum possidet unde exutant angeli'
+  [fused_23] 'letantur Archangeli chorus Sanctorum proclamant turba virgi'
+  [fused_24] 'ordo qui consi'
+  [fused_25] 'cis postea de d'
+  [fused_26] 'num mmitat manenobiscum metetunm exoras de deSanctoMenna'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'dat exercitus te omnes Sancti et electi voce confiren'
+  Assigned: 'laudat exercitus te omnes sancti et electi voce confitentur'
+  Words:    [0..9) consumed=9
+  NW score: k=9 (pre-snap), norm=6.6524
+  Anchor:   word 19 (within_chant_7), diff=10, snapped=False, forced=False
+  Alignment:
+    target            0 ---dat exercitus te omnes Sancti et electi voce confiren---
+                      0 ---|||
+    query             0 laudat exercitus te omnes sancti et electi voce confitentur
+    
+    target           53
+                      6
+    query            59
+
+-- fused_1 --
+  OCR:      'tur umanimes beata Trinitas unus deus pre Benedictus exovac o ompten sempradie et ficomenio de Sancto casario ad in ccapitu'
+  Assigned: 'unanimes beata trinitas unus deus ~Benedictus euouae O quam gloriosum est regnum in quo cum xpisto'
+  Words:    [9..25) consumed=16
+  NW score: k=16 (pre-snap), norm=2.2133
+  Anchor:   word 19 (within_chant_7), diff=6, snapped=False, forced=False
+  Alignment:
+    target            0 tur umanimes beata Trinitas unus deus pre Benedictus exovac 
+                      0 ----|.||||||
+    query             0 ----unanimes beata trinitas unus deus ---~Benedictus euouae 
+    
+    target           60 o --ompten ------sempradie e-t ficome-nio de Sancto casario 
+                     12 .
+    query            53 O quam---- gloriosum------ est ----regnum in ---quo c-------
+    
+    target          110 ad in ccapi-tu 123
+                     13 ---..  18
+    query            89 ---um --xpisto  98
+
+-- fused_2 --
+  OCR:      'Ecclegoiohanne Ma plimorum mtuni ad voi capetulm posthecundi'
+  Assigned: 'gaudent omnes sancti amicti sto'
+  Words:    [25..30) consumed=5
+  NW score: k=9 (pre-snap), norm=-1.2236
+  Anchor:   word 30 (within_chant_7), diff=4, snapped=False, forced=True
+  Alignment:
+    target            0 Ecclegoiohanne- Ma plimorum mtuni ad voi capetulm posthecund
+                      0 ....|...|--.||-
+    query             0 gaudent o--mnes sa---------nct--i a---mi-c---t--i --st----ol
+    
+    target           59 i- 60
+                     15 |- 17
+    query            32 is 34
+
+-- fused_3 --
+  OCR:      'ad ix capetlam ndicto telari ad vel et vidi turbam per ordine'
+  Assigned: 'lis albis sequuntur agnum quocumque ierit'
+  Words:    [30..35) consumed=5
+  NW score: k=12 (pre-snap), norm=-0.5975
+  Anchor:   word 35 (within_chant_7), diff=7, snapped=False, forced=True
+  Alignment:
+    target            0 ad ix capetlam ndicto telari ad vel et vidi turbam--- per or
+                      0 |..|.
+    query             0 albis --se--quun------t--ur- a---------gnum quocumque ier---
+    
+    target           57 dine 61
+                      5 -|-.  9
+    query            35 -i-t 37
+
+-- fused_4 --
+  OCR:      'Pos de M capillan. Ecce ego Ymis e redep Gestabut ad a quam Gloriosum'
+  Assigned: 'euouae O beatum virum cuius anima paradisum possidet unde exultant angeli letantur archangeli chorus sanctorum'
+  Words:    [35..50) consumed=15
+  NW score: k=15 (pre-snap), norm=-1.3085
+  Anchor:   word 38 (within_chant_7), diff=12, snapped=False, forced=False
+  Alignment:
+    target            0 -Po----s de---- ----M capi-llan. Ecce ego Ymis-- ------e- re
+                      0 -.|----.
+    query             0 euouae O beatum virum c-uius an---ima -paradisum possidet un
+    
+    target           37 dep Ge--stabut a----d ---a qu------a----m Glor-------iosum
+                      8 ||-
+    query            55 de- -exulta-nt angeli letantur archangeli chorus sanctorum
+    
+    target           69
+                     11
+    query           110
+
+-- fused_5 --
+  OCR:      'est regnumi in quo cum xhpististo gaudent omnes Sancti Amicti sto'
+  Assigned: 'proclamat turba virgi'
+  Words:    [50..53) consumed=3
+  NW score: k=8 (pre-snap), norm=-1.1172
+  Anchor:   word 53 (within_chant_7), diff=5, snapped=False, forced=True
+  Alignment:
+    target            0 est regnumi in quo c-um xhpististo gaudent omnes Sancti Amic
+                      0 ---.|------------|-|-.|-------------|----|
+    query             0 ---pr------------o-clam-------------a----t ---turba---- -vir
+    
+    target           59 ti sto 65
+                     42 .|-... 48
+    query            19 gi-num 24
+
+-- fused_6 --
+  OCR:      ''
+  Assigned: 'num invitat mane nobiscum in eternum'
+  Words:    [53..58) consumed=5
+
+-- fused_7 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [58..58) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_8 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [58..58) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_9 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [58..58) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_10 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [58..58) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_11 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [58..58) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_12 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [58..58) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_13 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [58..58) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_14 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [58..58) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_15 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [58..58) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_16 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [58..58) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_17 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [58..58) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_18 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [58..58) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_19 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [58..58) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_20 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [58..58) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_21 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [58..58) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_22 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [58..58) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_23 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [58..58) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_24 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [58..58) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_25 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [58..58) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_26 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [58..58) consumed=0
+  Alignment:
+    (no words left)
+=== END DEBUG ===
+

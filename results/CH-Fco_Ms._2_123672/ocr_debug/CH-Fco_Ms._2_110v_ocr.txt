@@ -1,0 +1,171 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'tatem et sapienciam et for titudinem et honorem et glo'
+  [fused_1] 'tiam dicti o .ncu. Aneluya gosum'
+  [fused_2] 'vitis veret vos palimites . Qui manet in me et ego in eo'
+  [fused_3] 'fructum multum alie'
+  [fused_4] 'dilexit me pa tcr .aco vos.'
+  [fused_5] 'ittite in dexteram naingu Reche et ive'
+  [fused_6] 'metis Allelnya evovae recit Jheesus discipulis su'
+  [fused_7] 'is affer te depiscibus quos prendidistis nunc ascendit'
+  [fused_8] 'antem himon petrus et trant reche in terra plenum ma'
+  [fused_9] 'ma preisaibus alelia exomae'
+  [fused_10] 'irrexit pastorlo amam suam post'
+  [fused_11] 'pro omibus suis et pro suo gre d'
+  [fused_12] 'Vigna  ya de mya '
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'tatem et sapienciam et for titudinem et honorem et glo'
+  Assigned: 'Dignus est agnus qui occisus est accipere virtutem et divinitatem et sapienciam et fortitudinem et honorem et glo'
+  Words:    [0..18) consumed=18
+  NW score: k=18 (pre-snap), norm=2.7300
+  Anchor:   word 1 (within_chant_7), diff=17, snapped=False, forced=False
+  Alignment:
+    target            0 ------------------------------------------------------------
+                      0 ------------------------------------------------------------
+    query             0 Dignus est agnus qui occisus est accipere virtutem et divini
+    
+    target            0 tatem et sapienciam et for titudinem et honorem et glo----
+                     60 |||||
+    query            60 tatem et sapienciam et for-titudinem et honorem et gloriam
+    
+    target           54
+                     65
+    query           117
+
+-- fused_1 --
+  OCR:      'tiam dicti o .ncu. Aneluya gosum'
+  Assigned: 'riam et benedictionem Alleluya Ego sum'
+  Words:    [18..23) consumed=5
+  NW score: k=5 (pre-snap), norm=2.4618
+  Anchor:   word 36 (within_chant_7), diff=13, snapped=False, forced=False
+  Alignment:
+    target            0 -tiam ----dicti o .ncu. A-neluya -go-sum 32
+                      0 -|---  5
+    query             0 et--- benedicti-o--n-em Alleluya Ego sum 33
+
+-- fused_2 --
+  OCR:      'vitis veret vos palimites . Qui manet in me et ego in eo'
+  Assigned: 'vitis vera et vos palmites Qui manet in me et ego in eo'
+  Words:    [23..36) consumed=13
+  NW score: k=13 (pre-snap), norm=7.1534
+  Anchor:   word 36 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 vitis ver--et vos palimites . Qui manet in me et ego in eo 56
+                      0 |||||  5
+    query             0 vitis vera et vos pal-mites-- Qui manet in me et ego in eo 55
+
+-- fused_3 --
+  OCR:      'fructum multum alie'
+  Assigned: 'hic fert fructum multum alleluya alleluya Sicut'
+  Words:    [36..43) consumed=7
+  NW score: k=5 (pre-snap), norm=3.7311
+  Anchor:   word 43 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 ---------fructum multum alie------------------- 19
+                      0 ---------||||||| 16
+    query             0 hic fert fructum multum alleluya alleluya Sicut 47
+
+-- fused_4 --
+  OCR:      'dilexit me pa tcr .aco vos.'
+  Assigned: 'dilexit me pater et ego dilexi vos'
+  Words:    [43..50) consumed=7
+  NW score: k=5 (pre-snap), norm=3.6116
+  Anchor:   word 50 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 dilexit me pa tcr --.aco------- vos. 27
+                      0 |||||||  7
+    query             0 dilexit me pa-ter et ego dilexi vos- 34
+
+-- fused_5 --
+  OCR:      'ittite in dexteram naingu Reche et ive'
+  Assigned: 'Qui manet Mittite in dexteram navigii rethe et inve'
+  Words:    [50..59) consumed=9
+  NW score: k=9 (pre-snap), norm=3.6527
+  Anchor:   word 59 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -----------ittite in dexteram na-ing-u Reche et i-ve------ 38
+                      0 -----------|||||| 17
+    query             0 Qui manet Mittite in dexteram navi-gii rethe et invenietis 57
+
+-- fused_6 --
+  OCR:      'metis Allelnya evovae recit Jheesus discipulis su'
+  Assigned: 'nietis alleluya euouae Dixit ihesus discipulis su'
+  Words:    [59..65) consumed=6
+  NW score: k=6 (pre-snap), norm=4.1565
+  Anchor:   word 65 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 metis Allelnya evovae recit Jheesus discipulis su-- 49
+                      0 ------.||||.|| 14
+    query             0 ------alleluya euouae Dixit ih-esus discipulis suis 44
+
+-- fused_7 --
+  OCR:      'is affer te depiscibus quos prendidistis nunc ascendit'
+  Assigned: 'is afferte de piscibus quos prendidistis nunc ascendit'
+  Words:    [65..72) consumed=7
+  NW score: k=7 (pre-snap), norm=7.1077
+  Anchor:   word 72 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 is affer te de-piscibus quos prendidistis nunc ascendit 54
+                      0 ---|||||-|| 11
+    query             0 ---affer-te de piscibus quos prendidistis nunc ascendit 51
+
+-- fused_8 --
+  OCR:      'antem himon petrus et trant reche in terra plenum ma'
+  Assigned: 'autem symon petrus et traxit rethe in terra plenum ma'
+  Words:    [72..82) consumed=10
+  NW score: k=10 (pre-snap), norm=6.0247
+  Anchor:   word 82 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 antem himon petrus et tra-nt reche in terra plenum ma---- 52
+                      0 |.|||  5
+    query             0 autem symon petrus et traxit rethe in terra plenum magnis 57
+
+-- fused_9 --
+  OCR:      'ma preisaibus alelia exomae'
+  Assigned: 'gnis piscibus alleluya euouae'
+  Words:    [82..85) consumed=3
+  NW score: k=3 (pre-snap), norm=3.4177
+  Anchor:   word 85 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ma preisaibus a-lel-ia exomae 27
+                      0 ---|--||.|||| 13
+    query             0 ---p--iscibus alleluya euouae 24
+
+-- fused_10 --
+  OCR:      'irrexit pastorlo amam suam post'
+  Assigned: 'Surrexit pastor bonus qui posuit animam suam'
+  Words:    [85..92) consumed=7
+  NW score: k=8 (pre-snap), norm=3.0849
+  Anchor:   word 92 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 -irrexit pastor-----------lo---- a--mam suam post 31
+                      0 -.||||||  8
+    query             0 Surrexit pastor bonus qui posuit animam suam----- 44
+
+-- fused_11 --
+  OCR:      'pro omibus suis et pro suo gre d'
+  Assigned: 'pro ovibus suis et pro suo grege mori'
+  Words:    [92..100) consumed=8
+  NW score: k=7 (pre-snap), norm=6.7812
+  Anchor:   word 100 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 pro omibus suis et pro suo gr--e ---d 32
+                      0 |||  3
+    query             0 pro ovibus suis et pro suo grege mori 37
+
+-- fused_12 --
+  OCR:      'Vigna  ya de mya'
+  Assigned: 'dignatus est Alleluya alleluya alleluya'
+  Words:    [100..106) consumed=6
+  NW score: k=4 (pre-snap), norm=0.8216
+  Anchor:   word 106 (page_break_77), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 Vigna--- --- ------ya --de---- -----mya 16
+                      0 .||||---  8
+    query             0 dignatus est Alleluya alleluya alleluya 39
+=== END DEBUG ===
+

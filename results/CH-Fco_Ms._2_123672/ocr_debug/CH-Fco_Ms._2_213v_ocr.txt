@@ -1,0 +1,163 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'ticlamans se voluntarie pro Christisco mala pati e verba'
+  [fused_1] 'mea evovae Vuctus ad lo ci presulem sua patri resignat'
+  [fused_2] 'mudusque manens exilem in mundo se de signat  Domine Do'
+  [fused_3] 'siustimedi  semmudo cor'
+  [fused_4] 'pore laudes decan d at canonit e a cono ne'
+  [fused_5] 'emore . respondet sic prophetice pre'
+  [fused_6] 'co sum mag in pegis et aa voit nmn'
+  [fused_7] 'jis frigore projectus Jace rustice futurus pastor gregis'
+  [fused_8] ' etsi no et sprim tuisano'
+  [fused_9] 'to Res Ami cum querit pri stinum qui'
+  [fused_10] 'soretum in cenobiso cumntep it contempta'
+  [fused_11] 'Gartens hominum Lepro no sit oble anmno mo'
+  [fused_12] 'an te  t ese aatas  no m'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'ticlamans se voluntarie pro Christisco mala pati e verba'
+  Assigned: 'clamans se voluntarie pro xpisto mala pati ~Verba'
+  Words:    [0..8) consumed=8
+  NW score: k=8 (pre-snap), norm=5.7843
+  Anchor:   word 17 (within_chant_7), diff=9, snapped=False, forced=False
+  Alignment:
+    target            0 ticlamans se voluntarie pro Christisco mala pati e verba 56
+                      0 --|||||||  9
+    query             0 --clamans se voluntarie pro -xpist---o mala pati -~Verba 49
+
+-- fused_1 --
+  OCR:      'mea evovae Vuctus ad lo ci presulem sua patri resignat'
+  Assigned: 'mea euouae Ductus ad loci presulem sua patri resignat'
+  Words:    [8..17) consumed=9
+  NW score: k=9 (pre-snap), norm=7.0657
+  Anchor:   word 17 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 mea evovae Vuctus ad lo ci presulem sua patri resignat 54
+                      0 |||  3
+    query             0 mea euouae Ductus ad lo-ci presulem sua patri resignat 53
+
+-- fused_2 --
+  OCR:      'mudusque manens exilem in mundo se de signat  Domine Do'
+  Assigned: 'nudusque manens exsulem in mundo se designat'
+  Words:    [17..24) consumed=7
+  NW score: k=8 (pre-snap), norm=6.3950
+  Anchor:   word 24 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 mudusque manens ex-ilem in mundo se de signat  Domine Do 55
+                      0 .|||||||  8
+    query             0 nudusque manens exsulem in mundo se de-signat----------- 44
+
+-- fused_3 --
+  OCR:      'siustimedi  semmudo cor'
+  Assigned: '~Domine dominus noster euouae Dum seminudo cor'
+  Words:    [24..31) consumed=7
+  NW score: k=7 (pre-snap), norm=-0.2064
+  Anchor:   word 31 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ----------si-u----st-ime---di --- sem-mudo cor---- 23
+                      0 ----------.|-|----||-..|---.. 29
+    query             0 ~Domine dominus noster euouae Dum seminudo corpore 50
+
+-- fused_4 --
+  OCR:      'pore laudes decan d at canonit e a cono ne'
+  Assigned: 'pore laudes decantat gallice zelator nove le'
+  Words:    [31..37) consumed=6
+  NW score: k=5 (pre-snap), norm=2.0059
+  Anchor:   word 37 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 pore laudes decan d at canoni-t -e a co--no-- ne--- 42
+                      0 -----|||||| 11
+    query             0 -----laudes decan--tat ga-llice zela-tor nove legis 42
+
+-- fused_5 --
+  OCR:      'emore . respondet sic prophetice pre'
+  Assigned: 'gis latronibus in nemore Respondet sic pro'
+  Words:    [37..43) consumed=6
+  NW score: k=7 (pre-snap), norm=4.4342
+  Anchor:   word 43 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 ---------------emore . respondet sic prophetice pre 36
+                      0 ---------------|||||-- 22
+    query             0 latronibus in nemore-- Respondet sic prophetic----e 45
+
+-- fused_6 --
+  OCR:      'co sum mag in pegis et aa voit nmn'
+  Assigned: 'phetice preco sum magni regis Audit in ni'
+  Words:    [43..50) consumed=7
+  NW score: k=6 (pre-snap), norm=2.8806
+  Anchor:   word 50 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 ---co sum mag in pegis ---et aa voit n--mn 34
+                      0 ---||  5
+    query             0 preco sum magni- regis Audit -----in nivis 36
+
+-- fused_7 --
+  OCR:      'jis frigore projectus Jace rustice futurus pastor gregis'
+  Assigned: 'vis frigore proiectus iace rustice futurus pastor gregis'
+  Words:    [50..57) consumed=7
+  NW score: k=7 (pre-snap), norm=6.9307
+  Anchor:   word 57 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 jis frigore projectus Jace rustice futurus pastor gregis 56
+                      0 ----||||||| 11
+    query             0 ----frigore proiectus iace rustice futurus pastor gregis 52
+
+-- fused_8 --
+  OCR:      'etsi no et sprim tuisano'
+  Assigned: 'Respondet Gloria patri et filio et spiritui sanc'
+  Words:    [57..65) consumed=8
+  NW score: k=8 (pre-snap), norm=0.9238
+  Anchor:   word 65 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -------e-----------tsi ------no et sp-rim tui-san--o 24
+                      0 -------|-----------|.| 22
+    query             0 Respondet Gloria patri et filio et spiri--tui sancto 50
+
+-- fused_9 --
+  OCR:      'to Res Ami cum querit pri stinum qui'
+  Assigned: 'to Respondet Amicum querit pristinum qui'
+  Words:    [65..70) consumed=5
+  NW score: k=5 (pre-snap), norm=5.4526
+  Anchor:   word 70 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 to Res------ Ami cum querit pri stinum qui 36
+                      0 ---|||------ 12
+    query             0 ---Respondet Ami-cum querit pri-stinum qui 37
+
+-- fused_10 --
+  OCR:      'soretum in cenobiso cumntep it contempta'
+  Assigned: 'spretum in cenobio tunicula contexit contemptu'
+  Words:    [70..76) consumed=6
+  NW score: k=6 (pre-snap), norm=4.8024
+  Anchor:   word 76 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 soretum in cenobiso ----cu----mntep it contempta 40
+                      0 |.|||||  7
+    query             0 spretum in cenobi-o tunicula conte-xit contemptu 46
+
+-- fused_11 --
+  OCR:      'Gartens hominum Lepro no sit oble anmno mo'
+  Assigned: 'gaudens hominum Leprosis fit obsequio'
+  Words:    [76..81) consumed=5
+  NW score: k=5 (pre-snap), norm=3.3992
+  Anchor:   word 81 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 Gartens hominum Lepro no sit oble anmno mo 42
+                      0 .|..|||  7
+    query             0 gaudens hominum Leprosis fit obse-----quio 37
+
+-- fused_12 --
+  OCR:      'an te  t ese aatas  no m'
+  Assigned: 'quos antea despexit Sub typo'
+  Words:    [81..86) consumed=5
+  NW score: k=5 (pre-snap), norm=-0.7329
+  Anchor:   word 86 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -----an te  t es-e aatas --- --no m 24
+                      0 -----||-||. 11
+    query             0 quos an-tea -despe-xit-- Sub typo-- 28
+=== END DEBUG ===
+

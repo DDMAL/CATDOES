@@ -1,0 +1,185 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'ejus in laboribus servi runt et lingua ejus'
+  [fused_1] 'mnter principes loquebatur Lapien'
+  [fused_2] 'nmiliaverunt in compedibus pedes e qs fer'
+  [fused_3] 'rum pertransut animam ejus donec veniret verbum e'
+  [fused_4] 'm t eento me  dum beneni'
+  [fused_5] ''
+  [fused_6] 'ut ut suggeris ptumio ni ut educat me'
+  [fused_7] '.elto . nne re quam furtim subla'
+  [fused_8] 'tus sum et hic innocens mnla cam missus'
+  [fused_9] 'adhuc dies sunt post quam'
+  [fused_10] 'recordabitur Pharao ministerutu et restituet tem'
+  [fused_11] 'dam pristinum tunc me secunduu Luca . in iott . Erat ihesc eici Mento me. ot'
+  [fused_12] 'eus demonium omil Sancti Jeroninu'
+  [fused_13] 'bri tunc oblatus est ihesu demo'
+  [fused_14] 'sugge. e rito hec patimur'
+  [fused_15] 'anna petrnius in fatem no sttum indentes an'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'ejus in laboribus servi runt et lingua ejus'
+  Assigned: 'in laboribus servierunt Et lingua eius'
+  Words:    [0..6) consumed=6
+  NW score: k=6 (pre-snap), norm=6.0857
+  Anchor:   word 16 (within_chant_7), diff=10, snapped=False, forced=False
+  Alignment:
+    target            0 ejus in laboribus servi runt et lingua ejus 43
+                      0 -----||  7
+    query             0 -----in laboribus servierunt Et lingua eius 38
+
+-- fused_1 --
+  OCR:      'mnter principes loquebatur Lapien'
+  Assigned: 'inter principes loquebatur sapienciam'
+  Words:    [6..10) consumed=4
+  NW score: k=4 (pre-snap), norm=6.3532
+  Anchor:   word 16 (within_chant_7), diff=6, snapped=False, forced=False
+  Alignment:
+    target            0 mnter principes loquebatur Lapien---- 33
+                      0 .||||  5
+    query             0 inter principes loquebatur sapienciam 37
+
+-- fused_2 --
+  OCR:      'nmiliaverunt in compedibus pedes e qs fer'
+  Assigned: 'Humiliaverunt in compedibus pedes eius fer'
+  Words:    [10..16) consumed=6
+  NW score: k=6 (pre-snap), norm=6.2626
+  Anchor:   word 16 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -nmiliaverunt in compedibus pedes e qs fer--- 41
+                      0 -.||||||||||| 13
+    query             0 Humiliaverunt in compedibus pedes eius ferrum 45
+
+-- fused_3 --
+  OCR:      'rum pertransut animam ejus donec veniret verbum e'
+  Assigned: 'rum pertransiit animam eius donec veniret verbum e'
+  Words:    [16..23) consumed=7
+  NW score: k=6 (pre-snap), norm=6.1379
+  Anchor:   word 23 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 rum pertrans-ut animam ejus donec veniret verbum e--- 49
+                      0 ----||||||||-.| 15
+    query             0 ----pertransiit animam eius donec veniret verbum eius 49
+
+-- fused_4 --
+  OCR:      'm t eento me  dum beneni'
+  Assigned: 'ius Et lingua Memento mei dum bene tibi'
+  Words:    [23..30) consumed=7
+  NW score: k=6 (pre-snap), norm=3.3541
+  Anchor:   word 30 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 m t --------e-ento me  dum bene---ni 24
+                      0 -.|  3
+    query             0 -Et lingua Memento mei dum bene tibi 35
+
+-- fused_5 --
+  OCR:      ''
+  Assigned: 'fuerit Ut suggeras pharaoni ut educat me'
+  Words:    [30..37) consumed=7
+
+-- fused_6 --
+  OCR:      'ut ut suggeris ptumio ni ut educat me'
+  Assigned: 'de isto carcere quia furtim sublatus sum'
+  Words:    [37..44) consumed=7
+  NW score: k=8 (pre-snap), norm=-0.7772
+  Anchor:   word 44 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 ut -ut- suggeris ptumio ni u-t-- edu-cat-- --me 37
+                      0 ..  2
+    query             0 de isto carcer-e -qu-ia --furtim -sublatus sum- 40
+
+-- fused_7 --
+  OCR:      '.elto . nne re quam furtim subla'
+  Assigned: 'et hic innocens in lacum missus sum Tres'
+  Words:    [44..52) consumed=8
+  NW score: k=7 (pre-snap), norm=-0.5379
+  Anchor:   word 52 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 .elto --. -nn--e-- re --quam ---furtim su---bla 32
+                      0 -|-|-  5
+    query             0 -e-t- hic innocens in lacu-m missu---s sum Tres 40
+
+-- fused_8 --
+  OCR:      'tus sum et hic innocens mnla cam missus'
+  Assigned: 'enim adhuc dies sunt post quam'
+  Words:    [52..58) consumed=6
+  NW score: k=7 (pre-snap), norm=-1.1965
+  Anchor:   word 58 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 tus sum et hic -innocens -mnla cam mis--su-s 39
+                      0 ---...|  7
+    query             0 ---enim -adhuc di----e-s sun-----t post quam 30
+
+-- fused_9 --
+  OCR:      'adhuc dies sunt post quam'
+  Assigned: 'recordabitur pharao ministerii tui et restituet te in'
+  Words:    [58..66) consumed=8
+  NW score: k=6 (pre-snap), norm=-1.7212
+  Anchor:   word 66 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 ------a-dhuc ---------di--e--s su--nt post qu------am 25
+                      0 ------|-..|. 12
+    query             0 recordabitur pharao ministerii tui et restituet te in 53
+
+-- fused_10 --
+  OCR:      'recordabitur Pharao ministerutu et restituet tem'
+  Assigned: 'gradum pristinum tunc memento mei Et'
+  Words:    [66..72) consumed=6
+  NW score: k=6 (pre-snap), norm=-0.7698
+  Anchor:   word 72 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 recordabitur Pharao ministeru--tu-- -et restituet -tem 48
+                      0 ---.|-|--.|. 12
+    query             0 ---gr-a--dum --pr------istinum tunc me--mento mei Et-- 36
+
+-- fused_11 --
+  OCR:      'dam pristinum tunc me secunduu Luca . in iott . Erat ihesc eici Mento me. ot'
+  Assigned: 'suggeras Merito hec patimur quia peccavimus in fratrem nostrum videntes'
+  Words:    [72..82) consumed=10
+  NW score: k=10 (pre-snap), norm=-0.9257
+  Anchor:   word 76 (within_chant_7), diff=6, snapped=False, forced=False
+  Alignment:
+    target            0 -----dam -pri--------stinum tunc me secunduu Luca--- . in io
+                      0 -----.|.
+    query             0 suggeras Merito hec patimur qu---ia pec--------cavimus in---
+    
+    target           43 tt . Erat--- ihes---c eici Mento me. ot 76
+                      8 ---- 12
+    query            46 ---- fratrem -nostrum vi---dent---e---s 71
+
+-- fused_12 --
+  OCR:      'eus demonium omil Sancti Jeroninu'
+  Assigned: 'angustias'
+  Words:    [82..83) consumed=1
+  NW score: k=1 (pre-snap), norm=-4.4680
+  Anchor:   word 83 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 eus demonium omil Sancti Jeroninu 33
+                      0 -------.|.|----------.|-------|.. 33
+    query             0 -------angu----------st-------ias  9
+
+-- fused_13 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [83..83) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_14 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [83..83) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_15 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [83..83) consumed=0
+  Alignment:
+    (no words left)
+=== END DEBUG ===
+

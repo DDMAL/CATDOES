@@ -1,0 +1,179 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'arguebat herodem . Propter herodia den quama'
+  [fused_1] 'rat frantri su ienti xorem isso'
+  [fused_2] 'ttaicaput Johannis'
+  [fused_3] 'in car ce romi propter. desastan timpera'
+  [fused_4] 'vitmter . nichil ali '
+  [fused_5] 'han nis et contristatus est rex propter jusjuran'
+  [fused_6] 'dimi propter si mul discum ben tes'
+  [fused_7] 'tuelsue quid petam at n L et filii homum p conocateli G . posuisti domine ad cetera ppa de unomue illaait.'
+  [fused_8] 'ordine justus grminabit . In aia d e quule omino Par. in Domino confico Magnae'
+  [fused_9] '. . ne sancte Sabme st ioer Rome in advg ad laudiant Martiini In mot misrit herodes Omelang cu Sanctum Engllum eodem'
+  [fused_10] 'rotes enum tenint et ligavit Johannem et po'
+  [fused_11] 'sint in carcerem propter hero diaden . Dominus regionovas'
+  [fused_12] '* omine mu rex da michi in discto Bampit Johannis'
+  [fused_13] 'cpibres inbileronat . iele saltanti mpetunt'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'arguebat herodem . Propter herodia den quama'
+  Assigned: 'arguebat herodem Propter herodiaden quam'
+  Words:    [0..5) consumed=5
+  NW score: k=5 (pre-snap), norm=7.0556
+  Anchor:   word 11 (within_chant_7), diff=6, snapped=False, forced=False
+  Alignment:
+    target            0 arguebat herodem . Propter herodia den quama 44
+                      0 ||||||||  8
+    query             0 arguebat herodem-- Propter herodia-den quam- 40
+
+-- fused_1 --
+  OCR:      'rat frantri su ienti xorem isso'
+  Assigned: 'tulerat fratri suo viventi uxorem Misso'
+  Words:    [5..11) consumed=6
+  NW score: k=6 (pre-snap), norm=5.2343
+  Anchor:   word 11 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ----rat frantri su- -i-enti -xorem -isso 31
+                      0 ----|||  7
+    query             0 tulerat fra-tri suo viventi uxorem Misso 39
+
+-- fused_2 --
+  OCR:      'ttaicaput Johannis'
+  Assigned: 'herodes spiculatore precepit amputari caput iohannis'
+  Words:    [11..17) consumed=6
+  NW score: k=6 (pre-snap), norm=0.4249
+  Anchor:   word 17 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ---------------------------t-----ta-i-caput Johannis 18
+                      0 ---------------------------|-----||-|-||||| 43
+    query             0 herodes spiculatore precepit amputari caput iohannis 52
+
+-- fused_3 --
+  OCR:      'in car ce romi propter. desastan timpera'
+  Assigned: 'in carcerem Propter Puelle saltanti impera'
+  Words:    [17..23) consumed=6
+  NW score: k=6 (pre-snap), norm=3.4648
+  Anchor:   word 23 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 in car ce romi propter. ----de-sastan-- timpera--- 40
+                      0 ||  2
+    query             0 in car-ce-rem- Propter- Puelle saltanti -imperavit 45
+
+-- fused_4 --
+  OCR:      'vitmter . nichil ali'
+  Assigned: 'vit mater Nichil aliud petas nisi caput'
+  Words:    [23..29) consumed=6
+  NW score: k=3 (pre-snap), norm=3.5312
+  Anchor:   word 29 (within_chant_7), diff=3, snapped=False, forced=True
+  Alignment:
+    target            0 vitm-ter . nichil ali------------------- 20
+                      0 ---|-|||-- 10
+    query             0 ---mater-- Nichil aliud petas nisi caput 35
+
+-- fused_5 --
+  OCR:      'han nis et contristatus est rex propter jusjuran'
+  Assigned: 'iohanne et contristatus est rex propter'
+  Words:    [29..35) consumed=6
+  NW score: k=7 (pre-snap), norm=5.9017
+  Anchor:   word 35 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 --han nis et contristatus est rex propter jusjuran 48
+                      0 --|||-|-.  9
+    query             0 iohan-n-e et contristatus est rex propter--------- 39
+
+-- fused_6 --
+  OCR:      'dimi propter si mul discum ben tes'
+  Assigned: 'iusiurandum et propter simul discumbentes a'
+  Words:    [35..41) consumed=6
+  NW score: k=5 (pre-snap), norm=4.3657
+  Anchor:   word 41 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 --------dim--i propter si mul discum ben tes---- 34
+                      0 --------|.|--. 14
+    query             0 iusiurandum et propter si-mul discum-ben-tes Ait 45
+
+-- fused_7 --
+  OCR:      'tuelsue quid petam at n L et filii homum p conocateli G . posuisti domine ad cetera ppa de unomue illaait.'
+  Assigned: 'it puella matri sue quid petam at illa ait Nichil Herodes enim tenuit et ligavit iohannem et posuit in carcerem propter herodiaden ~Dominus regnavit'
+  Words:    [41..64) consumed=23
+  NW score: k=23 (pre-snap), norm=0.7824
+  Anchor:   word 49 (within_chant_7), diff=15, snapped=False, forced=False
+  Alignment:
+    target            0 tuel---------sue quid petam at -n L -et fi-lii --homum ---p 
+                      0 .|||---------|||
+    query             0 puella matri sue quid petam at illa ait Nichil Herodes enim 
+    
+    target           43 conocat-e--li----- -------G -. posuisti domine -ad cetera p-
+                     16 ..|-..|-|--||-----
+    query            60 ten-uit et ligavit iohannem et posui-t- ---in- ca-rcere-m pr
+    
+    target           85 -p--a -------de- unom--ue -illaait. 106
+                     34 -|--.  39
+    query           111 opter herodiaden ~Dominus regnavit- 145
+
+-- fused_8 --
+  OCR:      'ordine justus grminabit . In aia d e quule omino Par. in Domino confico Magnae'
+  Assigned: 'euouae Domine mi rex da michi in disco caput iohannis'
+  Words:    [64..74) consumed=10
+  NW score: k=11 (pre-snap), norm=-0.8916
+  Anchor:   word 74 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 ordine justu-s grminabit . In aia d e- quule omino Par. in D
+                      0 -----|--|-.|-.
+    query             0 -----e--u-ouae Domin--------e mi- -rex ---da -mi----chi in -
+    
+    target           58 omi-no c--onfico Magnae 78
+                     14 -.|-.| 20
+    query            33 -disco caput i-o-hannis 53
+
+-- fused_9 --
+  OCR:      '. . ne sancte Sabme st ioer Rome in advg ad laudiant Martiini In mot misrit herodes Omelang cu Sanctum Engllum eodem'
+  Assigned: 'baptiste ~Iubilate euouae Puelle saltanti imperavit'
+  Words:    [74..80) consumed=6
+  NW score: k=6 (pre-snap), norm=-2.6523
+  Anchor:   word 80 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 . . ne sancte Sabme st ioer Rome in advg ad laudiant Martiin
+                      0 -------.|-.|-------.||---------|-----------
+    query             0 -------ba-pt-------ist---------e----------- ~Iubi----la-----
+    
+    target           60 i In mot misrit hero-des Omelang cu Sanctum Engllum e-odem
+                     43 -------|------.
+    query            16 -------t------e -euouae- Puel-le saltan-t-i -----imperavit
+    
+    target          116
+                     58
+    query            51
+
+-- fused_10 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [80..80) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_11 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [80..80) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_12 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [80..80) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_13 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [80..80) consumed=0
+  Alignment:
+    (no words left)
+=== END DEBUG ===
+

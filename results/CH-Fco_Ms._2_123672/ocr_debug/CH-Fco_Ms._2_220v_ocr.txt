@@ -1,0 +1,199 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'V. Elegitdo Sacrdote'
+  [fused_1] 'sX ad sacrificadum'
+  [fused_2] 'corsdomine dominus postia . i . culis'
+  [fused_3] 'ac manbus in celum semper in tentus . In victu'
+  [fused_4] 'tio ne stum non rela xabatum sa'
+  [fused_5] 'tramenta offerret beatus Martinus globuis ignens apd'
+  [fused_6] 'parvit supercaputus ceatus Marti'
+  [fused_7] 'miso bicum su m lon geante pre scul ult dixit'
+  [fused_8] 'fbus Dissolutio nem sui corporis minere'
+  [fused_9] 'cma iudicavit se jam re solvi  v'
+  [fused_10] 'nono corporis cepit repente destitui convocatisque disci'
+  [fused_11] 'pulis in unum di XIt disso e . Vixerunt disci'
+  [fused_12] 'puli ao bea tum mar ti num cur nos pater de Se'
+  [fused_13] 'ris aut cui nos desola tos relinquis . in vadent'
+  [fused_14] 'um Gregen ca me in cumiaaonyo'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'V. Elegitdo Sacrdote'
+  Assigned: 'coruscant ~Domine dominus noster euouae Oculis'
+  Words:    [0..6) consumed=6
+  NW score: k=4 (pre-snap), norm=-2.3717
+  Anchor:   word 6 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 -------V. Elegi--tdo----- --Sacr--do-te------- 20
+                      0 -------..  9
+    query             0 coruscant ~Domine dominus noster euouae Oculis 46
+
+-- fused_1 --
+  OCR:      'sX ad sacrificadum'
+  Assigned: 'ac manibus in celum semper intentus'
+  Words:    [6..12) consumed=6
+  NW score: k=4 (pre-snap), norm=-0.4867
+  Anchor:   word 12 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 sX ad sacri---fi--cadum---------------- 18
+                      0 ---|.  5
+    query             0 ---ac ma-nibus in celum semper intentus 35
+
+-- fused_2 --
+  OCR:      'corsdomine dominus postia . i . culis'
+  Assigned: 'Invictum ab oratione spiritum non relaxabat Dum sa'
+  Words:    [12..20) consumed=8
+  NW score: k=7 (pre-snap), norm=-1.6786
+  Anchor:   word 20 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 ----c-------or-sdomine -dominus po------stia- . i . c---ulis
+                      0 ----|-------||-..|--||
+    query             0 Invictum ab oratio--ne spiritum non relaxabat Dum sacramenta
+    
+    target           37 
+                     22 
+    query            58 
+
+-- fused_3 --
+  OCR:      'ac manbus in celum semper in tentus . In victu'
+  Assigned: 'cramenta offerret beatus martinus globus igneus ap'
+  Words:    [20..26) consumed=6
+  NW score: k=10 (pre-snap), norm=0.4659
+  Anchor:   word 26 (within_chant_7), diff=4, snapped=False, forced=True
+  Alignment:
+    target            0 -----------a--c ma---nbus in cel--um semper i-n tentus . In 
+                      0 -----------|--.
+    query             0 offerret beatus martin-us ----globu--s----- ign--e--us appar
+    
+    target           41 victu 46
+                     15 .|-|- 20
+    query            44 ui-t- 47
+
+-- fused_4 --
+  OCR:      'tio ne stum non rela xabatum sa'
+  Assigned: 'paruit super caput eius Invictum Beatus martinus'
+  Words:    [26..32) consumed=6
+  NW score: k=8 (pre-snap), norm=-0.6908
+  Anchor:   word 32 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 ----------t--i-o -ne stum non rela xabatum sa------ 31
+                      0 ----------|--|-. 16
+    query             0 super caput eius Invictum---- Be------atus martinus 41
+
+-- fused_5 --
+  OCR:      'tramenta offerret beatus Martinus globuis ignens apd'
+  Assigned: 'obitum suum longe ante prescivit dixitque fratri'
+  Words:    [32..39) consumed=7
+  NW score: k=9 (pre-snap), norm=-0.8347
+  Anchor:   word 39 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 ---t----ram-----e--nta offerre-----t -beat-us -Ma-rtinus glo
+                      0 ---|----..|-----|--||.
+    query             0 obitum suum longe ante ----prescivit dixitque fratr-i-------
+    
+    target           37 buis ignens apd 52
+                     22 ||--------|---- 37
+    query            48 bu--------s---- 51
+
+-- fused_6 --
+  OCR:      'parvit supercaputus ceatus Marti'
+  Assigned: 'bus Dissolutionem sui corporis inminere'
+  Words:    [39..43) consumed=4
+  NW score: k=9 (pre-snap), norm=-1.7103
+  Anchor:   word 43 (within_chant_7), diff=5, snapped=False, forced=True
+  Alignment:
+    target            0 parvi-----t----- superc-aputus ----ceatus Marti 32
+                      0 ---.|-----|----- 16
+    query             0 ---Dissolutionem su-i corporis inmine-------r-e 35
+
+-- fused_7 --
+  OCR:      'miso bicum su m lon geante pre scul ult dixit'
+  Assigned: 'quia indicavit se iam resolvi Viribus corporis cepit repente destitui convocatisque discipulis in unum dixit'
+  Words:    [43..58) consumed=15
+  NW score: k=15 (pre-snap), norm=-0.9754
+  Anchor:   word 49 (within_chant_7), diff=9, snapped=False, forced=False
+  Alignment:
+    target            0 -miso --bic--um su --m ----l---------------o--------n ge-ant
+                      0 -.|-.
+    query             0 qui-a indicavit se iam resolvi Viribus corporis cepit repent
+    
+    target           25 e -------------------pre --sc--ul----- u-lt dixit  45
+                      5 |   6
+    query            59 e destitui convocatisque discipulis in unum dixit 108
+
+-- fused_8 --
+  OCR:      'fbus Dissolutio nem sui corporis minere'
+  Assigned: 'Dissolutio Dixerunt disci'
+  Words:    [58..61) consumed=3
+  NW score: k=4 (pre-snap), norm=0.5661
+  Anchor:   word 61 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 fbus Dissolutio --nem su-i corporis minere 39
+                      0 -----|||||||||| 15
+    query             0 -----Dissolutio Dixe--runt -----dis-cipuli 29
+
+-- fused_9 --
+  OCR:      'cma iudicavit se jam re solvi  v'
+  Assigned: 'puli ad beatum martinum cur nos pater dese'
+  Words:    [61..68) consumed=7
+  NW score: k=8 (pre-snap), norm=-1.5724
+  Anchor:   word 68 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 ---------cma- i-udicavit --se ja--m re solvi  v 32
+                      0 ---------.||-.|-|..|--.. 24
+    query             0 ad beatum martinum c--ur nos- pater de-s-eri--s 40
+
+-- fused_10 --
+  OCR:      'nono corporis cepit repente destitui convocatisque disci'
+  Assigned: 'ris aut cui nos desolatos relinquis'
+  Words:    [68..73) consumed=5
+  NW score: k=5 (pre-snap), norm=-1.1280
+  Anchor:   word 73 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 nono corporis cepit repente destitui convocat------isque dis
+                      0 ----------...
+    query             0 ----------aut c-ui- ----nos des----------olatos relinqu---is
+    
+    target           54 ci 56
+                     13 -- 15
+    query            31 -- 31
+
+-- fused_11 --
+  OCR:      'pulis in unum di XIt disso e . Vixerunt disci'
+  Assigned: 'Invadent enim gregem tuum lupi'
+  Words:    [73..78) consumed=5
+  NW score: k=7 (pre-snap), norm=-2.1333
+  Anchor:   word 78 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 pulis in- unum di XIt disso e . Vixerunt disci 45
+                      0 -......|-  9
+    query             0 -Invadent enim ---------grege-m ----tuum -lupi 30
+
+-- fused_12 --
+  OCR:      'puli ao bea tum mar ti num cur nos pater de Se'
+  Assigned: 'rapaces Scimus'
+  Words:    [78..80) consumed=2
+  NW score: k=2 (pre-snap), norm=-3.7829
+  Anchor:   word 80 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 --puli ao bea tum mar ti num cur nos pater de Se 46
+                      0 --|----|--.|. 13
+    query             0 rap----a--ces -------Sci---m--u----s------------ 14
+
+-- fused_13 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [80..80) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_14 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [80..80) consumed=0
+  Alignment:
+    (no words left)
+=== END DEBUG ===
+

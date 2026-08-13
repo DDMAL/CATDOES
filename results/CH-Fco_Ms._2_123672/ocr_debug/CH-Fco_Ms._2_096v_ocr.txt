@@ -1,0 +1,219 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'aciem meam non averti ab in crxpantibus et conspuen'
+  [fused_1] 'tibus inme misere o raesscitare ad'
+  [fused_2] 'os quamdispergunt gregem meum p verba mea'
+  [fused_3] 'evovae et aperpenderunt mercedem meam triginta argen'
+  [fused_4] 'teis quibus appreciatus sum ab eis pds dius evovae'
+  [fused_5] 'nundaverunt aque super caput meum dixi peru invo'
+  [fused_6] 'cabo noment domne Deus p confiebor eovac'
+  [fused_7] 'abia insurgentium et cogitationes eorum inde domine'
+  [fused_8] 'ad bne et Require retro in Salbto clarifica mepasis'
+  [fused_9] 'dro dacis ompse ad velpas indinavit domino pres'
+  [fused_10] 'Taudanis evovac venna regio enpemesab ad mae ant dilcti qu per ordine casa . Tu antd Salbaoch Ymijus'
+  [fused_11] 'haberes potestatem insi tesump dat tibi fuisset eo'
+  [fused_12] 'oro advina dius Fea in smo'
+  [fused_13] 'Augesio episcopi de Domino et salvatore .'
+  [fused_14] 'ontamen etter ovae'
+  [fused_15] 'i c co peaio tenis  nono aonna rant pacifici'
+  [fused_16] 'mei et custodien .olan me um vicen'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'aciem meam non averti ab in crxpantibus et conspuen'
+  Assigned: 'Faciem meam non averti ab increpantibus et conspuen'
+  Words:    [0..8) consumed=8
+  NW score: k=8 (pre-snap), norm=6.6241
+  Anchor:   word 8 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -aciem meam non averti ab in crxpantibus et conspuen----- 51
+                      0 -|||||  6
+    query             0 Faciem meam non averti ab in-crepantibus et conspuentibus 56
+
+-- fused_1 --
+  OCR:      'tibus inme misere o raesscitare ad'
+  Assigned: 'tibus in me {Miserere} euouae Framea suscitare ad'
+  Words:    [8..15) consumed=7
+  NW score: k=7 (pre-snap), norm=2.1070
+  Anchor:   word 15 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 tibus in-me -misere--- --o--- -ra-e--s-scitare ad------ 34
+                      0 ------||-|| 11
+    query             0 ------in me {Miserere} euouae Framea suscitare adversus 49
+
+-- fused_2 --
+  OCR:      'os quamdispergunt gregem meum p verba mea'
+  Assigned: 'versus eos qui dispergunt gregem meum'
+  Words:    [15..20) consumed=5
+  NW score: k=7 (pre-snap), norm=5.9522
+  Anchor:   word 20 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 -os quamdispergunt gregem meum p verba mea 41
+                      0 -||  3
+    query             0 eos qui dispergunt gregem meum------------ 30
+
+-- fused_3 --
+  OCR:      'evovae et aperpenderunt mercedem meam triginta argen'
+  Assigned: '{Verba mea} euouae Appenderunt mercedem meam triginta argen'
+  Words:    [20..28) consumed=8
+  NW score: k=8 (pre-snap), norm=4.5600
+  Anchor:   word 28 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 --evova--e-- e----t aperpenderunt mercedem meam triginta arg
+                      0 --|-..|--|--
+    query             0 {Ve-rba mea} euouae Ap--penderunt mercedem meam triginta arg
+    
+    target           50 en---- 52
+                     12 ||---- 18
+    query            57 enteis 63
+
+-- fused_4 --
+  OCR:      'teis quibus appreciatus sum ab eis pds dius evovae'
+  Assigned: 'teis quos appreciatus sum ab eis {Deus'
+  Words:    [28..34) consumed=6
+  NW score: k=8 (pre-snap), norm=4.5873
+  Anchor:   word 34 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 teis quibus appreciatus sum ab eis pds dius evovae 50
+                      0 -----||--.| 11
+    query             0 -----qu--os appreciatus sum ab eis ---{Deus------- 33
+
+-- fused_5 --
+  OCR:      'nundaverunt aque super caput meum dixi peru invo'
+  Assigned: 'deus} euouae Inundaverunt aquae super caput meum dixi perii invo'
+  Words:    [34..44) consumed=10
+  NW score: k=10 (pre-snap), norm=5.1635
+  Anchor:   word 44 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 --------------nundaverunt aqu-e super caput meum dixi per-u 
+                      0 --------------|||||||||||
+    query             0 deus} euouae Inundaverunt aquae super caput meum dixi perii 
+    
+    target           44 inv----o 48
+                     25 |||----| 33
+    query            60 invocabo 68
+
+-- fused_6 --
+  OCR:      'cabo noment domne Deus p confiebor eovac'
+  Assigned: 'cabo nomen tuum domine deus {Confitebor}'
+  Words:    [44..49) consumed=5
+  NW score: k=6 (pre-snap), norm=3.2449
+  Anchor:   word 49 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 cabo nomen-t--- dom-ne Deus p confi-ebor eovac 40
+                      0 -----|||||-|--- 15
+    query             0 -----nomen tuum domine deus -{Confitebor-----} 35
+
+-- fused_7 --
+  OCR:      'abia insurgentium et cogitationes eorum inde domine'
+  Assigned: 'euouae Labia insurgentium et cogitationes eorum vide domine'
+  Words:    [49..57) consumed=8
+  NW score: k=8 (pre-snap), norm=6.5264
+  Anchor:   word 57 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 --------abia insurgentium et cogitationes eorum -inde domine
+                      0 --------||||
+    query             0 euouae Labia insurgentium et cogitationes eorum vi-de domine
+    
+    target           51 
+                     12 
+    query            59 
+
+-- fused_8 --
+  OCR:      'ad bne et Require retro in Salbto clarifica mepasis'
+  Assigned: '{Laudate} euouae Non haberes in me potestatem nisi'
+  Words:    [57..65) consumed=8
+  NW score: k=8 (pre-snap), norm=-0.9307
+  Anchor:   word 60 (within_chant_7), diff=5, snapped=False, forced=False
+  Alignment:
+    target            0 --a-d bne et Requ-ire retro in Salbto clar-ifica me-p-----a-
+                      0 --|-|---..|.
+    query             0 {Laud---ate} -e-uouae ---No--n ha-b-----eres i-n me potestat
+    
+    target           48 ---sis- 51
+                     12 ---.||- 19
+    query            43 em nisi 50
+
+-- fused_9 --
+  OCR:      'dro dacis ompse ad velpas indinavit domino pres'
+  Assigned: 'desuper datum tibi fuisset euouae Contumelias et terrores'
+  Words:    [65..73) consumed=8
+  NW score: k=8 (pre-snap), norm=-0.4057
+  Anchor:   word 70 (within_chant_7), diff=3, snapped=False, forced=False
+  Alignment:
+    target            0 d-----ro da----ci-s -ompse- ----ad -----velpas indinavit dom
+                      0 |-----|-
+    query             0 desuper- datum tibi fuisset euouae Contumelias -------et -te
+    
+    target           39 ino pres 47
+                      8 ..|--||| 16
+    query            51 rro--res 57
+
+-- fused_10 --
+  OCR:      'Taudanis evovac venna regio enpemesab ad mae ant dilcti qu per ordine casa . Tu antd Salbaoch Ymijus'
+  Assigned: 'passus sum ab eis qui erant pacifici'
+  Words:    [73..80) consumed=7
+  NW score: k=12 (pre-snap), norm=-0.9651
+  Anchor:   word 80 (within_chant_7), diff=5, snapped=False, forced=True
+  Alignment:
+    target            0 Ta--udanis evovac venna regio enpemesab ad mae ant dilcti qu
+                      0 .|--|----|
+    query             0 passu----s -------------------------sum ab --e------i---s qu
+    
+    target           58 - per ordine casa . Tu antd Salbaoch Ymijus 100
+                     10 -  11
+    query            20 i -er------------------ant- pa----cifici---  36
+
+-- fused_11 --
+  OCR:      'haberes potestatem insi tesump dat tibi fuisset eo'
+  Assigned: 'mei et custodientes latus meum dicentes'
+  Words:    [80..86) consumed=6
+  NW score: k=6 (pre-snap), norm=-0.6794
+  Anchor:   word 86 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 habe-res ---po----tes-tatem insi tesump dat tibi fuisse-t eo
+                      0 --.|-.|.
+    query             0 --mei et custodientes lat----us- me-um- d----------i-cent-es
+    
+    target           50 
+                      8 
+    query            39 
+
+-- fused_12 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [86..86) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_13 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [86..86) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_14 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [86..86) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_15 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [86..86) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_16 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [86..86) consumed=0
+  Alignment:
+    (no words left)
+=== END DEBUG ===
+

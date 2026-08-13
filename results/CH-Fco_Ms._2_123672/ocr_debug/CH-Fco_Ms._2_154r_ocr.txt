@@ -1,0 +1,163 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'jus . et que sub ipso erant reple vant'
+  [fused_1] 'tem plum qu erapbitabant sitote'
+  [fused_2] 'a leni et sexa ri etspice domi'
+  [fused_3] 'ne de sede Sancta tu .ecaptacens bis indina deus'
+  [fused_4] 'meus aurem tuam etau di aperi oculos tllos'
+  [fused_5] 'tribulatio nem stramx ui'
+  [fused_6] 'Regis Israhel inten de qui deducis velunt'
+  [fused_7] 'Sephrspicedo ne quia facta est'
+  [fused_8] 'solata civitas ple'
+  [fused_9] 'domina gentuum . Nos est qui consoletur e am'
+  [fused_10] 'nisitu ploravit invocte et'
+  [fused_11] 'lacrine ejus Xillis jus . non elt '
+  [fused_12] 'permutos tuos ipensalem constitra custo'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'jus . et que sub ipso erant reple vant'
+  Assigned: 'ea que sub ipso erant replebant'
+  Words:    [0..6) consumed=6
+  NW score: k=6 (pre-snap), norm=5.6232
+  Anchor:   word 12 (within_chant_7), diff=6, snapped=False, forced=False
+  Alignment:
+    target            0 jus . et que sub ipso erant reple vant 38
+                      0 ------|.  8
+    query             0 ------ea que sub ipso erant reple-bant 31
+
+-- fused_1 --
+  OCR:      'tem plum qu erapbitabant sitote'
+  Assigned: 'templum Seraphim stabant subter illud sex'
+  Words:    [6..12) consumed=6
+  NW score: k=4 (pre-snap), norm=3.8710
+  Anchor:   word 12 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 tem plum qu erapbi---tabant sitote----------- 31
+                      0 |||-||||  8
+    query             0 tem-plum --Seraphim stabant s-ubter illud sex 41
+
+-- fused_2 --
+  OCR:      'a leni et sexa ri etspice domi'
+  Assigned: 'aleum et sex ale alteri Et ea Aspice domi'
+  Words:    [12..21) consumed=9
+  NW score: k=9 (pre-snap), norm=3.4524
+  Anchor:   word 21 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 a leni et sex-a-- ----ri et-----spice domi-- 30
+                      0 |-||..  6
+    query             0 a-leum et sex ale alteri Et ea Aspice domine 43
+
+-- fused_3 --
+  OCR:      'ne de sede Sancta tu .ecaptacens bis indina deus'
+  Assigned: 'ne de sede sancta tua et cogita de nobis inclina deus'
+  Words:    [21..31) consumed=10
+  NW score: k=10 (pre-snap), norm=3.9600
+  Anchor:   word 31 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ne de sede Sancta tu- .e--c-apta-ce-ns bis in-dina deus 48
+                      0 ---||  5
+    query             0 ---de sede sancta tua -et cogita de n-obis inclina deus 50
+
+-- fused_4 --
+  OCR:      'meus aurem tuam etau di aperi oculos tllos'
+  Assigned: 'meus aurem tuam et audi Aperi oculos tuos et'
+  Words:    [31..40) consumed=9
+  NW score: k=8 (pre-snap), norm=6.5788
+  Anchor:   word 40 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 meus aurem tuam et-au di aperi oculos tllos--- 42
+                      0 ||||  4
+    query             0 meus aurem tuam et au-di Aperi oculos t-uos et 44
+
+-- fused_5 --
+  OCR:      'tribulatio nem stramx ui'
+  Assigned: 'vide tribulationem nostram Qui'
+  Words:    [40..44) consumed=4
+  NW score: k=4 (pre-snap), norm=4.6957
+  Anchor:   word 44 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -----tribulatio nem --stramx -ui 24
+                      0 -----||||||||||-||| 19
+    query             0 vide tribulatio-nem nostram- Qui 30
+
+-- fused_6 --
+  OCR:      'Regis Israhel inten de qui deducis velunt'
+  Assigned: 'regis israhel intende qui deducis velut ovem io'
+  Words:    [44..52) consumed=8
+  NW score: k=6 (pre-snap), norm=6.8021
+  Anchor:   word 52 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 Regis Israhel inten de qui deducis velunt------------ 41
+                      0 .||||  5
+    query             0 regis israhel inten-de qui deducis velu-t ovem ioseph 51
+
+-- fused_7 --
+  OCR:      'Sephrspicedo ne quia facta est'
+  Assigned: 'seph Aspice domine quia facta est de'
+  Words:    [52..58) consumed=6
+  NW score: k=5 (pre-snap), norm=5.2445
+  Anchor:   word 58 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 Sephrspice-do- ne quia facta est--------- 30
+                      0 ----.|||||-||-.|| 17
+    query             0 ----Aspice domine quia facta est desolata 37
+
+-- fused_8 --
+  OCR:      'solata civitas ple'
+  Assigned: 'solata civitas plena diviciis Sedet in tristicia'
+  Words:    [58..64) consumed=6
+  NW score: k=2 (pre-snap), norm=3.4647
+  Anchor:   word 64 (within_chant_7), diff=4, snapped=False, forced=True
+  Alignment:
+    target            0 solata civitas ple------------------------------ 18
+                      0 -------||||||| 14
+    query             0 -------civitas plena diviciis Sedet in tristicia 41
+
+-- fused_9 --
+  OCR:      'domina gentuum . Nos est qui consoletur e am'
+  Assigned: 'domina gencium Non est qui consoletur eam'
+  Words:    [64..71) consumed=7
+  NW score: k=7 (pre-snap), norm=6.4040
+  Anchor:   word 71 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 domina gentuum . Nos est qui consoletur e am 44
+                      0 ||||||  6
+    query             0 domina gencium-- Non est qui consoletur e-am 41
+
+-- fused_10 --
+  OCR:      'nisitu ploravit invocte et'
+  Assigned: 'nisi tu deus Plorans ploravit in nocte et'
+  Words:    [71..79) consumed=8
+  NW score: k=8 (pre-snap), norm=4.2267
+  Anchor:   word 79 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 nisi-tu------------- ploravit in-vocte et 26
+                      0 ||||-||------------- 20
+    query             0 nisi tu deus Plorans ploravit in nocte et 41
+
+-- fused_11 --
+  OCR:      'lacrine ejus Xillis jus . non elt'
+  Assigned: 'lacrime eius in maxillis eius Non est su'
+  Words:    [79..87) consumed=8
+  NW score: k=7 (pre-snap), norm=3.8348
+  Anchor:   word 87 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 lacrine ejus -----Xillis -jus . non elt------ 33
+                      0 |||||.|  7
+    query             0 lacrime eius in maxillis eius-- Non est Super 43
+
+-- fused_12 --
+  OCR:      'permutos tuos ipensalem constitra custo'
+  Assigned: 'per muros tuos iherusalem constitui custodes Tota'
+  Words:    [87..93) consumed=6
+  NW score: k=5 (pre-snap), norm=4.8105
+  Anchor:   word 93 (page_break_77), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 permutos tuos ipe-nsalem constitra custo-------- 39
+                      0 ---||.||  8
+    query             0 ---muros tuos iherusalem constitui custodes Tota 45
+=== END DEBUG ===
+

@@ -1,0 +1,167 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'enangelista et apostolus jo nes . Qui privle'
+  [fused_1] 'gi ris precipu ce teris alciu'
+  [fused_2] 'adomino merint bono rari . Hic est'
+  [fused_3] 'discipulus ille quem diligebat ihe sus qui supra Pectus do'
+  [fused_4] 'mm rrecibu I. Cnm pricqumce'
+  [fused_5] 'lum columpnam in Templo me '
+  [fused_6] 'dicit domi mus et sacri Bani pet um'
+  [fused_7] 'no men um et nomen civitatis Jhe'
+  [fused_8] 'in salem dabo edere'
+  [fused_9] 'amnco et mponolo deime Et sancti Ban li'
+  [fused_10] 'ce vat autem cum e sus plomam secia o'
+  [fused_11] 'Ppetogatina casa amplio ioilectione fece'
+  [fused_12] 'rat dis mim . qma nugo elictus ab pso my'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'enangelista et apostolus jo nes . Qui privle'
+  Assigned: 'evangelista et apostulus iohannes Qui privilegio'
+  Words:    [0..6) consumed=6
+  NW score: k=6 (pre-snap), norm=5.3094
+  Anchor:   word 16 (within_chant_7), diff=10, snapped=False, forced=False
+  Alignment:
+    target            0 enangelista et apostolus jo-- nes . Qui priv-le--- 44
+                      0 |.||||||||| 11
+    query             0 evangelista et apostulus iohannes-- Qui privilegio 48
+
+-- fused_1 --
+  OCR:      'gi ris precipu ce teris alciu'
+  Assigned: 'amoris precipui ceteris alcius'
+  Words:    [6..10) consumed=4
+  NW score: k=4 (pre-snap), norm=5.5601
+  Anchor:   word 16 (within_chant_7), diff=6, snapped=False, forced=False
+  Alignment:
+    target            0 gi ris precipu- ce teris alciu- 29
+                      0 ...|||  6
+    query             0 amoris precipui ce-teris alcius 30
+
+-- fused_2 --
+  OCR:      'adomino merint bono rari . Hic est'
+  Assigned: 'a domino meruit honorari Hic est'
+  Words:    [10..16) consumed=6
+  NW score: k=6 (pre-snap), norm=5.7299
+  Anchor:   word 16 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 a-domino mer-int bono rari . Hic est 34
+                      0 |-||||||  8
+    query             0 a domino merui-t hono-rari-- Hic est 32
+
+-- fused_3 --
+  OCR:      'discipulus ille quem diligebat ihe sus qui supra Pectus do'
+  Assigned: 'discipulus ille quem diligebat ihesus qui supra pectus do'
+  Words:    [16..25) consumed=9
+  NW score: k=8 (pre-snap), norm=7.1295
+  Anchor:   word 25 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 discipulus ille quem diligebat ihe sus qui supra Pectus do--
+                      0 ||||||||||
+    query             0 discipulus ille quem diligebat ihe-sus qui supra pectus domi
+    
+    target           58 -- 58
+                     10 -- 12
+    query            59 ni 61
+
+-- fused_4 --
+  OCR:      'mm rrecibu I. Cnm pricqumce'
+  Assigned: 'mini in cena recubuit Qui privilegi Qui vice'
+  Words:    [25..32) consumed=7
+  NW score: k=5 (pre-snap), norm=-0.2460
+  Anchor:   word 32 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 mm ----rrecibu I. Cnm pr------icqu---mce--- 27
+                      0 ..  2
+    query             0 in cena recubu-it Qui privilegi Qui vicerit 42
+
+-- fused_5 --
+  OCR:      'lum columpnam in Templo me'
+  Assigned: 'rit faciam illum columpnam in templo meo'
+  Words:    [32..38) consumed=6
+  NW score: k=6 (pre-snap), norm=5.1317
+  Anchor:   word 38 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ---------lum columpnam in Templo me- 26
+                      0 ---------||| 12
+    query             0 faciam illum columpnam in templo meo 36
+
+-- fused_6 --
+  OCR:      'dicit domi mus et sacri Bani pet um'
+  Assigned: 'dicit dominus Et scribam super eum'
+  Words:    [38..44) consumed=6
+  NW score: k=6 (pre-snap), norm=4.0004
+  Anchor:   word 44 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 dicit domi mus et sacri Bani --pet -um 35
+                      0 |||||  5
+    query             0 dicit domi-nus Et s-cri-ba-m super eum 34
+
+-- fused_7 --
+  OCR:      'no men um et nomen civitatis Jhe'
+  Assigned: 'nomen meum et nomen civitatis nove ihe'
+  Words:    [44..51) consumed=7
+  NW score: k=5 (pre-snap), norm=6.0073
+  Anchor:   word 51 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 no men --um et nomen civitatis----- Jhe------- 32
+                      0 ||-|||  6
+    query             0 no-men meum et nomen civitatis nove iherusalem 45
+
+-- fused_8 --
+  OCR:      'in salem dabo edere'
+  Assigned: 'rusalem Vincenti dabo edere de ligno vite'
+  Words:    [51..57) consumed=6
+  NW score: k=3 (pre-snap), norm=3.7895
+  Anchor:   word 57 (within_chant_7), diff=3, snapped=False, forced=True
+  Alignment:
+    target            0 -in sale--m dabo eder--------------e 19
+                      0 -||---.|--. 11
+    query             0 Vin---centi dabo edere de ligno vite 33
+
+-- fused_9 --
+  OCR:      'amnco et mponolo deime Et sancti Ban li'
+  Assigned: 'quod est in paradiso dei mei Et scribam dili'
+  Words:    [57..66) consumed=9
+  NW score: k=9 (pre-snap), norm=0.8693
+  Anchor:   word 66 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 amnco- e-t --mp--onolo dei-me- Et sancti Ban --li----- 39
+                      0 --..|-  6
+    query             0 --quod est in paradiso dei mei Et s--cri-bam Diligebat 49
+
+-- fused_10 --
+  OCR:      'ce vat autem cum e sus plomam secia o'
+  Assigned: 'gebat autem eum ihesus quoniam specialis'
+  Words:    [66..71) consumed=5
+  NW score: k=5 (pre-snap), norm=2.5657
+  Anchor:   word 71 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ce vat autem cum --e sus plo-mam s-ecia- o 37
+                      0 -------||||| 12
+    query             0 -------autem eum ihe-sus quoniam specialis 34
+
+-- fused_11 --
+  OCR:      'Ppetogatina casa amplio ioilectione fece'
+  Assigned: 'prerogativa castitatis ampliori dilectione fece'
+  Words:    [71..76) consumed=5
+  NW score: k=5 (pre-snap), norm=4.4721
+  Anchor:   word 76 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 Pp-etogatina cas---a--- amplio i-oilectione fece--- 40
+                      0 -|-|.|||||.| 12
+    query             0 -prerogativa castitatis ampliori dilectione fecerat 50
+
+-- fused_12 --
+  OCR:      'rat dis mim . qma nugo elictus ab pso my'
+  Assigned: 'rat dignum Quia virgo electus ab ipso virgo'
+  Words:    [76..83) consumed=7
+  NW score: k=6 (pre-snap), norm=2.0368
+  Anchor:   word 83 (page_break_77), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 rat dis mim . qma -nugo elictus ab -pso ---my 40
+                      0 ----||-...| 11
+    query             0 ----di-gnum -Quia virgo electus ab ipso virgo 39
+=== END DEBUG ===
+

@@ -1,0 +1,167 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'stis que operatus sum in medio stri allelu Acti'
+  [fused_1] 'pi te spiritum Sanctum in no bis paraclitum ille est'
+  [fused_2] 'quem pater mittet vobis alle Magy sbos ana me'
+  [fused_3] 'estis sifecen cs qne cgo preai pro no bis.'
+  [fused_4] 'putins lanc. tus procedens'
+  [fused_5] 'tori invisibili ter pe ne travit novimi Sanc'
+  [fused_6] 'nis signum . ut more eorum omivmgeneranas'
+  [fused_7] 'cerentur lin guarimialle'
+  [fused_8] 'one mnt ignis divinus non comburens sed illu'
+  [fused_9] 'mimans et tribuit eis karis matum do na ut mo'
+  [fused_10] '5 ari. ideus dilerit mu'
+  [fused_11] 'dum et filium suum jiigenitum daret ut omnus qui credit'
+  [fused_12] 'in pesam non pe ce at ses habeat intan eteman alelini'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'stis que operatus sum in medio stri allelu Acti'
+  Assigned: 'que operatus sum in medio vestri alleluya'
+  Words:    [0..7) consumed=7
+  NW score: k=7 (pre-snap), norm=5.5584
+  Anchor:   word 23 (within_chant_7), diff=16, snapped=False, forced=False
+  Alignment:
+    target            0 stis que operatus sum in medio --stri allelu Acti 47
+                      0 -----|||  8
+    query             0 -----que operatus sum in medio vestri allelu---ya 41
+
+-- fused_1 --
+  OCR:      'pi te spiritum Sanctum in no bis paraclitum ille est'
+  Assigned: 'Accipite spiritum sanctum in vobis paraclitum ille est'
+  Words:    [7..15) consumed=8
+  NW score: k=8 (pre-snap), norm=6.4917
+  Anchor:   word 23 (within_chant_7), diff=8, snapped=False, forced=False
+  Alignment:
+    target            0 ----pi te spiritum Sanctum in no bis paraclitum ille est 52
+                      0 ----||-||  9
+    query             0 Accipi-te spiritum sanctum in vo-bis paraclitum ille est 54
+
+-- fused_2 --
+  OCR:      'quem pater mittet vobis alle Magy sbos ana me'
+  Assigned: 'quem pater mittet vobis alleluya Vos amici mei'
+  Words:    [15..23) consumed=8
+  NW score: k=8 (pre-snap), norm=5.0553
+  Anchor:   word 23 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 quem pater mittet vobis alle- Magy sbos a--na me- 45
+                      0 ||||  4
+    query             0 quem pater mittet vobis alleluya-- -Vos amici mei 46
+
+-- fused_3 --
+  OCR:      'estis sifecen cs qne cgo preai pro no bis.'
+  Assigned: 'estis si feceritis que ego precipio vobis Accipite'
+  Words:    [23..31) consumed=8
+  NW score: k=7 (pre-snap), norm=4.1690
+  Anchor:   word 31 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 estis si-fece-n cs qne cgo preai pro no bis--------. 42
+                      0 |||||  5
+    query             0 estis si feceritis que ego preci-pio vo-bis Accipite 50
+
+-- fused_4 --
+  OCR:      'putins lanc. tus procedens'
+  Assigned: 'Spiritus sanctus procedens a throno apostolorum'
+  Words:    [31..37) consumed=6
+  NW score: k=3 (pre-snap), norm=4.4615
+  Anchor:   word 37 (within_chant_7), diff=3, snapped=False, forced=True
+  Alignment:
+    target            0 -puti-ns lanc. tus procedens--------------------- 26
+                      0 -|..|-.|  8
+    query             0 Spiritus sanc--tus procedens a throno apostolorum 47
+
+-- fused_5 --
+  OCR:      'tori invisibili ter pe ne travit novimi Sanc'
+  Assigned: 'pectora invisibiliter penetravit novum sanc'
+  Words:    [37..42) consumed=5
+  NW score: k=4 (pre-snap), norm=4.8422
+  Anchor:   word 42 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 ---tori invisibili ter pe ne travit novimi Sanc------------
+                      0 ---|||.
+    query             0 pectora invisibili-ter pe-ne-travit novum- sanctificationis
+    
+    target           44
+                      7
+    query            55
+
+-- fused_6 --
+  OCR:      'nis signum . ut more eorum omivmgeneranas'
+  Assigned: 'tificationis signum Ut in ore eorum omnium genera na'
+  Words:    [42..50) consumed=8
+  NW score: k=7 (pre-snap), norm=4.0345
+  Anchor:   word 50 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 nis signum -. ut more eorum om-ivm-genera-nas-------- 41
+                      0 ----|||||| 10
+    query             0 ----signum Ut in -ore eorum omnium genera nascerentur 48
+
+-- fused_7 --
+  OCR:      'cerentur lin guarimialle'
+  Assigned: 'scerentur linguarum allelu'
+  Words:    [50..52) consumed=2
+  NW score: k=2 (pre-snap), norm=1.5396
+  Anchor:   word 52 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 cerentur lin guarimialle---- 24
+                      0 ---------|||-||||.|.||||---- 28
+    query             0 ---------lin-guarum alleluya 18
+
+-- fused_8 --
+  OCR:      'one mnt ignis divinus non comburens sed illu'
+  Assigned: 'ya Advenit ignis divinus non comburens sed illu'
+  Words:    [52..59) consumed=7
+  NW score: k=7 (pre-snap), norm=5.6285
+  Anchor:   word 59 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -one mn-t ignis divinus non comburens sed illu------ 44
+                      0 -..|--|-|  9
+    query             0 Adve--nit ignis divinus non comburens sed illuminans 50
+
+-- fused_9 --
+  OCR:      'mimans et tribuit eis karis matum do na ut mo'
+  Assigned: 'minans et tribuit eis karismatum dona Ut in o'
+  Words:    [59..67) consumed=8
+  NW score: k=7 (pre-snap), norm=5.2175
+  Anchor:   word 67 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 mimans et tribuit eis karis matum do na ut --mo-- 45
+                      0 -------||  9
+    query             0 -------et tribuit eis karis-matum do-na Ut in ore 40
+
+-- fused_10 --
+  OCR:      '5 ari. ideus dilerit mu'
+  Assigned: 're Gloria patri Sic deus dilexit mun'
+  Words:    [67..73) consumed=6
+  NW score: k=6 (pre-snap), norm=2.6759
+  Anchor:   word 73 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -----5 -a-ri. -i--deus dilerit mu---- 23
+                      0 -----.  6
+    query             0 Gloria patri- Sic deus dilexit mundum 36
+
+-- fused_11 --
+  OCR:      'dum et filium suum jiigenitum daret ut omnus qui credit'
+  Assigned: 'dum ut filium suum unigenitum daret ut omnis qui credit'
+  Words:    [73..82) consumed=9
+  NW score: k=9 (pre-snap), norm=6.5896
+  Anchor:   word 82 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 dum et filium suum jiigenitum daret ut omnus qui credit 55
+                      0 -|---|  6
+    query             0 -u---t filium suum unigenitum daret ut omnis qui credit 51
+
+-- fused_12 --
+  OCR:      'in pesam non pe ce at ses habeat intan eteman alelini'
+  Assigned: 'in ipsum non pereat sed habeat vitam eternam alleluya'
+  Words:    [82..91) consumed=9
+  NW score: k=9 (pre-snap), norm=4.1321
+  Anchor:   word 91 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 in -pesam non pe ce at ses habeat -intan ete-man a-lelini 53
+                      0 ||  2
+    query             0 in ip-sum non pe-re-at sed habeat vi-tam eternam alleluya 53
+=== END DEBUG ===
+

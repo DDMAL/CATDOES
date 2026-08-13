@@ -1,0 +1,275 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'Beatus Iir evovae Apud Dominum Misericordia et copio'
+  [fused_1] 'sa apud eum redemptio P . Deprofundis evovaec'
+  [fused_2] 'ventris tui ponm super ede emento eovae'
+  [fused_3] 'capo multiphati a vilXse'
+  [fused_4] 'redemptoro . Notum fec dominus'
+  [fused_5] '  alla a'
+  [fused_6] 'Magisei ant odie xtpististus natiis est hodie salva'
+  [fused_7] 'tor apparuit hodie in terra canunit Angeli letantur Archangeli'
+  [fused_8] 'hodie exiltant justi dicentes gloria in excelsis Deo Allelu'
+  [fused_9] 'addit descoss Concedeas omni'
+  [fused_10] 'ya exovae .epho tephanus autem pleniis gracia e'
+  [fused_11] 'Guartho'
+  [fused_12] 'ore corona'
+  [fused_13] 'fortitudine faciebat signa magna in populo evovae stituustiens '
+  [fused_14] 'Danobis qus Domine . Qotarus quo in omibus femvitatibus de qulibutcelebranu ctre ebi diebus primum e'
+  [fused_15] 's ipodie festimitatis die dominico qu itererit infraoctus . Ceteris aut diebus primo die postfe'
+  [fused_16] 'pstorie temcipimus secundo die a tercio et sic de ceteris diebus si poter fi quod aliquim festimeitas non'
+  [fused_17] 'pediat. cas Sancti Sephani ion vitatorium.'
+  [fused_18] 'nn qu beatum hodie coronavit ste Infine Glia de quinatr iunp s . D tuorum militum'
+  [fused_19] 'mo iulege domini cum suis'
+  [fused_20] 'phanumVnite adore mus pres venite antiphio et pesalins e de'
+  [fused_21] 'dno martyre le prima in die'
+  [fused_22] 'Brilus crescente'
+  [fused_23] 'tephanus autem pen'
+  [fused_24] 'dnaa et bortiudine facie batesigna mas'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'Beatus Iir evovae Apud Dominum Misericordia et copio'
+  Assigned: '~Beatus vir euouae Apud dominum misericordia et copio'
+  Words:    [0..8) consumed=8
+  NW score: k=8 (pre-snap), norm=6.2454
+  Anchor:   word 8 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -Beatus Iir evovae Apud Dominum Misericordia et copio-- 52
+                      0 -||||||  7
+    query             0 ~Beatus vir euouae Apud dominum misericordia et copiosa 55
+
+-- fused_1 --
+  OCR:      'sa apud eum redemptio P . Deprofundis evovaec'
+  Assigned: 'sa apud eum redemptio ~De profundis euouae De fruc'
+  Words:    [8..16) consumed=8
+  NW score: k=6 (pre-snap), norm=5.3709
+  Anchor:   word 16 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 sa apud eum redemptio P . De-profundis evovae-------c-- 45
+                      0 ---||||  7
+    query             0 ---apud eum redemptio ---~De profundis euouae De fructu 49
+
+-- fused_2 --
+  OCR:      'ventris tui ponm super ede emento eovae'
+  Assigned: 'tu ventris tui ponam super sedem tuam ~Memento euouae'
+  Words:    [16..24) consumed=8
+  NW score: k=8 (pre-snap), norm=5.5708
+  Anchor:   word 24 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ventris tui pon-m super -ede------ --emento e-ovae 39
+                      0 |||||||  7
+    query             0 ventris tui ponam super sedem tuam ~Memento euouae 50
+
+-- fused_3 --
+  OCR:      'capo multiphati a vilXse'
+  Assigned: 'Hodie xpistus natus est hodie salva'
+  Words:    [24..30) consumed=6
+  NW score: k=5 (pre-snap), norm=-2.0848
+  Anchor:   word 30 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 -----cap----o --mu---ltiphati- -a vilXse 24
+                      0 -----..|----. 13
+    query             0 Hodie xpistus natus est- hodie salv-ator 38
+
+-- fused_4 --
+  OCR:      'redemptoro . Notum fec dominus'
+  Assigned: 'tor apparuit hodie in terra canunt angeli letantur archangeli'
+  Words:    [30..38) consumed=8
+  NW score: k=3 (pre-snap), norm=-1.7712
+  Anchor:   word 38 (within_chant_7), diff=5, snapped=False, forced=True
+  Alignment:
+    target            0 ----r-----ed-e--mptor--------o -----. ---Notum fec domin--us
+                      0 ----|-----.|-|--..|.|--------.
+    query             0 apparuit hodie in terra canunt angeli letantur arc---hangeli
+    
+    target           30 
+                     30 
+    query            57 
+
+-- fused_5 --
+  OCR:      'alla a'
+  Assigned: 'hodie exsultent iusti dicentes gloria in excelsis deo allelu'
+  Words:    [38..47) consumed=9
+  NW score: k=2 (pre-snap), norm=-5.0596
+  Anchor:   word 47 (within_chant_7), diff=7, snapped=False, forced=True
+  Alignment:
+    target            0 ---------al---------------------l---a ----------------------
+                      0 ---------.|---------------------|---|
+    query             0 hodie exsultent iusti dicentes gloria in excelsis deo allelu
+    
+    target            5 -a  6
+                     37 -| 39
+    query            60 ya 62
+
+-- fused_6 --
+  OCR:      'Magisei ant odie xtpististus natiis est hodie salva'
+  Assigned: 'ya euouae Stephanus autem plenus gracia et'
+  Words:    [47..53) consumed=6
+  NW score: k=8 (pre-snap), norm=-0.5062
+  Anchor:   word 53 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 Magisei ant odie xt-pististus na-tiis --e--st -hodie salva 51
+                      0 -----|-----.|..| 16
+    query             0 -----e-----uouae Step---hanus -aut-em plenus- graci---a et 39
+
+-- fused_7 --
+  OCR:      'tor apparuit hodie in terra canunit Angeli letantur Archangeli'
+  Assigned: 'fortitudine faciebat signa magna in populo euouae Xpistum natum qui'
+  Words:    [53..63) consumed=10
+  NW score: k=10 (pre-snap), norm=-0.8689
+  Anchor:   word 60 (within_chant_7), diff=3, snapped=False, forced=False
+  Alignment:
+    target            0 tor apparuit hodi-e ---i---n terra ca-nunit Angeli le--ta---
+                      0 .|------|.||--.||-|
+    query             0 fo------rtit--udine faciebat signa magna in populo -euouae X
+    
+    target           47 --ntur Archa--ngeli 62
+                     19 --.||. 25
+    query            51 pistum ---natum qui 67
+
+-- fused_8 --
+  OCR:      'hodie exiltant justi dicentes gloria in excelsis Deo Allelu'
+  Assigned: 'beatum hodie coronavit ste'
+  Words:    [63..67) consumed=4
+  NW score: k=10 (pre-snap), norm=-0.4541
+  Anchor:   word 67 (within_chant_7), diff=6, snapped=False, forced=True
+  Alignment:
+    target            0 hodie exiltant justi --dicentes glor-ia in excelsis Deo Alle
+                      0 -----.|----|-|--|--.
+    query             0 -----be----a-t--u--m hodi----e- -coronavit -------s-te---pha
+    
+    target           57 lu- 59
+                     20 .|- 23
+    query            29 num 32
+
+-- fused_9 --
+  OCR:      'addit descoss Concedeas omni'
+  Assigned: 'phanum Venite adoremus ~Venite'
+  Words:    [67..70) consumed=3
+  NW score: k=5 (pre-snap), norm=-1.1802
+  Anchor:   word 70 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 addit descoss -Concedeas -omni-- 28
+                      0 ...||--|----- 13
+    query             0 Venit--e----- ado-re-mus ~Venite 23
+
+-- fused_10 --
+  OCR:      'ya exovae .epho tephanus autem pleniis gracia e'
+  Assigned: 'Stephanus autem plenus'
+  Words:    [70..73) consumed=3
+  NW score: k=5 (pre-snap), norm=3.7725
+  Anchor:   word 73 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 ya exovae .epho tephanus autem pleniis gracia e 47
+                      0 ---------------.|||||||| 24
+    query             0 ---------------Stephanus autem plen-us--------- 22
+
+-- fused_11 --
+  OCR:      'Guartho'
+  Assigned: 'graia et'
+  Words:    [73..75) consumed=2
+  NW score: k=2 (pre-snap), norm=-2.9399
+  Anchor:   word 79 (page_break_77), diff=4, snapped=False, forced=False
+  Alignment:
+    target            0 Gua---rtho  7
+                      0 ..|---.|-- 10
+    query             0 graia et--  8
+
+-- fused_12 --
+  OCR:      'ore corona'
+  Assigned: 'fortitudine faciebat signa magna'
+  Words:    [75..79) consumed=4
+  NW score: k=3 (pre-snap), norm=-1.4264
+  Anchor:   word 79 (page_break_77), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 -or-------e --c------------orona 10
+                      0 -||-------| 11
+    query             0 fortitudine faciebat signa magna 32
+
+-- fused_13 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [79..79) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_14 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [79..79) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_15 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [79..79) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_16 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [79..79) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_17 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [79..79) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_18 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [79..79) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_19 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [79..79) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_20 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [79..79) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_21 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [79..79) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_22 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [79..79) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_23 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [79..79) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_24 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [79..79) consumed=0
+  Alignment:
+    (no words left)
+=== END DEBUG ===
+

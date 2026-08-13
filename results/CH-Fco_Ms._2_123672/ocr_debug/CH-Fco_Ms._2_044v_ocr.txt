@@ -1,0 +1,169 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'sti Chpiste cui magi numera offerunt Allelnya Alleluya Alleluya evo'
+  [fused_1] 'vidimus stellam ejus moriente et venimus cum mune'
+  [fused_2] 'mibus adorare Dom '
+  [fused_3] 'rodes quod signum indistis sumper natum regem stellam vidi'
+  [fused_4] ''
+  [fused_5] 'umes nationes ne ment a longe portantes mune'
+  [fused_6] 'ra sua Alleluya evovac'
+  [fused_7] 'rum et this deferentes Alleluya Aleluya evovac'
+  [fused_8] 'ent ad te qui dechraebant tibi et adorabunt vestigia pedum tu'
+  [fused_9] 'oru eoae Adindinti magi in sompnis ab Augelo per a'
+  [fused_10] 'lam vam reverssi sunt in regionem suam evovac '
+  [fused_11] 'Cemansit pruet meras n aemenlliem et nonto'
+  [fused_12] 'aoverunt parentes ejus eristimantes ilum ee il comita'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'sti Chpiste cui magi numera offerunt Allelnya Alleluya Alleluya evo'
+  Assigned: 'xpiste cui magi munera offerunt alleluya alleluya alleluya euouae'
+  Words:    [0..9) consumed=9
+  NW score: k=9 (pre-snap), norm=5.4552
+  Anchor:   word 18 (within_chant_7), diff=9, snapped=False, forced=False
+  Alignment:
+    target            0 sti Chpiste cui magi numera offerunt Allelnya Alleluya Allel
+                      0 -----.|||||
+    query             0 -----xpiste cui magi munera offerunt alleluya alleluya allel
+    
+    target           60 uya evo--- 67
+                     11 ||| 14
+    query            55 uya euouae 65
+
+-- fused_1 --
+  OCR:      'vidimus stellam ejus moriente et venimus cum mune'
+  Assigned: 'Vidimus stellam eius in oriente et venimus cum mune'
+  Words:    [9..18) consumed=9
+  NW score: k=9 (pre-snap), norm=6.1852
+  Anchor:   word 18 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 vidimus stellam ejus --moriente et venimus cum mune----- 49
+                      0 .||||||  7
+    query             0 Vidimus stellam eius in oriente et venimus cum muneribus 56
+
+-- fused_2 --
+  OCR:      'mibus adorare Dom'
+  Assigned: 'ribus adorare dominum'
+  Words:    [18..20) consumed=2
+  NW score: k=2 (pre-snap), norm=2.3170
+  Anchor:   word 24 (within_chant_7), diff=4, snapped=False, forced=False
+  Alignment:
+    target            0 mibus adorare Do----m 17
+                      0 ------||||||| 13
+    query             0 ------adorare dominum 15
+
+-- fused_3 --
+  OCR:      'rodes quod signum indistis sumper natum regem stellam vidi'
+  Assigned: 'euouae Interrogabat magos herodes quod signum vidistis super natum regem stellam vidi'
+  Words:    [20..32) consumed=12
+  NW score: k=12 (pre-snap), norm=4.5631
+  Anchor:   word 24 (within_chant_7), diff=8, snapped=False, forced=False
+  Alignment:
+    target            0 ----------------------------rodes quod signum -indistis sump
+                      0 ----------------------------|||||
+    query             0 euouae Interrogabat magos herodes quod signum vi-distis su-p
+    
+    target           31 er natum regem stellam vidi--- 58
+                     33 || 35
+    query            58 er natum regem stellam vidimus 88
+
+-- fused_4 --
+  OCR:      ''
+  Assigned: 'mus fulgentem cuius splendor illuminat mundum euouae'
+  Words:    [32..38) consumed=6
+
+-- fused_5 --
+  OCR:      'umes nationes ne ment a longe portantes mune'
+  Assigned: 'Omnes nationes venient a longe portantes mune'
+  Words:    [38..45) consumed=7
+  NW score: k=7 (pre-snap), norm=6.2232
+  Anchor:   word 45 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 um-es nationes ne ment a longe portantes mune-- 44
+                      0 .|-||  5
+    query             0 Omnes nationes venient a longe portantes munera 47
+
+-- fused_6 --
+  OCR:      'ra sua Alleluya evovac'
+  Assigned: 'ra sua alleluya euouae'
+  Words:    [45..48) consumed=3
+  NW score: k=3 (pre-snap), norm=4.2553
+  Anchor:   word 53 (within_chant_7), diff=5, snapped=False, forced=False
+  Alignment:
+    target            0 ra sua Alleluya evovac 22
+                      0 ---|||  6
+    query             0 ---sua alleluya euouae 19
+
+-- fused_7 --
+  OCR:      'rum et this deferentes Alleluya Aleluya evovac'
+  Assigned: 'Omnes de salba venient au'
+  Words:    [48..53) consumed=5
+  NW score: k=11 (pre-snap), norm=3.5447
+  Anchor:   word 53 (within_chant_7), diff=6, snapped=False, forced=True
+  Alignment:
+    target            0 rum et this deferentes Alleluya Aleluya evova---c 46
+                      0 -.|.|-----| 11
+    query             0 -Omne-----s de-------- sal---ba -ve---nient aurum 28
+
+-- fused_8 --
+  OCR:      'ent ad te qui dechraebant tibi et adorabunt vestigia pedum tu'
+  Assigned: 'rum et thus deferentes alleluya alleluya euouae Venient ad te qui dethrahebant tibi et adorabunt vestigia pedum tu'
+  Words:    [53..70) consumed=17
+  NW score: k=17 (pre-snap), norm=3.6455
+  Anchor:   word 60 (within_chant_7), diff=10, snapped=False, forced=False
+  Alignment:
+    target            0 ------------------------------------------------ent ad te qu
+                      0 ------------------------------------------------|||
+    query             0 et thus deferentes alleluya alleluya euouae Venient ad te qu
+    
+    target           12 i dechra-ebant tibi et adorabunt vestigia pedum tu----  61
+                     51 |  52
+    query            60 i dethrahebant tibi et adorabunt vestigia pedum tuorum 114
+
+-- fused_9 --
+  OCR:      'oru eoae Adindinti magi in sompnis ab Augelo per a'
+  Assigned: 'orum euouae Admoniti magi in sompnis ab angelo per a'
+  Words:    [70..79) consumed=9
+  NW score: k=8 (pre-snap), norm=4.9964
+  Anchor:   word 79 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 oru eo-ae Ad-indinti magi in sompnis ab Augelo per a---- 50
+                      0 -.|--|-||  9
+    query             0 -eu--ouae Admon-i-ti magi in sompnis ab angelo per aliam 51
+
+-- fused_10 --
+  OCR:      'lam vam reverssi sunt in regionem suam evovac'
+  Assigned: 'liam viam reversi sunt in regionem suam euouae'
+  Words:    [79..86) consumed=7
+  NW score: k=7 (pre-snap), norm=5.8435
+  Anchor:   word 86 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 lam v-am reverssi sunt in regionem suam evovac 45
+                      0 ----|-||  8
+    query             0 ----viam rever-si sunt in regionem suam euouae 41
+
+-- fused_11 --
+  OCR:      'Cemansit pruet meras n aemenlliem et nonto'
+  Assigned: 'Remansit puer ihesus in iherusalem et non co'
+  Words:    [86..94) consumed=8
+  NW score: k=7 (pre-snap), norm=3.1087
+  Anchor:   word 94 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 Cemansit pruet -meras -n -aemenlliem et non----to------ 42
+                      0 .|||||||  8
+    query             0 Remansit p-uer ihesus in iherusal-em et non cognoverunt 53
+
+-- fused_12 --
+  OCR:      'aoverunt parentes ejus eristimantes ilum ee il comita'
+  Assigned: 'gnoverunt parentes eius existimantes illum esse in comitatu'
+  Words:    [94..101) consumed=7
+  NW score: k=7 (pre-snap), norm=5.0038
+  Anchor:   word 101 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 aoverunt parentes ejus eristimantes i-lum e--e il comita-- 53
+                      0 ---------|||||||| 17
+    query             0 ---------parentes eius existimantes illum esse in comitatu 49
+=== END DEBUG ===
+

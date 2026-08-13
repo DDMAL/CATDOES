@@ -1,0 +1,287 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'Bromise sempitueds Demi'
+  [fused_1] 'de de octeravis dominica in note omnia'
+  [fused_2] 'a regalibus sedibus venit Allelvya Evovae e desmone Saleonio por sendis dicumus de Rat domini Vei lee Legnii'
+  [fused_3] 'excedit quidem sucdimnluca in ilo ipr erat Josephamana Ovil origenis congregenus it'
+  [fused_4] 'medium silentuu oro vut supra post ea fit quim de Ratre t ombus'
+  [fused_5] 'Cipsi se Brai de Nat ativeniet plenituto ad ux cas'
+  [fused_6] 'ms   vei'
+  [fused_7] 'Mhesus proficiebat etate et capientia coram Deo et hominibus oro ut supra post oraionem dominice dicatur t oie de ativitate in vigla Sancti Silvestri'
+  [fused_8] 'Tecum anc t cau agnus ymiis siteofessor ama'
+  [fused_9] 'Eerorae. neiles Consti  Dominu et Or .octadi ad is omnia dicantur de uno confessore preter sctorom datcos et Ponti oro da cis ompic et'
+  [fused_10] 'pontat'
+  [fused_11] 'Vomia coppter nimiam'
+  [fused_12] 'qua dilexit nos deus filium suum misit'
+  [fused_13] ' dsquisalutis . Et un fito'
+  [fused_14] 'mem de Sancto Silvestro nec de'
+  [fused_15] 'Sancto Stephano vec de Sancto Johanne vec'
+  [fused_16] 'militudinem carnis pegtati Aevia eovae mocentum'
+  [fused_17] 'si. de Sancto Basilio et Sancta Maria in octdin'
+  [fused_18] 'nontrois Xhristeanatus est Yminus Xre'
+  [fused_19] 'turno aut. redemptior omnum i primo nonc Dominus dynt ad se c Evare fe ex'
+  [fused_20] 'oae t in sole posuit tabernaculum sumum et ipse tanquam'
+  [fused_21] 'sponsus procedens de Thalano suo ps Celienar evovac'
+  [fused_22] 'levanum porte eternales et introibit'
+  [fused_23] 'V . Cancoe Sancosare Domino'
+  [fused_24] 'pedes de Dmno SctLe'
+  [fused_25] 'de agmno de tra eooras cosonone mos propte lie a festimita'
+  [fused_26] 'a nt recca ta nnum '
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'Bromise sempitueds Demi'
+  Assigned: 'a regalibus sedibus venit'
+  Words:    [0..4) consumed=4
+  NW score: k=4 (pre-snap), norm=0.1251
+  Anchor:   word 7 (within_chant_7), diff=3, snapped=False, forced=False
+  Alignment:
+    target            0 -Br--omi--se sempitueds Demi- 23
+                      0 -.|--..|--|- 12
+    query             0 a regalibus- se-dibu--s venit 25
+
+-- fused_1 --
+  OCR:      'de de octeravis dominica in note omnia'
+  Assigned: 'alleluya euouae Puer ihesus proficiebat etate et sapiencia'
+  Words:    [4..12) consumed=8
+  NW score: k=8 (pre-snap), norm=-0.8946
+  Anchor:   word 7 (within_chant_7), diff=5, snapped=False, forced=False
+  Alignment:
+    target            0 --de---- ----de octeravi----s -domini-ca- in note ------omn-
+                      0 --.|----
+    query             0 alleluya euouae -Puer- ihesus proficiebat --etate et sapienc
+    
+    target           36 ia 38
+                      8 || 10
+    query            56 ia 58
+
+-- fused_2 --
+  OCR:      'a regalibus sedibus venit Allelvya Evovae e desmone Saleonio por sendis dicumus de Rat domini Vei lee Legnii'
+  Assigned: 'coram deo et hominibus euouae Proppter nimiam caritatem suam qua dilexit nos deus filium suum misit in similitudinem carnis'
+  Words:    [12..31) consumed=19
+  NW score: k=19 (pre-snap), norm=-0.7722
+  Anchor:   word 16 (within_chant_7), diff=15, snapped=False, forced=False
+  Alignment:
+    target            0 ---a- re-------galibus sedibu-s -----ve--nit Allelvya- -Evov
+                      0 ---|-
+    query             0 coram deo et hominibus -e-uouae Proppter ni-------miam carit
+    
+    target           39 a-e e des--mone -Sa---leonio por sendis di-cumus de --Rat---
+                      5 |-|-.
+    query            51 ate-m --suam--- qua dile-xit nos de--us filium suum misit in
+    
+    target           86  domini Vei lee Legnii 108
+                     10   10
+    query           102  similitudi-nem carnis 123
+
+-- fused_3 --
+  OCR:      'excedit quidem sucdimnluca in ilo ipr erat Josephamana Ovil origenis congregenus it'
+  Assigned: 'peccati alleluia euouae Dominus dixit ad me ~Quare fremuerunt euouae In sole posuit'
+  Words:    [31..44) consumed=13
+  NW score: k=13 (pre-snap), norm=-1.1687
+  Anchor:   word 34 (within_chant_7), diff=10, snapped=False, forced=False
+  Alignment:
+    target            0 -excedit ----quidem sucdimnluca- ---in-- -ilo ipr erat Josep
+                      0 -|.|..|-
+    query             0 peccati- allelui--a eu-----ou-ae Dominus di--xi-t --ad --me 
+    
+    target           48 hamana Ovil or-ige--nis -congregenus--- ----it 83
+                      8 ...|-----.. 19
+    query            44 ~Qua-----re fremuerun-t euo-uae In sole posuit 83
+
+-- fused_4 --
+  OCR:      'medium silentuu oro vut supra post ea fit quim de Ratre t ombus'
+  Assigned: 'tabernaculum suuum et ipse tanquam'
+  Words:    [44..49) consumed=5
+  NW score: k=6 (pre-snap), norm=-0.8165
+  Anchor:   word 49 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 --me----dium silentuu oro vut supra post ea fit quim de Ratr
+                      0 --.|----..||
+    query             0 tabernaculum s-----uu--um -et -----ip-se ta----nqu-------a--
+    
+    target           54 e t ombus 63
+                     12 -----|--- 21
+    query            33 -----m--- 34
+
+-- fused_5 --
+  OCR:      'Cipsi se Brai de Nat ativeniet plenituto ad ux cas'
+  Assigned: 'sponsus procedens de thalamo suo ~Celi ennarrant euouae e'
+  Words:    [49..58) consumed=9
+  NW score: k=8 (pre-snap), norm=-1.1823
+  Anchor:   word 58 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 Cip--si se Br-----ai de Nat a------------tiven----iet plenit
+                      0 -.|--|-.|-
+    query             0 -spons-us- procedens de --thalamo suo ~Celi ennarrant --e---
+    
+    target           37 uto ad ux ca---s 50
+                     10 |-|.|. 16
+    query            50 u-ouae Elevamini 65
+
+-- fused_6 --
+  OCR:      'ms   vei'
+  Assigned: 'levamini porte eternales et introibit rex glorie ~Domini'
+  Words:    [58..65) consumed=7
+  NW score: k=3 (pre-snap), norm=-3.5000
+  Anchor:   word 65 (within_chant_7), diff=4, snapped=False, forced=True
+  Alignment:
+    target            0 -------------ms -- --------- ve---------------i  8
+                      0 -------------.| 15
+    query             0 porte eternales et introibit rex glorie ~Domini 47
+
+-- fused_7 --
+  OCR:      'Mhesus proficiebat etate et capientia coram Deo et hominibus oro ut supra post oraionem dominice dicatur t oie de ativitate in vigla Sancti Silvestri'
+  Assigned: 'est terra euouae Ecce agnus dei qui tollit peccata mundi ecce'
+  Words:    [65..76) consumed=11
+  NW score: k=11 (pre-snap), norm=-1.8776
+  Anchor:   word 71 (within_chant_7), diff=5, snapped=False, forced=False
+  Alignment:
+    target            0 Mhesus proficiebat etate et capientia coram Deo et hominibus
+                      0 --||-------------|
+    query             0 --es-------------t ---te---------------rra----- e---------u-
+    
+    target           60  oro ut supra- post oraionem dominice dicatur t o--ie de ati
+                     18 ---|-----|--|-
+    query            12 ---o-----u--ae Ecce --a-gnus d------e--i- qui t-ollit pe----
+    
+    target          117 vitate in vigla Sancti Silvestri 149
+                     32 -..||---------|  47
+    query            45 -ccat---------a mun-di ----e-cce  61
+
+-- fused_8 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [76..76) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_9 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [76..76) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_10 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [76..76) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_11 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [76..76) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_12 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [76..76) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_13 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [76..76) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_14 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [76..76) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_15 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [76..76) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_16 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [76..76) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_17 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [76..76) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_18 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [76..76) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_19 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [76..76) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_20 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [76..76) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_21 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [76..76) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_22 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [76..76) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_23 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [76..76) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_24 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [76..76) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_25 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [76..76) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_26 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [76..76) consumed=0
+  Alignment:
+    (no words left)
+=== END DEBUG ===
+

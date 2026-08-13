@@ -1,0 +1,203 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'cias regibus Allelu coorre a acitatu sinti icensum et pa no'
+  [fused_1] 'offerut  alleincenti dabo manna absconditum et no'
+  [fused_2] 'men nomin ali lua cooracinmi an'
+  [fused_3] 'lun pans mns q de ui ces cenoi si quis manducaverit ex'
+  [fused_4] 'hocvet in eternum alle li comie'
+  [fused_5] 'Paren celi teot ei aleum aldlims . Panen angebor manau'
+  [fused_6] 'avi Bo oria i et filio et spintii Sancto'
+  [fused_7] '.ban be adipe frumenti Alleluya Allelima'
+  [fused_8] 'mele satmmanit e Blalois  toucas panem osint sines'
+  [fused_9] 'term Alielu Meluainum letificet cor homies alla'
+  [fused_10] 'ran phipipes que dicut secundis bepperis dici ad ces'
+  [fused_11] 'd   la io i'
+  [fused_12] 'sactum comunnum in quo episussumicu'
+  [fused_13] 'iccalene meanor a pasons one neni implenit gata et fititi'
+  [fused_14] 'one Jobi petuns datar ale bigi cocr'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'cias regibus Allelu coorre a acitatu sinti icensum et pa no'
+  Assigned: 'regibus alleluya euouae Sacerdotes sancti incensum et panes'
+  Words:    [0..8) consumed=8
+  NW score: k=8 (pre-snap), norm=3.0847
+  Anchor:   word 8 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 cias regibus Allelu-- coorre a ac-itat-u sin-ti i-censum et 
+                      0 -----|||||||
+    query             0 -----regibus alleluya euouae -Sacerdotes sancti incensum et 
+    
+    target           54 pa n-o 59
+                     12 ||-|-. 18
+    query            54 pa-nes 59
+
+-- fused_1 --
+  OCR:      'offerut  alleincenti dabo manna absconditum et no'
+  Assigned: 'offerunt deo alleluya euouae Vincenti dabo manna absconditum et no'
+  Words:    [8..18) consumed=10
+  NW score: k=10 (pre-snap), norm=5.4346
+  Anchor:   word 18 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 offeru-t --- alle-------------incenti dabo manna absconditum
+                      0 ||||||-|
+    query             0 offerunt deo alleluya euouae Vincenti dabo manna absconditum
+    
+    target           43  et no--- 49
+                      8   8
+    query            60  et nomen 69
+
+-- fused_2 --
+  OCR:      'men nomin ali lua cooracinmi an'
+  Assigned: 'men novum alleluya euouae Ego'
+  Words:    [18..22) consumed=4
+  NW score: k=6 (pre-snap), norm=0.0607
+  Anchor:   word 22 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 men no--min ali lu-a cooracinmi -an 31
+                      0 ----||--|-- 11
+    query             0 ----novum-- alleluya euoua----e Ego 25
+
+-- fused_3 --
+  OCR:      'lun pans mns q de ui ces cenoi si quis manducaverit ex'
+  Assigned: 'sum panis vivus qui de celo descendi si quis manducaverit ex'
+  Words:    [22..33) consumed=11
+  NW score: k=11 (pre-snap), norm=4.8488
+  Anchor:   word 33 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 lun pan-s --mns q-- de --ui ces cenoi si quis manducaverit e
+                      0 .|.
+    query             0 sum panis vivus qui de celo des-cendi si quis manducaverit e
+    
+    target           53 x 54
+                      3 |  4
+    query            59 x 60
+
+-- fused_4 --
+  OCR:      'hocvet in eternum alle li comie'
+  Assigned: 'hoc pane vivet in eternum alleluya'
+  Words:    [33..39) consumed=6
+  NW score: k=7 (pre-snap), norm=3.8148
+  Anchor:   word 39 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 hoc--------vet in eternum alle li comie 31
+                      0 |||--------||| 14
+    query             0 hoc pane vivet in eternum alle-l----uya 34
+
+-- fused_5 --
+  OCR:      'Paren celi teot ei aleum aldlims . Panen angebor manau'
+  Assigned: 'euouae Panem celi dedit eis alleluya alleluya Panem angelorum mandu'
+  Words:    [39..49) consumed=10
+  NW score: k=10 (pre-snap), norm=2.5500
+  Anchor:   word 49 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -------Paren celi te-ot ei- a-le-u-m aldlims . Panen angebor
+                      0 -------||.|.
+    query             0 euouae Panem celi dedit eis alleluya al-leluya Panem angelor
+    
+    target           48 -- manau----- 54
+                     12 -- 14
+    query            59 um manducavit 72
+
+-- fused_6 --
+  OCR:      'avi Bo oria i et filio et spintii Sancto'
+  Assigned: 'cavit homo alleluya Gloria patri et filio et spiritui sancto'
+  Words:    [49..58) consumed=9
+  NW score: k=9 (pre-snap), norm=3.3566
+  Anchor:   word 58 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 avi Bo -----------oria ----i et filio et spi-ntii Sancto 40
+                      0 --...|  6
+    query             0 --homo alleluya Gloria patri et filio et spiritui sancto 54
+
+-- fused_7 --
+  OCR:      '.ban be adipe frumenti Alleluya Allelima'
+  Assigned: 'Cibavit eos ex adipe frumenti alleluya alleluya'
+  Words:    [58..65) consumed=7
+  NW score: k=7 (pre-snap), norm=4.4281
+  Anchor:   word 68 (within_chant_7), diff=3, snapped=False, forced=False
+  Alignment:
+    target            0 -.ba--n ---be- adipe frumenti Alleluya Allelima 40
+                      0 -.||--.  7
+    query             0 Cibavit eos ex adipe frumenti alleluya alleluya 47
+
+-- fused_8 --
+  OCR:      'mele satmmanit e Blalois  toucas panem osint sines'
+  Assigned: 'Et de petra'
+  Words:    [65..68) consumed=3
+  NW score: k=11 (pre-snap), norm=1.4432
+  Anchor:   word 68 (within_chant_7), diff=8, snapped=False, forced=True
+  Alignment:
+    target            0 mele satmmanit -e Blalois  toucas panem osint sines 50
+                      0 ------------.| 14
+    query             0 ------------Et de---------------- p--e------t----ra 11
+
+-- fused_9 --
+  OCR:      'term Alielu Meluainum letificet cor homies alla'
+  Assigned: 'melle saturavit eos alleluya Gloria Educas panem de terra alleluya alleluya Et vinum letificet cor hominis alleluya'
+  Words:    [68..85) consumed=17
+  NW score: k=17 (pre-snap), norm=1.0338
+  Anchor:   word 76 (within_chant_7), diff=9, snapped=False, forced=False
+  Alignment:
+    target            0 --------------t--------e--------r--------------m--------- Al
+                      0 --------------|--------|--------|--------------|---------
+    query             0 melle saturavit eos alleluya Gloria Educas panem de terra al
+    
+    target            7 ielu-- --Melu-a-----inum letificet cor homi-es all----a  47
+                     57 .|||--  63
+    query            60 leluya alleluya Et vinum letificet cor hominis alleluya 115
+
+-- fused_10 --
+  OCR:      'ran phipipes que dicut secundis bepperis dici ad ces'
+  Assigned: 'Gloria O sacrum convivium in quo xpistus sumitur et recolitur memoria passionis eius mens'
+  Words:    [85..99) consumed=14
+  NW score: k=14 (pre-snap), norm=-1.1907
+  Anchor:   word 93 (within_chant_7), diff=6, snapped=False, forced=False
+  Alignment:
+    target            0 ---r------a-------n------ phi-------pi-pes que dicu---t secu
+                      0 ---|------|-------|------
+    query             0 Gloria O sacrum convivium --in quo xpistus su--mitur et rec-
+    
+    target           27 ndi--s bepperis ---di-ci- --ad ce-s 52
+                     25 ..|--. 31
+    query            55 olitur me-moria passionis eius mens 89
+
+-- fused_11 --
+  OCR:      'd   la io i'
+  Assigned: 'impletur gratia et future'
+  Words:    [99..103) consumed=4
+  NW score: k=3 (pre-snap), norm=-2.2741
+  Anchor:   word 103 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 ------d   la io --------i 11
+                      0 ------..  8
+    query             0 impletur gratia et future 25
+
+-- fused_12 --
+  OCR:      'sactum comunnum in quo episussumicu'
+  Assigned: 'glorie nobis pignus datur alleluya ~Magnus'
+  Words:    [103..109) consumed=6
+  NW score: k=4 (pre-snap), norm=-2.0284
+  Anchor:   word 109 (page_break_77), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 sactum co----munnum in quo ---e-------pisussumicu 35
+                      0 ......  6
+    query             0 glorie nobis pignus -datur alleluya ~Magnus------ 42
+
+-- fused_13 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [109..109) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_14 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [109..109) consumed=0
+  Alignment:
+    (no words left)
+=== END DEBUG ===
+

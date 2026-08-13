@@ -1,0 +1,207 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'enim nos estis qui loquimini sed spiritus patris vestri'
+  [fused_1] 'oqui tur in vo bis dabiturrincipes po'
+  [fused_2] 'pulorum congregati sunt cum Deo habraham ps Omnes'
+  [fused_3] 'gentes eovae Ledisti hereditatem timentibus novi'
+  [fused_4] 'tuum domine ps Exaudi deus depraci Evovae a'
+  [fused_5] 'verunt opera Dei et facta ejus intellexerunt . pd Exaudi'
+  [fused_6] 'V . Constitues eos me'
+  [fused_7] 'mores . sio Sancti Augustini'
+  [fused_8] 'pieam audits fratres'
+  [fused_9] 'ovae . Jioi i'
+  [fused_10] '. oituen co splendi das vestes et Angelus do'
+  [fused_11] 'mini loquutus est ad me dicens . Isti sunt juri sancti fac'
+  [fused_12] 'momna Angelum Dei fortem volan'
+  [fused_13] 'tem per medium celum voce magna clamantem et di'
+  [fused_14] 'centem Isti . eati eri tis cam malenterint'
+  [fused_15] 'nobis ho mmi nes et pesecu nonons te'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'enim nos estis qui loquimini sed spiritus patris vestri'
+  Assigned: 'enim vos estis qui loquimini sed spiritus patris vestri'
+  Words:    [0..9) consumed=9
+  NW score: k=9 (pre-snap), norm=7.7636
+  Anchor:   word 16 (within_chant_7), diff=7, snapped=False, forced=False
+  Alignment:
+    target            0 enim nos estis qui loquimini sed spiritus patris vestri 55
+                      0 ||||  4
+    query             0 enim vos estis qui loquimini sed spiritus patris vestri 55
+
+-- fused_1 --
+  OCR:      'oqui tur in vo bis dabiturrincipes po'
+  Assigned: 'qui loquitur in vobis Dabitur Principes po'
+  Words:    [9..16) consumed=7
+  NW score: k=6 (pre-snap), norm=4.9228
+  Anchor:   word 16 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 -----oqui tur in vo bis dabitur--rincipes po------- 37
+                      0 -----||||-||| 13
+    query             0 qui loqui-tur in vo-bis Dabitur Principes populorum 49
+
+-- fused_2 --
+  OCR:      'pulorum congregati sunt cum Deo habraham ps Omnes'
+  Assigned: 'pulorum congregati sunt cum deo habraham'
+  Words:    [16..21) consumed=5
+  NW score: k=6 (pre-snap), norm=5.6731
+  Anchor:   word 21 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 pulorum congregati sunt cum Deo habraham ps Omnes 49
+                      0 --------|||||||||| 18
+    query             0 --------congregati sunt cum deo habraham--------- 32
+
+-- fused_3 --
+  OCR:      'gentes eovae Ledisti hereditatem timentibus novi'
+  Assigned: '~Omnes gentes euouae Dedisti hereditatem timentibus nomen'
+  Words:    [21..28) consumed=7
+  NW score: k=7 (pre-snap), norm=5.6016
+  Anchor:   word 28 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -------gentes e-ovae Ledisti hereditatem timentibus no-vi 48
+                      0 -------|||||| 13
+    query             0 ~Omnes gentes euouae Dedisti hereditatem timentibus nomen 57
+
+-- fused_4 --
+  OCR:      'tuum domine ps Exaudi deus depraci Evovae a'
+  Assigned: 'tuum domine ~Exaudi deus deprecationem euouae annuntia'
+  Words:    [28..35) consumed=7
+  NW score: k=5 (pre-snap), norm=4.6756
+  Anchor:   word 35 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 tuum domine ps Exaudi deus depr--aci---- Evovae -------a----
+                      0 ||||
+    query             0 tuum domine --~Exaudi deus deprecationem euouae Annuntiaveru
+    
+    target           43 -- 43
+                      4 --  6
+    query            58 nt 60
+
+-- fused_5 --
+  OCR:      'verunt opera Dei et facta ejus intellexerunt . pd Exaudi'
+  Assigned: 'verunt opera dei et facta eius intellexerunt'
+  Words:    [35..41) consumed=6
+  NW score: k=7 (pre-snap), norm=5.5777
+  Anchor:   word 41 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 verunt opera Dei et facta ejus intellexerunt . pd Exaudi 56
+                      0 -------||||| 12
+    query             0 -------opera dei et facta eius intellexerunt------------ 37
+
+-- fused_6 --
+  OCR:      'V . Constitues eos me'
+  Assigned: '~Exaudi deus orationem euouae'
+  Words:    [41..45) consumed=4
+  NW score: k=4 (pre-snap), norm=-0.8510
+  Anchor:   word 48 (within_chant_7), diff=3, snapped=False, forced=False
+  Alignment:
+    target            0 ------V ---. Constitues e-os me 21
+                      0 ------.  7
+    query             0 ~Exaudi deus -orationem euo-uae 29
+
+-- fused_7 --
+  OCR:      'mores . sio Sancti Augustini'
+  Assigned: 'Vidi coniunctos vi'
+  Words:    [45..48) consumed=3
+  NW score: k=9 (pre-snap), norm=-1.8610
+  Anchor:   word 48 (within_chant_7), diff=6, snapped=False, forced=True
+  Alignment:
+    target            0 mores . sio Sanct-i Augustini 28
+                      0 ---....  7
+    query             0 ---Vidi -coniunctos viros---- 21
+
+-- fused_8 --
+  OCR:      'pieam audits fratres'
+  Assigned: 'ros habentes splendidas vestes et angelus do'
+  Words:    [48..54) consumed=6
+  NW score: k=3 (pre-snap), norm=-0.9648
+  Anchor:   word 54 (within_chant_7), diff=3, snapped=False, forced=True
+  Alignment:
+    target            0 ----------p----ieam audit-s -fratre--s------- 20
+                      0 ----------|----|.|. 19
+    query             0 habentes splendidas -vestes et angelus domini 44
+
+-- fused_9 --
+  OCR:      'ovae . Jioi i'
+  Assigned: 'mini loquutus est ad me dicens Isti sunt viri sanc'
+  Words:    [54..63) consumed=9
+  NW score: k=6 (pre-snap), norm=-2.2787
+  Anchor:   word 63 (within_chant_7), diff=3, snapped=False, forced=True
+  Alignment:
+    target            0 -o----------va---e ---------------. Jioi -----i 13
+                      0 -|----------.|---| 18
+    query             0 loquutus est ad me dicens Isti sunt viri sancti 47
+
+-- fused_10 --
+  OCR:      '. oituen co splendi das vestes et Angelus do'
+  Assigned: 'ti facti amici dei Vidi angelum dei fortem volan'
+  Words:    [63..71) consumed=8
+  NW score: k=6 (pre-snap), norm=-0.5863
+  Anchor:   word 71 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 . oituen ---co splendi das vestes --et Angelus d-----------o
+                      0 -...|--.
+    query             0 -fact--i amic--------i d-------ei Vidi angelum dei fortem vo
+    
+    target           44 ------ 44
+                      8 ------ 14
+    query            42 lantem 48
+
+-- fused_11 --
+  OCR:      'mini loquutus est ad me dicens . Isti sunt juri sancti fac'
+  Assigned: 'tem per medium celum voce magna clamantem et dicentem'
+  Words:    [71..79) consumed=8
+  NW score: k=12 (pre-snap), norm=0.0623
+  Anchor:   word 79 (within_chant_7), diff=4, snapped=False, forced=True
+  Alignment:
+    target            0 ----m--ini --loquutus ---est -a--d --------m-e- dicens . Ist
+                      0 ----|--|..
+    query             0 per medium cel-----um voce-- magna clamantem et dicen-------
+    
+    target           36 i sunt juri sancti fac 58
+                     10 ----------------|---.. 32
+    query            46 ----------------t---em 49
+
+-- fused_12 --
+  OCR:      'momna Angelum Dei fortem volan'
+  Assigned: 'Isti Beati eritis cum maledixerint'
+  Words:    [79..84) consumed=5
+  NW score: k=6 (pre-snap), norm=-1.5300
+  Anchor:   word 84 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 momna Angelum De--i for-t----em vol------an- 30
+                      0 ---------.... 13
+    query             0 ---------Isti Beati -eritis cum maledixerint 34
+
+-- fused_13 --
+  OCR:      'tem per medium celum voce magna clamantem et di'
+  Assigned: 'vobis homines et persecuti vos fuerint'
+  Words:    [84..90) consumed=6
+  NW score: k=6 (pre-snap), norm=-1.8220
+  Anchor:   word 90 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -------------tem per medium celu-m voce magna clamantem et d
+                      0 -------------.|.
+    query             0 vobis homines et per-se-----c--uti vo-------s fuerint-------
+    
+    target           46 i 47
+                     16 - 17
+    query            38 - 38
+
+-- fused_14 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [90..90) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_15 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [90..90) consumed=0
+  Alignment:
+    (no words left)
+=== END DEBUG ===
+

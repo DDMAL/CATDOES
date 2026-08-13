@@ -1,0 +1,151 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'misericordie suominus qui cripuit me'
+  [fused_1] 'de Ore Leonis at de manu bestie li beraint me . Et iirit'
+  [fused_2] 'ominis qui ccpunt mede rele mio'
+  [fused_3] 'et de Manu liberavit me cri'
+  [fused_4] 'manibusmnicorum rum .'
+  [fused_5] 'deus misericordiam suam et veritatem'
+  [fused_6] 'am animam meam etipunt de medio catulo'
+  [fused_7] 'pse ercus sit et david decem'
+  [fused_8] 'mi Qma manus comm m rat cum'
+  [fused_9] 'liste un et abstulit obpro'
+  [fused_10] 'brunni sra 3 nne iste est'
+  [fused_11] 'mile et damo ce domo de qno canebant in chorum cerondi „  '
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'misericordie suominus qui cripuit me'
+  Assigned: 'misericordie sue Dominus qui eripuit me'
+  Words:    [0..6) consumed=6
+  NW score: k=6 (pre-snap), norm=6.9923
+  Anchor:   word 6 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 misericordie su---ominus qui cripuit me 36
+                      0 |||||||||||| 12
+    query             0 misericordie sue Dominus qui eripuit me 39
+
+-- fused_1 --
+  OCR:      'de Ore Leonis at de manu bestie li beraint me . Et iirit'
+  Assigned: 'de ore leonis et de manu bestie liberavit me Et unxit'
+  Words:    [6..17) consumed=11
+  NW score: k=11 (pre-snap), norm=5.6352
+  Anchor:   word 17 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 de Ore Leonis at de manu bestie li bera-int me . Et iirit 56
+                      0 ||  2
+    query             0 de ore leonis et de manu bestie li-beravi-t me-- Et unxit 53
+
+-- fused_2 --
+  OCR:      'ominis qui ccpunt mede rele mio'
+  Assigned: 'Dominus qui eripuit me de ore leonis'
+  Words:    [17..24) consumed=7
+  NW score: k=7 (pre-snap), norm=3.6520
+  Anchor:   word 24 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -ominis qui -ccpunt me-de -re-le mio 31
+                      0 -||||.|  7
+    query             0 Dominus qui eripuit me de ore leonis 36
+
+-- fused_3 --
+  OCR:      'et de Manu liberavit me cri'
+  Assigned: 'et de manu bestie liberavit me Ipse me eripiet'
+  Words:    [24..33) consumed=9
+  NW score: k=6 (pre-snap), norm=4.5677
+  Anchor:   word 33 (within_chant_7), diff=3, snapped=False, forced=True
+  Alignment:
+    target            0 et de Manu------- liberavit-------- me cri---- 27
+                      0 ||  2
+    query             0 et de manu bestie liberavit me Ipse me eripiet 46
+
+-- fused_4 --
+  OCR:      'manibusmnicorum rum .'
+  Assigned: 'de manibus inimicorum meorum Misit'
+  Words:    [33..38) consumed=5
+  NW score: k=4 (pre-snap), norm=3.5466
+  Anchor:   word 38 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 ---manibus-mn--icorum ---rum ----. 21
+                      0 ---|||||||-.|--|||||| 21
+    query             0 de manibus inimicorum meorum Misit 34
+
+-- fused_5 --
+  OCR:      'deus misericordiam suam et veritatem'
+  Assigned: 'deus misericordiam suam et veritatem su'
+  Words:    [38..44) consumed=6
+  NW score: k=5 (pre-snap), norm=8.0000
+  Anchor:   word 44 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 deus misericordiam suam et veritate-----m 36
+                      0 ||||  4
+    query             0 deus misericordiam suam et veritatem suam 41
+
+-- fused_6 --
+  OCR:      'am animam meam etipunt de medio catulo'
+  Assigned: 'am animam meam eripuit de medio catulorum leonum'
+  Words:    [44..51) consumed=7
+  NW score: k=6 (pre-snap), norm=6.0000
+  Anchor:   word 51 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 am animam meam etipunt de medio catulo---------- 38
+                      0 ---||||||  9
+    query             0 ---animam meam eripuit de medio catulorum leonum 45
+
+-- fused_7 --
+  OCR:      'pse ercus sit et david decem'
+  Assigned: 'Ipse Percussit saul mille et david decem'
+  Words:    [51..58) consumed=7
+  NW score: k=7 (pre-snap), norm=4.7212
+  Anchor:   word 58 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -pse -ercus sit----------- et david decem 28
+                      0 -|||  4
+    query             0 Ipse Percus-sit saul mille et david decem 40
+
+-- fused_8 --
+  OCR:      'mi Qma manus comm m rat cum'
+  Assigned: 'milia Quia manus domini erat cum'
+  Words:    [58..64) consumed=6
+  NW score: k=6 (pre-snap), norm=4.2186
+  Anchor:   word 64 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 mi--- Q-ma manus comm m -rat cum 27
+                      0 ||---  5
+    query             0 milia Quia manus domini erat cum 32
+
+-- fused_9 --
+  OCR:      'liste un et abstulit obpro'
+  Assigned: 'illo percussit philisteum et abstulit obpro'
+  Words:    [64..70) consumed=6
+  NW score: k=6 (pre-snap), norm=2.9156
+  Anchor:   word 70 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ------------------liste un et abstulit obpro----- 26
+                      0 ------------------|||||-|. 26
+    query             0 illo percussit philiste-um et abstulit obprobrium 48
+
+-- fused_10 --
+  OCR:      'brunni sra 3 nne iste est'
+  Assigned: 'brium ex israhel Nonne iste est'
+  Words:    [70..75) consumed=5
+  NW score: k=5 (pre-snap), norm=3.2400
+  Anchor:   word 75 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 brunni sra--- 3 nne iste est 25
+                      0 --...|-|||--- 13
+    query             0 --ex i-srahel Nonne iste est 25
+
+-- fused_11 --
+  OCR:      'mile et damo ce domo de qno canebant in chorum cerondi „'
+  Assigned: 'david de quo canebant in choro dicentes saul percussit'
+  Words:    [75..84) consumed=9
+  NW score: k=6 (pre-snap), norm=2.5129
+  Anchor:   word 84 (within_chant_7), diff=3, snapped=False, forced=True
+  Alignment:
+    mile et damo ce domo de qno canebant in chor-------------um cer-ondi „
+    --------||----..|---|||||.||||||||||||||||||-------------|.|.||-...|-.
+    --------da----vid--- de quo canebant in choro dicentes saul percussi-t
+=== END DEBUG ===
+

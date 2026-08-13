@@ -1,0 +1,167 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'um ipsivero mortui sunt pro Cpististo et vivent meternum pd'
+  [fused_1] ' noter refu evovae ropter testamentum domi'
+  [fused_2] 'in et leges pater nas sancti de i prestiterunt in amore'
+  [fused_3] 'fraternita tis. mis fuit semper spiritus me'
+  [fused_4] 'moa desXcce quam bonum'
+  [fused_5] 'et quam jocundum habitare fra tres inu num quia'
+  [fused_6] 'P anceti me i qui incarne positi certamen habuistis'
+  [fused_7] 'Merterem lato ris egoreodam vo Penite'
+  [fused_8] 'benedicti patris me presite res mn .'
+  [fused_9] 'Merce or pora Sancto rr in pace sepulta'
+  [fused_10] 'sunt et non ma eorum vivent . in generatio ne et'
+  [fused_11] 'nera oNeapientiam Sanctorum Nar'
+  [fused_12] ' le item ooam nunciet ecclesie si d'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'um ipsivero mortui sunt pro Cpististo et vivent meternum pd'
+  Assigned: 'ipsi vero mortui sunt pro xpisto et vivent in eternum'
+  Words:    [0..10) consumed=10
+  NW score: k=10 (pre-snap), norm=5.6867
+  Anchor:   word 17 (within_chant_7), diff=7, snapped=False, forced=False
+  Alignment:
+    target            0 um ipsi-vero mortui sunt pro Cpististo et vivent --meternum 
+                      0 ---||||-||||
+    query             0 ---ipsi vero mortui sunt pro xp---isto et vivent in eternum-
+    
+    target           57 pd 59
+                     12 -- 14
+    query            53 -- 53
+
+-- fused_1 --
+  OCR:      'noter refu evovae ropter testamentum domi'
+  Assigned: '~Deus noster refugium euouae Propter testamentum domi'
+  Words:    [10..17) consumed=7
+  NW score: k=7 (pre-snap), norm=5.0540
+  Anchor:   word 17 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ------no-ter refu---- evovae -ropter testamentum dom--i 41
+                      0 ------||-||| 12
+    query             0 ~Deus noster refugium euouae Propter testamentum domini 55
+
+-- fused_2 --
+  OCR:      'in et leges pater nas sancti de i prestiterunt in amore'
+  Assigned: 'ni et leges paternas sancti dei prestiterunt in amore'
+  Words:    [17..25) consumed=8
+  NW score: k=8 (pre-snap), norm=7.1128
+  Anchor:   word 25 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 in et leges pater nas sancti de i prestiterunt in amore 55
+                      0 ---||  5
+    query             0 ---et leges pater-nas sancti de-i prestiterunt in amore 50
+
+-- fused_3 --
+  OCR:      'fraternita tis. mis fuit semper spiritus me'
+  Assigned: 'fraternitatis Quia unus fuit semper spiritus in'
+  Words:    [25..32) consumed=7
+  NW score: k=7 (pre-snap), norm=5.5388
+  Anchor:   word 32 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 fraternita tis. -mi-----s fuit semper spiritus me 43
+                      0 ||||||||||-|||- 15
+    query             0 fraternita-tis- Quia unus fuit semper spiritus in 47
+
+-- fused_4 --
+  OCR:      'moa desXcce quam bonum'
+  Assigned: 'eis et una fides Ecce quam bonum'
+  Words:    [32..39) consumed=7
+  NW score: k=7 (pre-snap), norm=3.5804
+  Anchor:   word 39 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -------moa --des-Xcce quam bonum 22
+                      0 -------..| 10
+    query             0 eis et una fides Ecce quam bonum 32
+
+-- fused_5 --
+  OCR:      'et quam jocundum habitare fra tres inu num quia'
+  Assigned: 'et quam ipocundum habitare fratres in unum'
+  Words:    [39..46) consumed=7
+  NW score: k=8 (pre-snap), norm=6.5106
+  Anchor:   word 46 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 et quam -jocundum habitare fra tres in-u num quia 47
+                      0 ||  2
+    query             0 et quam ipocundum habitare fra-tres in u-num----- 42
+
+-- fused_6 --
+  OCR:      'P anceti me i qui incarne positi certamen habuistis'
+  Assigned: 'Quia Sancti mei qui in carne positi certamen habuistis'
+  Words:    [46..55) consumed=9
+  NW score: k=9 (pre-snap), norm=6.4407
+  Anchor:   word 55 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ---P -anceti me i qui in-carne positi certamen habuistis 51
+                      0 ---.  4
+    query             0 Quia Sanc-ti me-i qui in carne positi certamen habuistis 54
+
+-- fused_7 --
+  OCR:      'Merterem lato ris egoreodam vo Penite'
+  Assigned: 'Mercedem laboris ego reddam vobis Venite'
+  Words:    [55..61) consumed=6
+  NW score: k=6 (pre-snap), norm=5.0948
+  Anchor:   word 61 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 Merterem lato ris ego-reodam vo--- Penite 37
+                      0 |||.|.||  8
+    query             0 Mercedem labo-ris ego reddam vobis Venite 40
+
+-- fused_8 --
+  OCR:      'benedicti patris me presite res mn .'
+  Assigned: 'benedicti patris mei percipite regnum'
+  Words:    [61..66) consumed=5
+  NW score: k=5 (pre-snap), norm=4.8224
+  Anchor:   word 66 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 benedicti patris me- p-r-esite res mn . 36
+                      0 |||||||||  9
+    query             0 benedicti patris mei percipite re--gnum 37
+
+-- fused_9 --
+  OCR:      'Merce or pora Sancto rr in pace sepulta'
+  Assigned: 'Mercedem Corpora sanctorum in pace sepulta'
+  Words:    [66..72) consumed=6
+  NW score: k=6 (pre-snap), norm=5.6582
+  Anchor:   word 72 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 Merce--- -or pora Sancto r-r in pace sepulta 39
+                      0 |||||---  8
+    query             0 Mercedem Cor-pora sancto-rum in pace sepulta 42
+
+-- fused_10 --
+  OCR:      'sunt et non ma eorum vivent . in generatio ne et'
+  Assigned: 'sunt et nomina eorum vivent In generatione'
+  Words:    [72..79) consumed=7
+  NW score: k=8 (pre-snap), norm=6.3259
+  Anchor:   word 79 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 sunt et no--n ma eorum vivent . in generatio ne et 48
+                      0 ||||  4
+    query             0 sunt et nomin--a eorum vivent-- In generatio-ne--- 42
+
+-- fused_11 --
+  OCR:      'nera oNeapientiam Sanctorum Nar'
+  Assigned: 'et generatione Sapientiam sanctorum nar'
+  Words:    [79..84) consumed=5
+  NW score: k=5 (pre-snap), norm=3.9441
+  Anchor:   word 84 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -----nera- oNe--apientiam Sanctorum Nar---- 31
+                      0 -----||||-.|.|--||||||||| 25
+    query             0 et generatione Sapientiam sanctorum narrent 43
+
+-- fused_12 --
+  OCR:      'le item ooam nunciet ecclesie si d'
+  Assigned: 'rent populi et laudem eorum nunciet ecclesia'
+  Words:    [84..90) consumed=6
+  NW score: k=6 (pre-snap), norm=2.9109
+  Anchor:   word 90 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ----le it-----em -ooam nunciet ecclesie si d 34
+                      0 ----|.  6
+    query             0 populi et laudem eorum nunciet ecclesi-----a 39
+=== END DEBUG ===
+

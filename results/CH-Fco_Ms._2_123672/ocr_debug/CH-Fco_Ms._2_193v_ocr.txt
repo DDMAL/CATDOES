@@ -1,0 +1,157 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'esuCpisti ructavit o. Per quem michimum'
+  [fused_1] 'dus Crucifixus est et ego mundo monnem tertam ex'
+  [fused_2] 'Vi operatus estnunc.'
+  [fused_3] 'de  in operatus est et mm'
+  [fused_4] 'a in tergen tes et cognoné runt graciam de'
+  [fused_5] 'que data est michi. raciadeimine'
+  [fused_6] 'nacua non it sed gracia ejus semper in me ma'
+  [fused_7] 'net et cognoc Domini certamencer'
+  [fused_8] 'sum consumajuidem ser vaDeo'
+  [fused_9] 'reposita est mi chi coro nam ma xc'
+  [fused_10] ''
+  [fused_11] 'meum servare m lumdim iteo qe pso'
+  [fused_12] 'fita est michi coro nam snae Quam reo cet'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'esuCpisti ructavit o. Per quem michimum'
+  Assigned: 'ihesu xpisti ~Eructavit euouae Per quem michi mun'
+  Words:    [0..8) consumed=8
+  NW score: k=7 (pre-snap), norm=4.8218
+  Anchor:   word 8 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 --esu-Cpisti --ructavit --o--. Per quem michi-m---um 39
+                      0 --|||-.||||| 12
+    query             0 ihesu xpisti ~Eructavit euouae Per quem michi mundus 52
+
+-- fused_1 --
+  OCR:      'dus Crucifixus est et ego mundo monnem tertam ex'
+  Assigned: 'dus crucifixus est et ego mundo In omnem terram ex'
+  Words:    [8..17) consumed=9
+  NW score: k=9 (pre-snap), norm=5.2664
+  Anchor:   word 17 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 dus Crucifixus est et ego mundo --monnem tertam ex---- 48
+                      0 ----.||||||||| 14
+    query             0 ----crucifixus est et ego mundo In omnem terram exivit 50
+
+-- fused_2 --
+  OCR:      'Vi operatus estnunc.'
+  Assigned: 'ivit Qui operatus est'
+  Words:    [17..20) consumed=3
+  NW score: k=3 (pre-snap), norm=4.5280
+  Anchor:   word 20 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -Vi operatus estnunc. 20
+                      0 -.|  3
+    query             0 Qui operatus est----- 16
+
+-- fused_3 --
+  OCR:      'de  in operatus est et mm'
+  Assigned: 'petro in apostolatu operatus est et mi'
+  Words:    [20..27) consumed=7
+  NW score: k=7 (pre-snap), norm=3.1547
+  Anchor:   word 27 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 de--  in----------- operatus est et m---m 25
+                      0 .|--.  5
+    query             0 petro in apostolatu operatus est et michi 41
+
+-- fused_4 --
+  OCR:      'a in tergen tes et cognoné runt graciam de'
+  Assigned: 'chi inter gentes Et cognoverunt graciam'
+  Words:    [27..32) consumed=5
+  NW score: k=6 (pre-snap), norm=5.2382
+  Anchor:   word 32 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    a in ter-gen tes et cognoné runt graciam de
+    --||-|||-|||-||||.|||||||-..||||||||||||---
+    --in-ter gen-tes Et cogno-verunt graciam---
+
+-- fused_5 --
+  OCR:      'que data est michi. raciadeimine'
+  Assigned: 'dei que data est michi Gracia dei in me'
+  Words:    [32..41) consumed=9
+  NW score: k=8 (pre-snap), norm=5.3917
+  Anchor:   word 41 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 ----que data est michi. -racia-deimin--e 32
+                      0 ----|||  7
+    query             0 dei que data est michi- Gracia dei in me 39
+
+-- fused_6 --
+  OCR:      'nacua non it sed gracia ejus semper in me ma'
+  Assigned: 'vacua non fuit sed gracia eius semper in me ma'
+  Words:    [41..51) consumed=10
+  NW score: k=10 (pre-snap), norm=6.5256
+  Anchor:   word 51 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 nacua non --it sed gracia ejus semper in me ma--- 44
+                      0 .||||  5
+    query             0 vacua non fuit sed gracia eius semper in me manet 49
+
+-- fused_7 --
+  OCR:      'net et cognoc Domini certamencer'
+  Assigned: 'net Et cognoverunt Bonum certamen certavi cur'
+  Words:    [51..57) consumed=6
+  NW score: k=5 (pre-snap), norm=2.3540
+  Anchor:   word 57 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 net et cogno-----c Domin-i certamen-cer----------- 32
+                      0 ----.|  6
+    query             0 ----Et cognoverunt Bo--num certamen certavi cursum 44
+
+-- fused_8 --
+  OCR:      'sum consumajuidem ser vaDeo'
+  Assigned: 'sum consumavi fidem servavi'
+  Words:    [57..60) consumed=3
+  NW score: k=3 (pre-snap), norm=3.0498
+  Anchor:   word 60 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 sum consuma--juidem ser vaDeo 27
+                      0 ----|||||||--..|||| 19
+    query             0 ----consumavi fidem ser-va-vi 23
+
+-- fused_9 --
+  OCR:      'reposita est mi chi coro nam ma xc'
+  Assigned: 'Ideoque reposita est michi corona iusticie sci'
+  Words:    [60..67) consumed=7
+  NW score: k=5 (pre-snap), norm=3.9706
+  Anchor:   word 67 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 --------reposita est mi chi coro nam ------ma xc-- 34
+                      0 --------|||||||| 16
+    query             0 Ideoque reposita est mi-chi coro-na- iusticie Scio 47
+
+-- fused_10 --
+  OCR:      ''
+  Assigned: 'o cui credidi et certus sum quia potens est depositum'
+  Words:    [67..76) consumed=9
+
+-- fused_11 --
+  OCR:      'meum servare m lumdim iteo qe pso'
+  Assigned: 'meum servare in illum diem Ideoque repo'
+  Words:    [76..83) consumed=7
+  NW score: k=6 (pre-snap), norm=3.7019
+  Anchor:   word 83 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 meum servare -m --lum-di-m iteo q-e --p-s--o 33
+                      0 ||||  4
+    query             0 meum servare in illum diem Ideo-que Reposita 43
+
+-- fused_12 --
+  OCR:      'fita est michi coro nam snae Quam reo cet'
+  Assigned: 'sita est michi corona iusticie Quam'
+  Words:    [83..88) consumed=5
+  NW score: k=5 (pre-snap), norm=2.8798
+  Anchor:   word 88 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 fita est michi coro nam --s--nae Quam reo cet 41
+                      0 -----|||  8
+    query             0 -----est michi coro-na- iusticie Quam-------- 30
+=== END DEBUG ===
+

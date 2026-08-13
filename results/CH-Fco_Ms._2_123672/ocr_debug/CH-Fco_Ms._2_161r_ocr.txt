@@ -1,0 +1,187 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'ilexit Andream dominus in odorem suanitatis Allelvya pr ex'
+  [fused_1] 'audi deus de iono vivens pendebat in cruce pro xptristi'
+  [fused_2] 'nomine beatus Andreas et docebat populum Pre. Exaudi dees omro eo'
+  [fused_3] 'ore omo deduceba tur ut crncifigerent'
+  [fused_4] 'um populus autem clamabat bat voce magna di cens In'
+  [fused_5] 'nocens ejus sanguis sine causadampatur '
+  [fused_6] 'ducerent eum ut crucifigeretur factus est concursus populorum'
+  [fused_7] 'clamantium etdiceniocens | vo na'
+  [fused_8] 'crux que decorem et pulcritudinem Remcmonio'
+  [fused_9] 'co mini susce sti accipe me ab homini vus'
+  [fused_10] 'et red de  perte me recipi'
+  [fused_11] 'an per te ne catus Andre'
+  [fused_12] ' expansis manbrs ad celum eabit oi ceno sala'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'ilexit Andream dominus in odorem suanitatis Allelvya pr ex'
+  Assigned: 'euouae Dilexit andream dominus in odorem suavitatis alleluya'
+  Words:    [0..8) consumed=8
+  NW score: k=8 (pre-snap), norm=5.3228
+  Anchor:   word 8 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 --------ilexit Andream dominus in odorem suanitatis Allelvya
+                      0 --------||||||
+    query             0 euouae Dilexit andream dominus in odorem suavitatis alleluya
+    
+    target           52  pr ex 58
+                     14 ------ 20
+    query            60 ------ 60
+
+-- fused_1 --
+  OCR:      'audi deus de iono vivens pendebat in cruce pro xptristi'
+  Assigned: '~Exaudi deus deprecationem euouae Biduo vivens pendebat in cruce pro xpristi'
+  Words:    [8..19) consumed=11
+  NW score: k=11 (pre-snap), norm=5.1660
+  Anchor:   word 19 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ---audi deus de----- ion--------------o vivens pendebat in c
+                      0 ---||||
+    query             0 ~Exaudi deus deprecationem euouae Biduo vivens pendebat in c
+    
+    target           38 ruce pro xptristi 55
+                      7 |||| 11
+    query            60 ruce pro xp-risti 76
+
+-- fused_2 --
+  OCR:      'nomine beatus Andreas et docebat populum Pre. Exaudi dees omro eo'
+  Assigned: 'nomine beatus andreas et docebat populum ~Exaudi'
+  Words:    [19..26) consumed=7
+  NW score: k=9 (pre-snap), norm=5.9226
+  Anchor:   word 26 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 nomine beatus Andreas et docebat populum Pre. Exaudi dees om
+                      0 ||||||
+    query             0 nomine beatus andreas et docebat populum ----~Exaudi--------
+    
+    target           60 ro eo 65
+                      6 ----- 11
+    query            48 ----- 48
+
+-- fused_3 --
+  OCR:      'ore omo deduceba tur ut crncifigerent'
+  Assigned: 'deus orationem euouae Homo dei ducebatur ut crucifigerent eum'
+  Words:    [26..35) consumed=9
+  NW score: k=8 (pre-snap), norm=4.1155
+  Anchor:   word 35 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 -----or-------------e -omo de--duceba tur ut crncifigerent--
+                      0 -----||-------------|
+    query             0 deus orationem euouae Homo dei duceba-tur ut crucifigerent e
+    
+    target           37 -- 37
+                     21 -- 23
+    query            59 um 61
+
+-- fused_4 --
+  OCR:      'um populus autem clamabat bat voce magna di cens In'
+  Assigned: 'populus autem clamabat voce magna dicens Innocens eius'
+  Words:    [35..43) consumed=8
+  NW score: k=6 (pre-snap), norm=6.0000
+  Anchor:   word 43 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 um populus autem clamabat bat voce magna di cens In---------
+                      0 ---|||||||
+    query             0 ---populus autem clama----bat voce magna di-cens Innocens ei
+    
+    target           51 -- 51
+                     10 -- 12
+    query            52 us 54
+
+-- fused_5 --
+  OCR:      'nocens ejus sanguis sine causadampatur'
+  Assigned: 'sanguis sine causa dampnatur Cumque'
+  Words:    [43..48) consumed=5
+  NW score: k=4 (pre-snap), norm=4.7212
+  Anchor:   word 48 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 nocens ejus sanguis sine causa-damp-atur------- 38
+                      0 ------------||||||| 19
+    query             0 ------------sanguis sine causa dampnatur Cumque 35
+
+-- fused_6 --
+  OCR:      'ducerent eum ut crucifigeretur factus est concursus populorum'
+  Assigned: 'ducerent eum et crucifigeretur factus est concursus populorum'
+  Words:    [48..56) consumed=8
+  NW score: k=8 (pre-snap), norm=7.7869
+  Anchor:   word 56 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ducerent eum ut crucifigeretur factus est concursus populoru
+                      0 ||||||||
+    query             0 ducerent eum et crucifigeretur factus est concursus populoru
+    
+    target           60 m 61
+                      8 |  9
+    query            60 m 61
+
+-- fused_7 --
+  OCR:      'clamantium etdiceniocens | vo na'
+  Assigned: 'clamantium et dicentium Innocens O bona'
+  Words:    [56..62) consumed=6
+  NW score: k=6 (pre-snap), norm=5.0669
+  Anchor:   word 62 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 clamantium et-dicen-i------ocens | vo na 32
+                      0 |||||||||| 10
+    query             0 clamantium et dicentium Innocens O bo-na 39
+
+-- fused_8 --
+  OCR:      'crux que decorem et pulcritudinem Remcmonio'
+  Assigned: 'crux que decorem et pulcritudinem de membris'
+  Words:    [62..69) consumed=7
+  NW score: k=6 (pre-snap), norm=6.3541
+  Anchor:   word 69 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 crux que decorem et pulcritudinem Re-mcmonio 43
+                      0 ||||  4
+    query             0 crux que decorem et pulcritudinem de membris 44
+
+-- fused_9 --
+  OCR:      'co mini susce sti accipe me ab homini vus'
+  Assigned: 'domini suscepisti accipe me ab hominibus'
+  Words:    [69..75) consumed=6
+  NW score: k=6 (pre-snap), norm=6.2227
+  Anchor:   word 75 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 co mini susce- sti accipe me ab homini vus 41
+                      0 .|-||||  7
+    query             0 do-mini suscepisti accipe me ab homini-bus 40
+
+-- fused_10 --
+  OCR:      'et red de  perte me recipi'
+  Assigned: 'et redde me magistro meo Ut per te me'
+  Words:    [75..84) consumed=9
+  NW score: k=10 (pre-snap), norm=3.4410
+  Anchor:   word 84 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 et red-- de --------------- per-te me recipi 26
+                      0 ||  2
+    query             0 et redde me magistro meo Ut per te me------- 37
+
+-- fused_11 --
+  OCR:      'an per te ne catus Andre'
+  Assigned: 'recipiat qui per te me redemit Beatus andre'
+  Words:    [84..92) consumed=8
+  NW score: k=8 (pre-snap), norm=1.8562
+  Anchor:   word 92 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ------a----n per te ne ---------catus Andre-- 24
+                      0 ------|----. 12
+    query             0 recipiat qui per te me redemit Beatus andreas 45
+
+-- fused_12 --
+  OCR:      'expansis manbrs ad celum eabit oi ceno sala'
+  Assigned: 'as expansis manibus ad celum orabat dicens salva'
+  Words:    [92..99) consumed=7
+  NW score: k=7 (pre-snap), norm=5.5242
+  Anchor:   word 99 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 expansis man-brs ad celum -eabit oi ceno sal-a 43
+                      0 ||||||||  8
+    query             0 expansis manibus ad celum orabat di-cens salva 45
+=== END DEBUG ===
+

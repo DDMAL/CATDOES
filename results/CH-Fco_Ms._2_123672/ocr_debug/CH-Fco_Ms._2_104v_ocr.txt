@@ -1,0 +1,195 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'ret et faceret nensurrexerunt in me'
+  [fused_1] 'um absque Misericordi non pepercerunta nime me'
+  [fused_2] 'quao insurgentibus in me libera me domine'
+  [fused_3] 'quia occupaverunt animam meam pd de mi exo'
+  [fused_4] ' Louge fecisti notos meos a me traditus sum et non'
+  [fused_5] 'dominu de Salutem evovae  Laptabunt in animam'
+  [fused_6] 'justi et sanguinem innocentem condempnabunt po ds vel'
+  [fused_7] 'Voqunti sut advesum meli'
+  [fused_8] 'tua dolosa  . et sermioni'
+  [fused_9] 'tionum exovae odum circundederunt radiderunt me'
+  [fused_10] 'in manus Pectato muli et intes moi momoons pari '
+  [fused_11] 'mint e et non peperteuntni me mee congrega'
+  [fused_12] 'for tes . Et sicut gigantes'
+  [fused_13] 'steerunt contrame  alliem in sice'
+  [fused_14] 'etunt inmeet fetes cnelietunt amnam me am'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'ret et faceret nensurrexerunt in me'
+  Assigned: 'bene Insurrexerunt in me'
+  Words:    [0..4) consumed=4
+  NW score: k=4 (pre-snap), norm=3.7954
+  Anchor:   word 4 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ret et faceret ne--nsurrexerunt in me 35
+                      0 .|-------------||--|||||||||||| 31
+    query             0 be-------------ne Insurrexerunt in me 24
+
+-- fused_1 --
+  OCR:      'um absque Misericordi non pepercerunta nime me'
+  Assigned: 'viri absque misericordia et non pepercerunt anime me'
+  Words:    [4..12) consumed=8
+  NW score: k=8 (pre-snap), norm=5.5492
+  Anchor:   word 12 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 --um absque Misericordi---- non pepercerunt-a nime m-e 46
+                      0 --..  4
+    query             0 viri absque misericordia et non pepercerunt a-nime mee 53
+
+-- fused_2 --
+  OCR:      'quao insurgentibus in me libera me domine'
+  Assigned: 'e Quia Ab insurgentibus in me libera me domine'
+  Words:    [12..20) consumed=8
+  NW score: k=8 (pre-snap), norm=6.7101
+  Anchor:   word 20 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 qu-a--o insurgentibus in me libera me domine 41
+                      0 .|-|--.  7
+    query             0 Quia Ab insurgentibus in me libera me domine 44
+
+-- fused_3 --
+  OCR:      'quia occupaverunt animam meam pd de mi exo'
+  Assigned: 'quia occupaverunt animam meam ~Eripe me'
+  Words:    [20..26) consumed=6
+  NW score: k=6 (pre-snap), norm=5.7076
+  Anchor:   word 26 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 quia occupaverunt animam meam ----pd de mi exo 42
+                      0 ||||  4
+    query             0 quia occupaverunt animam meam ~Erip---e m--e-- 39
+
+-- fused_4 --
+  OCR:      'Louge fecisti notos meos a me traditus sum et non'
+  Assigned: 'de inimicis euouae Longe fecisti notos meos a me traditus sum et non'
+  Words:    [26..39) consumed=13
+  NW score: k=13 (pre-snap), norm=5.5090
+  Anchor:   word 39 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -------------------Louge fecisti notos meos a me traditus su
+                      0 -------------------||.||
+    query             0 de inimicis euouae Longe fecisti notos meos a me traditus su
+    
+    target           41 m et non 49
+                     24 | 25
+    query            60 m et non 68
+
+-- fused_5 --
+  OCR:      'dominu de Salutem evovae  Laptabunt in animam'
+  Assigned: 'egrediebar ~Domine deus salutis euouae Captabunt in animam'
+  Words:    [39..47) consumed=8
+  NW score: k=8 (pre-snap), norm=3.9148
+  Anchor:   word 47 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ----d--------ominu de-- Salutem evovae  Laptabunt in animam
+                      0 ----|--------||||.
+    query             0 egrediebar ~Domine deus salutis euouae- Captabunt in animam
+    
+    target           45
+                     18
+    query            58
+
+-- fused_6 --
+  OCR:      'justi et sanguinem innocentem condempnabunt po ds vel'
+  Assigned: 'iusti et sanguinem innocentem condempnabunt ~Deus'
+  Words:    [47..53) consumed=6
+  NW score: k=5 (pre-snap), norm=6.2213
+  Anchor:   word 53 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 justi et sanguinem innocentem condempnabunt po ds vel 53
+                      0 .||||  5
+    query             0 iusti et sanguinem innocentem condempnabunt ~Deus---- 49
+
+-- fused_7 --
+  OCR:      'Voqunti sut advesum meli'
+  Assigned: 'ultionum euouae Tradiderunt me'
+  Words:    [53..57) consumed=4
+  NW score: k=5 (pre-snap), norm=0.1421
+  Anchor:   word 57 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 Voqunti---- su---t --ad-vesu-m meli 24
+                      0 ---|.||---- 11
+    query             0 ---ultionum euouae Tradiderunt me-- 30
+
+-- fused_8 --
+  OCR:      'tua dolosa  . et sermioni'
+  Assigned: 'in manus peccatorum et inter iniquos proiece'
+  Words:    [57..64) consumed=7
+  NW score: k=6 (pre-snap), norm=-0.9333
+  Anchor:   word 64 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 -----tua dolosa--  . et --sermi---------o------ni 25
+                      0 -----.|.  8
+    query             0 in manus -peccatorum et inter iniquos proiecerunt 48
+
+-- fused_9 --
+  OCR:      'tionum exovae odum circundederunt radiderunt me'
+  Assigned: 'runt me et non pepercerunt anime mee congregati'
+  Words:    [64..71) consumed=7
+  NW score: k=6 (pre-snap), norm=0.3144
+  Anchor:   word 71 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 tionum- exovae -odum --circundederunt radiderunt me---------
+                      0 -----|-
+    query             0 -----me e----t no--n peperc-----erunt -anime---- mee congreg
+    
+    target           47 --- 47
+                      7 --- 10
+    query            39 ati 42
+
+-- fused_10 --
+  OCR:      'in manus Pectato muli et intes moi momoons pari'
+  Assigned: 'sunt adversum me fortes Et sicut gigantes steterunt'
+  Words:    [71..79) consumed=8
+  NW score: k=9 (pre-snap), norm=-0.8427
+  Anchor:   word 79 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 -in- ma----nus Pe---ct---ato muli et -i--ntes moi momoons- p
+                      0 -.|-
+    query             0 sunt -adversum me fortes Et- --sicut gigantes ----------stet
+    
+    target           44 ar--i 47
+                      4 .|--.  9
+    query            46 erunt 51
+
+-- fused_11 --
+  OCR:      'mint e et non peperteuntni me mee congrega'
+  Assigned: 'contra me Alieni insurrexerunt in me et fortes'
+  Words:    [79..87) consumed=8
+  NW score: k=8 (pre-snap), norm=0.9100
+  Anchor:   word 83 (within_chant_7), diff=4, snapped=False, forced=False
+  Alignment:
+    target            0 mint-- -e ---e-t -non peperteuntni- me mee congr-ega 42
+                      0 ..||--  6
+    query             0 contra me Alieni insurrexer--unt in me -et fo--rte-s 46
+
+-- fused_12 --
+  OCR:      'for tes . Et sicut gigantes'
+  Assigned: 'quesierunt animam meam'
+  Words:    [87..90) consumed=3
+  NW score: k=3 (pre-snap), norm=-1.6823
+  Anchor:   word 90 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 for tes . Et si-cu-t -giga-nte-s 27
+                      0 ---..|-------||-.|-| 20
+    query             0 ---que-------sierunt animam meam 22
+
+-- fused_13 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [90..90) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_14 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [90..90) consumed=0
+  Alignment:
+    (no words left)
+=== END DEBUG ===
+

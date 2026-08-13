@@ -1,0 +1,171 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'vera fraternitas que nunquam potuit'
+  [fused_1] 'violari cer ne qui effuso sanguine sequu'
+  [fused_2] 'do im mini contempnentes aulam regi am perue'
+  [fused_3] 'nerunt ad regna ce sti'
+  [fused_4] 'quam bonum et quam jocim dum ha'
+  [fused_5] 'bitare fra tresn Contemp .o'
+  [fused_6] 'patri etfilioet pps cu Sancto'
+  [fused_7] 'nies Sancti quanta passi sunt tormenta'
+  [fused_8] 'venirent ad palmam martir dominus Reg exovae'
+  [fused_9] 'Cum palma ad regna pervenerunt Sancti Coro'
+  [fused_10] 'ris meruerunt de Manu Dei pres subilies evovac Corpora'
+  [fused_11] 'sanctorum in pace sepulta sunt et vivent nomina'
+  [fused_12] 'orummeterium e do de erovae '
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'vera fraternitas que nunquam potuit'
+  Assigned: 'In generatione Hec est vera fraternitas que numquam potuit'
+  Words:    [0..9) consumed=9
+  NW score: k=9 (pre-snap), norm=4.3058
+  Anchor:   word 9 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -----------------------vera fraternitas que nunquam potuit 35
+                      0 -----------------------|||| 27
+    query             0 In generatione Hec est vera fraternitas que numquam potuit 58
+
+-- fused_1 --
+  OCR:      'violari cer ne qui effuso sanguine sequu'
+  Assigned: 'violari certamine qui effuso sanguine sequuti sunt'
+  Words:    [9..16) consumed=7
+  NW score: k=6 (pre-snap), norm=6.6939
+  Anchor:   word 16 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 violari cer--- ne qui effuso sanguine sequu------- 40
+                      0 |||||||  7
+    query             0 violari certamine qui effuso sanguine sequuti sunt 50
+
+-- fused_2 --
+  OCR:      'do im mini contempnentes aulam regi am perue'
+  Assigned: 'dominum Contempnentes aulam regiam pervenerunt'
+  Words:    [16..21) consumed=5
+  NW score: k=5 (pre-snap), norm=4.9123
+  Anchor:   word 21 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 do im min-i contempnentes aulam regi am perue------ 44
+                      0 ||----|||-. 11
+    query             0 do----minum Contempnentes aulam regi-am pervenerunt 46
+
+-- fused_3 --
+  OCR:      'nerunt ad regna ce sti'
+  Assigned: 'ad regna celestia'
+  Words:    [21..24) consumed=3
+  NW score: k=3 (pre-snap), norm=3.5162
+  Anchor:   word 24 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 nerunt ad regna ce- sti- 22
+                      0 -------||  9
+    query             0 -------ad regna celestia 17
+
+-- fused_4 --
+  OCR:      'quam bonum et quam jocim dum ha'
+  Assigned: 'Ecce quam bonum et quam iocundum habitare'
+  Words:    [24..31) consumed=7
+  NW score: k=6 (pre-snap), norm=4.3815
+  Anchor:   word 31 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 -----quam bonum et quam jocim dum ha------ 31
+                      0 -----||||  9
+    query             0 Ecce quam bonum et quam ioc-undum habitare 41
+
+-- fused_5 --
+  OCR:      'bitare fra tresn Contemp .o'
+  Assigned: 'fratres in unum Contempnentes Gloria'
+  Words:    [31..36) consumed=5
+  NW score: k=4 (pre-snap), norm=1.3937
+  Anchor:   word 36 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 bitare fra tres-----n-- Contemp------ -.o--- 27
+                      0 -------|||-||||-----|-- 23
+    query             0 -------fra-tres in unum Contempnentes Gloria 36
+
+-- fused_6 --
+  OCR:      'patri etfilioet pps cu Sancto'
+  Assigned: 'patri et filio et spiritui sancto'
+  Words:    [36..42) consumed=6
+  NW score: k=6 (pre-snap), norm=4.4932
+  Anchor:   word 42 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 patri et-filio-et -pps cu- Sancto 29
+                      0 |||||  5
+    query             0 patri et filio et spiritui sancto 33
+
+-- fused_7 --
+  OCR:      'nies Sancti quanta passi sunt tormenta'
+  Assigned: 'Omnes sancti quanta passi sunt tormenta ut securi per'
+  Words:    [42..51) consumed=9
+  NW score: k=6 (pre-snap), norm=6.9097
+  Anchor:   word 51 (within_chant_7), diff=3, snapped=False, forced=True
+  Alignment:
+    target            0 --nies Sancti quanta passi sunt tormenta--------------------
+                      0 --|-||
+    query             0 Omn-es sancti quanta passi sunt tormenta ut securi pervenire
+    
+    target           38 -- 38
+                      6 --  8
+    query            59 nt 61
+
+-- fused_8 --
+  OCR:      'venirent ad palmam martir dominus Reg exovae'
+  Assigned: 'venirent ad palmam martyrii ~Dominus'
+  Words:    [51..55) consumed=4
+  NW score: k=6 (pre-snap), norm=3.4025
+  Anchor:   word 55 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 venirent ad palmam mart--ir -dominus Reg exovae 44
+                      0 ---------|| 11
+    query             0 ---------ad palmam martyrii ~Dominus----------- 27
+
+-- fused_9 --
+  OCR:      'Cum palma ad regna pervenerunt Sancti Coro'
+  Assigned: 'regnavit euouae Cum palma ad regna pervenerunt sancti coronas deco'
+  Words:    [55..65) consumed=10
+  NW score: k=9 (pre-snap), norm=4.8403
+  Anchor:   word 65 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 ----------------Cum palma ad regna pervenerunt Sancti Coro--
+                      0 ----------------|||
+    query             0 regnavit euouae Cum palma ad regna pervenerunt sancti corona
+    
+    target           42 --------- 42
+                     19 --------- 28
+    query            60 s decoris 69
+
+-- fused_10 --
+  OCR:      'ris meruerunt de Manu Dei pres subilies evovac Corpora'
+  Assigned: 'ris meruerunt de manu dei ~Iubilate euouae Corpora'
+  Words:    [65..72) consumed=7
+  NW score: k=7 (pre-snap), norm=4.2135
+  Anchor:   word 72 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ris meruerunt de Manu Dei pres subil-ies evovac Corpora 54
+                      0 ----||||||||| 13
+    query             0 ----meruerunt de manu dei ----~Iubilate- euouae Corpora 46
+
+-- fused_11 --
+  OCR:      'sanctorum in pace sepulta sunt et vivent nomina'
+  Assigned: 'sanctorum in pace sepulta sunt et vivent nomina e'
+  Words:    [72..81) consumed=9
+  NW score: k=8 (pre-snap), norm=8.0000
+  Anchor:   word 81 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 sanctorum in pace sepulta sunt et vivent nomina------ 47
+                      0 |||||||||  9
+    query             0 sanctorum in pace sepulta sunt et vivent nomina eorum 53
+
+-- fused_12 --
+  OCR:      'orummeterium e do de erovae'
+  Assigned: 'orum in eternum ~Deus deus euouae Martyres domini'
+  Words:    [81..88) consumed=7
+  NW score: k=5 (pre-snap), norm=1.8549
+  Anchor:   word 88 (page_break_77), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 orummeterium --e do de-- erovae---------------- 27
+                      0 --...||||.|| 12
+    query             0 --in eternum ~De-us deus euouae Martyres domini 44
+=== END DEBUG ===
+

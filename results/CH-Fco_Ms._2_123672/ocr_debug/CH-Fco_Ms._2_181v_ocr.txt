@@ -1,0 +1,171 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'lo collandet . In quo sacerdos nobilis antonius de Neri'
+  [fused_1] 'tateGaudet venite. Quasi secus alveum'
+  [fused_2] 'rimili plantatus fctum temporane dedit hicea'
+  [fused_3] 'tus  Beatus vir evovae. ontem Syon predi cat'
+  [fused_4] 'domini preceptum et talentumi duplicerat celitus accep'
+  [fused_5] 'Quare fratre evovae  Conterit Niraculis'
+  [fused_6] 'pectatorum dentes sponsam xhptisti patulis ritibus morden'
+  [fused_7] 'tDomine quid evovae'
+  [fused_8] 'cuim sanguis a propha'
+  [fused_9] 'nis fit que morientium mercesjute panis'
+  [fused_10] 'Rn mor ad antoni mnoati'
+  [fused_11] 'nis  gladium fratres dat in Odium Chpisti'
+  [fused_12] 'incen nani beai morpetano foreso'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'lo collandet . In quo sacerdos nobilis antonius de Neri'
+  Assigned: 'collaudet In quo sacerdos nobilis antonius de veritate'
+  Words:    [0..8) consumed=8
+  NW score: k=8 (pre-snap), norm=6.1470
+  Anchor:   word 13 (within_chant_7), diff=5, snapped=False, forced=False
+  Alignment:
+    target            0 lo collandet . In quo sacerdos nobilis antonius de Neri----
+                      0 ---|||||.|||--
+    query             0 ---collaudet-- In quo sacerdos nobilis antonius de veritate
+    
+    target           55
+                     14
+    query            54
+
+-- fused_1 --
+  OCR:      'tateGaudet venite. Quasi secus alveum'
+  Assigned: 'gaudet ~Venite Quasi secus alveum'
+  Words:    [8..13) consumed=5
+  NW score: k=5 (pre-snap), norm=5.7236
+  Anchor:   word 13 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 tateGaudet -venite. Quasi secus alveum 37
+                      0 ----.||||| 10
+    query             0 ----gaudet ~Venite- Quasi secus alveum 33
+
+-- fused_2 --
+  OCR:      'rimili plantatus fctum temporane dedit hicea'
+  Assigned: 'rivuli plantatus fructum temporaneum dedit hic bea'
+  Words:    [13..20) consumed=7
+  NW score: k=6 (pre-snap), norm=6.2238
+  Anchor:   word 20 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 rimili plantatus f--ctum temporane-- dedit hic--ea--- 44
+                      0 ||..||  6
+    query             0 rivuli plantatus fructum temporaneum dedit hic beatus 53
+
+-- fused_3 --
+  OCR:      'tus  Beatus vir evovae. ontem Syon predi cat'
+  Assigned: 'tus ~Beatus vir euouae Monte syon predicat'
+  Words:    [20..26) consumed=6
+  NW score: k=6 (pre-snap), norm=4.8912
+  Anchor:   word 26 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 tus  Beatus vir evovae. -ontem Syon predi cat 44
+                      0 ----.|||||| 11
+    query             0 ----~Beatus vir euouae- Monte- syon predi-cat 38
+
+-- fused_4 --
+  OCR:      'domini preceptum et talentumi duplicerat celitus accep'
+  Assigned: 'domino preceptum et talentum duplicat celitus accep'
+  Words:    [26..33) consumed=7
+  NW score: k=7 (pre-snap), norm=6.7593
+  Anchor:   word 33 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 domini preceptum et talentumi duplicerat celitus accep--- 54
+                      0 |||||.  6
+    query             0 domino preceptum et talentum- duplic--at celitus acceptum 54
+
+-- fused_5 --
+  OCR:      'Quare fratre evovae  Conterit Niraculis'
+  Assigned: 'tum ~Quare fremuerunt euouae Conterit miraculis'
+  Words:    [33..38) consumed=5
+  NW score: k=5 (pre-snap), norm=4.7862
+  Anchor:   word 38 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -Quare fratre---- evovae  Conterit Niraculis 39
+                      0 -|||||  6
+    query             0 ~Quare fremuerunt euouae- Conterit miraculis 43
+
+-- fused_6 --
+  OCR:      'pectatorum dentes sponsam xhptisti patulis ritibus morden'
+  Assigned: 'peccatorum dentes sponsam xpisti patulis ritibus morden'
+  Words:    [38..45) consumed=7
+  NW score: k=7 (pre-snap), norm=6.9568
+  Anchor:   word 45 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 pectatorum dentes sponsam xhptisti patulis ritibus morden---
+                      0 |||.||||||
+    query             0 peccatorum dentes sponsam x-p-isti patulis ritibus mordentes
+    
+    target           57 
+                     10 
+    query            58 
+
+-- fused_7 --
+  OCR:      'tDomine quid evovae'
+  Assigned: 'tes ~Domine quid euouae'
+  Words:    [45..48) consumed=3
+  NW score: k=3 (pre-snap), norm=5.9474
+  Anchor:   word 53 (within_chant_7), diff=5, snapped=False, forced=False
+  Alignment:
+    target            0 tDomine quid evovae 19
+                      0 .||||||  7
+    query             0 ~Domine quid euouae 19
+
+-- fused_8 --
+  OCR:      'cuim sanguis a propha'
+  Assigned: 'Funditur insoncium sanguis a propha'
+  Words:    [48..53) consumed=5
+  NW score: k=5 (pre-snap), norm=3.2568
+  Anchor:   word 53 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 cu-------------i-m sanguis a propha--- 21
+                      0 .|-------------|-| 18
+    query             0 Funditur insoncium sanguis a prophanis 38
+
+-- fused_9 --
+  OCR:      'nis fit que morientium mercesjute panis'
+  Assigned: 'nis fitque morientium merces vite panis'
+  Words:    [53..58) consumed=5
+  NW score: k=5 (pre-snap), norm=5.8464
+  Anchor:   word 58 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 nis fit que morientium merces-jute panis 39
+                      0 ----|||-||| 11
+    query             0 ----fit-que morientium merces vite panis 35
+
+-- fused_10 --
+  OCR:      'Rn mor ad antoni mnoati'
+  Assigned: 'Rumor ad antonium volat non'
+  Words:    [58..63) consumed=5
+  NW score: k=4 (pre-snap), norm=4.3913
+  Anchor:   word 63 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 Rn mor ad antoni m-no-at---i 23
+                      0 |-.|||  6
+    query             0 R-umor ad antonium volat non 27
+
+-- fused_11 --
+  OCR:      'nis  gladium fratres dat in Odium Chpisti'
+  Assigned: 'inanis In minores gladium fratres dat in odium xpi'
+  Words:    [63..72) consumed=9
+  NW score: k=9 (pre-snap), norm=5.1485
+  Anchor:   word 72 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ---nis ---------- gladium fratres dat in Odium Chpisti 41
+                      0 ---|||  6
+    query             0 inanis In minores gladium fratres dat in odium -xpisti 53
+
+-- fused_12 --
+  OCR:      'incen nani beai morpetano foreso'
+  Assigned: 'sti rex inmanis Rumor Optans fore socius'
+  Words:    [72..78) consumed=6
+  NW score: k=5 (pre-snap), norm=1.8383
+  Anchor:   word 78 (page_break_77), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 incen -n-ani- beai mor--petano fore-so---- 32
+                      0 --.|.  5
+    query             0 --rex inmanis ---Rumor Op-tans fore socius 36
+=== END DEBUG ===
+

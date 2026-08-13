@@ -1,0 +1,203 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'oli et lima laudate devutquia eraltatum est nomen'
+  [fused_1] 'ejus solilis press Laudunensis evovae um fortis arma'
+  [fused_2] 'tus custodit atrium suum  sunt omnia que possident ei'
+  [fused_3] '.one Et cum vieclset Jhess demonium loquitus '
+  [fused_4] '.'
+  [fused_5] 'est mutus etanimirate sunt turlem evovac iindigi'
+  [fused_6] 'Dei eicio demonia profectove'
+  [fused_7] '.pilis'
+  [fused_8] 'eronae ui non colligit mecum dispergerit et qui'
+  [fused_9] 'mecum contra me est eovae um mmmum'
+  [fused_10] 'dinus siritus erierit ab homine ambulans per loca in a quo'
+  [fused_11] 'sa qoverens recmem et non muement evovac'
+  [fused_12] 'tollens quedam mulier nocem de Turba dixit beatus venter'
+  [fused_13] 'an te potant et ulera que siuteraitum atibesus aut aui anu'
+  [fused_14] 'mimno seti qui audinit uetbum te et custidvmnt lio eno'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'oli et lima laudate devutquia eraltatum est nomen'
+  Assigned: 'Sol et luna laudate deum quia exaltatum est nomen'
+  Words:    [0..9) consumed=9
+  NW score: k=9 (pre-snap), norm=6.0408
+  Anchor:   word 16 (within_chant_7), diff=7, snapped=False, forced=False
+  Alignment:
+    target            0 -oli et lima laudate devu-tquia eraltatum est nomen 49
+                      0 -||-  4
+    query             0 Sol- et luna laudate de-um quia exaltatum est nomen 49
+
+-- fused_1 --
+  OCR:      'ejus solilis press Laudunensis evovae um fortis arma'
+  Assigned: 'eius solius ~Laudate euouae Cum fortis arma'
+  Words:    [9..16) consumed=7
+  NW score: k=7 (pre-snap), norm=3.7417
+  Anchor:   word 16 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ejus solilis press Laudunensis evovae -um fortis arma--- 52
+                      0 |.||  4
+    query             0 eius soli-us -----~Laudate---- euouae Cum fortis armatus 46
+
+-- fused_2 --
+  OCR:      'tus custodit atrium suum  sunt omnia que possident ei'
+  Assigned: 'tus custodit atrium suum in pace sunt omnia que possidet euouae'
+  Words:    [16..26) consumed=10
+  NW score: k=9 (pre-snap), norm=5.6955
+  Anchor:   word 26 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 tus custodit atrium suum ------- sunt omnia que possident e-
+                      0 ----||||||||
+    query             0 ----custodit atrium suum in pace sunt omnia que posside-t eu
+    
+    target           52 ---i 53
+                     12 ---. 16
+    query            55 ouae 59
+
+-- fused_3 --
+  OCR:      '.one Et cum vieclset Jhess demonium loquitus'
+  Assigned: 'Et cum eiecisset ihesus demonium loquutus'
+  Words:    [26..32) consumed=6
+  NW score: k=6 (pre-snap), norm=5.3445
+  Anchor:   word 32 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 .one Et cum viec-lset Jhes-s demonium loquitus 44
+                      0 -----||  7
+    query             0 -----Et cum eiecisset ihesus demonium loquutus 41
+
+-- fused_4 --
+  OCR:      '.'
+  Assigned: 'est'
+  Words:    [32..33) consumed=1
+  NW score: k=1 (pre-snap), norm=-8.6603
+  Anchor:   word 42 (within_chant_7), diff=9, snapped=False, forced=False
+  Alignment:
+    target            0 --. 1
+                      0 --. 3
+    query             0 est 3
+
+-- fused_5 --
+  OCR:      'est mutus etanimirate sunt turlem evovac iindigi'
+  Assigned: 'mutus et admirate sunt turbe euouae Si in digi'
+  Words:    [33..42) consumed=9
+  NW score: k=9 (pre-snap), norm=4.2292
+  Anchor:   word 42 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 est mutus et-animirate sunt turlem evovac -i-in-digi-- 48
+                      0 ----|||||  9
+    query             0 ----mutus et a-dmirate sunt turbe- euouae Si in digito 48
+
+-- fused_6 --
+  OCR:      'Dei eicio demonia profectove'
+  Assigned: 'to dei eicio demonia profecto venit in vos regnum dei'
+  Words:    [42..51) consumed=9
+  NW score: k=4 (pre-snap), norm=6.8566
+  Anchor:   word 51 (within_chant_7), diff=5, snapped=False, forced=True
+  Alignment:
+    target            0 Dei eicio demonia profecto-ve--------------------- 28
+                      0 .||  3
+    query             0 dei eicio demonia profecto venit in vos regnum dei 50
+
+-- fused_7 --
+  OCR:      '.pilis'
+  Assigned: 'euouae Qui non colligit'
+  Words:    [51..55) consumed=4
+  NW score: k=4 (pre-snap), norm=-4.5968
+  Anchor:   word 59 (within_chant_7), diff=4, snapped=False, forced=False
+  Alignment:
+    target            0 -------.pi--------l--is  6
+                      0 -------..|--------|--|. 23
+    query             0 euouae Qui non colligit 23
+
+-- fused_8 --
+  OCR:      'eronae ui non colligit mecum dispergerit et qui'
+  Assigned: 'mecum dispergit et qui'
+  Words:    [55..59) consumed=4
+  NW score: k=4 (pre-snap), norm=2.8922
+  Anchor:   word 59 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 eronae ui non colligit mecum dispergerit et qui 47
+                      0 -----------------------||||| 28
+    query             0 -----------------------mecum disperg--it et qui 22
+
+-- fused_9 --
+  OCR:      'mecum contra me est eovae um mmmum'
+  Assigned: 'non est mecum contra me est euouae Cum immun'
+  Words:    [59..68) consumed=9
+  NW score: k=9 (pre-snap), norm=4.4528
+  Anchor:   word 68 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 --------mecum contra me est e-ovae -um mmm---um 34
+                      0 --------||||| 13
+    query             0 non est mecum contra me est euouae Cum immundus 47
+
+-- fused_10 --
+  OCR:      'dinus siritus erierit ab homine ambulans per loca in a quo'
+  Assigned: 'dus spiritus exierit ab homine ambulans per loca inaquo'
+  Words:    [68..76) consumed=8
+  NW score: k=8 (pre-snap), norm=6.0422
+  Anchor:   word 76 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 dinus siritus erierit ab homine ambulans per loca in a quo--
+                      0 ----|-.||||||
+    query             0 ----s-piritus exierit ab homine ambulans per loca in-a-quosa
+    
+    target           58 
+                     13 
+    query            53 
+
+-- fused_11 --
+  OCR:      'sa qoverens recmem et non muement evovac'
+  Assigned: 'sa querens requiem et non invenit euouae ex'
+  Words:    [76..83) consumed=7
+  NW score: k=6 (pre-snap), norm=3.1712
+  Anchor:   word 83 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 sa qoverens re-cmem et non muemen-t evova----------c 40
+                      0 ---|-.||||| 11
+    query             0 ---q-uerens requiem et non -invenit euouae Extollens 47
+
+-- fused_12 --
+  OCR:      'tollens quedam mulier nocem de Turba dixit beatus venter'
+  Assigned: 'tollens quedam mulier vocem de turba dixit beatus venter'
+  Words:    [83..91) consumed=8
+  NW score: k=8 (pre-snap), norm=6.3650
+  Anchor:   word 91 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 tollens quedam mulier nocem de Turba dixit beatus venter 56
+                      0 --------|||||| 14
+    query             0 --------quedam mulier vocem de turba dixit beatus venter 48
+
+-- fused_13 --
+  OCR:      'an te potant et ulera que siuteraitum atibesus aut aui anu'
+  Assigned: 'qui te portavit et ubera que suxisti at ihesus ait illi qui'
+  Words:    [91..103) consumed=12
+  NW score: k=11 (pre-snap), norm=3.2047
+  Anchor:   word 103 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 -an te po-ta-nt et ulera que s--iuteraitum at-ibesus aut -au
+                      0 -..
+    query             0 qui te portavit et ubera que suxist---i--- at ihesus ait ill
+    
+    target           53 i --an---u 58
+                      3 |  4
+    query            54 i quinimmo 64
+
+-- fused_14 --
+  OCR:      'mimno seti qui audinit uetbum te et custidvmnt lio eno'
+  Assigned: 'nimmo beati qui audiunt verbum dei et custodiunt illud euouae'
+  Words:    [103..112) consumed=9
+  NW score: k=9 (pre-snap), norm=3.1744
+  Anchor:   word 112 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 mimno se-ti qui audi-nit uetbum te- et custidvmnt --lio eno-
+                      0 ------.|-||
+    query             0 ------beati qui audiun-t verbum dei et custodiunt illud euou
+    
+    target           54 -- 54
+                     11 -- 13
+    query            53 ae 55
+=== END DEBUG ===
+

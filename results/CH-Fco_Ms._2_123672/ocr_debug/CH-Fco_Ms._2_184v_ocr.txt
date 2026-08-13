@@ -1,0 +1,175 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'deus evovae eli terre Marium benedicat'
+  [fused_1] 'totper antoniu signis au'
+  [fused_2] 'get hominum vite spem future Benedicite evovac c'
+  [fused_3] 'ono tube Tympano cychara psalterio cymbalis quod deum'
+  [fused_4] 'choro cordis organo laudet in antonio mistige cor'
+  [fused_5] 'meum audate Se . Eovas Fehe pa'
+  [fused_6] 'dua que thesaurum possides cujus in altari'
+  [fused_7] 'fore loculum visio monstravit tu signis irrigna totin tu'
+  [fused_8] 'o provides miseris antono serva rei titulumque sic'
+  [fused_9] 'te ditavter ies iu nos lad ardua patetrhus am prefictes'
+  [fused_10] ' transfer quos hic viiculum mortis in'
+  [fused_11] '.mmi us Beneoitus eronae V Jhe'
+  [fused_12] 'retetua lxetot in mntomo signio dmno pelentorem'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'deus evovae eli terre Marium benedicat'
+  Assigned: '{Deus deus} euouae Celi terre marium benedicat'
+  Words:    [0..7) consumed=7
+  NW score: k=7 (pre-snap), norm=5.4773
+  Anchor:   word 7 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ------deus- evovae -eli terre Marium benedicat 38
+                      0 ------||||- 11
+    query             0 {Deus deus} euouae Celi terre marium benedicat 46
+
+-- fused_1 --
+  OCR:      'totper antoniu signis au'
+  Assigned: 'dominum conte creature qui tot per antonium signis au'
+  Words:    [7..16) consumed=9
+  NW score: k=9 (pre-snap), norm=2.1822
+  Anchor:   word 16 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ---------------------------tot-per antoniu- signis au--- 24
+                      0 ---------------------------|||-||| 34
+    query             0 dominum conte creature qui tot per antonium signis auget 56
+
+-- fused_2 --
+  OCR:      'get hominum vite spem future Benedicite evovac c'
+  Assigned: 'get hominum vite spem future ~Benedicite'
+  Words:    [16..21) consumed=5
+  NW score: k=6 (pre-snap), norm=5.8110
+  Anchor:   word 21 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 get hominum vite spem future -Benedicite evovac c 48
+                      0 ----||||||| 11
+    query             0 ----hominum vite spem future ~Benedicite--------- 36
+
+-- fused_3 --
+  OCR:      'ono tube Tympano cychara psalterio cymbalis quod deum'
+  Assigned: 'euouae Sono tube tympano cythara psalterio cymbalisque deum'
+  Words:    [21..29) consumed=8
+  NW score: k=8 (pre-snap), norm=5.8477
+  Anchor:   word 29 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 --------ono tube Tympano cychara psalterio cymbalis quod deu
+                      0 --------|||
+    query             0 euouae Sono tube tympano cythara psalterio cymbalis-qu-e deu
+    
+    target           52 m 53
+                     11 | 12
+    query            58 m 59
+
+-- fused_4 --
+  OCR:      'choro cordis organo laudet in antonio mistige cor'
+  Assigned: 'choro chordis organo laudet in antonio mistice cor meum'
+  Words:    [29..38) consumed=9
+  NW score: k=8 (pre-snap), norm=7.5155
+  Anchor:   word 38 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 choro c-ordis organo laudet in antonio mistige cor----- 49
+                      0 |||||  5
+    query             0 choro chordis organo laudet in antonio mistice cor meum 55
+
+-- fused_5 --
+  OCR:      'meum audate Se . Eovas Fehe pa'
+  Assigned: '~Laudate dominum euouae Gaude felix pa'
+  Words:    [38..44) consumed=6
+  NW score: k=6 (pre-snap), norm=-0.1711
+  Anchor:   word 44 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 meum audate ---Se . -Eovas ---Fe-he--- p---a 30
+                      0 ---..|||||| 11
+    query             0 ---~Laudate dominum euouae Gaude felix padua 41
+
+-- fused_6 --
+  OCR:      'dua que thesaurum possides cujus in altari'
+  Assigned: 'dua quae thesaurum possides cuius in altario dignum'
+  Words:    [44..51) consumed=7
+  NW score: k=6 (pre-snap), norm=6.4897
+  Anchor:   word 51 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 dua que thesaurum possides cujus in altari-------- 42
+                      0 .||---|  7
+    query             0 qua---e thesaurum possides cuius in altario dignum 47
+
+-- fused_7 --
+  OCR:      'fore loculum visio monstravit tu signis irrigna totin tu'
+  Assigned: 'fore loculum visio monstravit tu signis irrigua tot in cu'
+  Words:    [51..61) consumed=10
+  NW score: k=10 (pre-snap), norm=7.1590
+  Anchor:   word 61 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 fore loculum visio monstravit tu signis irrigna tot-in tu- 56
+                      0 ||||  4
+    query             0 fore loculum visio monstravit tu signis irrigua tot in cuo 58
+
+-- fused_8 --
+  OCR:      'o provides miseris antono serva rei titulumque sic'
+  Assigned: 'o provides miseris antonio serva rei titulum que sic'
+  Words:    [61..69) consumed=8
+  NW score: k=8 (pre-snap), norm=7.2000
+  Anchor:   word 69 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 o provides miseris anton-o serva rei titulum-que sic 50
+                      0 --|||||||| 10
+    query             0 --provides miseris antonio serva rei titulum que sic 50
+
+-- fused_9 --
+  OCR:      'te ditavter ies iu nos lad ardua patetrhus am prefictes'
+  Assigned: 'te ditavit sed tu nos ad ardua pater hiis qui presides'
+  Words:    [69..80) consumed=11
+  NW score: k=11 (pre-snap), norm=4.3488
+  Anchor:   word 80 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 te ditav-ter ies iu nos lad ardua patetr-h-us -am prefictes
+                      0 ||
+    query             0 te ditavit-- sed tu nos -ad ardua pate-r hiis qui presi-des
+    
+    target           55
+                      2
+    query            54
+
+-- fused_10 --
+  OCR:      'transfer quos hic viiculum mortis in'
+  Assigned: 'quorum es possessio transfer quos hic vinculum mortis in'
+  Words:    [80..89) consumed=9
+  NW score: k=8 (pre-snap), norm=3.9835
+  Anchor:   word 89 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 --------------------transfer quos hic viiculum mortis in----
+                      0 --------------------||||||||
+    query             0 quorum es possessio transfer quos hic vinculum mortis inclin
+    
+    target           36 ---- 36
+                     28 ---- 32
+    query            60 avit 64
+
+-- fused_11 --
+  OCR:      '.mmi us Beneoitus eronae V Jhe'
+  Assigned: 'clinavit ~Benedictus euouae O ihe'
+  Words:    [89..93) consumed=4
+  NW score: k=4 (pre-snap), norm=2.2916
+  Anchor:   word 93 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 .mmi us Beneoi-tus eronae V Jhe-- 30
+                      0 -------.||||.|-||| 18
+    query             0 -------~Benedictus euouae O ihesu 26
+
+-- fused_12 --
+  OCR:      'retetua lxetot in mntomo signio dmno pelentorem'
+  Assigned: 'su perpetua lux tot in antonio signis dans splendorem'
+  Words:    [93..101) consumed=8
+  NW score: k=8 (pre-snap), norm=4.4557
+  Anchor:   word 101 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 re-tetua l-xetot in mnto-mo signio dmno -pelentorem 47
+                      0 .|-.||||  8
+    query             0 perpetua lux tot in antonio signis dans sp-lendorem 50
+=== END DEBUG ===
+

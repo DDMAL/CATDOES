@@ -1,0 +1,195 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'tus laurentius dixit obscurum non habet sed omnia'
+  [fused_1] 'ce domine dominus Evovae Quia ipse domi'
+  [fused_2] 'mus novit qna accusatus non negavi nomen Sanctum tunmi v. Dosuilti domine sominio se'
+  [fused_3] 'agustini episcopi La'
+  [fused_4] 'mesdeato Quo progrederis sine fi no'
+  [fused_5] 'ter quo sacerdos sanc te sine diacono pro pe'
+  [fused_6] 'ta minanam sineminustemo sacrficium offerrecon'
+  [fused_7] 'eveiidinme ergo displcnt pa'
+  [fused_8] 'ternitati tue nunquid degenerem me probasti experire certe'
+  [fused_9] 'i cuicomisisti domi'
+  [fused_10] 'nici sanguinis conse ceanio nem. Eunumquam'
+  [fused_11] 'lime derelinquere pater sancte quia thesau'
+  [fused_12] '.ooca os jan ex pa Non ego te desero fi'
+  [fused_13] 'q dece m quo seo majora tiboi desentur'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'tus laurentius dixit obscurum non habet sed omnia'
+  Assigned: '-- -tus laurentius dixit mea nox obscurum non habet sed omnia'
+  Words:    [0..11) consumed=11
+  NW score: k=11 (pre-snap), norm=6.3653
+  Anchor:   word 11 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ----tus laurentius dixit-------- obscurum non habet sed omni
+                      0 ||-||||
+    query             0 -- -tus laurentius dixit mea nox obscurum non habet sed omni
+    
+    target           48 a 49
+                      7 |  8
+    query            60 a 61
+
+-- fused_1 --
+  OCR:      'ce domine dominus Evovae Quia ipse domi'
+  Assigned: 'in luce clarescunt ~Domine dominus euouae Quia ipse domi'
+  Words:    [11..20) consumed=9
+  NW score: k=9 (pre-snap), norm=3.9192
+  Anchor:   word 20 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -----ce ------------domine dominus Evovae Quia ipse domi---
+                      0 -----||
+    query             0 in luce clarescunt ~Domine dominus euouae Quia ipse dominus
+    
+    target           39
+                      7
+    query            59
+
+-- fused_2 --
+  OCR:      'mus novit qna accusatus non negavi nomen Sanctum tunmi v. Dosuilti domine sominio se'
+  Assigned: 'nus novit quia accusatus non negavi nomen sanctum tuum Quo progrederis sine'
+  Words:    [20..31) consumed=11
+  NW score: k=11 (pre-snap), norm=3.8199
+  Anchor:   word 28 (within_chant_7), diff=3, snapped=False, forced=False
+  Alignment:
+    target            0 mus novit q-na accusatus non negavi nomen Sanctum tunmi -v. 
+                      0 ----|||||
+    query             0 ----novit quia accusatus non negavi nomen sanctum tuum- Quo 
+    
+    target           58 -Dosuilti domine sominio se 84
+                      9 -.|----...|..|-. 25
+    query            55 pro----grederi-s s--in----e 71
+
+-- fused_3 --
+  OCR:      'agustini episcopi La'
+  Assigned: 'filio'
+  Words:    [31..32) consumed=1
+  NW score: k=5 (pre-snap), norm=-2.1285
+  Anchor:   word 32 (within_chant_7), diff=4, snapped=False, forced=True
+  Alignment:
+    target            0 agustini episcopi La 20
+                      0 ----.|.|------|----- 20
+    query             0 ----fili------o-----  5
+
+-- fused_4 --
+  OCR:      'mesdeato Quo progrederis sine fi no'
+  Assigned: 'pater quo sacerdos sancte sine diacono properas'
+  Words:    [32..39) consumed=7
+  NW score: k=6 (pre-snap), norm=0.6855
+  Anchor:   word 39 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 mesdeat-o Quo progrederis----- sine fi-- no--------- 35
+                      0 ----.||-.  9
+    query             0 ----pater quo sacer-dos sancte sine diacono properas 47
+
+-- fused_5 --
+  OCR:      'ter quo sacerdos sanc te sine diacono pro pe'
+  Assigned: 'Tu numquam sine ministro sacrificium offerre'
+  Words:    [39..45) consumed=6
+  NW score: k=4 (pre-snap), norm=-0.7693
+  Anchor:   word 45 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 ter ---qu-o sace-------rdos sanc te sine diacono pro pe 44
+                      0 -..  3
+    query             0 -Tu numquam sine ministr-o- sa-crificium ----offerr---e 44
+
+-- fused_6 --
+  OCR:      'ta minanam sineminustemo sacrficium offerrecon'
+  Assigned: 'consueveras Quid in me ergo displicuit paternitati tue numquid degenerem'
+  Words:    [45..55) consumed=10
+  NW score: k=10 (pre-snap), norm=-1.5291
+  Anchor:   word 52 (within_chant_7), diff=3, snapped=False, forced=False
+  Alignment:
+    target            0 --------ta- -mi-nanam------ sineminustemo sa-crfi--ci------u
+                      0 --------.|-
+    query             0 consueveras Quid in me ergo displicuit--- paternitati tue nu
+    
+    target           34 m---- offe-rrecon 46
+                     11 |---- 16
+    query            57 mquid degenere--m 72
+
+-- fused_7 --
+  OCR:      'eveiidinme ergo displcnt pa'
+  Assigned: 'me probasti experire certe'
+  Words:    [55..59) consumed=4
+  NW score: k=3 (pre-snap), norm=-1.6783
+  Anchor:   word 59 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 eveiidinme ergo----- ----displc-nt pa 27
+                      0 --------|| 10
+    query             0 --------me pr-obasti experire cert--e 26
+
+-- fused_8 --
+  OCR:      'ternitati tue nunquid degenerem me probasti experire certe'
+  Assigned: 'utrum idoneum ministrum elegeris cui commisisti domi'
+  Words:    [59..66) consumed=7
+  NW score: k=5 (pre-snap), norm=-0.7441
+  Anchor:   word 66 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 -ter--nitati tue nun---quid degenerem -me pro---basti experi
+                      0 -|-|--.|--....|.
+    query             0 ut-rum i--doneum ministru-m -elegeris cui -commisisti domini
+    
+    target           50 re certe 58
+                     16 ---|---. 24
+    query            54 ---c---i 56
+
+-- fused_9 --
+  OCR:      'i cuicomisisti domi'
+  Assigned: 'nici sanguinis consecrationem'
+  Words:    [66..68) consumed=2
+  NW score: k=2 (pre-snap), norm=-1.1707
+  Anchor:   word 68 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -i cui----comis--isti do--mi 19
+                      0 -...||----||-.|--..||--|--|- 28
+    query             0 sanguinis co-nsecrati--onem- 24
+
+-- fused_10 --
+  OCR:      'nici sanguinis conse ceanio nem. Eunumquam'
+  Assigned: 'Tu numquam Noli me derelinquere pater sancte quia thesau'
+  Words:    [68..77) consumed=9
+  NW score: k=8 (pre-snap), norm=-1.7194
+  Anchor:   word 77 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 nici sangu-inis co--nse ce---an---io --nem. Eun--umqu-------
+                      0 --..
+    query             0 --Tu --n-umquam Noli me derelinquere pate-r sancte quia thes
+    
+    target           40 a---m 42
+                      4 |---.  9
+    query            54 auros 59
+
+-- fused_11 --
+  OCR:      'lime derelinquere pater sancte quia thesau'
+  Assigned: 'ros tuos iam expendi Non ego te desero'
+  Words:    [77..84) consumed=7
+  NW score: k=14 (pre-snap), norm=-0.9087
+  Anchor:   word 84 (within_chant_7), diff=7, snapped=False, forced=True
+  Alignment:
+    target            0 ----li-me de-re-li---nquere pate-r sancte quia thes-au 42
+                      0 ----.|-|-  9
+    query             0 tuos iam- -expendi Non----- ---ego ----te ------desero 34
+
+-- fused_12 --
+  OCR:      '.ooca os jan ex pa Non ego te desero fi'
+  Assigned: 'fili neque derelinquo sed maiora tibi debentur'
+  Words:    [84..91) consumed=7
+  NW score: k=7 (pre-snap), norm=-1.6527
+  Anchor:   word 91 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 .ooca ---os ----jan--- -ex pa Non ego t--e dese---ro fi 39
+                      0 -....  5
+    query             0 -fili neque derelinquo sed ma-io---ra tibi debentur---- 46
+
+-- fused_13 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [91..91) consumed=0
+  Alignment:
+    (no words left)
+=== END DEBUG ===
+

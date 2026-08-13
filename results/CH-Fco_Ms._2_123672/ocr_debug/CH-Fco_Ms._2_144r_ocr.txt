@@ -1,0 +1,163 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'metis in niquita tem verumpet induta est'
+  [fused_1] 'caro me a putre di ne ete oeribno pulveris'
+  [fused_2] 'tis mea contracta est mementoi'
+  [fused_3] 'm ne qoma ven tus est iuta meies mei'
+  [fused_4] 'nelocius transierunt quam a texente tela succiditur'
+  [fused_5] 'et consumpti sunt absque ulla Spe Memento .'
+  [fused_6] 'aucitas dierum meorum ftur Breni diit'
+  [fused_7] 'ne ut plangam paulu lum dolo rem me'
+  [fused_8] 'um antequam vadam ad terram tenebro sam'
+  [fused_9] 'et opertam mortis ca ne Xamis'
+  [fused_10] 'e domine fecerunt me et plasmaverunt me totum in'
+  [fused_11] 'cirmum tu et sic repente precipitas me Anteman'
+  [fused_12] 'de abscon dis me co mine faae cu a manum'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'metis in niquita tem verumpet induta est'
+  Assigned: 'in lingua mea iniquitatem Verumptamen Induta est'
+  Words:    [0..7) consumed=7
+  NW score: k=7 (pre-snap), norm=3.7428
+  Anchor:   word 7 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 metis -in------- -niquita tem verump---et induta est 40
+                      0 ---|.  5
+    query             0 ---in lingua mea iniquita-tem Verumptamen Induta est 48
+
+-- fused_1 --
+  OCR:      'caro me a putre di ne ete oeribno pulveris'
+  Assigned: 'caro mea putredine et sordibus pulveris cu'
+  Words:    [7..14) consumed=7
+  NW score: k=6 (pre-snap), norm=5.4605
+  Anchor:   word 14 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 caro me a putre di ne ete -oer-ibno pulver------is 42
+                      0 ||||  4
+    query             0 caro me-a putre-di-ne et- so-rdibus pulveris cutis 45
+
+-- fused_2 --
+  OCR:      'tis mea contracta est mementoi'
+  Assigned: 'tis mea aruit et contracta est Memento mei do'
+  Words:    [14..22) consumed=8
+  NW score: k=6 (pre-snap), norm=4.2583
+  Anchor:   word 22 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 ------tis mea contracta est memento--------i-- 30
+                      0 ------.|.  9
+    query             0 mea aruit -et contracta est Memento mei domine 45
+
+-- fused_3 --
+  OCR:      'm ne qoma ven tus est iuta meies mei'
+  Assigned: 'mine quia ventus est vita mea Dies mei'
+  Words:    [22..29) consumed=7
+  NW score: k=7 (pre-snap), norm=4.4390
+  Anchor:   word 29 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 m ne qoma ven tus est -iuta me---ies mei 36
+                      0 -----|..|  9
+    query             0 -----quia ven-tus est vi-ta mea Dies mei 33
+
+-- fused_4 --
+  OCR:      'nelocius transierunt quam a texente tela succiditur'
+  Assigned: 'velocius transierunt quam a texente tela succiditur'
+  Words:    [29..36) consumed=7
+  NW score: k=7 (pre-snap), norm=7.7451
+  Anchor:   word 44 (within_chant_7), diff=8, snapped=False, forced=False
+  Alignment:
+    target            0 nelocius transierunt quam a texente tela succiditur 51
+                      0 .|||||||  8
+    query             0 velocius transierunt quam a texente tela succiditur 51
+
+-- fused_5 --
+  OCR:      'et consumpti sunt absque ulla Spe Memento .'
+  Assigned: 'et consumpti sunt absque ulla spe Memento Paucitas'
+  Words:    [36..44) consumed=8
+  NW score: k=7 (pre-snap), norm=7.2640
+  Anchor:   word 44 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 et consumpti sunt absque ulla Spe Memento -------. 43
+                      0 ||  2
+    query             0 et consumpti sunt absque ulla spe Memento Paucitas 50
+
+-- fused_6 --
+  OCR:      'aucitas dierum meorum ftur Breni diit'
+  Assigned: 'dierum meorum finitur brevi dimit'
+  Words:    [44..49) consumed=5
+  NW score: k=5 (pre-snap), norm=4.1127
+  Anchor:   word 49 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 aucitas dierum meorum f---tur Breni di-it-- 37
+                      0 --------|||||| 14
+    query             0 --------dierum meorum finitur brevi dimitte 35
+
+-- fused_7 --
+  OCR:      'ne ut plangam paulu lum dolo rem me'
+  Assigned: 'te me domine sine plangam paululum dolorem me'
+  Words:    [49..56) consumed=7
+  NW score: k=7 (pre-snap), norm=4.5613
+  Anchor:   word 56 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -------ne --ut plangam paulu lum dolo rem me-- 35
+                      0 -------||  9
+    query             0 me domine sine plangam paulu-lum dolo-rem meum 44
+
+-- fused_8 --
+  OCR:      'um antequam vadam ad terram tenebro sam'
+  Assigned: 'um Antequam vadam ad terram tenebrosam'
+  Words:    [56..61) consumed=5
+  NW score: k=5 (pre-snap), norm=6.6854
+  Anchor:   word 61 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 um antequam vadam ad terram tenebro sam 39
+                      0 ---.||||||| 11
+    query             0 ---Antequam vadam ad terram tenebro-sam 35
+
+-- fused_9 --
+  OCR:      'et opertam mortis ca ne Xamis'
+  Assigned: 'et opertam mortis caligine Manus'
+  Words:    [61..66) consumed=5
+  NW score: k=5 (pre-snap), norm=5.4820
+  Anchor:   word 66 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 et opertam mortis ca--- ne Xamis 29
+                      0 ||  2
+    query             0 et opertam mortis caligine Manus 32
+
+-- fused_10 --
+  OCR:      'e domine fecerunt me et plasmaverunt me totum in'
+  Assigned: 'tue domine fecerunt et plasmaverunt me totum in'
+  Words:    [66..74) consumed=8
+  NW score: k=8 (pre-snap), norm=7.0951
+  Anchor:   word 74 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 --e domine fecerunt me et plasmaverunt me totum in 48
+                      0 --|  3
+    query             0 tue domine fecerunt--- et plasmaverunt me totum in 47
+
+-- fused_11 --
+  OCR:      'cirmum tu et sic repente precipitas me Anteman'
+  Assigned: 'circuito et sic repente precipitas me Antequam'
+  Words:    [74..81) consumed=7
+  NW score: k=7 (pre-snap), norm=6.1087
+  Anchor:   word 89 (page_break_77), diff=8, snapped=False, forced=False
+  Alignment:
+    target            0 cirmum tu et sic repente precipitas me Ante-man 46
+                      0 |||.|-.|.  9
+    query             0 circu-ito et sic repente precipitas me Antequam 46
+
+-- fused_12 --
+  OCR:      'de abscon dis me co mine faae cu a manum'
+  Assigned: 'Ne abscondas me domine a facie tua manum'
+  Words:    [81..89) consumed=8
+  NW score: k=8 (pre-snap), norm=4.8250
+  Anchor:   word 89 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 de abscon dis me co mine-- fa-ae cu a manum 40
+                      0 .|  2
+    query             0 Ne abscon-das me do-mine a facie tu-a manum 40
+=== END DEBUG ===
+

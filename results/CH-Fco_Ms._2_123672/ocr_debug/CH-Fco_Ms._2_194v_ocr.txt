@@ -1,0 +1,167 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'omnes gentescognovea ciani'
+  [fused_1] 'pronobis ad Deum quie'
+  [fused_2] ' racia de i sum ioquodsum et gra'
+  [fused_3] '.aco tavacia non fuit sed semper in me'
+  [fused_4] 'm Qui operatus est Petro in apostola'
+  [fused_5] 'tu operatus est michi mante cantnis e o.'
+  [fused_6] ' is Par muimagiio pasre oa'
+  [fused_7] 'tor adeconfortatus convalescea'
+  [fused_8] 'et confunde bat indeos stendens conma'
+  [fused_9] 'Hic ele xiia sins nen domno d. aulus'
+  [fused_10] 'qi et Paulus magnus predicator a Deo confortatus'
+  [fused_11] 'convales cebat judeos onfitebim'
+  [fused_12] 'Detentens oma hic eu Xx pistus filius Deiemas'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'omnes gentescognovea ciani'
+  Assigned: 'quem omnes gentes cognoverunt'
+  Words:    [0..4) consumed=4
+  NW score: k=4 (pre-snap), norm=3.8603
+  Anchor:   word 14 (within_chant_7), diff=10, snapped=False, forced=False
+  Alignment:
+    target            0 -----omnes gentes-cognovea ciani 26
+                      0 -----||||| 10
+    query             0 quem omnes gentes cognove---runt 29
+
+-- fused_1 --
+  OCR:      'pronobis ad Deum quie'
+  Assigned: 'graciam dei Intercede pro nobis ad deum qui te ele'
+  Words:    [4..14) consumed=10
+  NW score: k=9 (pre-snap), norm=2.1879
+  Anchor:   word 14 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 ----------------------pro-nobis ad Deum qui------e--- 21
+                      0 ----------------------|||-||||| 31
+    query             0 graciam dei Intercede pro nobis ad deum qui te elegit 53
+
+-- fused_2 --
+  OCR:      'racia de i sum ioquodsum et gra'
+  Assigned: 'git Predicator Gracia dei sum id quod sum Et'
+  Words:    [14..22) consumed=8
+  NW score: k=9 (pre-snap), norm=3.6677
+  Anchor:   word 22 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 ------------racia de i sum i-oquod-sum et gra 31
+                      0 ------------||||| 17
+    query             0 Predicator Gracia de-i sum id quod sum Et---- 40
+
+-- fused_3 --
+  OCR:      '.aco tavacia non fuit sed semper in me'
+  Assigned: 'gracia eius in me vacua non fuit sed semper in'
+  Words:    [22..32) consumed=10
+  NW score: k=11 (pre-snap), norm=4.4959
+  Anchor:   word 32 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 -.ac---------o -tavacia non fuit sed semper in me 38
+                      0 -.||---------. 14
+    query             0 gracia eius in me vacua non fuit sed semper in--- 46
+
+-- fused_4 --
+  OCR:      'm Qui operatus est Petro in apostola'
+  Assigned: 'me manet Qui operatus est petro in apostola'
+  Words:    [32..40) consumed=8
+  NW score: k=8 (pre-snap), norm=5.9628
+  Anchor:   word 40 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 m------- Qui operatus est Petro in apostola-- 36
+                      0 |-------  8
+    query             0 me manet Qui operatus est petro in apostolatu 45
+
+-- fused_5 --
+  OCR:      'tu operatus est michi mante cantnis e o.'
+  Assigned: 'tu operatus est michi inter gentes Et'
+  Words:    [40..46) consumed=6
+  NW score: k=6 (pre-snap), norm=3.8505
+  Anchor:   word 46 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 tu operatus est michi mante- cantnis e o. 40
+                      0 ---|||||||| 11
+    query             0 ---operatus est michi -inter gent-es-- Et 34
+
+-- fused_6 --
+  OCR:      'is Par muimagiio pasre oa'
+  Assigned: 'graciam Saulus qui et paulus magnus predicator'
+  Words:    [46..53) consumed=7
+  NW score: k=7 (pre-snap), norm=-0.9436
+  Anchor:   word 53 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ----i-s Pa---r mui-----------magiio pasre---- oa 25
+                      0 ----|-.  7
+    query             0 graciam Saulus qui et paulus magnus p--redicator 46
+
+-- fused_7 --
+  OCR:      'tor adeconfortatus convalescea'
+  Assigned: 'A deo confortatus con valescebat'
+  Words:    [53..58) consumed=5
+  NW score: k=5 (pre-snap), norm=5.0026
+  Anchor:   word 58 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 tor ade--confortatus con-valesce-a- 30
+                      0 --.  3
+    query             0 --A -deo confortatus con valescebat 32
+
+-- fused_8 --
+  OCR:      'et confunde bat indeos stendens conma'
+  Assigned: 'et confundebat in deos Ostendens quia'
+  Words:    [58..64) consumed=6
+  NW score: k=6 (pre-snap), norm=5.7568
+  Anchor:   word 64 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 et confunde bat in-deos -stendens conma 37
+                      0 ||  2
+    query             0 et confunde-bat in deos Ostendens -quia 37
+
+-- fused_9 --
+  OCR:      'Hic ele xiia sins nen domno d. aulus'
+  Assigned: 'hic est xpistus filius dei A deo Saulus'
+  Words:    [64..72) consumed=8
+  NW score: k=8 (pre-snap), norm=1.6013
+  Anchor:   word 72 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 Hic ele xii---a --sins ne--n domno d. aulus 36
+                      0 .||  3
+    query             0 hic est xpistus filius dei A d--eo --Saulus 39
+
+-- fused_10 --
+  OCR:      'qi et Paulus magnus predicator a Deo confortatus'
+  Assigned: 'qui et paulus magnus predicator a deo confortatus'
+  Words:    [72..80) consumed=8
+  NW score: k=8 (pre-snap), norm=7.2375
+  Anchor:   word 80 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 q-i et Paulus magnus predicator a Deo confortatus 48
+                      0 |-|  3
+    query             0 qui et paulus magnus predicator a deo confortatus 49
+
+-- fused_11 --
+  OCR:      'convales cebat judeos onfitebim'
+  Assigned: 'convalescebat iudeos ~Confitebimur'
+  Words:    [80..83) consumed=3
+  NW score: k=3 (pre-snap), norm=6.1604
+  Anchor:   word 83 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 convales cebat judeos --onfitebim-- 31
+                      0 ||||||||-||||| 14
+    query             0 convales-cebat iudeos ~Confitebimur 34
+
+-- fused_12 --
+  OCR:      'Detentens oma hic eu Xx pistus filius Deiemas'
+  Assigned: 'euouae Ostendens quia hic est xpistus filius dei Ne magnitudo'
+  Words:    [83..93) consumed=10
+  NW score: k=8 (pre-snap), norm=3.4642
+  Anchor:   word 93 (page_break_77), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 ----De---tentens -oma hic e-u Xx pistus filius Dei--e-ma----
+                      0 ----.|---|||.|||
+    query             0 euouae Ostendens quia hic est -x-pistus filius dei Ne magnit
+    
+    target           44 --s 45
+                     16 --. 19
+    query            58 udo 61
+=== END DEBUG ===
+

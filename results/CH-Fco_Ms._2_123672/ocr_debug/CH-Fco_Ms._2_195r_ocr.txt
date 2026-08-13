@@ -1,0 +1,199 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'nitudo revelationum extollat me datus est michi stinui'
+  [fused_1] 'lus Angelus Sathane qui me Colaphizet propter quod ter'
+  [fused_2] 'dominum Rogavi ut auferetur a me et dixit michi domi'
+  [fused_3] 'nus sufficit tibi paule gracia m. dominus Regnevo'
+  [fused_4] 'vae .v Lam virtus in infirmitate perficitur '
+  [fused_5] 'posita est michi corona ilisticie quam reddet michi dominus'
+  [fused_6] ' die stus dominus Regis iras eonac'
+  [fused_7] 'V. smnus honorati sint'
+  [fused_8] 'Ecaci eim secundumma'
+  [fused_9] 'Looperante in me gracia spiritus Sancti Smo Huquinot di '
+  [fused_10] 'd dinloci i excoin'
+  [fused_11] 'aucrtate Paule a posto le predica'
+  [fused_12] 'torven ta tis et doctor gentiun . Interce'
+  [fused_13] 'bbis ad de um qui te git ut digni esti'
+  [fused_14] 'gn cia Lues nas elec'
+  [fused_15] 'nomo sancte Panie aposito de padicator necita tis'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'nitudo revelationum extollat me datus est michi stinui'
+  Assigned: 'revelationum extollat me datus est michi stimulus'
+  Words:    [0..7) consumed=7
+  NW score: k=7 (pre-snap), norm=6.1237
+  Anchor:   word 39 (within_chant_7), diff=32, snapped=False, forced=False
+  Alignment:
+    target            0 nitudo revelationum extollat me datus est michi sti--nui 54
+                      0 -------|||||||||||| 19
+    query             0 -------revelationum extollat me datus est michi stimulus 49
+
+-- fused_1 --
+  OCR:      'lus Angelus Sathane qui me Colaphizet propter quod ter'
+  Assigned: 'angelus sathane qui me colaphizet propter quod ter'
+  Words:    [7..15) consumed=8
+  NW score: k=8 (pre-snap), norm=6.6395
+  Anchor:   word 39 (within_chant_7), diff=24, snapped=False, forced=False
+  Alignment:
+    target            0 lus Angelus Sathane qui me Colaphizet propter quod ter 54
+                      0 ----.|||||| 11
+    query             0 ----angelus sathane qui me colaphizet propter quod ter 50
+
+-- fused_2 --
+  OCR:      'dominum Rogavi ut auferetur a me et dixit michi domi'
+  Assigned: 'dominum rogavi ut auferetur a me et dixit michi dominus'
+  Words:    [15..25) consumed=10
+  NW score: k=10 (pre-snap), norm=7.2926
+  Anchor:   word 39 (within_chant_7), diff=14, snapped=False, forced=False
+  Alignment:
+    target            0 dominum Rogavi ut auferetur a me et dixit michi domi--- 52
+                      0 |||||||  7
+    query             0 dominum rogavi ut auferetur a me et dixit michi dominus 55
+
+-- fused_3 --
+  OCR:      'nus sufficit tibi paule gracia m. dominus Regnevo'
+  Assigned: 'sufficit tibi paule gracia mea ~Dominus regnavit'
+  Words:    [25..32) consumed=7
+  NW score: k=7 (pre-snap), norm=5.3199
+  Anchor:   word 39 (within_chant_7), diff=7, snapped=False, forced=False
+  Alignment:
+    target            0 nus sufficit tibi paule gracia m-. -dominus Regnev-o 49
+                      0 ----|||||||| 12
+    query             0 ----sufficit tibi paule gracia mea ~Dominus regnavit 48
+
+-- fused_4 --
+  OCR:      'vae .v Lam virtus in infirmitate perficitur'
+  Assigned: 'euouae Nam virtus in infirmitate perficitur re'
+  Words:    [32..39) consumed=7
+  NW score: k=6 (pre-snap), norm=6.2326
+  Anchor:   word 39 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 ---vae .v Lam virtus in infirmitate perficitur--------- 43
+                      0 ---.||---  9
+    query             0 euouae--- Nam virtus in infirmitate perficitur Reposita 52
+
+-- fused_5 --
+  OCR:      'posita est michi corona ilisticie quam reddet michi dominus'
+  Assigned: 'posita est michi corona iusticie quam reddet michi dominus'
+  Words:    [39..47) consumed=8
+  NW score: k=8 (pre-snap), norm=6.6175
+  Anchor:   word 47 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 posita est michi corona ilisticie quam reddet michi dominus
+                      0 -------|||
+    query             0 -------est michi corona i-usticie quam reddet michi dominus
+    
+    target           59
+                     10
+    query            51
+
+-- fused_6 --
+  OCR:      'die stus dominus Regis iras eonac'
+  Assigned: 'in illum diem iustus iudex ~Dominus'
+  Words:    [47..53) consumed=6
+  NW score: k=9 (pre-snap), norm=2.0560
+  Anchor:   word 53 (within_chant_7), diff=3, snapped=False, forced=True
+  Alignment:
+    target            0 ---------die- --stus --d-----ominus Regis iras eonac 33
+                      0 ---------|||- 13
+    query             0 in illum diem iustus iudex ~Dominus----------------- 35
+
+-- fused_7 --
+  OCR:      'V. smnus honorati sint'
+  Assigned: 'regnavit irascantur euouae Cooperante in'
+  Words:    [53..58) consumed=5
+  NW score: k=5 (pre-snap), norm=-1.2473
+  Anchor:   word 62 (within_chant_7), diff=4, snapped=False, forced=False
+  Alignment:
+    target            0 ------V. ---s-mn-us -ho-----no--ra-ti sint 22
+                      0 ------..  8
+    query             0 regnavit irascantur euouae Cooperante -in- 40
+
+-- fused_8 --
+  OCR:      'Ecaci eim secundumma'
+  Assigned: 'me gracia spiritus sancti'
+  Words:    [58..62) consumed=4
+  NW score: k=3 (pre-snap), norm=-1.7393
+  Anchor:   word 62 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 ---Ecaci- ---ei--m secundumma 20
+                      0 ---..|||-  9
+    query             0 me gracia spiritus s--an--cti 25
+
+-- fused_9 --
+  OCR:      'Looperante in me gracia spiritus Sancti Smo Huquinot di'
+  Assigned: 'Sancte paule apostole predica'
+  Words:    [62..66) consumed=4
+  NW score: k=7 (pre-snap), norm=-0.9162
+  Anchor:   word 66 (within_chant_7), diff=3, snapped=False, forced=True
+  Alignment:
+    target            0 Looperan-te in me gracia spiritus Sancti Smo-- Huquinot di 55
+                      0 -----.||-|| 11
+    query             0 -----Sancte paule -----a--p----os-----t----ole predicat-or 32
+
+-- fused_10 --
+  OCR:      'd dinloci i excoin'
+  Assigned: 'tor veritatis et doctor gentium'
+  Words:    [66..70) consumed=4
+  NW score: k=3 (pre-snap), norm=-2.0007
+  Anchor:   word 70 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 -----------d dinloci i -excoi-n 18
+                      0 -----------. 12
+    query             0 veritatis et d---octor ge-ntium 27
+
+-- fused_11 --
+  OCR:      'aucrtate Paule a posto le predica'
+  Assigned: 'Intercede pro nobis ad deum qui te elegit ut digni effi'
+  Words:    [70..81) consumed=11
+  NW score: k=21 (pre-snap), norm=-1.4888
+  Anchor:   word 81 (within_chant_7), diff=10, snapped=False, forced=True
+  Alignment:
+    target            0 aucrtate Paule --a po--s-------------to -le--- pred--------i
+                      0 ----..||-....|
+    query             0 ----Inte-rcede pro nobis ad deum qui te elegit ut digni effi
+    
+    target           31 c-a--- 33
+                     14 |-|--- 20
+    query            55 ciamur 61
+
+-- fused_12 --
+  OCR:      'torven ta tis et doctor gentiun . Interce'
+  Assigned: 'ciamur gracia dei Tu es vas elec'
+  Words:    [81..87) consumed=6
+  NW score: k=8 (pre-snap), norm=-0.8240
+  Anchor:   word 87 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 torven ta -ti--s et doctor -gentiun . Interce 41
+                      0 -.|--...|  9
+    query             0 -gr--acia dei Tu es ---vas election--------is 31
+
+-- fused_13 --
+  OCR:      'bbis ad de um qui te git ut digni esti'
+  Assigned: 'tionis sancte paule apostole predicator veritatis'
+  Words:    [87..92) consumed=5
+  NW score: k=5 (pre-snap), norm=-1.3767
+  Anchor:   word 92 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 bbis ad de --u-m qui t--e git ut di--gni -e---sti- 38
+                      0 ---|-|...| 10
+    query             0 ---s-ancte paule apostole---- predicator veritatis 42
+
+-- fused_14 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [92..92) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_15 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [92..92) consumed=0
+  Alignment:
+    (no words left)
+=== END DEBUG ===
+

@@ -1,0 +1,181 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'accipma et usque ad canos mvenes sapienciam'
+  [fused_1] 'ovaeDominus possedit me micio marum suarim'
+  [fused_2] ''
+  [fused_3] 'abyssi et ego parturiebar quando preparabat ce'
+  [fused_4] 'allo ante prisma domini'
+  [fused_5] 'componeus omnia ex ovac magsicat an am intenstie septebris'
+  [fused_6] 'um audisset jobis inincior verba sustinuit pacienter et'
+  [fused_7] 'ait si bona suscepimus de manu domini'
+  [fused_8] 're non sustincamus in omnibus hiis non peccavit Job la'
+  [fused_9] 'biis suis neque stultum aliquid contra Deum loquitrus est'
+  [fused_10] 'suscepimus de manudoeovae'
+  [fused_11] 'i Mala au tem quare non sus t'
+  [fused_12] 'ne a mus . Dominus dedit dominus abstulit sicut'
+  [fused_13] 'domino placurit ita factum eidm sitnomentom'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'accipma et usque ad canos mvenes sapienciam'
+  Assigned: 'accipe doctrinam et usque ad canos invenies sapienciam'
+  Words:    [0..8) consumed=8
+  NW score: k=8 (pre-snap), norm=5.5824
+  Anchor:   word 15 (within_chant_7), diff=7, snapped=False, forced=False
+  Alignment:
+    target            0 accip--------ma- et usque ad canos -mven-es sapienciam 43
+                      0 |||||--------.|- 16
+    query             0 accipe doctrinam et usque ad canos invenies sapienciam 54
+
+-- fused_1 --
+  OCR:      'ovaeDominus possedit me micio marum suarim'
+  Assigned: 'euouae Dominus possedit me inicio viarum suarum'
+  Words:    [8..15) consumed=7
+  NW score: k=7 (pre-snap), norm=5.6944
+  Anchor:   word 15 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 --ovae-Dominus possedit me -micio -marum suarim 42
+                      0 --|.||-||||||| 14
+    query             0 euouae Dominus possedit me inicio viarum suarum 47
+
+-- fused_2 --
+  OCR:      ''
+  Assigned: 'antequam quicquam faceret a principio necdum erant'
+  Words:    [15..22) consumed=7
+
+-- fused_3 --
+  OCR:      'abyssi et ego parturiebar quando preparabat ce'
+  Assigned: 'abyssi et ego parturiebar quando preparabat celos'
+  Words:    [22..29) consumed=7
+  NW score: k=7 (pre-snap), norm=7.4774
+  Anchor:   word 35 (within_chant_7), diff=6, snapped=False, forced=False
+  Alignment:
+    target            0 abyssi et ego parturiebar quando preparabat ce--- 46
+                      0 ||||||  6
+    query             0 abyssi et ego parturiebar quando preparabat celos 49
+
+-- fused_4 --
+  OCR:      'allo ante prisma domini'
+  Assigned: 'aderam cum eo componens omnia euouae'
+  Words:    [29..35) consumed=6
+  NW score: k=5 (pre-snap), norm=-1.1616
+  Anchor:   word 35 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 a--llo -ante- ---p--risma domini-------- 23
+                      0 |--...  6
+    query             0 aderam cum eo componens-- -om-nia euouae 36
+
+-- fused_5 --
+  OCR:      'componeus omnia ex ovac magsicat an am intenstie septebris'
+  Assigned: 'Cum audisset iob nunciorum verba sustinuit pacienter et'
+  Words:    [35..43) consumed=8
+  NW score: k=10 (pre-snap), norm=-1.1340
+  Anchor:   word 43 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 componeu---s-- -o---mn-ia ex ov---ac mags-i-cat an am intens
+                      0 ..|--..|---|--
+    query             0 Cum-- audisset iob nunciorum -verba- -sustinuit --pa-ci--en-
+    
+    target           45 tie- septebris 58
+                     14 |-|- 18
+    query            49 t-er -e-t----- 55
+
+-- fused_6 --
+  OCR:      'um audisset jobis inincior verba sustinuit pacienter et'
+  Assigned: 'ait si bona suscepimus de manu domini mala autem qua'
+  Words:    [43..53) consumed=10
+  NW score: k=10 (pre-snap), norm=-1.0459
+  Anchor:   word 53 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 um audisset jobis inincior verb--a sus--ti---------nu----i-t
+                      0 ---|--|---|
+    query             0 ---a--i---t ----s------i-- ---bona suscepimus de manu domini
+    
+    target           42  pa-cienter ----et 55
+                     11  11
+    query            37  mala autem quare- 54
+
+-- fused_7 --
+  OCR:      'ait si bona suscepimus de manu domini'
+  Assigned: 're non sustineamus in omnibus hiis non peccavit iob la'
+  Words:    [53..62) consumed=9
+  NW score: k=4 (pre-snap), norm=0.5481
+  Anchor:   word 62 (within_chant_7), diff=5, snapped=False, forced=True
+  Alignment:
+    target            0 ait si bona sus--cepimus de -man--u------ do----------mi----
+                      0 -------.||-
+    query             0 -------non- sustine-amus in om-nibus hiis non peccavit iob l
+    
+    target           35 --ni- 37
+                     11 --.|- 16
+    query            50 abiis 55
+
+-- fused_8 --
+  OCR:      're non sustincamus in omnibus hiis non peccavit Job la'
+  Assigned: 'biis suis neque stultum aliquid contra deum loquutus est'
+  Words:    [62..70) consumed=8
+  NW score: k=11 (pre-snap), norm=-1.1725
+  Anchor:   word 70 (within_chant_7), diff=3, snapped=False, forced=True
+  Alignment:
+    target            0 --re n--on s-ustincamus in omnibus hiis non--- peccavit Jo--
+                      0 --..
+    query             0 suis neque stult-----um ----aliqu----id contra de----um loqu
+    
+    target           50 ---b -la 54
+                      4 ---.  8
+    query            43 utus est 51
+
+-- fused_9 --
+  OCR:      'biis suis neque stultum aliquid contra Deum loquitrus est'
+  Assigned: 'euouae Si bona suscepimus de manu domini mala autem quare non sustineamus Dominus dedit'
+  Words:    [70..84) consumed=14
+  NW score: k=14 (pre-snap), norm=-0.7952
+  Anchor:   word 71 (within_chant_7), diff=13, snapped=False, forced=False
+  Alignment:
+    target            0 ----------biis su----i--s neque -stultum--- -al-------iqu-id
+                      0 ----------|...
+    query             0 euouae Si bona suscepimus ---de manu domini mala autem quare
+    
+    target           31  con----t--ra Deum loquitrus -e-st 57
+                     14  14
+    query            57  non sustinea--mus Do-mi-nus dedit 87
+
+-- fused_10 --
+  OCR:      'suscepimus de manudoeovae'
+  Assigned: 'dominus abstulit sicut'
+  Words:    [84..87) consumed=3
+  NW score: k=4 (pre-snap), norm=-1.7084
+  Anchor:   word 87 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 suscepimus ------de manudoeovae 25
+                      0 ---...|.|| 10
+    query             0 ---dominus abstulit sicu------t 22
+
+-- fused_11 --
+  OCR:      'i Mala au tem quare non sus t'
+  Assigned: 'domino placuit ita factum est sit nomen domini'
+  Words:    [87..95) consumed=8
+  NW score: k=6 (pre-snap), norm=-0.8081
+  Anchor:   word 95 (page_break_77), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 ---i-- Mala---- --au ---tem quare------ no--n -sus t 29
+                      0 ---|--  6
+    query             0 domino -placuit ita- factum ----est sit nomen domini 46
+
+-- fused_12 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [95..95) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_13 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [95..95) consumed=0
+  Alignment:
+    (no words left)
+=== END DEBUG ===
+

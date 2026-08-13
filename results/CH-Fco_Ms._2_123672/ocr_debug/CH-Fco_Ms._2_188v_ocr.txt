@@ -1,0 +1,281 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'non surrexit major Johanne Baptista pr Benedicite exovae'
+  [fused_1] ' puer propheta altissumi vocaberis preibis ante domi capi audite t sule ymn'
+  [fused_2] 'Ominus Felixo step'
+  [fused_3] 'Ermagnus coram domino'
+  [fused_4] 'num parare vias ejus p Lauduninis de exovae p qamtmnan escum'
+  [fused_5] 'pertum estos zacarie et prophetavit dicens be'
+  [fused_6] 'ded es lisis io'
+  [fused_7] 'deus Israhel evovae uit homo'
+  [fused_8] 'Sanenis'
+  [fused_9] 'missus  aDeo  Cui nomeu erat Johannes Gloria'
+  [fused_10] ''
+  [fused_11] 'internatos mulierum non surrexit major S ohan'
+  [fused_12] 'GEiabett Nacharie magnum virli'
+  [fused_13] 'mut re Johanebaptis pesdiem domini ad'
+  [fused_14] 'ne Baptista Gla icapili Reges indebunt et consurgent ma  Ensabethzacari'
+  [fused_15] 'e magnum vurum genutet Johanntii Baptistam precurso'
+  [fused_16] 'Gstepnermligniis coram Domino XX namema'
+  [fused_17] 'ejus cipo e ad vet  Ealeth per ordinem ps'
+  [fused_18] 'rem domini Gla ut suprao capilli auditeini y utceseant latis P necom'
+  [fused_19] 'nobis plusquam propheta est hic est enum de quo'
+  [fused_20] 'salvator ait internatos mulierum non surrexit major Joham'
+  [fused_21] 'orout supra Jnfra octabis beat chanis totum officiu agiis sicutunnant ejus et'
+  [fused_22] 'mnglis diebus fuit ere se n festum occiati r n fitomenion de'
+  [fused_23] 'tempala enora leetan atit cmanto pluris nec depace . Dominica que oterit infrra octasis bei Johannis'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'non surrexit major Johanne Baptista pr Benedicite exovae'
+  Assigned: 'non surrexit maior iohanne baptista ~Benedicite euouae'
+  Words:    [0..7) consumed=7
+  NW score: k=7 (pre-snap), norm=6.2556
+  Anchor:   word 15 (within_chant_7), diff=8, snapped=False, forced=False
+  Alignment:
+    target            0 non surrexit major Johanne Baptista pr Benedicite exovae 56
+                      0 |||  3
+    query             0 non surrexit maior iohanne baptista --~Benedicite euouae 54
+
+-- fused_1 --
+  OCR:      'puer propheta altissumi vocaberis preibis ante domi capi audite t sule ymn'
+  Assigned: 'Tu puer propheta altissimi vocaberis preibis ante domi'
+  Words:    [7..15) consumed=8
+  NW score: k=8 (pre-snap), norm=4.9426
+  Anchor:   word 15 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ---puer propheta altissumi vocaberis preibis ante domi capi 
+                      0 ---||||
+    query             0 Tu puer propheta altissimi vocaberis preibis ante domi------
+    
+    target           57 audite t sule ymn 74
+                      7 ---------.|----|- 24
+    query            54 ---------nu----m- 57
+
+-- fused_2 --
+  OCR:      'Ominus Felixo step'
+  Assigned: 'num parare vias eius ~Laudate'
+  Words:    [15..19) consumed=4
+  NW score: k=4 (pre-snap), norm=-1.6499
+  Anchor:   word 29 (within_chant_7), diff=10, snapped=False, forced=False
+  Alignment:
+    target            0 ------Ominus Felixo -----step 18
+                      0 ------..|-.| 12
+    query             0 parare vi-as -e-ius ~Laudate- 25
+
+-- fused_3 --
+  OCR:      'Ermagnus coram domino'
+  Assigned: 'dominum euouae Apertum'
+  Words:    [19..22) consumed=3
+  NW score: k=3 (pre-snap), norm=-1.1166
+  Anchor:   word 29 (within_chant_7), diff=7, snapped=False, forced=False
+  Alignment:
+    target            0 Ermagnus -coram ----domino 21
+                      0 ..|-.||.  8
+    query             0 dom-inum euouae Apertum--- 22
+
+-- fused_4 --
+  OCR:      'num parare vias ejus p Lauduninis de exovae p qamtmnan escum'
+  Assigned: 'est os zacharie et prophetavit dicens be'
+  Words:    [22..29) consumed=7
+  NW score: k=13 (pre-snap), norm=-0.7702
+  Anchor:   word 29 (within_chant_7), diff=6, snapped=False, forced=True
+  Alignment:
+    target            0 ---num pa-rare vias ejus p---- Lauduninis de exovae p qamtmn
+                      0 ---...
+    query             0 est os zachar---i-e e--t propheta-----vit dicens be---------
+    
+    target           52 an e-sc-um 60
+                      6 -|-|-.|-|. 16
+    query            40 -n-edictus 48
+
+-- fused_5 --
+  OCR:      'pertum estos zacarie et prophetavit dicens be'
+  Assigned: 'nedictus deus israhel euouae Fuit homo'
+  Words:    [29..34) consumed=5
+  NW score: k=7 (pre-snap), norm=-0.8948
+  Anchor:   word 34 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 pertum estos zacarie- et prophetavit dicens be 45
+                      0 .|--|------| 12
+    query             0 de--u------s isra-hel e---uouae Fuit -----homo 29
+
+-- fused_6 --
+  OCR:      'ded es lisis io'
+  Assigned: 'missus a deo'
+  Words:    [34..37) consumed=3
+  NW score: k=3 (pre-snap), norm=-1.4162
+  Anchor:   word 57 (within_chant_7), diff=20, snapped=False, forced=False
+  Alignment:
+    target            0 ded es lisis ---io 15
+                      0 ---..|---|.| 12
+    query             0 ---mis---sus a deo 12
+
+-- fused_7 --
+  OCR:      'deus Israhel evovae uit homo'
+  Assigned: 'Cui nomen erat iohannes Gloria Inter natos'
+  Words:    [37..44) consumed=7
+  NW score: k=7 (pre-snap), norm=-1.3705
+  Anchor:   word 57 (within_chant_7), diff=13, snapped=False, forced=False
+  Alignment:
+    target            0 deus -----Isra----h---el evo-vae uit-- homo- 28
+                      0 -.|.  4
+    query             0 -Cui nomen erat iohannes Gloria- Inter natos 42
+
+-- fused_8 --
+  OCR:      'Sanenis'
+  Assigned: 'mulierum non'
+  Words:    [44..46) consumed=2
+  NW score: k=2 (pre-snap), norm=-3.4915
+  Anchor:   word 57 (within_chant_7), diff=11, snapped=False, forced=False
+  Alignment:
+    target            0 -Sane----nis  7
+                      0 -...|----|.. 12
+    query             0 mulierum non 12
+
+-- fused_9 --
+  OCR:      'missus  aDeo  Cui nomeu erat Johannes Gloria'
+  Assigned: 'surrexit maior Iohanne baptista'
+  Words:    [46..50) consumed=4
+  NW score: k=4 (pre-snap), norm=-0.2166
+  Anchor:   word 57 (within_chant_7), diff=7, snapped=False, forced=False
+  Alignment:
+    target            0 missus  aDe-o  Cui nomeu erat Johannes Glori--a 44
+                      0 ---||---..|-.. 14
+    query             0 ---su---rrexit mai--o-----r-- Iohanne- baptista 31
+
+-- fused_10 --
+  OCR:      ''
+  Assigned: 'Inter natos mulierum non surrexit maior iohan'
+  Words:    [50..57) consumed=7
+
+-- fused_11 --
+  OCR:      'internatos mulierum non surrexit major S ohan'
+  Assigned: 'ne baptista Gloria Elizabeth zacarie magnum virum genuit Ioannem'
+  Words:    [57..65) consumed=8
+  NW score: k=8 (pre-snap), norm=-1.2025
+  Anchor:   word 61 (within_chant_7), diff=4, snapped=False, forced=False
+  Alignment:
+    target            0 ----int----erna--------t-------os m---u--lierum non surrexit
+                      0 ----|.|----.|.|--------|-------..
+    query             0 baptista Gloria Elizabeth zacarie magnum vi-rum gen--u----it
+    
+    target           32  major S ohan--- 45
+                     33  33
+    query            53  -------Io-annem 61
+
+-- fused_12 --
+  OCR:      'GEiabett Nacharie magnum virli'
+  Assigned: 'baptistam precurso'
+  Words:    [65..67) consumed=2
+  NW score: k=3 (pre-snap), norm=-1.6562
+  Anchor:   word 67 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 GEiabet--t Nacharie magnum virli 30
+                      0 --.|-.|--|--|...|-|----.|-...|.. 32
+    query             0 --ba-ptist--am pr-e----cu-rsorem 21
+
+-- fused_13 --
+  OCR:      'mut re Johanebaptis pesdiem domini ad'
+  Assigned: 'rem domini Gloria Puer qui natus est nobis plus quam'
+  Words:    [67..76) consumed=9
+  NW score: k=9 (pre-snap), norm=-1.1390
+  Anchor:   word 71 (within_chant_7), diff=5, snapped=False, forced=False
+  Alignment:
+    target            0 --m-ut ---r-----e- Johanebaptis pesdiem domi----ni --ad 37
+                      0 --|-..  6
+    query             0 domini Gloria Puer qui n--a-tus -es---t nobis plus quam 48
+
+-- fused_14 --
+  OCR:      'ne Baptista Gla icapili Reges indebunt et consurgent ma  Ensabethzacari'
+  Assigned: 'propheta est hic est enim de quo'
+  Words:    [76..83) consumed=7
+  NW score: k=17 (pre-snap), norm=-0.8226
+  Anchor:   word 83 (within_chant_7), diff=10, snapped=False, forced=True
+  Alignment:
+    target            0 ne Baptista Gla -icapili Reges indebunt et consurgent ma  En
+                      0 --...|-..||
+    query             0 --prop-heta est hic----- ---es-----------t -------en-im-- --
+    
+    target           59 sabethzacari 71
+                     11 --.|----.... 23
+    query            26 --de---- quo 32
+
+-- fused_15 --
+  OCR:      'e magnum vurum genutet Johanntii Baptistam precurso'
+  Assigned: 'salvator ait inter natos mulierum non surrexit maior iohan'
+  Words:    [83..92) consumed=9
+  NW score: k=10 (pre-snap), norm=-0.1854
+  Anchor:   word 92 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 ----------------e- magnum vu---rum gen--u-te--t------ Johann
+                      0 ----------------|-
+    query             0 salvator ait inter na-tos mulierum non surrexit maior iohann
+    
+    target           29 tii Baptistam precurso 51
+                     18 ----------------|----- 40
+    query            59 ----------------e----- 60
+
+-- fused_16 --
+  OCR:      'Gstepnermligniis coram Domino XX namema'
+  Assigned: 'ne baptista'
+  Words:    [92..93) consumed=1
+  NW score: k=1 (pre-snap), norm=-5.2651
+  Anchor:   word 93 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 Gstepnermligniis coram Domino XX namema 39
+                      0 --..|--------.||---------------------.| 39
+    query             0 --bap--------tis---------------------ta  8
+
+-- fused_17 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [93..93) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_18 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [93..93) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_19 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [93..93) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_20 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [93..93) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_21 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [93..93) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_22 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [93..93) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_23 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [93..93) consumed=0
+  Alignment:
+    (no words left)
+=== END DEBUG ===
+

@@ -1,0 +1,171 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'ter miquitates nostras cujus Anno Iana'
+  [fused_1] 'musvere Langores nostros ipse tut'
+  [fused_2] 'dolores nostros ip se porta nt cumns Liberavit.'
+  [fused_3] 'dominus pauperem a potente et nmopem cui non erat adjutor'
+  [fused_4] 'P sjudicium evovaeogitaverunt impu et loquti'
+  [fused_5] 'sunt nequiciam iniquitatem in excelso loquiti sunt pd qam'
+  [fused_6] 'urge domine et judica causam tuani'
+  [fused_7] ' ut quid des evovas eus meus erpeme de maini per'
+  [fused_8] 'eators qui et si contra legem agentis et miqui'
+  [fused_9] 'me us osculi me tradidit'
+  [fused_10] 'si no quem oscu latus fue ro ip'
+  [fused_11] 'tenete um hocma lum fecit sig'
+  [fused_12] 'tm ampaeti abllm comleis eo mma oins'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'ter miquitates nostras cujus Anno Iana'
+  Assigned: 'Cuius livore sanati sumus Vere langores'
+  Words:    [0..6) consumed=6
+  NW score: k=6 (pre-snap), norm=-0.8053
+  Anchor:   word 10 (within_chant_7), diff=4, snapped=False, forced=False
+  Alignment:
+    target            0 ter miquitates --no---stra-s cujus Anno Ian----a 38
+                      0 ------.||---.| 14
+    query             0 ------Cui---us livore sanati sumus Vere langores 39
+
+-- fused_1 --
+  OCR:      'musvere Langores nostros ipse tut'
+  Assigned: 'nostros ipse tulit et'
+  Words:    [6..10) consumed=4
+  NW score: k=3 (pre-snap), norm=2.5849
+  Anchor:   word 10 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 musvere Langores nostros ipse tu-----t 33
+                      0 -----------------||||||| 24
+    query             0 -----------------nostros ipse tulit et 21
+
+-- fused_2 --
+  OCR:      'dolores nostros ip se porta nt cumns Liberavit.'
+  Assigned: 'dolores nostros ipse portavit Cuius Liberavit'
+  Words:    [10..16) consumed=6
+  NW score: k=6 (pre-snap), norm=6.1101
+  Anchor:   word 16 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 dolores nostros ip se porta nt cumns Liberavit. 47
+                      0 |||||||  7
+    query             0 dolores nostros ip-se portavit Cuius Liberavit- 45
+
+-- fused_3 --
+  OCR:      'dominus pauperem a potente et nmopem cui non erat adjutor'
+  Assigned: 'dominus pauperem a potente et inopem cui non erat adiutor'
+  Words:    [16..26) consumed=10
+  NW score: k=10 (pre-snap), norm=7.3860
+  Anchor:   word 26 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 dominus pauperem a potente et -nmopem cui non erat adjutor 57
+                      0 |||||||  7
+    query             0 dominus pauperem a potente et in-opem cui non erat adiutor 57
+
+-- fused_4 --
+  OCR:      'P sjudicium evovaeogitaverunt impu et loquti'
+  Assigned: '~Deus iudicium euouae Cogitaverunt impii et loquuci'
+  Words:    [26..33) consumed=7
+  NW score: k=7 (pre-snap), norm=4.6442
+  Anchor:   word 33 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 --P s-judicium evovae--ogitaverunt imp-u et loq-uti 44
+                      0 --..|-.||||||| 14
+    query             0 ~Deus iudicium euouae Cogitaverunt impii et loquuci 51
+
+-- fused_5 --
+  OCR:      'sunt nequiciam iniquitatem in excelso loquiti sunt pd qam'
+  Assigned: 'sunt nequiciam iniquitatem in excelso loquuti sunt'
+  Words:    [33..40) consumed=7
+  NW score: k=8 (pre-snap), norm=6.8852
+  Anchor:   word 40 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 sunt nequiciam iniquitatem in excelso loquiti sunt pd qam 57
+                      0 ||||  4
+    query             0 sunt nequiciam iniquitatem in excelso loquuti sunt------- 50
+
+-- fused_6 --
+  OCR:      'urge domine et judica causam tuani'
+  Assigned: '{Quam bonus} euouae Exurge domine et iudica causam'
+  Words:    [40..48) consumed=8
+  NW score: k=9 (pre-snap), norm=3.7231
+  Anchor:   word 48 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 ----------------------urge domine et judica causam tuani 34
+                      0 ----------------------|||| 26
+    query             0 {Quam bonus} euouae Exurge domine et iudica causam------ 50
+
+-- fused_7 --
+  OCR:      'ut quid des evovas eus meus erpeme de maini per'
+  Assigned: 'tuam ~Ut quid deus euouae Deus meus eripe me de manu pec'
+  Words:    [48..60) consumed=12
+  NW score: k=11 (pre-snap), norm=4.1872
+  Anchor:   word 60 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 -u-----t quid de-s evovas -eus meus er-pe-me de maini pe----
+                      0 -|-----|
+    query             0 tuam ~Ut quid deus euouae Deus meus eripe me de ma-nu peccat
+    
+    target           46 -r-- 47
+                      8 -|-- 12
+    query            59 oris 63
+
+-- fused_8 --
+  OCR:      'eators qui et si contra legem agentis et miqui'
+  Assigned: 'catoris Et de manu contra legem agentis et iniqui'
+  Words:    [60..68) consumed=8
+  NW score: k=8 (pre-snap), norm=4.1908
+  Anchor:   word 68 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 eators qui et --si contra legem agentis et -miqui 46
+                      0 -.|---  6
+    query             0 -Et--- ---de- manu contra legem agentis et iniqui 41
+
+-- fused_9 --
+  OCR:      'me us osculi me tradidit'
+  Assigned: 'Amicus meus osculi me tradidit'
+  Words:    [68..73) consumed=5
+  NW score: k=5 (pre-snap), norm=5.6647
+  Anchor:   word 73 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -------me us osculi me tradidit 24
+                      0 -------||-|| 12
+    query             0 Amicus me-us osculi me tradidit 30
+
+-- fused_10 --
+  OCR:      'si no quem oscu latus fue ro ip'
+  Assigned: 'signo quem osculatus fuero ipse est tenete'
+  Words:    [73..80) consumed=7
+  NW score: k=5 (pre-snap), norm=6.2903
+  Anchor:   word 80 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 si no quem oscu latus fue ro ip------------- 31
+                      0 ||.||  5
+    query             0 signo quem oscu-latus fue-ro ipse est tenete 42
+
+-- fused_11 --
+  OCR:      'tenete um hocma lum fecit sig'
+  Assigned: 'eum hoc malum fecit signum qui'
+  Words:    [80..86) consumed=6
+  NW score: k=5 (pre-snap), norm=4.4794
+  Anchor:   word 86 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 tenete um hoc-ma lum fecit sig------- 29
+                      0 -----|-||  9
+    query             0 -----e-um hoc ma-lum fecit signum qui 30
+
+-- fused_12 --
+  OCR:      'tm ampaeti abllm comleis eo mma oins'
+  Assigned: 'per osculum adimplevit homicidium Infelix pretermisit'
+  Words:    [86..92) consumed=6
+  NW score: k=4 (pre-snap), norm=-0.8414
+  Anchor:   word 92 (page_break_77), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 ---------tm a--mpaeti- abllm c---om---le-is --eo mma oins--
+                      0 ---------.|
+    query             0 per osculum adimplevit --homicidium Infelix preterm---i-sit
+    
+    target           36
+                     11
+    query            53
+=== END DEBUG ===
+

@@ -1,0 +1,167 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'ut non corruam in conspectu dri meorum .'
+  [fused_1] 'gaudeat de me minrehende'
+  [fused_2] 'scutum et exurge in adjuto'
+  [fused_3] 're gandeat r eiagna e num sunt judicia tua domu'
+  [fused_4] 'ne et in enarrabilia verba tua Magnificasti'
+  [fused_5] 'populum tu don rasranstuli santi'
+  [fused_6] 'illos per mare Rubrum et transuexisti eos per a quam in'
+  [fused_7] 'mi m Magii .nen sunt mnc homi num ocu'
+  [fused_8] 'litui ni vent domine et bro tuomni a scri'
+  [fused_9] 'tem nostr homo inet in facia ede us an tem'
+  [fused_10] 'mn cor de enim corda scrutatur et uier'
+  [fused_11] 'sas mencium cogitationes intelgit . homo d Pr'
+  [fused_12] 're fili cortuum mich et o calitu mas meas cu sto'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'ut non corruam in conspectu dri meorum .'
+  Assigned: 'ut non corruam in conspectu adversariorum meorum'
+  Words:    [0..7) consumed=7
+  NW score: k=7 (pre-snap), norm=5.7511
+  Anchor:   word 14 (within_chant_7), diff=7, snapped=False, forced=False
+  Alignment:
+    target            0 ut non corruam in conspectu -d-----ri---- meorum . 40
+                      0 ||  2
+    query             0 ut non corruam in conspectu adversariorum meorum-- 48
+
+-- fused_1 --
+  OCR:      'gaudeat de me minrehende'
+  Assigned: 'Ne gaudeat de me inimicus meus Apprehende'
+  Words:    [7..14) consumed=7
+  NW score: k=7 (pre-snap), norm=3.6979
+  Anchor:   word 14 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ---gaudeat de me ---mi-----------nrehende 24
+                      0 ---||||||| 10
+    query             0 Ne gaudeat de me inimicus meus Apprehende 41
+
+-- fused_2 --
+  OCR:      'scutum et exurge in adjuto'
+  Assigned: 'arma et scutum et exurge in adiutorium michi Ne'
+  Words:    [14..23) consumed=9
+  NW score: k=7 (pre-snap), norm=4.8039
+  Anchor:   word 23 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 --------scutum et exurge in adjuto------------- 26
+                      0 --------|||||| 14
+    query             0 arma et scutum et exurge in adiutorium michi Ne 47
+
+-- fused_3 --
+  OCR:      're gandeat r eiagna e num sunt judicia tua domu'
+  Assigned: 'gaudeat Magna enim sunt iudicia tua domine'
+  Words:    [23..30) consumed=7
+  NW score: k=7 (pre-snap), norm=4.7716
+  Anchor:   word 30 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 re gandeat r eiagna e num sunt judicia tua dom--u 47
+                      0 ---||.|||| 10
+    query             0 ---gaudeat ---Magna e-nim sunt iudicia tua domine 42
+
+-- fused_4 --
+  OCR:      'ne et in enarrabilia verba tua Magnificasti'
+  Assigned: 'et inenarrabilia verba tua Magnificasti'
+  Words:    [30..35) consumed=5
+  NW score: k=5 (pre-snap), norm=7.1304
+  Anchor:   word 35 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ne et in enarrabilia verba tua Magnificasti 43
+                      0 ---||  5
+    query             0 ---et in-enarrabilia verba tua Magnificasti 39
+
+-- fused_5 --
+  OCR:      'populum tu don rasranstuli santi'
+  Assigned: 'populum tuum et honorasti Transtulisti'
+  Words:    [35..40) consumed=5
+  NW score: k=5 (pre-snap), norm=4.4163
+  Anchor:   word 40 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 populum tu----- don ras----ranstuli santi 32
+                      0 |||||||  7
+    query             0 populum tuum et honorasti Transtuli-s--ti 38
+
+-- fused_6 --
+  OCR:      'illos per mare Rubrum et transuexisti eos per a quam in'
+  Assigned: 'illos per mare rubrum et transvexisti eos per aquam ni'
+  Words:    [40..50) consumed=10
+  NW score: k=9 (pre-snap), norm=6.8351
+  Anchor:   word 50 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 illos per mare Rubrum et transuexisti eos per a quam ---i-n
+                      0 |||||
+    query             0 illos per mare rubrum et transvexisti eos per a-quam nimiam
+    
+    target           55
+                      5
+    query            58
+
+-- fused_7 --
+  OCR:      'mi m Magii .nen sunt mnc homi num ocu'
+  Assigned: 'miam Magnificasti Que sunt in corde hominum ocu'
+  Words:    [50..57) consumed=7
+  NW score: k=7 (pre-snap), norm=2.6271
+  Anchor:   word 57 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 mi m Mag---i----i .nen sunt mn-c---- homi num ocu-- 37
+                      0 -----|||---|----| 17
+    query             0 -----Magnificasti Que- sunt in corde homi-num oculi 44
+
+-- fused_8 --
+  OCR:      'litui ni vent domine et bro tuomni a scri'
+  Assigned: 'li tui vident domine et in libro tuo omnia scribentur'
+  Words:    [57..66) consumed=9
+  NW score: k=9 (pre-snap), norm=4.3068
+  Anchor:   word 66 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 litui ni vent domine et -----bro tu--omni a scri------ 41
+                      0 --|||  5
+    query             0 --tui vi-dent domine et in libro tuo omni-a scribentur 50
+
+-- fused_9 --
+  OCR:      'tem nostr homo inet in facia ede us an tem'
+  Assigned: 'Homo videt in facie deus autem in'
+  Words:    [66..73) consumed=7
+  NW score: k=6 (pre-snap), norm=3.3243
+  Anchor:   word 73 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 tem nostr homo -inet in facia ede us an tem--- 42
+                      0 ----------.||| 14
+    query             0 ----------Homo videt in facie -de-us a-utem in 33
+
+-- fused_10 --
+  OCR:      'mn cor de enim corda scrutatur et uier'
+  Assigned: 'corde Omnia enim corda scrutatur et univer'
+  Words:    [73..80) consumed=7
+  NW score: k=7 (pre-snap), norm=4.9091
+  Anchor:   word 80 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 mn cor de------ enim corda scrutatur et u-i-er--- 38
+                      0 ---|||-||------ 15
+    query             0 ---cor-de Omnia enim corda scrutatur et universas 45
+
+-- fused_11 --
+  OCR:      'sas mencium cogitationes intelgit . homo d Pr'
+  Assigned: 'sas mencium cogitationes intellegit Homo pre'
+  Words:    [80..85) consumed=5
+  NW score: k=5 (pre-snap), norm=5.1525
+  Anchor:   word 85 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 sas mencium cogitationes intel--git . homo d Pr--- 45
+                      0 ----||||||| 11
+    query             0 ----mencium cogitationes intellegit-- Homo-- Prebe 42
+
+-- fused_12 --
+  OCR:      're fili cortuum mich et o calitu mas meas cu sto'
+  Assigned: 'be fili cor tuum michi et oculi tui vias meas custodiant'
+  Words:    [85..95) consumed=10
+  NW score: k=10 (pre-snap), norm=4.6988
+  Anchor:   word 95 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 re fili cor-tuum mich- et o cali-tu- -mas meas cu sto----- 48
+                      0 ---||||  7
+    query             0 ---fili cor tuum michi et o-culi tui vias meas cu-stodiant 53
+=== END DEBUG ===
+

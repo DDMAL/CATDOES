@@ -1,0 +1,199 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'mula tua domine quasitibido Argumentosa deservit s'
+  [fused_1] 'enedico te pater donumi mei Jhesu episti quia'
+  [fused_2] 'per filium tuum ignis extinctus esta latere meo  Benedeidinis eore'
+  [fused_3] 'riduanas a domino poposci inducias ut domum meam'
+  [fused_4] 'easeam consecarem et landare eoodae Dominum autem'
+  [fused_5] 'ra finem daret cetilia exclamavit dicens eya milites xpisti'
+  [fused_6] 'abicite orera tenebrarum et induamini armis Lucis evovae'
+  [fused_7] ''
+  [fused_8] ''
+  [fused_9] 'go gloriosa semper Evangelium xpisti gerebat'
+  [fused_10] 'in pectore suodrebus neque noctibus a Colloquuis di'
+  [fused_11] 'stratione cesaremus omnes ad do'
+  [fused_12] 'Omum hesum xistum ut confessoribus suis fontis venram oro do quinos anna vidementis juvit regentm ymus et et ad noc'
+  [fused_13] 'tprsciv. olaista dioits de conta mitu sec leginter delbro inusterum'
+  [fused_14] 'menatierorie mirorum elemens de quo apostolo Paulus.'
+  [fused_15] 'rante sancto demente .pims angan'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'mula tua domine quasitibido Argumentosa deservit s'
+  Assigned: 'tua domine quasi ovis tibi argumentosa deservit'
+  Words:    [0..7) consumed=7
+  NW score: k=7 (pre-snap), norm=5.2396
+  Anchor:   word 18 (within_chant_7), diff=11, snapped=False, forced=False
+  Alignment:
+    target            0 mula tua domine quasi------tibido Argumentosa deservit s 50
+                      0 -----|||  8
+    query             0 -----tua domine quasi ovis tibi-- argumentosa deservit-- 47
+
+-- fused_1 --
+  OCR:      'enedico te pater donumi mei Jhesu episti quia'
+  Assigned: '~Deus deus euouae Benedico te pater domini mei ihesu xpisti quia'
+  Words:    [7..18) consumed=11
+  NW score: k=11 (pre-snap), norm=4.4162
+  Anchor:   word 18 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -------------------enedico te pater do--numi mei Jhesu epist
+                      0 -------------------|||||||
+    query             0 ~Deus deus euouae Benedico te pater domin--i mei ihesu xpist
+    
+    target           39 i quia 45
+                     26 | 27
+    query            58 i quia 64
+
+-- fused_2 --
+  OCR:      'per filium tuum ignis extinctus esta latere meo  Benedeidinis eore'
+  Assigned: 'per filium tuum ignis extinctus est a latere meo ~Benedic'
+  Words:    [18..28) consumed=10
+  NW score: k=11 (pre-snap), norm=6.4514
+  Anchor:   word 28 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 per filium tuum ignis extinctus est-a latere meo  Benedeidin
+                      0 |||
+    query             0 per filium tuum ignis extinctus est a latere meo ~Bened-----
+    
+    target           59 is eore 66
+                      3 |-----. 10
+    query            55 i-----c 57
+
+-- fused_3 --
+  OCR:      'riduanas a domino poposci inducias ut domum meam'
+  Assigned: 'euoue Triduanas a domino poposci inducias ut domum meam'
+  Words:    [28..37) consumed=9
+  NW score: k=9 (pre-snap), norm=6.9870
+  Anchor:   word 37 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -------riduanas a domino poposci inducias ut domum meam 48
+                      0 -------|||||||| 15
+    query             0 euoue Triduanas a domino poposci inducias ut domum meam 55
+
+-- fused_4 --
+  OCR:      'easeam consecarem et landare eoodae Dominum autem'
+  Assigned: 'ecclesiam consecrarem ~Laudate euouae Dum auro'
+  Words:    [37..43) consumed=6
+  NW score: k=6 (pre-snap), norm=3.0517
+  Anchor:   word 43 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 e---aseam consec-arem et landare eoodae Dominum au-tem 49
+                      0 |---.|.||  9
+    query             0 ecclesiam consecrarem --~Laudate euouae D----um aurora 48
+
+-- fused_5 --
+  OCR:      'ra finem daret cetilia exclamavit dicens eya milites xpisti'
+  Assigned: 'ra finem daret cecilia exclamavit dicens eya milites xpisti'
+  Words:    [43..51) consumed=8
+  NW score: k=8 (pre-snap), norm=7.3416
+  Anchor:   word 51 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ra finem daret cetilia exclamavit dicens eya milites xpisti
+                      0 ---|||||
+    query             0 ---finem daret cecilia exclamavit dicens eya milites xpisti
+    
+    target           59
+                      8
+    query            56
+
+-- fused_6 --
+  OCR:      'abicite orera tenebrarum et induamini armis Lucis evovae'
+  Assigned: 'abicite opera tenebrarum et induimini armis lucis'
+  Words:    [51..58) consumed=7
+  NW score: k=8 (pre-snap), norm=6.8393
+  Anchor:   word 58 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 abicite orera tenebrarum et induamini armis Lucis evovae 56
+                      0 |||||||  7
+    query             0 abicite opera tenebrarum et induimini armis lucis------- 49
+
+-- fused_7 --
+  OCR:      ''
+  Assigned: 'euouae Virgo gloriosa semper evangelium christi gerebat'
+  Words:    [58..65) consumed=7
+
+-- fused_8 --
+  OCR:      ''
+  Assigned: 'in pectore suo non diebus neque noctibus a colloquiis di'
+  Words:    [65..75) consumed=10
+
+-- fused_9 --
+  OCR:      'go gloriosa semper Evangelium xpisti gerebat'
+  Assigned: 'vinis et oratione cessabat euouae Oremus omnes ad dominum ihesum xpistum ut'
+  Words:    [75..86) consumed=11
+  NW score: k=11 (pre-snap), norm=-0.4174
+  Anchor:   word 83 (within_chant_7), diff=3, snapped=False, forced=False
+  Alignment:
+    target            0 go glor--io------sa---------- -----s-emper Eva------ngeli---
+                      0 ..
+    query             0 et --oratione cessabat euouae Oremus omnes --ad dominum ihes
+    
+    target           27 um xpist-i gerebat 44
+                      2 ||  4
+    query            56 um xpistum -----ut 69
+
+-- fused_10 --
+  OCR:      'in pectore suodrebus neque noctibus a Colloquuis di'
+  Assigned: 'confessoribus suis fontis venam'
+  Words:    [86..90) consumed=4
+  NW score: k=5 (pre-snap), norm=-0.5606
+  Anchor:   word 90 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 in pecto-re suodrebus nequ-e noctibus ---a Colloquuis di 51
+                      0 -----|-|-.|-|.|-|.||| 21
+    query             0 -----c-onfe-sso-ribus --suis fonti--s vena-------------m 31
+
+-- fused_11 --
+  OCR:      'stratione cesaremus omnes ad do'
+  Assigned: 'aperiat'
+  Words:    [90..91) consumed=1
+  NW score: k=4 (pre-snap), norm=-1.0522
+  Anchor:   word 91 (within_chant_7), diff=3, snapped=False, forced=True
+  Alignment:
+    target            0 stratione cesaremus omnes ad do 31
+                      0 ---|------.|--|----------.|---. 31
+    query             0 ---a------pe--r----------ia---t  7
+
+-- fused_12 --
+  OCR:      'Omum hesum xistum ut confessoribus suis fontis venram oro do quinos anna vidementis juvit regentm ymus et et ad noc'
+  Assigned: 'euouae Orante sancto clemente apparuit ei angelus'
+  Words:    [91..98) consumed=7
+  NW score: k=7 (pre-snap), norm=-2.1314
+  Anchor:   word 98 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 Omum hesum xistum ut confessoribus suis fontis venram oro do
+                      0 ------|-----------|---|..|--------
+    query             0 ------e-----------u---ouae-------- ----Orant----e-----------
+    
+    target           60  quinos an-na vidementis ----juvit re----gentm ymus et et ad
+                     34 
+    query            13  -----s-ancto -clement-e apparu-it -ei ange-----lus---------
+    
+    target          111  noc 115
+                     34 ----  38
+    query            49 ----  49
+
+-- fused_13 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [98..98) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_14 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [98..98) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_15 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [98..98) consumed=0
+  Alignment:
+    (no words left)
+=== END DEBUG ===
+

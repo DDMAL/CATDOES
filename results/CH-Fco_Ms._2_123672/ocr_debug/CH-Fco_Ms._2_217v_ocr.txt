@@ -1,0 +1,179 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'tro in et dominati ones principatus et potesterates virtutes'
+  [fused_1] 'cherubin atque seraphum Patriarche et propheterem Sancti Legii'
+  [fused_2] 'omnes Cptisti martyres Sancti confessore'
+  [fused_3] 'M ngnis conia nacboritem santiai omi nes ilcenie mi'
+  [fused_4] 'CVit di epro nobis evovae'
+  [fused_5] 'egem reum dominumeeadore'
+  [fused_6] ' t toro no Sanctorum omni'
+  [fused_7] 'mnte Novit dominus viamjustorum'
+  [fused_8] 'lege eius meditaude  eats r o'
+  [fused_9] 'irificavit dominus sanctos suos et exandivit eos'
+  [fused_10] 'clamantes ad seLum mucc eovae et admnirabile'
+  [fused_11] 'est nomen tuum domine quia gloria et honore coronasti'
+  [fused_12] 'cantos curs et consatuisti eos super opera manuu cu'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'tro in et dominati ones principatus et potesterates virtutes'
+  Assigned: 'troni et dominationes principatus et potestates virtutes'
+  Words:    [0..7) consumed=7
+  NW score: k=7 (pre-snap), norm=7.0904
+  Anchor:   word 38 (within_chant_7), diff=31, snapped=False, forced=False
+  Alignment:
+    target            0 tro in et dominati ones principatus et potesterates virtutes
+                      0 |||.|-
+    query             0 troni- et dominati-ones principatus et potest--ates virtutes
+    
+    target           60 
+                      6 
+    query            56 
+
+-- fused_1 --
+  OCR:      'cherubin atque seraphum Patriarche et propheterem Sancti Legii'
+  Assigned: 'cherubm atque seraphim patriarche et prophete sancti legis'
+  Words:    [7..15) consumed=8
+  NW score: k=8 (pre-snap), norm=6.1034
+  Anchor:   word 38 (within_chant_7), diff=23, snapped=False, forced=False
+  Alignment:
+    target            0 cherubin atque seraphum Patriarche et propheterem Sancti Leg
+                      0 ||||||-.
+    query             0 cherub-m atque seraphim patriarche et prophete--- sancti leg
+    
+    target           60 ii 62
+                      8 |. 10
+    query            56 is 58
+
+-- fused_2 --
+  OCR:      'omnes Cptisti martyres Sancti confessore'
+  Assigned: 'doctores apostoli omnes xpisti martyres sancti confessores'
+  Words:    [15..22) consumed=7
+  NW score: k=7 (pre-snap), norm=4.4429
+  Anchor:   word 38 (within_chant_7), diff=16, snapped=False, forced=False
+  Alignment:
+    target            0 ------------------omnes Cptisti martyres Sancti confessore-
+                      0 ------------------|||||
+    query             0 doctores apostoli omnes xp-isti martyres sancti confessores
+    
+    target           40
+                     23
+    query            58
+
+-- fused_3 --
+  OCR:      'M ngnis conia nacboritem santiai omi nes ilcenie mi'
+  Assigned: 'virgines domini anachori te sanctique omnes intercedi'
+  Words:    [22..29) consumed=7
+  NW score: k=7 (pre-snap), norm=2.3658
+  Anchor:   word 38 (within_chant_7), diff=9, snapped=False, forced=False
+  Alignment:
+    target            0 M ng-nis co--ni-a nacbori-tem san-ti-ai omi nes ilcenie mi 51
+                      0 ...|-|.|  8
+    query             0 virgines domini a-nachori te- sanctique om--nes interce-di 53
+
+-- fused_4 --
+  OCR:      'CVit di epro nobis evovae'
+  Assigned: 'te pro nobis euouae'
+  Words:    [29..33) consumed=4
+  NW score: k=4 (pre-snap), norm=3.8083
+  Anchor:   word 38 (within_chant_7), diff=5, snapped=False, forced=False
+  Alignment:
+    target            0 CVit di epro nobis evovae 25
+                      0 ---|--.  7
+    query             0 ---t--e -pro nobis euouae 19
+
+-- fused_5 --
+  OCR:      'egem reum dominumeeadore'
+  Assigned: 'Regem regum dominum venite adoremus'
+  Words:    [33..38) consumed=5
+  NW score: k=5 (pre-snap), norm=4.6579
+  Anchor:   word 38 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -egem re-um dominum--e---e-adore--- 24
+                      0 -||||  5
+    query             0 Regem regum dominum venite adoremus 35
+
+-- fused_6 --
+  OCR:      't toro no Sanctorum omni'
+  Assigned: 'Quia ipse est corona sanctorum om'
+  Words:    [38..44) consumed=6
+  NW score: k=6 (pre-snap), norm=2.9531
+  Anchor:   word 44 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ------------t toro no Sanctorum omni-- 24
+                      0 ------------| 13
+    query             0 Quia ipse est coro-na sanctorum omnium 37
+
+-- fused_7 --
+  OCR:      'mnte Novit dominus viamjustorum'
+  Assigned: 'nium Venite Novit dominus viam iustorum qui in'
+  Words:    [44..51) consumed=7
+  NW score: k=5 (pre-snap), norm=6.1912
+  Anchor:   word 51 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 -mn-te Novit dominus viam-justorum------- 31
+                      0 -.|-||  6
+    query             0 Venite Novit dominus viam iustorum qui in 41
+
+-- fused_8 --
+  OCR:      'lege eius meditaude  eats r o'
+  Assigned: 'lege eius meditatur die ac nocte ~Beatus'
+  Words:    [51..58) consumed=7
+  NW score: k=3 (pre-snap), norm=4.1323
+  Anchor:   word 58 (within_chant_7), diff=4, snapped=False, forced=True
+  Alignment:
+    target            0 lege eius medita-u--d-e -------- --eat-s r o 29
+                      0 ||||  4
+    query             0 lege eius meditatur die ac nocte ~Beatus---- 40
+
+-- fused_9 --
+  OCR:      'irificavit dominus sanctos suos et exandivit eos'
+  Assigned: 'vir euouae Mirificavit dominus sanctos suos et exaudivit eos'
+  Words:    [58..67) consumed=9
+  NW score: k=9 (pre-snap), norm=6.1678
+  Anchor:   word 67 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ------------irificavit dominus sanctos suos et exandivit eos
+                      0 ------------||||||||||
+    query             0 vir euouae Mirificavit dominus sanctos suos et exaudivit eos
+    
+    target           48 
+                     22 
+    query            60 
+
+-- fused_10 --
+  OCR:      'clamantes ad seLum mucc eovae et admnirabile'
+  Assigned: 'clamantes ad se {Cum invocarem} euouae Admirabile'
+  Words:    [67..74) consumed=7
+  NW score: k=7 (pre-snap), norm=3.8550
+  Anchor:   word 74 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 clamantes ad se--Lum --muc----c e-ovae et admnirabile 44
+                      0 |||||||||  9
+    query             0 clamantes ad se {Cum invocarem} euouae--- Adm-irabile 49
+
+-- fused_11 --
+  OCR:      'est nomen tuum domine quia gloria et honore coronasti'
+  Assigned: 'est nomen tuum domine quia gloria et honore coronasti'
+  Words:    [74..83) consumed=9
+  NW score: k=9 (pre-snap), norm=8.0000
+  Anchor:   word 83 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 est nomen tuum domine quia gloria et honore coronasti 53
+                      0 |||  3
+    query             0 est nomen tuum domine quia gloria et honore coronasti 53
+
+-- fused_12 --
+  OCR:      'cantos curs et consatuisti eos super opera manuu cu'
+  Assigned: 'sanctos tuos et constituisti eos super opera manuum tuarum'
+  Words:    [83..92) consumed=9
+  NW score: k=8 (pre-snap), norm=5.9412
+  Anchor:   word 92 (page_break_77), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 can-tos curs et cons-atuisti eos super opera manuu- cu---- 51
+                      0 .||-|||  7
+    query             0 sanctos tuos et constituisti eos super opera manuum tuarum 58
+=== END DEBUG ===
+

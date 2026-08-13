@@ -1,0 +1,211 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'cossa non habet sicut me jndecis habere jam credite Alleluya'
+  [fused_1] 'noprtem piscis as'
+  [fused_2] 'si et famuni Mellis Alcluya Alleluya evovac a'
+  [fused_3] 'sunt serviones quos dicebam vobis cum essem vobiscum'
+  [fused_4] 'hesum qm crucifixus est queritis Allelvya no'
+  [fused_5] 'est hic suprexit enim sicut dixit nobis Aveluya evovac'
+  [fused_6] 'nelupa alelura Avelia Dieni qu'
+  [fused_7] 'rreliquis pres ynius . ad cenam Agni'
+  [fused_8] 'meaia . ad magnificat per ebdomadam'
+  [fused_9] 'Corne. ppent et omno re domniear te cece ar nobis ego sum'
+  [fused_10] 'Aneluya volite Timere Allelvya evovae e'
+  [fused_11] 'tuam et cognosce loca clavorum Alleluya et voli esse increduliis'
+  [fused_12] 'sed fidelis Allelvya evovae et Quia indisti me Thoma cre'
+  [fused_13] 'didisti Beati qui non viderunt et crediderunt Allelvya exo'
+  [fused_14] 'il digitam menmi in firtatis lanorm et man'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'cossa non habet sicut me jndecis habere jam credite Alleluya'
+  Assigned: 'et ossa non habet sicut me videtis habere jam credite alleluya'
+  Words:    [0..11) consumed=11
+  NW score: k=11 (pre-snap), norm=6.6402
+  Anchor:   word 18 (within_chant_7), diff=7, snapped=False, forced=False
+  Alignment:
+    target            0 --cossa non habet sicut me jndecis habere jam credite Allelu
+                      0 --.||||
+    query             0 et ossa non habet sicut me videtis habere jam credite allelu
+    
+    target           58 ya 60
+                      7 ||  9
+    query            60 ya 62
+
+-- fused_1 --
+  OCR:      'noprtem piscis as'
+  Assigned: 'euouae Optulerunt discipuli domino partem piscis as'
+  Words:    [11..18) consumed=7
+  NW score: k=7 (pre-snap), norm=0.3998
+  Anchor:   word 18 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 --------------------------------no-p-rtem piscis as-- 17
+                      0 --------------------------------||-|-|||| 41
+    query             0 euouae Optulerunt discipuli domino partem piscis assi 53
+
+-- fused_2 --
+  OCR:      'si et famuni Mellis Alcluya Alleluya evovac a'
+  Assigned: 'si et favum mellis alleluya alleluya euouae Isti'
+  Words:    [18..25) consumed=7
+  NW score: k=6 (pre-snap), norm=3.7241
+  Anchor:   word 25 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 si et famuni Mellis -Alcluya Alleluya evovac ---a 45
+                      0 ---||  5
+    query             0 ---et favu-m mellis alleluya alleluya euouae Isti 45
+
+-- fused_3 --
+  OCR:      'sunt serviones quos dicebam vobis cum essem vobiscum'
+  Assigned: 'sunt sermones quos dicebam vobis cum essem vobiscum'
+  Words:    [25..33) consumed=8
+  NW score: k=8 (pre-snap), norm=7.5343
+  Anchor:   word 33 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 sunt serviones quos dicebam vobis cum essem vobiscum 52
+                      0 ||||  4
+    query             0 sunt ser-mones quos dicebam vobis cum essem vobiscum 51
+
+-- fused_4 --
+  OCR:      'hesum qm crucifixus est queritis Allelvya no'
+  Assigned: 'alleluya alleluya euouae Ihesum qui crucifixus est queritis alleluya non'
+  Words:    [33..43) consumed=10
+  NW score: k=10 (pre-snap), norm=3.8554
+  Anchor:   word 43 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 --------------------------hesum q-m crucifixus est queritis 
+                      0 --------------------------|||||
+    query             0 alleluya alleluya euouae Ihesum qui crucifixus est queritis 
+    
+    target           33 Allelvya no- 44
+                     31 .||||.|| 39
+    query            60 alleluya non 72
+
+-- fused_5 --
+  OCR:      'est hic suprexit enim sicut dixit nobis Aveluya evovac'
+  Assigned: 'est hic surrexit enim sicut dixit vobis alleluya euouae'
+  Words:    [43..52) consumed=9
+  NW score: k=9 (pre-snap), norm=6.1287
+  Anchor:   word 52 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 est hic suprexit enim sicut dixit nobis -Aveluya evovac 54
+                      0 |||  3
+    query             0 est hic surrexit enim sicut dixit vobis alleluya euouae 55
+
+-- fused_6 --
+  OCR:      'nelupa alelura Avelia Dieni qu'
+  Assigned: 'Alleluya alleluya alleluya ~Dilexi'
+  Words:    [52..56) consumed=4
+  NW score: k=5 (pre-snap), norm=2.3946
+  Anchor:   word 56 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 --nelupa a-lelura -Avel-ia -Di-eni qu 30
+                      0 --.|||.|  8
+    query             0 Alleluya alleluya alleluya ~Dilexi--- 34
+
+-- fused_7 --
+  OCR:      'rreliquis pres ynius . ad cenam Agni'
+  Assigned: 'quoniam euouae Pax vobis ego sum'
+  Words:    [56..62) consumed=6
+  NW score: k=4 (pre-snap), norm=-1.6670
+  Anchor:   word 62 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 rreliqu--i-s pres yniu-s . ad cenam Ag---ni 36
+                      0 -----||--|-. 12
+    query             0 -----quoniam --e---uouae -Pax vobis ego sum 32
+
+-- fused_8 --
+  OCR:      'meaia . ad magnificat per ebdomadam'
+  Assigned: 'alleluia nolite timere alleluya euouae Mitte manum'
+  Words:    [62..69) consumed=7
+  NW score: k=5 (pre-snap), norm=-1.3984
+  Anchor:   word 69 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 --me-aia . ad magnificat- --per---------- ebdo----------mada
+                      0 --.|-.||
+    query             0 alleluia --------noli--te timere alleluya e-uouae Mitte manu
+    
+    target           34 m 35
+                      8 |  9
+    query            49 m 50
+
+-- fused_9 --
+  OCR:      'Corne. ppent et omno re domniear te cece ar nobis ego sum'
+  Assigned: 'tuam et cognosce loca clavorum alleluya et noli esse incredulus'
+  Words:    [69..79) consumed=10
+  NW score: k=9 (pre-snap), norm=-0.4225
+  Anchor:   word 79 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 Corne. ppent--- et -omno re do-mniea--r te cece---- ar nobis
+                      0 -----------|---
+    query             0 -----------tuam et cognosce loca clavor-um alleluya et noli-
+    
+    target           49  e-go -------sum 57
+                     15  15
+    query            47  esse incredulus 63
+
+-- fused_10 --
+  OCR:      'Aneluya volite Timere Allelvya evovae e'
+  Assigned: 'sed fidelis alleluya euouae'
+  Words:    [79..83) consumed=4
+  NW score: k=4 (pre-snap), norm=0.8012
+  Anchor:   word 88 (within_chant_7), diff=5, snapped=False, forced=False
+  Alignment:
+    target            0 Aneluya volite Timere Allelvya evovae e 39
+                      0 -.|---.  7
+    query             0 -se---d --fide-li---s alleluya euoua--e 27
+
+-- fused_11 --
+  OCR:      'tuam et cognosce loca clavorum Alleluya et voli esse increduliis'
+  Assigned: 'Quia vidisti me thoma cre'
+  Words:    [83..88) consumed=5
+  NW score: k=15 (pre-snap), norm=-0.9171
+  Anchor:   word 88 (within_chant_7), diff=10, snapped=False, forced=True
+  Alignment:
+    target            0 tu-am et cognosce loca clavorum Alleluya et voli esse incred
+                      0 .|-|----
+    query             0 Quia---- -vidisti ------------m----e---- -t-homa -------cred
+    
+    target           59 uli-is-- 64
+                      8 --|-||-- 16
+    query            26 --idisti 32
+
+-- fused_12 --
+  OCR:      'sed fidelis Allelvya evovae et Quia indisti me Thoma cre'
+  Assigned: 'didisti beati qui non viderunt et crediderunt alleluya euouae Misi digitos meos in'
+  Words:    [88..100) consumed=12
+  NW score: k=12 (pre-snap), norm=-0.1087
+  Anchor:   word 96 (within_chant_7), diff=4, snapped=False, forced=False
+  Alignment:
+    target            0 se----------d fid-----------eli-----s Allelvya evovae et Qui
+                      0 .|----------.
+    query             0 beati qui non viderunt et crediderunt alleluya euouae ----Mi
+    
+    target           34 a indi-st-i me Thoma cre 56
+                     13 -.|.||-.|-. 24
+    query            56 -si digitos me---o-s -in 74
+
+-- fused_13 --
+  OCR:      'didisti Beati qui non viderunt et crediderunt Allelvya exo'
+  Assigned: 'fixuras clavorum et manum'
+  Words:    [100..104) consumed=4
+  NW score: k=4 (pre-snap), norm=-2.5736
+  Anchor:   word 104 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 di--disti Beati qui non viderunt et crediderunt Allelvya exo
+                      0 .|--..|--
+    query             0 fixuras-- cla-----------v--oru-m et ------------------ma-num
+    
+    target           58 
+                      9 
+    query            25 
+
+-- fused_14 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [104..104) consumed=0
+  Alignment:
+    (no words left)
+=== END DEBUG ===
+

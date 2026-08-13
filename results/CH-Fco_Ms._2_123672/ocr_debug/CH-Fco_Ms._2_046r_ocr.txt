@@ -1,0 +1,203 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'die Baptizato domino et nobis donata est regeneratio  voce mea'
+  [fused_1] 'oa .aptizatur Cpististus et sanctificatur omnis in'
+  [fused_2] 'dus et tribuit nobis remissionem peccatorum aqua et spiritu'
+  [fused_3] 'di sece ent noni e eta diius'
+  [fused_4] 'omnes purificans pres cantate Eovae'
+  [fused_5] 'aptizat. minles regem servus dominum suum Johan'
+  [fused_6] 'nos salvatorem aqua jordanis stupuit columba protestatur'
+  [fused_7] 'paterna vox audita est hic filius meus pos'
+  [fused_8] 'Lau apta sunt supteum furt fatu dicu ices'
+  [fused_9] 'filius mens dilectus ili quo michi comPlacui po uorae'
+  [fused_10] 'pisteodatus est principatus honor et regni e'
+  [fused_11] 'nus populus tribus ete servient meter'
+  [fused_12] 'doa ontes aquarum sanctificati sunt pi'
+  [fused_13] 'Sto aparente m go ma orbis tenatum aunite agnas'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'die Baptizato domino et nobis donata est regeneratio  voce mea'
+  Assigned: 'baptizato domino et nobis donata est regeneratio ~Voce mea'
+  Words:    [0..9) consumed=9
+  NW score: k=9 (pre-snap), norm=6.8205
+  Anchor:   word 16 (within_chant_7), diff=7, snapped=False, forced=False
+  Alignment:
+    target            0 die Baptizato domino et nobis donata est regeneratio  voce m
+                      0 ----.||||||||
+    query             0 ----baptizato domino et nobis donata est regeneratio ~Voce m
+    
+    target           60 ea 62
+                     13 || 15
+    query            56 ea 58
+
+-- fused_1 --
+  OCR:      'oa .aptizatur Cpististus et sanctificatur omnis in'
+  Assigned: 'euouae Baptizatur xpistus et sanctificatur omnis mun'
+  Words:    [9..16) consumed=7
+  NW score: k=6 (pre-snap), norm=5.6338
+  Anchor:   word 16 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 --o-a- .aptizatur Cpististus et sanctificatur omnis -in--- 50
+                      0 --|-|-  6
+    query             0 euouae Baptizatur xp---istus et sanctificatur omnis mundus 55
+
+-- fused_2 --
+  OCR:      'dus et tribuit nobis remissionem peccatorum aqua et spiritu'
+  Assigned: 'dus et tribuit nobis remissionem peccatorum aqua et spiritu'
+  Words:    [16..24) consumed=8
+  NW score: k=8 (pre-snap), norm=7.4432
+  Anchor:   word 24 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 dus et tribuit nobis remissionem peccatorum aqua et spiritu
+                      0 ----||
+    query             0 ----et tribuit nobis remissionem peccatorum aqua et spiritu
+    
+    target           59
+                      6
+    query            55
+
+-- fused_3 --
+  OCR:      'di sece ent noni e eta diius'
+  Assigned: 'omnes purificans ~Cantate euouae'
+  Words:    [24..28) consumed=4
+  NW score: k=6 (pre-snap), norm=-1.5437
+  Anchor:   word 28 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 ---di ----sece ent -non-i e eta diiu-s 28
+                      0 ---..  5
+    query             0 omnes purific--ans ~Cantate e----uouae 32
+
+-- fused_4 --
+  OCR:      'omnes purificans pres cantate Eovae'
+  Assigned: 'Baptizat miles regem servus dominum suum johan'
+  Words:    [28..35) consumed=7
+  NW score: k=9 (pre-snap), norm=-1.6353
+  Anchor:   word 35 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 --------om-nes purificans pr-es --can---tate Eova--e- 35
+                      0 --------.|-.|| 14
+    query             0 Baptizat miles --r-egem s-ervus dominum suum johannes 49
+
+-- fused_5 --
+  OCR:      'aptizat. minles regem servus dominum suum Johan'
+  Assigned: 'nes salvatorem aqua iordanis stupuit columba protestatur'
+  Words:    [35..41) consumed=6
+  NW score: k=5 (pre-snap), norm=-0.8995
+  Anchor:   word 41 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 -aptizat. minles regem servus do-minum s---u------um-- -Jo--
+                      0 -|--..||--------.|--||
+    query             0 sa--lvat--------or--em --aqua iordanis stupuit columba prote
+    
+    target           44 -ha--n 47
+                     22 -.|--. 28
+    query            46 statur 52
+
+-- fused_6 --
+  OCR:      'nos salvatorem aqua jordanis stupuit columba protestatur'
+  Assigned: 'paterna vox audita est hic est filius meus ~Dominus regnavit'
+  Words:    [41..51) consumed=10
+  NW score: k=8 (pre-snap), norm=-1.1753
+  Anchor:   word 51 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 nos salvatorem aqua jorda-ni-s -stupui----t col-u--m-ba pro-
+                      0 -------.||.|-----.|
+    query             0 -------pater-----na vox audita est- hic est filius meus ~Dom
+    
+    target           48 -----testa--tur 56
+                     19 -----.|..|--|-- 34
+    query            47 inus regnavit-- 60
+
+-- fused_7 --
+  OCR:      'paterna vox audita est hic filius meus pos'
+  Assigned: 'euouae Celi aperti sunt super eum et vox facta est de celo dicens hic est filius meus dilectus'
+  Words:    [51..69) consumed=18
+  NW score: k=18 (pre-snap), norm=0.6684
+  Anchor:   word 66 (within_chant_7), diff=3, snapped=False, forced=False
+  Alignment:
+    target            0 -----------pater-----n-------------a vox -audita est--------
+                      0 -----------.|.||-----|-------------.
+    query             0 euouae Celi aperti sunt super eum et vox fa--cta est de celo
+    
+    target           22 ------- hic---- filius meus -----pos 42
+                     36 ------- 43
+    query            58  dicens hic est filius meus dilectus 94
+
+-- fused_8 --
+  OCR:      'Lau apta sunt supteum furt fatu dicu ices'
+  Assigned: 'in quo michi complacui ~Iubilate euouae Xpisto datus est'
+  Words:    [69..78) consumed=9
+  NW score: k=9 (pre-snap), norm=-1.2730
+  Anchor:   word 75 (within_chant_7), diff=3, snapped=False, forced=False
+  Alignment:
+    target            0 --Lau------- --apta sunt -su---pt--eum furt --fatu dicu- ice
+                      0 --..|-------
+    query             0 in quo michi compla-cu-i ~Iubilate eu--ouae Xpisto datus --e
+    
+    target           40 s- 41
+                     12 |- 14
+    query            54 st 56
+
+-- fused_9 --
+  OCR:      'filius mens dilectus ili quo michi comPlacui po uorae'
+  Assigned: 'principatus honor et regni om'
+  Words:    [78..83) consumed=5
+  NW score: k=9 (pre-snap), norm=-0.8915
+  Anchor:   word 83 (within_chant_7), diff=4, snapped=False, forced=True
+  Alignment:
+    target            0 -fi-li---us men-s dilectus ili quo michi comPlacui po uorae
+                      0 -.|-.|---||
+    query             0 principatus honor ---e-t---------- regni -om----ni--------s
+    
+    target           53
+                     11
+    query            32
+
+-- fused_10 --
+  OCR:      'pisteodatus est principatus honor et regni e'
+  Assigned: 'nis populus tribus et lingue servient ei in eternum'
+  Words:    [83..91) consumed=8
+  NW score: k=4 (pre-snap), norm=0.1231
+  Anchor:   word 91 (within_chant_7), diff=4, snapped=False, forced=True
+  Alignment:
+    target            0 p----is-teodatus est principatus honor- e-t regni- e------ 44
+                      0 |----.|-|--...|| 16
+    query             0 populus t--ribus e-t -lin----gue --servient -ei in eternum 47
+
+-- fused_11 --
+  OCR:      'nus populus tribus ete servient meter'
+  Assigned: '~Deus deus euouae Fontes'
+  Words:    [91..95) consumed=4
+  NW score: k=4 (pre-snap), norm=-0.8725
+  Anchor:   word 99 (within_chant_7), diff=4, snapped=False, forced=False
+  Alignment:
+    target            0 nus populus tribus e---te servient meter 37
+                      0 ------...|| 11
+    query             0 ------~Deus --deus euouae ----Fon----tes 24
+
+-- fused_12 --
+  OCR:      'doa ontes aquarum sanctificati sunt pi'
+  Assigned: 'aquarum sanctificati sunt xpi'
+  Words:    [95..99) consumed=4
+  NW score: k=3 (pre-snap), norm=4.9640
+  Anchor:   word 99 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 doa ontes aquarum sanctificati sunt -pi--- 38
+                      0 ----------||||||| 17
+    query             0 ----------aquarum sanctificati sunt xpisto 32
+
+-- fused_13 --
+  OCR:      'Sto aparente m go ma orbis tenatum aunite agnas'
+  Assigned: 'sto apparente in gloria orbi terrarum aurite aquas'
+  Words:    [99..106) consumed=7
+  NW score: k=7 (pre-snap), norm=3.8927
+  Anchor:   word 106 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 Sto a-parente -m g-o ma orbis te-natum aunite agnas 47
+                      0 ----|-||||||| 13
+    query             0 ----apparente in gloria orbi- terrarum aurite aquas 46
+=== END DEBUG ===
+

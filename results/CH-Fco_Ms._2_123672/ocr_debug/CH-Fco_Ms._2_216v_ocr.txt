@@ -1,0 +1,171 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'plagarum Chpitisti tu gtiegituo provide qui post felicem'
+  [fused_1] 'tum dure priust'
+  [fused_2] '. opase tendit Benedictus eovae '
+  [fused_3] 'vurum mirabilem insignis et prodiguis'
+  [fused_4] 'demonis quos libetpellentem . dat aurem suis anium pre'
+  [fused_5] 'dicans silvestrium verbis'
+  [fused_6] 'bilem qua fidem sic i sed et multos in vificat'
+  [fused_7] 'mortuos defunctus Fran e nos celestium fac consortes'
+  [fused_8] 'cunum quibus es comun t magnificat eore'
+  [fused_9] 'Mane tesamalie popte ileum p mmacati'
+  [fused_10] 'ad populum qui premitur et e'
+  [fused_11] 'rltere tEgyptio sub sabulo nos'
+  [fused_12] 'ute acanus eccesie com no crorae  Paian'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'plagarum Chpitisti tu gtiegituo provide qui post felicem'
+  Assigned: 'xpisti tu gregi tuo provide qui post felicem'
+  Words:    [0..8) consumed=8
+  NW score: k=8 (pre-snap), norm=5.2378
+  Anchor:   word 20 (within_chant_7), diff=12, snapped=False, forced=False
+  Alignment:
+    target            0 plagarum Chpitisti tu gtiegi-tuo provide qui post felicem 56
+                      0 ----------.|--|||| 18
+    query             0 ----------xp--isti tu g-regi tuo provide qui post felicem 44
+
+-- fused_1 --
+  OCR:      'tum dure priust'
+  Assigned: 'transitum dire prius'
+  Words:    [8..11) consumed=3
+  NW score: k=3 (pre-snap), norm=4.0415
+  Anchor:   word 20 (within_chant_7), diff=9, snapped=False, forced=False
+  Alignment:
+    target            0 ------tum dure priust 15
+                      0 ------|||  9
+    query             0 transitum dire prius- 20
+
+-- fused_2 --
+  OCR:      '. opase tendit Benedictus eovae'
+  Assigned: 'et livide glorificate speciem carnis predendisti ~Benedictus euouae O'
+  Words:    [11..20) consumed=9
+  NW score: k=8 (pre-snap), norm=0.9655
+  Anchor:   word 20 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 --------. --o----pa---s----e-------- ---tendi-t- -Benedictus
+                      0 --------.
+    query             0 et livide glorificate speciem carnis predendisti ~Benedictus
+    
+    target           25  e-ovae-- 31
+                      9   9
+    query            60  euouae O 69
+
+-- fused_3 --
+  OCR:      'vurum mirabilem insignis et prodiguis'
+  Assigned: 'virum mirabilem in signis et prodigus langores cum'
+  Words:    [20..28) consumed=8
+  NW score: k=6 (pre-snap), norm=7.0541
+  Anchor:   word 28 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 vurum mirabilem in-signis et prodigu--------is---- 37
+                      0 |.|||  5
+    query             0 virum mirabilem in signis et prodigus langores cum 50
+
+-- fused_4 --
+  OCR:      'demonis quos libetpellentem . dat aurem suis anium pre'
+  Assigned: 'demonis quoslibet pellentem dat aurem suis avium pre'
+  Words:    [28..36) consumed=8
+  NW score: k=7 (pre-snap), norm=6.3443
+  Anchor:   word 36 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 demonis quos libet-pellentem . dat aurem suis anium pre-----
+                      0 |||||||
+    query             0 demonis quos-libet pellentem-- dat aurem suis avium predican
+    
+    target           54 - 54
+                      7 -  8
+    query            57 s 58
+
+-- fused_5 --
+  OCR:      'dicans silvestrium verbis'
+  Assigned: 'dicans silvestrium verbis intendentem o vitam lauda'
+  Words:    [36..42) consumed=6
+  NW score: k=2 (pre-snap), norm=5.6097
+  Anchor:   word 42 (within_chant_7), diff=4, snapped=False, forced=True
+  Alignment:
+    target            0 dicans silvestrium verbis------------------------------- 25
+                      0 -------||||||||||| 18
+    query             0 -------silvestrium verbis intendentem o vitam laudabilem 49
+
+-- fused_6 --
+  OCR:      'bilem qua fidem sic i sed et multos in vificat'
+  Assigned: 'bilem qua fidem sic magnificat sed et multos vivificat'
+  Words:    [42..50) consumed=8
+  NW score: k=8 (pre-snap), norm=4.8947
+  Anchor:   word 50 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 bilem qua fidem sic ------i--- sed et multos -in vificat 46
+                      0 ------|||  9
+    query             0 ------qua fidem sic magnificat sed et multos vi--vificat 48
+
+-- fused_7 --
+  OCR:      'mortuos defunctus Fran e nos celestium fac consortes'
+  Assigned: 'mortuos defunctus francisce nos celestium fac consortes'
+  Words:    [50..57) consumed=7
+  NW score: k=7 (pre-snap), norm=7.0495
+  Anchor:   word 57 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 mortuos defunctus Fran--- e nos celestium fac consortes 52
+                      0 |||||||  7
+    query             0 mortuos defunctus francisce nos celestium fac consortes 55
+
+-- fused_8 --
+  OCR:      'cunum quibus es comun t magnificat eore'
+  Assigned: 'civium quibus es coniunctus ~Magnificat euoue'
+  Words:    [57..63) consumed=6
+  NW score: k=6 (pre-snap), norm=4.6786
+  Anchor:   word 69 (within_chant_7), diff=6, snapped=False, forced=False
+  Alignment:
+    target            0 c-unum quibus es co-mun t-- -magnificat e-ore 39
+                      0 |-..||  6
+    query             0 civium quibus es coniunctus ~Magnificat euoue 45
+
+-- fused_9 --
+  OCR:      'Mane tesamalie popte ileum p mmacati'
+  Assigned: 'Sancte francisce propere veni pater accelera'
+  Words:    [63..69) consumed=6
+  NW score: k=5 (pre-snap), norm=0.5071
+  Anchor:   word 69 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 Mane tesama-li--e p-op-te ileum p---- mmac-----ati 36
+                      0 .||-.||...|-.|--| 17
+    query             0 San-cte francisce propere -veni pater --accelera-- 44
+
+-- fused_10 --
+  OCR:      'ad populum qui premitur et e'
+  Assigned: 'ad populum qui premitur et teritur sub ho'
+  Words:    [69..77) consumed=8
+  NW score: k=5 (pre-snap), norm=7.3384
+  Anchor:   word 77 (within_chant_7), diff=3, snapped=False, forced=True
+  Alignment:
+    target            0 ad populum qui premitur et -----------------e 28
+                      0 ||  2
+    query             0 ad populum qui premitur et teritur sub honere 45
+
+-- fused_11 --
+  OCR:      'rltere tEgyptio sub sabulo nos'
+  Assigned: 'nere palea luto latere et sepulco egyptio sub sabulo nos'
+  Words:    [77..86) consumed=9
+  NW score: k=9 (pre-snap), norm=3.4513
+  Anchor:   word 86 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ----------rl-tere -t---------Egyptio sub sabulo nos 30
+                      0 ----------.|-|||| 17
+    query             0 palea luto latere et sepulco egyptio sub sabulo nos 51
+
+-- fused_12 --
+  OCR:      'ute acanus eccesie com no crorae  Paian'
+  Assigned: 'libera carnis extincto vitio euouae Plange'
+  Words:    [86..92) consumed=6
+  NW score: k=6 (pre-snap), norm=0.4695
+  Anchor:   word 92 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -ute a-ca-nus eccesie c-om ---no crorae  Paian-- 39
+                      0 -..|.|-||-|.| 13
+    query             0 libera carnis e--xti-ncto- vitio euouae- P-lange 42
+=== END DEBUG ===
+

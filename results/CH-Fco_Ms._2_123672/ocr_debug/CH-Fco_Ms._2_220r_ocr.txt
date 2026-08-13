@@ -1,0 +1,179 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'omine si adhuc populo tu o sum neces'
+  [fused_1] 'us non recuso subi re propter e ia co rems'
+  [fused_2] 'fiat voluntas tu culis ac ma'
+  [fused_3] 'nibus in celum semper intentus in victum ab oratione spiri'
+  [fused_4] 'tum nonrela vat tat . beatum virum'
+  [fused_5] 'mar tamimi an tisti tem . qui nec mori'
+  [fused_6] 'mins nec vivere re cu sa . omine'
+  [fused_7] 'si adhuc populo tuo sum necessrusnon recuso la'
+  [fused_8] 'borem fiat vo luntas tu .ane Lonsi'
+  [fused_9] 'to in domino quod filia mea precibus tuis reddita sit sanita'
+  [fused_10] 'um invocarem Eovae etdoins cognita Dei'
+  [fused_11] 'episi gracverba mea exovae'
+  [fused_12] 'mestabilem uirum per aven nobio tanta nracala'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'omine si adhuc populo tu o sum neces'
+  Assigned: 'Ut in virtute Domine si adhuc populo tuo sum neces'
+  Words:    [0..10) consumed=10
+  NW score: k=10 (pre-snap), norm=4.4989
+  Anchor:   word 10 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ---------------omine si adhuc populo tu o sum nece------s 36
+                      0 ---------------||||| 20
+    query             0 Ut in virtute Domine si adhuc populo tu-o sum necessarius 56
+
+-- fused_1 --
+  OCR:      'us non recuso subi re propter e ia co rems'
+  Assigned: 'sarius non recuso subire propter eos laborem'
+  Words:    [10..16) consumed=6
+  NW score: k=6 (pre-snap), norm=5.1496
+  Anchor:   word 16 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 us non recuso subi re propter e-- ia co rems 42
+                      0 ---|||  6
+    query             0 ---non recuso subi-re propter eos la-bo-rem- 37
+
+-- fused_2 --
+  OCR:      'fiat voluntas tu culis ac ma'
+  Assigned: 'Fiat voluntas tua Oculis ac ma'
+  Words:    [16..22) consumed=6
+  NW score: k=5 (pre-snap), norm=5.8191
+  Anchor:   word 22 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 fiat voluntas tu- -culis ac ma----- 28
+                      0 .|||  4
+    query             0 Fiat voluntas tua Oculis ac manibus 35
+
+-- fused_3 --
+  OCR:      'nibus in celum semper intentus in victum ab oratione spiri'
+  Assigned: 'nibus in celum semper intentus invictum ab oratione spiri'
+  Words:    [22..30) consumed=8
+  NW score: k=8 (pre-snap), norm=6.5399
+  Anchor:   word 30 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 nibus in celum semper intentus in victum ab oratione spiri--
+                      0 ------||
+    query             0 ------in celum semper intentus in-victum ab oratione spiritu
+    
+    target           58 - 58
+                      8 -  9
+    query            53 m 54
+
+-- fused_4 --
+  OCR:      'tum nonrela vat tat . beatum virum'
+  Assigned: 'tum non relaxabat Fiat O beatum virum'
+  Words:    [30..36) consumed=6
+  NW score: k=6 (pre-snap), norm=4.5080
+  Anchor:   word 36 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 tum non-rela- vat -tat . beatum virum 34
+                      0 ----|||-||||-..|| 17
+    query             0 ----non relaxabat Fiat O beatum virum 33
+
+-- fused_5 --
+  OCR:      'mar tamimi an tisti tem . qui nec mori'
+  Assigned: 'martinum antistitem Qui nec mori'
+  Words:    [36..41) consumed=5
+  NW score: k=5 (pre-snap), norm=4.8464
+  Anchor:   word 41 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 mar tami--mi an tisti tem . qui nec mori 38
+                      0 |||-|--|--|- 12
+    query             0 mar-t--inum- an-tisti-tem-- Qui nec mori 32
+
+-- fused_6 --
+  OCR:      'mins nec vivere re cu sa . omine'
+  Assigned: 'timuit nec vivere recusavit Domine'
+  Words:    [41..46) consumed=5
+  NW score: k=5 (pre-snap), norm=4.2747
+  Anchor:   word 46 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 --m-ins nec vivere re cu sa- . -omine 32
+                      0 --|-|-.  7
+    query             0 timui-t nec vivere re-cu-savit Domine 34
+
+-- fused_7 --
+  OCR:      'si adhuc populo tuo sum necessrusnon recuso la'
+  Assigned: 'si adhuc populo tuo sum necessarius non recuso laborem fiat'
+  Words:    [46..56) consumed=10
+  NW score: k=8 (pre-snap), norm=6.7391
+  Anchor:   word 56 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 si adhuc populo tuo sum necess-r-us-non recuso la----------
+                      0 ||
+    query             0 si adhuc populo tuo sum necessarius non recuso laborem fiat
+    
+    target           46
+                      2
+    query            59
+
+-- fused_8 --
+  OCR:      'borem fiat vo luntas tu .ane Lonsi'
+  Assigned: 'voluntas tua Qui nec confi'
+  Words:    [56..61) consumed=5
+  NW score: k=5 (pre-snap), norm=1.4909
+  Anchor:   word 61 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 borem fiat vo luntas tu- --.ane- Lonsi-- 34
+                      0 -----------||-|||||| 20
+    query             0 -----------vo-luntas tua Qui nec Confido 28
+
+-- fused_9 --
+  OCR:      'to in domino quod filia mea precibus tuis reddita sit sanita'
+  Assigned: 'do in domino quod filia mea precibus tuis reddita sit sanita'
+  Words:    [61..71) consumed=10
+  NW score: k=10 (pre-snap), norm=7.2776
+  Anchor:   word 71 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 to in domino quod filia mea precibus tuis reddita sit sanita
+                      0 ---||
+    query             0 ---in domino quod filia mea precibus tuis reddita sit sanita
+    
+    target           60 -- 60
+                      5 --  7
+    query            57 ti 59
+
+-- fused_10 --
+  OCR:      'um invocarem Eovae etdoins cognita Dei'
+  Assigned: 'ti ~Cum invocarem euouae Tetradius cognita dei'
+  Words:    [71..77) consumed=6
+  NW score: k=6 (pre-snap), norm=5.0219
+  Anchor:   word 77 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 --um invocarem -Eovae -et--doins cognita Dei 38
+                      0 --||  4
+    query             0 ~Cum invocarem euouae Tetrad-ius cognita dei 43
+
+-- fused_11 --
+  OCR:      'episi gracverba mea exovae'
+  Assigned: 'virtute ad baptismi graciam pervenit ~Verba'
+  Words:    [77..83) consumed=6
+  NW score: k=8 (pre-snap), norm=1.9749
+  Anchor:   word 83 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 ------e------p-is-i grac----verba me--a --exovae 26
+                      0 ------|------|-||-| 19
+    query             0 virtute ad baptismi graciam per---venit ~Ve-rba- 43
+
+-- fused_12 --
+  OCR:      'mestabilem uirum per aven nobio tanta nracala'
+  Assigned: 'mea euouae O ineffabilem virum per quem nobis tanta miracula'
+  Words:    [83..93) consumed=10
+  NW score: k=10 (pre-snap), norm=3.6566
+  Anchor:   word 93 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 m--------------estabilem uirum per aven nobio tanta -nracala
+                      0 |--------------|..||||||
+    query             0 mea euouae O ineffabilem virum per quem nobis tanta miracula
+    
+    target           45 
+                     24 
+    query            60 
+=== END DEBUG ===
+

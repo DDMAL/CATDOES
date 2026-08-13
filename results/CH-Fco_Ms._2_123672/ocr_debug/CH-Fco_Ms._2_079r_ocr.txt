@@ -1,0 +1,167 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'runt hys mahelitis trigin ta ar gente is Re'
+  [fused_1] 'vesis a. pputeum et cum non invenisset est m'
+  [fused_2] 'scidit vestimenta su acluse tu et diit puer'
+  [fused_3] 'non compa rete o quo tono t'
+  [fused_4] 'in trinita tunica Joseph in sanguine heredi miserunt qui ferret'
+  [fused_5] 'cam popatem ton esi c filu tuisit an'
+  [fused_6] 'none videns Jacob vestimenta'
+  [fused_7] 'Joleptis scidit vestimenta su J Recuet'
+  [fused_8] 'devoravit filium meulii'
+  [fused_9] 'Seyti Lulerunt autem fratres ejus tuni'
+  [fused_10] 'cam illius mitten 28 trem ensam cum cogioniset'
+  [fused_11] 'tenaa sii o sept dominu intea ret intetiam '
+  [fused_12] 'e mgnan quan non nonerat au d aut manus'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'runt hys mahelitis trigin ta ar gente is Re'
+  Assigned: 'hysmahelitis triginti argenteis'
+  Words:    [0..3) consumed=3
+  NW score: k=3 (pre-snap), norm=4.7932
+  Anchor:   word 28 (within_chant_7), diff=25, snapped=False, forced=False
+  Alignment:
+    target            0 runt hys mahelitis trigin ta ar gente is Re 43
+                      0 -----|||-||||||||| 18
+    query             0 -----hys-mahelitis trigin-ti ar-gente-is--- 31
+
+-- fused_1 --
+  OCR:      'vesis a. pputeum et cum non invenisset est m'
+  Assigned: 'Reversusque ruben ad puteum et cum non invenisset eum'
+  Words:    [3..12) consumed=9
+  NW score: k=9 (pre-snap), norm=4.6386
+  Anchor:   word 28 (within_chant_7), diff=16, snapped=False, forced=False
+  Alignment:
+    target            0 --ve-sis--------- a. pputeum et cum non invenisset est m 44
+                      0 --||-|.|--------- 17
+    query             0 Reversusque ruben ad -puteum et cum non invenisset e--um 53
+
+-- fused_2 --
+  OCR:      'scidit vestimenta su acluse tu et diit puer'
+  Assigned: 'scidit vestimenta sua cum fletu et dixit puer'
+  Words:    [12..20) consumed=8
+  NW score: k=8 (pre-snap), norm=5.8879
+  Anchor:   word 28 (within_chant_7), diff=8, snapped=False, forced=False
+  Alignment:
+    target            0 scidit vestimenta su- aclu---se tu et di-it puer 43
+                      0 ||||||  6
+    query             0 scidit vestimenta sua -c-um fle-tu et dixit puer 45
+
+-- fused_3 --
+  OCR:      'non compa rete o quo tono t'
+  Assigned: 'non comparet et ego quo ibo At illi'
+  Words:    [20..28) consumed=8
+  NW score: k=7 (pre-snap), norm=4.5326
+  Anchor:   word 28 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 non compa ret-e- --o quo tono -t----- 27
+                      0 |||  3
+    query             0 non compa-ret et ego quo -ibo At illi 35
+
+-- fused_4 --
+  OCR:      'in trinita tunica Joseph in sanguine heredi miserunt qui ferret'
+  Assigned: 'intincta tunica ioseph in sanguine hedi miserunt qui ferrent'
+  Words:    [28..37) consumed=9
+  NW score: k=9 (pre-snap), norm=6.7500
+  Anchor:   word 37 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 in trinita tunica Joseph in sanguine heredi miserunt qui fer
+                      0 ||-|-||.||
+    query             0 in-t-incta tunica ioseph in sanguine h--edi miserunt qui fer
+    
+    target           60 re-t 63
+                     10 ||-| 14
+    query            56 rent 60
+
+-- fused_5 --
+  OCR:      'cam popatem ton esi c filu tuisit an'
+  Assigned: 'eam ad patrem et dicerent vide si tunica filii tui sit an'
+  Words:    [37..49) consumed=12
+  NW score: k=12 (pre-snap), norm=2.5608
+  Anchor:   word 49 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 cam -popat-em -t------on- ---e-si ----c- fil-u tui-sit an 36
+                      0 .||  3
+    query             0 eam ad patrem et dicerent vide si tunica filii tui sit an 57
+
+-- fused_6 --
+  OCR:      'none videns Jacob vestimenta'
+  Assigned: 'non Reversus Videns iacob vestimenta'
+  Words:    [49..54) consumed=5
+  NW score: k=5 (pre-snap), norm=5.2285
+  Anchor:   word 54 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 non----e---- videns Jacob vestimenta 28
+                      0 |||----|---- 12
+    query             0 non Reversus Videns iacob vestimenta 36
+
+-- fused_7 --
+  OCR:      'Joleptis scidit vestimenta su J Recuet'
+  Assigned: 'ioseph scidit vestimenta sua cum fletu et dixit'
+  Words:    [54..62) consumed=8
+  NW score: k=5 (pre-snap), norm=4.5023
+  Anchor:   word 62 (within_chant_7), diff=3, snapped=False, forced=True
+  Alignment:
+    target            0 Joleptis scidit vestimenta su- --J -Recu-e------t 38
+                      0 .|.||--.  8
+    query             0 iosep--h scidit vestimenta sua cum fletu et dixit 47
+
+-- fused_8 --
+  OCR:      'devoravit filium meulii'
+  Assigned: 'Fera pessima devoravit filium meum ioseph Tulerunt'
+  Words:    [62..69) consumed=7
+  NW score: k=5 (pre-snap), norm=3.6475
+  Anchor:   word 69 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 -------------devoravit filium meulii-------------- 23
+                      0 -------------||||||||| 22
+    query             0 Fera pessima devoravit filium meum ioseph Tulerunt 50
+
+-- fused_9 --
+  OCR:      'Seyti Lulerunt autem fratres ejus tuni'
+  Assigned: 'autem fratres eius tuni'
+  Words:    [69..73) consumed=4
+  NW score: k=4 (pre-snap), norm=3.4678
+  Anchor:   word 73 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 Seyti Lulerunt autem fratres ejus tuni--- 38
+                      0 ---------------||||| 20
+    query             0 ---------------autem fratres eius tunicam 26
+
+-- fused_10 --
+  OCR:      'cam illius mitten 28 trem ensam cum cogioniset'
+  Assigned: 'cam illius mittentes ad patrem quam cum cognovisset pa'
+  Words:    [73..81) consumed=8
+  NW score: k=7 (pre-snap), norm=4.2368
+  Anchor:   word 81 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 cam illius mitten--- 28 --trem ensam cum cogioni-set------ 46
+                      0 ----|||||| 10
+    query             0 ----illius mittentes ad patrem -quam cum cognovisset pater 53
+
+-- fused_11 --
+  OCR:      'tenaa sii o sept dominu intea ret intetiam'
+  Assigned: 'ter ait Fera Ioseph dum intraret in terram egypti'
+  Words:    [81..89) consumed=8
+  NW score: k=7 (pre-snap), norm=2.4781
+  Anchor:   word 89 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 --t--enaa sii o sept dominu intea ret in-tetiam------- 42
+                      0 --|--|-.|  9
+    query             0 ait Fe-ra ---Io-seph dum--- intra-ret in terram egypti 45
+
+-- fused_12 --
+  OCR:      'e mgnan quan non nonerat au d aut manus'
+  Assigned: 'linguam quam non noverat audivit manus eius'
+  Words:    [89..96) consumed=7
+  NW score: k=6 (pre-snap), norm=4.3380
+  Anchor:   word 96 (page_break_77), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 e mgnan quan non nonerat au d aut man-----us 39
+                      0 ...|.|.  7
+    query             0 linguam quam non noverat au-divit manus eius 43
+=== END DEBUG ===
+

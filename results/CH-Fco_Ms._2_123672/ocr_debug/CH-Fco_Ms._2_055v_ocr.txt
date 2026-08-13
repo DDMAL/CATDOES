@@ -1,0 +1,201 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'mea quam redemi sti  audebunt'
+  [fused_1] 'labia me onnen tavero bi et aminame'
+  [fused_2] 'quam redenusti domi ed eti'
+  [fused_3] 'gua mea meditabitur justiciam tu Laudem'
+  [fused_4] 'tu ni . Et a aut'
+  [fused_5] 'pectavi domine miserere inci ps misere evovae'
+  [fused_6] 'omnie refugnim factus es nobisipsum evorae et'
+  [fused_7] ' matutis domine meditabor in tes des Evovae'
+  [fused_8] 'Lalitemus domino Gloriose . ipisum evovaen Sanctis ejus'
+  [fused_9] 'cap . Nox preces Ymus Lux'
+  [fused_10] 'ecclesie surgit  . Repleti su'
+  [fused_11] 'laudate Deum  Laudunesis evovae mus e Exultavi ad bna in sanctita'
+  [fused_12] 'te serviamius domino et liberavit nos abminucis nostris ex od '
+  [fused_13] ''
+  [fused_14] 'de Et omnis mansuetudinis ejus preementod'
+  [fused_15] 'ce quan tomn et mannocinoum et Jome'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'mea quam redemi sti  audebunt'
+  Assigned: 'mea quam redemisti Dum defecerit Gaudebunt'
+  Words:    [0..6) consumed=6
+  NW score: k=6 (pre-snap), norm=4.7851
+  Anchor:   word 6 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 mea quam redemi sti ------------- -audebunt 29
+                      0 |||  3
+    query             0 mea quam redemi-sti Dum defecerit Gaudebunt 42
+
+-- fused_1 --
+  OCR:      'labia me onnen tavero bi et aminame'
+  Assigned: 'labia mea dum cantavero tibi Et anima mea'
+  Words:    [6..14) consumed=8
+  NW score: k=8 (pre-snap), norm=3.5638
+  Anchor:   word 14 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 labia me----- onnen tavero --bi et amina-me- 35
+                      0 |||||  5
+    query             0 labia mea dum can---tavero tibi Et anima mea 41
+
+-- fused_2 --
+  OCR:      'quam redenusti domi ed eti'
+  Assigned: 'quam redemisti domine Sed et lin'
+  Words:    [14..20) consumed=6
+  NW score: k=5 (pre-snap), norm=5.5594
+  Anchor:   word 20 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 quam redenusti domi-- -ed et--i---- 26
+                      0 ||||  4
+    query             0 quam redemisti domine Sed et lingua 35
+
+-- fused_3 --
+  OCR:      'gua mea meditabitur justiciam tu Laudem'
+  Assigned: 'gua mea meditabitur iustitiam tuam tota die laudem'
+  Words:    [20..27) consumed=7
+  NW score: k=4 (pre-snap), norm=5.1162
+  Anchor:   word 27 (within_chant_7), diff=3, snapped=False, forced=True
+  Alignment:
+    target            0 gua mea meditabitur justiciam tu----------- Laudem 39
+                      0 ----|||  7
+    query             0 ----mea meditabitur iustitiam tuam tota die laudem 46
+
+-- fused_4 --
+  OCR:      'tu ni . Et a aut'
+  Assigned: 'tuam Et anima'
+  Words:    [27..30) consumed=3
+  NW score: k=3 (pre-snap), norm=1.1094
+  Anchor:   word 30 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 tu ni . Et a-- aut 16
+                      0 ||---..  7
+    query             0 tu---am Et anima-- 13
+
+-- fused_5 --
+  OCR:      'pectavi domine miserere inci ps misere evovae'
+  Assigned: 'Tibi soli peccavi domine miserere mei {Miserere}'
+  Words:    [30..37) consumed=7
+  NW score: k=8 (pre-snap), norm=3.6382
+  Anchor:   word 37 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 ----------pectavi domine miserere inci ps misere evovae 45
+                      0 ----------|||.||| 17
+    query             0 Tibi soli peccavi domine miserere -mei --{Miserere----} 48
+
+-- fused_6 --
+  OCR:      'omnie refugnim factus es nobisipsum evorae et'
+  Assigned: 'euouae Domine refugium factus es nobis {Ipsum'
+  Words:    [37..44) consumed=7
+  NW score: k=7 (pre-snap), norm=3.3556
+  Anchor:   word 44 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 --------om-nie refugni-m factus es nobis--ipsum evorae et 45
+                      0 --------||-|-| 14
+    query             0 euouae Domin-e refug-ium factus es nobis {Ipsum---------- 45
+
+-- fused_7 --
+  OCR:      'matutis domine meditabor in tes des Evovae'
+  Assigned: '[Domine]} euouae In matutinis domine meditabor in te {Deus'
+  Words:    [44..53) consumed=9
+  NW score: k=11 (pre-snap), norm=3.4794
+  Anchor:   word 53 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 --------------------matut--is domine meditabor in tes -de-s 
+                      0 --------------------|||||--||
+    query             0 [Domine]} euouae In matutinis domine meditabor in te- {Deus-
+    
+    target           36 Evovae 42
+                     29 ------ 35
+    query            58 ------ 58
+
+-- fused_8 --
+  OCR:      'Lalitemus domino Gloriose . ipisum evovaen Sanctis ejus'
+  Assigned: 'deus} euouae Cantemus domino gloriose {Ipsum [Cantemus]} euouae In sanctis eius'
+  Words:    [53..64) consumed=11
+  NW score: k=11 (pre-snap), norm=2.8217
+  Anchor:   word 64 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ---------La---litemus domino Gloriose . ipisum------------ e
+                      0 ---------.|---..|||||
+    query             0 deus} euouae Cantemus domino gloriose -{Ip-sum [Cantemus]} e
+    
+    target           36 vovae--n Sanctis ejus 55
+                     21 .|.||--| 29
+    query            58 uouae In sanctis eius 79
+
+-- fused_9 --
+  OCR:      'cap . Nox preces Ymus Lux'
+  Assigned: 'laudate deum ~Laudate'
+  Words:    [64..67) consumed=3
+  NW score: k=3 (pre-snap), norm=-2.2258
+  Anchor:   word 70 (within_chant_7), diff=3, snapped=False, forced=False
+  Alignment:
+    target            0 cap . Nox preces Ymus -L-u---x 25
+                      0 .|--------....|- 16
+    query             0 la--------udate- deum ~Laudate 21
+
+-- fused_10 --
+  OCR:      'ecclesie surgit  . Repleti su'
+  Assigned: 'euouae In sanctita'
+  Words:    [67..70) consumed=3
+  NW score: k=4 (pre-snap), norm=-1.2205
+  Anchor:   word 70 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 e-cclesie s-urgit  . Repleti su 29
+                      0 |-...|...  9
+    query             0 euouae In sanctit--------at---e 20
+
+-- fused_11 --
+  OCR:      'laudate Deum  Laudunesis evovae mus e Exultavi ad bna in sanctita'
+  Assigned: 'te serviamus domino et liberavit nos ab inimicis nostris euouae'
+  Words:    [70..79) consumed=9
+  NW score: k=8 (pre-snap), norm=-1.1245
+  Anchor:   word 79 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 laudate Deum  Laudunesis evovae m-us e- Exul---tavi----- ad 
+                      0 -----.|....|------|----|
+    query             0 -----serviam------u----s -do----mino et ---liberavit nos ab 
+    
+    target           50 bna in san-ct-i-----ta- 65
+                     24 .|..|..|.|-.|-|-----.|- 47
+    query            37 inimicis nostris euouae 60
+
+-- fused_12 --
+  OCR:      'te serviamius domino et liberavit nos abminucis nostris ex od'
+  Assigned: 'Et omnis mansuetudinis eius ~Memento'
+  Words:    [79..84) consumed=5
+  NW score: k=7 (pre-snap), norm=-0.8510
+  Anchor:   word 84 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 -te serviam-ius domino et liberavit nos abminucis nostris ex
+                      0 -|-
+    query             0 Et- -----omni-s --mansuetudi--------nis --ei-u--s ----~Memen
+    
+    target           58  od 61
+                      3 .|-  6
+    query            34 to- 36
+
+-- fused_13 --
+  OCR:      ''
+  Assigned: 'domine euouae Ecce quam bonum et quam iocundum ~Ipsum [Ecce]'
+  Words:    [84..94) consumed=10
+
+-- fused_14 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [94..94) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_15 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [94..94) consumed=0
+  Alignment:
+    (no words left)
+=== END DEBUG ===
+

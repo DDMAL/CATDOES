@@ -1,0 +1,177 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'L s ho Grilter'
+  [fused_1] 'meri  orbis fi'
+  [fused_2] 'enim vos in conciliis et in sinagogis suisa'
+  [fused_3] 'gellabunt vos et ante reges et presides ducemini propter'
+  [fused_4] 'me in testimonium ilis et gentibus evovac'
+  [fused_5] 'Dan e qa nomina ve stra'
+  [fused_6] 'capitas munti tenio e Venlie  egem apostolo'
+  [fused_7] 'rum domi num deinte adoremus .'
+  [fused_8] ''
+  [fused_9] 'venite. i omnem terram exiuit sonus'
+  [fused_10] 'eorum et in fines orbis terre verba eorum po Celienar'
+  [fused_11] 'vaeiamaverunt iusti et dominus ex audivit'
+  [fused_12] 'onstitues eos pencies'
+  [fused_13] 'tuper omne i terram memores erunt nominis tu .oni'
+  [fused_14] 'tmetant exoras'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'L s ho Grilter'
+  Assigned: 'euouae Tradent enim'
+  Words:    [0..3) consumed=3
+  NW score: k=3 (pre-snap), norm=-2.6365
+  Anchor:   word 11 (within_chant_7), diff=8, snapped=False, forced=False
+  Alignment:
+    target            0 L s ho--- Gr--ilt-e--r 14
+                      0 ---..|---  9
+    query             0 ---euouae Tradent enim 19
+
+-- fused_1 --
+  OCR:      'meri  orbis fi'
+  Assigned: 'vos in conciliis et in sinagogis suis fla'
+  Words:    [3..11) consumed=8
+  NW score: k=4 (pre-snap), norm=-1.1650
+  Anchor:   word 11 (within_chant_7), diff=4, snapped=False, forced=True
+  Alignment:
+    target            0 ----------------me-ri  -----o----rbis f----------i 14
+                      0 ----------------.|-.|. 22
+    query             0 vos in conciliis et in sinagogis suis flagellabunt 50
+
+-- fused_2 --
+  OCR:      'enim vos in conciliis et in sinagogis suisa'
+  Assigned: 'gellabunt vos et ante reges et presides ducemini propter'
+  Words:    [11..19) consumed=8
+  NW score: k=7 (pre-snap), norm=-0.2226
+  Anchor:   word 19 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 enim vos in con--ciliis et in sinagogis su-----i------sa 43
+                      0 -----|||  8
+    query             0 -----vos et -ante reges et presi----des ducemini propter 46
+
+-- fused_3 --
+  OCR:      'gellabunt vos et ante reges et presides ducemini propter'
+  Assigned: 'me in testimonium illis et gentibus'
+  Words:    [19..25) consumed=6
+  NW score: k=13 (pre-snap), norm=-0.6385
+  Anchor:   word 25 (within_chant_7), diff=7, snapped=False, forced=True
+  Alignment:
+    target            0 gellabunt vos et- an-te reges et pre-sides ducemini propter
+                      0 .|---..|-
+    query             0 me--- in- tes--timonium illis et -gentibus-----------------
+    
+    target           56
+                      9
+    query            35
+
+-- fused_4 --
+  OCR:      'me in testimonium ilis et gentibus evovac'
+  Assigned: 'euouae Gaudete et exultate quia nomina vestra scripta sunt in celis ~Venite Regem apostolo'
+  Words:    [25..39) consumed=14
+  NW score: k=14 (pre-snap), norm=-1.7166
+  Anchor:   word 32 (within_chant_7), diff=7, snapped=False, forced=False
+  Alignment:
+    target            0 ------------------------me --------in- test------i-moniu-m i
+                      0 ------------------------.|
+    query             0 euouae Gaudete et exultate quia nomina vestra scripta sunt i
+    
+    target           19 ----lis --e--t- --gentibus evovac 41
+                     26 ----||| 33
+    query            60 n celis ~Venite Regem apostolorum 93
+
+-- fused_5 --
+  OCR:      'Dan e qa nomina ve stra'
+  Assigned: 'rum dominum Venite adoremus'
+  Words:    [39..42) consumed=3
+  NW score: k=2 (pre-snap), norm=-1.0588
+  Anchor:   word 42 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 Dan e qa nomin-a ve st-----r---a 23
+                      0 ---------.||||-. 16
+    query             0 ---------dominum Venite adoremus 23
+
+-- fused_6 --
+  OCR:      'capitas munti tenio e Venlie  egem apostolo'
+  Assigned: '~Venite In omnem terram exivit sonus'
+  Words:    [42..48) consumed=6
+  NW score: k=8 (pre-snap), norm=-1.1139
+  Anchor:   word 48 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 -capit--as -munti te-nio e Venlie  egem aposto-lo 43
+                      0 -...||--.. 10
+    query             0 ~Venite In om-nem terram e--xivit ---------s-onus 36
+
+-- fused_7 --
+  OCR:      'rum domi num deinte adoremus .'
+  Assigned: 'eorum et in fines orbis terre verba eorum'
+  Words:    [48..56) consumed=8
+  NW score: k=5 (pre-snap), norm=0.2665
+  Anchor:   word 56 (within_chant_7), diff=3, snapped=False, forced=True
+  Alignment:
+    target            0 --rum domi- --num -dei-nt---e ----a-doremus . 30
+                      0 --|||  5
+    query             0 eorum et in fines orbis terre verba eorum---- 41
+
+-- fused_8 --
+  OCR:      ''
+  Assigned: '~Celi enarrant euouae Clamaverunt iusti et dominus exaudivit'
+  Words:    [56..64) consumed=8
+
+-- fused_9 --
+  OCR:      'venite. i omnem terram exiuit sonus'
+  Assigned: 'eos ~Benedicam euouae Constitues eos principes super omnem terram memores erunt nominis'
+  Words:    [64..76) consumed=12
+  NW score: k=12 (pre-snap), norm=0.0181
+  Anchor:   word 70 (within_chant_7), diff=6, snapped=False, forced=False
+  Alignment:
+    target            0 -----ven-------------------it-e. ---------i--------- omnem t
+                      0 -----.||-------------------||-|.
+    query             0 eos ~Benedicam euouae Constitues eos principes super omnem t
+    
+    target           17 erram -----e--xiuit so--nus 35
+                     32 ||||| 37
+    query            60 erram memores erunt nominis 87
+
+-- fused_10 --
+  OCR:      'eorum et in fines orbis terre verba eorum po Celienar'
+  Assigned: 'tui domine'
+  Words:    [76..78) consumed=2
+  NW score: k=2 (pre-snap), norm=-4.8650
+  Anchor:   word 78 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 eorum et in fines orbis terre verba eorum po Celienar 53
+                      0 -------|.|------------------------- 35
+    query             0 -------tui------------------------- do--m-------i-n-e 10
+
+-- fused_11 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [78..78) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_12 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [78..78) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_13 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [78..78) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_14 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [78..78) consumed=0
+  Alignment:
+    (no words left)
+=== END DEBUG ===
+

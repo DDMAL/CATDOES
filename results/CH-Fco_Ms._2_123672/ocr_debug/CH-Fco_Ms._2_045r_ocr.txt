@@ -1,0 +1,225 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'et requirebant eum inter cognatios et notosedictu'
+  [fused_1] 'petito dominis de Salaomhadiers dominus prima post epiphaniamsecario  de'
+  [fused_2] 'inluca . Cum lecto cet Gvilorigadbud Romcapdie et ad dicat de Epiphania Legvis st b epiphia ad v'
+  [fused_3] 'o debta deinde de episcopi et hodie cels  orut supra ad au capella '
+  [fused_4] ''
+  [fused_5] 'ili quid fecisti nobis sic ego et patertuus dolentes que'
+  [fused_6] 'rebamus te quid est quod me querebatis vesciebatis quiam'
+  [fused_7] 'or de domine d de'
+  [fused_8] 'emmb '
+  [fused_9] 'hiis que patris mei sunt oportet meese'
+  [fused_10] 'tinitas exophie dominevenittut ostideda delic 1'
+  [fused_11] 'de Exiphio propa de sec Obsetr.'
+  [fused_12] 'de ce taonsa destu'
+  [fused_13] 'Felvitorsantne poron Phihippe ad vis  ante'
+  [fused_14] 'entananctepys hicu felas sirviglia oct episcop sicepoum pha cccte peo nrome casty'
+  [fused_15] 'escendit spiritus sanctus corporali specie sicut co'
+  [fused_16] 'lumba m ipsum et vorm de celo facta est hnt est filiio mens di'
+  [fused_17] 'cterim aam rrne Peterem'
+  [fused_18] 'tmen ieonions lavionis enit mii pe lummint uona'
+  [fused_19] 'Mnecoun mam nci taret monipern'
+  [fused_20] 'nestcat'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'et requirebant eum inter cognatios et notosedictu'
+  Assigned: 'et requirebant eum inter cognatos et notos'
+  Words:    [0..7) consumed=7
+  NW score: k=7 (pre-snap), norm=6.7673
+  Anchor:   word 28 (within_chant_7), diff=21, snapped=False, forced=False
+  Alignment:
+    target            0 et requirebant eum inter cognatios et notosedictu 49
+                      0 ||  2
+    query             0 et requirebant eum inter cognat-os et notos------ 42
+
+-- fused_1 --
+  OCR:      'petito dominis de Salaomhadiers dominus prima post epiphaniamsecario  de'
+  Assigned: 'euouae Fili quid fecisti nobis sic ego et pater tuus dolentes querebamus te quid est quod me'
+  Words:    [7..24) consumed=17
+  NW score: k=17 (pre-snap), norm=-1.2041
+  Anchor:   word 28 (within_chant_7), diff=4, snapped=False, forced=False
+  Alignment:
+    target            0 ----pe-tito ---d-----omi-n--is -de Salao---mhadier----s domi
+                      0 ----.|-.|..
+    query             0 euouae Fili quid fecisti nobis sic --ego et pa-ter tuus dole
+    
+    target           36 n-us --prima pos-t- epiphaniamsecario  de 72
+                     11 |-.| 15
+    query            57 ntes quereba-mus te qui----d es-t quod me 92
+
+-- fused_2 --
+  OCR:      'inluca . Cum lecto cet Gvilorigadbud Romcapdie et ad dicat de Epiphania Legvis st b epiphia ad v'
+  Assigned: 'querebatis nesciebatis quia in his que patris mei sunt oportet me esse euouae Descendit spiritus sanctus corporali specie sicut columba in ipsum et vox'
+  Words:    [24..48) consumed=24
+  NW score: k=24 (pre-snap), norm=-1.4203
+  Anchor:   word 28 (within_chant_7), diff=20, snapped=False, forced=False
+  Alignment:
+    target            0 --------i--n-----------luca -----. Cum lect--o ce-----t Gvil
+                      0 --------|--|-----------.|.|
+    query             0 querebatis nesciebatis quia in his que -patris mei sunt --op
+    
+    target           27 origadbud Romcapdie e-t ad ------dicat de Epi-----phan------
+                     27 ||----...
+    query            57 or----tet --me esse euouae Descendi--t--- spiritus sanctus c
+    
+    target           69 ----ia-- -Legvis s---t -----b- -epiphia ad v--  96
+                     36 ----.|--  44
+    query           106 orporali spe-cie sicut columba in ipsum et vox 151
+
+-- fused_3 --
+  OCR:      'o debta deinde de episcopi et hodie cels  orut supra ad au capella'
+  Assigned: 'de celo facta est hic est filius meus di'
+  Words:    [48..57) consumed=9
+  NW score: k=10 (pre-snap), norm=-0.6141
+  Anchor:   word 57 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 o debta deinde de-- episcopi e-t hodie cels  --orut -supra a
+                      0 ------------||
+    query             0 ------------de celo --fac-ta est h--ic -e-st filius meu--s -
+    
+    target           54 d au capella 66
+                     14 |-...|---... 26
+    query            38 d-ilec---tus 46
+
+-- fused_4 --
+  OCR:      ''
+  Assigned: 'lectus alleluya euouae Veterem ho'
+  Words:    [57..61) consumed=4
+
+-- fused_5 --
+  OCR:      'ili quid fecisti nobis sic ego et patertuus dolentes que'
+  Assigned: 'minem renovans salvator venit ad baptismum ut naturam'
+  Words:    [61..68) consumed=7
+  NW score: k=8 (pre-snap), norm=-0.8608
+  Anchor:   word 68 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 ili quid fecisti no-bis sic ego- -e--t--- pa-tertu--us dolen
+                      0 ---------.|------||-..|
+    query             0 ---------re------novans salvator venit ad baptismum ut ----n
+    
+    target           49 -tes qu--e 56
+                     23 -|----|--. 33
+    query            41 at----uram 47
+
+-- fused_6 --
+  OCR:      'rebamus te quid est quod me querebatis vesciebatis quiam'
+  Assigned: 'que corrupta est per aquam recuperaret incorruptibili'
+  Words:    [68..75) consumed=7
+  NW score: k=10 (pre-snap), norm=-0.5296
+  Anchor:   word 75 (within_chant_7), diff=3, snapped=False, forced=True
+  Alignment:
+    target            0 rebamus te ---qu-id est -----quod me qu-e--rebatis vesc-ieba
+                      0 ----.|---|
+    query             0 ----qu---e corrupta est per aquam re-cuperare--t-- -incorrup
+    
+    target           47 tis quiam 56
+                     10 ||---.|.. 19
+    query            47 ti---bili 53
+
+-- fused_7 --
+  OCR:      'or de domine d de'
+  Assigned: 'veste circumamictans nos ~Domine dominus noster euouae Te'
+  Words:    [75..83) consumed=8
+  NW score: k=6 (pre-snap), norm=-1.6627
+  Anchor:   word 83 (page_break_77), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 ----------------------or -----de domin-------e- -----d de 17
+                      0 ----------------------|. 24
+    query             0 veste circumamictans nos ~Domine dominus noster euouae Te 57
+
+-- fused_8 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [83..83) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_9 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [83..83) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_10 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [83..83) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_11 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [83..83) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_12 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [83..83) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_13 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [83..83) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_14 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [83..83) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_15 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [83..83) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_16 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [83..83) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_17 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [83..83) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_18 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [83..83) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_19 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [83..83) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_20 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [83..83) consumed=0
+  Alignment:
+    (no words left)
+=== END DEBUG ===
+

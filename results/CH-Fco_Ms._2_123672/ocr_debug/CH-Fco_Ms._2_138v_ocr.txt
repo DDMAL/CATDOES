@@ -1,0 +1,211 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'enim patervester celestis quid vobis necesse sit Aveluya eo'
+  [fused_1] 'mag'
+  [fused_2] 'oae. ventem primum regnum Dei eet iusti'
+  [fused_3] 'ciam ejus et hec omnia adicientur vobis Alleluya evovae'
+  [fused_4] 'batur hesiis in civitatem que vocatur Naym ecclesie'
+  [fused_5] 'defunctus efferebatur filius inicus matris sue ex oude'
+  [fused_6] 'do m'
+  [fused_7] 'ante Drophaneta magnus surrexit in nobis et qua deus'
+  [fused_8] 'vvisitavit plebem suam evovae Tum intraret'
+  [fused_9] 'Mhesus in domum cujusdam principis Phariseorum Salba'
+  [fused_10] 'panem et et ce homo quidam ydroxicus'
+  [fused_11] 'erat ante illum ipse vero apprehensum sanavit eum ac'
+  [fused_12] 'dimisit evovae. Lum vocatus fueris ad nptias'
+  [fused_13] 'recumbe in novissimo loco ut dicat tibi qui te invitavit'
+  [fused_14] 'amte asente supenus quitent uoi eora coram simalos'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'enim patervester celestis quid vobis necesse sit Aveluya eo'
+  Assigned: 'enim pater vester celestis quid vobis necesse sit alleluya'
+  Words:    [0..9) consumed=9
+  NW score: k=9 (pre-snap), norm=6.7524
+  Anchor:   word 16 (within_chant_7), diff=7, snapped=False, forced=False
+  Alignment:
+    target            0 enim pater-vester celestis quid vobis necesse sit -Aveluya e
+                      0 ||||
+    query             0 enim pater vester celestis quid vobis necesse sit alleluya--
+    
+    target           58 o 59
+                      4 -  5
+    query            58 - 58
+
+-- fused_1 --
+  OCR:      'mag'
+  Assigned: 'euouae'
+  Words:    [9..10) consumed=1
+  NW score: k=1 (pre-snap), norm=-3.5355
+  Anchor:   word 16 (within_chant_7), diff=6, snapped=False, forced=False
+  Alignment:
+    target            0 ---mag 3
+                      0 ---.|. 6
+    query             0 euouae 6
+
+-- fused_2 --
+  OCR:      'oae. ventem primum regnum Dei eet iusti'
+  Assigned: 'Qaerite primum regnum dei et iusti'
+  Words:    [10..16) consumed=6
+  NW score: k=6 (pre-snap), norm=4.5978
+  Anchor:   word 16 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 oae. ventem primum regnum Dei eet iusti---- 39
+                      0 .||---..||- 11
+    query             0 Qae---rite- primum regnum dei -et iusticiam 38
+
+-- fused_3 --
+  OCR:      'ciam ejus et hec omnia adicientur vobis Alleluya evovae'
+  Assigned: 'ciam eius et hec omnia adicientur vobis alleluya euouae'
+  Words:    [16..24) consumed=8
+  NW score: k=8 (pre-snap), norm=6.2738
+  Anchor:   word 24 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ciam ejus et hec omnia adicientur vobis Alleluya evovae 55
+                      0 -----|.||  9
+    query             0 -----eius et hec omnia adicientur vobis alleluya euouae 50
+
+-- fused_4 --
+  OCR:      'batur hesiis in civitatem que vocatur Naym ecclesie'
+  Assigned: 'Ibat ihesus in civitatem que vocatur naym ecce'
+  Words:    [24..32) consumed=8
+  NW score: k=8 (pre-snap), norm=5.7602
+  Anchor:   word 32 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -batur -hesiis in civitatem que vocatur Naym ecclesie 51
+                      0 -|||--  6
+    query             0 Ibat-- ihes-us in civitatem que vocatur naym ecc----e 46
+
+-- fused_5 --
+  OCR:      'defunctus efferebatur filius inicus matris sue ex oude'
+  Assigned: 'defunctus efferebatur filius unicus matris sue euouae'
+  Words:    [32..39) consumed=7
+  NW score: k=7 (pre-snap), norm=7.0657
+  Anchor:   word 39 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 defunctus efferebatur filius inicus matris sue ex oude 54
+                      0 |||||||||  9
+    query             0 defunctus efferebatur filius unicus matris sue e-uouae 53
+
+-- fused_6 --
+  OCR:      'do m'
+  Assigned: 'Propheta magnus surrexit in nobis et quia deus'
+  Words:    [39..47) consumed=8
+  NW score: k=2 (pre-snap), norm=-3.3566
+  Anchor:   word 47 (within_chant_7), diff=6, snapped=False, forced=True
+  Alignment:
+    target            0 -do----- m------------------------------------  4
+                      0 -.|-----  8
+    query             0 Propheta magnus surrexit in nobis et quia deus 46
+
+-- fused_7 --
+  OCR:      'ante Drophaneta magnus surrexit in nobis et qua deus'
+  Assigned: 'visitavit plebem suam euouae Cum intraret'
+  Words:    [47..53) consumed=6
+  NW score: k=7 (pre-snap), norm=-1.2610
+  Anchor:   word 53 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 -----a-nte Drophaneta magnus surrexit in nobis et qua -----d
+                      0 -----|-.|-
+    query             0 visitavit- ---plebe---m----- su----am --euo--uae- Cum intrar
+    
+    target           49 eus 52
+                     10 |-. 13
+    query            39 e-t 41
+
+-- fused_8 --
+  OCR:      'vvisitavit plebem suam evovae Tum intraret'
+  Assigned: 'jhesus in domum cuiusdam principis phariseorum sabba'
+  Words:    [53..60) consumed=7
+  NW score: k=7 (pre-snap), norm=-1.4699
+  Anchor:   word 60 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 vvisitavit plebem ----suam --------evova---e Tum intraret- 42
+                      0 ...|-...|. 10
+    query             0 jhes-us in -domum cuiusdam principis phariseorum sabba--to 54
+
+-- fused_9 --
+  OCR:      'Mhesus in domum cujusdam principis Phariseorum Salba'
+  Assigned: 'to manducare panem et ecce homo quidam ydropicus'
+  Words:    [60..67) consumed=7
+  NW score: k=9 (pre-snap), norm=-1.0097
+  Anchor:   word 67 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 Mhesu---s -in---------- domum cujusdam -principis Phariseoru
+                      0 ....|---.
+    query             0 manducare panem et ecce hom-o --quidam ydr---opi----------cu
+    
+    target           45 m Salba 52
+                      9 ------. 16
+    query            44 ------s 45
+
+-- fused_10 --
+  OCR:      'panem et et ce homo quidam ydroxicus'
+  Assigned: 'erat ante illum ipse vero apprehensum sanavit eum ac'
+  Words:    [67..76) consumed=9
+  NW score: k=5 (pre-snap), norm=-1.2333
+  Anchor:   word 76 (within_chant_7), diff=4, snapped=False, forced=True
+  Alignment:
+    target            0 ----pan-e-----m ---et -e-t ---ce h---om-------o quidam ydrox
+                      0 ----.||-|-----|
+    query             0 erat ante illum ipse- vero appre-hensum sanavit eu---m -----
+    
+    target           32 icus 36
+                     15 .|-- 19
+    query            50 ac-- 52
+
+-- fused_11 --
+  OCR:      'erat ante illum ipse vero apprehensum sanavit eum ac'
+  Assigned: 'dimisit euouae Cum vocatus fueris ad nuptias recumbe in novissimo loco'
+  Words:    [76..87) consumed=11
+  NW score: k=11 (pre-snap), norm=-0.8785
+  Anchor:   word 83 (within_chant_7), diff=4, snapped=False, forced=False
+  Alignment:
+    target            0 ---erat ----ante illum ----ipse -ver-o a----p----prehensum--
+                      0 ---...|
+    query             0 dimisit euoua--e --Cum vocatus- fueris ad nuptias re---cumbe
+    
+    target           37  -sanavit eum- -ac- 52
+                      7   7
+    query            52  in novi-ssimo loco 70
+
+-- fused_12 --
+  OCR:      'dimisit evovae. Lum vocatus fueris ad nptias'
+  Assigned: 'ut dicat tibi qui te invitavit'
+  Words:    [87..93) consumed=6
+  NW score: k=12 (pre-snap), norm=-0.8351
+  Anchor:   word 93 (within_chant_7), diff=6, snapped=False, forced=True
+  Alignment:
+    target            0 dimisit evovae. Lum vocat---us fueris ad -n-pt--ias 44
+                      0 -----------------|. 19
+    query             0 -----------------ut dicat tibi qu--i- te invitavi-t 30
+
+-- fused_13 --
+  OCR:      'recumbe in novissimo loco ut dicat tibi qui te invitavit'
+  Assigned: 'amice ascende superius et erit tibi gloria'
+  Words:    [93..100) consumed=7
+  NW score: k=7 (pre-snap), norm=-0.9279
+  Anchor:   word 103 (page_break_77), diff=3, snapped=False, forced=False
+  Alignment:
+    target            0 recum-be ---in-- --novissimo loco ut -dicat tibi qui te invi
+                      0 ---.|-.|
+    query             0 ---amice ascende superius-------- et eri--t tibi ------glori
+    
+    target           51 tavit 56
+                      8 -|--- 13
+    query            41 -a--- 42
+
+-- fused_14 --
+  OCR:      'amte asente supenus quitent uoi eora coram simalos'
+  Assigned: 'coram simul discumbentibus'
+  Words:    [100..103) consumed=3
+  NW score: k=3 (pre-snap), norm=-2.0801
+  Anchor:   word 103 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ---amte asente s--upenus quitent uoi eora coram simalos 50
+                      0 ---||--------- 14
+    query             0 coram--------- simul dis-cumbent-----------------i--bus 26
+=== END DEBUG ===
+

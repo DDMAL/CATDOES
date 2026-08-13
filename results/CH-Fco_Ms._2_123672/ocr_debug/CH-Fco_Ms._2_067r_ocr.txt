@@ -1,0 +1,207 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'ges ter re. etmu eus dominiabraham diri de'
+  [fused_1] 'man meam ut cumse revetar domum do'
+  [fused_2] 'm meusecro domine fac misericor'
+  [fused_3] 'secundum Lucam . in illo tepr assum'
+  [fused_4] 'sit ibec Onil Sancti Gregorii pape'
+  [fused_5] 'diamcum servo tu O. ut cum Recemptorint fratros Lenii.'
+  [fused_6] 'ven to di ead Fonteni one et qpcn dominim'
+  [fused_7] 'mine deus abra bantu prosperum fecisti'
+  [fused_8] 'desiderium meum puella cui dixero da michi aquam'
+  [fused_9] 'bibam et illa dixerit bibe domine et Camelis tuis'
+  [fused_10] 'tum tribuam ipsa est quam preparavit dominus filio do'
+  [fused_11] 'me actus est sermio domi bra'
+  [fused_12] 'tum dicens nouimne abraham ego protector'
+  [fused_13] 'tu sum et mercestu a Mag na mnmis.'
+  [fused_14] 'eum sum domns demotai us qui eom tendent'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'ges ter re. etmu eus dominiabraham diri de'
+  Assigned: 'terre Et multiplicabo Deus domini mei abraham dirige'
+  Words:    [0..8) consumed=8
+  NW score: k=8 (pre-snap), norm=3.2097
+  Anchor:   word 8 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ges ter re. et-mu---------- -eus domini-----abraham diri de
+                      0 ----|||-||-
+    query             0 ----ter-re- Et multiplicabo Deus domini mei abraham diri-ge
+    
+    target           42
+                     11
+    query            52
+
+-- fused_1 --
+  OCR:      'man meam ut cumse revetar domum do'
+  Assigned: 'viam meam Ut cum salute revertar in domum domini'
+  Words:    [8..17) consumed=9
+  NW score: k=9 (pre-snap), norm=4.1339
+  Anchor:   word 17 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -man meam ut cum-s----e reve-tar--- domum do---- 34
+                      0 -.|.  4
+    query             0 viam meam Ut cum salute revertar in domum domini 48
+
+-- fused_2 --
+  OCR:      'm meusecro domine fac misericor'
+  Assigned: 'mei Obsecro domine fac misericor'
+  Words:    [17..22) consumed=5
+  NW score: k=5 (pre-snap), norm=5.4181
+  Anchor:   word 22 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 m-- meusecro domine fac misericor---- 31
+                      0 |--  3
+    query             0 mei -Obsecro domine fac misericordiam 36
+
+-- fused_3 --
+  OCR:      'secundum Lucam . in illo tepr assum'
+  Assigned: 'diam cum servo tuo Ut cum Veni hodie ad fontem aque'
+  Words:    [22..32) consumed=10
+  NW score: k=10 (pre-snap), norm=-0.7477
+  Anchor:   word 27 (within_chant_7), diff=5, snapped=False, forced=False
+  Alignment:
+    target            0 secundum------ Lu-----cam ---. ---in -illo tepr assum 35
+                      0 --|---||------ 14
+    query             0 --c---um servo tuo Ut cum Veni hodie ad fonte-m a-que 46
+
+-- fused_4 --
+  OCR:      'sit ibec Onil Sancti Gregorii pape'
+  Assigned: 'et oravi dominum'
+  Words:    [32..35) consumed=3
+  NW score: k=5 (pre-snap), norm=-1.8474
+  Anchor:   word 35 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 sit ibec Onil Sancti Gregorii pape 34
+                      0 ------|.  8
+    query             0 ------et ----ora--vi ---domi---num 16
+
+-- fused_5 --
+  OCR:      'diamcum servo tu O. ut cum Recemptorint fratros Lenii.'
+  Assigned: 'dicens Domine deus abraham tu prosperum fecisti'
+  Words:    [35..42) consumed=7
+  NW score: k=8 (pre-snap), norm=-0.7147
+  Anchor:   word 42 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 diamc-----um--- se-----r--vo tu O. ut cum Recemptorint fratr
+                      0 ||--|-----.|---
+    query             0 di--cens Domine deus abraham tu prosperum fec------ist------
+    
+    target           45 os Lenii. 54
+                     15 -------|- 24
+    query            46 -------i- 47
+
+-- fused_6 --
+  OCR:      'ven to di ead Fonteni one et qpcn dominim'
+  Assigned: 'desiderium meum Igitur puella cui dixero da michi aquam'
+  Words:    [42..51) consumed=9
+  NW score: k=8 (pre-snap), norm=-1.3163
+  Anchor:   word 51 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 ven to d--i-- -ead Fonteni one et qpc-n d----o----mi-ni-----
+                      0 .|---..|--|--
+    query             0 de---siderium meum Igit-ur puella --cui dixero da michi aqua
+    
+    target           40 m 41
+                     13 | 14
+    query            54 m 55
+
+-- fused_7 --
+  OCR:      'mine deus abra bantu prosperum fecisti'
+  Assigned: 'de ydria tua ut bibam et illa dixerit bibe domine et camelis tuis'
+  Words:    [51..64) consumed=13
+  NW score: k=6 (pre-snap), norm=-0.9272
+  Anchor:   word 64 (within_chant_7), diff=7, snapped=False, forced=True
+  Alignment:
+    target            0 mine -deus --abra --ba--ntu ---prosper---------um--- fe--c--
+                      0 --.|
+    query             0 --de ydria tua ut bibam et- illa dixerit bibe domine -et cam
+    
+    target           34 --is-t-i- 38
+                      4 --||-|-|- 13
+    query            56 elis tuis 65
+
+-- fused_8 --
+  OCR:      'desiderium meum puella cui dixero da michi aquam'
+  Assigned: 'potum tribuam ipsa est quam preparavit dominus filio domi'
+  Words:    [64..73) consumed=9
+  NW score: k=10 (pre-snap), norm=-0.6547
+  Anchor:   word 73 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 -desideri-u-m ----me----u-m puella cui- d--i-----xero da mic
+                      0 -......||-|-|
+    query             0 potum tribuam ipsa est quam pre-paravit dominus filio d-omi-
+    
+    target           40 hi aquam 48
+                     13 .|------ 21
+    query            57 ni------ 59
+
+-- fused_9 --
+  OCR:      'bibam et illa dixerit bibe domine et Camelis tuis'
+  Assigned: 'ni mei Domine Factus est sermo domini ad abra'
+  Words:    [73..81) consumed=8
+  NW score: k=10 (pre-snap), norm=-0.3974
+  Anchor:   word 81 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 bibam et ---i--lla---- dixerit bibe--- domine et ----Camelis
+                      0 ----|-|.
+    query             0 ----m-ei Domine Factus ---e-st --sermo domini ad abraham----
+    
+    target           44  tuis 49
+                      8 ----- 13
+    query            45 ----- 45
+
+-- fused_10 --
+  OCR:      'tum tribuam ipsa est quam preparavit dominus filio do'
+  Assigned: 'ham dicens Noli timere abraham ego protector'
+  Words:    [81..87) consumed=6
+  NW score: k=14 (pre-snap), norm=-1.2827
+  Anchor:   word 87 (within_chant_7), diff=8, snapped=False, forced=True
+  Alignment:
+    target            0 tum tribuam ---ipsa est quam prepa-ravit -dominus filio-- do
+                      0 -----.|....
+    query             0 -----dicens Noli--- --t---im-ere abraham ego----- --protecto
+    
+    target           53 - 53
+                     11 - 12
+    query            39 r 40
+
+-- fused_11 --
+  OCR:      'me actus est sermio domi bra'
+  Assigned: 'tuus sum et merces tua magna nimis'
+  Words:    [87..94) consumed=7
+  NW score: k=5 (pre-snap), norm=-0.4029
+  Anchor:   word 94 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 me actu---s-- est ser--------m--io domi bra 28
+                      0 -----||---|-- 13
+    query             0 -----tuus sum e-t merces tua magna nimi---s 34
+
+-- fused_12 --
+  OCR:      'tum dicens nouimne abraham ego protector'
+  Assigned: 'Ego enim sum dominus tuus qui eduxi te de ur'
+  Words:    [94..104) consumed=10
+  NW score: k=10 (pre-snap), norm=-1.2395
+  Anchor:   word 104 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ---------tum d--icen-s nouimne abraham e--go prote--ctor 40
+                      0 ---------.|| 12
+    query             0 Ego enim sum domi--nus tuu---s ----qui eduxi ---te de ur 44
+
+-- fused_13 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [104..104) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_14 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [104..104) consumed=0
+  Alignment:
+    (no words left)
+=== END DEBUG ===
+

@@ -1,0 +1,199 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'tem volantem per medium celunvoce magna clamantem cael Vltimu .'
+  [fused_1] 'dandi ant'
+  [fused_2] 'nten tenrs sei lit'
+  [fused_3] 'aulus et Johannes dyxerunt Jiliano nos unium Deum'
+  [fused_4] 'colimus avi fecit celum et terram  . dominus Regis evovae'
+  [fused_5] 'Naulus et Johannes dixerunt ad terencianumsi '
+  [fused_6] 'tuus dominus est julianus habeto pacem cum illo nobis'
+  [fused_7] 'meli dominus melus xpesentus et Iublate eo'
+  [fused_8] 'ohannes et Paulus cognoscentes tyrannidem'
+  [fused_9] 'vuliani facultates suas pauperibus erogare ceperunt'
+  [fused_10] 'ancti spiritus et anime iustorum'
+  [fused_11] 'Ymum dicite Deo Alleluya  Bene ohannes et Pau'
+  [fused_12] 'lus dixerunt ad gallicanum fac votum Deo ce li et eris me'
+  [fused_13] 'ad vn'
+  [fused_14] 'tormans man fili s las coone  ssta sunt'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'tem volantem per medium celunvoce magna clamantem cael Vltimu .'
+  Assigned: 'volantem per medium celum voce magna clamantem et'
+  Words:    [0..8) consumed=8
+  NW score: k=8 (pre-snap), norm=5.4535
+  Anchor:   word 19 (within_chant_7), diff=11, snapped=False, forced=False
+  Alignment:
+    target            0 tem volantem per medium celu-nvoce magna clamantem cael Vlti
+                      0 ----||||||||
+    query             0 ----volantem per medium celum voce magna clamantem --e----t-
+    
+    target           59 mu . 63
+                     12 ---- 16
+    query            49 ---- 49
+
+-- fused_1 --
+  OCR:      'dandi ant'
+  Assigned: 'dicentem'
+  Words:    [8..9) consumed=1
+  NW score: k=1 (pre-snap), norm=-0.1179
+  Anchor:   word 19 (within_chant_7), diff=10, snapped=False, forced=False
+  Alignment:
+    target            0 dandi ant--  9
+                      0 ---||..||-- 11
+    query             0 ---dicentem  8
+
+-- fused_2 --
+  OCR:      'nten tenrs sei lit'
+  Assigned: 'Isti sunt Paulus et'
+  Words:    [9..13) consumed=4
+  NW score: k=4 (pre-snap), norm=-1.5141
+  Anchor:   word 19 (within_chant_7), diff=6, snapped=False, forced=False
+  Alignment:
+    target            0 -nten ten------rs sei lit 18
+                      0 -.|-.  5
+    query             0 Ist-i sunt Paulus -e----t 19
+
+-- fused_3 --
+  OCR:      'aulus et Johannes dyxerunt Jiliano nos unium Deum'
+  Assigned: 'iohannes dixerunt iuliano nos unum deum'
+  Words:    [13..19) consumed=6
+  NW score: k=6 (pre-snap), norm=4.8725
+  Anchor:   word 19 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 aulus et Johannes dyxerunt Ji-liano nos unium Deum 49
+                      0 ---------.||||||| 17
+    query             0 ---------iohannes dixerunt -iuliano nos un-um deum 39
+
+-- fused_4 --
+  OCR:      'colimus avi fecit celum et terram  . dominus Regis evovae'
+  Assigned: 'colimus qui fecit celum et terram ~Dominus'
+  Words:    [19..26) consumed=7
+  NW score: k=9 (pre-snap), norm=5.4437
+  Anchor:   word 26 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 colimus avi fecit celum et terram  . dominus Regis evovae 57
+                      0 |||||||  7
+    query             0 colimus qui fecit celum et terram --~Dominus------------- 42
+
+-- fused_5 --
+  OCR:      'Naulus et Johannes dixerunt ad terencianumsi'
+  Assigned: 'regnavit euouae Paulus et iohannes dixerunt ad terencianum si'
+  Words:    [26..35) consumed=9
+  NW score: k=9 (pre-snap), norm=5.1537
+  Anchor:   word 35 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ----------------Naulus et Johannes dixerunt ad terencianum-s
+                      0 ----------------.|||||
+    query             0 regnavit euouae Paulus et iohannes dixerunt ad terencianum s
+    
+    target           43 i 44
+                     22 | 23
+    query            60 i 61
+
+-- fused_6 --
+  OCR:      'tuus dominus est julianus habeto pacem cum illo nobis'
+  Assigned: 'tuus dominus est iulianus habeto pacem cum illo nobis'
+  Words:    [35..44) consumed=9
+  NW score: k=9 (pre-snap), norm=7.7547
+  Anchor:   word 44 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 tuus dominus est julianus habeto pacem cum illo nobis 53
+                      0 ||||  4
+    query             0 tuus dominus est iulianus habeto pacem cum illo nobis 53
+
+-- fused_7 --
+  OCR:      'meli dominus melus xpesentus et Iublate eo'
+  Assigned: 'alius non est nisi dominus ihesus xpistus ~Iubilatus'
+  Words:    [44..52) consumed=8
+  NW score: k=9 (pre-snap), norm=2.0490
+  Anchor:   word 52 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 ---------me-----li dominus -melus xpesentus et Iub-late eo 42
+                      0 ---------.|-----.| 18
+    query             0 alius non est nisi dominus ihesus xpis--tus --~Iubilat--us 52
+
+-- fused_8 --
+  OCR:      'ohannes et Paulus cognoscentes tyrannidem'
+  Assigned: 'euouae Iohannes et paulus cognoscentes tyrannidem'
+  Words:    [52..58) consumed=6
+  NW score: k=6 (pre-snap), norm=6.4031
+  Anchor:   word 58 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 --------ohannes et Paulus cognoscentes tyrannidem 41
+                      0 --------||||||| 15
+    query             0 euouae Iohannes et paulus cognoscentes tyrannidem 49
+
+-- fused_9 --
+  OCR:      'vuliani facultates suas pauperibus erogare ceperunt'
+  Assigned: 'iuliani facultates suas pauperibus erogare ceperunt'
+  Words:    [58..64) consumed=6
+  NW score: k=6 (pre-snap), norm=7.7451
+  Anchor:   word 64 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 vuliani facultates suas pauperibus erogare ceperunt 51
+                      0 .||||||  7
+    query             0 iuliani facultates suas pauperibus erogare ceperunt 51
+
+-- fused_10 --
+  OCR:      'ancti spiritus et anime iustorum'
+  Assigned: '~Deus deus euouae Sancti spiritus et anime iustorum'
+  Words:    [64..72) consumed=8
+  NW score: k=8 (pre-snap), norm=4.8270
+  Anchor:   word 72 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -------------------ancti spiritus et anime iustorum 32
+                      0 -------------------||||| 24
+    query             0 ~Deus deus euouae Sancti spiritus et anime iustorum 51
+
+-- fused_11 --
+  OCR:      'Ymum dicite Deo Alleluya  Bene ohannes et Pau'
+  Assigned: 'ymnum dicite deo alleluya ~Benedic Iohannes et pau'
+  Words:    [72..80) consumed=8
+  NW score: k=8 (pre-snap), norm=5.2215
+  Anchor:   word 80 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 Ym-um dicite Deo Alleluya  Bene--- -ohannes et Pau--- 45
+                      0 .|-||  5
+    query             0 ymnum dicite deo alleluya ~Benedic Iohannes et paulus 53
+
+-- fused_12 --
+  OCR:      'lus dixerunt ad gallicanum fac votum Deo ce li et eris me'
+  Assigned: 'lus dixerunt ad gallicanum fac votum deo celi et eris vic'
+  Words:    [80..90) consumed=10
+  NW score: k=9 (pre-snap), norm=6.4902
+  Anchor:   word 90 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 lus dixerunt ad gallicanum fac votum Deo ce li et eris ----m
+                      0 ----||||||||
+    query             0 ----dixerunt ad gallicanum fac votum deo ce-li et eris victo
+    
+    target           56 e 57
+                     12 . 13
+    query            55 r 56
+
+-- fused_13 --
+  OCR:      'ad vn'
+  Assigned: 'tor melius quam fuisti'
+  Words:    [90..93) consumed=3
+  NW score: k=3 (pre-snap), norm=-4.8488
+  Anchor:   word 97 (page_break_77), diff=4, snapped=False, forced=False
+  Alignment:
+    target            0 ---------ad ----vn  5
+                      0 ---------|. 11
+    query             0 melius quam fuisti 18
+
+-- fused_14 --
+  OCR:      'tormans man fili s las coone  ssta sunt'
+  Assigned: '~Laudate euouae Isti sunt'
+  Words:    [93..97) consumed=4
+  NW score: k=4 (pre-snap), norm=-0.5765
+  Anchor:   word 97 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 tormans man fili s las coone  ssta sunt 39
+                      0 --..|--..|------.. 18
+    query             0 --~La--uda------te ---euouae- Isti sunt 25
+=== END DEBUG ===
+

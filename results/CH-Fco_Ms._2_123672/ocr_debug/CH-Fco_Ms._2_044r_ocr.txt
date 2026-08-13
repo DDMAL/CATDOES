@@ -1,0 +1,259 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'ne Cpitistus baptizari voluit ut salvaret nos Aveluya evova'
+  [fused_1] 'G. Aado oro ut supra officilies'
+  [fused_2] 'infracbdam celebrare n'
+  [fused_3] 'consuenimus infra ebda'
+  [fused_4] 'nac in vitatoriumPi appanobis'
+  [fused_5] 'Ynno hostis herodes Iuldiu.'
+  [fused_6] 'XIV deepiis honna'
+  [fused_7] 'mus p venite rems   d aoc pte vii  s venite ado tus est 20'
+  [fused_8] 'a ipse fundavit eam altissimus Et condiensi ad octs facimus x s et logut vil de Bvione eri'
+  [fused_9] ' le deomibri premudinuntim  a o acipimus iita pe si'
+  [fused_10] 'glos dies nrum sbertrimi veli it fine omnium exiorum. infra ebda Semo'
+  [fused_11] 'jundamenta Eovae sa ang episcopi. uper celeblumus alius sniio Sa lconisa . Ce'
+  [fused_12] 'Lebrio prorio it snno ano'
+  [fused_13] 'episcopi ad partum vgiis p in'
+  [fused_14] 'die eprphinie ad bene et ad'
+  [fused_15] 'oriente venerunt magi in Bethleem ado'
+  [fused_16] 'et apertis thesautis suis preciosa numera obterine'
+  [fused_17] 'runt aurum sicut regi magno this sicut Deo vero myrram'
+  [fused_18] 'uturevidentes stellani magi ga'
+  [fused_19] 'vunt gardio magio et intrantes domis obtilerunt onm'
+  [fused_20] 'no aurum this et mirram evovae aLria sunt numera'
+  [fused_21] 'que obtulerunt magi domino aurum this et myrram filio'
+  [fused_22] 'ta momininis aai c etens aprim'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'ne Cpitistus baptizari voluit ut salvaret nos Aveluya evova'
+  Assigned: 'xpistus baptizari voluit ut salvaret nos alleluya euouae'
+  Words:    [0..8) consumed=8
+  NW score: k=8 (pre-snap), norm=5.7411
+  Anchor:   word 11 (within_chant_7), diff=3, snapped=False, forced=False
+  Alignment:
+    target            0 ne Cpitistus baptizari voluit ut salvaret nos -Aveluya evova
+                      0 ---.|--|||||
+    query             0 ---xp--istus baptizari voluit ut salvaret nos alleluya euoua
+    
+    target           59 - 59
+                     12 - 13
+    query            55 e 56
+
+-- fused_1 --
+  OCR:      'G. Aado oro ut supra officilies'
+  Assigned: 'Xpistus apparuit nobis'
+  Words:    [8..11) consumed=3
+  NW score: k=3 (pre-snap), norm=-2.2209
+  Anchor:   word 11 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -----G. Aado oro u-t supra officilies 31
+                      0 -----..  7
+    query             0 Xpistus -a-ppar--uit -----no-----bi-s 22
+
+-- fused_2 --
+  OCR:      'infracbdam celebrare n'
+  Assigned: 'Venite adoremus ~Venite Homo'
+  Words:    [11..15) consumed=4
+  NW score: k=4 (pre-snap), norm=-2.2563
+  Anchor:   word 15 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ---infracbd--am-- celebrare ---n 22
+                      0 ---|...|--|--.|-- 17
+    query             0 Venite a--doremus -~Ve-nite Homo 28
+
+-- fused_3 --
+  OCR:      'consuenimus infra ebda'
+  Assigned: 'factus est in ea ipse fundavit eam altissimus ~Fundamenta'
+  Words:    [15..24) consumed=9
+  NW score: k=4 (pre-snap), norm=0.4797
+  Anchor:   word 24 (within_chant_7), diff=5, snapped=False, forced=True
+  Alignment:
+    target            0 --c--------on------s---u-------e--------nimus --infra ebda 22
+                      0 --|--------.|------|---|-------|--------.|||| 45
+    query             0 factus est in ea ipse fundavit eam altissimus ~Fun-damenta 57
+
+-- fused_4 --
+  OCR:      'nac in vitatoriumPi appanobis'
+  Assigned: 'euouae Ab oriente venerunt magi in bethleem adorare dominum et apertis'
+  Words:    [24..35) consumed=11
+  NW score: k=11 (pre-snap), norm=-1.4871
+  Anchor:   word 32 (within_chant_7), diff=3, snapped=False, forced=False
+  Alignment:
+    target            0 ---nac -----i-n-- v-------------i----t------ator-------i-um-
+                      0 ---.|.
+    query             0 euouae Ab oriente venerunt magi in bethleem adorare dominum 
+    
+    target           17 Pi appanobis 29
+                      6 ..  8
+    query            60 et ap--ertis 70
+
+-- fused_5 --
+  OCR:      'Ynno hostis herodes Iuldiu.'
+  Assigned: 'thesauris suis preciosa munera obtule'
+  Words:    [35..40) consumed=5
+  NW score: k=2 (pre-snap), norm=-1.5945
+  Anchor:   word 40 (within_chant_7), diff=3, snapped=False, forced=True
+  Alignment:
+    target            0 -----Ynno hostis -he-ro-----de-s --Iuldiu-. 27
+                      0 -----....  9
+    query             0 thesauris --suis preciosa munera obtulerunt 41
+
+-- fused_6 --
+  OCR:      'XIV deepiis honna'
+  Assigned: 'runt aurum sicut regi magno thus sicut deo vero myrram se'
+  Words:    [40..50) consumed=10
+  NW score: k=4 (pre-snap), norm=-2.5337
+  Anchor:   word 50 (within_chant_7), diff=6, snapped=False, forced=True
+  Alignment:
+    target            0 --XIV -----deepi---------is ------------ho---nna-----------
+                      0 --...
+    query             0 aurum sicut regi magno thus sicut deo vero myrram sepulture
+    
+    target           17
+                      5
+    query            59
+
+-- fused_7 --
+  OCR:      'mus p venite rems   d aoc pte vii  s venite ado tus est 20'
+  Assigned: 'pulture eius alleluya euouae Videntes stellam magi gavisi sunt gaudio magno et'
+  Words:    [50..61) consumed=11
+  NW score: k=11 (pre-snap), norm=-0.7690
+  Anchor:   word 57 (within_chant_7), diff=4, snapped=False, forced=False
+  Alignment:
+    target            0 -mus --------------p --venite- -re---ms   d aoc pte vi-i  s 
+                      0 -.||
+    query             0 eius alleluya euouae Viden-tes stellam--- -magi --gavisi- s-
+    
+    target           37 venite -a-d-o --tus est 20 58
+                      4 -.|-|- 10
+    query            51 -un-t- gaudio magno e-t--- 70
+
+-- fused_8 --
+  OCR:      'a ipse fundavit eam altissimus Et condiensi ad octs facimus x s et logut vil de Bvione eri'
+  Assigned: 'intrantes domum obtulerunt domino aurum thus et mirram euouae Tria sunt munera que obtulerunt magi domino aurum thus et myrram filio dei regi'
+  Words:    [61..84) consumed=23
+  NW score: k=23 (pre-snap), norm=-0.9765
+  Anchor:   word 65 (within_chant_7), diff=19, snapped=False, forced=False
+  Alignment:
+    target            0 ----a ips-----e ------fun--davi-t ea---m altissimus Et -----
+                      0 ----|...|-----.
+    query             0 intrantes domum obtulerunt domino -aurum --t----hus et mirra
+    
+    target           34 ---co----ndiens--i -----a---d oct------s faci---m-------us -
+                     15 ---.|----..|..|--.
+    query            53 m euouae Tria sunt munera que obtulerunt magi domino aurum t
+    
+    target           60 x s et -logut vil-- de Bvione -eri  90
+                     33 ..|  36
+    query           113 hus et myrram filio de---i--- regi 141
+
+-- fused_9 --
+  OCR:      'le deomibri premudinuntim  a o acipimus iita pe si'
+  Assigned: 'magno alleluya euouae Lux de luce apparuisti'
+  Words:    [84..91) consumed=7
+  NW score: k=7 (pre-snap), norm=-1.8762
+  Anchor:   word 91 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 le deomibri -premu-dinuntim --- -a ---o acipimus iita pe si
+                      0 ------|....
+    query             0 ------magno alleluya euouae Lux de luce a-pparu--ist------i
+    
+    target           50
+                     11
+    query            44
+
+-- fused_10 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [91..91) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_11 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [91..91) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_12 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [91..91) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_13 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [91..91) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_14 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [91..91) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_15 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [91..91) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_16 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [91..91) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_17 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [91..91) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_18 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [91..91) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_19 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [91..91) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_20 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [91..91) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_21 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [91..91) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_22 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [91..91) consumed=0
+  Alignment:
+    (no words left)
+=== END DEBUG ===
+

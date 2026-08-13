@@ -1,0 +1,186 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] ' * jam versa et manduca nam facultates ecclesie'
+  [fused_1] 'quas requiris in celestes thesauros manus pauperum deporta sstor e ci min io deatormurin'
+  [fused_2] 'verunt evovac.'
+  [fused_3] 'tepiceusque ad octa assapt'
+  [fused_4] 'irgo prudentissima'
+  [fused_5] 'o progel'
+  [fused_6] 'pulchia ut in nace lectam ut'
+  [fused_7] 'escolavi'
+  [fused_8] 'loi erorae te adoremus'
+  [fused_9] 'regem regum Enns ho die ad echerenum vigo mater as umnius iste dicitur in festi'
+  [fused_10] 'itatibus omnibus  common'
+  [fused_11] 'sumpta estcelum  venite  Sancte Marie Que terrap ju xalta'
+  [fused_12] 'ta est sancta Dei genitrix super chos choros Angelorum ad ce'
+  [fused_13] 'estia regna Domine dominus Nester evovae . Paradisi porte per'
+  [fused_14] 'tenotis cperte sunt ae hodie lorosa cum angelio tetam'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      '* jam versa et manduca nam facultates ecclesie'
+  Assigned: 'est iam versa et manduca nam facultates ecclesie'
+  Words:    [0..8) consumed=8
+  NW score: k=8 (pre-snap), norm=7.0654
+  Anchor:   word 19 (within_chant_7), diff=11, snapped=False, forced=False
+  Alignment:
+    target            0 --* jam versa et manduca nam facultates ecclesie 46
+                      0 --.  3
+    query             0 est iam versa et manduca nam facultates ecclesie 48
+
+-- fused_1 --
+  OCR:      'quas requiris in celestes thesauros manus pauperum deporta sstor e ci min io deatormurin'
+  Assigned: 'quas requiris in celestes thesauros manus pauperum deportaverunt'
+  Words:    [8..16) consumed=8
+  NW score: k=8 (pre-snap), norm=5.2367
+  Anchor:   word 19 (within_chant_7), diff=3, snapped=False, forced=False
+  Alignment:
+    target            0 quas requiris in celestes thesauros manus pauperum deporta s
+                      0 ||||
+    query             0 quas requiris in celestes thesauros manus pauperum deporta--
+    
+    target           60 stor e ci min io deatormurin- 88
+                      4 -----------------.|---|-|--|- 33
+    query            58 -----------------ve---r-u--nt 64
+
+-- fused_2 --
+  OCR:      'verunt evovac.'
+  Assigned: 'euouae Virgo prudentissima'
+  Words:    [16..19) consumed=3
+  NW score: k=1 (pre-snap), norm=-1.9640
+  Anchor:   word 19 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 ----ve--------ru--nt evovac. 14
+                      0 ----.|--------||--||.....|-- 28
+    query             0 euouae Virgo prudentissima-- 26
+
+-- fused_3 --
+  OCR:      'tepiceusque ad octa assapt'
+  Assigned: 'quo progrederis quasi aurora valde rutilans filia syon'
+  Words:    [19..27) consumed=8
+  NW score: k=5 (pre-snap), norm=-1.5135
+  Anchor:   word 27 (within_chant_7), diff=3, snapped=False, forced=True
+  Alignment:
+    target            0 ----------tepiceus-qu--e a---------d- oct--a-- ----assapt 26
+                      0 ----------.|.|---|-||--. 24
+    query             0 quo progrederi---s quasi aurora valde rutilans filia syon 54
+
+-- fused_4 --
+  OCR:      'irgo prudentissima'
+  Assigned: 'tota formosa et suavis es pulchra ut luna electa ut'
+  Words:    [27..37) consumed=10
+  NW score: k=5 (pre-snap), norm=-2.0270
+  Anchor:   word 37 (within_chant_7), diff=5, snapped=False, forced=True
+  Alignment:
+    target            0 ------irgo--------------- p----r------u----dentissima--- 18
+                      0 ------.|.|--------------- 25
+    query             0 tota formosa et suavis es pulchra ut luna elect-----a ut 51
+
+-- fused_5 --
+  OCR:      'o progel'
+  Assigned: 'sol euouae Venite adoremus'
+  Words:    [37..41) consumed=4
+  NW score: k=2 (pre-snap), norm=-1.2298
+  Anchor:   word 41 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 ------o---------- proge--l  8
+                      0 ------|---------- 17
+    query             0 sol euouae Venite adoremus 26
+
+-- fused_6 --
+  OCR:      'pulchia ut in nace lectam ut'
+  Assigned: 'regem regum Cuius hodie ad ethereum virgo mater as'
+  Words:    [41..50) consumed=9
+  NW score: k=10 (pre-snap), norm=-1.7810
+  Anchor:   word 50 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 --------------pulch--i--a- ------ut -i--n nace- lectam u--t-
+                      0 --------------.|..|--|--|-
+    query             0 regem regum Cuius hodie ad ethereum virgo mater ----assumpta
+    
+    target           28 
+                     26 
+    query            56 
+
+-- fused_7 --
+  OCR:      'escolavi'
+  Assigned: 'sumpta est celum ~Venite exalta'
+  Words:    [50..54) consumed=4
+  NW score: k=2 (pre-snap), norm=0.0000
+  Anchor:   word 54 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 es--col----------------avi  8
+                      0 ||--|.|----------------|.. 26
+    query             0 est celum ~Venite Exaltata 26
+
+-- fused_8 --
+  OCR:      'loi erorae te adoremus'
+  Assigned: 'ta est sancta dei genetrix super choros angelorum ad ce'
+  Words:    [54..63) consumed=9
+  NW score: k=6 (pre-snap), norm=-1.7056
+  Anchor:   word 63 (within_chant_7), diff=3, snapped=False, forced=True
+  Alignment:
+    target            0 -----------loi ------------er---orae --te----- adoremus--- 22
+                      0 -----------..| 14
+    query             0 est sancta dei genetrix super choros angelorum ad celestia 58
+
+-- fused_9 --
+  OCR:      'regem regum Enns ho die ad echerenum vigo mater as umnius iste dicitur in festi'
+  Assigned: 'lestia regna ~Domine dominus noster euouae Paradisi porte per te nobis aperte'
+  Words:    [63..74) consumed=11
+  NW score: k=11 (pre-snap), norm=-0.5244
+  Anchor:   word 71 (within_chant_7), diff=3, snapped=False, forced=False
+  Alignment:
+    target            0 regem regum Enns -ho di-e ad echerenum vigo mater ----as --u
+                      0 |||-----------|.
+    query             0 reg-----------na ~Do-mine -d----ominus --no--ster euouae Par
+    
+    target           52 mnius- -iste dicitur ---in -festi 79
+                     16 ..|-|- 22
+    query            39 adi-si porte per t-e nobis aperte 70
+
+-- fused_10 --
+  OCR:      'itatibus omnibus  common'
+  Assigned: 'sunt que hodie gloriosa cum angelis trium'
+  Words:    [74..81) consumed=7
+  NW score: k=5 (pre-snap), norm=-1.2571
+  Anchor:   word 81 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 itatibus -omni------bus  common--------------- 24
+                      0 ...|..|.  8
+    query             0 sunt que ho-die gloriosa cum angelis triumphas 45
+
+-- fused_11 --
+  OCR:      'sumpta estcelum  venite  Sancte Marie Que terrap ju xalta'
+  Assigned: 'phas ~Celi enarrant euouae'
+  Words:    [81..84) consumed=3
+  NW score: k=3 (pre-snap), norm=-2.4857
+  Alignment:
+    target            0 sumpta estcelum  venite  Sancte Marie Que terra-p ju xalta 57
+                      0 ---------..||-------|.|----|-----|----------|||-. 49
+    query             0 ---------~Cel-------i e----n-----a----------rrant euoua--e 21
+
+-- fused_12 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [84..84) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_13 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [84..84) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_14 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [84..84) consumed=0
+  Alignment:
+    (no words left)
+=== END DEBUG ===
+

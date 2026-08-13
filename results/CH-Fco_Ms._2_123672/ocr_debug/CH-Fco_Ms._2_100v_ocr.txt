@@ -1,0 +1,167 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'Lnfe lix sit precium sangui nis et in'
+  [fused_1] 'son lames se sus pen dit omin erat'
+  [fused_2] 'non fuisset nomo. In Felix et'
+  [fused_3] 'vdas mercator pessimus tut dominum'
+  [fused_4] 'lent agnus nnno cens non negat in cum'
+  [fused_5] 'De mne ro Chpitistum judeis tradidit'
+  [fused_6] 'moe ratsinatus non fue set De'
+  [fused_7] 'unus exdiscipulismeis tradet me no'
+  [fused_8] 'diene per M  can Melius i'
+  [fused_9] ' tt i na menesiu setLu intim'
+  [fused_10] 'eit mecum manum in paresi de meme tradituruo est'
+  [fused_11] 'in manus Peccaro .um. Aelvus'
+  [fused_12] 'mionis nolte logni aoversus toni iquitatem'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'Lnfe lix sit precium sangui nis et in'
+  Assigned: 'precium sanguinis et in'
+  Words:    [0..4) consumed=4
+  NW score: k=4 (pre-snap), norm=4.5935
+  Anchor:   word 10 (within_chant_7), diff=6, snapped=False, forced=False
+  Alignment:
+    target            0 Lnfe lix sit precium sangui nis et in 37
+                      0 -------------||||||| 20
+    query             0 -------------precium sangui-nis et in 23
+
+-- fused_1 --
+  OCR:      'son lames se sus pen dit omin erat'
+  Assigned: 'finem laqueo se suspendit Bonum erat'
+  Words:    [4..10) consumed=6
+  NW score: k=6 (pre-snap), norm=3.7158
+  Anchor:   word 10 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 son-- la-mes se sus pen dit -o--min erat 34
+                      0 ..|--  5
+    query             0 finem laqueo se sus-pen-dit Bonum-- erat 36
+
+-- fused_2 --
+  OCR:      'non fuisset nomo. In Felix et'
+  Assigned: 'ei si natus non fuisset homo ille Infelix'
+  Words:    [10..18) consumed=8
+  NW score: k=8 (pre-snap), norm=2.4651
+  Anchor:   word 18 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ------------non fuisset nomo----. In Felix et 29
+                      0 ------------||| 15
+    query             0 ei si natus non fuisset homo ille In-felix--- 41
+
+-- fused_3 --
+  OCR:      'vdas mercator pessimus tut dominum'
+  Assigned: 'Iudas mercator pessimus osculum peciit domino'
+  Words:    [18..24) consumed=6
+  NW score: k=4 (pre-snap), norm=4.5279
+  Anchor:   word 24 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 -vdas mercator pessimus ----tu-------t dominum 34
+                      0 -.|||  5
+    query             0 Iudas mercator pessimus osculum peciit domin-o 45
+
+-- fused_4 --
+  OCR:      'lent agnus nnno cens non negat in cum'
+  Assigned: 'ille ut agnus innocens non negat iude osculum'
+  Words:    [24..32) consumed=8
+  NW score: k=7 (pre-snap), norm=4.8919
+  Anchor:   word 32 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 --le-nt agnus nnno cens non negat i--n --c--um 37
+                      0 --||-.|  7
+    query             0 ille ut agnus inno-cens non negat iude osculum 45
+
+-- fused_5 --
+  OCR:      'De mne ro Chpitistum judeis tradidit'
+  Assigned: 'Denariorum numero xpistum iudeis tradidit'
+  Words:    [32..37) consumed=5
+  NW score: k=5 (pre-snap), norm=4.0085
+  Anchor:   word 37 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 De------ m-n--e ro Chpitistum judeis tradidit 36
+                      0 ||------.|-|--|-|| 18
+    query             0 Denariorum nume-ro -xp--istum iudeis tradidit 41
+
+-- fused_6 --
+  OCR:      'moe ratsinatus non fue set De'
+  Assigned: 'Melius illi fuerat si natus non fuisset de'
+  Words:    [37..45) consumed=8
+  NW score: k=7 (pre-snap), norm=2.4680
+  Anchor:   word 45 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 moe--------- ---rat-si-natus non fue set De-------- 29
+                      0 -.|--------- 12
+    query             0 -Melius illi fuerat si natus non fuisset Denariorum 50
+
+-- fused_7 --
+  OCR:      'unus exdiscipulismeis tradet me no'
+  Assigned: 'nariorum Unus ex discipulis meis tradet me ho'
+  Words:    [45..52) consumed=7
+  NW score: k=6 (pre-snap), norm=6.2096
+  Anchor:   word 52 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 unus ex-discipulis-meis tradet me no--- 34
+                      0 .|||  4
+    query             0 Unus ex discipulis meis tradet me hodie 39
+
+-- fused_8 --
+  OCR:      'diene per M  can Melius i'
+  Assigned: 'die ve illi per quem tradar ego Melius il'
+  Words:    [52..60) consumed=8
+  NW score: k=8 (pre-snap), norm=1.2170
+  Anchor:   word 60 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 --diene per ---M ------ can Melius ---i 25
+                      0 --.|...  7
+    query             0 ve illi per quem tradar ego Melius illi 39
+
+-- fused_9 --
+  OCR:      'tt i na menesiu setLu intim'
+  Assigned: 'li erat si natus non fuisset Qui intin'
+  Words:    [60..67) consumed=7
+  NW score: k=7 (pre-snap), norm=1.0302
+  Anchor:   word 67 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 --tt -i na--- men-esiu set-Lu- int---im 27
+                      0 --.|  4
+    query             0 erat si natus non fui-sset Qui intingit 38
+
+-- fused_10 --
+  OCR:      'eit mecum manum in paresi de meme tradituruo est'
+  Assigned: 'git mecum manum in paraside hic me traditurus est'
+  Words:    [67..75) consumed=8
+  NW score: k=8 (pre-snap), norm=5.5728
+  Anchor:   word 75 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 eit mecum manum in paresi de --meme tradituruo est 48
+                      0 ----|||||  9
+    query             0 ----mecum manum in parasi-de hic me traditurus est 45
+
+-- fused_11 --
+  OCR:      'in manus Peccaro .um. Aelvus'
+  Assigned: 'in manus peccatorum Melius Dixi'
+  Words:    [75..80) consumed=5
+  NW score: k=4 (pre-snap), norm=4.7811
+  Anchor:   word 80 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 in manus Peccaro .um. Aelvus----- 28
+                      0 ||  2
+    query             0 in manus peccato-rum- Melius Dixi 31
+
+-- fused_12 --
+  OCR:      'mionis nolte logni aoversus toni iquitatem'
+  Assigned: 'iniquis nolite loqui adversus deum iniquitatem ~Confitebimur'
+  Words:    [80..87) consumed=7
+  NW score: k=6 (pre-snap), norm=4.2089
+  Anchor:   word 87 (page_break_77), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 mion---is nol-te logni aoversus --toni iquitatem------------
+                      0 -|-|---||
+    query             0 -i-niquis nolite loqui adversus deum iniquitatem ~Confitebim
+    
+    target           42 -- 42
+                      9 -- 11
+    query            58 ur 60
+=== END DEBUG ===
+

@@ -1,0 +1,163 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'Dei eius a sx cam contemptus Francis'
+  [fused_1] 'cus frangens terens ter re a Granum Pum'
+  [fused_2] 'esapasea summi regis intrat in'
+  [fused_3] 'xoVi no pain morte junctus vita'
+  [fused_4] 'vita frunctus granum e Pauperta'
+  [fused_5] 'in tone o laitnis feanailio le at turbam Christi'
+  [fused_6] 'in camentami  cat iter pandit ad'
+  [fused_7] 'gloriam etinte viam'
+  [fused_8] 'pliat . e pro paupertatis copia regnat'
+  [fused_9] 'dines in pactia reges libi lobti tuens nunos me'
+  [fused_10] 'ditat in opia. ter . Oo taiet ii'
+  [fused_11] 'nononco inme ien ciai conis'
+  [fused_12] 'e lacti tetam pte epetiuis eo tori menis'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'Dei eius a sx cam contemptus Francis'
+  Assigned: 'terra euouae Carnis spicam contemptus area franci'
+  Words:    [0..7) consumed=7
+  NW score: k=7 (pre-snap), norm=2.7014
+  Anchor:   word 7 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 De--i e-iu-s -a---- sx cam contemptus----- Franci---s 36
+                      0 .|--.  5
+    query             0 terra euouae Carnis spicam contemptus area franciscus 53
+
+-- fused_1 --
+  OCR:      'cus frangens terens ter re a Granum Pum'
+  Assigned: 'scus frangens terens terrea Granum'
+  Words:    [7..11) consumed=4
+  NW score: k=5 (pre-snap), norm=5.7111
+  Anchor:   word 11 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 cus frangens terens ter re a Granum Pum 39
+                      0 ----|||||||| 12
+    query             0 ----frangens terens ter-re-a Gran----um 29
+
+-- fused_2 --
+  OCR:      'esapasea summi regis intrat in'
+  Assigned: 'purum excusa palea summi regis intrat in'
+  Words:    [11..18) consumed=7
+  NW score: k=7 (pre-snap), norm=5.3405
+  Anchor:   word 18 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ------e---sa-pasea summi regis intrat in 30
+                      0 ------|---||-||.|| 18
+    query             0 purum excusa palea summi regis intrat in 40
+
+-- fused_3 --
+  OCR:      'xoVi no pain morte junctus vita'
+  Assigned: 'horrea Vivo pani morte iunctus vita vivit'
+  Words:    [18..25) consumed=7
+  NW score: k=6 (pre-snap), norm=4.6449
+  Anchor:   word 25 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 xo-----Vi no pa-in morte junctus vita------ 31
+                      0 .|-----||-.| 12
+    query             0 horrea Vi-vo pani- morte iunctus vita vivit 41
+
+-- fused_4 --
+  OCR:      'vita frunctus granum e Pauperta'
+  Assigned: 'vita functus Granum De pauperta'
+  Words:    [25..30) consumed=5
+  NW score: k=5 (pre-snap), norm=5.7600
+  Anchor:   word 30 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 vita frunctus granum -e Pauperta--- 31
+                      0 ||||  4
+    query             0 vita f-unctus Granum De paupertatis 34
+
+-- fused_5 --
+  OCR:      'in tone o laitnis feanailio le at turbam Christi'
+  Assigned: 'tis horreo sanctus franciscus saciat turbam xpi'
+  Words:    [30..36) consumed=6
+  NW score: k=6 (pre-snap), norm=1.6812
+  Anchor:   word 36 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 in to-ne o la-itnis feanai-lio -le at turbam Christi 48
+                      0 ---.|-.|-| 10
+    query             0 ---horre-o sanct-us franciscus saciat turbam -xpisti 46
+
+-- fused_6 --
+  OCR:      'in camentami  cat iter pandit ad'
+  Assigned: 'sti famelicam in via ne deficiat Iter pandit'
+  Words:    [36..43) consumed=7
+  NW score: k=8 (pre-snap), norm=2.7228
+  Anchor:   word 43 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 in came-ntam-----i- -- ----c-at iter pandit ad 32
+                      0 ---.|||-..||-----|- 19
+    query             0 ---famelicam in via ne deficiat Iter pandit--- 40
+
+-- fused_7 --
+  OCR:      'gloriam etinte viam'
+  Assigned: 'ad gloriam et vie vitam'
+  Words:    [43..48) consumed=5
+  NW score: k=5 (pre-snap), norm=4.5923
+  Anchor:   word 48 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ---gloriam et--inte vi-am 19
+                      0 ---||||||| 10
+    query             0 ad gloriam et vi--e vitam 23
+
+-- fused_8 --
+  OCR:      'pliat . e pro paupertatis copia regnat'
+  Assigned: 'ampliat Pro paupertatis copia regnat'
+  Words:    [48..53) consumed=5
+  NW score: k=5 (pre-snap), norm=6.2996
+  Anchor:   word 53 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 --pliat . e pro paupertatis copia regnat 38
+                      0 --|||||---- 11
+    query             0 ampliat---- Pro paupertatis copia regnat 36
+
+-- fused_9 --
+  OCR:      'dines in pactia reges libi lobti tuens nunos me'
+  Assigned: 'dives in patria reges sibi substituens quos hic'
+  Words:    [53..61) consumed=8
+  NW score: k=7 (pre-snap), norm=4.7825
+  Anchor:   word 61 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 dines in pact-ia reges libi lob-ti tuens nunos -me 47
+                      0 ||.||  5
+    query             0 dives in pa-tria reges sibi substi-tuens qu-os hic 47
+
+-- fused_10 --
+  OCR:      'ditat in opia. ter . Oo taiet ii'
+  Assigned: 'ditat inopia Iter Gloria patri et filio'
+  Words:    [61..68) consumed=7
+  NW score: k=7 (pre-snap), norm=3.2270
+  Anchor:   word 68 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ditat in opia. -ter . Oo--- --tai-et -i-i- 32
+                      0 |||||  5
+    query             0 ditat in-opia- Iter -Gloria patri et filio 39
+
+-- fused_11 --
+  OCR:      'nononco inme ien ciai conis'
+  Assigned: 'et spiritui sancto'
+  Words:    [68..71) consumed=3
+  NW score: k=3 (pre-snap), norm=-2.4041
+  Anchor:   word 71 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 nononco inme- --ien ci-ai ---c-onis 27
+                      0 -----------|- 13
+    query             0 -----------et spi---ritui sancto--- 18
+
+-- fused_12 --
+  OCR:      'e lacti tetam pte epetiuis eo tori menis'
+  Assigned: 'Sex fratrum pater septimus absortus'
+  Words:    [71..76) consumed=5
+  NW score: k=5 (pre-snap), norm=0.2940
+  Anchor:   word 76 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -e- -lacti tetam p-te- -epeti-uis eo tori menis 40
+                      0 -|-  3
+    query             0 Sex fra----t-rum pater sep-timu-s -absor----tus 35
+=== END DEBUG ===
+

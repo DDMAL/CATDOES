@@ -1,0 +1,163 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'cipiamus il lud orantes et deprecan indi'
+  [fused_1] 'e resurrectionis cum domino glori  mu .'
+  [fused_2] 'In omnibus eribeamus nosmnet ipsos sicut Dei mini'
+  [fused_3] 'nommita . ac A. ut indi'
+  [fused_4] 'cudite corda vestra et connestimen'
+  [fused_5] 'nestra et converti midomnum de nm.'
+  [fused_6] 'Atia temes nus et miseri corsestereliqnac'
+  [fused_7] 'Mpo suam et jurmiquus cogitationes suas'
+  [fused_8] 'et revertatur ad dominum et miserebi e vus'
+  [fused_9] 'range esnicienti prmem tumis'
+  [fused_10] 'genos nagosque induc in domini i ieenm'
+  [fused_11] 'pt onalima nem men tu um et ante ib faciem'
+  [fused_12] 'ant .usti ci cu m indenis'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'cipiamus il lud orantes et deprecan indi'
+  Assigned: 'illud orantes et deprecantes Ut in die'
+  Words:    [0..7) consumed=7
+  NW score: k=7 (pre-snap), norm=4.2578
+  Anchor:   word 18 (within_chant_7), diff=11, snapped=False, forced=False
+  Alignment:
+    target            0 cipiamus il lud orantes et deprecan------ in-di- 40
+                      0 ---------||-||| 15
+    query             0 ---------il-lud orantes et deprecantes Ut in die 38
+
+-- fused_1 --
+  OCR:      'e resurrectionis cum domino glori  mu .'
+  Assigned: 'resurrectionis cum domino gloriemur'
+  Words:    [7..11) consumed=4
+  NW score: k=4 (pre-snap), norm=6.2253
+  Anchor:   word 18 (within_chant_7), diff=7, snapped=False, forced=False
+  Alignment:
+    target            0 e resurrectionis cum domino glori  mu . 39
+                      0 --|||||||||||||| 16
+    query             0 --resurrectionis cum domino glori-emu-r 35
+
+-- fused_2 --
+  OCR:      'In omnibus eribeamus nosmnet ipsos sicut Dei mini'
+  Assigned: 'In omnibus exibeamus nosmetipsos sicut dei mini'
+  Words:    [11..18) consumed=7
+  NW score: k=7 (pre-snap), norm=6.2800
+  Anchor:   word 18 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 In omnibus eribeamus nosmnet ipsos sicut Dei mini----- 49
+                      0 ||  2
+    query             0 In omnibus exibeamus nosm-et-ipsos sicut dei ministros 52
+
+-- fused_3 --
+  OCR:      'nommita . ac A. ut indi'
+  Assigned: 'stros in multa paciencia Ut in die'
+  Words:    [18..24) consumed=6
+  NW score: k=6 (pre-snap), norm=1.2216
+  Anchor:   word 24 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -nommita . ac--- A. ut in-di- 23
+                      0 -|.|..||  8
+    query             0 in multa -paciencia Ut in die 28
+
+-- fused_4 --
+  OCR:      'cudite corda vestra et connestimen'
+  Assigned: 'Scindite corda vestra et non vestimen'
+  Words:    [24..30) consumed=6
+  NW score: k=6 (pre-snap), norm=5.5473
+  Anchor:   word 30 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -c-udite corda vestra et con-nestimen-- 34
+                      0 -|-.||||  8
+    query             0 Scindite corda vestra et non vestimenta 39
+
+-- fused_5 --
+  OCR:      'nestra et converti midomnum de nm.'
+  Assigned: 'ta vestra et convertimini ad dominum deum'
+  Words:    [30..36) consumed=6
+  NW score: k=6 (pre-snap), norm=4.7852
+  Anchor:   word 36 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 nestra et converti mi------dom-num de nm. 34
+                      0 .|||||  6
+    query             0 vestra et converti-mini ad dominum de-um- 38
+
+-- fused_6 --
+  OCR:      'Atia temes nus et miseri corsestereliqnac'
+  Assigned: 'Quia benignus et misericors est Derelinquat'
+  Words:    [36..42) consumed=6
+  NW score: k=6 (pre-snap), norm=4.0488
+  Anchor:   word 42 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 Atia temes nus et miseri cors-est--ereli-qnac 41
+                      0 ..||  4
+    query             0 Quia be-nignus et miseri-cors est Derelinquat 43
+
+-- fused_7 --
+  OCR:      'Mpo suam et jurmiquus cogitationes suas'
+  Assigned: 'impius viam suam et vir iniquus congitationes suas et'
+  Words:    [42..51) consumed=9
+  NW score: k=8 (pre-snap), norm=4.4838
+  Anchor:   word 51 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 -Mp-------o suam et jur--miquus co-gitationes suas--- 39
+                      0 -.|-------. 11
+    query             0 impius viam suam et vir iniquus congitationes suas et 53
+
+-- fused_8 --
+  OCR:      'et revertatur ad dominum et miserebi e vus'
+  Assigned: 'revertatur ad dominum et miserebitur eius Quia'
+  Words:    [51..58) consumed=7
+  NW score: k=6 (pre-snap), norm=6.2173
+  Anchor:   word 58 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 et revertatur ad dominum et miserebi--- e--- vu-s 42
+                      0 ---|||||||||| 13
+    query             0 ---revertatur ad dominum et miserebitur eius Quia 46
+
+-- fused_9 --
+  OCR:      'range esnicienti prmem tumis'
+  Assigned: 'benignus Frange esurienti panem tuum et e'
+  Words:    [58..65) consumed=7
+  NW score: k=5 (pre-snap), norm=2.8347
+  Anchor:   word 65 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 ----------range esnicienti prmem t-um--------is 28
+                      0 ----------||||| 15
+    query             0 benignus Frange es-urienti panem tuum et egenos 46
+
+-- fused_10 --
+  OCR:      'genos nagosque induc in domini i ieenm'
+  Assigned: 'genos vagosque induc in domum tuam Tunc erum'
+  Words:    [65..72) consumed=7
+  NW score: k=4 (pre-snap), norm=3.5517
+  Anchor:   word 72 (within_chant_7), diff=3, snapped=False, forced=True
+  Alignment:
+    target            0 genos nagosque induc in dom---------ini i ieenm--- 38
+                      0 ------.||||||| 14
+    query             0 ------vagosque induc in domum tuam Tunc ---erumpet 41
+
+-- fused_11 --
+  OCR:      'pt onalima nem men tu um et ante ib faciem'
+  Assigned: 'pet quasi mane lumen tuum et anteibit faciem'
+  Words:    [72..79) consumed=7
+  NW score: k=7 (pre-snap), norm=4.2208
+  Anchor:   word 79 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 pt onali-ma nem --men tu um et ante ib-- faciem 42
+                      0 ---..|.|-||-||- 15
+    query             0 ---quasi ma-ne- lumen tu-um et ante-ibit faciem 40
+
+-- fused_12 --
+  OCR:      'ant .usti ci cu m indenis'
+  Assigned: 'tuam iusticia tua Cum videris'
+  Words:    [79..84) consumed=5
+  NW score: k=5 (pre-snap), norm=2.3026
+  Anchor:   word 84 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 --ant .usti ci- cu- --m -indenis 25
+                      0 --|-.  5
+    query             0 tua-m iusti-cia tua Cum vi-deris 29
+=== END DEBUG ===
+

@@ -1,0 +1,191 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'adiciam ltrqc'
+  [fused_1] 'recor da tor ut non perdam quis di Lv'
+  [fused_2] 'omnem car nemaarcum meumpo'
+  [fused_3] 'bus et erit signum federis inter me etin secundum Lucam Inno ipser dix'
+  [fused_4] 'Hhe curbs. omiliggsi ppea Lei'
+  [fused_5] 'ter ter ram. ut non ico xe Lectio Sancti Evangelii qommnio enedi'
+  [fused_6] 'it denono e et filius e mo et dixit.'
+  [fused_7] 'et multiplica et replete'
+  [fused_8] 'tec lam ce ego statuam pactum meum'
+  [fused_9] 'nobisumcu sem post nos  eesa'
+  [fused_10] 'te.c ceego am pactum me'
+  [fused_11] 'cumcum semme Meltio postnos Nec'
+  [fused_12] 'erit deinceps terram A'
+  [fused_13] 'cum menm ponam mmmibi bns et ent signum fecens'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'adiciam ltrqc'
+  Assigned: 'adiciam ultra'
+  Words:    [0..2) consumed=2
+  NW score: k=2 (pre-snap), norm=5.3077
+  Anchor:   word 19 (within_chant_7), diff=17, snapped=False, forced=False
+  Alignment:
+    target            0 adiciam -ltrqc 13
+                      0 |||||||  7
+    query             0 adiciam ultr-a 13
+
+-- fused_1 --
+  OCR:      'recor da tor ut non perdam quis di Lv'
+  Assigned: 'aquas diluvii super terram pacti mei recordabor Ut non perdam aquis diluvii'
+  Words:    [2..14) consumed=12
+  NW score: k=12 (pre-snap), norm=1.5566
+  Anchor:   word 19 (within_chant_7), diff=5, snapped=False, forced=False
+  Alignment:
+    target            0 -------------------------------------recor da tor ut non per
+                      0 -------------------------------------|||||-||-.||
+    query             0 aquas diluvii super terram pacti mei recor-da-bor Ut non per
+    
+    target           23 dam -quis di Lv-- 37
+                     49 ||| 52
+    query            58 dam aquis diluvii 75
+
+-- fused_2 --
+  OCR:      'omnem car nemaarcum meumpo'
+  Assigned: 'omnem carnem Arcum meum po'
+  Words:    [14..19) consumed=5
+  NW score: k=4 (pre-snap), norm=5.7659
+  Anchor:   word 19 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 omnem car nemaarcum meum-po--- 26
+                      0 |||||  5
+    query             0 omnem car-nem Arcum meum ponam 29
+
+-- fused_3 --
+  OCR:      'bus et erit signum federis inter me etin secundum Lucam Inno ipser dix'
+  Assigned: 'nam in nubibus et erit signum federis inter me et in'
+  Words:    [19..29) consumed=10
+  NW score: k=14 (pre-snap), norm=3.7126
+  Anchor:   word 29 (within_chant_7), diff=4, snapped=False, forced=True
+  Alignment:
+    target            0 -------bus et erit signum federis inter me etin secundum Luc
+                      0 -------|||
+    query             0 in nubibus et erit signum federis inter me et---------------
+    
+    target           53 am Inno ipser dix 70
+                     10 ------- 17
+    query            45 ------- inter---- 51
+
+-- fused_4 --
+  OCR:      'Hhe curbs. omiliggsi ppea Lei'
+  Assigned: 'ter terram Ut non Benedixit deus noe et'
+  Words:    [29..36) consumed=7
+  NW score: k=7 (pre-snap), norm=-1.8519
+  Anchor:   word 33 (within_chant_7), diff=3, snapped=False, forced=False
+  Alignment:
+    target            0 Hhe curbs. ----o------mili---ggsi ppea Lei 29
+                      0 -.|---|... 10
+    query             0 -te---rram Ut non Benedixit deus- noe- -et 35
+
+-- fused_5 --
+  OCR:      'ter ter ram. ut non ico xe Lectio Sancti Evangelii qommnio enedi'
+  Assigned: 'filius eius et dixit ad eos'
+  Words:    [36..42) consumed=6
+  NW score: k=10 (pre-snap), norm=-1.2417
+  Anchor:   word 42 (within_chant_7), diff=4, snapped=False, forced=True
+  Alignment:
+    target            0 ---ter ter ram. ut non ico xe Lectio Sancti Evangelii qommni
+                      0 ---...
+    query             0 filius -e---ius et ---di---x------i------t- --a-------------
+    
+    target           57 o enedi 64
+                      6 .  7
+    query            22 d --eos 27
+
+-- fused_6 --
+  OCR:      'it denono e et filius e mo et dixit.'
+  Assigned: 'Crescite et multiplicamini et replete terram'
+  Words:    [42..48) consumed=6
+  NW score: k=5 (pre-snap), norm=-0.3836
+  Anchor:   word 48 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 -----it denono e et ---fi-l----ius e- -mo et- dixit----. 36
+                      0 -----||--------| 16
+    query             0 Crescit--------e et multiplicamini et replete ----terram 44
+
+-- fused_7 --
+  OCR:      'et multiplica et replete'
+  Assigned: 'Ecce ego statuam pactum meum'
+  Words:    [48..53) consumed=5
+  NW score: k=9 (pre-snap), norm=-1.8293
+  Anchor:   word 53 (within_chant_7), diff=4, snapped=False, forced=True
+  Alignment:
+    target            0 -----e----t multiplica et-- replete 24
+                      0 -----|----|..|...|---|-.|-- 27
+    query             0 Ecce ego statuam p---a-ctum ---meum 28
+
+-- fused_8 --
+  OCR:      'tec lam ce ego statuam pactum meum'
+  Assigned: 'vobiscum et cum semine vestro post vos Crescite Ecce ego statuam pactum meum'
+  Words:    [53..66) consumed=13
+  NW score: k=13 (pre-snap), norm=1.7902
+  Anchor:   word 61 (within_chant_7), diff=5, snapped=False, forced=False
+  Alignment:
+    target            0 ----------tec-- lam---------------------------- --ce ego sta
+                      0 ----------|.|--
+    query             0 vobiscum et cum semine vestro post vos Crescite Ecce ego sta
+    
+    target           18 tuam pactum meum 34
+                     15 |||| 19
+    query            60 tuam pactum meum 76
+
+-- fused_9 --
+  OCR:      'nobisumcu sem post nos  eesa'
+  Assigned: 'vobi'
+  Words:    [66..67) consumed=1
+  NW score: k=8 (pre-snap), norm=2.4217
+  Anchor:   word 67 (within_chant_7), diff=7, snapped=False, forced=True
+  Alignment:
+    target            0 nobisumcu sem post nos  eesa 28
+                      0 .||||--||---|--------------- 28
+    query             0 vobis--cu---m---------------  8
+
+-- fused_10 --
+  OCR:      'te.c ceego am pactum me'
+  Assigned: 'scum et cum semine vestro post vos Neque'
+  Words:    [67..74) consumed=7
+  NW score: k=3 (pre-snap), norm=-0.8675
+  Anchor:   word 74 (within_chant_7), diff=4, snapped=False, forced=True
+  Alignment:
+    target            0 -te.c-- ce---ego ----am pact--um ---me 23
+                      0 -|-.|--  7
+    query             0 et- cum semine-- vestro post vos Neque 35
+
+-- fused_11 --
+  OCR:      'cumcum semme Meltio postnos Nec'
+  Assigned: 'erit deinceps diluvium dissipans terram Arcum'
+  Words:    [74..80) consumed=6
+  NW score: k=5 (pre-snap), norm=-1.6681
+  Anchor:   word 80 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 cumcum se-mme-- Mel-ti-o pos---tnos Ne-------c-- 31
+                      0 --....  6
+    query             0 --erit deinceps diluvium dissipan-s terram Arcum 45
+
+-- fused_12 --
+  OCR:      'erit deinceps terram A'
+  Assigned: 'meum ponam in nubibus et erit signum federis inter'
+  Words:    [80..89) consumed=9
+  NW score: k=9 (pre-snap), norm=-1.7488
+  Anchor:   word 89 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -------------------------erit ---------de-inceps --terram A
+                      0 -------------------------||||
+    query             0 meum ponam in nubibus et erit signum federi----s inter-----
+    
+    target           22
+                     29
+    query            50
+
+-- fused_13 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [89..89) consumed=0
+  Alignment:
+    (no words left)
+=== END DEBUG ===
+

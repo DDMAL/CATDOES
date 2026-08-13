@@ -1,0 +1,207 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'lite obdurare corda vestra sicut in exacerbatione secundum diem temptationisi'
+  [fused_1] 'temptaverunt me patres vestri probaverunt et viderunt opera'
+  [fused_2] 'me Quadradragnita annis proximus fui generationi huic et'
+  [fused_3] 'i erant vero non cognoverunt vias meas'
+  [fused_4] 'simtroibunt in requiem meam oria Paries'
+  [fused_5] 'filio et spiritui Sancto Sicut erat in principio et nunc et'
+  [fused_6] 'cula seculorum amen'
+  [fused_7] 'enite exultemus domino vibilemus Deo salutari nostro preocupenus'
+  [fused_8] 'tuteantnane ecapilamo naa'
+  [fused_9] 'am Deus magnus dominus et rex magnus super omnes Deos quoniam non'
+  [fused_10] 'dominus plebem suam quia in manu ejus sunt omnes fines ter'
+  [fused_11] 're et altitudines Moncium ipse conspiciQuomam ipsius est mare'
+  [fused_12] 'tbeatilus et audam fundaverunt i anus ejus vente atoreme'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'lite obdurare corda vestra sicut in exacerbatione secundum diem temptationisi'
+  Assigned: 'obdurare corda vestra sicut in exacerbatione secundum diem temptationis'
+  Words:    [0..9) consumed=9
+  NW score: k=9 (pre-snap), norm=7.3304
+  Anchor:   word 77 (within_chant_7), diff=68, snapped=False, forced=False
+  Alignment:
+    target            0 lite obdurare corda vestra sicut in exacerbatione secundum d
+                      0 -----||||||||
+    query             0 -----obdurare corda vestra sicut in exacerbatione secundum d
+    
+    target           60 iem temptationisi 77
+                     13 ||| 16
+    query            55 iem temptationis- 71
+
+-- fused_1 --
+  OCR:      'temptaverunt me patres vestri probaverunt et viderunt opera'
+  Assigned: 'in deserto ubi temptaverunt me patres vestri probaverunt et viderunt opera'
+  Words:    [9..20) consumed=11
+  NW score: k=11 (pre-snap), norm=6.4017
+  Anchor:   word 77 (within_chant_7), diff=57, snapped=False, forced=False
+  Alignment:
+    target            0 ---------------temptaverunt me patres vestri probaverunt et 
+                      0 ---------------||||||||||||
+    query             0 in deserto ubi temptaverunt me patres vestri probaverunt et 
+    
+    target           45 viderunt opera 59
+                     27 |||||||| 35
+    query            60 viderunt opera 74
+
+-- fused_2 --
+  OCR:      'me Quadradragnita annis proximus fui generationi huic et'
+  Assigned: 'mea Quadraginta annis proximus fui generationi huic et'
+  Words:    [20..28) consumed=8
+  NW score: k=8 (pre-snap), norm=6.9466
+  Anchor:   word 77 (within_chant_7), diff=49, snapped=False, forced=False
+  Alignment:
+    target            0 me- Quadradrag-nita annis proximus fui generationi huic et 56
+                      0 ||-  3
+    query             0 mea Qu---adragin-ta annis proximus fui generationi huic et 54
+
+-- fused_3 --
+  OCR:      'i erant vero non cognoverunt vias meas'
+  Assigned: 'dixi semper hii errant corde ipsi vero non cognoverunt vias meas'
+  Words:    [28..39) consumed=11
+  NW score: k=11 (pre-snap), norm=4.3394
+  Anchor:   word 77 (within_chant_7), diff=38, snapped=False, forced=False
+  Alignment:
+    target            0 --------------i e-rant----------- vero non cognoverunt vias 
+                      0 --------------|
+    query             0 dixi semper hii errant corde ipsi vero non cognoverunt vias 
+    
+    target           34 meas 38
+                     15 |||| 19
+    query            60 meas 64
+
+-- fused_4 --
+  OCR:      'simtroibunt in requiem meam oria Paries'
+  Assigned: 'quibus iuravi in ira mea si introibunt in requiem meam Gloria patri et'
+  Words:    [39..52) consumed=13
+  NW score: k=13 (pre-snap), norm=3.1579
+  Anchor:   word 77 (within_chant_7), diff=25, snapped=False, forced=False
+  Alignment:
+    target            0 -----s-----------i---m--------troibunt in requiem meam --ori
+                      0 -----|-----------|---|--------||||||||
+    query             0 quibus iuravi in ira mea si introibunt in requiem meam Glori
+    
+    target           31 a Pa-ri-es 39
+                     38 | 39
+    query            60 a patri et 70
+
+-- fused_5 --
+  OCR:      'filio et spiritui Sancto Sicut erat in principio et nunc et'
+  Assigned: 'filio et spiritui sancto Sicut erat in principio et nunc et'
+  Words:    [52..63) consumed=11
+  NW score: k=11 (pre-snap), norm=7.7797
+  Anchor:   word 77 (within_chant_7), diff=14, snapped=False, forced=False
+  Alignment:
+    target            0 filio et spiritui Sancto Sicut erat in principio et nunc et
+                      0 |||||
+    query             0 filio et spiritui sancto Sicut erat in principio et nunc et
+    
+    target           59
+                      5
+    query            59
+
+-- fused_6 --
+  OCR:      'cula seculorum amen'
+  Assigned: 'semper et in secula seculorum amen'
+  Words:    [63..69) consumed=6
+  NW score: k=6 (pre-snap), norm=4.0525
+  Anchor:   word 77 (within_chant_7), diff=8, snapped=False, forced=False
+  Alignment:
+    target            0 ---------------cula seculorum amen 19
+                      0 ---------------|||| 19
+    query             0 semper et in secula seculorum amen 34
+
+-- fused_7 --
+  OCR:      'enite exultemus domino vibilemus Deo salutari nostro preocupenus'
+  Assigned: 'Venite exultemus domino iubilemus deo salutari nostro preocupemus'
+  Words:    [69..77) consumed=8
+  NW score: k=8 (pre-snap), norm=7.0855
+  Anchor:   word 77 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -enite exultemus domino vi-bilemus Deo salutari nostro preoc
+                      0 -|||||
+    query             0 Venite exultemus domino -iubilemus deo salutari nostro preoc
+    
+    target           58 upenus 64
+                      6 |||.|| 12
+    query            59 upemus 65
+
+-- fused_8 --
+  OCR:      'tuteantnane ecapilamo naa'
+  Assigned: 'faciem eius in confessione et in psalmis iubilemus ei quoni'
+  Words:    [77..87) consumed=10
+  NW score: k=10 (pre-snap), norm=-2.1254
+  Anchor:   word 87 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 --------tutean--tn-----ane e------ca-------pilam----o ---n-a
+                      0 --------.|...|--.|-----.||
+    query             0 faciem eius in confessione et in psalmis iubilemus ei Quonia
+    
+    target           24 a 25
+                     26 . 27
+    query            60 m 61
+
+-- fused_9 --
+  OCR:      'am Deus magnus dominus et rex magnus super omnes Deos quoniam non'
+  Assigned: 'am deus magnus dominus et rex magnus super omnes deos quoniam non'
+  Words:    [87..98) consumed=11
+  NW score: k=11 (pre-snap), norm=7.1989
+  Anchor:   word 98 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 am Deus magnus dominus et rex magnus super omnes Deos quonia
+                      0 ---.|||
+    query             0 ---deus magnus dominus et rex magnus super omnes deos quonia
+    
+    target           60 m non 65
+                      7 |  8
+    query            57 m non 62
+
+-- fused_10 --
+  OCR:      'dominus plebem suam quia in manu ejus sunt omnes fines ter'
+  Assigned: 'repellet dominus plebem suam quia in manu eius sunt omnes fines ter'
+  Words:    [98..110) consumed=12
+  NW score: k=12 (pre-snap), norm=6.4810
+  Anchor:   word 110 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ---------dominus plebem suam quia in manu ejus sunt omnes fi
+                      0 ---------|||||||
+    query             0 repellet dominus plebem suam quia in manu eius sunt omnes fi
+    
+    target           51 nes ter-- 58
+                     16 ||| 19
+    query            60 nes terre 69
+
+-- fused_11 --
+  OCR:      're et altitudines Moncium ipse conspiciQuomam ipsius est mare'
+  Assigned: 're et altitudines moncium ipse conspicit Quoniam ipsius est mare'
+  Words:    [110..119) consumed=9
+  NW score: k=9 (pre-snap), norm=6.6885
+  Anchor:   word 119 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 re et altitudines Moncium ipse conspici--Quo-mam ipsius est 
+                      0 ---||
+    query             0 ---et altitudines moncium ipse conspicit Quoniam ipsius est 
+    
+    target           57 mare 61
+                      5 ||||  9
+    query            57 mare 61
+
+-- fused_12 --
+  OCR:      'tbeatilus et audam fundaverunt i anus ejus vente atoreme'
+  Assigned: 'et ipse fecit illud et aridam fundaverunt manus eius venite adoremus'
+  Words:    [119..130) consumed=11
+  NW score: k=11 (pre-snap), norm=4.1809
+  Anchor:   word 130 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -t------be-at-i-lus et a-udam fundaverunt i anus ejus ven-te
+                      0 -|------.|-.|-|-||.
+    query             0 et ipse fecit illud et aridam fundaverunt -manus eius venite
+    
+    target           48  atorem-e 56
+                     19  19
+    query            59  adoremus 68
+=== END DEBUG ===
+

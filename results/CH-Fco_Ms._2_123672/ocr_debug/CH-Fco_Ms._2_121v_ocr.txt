@@ -1,0 +1,171 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'verunt nos qum captivos duxerunt nos verba Scudm Johannem Juilot dicitis cantio'
+  [fused_1] 'mum. Annomo . Deneris canticum no'
+  [fused_2] 'num cantabo ti . aie Va In psalterio decem'
+  [fused_3] 'cordarum psa lamtibi alleuya'
+  [fused_4] 'no meus estu et conficeborti'
+  [fused_5] 'et ex Ccabo te. In psalte onum est confi'
+  [fused_6] 'teri to i i alie in ya et psalle'
+  [fused_7] ' mya . n decacordo  psaltericum cntico'
+  [fused_8] 'in cy .a ra. et psalleicat nunc qui re'
+  [fused_9] 'tempti sunt alie luYa adomi'
+  [fused_10] 'a1e n Yad Qnos redemit de manumu'
+  [fused_11] 'mi ci et de regombus congré Gaint 28.'
+  [fused_12] 'Doio  antatete oanen  ammoint i ane'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'verunt nos qum captivos duxerunt nos verba Scudm Johannem Juilot dicitis cantio'
+  Assigned: 'nos qui captivos duxerunt nos verba cantonium Quomodo Deus canticum no'
+  Words:    [0..11) consumed=11
+  NW score: k=10 (pre-snap), norm=3.5600
+  Anchor:   word 11 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 verunt nos qum captivos duxerunt nos verba Scudm Johan--n-em
+                      0 -------|||
+    query             0 -------nos qui captivos duxerunt nos verba -c-------antonium
+    
+    target           57  Juilot dicitis canti-----o--- 79
+                     10  10
+    query            45  Qu--omodo Deus canticum novum 73
+
+-- fused_1 --
+  OCR:      'mum. Annomo . Deneris canticum no'
+  Assigned: 'vum cantabo tibi alleluya In psalterio decem'
+  Words:    [11..17) consumed=6
+  NW score: k=7 (pre-snap), norm=-1.6413
+  Anchor:   word 17 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 mum. Annomo ---. --De------n------eris canticum no 33
+                      0 ----..|...| 11
+    query             0 ----cantabo tibi alleluya In psalterio ---decem--- 40
+
+-- fused_2 --
+  OCR:      'num cantabo ti . aie Va In psalterio decem'
+  Assigned: 'cordarum psallam tibi alleluya alleluya de'
+  Words:    [17..23) consumed=6
+  NW score: k=6 (pre-snap), norm=-0.4885
+  Anchor:   word 23 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -----num -cantabo ti . a-ie- Va In psalte-rio decem 42
+                      0 -----.||  8
+    query             0 cordarum psalla-m tibi alleluya -----alleluya De-us 44
+
+-- fused_3 --
+  OCR:      'cordarum psa lamtibi alleuya'
+  Assigned: 'us meus es tu et confitebor tibi deus meus es tu'
+  Words:    [23..33) consumed=10
+  NW score: k=7 (pre-snap), norm=-1.3612
+  Anchor:   word 33 (within_chant_7), diff=3, snapped=False, forced=True
+  Alignment:
+    target            0 cordarum ps-----a --------lamtibi ---alleu-----ya 28
+                      0 ----..|.  8
+    query             0 ----meus es tu et confitebor tibi deus meus es tu 45
+
+-- fused_4 --
+  OCR:      'no meus estu et conficeborti'
+  Assigned: 'et exaltabo te In psalteri Bonum est confi'
+  Words:    [33..41) consumed=8
+  NW score: k=8 (pre-snap), norm=0.5016
+  Anchor:   word 41 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ---------no me-us es--t-------u- e-t conficeborti 28
+                      0 ---------.| 11
+    query             0 et exaltabo te In psalteri Bonum est confite--r-i 46
+
+-- fused_5 --
+  OCR:      'et ex Ccabo te. In psalte onum est confi'
+  Assigned: 'teri domino alleluya Et psallere alleluya In decacordo psalterio cum cantico in'
+  Words:    [41..52) consumed=11
+  NW score: k=11 (pre-snap), norm=-0.6249
+  Anchor:   word 46 (within_chant_7), diff=6, snapped=False, forced=False
+  Alignment:
+    target            0 ----------e------t -----e-x Ccabo te---. In---------- psalte
+                      0 ----------|------|
+    query             0 domino alleluya Et psallere --a--lleluya In decacordo psalte
+    
+    target           25 - o-num -est confi- 40
+                     18 -.|-.|| 25
+    query            56 rio cum cantico- in 74
+
+-- fused_6 --
+  OCR:      'teri to i i alie in ya et psalle'
+  Assigned: 'cythara Et psallere'
+  Words:    [52..55) consumed=3
+  NW score: k=3 (pre-snap), norm=0.1622
+  Anchor:   word 59 (within_chant_7), diff=4, snapped=False, forced=False
+  Alignment:
+    target            0 teri to i i alie in ya et psall--e 32
+                      0 ---..|-----.|-------.| 22
+    query             0 ---cyt-----ha-------ra Et psallere 19
+
+-- fused_7 --
+  OCR:      'mya . n decacordo  psaltericum cntico'
+  Assigned: 'Dicat nunc qui re'
+  Words:    [55..59) consumed=4
+  NW score: k=8 (pre-snap), norm=-1.4544
+  Anchor:   word 59 (within_chant_7), diff=4, snapped=False, forced=True
+  Alignment:
+    target            0 -mya . n decacordo --- psaltericum cntico 37
+                      0 -..|-.  6
+    query             0 Dica-t n---unc---- qui ------redem--pti-- 23
+
+-- fused_8 --
+  OCR:      'in cy .a ra. et psalleicat nunc qui re'
+  Assigned: 'dempti sunt alleluya A domino'
+  Words:    [59..63) consumed=4
+  NW score: k=8 (pre-snap), norm=-0.8045
+  Anchor:   word 63 (within_chant_7), diff=4, snapped=False, forced=True
+  Alignment:
+    target            0 -in cy .a ra. et psalle-icat nunc -qui re 38
+                      0 -.|------------| 16
+    query             0 sun------------t --alleluya- ---A domi-no 22
+
+-- fused_9 --
+  OCR:      'tempti sunt alie luYa adomi'
+  Assigned: 'alleluya Quos redemit'
+  Words:    [63..66) consumed=3
+  NW score: k=3 (pre-snap), norm=-0.6719
+  Anchor:   word 69 (within_chant_7), diff=3, snapped=False, forced=False
+  Alignment:
+    target            0 tempti sunt alie luYa ------adomi- 27
+                      0 ------------||.|-||.| 21
+    query             0 ------------alle-luya Quos redemit 21
+
+-- fused_10 --
+  OCR:      'a1e n Yad Qnos redemit de manumu'
+  Assigned: 'de manu ini'
+  Words:    [66..69) consumed=3
+  NW score: k=6 (pre-snap), norm=-0.4688
+  Anchor:   word 69 (within_chant_7), diff=3, snapped=False, forced=True
+  Alignment:
+    target            0 a1e n Yad Qnos redemit de manu----m--u 32
+                      0 -----------------------|| 25
+    query             0 -----------------------de manu inimici 15
+
+-- fused_11 --
+  OCR:      'mi ci et de regombus congré Gaint 28.'
+  Assigned: 'mici et de regionibus congregavit eos A'
+  Words:    [69..75) consumed=6
+  NW score: k=5 (pre-snap), norm=2.8190
+  Anchor:   word 75 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    mi ci et de reg-o-mbus congré Ga-int --28.
+    ------|||||||||-|-.|||||||||-..|-|-||--...
+    ------et de regionibus congr-egavi-t eos A
+
+-- fused_12 --
+  OCR:      'Doio  antatete oanen  ammoint i ane'
+  Assigned: 'domino Cantate deo alleluya Psalmum dicite ei alleluya'
+  Words:    [75..83) consumed=8
+  NW score: k=8 (pre-snap), norm=0.6441
+  Anchor:   word 83 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 Do-i-o  antate-te- oa-ne---n - a-m-m-oi-nt- -i a-ne---- 35
+                      0 .|-|-|  6
+    query             0 domino Cantate deo -alleluya Psalmum dicite ei alleluya 54
+=== END DEBUG ===
+

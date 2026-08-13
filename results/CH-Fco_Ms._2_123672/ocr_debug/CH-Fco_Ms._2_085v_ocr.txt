@@ -1,0 +1,163 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'mno e micis tu  etdicut fui cum'
+  [fused_1] 'mo pseitae pote cum dicit dom mis con'
+  [fused_2] 'totroo cens populum me'
+  [fused_3] 'lacte et mene manantenxo'
+  [fused_4] 'time re quoniam tecum sum a quocumque perrexe '
+  [fused_5] 'dimittam te neque dere iniquam . confora dou'
+  [fused_6] 'ri n ons tum quadraginta au'
+  [fused_7] 'o dnus non sunt attri ta vestimenta ve'
+  [fused_8] ' Magna de Celo o bis et obliti'
+  [fused_9] 'tusme dicit dom mis go'
+  [fused_10] 'eoma vos detena e et de domo lemitutis'
+  [fused_11] 'in in laudibus antiphon'
+  [fused_12] 'mnc accepta ns sactificium juificie si aovertens'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'mno e micis tu  etdicut fui cum'
+  Assigned: 'ero inimicis tuis Et dabo Sicut sui cum'
+  Words:    [0..8) consumed=8
+  NW score: k=8 (pre-snap), norm=3.3649
+  Anchor:   word 8 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 mno -e micis tu-  et-d-----icut fui cum 31
+                      0 ..|  3
+    query             0 ero inimicis tuis Et dabo Sicut sui cum 39
+
+-- fused_1 --
+  OCR:      'mo pseitae pote cum dicit dom mis con'
+  Assigned: 'moyse ita ero tecum dicit dominus con'
+  Words:    [8..15) consumed=7
+  NW score: k=6 (pre-snap), norm=3.4342
+  Anchor:   word 15 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 mo pse-ita-e po-te cum dicit dom mi--s con------- 37
+                      0 ||-.||-|||-|-.|-||-||| 22
+    query             0 mo-yse ita e-ro te-cum dicit do--minus Confortare 44
+
+-- fused_2 --
+  OCR:      'totroo cens populum me'
+  Assigned: 'fortare et esto robustus introduces populum me'
+  Words:    [15..21) consumed=6
+  NW score: k=6 (pre-snap), norm=2.2249
+  Anchor:   word 21 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -----to------------troo cens populum me-- 22
+                      0 -----||------------|||..||-| 28
+    query             0 et esto robustus introduce-s populum meum 40
+
+-- fused_3 --
+  OCR:      'lacte et mene manantenxo'
+  Assigned: 'um in terram lacte et melle manantem Noli'
+  Words:    [21..28) consumed=7
+  NW score: k=6 (pre-snap), norm=3.5178
+  Anchor:   word 28 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 ----------lacte et me-ne manante-nxo-- 24
+                      0 ----------||||| 15
+    query             0 in terram lacte et melle manantem Noli 38
+
+-- fused_4 --
+  OCR:      'time re quoniam tecum sum a quocumque perrexe'
+  Assigned: 'timere quoniam tecum sum ad quocumque perrexeris'
+  Words:    [28..35) consumed=7
+  NW score: k=7 (pre-snap), norm=6.9929
+  Anchor:   word 42 (within_chant_7), diff=7, snapped=False, forced=False
+  Alignment:
+    target            0 time re quoniam tecum sum a- quocumque perrexe--- 45
+                      0 ||||-||  7
+    query             0 time-re quoniam tecum sum ad quocumque perrexeris 48
+
+-- fused_5 --
+  OCR:      'dimittam te neque dere iniquam . confora dou'
+  Assigned: 'non dimittam te neque derelinquam Confortare addux'
+  Words:    [35..42) consumed=7
+  NW score: k=6 (pre-snap), norm=4.7727
+  Anchor:   word 42 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 ----dimittam te neque dere iniquam . confor-a-- -dou-- 44
+                      0 ----|||||||| 12
+    query             0 non dimittam te neque derelin-quam-- Confortare Adduxi 51
+
+-- fused_6 --
+  OCR:      'ri n ons tum quadraginta au'
+  Assigned: 'i vos per desertum quadraginta annis e'
+  Words:    [42..48) consumed=6
+  NW score: k=5 (pre-snap), norm=2.9044
+  Anchor:   word 48 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 -ri --n ons- tum quadraginta a-------u 27
+                      0 -..  3
+    query             0 vos per desertum quadraginta annis ego 38
+
+-- fused_7 --
+  OCR:      'o dnus non sunt attri ta vestimenta ve'
+  Assigned: 'go dominus non sunt attrita vestimenta ve'
+  Words:    [48..54) consumed=6
+  NW score: k=6 (pre-snap), norm=6.0075
+  Anchor:   word 54 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -o dnus non sunt attri ta vestimenta ve---- 38
+                      0 -|..|||  7
+    query             0 dominus non sunt attri-ta vestimenta vestra 42
+
+-- fused_8 --
+  OCR:      'Magna de Celo o bis et obliti'
+  Assigned: 'stra Magna de celo plui vobis et obliti'
+  Words:    [54..61) consumed=7
+  NW score: k=7 (pre-snap), norm=5.8279
+  Anchor:   word 61 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 Magna de Celo ---o --bis et obliti 29
+                      0 |||||  5
+    query             0 Magna de celo plui vobis et obliti 34
+
+-- fused_9 --
+  OCR:      'tusme dicit dom mis go'
+  Assigned: 'estis me dicit dominus Ego'
+  Words:    [61..66) consumed=5
+  NW score: k=5 (pre-snap), norm=4.3066
+  Anchor:   word 66 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 --tus-me dicit dom mi--s -go 22
+                      0 --|.|-||  8
+    query             0 estis me dicit do--minus Ego 26
+
+-- fused_10 --
+  OCR:      'eoma vos detena e et de domo lemitutis'
+  Assigned: 'eduxi vos de terra eegypti et de domo servitutis li'
+  Words:    [66..76) consumed=10
+  NW score: k=9 (pre-snap), norm=4.1210
+  Anchor:   word 76 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 e-oma vos de-te-na e------ et de domo le-mitutis--------- 38
+                      0 |-...  5
+    query             0 eduxi vos de terra eegypti et de domo servitutis liberavi 57
+
+-- fused_11 --
+  OCR:      'in in laudibus antiphon'
+  Assigned: 'beravi vos Tunc acceptabis sacrificium'
+  Words:    [76..80) consumed=4
+  NW score: k=4 (pre-snap), norm=-1.9100
+  Anchor:   word 83 (page_break_77), diff=3, snapped=False, forced=False
+  Alignment:
+    target            0 -in -in- la---udibus -a--ntiphon 23
+                      0 -..  3
+    query             0 vos Tunc -acceptabis sacrificium 31
+
+-- fused_12 --
+  OCR:      'mnc accepta ns sactificium juificie si aovertens'
+  Assigned: 'iustitie si averteris'
+  Words:    [80..83) consumed=3
+  NW score: k=3 (pre-snap), norm=0.1575
+  Anchor:   word 83 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 mnc accepta ns sactificium juificie si aoverte-ns 48
+                      0 -----------------------|----|..|.|| 35
+    query             0 -----------------------i----ustitie si a-verteris 21
+=== END DEBUG ===
+

@@ -1,0 +1,223 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'num et coram te jam nonsum dignus no cari'
+  [fused_1] 'filius s . tacme sicut ex mercen'
+  [fused_2] 'na riis tu oro Lnan tiMercemnari'
+  [fused_3] 'in domo patris mei habundant panibus ego au'
+  [fused_4] 'me pereo sur gan et ibo ad patrem meum abbatn'
+  [fused_5] 'dicto'
+  [fused_6] 'etdicam fac me. adam ad pa'
+  [fused_7] 'm necim cecami ei paterac  daquis domine ad ves me sicut unum'
+  [fused_8] ' Estote mutato'
+  [fused_9] 'res Dei sicut filii ad'
+  [fused_10] 'er Mercenarsis o agficat nto'
+  [fused_11] 'amen pater ad setos oto pesente stolan praman'
+  [fused_12] 'et indiite illum et date anulum in manu ejus et calciamen'
+  [fused_13] 'oro . Quod ompte dovo'
+  [fused_14] 'ta ominica'
+  [fused_15] 'vitatori'
+  [fused_16] 'ta inpedibus ejus evovac DeNntead'
+  [fused_17] 'ore mus dominum qin se ait nose ven'
+  [fused_18] 'des Josep eloge te'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'num et coram te jam nonsum dignus no cari'
+  Assigned: 'et coram te jam non sum dignus vocari'
+  Words:    [0..8) consumed=8
+  NW score: k=8 (pre-snap), norm=6.2903
+  Anchor:   word 19 (within_chant_7), diff=11, snapped=False, forced=False
+  Alignment:
+    target            0 num et coram te jam non-sum dignus no cari 41
+                      0 ----||  6
+    query             0 ----et coram te jam non sum dignus vo-cari 37
+
+-- fused_1 --
+  OCR:      'filius s . tacme sicut ex mercen'
+  Assigned: 'filius tuus Fac me sicut unum ex mercennariis'
+  Words:    [8..16) consumed=8
+  NW score: k=8 (pre-snap), norm=4.1110
+  Anchor:   word 19 (within_chant_7), diff=3, snapped=False, forced=False
+  Alignment:
+    target            0 filius ---s . tac-me sicut----- ex mercen------ 32
+                      0 ||||||  6
+    query             0 filius tuus-- Fac me sicut unum ex mercennariis 45
+
+-- fused_2 --
+  OCR:      'na riis tu oro Lnan tiMercemnari'
+  Assigned: 'tuis Quanti mercennari'
+  Words:    [16..19) consumed=3
+  NW score: k=3 (pre-snap), norm=1.6219
+  Anchor:   word 19 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 na riis tu oro Lnan ti-Mercemnar-i 32
+                      0 ---..||  7
+    query             0 ---tuis Qu-------an-ti mercennarii 23
+
+-- fused_3 --
+  OCR:      'in domo patris mei habundant panibus ego au'
+  Assigned: 'i in domo patris mei habundant panibus ego au'
+  Words:    [19..27) consumed=8
+  NW score: k=8 (pre-snap), norm=7.4424
+  Anchor:   word 27 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 in domo patris mei habundant panibus ego au--- 43
+                      0 ||  2
+    query             0 in domo patris mei habundant panibus ego autem 46
+
+-- fused_4 --
+  OCR:      'me pereo sur gan et ibo ad patrem meum abbatn'
+  Assigned: 'tem hic fame pereo surgam et ibo ad patrem meum'
+  Words:    [27..36) consumed=9
+  NW score: k=10 (pre-snap), norm=5.3849
+  Anchor:   word 36 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 ------me pereo sur gan et ibo ad patrem meum abbatn 45
+                      0 ------||  8
+    query             0 hic fame pereo sur-gam et ibo ad patrem meum------- 43
+
+-- fused_5 --
+  OCR:      'dicto'
+  Assigned: 'et dicam'
+  Words:    [36..38) consumed=2
+  NW score: k=2 (pre-snap), norm=0.1581
+  Anchor:   word 44 (within_chant_7), diff=6, snapped=False, forced=False
+  Alignment:
+    target            0 ---dicto 5
+                      0 ---|||.. 8
+    query             0 et dicam 8
+
+-- fused_6 --
+  OCR:      'etdicam fac me. adam ad pa'
+  Assigned: 'ei Fac me Vadam ad pa'
+  Words:    [38..44) consumed=6
+  NW score: k=6 (pre-snap), norm=3.6870
+  Anchor:   word 44 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 etdicam fac me. -adam ad pa---- 26
+                      0 |--|---  7
+    query             0 e--i--- Fac me- Vadam ad patrem 25
+
+-- fused_7 --
+  OCR:      'm necim cecami ei paterac  daquis domine ad ves me sicut unum'
+  Assigned: 'trem meum et dicam ei pater fac me sicut unum'
+  Words:    [44..53) consumed=9
+  NW score: k=9 (pre-snap), norm=2.7128
+  Anchor:   word 53 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 m necim ce----cami ei paterac  daquis domine ad ves me sicut
+                      0 |--|-.|
+    query             0 m--e-um -et dicam- ei pater--- fa-----------------c me sicut
+    
+    target           56  unum 61
+                      7   7
+    query            35  unum 40
+
+-- fused_8 --
+  OCR:      'Estote mutato'
+  Assigned: 'ex mercennariis tuis euouae Dixit'
+  Words:    [53..58) consumed=5
+  NW score: k=3 (pre-snap), norm=-2.8528
+  Anchor:   word 58 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 -------------Es-t------o-te mutato 13
+                      0 -------------.|-|------|-.| 27
+    query             0 ex mercennariis tuis euouae Dixit- 33
+
+-- fused_9 --
+  OCR:      'res Dei sicut filii ad'
+  Assigned: 'autem pater ad servos suos cito proferte stolam primam'
+  Words:    [58..67) consumed=9
+  NW score: k=3 (pre-snap), norm=-1.4815
+  Anchor:   word 67 (within_chant_7), diff=6, snapped=False, forced=True
+  Alignment:
+    target            0 --res --Dei -------------sicut- ---f-------il----ii ad 22
+                      0 --.|.  5
+    query             0 autem pater ad servos suos cito proferte stolam primam 54
+
+-- fused_10 --
+  OCR:      'er Mercenarsis o agficat nto'
+  Assigned: 'et induite illum et date annulum in manu eius et calceamen'
+  Words:    [67..78) consumed=11
+  NW score: k=5 (pre-snap), norm=-1.6973
+  Anchor:   word 78 (within_chant_7), diff=6, snapped=False, forced=True
+  Alignment:
+    target            0 er -------------Me---rce----------n--a--rsi-s -o -agfic-at n
+                      0 |.
+    query             0 et induite illum et date annulum in manu eius et ca--lceamen
+    
+    target           26 to 28
+                      2 |.  4
+    query            58 ta 60
+
+-- fused_11 --
+  OCR:      'amen pater ad setos oto pesente stolan praman'
+  Assigned: 'ta in pedibus eius euouae Venite adoremus'
+  Words:    [78..84) consumed=6
+  NW score: k=6 (pre-snap), norm=-0.0242
+  Anchor:   word 84 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 amen pater ad-- s-etos oto pe-sen-te stolan praman 45
+                      0 --.|  4
+    query             0 --in p--e---dibus eius euouae Venite ado-----remus 38
+
+-- fused_12 --
+  OCR:      'et indiite illum et date anulum in manu ejus et calciamen'
+  Assigned: 'dominum qui fecit nos ~Venite Videntes ioseph a loge'
+  Words:    [84..93) consumed=9
+  NW score: k=9 (pre-snap), norm=-1.4143
+  Anchor:   word 89 (within_chant_7), diff=4, snapped=False, forced=False
+  Alignment:
+    target            0 et indiite illum -e--t -------date anulum in manu ejus ---e-
+                      0 ...||---..
+    query             0 domin---um --qui fecit nos ~Venite ------Vi--den-te--s iosep
+    
+    target           46 t ca-lciamen 57
+                     10 . 11
+    query            44 h -a l--oge- 52
+
+-- fused_13 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [93..93) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_14 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [93..93) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_15 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [93..93) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_16 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [93..93) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_17 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [93..93) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_18 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [93..93) consumed=0
+  Alignment:
+    (no words left)
+=== END DEBUG ===
+

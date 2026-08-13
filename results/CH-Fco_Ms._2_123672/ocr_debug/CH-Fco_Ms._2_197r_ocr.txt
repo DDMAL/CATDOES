@@ -1,0 +1,215 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'incinitate pectatrix ut cogno vit quod Jhesus accubuit in'
+  [fused_1] 'domo Symonis leProsi actu'
+  [fused_2] 'ti et stano regro sectus petes domini hesi la'
+  [fused_3] 'jus et capillis capitis sui tergebat et'
+  [fused_4] 'sculabau pedes'
+  [fused_5] 'me Lantem mlo tem neiatum in conver un ardim'
+  [fused_6] 'nmlati Emagda seneensi venerites'
+  [fused_7] 'Leva ejus sub capite meo et dextera ulius amplexabi'
+  [fused_8] 'nasiio'
+  [fused_9] 'Luglim quod legenes '
+  [fused_10] 'tur mTelie ovae. n p decomunni virs Congtulamnum  culet'
+  [fused_11] 'r diffusacr spe tua e propter veitate le'
+  [fused_12] 'engulii secundum Luca Rogabant hesum quidam pha'
+  [fused_13] 'tiscus dsci g pe Reare inferia . obdie Vegium mimor et'
+  [fused_14] 'ornatum se culi contempsi propter amorem domu'
+  [fused_15] 'me Jihesu xpisti . Quem vidi quem amiavi'
+  [fused_16] 'ucta ntecor me in'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'incinitate pectatrix ut cogno vit quod Jhesus accubuit in'
+  Assigned: 'in civitate peccatrix ut cognovit quod ihesus accubuit in'
+  Words:    [0..9) consumed=9
+  NW score: k=9 (pre-snap), norm=6.9298
+  Anchor:   word 45 (within_chant_7), diff=36, snapped=False, forced=False
+  Alignment:
+    target            0 in-cinitate pectatrix ut cogno vit quod Jhesus accubuit in 57
+                      0 ||-||.||||| 11
+    query             0 in civitate peccatrix ut cogno-vit quod ihesus accubuit in 57
+
+-- fused_1 --
+  OCR:      'domo Symonis leProsi actu'
+  Assigned: 'domo symonis leprosi attulit'
+  Words:    [9..13) consumed=4
+  NW score: k=4 (pre-snap), norm=5.5939
+  Anchor:   word 45 (within_chant_7), diff=32, snapped=False, forced=False
+  Alignment:
+    target            0 domo Symonis leProsi actu--- 25
+                      0 ||||  4
+    query             0 domo symonis leprosi attulit 28
+
+-- fused_2 --
+  OCR:      'ti et stano regro sectus petes domini hesi la'
+  Assigned: 'alabastrum unguenti et stans retro secus pedes domini ihesu lacrimis'
+  Words:    [13..23) consumed=10
+  NW score: k=10 (pre-snap), norm=3.7782
+  Anchor:   word 45 (within_chant_7), diff=22, snapped=False, forced=False
+  Alignment:
+    target            0 -----------------ti et stano regro sectus petes domini -hesi
+                      0 -----------------||
+    query             0 alabastrum unguenti et stans retro sec-us pedes domini ihesu
+    
+    target           42  la------ 45
+                     19  19
+    query            59  lacrimis 68
+
+-- fused_3 --
+  OCR:      'jus et capillis capitis sui tergebat et'
+  Assigned: 'cepit rigare pedes eius et capillis capitis sui tergebat et'
+  Words:    [23..33) consumed=10
+  NW score: k=10 (pre-snap), norm=4.8990
+  Anchor:   word 45 (within_chant_7), diff=12, snapped=False, forced=False
+  Alignment:
+    target            0 --------------------jus et capillis capitis sui tergebat et
+                      0 --------------------.||
+    query             0 cepit rigare pedes eius et capillis capitis sui tergebat et
+    
+    target           39
+                     23
+    query            59
+
+-- fused_4 --
+  OCR:      'sculabau pedes'
+  Assigned: 'osculabatur pedes'
+  Words:    [33..35) consumed=2
+  NW score: k=2 (pre-snap), norm=5.8987
+  Anchor:   word 45 (within_chant_7), diff=10, snapped=False, forced=False
+  Alignment:
+    target            0 -sculaba-u- pedes 14
+                      0 -|||||||-|- 11
+    query             0 osculabatur pedes 17
+
+-- fused_5 --
+  OCR:      'me Lantem mlo tem neiatum in conver un ardim'
+  Assigned: 'eius et unguento ungebat euouae Laudemus deum nostrum in conversione'
+  Words:    [35..45) consumed=10
+  NW score: k=11 (pre-snap), norm=0.4732
+  Anchor:   word 45 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 -----------------------------me Lantem mlo te-m neiat-um in 
+                      0 -----------------------------.|
+    query             0 eius et unguento ungebat euouae Laude--mus deum n-ostrum in 
+    
+    target           29 conver- un ardim 44
+                     31 ||||||-..|-----. 47
+    query            57 conversion-----e 68
+
+-- fused_6 --
+  OCR:      'nmlati Emagda seneensi venerites'
+  Assigned: 'marie magdalene ~Venite'
+  Words:    [45..48) consumed=3
+  NW score: k=3 (pre-snap), norm=1.9905
+  Anchor:   word 48 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 nmlati- Emagda seneensi -venerites 32
+                      0 -|-|.|-  7
+    query             0 -m-arie -magda-lene---- ~Ven--ite- 23
+
+-- fused_7 --
+  OCR:      'Leva ejus sub capite meo et dextera ulius amplexabi'
+  Assigned: 'Leva eius sub capite meo et dextera illius amplexabi'
+  Words:    [48..57) consumed=9
+  NW score: k=9 (pre-snap), norm=6.8351
+  Anchor:   word 57 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 Leva ejus sub capite meo et dextera -ulius amplexabi--- 51
+                      0 ||||  4
+    query             0 Leva eius sub capite meo et dextera illius amplexabitur 55
+
+-- fused_8 --
+  OCR:      'nasiio'
+  Assigned: 'tur me ~Celi enarrant'
+  Words:    [57..60) consumed=3
+  NW score: k=3 (pre-snap), norm=-4.4557
+  Anchor:   word 65 (within_chant_7), diff=5, snapped=False, forced=False
+  Alignment:
+    target            0 ----------na-siio  6
+                      0 ----------||-.... 17
+    query             0 me ~Celi enarrant 17
+
+-- fused_9 --
+  OCR:      'Luglim quod legenes'
+  Assigned: 'euouae Regnum mundi et om'
+  Words:    [60..65) consumed=5
+  NW score: k=5 (pre-snap), norm=-0.3902
+  Anchor:   word 65 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 Lu-------glim quod- le--genes 19
+                      0 .|-------|..| 13
+    query             0 euouae Regnum mundi -et omnem 28
+
+-- fused_10 --
+  OCR:      'tur mTelie ovae. n p decomunni virs Congtulamnum  culet'
+  Assigned: 'nem ornatum seculi contempsi propter amorem domi'
+  Words:    [65..71) consumed=6
+  NW score: k=12 (pre-snap), norm=-0.7786
+  Anchor:   word 71 (within_chant_7), diff=6, snapped=False, forced=True
+  Alignment:
+    target            0 ----tur mTe--lie -ovae. n p decomunni virs Congt-ulam-num  c
+                      0 ----||.
+    query             0 ornatum -seculi- co-----n---te--m-psi -pr---o-pter amorem do
+    
+    target           51 ulet 55
+                      7 .... 11
+    query            42 mini 46
+
+-- fused_11 --
+  OCR:      'r diffusacr spe tua e propter veitate le'
+  Assigned: 'ni mei ihesu xpisti Quem vidi quem'
+  Words:    [71..77) consumed=6
+  NW score: k=6 (pre-snap), norm=-1.6187
+  Anchor:   word 77 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 --r diffusacr spe tua e propter veitate -le- 40
+                      0 --.  3
+    query             0 mei -i-hes--u xpist---i ---Quem v-i--di quem 31
+
+-- fused_12 --
+  OCR:      'engulii secundum Luca Rogabant hesum quidam pha'
+  Assigned: 'amavi quem credidi quem dilexi Eructavit cor meum'
+  Words:    [77..85) consumed=8
+  NW score: k=8 (pre-snap), norm=-1.7295
+  Anchor:   word 85 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 engulii -se--cund-----u-m --------Luc-a--- Rogabant hesum qu
+                      0 --....|
+    query             0 --amavi quem credidi quem dilexi Eructavit co-----r me-um---
+    
+    target           39 idam pha 47
+                      7 -------- 15
+    query            49 -------- 49
+
+-- fused_13 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [85..85) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_14 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [85..85) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_15 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [85..85) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_16 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [85..85) consumed=0
+  Alignment:
+    (no words left)
+=== END DEBUG ===
+

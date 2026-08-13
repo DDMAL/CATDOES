@@ -1,0 +1,171 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'et dentes ejus lacte cportet'
+  [fused_1] 'mn illum autem cresce re . qQui postme venit'
+  [fused_2] 'anter est cnus. d  dignus cor'
+  [fused_3] 'no am carciamenti ejus solvere X Bapti'
+  [fused_4] 'a qua ille autem baptizabit vos spiri aum sanc to'
+  [fused_5] 'Ci  ascetur nobis pat imime'
+  [fused_6] 'et voca bicardeno forno  ple deat supetai'
+  [fused_7] 'mmndamd paus impera bit cu ius po'
+  [fused_8] ' ctas su pr Humerimi moro ur'
+  [fused_9] 'rencorenout omnes anbus terre omnes gerro se'
+  [fused_10] 'Hannem'
+  [fused_11] 'Lemitudo ts nno nanomntton sam si'
+  [fused_12] 'tm in terngnatam  '
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'et dentes ejus lacte cportet'
+  Assigned: 'et dentes eius lacte candidiores'
+  Words:    [0..5) consumed=5
+  NW score: k=5 (pre-snap), norm=5.0446
+  Anchor:   word 9 (within_chant_7), diff=4, snapped=False, forced=False
+  Alignment:
+    target            0 et dentes ejus lacte c-----portet 28
+                      0 ||  2
+    query             0 et dentes eius lacte candidior-es 32
+
+-- fused_1 --
+  OCR:      'mn illum autem cresce re . qQui postme venit'
+  Assigned: 'Et ipse Me oportet minui illum autem crescere Qui post me venit'
+  Words:    [5..17) consumed=12
+  NW score: k=12 (pre-snap), norm=4.0836
+  Anchor:   word 9 (within_chant_7), diff=8, snapped=False, forced=False
+  Alignment:
+    target            0 -------------------m-n-- illum autem cresce re . qQui post-m
+                      0 -------------------|-|--
+    query             0 Et ipse Me oportet minui illum autem cresce-re ---Qui post m
+    
+    target           37 e venit 44
+                     24 | 25
+    query            56 e venit 63
+
+-- fused_2 --
+  OCR:      'anter est cnus. d  dignus cor'
+  Assigned: 'ante me factus est cuius non sum dignus cor'
+  Words:    [17..26) consumed=9
+  NW score: k=9 (pre-snap), norm=2.5202
+  Anchor:   word 26 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ante---------r est c-nus. --d --- dignus cor------ 29
+                      0 ||||---------. 14
+    query             0 ante me factus est cuius- non sum dignus corrigiam 49
+
+-- fused_3 --
+  OCR:      'no am carciamenti ejus solvere X Bapti'
+  Assigned: 'rigiam carciamenti eius solvere Ego bapti'
+  Words:    [26..31) consumed=5
+  NW score: k=5 (pre-snap), norm=4.4474
+  Anchor:   word 31 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 no am carciamenti ejus solvere --X Bapt----i 38
+                      0 ------||||||||||| 17
+    query             0 ------carciamenti eius solvere Ego baptizavi 38
+
+-- fused_4 --
+  OCR:      'a qua ille autem baptizabit vos spiri aum sanc to'
+  Assigned: 'zavi vos aqua ille autem baptizabit vos spiritu sancto'
+  Words:    [31..39) consumed=8
+  NW score: k=8 (pre-snap), norm=6.2041
+  Anchor:   word 39 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 --a -qua ille autem baptizabit vos spiri aum sanc to 49
+                      0 --.  3
+    query             0 vos aqua ille autem baptizabit vos spiri-tu- sanc-to 49
+
+-- fused_5 --
+  OCR:      'Ci  ascetur nobis pat imime'
+  Assigned: 'Qui post Nascetur nobis parvulus'
+  Words:    [39..44) consumed=5
+  NW score: k=6 (pre-snap), norm=2.7976
+  Anchor:   word 44 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 -Ci ---- -ascetur nobis pat imime 27
+                      0 -.|  3
+    query             0 Qui post Nascetur nobis pa-rvulus 32
+
+-- fused_6 --
+  OCR:      'et voca bicardeno forno  ple deat supetai'
+  Assigned: 'et vocabitur deus fortis Ipse sedebit super thro'
+  Words:    [44..52) consumed=8
+  NW score: k=7 (pre-snap), norm=3.0009
+  Anchor:   word 52 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 et voca bicar-deno for-no  ple --de-at supe--t----ai 41
+                      0 ||  2
+    query             0 et voca-bitur deus fortis Ipse sedebit super thronum 51
+
+-- fused_7 --
+  OCR:      'mmndamd paus impera bit cu ius po'
+  Assigned: 'num david patris sui et imperabit cuius po'
+  Words:    [52..59) consumed=7
+  NW score: k=7 (pre-snap), norm=2.8080
+  Anchor:   word 59 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 mmnda-md pa------u---s impera bit cu ius po------ 33
+                      0 ---||-.|  8
+    query             0 ---david patris sui et impera-bit cu-ius potestas 44
+
+-- fused_8 --
+  OCR:      'ctas su pr Humerimi moro ur'
+  Assigned: 'testas super humerum eius In ip'
+  Words:    [59..64) consumed=5
+  NW score: k=3 (pre-snap), norm=0.8165
+  Anchor:   word 64 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 ctas su p-r Humerim--i----- moro ur 27
+                      0 -----||-|-| 11
+    query             0 -----su-per humerum eius In ipso--- 26
+
+-- fused_9 --
+  OCR:      'rencorenout omnes anbus terre omnes gerro se'
+  Assigned: 'so benedicentur omnes tribus terre omnes gentes servient'
+  Words:    [64..71) consumed=7
+  NW score: k=6 (pre-snap), norm=3.9091
+  Anchor:   word 71 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 ren---corenout omnes -anbus terre omnes ge-rro se------ 44
+                      0 .||---|--||.|. 14
+    query             0 benedic--entur omnes tribus terre omnes gentes servient 53
+
+-- fused_10 --
+  OCR:      'Hannem'
+  Assigned: 'ei'
+  Words:    [71..72) consumed=1
+  NW score: k=1 (pre-snap), norm=-3.7528
+  Anchor:   word 76 (within_chant_7), diff=4, snapped=False, forced=False
+  Alignment:
+    target            0 Hannem 6
+                      0 ----|. 6
+    query             0 ----ei 2
+
+-- fused_11 --
+  OCR:      'Lemitudo ts nno nanomntton sam si'
+  Assigned: 'Ipse Ecce iam veniet plenitudo temporis in quo misit'
+  Words:    [72..81) consumed=9
+  NW score: k=9 (pre-snap), norm=-0.8208
+  Anchor:   word 76 (within_chant_7), diff=5, snapped=False, forced=False
+  Alignment:
+    target            0 -------Le---m------------itudo t------s nno nanomntton sam s
+                      0 -------.|---|------------|||||
+    query             0 Ipse Ecce iam veniet plenitudo temporis in- ------quo- --mis
+    
+    target           32 i- 33
+                     30 |- 32
+    query            50 it 52
+
+-- fused_12 --
+  OCR:      'tm in terngnatam'
+  Assigned: 'deus filium su'
+  Words:    [81..84) consumed=3
+  NW score: k=6 (pre-snap), norm=0.8839
+  Anchor:   word 84 (within_chant_7), diff=3, snapped=False, forced=True
+  Alignment:
+    target            0 --tm ---i-n terngnatam 16
+                      0 --..  4
+    query             0 deus filium ------suum 16
+=== END DEBUG ===
+

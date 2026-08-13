@@ -1,0 +1,167 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'sericordi ierta tur furor tuus domne a populo'
+  [fused_1] 'tuoetacintate Sanctatu auenti pec'
+  [fused_2] 'catrici po pulo pleno pecta  Dominede'
+  [fused_3] 'n .sto placabilis furer nequici am po'
+  [fused_4] 'pulitu Domne et udicabo tibi ho mo quid'
+  [fused_5] 'at num aut quid dois re quirat a'
+  [fused_6] 'te facere judicium et justi Et sollicitum am'
+  [fused_7] 're cum Deo tu p pae in domino et fac'
+  [fused_8] 'vitatem et in ha bite terram . Et sovi'
+  [fused_9] 'spice domine qi a facta et resolata cantas plena di'
+  [fused_10] 'mali lei domina gencilm non est qui con'
+  [fused_11] 'soletur tu deus noster eovae '
+  [fused_12] 'tu omecongiari cutum cuige nos domine et ab'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'sericordi ierta tur furor tuus domne a populo'
+  Assigned: 'Avertatur furor tuus domine a populo'
+  Words:    [0..6) consumed=6
+  NW score: k=6 (pre-snap), norm=5.1926
+  Anchor:   word 6 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 sericordi ierta tur furor tuus dom-ne a populo 45
+                      0 ---------..||||-||| 19
+    query             0 ---------Averta-tur furor tuus domine a populo 36
+
+-- fused_1 --
+  OCR:      'tuoetacintate Sanctatu auenti pec'
+  Assigned: 'tuo et a civitate sancta tua Exaudi Genti pec'
+  Words:    [6..15) consumed=9
+  NW score: k=9 (pre-snap), norm=3.5003
+  Anchor:   word 15 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 tuo-et-a-ci-ntate Sancta-tu- --au----enti pec------- 33
+                      0 |||-||-|-||-.|||| 17
+    query             0 tuo et a civitate sancta tua Exaudi Genti peccatrici 52
+
+-- fused_2 --
+  OCR:      'catrici po pulo pleno pecta  Dominede'
+  Assigned: 'catrici populo pleno peccato miserere do'
+  Words:    [15..20) consumed=5
+  NW score: k=6 (pre-snap), norm=3.1067
+  Anchor:   word 20 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 catrici po pulo pleno pec--ta -------- Dominede 37
+                      0 --------||-|||| 15
+    query             0 --------po-pulo pleno peccato miserere Domin--e 36
+
+-- fused_3 --
+  OCR:      'n .sto placabilis furer nequici am po'
+  Assigned: 'mine deus Esto placabilis super nequiciam po'
+  Words:    [20..26) consumed=6
+  NW score: k=6 (pre-snap), norm=5.0141
+  Anchor:   word 26 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ---n .sto placabilis furer nequici am po---- 37
+                      0 ---.  4
+    query             0 deus Esto placabilis super nequici-am populi 43
+
+-- fused_4 --
+  OCR:      'pulitu Domne et udicabo tibi ho mo quid'
+  Assigned: 'puli tui Domine Indicabo tibi homo quid'
+  Words:    [26..32) consumed=6
+  NW score: k=6 (pre-snap), norm=5.0530
+  Anchor:   word 32 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 pulitu Dom-ne et udicabo tibi ho mo quid 39
+                      0 .|-|--  6
+    query             0 tu-i-- Domine --Indicabo tibi ho-mo quid 34
+
+-- fused_5 --
+  OCR:      'at num aut quid dois re quirat a'
+  Assigned: 'sit bonum aut quid dominus requirat a'
+  Words:    [32..39) consumed=7
+  NW score: k=7 (pre-snap), norm=5.6380
+  Anchor:   word 39 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -at --num aut quid do-i--s re quirat a 32
+                      0 -.|  3
+    query             0 sit bonum aut quid dominus re-quirat a 37
+
+-- fused_6 --
+  OCR:      'te facere judicium et justi Et sollicitum am'
+  Assigned: 'te facere iudicium et iusticiam Et sol'
+  Words:    [39..46) consumed=7
+  NW score: k=7 (pre-snap), norm=6.1352
+  Anchor:   word 46 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 te facere judicium et justi---- Et sollicitum am 44
+                      0 ||  2
+    query             0 te facere iudicium et iusticiam Et sollicitu---m 45
+
+-- fused_7 --
+  OCR:      're cum Deo tu p pae in domino et fac'
+  Assigned: 'licitum ambulare cum deo tuo Spera in domino et fac'
+  Words:    [46..55) consumed=9
+  NW score: k=9 (pre-snap), norm=5.0325
+  Anchor:   word 55 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ------re cum Deo tu- -p pae in domino et fac 36
+                      0 ------||  8
+    query             0 ambulare cum deo tuo Spera- in domino et fac 43
+
+-- fused_8 --
+  OCR:      'vitatem et in ha bite terram . Et sovi'
+  Assigned: 'bonitatem et inhabita terram Et'
+  Words:    [55..60) consumed=5
+  NW score: k=5 (pre-snap), norm=4.4578
+  Anchor:   word 60 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 --vitatem et in ha bite terram . Et sovi 38
+                      0 --.||||||  9
+    query             0 bonitatem et in-ha-bita terram-- Et----- 31
+
+-- fused_9 --
+  OCR:      'spice domine qi a facta et resolata cantas plena di'
+  Assigned: 'sollicitum Aspice domine quia facta est desolata civitas plena di'
+  Words:    [60..70) consumed=10
+  NW score: k=9 (pre-snap), norm=4.5526
+  Anchor:   word 70 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 ------------spice domine q-i a facta e-t resolata c-antas pl
+                      0 ------------|||||
+    query             0 sollicitum Aspice domine qui-a facta est desolata civitas pl
+    
+    target           45 ena di------ 51
+                     17 ||| 20
+    query            59 ena diviciis 71
+
+-- fused_10 --
+  OCR:      'mali lei domina gencilm non est qui con'
+  Assigned: 'viciis sedet in tristicia domina gencium non est qui con'
+  Words:    [70..79) consumed=9
+  NW score: k=9 (pre-snap), norm=3.5735
+  Anchor:   word 79 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ---mali- lei------ domina gencilm non est qui con------- 39
+                      0 ---...|-  8
+    query             0 sedet in tristicia domina gencium non est qui consoletur 56
+
+-- fused_11 --
+  OCR:      'soletur tu deus noster eovae'
+  Assigned: 'soletur eam nisi tu deus noster euouae Muro'
+  Words:    [79..86) consumed=7
+  NW score: k=6 (pre-snap), norm=3.8644
+  Anchor:   word 86 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 sole----tur tu deus noster e-ovae----- 28
+                      0 ---|----... 11
+    query             0 ---eam nisi tu deus noster euouae Muro 35
+
+-- fused_12 --
+  OCR:      'tu omecongiari cutum cuige nos domine et ab'
+  Assigned: 'tuo inexpugnabili circumcinge nos domine et armis'
+  Words:    [86..93) consumed=7
+  NW score: k=7 (pre-snap), norm=3.0500
+  Anchor:   word 93 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 tu- omecongia--ri c-utum cui-ge nos domine et a---b 43
+                      0 ||-  3
+    query             0 tuo inexpugnabili circum-c-inge nos domine et armis 49
+=== END DEBUG ===
+

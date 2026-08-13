@@ -1,0 +1,223 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'Martino et pium est fee Martinum Bndinis evovae'
+  [fused_1] 'tovespe et dixeunt discipli cum aliis'
+  [fused_2] 'aps dixitsufine menito d addit'
+  [fused_3] 'capitae pre Sacto Martino protereta de Sco Mart nnon qonuans beatum pontificem'
+  [fused_4] 'tis jusceribus diligebat Chpististum regem et non formidabat'
+  [fused_5] 'marti e dulcedo medicamentum'
+  [fused_6] 'sanctissima anima quam si gladius persecu'
+  [fused_7] 'toris non abstulils palmam tamen martyru non anvirsit'
+  [fused_8] 'Sancti Martini propter Mr let Martinus de Civitate In festo Sancti Ponciani t Poncianus nativi V justum dedixat XX . est ostendit in festo '
+  [fused_9] 'magisti Evovae in festo Sancte Ceclie ad magti st'
+  [fused_10] 'secretum Valeriane quod tibi volo dicere Angelum Dei'
+  [fused_11] 'habeo amatorem qui nimio zelo cusdit corpus'
+  [fused_12] 'Or Do annos.'
+  [fused_13] 'vitats Regevir.'
+  [fused_14] 'um eovaen ecilia mirgo Almachium'
+  [fused_15] 'ex superabat Tyburcium et Valerianum ad coronas'
+  [fused_16] 'cdomine dominus evovae p| bmanibuso'
+  [fused_17] 'tabat ad dominumi nt eam enperet deminicis'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'Martino et pium est fee Martinum Bndinis evovae'
+  Assigned: 'martino et pium est flere martinum ~Benedic euouae'
+  Words:    [0..8) consumed=8
+  NW score: k=8 (pre-snap), norm=5.1571
+  Anchor:   word 13 (within_chant_7), diff=5, snapped=False, forced=False
+  Alignment:
+    target            0 Martino et pium est f-e-e Martinum -B-n-dinis evovae 47
+                      0 .||||||  7
+    query             0 martino et pium est flere martinum ~Bened--ic euouae 50
+
+-- fused_1 --
+  OCR:      'tovespe et dixeunt discipli cum aliis'
+  Assigned: 'O beatum pontificem qui to'
+  Words:    [8..13) consumed=5
+  NW score: k=5 (pre-snap), norm=-0.9464
+  Anchor:   word 13 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 tovespe -e-t-- dixeunt discipli cum ali----is 37
+                      0 ------.  7
+    query             0 ------O beatum ---pont-----i-fi-cem qui totis 29
+
+-- fused_2 --
+  OCR:      'aps dixitsufine menito d addit'
+  Assigned: 'tis visceribus diligebat xpistum regem et non formidabat'
+  Words:    [13..20) consumed=7
+  NW score: k=7 (pre-snap), norm=-1.1900
+  Anchor:   word 20 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -------aps dixi----t----s-ufine- m-e--nito- -----d addit 30
+                      0 -------..| 10
+    query             0 visceribus diligebat xpistum regem et n--on formid-a-bat 52
+
+-- fused_3 --
+  OCR:      'capitae pre Sacto Martino protereta de Sco Mart nnon qonuans beatum pontificem'
+  Assigned: 'imperii principatum o martine dulcedo medicamentum'
+  Words:    [20..26) consumed=6
+  NW score: k=8 (pre-snap), norm=-0.4385
+  Anchor:   word 26 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 cap--itae pr--e Sact---o Martino protereta de Sco Mart nnon 
+                      0 ..|--|--.
+    query             0 imperi--i principa-tum o martin--------e-- d-ulc-----------e
+    
+    target           53 qonuans be---atum pontificem 78
+                      9 .|----- 16
+    query            35 do----- medica--m--ent----um 50
+
+-- fused_4 --
+  OCR:      'tis jusceribus diligebat Chpististum regem et non formidabat'
+  Assigned: 'et medice o sanctissima anima quam si gladius persecu'
+  Words:    [26..35) consumed=9
+  NW score: k=11 (pre-snap), norm=-1.1031
+  Anchor:   word 35 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 -t----i-s jus--ceribus--- -diligebat Chpi---stistum re-gem e
+                      0 -|----|-.
+    query             0 et medice o sanc-ti-ssima anima quam --si gladi--us perse-cu
+    
+    target           44 t non formidabat 60
+                      9 |------||-|----. 25
+    query            53 t------or-i----s 58
+
+-- fused_5 --
+  OCR:      'marti e dulcedo medicamentum'
+  Assigned: 'toris non abstulit palmam tamen martyrii non amisit'
+  Words:    [35..42) consumed=7
+  NW score: k=4 (pre-snap), norm=-1.2851
+  Anchor:   word 42 (within_chant_7), diff=3, snapped=False, forced=True
+  Alignment:
+    target            0 ---ma-rt--i e dulcedo medicamen----t---------um---- 28
+                      0 ---.|-.|--|-. 13
+    query             0 non abstuli-t pal-----mam tamen martyrii non amisit 45
+
+-- fused_6 --
+  OCR:      'sanctissima anima quam si gladius persecu'
+  Assigned: '~Magnus euouae Est secretum valeriane quod tibi volo dicere'
+  Words:    [42..51) consumed=9
+  NW score: k=9 (pre-snap), norm=-1.0979
+  Anchor:   word 45 (within_chant_7), diff=6, snapped=False, forced=False
+  Alignment:
+    target            0 ------s-----a--nctis----sima -a--nima-- quam --si -gl-adius 
+                      0 ------|-----|--..|.|----..|-
+    query             0 ~Magnus euouae Est secretum- valeri-ane quod tibi volo di---
+    
+    target           34 persecu 41
+                     28 .||-|-- 35
+    query            55 cer-e-- 59
+
+-- fused_7 --
+  OCR:      'toris non abstulils palmam tamen martyru non anvirsit'
+  Assigned: 'angelum dei'
+  Words:    [51..53) consumed=2
+  NW score: k=8 (pre-snap), norm=-1.3987
+  Anchor:   word 53 (within_chant_7), diff=6, snapped=False, forced=True
+  Alignment:
+    target            0 toris non abstulils palmam tamen martyru non anvirsit 53
+                      0 ----------|--------...|-.| 26
+    query             0 ----------a--------ngel-um --de--------------------i- 11
+
+-- fused_8 --
+  OCR:      'Sancti Martini propter Mr let Martinus de Civitate In festo Sancti Ponciani t Poncianus nativi V justum dedixat XX . est ostendit in festo'
+  Assigned: 'habeo amatorem qui nimio zelo custodit corpus meum euouae Cecilia virgo almachium exsuperabat tyburcium et valerianum ad coronas vocabat ~Domine dominus euouae'
+  Words:    [53..75) consumed=22
+  NW score: k=22 (pre-snap), norm=-1.2759
+  Anchor:   word 61 (within_chant_7), diff=14, snapped=False, forced=False
+  Alignment:
+    target            0 Sancti -Ma--r----ti-ni propte-r --Mr let Martinus ---------d
+                      0 .|-...
+    query             0 ha-beo amatorem qui ni-mio zelo custodit cor--pus meum euoua
+    
+    target           40 e C--ivitate In festo Sa--ncti-- --Poncia-ni t Poncianus nat
+                      6 |
+    query            56 e Cecili-a----- virgo -almachium exsuperabat tyburci--um -et
+    
+    target           91 iv----i V justum -d--edixat XX . est --o-stendit in-- festo-
+                      7 .|----|-----..||
+    query           106  valeri-----anum ad coronas -vocabat ~Domine d-ominus -e-uou
+    
+    target          138 -- 138
+                     23 --  25
+    query           157 ae 159
+
+-- fused_9 --
+  OCR:      'magisti Evovae in festo Sancte Ceclie ad magti st'
+  Assigned: 'Expansis manibus o'
+  Words:    [75..78) consumed=3
+  NW score: k=6 (pre-snap), norm=-0.8220
+  Anchor:   word 78 (within_chant_7), diff=3, snapped=False, forced=True
+  Alignment:
+    target            0 magisti Evovae in festo Sancte Cecli--e --ad magti st 49
+                      0 --------|-..|---|---|.. 23
+    query             0 --------E-xpa---n---sis man--------ibus ora--ba-----t 23
+
+-- fused_10 --
+  OCR:      'secretum Valeriane quod tibi volo dicere Angelum Dei'
+  Assigned: 'rabat ad dominum ut eam eriperet de inimicis'
+  Words:    [78..85) consumed=7
+  NW score: k=7 (pre-snap), norm=-1.5972
+  Anchor:   word 85 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 --secretum--- Va-leriane quod tibi volo dicere Angelum Dei-
+                      0 --......||---
+    query             0 ad dominum ut eam eri-pe----ret-------- d----e in---im-icis
+    
+    target           52
+                     13
+    query            38
+
+-- fused_11 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [85..85) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_12 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [85..85) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_13 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [85..85) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_14 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [85..85) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_15 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [85..85) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_16 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [85..85) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_17 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [85..85) consumed=0
+  Alignment:
+    (no words left)
+=== END DEBUG ===
+

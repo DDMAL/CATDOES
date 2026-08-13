@@ -1,0 +1,175 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'cepit iusceribus et benedictameterndee'
+  [fused_1] 'bis pro tulit et hominem . omus'
+  [fused_2] 'dici pectoris Templum repente fit deiin tacta nesciens virum'
+  [fused_3] 'verbo conce pit fi . Et benedic eea'
+  [fused_4] 'et venerabilis virgo que sine tactu pudo ris inven'
+  [fused_5] 'ta est mater ris sacebat in presepio'
+  [fused_6] 'et fulgebatinoeano'
+  [fused_7] 'auditum tuum et tunni considerami opera'
+  [fused_8] 'ii in medio duorum a mina  Jace. In pri'
+  [fused_9] ' secula deus erat verbum et ipse natus est'
+  [fused_10] 'Hodie salvator mundio ominus Regis evovae a ente'
+  [fused_11] 'iuciferum genitus et ante secula domi mis salvator no'
+  [fused_12] 'ster nodie naso dignatus estip cantate i evorae'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'cepit iusceribus et benedictameterndee'
+  Assigned: 'visceribus Et benedicta in eternum'
+  Words:    [0..5) consumed=5
+  NW score: k=5 (pre-snap), norm=3.8114
+  Anchor:   word 12 (within_chant_7), diff=7, snapped=False, forced=False
+  Alignment:
+    target            0 cepit iusceribus et benedicta---meterndee 38
+                      0 -----.|-|||||||| 16
+    query             0 -----vi-sceribus Et benedicta in etern-um 34
+
+-- fused_1 --
+  OCR:      'bis pro tulit et hominem . omus'
+  Assigned: 'deum nobis protulit et hominem Domus pu'
+  Words:    [5..12) consumed=7
+  NW score: k=6 (pre-snap), norm=5.3882
+  Anchor:   word 12 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 -------bis pro tulit et hominem . omus------- 31
+                      0 -------||| 10
+    query             0 deum nobis pro-tulit et hominem -Domus pudici 43
+
+-- fused_2 --
+  OCR:      'dici pectoris Templum repente fit deiin tacta nesciens virum'
+  Assigned: 'dici pectoris templum repente fit dei intacta nesciens virum'
+  Words:    [12..20) consumed=8
+  NW score: k=8 (pre-snap), norm=6.7194
+  Anchor:   word 20 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 dici pectoris Templum repente fit dei-in tacta nesciens viru
+                      0 -----||||||||
+    query             0 -----pectoris templum repente fit dei in-tacta nesciens viru
+    
+    target           59 m 60
+                     13 | 14
+    query            54 m 55
+
+-- fused_3 --
+  OCR:      'verbo conce pit fi . Et benedic eea'
+  Assigned: 'verbo concepit filium Et benedicta Beata'
+  Words:    [20..26) consumed=6
+  NW score: k=5 (pre-snap), norm=5.5078
+  Anchor:   word 26 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 verbo conce pit f--i . Et benedic-- ee--a 35
+                      0 |||||  5
+    query             0 verbo conce-pit filium Et benedicta Beata 40
+
+-- fused_4 --
+  OCR:      'et venerabilis virgo que sine tactu pudo ris inven'
+  Assigned: 'et venerabilis virgo que sine tactu pudoris inven'
+  Words:    [26..34) consumed=8
+  NW score: k=8 (pre-snap), norm=7.4261
+  Anchor:   word 34 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 et venerabilis virgo que sine tactu pudo ris inven-- 50
+                      0 ||  2
+    query             0 et venerabilis virgo que sine tactu pudo-ris inventa 51
+
+-- fused_5 --
+  OCR:      'ta est mater ris sacebat in presepio'
+  Assigned: 'ta est mater salvatoris Iacebat in presepio'
+  Words:    [34..40) consumed=6
+  NW score: k=6 (pre-snap), norm=5.6130
+  Anchor:   word 40 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ta est mater -------ris sacebat in presepio 36
+                      0 ---|||  6
+    query             0 ---est mater salvatoris Iacebat in presepio 40
+
+-- fused_6 --
+  OCR:      'et fulgebatinoeano'
+  Assigned: 'et fulgebat in'
+  Words:    [40..43) consumed=3
+  NW score: k=3 (pre-snap), norm=4.9135
+  Anchor:   word 46 (within_chant_7), diff=3, snapped=False, forced=False
+  Alignment:
+    target            0 et fulgebat-inoeano 18
+                      0 ||  2
+    query             0 et fulgebat in----- 14
+
+-- fused_7 --
+  OCR:      'auditum tuum et tunni considerami opera'
+  Assigned: 'celo Domine audivi auditum tuum et timui consideravi opera'
+  Words:    [43..52) consumed=9
+  NW score: k=9 (pre-snap), norm=4.2472
+  Anchor:   word 46 (within_chant_7), diff=6, snapped=False, forced=False
+  Alignment:
+    target            0 -------------------auditum tuum et t--unni considerami opera
+                      0 -------------------|||||||
+    query             0 celo Domine audivi auditum tuum et timu--i consideravi opera
+    
+    target           39 
+                     26 
+    query            58 
+
+-- fused_8 --
+  OCR:      'ii in medio duorum a mina  Jace. In pri'
+  Assigned: 'tua et expa'
+  Words:    [52..55) consumed=3
+  NW score: k=10 (pre-snap), norm=2.8321
+  Anchor:   word 55 (within_chant_7), diff=7, snapped=False, forced=True
+  Alignment:
+    target            0 ii in medio duorum a mina  Jace. In p-ri 39
+                      0 ---------------.|-------| 25
+    query             0 ---------------tu-------a ----et -expavi 13
+
+-- fused_9 --
+  OCR:      'secula deus erat verbum et ipse natus est'
+  Assigned: 'vi in medio duorum animalium Iacebat In principio et ante secula deus erat verbum et ipse natus est'
+  Words:    [55..72) consumed=17
+  NW score: k=17 (pre-snap), norm=2.5344
+  Anchor:   word 62 (within_chant_7), diff=10, snapped=False, forced=False
+  Alignment:
+    target            0 -------------------------------------------------------secul
+                      0 -------------------------------------------------------|||||
+    query             0 in medio duorum animalium Iacebat In principio et ante secul
+    
+    target            5 a deus erat verbum et ipse natus est 41
+                     60 | 61
+    query            60 a deus erat verbum et ipse natus est 96
+
+-- fused_10 --
+  OCR:      'Hodie salvator mundio ominus Regis evovae a ente'
+  Assigned: 'hodie salvator mundi ~Dominus regnavit euouae Ante'
+  Words:    [72..79) consumed=7
+  NW score: k=7 (pre-snap), norm=4.9398
+  Anchor:   word 79 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 Hodie salvator mundio --ominus Reg---is evovae a ente 48
+                      0 .||||  5
+    query             0 hodie salvator mundi- ~Dominus regnavit euouae-- Ante 50
+
+-- fused_11 --
+  OCR:      'iuciferum genitus et ante secula domi mis salvator no'
+  Assigned: 'luciferum genitus et ante secula dominus salvator no'
+  Words:    [79..87) consumed=8
+  NW score: k=7 (pre-snap), norm=6.5344
+  Anchor:   word 87 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 iuciferum genitus et ante secula domi mis salvator no---- 53
+                      0 .||||||||  9
+    query             0 luciferum genitus et ante secula domi-nus salvator noster 56
+
+-- fused_12 --
+  OCR:      'ster nodie naso dignatus estip cantate i evorae'
+  Assigned: 'ster hodie nasci dignatus est ~Cantate ii'
+  Words:    [87..93) consumed=6
+  NW score: k=6 (pre-snap), norm=3.7682
+  Anchor:   word 93 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ster nodie nas-o dignatus estip -cantate i evorae 47
+                      0 -----.|||| 10
+    query             0 -----hodie nasci dignatus est-- ~Cantate i------i 36
+=== END DEBUG ===
+

@@ -1,0 +1,203 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'Et dim. hesus varit se discroulis'
+  [fused_1] 'suis inina ibat cum illis oculi eorum tenebantur'
+  [fused_2] 'ne eum agnoscerent et increpavit eos dicens o'
+  [fused_3] 'et tardi corde ad credendum in hiis que loquti sunt'
+  [fused_4] 'ad m.'
+  [fused_5] 'ant'
+  [fused_6] 'pohete Alleluya evovae Qui sunt hi sermo'
+  [fused_7] 'nes quos confertis adinvioem ambulantes et estis tri'
+  [fused_8] 'V . surrexit domius vere alla'
+  [fused_9] ' . et apparuit Symoni alsa sino'
+  [fused_10] 'stesAllelvya Allelvya evovac rtatres larissim Sancti Audustini episcopi lec Pischa tempisi'
+  [fused_11] 'ntate mag na reddebant . polo '
+  [fused_12] 'Testimoni mm resurrectio nis ibesu Xpisti st'
+  [fused_13] 'domini no stri alle in mn molle'
+  [fused_14] 'pleti quidem spiritum Sancto loquebantur verbumi'
+  [fused_15] 'Dei cum tiona Cesio ile rut co'
+  [fused_16] 'emretim menm et nescio ubi posuerunt'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'Et dim. hesus varit se discroulis'
+  Assigned: 'Et dum Ihesus iunxit se discipulis'
+  Words:    [0..6) consumed=6
+  NW score: k=6 (pre-snap), norm=4.6871
+  Anchor:   word 6 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 Et dim. -hesus -varit se discroulis 33
+                      0 ||  2
+    query             0 Et dum- Ihesus iunxit se discipulis 34
+
+-- fused_1 --
+  OCR:      'suis inina ibat cum illis oculi eorum tenebantur'
+  Assigned: 'suis in via et ibat cum illis oculi eorum tenebantur'
+  Words:    [6..16) consumed=10
+  NW score: k=10 (pre-snap), norm=6.9255
+  Anchor:   word 16 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 suis in--ina--- ibat cum illis oculi eorum tenebantur 48
+                      0 ||||  4
+    query             0 suis in vi-a et ibat cum illis oculi eorum tenebantur 52
+
+-- fused_2 --
+  OCR:      'ne eum agnoscerent et increpavit eos dicens o'
+  Assigned: 'ne eum agnoscerent et increpavit eos dicens o stulti'
+  Words:    [16..25) consumed=9
+  NW score: k=8 (pre-snap), norm=8.0000
+  Anchor:   word 25 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 ne eum agnoscerent et increpavit eos dicens o------- 45
+                      0 ||  2
+    query             0 ne eum agnoscerent et increpavit eos dicens o stulti 52
+
+-- fused_3 --
+  OCR:      'et tardi corde ad credendum in hiis que loquti sunt'
+  Assigned: 'et tardi corde ad credendum in hiis que loquuti sunt'
+  Words:    [25..35) consumed=10
+  NW score: k=10 (pre-snap), norm=7.7868
+  Anchor:   word 42 (within_chant_7), diff=7, snapped=False, forced=False
+  Alignment:
+    target            0 et tardi corde ad credendum in hiis que loq-uti sunt 51
+                      0 ||  2
+    query             0 et tardi corde ad credendum in hiis que loquuti sunt 52
+
+-- fused_4 --
+  OCR:      'ad m.'
+  Assigned: 'prophete'
+  Words:    [35..36) consumed=1
+  NW score: k=1 (pre-snap), norm=-6.0083
+  Anchor:   word 42 (within_chant_7), diff=6, snapped=False, forced=False
+  Alignment:
+    target            0 ---ad m. 5
+                      0 ---..... 8
+    query             0 prophete 8
+
+-- fused_5 --
+  OCR:      'ant'
+  Assigned: 'alleluya'
+  Words:    [36..37) consumed=1
+  NW score: k=1 (pre-snap), norm=-4.2866
+  Anchor:   word 42 (within_chant_7), diff=5, snapped=False, forced=False
+  Alignment:
+    target            0 a-----nt 3
+                      0 |-----.. 8
+    query             0 alleluya 8
+
+-- fused_6 --
+  OCR:      'pohete Alleluya evovae Qui sunt hi sermo'
+  Assigned: 'euouae Qui sunt hi sermo'
+  Words:    [37..42) consumed=5
+  NW score: k=5 (pre-snap), norm=3.2255
+  Anchor:   word 42 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 pohete Alleluya evovae Qui sunt hi sermo--- 40
+                      0 ----------|-|-----|.|| 22
+    query             0 ----------e-u-----ouae Qui sunt hi sermones 27
+
+-- fused_7 --
+  OCR:      'nes quos confertis adinvioem ambulantes et estis tri'
+  Assigned: 'nes quos confertis ad invicem ambulantes et estis tri'
+  Words:    [42..50) consumed=8
+  NW score: k=8 (pre-snap), norm=6.3241
+  Anchor:   word 50 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 nes quos confertis ad-invioem ambulantes et estis tri---- 52
+                      0 ----||||  8
+    query             0 ----quos confertis ad invicem ambulantes et estis tristes 53
+
+-- fused_8 --
+  OCR:      'V . surrexit domius vere alla'
+  Assigned: 'stes alleluya alleluya euouae Virtute magna reddebant apostoli'
+  Words:    [50..57) consumed=7
+  NW score: k=5 (pre-snap), norm=-1.7773
+  Anchor:   word 57 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 -------V -------. su-rre-xi---t- dom-ius ve-re---- a----lla
+                      0 -------.
+    query             0 alleluya alleluya euouae Virtute --magna reddebant apostoli
+    
+    target           29
+                      8
+    query            57
+
+-- fused_9 --
+  OCR:      '. et apparuit Symoni alsa sino'
+  Assigned: 'Testimonium resurrectionis ihesu xpisti'
+  Words:    [57..61) consumed=4
+  NW score: k=2 (pre-snap), norm=-1.3964
+  Anchor:   word 61 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 . e-t------- appar--u---it Symoni- -alsa ---s-ino 30
+                      0 -.|-|------- 12
+    query             0 -Testimonium ----resurrect---ionis ihesu xpisti-- 39
+
+-- fused_10 --
+  OCR:      'stesAllelvya Allelvya evovac rtatres larissim Sancti Audustini episcopi lec Pischa tempisi'
+  Assigned: 'domini nostri alleluya alleluya Repleti quidem spiritu sancto loquebantur verbum dei cum fiducia Testimonium'
+  Words:    [61..75) consumed=14
+  NW score: k=14 (pre-snap), norm=-0.0609
+  Anchor:   word 66 (within_chant_7), diff=9, snapped=False, forced=False
+  Alignment:
+    target            0 ---------st-esAllelvya Allelvya -evovac rtatres -larissim Sa
+                      0 ---------||-...||||.||
+    query             0 domini nostri alleluya alleluya Repleti -quidem spiri--tu sa
+    
+    target           48 ncti Audustin--i -e-piscopi lec-- Pi-scha ---tem-pisi  90
+                     22 |||.  26
+    query            57 ncto loquebantur verbum dei --cum fiducia Testimonium 108
+
+-- fused_11 --
+  OCR:      'ntate mag na reddebant . polo'
+  Assigned: 'Tulerunt do'
+  Words:    [75..77) consumed=2
+  NW score: k=5 (pre-snap), norm=-1.4675
+  Anchor:   word 77 (within_chant_7), diff=3, snapped=False, forced=True
+  Alignment:
+    target            0 ntate mag na reddebant . po---lo 29
+                      0 -...|--------|-----.||-- 24
+    query             0 -Tule--------r-----unt-- dominum 16
+
+-- fused_12 --
+  OCR:      'Testimoni mm resurrectio nis ibesu Xpisti st'
+  Assigned: 'minum meum et nescio ubi posuerunt eum'
+  Words:    [77..83) consumed=6
+  NW score: k=5 (pre-snap), norm=-0.7407
+  Anchor:   word 83 (page_break_77), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 Testimoni mm resurrectio -nis ibesu Xpisti -st 44
+                      0 .|--.|---  9
+    query             0 me--um--- et nes----c-io ubi- -posu-erunt- eum 32
+
+-- fused_13 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [83..83) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_14 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [83..83) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_15 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [83..83) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_16 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [83..83) consumed=0
+  Alignment:
+    (no words left)
+=== END DEBUG ===
+

@@ -1,0 +1,183 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'fecta sunt omni a que dicta sunt e ado mino. Hod'
+  [fused_1] 'et mimatulaaurimtas quibus te'
+  [fused_2] 'lan di d i ecceie a . Quia quem celi capere'
+  [fused_3] 'non poterant tuo gremio contul enedie'
+  [fused_4] 'taisimmivensi bentis et benedutus fenitus Ventris'
+  [fused_5] 'pse invocabit me Alleluya pater meus es'
+  [fused_6] 'tu Alleluya piscridias eovae . Petentur celi et erus'
+  [fused_7] 'tet terra ante faciem domini quoniam venit po Cantatei'
+  [fused_8] 'evovae . Notum fecit dominus Alleluya salutare suum'
+  [fused_9] 'Alleluya preo Lantate II evovae pse innvocabit'
+  [fused_10] 'dactm srut ed'
+  [fused_11] 'Leluya . Datermes qe alla'
+  [fused_12] 'Dona il ee nmine nun mo queportave'
+  [fused_13] 'cuntetes in pacrio fuiumn etbeata sire maane'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'fecta sunt omni a que dicta sunt e ado mino. Hod'
+  Assigned: 'sunt omnia que dicta sunt ei a domino Hodie'
+  Words:    [0..9) consumed=9
+  NW score: k=9 (pre-snap), norm=5.3928
+  Anchor:   word 15 (within_chant_7), diff=6, snapped=False, forced=False
+  Alignment:
+    target            0 fecta sunt omni a que dicta sunt e- a-do mino. Hod-- 48
+                      0 ------|||| 10
+    query             0 ------sunt omni-a que dicta sunt ei a do-mino- Hodie 43
+
+-- fused_1 --
+  OCR:      'et mimatulaaurimtas quibus te'
+  Assigned: 'Sancta et immaculata virginitas quibus te'
+  Words:    [9..15) consumed=6
+  NW score: k=6 (pre-snap), norm=3.3351
+  Anchor:   word 15 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -------et -mimatula-a--ur-i-mtas quibus te 29
+                      0 -------||  9
+    query             0 Sancta et im-maculata virginitas quibus te 41
+
+-- fused_2 --
+  OCR:      'lan di d i ecceie a . Quia quem celi capere'
+  Assigned: 'laudibus efferam nescio Quia quem celi capere'
+  Words:    [15..22) consumed=7
+  NW score: k=7 (pre-snap), norm=3.5918
+  Anchor:   word 22 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 lan di d i ecceie a- -----. Quia quem celi capere 43
+                      0 ||-.||-... 10
+    query             0 la-udi-bus e--fferam nescio Quia quem celi capere 45
+
+-- fused_3 --
+  OCR:      'non poterant tuo gremio contul enedie'
+  Assigned: 'non poterant tuo gremio contulisti benedic'
+  Words:    [22..28) consumed=6
+  NW score: k=6 (pre-snap), norm=6.1960
+  Anchor:   word 28 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 non poterant tuo gremio contul---- -enedi--e 37
+                      0 |||  3
+    query             0 non poterant tuo gremio contulisti Benedicta 44
+
+-- fused_4 --
+  OCR:      'taisimmivensi bentis et benedutus fenitus Ventris'
+  Assigned: 'ta tu in mulieribus et benedictus fructus ventris'
+  Words:    [28..35) consumed=7
+  NW score: k=7 (pre-snap), norm=3.0752
+  Anchor:   word 44 (within_chant_7), diff=9, snapped=False, forced=False
+  Alignment:
+    target            0 t-aisim-mivensi bentis et bened-utus fenitus Ventris 49
+                      0 |-.|..|-.|-|-.|-|---.| 22
+    query             0 tu in muli-e-ri-b---us et benedictus fructus ventris 46
+
+-- fused_5 --
+  OCR:      'pse invocabit me Alleluya pater meus es'
+  Assigned: 'tui Quia Ipse invocabit me alleluya pater meus es'
+  Words:    [35..44) consumed=9
+  NW score: k=9 (pre-snap), norm=6.0620
+  Anchor:   word 44 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ----------pse invocabit me Alleluya pater meus es 39
+                      0 ----------||| 13
+    query             0 tui Quia Ipse invocabit me alleluya pater meus es 49
+
+-- fused_6 --
+  OCR:      'tu Alleluya piscridias eovae . Petentur celi et erus'
+  Assigned: 'tu alleluya ~Misericordias euouae Letentur celi et exul'
+  Words:    [44..52) consumed=8
+  NW score: k=8 (pre-snap), norm=4.7161
+  Anchor:   word 52 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 tu Alleluya -piscri---dias e-ovae . Petentur celi et eru---s
+                      0 ||
+    query             0 tu alleluya ~Misericordias euouae-- Letentur celi et exultet
+    
+    target           52 
+                      2 
+    query            58 
+
+-- fused_7 --
+  OCR:      'tet terra ante faciem domini quoniam venit po Cantatei'
+  Assigned: 'tet terra ante faciem domini quoniam venit ~Cantate'
+  Words:    [52..59) consumed=7
+  NW score: k=8 (pre-snap), norm=6.5709
+  Anchor:   word 59 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 tet terra ante faciem domini quoniam venit po Cantatei 54
+                      0 ----|||||  9
+    query             0 ----terra ante faciem domini quoniam venit --~Cantate- 47
+
+-- fused_8 --
+  OCR:      'evovae . Notum fecit dominus Alleluya salutare suum'
+  Assigned: 'i euouae Notum fecit dominus alleluya salutare suum'
+  Words:    [59..67) consumed=8
+  NW score: k=8 (pre-snap), norm=6.5294
+  Anchor:   word 67 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 --evovae . Notum fecit dominus Alleluya salutare suum 51
+                      0 --|.|.||-- 10
+    query             0 i euouae-- Notum fecit dominus alleluya salutare suum 51
+
+-- fused_9 --
+  OCR:      'Alleluya preo Lantate II evovae pse innvocabit'
+  Assigned: 'alleluya ~Cantate ii euouae Ipse invocabit me al'
+  Words:    [67..75) consumed=8
+  NW score: k=6 (pre-snap), norm=4.7094
+  Anchor:   word 75 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 Alleluya preo Lantate II evovae -pse innvocabit------------
+                      0 .|||||||
+    query             0 alleluya ----~Cantate ii euouae Ipse i-nvocabit me alleluya
+    
+    target           46
+                      8
+    query            54
+
+-- fused_10 --
+  OCR:      'dactm srut ed'
+  Assigned: 'leluya Pater meus es'
+  Words:    [75..78) consumed=3
+  NW score: k=3 (pre-snap), norm=0.3077
+  Anchor:   word 86 (within_chant_7), diff=8, snapped=False, forced=False
+  Alignment:
+    target            0 dact-m srut ed 13
+                      0 .|-|-.  6
+    query             0 Pa-ter meus es 13
+
+-- fused_11 --
+  OCR:      'Leluya . Datermes qe alla'
+  Assigned: 'tu alleluya Beata viscera'
+  Words:    [78..82) consumed=4
+  NW score: k=4 (pre-snap), norm=-0.1200
+  Anchor:   word 86 (within_chant_7), diff=4, snapped=False, forced=False
+  Alignment:
+    target            0 -----Leluya . Datermes qe alla 25
+                      0 -----.||||| 11
+    query             0 tu alleluya -Beata vis-ce---ra 25
+
+-- fused_12 --
+  OCR:      'Dona il ee nmine nun mo queportave'
+  Assigned: 'marie virginis que portave'
+  Words:    [82..86) consumed=4
+  NW score: k=4 (pre-snap), norm=0.9393
+  Anchor:   word 86 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 Dona il ee nmine nun mo que-portave---- 34
+                      0 --.|.|---| 10
+    query             0 --mari---e -virgin---is que portaverunt 30
+
+-- fused_13 --
+  OCR:      'cuntetes in pacrio fuiumn etbeata sire maane'
+  Assigned: 'runt eterni patris filium et beata ubera que'
+  Words:    [86..93) consumed=7
+  NW score: k=7 (pre-snap), norm=2.3416
+  Anchor:   word 93 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 cuntetes in pacrio f-uiumn et-beata -sire maane 44
+                      0 ----|||..|- 11
+    query             0 ----eterni- patris filium- et beata ubera --que 39
+=== END DEBUG ===
+

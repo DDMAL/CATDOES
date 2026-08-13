@@ -1,0 +1,167 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'elocus iste Sanctus ctudaenta oe rexit'
+  [fused_1] 'Jacob lapidem i titulum fundens oleum desupdomine denus exon'
+  [fused_2] 'rantibus in i Dimitte pectata'
+  [fused_3] 'populi tuni deus et ostende eis mam bo nam per'
+  [fused_4] 'quam am bullent etdaglo inloco'
+  [fused_5] 'sto ui regis Frahel intende qui deducis ve'
+  [fused_6] 'intonem io septi mui setes minPermet vmi'
+  [fused_7] 'mitte. quam metuendus est locus ste.'
+  [fused_8] 'de tenon es menonsico et porta'
+  [fused_9] 'et est domus domini firmiter edificata'
+  [fused_10] 'bene fundata est suprafirmam pe tran Ve re.'
+  [fused_11] 'amnne surgensacorgbat lapidem in ti'
+  [fused_12] 'ca n fundens oleumn de supernotum nointo'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'elocus iste Sanctus ctudaenta oe rexit'
+  Assigned: 'vere locus iste sanctus est ~Fundamenta euouae Erexit'
+  Words:    [0..8) consumed=8
+  NW score: k=8 (pre-snap), norm=4.3897
+  Anchor:   word 8 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ---e-locus iste Sanctus -ct---u-da-enta --o--e -rexit 38
+                      0 ---|-||||| 10
+    query             0 vere locus iste sanctus est ~Fundamenta euouae Erexit 53
+
+-- fused_1 --
+  OCR:      'Jacob lapidem i titulum fundens oleum desupdomine denus exon'
+  Assigned: 'iacob lapidem in titulum fundens oleum desuper ~Domine'
+  Words:    [8..16) consumed=8
+  NW score: k=10 (pre-snap), norm=6.0386
+  Anchor:   word 16 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 Jacob lapidem i- titulum fundens oleum desup----domine denus
+                      0 .||||
+    query             0 iacob lapidem in titulum fundens oleum desuper ~Domine------
+    
+    target           55  exon 60
+                      5 ----- 10
+    query            54 ----- 54
+
+-- fused_2 --
+  OCR:      'rantibus in i Dimitte pectata'
+  Assigned: 'deus euouae Orantibus in loco isto Dimitte'
+  Words:    [16..23) consumed=7
+  NW score: k=8 (pre-snap), norm=3.7816
+  Anchor:   word 23 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 -------------rantibus in----- i--- Dimitte pectata 29
+                      0 -------------|||||||| 21
+    query             0 deus euouae Orantibus in loco isto Dimitte-------- 42
+
+-- fused_3 --
+  OCR:      'populi tuni deus et ostende eis mam bo nam per'
+  Assigned: 'peccata populi tui deus et ostende eis viam bonam'
+  Words:    [23..32) consumed=9
+  NW score: k=10 (pre-snap), norm=5.8733
+  Anchor:   word 32 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 --------populi tuni deus et ostende eis -mam bo nam per 46
+                      0 --------|||||| 14
+    query             0 peccata populi tu-i deus et ostende eis viam bo-nam---- 49
+
+-- fused_4 --
+  OCR:      'quam am bullent etdaglo inloco'
+  Assigned: 'per quam ambulent et da gloriam in'
+  Words:    [32..39) consumed=7
+  NW score: k=8 (pre-snap), norm=4.5899
+  Anchor:   word 39 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 ----quam am bullent et-da-glo---- inloco 30
+                      0 ----||||  8
+    query             0 per quam am-bu-lent et da gloriam in---- 34
+
+-- fused_5 --
+  OCR:      'sto ui regis Frahel intende qui deducis ve'
+  Assigned: 'loco isto Qui regis israhel intende qui deducis ve'
+  Words:    [39..48) consumed=9
+  NW score: k=9 (pre-snap), norm=5.8075
+  Anchor:   word 48 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ------sto -ui regis -Frahel intende qui deducis ve--- 42
+                      0 ------|||  9
+    query             0 loco isto Qui regis israhel intende qui deducis velut 53
+
+-- fused_6 --
+  OCR:      'intonem io septi mui setes minPermet vmi'
+  Assigned: 'lut ovem ioseph qui sedes super che'
+  Words:    [48..54) consumed=6
+  NW score: k=5 (pre-snap), norm=2.0083
+  Anchor:   word 54 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 intonem io septi mui setes minPer--met vmi- 40
+                      0 ---|.||  7
+    query             0 ---ovem io-sep-h qui sedes -super che-rubin 36
+
+-- fused_7 --
+  OCR:      'mitte. quam metuendus est locus ste.'
+  Assigned: 'rubin Dimitte O quam metuendus est locus iste'
+  Words:    [54..61) consumed=7
+  NW score: k=7 (pre-snap), norm=6.2984
+  Anchor:   word 61 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 --mitte-. quam metuendus est locus -ste. 36
+                      0 --|||||-.  9
+    query             0 Dimitte O quam metuendus est locus iste- 39
+
+-- fused_8 --
+  OCR:      'de tenon es menonsico et porta'
+  Assigned: 'Vere non est hic aliud nisi domus dei et'
+  Words:    [61..70) consumed=9
+  NW score: k=10 (pre-snap), norm=1.5882
+  Anchor:   word 70 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 de te-non es----- --menon-si-co--- -et porta 30
+                      0 .|-.|-|||  9
+    query             0 Ve-re non est hic aliud nisi domus dei --et- 40
+
+-- fused_9 --
+  OCR:      'et est domus domini firmiter edificata'
+  Assigned: 'porta celi Hec est domus domini firmiter edificata'
+  Words:    [70..78) consumed=8
+  NW score: k=8 (pre-snap), norm=5.7583
+  Anchor:   word 78 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ------------et est domus domini firmiter edificata 38
+                      0 ------------|. 14
+    query             0 porta celi Hec est domus domini firmiter edificata 50
+
+-- fused_10 --
+  OCR:      'bene fundata est suprafirmam pe tran Ve re.'
+  Assigned: 'bene fundata est supra firmam petram'
+  Words:    [78..84) consumed=6
+  NW score: k=7 (pre-snap), norm=6.6447
+  Anchor:   word 84 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 bene fundata est supra-firmam pe tran Ve re. 43
+                      0 ||||  4
+    query             0 bene fundata est supra firmam pe-tra-------m 36
+
+-- fused_11 --
+  OCR:      'amnne surgensacorgbat lapidem in ti'
+  Assigned: 'Vere Mane surgens iacob erigebat lapidem in ti'
+  Words:    [84..92) consumed=8
+  NW score: k=8 (pre-snap), norm=4.1658
+  Anchor:   word 92 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ------amnne surgens--aco---r-g-bat lapidem in ti----- 35
+                      0 ------|--|| 11
+    query             0 Vere Ma--ne surgens iacob erigebat lapidem in titulum 51
+
+-- fused_12 --
+  OCR:      'ca n fundens oleumn de supernotum nointo'
+  Assigned: 'tulum fundens oleum desuper votum vovit do-'
+  Words:    [92..98) consumed=6
+  NW score: k=5 (pre-snap), norm=4.4314
+  Anchor:   word 98 (page_break_77), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 ca n fundens oleumn de super-notum no-int--o- 40
+                      0 -----||||||| 12
+    query             0 -----fundens oleum- de-super votum vovi-t do- 37
+=== END DEBUG ===
+

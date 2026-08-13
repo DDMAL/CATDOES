@@ -1,0 +1,179 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'xaltabo te domine quonam susceristi me alle'
+  [fused_1] 'scendit Deus in iubilatione et do'
+  [fused_2] 'minus in voce Tube Alleluya prs mnes gentes evovae'
+  [fused_3] 'cmpus eet i freveitar ade '
+  [fused_4] 'sit cit dominus nolite contristari ne turbetur'
+  [fused_5] 'Crne  pronoris pant ice nos casto'
+  [fused_6] 'Matalenins ale myadisi'
+  [fused_7] 'ego abero paracitus. et dominum assumptus fuero mut'
+  [fused_8] 'tamnobisum Rogo non conturbetur corne'
+  [fused_9] 'Sctim ego vado ad patrem et dum assumptus fuero'
+  [fused_10] 'moo bu mitanvii aleien pi s ntum venia'
+  [fused_11] 'tis et gaude bit cor nestrum alle'
+  [fused_12] ''
+  [fused_13] 'Myaco togalo patem et aliu pariai'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'xaltabo te domine quonam susceristi me alle'
+  Assigned: 'in virtute euouae Exaltabo te domine quoniam suscepisti me alle'
+  Words:    [0..10) consumed=10
+  NW score: k=10 (pre-snap), norm=4.6018
+  Anchor:   word 10 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -------------------xaltabo te domine quon-am susceristi me a
+                      0 -------------------|||||||
+    query             0 in virtute euouae Exaltabo te domine quoniam suscepisti me a
+    
+    target           40 lle---- 43
+                     26 |||---- 33
+    query            60 lleluya 67
+
+-- fused_1 --
+  OCR:      'scendit Deus in iubilatione et do'
+  Assigned: 'luya euouae {Ipsum [Exaltabo]} Ascendit deus in iubilatione et do'
+  Words:    [10..19) consumed=9
+  NW score: k=9 (pre-snap), norm=3.1740
+  Anchor:   word 19 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ---------------------------scendit Deus in iubilatione et do
+                      0 ---------------------------|||||||
+    query             0 euouae {Ipsum [Exaltabo]} Ascendit deus in iubilatione et do
+    
+    target           33 ----- 33
+                     34 ----- 39
+    query            60 minus 65
+
+-- fused_2 --
+  OCR:      'minus in voce Tube Alleluya prs mnes gentes evovae'
+  Assigned: 'minus in voce tube allelua ~Omnes gentes euouae'
+  Words:    [19..26) consumed=7
+  NW score: k=7 (pre-snap), norm=4.6602
+  Anchor:   word 34 (within_chant_7), diff=8, snapped=False, forced=False
+  Alignment:
+    target            0 minus in voce Tube Alleluya prs mnes gentes evovae 50
+                      0 ------||  8
+    query             0 ------in voce tube allelu-a --~Omnes gentes euouae 41
+
+-- fused_3 --
+  OCR:      'cmpus eet i freveitar ade'
+  Assigned: 'Tempus est ut revertar ad eum qui mi'
+  Words:    [26..34) consumed=8
+  NW score: k=5 (pre-snap), norm=4.1600
+  Anchor:   word 34 (within_chant_7), diff=3, snapped=False, forced=True
+  Alignment:
+    target            0 -cmpus eet -i freveitar ad-e------------ 25
+                      0 -.||||  6
+    query             0 Tempus est ut -revertar ad eum qui misit 39
+
+-- fused_4 --
+  OCR:      'sit cit dominus nolite contristari ne turbetur'
+  Assigned: 'sit me dicit dominus nolite contristari nec turbetur'
+  Words:    [34..41) consumed=7
+  NW score: k=7 (pre-snap), norm=6.5972
+  Anchor:   word 41 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 sit --cit dominus nolite contristari ne- turbetur 46
+                      0 -..  3
+    query             0 -me dicit dominus nolite contristari nec turbetur 48
+
+-- fused_5 --
+  OCR:      'Crne  pronoris pant ice nos casto'
+  Assigned: 'cor vestrum Rogo pro vobis patrem ut ipse vos custo'
+  Words:    [41..51) consumed=10
+  NW score: k=10 (pre-snap), norm=1.4553
+  Anchor:   word 51 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -Cr-ne----- ---- pro-noris pa-----nt i-ce nos casto---- 33
+                      0 -.|-.|----- 11
+    query             0 cor vestrum Rogo pro vobis patrem ut ipse vos custodiat 55
+
+-- fused_6 --
+  OCR:      'Matalenins ale myadisi'
+  Assigned: 'diat alleluya alleluya Nisi'
+  Words:    [51..54) consumed=3
+  NW score: k=3 (pre-snap), norm=1.2727
+  Anchor:   word 54 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 Matalenins a-le mya-disi 22
+                      0 -|-.||.... 10
+    query             0 -a-lleluya alleluya Nisi 22
+
+-- fused_7 --
+  OCR:      'ego abero paracitus. et dominum assumptus fuero mut'
+  Assigned: 'ego abiero paraclitus non veniet dum assumptus fuero mit'
+  Words:    [54..63) consumed=9
+  NW score: k=9 (pre-snap), norm=5.0680
+  Anchor:   word 63 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ego ab-ero parac-itus---. ----et dominum assumptus fuero mut
+                      0 |||
+    query             0 ego abiero paraclitus non veniet d----um assumptus fuero mit
+    
+    target           51 --- 51
+                      3 ---  6
+    query            56 tam 59
+
+-- fused_8 --
+  OCR:      'tamnobisum Rogo non conturbetur corne'
+  Assigned: 'tam vobis eum Rogo Non conturbetur cor ve'
+  Words:    [63..70) consumed=7
+  NW score: k=6 (pre-snap), norm=5.5543
+  Anchor:   word 70 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 tamnobis--um Rogo non conturbetur cor-ne----- 37
+                      0 ---.||||--|| 12
+    query             0 ---vobis eum Rogo Non conturbetur cor vestrum 42
+
+-- fused_9 --
+  OCR:      'Sctim ego vado ad patrem et dum assumptus fuero'
+  Assigned: 'strum ego vado ad patrem et dum assumptus fuero'
+  Words:    [70..78) consumed=8
+  NW score: k=8 (pre-snap), norm=6.9708
+  Anchor:   word 78 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 Sctim ego vado ad patrem et dum assumptus fuero 47
+                      0 ------|||  9
+    query             0 ------ego vado ad patrem et dum assumptus fuero 41
+
+-- fused_10 --
+  OCR:      'moo bu mitanvii aleien pi s ntum venia'
+  Assigned: 'a vobis mittam vobis alleluia Spiritum verita'
+  Words:    [78..85) consumed=7
+  NW score: k=7 (pre-snap), norm=1.1473
+  Anchor:   word 85 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -moo b-u mi-ta-nv--ii a-le--ien -pi s ntum veni-a--- 38
+                      0 -..|-|-.  8
+    query             0 a vo-bis mittam vobis allelui-a Spi--ritum veritatis 48
+
+-- fused_11 --
+  OCR:      'tis et gaude bit cor nestrum alle'
+  Assigned: 'tis et gaudebit cor vestrum alleluya'
+  Words:    [85..90) consumed=5
+  NW score: k=5 (pre-snap), norm=5.2929
+  Anchor:   word 90 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 tis et gaude bit cor nestrum alle---- 33
+                      0 ----||  6
+    query             0 ----et gaude-bit cor vestrum alleluya 32
+
+-- fused_12 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [90..90) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_13 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [90..90) consumed=0
+  Alignment:
+    (no words left)
+=== END DEBUG ===
+

@@ -1,0 +1,175 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'nera Francisco venite. icvir'
+  [fused_1] 'in vanitatibus mutritus indecenter divinis karismatibus'
+  [fused_2] 'prentus es lementer'
+  [fused_3] 'dextre gracia mirifice nuitatus dat lapsis Spem de'
+  [fused_4] 'nena cam ppisto ian eatus Qnare fratre exoraei'
+  [fused_5] 'ansuescit sed non penitus in primus per langores qui'
+  [fused_6] 'captis armis celitus ad plenum mitat mores Pre domine ad'
+  [fused_7] 'amnavit eum dominus.'
+  [fused_8] 'rancis cus ut inpu bli cum cessat'
+  [fused_9] 'ri in agrum mox domi nicum se'
+  [fused_10] 'ce dit medita ri inventum evangelicum'
+  [fused_11] 'Bbelancum multmerca'
+  [fused_12] 'c ano agit inicini consiam teens atios ce'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'nera Francisco venite. icvir'
+  Assigned: 'francisco renovantur ~Venite Hic vir'
+  Words:    [0..5) consumed=5
+  NW score: k=5 (pre-snap), norm=2.4883
+  Anchor:   word 5 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 nera Francisco ----v--------enite. -ic-vir 28
+                      0 -----.|||||||| 14
+    query             0 -----francisco renovantur ~Venite- Hic vir 36
+
+-- fused_1 --
+  OCR:      'in vanitatibus mutritus indecenter divinis karismatibus'
+  Assigned: 'in vanitatibus nutritus indecenter divinis karismatibus'
+  Words:    [5..11) consumed=6
+  NW score: k=6 (pre-snap), norm=7.7636
+  Anchor:   word 11 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 in vanitatibus mutritus indecenter divinis karismatibus 55
+                      0 ||  2
+    query             0 in vanitatibus nutritus indecenter divinis karismatibus 55
+
+-- fused_2 --
+  OCR:      'prentus es lementer'
+  Assigned: 'preventus est clementer'
+  Words:    [11..14) consumed=3
+  NW score: k=3 (pre-snap), norm=6.1231
+  Anchor:   word 18 (within_chant_7), diff=4, snapped=False, forced=False
+  Alignment:
+    target            0 pr--entus es- -lementer 19
+                      0 ||--|||||  9
+    query             0 preventus est clementer 23
+
+-- fused_3 --
+  OCR:      'dextre gracia mirifice nuitatus dat lapsis Spem de'
+  Assigned: '~Beatus vir euouae Excelsi dextre gracia mirifice mutatus dat lapsis spem de'
+  Words:    [14..26) consumed=12
+  NW score: k=12 (pre-snap), norm=4.4449
+  Anchor:   word 18 (within_chant_7), diff=8, snapped=False, forced=False
+  Alignment:
+    target            0 ---------------------------dextre gracia mirifice nuitatus d
+                      0 ---------------------------||||||
+    query             0 ~Beatus vir euouae Excelsi dextre gracia mirifice mu-tatus d
+    
+    target           33 at lapsis Spem de 50
+                     33 || 35
+    query            59 at lapsis spem de 76
+
+-- fused_4 --
+  OCR:      'nena cam ppisto ian eatus Qnare fratre exoraei'
+  Assigned: 'venia cum xpisto iam beatus ~Quare'
+  Words:    [26..32) consumed=6
+  NW score: k=8 (pre-snap), norm=3.8031
+  Anchor:   word 32 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 nen-a cam ppisto ian -eatus -Qnare fratre exoraei 46
+                      0 .||-|  5
+    query             0 venia cum xpisto iam beatus ~Quare--------------- 34
+
+-- fused_5 --
+  OCR:      'ansuescit sed non penitus in primus per langores qui'
+  Assigned: 'fremuerunt euouae Mansuescit sed non penitus inprimis per languores qui'
+  Words:    [32..42) consumed=10
+  NW score: k=10 (pre-snap), norm=5.2665
+  Anchor:   word 42 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -------------------ansuescit sed non penitus in primus per l
+                      0 -------------------|||||||||
+    query             0 fremuerunt euouae Mansuescit sed non penitus in-primis per l
+    
+    target           41 ang-ores qui 52
+                     28 |||-|||| 36
+    query            59 anguores qui 71
+
+-- fused_6 --
+  OCR:      'captis armis celitus ad plenum mitat mores Pre domine ad'
+  Assigned: 'captis armis celitus ad plenum mutat mores'
+  Words:    [42..49) consumed=7
+  NW score: k=8 (pre-snap), norm=6.3309
+  Anchor:   word 49 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 captis armis celitus ad plenum mitat mores Pre domine ad 56
+                      0 ||||||  6
+    query             0 captis armis celitus ad plenum mutat mores-------------- 42
+
+-- fused_7 --
+  OCR:      'amnavit eum dominus.'
+  Assigned: '~Domine quid'
+  Words:    [49..51) consumed=2
+  NW score: k=2 (pre-snap), norm=-1.9365
+  Anchor:   word 58 (within_chant_7), diff=7, snapped=False, forced=False
+  Alignment:
+    target            0 amnavit eum domin---us. 20
+                      0 -----------..||||---|.. 23
+    query             0 -----------~Domine quid 12
+
+-- fused_8 --
+  OCR:      'rancis cus ut inpu bli cum cessat'
+  Assigned: 'multiplicati euouae Franciscus ut in publicum cessat'
+  Words:    [51..58) consumed=7
+  NW score: k=7 (pre-snap), norm=3.5003
+  Anchor:   word 58 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ---------------------rancis cus ut in-pu bli cum cessat 33
+                      0 ---------------------||||||-||| 31
+    query             0 multiplicati euouae Francis-cus ut in pu-bli-cum cessat 52
+
+-- fused_9 --
+  OCR:      'ri in agrum mox domi nicum se'
+  Assigned: 'negociari in agrum mox dominicum se'
+  Words:    [58..64) consumed=6
+  NW score: k=5 (pre-snap), norm=5.0881
+  Anchor:   word 64 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 -------ri in agrum mox domi nicum se----- 29
+                      0 -------||  9
+    query             0 negociari in agrum mox domi-nicum secedit 40
+
+-- fused_10 --
+  OCR:      'ce dit medita ri inventum evangelicum'
+  Assigned: 'cedit meditari Inventum'
+  Words:    [64..66) consumed=2
+  NW score: k=3 (pre-snap), norm=5.3438
+  Anchor:   word 66 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 ce dit medita ri inventum evangelicum 37
+                      0 -------||||||-|| 16
+    query             0 -------medita-ri Invent------------um 17
+
+-- fused_11 --
+  OCR:      'Bbelancum multmerca'
+  Assigned: 'evanglicum thesaurum vult'
+  Words:    [66..69) consumed=3
+  NW score: k=4 (pre-snap), norm=1.7971
+  Anchor:   word 69 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 Bbelan---cum --------m--ultmerca 19
+                      0 --|.||---||| 12
+    query             0 --evanglicum thesaurum vult----- 25
+
+-- fused_12 --
+  OCR:      'c ano agit inicini consiam teens atios ce'
+  Assigned: 'mercari Deum quid agat unicum consultans audit ce'
+  Words:    [69..77) consumed=8
+  NW score: k=8 (pre-snap), norm=0.5738
+  Anchor:   word 77 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ---c-------- -ano agit inicini consiam teens a-tios ce-----
+                      0 ---|--------
+    query             0 mercari Deum quid agat unic-um cons--ult-ans audi-t celicum
+    
+    target           41
+                     12
+    query            54
+=== END DEBUG ===
+

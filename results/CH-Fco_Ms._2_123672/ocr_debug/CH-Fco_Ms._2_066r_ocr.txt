@@ -1,0 +1,187 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'incorde bono et optimo fructum afferunt in paciencta evovae Salbeto sc Capitulum'
+  [fused_1] 'fratres silingiis homii'
+  [fused_2] 'mu ad mm ante tecei notrem'
+  [fused_3] 'ob. tulit holocaustum super altare Mecea nostrio dominici inom filio.'
+  [fused_4] 'erorae ad lx .'
+  [fused_5] 'oquntus est dominus ad abram dicens egredere'
+  [fused_6] 'de terra et de Cognatio ne cum a et nem i'
+  [fused_7] 'terram quam monstravero bi . et faciam te cresce'
+  [fused_8] ' in gentemmagnam enedicens be'
+  [fused_9] 'meditam ne bi et. donomen tuvm enson '
+  [fused_10] 'nedictus et fac Dmnum fancta reli abram Han'
+  [fused_11] 'dui cem mambore inm dit toni in ros ascentenss'
+  [fused_12] 'tes per ju a moni  num ado'
+  [fused_13] 'iainter cce satra ntortua panectioi filir'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'incorde bono et optimo fructum afferunt in paciencta evovae Salbeto sc Capitulum'
+  Assigned: 'in corde bono et optimo fructum afferunt in paciencia euouae Pater'
+  Words:    [0..11) consumed=11
+  NW score: k=11 (pre-snap), norm=5.2571
+  Anchor:   word 15 (within_chant_7), diff=4, snapped=False, forced=False
+  Alignment:
+    target            0 in-corde bono et optimo fructum afferunt in paciencta evovae
+                      0 ||-|||||
+    query             0 in corde bono et optimo fructum afferunt in paciencia euouae
+    
+    target           59  Salbeto sc Capitulum 80
+                      8   8
+    query            60  Pa-------------t--er 66
+
+-- fused_1 --
+  OCR:      'fratres silingiis homii'
+  Assigned: 'fidei nostre abraam suminus'
+  Words:    [11..15) consumed=4
+  NW score: k=5 (pre-snap), norm=-0.6344
+  Anchor:   word 15 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 f------ratre------s silingiis homii 23
+                      0 |------..|||------. 19
+    query             0 fidei nostre abraam sumin--us------ 27
+
+-- fused_2 --
+  OCR:      'mu ad mm ante tecei notrem'
+  Assigned: 'obtulit holocaustum super altare pro filio'
+  Words:    [15..21) consumed=6
+  NW score: k=4 (pre-snap), norm=-1.4908
+  Anchor:   word 21 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 --mu--- -----a----d ---mm ant--e -tecei notrem 26
+                      0 --.|---  7
+    query             0 obtulit holocaustum super altare pro filio---- 42
+
+-- fused_3 --
+  OCR:      'ob. tulit holocaustum super altare Mecea nostrio dominici inom filio.'
+  Assigned: 'euouae Loquutus est dominus ad abram dicens'
+  Words:    [21..28) consumed=7
+  NW score: k=7 (pre-snap), norm=-1.0281
+  Anchor:   word 22 (within_chant_7), diff=6, snapped=False, forced=False
+  Alignment:
+    target            0 --ob. tulit holocaustum super altare Mecea nostrio domin--ic
+                      0 --|----|-..
+    query             0 euo----u-ae Lo---quutu--s----------- ---e----st--- dominus a
+    
+    target           56 i -inom filio. 69
+                     11 . 12
+    query            29 d abram dicens 43
+
+-- fused_4 --
+  OCR:      'erorae ad lx .'
+  Assigned: 'egredere'
+  Words:    [28..29) consumed=1
+  NW score: k=2 (pre-snap), norm=-0.7252
+  Anchor:   word 29 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 erorae ad lx . 14
+                      0 |-.|-|--|--... 14
+    query             0 e-gr-e--d--ere  8
+
+-- fused_5 --
+  OCR:      'oquntus est dominus ad abram dicens egredere'
+  Assigned: 'de terra et de cognatione tua et veni in'
+  Words:    [29..38) consumed=9
+  NW score: k=12 (pre-snap), norm=-0.9611
+  Anchor:   word 38 (within_chant_7), diff=3, snapped=False, forced=True
+  Alignment:
+    target            0 oqunt--us est d---o---mi-nus --ad abram dicens egredere 44
+                      0 -...|--..  9
+    query             0 -de terra e-t de cognation-e tua- ---et --veni ------in 40
+
+-- fused_6 --
+  OCR:      'de terra et de Cognatio ne cum a et nem i'
+  Assigned: 'terram quam monstravero tibi Et faciam te cresce'
+  Words:    [38..46) consumed=8
+  NW score: k=9 (pre-snap), norm=-0.3647
+  Anchor:   word 46 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 de terra- et de Cogn---a-----ti-o ne --c-um a et -ne--m i 41
+                      0 ---|||||-  9
+    query             0 ---terram -quam mo-nstravero tibi Et faciam -te- crescere 50
+
+-- fused_7 --
+  OCR:      'terram quam monstravero bi . et faciam te cresce'
+  Assigned: 're in gentem magnam Benedicens benedicam tibi et magnificabo nomen tuum erisque'
+  Words:    [46..57) consumed=11
+  NW score: k=11 (pre-snap), norm=-0.4801
+  Anchor:   word 51 (within_chant_7), diff=6, snapped=False, forced=False
+  Alignment:
+    target            0 ------terram --quam monstravero b----i--- ---. et fa---ci-a-
+                      0 ------||---|
+    query             0 in gente---m magnam Ben-edicens benedicam tibi et magnificab
+    
+    target           37 ----m-- t--e cres-ce 48
+                     12 ----|-- 19
+    query            56 o nomen tuum erisque 76
+
+-- fused_8 --
+  OCR:      'in gentemmagnam enedicens be'
+  Assigned: 'be'
+  Words:    [57..58) consumed=1
+  NW score: k=2 (pre-snap), norm=-0.5241
+  Anchor:   word 58 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 in gentemmagnam enedicens be 28
+                      0 ---------------.||||||..|--- 28
+    query             0 ---------------benedictus--- 10
+
+-- fused_9 --
+  OCR:      'meditam ne bi et. donomen tuvm enson'
+  Assigned: 'nedictus Et faciam Dum staret abraham ad illicem mambre vidit tres viros'
+  Words:    [58..69) consumed=11
+  NW score: k=11 (pre-snap), norm=-1.9318
+  Anchor:   word 63 (within_chant_7), diff=6, snapped=False, forced=False
+  Alignment:
+    target            0 ------------m-----edit------am ne --bi et. donom--en tuv---m
+                      0 ------------|-----|--|------||
+    query             0 Et faciam Dum stare--t abraham ad illice-m --mambre- --vidit
+    
+    target           30  --ens----on 36
+                     30  30
+    query            52  tre-s viros 63
+
+-- fused_10 --
+  OCR:      'nedictus et fac Dmnum fancta reli abram Han'
+  Assigned: 'ascenden'
+  Words:    [69..70) consumed=1
+  NW score: k=10 (pre-snap), norm=-0.8339
+  Anchor:   word 70 (within_chant_7), diff=9, snapped=False, forced=True
+  Alignment:
+    target            0 nedictus et fac Dmnum fancta reli abram Han 43
+                      0 ------.|.|--------|---..|-|---|-----------. 43
+    query             0 ------asce--------n---den-t---e-----------s 11
+
+-- fused_11 --
+  OCR:      'dui cem mambore inm dit toni in ros ascentenss'
+  Assigned: 'tes per viam Tres vidit et unum ado'
+  Words:    [70..77) consumed=7
+  NW score: k=8 (pre-snap), norm=-0.3454
+  Anchor:   word 77 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 dui cem -mambore- -inm dit -toni in-- -ros ascentenss 46
+                      0 ----.|.  7
+    query             0 ----per viam Tres vi---dit et--- unum ado-ra--vit---- 36
+
+-- fused_12 --
+  OCR:      'tes per ju a moni  num ado'
+  Assigned: 'ravit Ecce sarra uxor tua pariet tibi filium et'
+  Words:    [77..85) consumed=8
+  NW score: k=8 (pre-snap), norm=-0.9188
+  Anchor:   word 85 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 --te-s---- -per ju- -a---- moni -- num ado 26
+                      0 --.|-|---- 10
+    query             0 Ecce sarra uxor tua pariet tibi filium -et 41
+
+-- fused_13 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [85..85) consumed=0
+  Alignment:
+    (no words left)
+=== END DEBUG ===
+

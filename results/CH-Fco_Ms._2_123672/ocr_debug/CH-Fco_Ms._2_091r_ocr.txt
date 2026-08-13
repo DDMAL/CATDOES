@@ -1,0 +1,277 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'captl pepistus assistens pontifer'
+  [fused_1] 'Yn . ustris sex quiam'
+  [fused_2] 'meme Laudnsis vovae insurge ad bend ant cipeme deminicis in  et ab'
+  [fused_3] 'susturbis udeorumprpibs'
+  [fused_4] 'ex Deo est verba Dei audit propterea vos'
+  [fused_5] 'doro Ecs mmpedo'
+  [fused_6] 'familiani ad'
+  [fused_7] 'onon estis evovae primian ante 280 demonium no'
+  [fused_8] 'Giealle'
+  [fused_9] 'habeo sed honorifico patrem meum dicit dominus exovaet '
+  [fused_10] ''
+  [fused_11] 'gloriam meam non quero est qui querat'
+  [fused_12] 'Reptassites p'
+  [fused_13] 'et judicet exorae rne a framea deus aniulamn'
+  [fused_14] 'Meorelconis'
+  [fused_15] 't de manu canis unicam meam . Dens ani'
+  [fused_16] 'ad vi'
+  [fused_17] 'ne'
+  [fused_18] 'men amei dico vobis si quis servionem meum servave'
+  [fused_19] 'capili recr'
+  [fused_20] 'per sanguine'
+  [fused_21] 'morte non gustabit in eternum Evovae yrchoram et'
+  [fused_22] 'onis libera me Dominea cornibus icornio'
+  [fused_23] 'tatem menm luerea eore ulerunt lapides'
+  [fused_24] 'judeintjacerent n eum Melis autem abscondit se et'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'captl pepistus assistens pontifer'
+  Assigned: 'mee {Laudate} euouae Dicebat ihesus turbis iudeorum et'
+  Words:    [0..8) consumed=8
+  NW score: k=8 (pre-snap), norm=-2.0373
+  Anchor:   word 5 (within_chant_7), diff=3, snapped=False, forced=False
+  Alignment:
+    target            0 -----ca--pt-l ----pe-pi---st-----us ----assistens pontifer 33
+                      0 -----.|--.|-. 13
+    query             0 mee {Laudate} euouae Dicebat ihesus turbis iude----orum et 54
+
+-- fused_1 --
+  OCR:      'Yn . ustris sex quiam'
+  Assigned: 'principibus sacerdotum qui ex deo'
+  Words:    [8..13) consumed=5
+  NW score: k=3 (pre-snap), norm=-0.8131
+  Anchor:   word 13 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 Yn . ustri-------s s--e-----x qui-----am 21
+                      0 -------.||-------| 18
+    query             0 -------principibus sacerdotum qui ex deo 33
+
+-- fused_2 --
+  OCR:      'meme Laudnsis vovae insurge ad bend ant cipeme deminicis in  et ab'
+  Assigned: 'est verba dei audit propterea vos non auditis quia ex'
+  Words:    [13..23) consumed=10
+  NW score: k=14 (pre-snap), norm=-0.7441
+  Anchor:   word 23 (within_chant_7), diff=4, snapped=False, forced=True
+  Alignment:
+    target            0 meme Laudnsis vovae insurge ad bend a--nt -cip-eme- demin---
+                      0 ---|------|-.
+    query             0 ---e------s-t v---e-----r--ba- de-i audit propterea vos non 
+    
+    target           52 ---icis --in  et ab 66
+                     13 ---|.|| 20
+    query            38 auditis qui-a e---x 53
+
+-- fused_3 --
+  OCR:      'susturbis udeorumprpibs'
+  Assigned: 'deo non estis euouae Ego demonium non'
+  Words:    [23..30) consumed=7
+  NW score: k=6 (pre-snap), norm=-1.4156
+  Anchor:   word 30 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 -------susturbis ---u-------de-o-rumprpibs 23
+                      0 -------..||---|| 16
+    query             0 deo non est---is euouae Ego demonium-- non 37
+
+-- fused_4 --
+  OCR:      'ex Deo est verba Dei audit propterea vos'
+  Assigned: 'habeo sed honorifico patrem meum dicit dominus euouae'
+  Words:    [30..38) consumed=8
+  NW score: k=7 (pre-snap), norm=-1.2356
+  Anchor:   word 38 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 ---ex De-----------o est verba De-i aud--it propterea -vo--s
+                      0 ---|.
+    query             0 habeo sed honorifico pat---rem meum --dicit -do-minus euouae
+    
+    target           40 
+                      5 
+    query            53 
+
+-- fused_5 --
+  OCR:      'doro Ecs mmpedo'
+  Assigned: 'Ego gloriam meam non quero est qui querat'
+  Words:    [38..46) consumed=8
+  NW score: k=5 (pre-snap), norm=-1.6710
+  Anchor:   word 46 (within_chant_7), diff=3, snapped=False, forced=True
+  Alignment:
+    target            0 -do--ro Ecs m--m------pedo--------------- 15
+                      0 -.|--.|.... 11
+    query             0 Ego gloriam meam non quero est qui querat 41
+
+-- fused_6 --
+  OCR:      'familiani ad'
+  Assigned: 'et iudicet euouae'
+  Words:    [46..49) consumed=3
+  NW score: k=3 (pre-snap), norm=-2.1704
+  Anchor:   word 54 (within_chant_7), diff=5, snapped=False, forced=False
+  Alignment:
+    target            0 fami-liani ----ad 12
+                      0 ...|-.|... 10
+    query             0 et iudicet euouae 17
+
+-- fused_7 --
+  OCR:      'onon estis evovae primian ante 280 demonium no'
+  Assigned: 'Erue a framea deus animam'
+  Words:    [49..54) consumed=5
+  NW score: k=10 (pre-snap), norm=-0.8388
+  Anchor:   word 54 (within_chant_7), diff=5, snapped=False, forced=True
+  Alignment:
+    target            0 onon estis evovae primian ante 280 de--monium no 46
+                      0 --...|---- 10
+    query             0 --Erue---- ----a- framea---------- deus ani-m-am 25
+
+-- fused_8 --
+  OCR:      'Giealle'
+  Assigned: 'meam Et de'
+  Words:    [54..57) consumed=3
+  NW score: k=3 (pre-snap), norm=-1.6733
+  Anchor:   word 72 (within_chant_7), diff=15, snapped=False, forced=False
+  Alignment:
+    target            0 Giea----lle  7
+                      0 -.||----..| 11
+    query             0 -meam Et de 10
+
+-- fused_9 --
+  OCR:      'habeo sed honorifico patrem meum dicit dominus exovaet'
+  Assigned: 'manu canis unicam meam Deus animam Amen amen dico vobis si quis sermonem meum servave'
+  Words:    [57..72) consumed=15
+  NW score: k=13 (pre-snap), norm=-0.6736
+  Anchor:   word 72 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 habeo ----sed honorific-o -pa-tre--------m -me--um-- dicit d
+                      0 .|-..
+    query             0 ma-nu canis-- -un----icam meam Deus animam Amen amen dic-o v
+    
+    target           40 omi-----nu-s -e-xo------------va-et 54
+                      5 |.|-----.|-| 17
+    query            51 obis si quis sermonem meum servave- 85
+
+-- fused_10 --
+  OCR:      ''
+  Assigned: 'mortem non gustabit in eternum euouae De ore le'
+  Words:    [72..81) consumed=9
+
+-- fused_11 --
+  OCR:      'gloriam meam non quero est qui querat'
+  Assigned: 'onis libera me domine Et a'
+  Words:    [81..86) consumed=5
+  NW score: k=5 (pre-snap), norm=-0.6816
+  Anchor:   word 89 (within_chant_7), diff=3, snapped=False, forced=False
+  Alignment:
+    target            0 gl--oriam meam no--n quero est qui querat 37
+                      0 -|--.|-|-  9
+    query             0 -liber-a- me-- domin---e-- -Et --------a- 21
+
+-- fused_12 --
+  OCR:      'Reptassites p'
+  Assigned: 'cornibus unicorniorum humili'
+  Words:    [86..89) consumed=3
+  NW score: k=1 (pre-snap), norm=-3.6281
+  Anchor:   word 89 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 -------------------------Reptassites p 13
+                      0 -------------------------...||---||--. 38
+    query             0 cornibus unicorniorum humilita---te--m 33
+
+-- fused_13 --
+  OCR:      'et judicet exorae rne a framea deus aniulamn'
+  Assigned: 'tatem meam Libera De ore Tulerunt lapides videi ut iacerent in'
+  Words:    [89..99) consumed=10
+  NW score: k=10 (pre-snap), norm=-0.3425
+  Anchor:   word 95 (within_chant_7), diff=4, snapped=False, forced=False
+  Alignment:
+    target            0 -e-t judice-t -exorae ----r-ne -a framea --de--us -a----n--i
+                      0 -|-.
+    query             0 meam --Libera De or-e Tulerunt la--pides videi ut iacerent i
+    
+    target           39 ulamn 44
+                      4 ----|  9
+    query            55 ----n 56
+
+-- fused_14 --
+  OCR:      'Meorelconis'
+  Assigned: 'eum ihesus autem abscondit se et'
+  Words:    [99..105) consumed=6
+  NW score: k=4 (pre-snap), norm=-2.2470
+  Anchor:   word 105 (page_break_77), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 -----Me-----ore----lcon-i--s---- 11
+                      0 -----.|-----..|----.|||-|--|---- 32
+    query             0 eum ihesus autem abscondit se et 32
+
+-- fused_15 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [105..105) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_16 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [105..105) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_17 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [105..105) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_18 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [105..105) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_19 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [105..105) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_20 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [105..105) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_21 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [105..105) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_22 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [105..105) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_23 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [105..105) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_24 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [105..105) consumed=0
+  Alignment:
+    (no words left)
+=== END DEBUG ===
+

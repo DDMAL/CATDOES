@@ -1,0 +1,199 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'sus egerit penitenti am veniensque oraverit in loco '
+  [fused_1] 'stoxactum est dum toileret do mi'
+  [fused_2] 'musHeli manini turoinem in m ille'
+  [fused_3] ' clambtcens pater curruis Israhel'
+  [fused_4] 'et aun ga e vs Xumque pergerent et mnceden'
+  [fused_5] 'tes sermocinarentur ecclesie curirus igneus et equ ignei di'
+  [fused_6] 'viserunt utrumque et ascendit Hbelyas per turbinem in'
+  [fused_7] 'ad laudes aliter alla alla cum ceteris et ipsus sicut supra'
+  [fused_8] 'in dominica de psalmusta Yuiijus ecclesiamnoctis et'
+  [fused_9] 'ce bee .e . ad benedictus diciturulbut ad kals octobris X domino regnavit decore'
+  [fused_10] 'Rote Elgnos misericordes sicut et patervester misericors'
+  [fused_11] 'entdiant domains erone olite iudicare ut non in'
+  [fused_12] 'dicemim i quo eium judicio iudicaveritis iudicabum'
+  [fused_13] 'dicit commus evorae ognoverunt'
+  [fused_14] 'omnes Adan elis maes  anono scelis samina p'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'sus egerit penitenti am veniensque oraverit in loco'
+  Assigned: 'egerit penitenciam veniensque oraverit in loco'
+  Words:    [0..6) consumed=6
+  NW score: k=6 (pre-snap), norm=6.8545
+  Anchor:   word 14 (within_chant_7), diff=8, snapped=False, forced=False
+  Alignment:
+    target            0 sus egerit penitenti am veniensque oraverit in loco 51
+                      0 ----|||||| 10
+    query             0 ----egerit penitenci-am veniensque oraverit in loco 46
+
+-- fused_1 --
+  OCR:      'stoxactum est dum toileret do mi'
+  Assigned: 'isto Tu exaudies Factum est dum tolleret domi'
+  Words:    [6..14) consumed=8
+  NW score: k=8 (pre-snap), norm=4.1080
+  Anchor:   word 14 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -sto-----x--------actum est dum toileret do mi--- 32
+                      0 -|||-----|--------||||| 23
+    query             0 isto Tu exaudies Factum est dum tolleret do-minus 48
+
+-- fused_2 --
+  OCR:      'musHeli manini turoinem in m ille'
+  Assigned: 'nus helyam per turbinem in celum helise'
+  Words:    [14..20) consumed=6
+  NW score: k=5 (pre-snap), norm=1.3488
+  Anchor:   word 20 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 musHeli manini turoinem in ----m ill--e-- 33
+                      0 ---.||..|-.... 14
+    query             0 ---helyam- per turbinem in celum Heliseus 37
+
+-- fused_3 --
+  OCR:      'clambtcens pater curruis Israhel'
+  Assigned: 'us clamabat dicens pater mi currus israhel'
+  Words:    [20..26) consumed=6
+  NW score: k=6 (pre-snap), norm=5.3217
+  Anchor:   word 26 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 clam-b-t---cens pater--- curruis Israhel 32
+                      0 ||||-|-|---|||| 15
+    query             0 clamabat dicens pater mi curru-s israhel 39
+
+-- fused_4 --
+  OCR:      'et aun ga e vs Xumque pergerent et mnceden'
+  Assigned: 'et auriga eius Cumque pergerent et inceden'
+  Words:    [26..33) consumed=7
+  NW score: k=7 (pre-snap), norm=5.6355
+  Anchor:   word 33 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 et aun ga e vs Xumque pergerent et mnceden--- 42
+                      0 ||  2
+    query             0 et auriga eius Cumque pergerent et incedentes 45
+
+-- fused_5 --
+  OCR:      'tes sermocinarentur ecclesie curirus igneus et equ ignei di'
+  Assigned: 'tes sermocinarentur ecce currus igneus et equi ignei di'
+  Words:    [33..41) consumed=8
+  NW score: k=7 (pre-snap), norm=5.9568
+  Anchor:   word 41 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 tes sermocinarentur ecclesie curirus igneus et equ- ignei di
+                      0 ----|||||||||||||||
+    query             0 ----sermocinarentur ecc----e cur-rus igneus et equi ignei di
+    
+    target           59 -------- 59
+                     19 -------- 27
+    query            51 viserunt 59
+
+-- fused_6 --
+  OCR:      'viserunt utrumque et ascendit Hbelyas per turbinem in'
+  Assigned: 'viserunt utrumque et ascendit helyas per turbinem in'
+  Words:    [41..48) consumed=7
+  NW score: k=7 (pre-snap), norm=6.1376
+  Anchor:   word 48 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 viserunt utrumque et ascendit Hbelyas per turbinem in 53
+                      0 ---------|||||||| 17
+    query             0 ---------utrumque et ascendit -helyas per turbinem in 43
+
+-- fused_7 --
+  OCR:      'ad laudes aliter alla alla cum ceteris et ipsus sicut supra'
+  Assigned: 'celum Helyseus Estote ergo misericordes sicut et pater'
+  Words:    [48..56) consumed=8
+  NW score: k=8 (pre-snap), norm=-0.6732
+  Anchor:   word 50 (within_chant_7), diff=6, snapped=False, forced=False
+  Alignment:
+    target            0 ---ad --laude-s -aliter alla alla cum ceteri--s et ipsus sic
+                      0 ---..
+    query             0 celum Hel-yseus Estote------ ergo --m--isericorde------s sic
+    
+    target           51 ut -sup---ra 59
+                      5 ||  7
+    query            43 ut et pater- 54
+
+-- fused_8 --
+  OCR:      'in dominica de psalmusta Yuiijus ecclesiamnoctis et'
+  Assigned: 'vester misericors'
+  Words:    [56..58) consumed=2
+  NW score: k=9 (pre-snap), norm=-1.0578
+  Anchor:   word 58 (within_chant_7), diff=7, snapped=False, forced=True
+  Alignment:
+    target            0 in dominica de psalmust-a Yuiijus ecclesiamnoctis et 51
+                      0 ------------.|-------||-. 25
+    query             0 ------------ve-------ster --mi--s-----eri----cors--- 17
+
+-- fused_9 --
+  OCR:      'ce bee .e . ad benedictus diciturulbut ad kals octobris X domino regnavit decore'
+  Assigned: 'est dicit dominus euouae Nolite iudicare ut non iudicemini in quo enim iudicio'
+  Words:    [58..71) consumed=13
+  NW score: k=13 (pre-snap), norm=-0.9241
+  Anchor:   word 67 (within_chant_7), diff=4, snapped=False, forced=False
+  Alignment:
+    target            0 ce bee .e . ad benedic-tus dici----turu-----lbut- -ad kals o
+                      0 --------|..
+    query             0 --------est -------dicit-- dominus euouae Nol-ite iudicare -
+    
+    target           48 ct--obris X d--omin-------o regnavit --dec-ore 80
+                     11 .|--|---. 20
+    query            41 ut no---n iudicemini in quo -e-n--im iudicio-- 78
+
+-- fused_10 --
+  OCR:      'Rote Elgnos misericordes sicut et patervester misericors'
+  Assigned: 'iudicaveritis iudicabimini'
+  Words:    [71..73) consumed=2
+  NW score: k=7 (pre-snap), norm=-1.6409
+  Anchor:   word 73 (within_chant_7), diff=5, snapped=False, forced=True
+  Alignment:
+    target            0 Rote Elgnos misericordes sicut et patervester miseric----ors
+                      0 -----------------|--.|----||-------|.||--.|..
+    query             0 -----------------i--ud----ic-------aver--itis -i-udicabimini
+    
+    target           56 
+                     45 
+    query            26 
+
+-- fused_11 --
+  OCR:      'entdiant domains erone olite iudicare ut non in'
+  Assigned: 'dicit dominus euouae Cognoverunt omnes a dan'
+  Words:    [73..80) consumed=7
+  NW score: k=7 (pre-snap), norm=0.7257
+  Anchor:   word 77 (within_chant_7), diff=3, snapped=False, forced=False
+  Alignment:
+    target            0 entdiant domain-s ero-ne -o-lite iudicare u-t no-n---- -in 47
+                      0 ---||..|  8
+    query             0 ---dicit dom-inus euouae Cognove-------r--unt -omnes a dan 44
+
+-- fused_12 --
+  OCR:      'dicemim i quo eium judicio iudicaveritis iudicabum'
+  Assigned: 'usque bersabee quod fidelis samuhel propheta'
+  Words:    [80..86) consumed=6
+  NW score: k=5 (pre-snap), norm=-1.5299
+  Anchor:   word 86 (page_break_77), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 dicemim i quo -e---ium ju-dicio -iudicaveritis iudicabu-----
+                      0 --------..||.
+    query             0 --------usque bersabee quod---- fi-d----e--lis ----samuhel p
+    
+    target           49 ------m 50
+                     13 ------. 20
+    query            37 ropheta 44
+
+-- fused_13 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [86..86) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_14 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [86..86) consumed=0
+  Alignment:
+    (no words left)
+=== END DEBUG ===
+

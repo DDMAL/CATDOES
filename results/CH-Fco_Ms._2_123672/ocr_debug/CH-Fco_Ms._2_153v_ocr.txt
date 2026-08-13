@@ -1,0 +1,195 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'quomodo salvi facti sunt patres nostri et nunc clamemus'
+  [fused_1] 'in celum et miserebitur nostitteus noster eoovas on'
+  [fused_2] 'gregatem sunt gentes in multitudine ut dimicent contra no'
+  [fused_3] 'ignoramus quid agere debeamus domine Deus ad te'
+  [fused_4] 'sant advina nos ut non pereannis exovac'
+  [fused_5] 'idas Machabeus et jonachas frater ejus transierunt'
+  [fused_6] 'jordanem et abierunt viam triuum dierum perdesertum.'
+  [fused_7] 'Salbaoin kalernonem'
+  [fused_8] 'bris ad magistri e'
+  [fused_9] 'evovae . idi dominimi sedentem super so'
+  [fused_10] 'lium excelsum et plena erat omnis terra majestate ejus'
+  [fused_11] 'que sub ipso erant replebant Templum evovae Du novembris ponit'
+  [fused_12] 'eb domadas tibu ezechiels et legitur per duas'
+  [fused_13] 'idi dominum sendeu'
+  [fused_14] 'tem super solium excel u et c lena'
+  [fused_15] 'pelenae rat omnis ter ia marestate e'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'quomodo salvi facti sunt patres nostri et nunc clamemus'
+  Assigned: 'quomodo salvi facti sunt patres nostri et nunc clamemus'
+  Words:    [0..9) consumed=9
+  NW score: k=9 (pre-snap), norm=8.0000
+  Anchor:   word 18 (within_chant_7), diff=9, snapped=False, forced=False
+  Alignment:
+    target            0 quomodo salvi facti sunt patres nostri et nunc clamemus 55
+                      0 |||||||  7
+    query             0 quomodo salvi facti sunt patres nostri et nunc clamemus 55
+
+-- fused_1 --
+  OCR:      'in celum et miserebitur nostitteus noster eoovas on'
+  Assigned: 'in celum et miserebitur nostri deus noster euouae con'
+  Words:    [9..18) consumed=9
+  NW score: k=8 (pre-snap), norm=5.9812
+  Anchor:   word 18 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 in celum et miserebitur nost-itteus noster eoovas -on-------
+                      0 ||
+    query             0 in celum et miserebitur nostri deus noster euouae Congregate
+    
+    target           51 
+                      2 
+    query            60 
+
+-- fused_2 --
+  OCR:      'gregatem sunt gentes in multitudine ut dimicent contra no'
+  Assigned: 'gregate sunt gentes in multitudine ut dimicent contra nos'
+  Words:    [18..26) consumed=8
+  NW score: k=8 (pre-snap), norm=6.5470
+  Anchor:   word 26 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 gregatem sunt gentes in multitudine ut dimicent contra no- 57
+                      0 ---------|||| 13
+    query             0 ---------sunt gentes in multitudine ut dimicent contra nos 49
+
+-- fused_3 --
+  OCR:      'ignoramus quid agere debeamus domine Deus ad te'
+  Assigned: 'et ignoramus quid agere debeamus domine deus ad te'
+  Words:    [26..35) consumed=9
+  NW score: k=9 (pre-snap), norm=7.2199
+  Anchor:   word 35 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ---ignoramus quid agere debeamus domine Deus ad te 47
+                      0 ---||||||||| 12
+    query             0 et ignoramus quid agere debeamus domine deus ad te 50
+
+-- fused_4 --
+  OCR:      'sant advina nos ut non pereannis exovac'
+  Assigned: 'sunt oculi nostri adiuva nos ut non pereamus euouae'
+  Words:    [35..44) consumed=9
+  NW score: k=9 (pre-snap), norm=3.1616
+  Anchor:   word 44 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 sant------------- advi-na nos ut non pereannis exovac 39
+                      0 |.||------------- 17
+    query             0 sunt oculi nostri ad-iuva nos ut non perea-mus euouae 51
+
+-- fused_5 --
+  OCR:      'idas Machabeus et jonachas frater ejus transierunt'
+  Assigned: 'Iudas machabeus et ionathas frater eius transierunt'
+  Words:    [44..51) consumed=7
+  NW score: k=7 (pre-snap), norm=6.4954
+  Anchor:   word 51 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -idas Machabeus et jonachas frater ejus transierunt 50
+                      0 -.|||  5
+    query             0 Iudas machabeus et ionathas frater eius transierunt 51
+
+-- fused_6 --
+  OCR:      'jordanem et abierunt viam triuum dierum perdesertum.'
+  Assigned: 'iordanem et abierunt viam trium dierum per desertum'
+  Words:    [51..59) consumed=8
+  NW score: k=8 (pre-snap), norm=7.1071
+  Anchor:   word 59 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 jordanem et abierunt viam triuum dierum per-desertum. 52
+                      0 .|||||||  8
+    query             0 iordanem et abierunt viam tri-um dierum per desertum- 51
+
+-- fused_7 --
+  OCR:      'Salbaoin kalernonem'
+  Assigned: 'euouae Vidi dominum sedentem super so'
+  Words:    [59..65) consumed=6
+  NW score: k=4 (pre-snap), norm=-1.1706
+  Anchor:   word 65 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 Salba--------o-in----------- kaler-no-nem 19
+                      0 ....|--------|-||----------- 28
+    query             0 euouae Vidi dominum sedentem super solium 41
+
+-- fused_8 --
+  OCR:      'bris ad magistri e'
+  Assigned: 'lium excelsum et plena erat omnis terra maiestate eius'
+  Words:    [65..73) consumed=8
+  NW score: k=7 (pre-snap), norm=-1.5279
+  Anchor:   word 73 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 ------------------br------is ----ad magi-st-ri e--- 18
+                      0 ------------------.|------|| 28
+    query             0 excelsum et plena erat omnis terra- ma-iestate eius 49
+
+-- fused_9 --
+  OCR:      'evovae . idi dominimi sedentem super so'
+  Assigned: 'et ea que sub ipso erant replebant templum euouae Vidi dominum sedentem super solium'
+  Words:    [73..87) consumed=14
+  NW score: k=14 (pre-snap), norm=1.4152
+  Anchor:   word 82 (within_chant_7), diff=5, snapped=False, forced=False
+  Alignment:
+    target            0 -------------------------------------------evovae . idi domi
+                      0 -------------------------------------------|.|.||
+    query             0 et ea que sub ipso erant replebant templum euouae -Vidi domi
+    
+    target           17 nimi sedentem super so---- 39
+                     49 |.|- 53
+    query            59 num- sedentem super solium 84
+
+-- fused_10 --
+  OCR:      'lium excelsum et plena erat omnis terra majestate ejus'
+  Assigned: 'excelsum et elevatum'
+  Words:    [87..90) consumed=3
+  NW score: k=10 (pre-snap), norm=5.6627
+  Anchor:   word 90 (within_chant_7), diff=7, snapped=False, forced=True
+  Alignment:
+    target            0 lium excelsum et plena erat omnis terra majestate ejus 54
+                      0 -----|||||||| 13
+    query             0 -----excelsum et ele-------------------------vat----um 20
+
+-- fused_11 --
+  OCR:      'que sub ipso erant replebant Templum evovae Du novembris ponit'
+  Assigned: 'et plena erat omnis terra maiestate eius Et'
+  Words:    [90..98) consumed=8
+  NW score: k=8 (pre-snap), norm=-0.9296
+  Anchor:   word 98 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 que sub ip--so erant repleban-t Templum- evova-e Du novembri
+                      0 --|---.
+    query             0 --e---t -plena era-t -----omnis terra maie-state ------e---i
+    
+    target           55 -s ponit 62
+                      7 -|  9
+    query            38 us ---Et 43
+
+-- fused_12 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [98..98) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_13 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [98..98) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_14 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [98..98) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_15 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [98..98) consumed=0
+  Alignment:
+    (no words left)
+=== END DEBUG ===
+

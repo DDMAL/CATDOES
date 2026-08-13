@@ -1,0 +1,159 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'torum velud aquile inventus renovabitur forebunt'
+  [fused_1] 'incivitate domi eatus vir eovae  pet deus'
+  [fused_2] 'omnem lacrimam ab oculis sanctorum et jam non erit ampli'
+  [fused_3] 'us neque luctus neque clamor sed nec ullus dolor qunoniam prio'
+  [fused_4] 'ra transierunt Laudunspue evovaeet in celestibus regiis'
+  [fused_5] 'sanctorum habitatio elete . eqes eorum  redidi'
+  [fused_6] 'arutl en'
+  [fused_7] 'Cane Candent ince us anime Sanctorum'
+  [fused_8] 'sunt secuti et quia pro ejus amore sa'
+  [fused_9] 'gumem suum fudeDeoisto exltant sine fine'
+  [fused_10] 'In natil unus confes pontificis ad vel'
+  [fused_11] 'eum dominus ad magtutri Pas ymi te confessorV amau '
+  [fused_12] 'evovae. acerdos et pontifer et'
+  [fused_13] 'tutum opifer pastor bone in prpulo Die corto pre nobis do'
+  [fused_14] 'm eremine doctor eptine etcesie sat'
+  [fused_15] 'nno tane  cmne logis amator depata'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'torum velud aquile inventus renovabitur forebunt'
+  Assigned: 'velud aquile iuventus renovabitur florebunt'
+  Words:    [0..5) consumed=5
+  NW score: k=5 (pre-snap), norm=6.4713
+  Anchor:   word 15 (within_chant_7), diff=10, snapped=False, forced=False
+  Alignment:
+    target            0 torum velud aquile inventus renovabitur f-orebunt 48
+                      0 ------||||| 11
+    query             0 ------velud aquile iuventus renovabitur florebunt 43
+
+-- fused_1 --
+  OCR:      'incivitate domi eatus vir eovae  pet deus'
+  Assigned: 'sicut lilium in civitate domini ~Beatus vir euouae Absterget deus'
+  Words:    [5..15) consumed=10
+  NW score: k=10 (pre-snap), norm=3.7386
+  Anchor:   word 15 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -------------in-civitate dom--i --eatus vir e-ovae ----- pet
+                      0 -------------||-||||||||
+    query             0 sicut lilium in civitate domini ~Beatus vir euouae Absterget
+    
+    target           36  deus 41
+                     24  24
+    query            60  deus 65
+
+-- fused_2 --
+  OCR:      'omnem lacrimam ab oculis sanctorum et jam non erit ampli'
+  Assigned: 'omnem lacrimam ab oculis eorum et iam non erit ampli'
+  Words:    [15..25) consumed=10
+  NW score: k=10 (pre-snap), norm=6.6193
+  Anchor:   word 25 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 omnem lacrimam ab oculis sanctorum et jam non erit ampli-- 56
+                      0 |||||  5
+    query             0 omnem lacrimam ab oculis ----eorum et iam non erit amplius 54
+
+-- fused_3 --
+  OCR:      'us neque luctus neque clamor sed nec ullus dolor qunoniam prio'
+  Assigned: 'us neque luctus neque clamor sed nec ullus dolor quoniam priora'
+  Words:    [25..35) consumed=10
+  NW score: k=10 (pre-snap), norm=7.1157
+  Anchor:   word 35 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 us neque luctus neque clamor sed nec ullus dolor qunoniam pr
+                      0 ---|||||
+    query             0 ---neque luctus neque clamor sed nec ullus dolor qu-oniam pr
+    
+    target           60 io-- 62
+                      8 ||-- 12
+    query            56 iora 60
+
+-- fused_4 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [35..35) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_5 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [35..35) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_6 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [35..35) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_7 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [35..35) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_8 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [35..35) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_9 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [35..35) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_10 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [35..35) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_11 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [35..35) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_12 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [35..35) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_13 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [35..35) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_14 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [35..35) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_15 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [35..35) consumed=0
+  Alignment:
+    (no words left)
+=== END DEBUG ===
+

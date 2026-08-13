@@ -1,0 +1,211 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'mis  . omne rex ompts indicione ta'
+  [fused_1] 'est qui possit tue resistere no'
+  [fused_2] '|ntati omne deus rex ommpotens lile'
+  [fused_3] 'ra nos propter nomentuum et da nobis locum peni'
+  [fused_4] 'Uiversis iste videlicet sextenbs hbuit antam dominicami ostor'
+  [fused_5] 'pord ipsa dominica  edsinhuta pontis iniIr tepsur et distrsonunit'
+  [fused_6] 'dies et quod minus fuerit fuerit tem hystor adonay domine deus'
+  [fused_7] 'tentie exonae'
+  [fused_8] 'omnie rex omni potens inditione tua cuncta sunt'
+  [fused_9] 'posita et non est qui possit resistere volun ta'
+  [fused_10] ' nos . Propter nomentu'
+  [fused_11] 'diorationem nostram et converte luctum'
+  [fused_12] 'no m. di nom peepte |onfortamme'
+  [fused_13] 'rum principatum te veus . et da'
+  [fused_14] 'sermionem rece ne sonan tem'
+  [fused_15] '0s mine rex mierse potesta'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'mis  . omne rex ompts indicione ta'
+  Assigned: 'euouae Domine rex omnipotens in dicione tua'
+  Words:    [0..7) consumed=7
+  NW score: k=7 (pre-snap), norm=3.6353
+  Anchor:   word 7 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 mis  . -om-ne rex om--p-t--s in-dicione t-a 34
+                      0 ......  6
+    query             0 euouae Domine rex omnipotens in dicione tua 43
+
+-- fused_1 --
+  OCR:      'est qui possit tue resistere no'
+  Assigned: 'cuncta sunt posita et non est qui possit tue resistere vo'
+  Words:    [7..18) consumed=11
+  NW score: k=10 (pre-snap), norm=3.1529
+  Anchor:   word 18 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 --------------------------est qui possit tue resistere no---
+                      0 --------------------------|||
+    query             0 cuncta sunt posita et non est qui possit tue resistere volun
+    
+    target           31 ---- 31
+                     29 ---- 33
+    query            60 tati 64
+
+-- fused_2 --
+  OCR:      '|ntati omne deus rex ommpotens lile'
+  Assigned: 'luntati euouae Domine deus rex omnipotens libe'
+  Words:    [18..24) consumed=6
+  NW score: k=6 (pre-snap), norm=3.9822
+  Anchor:   word 24 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -|ntati -om-ne deus rex om-mpotens lile-- 35
+                      0 -...|-.  7
+    query             0 euoua-e Domine deus rex omnipotens libera 40
+
+-- fused_3 --
+  OCR:      'ra nos propter nomentuum et da nobis locum peni'
+  Assigned: 'ra nos propter nomen tuum et da nobis locum peni'
+  Words:    [24..33) consumed=9
+  NW score: k=9 (pre-snap), norm=6.3318
+  Anchor:   word 33 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ra nos propter nomen-tuum et da nobis locum peni------ 47
+                      0 ---|||  6
+    query             0 ---nos propter nomen tuum et da nobis locum penitencie 51
+
+-- fused_4 --
+  OCR:      'Uiversis iste videlicet sextenbs hbuit antam dominicami ostor'
+  Assigned: 'tencie euouae Domine rex omnipotens in dicione tua'
+  Words:    [33..40) consumed=7
+  NW score: k=7 (pre-snap), norm=-0.8591
+  Anchor:   word 34 (within_chant_7), diff=6, snapped=False, forced=False
+  Alignment:
+    target            0 Uiversis iste videlicet sex-------tenbs hbuit antam dominica
+                      0 ---|----....|
+    query             0 ---e----uouae --Domine- rex omnipoten-s ---i---n--- d----ic-
+    
+    target           53 mi o--stor 61
+                     13 -|-|--.|.. 23
+    query            35 -i-one tua 43
+
+-- fused_5 --
+  OCR:      'pord ipsa dominica  edsinhuta pontis iniIr tepsur et distrsonunit'
+  Assigned: 'cuncta sunt'
+  Words:    [40..42) consumed=2
+  NW score: k=10 (pre-snap), norm=-0.5124
+  Anchor:   word 42 (within_chant_7), diff=8, snapped=False, forced=True
+  Alignment:
+    target            0 pord ipsa dominica  edsinhuta pontis iniIr tepsur et distrso
+                      0 ----------------|------.|-.||
+    query             0 ----------------c------un-cta ----------------------------s-
+    
+    target           60 nunit 65
+                     29 -||-| 34
+    query             8 -un-t 11
+
+-- fused_6 --
+  OCR:      'dies et quod minus fuerit fuerit tem hystor adonay domine deus'
+  Assigned: 'posita et non est qui possit resistere volunta'
+  Words:    [42..50) consumed=8
+  NW score: k=9 (pre-snap), norm=-0.2642
+  Anchor:   word 50 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 --dies et quod minus- fuerit fuerit tem hystor- ado--n-ay do
+                      0 --.|..
+    query             0 posita et -non ---est qu--i- possit re--sistere -volunta----
+    
+    target           53 mine deus 62
+                      6 .|------- 15
+    query            46 ti------- 48
+
+-- fused_7 --
+  OCR:      'tentie exonae'
+  Assigned: 'ti tue libera nos'
+  Words:    [50..53) consumed=3
+  NW score: k=3 (pre-snap), norm=-0.6671
+  Anchor:   word 56 (within_chant_7), diff=3, snapped=False, forced=False
+  Alignment:
+    target            0 t-enti-e-- exonae 13
+                      0 |-|..|-|-- 10
+    query             0 tue libera ---nos 14
+
+-- fused_8 --
+  OCR:      'omnie rex omni potens inditione tua cuncta sunt'
+  Assigned: 'Propter nomen tuum Exaudi orationem nostram et converte luctum'
+  Words:    [53..62) consumed=9
+  NW score: k=9 (pre-snap), norm=0.0741
+  Anchor:   word 56 (within_chant_7), diff=6, snapped=False, forced=False
+  Alignment:
+    target            0 --omnie rex -om-ni potens --indi----tione- ---tua---- cun--c
+                      0 --|-..|-|--
+    query             0 Pro-pte-r-- nomen- --tuum Exaudi orationem nostram et conver
+    
+    target           40 ta sunt-- 47
+                     11 |. 13
+    query            53 te luctum 62
+
+-- fused_9 --
+  OCR:      'posita et non est qui possit resistere volun ta'
+  Assigned: 'nostrum in gaudium Propter Conforta me'
+  Words:    [62..68) consumed=6
+  NW score: k=5 (pre-snap), norm=-0.5917
+  Anchor:   word 68 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 posita et non est qui possit resistere volun-- ta--- 47
+                      0 .||-|-...  9
+    query             0 nos-t-rum -in gaudium ------Pr--opter- Co--nforta me 38
+
+-- fused_10 --
+  OCR:      'nos . Propter nomentu'
+  Assigned: 'rex sanctorum principatum tenens Et da'
+  Words:    [68..74) consumed=6
+  NW score: k=5 (pre-snap), norm=-1.4385
+  Anchor:   word 74 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 ------n--os . Pr---op-ter --nomen---t--u 21
+                      0 ------|--|... 13
+    query             0 rex sanctorum principatum ten--ens Et da 38
+
+-- fused_11 --
+  OCR:      'diorationem nostram et converte luctum'
+  Assigned: 'sermonem rectum et benesonantem in os'
+  Words:    [74..80) consumed=6
+  NW score: k=4 (pre-snap), norm=0.4953
+  Anchor:   word 80 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 diorationem nostram et ----converte- luctum 38
+                      0 -..|--.|||| 11
+    query             0 -ser--monem rect-um et beneson-antem -in os 37
+
+-- fused_12 --
+  OCR:      'no m. di nom peepte |onfortamme'
+  Assigned: 'meum Domine rex universe potesta'
+  Words:    [80..85) consumed=5
+  NW score: k=6 (pre-snap), norm=-0.5686
+  Anchor:   word 85 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 no m. di nom--- pe------epte |onfortamme 31
+                      0 ...|----  8
+    query             0 meum---- Domine rex universe po-testatis 35
+
+-- fused_13 --
+  OCR:      'rum principatum te veus . et da'
+  Assigned: 'tis converte consilium eorum super eos Et da'
+  Words:    [85..92) consumed=7
+  NW score: k=7 (pre-snap), norm=-0.0852
+  Anchor:   word 92 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -----r----------um -principatum --te- veus . et da 31
+                      0 -----|----------|| 18
+    query             0 converte consilium eor-------um super -eos-- Et da 40
+
+-- fused_14 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [92..92) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_15 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [92..92) consumed=0
+  Alignment:
+    (no words left)
+=== END DEBUG ===
+

@@ -1,0 +1,167 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'veniet Allelvya evovac acem reliuniquo nobis pa'
+  [fused_1] 'cem meam do vobisnon quomodo hic mundus date'
+  [fused_2] 'Ego do nobis Allelvya evovae Visciplinam'
+  [fused_3] 'Penciani tocinte  domimis alleLu'
+  [fused_4] 'tuma mema  eur runma'
+  [fused_5] 'et intellectu implevit a rum Alleluya'
+  [fused_6] ' len nepituo anq lon'
+  [fused_7] 'ritus Sanctus super mnt et intenettu'
+  [fused_8] 'te muniversum or bem et predicate dicentes al'
+  [fused_9] 'ya . Et qui credide nt et haptiratus fue iint'
+  [fused_10] 'tanno ent alie iris moniei Luya alleLuYa'
+  [fused_11] 'nnno nine me demoni e a ent li'
+  [fused_12] 'dino lomentur noms seientes to lent . ec'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'veniet Allelvya evovac acem reliuniquo nobis pa'
+  Assigned: 'alleluya euouae Pacem relinquo vobis pa'
+  Words:    [0..6) consumed=6
+  NW score: k=6 (pre-snap), norm=3.7587
+  Anchor:   word 6 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 veniet Allelvya evovac -acem reliuniquo nobis pa--- 47
+                      0 -------.||||.|| 15
+    query             0 -------alleluya euouae Pacem reli-n-quo vobis pacem 42
+
+-- fused_1 --
+  OCR:      'cem meam do vobisnon quomodo hic mundus date'
+  Assigned: 'cem meam do vobis non quomodo hic mundus dat e'
+  Words:    [6..15) consumed=9
+  NW score: k=8 (pre-snap), norm=6.7219
+  Anchor:   word 15 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 cem meam do vobis-non quomodo hic mundus dat-e-- 44
+                      0 ----||||  8
+    query             0 ----meam do vobis non quomodo hic mundus dat ego 44
+
+-- fused_2 --
+  OCR:      'Ego do nobis Allelvya evovae Visciplinam'
+  Assigned: 'go do vobis alleluya euouae Disciplinam et sa'
+  Words:    [15..22) consumed=7
+  NW score: k=5 (pre-snap), norm=5.1123
+  Anchor:   word 22 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 Ego do nobis Allelvya evovae Visciplin--------------am 40
+                      0 ----||  6
+    query             0 ----do vobis alleluya euouae Disciplinam et sapientiam 50
+
+-- fused_3 --
+  OCR:      'Penciani tocinte  domimis alleLu'
+  Assigned: 'pientiam docuit eos dominus allelu'
+  Words:    [22..26) consumed=4
+  NW score: k=4 (pre-snap), norm=1.4289
+  Anchor:   word 26 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 Penciani toc-int-e-  domimis alleLu-- 32
+                      0 ---------.||-|-|-|-. 20
+    query             0 ---------docui-t eos dominus alleluia 27
+
+-- fused_4 --
+  OCR:      'tuma mema  eur runma'
+  Assigned: 'ia firmavit in illis graciam spiritus sui'
+  Words:    [26..32) consumed=6
+  NW score: k=4 (pre-snap), norm=-2.2361
+  Anchor:   word 32 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 -tuma------------ --mema  -----eur runma 20
+                      0 -..||------------ 17
+    query             0 firmavit in illis graciam spiritus su--i 38
+
+-- fused_5 --
+  OCR:      'et intellectu implevit a rum Alleluya'
+  Assigned: 'Et intellectu implevit corda eorum alleluya'
+  Words:    [32..38) consumed=6
+  NW score: k=6 (pre-snap), norm=6.1172
+  Anchor:   word 38 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 et intellectu implevit ----a --rum Alleluya 37
+                      0 .|  2
+    query             0 Et intellectu implevit corda eorum alleluya 43
+
+-- fused_6 --
+  OCR:      'len nepituo anq lon'
+  Assigned: 'alleluya Repentino namque sonitu spi'
+  Words:    [38..43) consumed=5
+  NW score: k=4 (pre-snap), norm=0.2839
+  Anchor:   word 43 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 --le---n nep-it-uo -anq-- lon------------ 19
+                      0 --||---.  8
+    query             0 alleluya Repentino namque sonitu spiritus 41
+
+-- fused_7 --
+  OCR:      'ritus Sanctus super mnt et intenettu'
+  Assigned: 'ritus sanctus super eos venit Et intellectu'
+  Words:    [43..49) consumed=6
+  NW score: k=6 (pre-snap), norm=3.5346
+  Anchor:   word 57 (within_chant_7), diff=8, snapped=False, forced=False
+  Alignment:
+    target            0 ritus Sanctus super -----mn-t et inte-nettu 36
+                      0 ----|--|||||| 13
+    query             0 ----s--anctus super eos venit Et intellectu 37
+
+-- fused_8 --
+  OCR:      'te muniversum or bem et predicate dicentes al'
+  Assigned: 'Ite in orbem universum et predicate dicentes al'
+  Words:    [49..57) consumed=8
+  NW score: k=7 (pre-snap), norm=4.5621
+  Anchor:   word 57 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 -te -------m-universum or bem et predicate dicentes al------
+                      0 -||
+    query             0 Ite in orbem universu-------m et predicate dicentes alleluya
+    
+    target           45 
+                      3 
+    query            53 
+
+-- fused_9 --
+  OCR:      'ya . Et qui credide nt et haptiratus fue iint'
+  Assigned: 'leluya Et qui crediderit et baptizatus fuerit'
+  Words:    [57..63) consumed=6
+  NW score: k=6 (pre-snap), norm=5.0783
+  Anchor:   word 63 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ya . Et qui credide nt et haptiratus fue iint 45
+                      0 -----||  7
+    query             0 -----Et qui crediderit et baptizatus fueri--t 38
+
+-- fused_10 --
+  OCR:      'tanno ent alie iris moniei Luya alleLuYa'
+  Assigned: 'salvus erit alleluya alleluya'
+  Words:    [63..67) consumed=4
+  NW score: k=4 (pre-snap), norm=1.2332
+  Anchor:   word 74 (within_chant_7), diff=7, snapped=False, forced=False
+  Alignment:
+    target            0 ta-nno e-nt alie iris moniei Luya alleLuYa 40
+                      0 .|-...  6
+    query             0 salvus erit alle-------------luya alleluya 29
+
+-- fused_11 --
+  OCR:      'nnno nine me demoni e a ent li'
+  Assigned: 'alleluya In nomine meo demonia eicient lin'
+  Words:    [67..74) consumed=7
+  NW score: k=7 (pre-snap), norm=2.5035
+  Anchor:   word 74 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ----------nnno nine me- demoni- e a ent li----- 30
+                      0 ----------|.||-.||| 19
+    query             0 alleluya In no-mine meo demonia eicient linguis 46
+
+-- fused_12 --
+  OCR:      'dino lomentur noms seientes to lent . ec'
+  Assigned: 'guis loquentur novis serpentes tollent Et qui'
+  Words:    [74..80) consumed=6
+  NW score: k=5 (pre-snap), norm=3.5839
+  Anchor:   word 80 (page_break_77), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 dino lo-mentur no-ms se-ientes to lent -. -ec 40
+                      0 -----||-.||||| 14
+    query             0 -----loquentur novis serpentes tollent Et qui 40
+=== END DEBUG ===
+

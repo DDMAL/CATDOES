@@ -1,0 +1,187 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'dabunt te et coaugustabunt te undique et ad terram prosteruet'
+  [fused_1] 'te eo quod non cognoveris tempus vnsitationis tue Allelvya'
+  [fused_2] 'exorae . criptum est enim quia domus mea domu'
+  [fused_3] 'orationis est cunctis gentibus vos autem fecistis illam spelim'
+  [fused_4] 'cam latronum et erat cotidie do cens in Templo evovae'
+  [fused_5] 'tans a longe publicanus nolebat oculos ad ce'
+  [fused_6] 'lum levare sed pertudebat pectus suum dicens Deus pro'
+  [fused_7] 'esto michi peccatori ex ovae. escendit'
+  [fused_8] 'hic justificatis in domum suam po ilo quia omnis qui se'
+  [fused_9] 'exaltat humiliabitur et qui se humiliat exaltabitur exo'
+  [fused_10] 'moic'
+  [fused_11] 'vie ad beante e Lum transiret dominus per medios fines ty'
+  [fused_12] 'ri surdos fecit audire et mutos loqui evovae'
+  [fused_13] 'ene omina fecit sundos fecit anoire etmutos loquni'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'dabunt te et coaugustabunt te undique et ad terram prosteruet'
+  Assigned: 'te et coangustabunt te undique et ad terram prosternent'
+  Words:    [0..9) consumed=9
+  NW score: k=9 (pre-snap), norm=6.4569
+  Anchor:   word 26 (within_chant_7), diff=17, snapped=False, forced=False
+  Alignment:
+    target            0 dabunt te et coaugustabunt te undique et ad terram prosterue
+                      0 -------||
+    query             0 -------te et coangustabunt te undique et ad terram prosterne
+    
+    target           60 -t 61
+                      9 -| 11
+    query            53 nt 55
+
+-- fused_1 --
+  OCR:      'te eo quod non cognoveris tempus vnsitationis tue Allelvya'
+  Assigned: 'te eo quod non cognoveris tempus visitationis tue alleluya'
+  Words:    [9..18) consumed=9
+  NW score: k=9 (pre-snap), norm=7.3276
+  Anchor:   word 26 (within_chant_7), diff=8, snapped=False, forced=False
+  Alignment:
+    target            0 te eo quod non cognoveris tempus vnsitationis tue Allelvya 58
+                      0 ||  2
+    query             0 te eo quod non cognoveris tempus visitationis tue alleluya 58
+
+-- fused_2 --
+  OCR:      'exorae . criptum est enim quia domus mea domu'
+  Assigned: 'euouae Scriptum est enim quia domus mea domus'
+  Words:    [18..26) consumed=8
+  NW score: k=8 (pre-snap), norm=6.6444
+  Anchor:   word 26 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 exorae . criptum est enim quia domus mea domu- 45
+                      0 |.|.||  6
+    query             0 euouae -Scriptum est enim quia domus mea domus 45
+
+-- fused_3 --
+  OCR:      'orationis est cunctis gentibus vos autem fecistis illam spelim'
+  Assigned: 'orationis est cunctis gentibus vos autem fecistis illam spelun'
+  Words:    [26..35) consumed=9
+  NW score: k=9 (pre-snap), norm=7.4036
+  Anchor:   word 35 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 orationis est cunctis gentibus vos autem fecistis illam spel
+                      0 |||||||||
+    query             0 orationis est cunctis gentibus vos autem fecistis illam spel
+    
+    target           60 ---im 62
+                      9 ---.| 14
+    query            60 uncam 65
+
+-- fused_4 --
+  OCR:      'cam latronum et erat cotidie do cens in Templo evovae'
+  Assigned: 'cam latronum et erat cotidie docens in templo euouae'
+  Words:    [35..43) consumed=8
+  NW score: k=8 (pre-snap), norm=6.3841
+  Anchor:   word 43 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 cam latronum et erat cotidie do cens in Templo evovae 53
+                      0 ----|||||||| 12
+    query             0 ----latronum et erat cotidie do-cens in templo euouae 48
+
+-- fused_5 --
+  OCR:      'tans a longe publicanus nolebat oculos ad ce'
+  Assigned: 'Stans a longe publicanus nolebat oculos ad ce'
+  Words:    [43..51) consumed=8
+  NW score: k=8 (pre-snap), norm=7.2242
+  Anchor:   word 51 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -tans a longe publicanus nolebat oculos ad ce--- 44
+                      0 -||||  5
+    query             0 Stans a longe publicanus nolebat oculos ad celum 48
+
+-- fused_6 --
+  OCR:      'lum levare sed pertudebat pectus suum dicens Deus pro'
+  Assigned: 'lum levare sed percuciebat pectus suum dicens deus pro'
+  Words:    [51..59) consumed=8
+  NW score: k=7 (pre-snap), norm=5.7113
+  Anchor:   word 59 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 lum levare sed pertu-debat pectus suum dicens Deus pro------
+                      0 ----||||||
+    query             0 ----levare sed percuciebat pectus suum dicens deus propitius
+    
+    target           53 
+                     10 
+    query            56 
+
+-- fused_7 --
+  OCR:      'esto michi peccatori ex ovae. escendit'
+  Assigned: 'pitius esto michi peccatori euouae Descendit'
+  Words:    [59..64) consumed=5
+  NW score: k=5 (pre-snap), norm=6.4272
+  Anchor:   word 64 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 esto michi peccatori ex ovae. -escendit 38
+                      0 ||||  4
+    query             0 esto michi peccatori e-uouae- Descendit 37
+
+-- fused_8 --
+  OCR:      'hic justificatis in domum suam po ilo quia omnis qui se'
+  Assigned: 'hic iustificatus in domum suam ab illo quia omnis qui se'
+  Words:    [64..75) consumed=11
+  NW score: k=11 (pre-snap), norm=6.8651
+  Anchor:   word 75 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 hic justificatis in domum suam po i-lo quia omnis qui se 55
+                      0 |||  3
+    query             0 hic iustificatus in domum suam ab illo quia omnis qui se 56
+
+-- fused_9 --
+  OCR:      'exaltat humiliabitur et qui se humiliat exaltabitur exo'
+  Assigned: 'exaltat humiliabitur et qui se humiliat exaltabitur euouae'
+  Words:    [75..83) consumed=8
+  NW score: k=7 (pre-snap), norm=7.4015
+  Anchor:   word 83 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 exaltat humiliabitur et qui se humiliat exaltabitur exo--- 55
+                      0 |||||||  7
+    query             0 exaltat humiliabitur et qui se humiliat exaltabitur euouae 58
+
+-- fused_10 --
+  OCR:      'moic'
+  Assigned: 'Cum transiret dominus per medios fines ty'
+  Words:    [83..90) consumed=7
+  NW score: k=1 (pre-snap), norm=-4.3301
+  Anchor:   word 90 (within_chant_7), diff=6, snapped=False, forced=True
+  Alignment:
+    target            0 --------------------------m---o---i-------c  4
+                      0 --------------------------|---|---|-------. 43
+    query             0 Cum transiret dominus per medios fines tyri 43
+
+-- fused_11 --
+  OCR:      'vie ad beante e Lum transiret dominus per medios fines ty'
+  Assigned: 'ri surdos fecit audire et mutos loqui euouae Bene omnia fecit surdos fecit'
+  Words:    [90..102) consumed=12
+  NW score: k=12 (pre-snap), norm=-0.7388
+  Anchor:   word 97 (within_chant_7), diff=5, snapped=False, forced=False
+  Alignment:
+    target            0 vie ad-- beant------e e- Lum trans-----ire----t ----dominus 
+                      0 --...|--
+    query             0 --surdos fecit audire et --mut--os loqui euouae Bene om-nia 
+    
+    target           38 pe--r -medios fines ty 57
+                      8 .|--. 13
+    query            53 fecit surd-os f--ecit- 71
+
+-- fused_12 --
+  OCR:      'ri surdos fecit audire et mutos loqui evovae'
+  Assigned: 'audire et mutos loqui'
+  Words:    [102..106) consumed=4
+  NW score: k=4 (pre-snap), norm=2.9937
+  Anchor:   word 106 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ri surdos fecit audire et mutos loqui evovae 44
+                      0 ----------------|||||| 22
+    query             0 ----------------audire et mutos loqui------- 21
+
+-- fused_13 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [106..106) consumed=0
+  Alignment:
+    (no words left)
+=== END DEBUG ===
+

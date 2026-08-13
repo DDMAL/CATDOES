@@ -1,0 +1,207 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'me bona crux ut  te xpandi manus meas'
+  [fused_1] 'totadi em cruce ad populum non credentem sed contradi'
+  [fused_2] 'centemmichi. Qui ambulant vi nas sed post'
+  [fused_3] '.c eus ultionum dominus Deus ultio'
+  [fused_4] 'num libere egit exaltare qui judicas ter ram redde retributio'
+  [fused_5] 'neperbis qui ambu on me permittas do'
+  [fused_6] 'mime famulum tuum a te separari tempus est ut commendes'
+  [fused_7] 'terre corps me  confitebiu eovae  noreas vero'
+  [fused_8] 'rogabat populum ut non impediret passionem illius Pre dominus re'
+  [fused_9] 'g eoe  ecipeb hominibus et redde me Magistro'
+  [fused_10] 'erteme redeuit allemuya eo'
+  [fused_11] 'secundum Math nmo'
+  [fused_12] 'Blans Jhee juxta madine'
+  [fused_13] 'diicus erorie adotaen Sancti Gregorii P ravit Sanctus an'
+  [fused_14] 'doris dnni tespiceret ce ium note magna dlama int'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'me bona crux ut  te xpandi manus meas'
+  Assigned: 'me bona crux Ut per te Expandi manus meas'
+  Words:    [0..9) consumed=9
+  NW score: k=9 (pre-snap), norm=6.7525
+  Anchor:   word 9 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 me bona crux ut --- te -xpandi manus meas 37
+                      0 ||  2
+    query             0 me bona crux Ut per te Expandi manus meas 41
+
+-- fused_1 --
+  OCR:      'totadi em cruce ad populum non credentem sed contradi'
+  Assigned: 'tota die in cruce ad populum non credentem sed contradi'
+  Words:    [9..19) consumed=10
+  NW score: k=10 (pre-snap), norm=6.3666
+  Anchor:   word 19 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 tota-di- em cruce ad populum non credentem sed contradi-----
+                      0 ||||-||-
+    query             0 tota die in cruce ad populum non credentem sed contradicente
+    
+    target           53 - 53
+                      8 -  9
+    query            60 m 61
+
+-- fused_2 --
+  OCR:      'centemmichi. Qui ambulant vi nas sed post'
+  Assigned: 'centem michi Qui ambulant vias non bonas sed'
+  Words:    [19..26) consumed=7
+  NW score: k=8 (pre-snap), norm=5.0847
+  Anchor:   word 26 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 centemmichi. Qui ambulant vi------ --nas sed post 41
+                      0 ------|||||- 12
+    query             0 ------michi- Qui ambulant vias non bonas sed----- 37
+
+-- fused_3 --
+  OCR:      '.c eus ultionum dominus Deus ultio'
+  Assigned: 'post peccata sua Deus ultionum dominus deus ultio'
+  Words:    [26..34) consumed=8
+  NW score: k=8 (pre-snap), norm=4.1857
+  Anchor:   word 34 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -------.c------- -eus ultionum dominus Deus ultio--- 34
+                      0 -------.|------- 16
+    query             0 post peccata sua Deus ultionum dominus deus ultionum 52
+
+-- fused_4 --
+  OCR:      'num libere egit exaltare qui judicas ter ram redde retributio'
+  Assigned: 'num libere egit exaltare qui iudicas terram redde retributio'
+  Words:    [34..42) consumed=8
+  NW score: k=8 (pre-snap), norm=6.6509
+  Anchor:   word 42 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 num libere egit exaltare qui judicas ter ram redde retributi
+                      0 ----||||||
+    query             0 ----libere egit exaltare qui iudicas ter-ram redde retributi
+    
+    target           60 o--- 61
+                     10 |--- 14
+    query            55 onem 59
+
+-- fused_5 --
+  OCR:      'neperbis qui ambu on me permittas do'
+  Assigned: 'nem superbism Qui ambulant Non me permittas do'
+  Words:    [42..49) consumed=7
+  NW score: k=7 (pre-snap), norm=4.9885
+  Anchor:   word 49 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 neperbis- qui ambu---- -on me permittas do---- 36
+                      0 ..||||||-  9
+    query             0 superbism Qui ambulant Non me permittas domine 46
+
+-- fused_6 --
+  OCR:      'mime famulum tuum a te separari tempus est ut commendes'
+  Assigned: 'mine famulum tuum a te separari tempus est ut commendes'
+  Words:    [49..58) consumed=9
+  NW score: k=9 (pre-snap), norm=7.2654
+  Anchor:   word 58 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 mime famulum tuum a te separari tempus est ut commendes 55
+                      0 -----||||||| 12
+    query             0 -----famulum tuum a te separari tempus est ut commendes 50
+
+-- fused_7 --
+  OCR:      'terre corps me  confitebiu eovae  noreas vero'
+  Assigned: 'terre corpus meum ~Confitebimur euouae Andreas vero'
+  Words:    [58..65) consumed=7
+  NW score: k=7 (pre-snap), norm=5.3647
+  Anchor:   word 65 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 terre corp-s me--  confitebi-u- e-ovae  noreas vero 45
+                      0 |||||  5
+    query             0 terre corpus meum ~Confitebimur euouae Andreas vero 51
+
+-- fused_8 --
+  OCR:      'rogabat populum ut non impediret passionem illius Pre dominus re'
+  Assigned: 'rogabat populum ut non impediret passionem illius'
+  Words:    [65..72) consumed=7
+  NW score: k=8 (pre-snap), norm=6.7623
+  Anchor:   word 72 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 rogabat populum ut non impediret passionem illius Pre dominu
+                      0 |||||||
+    query             0 rogabat populum ut non impediret passionem illius-----------
+    
+    target           60 s re 64
+                      7 ---- 11
+    query            49 ---- 49
+
+-- fused_9 --
+  OCR:      'g eoe  ecipeb hominibus et redde me Magistro'
+  Assigned: '~Dominus regnavit i euouae Recipe me ab hominibus et redde me magistro'
+  Words:    [72..84) consumed=12
+  NW score: k=12 (pre-snap), norm=4.1083
+  Anchor:   word 84 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -----------g------- e-o--e  ecipe-----b hominibus et redde m
+                      0 -----------|-------
+    query             0 ~Dominus regnavit i euouae Recipe me ab hominibus et redde m
+    
+    target           34 e Magistro 44
+                     19 | 20
+    query            60 e magistro 70
+
+-- fused_10 --
+  OCR:      'erteme redeuit allemuya eo'
+  Assigned: 'meo ut per te me recipiat qui per te redemit me alleluya'
+  Words:    [84..96) consumed=12
+  NW score: k=12 (pre-snap), norm=0.6814
+  Anchor:   word 96 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 --------er-te-m--------------------e redeuit--- allemuya eo
+                      0 --------||-||-|--------------------|
+    query             0 meo ut per te me recipiat qui per te redemit me alleluya---
+    
+    target           26
+                     36
+    query            56
+
+-- fused_11 --
+  OCR:      'secundum Math nmo'
+  Assigned: '~Dominus regnavit euouae'
+  Words:    [96..99) consumed=3
+  NW score: k=3 (pre-snap), norm=-2.0298
+  Anchor:   word 102 (within_chant_7), diff=3, snapped=False, forced=False
+  Alignment:
+    target            0 -secundum ---Ma--th nmo--- 17
+                      0 -....|-|.  9
+    query             0 ~Domin-us regnavit- euouae 24
+
+-- fused_12 --
+  OCR:      'Blans Jhee juxta madine'
+  Assigned: 'Oravit sanctus an'
+  Words:    [99..102) consumed=3
+  NW score: k=5 (pre-snap), norm=-1.9539
+  Anchor:   word 102 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 Bla-ns Jhee juxta ma-dine-- 23
+                      0 ..|-..  6
+    query             0 Oravit -sanctu--s -and-reas 22
+
+-- fused_13 --
+  OCR:      'diicus erorie adotaen Sancti Gregorii P ravit Sanctus an'
+  Assigned: 'dreas dum respiceret celum voce magna clamavit'
+  Words:    [102..108) consumed=6
+  NW score: k=6 (pre-snap), norm=-1.7326
+  Anchor:   word 108 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 d------iicus er-orie--- adotaen Sa-ncti Gregorii P ravit San
+                      0 |------.||---||-...|---
+    query             0 dum respic---eret celum -vo-ce- magn--a --------clamavit----
+    
+    target           49 ctus an 56
+                     23 ------- 30
+    query            40 ------- 40
+
+-- fused_14 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [108..108) consumed=0
+  Alignment:
+    (no words left)
+=== END DEBUG ===
+

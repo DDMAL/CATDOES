@@ -1,0 +1,229 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'no regi numera obtuleru p Ladins oa'
+  [fused_1] 'odie celesti sponso juncta est ecclesia quoniami'
+  [fused_2] 'dane lavit Cpitistus ejus crimnia currunt cum nuneribus'
+  [fused_3] 'ma pro regales imptias et ex a qua facto vivo letantur comu doqu hodierna sciendum ad os yni'
+  [fused_4] 'nos tam divirnos qua noctrnos die in fine Bla'
+  [fused_5] 'Rdne qu apad capelli Regi seclorum  Christ'
+  [fused_6] 've Allelvya eovae fur Capparii ad icapum surge ulumum'
+  [fused_7] 'charsis et insule nuera offerent . eges arabum et sab'
+  [fused_8] 'badona adducent MI . Bioria patri et filio et spiritui Sanc'
+  [fused_9] 'mno des abba'
+  [fused_10] 'to Dumes de Sabba venient Alleluya Aneluya'
+  [fused_11] ''
+  [fused_12] 'uruthis deferentes dorate Dominum'
+  [fused_13] 'aacorote s aius'
+  [fused_14] 'Anelnya Aveluya X in anla Sancta ejus . Bioria'
+  [fused_15] 'meritu usque ad octabs cas'
+  [fused_16] 'Hurge y hostis Hetoro fie'
+  [fused_17] 'deo hursis et isule ad Mage .nno cuus omnatum diem sane'
+  [fused_18] 'tam co Anno ho die senla magos dimnit ad presepum'
+  [fused_19] ' eexamna fatum est aomipas Bodie aronan'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'no regi numera obtuleru p Ladins oa'
+  Assigned: 'regi munera obtulerunt ~Laudate'
+  Words:    [0..4) consumed=4
+  NW score: k=4 (pre-snap), norm=3.2788
+  Anchor:   word 14 (within_chant_7), diff=10, snapped=False, forced=False
+  Alignment:
+    target            0 no regi numera obtuleru p -La-dins oa-- 35
+                      0 ---||||  7
+    query             0 ---regi munera obtulerunt ~Laud-----ate 31
+
+-- fused_1 --
+  OCR:      'odie celesti sponso juncta est ecclesia quoniami'
+  Assigned: 'euouae Hodie celesti sponso iuncta est ecclesia quoniam in ior'
+  Words:    [4..14) consumed=10
+  NW score: k=8 (pre-snap), norm=6.3837
+  Anchor:   word 14 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 --------odie celesti sponso juncta est ecclesia quoniam----i
+                      0 --------||||
+    query             0 euouae Hodie celesti sponso iuncta est ecclesia quoniam in i
+    
+    target           48 ------ 48
+                     12 ------ 18
+    query            60 ordane 66
+
+-- fused_2 --
+  OCR:      'dane lavit Cpitistus ejus crimnia currunt cum nuneribus'
+  Assigned: 'dane lavit xpistus eius crimina currunt cum muneribus'
+  Words:    [14..21) consumed=7
+  NW score: k=7 (pre-snap), norm=5.7220
+  Anchor:   word 21 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 dane lavit Cpitistus ejus crim-nia currunt cum nuneribus 55
+                      0 -----||||| 10
+    query             0 -----lavit xp--istus eius crimin-a currunt cum muneribus 48
+
+-- fused_3 --
+  OCR:      'ma pro regales imptias et ex a qua facto vivo letantur comu doqu hodierna sciendum ad os yni'
+  Assigned: 'magi ad regales nuptias et ex aqua facto vino letantur convi'
+  Words:    [21..32) consumed=11
+  NW score: k=11 (pre-snap), norm=3.4161
+  Anchor:   word 32 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ma-- pro regales imptias et ex a qua facto vivo letantur com
+                      0 ||--
+    query             0 magi -ad regales nuptias et ex a-qua facto vino letantur co-
+    
+    target           58 u doqu hodierna sci-endum ad os yni 92
+                      4 -------------|---.|-|-------------- 39
+    query            57 -------------n---vive-------------- 62
+
+-- fused_4 --
+  OCR:      'nos tam divirnos qua noctrnos die in fine Bla'
+  Assigned: 've alleluya euouae Reges tharsis et insule munera'
+  Words:    [32..39) consumed=7
+  NW score: k=7 (pre-snap), norm=-1.0990
+  Anchor:   word 35 (within_chant_7), diff=4, snapped=False, forced=False
+  Alignment:
+    target            0 --nos tam divirnos qua- ---noct--rnos die- in---- fine Bla 45
+                      0 --.....|-  9
+    query             0 alleluya- ----euo---uae Reges tharsis --et insule mune--ra 46
+
+-- fused_5 --
+  OCR:      'Rdne qu apad capelli Regi seclorum  Christ'
+  Assigned: 'offerent Reges arabum et sab'
+  Words:    [39..44) consumed=5
+  NW score: k=4 (pre-snap), norm=-1.2599
+  Anchor:   word 44 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 Rdne qu apad capelli Regi seclor--um -- Chris---t 42
+                      0 ...|-----------.|-.. 20
+    query             0 offe-----------re-nt Reg---es arabum et ----sabba 30
+
+-- fused_6 --
+  OCR:      've Allelvya eovae fur Capparii ad icapum surge ulumum'
+  Assigned: 'ba dona adducent Munera Gloria patri et filio et spiritui sanc'
+  Words:    [44..54) consumed=10
+  NW score: k=9 (pre-snap), norm=-1.4206
+  Anchor:   word 54 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 ve Allelvya eova----e-- fu--r- ----Cappa-rii ad -i-capum s-u
+                      0 -------...|
+    query             0 -------dona ---adducent Munera Gloria patr-i et filio et spi
+    
+    target           43 r--ge ulumum 53
+                     11 |--.. 16
+    query            49 ritui sancto 61
+
+-- fused_7 --
+  OCR:      'charsis et insule nuera offerent . eges arabum et sab'
+  Assigned: 'to Omnes de sabba venient alleluya alleluya Aurum et thus'
+  Words:    [54..63) consumed=9
+  NW score: k=9 (pre-snap), norm=-0.6542
+  Anchor:   word 60 (within_chant_7), diff=3, snapped=False, forced=False
+  Alignment:
+    target            0 charsis et insule nuera offe-rent -. e-ges a-----ra---bum et
+                      0 -----...|----|..|
+    query             0 -----Omne----s de sabba --venient alleluya alleluya Aurum et
+    
+    target           49  ---sab 53
+                     17  17
+    query            49  thus-- 54
+
+-- fused_8 --
+  OCR:      'badona adducent MI . Bioria patri et filio et spiritui Sanc'
+  Assigned: 'deferentes Adorate dominum alleluya alleluya In aula sancta eius Gloria Tribus miraculis ornatum diem sanc'
+  Words:    [63..78) consumed=15
+  NW score: k=15 (pre-snap), norm=-1.1472
+  Anchor:   word 66 (within_chant_7), diff=12, snapped=False, forced=False
+  Alignment:
+    target            0 --------------ba---do--n----------a a--ddu--cent --MI -----.
+                      0 --------------.|---||--|----------|
+    query             0 deferentes Adorate dominum alleluya alleluya In- aula sancta
+    
+    target           20  Bi-----oria patri et fi----lio et spir-itu---i-- Sanc---  59
+                     35   35
+    query            59  eius Gloria --Tribus miraculi-----s ornatum diem sanctum 109
+
+-- fused_9 --
+  OCR:      'mno des abba'
+  Assigned: 'tum colimus hodie stella magos duxit ad presepium'
+  Words:    [78..85) consumed=7
+  NW score: k=3 (pre-snap), norm=-1.4201
+  Anchor:   word 85 (within_chant_7), diff=4, snapped=False, forced=True
+  Alignment:
+    target            0 ----mno --d-e-s----- -a--------bba----------- 12
+                      0 ----|..  7
+    query             0 colimus hodie stella magos duxit ad presepium 45
+
+-- fused_10 --
+  OCR:      'to Dumes de Sabba venient Alleluya Aneluya'
+  Assigned: 'hodie vinum ex aqua factum est ad nuptias'
+  Words:    [85..93) consumed=8
+  NW score: k=8 (pre-snap), norm=-0.9398
+  Anchor:   word 96 (page_break_77), diff=3, snapped=False, forced=False
+  Alignment:
+    target            0 to--- --Dumes de- Sabba ---venient Alleluya- Anelu--ya- 42
+                      0 .|---  5
+    query             0 hodie vinum-- -ex -aqua factum est -------ad -n--uptias 41
+
+-- fused_11 --
+  OCR:      ''
+  Assigned: 'hodie a iohanne'
+  Words:    [93..96) consumed=3
+
+-- fused_12 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [96..96) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_13 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [96..96) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_14 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [96..96) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_15 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [96..96) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_16 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [96..96) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_17 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [96..96) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_18 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [96..96) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_19 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [96..96) consumed=0
+  Alignment:
+    (no words left)
+=== END DEBUG ===
+

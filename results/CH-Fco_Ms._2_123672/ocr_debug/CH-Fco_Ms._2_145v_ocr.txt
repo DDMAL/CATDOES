@@ -1,0 +1,191 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'nunc autem oculus meus videti te id circo ipse me reprehen'
+  [fused_1] 'dd et agisto ententiam in famensam cienere evorasLume'
+  [fused_2] 'griotasset jobs fle verit et dixit noti mei et propinqui mei de'
+  [fused_3] 'tamea mu'
+  [fused_4] 'tata est et dies mei breniabuntur inde te omnes Popu'
+  [fused_5] 'tut dolor meus evovae . Dau'
+  [fused_6] 'citas doierum meorum si titur Brevi dimitte me'
+  [fused_7] 'tomine sine ut plangam paululum dolorem meum an'
+  [fused_8] 'tequam vadam ad terram tenebrosam mortis caligilie'
+  [fused_9] 'ere. e reminiscaris domine delic'
+  [fused_10] 'ta mea ve parentum mcorum neque jindictam sumas a n  mensi'
+  [fused_11] 'septembiris legit'
+  [fused_12] 'eto co mine .o peccatis me'
+  [fused_13] 'nttemutuo improrenus huusab'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'nunc autem oculus meus videti te id circo ipse me reprehen'
+  Assigned: 'nunc autem oculus meus videt te idcirco ipse me reprehendo'
+  Words:    [0..10) consumed=10
+  NW score: k=10 (pre-snap), norm=7.3103
+  Anchor:   word 20 (within_chant_7), diff=10, snapped=False, forced=False
+  Alignment:
+    target            0 nunc autem oculus meus videti te id circo ipse me reprehen--
+                      0 ||||
+    query             0 nunc autem oculus meus videt- te id-circo ipse me reprehendo
+    
+    target           58 
+                      4 
+    query            58 
+
+-- fused_1 --
+  OCR:      'dd et agisto ententiam in famensam cienere evorasLume'
+  Assigned: 'et ago penitentiam in favilla et cinere euouae Cum e'
+  Words:    [10..20) consumed=10
+  NW score: k=8 (pre-snap), norm=3.4835
+  Anchor:   word 20 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 dd et agisto -en-tentiam in famensa--m cienere evora-sLum---
+                      0 ---||
+    query             0 ---et ag---o penitentiam in favilla et ci-nere euouae Cum eg
+    
+    target           52 ------e- 53
+                      5 ------|- 13
+    query            53 rotasset 61
+
+-- fused_2 --
+  OCR:      'griotasset jobs fle verit et dixit noti mei et propinqui mei de'
+  Assigned: 'grotasset iob flevit et dixit noti mei et propinqui mei de'
+  Words:    [20..30) consumed=10
+  NW score: k=9 (pre-snap), norm=5.2963
+  Anchor:   word 30 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 griotasset jobs fle verit et dixit noti mei et propinqui mei
+                      0 --|---------||-
+    query             0 --i---------ob- fle-v--it et dixit noti mei et propinqui mei
+    
+    target           60  de----------- 63
+                     15  15
+    query            45  dereliquerunt 59
+
+-- fused_3 --
+  OCR:      'tamea mu'
+  Assigned: 'reliquerunt me cives mei vermes sunt vita mea inmu'
+  Words:    [30..38) consumed=8
+  NW score: k=3 (pre-snap), norm=-1.4289
+  Anchor:   word 38 (within_chant_7), diff=5, snapped=False, forced=True
+  Alignment:
+    target            0 ---------------------------ta-mea --mu----  8
+                      0 ---------------------------||-||| 33
+    query             0 me cives mei vermes sunt vita mea inmutata 42
+
+-- fused_4 --
+  OCR:      'tata est et dies mei breniabuntur inde te omnes Popu'
+  Assigned: 'tata est et dies mei breviabuntur videte omnes popu'
+  Words:    [38..46) consumed=8
+  NW score: k=8 (pre-snap), norm=5.6845
+  Anchor:   word 46 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 tata est et dies mei breniabuntur -inde te omnes Popu-- 52
+                      0 -----|||  8
+    query             0 -----est et dies mei breviabuntur vi-de-te omnes populi 48
+
+-- fused_5 --
+  OCR:      'tut dolor meus evovae . Dau'
+  Assigned: 'li si est dolor similis sicut dolor meus euouae pau'
+  Words:    [46..55) consumed=9
+  NW score: k=9 (pre-snap), norm=1.4539
+  Anchor:   word 55 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -----t------------------ut dolor meus evovae . Dau----- 27
+                      0 -----|------------------|| 26
+    query             0 si est dolor similis sicut dolor meus euouae-- Paucitas 53
+
+-- fused_6 --
+  OCR:      'citas doierum meorum si titur Brevi dimitte me'
+  Assigned: 'citas dierum meorum finitur brevi dimitte me'
+  Words:    [55..61) consumed=6
+  NW score: k=6 (pre-snap), norm=5.4773
+  Anchor:   word 61 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 citas doierum meorum si titur Brevi dimitte me 46
+                      0 ------|-||||| 13
+    query             0 ------d-ierum meorum fi-nitur brevi dimitte me 38
+
+-- fused_7 --
+  OCR:      'tomine sine ut plangam paululum dolorem meum an'
+  Assigned: 'domine sine ut plangam paululum dolorem meum an'
+  Words:    [61..69) consumed=8
+  NW score: k=7 (pre-snap), norm=7.1687
+  Anchor:   word 69 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 tomine sine ut plangam paululum dolorem meum an------ 47
+                      0 .|||||  6
+    query             0 domine sine ut plangam paululum dolorem meum antequam 53
+
+-- fused_8 --
+  OCR:      'tequam vadam ad terram tenebrosam mortis caligilie'
+  Assigned: 'tequam vadam ad terram tenebrosam mortis caligine'
+  Words:    [69..75) consumed=6
+  NW score: k=6 (pre-snap), norm=6.3501
+  Anchor:   word 75 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 tequam vadam ad terram tenebrosam mortis caligilie 50
+                      0 -------||||| 12
+    query             0 -------vadam ad terram tenebrosam mortis caligi-ne 42
+
+-- fused_9 --
+  OCR:      'ere. e reminiscaris domine delic'
+  Assigned: 'euouae Ne reminiscaris domine delic'
+  Words:    [75..80) consumed=5
+  NW score: k=5 (pre-snap), norm=5.7543
+  Anchor:   word 80 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 e---re. -e reminiscaris domine delic-- 32
+                      0 |---.|-  7
+    query             0 euouae- Ne reminiscaris domine delicta 37
+
+-- fused_10 --
+  OCR:      'ta mea ve parentum mcorum neque jindictam sumas a n  mensi'
+  Assigned: 'ta mea vel parentum meorum neque vindictam sumas de'
+  Words:    [80..88) consumed=8
+  NW score: k=8 (pre-snap), norm=5.4014
+  Anchor:   word 88 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ta mea ve- parentum mcorum neque jindictam sumas a n  mensi
+                      0 ---|||
+    query             0 ---mea vel parentum meorum neque vindictam sumas----- de---
+    
+    target           58
+                      6
+    query            48
+
+-- fused_11 --
+  OCR:      'septembiris legit'
+  Assigned: 'peccatis meis euouae'
+  Words:    [88..91) consumed=3
+  NW score: k=2 (pre-snap), norm=0.1345
+  Anchor:   word 91 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 septembiris legi-------t 17
+                      0 --|-|....|| 11
+    query             0 --p-eccatis me-is euouae 20
+
+-- fused_12 --
+  OCR:      'eto co mine .o peccatis me'
+  Assigned: 'Peto domine'
+  Words:    [91..93) consumed=2
+  NW score: k=4 (pre-snap), norm=1.9026
+  Anchor:   word 93 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 -eto co mine .o peccatis me 26
+                      0 -|||  4
+    query             0 Peto do-min---------------e 11
+
+-- fused_13 --
+  OCR:      'nttemutuo improrenus huusab'
+  Assigned: 'ut de vinculo improperii huius absolvas'
+  Words:    [93..99) consumed=6
+  NW score: k=5 (pre-snap), norm=1.4757
+  Anchor:   word 99 (page_break_77), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 nt-te--mutu-o improrenus hu-us-ab------ 27
+                      0 .|-.|--...|-| 13
+    query             0 ut de vinculo improperii huius absolvas 39
+=== END DEBUG ===
+

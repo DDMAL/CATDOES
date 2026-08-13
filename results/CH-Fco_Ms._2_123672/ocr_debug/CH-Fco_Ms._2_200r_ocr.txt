@@ -1,0 +1,227 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'domes . dominus Regis erovae et Laurentius bonum'
+  [fused_1] 'opus operatus est qui per signum crucis cencos illummavit p'
+  [fused_2] 'jubilis evovae Adhesit anima mea post re quia caro mea'
+  [fused_3] 'igne cremata est pro tedeus meus . Ds deus evovaee'
+  [fused_4] 'dominus angelum suum et liberavit me de medio ignis'
+  [fused_5] 's estuatuseatus Laurentius orabat'
+  [fused_6] 'dicens gracias tibi ago domine quia januas tuas ingredi me  parte senimat ymis'
+  [fused_7] 'tordiqu mucue'
+  [fused_8] 'ri Laudunensis vovae  dit pauperibus ad beno In craticula te de'
+  [fused_9] 'um non negavi et ad ignem applicatus xpitistum confessus'
+  [fused_10] 'basti cormeum et insitasti nocten'
+  [fused_11] 'estenta Benedictus eovae'
+  [fused_12] 'semmat ad voiica'
+  [fused_13] 'ad vespr a auretis'
+  [fused_14] 'rrel prs festum etfine e'
+  [fused_15] 'eatus Laurentius dum in craticula'
+  [fused_16] 'summ pesituis netene co mgetissimum granu domnoa'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'domes . dominus Regis erovae et Laurentius bonum'
+  Assigned: 'domini ihesu xpisti ~Dominus regnavit euouae Laurentius bonum'
+  Words:    [0..8) consumed=8
+  NW score: k=8 (pre-snap), norm=3.7146
+  Anchor:   word 8 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 dom------es- -----. -dominus Reg---is erovae et Laurentius b
+                      0 |||------||-
+    query             0 domini ihesu xpisti ~Dominus regnavit euouae--- Laurentius b
+    
+    target           44 onum 48
+                     12 |||| 16
+    query            57 onum 61
+
+-- fused_1 --
+  OCR:      'opus operatus est qui per signum crucis cencos illummavit p'
+  Assigned: 'opus operatus est qui per signum crucis cecos illuminavit'
+  Words:    [8..17) consumed=9
+  NW score: k=9 (pre-snap), norm=7.0873
+  Anchor:   word 17 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 opus operatus est qui per signum crucis cencos illum-mavit p
+                      0 ||||
+    query             0 opus operatus est qui per signum crucis ce-cos illuminavit--
+    
+    target           59 
+                      4 
+    query            57 
+
+-- fused_2 --
+  OCR:      'jubilis evovae Adhesit anima mea post re quia caro mea'
+  Assigned: '~Iubilate euouae Adhesit anima mea post te quia caro mea'
+  Words:    [17..27) consumed=10
+  NW score: k=10 (pre-snap), norm=6.1828
+  Anchor:   word 27 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -jubil-is evovae Adhesit anima mea post re quia caro mea 54
+                      0 -.||||-..  9
+    query             0 ~Iubilate euouae Adhesit anima mea post te quia caro mea 56
+
+-- fused_3 --
+  OCR:      'igne cremata est pro tedeus meus . Ds deus evovaee'
+  Assigned: 'igne cremata est pro te deus meus ~Deus deus euouae Misit'
+  Words:    [27..38) consumed=11
+  NW score: k=10 (pre-snap), norm=6.2181
+  Anchor:   word 38 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 igne cremata est pro te-deus meus . D--s deus evovae-----e 50
+                      0 ||||  4
+    query             0 igne cremata est pro te deus meus -~Deus deus euouae Misit 57
+
+-- fused_4 --
+  OCR:      'dominus angelum suum et liberavit me de medio ignis'
+  Assigned: 'dominus angelum suum et liberavit me de medio ignis et non'
+  Words:    [38..49) consumed=11
+  NW score: k=9 (pre-snap), norm=8.0000
+  Anchor:   word 49 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 dominus angelum suum et liberavit me de medio ignis------- 51
+                      0 |||||||  7
+    query             0 dominus angelum suum et liberavit me de medio ignis et non 58
+
+-- fused_5 --
+  OCR:      's estuatuseatus Laurentius orabat'
+  Assigned: 'sum estuatus ~Benedic euouae Beatus laurentius orabat'
+  Words:    [49..56) consumed=7
+  NW score: k=7 (pre-snap), norm=4.3758
+  Anchor:   word 56 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 s-- estuatus------------------eatus Laurentius orabat 33
+                      0 |--  3
+    query             0 sum estuatus ~Benedic euouae Beatus laurentius orabat 53
+
+-- fused_6 --
+  OCR:      'dicens gracias tibi ago domine quia januas tuas ingredi me  parte senimat ymis'
+  Assigned: 'dicens gracias tibi ago domine quia ianuas tuas ingredi me'
+  Words:    [56..66) consumed=10
+  NW score: k=10 (pre-snap), norm=5.7844
+  Anchor:   word 66 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 dicens gracias tibi ago domine quia januas tuas ingredi me  
+                      0 ||||||
+    query             0 dicens gracias tibi ago domine quia ianuas tuas ingredi me--
+    
+    target           60 parte senimat ymis 78
+                      6 --|------------.|- 24
+    query            58 --r------------ui- 61
+
+-- fused_7 --
+  OCR:      'tordiqu mucue'
+  Assigned: 'rui Laudate euouae'
+  Words:    [66..68) consumed=2
+  NW score: k=2 (pre-snap), norm=-0.5189
+  Anchor:   word 72 (within_chant_7), diff=4, snapped=False, forced=False
+  Alignment:
+    target            0 tordiqu mucu-e 13
+                      0 ...|...  7
+    query             0 Laudate euouae 14
+
+-- fused_8 --
+  OCR:      'ri Laudunensis vovae  dit pauperibus ad beno In craticula te de'
+  Assigned: 'In craticula te de'
+  Words:    [68..72) consumed=4
+  NW score: k=4 (pre-snap), norm=-0.1409
+  Anchor:   word 72 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ri Laudunensis vovae  dit pauperibus ad beno In craticula te
+                      0 ---------------------------------------------||
+    query             0 ---------------------------------------------In craticula te
+    
+    target           60  de-- 63
+                     47  47
+    query            15  deum 20
+
+-- fused_9 --
+  OCR:      'um non negavi et ad ignem applicatus xpitistum confessus'
+  Assigned: 'um non negavi et ad ignem applicatus xpistum confessus sum pro'
+  Words:    [72..82) consumed=10
+  NW score: k=8 (pre-snap), norm=7.2041
+  Anchor:   word 82 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 um non negavi et ad ignem applicatus xpitistum confessus----
+                      0 ---|||
+    query             0 ---non negavi et ad ignem applicatus xp--istum confessus sum
+    
+    target           56 --------- 56
+                      6 --------- 15
+    query            55  probasti 64
+
+-- fused_10 --
+  OCR:      'basti cormeum et insitasti nocten'
+  Assigned: 'basti cor meum et visitasti nocte igne me examinasti et non'
+  Words:    [82..92) consumed=10
+  NW score: k=5 (pre-snap), norm=5.0252
+  Anchor:   word 92 (within_chant_7), diff=5, snapped=False, forced=True
+  Alignment:
+    target            0 basti cor-meum et -insitasti nocte-------------------------n
+                      0 ------|||-||||
+    query             0 ------cor meum et vi-sitasti nocte igne me examinasti et non
+    
+    target           33 
+                     14 
+    query            53 
+
+-- fused_11 --
+  OCR:      'estenta Benedictus eovae'
+  Assigned: 'est inventa in me iniquitas ~Benedictus'
+  Words:    [92..98) consumed=6
+  NW score: k=7 (pre-snap), norm=3.0397
+  Anchor:   word 98 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 est----enta -----------------Benedictus eovae 24
+                      0 |||----|||| 11
+    query             0 est inventa in me iniquitas ~Benedictus------ 39
+
+-- fused_12 --
+  OCR:      'semmat ad voiica'
+  Assigned: 'euouae Beatus laurentius dum in craticula'
+  Words:    [98..104) consumed=6
+  NW score: k=6 (pre-snap), norm=-1.9522
+  Anchor:   word 104 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ----se-mmat-- -a---------d-- voi------ic--a 16
+                      0 ----.|-..||-- 13
+    query             0 euouae Beatus laurentius dum --in craticula 41
+
+-- fused_13 --
+  OCR:      'ad vespr a auretis'
+  Assigned: 'suprapositus ureretur'
+  Words:    [104..106) consumed=2
+  NW score: k=2 (pre-snap), norm=-0.6686
+  Anchor:   word 111 (page_break_77), diff=5, snapped=False, forced=False
+  Alignment:
+    target            0 ad ves-pr a------- au--retis 18
+                      0 -----|-||-|------- 18
+    query             0 -----supr-apositus -ureretur 21
+
+-- fused_14 --
+  OCR:      'rrel prs festum etfine e'
+  Assigned: 'ad impiissimum tyrannum dixit assatum'
+  Words:    [106..111) consumed=5
+  NW score: k=3 (pre-snap), norm=-1.4471
+  Anchor:   word 111 (page_break_77), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 rrel --p--rs---- fest-----um etfine ------e 24
+                      0 --..  4
+    query             0 --ad impiissimum ---tyrannum dixi-t assatum 37
+
+-- fused_15 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [111..111) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_16 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [111..111) consumed=0
+  Alignment:
+    (no words left)
+=== END DEBUG ===
+

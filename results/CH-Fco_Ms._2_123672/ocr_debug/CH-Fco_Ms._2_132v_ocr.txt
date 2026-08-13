@@ -1,0 +1,167 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] '.elione nec Pina veniat'
+  [fused_1] 'nos ubi cecide rifortessrahel mnes'
+  [fused_2] 'Montes qui estis incircuitu ejus visiret dominus'
+  [fused_3] 'a Gelboe autem trause at. doien cet'
+  [fused_4] ' de Dompatris tu dute tomi monis ce poli'
+  [fused_5] 'p tee agum par pi me e fii te'
+  [fused_6] 'in omni busubicumque ambula Sti firmans'
+  [fused_7] 'regnum tu um meter numa abinomen'
+  [fused_8] 'graude juxta nomien magnorum qui sunt in terra et re'
+  [fused_9] 'quicni deditibu ab omnibu iimicis ca nn t'
+  [fused_10] 'ccai rum Harene ma'
+  [fused_11] 'et muatiplica mnt pecrata '
+  [fused_12] 'in dignio vnderealacu dmnem ce mp'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      '.elione nec Pina veniat'
+  Assigned: 'gelboe nec ros nec pluvia veniant'
+  Words:    [0..6) consumed=6
+  NW score: k=6 (pre-snap), norm=2.9401
+  Anchor:   word 13 (within_chant_7), diff=7, snapped=False, forced=False
+  Alignment:
+    target            0 .elio--ne----- nec ---Pina venia-t 23
+                      0 .||.|--||----- 14
+    query             0 gelboe nec ros nec pluvi-a veniant 33
+
+-- fused_1 --
+  OCR:      'nos ubi cecide rifortessrahel mnes'
+  Assigned: 'super vos Ubi ceciderunt fortes israhel Omnes'
+  Words:    [6..13) consumed=7
+  NW score: k=7 (pre-snap), norm=4.2439
+  Anchor:   word 13 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ------nos ubi cecide r---ifortes--srahel -mnes 34
+                      0 ------.||  9
+    query             0 super vos Ubi cecide-runt fortes israhel Omnes 45
+
+-- fused_2 --
+  OCR:      'Montes qui estis incircuitu ejus visiret dominus'
+  Assigned: 'montes qui estis in circuitu eius visitet dominus a'
+  Words:    [13..22) consumed=9
+  NW score: k=8 (pre-snap), norm=6.9694
+  Anchor:   word 22 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 Montes qui estis in-circuitu ejus visiret dominus-- 48
+                      0 .|||||  6
+    query             0 montes qui estis in circuitu eius visitet dominus a 51
+
+-- fused_3 --
+  OCR:      'a Gelboe autem trause at. doien cet'
+  Assigned: 'gelboe autem transeat Ubi'
+  Words:    [22..26) consumed=4
+  NW score: k=4 (pre-snap), norm=3.4482
+  Anchor:   word 29 (within_chant_7), diff=3, snapped=False, forced=False
+  Alignment:
+    target            0 a Gelboe autem trause at. doien cet 35
+                      0 --.|||||  8
+    query             0 --gelboe autem transe-at- Ubi------ 25
+
+-- fused_4 --
+  OCR:      'de Dompatris tu dute tomi monis ce poli'
+  Assigned: 'Ego te tu'
+  Words:    [26..29) consumed=3
+  NW score: k=11 (pre-snap), norm=2.1775
+  Anchor:   word 29 (within_chant_7), diff=8, snapped=False, forced=True
+  Alignment:
+    target            0 de Dompatris tu dute tomi monis ce poli 39
+                      0 --..|---------- 15
+    query             0 --Ego---------- --te t--------------uli 11
+
+-- fused_5 --
+  OCR:      'p tee agum par pi me e fii te'
+  Assigned: 'li de domo patris tui dicit dominus et posui te'
+  Words:    [29..38) consumed=9
+  NW score: k=9 (pre-snap), norm=0.0000
+  Anchor:   word 38 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 p tee agum- pa-r------ pi--- --m---e e- --fii te 29
+                      0 ---.|  5
+    query             0 ---de -domo patris tui dicit dominus et posui te 44
+
+-- fused_6 --
+  OCR:      'in omni busubicumque ambula Sti firmans'
+  Assigned: 'pascere gregem populi mei Et fui tecum'
+  Words:    [38..45) consumed=7
+  NW score: k=12 (pre-snap), norm=2.5730
+  Anchor:   word 45 (within_chant_7), diff=5, snapped=False, forced=True
+  Alignment:
+    target            0 in omni busubicumque ----am---bula Sti--- f-i----rmans 39
+                      0 --------..|---|--..| 20
+    query             0 --------pas---c--ere gregem populi mei Et fui tecum--- 38
+
+-- fused_7 --
+  OCR:      'regnum tu um meter numa abinomen'
+  Assigned: 'in omnibus ubicumque ambulasti firmans'
+  Words:    [45..50) consumed=5
+  NW score: k=12 (pre-snap), norm=0.3360
+  Anchor:   word 50 (within_chant_7), diff=7, snapped=False, forced=True
+  Alignment:
+    target            0 --regn--um tu-- um meter --numa--- abinomen- 32
+                      0 --...|--|. 10
+    query             0 in omnibus -ubicumque--- ambulasti -fi-rmans 38
+
+-- fused_8 --
+  OCR:      'graude juxta nomien magnorum qui sunt in terra et re'
+  Assigned: 'regnum tuum in eternum Fecique tibi nomen grande iuxta nomen magnorum qui sunt in terra et re'
+  Words:    [50..67) consumed=17
+  NW score: k=17 (pre-snap), norm=3.1659
+  Anchor:   word 57 (within_chant_7), diff=10, snapped=False, forced=False
+  Alignment:
+    target            0 ------------------------------------------graude juxta nomie
+                      0 ------------------------------------------|||.||
+    query             0 regnum tuum in eternum Fecique tibi nomen grande iuxta nom-e
+    
+    target           18 n magnorum qui sunt in terra et re----- 52
+                     48 | 49
+    query            59 n magnorum qui sunt in terra et requiem 98
+
+-- fused_9 --
+  OCR:      'quicni deditibu ab omnibu iimicis ca nn t'
+  Assigned: 'quiem dedi tibi ab omnibus inimicis tuis Et fui'
+  Words:    [67..75) consumed=8
+  NW score: k=7 (pre-snap), norm=3.5688
+  Anchor:   word 75 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 quicni dedi-tibu ab omnibu- i-imicis --ca nn --t 41
+                      0 -------||||-|||. 16
+    query             0 -------dedi tibi ab omnibus inimicis tuis Et fui 41
+
+-- fused_10 --
+  OCR:      'ccai rum Harene ma'
+  Assigned: 'Peccavi super numerum harene maris'
+  Words:    [75..80) consumed=5
+  NW score: k=5 (pre-snap), norm=2.7083
+  Anchor:   word 80 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 --cca-i ----------rum Harene ma--- 18
+                      0 --|||-|  7
+    query             0 Peccavi super numerum harene maris 34
+
+-- fused_11 --
+  OCR:      'et muatiplica mnt pecrata'
+  Assigned: 'et multiplicata sunt peccata mea et'
+  Words:    [80..86) consumed=6
+  NW score: k=4 (pre-snap), norm=5.4427
+  Anchor:   word 86 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 et muatiplic--a -mnt pecrata------- 25
+                      0 ||  2
+    query             0 et multiplicata sunt peccata mea et 35
+
+-- fused_12 --
+  OCR:      'in dignio vnderealacu dmnem ce mp'
+  Assigned: 'non sum dignus videre altitudinem celi pre'
+  Words:    [86..93) consumed=7
+  NW score: k=7 (pre-snap), norm=2.3100
+  Anchor:   word 93 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -in---- dignio vndere-al-acu dmnem ce-- mp-- 33
+                      0 -.|----  7
+    query             0 non sum dignus videre altitu-dinem celi -pre 42
+=== END DEBUG ===
+

@@ -1,0 +1,171 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'pulum meum induratum est cor pha'
+  [fused_1] 'dimittere populumenu miversi in ma mu forti'
+  [fused_2] 'filiorum Israhel venit ad me iudique afftictionem'
+  [fused_3] 'e sed venimittam te ad phara nem urt dimit'
+  [fused_4] '2 tit moyses coram Pharao ne eto'
+  [fused_5] 'rit hec dicit domi mis dimitte populum meum'
+  [fused_6] '.elaci snnce ser to. ominus'
+  [fused_7] 'deus hebreorum misit me .s domni'
+  [fused_8] 'mus domi no . omino se enim honori'
+  [fused_9] 'fica tus est quum et ascenso rem proie'
+  [fused_10] ' etprotec tor fac tus est'
+  [fused_11] 'mnito mino nl ntem ominis'
+  [fused_12] 'Pagns te omipotens nomen e mo.'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'pulum meum induratum est cor pha'
+  Assigned: 'meum induratum est cor'
+  Words:    [0..4) consumed=4
+  NW score: k=4 (pre-snap), norm=5.2011
+  Anchor:   word 22 (within_chant_7), diff=18, snapped=False, forced=False
+  Alignment:
+    target            0 pulum meum induratum est cor pha 32
+                      0 ------|||| 10
+    query             0 ------meum induratum est cor---- 22
+
+-- fused_1 --
+  OCR:      'dimittere populumenu miversi in ma mu forti'
+  Assigned: 'pharaonis non vult dimittere populum meum nisi in manu forti'
+  Words:    [4..14) consumed=10
+  NW score: k=10 (pre-snap), norm=3.4059
+  Anchor:   word 22 (within_chant_7), diff=8, snapped=False, forced=False
+  Alignment:
+    target            0 -------------------dimittere populu--menu- miversi in ma mu 
+                      0 -------------------|||||||||
+    query             0 pharaonis non vult dimittere populum me-um ni---si in ma-nu 
+    
+    target           38 forti 43
+                     28 ||||| 33
+    query            55 forti 60
+
+-- fused_2 --
+  OCR:      'filiorum Israhel venit ad me iudique afftictionem'
+  Assigned: 'Clamor filiorum israhel venit ad me vidique afflictionem'
+  Words:    [14..22) consumed=8
+  NW score: k=8 (pre-snap), norm=6.0897
+  Anchor:   word 22 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -------filiorum Israhel venit ad me -iudique afftictionem 49
+                      0 -------|||||||| 15
+    query             0 Clamor filiorum israhel venit ad me vi-dique afflictionem 56
+
+-- fused_3 --
+  OCR:      'e sed venimittam te ad phara nem urt dimit'
+  Assigned: 'eorum sed veni mittam te ad pharaonem Ut dimittat'
+  Words:    [22..31) consumed=9
+  NW score: k=9 (pre-snap), norm=5.7092
+  Anchor:   word 31 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 e---- sed veni-mittam te ad phara nem urt dimi---t 42
+                      0 |----  5
+    query             0 eorum sed veni mittam te ad pharaonem -Ut dimittat 49
+
+-- fused_4 --
+  OCR:      '2 tit moyses coram Pharao ne eto'
+  Assigned: 'Stetit moyses coram pharaone et dix'
+  Words:    [31..37) consumed=6
+  NW score: k=5 (pre-snap), norm=5.7150
+  Anchor:   word 37 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 -2 tit moyses coram Pharao ne et-----o 32
+                      0 -..|||  6
+    query             0 Stetit moyses coram pharao-ne et dixit 37
+
+-- fused_5 --
+  OCR:      'rit hec dicit domi mis dimitte populum meum'
+  Assigned: 'it hec dicit dominus Dimitte populum meum'
+  Words:    [37..43) consumed=6
+  NW score: k=6 (pre-snap), norm=5.9867
+  Anchor:   word 43 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 rit hec dicit domi mis dimitte populum meum 43
+                      0 ----|||  7
+    query             0 ----hec dicit domi-nus Dimitte populum meum 38
+
+-- fused_6 --
+  OCR:      '.elaci snnce ser to. ominus'
+  Assigned: 'ut sacrificet michi in deserto Dominus'
+  Words:    [43..49) consumed=6
+  NW score: k=6 (pre-snap), norm=1.2176
+  Anchor:   word 49 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -.elac------------i snnce ser to. -ominus 27
+                      0 -...||------------| 19
+    query             0 ut sacrificet michi in de-ser-to- Dominus 38
+
+-- fused_7 --
+  OCR:      'deus hebreorum misit me .s domni'
+  Assigned: 'deus hebreorum misit me ad'
+  Words:    [49..54) consumed=5
+  NW score: k=5 (pre-snap), norm=5.8590
+  Anchor:   word 58 (within_chant_7), diff=4, snapped=False, forced=False
+  Alignment:
+    target            0 deus hebreorum misit me .s domni 32
+                      0 ||||  4
+    query             0 deus hebreorum misit me --ad---- 26
+
+-- fused_8 --
+  OCR:      'mus domi no . omino se enim honori'
+  Assigned: 'te dicens Dimitte Cantemus domino gloriose enim honori'
+  Words:    [54..62) consumed=8
+  NW score: k=8 (pre-snap), norm=1.9762
+  Anchor:   word 58 (within_chant_7), diff=4, snapped=False, forced=False
+  Alignment:
+    target            0 -----------------------mus domi no . omino se enim honori---
+                      0 -----------------------|||
+    query             0 te dicens Dimitte Cantemus domi-no glori-o-se enim honorific
+    
+    target           34 ---- 34
+                     26 ---- 30
+    query            57 atus 61
+
+-- fused_9 --
+  OCR:      'fica tus est quum et ascenso rem proie'
+  Assigned: 'ficatus est equum et ascensorem proie'
+  Words:    [62..67) consumed=5
+  NW score: k=5 (pre-snap), norm=4.7604
+  Anchor:   word 67 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 fica tus est -quum et ascenso rem proie--- 38
+                      0 ---------||| 12
+    query             0 ---------est equum et ascenso-rem proiecit 32
+
+-- fused_10 --
+  OCR:      'etprotec tor fac tus est'
+  Assigned: 'cit in mare Adiutor et protector factus est'
+  Words:    [67..74) consumed=7
+  NW score: k=7 (pre-snap), norm=3.3667
+  Anchor:   word 74 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ----------------et-protec tor fac tus est 24
+                      0 ----------------||-||||||-||| 29
+    query             0 in mare Adiutor et protec-tor fac-tus est 39
+
+-- fused_11 --
+  OCR:      'mnito mino nl ntem ominis'
+  Assigned: 'michi dominus in salutem Dominus'
+  Words:    [74..79) consumed=5
+  NW score: k=5 (pre-snap), norm=1.9092
+  Anchor:   word 79 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 m--ni-to min-o -n---l ntem -ominis 25
+                      0 |--.|-.|-|||-. 14
+    query             0 michi do-minus in sal-utem Dominus 32
+
+-- fused_12 --
+  OCR:      'Pagns te omipotens nomen e mo.'
+  Assigned: 'quasi vir pugnator omnipotens nomen eius adiutor'
+  Words:    [79..86) consumed=7
+  NW score: k=6 (pre-snap), norm=2.3094
+  Anchor:   word 86 (page_break_77), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 -Pa---------gns t-e om-ipotens nomen e--- ----mo. 30
+                      0 -.|---------||-.|-. 19
+    query             0 quasi vir pugn-ator omnipotens nomen eius adiutor 48
+=== END DEBUG ===
+

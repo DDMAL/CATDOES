@@ -1,0 +1,175 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'do mine extende brachium tu um'
+  [fused_1] 'ra annuasnoge opprimentes nos et con'
+  [fused_2] 'timeliam facientes in superbiamec partemtu'
+  [fused_3] 'aanin dec ili. a pacem domine in'
+  [fused_4] 'diebus nostris quia non est alius qn pignet pronobe'
+  [fused_5] 'nisitudeus noster evovae.  sol in dixeos au'
+  [fused_6] 'gen'
+  [fused_7] 'cdissipata est B'
+  [fused_8] 'um tuum et libera animas nostras ne pereamus evovae'
+  [fused_9] 'xandiat dominus orationes vestiras et reconcilietur'
+  [fused_10] 'vobis nec vos deserat in tempore in alo dominus deus non'
+  [fused_11] 'ster eoa Lugebat autem judamus Israhei planctu'
+  [fused_12] 'magno et diebat quomodo ceconsai petevo i preio'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'do mine extende brachium tu um'
+  Assigned: 'nos Sed tu domine extende brachium tuum'
+  Words:    [0..7) consumed=7
+  NW score: k=7 (pre-snap), norm=5.0869
+  Anchor:   word 16 (within_chant_7), diff=9, snapped=False, forced=False
+  Alignment:
+    target            0 do-------- --mine extende brachium tu um 30
+                      0 .|-------- 10
+    query             0 nos Sed tu domine extende brachium tu-um 39
+
+-- fused_1 --
+  OCR:      'ra annuasnoge opprimentes nos et con'
+  Assigned: 'et libera animas nostras Afflige opprimentes nos et con'
+  Words:    [7..16) consumed=9
+  NW score: k=9 (pre-snap), norm=3.4647
+  Anchor:   word 16 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -------ra annuas-no-----------ge opprimentes nos et con-----
+                      0 -------||
+    query             0 et libera animas nostras Afflige opprimentes nos et contumel
+    
+    target           36 --- 36
+                      9 --- 12
+    query            60 iam 63
+
+-- fused_2 --
+  OCR:      'timeliam facientes in superbiamec partemtu'
+  Assigned: 'tumeliam facientes in superbiam et custodi partem tuam'
+  Words:    [16..23) consumed=7
+  NW score: k=6 (pre-snap), norm=4.0988
+  Anchor:   word 23 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 timeliam facientes in superbiam-e--c------ partem-tu-- 42
+                      0 ---------||||||||| 18
+    query             0 ---------facientes in superbiam et custodi partem tuam 45
+
+-- fused_3 --
+  OCR:      'aanin dec ili. a pacem domine in'
+  Assigned: 'Sed tu Da pacem domine in'
+  Words:    [23..29) consumed=6
+  NW score: k=6 (pre-snap), norm=3.5709
+  Anchor:   word 29 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 aanin dec ili. -a pacem domine in 32
+                      0 ------.|.  9
+    query             0 ------Sed --tu Da pacem domine in 25
+
+-- fused_4 --
+  OCR:      'diebus nostris quia non est alius qn pignet pronobe'
+  Assigned: 'diebus nostris quia non est alius qui pugnet pro nobis'
+  Words:    [29..39) consumed=10
+  NW score: k=10 (pre-snap), norm=6.6313
+  Anchor:   word 39 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 diebus nostris quia non est alius q-n pignet pro-nob-e 51
+                      0 ||||||  6
+    query             0 diebus nostris quia non est alius qui pugnet pro nobis 54
+
+-- fused_5 --
+  OCR:      'nisitudeus noster evovae.  sol in dixeos au'
+  Assigned: 'nisi tu deus noster euouae Refulsit sol in clipeos au'
+  Words:    [39..49) consumed=10
+  NW score: k=10 (pre-snap), norm=4.2822
+  Anchor:   word 49 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 nisi-tu-deus noster evovae. -------- sol in -dixeos au---- 43
+                      0 ||||-||-|||| 12
+    query             0 nisi tu deus noster euouae- Refulsit sol in clipeos aureos 57
+
+-- fused_6 --
+  OCR:      'gen'
+  Assigned: 'reos et resplenduerunt montes ab eis et fortitudo gen'
+  Words:    [49..57) consumed=8
+  NW score: k=1 (pre-snap), norm=-1.6330
+  Anchor:   word 57 (within_chant_7), diff=7, snapped=False, forced=True
+  Alignment:
+    target            0 ---------------------------------------------gen----  3
+                      0 ---------------------------------------------|||---- 52
+    query             0 et resplenduerunt montes ab eis et fortitudo gencium 52
+
+-- fused_7 --
+  OCR:      'cdissipata est B'
+  Assigned: 'cium dissipata est'
+  Words:    [57..59) consumed=2
+  NW score: k=2 (pre-snap), norm=6.0324
+  Anchor:   word 63 (within_chant_7), diff=4, snapped=False, forced=False
+  Alignment:
+    target            0 cdissipata est B 16
+                      0 -||||||||| 10
+    query             0 -dissipata est-- 13
+
+-- fused_8 --
+  OCR:      'um tuum et libera animas nostras ne pereamus evovae'
+  Assigned: 'euouae Extende domine brachium tuum et libera animas nostras ne pereamus euouae'
+  Words:    [59..71) consumed=12
+  NW score: k=12 (pre-snap), norm=4.6318
+  Anchor:   word 63 (within_chant_7), diff=8, snapped=False, forced=False
+  Alignment:
+    target            0 ----------------------------um tuum et libera animas nostras
+                      0 ----------------------------||
+    query             0 euouae Extende domine brachium tuum et libera animas nostras
+    
+    target           32  ne pereamus evovae 51
+                     30  30
+    query            60  ne pereamus euouae 79
+
+-- fused_9 --
+  OCR:      'xandiat dominus orationes vestiras et reconcilietur'
+  Assigned: 'Exaudiat dominus orationes vestras et reconcilietur'
+  Words:    [71..77) consumed=6
+  NW score: k=6 (pre-snap), norm=7.3137
+  Anchor:   word 77 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -xandiat dominus orationes vestiras et reconcilietur 51
+                      0 -||.||||  8
+    query             0 Exaudiat dominus orationes vest-ras et reconcilietur 51
+
+-- fused_10 --
+  OCR:      'vobis nec vos deserat in tempore in alo dominus deus non'
+  Assigned: 'vobis nec vos deserat in tempore malo dominus deus no'
+  Words:    [77..87) consumed=10
+  NW score: k=9 (pre-snap), norm=6.8223
+  Anchor:   word 87 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 vobis nec vos deserat in tempore in alo dominus deus no---n
+                      0 |||||
+    query             0 vobis nec vos deserat in tempore --malo dominus deus noster
+    
+    target           56
+                      5
+    query            57
+
+-- fused_11 --
+  OCR:      'ster eoa Lugebat autem judamus Israhei planctu'
+  Assigned: 'ster euouae Lugebat autem iudam israhel planctu'
+  Words:    [87..93) consumed=6
+  NW score: k=6 (pre-snap), norm=5.0962
+  Anchor:   word 93 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ster eo-a- Lugebat autem judamus Israhei planctu 46
+                      0 --|--.|-|- 10
+    query             0 --e--uouae Lugebat autem iudam-- israhel planctu 42
+
+-- fused_12 --
+  OCR:      'magno et diebat quomodo ceconsai petevo i preio'
+  Assigned: 'magno et dicebat quomodo cecidisti potens in prelio'
+  Words:    [93..101) consumed=8
+  NW score: k=8 (pre-snap), norm=5.5148
+  Anchor:   word 101 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 magno et di-ebat quomodo cec-onsai petevo i- pre-io 47
+                      0 |||||  5
+    query             0 magno et dicebat quomodo cecidisti potens in prelio 51
+=== END DEBUG ===
+

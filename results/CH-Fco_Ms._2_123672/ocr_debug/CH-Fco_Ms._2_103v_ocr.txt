@@ -1,0 +1,183 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'me crucifi geres et Barrabam di mitte res'
+  [fused_1] 'punte te et edificam turrim in me'
+  [fused_2] 'dio tu  Quomodo ant  in faciebant qui que'
+  [fused_3] 'ebant aninlene in furo II evovae e Lon'
+  [fused_4] 'fundantur et revereantur qui querunt animam meam ut'
+  [fused_5] 'liferantaxpectans evovac'
+  [fused_6] '.nti quesierunt abtaat meam po dsin V nsurrecerunt in me testes nc Etm . Extractatum Angulle'
+  [fused_7] ' proceristi me a convenntu'
+  [fused_8] 'nomine eVovae Canquan'
+  [fused_9] 'ad latronem existis cum gladus comprehen de'
+  [fused_10] 'me Co die apud nos ram'
+  [fused_11] 'plo do tens et non me tem stis et ecce Nagel'
+  [fused_12] 'latum dictis gen dum'
+  [fused_13] ' imetssent manus in ihesum et remussent e im'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'me crucifi geres et Barrabam di mitte res'
+  Assigned: 'me crucifigeres et barrabam dimitteres se'
+  Words:    [0..6) consumed=6
+  NW score: k=5 (pre-snap), norm=6.8404
+  Anchor:   word 6 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 me crucifi geres et Barrabam di mitte res------- 41
+                      0 ||  2
+    query             0 me crucifi-geres et barrabam di-mitte-res Sepivi 45
+
+-- fused_1 --
+  OCR:      'punte te et edificam turrim in me'
+  Assigned: 'pivi te et lapides elegi ex te et edificavi turrin in medio'
+  Words:    [6..17) consumed=11
+  NW score: k=11 (pre-snap), norm=2.7716
+  Anchor:   word 17 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 punte-------------------- te et edifica-m turrim in me--- 33
+                      0 ---||-------------------- 25
+    query             0 ---te et lapides elegi ex te et edificavi turrin in medio 54
+
+-- fused_2 --
+  OCR:      'dio tu  Quomodo ant  in faciebant qui que'
+  Assigned: 'tui Quomodo Vim faciebant qui que'
+  Words:    [17..23) consumed=6
+  NW score: k=6 (pre-snap), norm=4.2763
+  Anchor:   word 23 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 dio tu  Quomodo ant  in faciebant qui que------ 41
+                      0 ----||.  7
+    query             0 ----tui Quomodo---- Vim faciebant qui querebant 39
+
+-- fused_3 --
+  OCR:      'ebant aninlene in furo II evovae e Lon'
+  Assigned: 'rebant animam meam ~Domine ne in furore ii euouae con'
+  Words:    [23..32) consumed=9
+  NW score: k=8 (pre-snap), norm=1.4018
+  Anchor:   word 32 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 eban---t --a-----ninle-ne in furo-- II evovae e Lon---------
+                      0 --||---.
+    query             0 --animam meam ~Domin-e ne in furore ii euoua--e Confundantur
+    
+    target           38 
+                      8 
+    query            55 
+
+-- fused_4 --
+  OCR:      'fundantur et revereantur qui querunt animam meam ut'
+  Assigned: 'fundantur et revereantur qui querunt animam meam ut'
+  Words:    [32..39) consumed=7
+  NW score: k=7 (pre-snap), norm=6.4294
+  Anchor:   word 39 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 fundantur et revereantur qui querunt animam meam ut 51
+                      0 ----------|| 12
+    query             0 ----------et revereantur qui querunt animam meam ut 41
+
+-- fused_5 --
+  OCR:      'liferantaxpectans evovac'
+  Assigned: 'auferant eam ~Expectans euouae Alieni insurrex'
+  Words:    [39..45) consumed=6
+  NW score: k=4 (pre-snap), norm=3.7640
+  Anchor:   word 45 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 liferant--a----xpectans evova---------------------c 24
+                      0 ..||||||--|----|||||||| 23
+    query             0 auferant eam ~Expectans euouae Alieni insurrexerunt 51
+
+-- fused_6 --
+  OCR:      '.nti quesierunt abtaat meam po dsin V nsurrecerunt in me testes nc Etm . Extractatum Angulle'
+  Assigned: 'erunt in me et fortes quesierunt animam meam ~Deus in nomine euouae Insurrexerunt in me testes iniqui Et mentita Tanquam'
+  Words:    [45..64) consumed=19
+  NW score: k=19 (pre-snap), norm=2.2751
+  Anchor:   word 53 (within_chant_7), diff=11, snapped=False, forced=False
+  Alignment:
+    target            0 .n----------t-i quesierunt abtaat meam po ds-in ------------
+                      0 .|----------|-.
+    query             0 in me et fortes quesierunt animam meam ~Deus in nomine euoua
+    
+    target           36 V -nsurrecerunt in me testes -n---c Etm . Extractatum -Angul
+                     15 .
+    query            60 e Insurrexerunt in me testes iniqui Et- -ment--ita--- Tanqu-
+    
+    target           90 le  92
+                     16 ..  18
+    query           112 am 114
+
+-- fused_7 --
+  OCR:      'proceristi me a convenntu'
+  Assigned: 'ad latronem existis cum gladiis comprehendere'
+  Words:    [64..70) consumed=6
+  NW score: k=6 (pre-snap), norm=-0.4174
+  Anchor:   word 70 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -----pro---ceristi- --me --a---- co---nven-ntu 25
+                      0 -----.||---.|.||||- 19
+    query             0 ad latronem existis cum- gladiis comprehendere 45
+
+-- fused_8 --
+  OCR:      'nomine eVovae Canquan'
+  Assigned: 'me Cotidie apud vos eram in templo do'
+  Words:    [70..78) consumed=8
+  NW score: k=3 (pre-snap), norm=-1.0705
+  Anchor:   word 78 (within_chant_7), diff=5, snapped=False, forced=True
+  Alignment:
+    target            0 ---nomi-ne --eVovae -Ca---n---------quan- 21
+                      0 ---.|.|-.| 10
+    query             0 me Cotidie apud vos eram in templo docens 41
+
+-- fused_9 --
+  OCR:      'ad latronem existis cum gladus comprehen de'
+  Assigned: 'cens et non me tenuistis et ecce flagellatum ducitis'
+  Words:    [78..86) consumed=8
+  NW score: k=9 (pre-snap), norm=-0.0431
+  Anchor:   word 86 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 ad latronem- -e-xistis ----cum ---g--ladus comprehen d-----e
+                      0 ..
+    query             0 et ---non me tenuistis et ecce flagellatu----m------ ducitis
+    
+    target           43 
+                      2 
+    query            47 
+
+-- fused_10 --
+  OCR:      'me Co die apud nos ram'
+  Assigned: 'ad crucifigendum Cumque iniecissent manus in ihesum'
+  Words:    [86..93) consumed=7
+  NW score: k=7 (pre-snap), norm=-1.9704
+  Anchor:   word 89 (within_chant_7), diff=4, snapped=False, forced=False
+  Alignment:
+    target            0 ----------me---- C----o -die------- -apud -nos ---ram 22
+                      0 ----------.|---- 16
+    query             0 ad crucifigendum Cumque iniecissent manus in-- ihesum 51
+
+-- fused_11 --
+  OCR:      'plo do tens et non me tem stis et ecce Nagel'
+  Assigned: 'et temuissent eum'
+  Words:    [93..96) consumed=3
+  NW score: k=3 (pre-snap), norm=-1.1335
+  Anchor:   word 96 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 plo do tens et non me tem stis e-t ecce Nagel 44
+                      0 ------------||------- 21
+    query             0 ------------et------- tem--uissent e-------um 17
+
+-- fused_12 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [96..96) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_13 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [96..96) consumed=0
+  Alignment:
+    (no words left)
+=== END DEBUG ===
+

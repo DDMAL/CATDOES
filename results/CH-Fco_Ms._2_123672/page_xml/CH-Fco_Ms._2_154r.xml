@@ -1,0 +1,831 @@
+<?xml version='1.0' encoding='utf-8'?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+  <Metadata>
+    <Creator>export_page_xml.py</Creator>
+  </Metadata>
+  <Page imageFilename="CH-Fco_Ms._2_154r.jpg" imageWidth="1218" imageHeight="1624">
+    <TextRegion id="CH-Fco_Ms._2_154r_r000" type="paragraph">
+      <Coords points="0,0 1218,0 1218,1624 0,1624" />
+      <TextLine id="CH-Fco_Ms._2_154r_l000">
+        <Coords points="217,207 208,206 199,206 190,205 181,205 180,205 174,211 152,206 145,207 138,207 135,208 127,225 127,228 126,235 159,242 160,242 161,242 171,238 191,243 192,243 193,243 223,238 224,230 224,208 217,207" />
+        <Baseline points="126,243 224,243" />
+        <Word id="CH-Fco_Ms._2_154r_l000_w000" custom="source:gt;">
+          <Coords points="126,208 224,208 224,230 126,235" />
+          <TextEquiv>
+            <Unicode>ea</Unicode>
+          </TextEquiv>
+        </Word>
+        <TextEquiv>
+          <Unicode>jus . et</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="CH-Fco_Ms._2_154r_l001">
+        <Coords points="401,221 401,231 400,243 464,245 465,245 504,239 511,245 512,245 513,245 566,246 567,246 613,240 641,246 642,246 676,239 677,233 676,212 624,208 623,208 558,212 525,207 524,207 497,212 488,207 487,207 486,207 485,207 484,207 478,212 457,207 456,207 406,212 401,221" />
+        <Baseline points="400,246 677,246" />
+        <Word id="CH-Fco_Ms._2_154r_l001_w000" custom="source:gt;">
+          <Coords points="400,221 492,209 492,241 400,243" />
+          <TextEquiv>
+            <Unicode>que</Unicode>
+          </TextEquiv>
+        </Word>
+        <Word id="CH-Fco_Ms._2_154r_l001_w001" custom="source:gt;">
+          <Coords points="492,209 584,210 584,244 492,241" />
+          <TextEquiv>
+            <Unicode>sub</Unicode>
+          </TextEquiv>
+        </Word>
+        <Word id="CH-Fco_Ms._2_154r_l001_w002" custom="source:gt;">
+          <Coords points="584,210 677,212 677,233 584,244" />
+          <TextEquiv>
+            <Unicode>ipso</Unicode>
+          </TextEquiv>
+        </Word>
+        <TextEquiv>
+          <Unicode>que sub ipso erant</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="CH-Fco_Ms._2_154r_l002">
+        <Coords points="707,233 706,242 792,244 793,235 793,213 707,213 707,233" />
+        <Baseline points="706,244 793,244" />
+        <Word id="CH-Fco_Ms._2_154r_l002_w000" custom="source:gt;">
+          <Coords points="706,213 793,213 793,235 706,242" />
+          <TextEquiv>
+            <Unicode>erant</Unicode>
+          </TextEquiv>
+        </Word>
+        <TextEquiv>
+          <Unicode>reple</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="CH-Fco_Ms._2_154r_l003">
+        <Coords points="912,221 905,214 886,211 885,211 839,214 839,235 839,267 913,267 913,235 912,224 912,221" />
+        <Baseline points="839,267 913,267" />
+        <Word id="CH-Fco_Ms._2_154r_l003_w000" custom="source:gt;">
+          <Coords points="839,214 913,221 913,235 839,235" />
+          <TextEquiv>
+            <Unicode>replebant</Unicode>
+          </TextEquiv>
+        </Word>
+        <TextEquiv>
+          <Unicode>vant</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="CH-Fco_Ms._2_154r_l004">
+        <Coords points="188,322 187,351 222,352 230,359 230,360 231,360 232,360 527,366 528,366 529,366 530,366 530,365 558,340 754,343 756,325 755,308 701,307 684,299 683,299 682,299 655,305 635,300 634,300 633,300 632,300 631,300 625,304 616,298 615,298 614,298 613,298 561,304 553,298 553,298 552,298 551,298 550,298 549,298 549,299 540,307 512,307 472,297 471,297 470,297 445,304 423,297 422,297 421,297 420,297 402,306 361,306 355,300 354,300 353,300 352,300 323,304 308,296 307,296 306,296 286,301 280,296 279,296 278,296 277,296 243,301 188,297 188,322" />
+        <Baseline points="187,366 756,366" />
+        <Word id="CH-Fco_Ms._2_154r_l004_w000" custom="source:gt;">
+          <Coords points="187,297 291,300 291,361 187,351" />
+          <TextEquiv>
+            <Unicode>templum</Unicode>
+          </TextEquiv>
+        </Word>
+        <Word id="CH-Fco_Ms._2_154r_l004_w001" custom="source:gt;">
+          <Coords points="291,300 408,303 408,364 291,361" />
+          <TextEquiv>
+            <Unicode>Seraphim</Unicode>
+          </TextEquiv>
+        </Word>
+        <Word id="CH-Fco_Ms._2_154r_l004_w002" custom="source:gt;">
+          <Coords points="408,303 512,307 512,366 408,364" />
+          <TextEquiv>
+            <Unicode>stabant</Unicode>
+          </TextEquiv>
+        </Word>
+        <Word id="CH-Fco_Ms._2_154r_l004_w003" custom="source:gt;">
+          <Coords points="512,307 603,299 603,341 512,366" />
+          <TextEquiv>
+            <Unicode>subter</Unicode>
+          </TextEquiv>
+        </Word>
+        <Word id="CH-Fco_Ms._2_154r_l004_w004" custom="source:gt;">
+          <Coords points="603,299 681,299 681,342 603,341" />
+          <TextEquiv>
+            <Unicode>illud</Unicode>
+          </TextEquiv>
+        </Word>
+        <Word id="CH-Fco_Ms._2_154r_l004_w005" custom="source:gt;">
+          <Coords points="681,299 733,308 733,343 681,342" />
+          <TextEquiv>
+            <Unicode>sex</Unicode>
+          </TextEquiv>
+        </Word>
+        <TextEquiv>
+          <Unicode>tem plum qu erapbitabant sitote</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="CH-Fco_Ms._2_154r_l005">
+        <Coords points="127,386 127,407 126,417 276,419 284,424 285,424 286,424 286,424 325,420 326,412 326,393 288,392 282,385 282,384 281,384 280,384 279,384 278,384 255,390 237,384 236,384 235,384 234,384 233,384 233,385 226,391 208,391 193,383 193,383 192,383 131,383 127,386" />
+        <Baseline points="126,424 326,424" />
+        <Word id="CH-Fco_Ms._2_154r_l005_w000" custom="source:gt;">
+          <Coords points="126,386 222,391 222,415 126,417" />
+          <TextEquiv>
+            <Unicode>aleum</Unicode>
+          </TextEquiv>
+        </Word>
+        <Word id="CH-Fco_Ms._2_154r_l005_w001" custom="source:gt;">
+          <Coords points="222,391 270,386 270,419 222,415" />
+          <TextEquiv>
+            <Unicode>et</Unicode>
+          </TextEquiv>
+        </Word>
+        <Word id="CH-Fco_Ms._2_154r_l005_w002" custom="source:gt;">
+          <Coords points="270,386 326,393 326,412 270,419" />
+          <TextEquiv>
+            <Unicode>sex</Unicode>
+          </TextEquiv>
+        </Word>
+        <TextEquiv>
+          <Unicode>a leni et sexa</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="CH-Fco_Ms._2_154r_l006">
+        <Coords points="128,504 127,513 399,517 401,507 400,485 281,478 280,478 227,481 221,477 220,477 219,477 200,477 199,477 198,477 197,477 197,478 192,482 172,478 171,478 128,481 128,504" />
+        <Baseline points="127,517 401,517" />
+        <Word id="CH-Fco_Ms._2_154r_l006_w000" custom="source:gt;">
+          <Coords points="127,481 175,479 175,506 127,513" />
+          <TextEquiv>
+            <Unicode>ne</Unicode>
+          </TextEquiv>
+        </Word>
+        <Word id="CH-Fco_Ms._2_154r_l006_w001" custom="source:gt;">
+          <Coords points="175,479 223,478 223,509 175,506" />
+          <TextEquiv>
+            <Unicode>de</Unicode>
+          </TextEquiv>
+        </Word>
+        <Word id="CH-Fco_Ms._2_154r_l006_w002" custom="source:gt;">
+          <Coords points="223,478 303,479 303,512 223,509" />
+          <TextEquiv>
+            <Unicode>sede</Unicode>
+          </TextEquiv>
+        </Word>
+        <Word id="CH-Fco_Ms._2_154r_l006_w003" custom="source:gt;">
+          <Coords points="303,479 401,485 401,507 303,512" />
+          <TextEquiv>
+            <Unicode>sancta</Unicode>
+          </TextEquiv>
+        </Word>
+        <TextEquiv>
+          <Unicode>ne de sede Sancta tu</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="CH-Fco_Ms._2_154r_l007">
+        <Coords points="520,417 519,425 589,430 590,430 590,430 604,425 613,431 614,431 615,431 616,431 755,427 759,431 759,432 760,432 761,432 762,432 856,428 897,433 899,421 898,400 710,387 709,387 708,387 692,396 595,396 587,389 587,388 586,388 585,388 572,387 571,387 570,387 569,387 557,396 520,396 520,417" />
+        <Baseline points="519,433 899,433" />
+        <Word id="CH-Fco_Ms._2_154r_l007_w000" custom="source:gt;">
+          <Coords points="519,396 571,387 571,427 519,425" />
+          <TextEquiv>
+            <Unicode>ale</Unicode>
+          </TextEquiv>
+        </Word>
+        <Word id="CH-Fco_Ms._2_154r_l007_w001" custom="source:gt;">
+          <Coords points="571,387 662,396 662,430 571,427" />
+          <TextEquiv>
+            <Unicode>alteri</Unicode>
+          </TextEquiv>
+        </Word>
+        <Word id="CH-Fco_Ms._2_154r_l007_w002" custom="source:gt;">
+          <Coords points="662,396 701,391 701,429 662,430" />
+          <TextEquiv>
+            <Unicode>Et</Unicode>
+          </TextEquiv>
+        </Word>
+        <Word id="CH-Fco_Ms._2_154r_l007_w003" custom="source:gt;">
+          <Coords points="701,391 740,389 740,427 701,429" />
+          <TextEquiv>
+            <Unicode>ea</Unicode>
+          </TextEquiv>
+        </Word>
+        <Word id="CH-Fco_Ms._2_154r_l007_w004" custom="source:gt;">
+          <Coords points="740,389 831,395 831,429 740,427" />
+          <TextEquiv>
+            <Unicode>Aspice</Unicode>
+          </TextEquiv>
+        </Word>
+        <Word id="CH-Fco_Ms._2_154r_l007_w005" custom="source:gt;">
+          <Coords points="831,395 896,400 896,433 831,429" />
+          <TextEquiv>
+            <Unicode>domi</Unicode>
+          </TextEquiv>
+        </Word>
+        <TextEquiv>
+          <Unicode>ri etspice domi</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="CH-Fco_Ms._2_154r_l008">
+        <Coords points="428,507 427,535 505,545 585,546 586,546 587,546 588,546 597,539 657,539 658,510 658,467 428,464 428,507" />
+        <Baseline points="427,546 658,546" />
+        <Word id="CH-Fco_Ms._2_154r_l008_w000" custom="source:gt;">
+          <Coords points="427,507 483,508 483,542 427,535" />
+          <TextEquiv>
+            <Unicode>tua</Unicode>
+          </TextEquiv>
+        </Word>
+        <Word id="CH-Fco_Ms._2_154r_l008_w001" custom="source:gt;">
+          <Coords points="483,508 525,508 525,545 483,542" />
+          <TextEquiv>
+            <Unicode>et</Unicode>
+          </TextEquiv>
+        </Word>
+        <Word id="CH-Fco_Ms._2_154r_l008_w002" custom="source:gt;">
+          <Coords points="525,508 623,510 623,539 525,545" />
+          <TextEquiv>
+            <Unicode>cogita</Unicode>
+          </TextEquiv>
+        </Word>
+        <Word id="CH-Fco_Ms._2_154r_l008_w003" custom="source:gt;">
+          <Coords points="623,510 658,467 658,539 623,539" />
+          <TextEquiv>
+            <Unicode>de</Unicode>
+          </TextEquiv>
+        </Word>
+        <TextEquiv>
+          <Unicode>.ecaptacens</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="CH-Fco_Ms._2_154r_l009">
+        <Coords points="681,509 680,518 767,525 768,525 898,522 899,514 899,492 681,484 681,509" />
+        <Baseline points="680,525 899,525" />
+        <Word id="CH-Fco_Ms._2_154r_l009_w000" custom="source:gt;">
+          <Coords points="680,509 752,503 752,524 680,518" />
+          <TextEquiv>
+            <Unicode>nobis</Unicode>
+          </TextEquiv>
+        </Word>
+        <Word id="CH-Fco_Ms._2_154r_l009_w001" custom="source:gt;">
+          <Coords points="752,503 848,496 848,523 752,524" />
+          <TextEquiv>
+            <Unicode>inclina</Unicode>
+          </TextEquiv>
+        </Word>
+        <Word id="CH-Fco_Ms._2_154r_l009_w002" custom="source:gt;">
+          <Coords points="848,496 899,492 899,514 848,523" />
+          <TextEquiv>
+            <Unicode>deus</Unicode>
+          </TextEquiv>
+        </Word>
+        <TextEquiv>
+          <Unicode>bis indina deus</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="CH-Fco_Ms._2_154r_l010">
+        <Coords points="125,590 124,603 218,606 220,595 220,572 125,570 125,590" />
+        <Baseline points="124,606 220,606" />
+        <Word id="CH-Fco_Ms._2_154r_l010_w000" custom="source:gt;">
+          <Coords points="124,570 220,572 220,595 124,603" />
+          <TextEquiv>
+            <Unicode>meus</Unicode>
+          </TextEquiv>
+        </Word>
+        <TextEquiv>
+          <Unicode>meus</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="CH-Fco_Ms._2_154r_l011">
+        <Coords points="253,596 252,604 390,609 391,609 435,606 460,610 461,610 525,606 525,599 525,581 253,576 253,596" />
+        <Baseline points="252,610 525,610" />
+        <Word id="CH-Fco_Ms._2_154r_l011_w000" custom="source:gt;">
+          <Coords points="252,596 342,597 342,607 252,604" />
+          <TextEquiv>
+            <Unicode>aurem</Unicode>
+          </TextEquiv>
+        </Word>
+        <Word id="CH-Fco_Ms._2_154r_l011_w001" custom="source:gt;">
+          <Coords points="342,597 417,598 417,607 342,607" />
+          <TextEquiv>
+            <Unicode>tuam</Unicode>
+          </TextEquiv>
+        </Word>
+        <Word id="CH-Fco_Ms._2_154r_l011_w002" custom="source:gt;">
+          <Coords points="417,598 462,598 462,610 417,607" />
+          <TextEquiv>
+            <Unicode>et</Unicode>
+          </TextEquiv>
+        </Word>
+        <Word id="CH-Fco_Ms._2_154r_l011_w003" custom="source:gt;">
+          <Coords points="462,598 525,581 525,606 462,610" />
+          <TextEquiv>
+            <Unicode>audi</Unicode>
+          </TextEquiv>
+        </Word>
+        <TextEquiv>
+          <Unicode>aurem tuam etau</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="CH-Fco_Ms._2_154r_l012">
+        <Coords points="566,599 565,607 580,612 581,612 581,612 661,609 763,615 764,615 790,610 845,616 847,603 847,583 734,576 692,576 691,576 690,576 689,576 683,581 665,576 664,576 664,576 566,577 566,599" />
+        <Baseline points="565,616 847,616" />
+        <Word id="CH-Fco_Ms._2_154r_l012_w000" custom="source:gt;">
+          <Coords points="565,577 649,576 649,609 565,607" />
+          <TextEquiv>
+            <Unicode>Aperi</Unicode>
+          </TextEquiv>
+        </Word>
+        <Word id="CH-Fco_Ms._2_154r_l012_w001" custom="source:gt;">
+          <Coords points="649,576 747,577 747,614 649,609" />
+          <TextEquiv>
+            <Unicode>oculos</Unicode>
+          </TextEquiv>
+        </Word>
+        <Word id="CH-Fco_Ms._2_154r_l012_w002" custom="source:gt;">
+          <Coords points="747,577 817,581 817,613 747,614" />
+          <TextEquiv>
+            <Unicode>tuos</Unicode>
+          </TextEquiv>
+        </Word>
+        <Word id="CH-Fco_Ms._2_154r_l012_w003" custom="source:gt;">
+          <Coords points="817,581 847,583 847,603 817,613" />
+          <TextEquiv>
+            <Unicode>et</Unicode>
+          </TextEquiv>
+        </Word>
+        <TextEquiv>
+          <Unicode>di aperi oculos tllos</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="CH-Fco_Ms._2_154r_l013">
+        <Coords points="281,684 280,712 421,713 423,686 422,667 281,662 281,684" />
+        <Baseline points="280,713 423,713" />
+        <Word id="CH-Fco_Ms._2_154r_l013_w000" custom="source:gt;">
+          <Coords points="280,684 423,686 423,713 280,712" />
+          <TextEquiv>
+            <Unicode>vide</Unicode>
+          </TextEquiv>
+        </Word>
+        <TextEquiv>
+          <Unicode>tribulatio</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="CH-Fco_Ms._2_154r_l014">
+        <Coords points="566,664 565,664 557,664 548,664 539,665 530,665 521,665 512,665 503,665 503,688 503,718 591,714 591,688 591,672 573,672 567,665 567,664 566,664" />
+        <Baseline points="503,718 591,718" />
+        <Word id="CH-Fco_Ms._2_154r_l014_w000" custom="source:gt;">
+          <Coords points="503,665 587,672 587,714 503,688" />
+          <TextEquiv>
+            <Unicode>tribulationem</Unicode>
+          </TextEquiv>
+        </Word>
+        <TextEquiv>
+          <Unicode>nem</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="CH-Fco_Ms._2_154r_l015">
+        <Coords points="893,675 888,671 876,668 875,668 874,668 814,673 807,667 802,667 793,667 784,667 775,667 766,667 757,664 755,664 743,669 734,664 733,664 732,664 697,664 696,664 695,664 676,672 676,688 675,719 895,719 896,690 896,679 893,675" />
+        <Baseline points="675,719 896,719" />
+        <Word id="CH-Fco_Ms._2_154r_l015_w000" custom="source:gt;">
+          <Coords points="675,672 835,671 835,678 675,719" />
+          <TextEquiv>
+            <Unicode>nostram</Unicode>
+          </TextEquiv>
+        </Word>
+        <Word id="CH-Fco_Ms._2_154r_l015_w001" custom="source:gt;">
+          <Coords points="835,671 896,671 896,679 835,678" />
+          <TextEquiv>
+            <Unicode>Qui</Unicode>
+          </TextEquiv>
+        </Word>
+        <TextEquiv>
+          <Unicode>stramx ui</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="CH-Fco_Ms._2_154r_l016">
+        <Coords points="128,765 126,787 187,791 190,768 190,746 128,742 128,765" />
+        <Baseline points="126,791 190,791" />
+        <Word id="CH-Fco_Ms._2_154r_l016_w000" custom="source:gt;">
+          <Coords points="126,765 190,746 190,768 126,787" />
+          <TextEquiv>
+            <Unicode>regis</Unicode>
+          </TextEquiv>
+        </Word>
+        <TextEquiv>
+          <Unicode>Regis</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="CH-Fco_Ms._2_154r_l017">
+        <Coords points="239,768 238,776 336,783 337,783 433,779 447,784 448,784 449,784 530,780 544,784 545,784 546,785 821,785 822,774 821,754 647,754 643,749 643,748 642,748 641,748 640,748 537,752 534,747 533,747 533,747 532,747 531,747 530,747 472,751 411,746 410,746 339,750 328,745 327,745 239,745 239,768" />
+        <Baseline points="238,785 822,785" />
+        <Word id="CH-Fco_Ms._2_154r_l017_w000" custom="source:gt;">
+          <Coords points="238,745 350,749 350,782 238,776" />
+          <TextEquiv>
+            <Unicode>israhel</Unicode>
+          </TextEquiv>
+        </Word>
+        <Word id="CH-Fco_Ms._2_154r_l017_w001" custom="source:gt;">
+          <Coords points="350,749 462,750 462,783 350,782" />
+          <TextEquiv>
+            <Unicode>intende</Unicode>
+          </TextEquiv>
+        </Word>
+        <Word id="CH-Fco_Ms._2_154r_l017_w002" custom="source:gt;">
+          <Coords points="462,750 518,748 518,781 462,783" />
+          <TextEquiv>
+            <Unicode>qui</Unicode>
+          </TextEquiv>
+        </Word>
+        <Word id="CH-Fco_Ms._2_154r_l017_w003" custom="source:gt;">
+          <Coords points="518,748 630,748 630,785 518,781" />
+          <TextEquiv>
+            <Unicode>deducis</Unicode>
+          </TextEquiv>
+        </Word>
+        <Word id="CH-Fco_Ms._2_154r_l017_w004" custom="source:gt;">
+          <Coords points="630,748 714,754 714,785 630,785" />
+          <TextEquiv>
+            <Unicode>velut</Unicode>
+          </TextEquiv>
+        </Word>
+        <Word id="CH-Fco_Ms._2_154r_l017_w005" custom="source:gt;">
+          <Coords points="714,754 784,754 784,785 714,785" />
+          <TextEquiv>
+            <Unicode>ovem</Unicode>
+          </TextEquiv>
+        </Word>
+        <Word id="CH-Fco_Ms._2_154r_l017_w006" custom="source:gt;">
+          <Coords points="784,754 822,754 822,774 784,785" />
+          <TextEquiv>
+            <Unicode>io</Unicode>
+          </TextEquiv>
+        </Word>
+        <TextEquiv>
+          <Unicode>Israhel inten de qui deducis velunt</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="CH-Fco_Ms._2_154r_l018">
+        <Coords points="123,861 122,879 302,884 303,884 304,884 328,873 433,873 434,863 434,844 405,837 404,837 403,837 324,839 313,832 312,832 311,832 310,832 287,844 238,844 212,834 212,834 211,834 210,834 192,840 182,831 181,831 180,831 123,831 123,861" />
+        <Baseline points="122,884 434,884" />
+        <Word id="CH-Fco_Ms._2_154r_l018_w000" custom="source:gt;">
+          <Coords points="122,831 207,835 207,872 122,879" />
+          <TextEquiv>
+            <Unicode>seph</Unicode>
+          </TextEquiv>
+        </Word>
+        <Word id="CH-Fco_Ms._2_154r_l018_w001" custom="source:gt;">
+          <Coords points="207,835 326,839 326,874 207,872" />
+          <TextEquiv>
+            <Unicode>Aspice</Unicode>
+          </TextEquiv>
+        </Word>
+        <Word id="CH-Fco_Ms._2_154r_l018_w002" custom="source:gt;">
+          <Coords points="326,839 434,844 434,863 326,874" />
+          <TextEquiv>
+            <Unicode>domine</Unicode>
+          </TextEquiv>
+        </Word>
+        <TextEquiv>
+          <Unicode>Sephrspicedo</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="CH-Fco_Ms._2_154r_l019">
+        <Coords points="463,862 462,869 498,876 498,876 499,876 500,876 509,871 563,876 564,876 565,876 578,871 590,876 590,876 681,877 682,877 682,877 683,877 683,876 689,872 715,877 716,877 778,876 779,864 779,845 763,839 762,839 761,839 727,844 706,839 705,839 645,839 645,839 644,839 628,845 596,839 595,839 556,844 463,840 463,862" />
+        <Baseline points="462,877 779,877" />
+        <Word id="CH-Fco_Ms._2_154r_l019_w000" custom="source:gt;">
+          <Coords points="462,840 552,844 552,875 462,869" />
+          <TextEquiv>
+            <Unicode>quia</Unicode>
+          </TextEquiv>
+        </Word>
+        <Word id="CH-Fco_Ms._2_154r_l019_w001" custom="source:gt;">
+          <Coords points="552,844 660,839 660,877 552,875" />
+          <TextEquiv>
+            <Unicode>facta</Unicode>
+          </TextEquiv>
+        </Word>
+        <Word id="CH-Fco_Ms._2_154r_l019_w002" custom="source:gt;">
+          <Coords points="660,839 732,843 732,877 660,877" />
+          <TextEquiv>
+            <Unicode>est</Unicode>
+          </TextEquiv>
+        </Word>
+        <Word id="CH-Fco_Ms._2_154r_l019_w003" custom="source:gt;">
+          <Coords points="732,843 779,845 779,864 732,877" />
+          <TextEquiv>
+            <Unicode>de</Unicode>
+          </TextEquiv>
+        </Word>
+        <TextEquiv>
+          <Unicode>ne quia facta est</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="CH-Fco_Ms._2_154r_l020">
+        <Coords points="122,949 121,956 275,958 290,968 291,968 292,968 343,969 344,970 424,970 424,969 425,969 426,969 426,968 436,959 449,959 458,965 459,965 460,965 461,965 519,960 555,966 556,966 557,966 558,966 564,960 565,952 565,933 529,933 524,928 524,927 523,927 522,927 521,927 520,927 508,933 478,933 464,927 463,927 462,927 391,931 343,925 342,925 341,925 341,925 332,931 304,931 299,926 299,925 298,925 297,925 296,925 265,930 232,924 231,924 230,924 212,930 187,924 186,924 185,924 170,929 165,924 164,924 163,924 162,924 161,924 146,929 122,925 122,949" />
+        <Baseline points="121,970 565,970" />
+        <Word id="CH-Fco_Ms._2_154r_l020_w000" custom="source:gt;">
+          <Coords points="121,925 184,924 184,953 121,956" />
+          <TextEquiv>
+            <Unicode>solata</Unicode>
+          </TextEquiv>
+        </Word>
+        <Word id="CH-Fco_Ms._2_154r_l020_w001" custom="source:gt;">
+          <Coords points="184,924 256,928 256,957 184,953" />
+          <TextEquiv>
+            <Unicode>civitas</Unicode>
+          </TextEquiv>
+        </Word>
+        <Word id="CH-Fco_Ms._2_154r_l020_w002" custom="source:gt;">
+          <Coords points="256,928 310,931 310,968 256,957" />
+          <TextEquiv>
+            <Unicode>plena</Unicode>
+          </TextEquiv>
+        </Word>
+        <Word id="CH-Fco_Ms._2_154r_l020_w003" custom="source:gt;">
+          <Coords points="310,931 391,931 391,970 310,968" />
+          <TextEquiv>
+            <Unicode>diviciis</Unicode>
+          </TextEquiv>
+        </Word>
+        <Word id="CH-Fco_Ms._2_154r_l020_w004" custom="source:gt;">
+          <Coords points="391,931 445,928 445,959 391,970" />
+          <TextEquiv>
+            <Unicode>Sedet</Unicode>
+          </TextEquiv>
+        </Word>
+        <Word id="CH-Fco_Ms._2_154r_l020_w005" custom="source:gt;">
+          <Coords points="445,928 472,930 472,964 445,959" />
+          <TextEquiv>
+            <Unicode>in</Unicode>
+          </TextEquiv>
+        </Word>
+        <Word id="CH-Fco_Ms._2_154r_l020_w006" custom="source:gt;">
+          <Coords points="472,930 562,933 562,962 472,964" />
+          <TextEquiv>
+            <Unicode>tristicia</Unicode>
+          </TextEquiv>
+        </Word>
+        <TextEquiv>
+          <Unicode>solata civitas ple</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="CH-Fco_Ms._2_154r_l021">
+        <Coords points="124,1028 123,1038 231,1040 233,1030 232,1011 124,1008 124,1028" />
+        <Baseline points="123,1040 233,1040" />
+        <Word id="CH-Fco_Ms._2_154r_l021_w000" custom="source:gt;">
+          <Coords points="123,1008 233,1011 233,1030 123,1038" />
+          <TextEquiv>
+            <Unicode>domina</Unicode>
+          </TextEquiv>
+        </Word>
+        <TextEquiv>
+          <Unicode>domina</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="CH-Fco_Ms._2_154r_l022">
+        <Coords points="124,1120 123,1129 217,1131 219,1122 219,1101 172,1093 171,1093 124,1098 124,1120" />
+        <Baseline points="123,1131 219,1131" />
+        <Word id="CH-Fco_Ms._2_154r_l022_w000" custom="source:gt;">
+          <Coords points="123,1098 219,1101 219,1122 123,1129" />
+          <TextEquiv>
+            <Unicode>nisi</Unicode>
+          </TextEquiv>
+        </Word>
+        <TextEquiv>
+          <Unicode>nisitu</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="CH-Fco_Ms._2_154r_l023">
+        <Coords points="281,1032 280,1056 408,1058 409,1058 410,1058 411,1058 424,1047 484,1048 486,1033 486,1013 478,1013 466,1001 466,1000 465,1000 464,1000 396,1000 395,1000 394,1000 393,1000 376,1011 281,1011 281,1032" />
+        <Baseline points="280,1058 486,1058" />
+        <Word id="CH-Fco_Ms._2_154r_l023_w000" custom="source:gt;">
+          <Coords points="280,1011 424,1000 424,1047 280,1056" />
+          <TextEquiv>
+            <Unicode>gencium</Unicode>
+          </TextEquiv>
+        </Word>
+        <Word id="CH-Fco_Ms._2_154r_l023_w001" custom="source:gt;">
+          <Coords points="424,1000 486,1013 486,1033 424,1047" />
+          <TextEquiv>
+            <Unicode>Non</Unicode>
+          </TextEquiv>
+        </Word>
+        <TextEquiv>
+          <Unicode>gentuum . Nos</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="CH-Fco_Ms._2_154r_l024">
+        <Coords points="517,1033 516,1046 709,1046 772,1051 774,1037 774,1014 517,1001 517,1033" />
+        <Baseline points="516,1051 774,1051" />
+        <Word id="CH-Fco_Ms._2_154r_l024_w000" custom="source:gt;">
+          <Coords points="516,1001 572,1004 572,1037 516,1046" />
+          <TextEquiv>
+            <Unicode>est</Unicode>
+          </TextEquiv>
+        </Word>
+        <Word id="CH-Fco_Ms._2_154r_l024_w001" custom="source:gt;">
+          <Coords points="572,1004 628,1007 628,1041 572,1037" />
+          <TextEquiv>
+            <Unicode>qui</Unicode>
+          </TextEquiv>
+        </Word>
+        <Word id="CH-Fco_Ms._2_154r_l024_w002" custom="source:gt;">
+          <Coords points="628,1007 774,1014 774,1037 628,1041" />
+          <TextEquiv>
+            <Unicode>consoletur</Unicode>
+          </TextEquiv>
+        </Word>
+        <TextEquiv>
+          <Unicode>est qui consoletur e</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="CH-Fco_Ms._2_154r_l025">
+        <Coords points="881,1033 877,1025 847,1020 846,1020 827,1024 827,1041 826,1050 881,1055 883,1042 882,1037 881,1033" />
+        <Baseline points="826,1055 883,1055" />
+        <Word id="CH-Fco_Ms._2_154r_l025_w000" custom="source:gt;">
+          <Coords points="826,1024 883,1033 883,1042 826,1050" />
+          <TextEquiv>
+            <Unicode>eam</Unicode>
+          </TextEquiv>
+        </Word>
+        <TextEquiv>
+          <Unicode>am</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="CH-Fco_Ms._2_154r_l026">
+        <Coords points="290,1123 289,1154 504,1163 505,1163 589,1161 590,1161 603,1153 613,1155 614,1155 615,1155 616,1155 637,1141 885,1144 887,1134 886,1112 639,1102 638,1102 606,1108 581,1108 575,1103 575,1102 574,1102 573,1102 572,1102 503,1105 495,1100 494,1100 493,1100 492,1100 491,1100 490,1100 482,1106 393,1106 370,1098 369,1098 369,1098 334,1102 329,1098 328,1098 327,1098 326,1098 325,1098 324,1098 318,1102 313,1098 313,1098 313,1098 312,1098 290,1098 290,1123" />
+        <Baseline points="289,1163 887,1163" />
+        <Word id="CH-Fco_Ms._2_154r_l026_w000" custom="source:gt;">
+          <Coords points="289,1098 337,1102 337,1132 289,1154" />
+          <TextEquiv>
+            <Unicode>tu</Unicode>
+          </TextEquiv>
+        </Word>
+        <Word id="CH-Fco_Ms._2_154r_l026_w001" custom="source:gt;">
+          <Coords points="337,1102 417,1106 417,1147 337,1132" />
+          <TextEquiv>
+            <Unicode>deus</Unicode>
+          </TextEquiv>
+        </Word>
+        <Word id="CH-Fco_Ms._2_154r_l026_w002" custom="source:gt;">
+          <Coords points="417,1106 545,1103 545,1162 417,1147" />
+          <TextEquiv>
+            <Unicode>Plorans</Unicode>
+          </TextEquiv>
+        </Word>
+        <Word id="CH-Fco_Ms._2_154r_l026_w003" custom="source:gt;">
+          <Coords points="545,1103 689,1104 689,1142 545,1162" />
+          <TextEquiv>
+            <Unicode>ploravit</Unicode>
+          </TextEquiv>
+        </Word>
+        <Word id="CH-Fco_Ms._2_154r_l026_w004" custom="source:gt;">
+          <Coords points="689,1104 737,1106 737,1142 689,1142" />
+          <TextEquiv>
+            <Unicode>in</Unicode>
+          </TextEquiv>
+        </Word>
+        <Word id="CH-Fco_Ms._2_154r_l026_w005" custom="source:gt;">
+          <Coords points="737,1106 833,1110 833,1143 737,1142" />
+          <TextEquiv>
+            <Unicode>nocte</Unicode>
+          </TextEquiv>
+        </Word>
+        <Word id="CH-Fco_Ms._2_154r_l026_w006" custom="source:gt;">
+          <Coords points="833,1110 881,1112 881,1144 833,1143" />
+          <TextEquiv>
+            <Unicode>et</Unicode>
+          </TextEquiv>
+        </Word>
+        <TextEquiv>
+          <Unicode>ploravit invocte et</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="CH-Fco_Ms._2_154r_l027">
+        <Coords points="128,1184 128,1209 127,1218 273,1223 274,1223 313,1218 314,1212 313,1193 288,1193 280,1186 280,1185 279,1185 278,1185 277,1185 276,1185 256,1192 230,1183 229,1183 228,1183 227,1183 226,1183 218,1190 188,1183 129,1183 128,1184" />
+        <Baseline points="127,1223 314,1223" />
+        <Word id="CH-Fco_Ms._2_154r_l027_w000" custom="source:gt;">
+          <Coords points="127,1184 223,1186 223,1218 127,1218" />
+          <TextEquiv>
+            <Unicode>lacrime</Unicode>
+          </TextEquiv>
+        </Word>
+        <Word id="CH-Fco_Ms._2_154r_l027_w001" custom="source:gt;">
+          <Coords points="223,1186 283,1188 283,1222 223,1218" />
+          <TextEquiv>
+            <Unicode>eius</Unicode>
+          </TextEquiv>
+        </Word>
+        <Word id="CH-Fco_Ms._2_154r_l027_w002" custom="source:gt;">
+          <Coords points="283,1188 314,1193 314,1212 283,1222" />
+          <TextEquiv>
+            <Unicode>in</Unicode>
+          </TextEquiv>
+        </Word>
+        <TextEquiv>
+          <Unicode>lacrine ejus</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="CH-Fco_Ms._2_154r_l028">
+        <Coords points="368,1213 368,1221 460,1220 460,1213 460,1192 387,1186 387,1186 386,1186 368,1191 368,1213" />
+        <Baseline points="368,1221 460,1221" />
+        <Word id="CH-Fco_Ms._2_154r_l028_w000" custom="source:gt;">
+          <Coords points="368,1191 460,1192 460,1213 368,1213" />
+          <TextEquiv>
+            <Unicode>maxillis</Unicode>
+          </TextEquiv>
+        </Word>
+        <TextEquiv>
+          <Unicode>Xillis</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="CH-Fco_Ms._2_154r_l029">
+        <Coords points="687,1186 678,1183 674,1181 593,1181 588,1182 579,1184 570,1185 561,1186 552,1187 552,1215 551,1227 694,1224 695,1217 692,1188 687,1186" />
+        <Baseline points="551,1227 695,1227" />
+        <Word id="CH-Fco_Ms._2_154r_l029_w000" custom="source:gt;">
+          <Coords points="551,1187 641,1181 641,1221 551,1227" />
+          <TextEquiv>
+            <Unicode>eius</Unicode>
+          </TextEquiv>
+        </Word>
+        <Word id="CH-Fco_Ms._2_154r_l029_w001" custom="source:gt;">
+          <Coords points="641,1181 695,1188 695,1217 641,1221" />
+          <TextEquiv>
+            <Unicode>Non</Unicode>
+          </TextEquiv>
+        </Word>
+        <TextEquiv>
+          <Unicode>jus . non</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="CH-Fco_Ms._2_154r_l030">
+        <Coords points="739,1191 730,1190 730,1217 729,1246 760,1247 772,1259 772,1260 773,1260 774,1260 775,1261 810,1261 811,1218 810,1198 740,1191 739,1191" />
+        <Baseline points="729,1261 811,1261" />
+        <Word id="CH-Fco_Ms._2_154r_l030_w000" custom="source:gt;">
+          <Coords points="729,1190 811,1218 811,1261 729,1246" />
+          <TextEquiv>
+            <Unicode>est</Unicode>
+          </TextEquiv>
+        </Word>
+        <TextEquiv>
+          <Unicode>elt</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="CH-Fco_Ms._2_154r_l031">
+        <Coords points="858,1221 856,1261 875,1256 876,1222 876,1201 858,1199 858,1221" />
+        <Baseline points="856,1261 876,1261" />
+        <Word id="CH-Fco_Ms._2_154r_l031_w000" custom="source:gt;">
+          <Coords points="856,1221 876,1201 876,1256 856,1261" />
+          <TextEquiv>
+            <Unicode>su</Unicode>
+          </TextEquiv>
+        </Word>
+        <TextEquiv>
+          <Unicode />
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="CH-Fco_Ms._2_154r_l032">
+        <Coords points="123,1297 122,1336 198,1333 497,1341 498,1301 498,1282 423,1275 422,1275 372,1281 363,1275 362,1275 361,1275 360,1275 277,1280 223,1280 207,1273 206,1273 205,1273 204,1273 203,1273 197,1279 129,1273 129,1273 128,1273 127,1273 123,1275 123,1297" />
+        <Baseline points="122,1341 498,1341" />
+        <Word id="CH-Fco_Ms._2_154r_l032_w000" custom="source:gt;">
+          <Coords points="122,1275 162,1276 162,1316 122,1336" />
+          <TextEquiv>
+            <Unicode>per</Unicode>
+          </TextEquiv>
+        </Word>
+        <Word id="CH-Fco_Ms._2_154r_l032_w001" custom="source:gt;">
+          <Coords points="162,1276 222,1280 222,1334 162,1316" />
+          <TextEquiv>
+            <Unicode>muros</Unicode>
+          </TextEquiv>
+        </Word>
+        <Word id="CH-Fco_Ms._2_154r_l032_w002" custom="source:gt;">
+          <Coords points="222,1280 272,1280 272,1335 222,1334" />
+          <TextEquiv>
+            <Unicode>tuos</Unicode>
+          </TextEquiv>
+        </Word>
+        <Word id="CH-Fco_Ms._2_154r_l032_w003" custom="source:gt;">
+          <Coords points="272,1280 382,1280 382,1338 272,1335" />
+          <TextEquiv>
+            <Unicode>iherusalem</Unicode>
+          </TextEquiv>
+        </Word>
+        <Word id="CH-Fco_Ms._2_154r_l032_w004" custom="source:gt;">
+          <Coords points="382,1280 482,1281 482,1341 382,1338" />
+          <TextEquiv>
+            <Unicode>constitui</Unicode>
+          </TextEquiv>
+        </Word>
+        <TextEquiv>
+          <Unicode>permutos tuos ipensalem</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="CH-Fco_Ms._2_154r_l033">
+        <Coords points="534,1304 534,1336 728,1335 728,1304 728,1282 534,1282 534,1304" />
+        <Baseline points="534,1336 728,1336" />
+        <Word id="CH-Fco_Ms._2_154r_l033_w000" custom="source:gt;">
+          <Coords points="534,1304 660,1304 660,1335 534,1336" />
+          <TextEquiv>
+            <Unicode>custodes</Unicode>
+          </TextEquiv>
+        </Word>
+        <Word id="CH-Fco_Ms._2_154r_l033_w001" custom="source:gt;">
+          <Coords points="660,1304 728,1282 728,1335 660,1335" />
+          <TextEquiv>
+            <Unicode>Tota</Unicode>
+          </TextEquiv>
+        </Word>
+        <TextEquiv>
+          <Unicode>constitra custo</Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+  </Page>
+</PcGts>

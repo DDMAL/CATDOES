@@ -1,0 +1,211 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'meam inlatus ejus et dici dominus meus et Deus meus alie'
+  [fused_1] 'ultaquidem et alia signa fecit Jhesus ne'
+  [fused_2] 'consrectu discipillorum suorum Allelvya que non sunt scrip'
+  [fused_3] 'tai libro c eet autem scripta sunt'
+  [fused_4] 'ncatis aiess esDei et ut creden'
+  [fused_5] 'tes vitam oato osfi in nomine ipsius Alleluya evovae'
+  [fused_6] 'cissime ad Seluya Aveluya Allelilya eovac'
+  [fused_7] 'Nelnya Alleluya alleluya at'
+  [fused_8] 'Lelnya exore adnas G. diat insipies cum relias ncluma Allelvya Alleluya evovae'
+  [fused_9] 'G. Gamilirtus dis cpituli allaa'
+  [fused_10] 'P. sili domino edifi ad velpm antem cumrelicurs fa Eluya Alleluya Alleluya evovae Salvum me'
+  [fused_11] 'ad noctaio c. Li. G. Surres'
+  [fused_12] 'Nelnya Allelnya Alleluya evovae'
+  [fused_13] 'Mcmo dii d'
+  [fused_14] 'Nelnya Alleluya Allelumpa evovae'
+  [fused_15] ' lenys alelina alelin crome'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'meam inlatus ejus et dici dominus meus et Deus meus alie'
+  Assigned: 'meam in latus eius et dixi dominus meus et deus meus alleluya'
+  Words:    [0..12) consumed=12
+  NW score: k=12 (pre-snap), norm=6.3819
+  Anchor:   word 21 (within_chant_7), diff=9, snapped=False, forced=False
+  Alignment:
+    target            0 meam in-latus ejus et dici dominus meus et Deus meus alie---
+                      0 ||||
+    query             0 meam in latus eius et dixi dominus meus et deus meus alleluy
+    
+    target           56 - 56
+                      4 -  5
+    query            60 a 61
+
+-- fused_1 --
+  OCR:      'ultaquidem et alia signa fecit Jhesus ne'
+  Assigned: 'euouae Multa quidem et alia signa fecit ihesus in'
+  Words:    [12..21) consumed=9
+  NW score: k=9 (pre-snap), norm=5.6469
+  Anchor:   word 21 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 --------ulta-quidem et alia signa fecit Jhesus -ne 40
+                      0 --------||||-|||||| 19
+    query             0 euouae Multa quidem et alia signa fecit ihesus in- 49
+
+-- fused_2 --
+  OCR:      'consrectu discipillorum suorum Allelvya que non sunt scrip'
+  Assigned: 'conspectu discipulorum suorum alleluya que non sunt scrip'
+  Words:    [21..29) consumed=8
+  NW score: k=8 (pre-snap), norm=6.6156
+  Anchor:   word 29 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 consrectu discipillorum suorum Allelvya que non sunt scrip--
+                      0 ||||.||||
+    query             0 conspectu discip-ulorum suorum alleluya que non sunt scripta
+    
+    target           58 
+                      9 
+    query            59 
+
+-- fused_3 --
+  OCR:      'tai libro c eet autem scripta sunt'
+  Assigned: 'ta in libro hoc alleluya euouae Hec autem scripta sunt'
+  Words:    [29..38) consumed=9
+  NW score: k=9 (pre-snap), norm=3.8423
+  Anchor:   word 38 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 tai- libro --c --------------e--et autem scripta sunt 34
+                      0 --|-  4
+    query             0 --in libro hoc alleluya euouae Hec autem scripta sunt 51
+
+-- fused_4 --
+  OCR:      'ncatis aiess esDei et ut creden'
+  Assigned: 'ut credatis quia ihesus est xpistus filius dei et ut creden'
+  Words:    [38..49) consumed=11
+  NW score: k=11 (pre-snap), norm=2.2126
+  Anchor:   word 49 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 --nc---atis ---a-i-es-s es-----------------Dei et ut creden-
+                      0 --.|---||||
+    query             0 ut credatis quia ihesus est xpistus filius dei et ut credent
+    
+    target           31 -- 31
+                     11 -- 13
+    query            60 es 62
+
+-- fused_5 --
+  OCR:      'tes vitam oato osfi in nomine ipsius Alleluya evovae'
+  Assigned: 'tes vitam habeatis in nomine ipsius alleluya euouae'
+  Words:    [49..56) consumed=7
+  NW score: k=7 (pre-snap), norm=4.8142
+  Anchor:   word 56 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 tes vitam ---oato osfi in nomine ipsius Alleluya evovae 52
+                      0 ----|||||  9
+    query             0 ----vitam habeat--is-- in nomine ipsius alleluya euouae 47
+
+-- fused_6 --
+  OCR:      'cissime ad Seluya Aveluya Allelilya eovac'
+  Assigned: 'Alleluya alleluya alleluya euouae'
+  Words:    [56..60) consumed=4
+  NW score: k=4 (pre-snap), norm=2.1477
+  Anchor:   word 60 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 cissime ad Seluya -Aveluya Allelilya e-ovac 41
+                      0 ---------...||||| 17
+    query             0 ---------Alleluya alleluya allel-uya euouae 33
+
+-- fused_7 --
+  OCR:      'Nelnya Alleluya alleluya at'
+  Assigned: '~Dixit custodiam Alleluya alleluya alleluya al'
+  Words:    [60..66) consumed=6
+  NW score: k=4 (pre-snap), norm=2.5084
+  Anchor:   word 66 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 -------------------Nelnya Alleluya alleluya a------t 27
+                      0 -------------------.||.|| 25
+    query             0 ~Dixit custodiam Alleluya alleluya alleluya alleluya 52
+
+-- fused_8 --
+  OCR:      'Lelnya exore adnas G. diat insipies cum relias ncluma Allelvya Alleluya evovae'
+  Assigned: 'leluya euoue ~Letatus sum Alleluya alleluya alleluya euouae'
+  Words:    [66..73) consumed=7
+  NW score: k=7 (pre-snap), norm=1.5859
+  Anchor:   word 79 (within_chant_7), diff=6, snapped=False, forced=False
+  Alignment:
+    target            0 Lelnya exore adnas G. diat insipies cum relias ncluma Allelv
+                      0 -------|.|.|
+    query             0 -------euoue -------~Letat-------us sum All-----eluya allelu
+    
+    target           60 ya Alleluya evovae 78
+                     12 || 14
+    query            34 ya alleluya euouae 52
+
+-- fused_9 --
+  OCR:      'G. Gamilirtus dis cpituli allaa'
+  Assigned: '~Dixit insipiens Alleluya alleluya alleluya euouae'
+  Words:    [73..79) consumed=6
+  NW score: k=4 (pre-snap), norm=-0.7084
+  Anchor:   word 79 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 G. Gamilirtus di-s cpi--------tu-------l--i all----a-----a-
+                      0 ----..|.|-|--
+    query             0 ----~Dixi-t-- -ins-ipiens Alleluya alleluya alleluya euouae
+    
+    target           31
+                     13
+    query            50
+
+-- fused_10 --
+  OCR:      'P. sili domino edifi ad velpm antem cumrelicurs fa Eluya Alleluya Alleluya evovae Salvum me'
+  Assigned: '~Nisi dominus edificavit Alleluya alleluya alleluya euouae ~Salvum me'
+  Words:    [79..88) consumed=9
+  NW score: k=9 (pre-snap), norm=3.2433
+  Anchor:   word 93 (within_chant_7), diff=5, snapped=False, forced=False
+  Alignment:
+    target            0 P. sili domin-o edifi ad velpm antem cumrelicurs fa Eluya Al
+                      0 --..|.|
+    query             0 --~Nisi dominus edifica--v------it-- ----Al--------leluya al
+    
+    target           59 leluya Alleluya evovae -Salvum me 91
+                      7 |||||| 13
+    query            36 leluya alleluya euouae ~Salvum me 69
+
+-- fused_11 --
+  OCR:      'ad noctaio c. Li. G. Surres'
+  Assigned: 'fac Alleluya alleluya alleluya euouae'
+  Words:    [88..93) consumed=5
+  NW score: k=5 (pre-snap), norm=-2.9108
+  Anchor:   word 93 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -ad ---noctaio ------c. --Li. G. Su-rres 27
+                      0 -|.  3
+    query             0 fac Alleluya-- alleluya alleluya euouae- 37
+
+-- fused_12 --
+  OCR:      'Nelnya Allelnya Alleluya evovae'
+  Assigned: '~Memento domine david Alleluya alleluya alleluya euouae'
+  Words:    [93..100) consumed=7
+  NW score: k=7 (pre-snap), norm=1.9617
+  Anchor:   word 100 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ------------------------Nelnya Allelnya Alleluya evovae 31
+                      0 ------------------------.||.|| 30
+    query             0 ~Memento domine david Alleluya alleluya alleluya euouae 55
+
+-- fused_13 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [100..100) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_14 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [100..100) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_15 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [100..100) consumed=0
+  Alignment:
+    (no words left)
+=== END DEBUG ===
+

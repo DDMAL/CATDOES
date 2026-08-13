@@ -1,0 +1,214 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'fitebor nomini tu oto mii ne. Et alten o ncons'
+  [fused_1] 'pectu Angelorum pla ii bi . Et a do Ra'
+  [fused_2] 'bo ad Templum Sanctum'
+  [fused_3] 'nomini domineVu per misericor'
+  [fused_4] 'diam tuam et veritatem tuam quoniam magnificasti super nen'
+  [fused_5] 'nos nomen Sanctum tu . et confi '
+  [fused_6] 'chael prepositus paradisi quem honorificant Angelorum'
+  [fused_7] '.omne'
+  [fused_8] 'tines peorosus apparst in con'
+  [fused_9] 'spectu donum pa petta decorem mdiut te dominis pr . Bn'
+  [fused_10] 'tumus aro aconspretud'
+  [fused_11] 'emmnaite moralib'
+  [fused_12] 'dicam d evovae  ratum Anglica et In conspectu gen'
+  [fused_13] 'cium noli tue re nos emim incordibus vestris'
+  [fused_14] 'anco ra re et tineteco mi num angelus e'
+  [fused_15] 'teius nobis cacami eleis tect Cngelis mne'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'fitebor nomini tu oto mii ne. Et alten o ncons'
+  Assigned: 'nomini tuo domine Et ascendit In cons'
+  Words:    [0..7) consumed=7
+  NW score: k=7 (pre-snap), norm=2.1841
+  Anchor:   word 7 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 fitebor nomini tu oto --mii ne. Et alten- o -n-cons----- 46
+                      0 --------|||||| 14
+    query             0 --------nomini tu---o domi--ne- Et ascendit In conspectu 42
+
+-- fused_1 --
+  OCR:      'pectu Angelorum pla ii bi . Et a do Ra'
+  Assigned: 'pectu angelorum psallam tibi Et adora'
+  Words:    [7..12) consumed=5
+  NW score: k=5 (pre-snap), norm=2.6545
+  Anchor:   word 12 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 pectu Angelorum p---la- ii bi . Et a do Ra-- 38
+                      0 ------.|||||||| 15
+    query             0 ------angelorum psallam ti-bi-- Et a-do-rabo 33
+
+-- fused_2 --
+  OCR:      'bo ad Templum Sanctum'
+  Assigned: 'bo ad templum sanctum tuum Et'
+  Words:    [12..17) consumed=5
+  NW score: k=3 (pre-snap), norm=5.4006
+  Anchor:   word 17 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 bo ad Templum Sanctum-------- 21
+                      0 ---||  5
+    query             0 ---ad templum sanctum tuum Et 26
+
+-- fused_3 --
+  OCR:      'nomini domineVu per misericor'
+  Assigned: 'confitebor nomini tuo domine Super misericor'
+  Words:    [17..23) consumed=6
+  NW score: k=6 (pre-snap), norm=3.4308
+  Anchor:   word 23 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -----------nomini---- domine-Vu per misericor---- 29
+                      0 -----------||||||---- 21
+    query             0 confitebor nomini tuo domine Su-per misericordiam 48
+
+-- fused_4 --
+  OCR:      'diam tuam et veritatem tuam quoniam magnificasti super nen'
+  Assigned: 'diam tuam et veritatem tuam quoniam magnificasti super'
+  Words:    [23..30) consumed=7
+  NW score: k=8 (pre-snap), norm=6.8358
+  Anchor:   word 30 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 diam tuam et veritatem tuam quoniam magnificasti super nen 58
+                      0 -----||||  9
+    query             0 -----tuam et veritatem tuam quoniam magnificasti super---- 49
+
+-- fused_5 --
+  OCR:      'nos nomen Sanctum tu . et confi'
+  Assigned: 'nos nomen sanctum tuum Et'
+  Words:    [30..35) consumed=5
+  NW score: k=6 (pre-snap), norm=5.2984
+  Anchor:   word 35 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 nos nomen Sanctum tu . et confi 31
+                      0 |||  3
+    query             0 nos nomen sanctum tuum Et------ 25
+
+-- fused_6 --
+  OCR:      'chael prepositus paradisi quem honorificant Angelorum'
+  Assigned: 'confitebor Michael archangele veni in adiutorio populo dei ~Celi enarrant euouae Michael prepositus paradisi quem honorificant angelorum'
+  Words:    [35..52) consumed=17
+  NW score: k=17 (pre-snap), norm=1.8610
+  Anchor:   word 37 (within_chant_7), diff=15, snapped=False, forced=False
+  Alignment:
+    target            0 ------------------------------------------------------------
+                      0 ------------------------------------------------------------
+    query             0 confitebor Michael archangele veni in adiutorio populo dei ~
+    
+    target            0 -----------------------chael prepositus paradisi quem honori
+                     60 -----------------------|||||
+    query            60 Celi enarrant euouae Michael prepositus paradisi quem honori
+    
+    target           37 ficant Angelorum  53
+                     88 ||||||  94
+    query           120 ficant angelorum 136
+
+-- fused_7 --
+  OCR:      '.omne'
+  Assigned: 'cives ~Domini'
+  Words:    [52..54) consumed=2
+  NW score: k=2 (pre-snap), norm=-2.2326
+  Anchor:   word 61 (within_chant_7), diff=7, snapped=False, forced=False
+  Alignment:
+    target            0 -------.om-ne  5
+                      0 -------.||-|. 13
+    query             0 cives ~Domini 13
+
+-- fused_8 --
+  OCR:      'tines peorosus apparst in con'
+  Assigned: 'est terra euouae Gloriosus apparuisti in cons'
+  Words:    [54..61) consumed=7
+  NW score: k=7 (pre-snap), norm=2.2585
+  Anchor:   word 61 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 tines- pe-------------or-osus appar--st- in con------ 29
+                      0 ---||-  6
+    query             0 ---est terra euouae Gloriosus apparuisti in conspectu 50
+
+-- fused_9 --
+  OCR:      'spectu donum pa petta decorem mdiut te dominis pr . Bn'
+  Assigned: 'pectu domini proppterea decorem induit te dominus'
+  Words:    [61..67) consumed=6
+  NW score: k=6 (pre-snap), norm=2.1583
+  Anchor:   word 67 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 spectu do--num pa p--etta decorem -md-iut te dominis pr . Bn
+                      0 -------||--|-.
+    query             0 -------domin-i proppterea decorem indui-t te dominus--------
+    
+    target           54 
+                     14 
+    query            43 
+
+-- fused_10 --
+  OCR:      'tumus aro aconspretud'
+  Assigned: '~Benedicam dominum euouae In conspectu gen'
+  Words:    [67..73) consumed=6
+  NW score: k=5 (pre-snap), norm=-0.4602
+  Anchor:   word 73 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 -----------tum--us aro a-----conspre-t-------ud 21
+                      0 -----------..|--|. 18
+    query             0 ~Benedicam dominum euouae In consp-ectu gencium 46
+
+-- fused_11 --
+  OCR:      'emmnaite moralib'
+  Assigned: 'cium nolite metuere vos enim in cordibus vestris'
+  Words:    [73..80) consumed=7
+  NW score: k=2 (pre-snap), norm=-0.3341
+  Anchor:   word 80 (within_chant_7), diff=5, snapped=False, forced=True
+  Alignment:
+    target            0 emmn-aite m--------------------oralib---------- 16
+                      0 ---|-.|||  9
+    query             0 ---nolite metuere vos enim in cor-dibus vestris 43
+
+-- fused_12 --
+  OCR:      'dicam d evovae  ratum Anglica et In conspectu gen'
+  Assigned: 'adorare et timete dominum Angelus e'
+  Words:    [80..86) consumed=6
+  NW score: k=9 (pre-snap), norm=-0.4200
+  Anchor:   word 86 (within_chant_7), diff=3, snapped=False, forced=True
+  Alignment:
+    target            0 dicam d evova-e -- --rat-------um Anglica et In conspectu ge
+                      0 ---|--|---|.|-|
+    query             0 ---a--d---orare et timete dominum Ang-----e------lus----- -e
+    
+    target           48 n-- 49
+                     15 |-- 18
+    query            35 nim 38
+
+-- fused_13 --
+  OCR:      'cium noli tue re nos emim incordibus vestris'
+  Assigned: 'nim eius vobiscum est Stetit angelus iux'
+  Words:    [86..92) consumed=6
+  NW score: k=7 (pre-snap), norm=-0.0230
+  Anchor:   word 92 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 cium noli tue re nos- --emim incordibus vestris 44
+                      0 .||.  4
+    query             0 eius vobiscum -e---st Stetit an---gelus iuxt--a 38
+
+-- fused_14 --
+  OCR:      'anco ra re et tineteco mi num angelus e'
+  Assigned: 'ta aram templi habens turibulum aureum in manu sua'
+  Words:    [92..100) consumed=8
+  NW score: k=9 (pre-snap), norm=0.1080
+  Anchor:   word 100 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 anco ra- re---- ---e-t t--i------neteco mi num angelu-s e 39
+                      0 |----||-  8
+    query             0 a----ram templi habens turibulum aureum -i-n m-an---u sua 47
+
+-- fused_15 --
+  OCR:      'teius nobis cacami eleis tect Cngelis mne'
+  Assigned: 'Angelus'
+  Words:    [100..101) consumed=1
+  NW score: k=1 (pre-snap), norm=-4.7223
+  Alignment:
+    target            0 teius nobis cacami eleis tect Cngelis mne 41
+                      0 ------------------------------.||||.|---- 41
+    query             0 ------------------------------Angelus----  7
+=== END DEBUG ===
+

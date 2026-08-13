@@ -1,0 +1,163 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'miis Eovae on repellet dominus plebem suam'
+  [fused_1] 'quam manu ejus suntomnes fines terrevenite exulte'
+  [fused_2] 'le Aralitua pharetram et '
+  [fused_3] 'et af fer de venationetu a utco'
+  [fused_4] 'dam Et benedicat ti bi me'
+  [fused_5] 'umque nenati alquiid attile non fac micui repu'
+  [fused_6] 'mentum ut co me .omi Etbene'
+  [fused_7] 'tor filii me insicut qu dor  ple i'
+  [fused_8] 'pem deneoi Xt nus crescere te'
+  [fused_9] 'faci atte nome us sicut a renamaris . et do'
+  [fused_10] 'net tibi de Rore ce bene dicti'
+  [fused_11] 'onem ens autem omnipotens benedicat ti'
+  [fused_12] 'Vi atqemulti pcet. Etconet  ern'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'miis Eovae on repellet dominus plebem suam'
+  Assigned: 'euouae Non repellet dominus plebem suam'
+  Words:    [0..6) consumed=6
+  NW score: k=6 (pre-snap), norm=5.9794
+  Anchor:   word 6 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 miis Eovae -on repellet dominus plebem suam 42
+                      0 ----..|.|| 10
+    query             0 ----euouae Non repellet dominus plebem suam 39
+
+-- fused_1 --
+  OCR:      'quam manu ejus suntomnes fines terrevenite exulte'
+  Assigned: 'quia in manu eius sunt omnes fines terre ~Venite'
+  Words:    [6..15) consumed=9
+  NW score: k=10 (pre-snap), norm=5.7400
+  Anchor:   word 15 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 qu-a--m manu ejus sunt-omnes fines terre--venite exulte 49
+                      0 ||-|--.  7
+    query             0 quia in manu eius sunt omnes fines terre ~Veni-------te 48
+
+-- fused_2 --
+  OCR:      'le Aralitua pharetram et'
+  Assigned: 'exultemus Tolle arma tua pharetram et arcum'
+  Words:    [15..22) consumed=7
+  NW score: k=6 (pre-snap), norm=3.3893
+  Anchor:   word 22 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 -------------le Ar-alitua pharetram et------ 24
+                      0 -------------|| 15
+    query             0 exultemus Tolle arma- tua pharetram et arcum 43
+
+-- fused_3 --
+  OCR:      'et af fer de venationetu a utco'
+  Assigned: 'et affer de venatione tua ut co'
+  Words:    [22..29) consumed=7
+  NW score: k=6 (pre-snap), norm=6.2793
+  Anchor:   word 29 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 et af fer de venatione-tu a ut-co----- 31
+                      0 ||  2
+    query             0 et af-fer de venatione tu-a ut comedam 36
+
+-- fused_4 --
+  OCR:      'dam Et benedicat ti bi me'
+  Assigned: 'medam Et benedicat tibi anima mea'
+  Words:    [29..34) consumed=5
+  NW score: k=3 (pre-snap), norm=4.8507
+  Anchor:   word 34 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 dam Et benedicat ti bi------ me- 25
+                      0 ----||  6
+    query             0 ----Et benedicat ti-bi anima mea 27
+
+-- fused_5 --
+  OCR:      'umque nenati alquiid attile non fac micui repu'
+  Assigned: 'Cumque venatu aliquid attuleris fac michi inde pul'
+  Words:    [34..42) consumed=8
+  NW score: k=6 (pre-snap), norm=4.0066
+  Anchor:   word 42 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 -umque nenati al-quiid attile non fac micui --re-pu------- 46
+                      0 -|||||  6
+    query             0 Cumque venatu aliqu-id attule-ris fac michi inde pulmentum 56
+
+-- fused_6 --
+  OCR:      'mentum ut co me .omi Etbene'
+  Assigned: 'mentum ut comedam Et benedicat Ecce odor'
+  Words:    [42..48) consumed=6
+  NW score: k=4 (pre-snap), norm=1.5249
+  Anchor:   word 48 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 mentum ut co me .omi Et-bene--------------- 27
+                      0 -------||  9
+    query             0 -------ut co-me-dam- Et benedicat Ecce odor 33
+
+-- fused_7 --
+  OCR:      'tor filii me insicut qu dor  ple i'
+  Assigned: 'filii mei sicut odor agri pleni quem'
+  Words:    [48..55) consumed=7
+  NW score: k=6 (pre-snap), norm=3.9427
+  Anchor:   word 55 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 tor filii me insicut qu dor ---- ple i----- 34
+                      0 ----|||||  9
+    query             0 ----filii me-i sicut --odor agri pleni quem 36
+
+-- fused_8 --
+  OCR:      'pem deneoi Xt nus crescere te'
+  Assigned: 'benedixit dominus crescere te faciat deus'
+  Words:    [55..61) consumed=6
+  NW score: k=4 (pre-snap), norm=4.0000
+  Anchor:   word 61 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 pem deneoi Xt ----nus crescere te------------ 29
+                      0 ----.|||.|..| 13
+    query             0 ----benedixit dominus crescere te faciat deus 41
+
+-- fused_9 --
+  OCR:      'faci atte nome us sicut a renamaris . et do'
+  Assigned: 'meus sicut arena maris Et donet tibi de'
+  Words:    [61..69) consumed=8
+  NW score: k=6 (pre-snap), norm=3.2594
+  Anchor:   word 69 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 faci atte nome us sicut a rena-maris -. ---et----- do 43
+                      0 ------------||-|| 17
+    query             0 ------------me-us sicut a-rena maris Et donet tibi de 39
+
+-- fused_10 --
+  OCR:      'net tibi de Rore ce bene dicti'
+  Assigned: 'rore celi benedictionem Deus autem'
+  Words:    [69..74) consumed=5
+  NW score: k=3 (pre-snap), norm=1.9035
+  Anchor:   word 74 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 net tibi de Rore ce-- bene dicti--------------- 30
+                      0 ------------.||| 16
+    query             0 ------------rore celi bene-dictionem Deus autem 34
+
+-- fused_11 --
+  OCR:      'onem ens autem omnipotens benedicat ti'
+  Assigned: 'omnipotens benedicat tibi'
+  Words:    [74..77) consumed=3
+  NW score: k=3 (pre-snap), norm=4.0555
+  Anchor:   word 77 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 onem ens autem omnipotens benedicat t--i 38
+                      0 ---------------|||||||||| 25
+    query             0 ---------------omnipotens benedicat tibi 25
+
+-- fused_12 --
+  OCR:      'Vi atqemulti pcet. Etconet  ern'
+  Assigned: 'atque multiplicet Et donet Det tibi'
+  Words:    [77..83) consumed=6
+  NW score: k=5 (pre-snap), norm=3.1480
+  Anchor:   word 83 (page_break_77), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 Vi atq-e-multi p--cet. Et-conet  e----rn 31
+                      0 ---|||-|-|||||-|--|||- 22
+    query             0 ---atque multi-plicet- Et donet Det tibi 35
+=== END DEBUG ===
+

@@ -1,0 +1,183 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'multitudine iniquitatis mee aoniam irritavi iram ii'
+  [fused_1] 'Et ma tum coramte fecnomi'
+  [fused_2] 'am iniquitatem meam ego cognosco et delictum meum con'
+  [fused_3] 'et semper quia tibi so li pecca mi Etma'
+  [fused_4] 'Viv dino seraphini clas istud'
+  [fused_5] 'responsum cantatur in omnibus'
+  [fused_6] 'diebus dominicis vel ad adventum i ecordare domi ne tenstamen'
+  [fused_7] 'ti cuietoie angelo peatuaen ceset jam manus'
+  [fused_8] 'a utnon desoleturter in ce das'
+  [fused_9] 'omnem amam eo sum qi'
+  [fused_10] 'atam eones sunt anno fece'
+  [fused_11] 'runt anvertatur obsecro furor tiuis domine a po'
+  [fused_12] 'tu ut nonaudisti domine dratio.'
+  [fused_13] 'nem semu tu edificarem tem plum nom'
+  [fused_14] 'i a 0 Bencoie et sanctifica comuni'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'multitudine iniquitatis mee aoniam irritavi iram ii'
+  Assigned: 'multitudine iniquitatis mee quoniam irritavi iram'
+  Words:    [0..6) consumed=6
+  NW score: k=6 (pre-snap), norm=7.0214
+  Anchor:   word 13 (within_chant_7), diff=7, snapped=False, forced=False
+  Alignment:
+    target            0 multitudine iniquitatis mee -aoniam irritavi iram ii 51
+                      0 ||||||||||| 11
+    query             0 multitudine iniquitatis mee quoniam irritavi iram--- 49
+
+-- fused_1 --
+  OCR:      'Et ma tum coramte fecnomi'
+  Assigned: 'tuam Et malum coram te feci quoni'
+  Words:    [6..13) consumed=7
+  NW score: k=6 (pre-snap), norm=4.1954
+  Anchor:   word 13 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 -----Et ma tum coram-te fec---nomi-- 25
+                      0 -----||  7
+    query             0 tuam Et ma-lum coram te feci Quoniam 35
+
+-- fused_2 --
+  OCR:      'am iniquitatem meam ego cognosco et delictum meum con'
+  Assigned: 'am iniquitatem meam ego cognosco et delictum meum con'
+  Words:    [13..21) consumed=8
+  NW score: k=8 (pre-snap), norm=7.0566
+  Anchor:   word 21 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 am iniquitatem meam ego cognosco et delictum meum con--- 53
+                      0 ---||||||||||| 14
+    query             0 ---iniquitatem meam ego cognosco et delictum meum contra 53
+
+-- fused_3 --
+  OCR:      'et semper quia tibi so li pecca mi Etma'
+  Assigned: 'tra me est semper quia tibi soli peccavi Et malum'
+  Words:    [21..30) consumed=9
+  NW score: k=8 (pre-snap), norm=5.7179
+  Anchor:   word 30 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 ---e-t semper quia tibi so li pecca mi Et-ma--- 39
+                      0 ---|-|  6
+    query             0 me est semper quia tibi so-li pecca-vi Et malum 45
+
+-- fused_4 --
+  OCR:      'Viv dino seraphini clas istud'
+  Assigned: 'Recordare domine testamen'
+  Words:    [30..33) consumed=3
+  NW score: k=4 (pre-snap), norm=-0.9005
+  Anchor:   word 33 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 ------Viv d--ino se-raphini clas istud 29
+                      0 ------...  9
+    query             0 Recordare domine testa-men---------t-i 27
+
+-- fused_5 --
+  OCR:      'responsum cantatur in omnibus'
+  Assigned: 'ti tui et dic angelo percucienti cesset iam manus'
+  Words:    [33..41) consumed=8
+  NW score: k=8 (pre-snap), norm=-1.6701
+  Anchor:   word 41 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -------------re--sponsum c-ant------atur i-n om-nibus 29
+                      0 -------------.|--.|...|--|-.||------.|-- 40
+    query             0 tui et dic angelo percu--cienti cesset-- iam -man--us 46
+
+-- fused_6 --
+  OCR:      'diebus dominicis vel ad adventum i ecordare domi ne tenstamen'
+  Assigned: 'tua Ut non desoletur terra et ne perdas omnem'
+  Words:    [41..50) consumed=9
+  NW score: k=10 (pre-snap), norm=-0.5149
+  Anchor:   word 50 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 diebu---s dominicis ve--l ad adventum i ecordare domi ne te-
+                      0 ---.|---.
+    query             0 ---tua Ut no--n---- desol-------e-tur -te--rra e----t ne per
+    
+    target           54 -nstam-en 61
+                      9 -.|..|-|. 18
+    query            36 das omnem 45
+
+-- fused_7 --
+  OCR:      'ti cuietoie angelo peatuaen ceset jam manus'
+  Assigned: 'animam vivam Ego sum qui peccavi ego qui inique'
+  Words:    [50..59) consumed=9
+  NW score: k=9 (pre-snap), norm=-1.7128
+  Anchor:   word 55 (within_chant_7), diff=4, snapped=False, forced=False
+  Alignment:
+    target            0 -ti--- cuietoie angelo-------- peatuaen ceset jam man--us 43
+                      0 -.|---  6
+    query             0 animam -vi--vam -Eg--o sum qui pe-ccavi -e-go qui -inique 47
+
+-- fused_8 --
+  OCR:      'a utnon desoleturter in ce das'
+  Assigned: 'egi isti qui oves sunt quid fece'
+  Words:    [59..66) consumed=7
+  NW score: k=7 (pre-snap), norm=-1.3997
+  Anchor:   word 66 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -------a -utnon desoleturter --in --ce das 30
+                      0 -------.  8
+    query             0 egi isti qui o--ves-- sunt-- quid fecerunt 36
+
+-- fused_9 --
+  OCR:      'omnem amam eo sum qi'
+  Assigned: 'runt avertatur obsecro furor tuus domine a populo'
+  Words:    [66..73) consumed=7
+  NW score: k=3 (pre-snap), norm=-1.6785
+  Anchor:   word 73 (within_chant_7), diff=4, snapped=False, forced=True
+  Alignment:
+    target            0 omnem amam ---e--o su-----------m----- ----qi 20
+                      0 -..|..|... 10
+    query             0 -avertatur obsecro furor tuus domine a populo 44
+
+-- fused_10 --
+  OCR:      'atam eones sunt anno fece'
+  Assigned: 'tuo Ut non Exaudisti domine orationem'
+  Words:    [73..79) consumed=6
+  NW score: k=5 (pre-snap), norm=-1.5011
+  Anchor:   word 79 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 at---am eon------es-- --sunt --anno fece 25
+                      0 -|---..  7
+    query             0 -tuo Ut non Exaudisti domine oratio-ne-m 37
+
+-- fused_11 --
+  OCR:      'runt anvertatur obsecro furor tiuis domine a po'
+  Assigned: 'servi tui ut edificarem templum nomini tuo'
+  Words:    [79..86) consumed=7
+  NW score: k=7 (pre-snap), norm=-0.5627
+  Anchor:   word 86 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 runt anver-tatur obsecro f--uror t---iuis domine a po 47
+                      0 -------.||-..||. 16
+    query             0 -------servi tui ut e--dificarem templu-m nomini -tuo 42
+
+-- fused_12 --
+  OCR:      'tu ut nonaudisti domine dratio.'
+  Assigned: 'Benedic et sanctifica domum istam'
+  Words:    [86..91) consumed=5
+  NW score: k=5 (pre-snap), norm=-1.1255
+  Anchor:   word 91 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -----tu ut nonaudisti---- domine dratio. 31
+                      0 -----..  7
+    query             0 Benedic et san----ctifica dom-um -ist-am 33
+
+-- fused_13 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [91..91) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_14 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [91..91) consumed=0
+  Alignment:
+    (no words left)
+=== END DEBUG ===
+

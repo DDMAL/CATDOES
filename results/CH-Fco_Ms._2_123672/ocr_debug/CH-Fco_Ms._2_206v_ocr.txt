@@ -1,0 +1,223 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'gloriose virginis Marie ex semie a Brahe orta de tribu in'
+  [fused_1] 'dacara exstirpedavi . dominus Reg evovae et atinitas'
+  [fused_2] 'esthodie Sancte Marie virginis cujus vita indita cunctas u'
+  [fused_3] 'instrat ecclesiasubi eovae egaliogemema'
+  [fused_4] 'ta refulget cuius precibus nos'
+  [fused_5] 'erspiritu devotissime poscis s donus ovaeo'
+  [fused_6] 'de et animo Chpistisco cananius glo am in hac sacra sollemp'
+  [fused_7] 'nitate precelse Genitricis Dei Marie ps Bendininis evovae a L'
+  [fused_8] 'iocunditate Nativitatem Beate Marie celebremus ut ipsa'
+  [fused_9] 'nobis intercedat ad dominum Jhesum Cpististum . audunensis eo'
+  [fused_10] 'cmncio xiii elio'
+  [fused_11] '.omne diernam per'
+  [fused_12] 'petue virginis genitricis Dei Marie sollempniter celebremus'
+  [fused_13] 'eroro addit pre sancto'
+  [fused_14] 'Adano adan capeliab'
+  [fused_15] 'icior spetua con cerris'
+  [fused_16] 'mmo talitito tom pretelit alelina erorue'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'gloriose virginis Marie ex semie a Brahe orta de tribu in'
+  Assigned: 'gloriose virginis marie ex semine abrahe orta de tribu'
+  Words:    [0..9) consumed=9
+  NW score: k=9 (pre-snap), norm=6.6871
+  Anchor:   word 18 (within_chant_7), diff=9, snapped=False, forced=False
+  Alignment:
+    target            0 gloriose virginis Marie ex semi-e a Brahe orta de tribu in 57
+                      0 ||||||||  8
+    query             0 gloriose virginis marie ex semine a-brahe orta de tribu--- 54
+
+-- fused_1 --
+  OCR:      'dacara exstirpedavi . dominus Reg evovae et atinitas'
+  Assigned: 'iuda clara ex stirpe david ~Dominus regnavit euouae Nativitas'
+  Words:    [9..18) consumed=9
+  NW score: k=9 (pre-snap), norm=3.9062
+  Anchor:   word 18 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 --da-c-ara ex-stirpe-davi- . dominus Reg----- evovae et atin
+                      0 --||-|-|||
+    query             0 iuda clara ex stirpe david -~Dominus regnavit euouae --Nativ
+    
+    target           48 itas 52
+                     10 |||| 14
+    query            57 itas 61
+
+-- fused_2 --
+  OCR:      'esthodie Sancte Marie virginis cujus vita indita cunctas u'
+  Assigned: 'est hodie sancte marie virginis cuius vita inclita cunctas il'
+  Words:    [18..28) consumed=10
+  NW score: k=9 (pre-snap), norm=6.4138
+  Anchor:   word 28 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 est-hodie Sancte Marie virginis cujus vita in-dita cunctas -
+                      0 |||-|||||
+    query             0 est hodie sancte marie virginis cuius vita inclita cunctas i
+    
+    target           57 --u----- 58
+                      9 --|----- 17
+    query            60 llustrat 68
+
+-- fused_3 --
+  OCR:      'instrat ecclesiasubi eovae egaliogemema'
+  Assigned: 'lustrat ecclesias ~Iubilate euouae Regali'
+  Words:    [28..32) consumed=4
+  NW score: k=4 (pre-snap), norm=2.3136
+  Anchor:   word 35 (within_chant_7), diff=3, snapped=False, forced=False
+  Alignment:
+    target            0 instrat ecclesias---ubi---- e-ovae -egaliogemema 39
+                      0 --------|||||||||---|||---- 27
+    query             0 --------ecclesias ~Iubilate euouae Regali------- 33
+
+-- fused_4 --
+  OCR:      'ta refulget cuius precibus nos'
+  Assigned: 'ex progenie ma'
+  Words:    [32..35) consumed=3
+  NW score: k=8 (pre-snap), norm=4.3041
+  Anchor:   word 35 (within_chant_7), diff=5, snapped=False, forced=True
+  Alignment:
+    target            0 ta -refulget cuius -precibus nos 30
+                      0 ..  2
+    query             0 ex pr---oge---ni-e mar--i------a 17
+
+-- fused_5 --
+  OCR:      'erspiritu devotissime poscis s donus ovaeo'
+  Assigned: 'ria exorta refulget cuius precibus nos adjuvari mente'
+  Words:    [35..42) consumed=7
+  NW score: k=14 (pre-snap), norm=1.2872
+  Anchor:   word 42 (within_chant_7), diff=7, snapped=False, forced=True
+  Alignment:
+    target            0 e--rspiritu devot---issime poscis s donus ---ova----e--o 42
+                      0 |--|...|..|..|--|---|.|--- 26
+    query             0 exorta refulge--t cuius--- precibus --nos adjuvari mente 49
+
+-- fused_6 --
+  OCR:      'de et animo Chpistisco cananius glo am in hac sacra sollemp'
+  Assigned: 'et spiritu devotissime poscimus ~Deus deus euouae Corde et animo xpisto canamus gloriam in hac sacra sollemp'
+  Words:    [42..59) consumed=17
+  NW score: k=17 (pre-snap), norm=2.1216
+  Anchor:   word 50 (within_chant_7), diff=9, snapped=False, forced=False
+  Alignment:
+    target            0 -----------------------------------------------------de et a
+                      0 -----------------------------------------------------||
+    query             0 et spiritu devotissime poscimus ~Deus deus euouae Corde et a
+    
+    target            7 nimo Chpistisco cananius glo- am in hac sacra sollemp------
+                     55 ||||
+    query            60 nimo -xpist---o cana-mus gloriam in hac sacra sollempnitate
+    
+    target           59
+                     59
+    query           114
+
+-- fused_7 --
+  OCR:      'nitate precelse Genitricis Dei Marie ps Bendininis evovae a L'
+  Assigned: 'nitate precelse genetricis dei marie ~Benedic euouae Cum'
+  Words:    [59..66) consumed=7
+  NW score: k=7 (pre-snap), norm=3.3472
+  Anchor:   word 66 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 nitate precelse Genitricis Dei Marie ps Ben-dininis evovae a
+                      0 -------||||||||
+    query             0 -------precelse genetricis dei marie --~Bened----ic euouae C
+    
+    target           59  L 61
+                     15 .. 17
+    query            47 um 49
+
+-- fused_8 --
+  OCR:      'iocunditate Nativitatem Beate Marie celebremus ut ipsa'
+  Assigned: 'iocunditate nativitatem beate marie celebremus ut ipsa pro'
+  Words:    [66..74) consumed=8
+  NW score: k=7 (pre-snap), norm=7.2778
+  Anchor:   word 74 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 iocunditate Nativitatem Beate Marie celebremus ut ipsa---- 54
+                      0 ||||||||||| 11
+    query             0 iocunditate nativitatem beate marie celebremus ut ipsa pro 58
+
+-- fused_9 --
+  OCR:      'nobis intercedat ad dominum Jhesum Cpististum . audunensis eo'
+  Assigned: 'nobis intercedat ad dominum ihesum xpistum ~Laudate'
+  Words:    [74..81) consumed=7
+  NW score: k=7 (pre-snap), norm=5.2352
+  Anchor:   word 81 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 nobis intercedat ad dominum Jhesum Cpististum . audunensis e
+                      0 |||||
+    query             0 nobis intercedat ad dominum ihesum xp---istum ~Laudate------
+    
+    target           60 o 61
+                      5 -  6
+    query            51 - 51
+
+-- fused_10 --
+  OCR:      'cmncio xiii elio'
+  Assigned: 'euouae Nativitatem hodiernam per'
+  Words:    [81..85) consumed=4
+  NW score: k=2 (pre-snap), norm=-2.7106
+  Anchor:   word 85 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 cmncio--- --xi-i---------i----- ----elio 16
+                      0 ---..|---  9
+    query             0 ---euouae Nativitatem hodiernam perpetue 37
+
+-- fused_11 --
+  OCR:      '.omne diernam per'
+  Assigned: 'petue virginis genitricis dei marie sollempniter celebremus'
+  Words:    [85..91) consumed=6
+  NW score: k=3 (pre-snap), norm=-2.0735
+  Anchor:   word 91 (within_chant_7), diff=3, snapped=False, forced=True
+  Alignment:
+    target            0 --.omn----e-------- d------ie-------rn--am pe---r---- 17
+                      0 --...|----|-------- 19
+    query             0 virginis genitricis dei marie sollempniter celebremus 53
+
+-- fused_12 --
+  OCR:      'petue virginis genitricis Dei Marie sollempniter celebremus'
+  Assigned: 'qua celsitudo troni precessit alleluya'
+  Words:    [91..96) consumed=5
+  NW score: k=5 (pre-snap), norm=-1.5206
+  Anchor:   word 96 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ----pe---tu-e virginis genitricis Dei- Marie sollempniter ce
+                      0 ----.|---||-.
+    query             0 qua celsitudo -tr-oni- ----preces--sit -a------ll----------e
+    
+    target           51 lebremu-s 59
+                     13 |-----|-. 22
+    query            34 l-----uya 38
+
+-- fused_13 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [96..96) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_14 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [96..96) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_15 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [96..96) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_16 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [96..96) consumed=0
+  Alignment:
+    (no words left)
+=== END DEBUG ===
+

@@ -1,0 +1,219 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'mine domini viudicabor in eis po confitemus evorae udica causam'
+  [fused_1] 'meam defendets sd  des oac'
+  [fused_2] 'gelis et pu eris fideles inveniamur Triumphatori mortis clamantes'
+  [fused_3] 'Nosanna in excelsis pres Budicis evovaeonfundantur qui me per'
+  [fused_4] 'sequuntur et non confundar ego domine Deus meus ps laudunesis e'
+  [fused_5] 'capili ratres hoc em'
+  [fused_6] 'ovae  sentite Ynis Luxtea ripemedem Cinbammsita que comeneunt aodi'
+  [fused_7] 'm festum ambant dom ds qivenit in nomine do'
+  [fused_8] 'mini osanna in excelsis evovae veri hebreorum tollentes'
+  [fused_9] 'ramos oblivarum obmaverunt domino clamantes et dicentes o'
+  [fused_10] 'sanna in excelsis evovae'
+  [fused_11] 'prosternebant in va et clamabant dicentes Osanna filio david'
+  [fused_12] 'capitulum fratres hoc'
+  [fused_13] 'enim sentite ad'
+  [fused_14] 'benedictus qui venit in nomine domini exovae Viant'
+  [fused_15] 'an rendlam consan merm donane desensor inte mone tois'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'mine domini viudicabor in eis po confitemus evorae udica causam'
+  Assigned: 'domini vindicabor in eis ~Confitemini euouae Iudica causam'
+  Words:    [0..8) consumed=8
+  NW score: k=8 (pre-snap), norm=5.1945
+  Anchor:   word 8 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 mine domini viudicabor in eis po confitem-us evorae -udica c
+                      0 -----||||||
+    query             0 -----domini vindicabor in eis --~Confitemini euouae Iudica c
+    
+    target           58 ausam 63
+                     11 ||||| 16
+    query            53 ausam 58
+
+-- fused_1 --
+  OCR:      'meam defendets sd  des oac'
+  Assigned: 'meam defende'
+  Words:    [8..10) consumed=2
+  NW score: k=2 (pre-snap), norm=2.8307
+  Anchor:   word 19 (within_chant_7), diff=9, snapped=False, forced=False
+  Alignment:
+    target            0 meam defendets sd  des oac 26
+                      0 ||||  4
+    query             0 meam defende-------------- 12
+
+-- fused_2 --
+  OCR:      'gelis et pu eris fideles inveniamur Triumphatori mortis clamantes'
+  Assigned: 'quia potens es domine ~Deus deus euouae Cum angelis et pueris fideles inveniamur triumphatori mortis clamantes'
+  Words:    [10..26) consumed=16
+  NW score: k=16 (pre-snap), norm=4.1392
+  Anchor:   word 19 (within_chant_7), diff=7, snapped=False, forced=False
+  Alignment:
+    target            0 ----------------------------------------------gelis et pu er
+                      0 ----------------------------------------------|||||
+    query             0 quia potens es domine ~Deus deus euouae Cum angelis et pu-er
+    
+    target           14 is fideles inveniamur Triumphatori mortis clamantes  65
+                     51 ||  53
+    query            59 is fideles inveniamur triumphatori mortis clamantes 110
+
+-- fused_3 --
+  OCR:      'Nosanna in excelsis pres Budicis evovaeonfundantur qui me per'
+  Assigned: 'osanna in excelsis ~Benedicam euouae Confundantur qui me per'
+  Words:    [26..35) consumed=9
+  NW score: k=8 (pre-snap), norm=4.8762
+  Anchor:   word 35 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 Nosanna in excelsis pres Budicis evovae--onfundantur qui me 
+                      0 -||||||
+    query             0 -osanna in excelsis ~Be--nedicam euouae Confundantur qui me 
+    
+    target           58 pe---------r 61
+                      7 ||---------| 19
+    query            57 persequuntur 69
+
+-- fused_4 --
+  OCR:      'sequuntur et non confundar ego domine Deus meus ps laudunesis e'
+  Assigned: 'sequuntur et non confundar ego domine deus meus ~Laudate euouae'
+  Words:    [35..44) consumed=9
+  NW score: k=8 (pre-snap), norm=4.4582
+  Anchor:   word 44 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 sequuntur et non confundar ego domine Deus meus ps laudunesi
+                      0 ----------||
+    query             0 ----------et non confundar ego domine deus meus --~Laudate--
+    
+    target           60 s -----e 63
+                     12 - 13
+    query            46 - euouae 53
+
+-- fused_5 --
+  OCR:      'capili ratres hoc em'
+  Assigned: 'Turba multa que convenerunt ad diem festum clamabat domino benedictus qui venit in nomine do'
+  Words:    [44..59) consumed=15
+  NW score: k=6 (pre-snap), norm=-2.2300
+  Anchor:   word 59 (within_chant_7), diff=9, snapped=False, forced=True
+  Alignment:
+    target            0 ---ca-pil-----i -------r----a------tres------------ ho------
+                      0 ---.|-..|-----.
+    query             0 Turba multa que convenerunt ad diem festum clamabat domino b
+    
+    target           16 -----c---------------- -----e---m--- 20
+                     15 -----|---------------- 37
+    query            60 enedictus qui venit in nomine domini 96
+
+-- fused_6 --
+  OCR:      'ovae  sentite Ynis Luxtea ripemedem Cinbammsita que comeneunt aodi'
+  Assigned: 'mini osanna in excelsis euouae Pueri hebreorum tollentes ramos olivarum obviaverunt domino'
+  Words:    [59..70) consumed=11
+  NW score: k=11 (pre-snap), norm=-0.3738
+  Anchor:   word 66 (within_chant_7), diff=4, snapped=False, forced=False
+  Alignment:
+    target            0 ova--e -- sentite Ynis Lu-xtea ---ri-pe-me-dem ---Cin----bam
+                      0 |.|--.
+    query             0 osanna in -e--xce-lsis euouae- Pueri hebreorum tollentes ram
+    
+    target           42 ms---ita que co--mene-unt aodi-- 66
+                      6 .|---|.|-.|. 18
+    query            55 os oliva-rum -obviaverunt domino 85
+
+-- fused_7 --
+  OCR:      'm festum ambant dom ds qivenit in nomine do'
+  Assigned: 'clamantes et dicentes o'
+  Words:    [70..74) consumed=4
+  NW score: k=5 (pre-snap), norm=-0.4382
+  Anchor:   word 74 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 m festum ambant-- dom ds qivenit in nomine do 43
+                      0 -------..||-|||-- 17
+    query             0 -------clam-antes -et d---icen-t-es -osan--na 28
+
+-- fused_8 --
+  OCR:      'mini osanna in excelsis evovae veri hebreorum tollentes'
+  Assigned: 'sanna in excelsis euouae Pueri hebreorum vestimenta'
+  Words:    [74..80) consumed=6
+  NW score: k=6 (pre-snap), norm=3.5377
+  Anchor:   word 80 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 mini osanna in excelsis evovae -veri hebreorum ---tollentes
+                      0 ------------||
+    query             0 ------------in excelsis euouae Pueri hebreorum vest-iment-a
+    
+    target           55
+                     14
+    query            45
+
+-- fused_9 --
+  OCR:      'ramos oblivarum obmaverunt domino clamantes et dicentes o'
+  Assigned: 'prosternebant in via et clamabant dicentes osanna filio david'
+  Words:    [80..89) consumed=9
+  NW score: k=7 (pre-snap), norm=1.1921
+  Anchor:   word 89 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 -ramos oblivarum obmaverunt domin------o clam--antes et dice
+                      0 -|--||-----..|--..|-|----||
+    query             0 pr--os-----ter--neb-a----nt ---in via et clamaban-----t dice
+    
+    target           51 ntes o----------------- 57
+                     27 |||| 31
+    query            38 ntes osanna filio david 61
+
+-- fused_10 --
+  OCR:      'sanna in excelsis evovae'
+  Assigned: 'benedictus qui venit in nomine domini euouae'
+  Words:    [89..96) consumed=7
+  NW score: k=7 (pre-snap), norm=-0.9540
+  Anchor:   word 96 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ---------s------anna in --exce--lsi-s evovae 24
+                      0 ---------|------.|.. 20
+    query             0 benedictus qui venit in nomine domini euouae 44
+
+-- fused_11 --
+  OCR:      'prosternebant in va et clamabant dicentes Osanna filio david'
+  Assigned: 'Tibi revelavi causam meam domine defensor vite mee domine'
+  Words:    [96..105) consumed=9
+  NW score: k=7 (pre-snap), norm=-1.2753
+  Anchor:   word 105 (page_break_77), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 ----prosternebant in va---- -et clamabant d--icentes Osanna 
+                      0 ----.|---|-.|.|--.|-
+    query             0 Tibi r---e-vela--vi- causam me----am----- domine defens--or 
+    
+    target           49 fi---lio davi-d 60
+                     20 .|---... 28
+    query            42 vite mee domine 57
+
+-- fused_12 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [105..105) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_13 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [105..105) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_14 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [105..105) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_15 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [105..105) consumed=0
+  Alignment:
+    (no words left)
+=== END DEBUG ===
+

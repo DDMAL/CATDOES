@@ -1,0 +1,195 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'am manducat meam carnem et bibit meum san Ganensi'
+  [fused_1] 'net et ego in  alia natio tam grandis que ha'
+  [fused_2] 'beat Deos appropinquates uibi sicut deus noster ad est nobis in'
+  [fused_3] 'me pater vnvens et ego vivo propter patrem et qui manducat me'
+  [fused_4] 'mut prop termedibavits pane inte'
+  [fused_5] 'et intellectus . et et unum corpus multi sum'
+  [fused_6] 'dmie e de uno pane et de uno ca llice par'
+  [fused_7] 'indulcedine tua Pauperi Deus'
+  [fused_8] 'qui habuare facis unanimes in domoopatri et filio'
+  [fused_9] 'tui Sancto omnes apientia'
+  [fused_10] 'edidscavit sibi comum miscuit unnum et posuit mensam Alleluya erorae'
+  [fused_11] 'Angelorum esca nutrivisti populum suum et panem de Celo presti'
+  [fused_12] 'tuu en aldaime coome a Jiigins et pans pi et mebent on'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'am manducat meam carnem et bibit meum san Ganensi'
+  Assigned: 'dilecta euouae Qui manducat meam carnem et bibit meum sanguinem In me'
+  Words:    [0..12) consumed=12
+  NW score: k=10 (pre-snap), norm=4.4096
+  Anchor:   word 12 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 ------------a----m manducat meam carnem et bibit meum san Ga
+                      0 ------------|----.
+    query             0 dilecta euouae Qui manducat meam carnem et bibit meum sangui
+    
+    target           44 ne---n-si 49
+                     18 ||---|-.. 27
+    query            60 nem In me 69
+
+-- fused_1 --
+  OCR:      'net et ego in  alia natio tam grandis que ha'
+  Assigned: 'manet et ego in illo Non est alia natio tam grandis quem ha'
+  Words:    [12..25) consumed=13
+  NW score: k=13 (pre-snap), norm=5.2992
+  Anchor:   word 25 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 --net et ego in ------------ alia natio tam grandis que- ha-
+                      0 --|||
+    query             0 manet et ego in illo Non est alia natio tam grandis quem hab
+    
+    target           44 --- 44
+                      5 ---  8
+    query            60 eat 63
+
+-- fused_2 --
+  OCR:      'beat Deos appropinquates uibi sicut deus noster ad est nobis in'
+  Assigned: 'beat deos appropinquantes sibi sicut deus noster adest nobis In Misit'
+  Words:    [25..35) consumed=10
+  NW score: k=9 (pre-snap), norm=6.3525
+  Anchor:   word 35 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 beat Deos appropinqua-tes uibi sicut deus noster ad est nobi
+                      0 -----.|||
+    query             0 -----deos appropinquantes sibi sicut deus noster ad-est nobi
+    
+    target           59 s ------in 63
+                      9 | 10
+    query            54 s In Misit 64
+
+-- fused_3 --
+  OCR:      'me pater vnvens et ego vivo propter patrem et qui manducat me'
+  Assigned: 'me pater vivens et ego vivo propter patrem Et qui manducat'
+  Words:    [35..46) consumed=11
+  NW score: k=12 (pre-snap), norm=7.5738
+  Anchor:   word 46 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 me pater vnvens et ego vivo propter patrem et qui manducat m
+                      0 ||
+    query             0 me pater vivens et ego vivo propter patrem Et qui manducat--
+    
+    target           60 e 61
+                      2 -  3
+    query            58 - 58
+
+-- fused_4 --
+  OCR:      'mut prop termedibavits pane inte'
+  Assigned: 'me vivit propter me Cibavit eum dominus pane vite'
+  Words:    [46..55) consumed=9
+  NW score: k=9 (pre-snap), norm=3.1062
+  Anchor:   word 55 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 m-----ut prop ter-me-dibavit-----------s pane -inte 32
+                      0 |-----.|  8
+    query             0 me vivit prop-ter me Cibavit eum dominus pane vi-te 49
+
+-- fused_5 --
+  OCR:      'et intellectus . et et unum corpus multi sum'
+  Assigned: 'et intellectus Et Unus panis et unum corpus multi sumus'
+  Words:    [55..65) consumed=10
+  NW score: k=10 (pre-snap), norm=5.4479
+  Anchor:   word 65 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 et intellectus ------. ---et et unum corpus multi sum-- 44
+                      0 ||  2
+    query             0 et intellectus Et Unus panis et unum corpus multi sumus 55
+
+-- fused_6 --
+  OCR:      'dmie e de uno pane et de uno ca llice par'
+  Assigned: 'Omnes qui de uno pane et de uno calice'
+  Words:    [65..74) consumed=9
+  NW score: k=9 (pre-snap), norm=5.0163
+  Anchor:   word 74 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 dmie- --e de uno pane et de uno ca llice par 41
+                      0 .|.|-  5
+    query             0 Omnes qui de uno pane et de uno ca--lice---- 38
+
+-- fused_7 --
+  OCR:      'indulcedine tua Pauperi Deus'
+  Assigned: 'participamus Parasti in dulcedine tua pauperi deus'
+  Words:    [74..81) consumed=7
+  NW score: k=7 (pre-snap), norm=3.3140
+  Anchor:   word 81 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ---------------------in-dulcedine tua Pauperi Deus 28
+                      0 ---------------------||-||||||||| 33
+    query             0 participamus Parasti in dulcedine tua pauperi deus 50
+
+-- fused_8 --
+  OCR:      'qui habuare facis unanimes in domoopatri et filio'
+  Assigned: 'qui habitare facis unanimes in domo Omnes Gloria patri et filio'
+  Words:    [81..92) consumed=11
+  NW score: k=11 (pre-snap), norm=5.8495
+  Anchor:   word 92 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 qui hab-uare facis unanimes in domo---------o----patri et fi
+                      0 |||
+    query             0 qui habitare facis unanimes in domo Omnes Gloria patri et fi
+    
+    target           46 lio 49
+                      3 |||  6
+    query            60 lio 63
+
+-- fused_9 --
+  OCR:      'tui Sancto omnes apientia'
+  Assigned: 'et spiritui sancto Omnes Sapientia'
+  Words:    [92..97) consumed=5
+  NW score: k=5 (pre-snap), norm=4.7677
+  Anchor:   word 97 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 --------tui Sancto omnes -apientia 25
+                      0 --------||| 11
+    query             0 et spiritui sancto Omnes Sapientia 34
+
+-- fused_10 --
+  OCR:      'edidscavit sibi comum miscuit unnum et posuit mensam Alleluya erorae'
+  Assigned: 'edificavit sibi domum miscuit vinum et posuit mensam alleluya'
+  Words:    [97..106) consumed=9
+  NW score: k=10 (pre-snap), norm=6.4706
+  Anchor:   word 106 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 edidscavit sibi comum miscuit unnum et posuit mensam Alleluy
+                      0 |||..|||||
+    query             0 edificavit sibi domum miscuit vinum et posuit mensam alleluy
+    
+    target           60 a erorae 68
+                     10 |------- 18
+    query            60 a------- 61
+
+-- fused_11 --
+  OCR:      'Angelorum esca nutrivisti populum suum et panem de Celo presti'
+  Assigned: 'euouae Angelorum esca nutrivisti populum tuum et panem de celo presti'
+  Words:    [106..117) consumed=11
+  NW score: k=11 (pre-snap), norm=6.2892
+  Anchor:   word 117 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -------Angelorum esca nutrivisti populum suum et panem de Ce
+                      0 -------|||||||||
+    query             0 euouae Angelorum esca nutrivisti populum tuum et panem de ce
+    
+    target           53 lo pre-----sti 62
+                     16 || 18
+    query            60 lo prestitisti 74
+
+-- fused_12 --
+  OCR:      'tuu en aldaime coome a Jiigins et pans pi et mebent on'
+  Assigned: 'tisti eis alleluya euouae Pinguis est panis xpisti et prebebit dilicias'
+  Words:    [117..127) consumed=10
+  NW score: k=9 (pre-snap), norm=1.2366
+  Anchor:   word 127 (page_break_77), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 tuu e-n al----daime coome a Jiig-ins e-t pan-s -p---i et -me
+                      0 ----|-.
+    query             0 ----eis alleluya- e-uouae-- Pingui-s est panis xpisti et pre
+    
+    target           47 be-nt ------on 54
+                      7 ||-.| 12
+    query            51 bebit dilicias 65
+=== END DEBUG ===
+

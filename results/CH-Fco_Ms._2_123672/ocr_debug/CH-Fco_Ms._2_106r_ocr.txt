@@ -1,0 +1,167 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'icut ons ad occisionem ductus est et male'
+  [fused_1] 'taretur nonaperiitos su mtradi'
+  [fused_2] 'ts ait ad mortemu mnfica populumsum'
+  [fused_3] 'didit i suama celeratos reputa'
+  [fused_4] 'tus  herusalem Lu ee et erue renest'
+  [fused_5] 'bus Iocundi is induere cinere et cili'
+  [fused_6] ' q ua inte octi  ecanie srahel educ'
+  [fused_7] 'masi correntem lacrimas per di em et noitem gnon'
+  [fused_8] 'taceat cali tu 18 .emnepo'
+  [fused_9] 'mine quid accide tno'
+  [fused_10] 'tuete et espae obporeum no strum ans'
+  [fused_11] 'quasi virgo pless me mala te pasto'
+  [fused_12] 'tes inamere etcli  nemet dies com'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'icut ons ad occisionem ductus est et male'
+  Assigned: 'euouae Sicut ovis ad occisionem ductus est et dum male'
+  Words:    [0..10) consumed=10
+  NW score: k=10 (pre-snap), norm=5.6107
+  Anchor:   word 10 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 --------icut o-ns ad occisionem ductus est et---- male 41
+                      0 --------|||| 12
+    query             0 euouae Sicut ovis ad occisionem ductus est et dum male 54
+
+-- fused_1 --
+  OCR:      'taretur nonaperiitos su mtradi'
+  Assigned: 'tractaretur non aperuit os suum tradi'
+  Words:    [10..16) consumed=6
+  NW score: k=6 (pre-snap), norm=4.7343
+  Anchor:   word 16 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ----taretur non-aperiit-os su m-tradi--- 30
+                      0 ----||||||| 11
+    query             0 tractaretur non aperuit os suum traditus 40
+
+-- fused_2 --
+  OCR:      'ts ait ad mortemu mnfica populumsum'
+  Assigned: 'tus est ad mortem Ut vivificaret populum suum tra'
+  Words:    [16..24) consumed=8
+  NW score: k=7 (pre-snap), norm=3.8013
+  Anchor:   word 24 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 ts ait ad mortem--u --mnfica--- populum-s-um--------- 35
+                      0 .|---|  6
+    query             0 es---t ad mortem Ut vivificaret populum suum Tradidit 50
+
+-- fused_3 --
+  OCR:      'didit i suama celeratos reputa'
+  Assigned: 'didit in morte animam suam et inter celeratos reputatus'
+  Words:    [24..32) consumed=8
+  NW score: k=8 (pre-snap), norm=2.6604
+  Anchor:   word 32 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 di---dit- --i--- suam--------a celeratos reputa--- 30
+                      0 -|---..|-  9
+    query             0 -in morte animam suam et inter celeratos reputatus 49
+
+-- fused_4 --
+  OCR:      'tus  herusalem Lu ee et erue renest'
+  Assigned: 'est Ut vivifica Jherusalem luge et exue te vestibus'
+  Words:    [32..41) consumed=9
+  NW score: k=9 (pre-snap), norm=2.3432
+  Anchor:   word 41 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 --t-us -------- -herusalem Lu ee et erue re-nest---- 35
+                      0 --|-..  6
+    query             0 est Ut vivifica Jherusalem lu-ge et exue te vestibus 51
+
+-- fused_5 --
+  OCR:      'bus Iocundi is induere cinere et cili'
+  Assigned: 'iocunditatis induere cinere et cilicio quia'
+  Words:    [41..47) consumed=6
+  NW score: k=5 (pre-snap), norm=5.3071
+  Anchor:   word 47 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 bus Iocundi-- is induere cinere et cili-------- 37
+                      0 ----.||||||--.|| 16
+    query             0 ----iocunditatis induere cinere et cilicio quia 43
+
+-- fused_6 --
+  OCR:      'q ua inte octi  ecanie srahel educ'
+  Assigned: 'in te occisus est salvator israhel Deduc'
+  Words:    [47..54) consumed=7
+  NW score: k=7 (pre-snap), norm=2.2235
+  Anchor:   word 54 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 q ua in-te octi--  e------canie -srahel -educ 34
+                      0 -----||-|| 10
+    query             0 -----in te occisus est salvator israhel Deduc 40
+
+-- fused_7 --
+  OCR:      'masi correntem lacrimas per di em et noitem gnon'
+  Assigned: 'quasi torrentem lacrimas per diem et noctem et non taceat'
+  Words:    [54..64) consumed=10
+  NW score: k=9 (pre-snap), norm=6.1237
+  Anchor:   word 64 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 -masi correntem lacrimas per di em et noitem --gnon------- 48
+                      0 -.|||  5
+    query             0 quasi torrentem lacrimas per di-em et noctem et non taceat 57
+
+-- fused_8 --
+  OCR:      'taceat cali tu 18 .emnepo'
+  Assigned: 'pupilla oculi tui Quia {Incipit'
+  Words:    [64..69) consumed=5
+  NW score: k=5 (pre-snap), norm=-0.7543
+  Anchor:   word 69 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 --taceat -cali tu- --18 .emn-ep-o 25
+                      0 --....|-  8
+    query             0 pupilla- oculi tui Quia -{Incipit 31
+
+-- fused_9 --
+  OCR:      'mine quid accide tno'
+  Assigned: 'lamentato iheremie prophete} Recordare domine'
+  Words:    [69..74) consumed=5
+  NW score: k=8 (pre-snap), norm=-0.1927
+  Anchor:   word 74 (within_chant_7), diff=3, snapped=False, forced=True
+  Alignment:
+    target            0 --m-------ine quid -----------accid--e ---tno 20
+                      0 --|-------|.|...|. 18
+    query             0 lamentato iheremie prophete} Recordare domine 45
+
+-- fused_10 --
+  OCR:      'tuete et espae obporeum no strum ans'
+  Assigned: 'quid acciderit nobis intuere et respice obprobrium nostrum Plange'
+  Words:    [74..83) consumed=9
+  NW score: k=9 (pre-snap), norm=2.1293
+  Anchor:   word 83 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -----------------------tuete et -esp-ae obp-o-reum no strum 
+                      0 -----------------------|||.|
+    query             0 quid acciderit nobis intuere et respice obprobrium no-strum 
+    
+    target           33 --an-s 36
+                     28 --||-. 34
+    query            59 Plange 65
+
+-- fused_11 --
+  OCR:      'quasi virgo pless me mala te pasto'
+  Assigned: 'quasi virgo plebs mea ululate pasto'
+  Words:    [83..89) consumed=6
+  NW score: k=6 (pre-snap), norm=5.3138
+  Anchor:   word 89 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 quasi virgo pless me- -mala te pasto--- 34
+                      0 |||||  5
+    query             0 quasi virgo plebs mea ulula-te pastores 38
+
+-- fused_12 --
+  OCR:      'tes inamere etcli  nemet dies com'
+  Assigned: 'res in cinere et cilicio Quia veniet dies domini'
+  Words:    [89..97) consumed=8
+  NW score: k=8 (pre-snap), norm=2.3094
+  Anchor:   word 97 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 tes -inamere et-c-li--- ---- ne-met dies com--- 33
+                      0 -..  3
+    query             0 -in cin--ere et cilicio Quia veniet dies domini 44
+=== END DEBUG ===
+

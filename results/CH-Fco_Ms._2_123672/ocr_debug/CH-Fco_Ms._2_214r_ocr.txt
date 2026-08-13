@@ -1,0 +1,172 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'previo ecclesias erexit'
+  [fused_1] 'Lepro sis enudit lio que suis Christi'
+  [fused_2] ''
+  [fused_3] 'cupio etanterhs innititur memo'
+  [fused_4] 'te gi missisl'
+  [fused_5] 'fine cingitur dupplicibus dimillis Tetanni ter'
+  [fused_6] 'patei et filio et spititui sano'
+  [fused_7] ' sollicitus apponit verbum que penitenci'
+  [fused_8] 'licite proDomine quis habi evovac et'
+  [fused_9] 'cem savutem mnustiat noe sonltus ulrtuate'
+  [fused_10] 'ciatlonemquos a sat  domine in vir exovae ee vet'
+  [fused_11] 'novis sancti merita reminierantur natis hiis nova tradit'
+  [fused_12] 'monteulim en patamns domini crcimnica le'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'previo ecclesias erexit'
+  Assigned: 'trium ordinum tres nutu dei previo ecclesias erexit'
+  Words:    [0..8) consumed=8
+  NW score: k=8 (pre-snap), norm=2.8030
+  Anchor:   word 15 (within_chant_7), diff=7, snapped=False, forced=False
+  Alignment:
+    target            0 ----------------------------previo ecclesias erexit 23
+                      0 ----------------------------|||||| 34
+    query             0 trium ordinum tres nutu dei previo ecclesias erexit 51
+
+-- fused_1 --
+  OCR:      'Lepro sis enudit lio que suis Christi'
+  Assigned: 'Leprosis Audit in evangelio que suis xpi'
+  Words:    [8..15) consumed=7
+  NW score: k=7 (pre-snap), norm=3.9902
+  Anchor:   word 15 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 Lepro sis enudit ---------lio que suis Christ-i 37
+                      0 |||||-|||  9
+    query             0 Lepro-sis -Audit in evangelio que suis -xpistus 44
+
+-- fused_2 --
+  OCR:      ''
+  Assigned: 'stus loquitur ad predicandum missis hoc inquit est quod'
+  Words:    [15..23) consumed=8
+
+-- fused_3 --
+  OCR:      'cupio etanterhs innititur memo'
+  Assigned: 'cupio Letanter hiis innititur'
+  Words:    [23..27) consumed=4
+  NW score: k=5 (pre-snap), norm=6.0930
+  Anchor:   word 27 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 cupio -etanter-h--s innititur memo 30
+                      0 |||||  5
+    query             0 cupio Letanter hiis innititur----- 29
+
+-- fused_4 --
+  OCR:      'te gi missisl'
+  Assigned: 'memorie commissis'
+  Words:    [27..29) consumed=2
+  NW score: k=2 (pre-snap), norm=1.5471
+  Anchor:   word 35 (within_chant_7), diff=6, snapped=False, forced=False
+  Alignment:
+    target            0 te- gi- ---missisl 13
+                      0 .|-..|-  7
+    query             0 memorie commissis- 17
+
+-- fused_5 --
+  OCR:      'fine cingitur dupplicibus dimillis Tetanni ter'
+  Assigned: 'Non utens virga calcio nec pera'
+  Words:    [29..35) consumed=6
+  NW score: k=11 (pre-snap), norm=3.0475
+  Anchor:   word 35 (within_chant_7), diff=5, snapped=False, forced=True
+  Alignment:
+    target            0 fin---e-- cingitur dupplicibus dimillis Tetanni ter- 46
+                      0 ..|---|--  9
+    query             0 Non utens virg---a ------c--------alcio ----nec pera 31
+
+-- fused_6 --
+  OCR:      'patei et filio et spititui sano'
+  Assigned: 'fune cingitur dupplicibus dimissis Letanter Gloria patri et filio et spiritui sancto'
+  Words:    [35..47) consumed=12
+  NW score: k=12 (pre-snap), norm=1.0974
+  Anchor:   word 41 (within_chant_7), diff=6, snapped=False, forced=False
+  Alignment:
+    target            0 -----------------p--------------------a-te-------------i et 
+                      0 -----------------|--------------------|-||-------------|
+    query             0 fune cingitur dupplicibus dimissis Letanter Gloria patri et 
+    
+    target            9 filio et spititui san--o 31
+                     56 ||||| 61
+    query            60 filio et spiritui sancto 84
+
+-- fused_7 --
+  OCR:      'sollicitus apponit verbum que penitenci'
+  Assigned: 'Letanter Cor verbis nove gracie sollicitus apponit verbumque penitencie'
+  Words:    [47..56) consumed=9
+  NW score: k=9 (pre-snap), norm=3.6107
+  Anchor:   word 50 (within_chant_7), diff=6, snapped=False, forced=False
+  Alignment:
+    target            0 --------------------------------sollicitus apponit verbum qu
+                      0 --------------------------------||||||||||
+    query             0 Letanter Cor verbis nove gracie sollicitus apponit verbum-qu
+    
+    target           28 e penitenci- 39
+                     42 | 43
+    query            59 e penitencie 71
+
+-- fused_8 --
+  OCR:      'licite proDomine quis habi evovac et'
+  Assigned: 'simpliciter'
+  Words:    [56..57) consumed=1
+  NW score: k=6 (pre-snap), norm=3.5240
+  Anchor:   word 57 (within_chant_7), diff=5, snapped=False, forced=True
+  Alignment:
+    target            0 ----licite proDomine quis habi evovac et 36
+                      0 ----||||||--|--------------------------- 40
+    query             0 simplicite--r--------------------------- 11
+
+-- fused_9 --
+  OCR:      'cem savutem mnustiat noe sonltus ulrtuate'
+  Assigned: 'proponit {Domine quis habitabit} euouae Pacem salutem nunciat in spiritus virtute'
+  Words:    [57..68) consumed=11
+  NW score: k=11 (pre-snap), norm=0.4165
+  Anchor:   word 63 (within_chant_7), diff=5, snapped=False, forced=False
+  Alignment:
+    target            0 ------------------------------------------cem savutem mnusti
+                      0 ------------------------------------------|||
+    query             0 proponit {Domine quis habitabit} euouae Pacem salutem -nunci
+    
+    target           18 at -noe s-onltus ulrtuate 41
+                     45 || 47
+    query            59 at in-- spiritus virtu-te 81
+
+-- fused_10 --
+  OCR:      'ciatlonemquos a sat  domine in vir exovae ee vet'
+  Assigned: 'vereque paci so'
+  Words:    [68..71) consumed=3
+  NW score: k=11 (pre-snap), norm=2.6080
+  Anchor:   word 71 (within_chant_7), diff=8, snapped=False, forced=True
+  Alignment:
+    target            0 ciatlonemquos a sat  domine in vir exovae ee vet 48
+                      0 ----...|-||---. 15
+    query             0 ----vere-qu---e paci soci--------------a-------t 19
+
+-- fused_11 --
+  OCR:      'novis sancti merita reminierantur natis hiis nova tradit'
+  Assigned: 'ciat longinquos a salute ~Domine in virtute euouae Ut novis sancti merita remunerantur natis hiis nova tradit'
+  Words:    [71..87) consumed=16
+  NW score: k=16 (pre-snap), norm=3.5249
+  Anchor:   word 79 (within_chant_7), diff=8, snapped=False, forced=False
+  Alignment:
+    target            0 -------------------------------------------------novis sanct
+                      0 -------------------------------------------------|||||
+    query             0 longinquos a salute ~Domine in virtute euouae Ut novis sanct
+    
+    target           11 i merita reminierantur natis hiis nova tradit  56
+                     54 |  55
+    query            60 i merita remun-erantur natis hiis nova tradit 104
+
+-- fused_12 --
+  OCR:      'monteulim en patamns domini crcimnica le'
+  Assigned: 'monita viam simplicitatis ~Domini est'
+  Words:    [87..92) consumed=5
+  NW score: k=5 (pre-snap), norm=0.5459
+  Alignment:
+    target            0 mon-teuli-m en p---atamns -domini crcimnica le-- 40
+                      0 |||-|...|-| 11
+    query             0 monita viam simplicitatis ~Domini -----------est 37
+=== END DEBUG ===
+

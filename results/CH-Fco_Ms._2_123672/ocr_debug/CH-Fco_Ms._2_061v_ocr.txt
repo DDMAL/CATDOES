@@ -1,0 +1,201 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'tus fueris terrami vondabit tibi fructus suos sed spi'
+  [fused_1] 'nas et quid vnlos germina bit tibi'
+  [fused_2] 'andisti vocem uxrris sue et concoisti de ligno ex'
+  [fused_3] 'pem taoi ne comentema voita cami. Pere tu'
+  [fused_4] 'serere mei deus et a delicto meo mundaa'
+  [fused_5] 'me aoma tibi soli peccami prs ipsum evovae aitebor'
+  [fused_6] 'tibi comie anoniami exandisti mee pconfitenums exon'
+  [fused_7] 'iti duo psaliu'
+  [fused_8] 'suprferipti unm mu'
+  [fused_9] 'e saaceus deus meus adte de Luce vigilo tanentur ad laudes'
+  [fused_10] 'alva factus es adjutor meus pstum Eovae. De'
+  [fused_11] ''
+  [fused_12] 'deus noste Beneedoninis exoude  Landate dominum de capitlis Leatres Nescitis Ym'
+  [fused_13] 'Ecerne Reru domin'
+  [fused_14] 'cels erorae e loman eou refugium facd es nobis nle a'
+  [fused_15] 'm cem homimi Patifamillas cmil exut paino'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'tus fueris terrami vondabit tibi fructus suos sed spi'
+  Assigned: 'operatus fueris terram non dabit tibi fructus suos Sed spinas'
+  Words:    [0..10) consumed=10
+  NW score: k=10 (pre-snap), norm=6.0500
+  Anchor:   word 15 (within_chant_7), diff=5, snapped=False, forced=False
+  Alignment:
+    target            0 -----tus fueris terrami von-dabit tibi fructus suos sed spi-
+                      0 -----|||
+    query             0 operatus fueris terram- non dabit tibi fructus suos Sed spin
+    
+    target           53 -- 53
+                      8 -- 10
+    query            59 as 61
+
+-- fused_1 --
+  OCR:      'nas et quid vnlos germina bit tibi'
+  Assigned: 'et tribulos germinabit tibi qui'
+  Words:    [10..15) consumed=5
+  NW score: k=4 (pre-snap), norm=4.3236
+  Anchor:   word 15 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 nas et quid vnlos germina bit tibi----- 34
+                      0 ----||  6
+    query             0 ----et tri--bulos germina-bit tibi Quia 32
+
+-- fused_2 --
+  OCR:      'andisti vocem uxrris sue et concoisti de ligno ex'
+  Assigned: 'a audisti vocem uxoris tue et comedisti de ligno ex quo prece'
+  Words:    [15..26) consumed=11
+  NW score: k=9 (pre-snap), norm=6.4082
+  Anchor:   word 26 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 andisti vocem uxrris sue et concoisti de ligno ex-----------
+                      0 |.|||||
+    query             0 audisti vocem uxoris tue et comedisti de ligno ex quo precep
+    
+    target           49 ---- 49
+                      7 ---- 11
+    query            60 eram 64
+
+-- fused_3 --
+  OCR:      'pem taoi ne comentema voita cami. Pere tu'
+  Assigned: 'peram tibi ne comederes maledicta terra in opere tu'
+  Words:    [26..34) consumed=8
+  NW score: k=8 (pre-snap), norm=1.9803
+  Anchor:   word 34 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 pem taoi ne come-nte--ma voi-ta ---cami. -Pere tu- 41
+                      0 ----|..|  8
+    query             0 ----tibi ne comederes maledicta terra in opere tuo 46
+
+-- fused_4 --
+  OCR:      'serere mei deus et a delicto meo mundaa'
+  Assigned: 'o Sed spinas Miserere mei deus et a delicto meo munda'
+  Words:    [34..44) consumed=10
+  NW score: k=10 (pre-snap), norm=5.6953
+  Anchor:   word 44 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -------------serere mei deus et a delicto meo mundaa 39
+                      0 -------------|||||| 19
+    query             0 Sed spinas Miserere mei deus et a delicto meo mund-a 51
+
+-- fused_5 --
+  OCR:      'me aoma tibi soli peccami prs ipsum evovae aitebor'
+  Assigned: 'me quia tibi soli peccavi {Ipsum [Miserere]} euouae Confitebor'
+  Words:    [44..53) consumed=9
+  NW score: k=9 (pre-snap), norm=3.4664
+  Anchor:   word 53 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 me aoma tibi soli peccami prs ipsum------------ evovae ---ai
+                      0 ||
+    query             0 me quia tibi soli peccavi ---{Ipsum [Miserere]} euouae Confi
+    
+    target           45 tebor 50
+                      2 |||||  7
+    query            57 tebor 62
+
+-- fused_6 --
+  OCR:      'tibi comie anoniami exandisti mee pconfitenums exon'
+  Assigned: 'tibi domine quoniam exaudisti me ~Confitemini euouae'
+  Words:    [53..60) consumed=7
+  NW score: k=6 (pre-snap), norm=4.1540
+  Anchor:   word 60 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 tibi comi-e anoniami exandisti mee pconfite--nums exo--n 51
+                      0 ||||  4
+    query             0 tibi domine quoniam- exaudisti m-e ~Confitemin--i euouae 52
+
+-- fused_7 --
+  OCR:      'iti duo psaliu'
+  Assigned: 'Deus deus meus ad te de luce vigilo'
+  Words:    [60..68) consumed=8
+  NW score: k=4 (pre-snap), norm=-1.4909
+  Anchor:   word 68 (within_chant_7), diff=4, snapped=False, forced=True
+  Alignment:
+    target            0 -iti d-uo --ps-a--------l-------i-u 14
+                      0 -...  4
+    query             0 Deus deus meus ad te de luce vigilo 35
+
+-- fused_8 --
+  OCR:      'suprferipti unm mu'
+  Assigned: 'quia factus es adiutor meus'
+  Words:    [68..73) consumed=5
+  NW score: k=5 (pre-snap), norm=-1.7237
+  Anchor:   word 77 (within_chant_7), diff=4, snapped=False, forced=False
+  Alignment:
+    target            0 su-prf------eripti u-nm m-u- 18
+                      0 .|-..|------|....|-|-.. 23
+    query             0 quia factus es adi-utor meus 27
+
+-- fused_9 --
+  OCR:      'e saaceus deus meus adte de Luce vigilo tanentur ad laudes'
+  Assigned: '{Ipsum [Deus]} euouae Benedictus es in firmamento celi et laudabilis'
+  Words:    [73..83) consumed=10
+  NW score: k=10 (pre-snap), norm=-0.1433
+  Anchor:   word 77 (within_chant_7), diff=6, snapped=False, forced=False
+  Alignment:
+    target            0 -e saaceus -deus-- meus adte ----de Lu-ce- vi--gilo tanent--
+                      0 -..|----|.
+    query             0 {Ips----um [Deus]} -euoua--e Benedictus es -in fi--rmamento 
+    
+    target           46 --ur ad laud----es 58
+                     10 --.. 14
+    query            50 celi et laudabilis 68
+
+-- fused_10 --
+  OCR:      'alva factus es adjutor meus pstum Eovae. De'
+  Assigned: 'in secula'
+  Words:    [83..85) consumed=2
+  NW score: k=7 (pre-snap), norm=-1.0793
+  Anchor:   word 85 (within_chant_7), diff=5, snapped=False, forced=True
+  Alignment:
+    target            0 alva factus es adjutor meus pstum Eovae. De 43
+                      0 ---------.. 11
+    query             0 ---------in -s----------e-----cu----la-----  9
+
+-- fused_11 --
+  OCR:      ''
+  Assigned: 'deus noster {Benedic} euouae Laudate dominum de'
+  Words:    [85..92) consumed=7
+
+-- fused_12 --
+  OCR:      'deus noste Beneedoninis exoude  Landate dominum de capitlis Leatres Nescitis Ym'
+  Assigned: 'celis {Ipsum [Laudate]} euouae Simile est regnum celorum homini patrifamilias qui exiit primo'
+  Words:    [92..105) consumed=13
+  NW score: k=13 (pre-snap), norm=-0.8167
+  Anchor:   word 99 (within_chant_7), diff=6, snapped=False, forced=False
+  Alignment:
+    target            0 deus noste Beneedoninis -exoude  Landate-- -do------mi------
+                      0 .|------------------.||
+    query             0 ce------------------lis {Ipsu-m [Laudate]} euouae Simile est
+    
+    target           44 ----num de----- capitlis Leatr-------es ---Nescitis --Ym- 79
+                     23 ----||| 30
+    query            41  regnum celorum homi-ni- -patrifamilias qui exiit-- primo 93
+
+-- fused_13 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [105..105) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_14 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [105..105) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_15 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [105..105) consumed=0
+  Alignment:
+    (no words left)
+=== END DEBUG ===
+

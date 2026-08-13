@@ -1,0 +1,247 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'Nehuya Alleluya Alleluya Alicluya po'
+  [fused_1] 'Mirabilia evovac Damnsi sunt discipuli alla'
+  [fused_2] 'X Manenobisos Domine ala'
+  [fused_3] 'X Dontr advesperascit . predicta'
+  [fused_4] 'viso Domino Alleluya alla adhoias diexm per tota resur dectionemimsi i festimod esponsoriar . inmvitant'
+  [fused_5] 'Et domint psalim  sub eodem cr ANeluya Allelura Alleliya Alleluya ex'
+  [fused_6] 'capillan Beneis omne quod Yninus adcena'
+  [fused_7] 'gi Mane nobo domine alla'
+  [fused_8] 'vae ost dies octo janius clau'
+  [fused_9] 'sios ingessis domiis dmni eis par nobis allelima allelis'
+  [fused_10] 'n cre  Nelumam Alleluma al leluy'
+  [fused_11] 'La venete ne Luya allelira Allelia eu'
+  [fused_12] 'o dino  cum alus surrerit dominus dese ablaa lectiones deactibus apostolorums. dominum aplerent'
+  [fused_13] 'dicitur singlis diebus usque ad octas pentinies in laudnis et alla pra dominus Regnavit'
+  [fused_14] 'cum reliquisut ei die dominica capitlan e pt resurges ymius aurora lucis n resurrectione tua'
+  [fused_15] 'oac dicatur et tona de subscriptiset odd de dominica et dedebent suprdictum en'
+  [fused_16] 'e mendiotad'
+  [fused_17] 'thesus mane prima sabbanti ap'
+  [fused_18] 'parvit primo Marie Magdale'
+  [fused_19] 'ttem demonia a Ieluya Eovac recedam vos in'
+  [fused_20] 'Gallenn incebitis sicit om nobis altanumus an erora'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'Nehuya Alleluya Alleluya Alicluya po'
+  Assigned: 'Alleluya alleluya alleluya alleluya'
+  Words:    [0..4) consumed=4
+  NW score: k=4 (pre-snap), norm=4.2258
+  Anchor:   word 4 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 --Nehuya Alleluya Alleluya Alicluya po 36
+                      0 --.|.|||  8
+    query             0 Alleluya alleluya alleluya alleluya--- 35
+
+-- fused_1 --
+  OCR:      'Mirabilia evovac Damnsi sunt discipuli alla'
+  Assigned: '~Mirabilia euouae Gavisi sunt discipuli alleluya'
+  Words:    [4..10) consumed=6
+  NW score: k=6 (pre-snap), norm=5.3487
+  Anchor:   word 20 (within_chant_7), diff=10, snapped=False, forced=False
+  Alignment:
+    target            0 -Mirabilia evovac Damnsi sunt discipuli all----a 43
+                      0 -||||||||| 10
+    query             0 ~Mirabilia euouae Gavisi sunt discipuli alleluya 48
+
+-- fused_2 --
+  OCR:      'X Manenobisos Domine ala'
+  Assigned: 'alleluya Viso domino alleluya'
+  Words:    [10..14) consumed=4
+  NW score: k=4 (pre-snap), norm=0.8718
+  Anchor:   word 20 (within_chant_7), diff=6, snapped=False, forced=False
+  Alignment:
+    target            0 X Ma-ne---nobisos Domine al-----a 24
+                      0 ---|-.|---...|||- 17
+    query             0 ---alleluya Viso- domino alleluya 29
+
+-- fused_3 --
+  OCR:      'X Dontr advesperascit . predicta'
+  Assigned: 'alleluya Alleluya alleluya alleluya alleluya euouae'
+  Words:    [14..20) consumed=6
+  NW score: k=4 (pre-snap), norm=-2.8685
+  Anchor:   word 20 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 -------X ---Dontr adve------spe--rascit -------. predicta- 32
+                      0 -------.  8
+    query             0 alleluya Alleluya alleluya alleluya---- alleluya --e-uouae 51
+
+-- fused_4 --
+  OCR:      'viso Domino Alleluya alla adhoias diexm per tota resur dectionemimsi i festimod esponsoriar . inmvitant'
+  Assigned: 'Post dies octo ianuis clau'
+  Words:    [20..25) consumed=5
+  NW score: k=11 (pre-snap), norm=-1.1556
+  Anchor:   word 25 (within_chant_7), diff=6, snapped=False, forced=True
+  Alignment:
+    target            0 viso Domino Alleluya alla adhoias- diexm per tota resur dect
+                      0 ----------------------------.|--|-
+    query             0 ----------------------------Po--st die-s --octo-------- ----
+    
+    target           59 ionemimsi i festimod esponsoriar . inmvitant 103
+                     34 |.|-.|-|-  43
+    query            15 ian-ui-s- claus-i---------s-----------------  29
+
+-- fused_5 --
+  OCR:      'Et domint psalim  sub eodem cr ANeluya Allelura Alleliya Alleluya ex'
+  Assigned: 'sis ingressus dominus dixit eis pax vobis alleluya allelu'
+  Words:    [25..33) consumed=8
+  NW score: k=11 (pre-snap), norm=1.6677
+  Anchor:   word 33 (within_chant_7), diff=3, snapped=False, forced=True
+  Alignment:
+    target            0 -------Et domin-t psalim --- sub eodem cr ANeluya Allelura A
+                      0 -------..
+    query             0 ingressus dominus -dixit eis pax vobis ---------a--llelu----
+    
+    target           49 lleliya Alleluya ex 68
+                      9 -----|| 16
+    query            44 -----ya alleluya--- 55
+
+-- fused_6 --
+  OCR:      'capillan Beneis omne quod Yninus adcena'
+  Assigned: 'ya euouae Alleluya alleluya alleluya ~Venite Alleluya alleluya'
+  Words:    [33..40) consumed=7
+  NW score: k=7 (pre-snap), norm=-1.5844
+  Anchor:   word 37 (within_chant_7), diff=3, snapped=False, forced=False
+  Alignment:
+    target            0 ---ca-pill----an --Beneis omne quod --Yni-------nu-s adce--n
+                      0 ---.|-..||----|-
+    query             0 euouae Alleluya- alleluya alle-luya ~Venite Alleluya alleluy
+    
+    target           38 a 39
+                     16 | 17
+    query            58 a 59
+
+-- fused_7 --
+  OCR:      'gi Mane nobo domine alla'
+  Assigned: 'alleluya euouae Surgens ihesus mane prima'
+  Words:    [40..46) consumed=6
+  NW score: k=6 (pre-snap), norm=-1.8809
+  Anchor:   word 42 (within_chant_7), diff=4, snapped=False, forced=False
+  Alignment:
+    target            0 ------gi ---Mane -----nobo -----domine -alla 24
+                      0 ------..  8
+    query             0 alleluya euoua-e Surgen--s ihesus mane prima 41
+
+-- fused_8 --
+  OCR:      'vae ost dies octo janius clau'
+  Assigned: 'sabbati ap'
+  Words:    [46..48) consumed=2
+  NW score: k=5 (pre-snap), norm=-1.8978
+  Anchor:   word 48 (within_chant_7), diff=3, snapped=False, forced=True
+  Alignment:
+    target            0 vae ost dies octo janius cla-u-- 29
+                      0 .|-...|--|------- 17
+    query             0 sa-bbat--i------- -a-----pparuit 16
+
+-- fused_9 --
+  OCR:      'sios ingessis domiis dmni eis par nobis allelima allelis'
+  Assigned: 'paruit primo marie magdalene de qua eiecerat sep'
+  Words:    [48..55) consumed=7
+  NW score: k=10 (pre-snap), norm=-0.5348
+  Anchor:   word 55 (within_chant_7), diff=3, snapped=False, forced=True
+  Alignment:
+    target            0 -si-os ---ingessis domiis d--mni -eis -par nobis allelima- a
+                      0 -.|-|-
+    query             0 primo- mari--e---- --m--agdalene de-- qua- --ei-----ecerat -
+    
+    target           50 lle-lis 56
+                      6 -.|-... 13
+    query            38 -septem 44
+
+-- fused_10 --
+  OCR:      'n cre  Nelumam Alleluma al leluy'
+  Assigned: 'tem demonia alleluya euouae'
+  Words:    [55..58) consumed=3
+  NW score: k=3 (pre-snap), norm=-0.2212
+  Anchor:   word 61 (within_chant_7), diff=3, snapped=False, forced=False
+  Alignment:
+    target            0 n cre  Nelum---am Alleluma al le-lu-y 32
+                      0 -------.|--|---|- 17
+    query             0 -------de--monia- alleluya ----euouae 23
+
+-- fused_11 --
+  OCR:      'La venete ne Luya allelira Allelia eu'
+  Assigned: 'Precedam vos in'
+  Words:    [58..61) consumed=3
+  NW score: k=6 (pre-snap), norm=-1.1811
+  Anchor:   word 61 (within_chant_7), diff=3, snapped=False, forced=True
+  Alignment:
+    target            0 La venete ne Luya- allelira Allelia eu 37
+                      0 ----..|.|------.|- 18
+    query             0 ----Prece------dam -----vos -----i---n 15
+
+-- fused_12 --
+  OCR:      'o dino  cum alus surrerit dominus dese ablaa lectiones deactibus apostolorums. dominum aplerent'
+  Assigned: 'galileam ibi me videbitis sicut dixi vobis alleluya euouae'
+  Words:    [61..70) consumed=9
+  NW score: k=8 (pre-snap), norm=-1.5947
+  Anchor:   word 70 (page_break_77), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 o dino  cum alus surrerit dominus dese ablaa lectiones deac-
+                      0 ...|---...|
+    query             0 gali---leam -ibi ---me--- --vi----de----b------iti---s -sicu
+    
+    target           59 t----i---bus apostolorums. -dominum aplerent 95
+                     11 |----|---|.| 23
+    query            30 t dixi vobis a----llelu-ya euo---u--a----e-- 58
+
+-- fused_13 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [70..70) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_14 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [70..70) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_15 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [70..70) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_16 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [70..70) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_17 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [70..70) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_18 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [70..70) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_19 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [70..70) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_20 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [70..70) consumed=0
+  Alignment:
+    (no words left)
+=== END DEBUG ===
+

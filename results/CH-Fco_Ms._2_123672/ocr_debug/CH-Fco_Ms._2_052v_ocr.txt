@@ -1,0 +1,199 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'ne annuam meam qumia pectam teribi po beeatus qui pred quem ad'
+  [fused_1] 'ructavit cormenms verbum bonum pe'
+  [fused_2] '|eus auri  ructavit evovae '
+  [fused_3] 'u  omnes gentes evovae'
+  [fused_4] 'ms et laudabilis ms Omnes audite hec om'
+  [fused_5] 'eus Deorum dominus Loquutus est'
+  [fused_6] 'Ulmiola Deo sacficim'
+  [fused_7] 'tandisan et reddeal'
+  [fused_8] 'Domni bus ssimonotatua pu Quid galoria eoae'
+  [fused_9] 'per a pe co mine la crimasme si leasa'
+  [fused_10] 'chi quoniam incola ego sum'
+  [fused_11] 'pudteet re Complaent'
+  [fused_12] 'tibi domine uterpisdomne d add'
+  [fused_13] 'festinotasra'
+  [fused_14] 'tram pe des me os et dinexit grestis me os'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'ne annuam meam qumia pectam teribi po beeatus qui pred quem ad'
+  Assigned: 'animam meam quia peccavi tibi ~Beatus qui ~Quem ad'
+  Words:    [0..9) consumed=9
+  NW score: k=9 (pre-snap), norm=3.9872
+  Anchor:   word 15 (within_chant_7), diff=6, snapped=False, forced=False
+  Alignment:
+    target            0 ne annuam meam qumia pecta-m teribi po beeatus qui pred quem
+                      0 ---||..||
+    query             0 ---animam meam qu-ia peccavi t--ibi--- ~Beatus qui ----~Quem
+    
+    target           59  ad 62
+                      9   9
+    query            47  ad 50
+
+-- fused_1 --
+  OCR:      'ructavit cormenms verbum bonum pe'
+  Assigned: 'modum euouae Eructavit cor meum verbum'
+  Words:    [9..15) consumed=6
+  NW score: k=7 (pre-snap), norm=3.8315
+  Anchor:   word 15 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 --------------ructavit cor-menms verbum bonum pe 33
+                      0 --------------|||||||| 22
+    query             0 modum euouae Eructavit cor meum- verbum--------- 38
+
+-- fused_2 --
+  OCR:      '|eus auri  ructavit evovae'
+  Assigned: 'bonum ~Deus auribus ~Eructavit euouae'
+  Words:    [15..20) consumed=5
+  NW score: k=5 (pre-snap), norm=3.5788
+  Anchor:   word 23 (within_chant_7), diff=3, snapped=False, forced=False
+  Alignment:
+    target            0 -------|eus auri--- - ructavit evovae 26
+                      0 -------.||| 11
+    query             0 bonum ~Deus auribus ~Eructavit euouae 37
+
+-- fused_3 --
+  OCR:      'u  omnes gentes evovae'
+  Assigned: 'Adjutor in tribulationi'
+  Words:    [20..23) consumed=3
+  NW score: k=8 (pre-snap), norm=0.1625
+  Anchor:   word 23 (within_chant_7), diff=5, snapped=False, forced=True
+  Alignment:
+    target            0 ---u  omnes gen-t---es evo--vae 22
+                      0 ---|-.|---. 11
+    query             0 Adju-to---r -in tribulationibus 26
+
+-- fused_4 --
+  OCR:      'ms et laudabilis ms Omnes audite hec om'
+  Assigned: 'bus {Deus noster} {Omnes gentes} euouae Magnus dominus et laudabilis nimis {Ipsum [Magnus]} {Audite hec omnes}'
+  Words:    [23..38) consumed=15
+  NW score: k=15 (pre-snap), norm=0.5599
+  Anchor:   word 30 (within_chant_7), diff=8, snapped=False, forced=False
+  Alignment:
+    target            0 ---------------------------------------------m---s et laudab
+                      0 ---------------------------------------------|---|
+    query             0 {Deus noster} {Omnes gentes} euouae Magnus dominus et laudab
+    
+    target           12 ilis --m-s ----Om-----nes-- -audite hec om----  39
+                     50 ||||  54
+    query            60 ilis nimis {Ipsum [Magnus]} {Audite hec omnes} 106
+
+-- fused_5 --
+  OCR:      'eus Deorum dominus Loquutus est'
+  Assigned: '{euouae} Deus deorum dominus loquutus est'
+  Words:    [38..44) consumed=6
+  NW score: k=6 (pre-snap), norm=5.2733
+  Anchor:   word 44 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ----------eus Deorum dominus Loquutus est 31
+                      0 ----------||| 13
+    query             0 {euouae} Deus deorum dominus loquutus est 41
+
+-- fused_6 --
+  OCR:      'Ulmiola Deo sacficim'
+  Assigned: '{Ipsum'
+  Words:    [44..45) consumed=1
+  NW score: k=3 (pre-snap), norm=-2.3500
+  Anchor:   word 45 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 Ulmiola Deo sacficim 20
+                      0 ---------...|-----.| 20
+    query             0 ---------{Ips-----um  6
+
+-- fused_7 --
+  OCR:      'tandisan et reddeal'
+  Assigned: '[Deus]} {Quid gloriaris} euouae Auribus'
+  Words:    [45..50) consumed=5
+  NW score: k=4 (pre-snap), norm=-2.8843
+  Anchor:   word 50 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 ---------tand--------isan e----t --reddeal 19
+                      0 ---------...|--------||-. 25
+    query             0 [Deus]} {Quid gloriaris-} euouae Aur--ibus 39
+
+-- fused_8 --
+  OCR:      'Domni bus ssimonotatua pu Quid galoria eoae'
+  Assigned: 'percipe domine lacrimas meas ne sileas a'
+  Words:    [50..57) consumed=7
+  NW score: k=13 (pre-snap), norm=-1.3819
+  Anchor:   word 57 (within_chant_7), diff=6, snapped=False, forced=True
+  Alignment:
+    target            0 --------Dom-ni bus ssimonota--tua- pu Quid galoria- eoae 43
+                      0 --------.||-|. 14
+    query             0 percipe domine --lacrim----as meas ne -si----l--eas --a- 40
+
+-- fused_9 --
+  OCR:      'per a pe co mine la crimasme si leasa'
+  Assigned: 'me remitte michi Quoniam incola ego sum apud te'
+  Words:    [57..66) consumed=9
+  NW score: k=5 (pre-snap), norm=-0.7677
+  Anchor:   word 66 (within_chant_7), diff=4, snapped=False, forced=True
+  Alignment:
+    target            0 pe-r- a pe --c-----o-- m-ine la crimas-me --si leasa 37
+                      0 .|-|-....| 10
+    query             0 me remitte michi Quoniam incola -ego sum- apud te--- 47
+
+-- fused_10 --
+  OCR:      'chi quoniam incola ego sum'
+  Assigned: 'et peregrinus Complaceat'
+  Words:    [66..69) consumed=3
+  NW score: k=4 (pre-snap), norm=-2.1122
+  Anchor:   word 69 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 chi quoniam in---co--la ego sum 26
+                      0 -..  3
+    query             0 -et --peregrinus Complace----at 24
+
+-- fused_11 --
+  OCR:      'pudteet re Complaent'
+  Assigned: 'tibi domine ut eripias me domine'
+  Words:    [69..75) consumed=6
+  NW score: k=6 (pre-snap), norm=-1.3044
+  Anchor:   word 84 (within_chant_7), diff=9, snapped=False, forced=False
+  Alignment:
+    target            0 ---pud---te-et -r-------e Complaent 20
+                      0 ---..|---.|-.| 14
+    query             0 tibi domine ut eripias me dom---ine 32
+
+-- fused_12 --
+  OCR:      'tibi domine uterpisdomne d add'
+  Assigned: 'ad adiuvandum me festina Quoniam Statuit dominus supra pe'
+  Words:    [75..84) consumed=9
+  NW score: k=8 (pre-snap), norm=-1.7143
+  Anchor:   word 84 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 ----ti-bi dom--------ine -u-------terpi-sdom-n-e ----d ----a
+                      0 ----.|-...|.|--------||.
+    query             0 ad adiuvandum me festina Quoniam Statuit dominus supra petra
+    
+    target           28 dd 30
+                     24 -. 26
+    query            60 -m 61
+
+-- fused_13 --
+  OCR:      'festinotasra'
+  Assigned: 'tram pedes meos'
+  Words:    [84..86) consumed=2
+  NW score: k=2 (pre-snap), norm=-1.6432
+  Anchor:   word 91 (page_break_77), diff=5, snapped=False, forced=False
+  Alignment:
+    target            0 --festinotasra 12
+                      0 --.||...|--|-- 14
+    query             0 pedes meo--s-- 10
+
+-- fused_14 --
+  OCR:      'tram pe des me os et dinexit grestis me os'
+  Assigned: 'et direxit gressus meos deus'
+  Words:    [86..91) consumed=5
+  NW score: k=4 (pre-snap), norm=2.5740
+  Anchor:   word 91 (page_break_77), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 tram pe des me os et dinexit grestis me-- --os 42
+                      0 ------------------|| 20
+    query             0 ------------------et direxit gressus meos deus 28
+=== END DEBUG ===
+

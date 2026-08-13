@@ -1,0 +1,163 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'mnes amici me dereliqueruntme'
+  [fused_1] 'et prevalve runt insidiantes mni chi tradidit'
+  [fused_2] 'me quem dilige bam et terribilibus o'
+  [fused_3] 'plaga crude ciens Acceto potabant'
+  [fused_4] 'mer inter mi quos proiecerunt me et non peper'
+  [fused_5] 'cetunt nume me  Acceto elum Templi'
+  [fused_6] 'sctissum est et omnis ter ra tremu 1t'
+  [fused_7] 'Latro ee aamalit o cens memento mei domi'
+  [fused_8] 'ne domim. regnum'
+  [fused_9] 't ere sisse sunr'
+  [fused_10] 'pora sanctorum qui dornerant'
+  [fused_11] 'nea mca electa egoeplans tain'
+  [fused_12] 'Quomodo comer la es ma man tud nent'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'mnes amici me dereliqueruntme'
+  Assigned: 'euouae Omnes amici mei dereliquerunt me'
+  Words:    [0..6) consumed=6
+  NW score: k=6 (pre-snap), norm=5.6497
+  Anchor:   word 6 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 --------mnes amici me- dereliquerunt-me 29
+                      0 --------|||| 12
+    query             0 euouae Omnes amici mei dereliquerunt me 39
+
+-- fused_1 --
+  OCR:      'et prevalve runt insidiantes mni chi tradidit'
+  Assigned: 'et prevaluerunt insidiantes michi tradidit'
+  Words:    [6..11) consumed=5
+  NW score: k=5 (pre-snap), norm=6.9467
+  Anchor:   word 11 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 et prevalve runt insidiantes mni chi tradidit 45
+                      0 ||  2
+    query             0 et prevalue-runt insidiantes m-i-chi tradidit 42
+
+-- fused_2 --
+  OCR:      'me quem dilige bam et terribilibus o'
+  Assigned: 'me quem diligebam et terribilibus oculis'
+  Words:    [11..17) consumed=6
+  NW score: k=5 (pre-snap), norm=7.1662
+  Anchor:   word 17 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 me quem dilige bam et terribilibus o----- 36
+                      0 ||  2
+    query             0 me quem dilige-bam et terribilibus oculis 40
+
+-- fused_3 --
+  OCR:      'plaga crude ciens Acceto potabant'
+  Assigned: 'plaga crudeli percutiens Acceto potabant'
+  Words:    [17..22) consumed=5
+  NW score: k=5 (pre-snap), norm=6.3581
+  Anchor:   word 22 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 plaga crude-- ---c--iens Acceto potabant 33
+                      0 |||||  5
+    query             0 plaga crudeli percutiens Acceto potabant 40
+
+-- fused_4 --
+  OCR:      'mer inter mi quos proiecerunt me et non peper'
+  Assigned: 'me Inter iniquos proiecerunt me et non peper'
+  Words:    [22..30) consumed=8
+  NW score: k=8 (pre-snap), norm=5.7975
+  Anchor:   word 30 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 mer inter mi- quos proiecerunt me et non peper------ 45
+                      0 ||-  3
+    query             0 me- Inter -iniquos proiecerunt me et non pepercerunt 50
+
+-- fused_5 --
+  OCR:      'cetunt nume me  Acceto elum Templi'
+  Assigned: 'cerunt anime mee Acceto Velum templi'
+  Words:    [30..35) consumed=5
+  NW score: k=5 (pre-snap), norm=4.5540
+  Anchor:   word 35 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 cetunt nume me  Acceto -elum Templi 34
+                      0 ------.|.|| 11
+    query             0 ------anime mee Acceto Velum templi 29
+
+-- fused_6 --
+  OCR:      'sctissum est et omnis ter ra tremu 1t'
+  Assigned: 'scissum est et omnis terra tremuit'
+  Words:    [35..41) consumed=6
+  NW score: k=6 (pre-snap), norm=6.7102
+  Anchor:   word 41 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 sctissum est et omnis ter ra tremu 1t 37
+                      0 ||-|||||  8
+    query             0 sc-issum est et omnis ter-ra tremu-it 34
+
+-- fused_7 --
+  OCR:      'Latro ee aamalit o cens memento mei domi'
+  Assigned: 'Latro de cruce clamabat dicens memento mei domine'
+  Words:    [41..49) consumed=8
+  NW score: k=8 (pre-snap), norm=4.7886
+  Anchor:   word 49 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 Latro -e-----e -aamalit o cens memento mei domi-- 40
+                      0 |||||  5
+    query             0 Latro de cruce clamabat dicens memento mei domine 49
+
+-- fused_8 --
+  OCR:      'ne domim. regnum'
+  Assigned: 'dum veneris in regnum tuum pe'
+  Words:    [49..55) consumed=6
+  NW score: k=4 (pre-snap), norm=1.5275
+  Anchor:   word 55 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 ------ne--- domim. regnum----------- 16
+                      0 ------||--- 11
+    query             0 dum veneris ---i-n regnum tuum Petre 32
+
+-- fused_9 --
+  OCR:      't ere sisse sunr'
+  Assigned: 'tre scisse sunt et monumenta aperta sunt et multa cor'
+  Words:    [55..64) consumed=9
+  NW score: k=2 (pre-snap), norm=2.8644
+  Anchor:   word 64 (within_chant_7), diff=7, snapped=False, forced=True
+  Alignment:
+    target            0 ----------t e------re--- sisse--- sun----------------r- 16
+                      0 ----------| 11
+    query             0 scisse sunt et monumenta --aperta sunt et multa corpora 53
+
+-- fused_10 --
+  OCR:      'pora sanctorum qui dornerant'
+  Assigned: 'pora sanctorum qui dormierunt surrexerunt la'
+  Words:    [64..69) consumed=5
+  NW score: k=3 (pre-snap), norm=5.0920
+  Anchor:   word 69 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 pora sanctorum qui dor-----n--------erant------ 28
+                      0 -----||||||||| 14
+    query             0 -----sanctorum qui dormierunt surrexerunt Latro 42
+
+-- fused_11 --
+  OCR:      'nea mca electa egoeplans tain'
+  Assigned: 'tro Vinea mea electa ego te plantavi'
+  Words:    [69..75) consumed=6
+  NW score: k=6 (pre-snap), norm=4.7270
+  Anchor:   word 75 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 --nea mca electa ego--e-plans ta-in 29
+                      0 --|||  5
+    query             0 Vinea mea electa ego te plan--tavi- 32
+
+-- fused_12 --
+  OCR:      'Quomodo comer la es ma man tud nent'
+  Assigned: 'Quomodo conversa es in amaritudine ut'
+  Words:    [75..81) consumed=6
+  NW score: k=6 (pre-snap), norm=3.8904
+  Anchor:   word 81 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 Quomodo co-mer la es ma -man tud ne-nt 35
+                      0 |||||||  7
+    query             0 Quomodo conver-sa es in amaritudine ut 37
+=== END DEBUG ===
+

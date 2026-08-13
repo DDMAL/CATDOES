@@ -1,0 +1,163 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'dorna thalamum tuum sy on et suscipe'
+  [fused_1] 'de ggem Christri stum avem vir Ego conce pit'
+  [fused_2] 'virgo peperit tum quem genunt'
+  [fused_3] 'ravit  induere vestimentis glorie tueci'
+  [fused_4] '.ne ta. Et suscipe  Post qimpleti sunt'
+  [fused_5] 'dies purgationis Mari secundum legem moym si cule'
+  [fused_6] 'tunt iesum in ihecusalem utiterent eum'
+  [fused_7] 'tomdiai scaptani eestin legersim m'
+  [fused_8] 'quia omne masculinum ad aperiens vlvam Sanctum'
+  [fused_9] 'domi no vocabi tur tulepro eo domino'
+  [fused_10] 'par nirtutum aut duos pullos tum dicis'
+  [fused_11] 'otule tant peo eo domino parurtaum aut'
+  [fused_12] 'domos pu los co mum bi ram sicat sciptum est'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'dorna thalamum tuum sy on et suscipe'
+  Assigned: 'Adorna thalamum tuum syon Et'
+  Words:    [0..5) consumed=5
+  NW score: k=6 (pre-snap), norm=7.0278
+  Anchor:   word 5 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 -dorna thalamum tuum sy on et suscipe 36
+                      0 -|||||  6
+    query             0 Adorna thalamum tuum sy-on Et-------- 28
+
+-- fused_1 --
+  OCR:      'de ggem Christri stum avem vir Ego conce pit'
+  Assigned: 'suscipe regem xpristum quem virgo'
+  Words:    [5..10) consumed=5
+  NW score: k=6 (pre-snap), norm=3.4428
+  Anchor:   word 10 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 -----de -ggem Christri stum avem vir Ego conce pit 44
+                      0 -----.|  7
+    query             0 suscipe regem xpri-----stum quem vir--go---------- 33
+
+-- fused_2 --
+  OCR:      'virgo peperit tum quem genunt'
+  Assigned: 'concepit virgo peperit virgo post partum quem genuit'
+  Words:    [10..18) consumed=8
+  NW score: k=8 (pre-snap), norm=3.6567
+  Anchor:   word 18 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ---------virgo peperit --------------tum quem genunt 29
+                      0 ---------||||| 14
+    query             0 concepit virgo peperit virgo post partum quem genuit 52
+
+-- fused_3 --
+  OCR:      'ravit  induere vestimentis glorie tueci'
+  Assigned: 'addoravit Induere vestimentis glorie tue civitas'
+  Words:    [18..24) consumed=6
+  NW score: k=5 (pre-snap), norm=6.1271
+  Anchor:   word 24 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 ----ravit  induere vestimentis glorie tue-ci----- 39
+                      0 ----|||||- 10
+    query             0 addoravit- Induere vestimentis glorie tue civitas 48
+
+-- fused_4 --
+  OCR:      '.ne ta. Et suscipe  Post qimpleti sunt'
+  Assigned: 'sancta Et suscipe Postquam impleti sunt'
+  Words:    [24..30) consumed=6
+  NW score: k=6 (pre-snap), norm=5.0654
+  Anchor:   word 30 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -.ne ta. Et suscipe  Post---- qimpleti sunt 38
+                      0 -.|-.||-  8
+    query             0 san-cta- Et suscipe- Postquam -impleti sunt 39
+
+-- fused_5 --
+  OCR:      'dies purgationis Mari secundum legem moym si cule'
+  Assigned: 'dies purgationis marie secundum legem moysi tule'
+  Words:    [30..37) consumed=7
+  NW score: k=7 (pre-snap), norm=6.2800
+  Anchor:   word 37 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 dies purgationis Mari- secundum legem moym si cule---- 49
+                      0 ||||  4
+    query             0 dies purgationis marie secundum legem moy--si tulerunt 52
+
+-- fused_6 --
+  OCR:      'tunt iesum in ihecusalem utiterent eum'
+  Assigned: 'runt ihesum in iherusalem ut sisterent eum'
+  Words:    [37..43) consumed=6
+  NW score: k=6 (pre-snap), norm=5.5472
+  Anchor:   word 43 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 tunt i-esum in ihecusalem ut--i-terent eum 38
+                      0 -----|-|||| 11
+    query             0 -----ihesum in iherusalem ut sisterent eum 37
+
+-- fused_7 --
+  OCR:      'tomdiai scaptani eestin legersim m'
+  Assigned: 'domino Sicut scriptum est in lege'
+  Words:    [43..49) consumed=6
+  NW score: k=6 (pre-snap), norm=1.5524
+  Anchor:   word 49 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 tomdi---ai--- sc-aptani eest-in legersim m 34
+                      0 .||-|---.|--- 13
+    query             0 dom-ino Sicut script-um -est in lege------ 33
+
+-- fused_8 --
+  OCR:      'quia omne masculinum ad aperiens vlvam Sanctum'
+  Assigned: 'domini quia omne masculinum adaperiens vulvam'
+  Words:    [49..55) consumed=6
+  NW score: k=7 (pre-snap), norm=6.2378
+  Anchor:   word 55 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 -------quia omne masculinum ad aperiens v-lvam Sanctum 46
+                      0 -------|||| 11
+    query             0 domini quia omne masculinum ad-aperiens vulva--------m 45
+
+-- fused_9 --
+  OCR:      'domi no vocabi tur tulepro eo domino'
+  Assigned: 'sanctum domino vocabitur Optulerunt pro eo domino'
+  Words:    [55..62) consumed=7
+  NW score: k=7 (pre-snap), norm=4.7857
+  Anchor:   word 62 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 --------domi no vocabi tur --tule-----pro eo domino 36
+                      0 --------||||-|| 15
+    query             0 sanctum domi-no vocabi-tur Optulerunt pro eo domino 49
+
+-- fused_10 --
+  OCR:      'par nirtutum aut duos pullos tum dicis'
+  Assigned: 'par turturum aut duos pullos columbarum'
+  Words:    [62..68) consumed=6
+  NW score: k=5 (pre-snap), norm=4.6292
+  Anchor:   word 68 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 par nirtutum aut duos pullos --tum dicis 38
+                      0 |||  3
+    query             0 par turturum aut duos pullos colum-barum 39
+
+-- fused_11 --
+  OCR:      'otule tant peo eo domino parurtaum aut'
+  Assigned: 'Sicut Obtulerunt pro eo domino par turturum aut'
+  Words:    [68..76) consumed=8
+  NW score: k=8 (pre-snap), norm=4.3066
+  Anchor:   word 76 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -------otule tant peo eo domino par--urt-aum aut 38
+                      0 -------.||||-..|| 17
+    query             0 Sicut Obtule-runt pro eo domino par turturum aut 47
+
+-- fused_12 --
+  OCR:      'domos pu los co mum bi ram sicat sciptum est'
+  Assigned: 'duos pullos columbarum Sicut scriptum est'
+  Words:    [76..82) consumed=6
+  NW score: k=6 (pre-snap), norm=4.5676
+  Anchor:   word 82 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 domos pu los co mum bi ram sicat sc-iptum est 44
+                      0 |-.||  5
+    query             0 d-uos pullos co-lum-b-arum Sicut scriptum est 41
+=== END DEBUG ===
+

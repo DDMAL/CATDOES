@@ -1,0 +1,211 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'in festo Sancti Blasii episcopi milsi o ut ipi e '
+  [fused_1] 'apud La Sebastem civita in Sancte Agache vi'
+  [fused_2] 'mit ad vespas capitlan et Ymus et G. de comu'
+  [fused_3] 'ternum evovae. virg ad magister ant entem sacr .'
+  [fused_4] 'tam spontaneam honorem Deo et patrie liberationem evorae'
+  [fused_5] 'd'
+  [fused_6] 'Regem virginum dominum. Veni'
+  [fused_7] 'te. Ingenua sum expectabili genere ut omnis paren'
+  [fused_8] 'l eatus ir oauma ge'
+  [fused_9] 'mta est in qua servitus Christisti comprobatur Quare'
+  [fused_10] 'fncila Chpitisti sum ideo me ostendo servilem'
+  [fused_11] 'Domine quid exovae'
+  [fused_12] 'um torqueretur Beata Agatha in manulla gravi'
+  [fused_13] 'ter Dyat ad indicem impie cuui'
+  [fused_14] 'telis et dyre tyzanne non es confusus amputare in femi'
+  [fused_15] 'm quod ipse in matre sub Xsti Xgo'
+  [fused_16] 'malio mamimillas integras intuo in amima mea amas'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'in festo Sancti Blasii episcopi milsi o ut ipi e'
+  Assigned: 'Mentem sanctam'
+  Words:    [0..2) consumed=2
+  NW score: k=7 (pre-snap), norm=-0.6316
+  Anchor:   word 2 (within_chant_7), diff=5, snapped=False, forced=True
+  Alignment:
+    target            0 in fest-o Sancti Blasii episcopi milsi o ut ipi e 48
+                      0 ---.|.|-.  9
+    query             0 ---Mentem sanct----a-------------m--------------- 14
+
+-- fused_1 --
+  OCR:      'apud La Sebastem civita in Sancte Agache vi'
+  Assigned: 'spontaneam honorem deo et patrie liberationem'
+  Words:    [2..8) consumed=6
+  NW score: k=9 (pre-snap), norm=-1.4532
+  Anchor:   word 8 (within_chant_7), diff=3, snapped=False, forced=True
+  Alignment:
+    target            0 apud La Seba-----stem civita in Sanct--e ---Aga--che vi 43
+                      0 .|-...|-.|-|-----..|| 21
+    query             0 sp-onta-ne-am honorem ---deo et pa--trie liberatione--m 45
+
+-- fused_2 --
+  OCR:      'mit ad vespas capitlan et Ymus et G. de comu'
+  Assigned: 'euouae Regem virginum dominum ~Venite Ingenua sum'
+  Words:    [8..15) consumed=7
+  NW score: k=7 (pre-snap), norm=-1.6583
+  Anchor:   word 12 (within_chant_7), diff=3, snapped=False, forced=False
+  Alignment:
+    target            0 mit ad vespas capitlan et -Ym--us --e--t- G. de--- comu 44
+                      0 ....|.  6
+    query             0 euouae Re-gem --virgin-um dominum ~Venite -Ingenua sum- 49
+
+-- fused_3 --
+  OCR:      'ternum evovae. virg ad magister ant entem sacr .'
+  Assigned: 'expectabili genere ut omnis paren'
+  Words:    [15..20) consumed=5
+  NW score: k=7 (pre-snap), norm=-0.9798
+  Anchor:   word 20 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 -----ternum -evovae. virg ad -magister -ant entem sacr . 48
+                      0 -----|..... 11
+    query             0 expectabili ge---ne----re ut om-nis--- pa--rente--la---- 37
+
+-- fused_4 --
+  OCR:      'tam spontaneam honorem Deo et patrie liberationem evorae'
+  Assigned: 'tela mea testatur ~Beatus vir euouae Summa inge'
+  Words:    [20..27) consumed=7
+  NW score: k=5 (pre-snap), norm=-0.7680
+  Anchor:   word 27 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 -tam --sponta-----nea--m honorem Deo et patrie liberation-em
+                      0 -.|-
+    query             0 mea- tes---tatur ~Beatus --vir------ euoua---e -Summa i-nge-
+    
+    target           49  evorae 56
+                      4 -....|. 11
+    query            42 -nuitas 48
+
+-- fused_5 --
+  OCR:      'd'
+  Assigned: 'nuitas ista est in qua servitus xpisti compro'
+  Words:    [27..34) consumed=7
+  NW score: k=1 (pre-snap), norm=-9.0000
+  Anchor:   word 34 (within_chant_7), diff=6, snapped=False, forced=True
+  Alignment:
+    target            0 ------------------------------------------d  1
+                      0 ------------------------------------------. 43
+    query             0 ista est in qua servitus xpisti comprobatur 43
+
+-- fused_6 --
+  OCR:      'Regem virginum dominum. Veni'
+  Assigned: 'batur ~Quare fremuerunt euouae Ancilla'
+  Words:    [34..38) consumed=4
+  NW score: k=4 (pre-snap), norm=-1.8708
+  Anchor:   word 44 (within_chant_7), diff=6, snapped=False, forced=False
+  Alignment:
+    target            0 ----Re--gem virginum -dominum. Ven-i--- 28
+                      0 ----.|--.||-..|-.|-. 20
+    query             0 ~Quare frem-uer-un-t euo---uae -Ancilla 32
+
+-- fused_7 --
+  OCR:      'te. Ingenua sum expectabili genere ut omnis paren'
+  Assigned: 'xpisti sum ideo me ostendo servilem'
+  Words:    [38..44) consumed=6
+  NW score: k=7 (pre-snap), norm=-1.1845
+  Anchor:   word 44 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 ----te. Ingenua sum expectabili genere -ut omnis par---en 49
+                      0 ----|---------. 15
+    query             0 xpist---------i sum ----------i-deo me ost--endo servilem 35
+
+-- fused_8 --
+  OCR:      'l eatus ir oauma ge'
+  Assigned: 'personam ~Domine'
+  Words:    [44..46) consumed=2
+  NW score: k=2 (pre-snap), norm=-1.6059
+  Anchor:   word 46 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 l eatus ir o-auma -----ge 19
+                      0 -.|------|.|-|-|- 17
+    query             0 -pe------rsona-m- ~Domine 16
+
+-- fused_9 --
+  OCR:      'mta est in qua servitus Christisti comprobatur Quare'
+  Assigned: 'quid euouae Dum torqueretur beata agatha in mamilla graviter dixit ad iudicem Impie'
+  Words:    [46..59) consumed=13
+  NW score: k=13 (pre-snap), norm=-1.4613
+  Anchor:   word 55 (within_chant_7), diff=4, snapped=False, forced=False
+  Alignment:
+    target            0 --------------m----------------ta -est-- in ----qua ser-vitu
+                      0 --------------|----------------||
+    query             0 quid euouae Dum torqueretur beata agatha in mamilla -gravite
+    
+    target           22 s Christ----isti comprobatur Quare 52
+                     33 . 34
+    query            59 r dixi-t ad iudi-cem-------- Impie 83
+
+-- fused_10 --
+  OCR:      'fncila Chpitisti sum ideo me ostendo servilem'
+  Assigned: 'crudelis et'
+  Words:    [59..61) consumed=2
+  NW score: k=6 (pre-snap), norm=-1.6600
+  Anchor:   word 61 (within_chant_7), diff=4, snapped=False, forced=True
+  Alignment:
+    target            0 fncila Chpitisti sum ideo me ostendo servilem 45
+                      0 --|--------------.|---|----|..|----- 36
+    query             0 --c--------------ru---d----elis----- ------et 11
+
+-- fused_11 --
+  OCR:      'Domine quid exovae'
+  Assigned: 'dyre tyranne non es confusus amputare in femina quod'
+  Words:    [61..70) consumed=9
+  NW score: k=4 (pre-snap), norm=-2.4333
+  Anchor:   word 70 (within_chant_7), diff=5, snapped=False, forced=True
+  Alignment:
+    target            0 --------------------Do--------m-------in--e---- quid exovae
+                      0 --------------------.|--------|-------||--|----
+    query             0 dyre tyranne non es confusus amputare in femina quod-------
+    
+    target           18
+                     47
+    query            52
+
+-- fused_12 --
+  OCR:      'um torqueretur Beata Agatha in manulla gravi'
+  Assigned: 'ipse in matre suxisti Ego habeo mamillas integras'
+  Words:    [70..78) consumed=8
+  NW score: k=8 (pre-snap), norm=-0.2369
+  Anchor:   word 75 (within_chant_7), diff=3, snapped=False, forced=False
+  Alignment:
+    target            0 -------um torquere-tur Beata Agatha in manulla- ----gravi 44
+                      0 -------.|.|-----||-.|--...|. 28
+    query             0 ipse in mat-----re su--xisti Ego habeo mamillas integra-s 49
+
+-- fused_13 --
+  OCR:      'ter Dyat ad indicem impie cuui'
+  Assigned: 'intus in anima mea quas'
+  Words:    [78..83) consumed=5
+  NW score: k=5 (pre-snap), norm=-0.7614
+  Anchor:   word 83 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 --ter Dyat ad indicem- impie- cuui 30
+                      0 --|..  5
+    query             0 intus --in a---n-i--ma -m--ea quas 23
+
+-- fused_14 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [83..83) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_15 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [83..83) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_16 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [83..83) consumed=0
+  Alignment:
+    (no words left)
+=== END DEBUG ===
+

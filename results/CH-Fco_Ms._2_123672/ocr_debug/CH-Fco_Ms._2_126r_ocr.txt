@@ -1,0 +1,231 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'um et patrem vestrum Deum meum et Deum vestrum Allelvya'
+  [fused_1] 'scendit Deus in mubilatione Allelnya Allelu'
+  [fused_2] 'X ascendes ipsom altum an'
+  [fused_3] 'captinam dinit ad vi'
+  [fused_4] 'dominus in voce Tube Allelnya'
+  [fused_5] 'scendens ipistor in altum Aleluya Alleluya  Laptinami'
+  [fused_6] 'durit captinitatem alla scendo ad patrem'
+  [fused_7] 'meum et vatrem vestrum alselura Alieluma'
+  [fused_8] 'd domino incelo alia pavit sede sua aila ad'
+  [fused_9] 'Bespeas aute viri Galilei ccetis a et pot Ymus'
+  [fused_10] 'meum et Deum vestrum magse u domino incelo allarperavit '
+  [fused_11] 'ter Gseletoine mrnitum qum timimpliator vodie'
+  [fused_12] 'super omnes celos ascendi sti ne derelinquas nos orpha'
+  [fused_13] 'nos sed mitte promissum patris in veos spitritum veritatis'
+  [fused_14] ''
+  [fused_15] 'Alena evorae Cum venerit paraditus'
+  [fused_16] 'quem ego muttam vobis spiritum veritatis qui a patre proce'
+  [fused_17] 'dit ne testimonim peitant te me alelia evorae'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'um et patrem vestrum Deum meum et Deum vestrum Allelvya'
+  Assigned: 'et patrem vestrum deum meum et deum vestrum alleluya'
+  Words:    [0..9) consumed=9
+  NW score: k=9 (pre-snap), norm=6.5633
+  Anchor:   word 54 (within_chant_7), diff=45, snapped=False, forced=False
+  Alignment:
+    target            0 um et patrem vestrum Deum meum et Deum vestrum Allelvya 55
+                      0 ---||  5
+    query             0 ---et patrem vestrum deum meum et deum vestrum alleluya 52
+
+-- fused_1 --
+  OCR:      'scendit Deus in mubilatione Allelnya Allelu'
+  Assigned: 'euouae Ascendit deus in iubilatione alleluya alleluya'
+  Words:    [9..16) consumed=7
+  NW score: k=7 (pre-snap), norm=5.0483
+  Anchor:   word 54 (within_chant_7), diff=38, snapped=False, forced=False
+  Alignment:
+    target            0 --------scendit Deus in mubilatione Allelnya Allelu-- 43
+                      0 --------||||||| 15
+    query             0 euouae Ascendit deus in iubilatione alleluya alleluya 53
+
+-- fused_2 --
+  OCR:      'X ascendes ipsom altum an'
+  Assigned: 'Et dominus in voce tube alleluya Ascendens christus in altum alleluya'
+  Words:    [16..27) consumed=11
+  NW score: k=11 (pre-snap), norm=-0.6019
+  Anchor:   word 54 (within_chant_7), diff=27, snapped=False, forced=False
+  Alignment:
+    target            0 ----------------------X a---------scende-s ---i--ps-om altum
+                      0 ----------------------.
+    query             0 Et dominus in voce tube alleluya Ascendens christus in altum
+    
+    target           22  a------n 25
+                     23  23
+    query            60  alleluya 69
+
+-- fused_3 --
+  OCR:      'captinam dinit ad vi'
+  Assigned: 'alleluya Captivam duxit captivitatem'
+  Words:    [27..31) consumed=4
+  NW score: k=4 (pre-snap), norm=0.6708
+  Anchor:   word 54 (within_chant_7), diff=23, snapped=False, forced=False
+  Alignment:
+    target            0 ---------captinam dinit -a-d vi----- 20
+                      0 ---------.||||.|| 17
+    query             0 alleluya Captivam duxit captivitatem 36
+
+-- fused_4 --
+  OCR:      'dominus in voce Tube Allelnya'
+  Assigned: 'alleluya Ascendo ad patrem meum et patrem vestrum alleluya'
+  Words:    [31..40) consumed=9
+  NW score: k=9 (pre-snap), norm=-1.2923
+  Anchor:   word 54 (within_chant_7), diff=14, snapped=False, forced=False
+  Alignment:
+    target            0 --------------do---------m-inus in -voce- ----Tube Allelnya
+                      0 --------------||---------|-..|.
+    query             0 alleluya Ascendo ad patrem meum et patrem vestru-m alleluya
+    
+    target           29
+                     31
+    query            58
+
+-- fused_5 --
+  OCR:      'scendens ipistor in altum Aleluya Alleluya  Laptinami'
+  Assigned: 'alleluya Deum meum et deum'
+  Words:    [40..45) consumed=5
+  NW score: k=5 (pre-snap), norm=-1.5355
+  Anchor:   word 54 (within_chant_7), diff=9, snapped=False, forced=False
+  Alignment:
+    target            0 scendens ipistor in altum Aleluya Alleluya ---- Lapt-inami 53
+                      0 --------------------||-----|||||| 33
+    query             0 --------------------al-----leluya --De-u-m meum --et deum- 26
+
+-- fused_6 --
+  OCR:      'durit captinitatem alla scendo ad patrem'
+  Assigned: 'vestrum O rex glorie domine virtutum qui triumphator hodie'
+  Words:    [45..54) consumed=9
+  NW score: k=8 (pre-snap), norm=-1.6883
+  Anchor:   word 54 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 ----du-----------rit captin---i-tatem alla scendo ad p-at-r-
+                      0 ----.|-----------||.
+    query             0 vestrum O rex glorie -domine virtutum -qui -----triumphator 
+    
+    target           38 ----em 40
+                     20 ----|- 26
+    query            53 hodie- 58
+
+-- fused_7 --
+  OCR:      'meum et vatrem vestrum alselura Alieluma'
+  Assigned: 'super omnes celos ascendisti ne derelinquas nos orpha'
+  Words:    [54..62) consumed=8
+  NW score: k=6 (pre-snap), norm=-1.3021
+  Anchor:   word 62 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 --me--um et vatre--m --ve---st-rum alsel---ura- -Alieluma---
+                      0 --.|--.|.|.
+    query             0 super omnes ---celos ascendisti ne derelinqu-as nos orphanos
+    
+    target           40 
+                     11 
+    query            56 
+
+-- fused_8 --
+  OCR:      'd domino incelo alia pavit sede sua aila ad'
+  Assigned: 'nos sed mitte promissum patris in nos spiritum veritatis'
+  Words:    [62..70) consumed=8
+  NW score: k=8 (pre-snap), norm=-1.0151
+  Anchor:   word 70 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 --d domi-----no incelo -a-lia pavit --sede s-----ua --aila a
+                      0 --|
+    query             0 sed --mitte promi-ssum patris ---in nos--- spiritum veritati
+    
+    target           42 d 43
+                      3 .  4
+    query            51 s 52
+
+-- fused_9 --
+  OCR:      'Bespeas aute viri Galilei ccetis a et pot Ymus'
+  Assigned: 'alleluya euouae Cum venerit paraclitus quem ego mittam'
+  Words:    [70..78) consumed=8
+  NW score: k=8 (pre-snap), norm=-0.7023
+  Anchor:   word 75 (within_chant_7), diff=3, snapped=False, forced=False
+  Alignment:
+    target            0 --Be---spe---as aute v--iri- Ga---lilei ccetis ---a e-t pot 
+                      0 --.|---..|---|.
+    query             0 alleluya euouae Cu-m venerit paracli-------tus quem ego mitt
+    
+    target           42 Ymus 46
+                     15 .|-- 19
+    query            52 am-- 54
+
+-- fused_10 --
+  OCR:      'meum et Deum vestrum magse u domino incelo allarperavit'
+  Assigned: 'vobis spiritum veritatis qui a patre proce'
+  Words:    [78..85) consumed=7
+  NW score: k=10 (pre-snap), norm=-0.9785
+  Anchor:   word 85 (within_chant_7), diff=3, snapped=False, forced=True
+  Alignment:
+    target            0 -meum ----et Deum vestrum ma-gse -u domino incelo alla-r--pe
+                      0 -....
+    query             0 vobis spirit---um ve--r--itatis- qu--------i----- a patre p-
+    
+    target           50 r--avit 55
+                      5 |--..|| 12
+    query            38 rocedit 45
+
+-- fused_11 --
+  OCR:      'ter Gseletoine mrnitum qum timimpliator vodie'
+  Assigned: 'dit ille testimonium perhibebit de'
+  Words:    [85..89) consumed=4
+  NW score: k=4 (pre-snap), norm=-0.6260
+  Anchor:   word 92 (page_break_77), diff=3, snapped=False, forced=False
+  Alignment:
+    target            0 -----ter Gseletoine mrnitum qum timimpliator vodie 45
+                      0 -----||---|---|-|---|.||-|| 27
+    query             0 ille te---s---t-i---moni-um ---perhibebi-t-- --d-e 30
+
+-- fused_12 --
+  OCR:      'super omnes celos ascendi sti ne derelinquas nos orpha'
+  Assigned: 'me alleluya euouae'
+  Words:    [89..92) consumed=3
+  NW score: k=3 (pre-snap), norm=-3.1113
+  Anchor:   word 92 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 super omnes celos ascendi sti ne derelinqu-as nos orpha- 54
+                      0 -------|-----|--- 17
+    query             0 -------m-----e--- a---------------llel---uya- --euo--uae 18
+
+-- fused_13 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [92..92) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_14 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [92..92) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_15 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [92..92) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_16 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [92..92) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_17 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [92..92) consumed=0
+  Alignment:
+    (no words left)
+=== END DEBUG ===
+

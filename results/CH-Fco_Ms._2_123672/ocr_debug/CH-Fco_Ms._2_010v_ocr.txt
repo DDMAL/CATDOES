@@ -1,0 +1,179 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 're quoniam doluit dominus super te . Et au ferret'
+  [fused_1] 'a te omnem Tribulanionemcdominus'
+  [fused_2] 'in fortitudine veniet et Brachium ejus do tur . et'
+  [fused_3] 'omooa amtros'
+  [fused_4] '.il cclese veniet dominus protector noster Sanctus'
+  [fused_5] ' nes loro a habensin ca'
+  [fused_6] 'pate tdominabitur a mariusque ad ma'
+  [fused_7] 're et a fuimine usque ad terminos orbis terra rum Coro .'
+  [fused_8] '* vnt materconsolinr flors bita consolabor vos'
+  [fused_9] 'Vicit domi MHerusa Iem cuvi tate quam e'
+  [fused_10] 'le Gvemet nobis umet inde bitis'
+  [fused_11] 'et gaude bit cor vestrum e. abo .nsyon'
+  [fused_12] 'salu tem et in iherusalem glo na. mim etide'
+  [fused_13] 'nem din Canton. inmontibuns'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      're quoniam doluit dominus super te . Et au ferret'
+  Assigned: 'flere quoniam doluit dominus super te Et auferret'
+  Words:    [0..8) consumed=8
+  NW score: k=8 (pre-snap), norm=6.8980
+  Anchor:   word 14 (within_chant_7), diff=6, snapped=False, forced=False
+  Alignment:
+    target            0 ---re quoniam doluit dominus super te . Et au ferret 49
+                      0 ---||  5
+    query             0 flere quoniam doluit dominus super te-- Et au-ferret 49
+
+-- fused_1 --
+  OCR:      'a te omnem Tribulanionemcdominus'
+  Assigned: 'a te omnem tribulationem Ecce dominus'
+  Words:    [8..14) consumed=6
+  NW score: k=6 (pre-snap), norm=6.0158
+  Anchor:   word 14 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 a te omnem Tribulanionem---c--dominus 32
+                      0 |  1
+    query             0 a te omnem tribulationem Ecce dominus 37
+
+-- fused_2 --
+  OCR:      'in fortitudine veniet et Brachium ejus do tur . et'
+  Assigned: 'in fortitudine veniet et brachium eius dominabitur Et'
+  Words:    [14..22) consumed=8
+  NW score: k=8 (pre-snap), norm=5.8860
+  Anchor:   word 22 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 in fortitudine veniet et Brachium ejus do----- tur . et 50
+                      0 ||  2
+    query             0 in fortitudine veniet et brachium eius dominabitur-- Et 53
+
+-- fused_3 --
+  OCR:      'omooa amtros'
+  Assigned: 'auferret'
+  Words:    [22..23) consumed=1
+  NW score: k=1 (pre-snap), norm=-3.0619
+  Anchor:   word 29 (within_chant_7), diff=6, snapped=False, forced=False
+  Alignment:
+    target            0 omooa amtros 12
+                      0 ----|....|.. 12
+    query             0 ----auferret  8
+
+-- fused_4 --
+  OCR:      '.il cclese veniet dominus protector noster Sanctus'
+  Assigned: 'Ecce veniet dominus protector noster sanctus'
+  Words:    [23..29) consumed=6
+  NW score: k=6 (pre-snap), norm=6.3960
+  Anchor:   word 29 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 .il cclese veniet dominus protector noster Sanctus 50
+                      0 ---.||---| 10
+    query             0 ---Ecc---e veniet dominus protector noster sanctus 44
+
+-- fused_5 --
+  OCR:      'nes loro a habensin ca'
+  Assigned: 'israhel Coronam regni habens in capite'
+  Words:    [29..35) consumed=6
+  NW score: k=6 (pre-snap), norm=2.0751
+  Anchor:   word 35 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ----nes loro a------- habens-in ca---- 22
+                      0 ----.|.  7
+    query             0 israhel Coronam regni habens in capite 38
+
+-- fused_6 --
+  OCR:      'pate tdominabitur a mariusque ad ma'
+  Assigned: 'suo Et dominabitur a mari usque ad mare'
+  Words:    [35..43) consumed=8
+  NW score: k=8 (pre-snap), norm=5.2780
+  Anchor:   word 43 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 pate -t-dominabitur a mari-usque ad ma-- 35
+                      0 -...  4
+    query             0 -suo Et dominabitur a mari usque ad mare 39
+
+-- fused_7 --
+  OCR:      're et a fuimine usque ad terminos orbis terra rum Coro .'
+  Assigned: 'et a flumine usque ad terminos orbis terrarum Coronam Sicut'
+  Words:    [43..53) consumed=10
+  NW score: k=9 (pre-snap), norm=6.2593
+  Anchor:   word 53 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 re et a f-uimine usque ad terminos orbis terra rum Coro--- -
+                      0 ---||
+    query             0 ---et a flu-mine usque ad terminos orbis terra-rum Coronam S
+    
+    target           55 ---. 56
+                      5 ---.  9
+    query            55 icut 59
+
+-- fused_8 --
+  OCR:      '* vnt materconsolinr flors bita consolabor vos'
+  Assigned: 'mater consolatur filios suos ita consolabor vos'
+  Words:    [53..60) consumed=7
+  NW score: k=7 (pre-snap), norm=4.3013
+  Anchor:   word 60 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 * vnt mater-consol-inr f-l-ors ----bita consolabor vos 46
+                      0 ------|||||-||||||-..| 22
+    query             0 ------mater consolatur filio-s suos ita consolabor vos 47
+
+-- fused_9 --
+  OCR:      'Vicit domi MHerusa Iem cuvi tate quam e'
+  Assigned: 'dicit dominus et de iherusalem civitate quam elegi'
+  Words:    [60..68) consumed=8
+  NW score: k=7 (pre-snap), norm=3.8624
+  Anchor:   word 68 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 Vicit domi--------- MHerusa Iem cuvi tate quam e---- 39
+                      0 .||||  5
+    query             0 dicit dominus et de iherusa-lem civi-tate quam elegi 50
+
+-- fused_10 --
+  OCR:      'le Gvemet nobis umet inde bitis'
+  Assigned: 'veniet vobis auxilium Et videbitis et'
+  Words:    [68..74) consumed=6
+  NW score: k=5 (pre-snap), norm=2.7106
+  Anchor:   word 74 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 le Gve-met nobis ------um-et -inde bitis--- 31
+                      0 ----||-.|| 10
+    query             0 ----veniet vobis auxilium Et vi-de-bitis et 37
+
+-- fused_11 --
+  OCR:      'et gaude bit cor vestrum e. abo .nsyon'
+  Assigned: 'gaudebit cor vestrum Dabo in syon'
+  Words:    [74..80) consumed=6
+  NW score: k=6 (pre-snap), norm=5.4502
+  Anchor:   word 80 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 et gaude bit cor vestrum e. abo .n-syon 38
+                      0 ---|||||-||| 12
+    query             0 ---gaude-bit cor vestrum --Dabo in syon 33
+
+-- fused_12 --
+  OCR:      'salu tem et in iherusalem glo na. mim etide'
+  Assigned: 'salutem et in iherusalem gloriam meam Et videbitis'
+  Words:    [80..88) consumed=8
+  NW score: k=7 (pre-snap), norm=5.3047
+  Anchor:   word 88 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 salu tem et in iherusalem glo na. m-im et--ide----- 43
+                      0 ||||-|||  8
+    query             0 salu-tem et in iherusalem gloriam meam Et videbitis 50
+
+-- fused_13 --
+  OCR:      'nem din Canton. inmontibuns'
+  Assigned: 'Jherusalem plantabis vineam in montibus'
+  Words:    [88..93) consumed=5
+  NW score: k=5 (pre-snap), norm=1.0786
+  Anchor:   word 93 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -------nem din Cant------on--. in-montibuns 27
+                      0 -------.|| 10
+    query             0 Jherusalem ---plantabis vineam in montibu-s 39
+=== END DEBUG ===
+

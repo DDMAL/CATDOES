@@ -1,0 +1,175 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'Pheta esset domini eoa . Prevaliit david in Phili'
+  [fused_1] 'stenn in funda et lapide in nomine domini evovae a'
+  [fused_2] 'iste est david de quo canebant in choro dicentes saui percussit'
+  [fused_3] 'et david decem milia in milibus suis ex ovae a'
+  [fused_4] 'tus rex sani dixit michi mille dederunt et filio Ysai dede'
+  [fused_5] 'runt decem milia evovae e iis cuim in omnibus'
+  [fused_6] 'sicut david fidelis inventus est in regno suo egrediens'
+  [fused_7] 'et regrediens et pergens ad imperium regis evovac '
+  [fused_8] 'er samvel miistrabat ante denni coram Hbeby et servio'
+  [fused_9] 'tonum erat precioius culm deedorae eet jona'
+  [fused_10] 'thas amiabiles et decori ninita sua in morte'
+  [fused_11] 'sunt divisi quilis velociores lconibus fortiores quomo'
+  [fused_12] 'to tencetunt fortes di velo et penerunt ar ma bellica'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'Pheta esset domini eoa . Prevaliit david in Phili'
+  Assigned: 'esset domini euouae Prevaluit david in philis'
+  Words:    [0..7) consumed=7
+  NW score: k=7 (pre-snap), norm=4.6871
+  Anchor:   word 7 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 Pheta esset domini e-o-a . Prevaliit david in Phili------ 49
+                      0 ------||||| 11
+    query             0 ------esset domini euoua-e Prevaluit david in philistheum 50
+
+-- fused_1 --
+  OCR:      'stenn in funda et lapide in nomine domini evovae a'
+  Assigned: 'theum in funda et lapide in nomine domini euouae Nonne'
+  Words:    [7..16) consumed=9
+  NW score: k=8 (pre-snap), norm=6.0665
+  Anchor:   word 16 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 stenn in funda et lapide in nomine domini evovae ----a 50
+                      0 ------||  8
+    query             0 ------in funda et lapide in nomine domini euouae Nonne 48
+
+-- fused_2 --
+  OCR:      'iste est david de quo canebant in choro dicentes saui percussit'
+  Assigned: 'iste est david de quo canebant in choro dicentes saul percussit'
+  Words:    [16..27) consumed=11
+  NW score: k=11 (pre-snap), norm=7.7937
+  Anchor:   word 27 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 iste est david de quo canebant in choro dicentes saui percus
+                      0 ||||
+    query             0 iste est david de quo canebant in choro dicentes saul percus
+    
+    target           60 sit 63
+                      4 |||  7
+    query            60 sit 63
+
+-- fused_3 --
+  OCR:      'et david decem milia in milibus suis ex ovae a'
+  Assigned: 'mille et david decem milia in milibus suis euouae ira'
+  Words:    [27..37) consumed=10
+  NW score: k=9 (pre-snap), norm=5.8766
+  Anchor:   word 37 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 ------et david decem milia in milibus suis ex ovae --a--- 46
+                      0 ------||  8
+    query             0 mille et david decem milia in milibus suis e-uouae Iratus 56
+
+-- fused_4 --
+  OCR:      'tus rex sani dixit michi mille dederunt et filio Ysai dede'
+  Assigned: 'tus rex saul dixit michi mille dederunt et filio ysai dede'
+  Words:    [37..47) consumed=10
+  NW score: k=10 (pre-snap), norm=6.2241
+  Anchor:   word 47 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 tus rex sani dixit michi mille dederunt et filio Ysai dede--
+                      0 ----|||
+    query             0 ----rex saul dixit michi mille dederunt et filio ysai dederu
+    
+    target           58 -- 58
+                      7 --  9
+    query            56 nt 58
+
+-- fused_5 --
+  OCR:      'runt decem milia evovae e iis cuim in omnibus'
+  Assigned: 'runt decem milia euouae Quis enim in omnibus'
+  Words:    [47..54) consumed=7
+  NW score: k=7 (pre-snap), norm=4.9651
+  Anchor:   word 54 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 runt decem milia evovae e iis cuim in omnibus 45
+                      0 -----||||| 10
+    query             0 -----decem milia euouae -Quis enim in omnibus 39
+
+-- fused_6 --
+  OCR:      'sicut david fidelis inventus est in regno suo egrediens'
+  Assigned: 'sicut david fidelis inventus est in regno suo'
+  Words:    [54..62) consumed=8
+  NW score: k=9 (pre-snap), norm=8.0000
+  Anchor:   word 62 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 sicut david fidelis inventus est in regno suo egrediens 55
+                      0 |||||  5
+    query             0 sicut david fidelis inventus est in regno suo---------- 45
+
+-- fused_7 --
+  OCR:      'et regrediens et pergens ad imperium regis evovac'
+  Assigned: 'egrediens et regrediens et pergens ad imperium regis euouae'
+  Words:    [62..71) consumed=9
+  NW score: k=9 (pre-snap), norm=5.9329
+  Anchor:   word 71 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ----------et regrediens et pergens ad imperium regis evovac
+                      0 ----------||
+    query             0 egrediens et regrediens et pergens ad imperium regis euouae
+    
+    target           49
+                     12
+    query            59
+
+-- fused_8 --
+  OCR:      'er samvel miistrabat ante denni coram Hbeby et servio'
+  Assigned: 'Puer samuhel ministrabat ante deum coram hely et sermo'
+  Words:    [71..80) consumed=9
+  NW score: k=9 (pre-snap), norm=5.1778
+  Anchor:   word 80 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 --er sam-vel mi-istrabat ante denni coram Hbeby et servio 53
+                      0 --||  4
+    query             0 Puer samuhel ministrabat ante de-um coram -hely et ser-mo 54
+
+-- fused_9 --
+  OCR:      'tonum erat precioius culm deedorae eet jona'
+  Assigned: 'domini erat preciosus cum eo euouae Saul et jona'
+  Words:    [80..89) consumed=9
+  NW score: k=9 (pre-snap), norm=3.5740
+  Anchor:   word 89 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 to--num erat precioius culm de--edorae ----eet jona---- 43
+                      0 .|--|-.  7
+    query             0 domin-i erat preciosus cu-m -eo euouae Saul et jonathas 52
+
+-- fused_10 --
+  OCR:      'thas amiabiles et decori ninita sua in morte'
+  Assigned: 'thas amabiles et decori in vita sua in morte quoque non'
+  Words:    [89..99) consumed=10
+  NW score: k=8 (pre-snap), norm=6.1075
+  Anchor:   word 99 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 thas amiabiles et decori nin--ita sua in morte----------- 44
+                      0 -----||-|||||| 14
+    query             0 -----am-abiles et decori -in vita sua in morte quoque non 50
+
+-- fused_11 --
+  OCR:      'sunt divisi quilis velociores lconibus fortiores quomo'
+  Assigned: 'sunt divisi aquilis velociores leonibus fortiores quomo'
+  Words:    [99..106) consumed=7
+  NW score: k=7 (pre-snap), norm=7.2459
+  Anchor:   word 106 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 sunt divisi -quilis velociores lconibus fortiores quom--o 54
+                      0 ||||  4
+    query             0 sunt divisi aquilis velociores leonibus fortiores quomodo 57
+
+-- fused_12 --
+  OCR:      'to tencetunt fortes di velo et penerunt ar ma bellica'
+  Assigned: 'do ceciderunt fortes in bello et perierunt arma bellica'
+  Words:    [106..114) consumed=8
+  NW score: k=8 (pre-snap), norm=4.9336
+  Anchor:   word 114 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 to tenc--etunt fortes di- ve-lo et pe-nerunt ar ma bellica 53
+                      0 ---.|-|--|.||| 14
+    query             0 ---ce-ciderunt fortes -in bello et perierunt ar-ma bellica 52
+=== END DEBUG ===
+

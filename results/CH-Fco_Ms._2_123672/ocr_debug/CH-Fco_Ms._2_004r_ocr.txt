@@ -1,0 +1,231 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'a mea si introibunt in requiem meam Oio mpis'
+  [fused_1] 'et filio et spiritui Sancto Sicut erat in principio et nunc et semper et in'
+  [fused_2] 'adhonorem omm posentis Dei erbeate mane iuberginis in'
+  [fused_3] 'cipit antiphonarium ordinis fratrum minorum secundum consuetudi'
+  [fused_4] 'Sancte Romane ecclesie alla alsa alsa salbeto de adventu ad resper'
+  [fused_5] 'secula secu lorum amen um capulai fates . scientes quia hora ect Hymus'
+  [fused_6] 'Londitor aline siderum . Norate clli de super et mibes pluant justum'
+  [fused_7] ' a peciatur terra et germninet salvatorem. cce nomen'
+  [fused_8] 'quo et claritas ejus replet orbem terrarum oreititadine as abino die jldes quo abu pi ihenoni sait omemorats'
+  [fused_9] 'de apostolis et de pace nee sufragia s persignum ctucis eter seid mdiebus fiaubus'
+  [fused_10] 'Magnificat Exovae de Lipreselmisere vado copts siale n imutatu . in vis de adventu'
+  [fused_11] 'egem venturum do te a dore mus.'
+  [fused_12] 'vente jubeun sipnum pi annetec cerereccani'
+  [fused_13] 'cum cum potestate magna ad salvandas gentes Aveluyam'
+  [fused_14] 'Confortatem manus dissolutas confortranum dicite ecclesiedeus nosterveni'
+  [fused_15] '.eccli ancium deli cinei s andete omnes e'
+  [fused_16] 'qmavenettoino in como atovet ietatontoneminse'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'a mea si introibunt in requiem meam Oio mpis'
+  Assigned: 'iuravi in ira mea si introibunt in requiem meam Gloria'
+  Words:    [0..10) consumed=10
+  NW score: k=10 (pre-snap), norm=4.8006
+  Anchor:   word 39 (within_chant_7), diff=29, snapped=False, forced=False
+  Alignment:
+    target            0 ------------a mea si introibunt in requiem meam Oio mpis 44
+                      0 ------------| 13
+    query             0 iuravi in ira mea si introibunt in requiem meam Glo--ria 54
+
+-- fused_1 --
+  OCR:      'et filio et spiritui Sancto Sicut erat in principio et nunc et semper et in'
+  Assigned: 'patri et filio et spiritui sancto sicut erat in principio et nunc et semper et in'
+  Words:    [10..26) consumed=16
+  NW score: k=16 (pre-snap), norm=7.0822
+  Anchor:   word 39 (within_chant_7), diff=13, snapped=False, forced=False
+  Alignment:
+    target            0 ------et filio et spiritui Sancto Sicut erat in principio et
+                      0 ------||
+    query             0 patri et filio et spiritui sancto sicut erat in principio et
+    
+    target           54  nunc et semper et in 75
+                      8   8
+    query            60  nunc et semper et in 81
+
+-- fused_2 --
+  OCR:      'adhonorem omm posentis Dei erbeate mane iuberginis in'
+  Assigned: 'secula seculorum amen Conditor alme syderum Rorate celi desuper et'
+  Words:    [26..36) consumed=10
+  NW score: k=10 (pre-snap), norm=-0.6256
+  Anchor:   word 39 (within_chant_7), diff=3, snapped=False, forced=False
+  Alignment:
+    target            0 -----a--dhonorem om-m posen--tis --Dei ---er----beate mane i
+                      0 -----|--....||.|
+    query             0 secula seculorum amen Co--nditor alme- syderum Rorate --celi
+    
+    target           41 ----uberginis in 53
+                     16 ----|.||----- 29
+    query            55  desuper----- et 66
+
+-- fused_3 --
+  OCR:      'cipit antiphonarium ordinis fratrum minorum secundum consuetudi'
+  Assigned: 'nubes pluant iustum'
+  Words:    [36..39) consumed=3
+  NW score: k=13 (pre-snap), norm=-0.7516
+  Anchor:   word 39 (within_chant_7), diff=10, snapped=False, forced=True
+  Alignment:
+    target            0 cipit antiphonarium ordinis -fra-trum minorum secundum consu
+                      0 -------------|---|------..|
+    query             0 -------------n---u------bes pluant--- -i------------u-----s-
+    
+    target           58 etudi 63
+                     27 -||-. 32
+    query            16 -tu-m 19
+
+-- fused_4 --
+  OCR:      'Sancte Romane ecclesie alla alsa alsa salbeto de adventu ad resper'
+  Assigned: 'Aperiatur terra et germinet salvatorem Ecce nomen domini venit de'
+  Words:    [39..49) consumed=10
+  NW score: k=10 (pre-snap), norm=-1.1145
+  Anchor:   word 46 (within_chant_7), diff=3, snapped=False, forced=False
+  Alignment:
+    target            0 ----Sa--ncte Romane eccle-si-e- -alla alsa alsa salbeto d---
+                      0 ----.|--..||--..|--
+    query             0 Aperiatur te--rra-- et germinet salvatorem Ecce -nome-n domi
+    
+    target           47 -e adven-tu ad resper 66
+                     19 -. 21
+    query            54 ni --venit- -d-----e- 65
+
+-- fused_5 --
+  OCR:      'secula secu lorum amen um capulai fates . scientes quia hora ect Hymus'
+  Assigned: 'longinquo et claritas eius replet orbem terrarum'
+  Words:    [49..56) consumed=7
+  NW score: k=14 (pre-snap), norm=-0.8435
+  Anchor:   word 56 (within_chant_7), diff=7, snapped=False, forced=True
+  Alignment:
+    target            0 secula secu lo----rum amen um capula-i fates -. scientes qui
+                      0 ------------||----.|.
+    query             0 ------------longinquo --e---t c---lari---tas eius replet ---
+    
+    target           54 a hora e-ct- Hymus 70
+                     21 ---||-.|-.|-....|. 39
+    query            34 ---or-bem terrarum 48
+
+-- fused_6 --
+  OCR:      'Londitor aline siderum . Norate clli de super et mibes pluant justum'
+  Assigned: '~Magnificat ~euouae Regem venturum dominum Venite adoremus ~Venite Veniet ecce rex excelsus cum { cum'
+  Words:    [56..71) consumed=15
+  NW score: k=15 (pre-snap), norm=-1.2308
+  Anchor:   word 63 (within_chant_7), diff=8, snapped=False, forced=False
+  Alignment:
+    target            0 --Lon-di--t----or aline side-------rum -------------. -Nor--
+                      0 --..|-.|--|----|-.|---|
+    query             0 ~Magnificat ~euo-ua---e Regem venturum dominum Venite adorem
+    
+    target           28 -------ate clli de- supe-r et mibe---s pluant justum  68
+                     23 -------.||  33
+    query            56 us ~Venite Veni--et ecce r-ex excelsus -cum { ---cum 101
+
+-- fused_7 --
+  OCR:      'a peciatur terra et germninet salvatorem. cce nomen'
+  Assigned: '} potestate magna ad salvandas gentes'
+  Words:    [71..77) consumed=6
+  NW score: k=6 (pre-snap), norm=-0.3223
+  Anchor:   word 97 (within_chant_7), diff=20, snapped=False, forced=False
+  Alignment:
+    target            0 a p--eciatur terra et germninet salvatorem. cce nomen 51
+                      0 .  1
+    query             0 } potesta----te ma----g---na ad salva--ndas -ge-n-tes 37
+
+-- fused_8 --
+  OCR:      'quo et claritas ejus replet orbem terrarum oreititadine as abino die jldes quo abu pi ihenoni sait omemorats'
+  Assigned: 'alleluya euouae ~Beatus vir ~Quare fremuerunt ~Domine quid ~Domine ne in Confortate manus dissolutas confortamini dicite ecce deus noster veniet et salvabit nos'
+  Words:    [77..100) consumed=23
+  NW score: k=23 (pre-snap), norm=-0.8216
+  Anchor:   word 97 (within_chant_7), diff=3, snapped=False, forced=False
+  Alignment:
+    target            0 ----qu-o e----t -claritas---- eju--s -reple---t --o-rbe-----
+                      0 ----.|-.
+    query             0 alleluya euouae ~Bea--tus vir ~Quare fremuerunt ~Domine quid
+    
+    target           32 ----m--- terrarum ----oreitit---a----di---ne as -------abino
+                      8 ----|---
+    query            58  ~Domine ne--- in Confor--tate manus dissolutas confortamini
+    
+    target           64  di---e ---jlde-s quo abu pi ihenoni sa----it omemorats 108
+                     16   16
+    query           113  dicite ecce deus -noster veni-et et salvabit ---no---s 160
+
+-- fused_9 --
+  OCR:      'de apostolis et de pace nee sufragia s persignum ctucis eter seid mdiebus fiaubus'
+  Assigned: 'alleluya euouae ~Domine deus meus ~Domine dominus noster ~Confitebor tibi'
+  Words:    [100..110) consumed=10
+  NW score: k=10 (pre-snap), norm=-1.0014
+  Anchor:   word 116 (within_chant_7), diff=6, snapped=False, forced=False
+  Alignment:
+    target            0 de apostolis e---t de- pace -----nee -sufragia s pers-----ig
+                      0 ---|-----|--.|---.
+    query             0 ---a-----l--leluya -euoua-e ~Domin-e deu-------s meus ~Domi-
+    
+    target           45 num ctuci--s --eter seid mdi-ebus fiaubus 81
+                     18 |-. 21
+    query            39 n-e -dominus noster --~Confitebor ti--b-i 73
+
+-- fused_10 --
+  OCR:      'Magnificat Exovae de Lipreselmisere vado copts siale n imutatu . in vis de adventu'
+  Assigned: '~In domino confido Gaudete omnes et letamini ecce quia veniet dominus ultionis adducet'
+  Words:    [110..123) consumed=13
+  NW score: k=13 (pre-snap), norm=-1.1432
+  Anchor:   word 116 (within_chant_7), diff=7, snapped=False, forced=False
+  Alignment:
+    target            0 Magn----i------ficat Exova--e de Lipres-e--l---misere vado c
+                      0 -..|----|------||-..
+    query             0 -~In domino confi-do ---Gaude-te -omnes et letamini e------c
+    
+    target           42 opts -sia-le n--- ---imutatu . i-n vis de ad--ventu 82
+                     20 --.. 24
+    query            47 --ce quia ve-niet dominu-s u-ltion--is--- adduce-t- 86
+
+-- fused_11 --
+  OCR:      'egem venturum do te a dore mus.'
+  Assigned: 'retributionem ipse'
+  Words:    [123..125) consumed=2
+  NW score: k=2 (pre-snap), norm=-1.8203
+  Anchor:   word 125 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 egem ventur--um do te a dore- mus. 31
+                      0 -----.|-|-|--|-----|----.|.|- 29
+    query             0 -----re-t-ribu-----t----ionem ipse 18
+
+-- fused_12 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [125..125) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_13 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [125..125) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_14 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [125..125) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_15 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [125..125) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_16 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [125..125) consumed=0
+  Alignment:
+    (no words left)
+=== END DEBUG ===
+

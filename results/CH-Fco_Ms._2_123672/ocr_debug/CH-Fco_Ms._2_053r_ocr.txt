@@ -1,0 +1,199 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'me us . et imi osmeuicanticum no'
+  [fused_1] 'vm . preces meas et eduxit me de lacumi'
+  [fused_2] 'e et mun . go dyn dom nemi se'
+  [fused_3] 'me sava aninam me am quia pectavi tibi.'
+  [fused_4] 'Ab omnibus miquitatibus is erpeme do mne'
+  [fused_5] 'Sana a dle domine uiquitatem meam proiserere'
+  [fused_6] ' .alutare nultus mel deus mens ps judica me'
+  [fused_7] 'ote de jice nigio deus et evorae umes a'
+  [fused_8] '48'
+  [fused_9] 'laudate dominim de CelisLadunis eovae tessit'
+  [fused_10] 'rerit dominus nobis cornu salutis in domo'
+  [fused_11] 'ddves'
+  [fused_12] 'as.'
+  [fused_13] 'david pveri sui evovae ti In domum domini letantesi'
+  [fused_14] 'Leta i  habits icl'
+  [fused_15] 'mnserere nobis prao eonae a olovitorium nostrum'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'me us . et imi osmeuicanticum no'
+  Assigned: 'meus Et immisit in os meum canticum novum'
+  Words:    [0..8) consumed=8
+  NW score: k=8 (pre-snap), norm=3.6718
+  Anchor:   word 17 (within_chant_7), diff=9, snapped=False, forced=False
+  Alignment:
+    target            0 me us . et im------i- os-meu-icanticum no--- 32
+                      0 ||-||--  7
+    query             0 me-us-- Et immisit in os meum canticum novum 41
+
+-- fused_1 --
+  OCR:      'vm . preces meas et eduxit me de lacumi'
+  Assigned: 'Exaudivit preces meas et eduxit me de lacu mi'
+  Words:    [8..17) consumed=9
+  NW score: k=8 (pre-snap), norm=5.5100
+  Anchor:   word 17 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 ------vm . preces meas et eduxit me de lacu-mi----- 39
+                      0 ------|-.. 10
+    query             0 Exaudiv-it preces meas et eduxit me de lacu miserie 50
+
+-- fused_2 --
+  OCR:      'e et mun . go dyn dom nemi se'
+  Assigned: 'serie Et immisit Ego dixi domine mise'
+  Words:    [17..23) consumed=6
+  NW score: k=6 (pre-snap), norm=1.2555
+  Anchor:   word 23 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 e et --mun . -go d-yn dom ne-mi s----e 29
+                      0 --.|  4
+    query             0 --Et immisit Ego dixi domine mi-serere 35
+
+-- fused_3 --
+  OCR:      'me sava aninam me am quia pectavi tibi.'
+  Assigned: 'rere mei Sana animam meam quia peccavi tibi'
+  Words:    [23..30) consumed=7
+  NW score: k=7 (pre-snap), norm=5.7927
+  Anchor:   word 30 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 me- sava aninam me am quia pectavi tibi. 39
+                      0 ||-  3
+    query             0 mei Sana animam me-am quia peccavi tibi- 38
+
+-- fused_4 --
+  OCR:      'Ab omnibus miquitatibus is erpeme do mne'
+  Assigned: 'Ab omnibus iniquitatibus meis eripe me domine'
+  Words:    [30..37) consumed=7
+  NW score: k=7 (pre-snap), norm=5.9868
+  Anchor:   word 37 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 Ab omnibus -miquitatibus --is er-pe-me do m-ne 40
+                      0 ||  2
+    query             0 Ab omnibus iniquitatibus meis eripe me do-mine 45
+
+-- fused_5 --
+  OCR:      'Sana a dle domine uiquitatem meam proiserere'
+  Assigned: 'Sana Dele domine iniquitatem meam ~Miserere'
+  Words:    [37..43) consumed=6
+  NW score: k=6 (pre-snap), norm=5.7475
+  Anchor:   word 43 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 Sana a dle domine -uiquitatem meam proiserere 44
+                      0 ||||  4
+    query             0 Sana -Dele domine iniquitatem meam -~Miserere 43
+
+-- fused_6 --
+  OCR:      '.alutare nultus mel deus mens ps judica me'
+  Assigned: 'euouae Salutare vultus mei deus meus ~Judica'
+  Words:    [43..50) consumed=7
+  NW score: k=8 (pre-snap), norm=4.6590
+  Anchor:   word 50 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 -------.alutare nultus mel deus mens ps judica me 42
+                      0 -------.||||||| 15
+    query             0 euouae Salutare vultus mei deus meus --~Judica--- 44
+
+-- fused_7 --
+  OCR:      'ote de jice nigio deus et evorae umes a'
+  Assigned: 'me euouae Ad te de luce vigilo deus euouae Omnes an'
+  Words:    [50..61) consumed=11
+  NW score: k=10 (pre-snap), norm=2.6117
+  Anchor:   word 61 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 -----o-------te de jice nigi-o deus et evorae um-es a----- 39
+                      0 -----|-------|| 15
+    query             0 me euouae Ad te de luce vigilo deus--- euouae Omnes angeli 55
+
+-- fused_8 --
+  OCR:      '48'
+  Assigned: 'geli eius'
+  Words:    [61..62) consumed=1
+  NW score: k=1 (pre-snap), norm=-7.0711
+  Anchor:   word 68 (within_chant_7), diff=6, snapped=False, forced=False
+  Alignment:
+    target            0 --48 2
+                      0 --.. 4
+    query             0 eius 4
+
+-- fused_9 --
+  OCR:      'laudate dominim de CelisLadunis eovae tessit'
+  Assigned: 'laudate dominum de celis ~Laudate euouae'
+  Words:    [62..68) consumed=6
+  NW score: k=7 (pre-snap), norm=4.1121
+  Anchor:   word 68 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 laudate dominim de Celis--La-dunis e-ovae tessit 44
+                      0 |||||||  7
+    query             0 laudate dominum de celis ~Laud-ate euouae------- 40
+
+-- fused_10 --
+  OCR:      'rerit dominus nobis cornu salutis in domo'
+  Assigned: 'Erexit dominus nobis cornu salutis in domo'
+  Words:    [68..75) consumed=7
+  NW score: k=7 (pre-snap), norm=7.4222
+  Anchor:   word 75 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -rerit dominus nobis cornu salutis in domo 41
+                      0 -||.||  6
+    query             0 Erexit dominus nobis cornu salutis in domo 42
+
+-- fused_11 --
+  OCR:      'ddves'
+  Assigned: 'david'
+  Words:    [75..76) consumed=1
+  NW score: k=1 (pre-snap), norm=0.2000
+  Anchor:   word 84 (within_chant_7), diff=8, snapped=False, forced=False
+  Alignment:
+    target            0 ddves 5
+                      0 |.|.. 5
+    query             0 david 5
+
+-- fused_12 --
+  OCR:      'as.'
+  Assigned: 'pueri sui'
+  Words:    [76..78) consumed=2
+  NW score: k=2 (pre-snap), norm=-5.3886
+  Anchor:   word 84 (within_chant_7), diff=6, snapped=False, forced=False
+  Alignment:
+    target            0 -----as-. 3
+                      0 -----.|-. 9
+    query             0 pueri sui 9
+
+-- fused_13 --
+  OCR:      'david pveri sui evovae ti In domum domini letantesi'
+  Assigned: 'euouae In domum domini letantes i'
+  Words:    [78..84) consumed=6
+  NW score: k=5 (pre-snap), norm=3.8982
+  Anchor:   word 84 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 david pveri sui evovae ti In domum domini letantes---i--- 51
+                      0 --------|----|----|.||--- 25
+    query             0 --------e----u----ouae--- In domum domini letantes ibimus 38
+
+-- fused_14 --
+  OCR:      'Leta i  habits icl'
+  Assigned: 'bimus ~Letatus sum euouae Qui habitas in celis'
+  Words:    [84..91) consumed=7
+  NW score: k=6 (pre-snap), norm=1.2935
+  Anchor:   word 91 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 -Leta------- -----i --- habit-s i--c-l-- 18
+                      0 -||||------- 12
+    query             0 ~Letatus sum euouae Qui habitas in celis 40
+
+-- fused_15 --
+  OCR:      'mnserere nobis prao eonae a olovitorium nostrum'
+  Assigned: 'miserere nobis ~Ad te levavi euouae Adiutorium nostrum'
+  Words:    [91..99) consumed=8
+  NW score: k=8 (pre-snap), norm=3.7317
+  Anchor:   word 99 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 mnserere nobis --------pra-o e-onae a olovi-torium nostrum 47
+                      0 |.||||||  8
+    query             0 miserere nobis ~Ad te levavi euouae ----Adiutorium nostrum 54
+=== END DEBUG ===
+

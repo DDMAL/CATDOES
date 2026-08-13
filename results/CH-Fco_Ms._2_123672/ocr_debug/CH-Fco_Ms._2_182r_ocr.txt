@@ -1,0 +1,163 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'cius glorie victorum cidit impius rex mar'
+  [fused_1] 'rrochiru sequitur antos t defuncto'
+  [fused_2] 'elix quem non gladius terret sed in melius mu'
+  [fused_3] 'tat miquorum sequitur aer vet ad martyrium'
+  [fused_4] 'm ecces se muterses pot descetumsumnon'
+  [fused_5] 'cuplus de mno ec ama caam'
+  [fused_6] 'ccC vit  Landem in'
+  [fused_7] 'tu per judicium fama juricrevit . De quo'
+  [fused_8] 'Vioria patri et fui mne lone n'
+  [fused_9] 'rave cor querencium uugas vanitatem discit per anto'
+  [fused_10] 'mum jiteeritCum o oa  ontra'
+  [fused_11] 'virum sanguinum camat et dolosum quod hoc genus homi'
+  [fused_12] 'num deo sit et ofinis verba mea eronas a'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'cius glorie victorum cidit impius rex mar'
+  Assigned: 'glorie victorum quos occidit impius rex'
+  Words:    [0..6) consumed=6
+  NW score: k=6 (pre-snap), norm=4.9015
+  Anchor:   word 20 (within_chant_7), diff=14, snapped=False, forced=False
+  Alignment:
+    target            0 cius glorie victorum -------cidit impius rex mar 41
+                      0 -----|||||| 11
+    query             0 -----glorie victorum quos occidit impius rex---- 39
+
+-- fused_1 --
+  OCR:      'rrochiru sequitur antos t defuncto'
+  Assigned: 'marochiorum Sequitur antonius vitam defunctorum'
+  Words:    [6..11) consumed=5
+  NW score: k=5 (pre-snap), norm=4.4778
+  Anchor:   word 20 (within_chant_7), diff=9, snapped=False, forced=False
+  Alignment:
+    target            0 -rrochi-ru- sequitur anto---s --t-- defuncto--- 34
+                      0 -.|||||-||- 11
+    query             0 marochiorum Sequitur antonius vitam defunctorum 47
+
+-- fused_2 --
+  OCR:      'elix quem non gladius terret sed in melius mu'
+  Assigned: 'Felix quem non gladius terret sed in melius mu'
+  Words:    [11..20) consumed=9
+  NW score: k=9 (pre-snap), norm=7.2406
+  Anchor:   word 20 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -elix quem non gladius terret sed in melius mu--- 45
+                      0 -||||  5
+    query             0 Felix quem non gladius terret sed in melius mutat 49
+
+-- fused_3 --
+  OCR:      'tat miquorum sequitur aer vet ad martyrium'
+  Assigned: 'tat iniquorum Sequitur Fervet ad martyrium'
+  Words:    [20..25) consumed=5
+  NW score: k=5 (pre-snap), norm=5.8073
+  Anchor:   word 34 (within_chant_7), diff=9, snapped=False, forced=False
+  Alignment:
+    target            0 tat miquorum sequitur aer vet ad martyrium 42
+                      0 ---..||||||| 12
+    query             0 ---iniquorum Sequitur Fer-vet ad martyrium 38
+
+-- fused_4 --
+  OCR:      'm ecces se muterses pot descetumsumnon'
+  Assigned: 'dum rex terre sevit sed hoc desiderium suum non'
+  Words:    [25..34) consumed=9
+  NW score: k=9 (pre-snap), norm=1.5381
+  Anchor:   word 34 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 --m -----ecces se muterses pot des-ce-tum-s-um-non 38
+                      0 --|  3
+    query             0 dum rex terre- se-vit- sed hoc desiderium suum non 47
+
+-- fused_5 --
+  OCR:      'cuplus de mno ec ama caam'
+  Assigned: 'implevit De quo rex regnancium a'
+  Words:    [34..40) consumed=6
+  NW score: k=5 (pre-snap), norm=0.1461
+  Anchor:   word 40 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 cupl--us de mno -ec --ama caam------ 25
+                      0 ..||--..  8
+    query             0 implevit De quo rex regnancium aliud 36
+
+-- fused_6 --
+  OCR:      'ccC vit  Landem in'
+  Assigned: 'liud decrevit Tandem in'
+  Words:    [40..43) consumed=3
+  NW score: k=3 (pre-snap), norm=3.8889
+  Anchor:   word 43 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -ccC vit  Landem in 18
+                      0 -.|..|||-  9
+    query             0 decrevit- Tandem in 18
+
+-- fused_7 --
+  OCR:      'tu per judicium fama juricrevit . De quo'
+  Assigned: 'simplicium cetu per iudicium fama viri crevit De'
+  Words:    [43..51) consumed=8
+  NW score: k=9 (pre-snap), norm=4.4949
+  Anchor:   word 51 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 -------------tu per judicium fama juri-crevit . De quo 40
+                      0 -------------|| 15
+    query             0 simplicium cetu per iudicium fama viri crevit-- De---- 48
+
+-- fused_8 --
+  OCR:      'Vioria patri et fui mne lone n'
+  Assigned: 'quo Gloria patri et filio et spiritui sancto'
+  Words:    [51..59) consumed=8
+  NW score: k=6 (pre-snap), norm=2.6222
+  Anchor:   word 59 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 ----Vioria patri et f-ui- mne- ----lone --n--- 30
+                      0 ----..|||| 10
+    query             0 quo Gloria patri et filio --et spiritui sancto 44
+
+-- fused_9 --
+  OCR:      'rave cor querencium uugas vanitatem discit per anto'
+  Assigned: 'Grave cor querencium nugas vanitatem discit per anto'
+  Words:    [59..67) consumed=8
+  NW score: k=8 (pre-snap), norm=6.9609
+  Anchor:   word 67 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -rave cor querencium uugas vanitatem discit per anto---- 51
+                      0 -||||  5
+    query             0 Grave cor querencium nugas vanitatem discit per antonium 56
+
+-- fused_10 --
+  OCR:      'mum jiteeritCum o oa  ontra'
+  Assigned: 'nium vite veritatem ~Cum invocarem euouae Contra'
+  Words:    [67..73) consumed=6
+  NW score: k=6 (pre-snap), norm=1.5848
+  Anchor:   word 73 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 mum jite--erit------Cum ---o----- --o-a-  ontra 27
+                      0 ----.|||--||||------||| 23
+    query             0 ----vite veritatem ~Cum invocarem euouae Contra 43
+
+-- fused_11 --
+  OCR:      'virum sanguinum camat et dolosum quod hoc genus homi'
+  Assigned: 'virum sanguinum clamat et dolosum quod hoc genus homi'
+  Words:    [73..82) consumed=9
+  NW score: k=9 (pre-snap), norm=7.3384
+  Anchor:   word 82 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 virum sanguinum c-amat et dolosum quod hoc genus homi--- 52
+                      0 |||||  5
+    query             0 virum sanguinum clamat et dolosum quod hoc genus hominum 56
+
+-- fused_12 --
+  OCR:      'num deo sit et ofinis verba mea eronas a'
+  Assigned: 'num deo sit exosum ~Verba mea euouae Laus perfecta'
+  Words:    [82..90) consumed=8
+  NW score: k=7 (pre-snap), norm=2.8593
+  Anchor:   word 90 (page_break_77), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 num deo sit et ofinis-- -verba mea erona-----s -------a 40
+                      0 ----|||  7
+    query             0 ----deo sit e-xo----sum ~Verba mea euouae Laus perfecta 46
+=== END DEBUG ===
+

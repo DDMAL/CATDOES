@@ -1,0 +1,211 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'aude Maria virgo cunctas hereses sola interemisti in ver'
+  [fused_1] 'nniverso mundo . peciosa facta es et'
+  [fused_2] 'snavis indeliciis tuis Sancta Dei genitrix  . dominus Regis eovae'
+  [fused_3] 'ost partum virgo ivvolata permansisti Dei genitrix'
+  [fused_4] 'V. Elegit eam et pele r.'
+  [fused_5] 'tabernaclo le Sancti Evingsi'
+  [fused_6] 'intercede pro nobis Lantate II ovac. Slucao  one es ane is'
+  [fused_7] 'usci piens Jhesum in ulnas suas Lymeon ex'
+  [fused_8] 'clamavit et di mane bea iu meu ad'
+  [fused_9] 'gentiam plebis tu'
+  [fused_10] 's ra Hel Lum inducerent pu erum'
+  [fused_11] 'Jhesum pa rentes nis et ipse accepit eum mulnas suas'
+  [fused_12] 'et benedixit de unn et di enex puerum'
+  [fused_13] 'portabat puer autem leven rege bat avemme'
+  [fused_14] 'conce pit mugo re rent ngo postra cum quen ge'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'aude Maria virgo cunctas hereses sola interemisti in ver'
+  Assigned: 'dimittis Gaude maria virgo cunctas hereses sola interemisti in u'
+  Words:    [0..10) consumed=10
+  NW score: k=10 (pre-snap), norm=5.9947
+  Anchor:   word 10 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ----------aude Maria virgo cunctas hereses sola interemisti 
+                      0 ----------||||
+    query             0 dimittis Gaude maria virgo cunctas hereses sola interemisti 
+    
+    target           50 in ---ver-- 56
+                     14 || 16
+    query            60 in universo 71
+
+-- fused_1 --
+  OCR:      'nniverso mundo . peciosa facta es et'
+  Assigned: 'niverso mundo ~Cantate i euouae Speciosa facta es et'
+  Words:    [10..18) consumed=8
+  NW score: k=8 (pre-snap), norm=2.8392
+  Anchor:   word 18 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 nniverso mundo ----------------. -peciosa facta es et 36
+                      0 ---------||||| 14
+    query             0 ---------mundo ~Cantate i euouae Speciosa facta es et 44
+
+-- fused_2 --
+  OCR:      'snavis indeliciis tuis Sancta Dei genitrix  . dominus Regis eovae'
+  Assigned: 'suavis in deliciis tuis sancta dei genetrix'
+  Words:    [18..25) consumed=7
+  NW score: k=10 (pre-snap), norm=5.1217
+  Anchor:   word 25 (within_chant_7), diff=3, snapped=False, forced=True
+  Alignment:
+    target            0 snavis in-deliciis tuis Sancta Dei genitrix  . dominus Regis
+                      0 |.||||
+    query             0 suavis in deliciis tuis sancta dei genetrix-----------------
+    
+    target           59  eovae 65
+                      6 ------ 12
+    query            43 ------ 43
+
+-- fused_3 --
+  OCR:      'ost partum virgo ivvolata permansisti Dei genitrix'
+  Assigned: '{Dominus regnavit} euouae Post partum virgo inviolata permansisti dei genitrix'
+  Words:    [25..35) consumed=10
+  NW score: k=10 (pre-snap), norm=4.5156
+  Anchor:   word 35 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ---------------------------ost partum virgo i-vvolata perman
+                      0 ---------------------------|||
+    query             0 {Dominus regnavit} euouae Post partum virgo inviolata perman
+    
+    target           32 sisti Dei genitrix 50
+                     30 ||||| 35
+    query            60 sisti dei genitrix 78
+
+-- fused_4 --
+  OCR:      'V. Elegit eam et pele r.'
+  Assigned: 'intercede pro nobis'
+  Words:    [35..38) consumed=3
+  NW score: k=2 (pre-snap), norm=-1.6418
+  Anchor:   word 38 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 V. Elegi-t eam et pele -r------. 24
+                      0 -------|-|-----|-..|.| 22
+    query             0 -------int-----e-rcede pro nobis 19
+
+-- fused_5 --
+  OCR:      'tabernaclo le Sancti Evingsi'
+  Assigned: '{Cantate ii} euouae Suscipiens'
+  Words:    [38..42) consumed=4
+  NW score: k=4 (pre-snap), norm=-0.7936
+  Anchor:   word 48 (within_chant_7), diff=6, snapped=False, forced=False
+  Alignment:
+    target            0 ----tabe--rnaclo le Sancti Evi-ngsi 28
+                      0 ----||.|--.....|..| 19
+    query             0 {Cantate ii} euouae Susc-i--pien-s- 30
+
+-- fused_6 --
+  OCR:      'intercede pro nobis Lantate II ovac. Slucao  one es ane is'
+  Assigned: 'ihesum in ulnas suas symeon ex'
+  Words:    [42..48) consumed=6
+  NW score: k=6 (pre-snap), norm=-1.5550
+  Anchor:   word 48 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 intercede pro nobis Lantate II ovac. Slucao --- one e-s ane 
+                      0 |------.|-...
+    query             0 i------he-sum ---in uln----------a-s -su-as symeon- exclamav
+    
+    target           56 is 58
+                     13 |. 15
+    query            36 it 38
+
+-- fused_7 --
+  OCR:      'usci piens Jhesum in ulnas suas Lymeon ex'
+  Assigned: 'clamavit et dixit Tu es vere lumen'
+  Words:    [48..54) consumed=6
+  NW score: k=8 (pre-snap), norm=-1.0955
+  Anchor:   word 54 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 usci piens Jhesum in ulnas suas Lymeon ex 41
+                      0 --..  4
+    query             0 --et dixit ---Tu---- ---es vere lume-n--- 25
+
+-- fused_8 --
+  OCR:      'clamavit et di mane bea iu meu ad'
+  Assigned: 'ad illuminationem gentium et gloriam plebis'
+  Words:    [54..60) consumed=6
+  NW score: k=5 (pre-snap), norm=-0.6673
+  Anchor:   word 60 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 ----clamavit et di mane- bea iu- meu -----a-------d 33
+                      0 ----.|.|--|-..|--|--.||- 24
+    query             0 ad illum--i-nat--i--onem gentium -et gloriam plebis 43
+
+-- fused_9 --
+  OCR:      'gentiam plebis tu'
+  Assigned: 'tue israhel Cum inducerent puerum'
+  Words:    [60..65) consumed=5
+  NW score: k=3 (pre-snap), norm=-1.5656
+  Anchor:   word 65 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 -genti--a------m ---ple-bis tu---- 17
+                      0 -.|-.|--|------| 16
+    query             0 tue- israhel Cum inducerent puerum 33
+
+-- fused_10 --
+  OCR:      's ra Hel Lum inducerent pu erum'
+  Assigned: 'ihesum parentes eius et ipse accepit eum in ulnas suas'
+  Words:    [65..75) consumed=10
+  NW score: k=3 (pre-snap), norm=-0.2410
+  Anchor:   word 75 (within_chant_7), diff=7, snapped=False, forced=True
+  Alignment:
+    target            0 ---s-- --r-------------------a He--l Lum induceren-t pu erum
+                      0 ---|--
+    query             0 ihesum parentes eius et ipse accepit eum in u---lnas su---as
+    
+    target           31 
+                      6 
+    query            54 
+
+-- fused_11 --
+  OCR:      'Jhesum pa rentes nis et ipse accepit eum mulnas suas'
+  Assigned: 'et benedixit deum et dixit Tu es Senex puerum'
+  Words:    [75..84) consumed=9
+  NW score: k=11 (pre-snap), norm=-0.8846
+  Anchor:   word 84 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 Jhesum pa rentes ni-----s et -ipse accepit eum --mulnas su--
+                      0 --|-----.
+    query             0 --e-----t ben-edixit deum et di--------xit Tu- es Senex puer
+    
+    target           50 as 52
+                      9 .. 11
+    query            43 um 45
+
+-- fused_12 --
+  OCR:      'et benedixit de unn et di enex puerum'
+  Assigned: 'portabat puer autem senem regebat Quem'
+  Words:    [84..90) consumed=6
+  NW score: k=6 (pre-snap), norm=-0.7467
+  Anchor:   word 90 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 --et benedixit -de- -unn et di ene--------x puerum 37
+                      0 --.|.|------.| 14
+    query             0 portab------at puer au--tem --senem regebat Que--m 38
+
+-- fused_13 --
+  OCR:      'portabat puer autem leven rege bat avemme'
+  Assigned: 'virgo concepit virgo peperit virgo post partum quem'
+  Words:    [90..98) consumed=8
+  NW score: k=7 (pre-snap), norm=-1.5198
+  Anchor:   word 98 (page_break_77), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 por----------t--abat p-uer autem leven rege -bat -avemm---e-
+                      0 ..|----------|--....
+    query             0 virgo concepit virgo peper--it-- --v--ir-go post partum quem
+    
+    target           41 
+                     20 
+    query            51 
+
+-- fused_14 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [98..98) consumed=0
+  Alignment:
+    (no words left)
+=== END DEBUG ===
+

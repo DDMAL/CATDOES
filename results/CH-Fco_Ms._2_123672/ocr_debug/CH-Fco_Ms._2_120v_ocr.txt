@@ -1,0 +1,207 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'Salbeto advesperas cap'
+  [fused_1] 'ruum omnedatum ad'
+  [fused_2] 'impleatur Alleluya Alleluya evovae Magisti . ado'
+  [fused_3] 'ade misit me et nemo et vobis interroctat indequ dominica qnn pepascha ponit episole canonice e legunt'
+  [fused_4] 'ad ascelionem vi lcaes int de epistula Sancti cbi'
+  [fused_5] 'acobdi e teo a te omeli Sancti Angii episcopi Gen do'
+  [fused_6] 'madis alceluprs Aucluya eroras dc predicill Eumeesim et Johannem vato ad eum cummisie'
+  [fused_7] 'i oblitus fuero tui Alleluya oblivisca'
+  [fused_8] '„'
+  [fused_9] 'tera mea . adhereat Lingua mea fancibus'
+  [fused_10] 'me Sinon memi vero avelu yaaei baco'
+  [fused_11] 'flumina Babilonis ilic sedimuset flem'
+  [fused_12] 'mus domi recordarenur . teum so on. Aohercat '
+  [fused_13] 'vide runt te a que de us viderunt te aque et tim'
+  [fused_14] 'erunt multi tudo sovitus aqua rum vocem de'
+  [fused_15] 'deruntbes Allelnya Alleluya alle'
+  [fused_16] 'in runt corruscationes tuc orbi terrenu'
+  [fused_17] 'dit commo ta est ter in mltie ana bono'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'Salbeto advesperas cap'
+  Assigned: 'impleatur alleluya alleluya euouae Vado'
+  Words:    [0..5) consumed=5
+  NW score: k=5 (pre-snap), norm=-1.7411
+  Anchor:   word 5 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ---------Salbe--to adve---spe--ras ca-p 22
+                      0 ---------.||.|--.. 18
+    query             0 impleatur alleluya alleluya euouae Vado 39
+
+-- fused_1 --
+  OCR:      'ruum omnedatum ad'
+  Assigned: 'ad eum qui misit me et nemo ex vobis interrogabat me quo'
+  Words:    [5..17) consumed=12
+  NW score: k=6 (pre-snap), norm=-1.3444
+  Anchor:   word 17 (within_chant_7), diff=6, snapped=False, forced=True
+  Alignment:
+    target            0 --ruum ---------om-----ne---------------------datum- -ad 17
+                      0 --..||  6
+    query             0 ad eum qui misit me et nemo ex vobis interrogabat me quo 56
+
+-- fused_2 --
+  OCR:      'impleatur Alleluya Alleluya evovae Magisti . ado'
+  Assigned: 'vadis alleluya alleluya euouae'
+  Words:    [17..21) consumed=4
+  NW score: k=5 (pre-snap), norm=2.2613
+  Anchor:   word 21 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 impleatur Alleluya Alleluya evovae Magisti . ado 48
+                      0 ----.|...  9
+    query             0 ----vadis alleluya alleluya euouae-------------- 30
+
+-- fused_3 --
+  OCR:      'ade misit me et nemo et vobis interroctat indequ dominica qnn pepascha ponit episole canonice e legunt'
+  Assigned: 'Si oblitus fuero tui alleluya obliviscatur me dextera mea Adhereat lingua mea faucibus meis si non meminero tui alleluya'
+  Words:    [21..40) consumed=19
+  NW score: k=19 (pre-snap), norm=-0.8045
+  Anchor:   word 28 (within_chant_7), diff=12, snapped=False, forced=False
+  Alignment:
+    target            0 ade misit-- -me-- et-- --nemo et vob---is-------- -interroct
+                      0 -..
+    query             0 -Si oblitus fuero -tui alle-luya -obliviscatur me dextera me
+    
+    target           39 at ind---equ dominica qnn pepascha poni--t -episole canon---
+                      3 |-
+    query            56 a- -Adhereat --lingua mea --fauc------ibus me-is si --non me
+    
+    target           90 -ice-- --e --legunt 102
+                      5 -|.|--  11
+    query           101 minero tui alleluya 120
+
+-- fused_4 --
+  OCR:      'ad ascelionem vi lcaes int de epistula Sancti cbi'
+  Assigned: 'alleluya Super flumina babilonis illic sedimus et flevimus dum recordaremur tui'
+  Words:    [40..51) consumed=11
+  NW score: k=11 (pre-snap), norm=-1.3983
+  Anchor:   word 48 (within_chant_7), diff=3, snapped=False, forced=False
+  Alignment:
+    target            0 a------d asce---l---------i-onem vi l-c-ae----s int de epi--
+                      0 |------.
+    query             0 alleluya Super flumina babilonis -illic sedimus -et -flevimu
+    
+    target           33 s-tula -----Sa-ncti cbi 49
+                      8 |-.|-. 14
+    query            57 s du-m recordaremur tui 79
+
+-- fused_5 --
+  OCR:      'acobdi e teo a te omeli Sancti Angii episcopi Gen do'
+  Assigned: 'syon Adhereat Viderunt te aque deus viderunt te aquae et timuerunt Multitudo'
+  Words:    [51..63) consumed=12
+  NW score: k=12 (pre-snap), norm=-1.0976
+  Anchor:   word 53 (within_chant_7), diff=10, snapped=False, forced=False
+  Alignment:
+    target            0 aco--bd--------i e---- teo a te omeli ----San-cti Angii epis
+                      0 ..|--.|--------|.|----
+    query             0 syon Adhereat Viderunt te- aque -deus viderunt te aquae e---
+    
+    target           41 copi Ge--n- -------do 52
+                     22 ...|..|--|- 33
+    query            55 t timuerunt Multitudo 76
+
+-- fused_6 --
+  OCR:      'madis alceluprs Aucluya eroras dc predicill Eumeesim et Johannem vato ad eum cummisie'
+  Assigned: 'sonitus aquarum vocem dederunt nubes alleluya alleluya alleluya Illuxerunt coruscationes tue orbi terre vidit et commota'
+  Words:    [63..79) consumed=16
+  NW score: k=16 (pre-snap), norm=-1.0991
+  Anchor:   word 67 (within_chant_7), diff=12, snapped=False, forced=False
+  Alignment:
+    target            0 madi--s a--------lce-----------luprs -Aucluya ---eroras dc p
+                      0 ...|--|
+    query             0 sonitus aquarum vocem dederunt nubes alleluya alleluya- --al
+    
+    target           35 re--dicill Eumeesim et Jo---ha--nnem vat---o--------- -ad-- 
+                      7 .|--....||--|.|---...|
+    query            57 leluya Ill--uxe---runt coruscationes --tue orbi terre vidit 
+    
+    target           73 eum cummisie  85
+                     29 |-.  32
+    query           110 e-t comm-ota 120
+
+-- fused_7 --
+  OCR:      'i oblitus fuero tui Alleluya oblivisca'
+  Assigned: 'est terra Multitudo Narrabo nomen'
+  Words:    [79..84) consumed=5
+  NW score: k=4 (pre-snap), norm=-2.1541
+  Anchor:   word 84 (page_break_77), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 i oblitus fue-ro tui Alleluya ----oblivisca 38
+                      0 ----..|--  9
+    query             0 ----est-- -terra Mu---ltitudo Narrabo nomen 33
+
+-- fused_8 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [84..84) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_9 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [84..84) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_10 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [84..84) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_11 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [84..84) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_12 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [84..84) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_13 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [84..84) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_14 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [84..84) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_15 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [84..84) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_16 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [84..84) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_17 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [84..84) consumed=0
+  Alignment:
+    (no words left)
+=== END DEBUG ===
+

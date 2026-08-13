@@ -1,0 +1,183 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'bndictatu cum ceteris et psts etob sic sun'
+  [fused_1] ' .Obtulerunt me obsculo oris sui'
+  [fused_2] 'mm vente'
+  [fused_3] 'odievataest tavirgo. nia'
+  [fused_4] 'nie da vid . per quam salus num'
+  [fused_5] 'dicredentibu parvit cuiusunta gloriosaLuce'
+  [fused_6] 'dedit seculo atuntaBeateae rg'
+  [fused_7] 'nis cum gaudiocelebre . Perqaatissi'
+  [fused_8] 'me virginis ma rie nativitatem deotissi'
+  [fused_9] 'ebre Ut ipsa pro vo bis intercedati a'
+  [fused_10] 'nums Jhesum Xpisistum Lum jocunditate nati'
+  [fused_11] 'nitatem Beate Marie virginis devotissimecele brei.'
+  [fused_12] 'ut ipsaioriose Virginis ari  or'
+  [fused_13] 'tum dignissimum us . cujus dominus Hu'
+  [fused_14] 'mlitatem respi ciens angelo ninciante conte'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'bndictatu cum ceteris et psts etob sic sun'
+  Assigned: '~Venite Hodie nata est beata virgo maria ex progenie david Per'
+  Words:    [0..11) consumed=11
+  NW score: k=11 (pre-snap), norm=-1.0190
+  Anchor:   word 7 (within_chant_7), diff=4, snapped=False, forced=False
+  Alignment:
+    target            0 --bn------di-ctatu cum ce-t---------eris et psts etob --sic 
+                      0 --.|------||-..||.
+    query             0 ~Venite Hodie nata est beata virgo maria ex p-rogenie david 
+    
+    target           39 sun 42
+                     18 ... 21
+    query            59 Per 62
+
+-- fused_1 --
+  OCR:      '.Obtulerunt me obsculo oris sui'
+  Assigned: 'quam sa'
+  Words:    [11..13) consumed=2
+  NW score: k=6 (pre-snap), norm=-1.6160
+  Anchor:   word 13 (within_chant_7), diff=4, snapped=False, forced=True
+  Alignment:
+    target            0 .Obtulerunt me obsculo oris sui 31
+                      0 -------.|--.|- 14
+    query             0 -------qu--am- --s-al--------us 10
+
+-- fused_2 --
+  OCR:      'mm vente'
+  Assigned: 'lus mundi credentibus apparuit cuius vita gloriosa'
+  Words:    [13..19) consumed=6
+  NW score: k=2 (pre-snap), norm=-1.2005
+  Anchor:   word 19 (within_chant_7), diff=4, snapped=False, forced=True
+  Alignment:
+    target            0 m---m ---vent--------------------------------e  8
+                      0 |---.  5
+    query             0 mundi credentibus apparuit cuius vita gloriosa 46
+
+-- fused_3 --
+  OCR:      'odievataest tavirgo. nia'
+  Assigned: 'lucem dedit seculo Nativitatem beata marie virgi'
+  Words:    [19..26) consumed=7
+  NW score: k=7 (pre-snap), norm=-0.6574
+  Anchor:   word 26 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -------odi---e---------vata-----est- ta----virgo. nia 24
+                      0 -------.||---|---------|.||-----|.|- 36
+    query             0 lucem dedit seculo Nativitatem beata marie virg--inis 51
+
+-- fused_4 --
+  OCR:      'nie da vid . per quam salus num'
+  Assigned: 'nis cum gaudio celebremus Per quam beatissi'
+  Words:    [26..32) consumed=6
+  NW score: k=6 (pre-snap), norm=0.1683
+  Anchor:   word 32 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 nie da vid ---------. per quam -salus num- 31
+                      0 ...  3
+    query             0 cum gaudio celebremus Per quam Beatis-sime 41
+
+-- fused_5 --
+  OCR:      'dicredentibu parvit cuiusunta gloriosaLuce'
+  Assigned: 'me virginis marie nativitatem devotissime'
+  Words:    [32..36) consumed=4
+  NW score: k=4 (pre-snap), norm=-0.6508
+  Anchor:   word 36 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 dicredentibu parvit -cuiusunta--- -gloriosaLuce 42
+                      0 .|-|-..|-|-. 12
+    query             0 vi-r-gin-i-s mar-ie nati--vitatem devotiss--ime 38
+
+-- fused_6 --
+  OCR:      'dedit seculo atuntaBeateae rg'
+  Assigned: 'celebremus Ut ipsa pro nobis intercedat ad'
+  Words:    [36..43) consumed=7
+  NW score: k=7 (pre-snap), norm=-1.4327
+  Anchor:   word 43 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 de--------dit --seculo ----atuntaBeate-ae rg 29
+                      0 .|--------..| 13
+    query             0 celebremus Ut ipsa pro nobis int--ercedat ad 42
+
+-- fused_7 --
+  OCR:      'nis cum gaudiocelebre . Perqaatissi'
+  Assigned: 'dominum ihesum xpistum Cum iocunditate nati'
+  Words:    [43..49) consumed=6
+  NW score: k=6 (pre-snap), norm=-1.2191
+  Anchor:   word 49 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ----n---i--s-- ----cum gau-dioc--elebre . Perqaatissi----- 35
+                      0 ----|---|--|-- 14
+    query             0 dominum ihesum xpistum -Cum iocunditate ------nati-vitatem 50
+
+-- fused_8 --
+  OCR:      'me virginis ma rie nativitatem deotissi'
+  Assigned: 'vitatem beate marie virginis devotissime celebremus'
+  Words:    [49..54) consumed=5
+  NW score: k=4 (pre-snap), norm=1.3304
+  Anchor:   word 54 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 ------m---e virginis ma rie nativitatem de-otissi-----------
+                      0 ------|---|
+    query             0 beate marie virginis------------------- devotissime celebrem
+    
+    target           39 -- 39
+                     11 -- 13
+    query            41 us 43
+
+-- fused_9 --
+  OCR:      'ebre Ut ipsa pro vo bis intercedati a'
+  Assigned: 'Ut ipsa Gloriose virginis marie or'
+  Words:    [54..60) consumed=6
+  NW score: k=4 (pre-snap), norm=0.5261
+  Anchor:   word 60 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 ebre Ut ipsa pro vo-- bis in---terce-dati a 37
+                      0 -----||  7
+    query             0 -----Ut ipsa Gloriose virginis marie ort-um 37
+
+-- fused_10 --
+  OCR:      'nums Jhesum Xpisistum Lum jocunditate nati'
+  Assigned: 'tum dignissimum recolamus Cuius dominus'
+  Words:    [60..64) consumed=4
+  NW score: k=5 (pre-snap), norm=-0.6752
+  Anchor:   word 64 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 ---nums Jhes--um Xpisistum --Lum jocunditate nati 42
+                      0 ---|-.|----|--|| 16
+    query             0 dign-is----simum recolamus Cuius do---mi-----n-us 35
+
+-- fused_11 --
+  OCR:      'nitatem Beate Marie virginis devotissimecele brei.'
+  Assigned: 'humilitatem respiciens angelo nunciante'
+  Words:    [64..68) consumed=4
+  NW score: k=4 (pre-snap), norm=-0.8605
+  Anchor:   word 68 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ----nitatem Beate Marie virgi-nis --devo-tissimecele brei. 50
+                      0 ----.|||||| 11
+    query             0 humilitatem --------r-espi-cien-s angelo nunciante-------- 39
+
+-- fused_12 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [68..68) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_13 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [68..68) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_14 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [68..68) consumed=0
+  Alignment:
+    (no words left)
+=== END DEBUG ===
+

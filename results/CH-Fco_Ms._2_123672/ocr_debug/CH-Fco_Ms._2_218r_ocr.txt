@@ -1,0 +1,249 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'Gletamini in Domino M ecglisim'
+  [fused_1] 'm lcalegnius in ecclesiasticis  '
+  [fused_2] 'cedicationet X vididim se'
+  [fused_3] 'arum i uter evovae caetiaclati Inaut Domi'
+  [fused_4] 'qui operati sunt justiciam habitabunt in tabernaculo'
+  [fused_5] 'tu or et requiescent in monte Sancto Tuo . Domine quis ha'
+  [fused_6] ' ec est generatio querencium dominum queren'
+  [fused_7] 'cium faciem Dei Iaco  domini est terra Erovae  Letaminu'
+  [fused_8] 'in domino et exultate justi et gloriaminu omnes recti corde'
+  [fused_9] 'delectenturtle  . in con'
+  [fused_10] 'Anglorarum precuresor dominic'
+  [fused_11] 'Beati quorum evovae ant uoiventes al Livete domi'
+  [fused_12] 'num omnes sancti eiis qnoniam inc timentibns eum'
+  [fused_13] 'ees eorum'
+  [fused_14] '|ndicami denei eovae  mime spes sanctorum et'
+  [fused_15] 'turris fortitudinis eorum dedisti heredi tatem tinentibus no'
+  [fused_16] 'mentuum et inhabitabunt in taberna pin secula'
+  [fused_17] 'Exmndrontes eromeann ivignio cominum leta'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'Gletamini in Domino M ecglisim'
+  Assigned: '~Domine dominus noster euouae domi'
+  Words:    [0..5) consumed=5
+  NW score: k=7 (pre-snap), norm=-0.6588
+  Anchor:   word 5 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 Gletamini ---in---------------- Domino M ecglisim 30
+                      0 --...|||.  9
+    query             0 --~Domine dominus noster euouae Domin----e------- 36
+
+-- fused_1 --
+  OCR:      'm lcalegnius in ecclesiasticis'
+  Assigned: 'ne qui operati sunt iusticiam habitabunt in tabernaculo'
+  Words:    [5..12) consumed=7
+  NW score: k=4 (pre-snap), norm=-0.6803
+  Anchor:   word 12 (within_chant_7), diff=3, snapped=False, forced=True
+  Alignment:
+    target            0 --m --lca--legn--ius----------------- in ecclesiastic-is 30
+                      0 --.  3
+    query             0 qui operati sunt iusticiam habitabunt in -taberna---culo 52
+
+-- fused_2 --
+  OCR:      'cedicationet X vididim se'
+  Assigned: 'tuo et requiescent in monte sancto tuo'
+  Words:    [12..19) consumed=7
+  NW score: k=5 (pre-snap), norm=-1.3856
+  Anchor:   word 19 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 cedicationet -X vi------didim---- s--------e 25
+                      0 ------|.|.|| 12
+    query             0 ------tuo et requiescent in monte sancto tuo 38
+
+-- fused_3 --
+  OCR:      'arum i uter evovae caetiaclati Inaut Domi'
+  Assigned: '~Domine quis habitabit euouae Hec est generatio querencium dominum queren'
+  Words:    [19..29) consumed=10
+  NW score: k=9 (pre-snap), norm=-0.3076
+  Anchor:   word 29 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 arum--- --i- ---ut--er evovae --cae-t--iaclati- ----In-aut D
+                      0 ...|---
+    query             0 ~Domine quis habitabit euouae Hec est generatio querencium d
+    
+    target           38 omi-------------- 41
+                      7 |||-------------- 24
+    query            60 ominum querencium 77
+
+-- fused_4 --
+  OCR:      'qui operati sunt justiciam habitabunt in tabernaculo'
+  Assigned: 'cium faciem dei iacob ~Domini est terra euouae Letamini'
+  Words:    [29..37) consumed=8
+  NW score: k=10 (pre-snap), norm=-1.1100
+  Anchor:   word 37 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 qui operati sunt justiciam habi-ta--bunt ----in- --taberna-c
+                      0 -------.|-------------||.|
+    query             0 -------fa-------------ciem -dei iacob--- ~Domini est terra e
+    
+    target           49 ulo------------ 52
+                     26 |-|------------ 41
+    query            36 u-ouae Letamini 50
+
+-- fused_5 --
+  OCR:      'tu or et requiescent in monte Sancto Tuo . Domine quis ha'
+  Assigned: 'in domino et exultate iusti et gloriamini omnes recti corde'
+  Words:    [37..47) consumed=10
+  NW score: k=12 (pre-snap), norm=-0.5116
+  Anchor:   word 47 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 tu -o---r et requiescent in monte Sancto Tuo----- . Domine- 
+                      0 ..
+    query             0 in domino et -exultate-- i---usti ---et- gloriamini -om-nes 
+    
+    target           50 --quis ---ha 57
+                      2 --..|-  8
+    query            48 recti- corde 59
+
+-- fused_6 --
+  OCR:      'ec est generatio querencium dominum queren'
+  Assigned: '~Beati quorum euouae Timete domi'
+  Words:    [47..52) consumed=5
+  NW score: k=6 (pre-snap), norm=0.6266
+  Anchor:   word 52 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 ec est generatio quer--------encium--- dominum queren 42
+                      0 --------..|-|||- 16
+    query             0 --------~Be-ati- quorum euouae Ti-mete dominum------- 35
+
+-- fused_7 --
+  OCR:      'cium faciem Dei Iaco  domini est terra Erovae  Letaminu'
+  Assigned: 'num omnes sancti eius quoniam nichil deest timentibus eum'
+  Words:    [52..60) consumed=8
+  NW score: k=11 (pre-snap), norm=-0.6721
+  Anchor:   word 60 (within_chant_7), diff=3, snapped=False, forced=True
+  Alignment:
+    target            0 cium--- fa-c-iem Dei Iaco  do---mini---- --est terra Erovae 
+                      0 --.|---
+    query             0 --omnes sancti-- -ei---us quoniam nichil deest t--------ime-
+    
+    target           46  Letaminu----- 55
+                      7 --.|--|.|----- 21
+    query            43 --nt--ibus eum 53
+
+-- fused_8 --
+  OCR:      'in domino et exultate justi et gloriaminu omnes recti corde'
+  Assigned: 'ecce oculi domini super iustos et aures eius ad preces eorum'
+  Words:    [60..71) consumed=11
+  NW score: k=11 (pre-snap), norm=0.4202
+  Anchor:   word 71 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ---------in domino et exultate- just-i et gloriaminu--- omne
+                      0 ---------|-
+    query             0 ecce oculi- domini ----su---per iustos et -----a---ures ---e
+    
+    target           46 --s ----recti corde 59
+                     11 --| 14
+    query            41 ius ad preces eorum 60
+
+-- fused_9 --
+  OCR:      'delectenturtle  . in con'
+  Assigned: '~Benedicam dominum euouae Domine spes sanctorum et'
+  Words:    [71..78) consumed=7
+  NW score: k=5 (pre-snap), norm=-1.7786
+  Anchor:   word 78 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 -dele--c-----ten---turtle  . in------ ---c-o-----n 24
+                      0 -.|.|--|-----..|---.|...| 25
+    query             0 ~Benedicam dominum euouae Domine spes sanctorum et 50
+
+-- fused_10 --
+  OCR:      'Anglorarum precuresor dominic'
+  Assigned: 'turris fortitudinis eorum dedisti hereditatem timentibus no'
+  Words:    [78..85) consumed=7
+  NW score: k=2 (pre-snap), norm=-1.0224
+  Anchor:   word 85 (within_chant_7), diff=5, snapped=False, forced=True
+  Alignment:
+    target            0 ----Anglor-----------arum ---------pre--------cure-----sor d
+                      0 ----....||-----------.|||
+    query             0 turris fortitudinis eorum dedisti hereditatem timentibus-- n
+    
+    target           23 ominic 29
+                     25 ||.|-- 31
+    query            58 omen-- 62
+
+-- fused_11 --
+  OCR:      'Beati quorum evovae ant uoiventes al Livete domi'
+  Assigned: 'men tuum et inhabitabunt in tabernaculo tuo in secula'
+  Words:    [85..93) consumed=8
+  NW score: k=7 (pre-snap), norm=-0.6013
+  Anchor:   word 93 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 Beati quorum e--vova-e a--nt uoiven-t--es a--l- Livete domi-
+                      0 ---|---|--||
+    query             0 ---t---u--um et inhabitabunt --i--n tabernaculo ----t--uo in
+    
+    target           48 ------- 48
+                     12 ------- 19
+    query            42  secula 49
+
+-- fused_12 --
+  OCR:      'num omnes sancti eiis qnoniam inc timentibns eum'
+  Assigned: '~Exaudi deus deprecationem euouae Qui diligitis dominum leta'
+  Words:    [93..101) consumed=8
+  NW score: k=7 (pre-snap), norm=-0.7785
+  Anchor:   word 101 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 ---nu-m omne-s --sanc-ti---- e---------------i-is qnoniam in
+                      0 ---.|-.
+    query             0 ~Exaudi --deus deprecationem euouae Qui diligitis -do---m-in
+    
+    target           32 -c --timentibns eum 48
+                      7 -.  9
+    query            53 um letamin-i------- 64
+
+-- fused_13 --
+  OCR:      'ees eorum'
+  Assigned: 'mini in domino et confitemini memorie sanctitatis eius'
+  Words:    [101..108) consumed=7
+  NW score: k=2 (pre-snap), norm=-2.3333
+  Anchor:   word 108 (within_chant_7), diff=5, snapped=False, forced=True
+  Alignment:
+    target            0 ----------e--------e---s -e-or-----------------um  9
+                      0 ----------|--------|---. 24
+    query             0 in domino et confitemini memorie sanctitatis eius 49
+
+-- fused_14 --
+  OCR:      '|ndicami denei eovae  mime spes sanctorum et'
+  Assigned: '~Dominus regnavit exultet'
+  Words:    [108..111) consumed=3
+  NW score: k=3 (pre-snap), norm=-1.6583
+  Alignment:
+    target            0 |ndicami denei -eovae  mime spes sanctorum et 44
+                      0 ---...||---|.. 14
+    query             0 ---~Domi---nus regna---vi-t --e--------xultet 25
+
+-- fused_15 --
+  OCR:      'turris fortitudinis eorum dedisti heredi tatem tinentibus no'
+  Assigned: 'euouae'
+  Words:    [111..112) consumed=1
+  NW score: k=1 (pre-snap), norm=-7.7476
+  Alignment:
+    target            0 turris fortitudinis eorum dedisti heredi tatem tinentibus no
+                      0 .|-------------------|-|------------------|-------|---------
+    query             0 eu-------------------o-u------------------a-------e---------
+    
+    target           60 
+                     60 
+    query             6 
+
+-- fused_16 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [112..112) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_17 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [112..112) consumed=0
+  Alignment:
+    (no words left)
+=== END DEBUG ===
+

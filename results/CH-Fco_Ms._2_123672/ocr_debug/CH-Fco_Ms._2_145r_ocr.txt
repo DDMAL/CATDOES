@@ -1,0 +1,175 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'tam appenderentur peccata meaquibus rani'
+  [fused_1] 'rui et calamitas quam pacioriustateraQuasi'
+  [fused_2] 'areva maris hec gravior appareret unde et verba ebo'
+  [fused_3] 'lo re sunt plena et cala. omnbus hiis'
+  [fused_4] 'non peccavit job labiis suis neque sutum aliquid con'
+  [fused_5] 'tra Deum loquituis est evovae ominus dedit domuim'
+  [fused_6] 'abstulit sicut domino placuit ita factum est sit nomen'
+  [fused_7] 'domini benedictum ex ovae Qvantas habeo miquita'
+  [fused_8] 'tes e e'
+  [fused_9] 'arbitraris me nimritum tuum evovae uare decrari'
+  [fused_10] 'fantis servio nibus veritatis ad increpandum verba compo'
+  [fused_11] 'nitis et subvertere intimini anicum vestrum vermntamen'
+  [fused_12] 'me cogititis eiplete coome * Andim antis audini te'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'tam appenderentur peccata meaquibus rani'
+  Assigned: 'Parce Utinam appenderentur peccata mea quibus iram me'
+  Words:    [0..8) consumed=8
+  NW score: k=7 (pre-snap), norm=5.4336
+  Anchor:   word 8 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 -------t--am appenderentur peccata mea-quibus -ra-----ni 40
+                      0 -------|--|| 12
+    query             0 Parce Utinam appenderentur peccata mea quibus iram merui 56
+
+-- fused_1 --
+  OCR:      'rui et calamitas quam pacioriustateraQuasi'
+  Assigned: 'rui Et calamitas quam pacior in statera Quasi'
+  Words:    [8..15) consumed=7
+  NW score: k=7 (pre-snap), norm=5.8077
+  Anchor:   word 15 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 rui et calamitas quam pacior-i-ustatera-Quasi 42
+                      0 ----.|  6
+    query             0 ----Et calamitas quam pacior in statera Quasi 41
+
+-- fused_2 --
+  OCR:      'areva maris hec gravior appareret unde et verba ebo'
+  Assigned: 'arena maris hec gravior apparet unde et verba mea dolore sunt'
+  Words:    [15..26) consumed=11
+  NW score: k=8 (pre-snap), norm=6.7006
+  Anchor:   word 26 (within_chant_7), diff=3, snapped=False, forced=True
+  Alignment:
+    target            0 areva maris hec gravior appareret unde et verba -e----bo----
+                      0 |||.|
+    query             0 arena maris hec gravior appa--ret unde et verba mea dolore s
+    
+    target           51 --- 51
+                      5 ---  8
+    query            58 unt 61
+
+-- fused_3 --
+  OCR:      'lo re sunt plena et cala. omnbus hiis'
+  Assigned: 'plena Et calamitas IN omnibus hiis'
+  Words:    [26..32) consumed=6
+  NW score: k=6 (pre-snap), norm=3.1859
+  Anchor:   word 32 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 lo re sunt plena et cala-------. omn-bus hiis 37
+                      0 -----------||||| 16
+    query             0 -----------plena Et calamitas IN omnibus hiis 34
+
+-- fused_4 --
+  OCR:      'non peccavit job labiis suis neque sutum aliquid con'
+  Assigned: 'non peccavit iob labiis suis neque stultum aliquid contra de'
+  Words:    [32..42) consumed=10
+  NW score: k=9 (pre-snap), norm=6.9064
+  Anchor:   word 42 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 non peccavit job labiis suis neque s-u-tum aliquid con------
+                      0 |||
+    query             0 non peccavit iob labiis suis neque stultum aliquid contra de
+    
+    target           52 -- 52
+                      3 --  5
+    query            60 um 62
+
+-- fused_5 --
+  OCR:      'tra Deum loquituis est evovae ominus dedit domuim'
+  Assigned: 'um loquutus est euouae Dominus dedit dominus'
+  Words:    [42..48) consumed=6
+  NW score: k=6 (pre-snap), norm=4.2390
+  Anchor:   word 48 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 tra Deum loquituis est evovae -ominus dedit dom--uim 49
+                      0 ---------||||.||-| 18
+    query             0 ---------loquutu-s est euouae Dominus dedit dominu-s 41
+
+-- fused_6 --
+  OCR:      'abstulit sicut domino placuit ita factum est sit nomen'
+  Assigned: 'abstulit sicut domino placuit ita factum est sic nomen'
+  Words:    [48..57) consumed=9
+  NW score: k=9 (pre-snap), norm=7.7593
+  Anchor:   word 57 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 abstulit sicut domino placuit ita factum est sit nomen 54
+                      0 ||||||||  8
+    query             0 abstulit sicut domino placuit ita factum est sic nomen 54
+
+-- fused_7 --
+  OCR:      'domini benedictum ex ovae Qvantas habeo miquita'
+  Assigned: 'domini benedictum euouae Quantas habeo iniquita'
+  Words:    [57..63) consumed=6
+  NW score: k=6 (pre-snap), norm=5.9616
+  Anchor:   word 63 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 domini benedictum ex ovae Qvantas habeo -miquita--- 47
+                      0 ||||||  6
+    query             0 domini benedictum e-uouae Quantas habeo iniquitates 50
+
+-- fused_8 --
+  OCR:      'tes e e'
+  Assigned: 'tes et peccata ostende michi cur faciem tuam abscondis et'
+  Words:    [63..72) consumed=9
+  NW score: k=3 (pre-snap), norm=-1.6927
+  Anchor:   word 72 (within_chant_7), diff=6, snapped=False, forced=True
+  Alignment:
+    target            0 -t--e-------s--------------- ----e---------------- e-  7
+                      0 -|--|-------|--------------- 28
+    query             0 et peccata ostende michi cur faciem tuam abscondis et 53
+
+-- fused_9 --
+  OCR:      'arbitraris me nimritum tuum evovae uare decrari'
+  Assigned: 'arbitraris me inimicum tuum euouae Quare detraxi'
+  Words:    [72..79) consumed=7
+  NW score: k=7 (pre-snap), norm=5.3806
+  Anchor:   word 79 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 arbitraris me -nimritum tuum evovae -uare decrari---- 47
+                      0 |||||||||| 10
+    query             0 arbitraris me inim-icum tuum euouae Quare detraxistis 52
+
+-- fused_10 --
+  OCR:      'fantis servio nibus veritatis ad increpandum verba compo'
+  Assigned: 'stis sermonibus veritatis ad increpandum verba compo'
+  Words:    [79..85) consumed=6
+  NW score: k=6 (pre-snap), norm=5.6520
+  Anchor:   word 85 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 fantis servio nibus veritatis ad increpandum verba compo----
+                      0 -------|||-.|-|||||
+    query             0 -------ser-mo-nibus veritatis ad increpandum verba componiti
+    
+    target           56 - 56
+                     19 - 20
+    query            51 s 52
+
+-- fused_11 --
+  OCR:      'nitis et subvertere intimini anicum vestrum vermntamen'
+  Assigned: 'nitis et subvertere nitimini amicum vestrum verumtamen'
+  Words:    [85..91) consumed=6
+  NW score: k=6 (pre-snap), norm=5.9908
+  Anchor:   word 91 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 nitis et subvertere -intimini anicum vestrum ver-mntamen 54
+                      0 ------||  8
+    query             0 ------et subvertere ni-timini amicum vestrum verum-tamen 48
+
+-- fused_12 --
+  OCR:      'me cogititis eiplete coome * Andim antis audini te'
+  Assigned: 'que cogitatis explete euouae Auditu auris audivi te'
+  Words:    [91..99) consumed=8
+  NW score: k=8 (pre-snap), norm=4.1586
+  Anchor:   word 99 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -me cogititis eiplete -coome * Andi-m antis audini te 50
+                      0 -.|  3
+    query             0 que cogitatis explete euouae-- Auditu auris audivi te 51
+=== END DEBUG ===
+

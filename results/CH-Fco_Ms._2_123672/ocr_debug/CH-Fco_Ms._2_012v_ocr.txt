@@ -1,0 +1,287 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'qui venturus altum spetums diatei ane'
+  [fused_1] 'indistis ad lnmen redeunt ceci mortui resurgunt pauperes evan'
+  [fused_2] '40aa0'
+  [fused_3] 'bdce'
+  [fused_4] 'gelizantur  celoveniet dominator'
+  [fused_5] 'ad m'
+  [fused_6] 'Agn'
+  [fused_7] 'ant'
+  [fused_8] 'dominus et in manu ejus honor et imperium evovae'
+  [fused_9] 'cce rex veniet dominus terre et ipse auferet jugum Captuimi'
+  [fused_10] 'Fa m ad'
+  [fused_11] 'tatis nostere exovac Bnditus . de Iherusalem orietur.'
+  [fused_12] 'dominis et Gloria ejs is te indebitur evorasra ant'
+  [fused_13] 'mantis in deserto parate viam domino rectas facite semitas Dei'
+  [fused_14] 'm ad p'
+  [fused_15] 'nostri eoangelum meum qui prepa'
+  [fused_16] ''
+  [fused_17] 'rabit vam tuam ante faciem tuam exovae ant'
+  [fused_18] 'vaberis et videbis justum tuum qui venturue est in te exor'
+  [fused_19] ''
+  [fused_20] 'ad benedicto'
+  [fused_21] 'ae santr. Ques qui venturus es domine qem expectani'
+  [fused_22] 'int salum facias popuiam tuum exorae d'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'qui venturus altum spetums diatei ane'
+  Assigned: 'Tu es qui venturus es an alium expectamus dicite iohanni que'
+  Words:    [0..11) consumed=11
+  NW score: k=10 (pre-snap), norm=2.7461
+  Anchor:   word 11 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 ------qui venturus------ altum -spe-tum-s di-ate-i- an-----e
+                      0 ------|||
+    query             0 Tu es qui venturus es an alium expectamus dicite iohanni que
+    
+    target           37 
+                      9 
+    query            60 
+
+-- fused_1 --
+  OCR:      'indistis ad lnmen redeunt ceci mortui resurgunt pauperes evan'
+  Assigned: 'vidistis ad lumen redeunt ceci mortui resurgunt pauperes evan'
+  Words:    [11..20) consumed=9
+  NW score: k=8 (pre-snap), norm=6.7412
+  Anchor:   word 20 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 -indistis ad lnmen redeunt ceci mortui resurgunt pauperes ev
+                      0 -|-||||||
+    query             0 vi-distis ad lumen redeunt ceci mortui resurgunt pauperes ev
+    
+    target           59 an---------- 61
+                      9 ||---------- 21
+    query            59 angelizantur 71
+
+-- fused_2 --
+  OCR:      '40aa0'
+  Assigned: 'gelizantur alleluia'
+  Words:    [20..21) consumed=1
+  NW score: k=1 (pre-snap), norm=-3.6366
+  Anchor:   word 26 (within_chant_7), diff=5, snapped=False, forced=False
+  Alignment:
+    target            0 40a------a0  5
+                      0 --|------|- 11
+    query             0 --alleluia-  8
+
+-- fused_3 --
+  OCR:      'bdce'
+  Assigned: 'euouae'
+  Words:    [21..22) consumed=1
+  NW score: k=1 (pre-snap), norm=-3.4701
+  Anchor:   word 26 (within_chant_7), diff=4, snapped=False, forced=False
+  Alignment:
+    target            0 --bdce 4
+                      0 --...| 6
+    query             0 euouae 6
+
+-- fused_4 --
+  OCR:      'gelizantur  celoveniet dominator'
+  Assigned: 'De celo veniet dominator'
+  Words:    [22..26) consumed=4
+  NW score: k=4 (pre-snap), norm=4.7992
+  Anchor:   word 26 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 gelizantur  celo-veniet dominator 32
+                      0 .|--------- 11
+    query             0 De--------- celo veniet dominator 24
+
+-- fused_5 --
+  OCR:      'ad m'
+  Assigned: 'dominus'
+  Words:    [26..27) consumed=1
+  NW score: k=1 (pre-snap), norm=-2.2678
+  Anchor:   word 45 (within_chant_7), diff=18, snapped=False, forced=False
+  Alignment:
+    target            0 ad m---- 4
+                      0 -|.|---- 8
+    query             0 -dominus 7
+
+-- fused_6 --
+  OCR:      'Agn'
+  Assigned: 'et in'
+  Words:    [27..29) consumed=2
+  NW score: k=2 (pre-snap), norm=-3.0984
+  Anchor:   word 45 (within_chant_7), diff=16, snapped=False, forced=False
+  Alignment:
+    target            0 --Agn 3
+                      0 --..| 5
+    query             0 et in 5
+
+-- fused_7 --
+  OCR:      'ant'
+  Assigned: 'manu'
+  Words:    [29..30) consumed=1
+  NW score: k=1 (pre-snap), norm=1.1547
+  Anchor:   word 45 (within_chant_7), diff=15, snapped=False, forced=False
+  Alignment:
+    target            0 -ant 3
+                      0 -||. 4
+    query             0 manu 4
+
+-- fused_8 --
+  OCR:      'dominus et in manu ejus honor et imperium evovae'
+  Assigned: 'eius honor et imperium euouae'
+  Words:    [30..35) consumed=5
+  NW score: k=5 (pre-snap), norm=3.6720
+  Anchor:   word 45 (within_chant_7), diff=10, snapped=False, forced=False
+  Alignment:
+    target            0 dominus et in manu ejus honor et imperium evovae 48
+                      0 --------|--|---------|| 23
+    query             0 --------e--i---------us honor et imperium euouae 29
+
+-- fused_9 --
+  OCR:      'cce rex veniet dominus terre et ipse auferet jugum Captuimi'
+  Assigned: 'Ecce rex veniet dominus terre et ipse auferet iugum captivi'
+  Words:    [35..45) consumed=10
+  NW score: k=10 (pre-snap), norm=6.3793
+  Anchor:   word 45 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -cce rex veniet dominus terre et ipse auferet jugum Captuimi
+                      0 -|||
+    query             0 Ecce rex veniet dominus terre et ipse auferet iugum capt-ivi
+    
+    target           59 ----- 59
+                      4 -----  9
+    query            59 tatis 64
+
+-- fused_10 --
+  OCR:      'Fa m ad'
+  Assigned: 'tatis nostre euouae'
+  Words:    [45..47) consumed=2
+  NW score: k=2 (pre-snap), norm=-3.6690
+  Anchor:   word 51 (within_chant_7), diff=4, snapped=False, forced=False
+  Alignment:
+    target            0 ----Fa --m ad  7
+                      0 ----..  6
+    query             0 nostre euouae 13
+
+-- fused_11 --
+  OCR:      'tatis nostere exovac Bnditus . de Iherusalem orietur.'
+  Assigned: 'Super te iherusalem orietur'
+  Words:    [47..51) consumed=4
+  NW score: k=4 (pre-snap), norm=1.7447
+  Anchor:   word 51 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 tatis nostere exovac Bnditus . de Iherusalem orietur. 53
+                      0 -------...||-------- 20
+    query             0 -------Super-------- ----t------e iherusalem orietur- 27
+
+-- fused_12 --
+  OCR:      'dominis et Gloria ejs is te indebitur evorasra ant'
+  Assigned: 'dominus et gloria eius in te videbitur euouae Vox cla'
+  Words:    [51..61) consumed=10
+  NW score: k=8 (pre-snap), norm=4.4272
+  Anchor:   word 61 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 dominis et Gloria e-js is te -indebitur evora------sra ant--
+                      0 |||||.|
+    query             0 dominus et gloria eius in te vi-debitur euouae Vox clamantis
+    
+    target           50 
+                      7 
+    query            59 
+
+-- fused_13 --
+  OCR:      'mantis in deserto parate viam domino rectas facite semitas Dei'
+  Assigned: 'mantis in deserto parate viam domino rectas facite semitas dei'
+  Words:    [61..70) consumed=9
+  NW score: k=9 (pre-snap), norm=6.8841
+  Anchor:   word 70 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 mantis in deserto parate viam domino rectas facite semitas D
+                      0 -------||
+    query             0 -------in deserto parate viam domino rectas facite semitas d
+    
+    target           60 ei 62
+                      9 || 11
+    query            53 ei 55
+
+-- fused_14 --
+  OCR:      'm ad p'
+  Assigned: 'nostri euouae Ecce'
+  Words:    [70..73) consumed=3
+  NW score: k=3 (pre-snap), norm=-3.7528
+  Anchor:   word 78 (within_chant_7), diff=5, snapped=False, forced=False
+  Alignment:
+    target            0 -----m ----ad ---p  6
+                      0 -----.  6
+    query             0 nostri euouae Ecce 18
+
+-- fused_15 --
+  OCR:      'nostri eoangelum meum qui prepa'
+  Assigned: 'mitto angelum meum qui prepa'
+  Words:    [73..78) consumed=5
+  NW score: k=5 (pre-snap), norm=4.2521
+  Anchor:   word 78 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 nostri eoangelum meum qui prepa----- 31
+                      0 -..|..  6
+    query             0 -mitto --angelum meum qui preparabit 33
+
+-- fused_16 --
+  OCR:      ''
+  Assigned: 'rabit viam tuam ante faciem tuam euouae Syon reno'
+  Words:    [78..86) consumed=8
+
+-- fused_17 --
+  OCR:      'rabit vam tuam ante faciem tuam exovae ant'
+  Assigned: 'vaberis et videbis iustum tuum qui venturus est in te euouae'
+  Words:    [86..96) consumed=10
+  NW score: k=11 (pre-snap), norm=-0.1248
+  Anchor:   word 96 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 -----rabit ---vam tuam -----ant-----e-- faciem tuam exovae a
+                      0 -----..||.
+    query             0 et videbis iustum tuum qui venturus est ---i-n t--e euouae--
+    
+    target           40 nt 42
+                     10 -- 12
+    query            52 -- 52
+
+-- fused_18 --
+  OCR:      'vaberis et videbis justum tuum qui venturue est in te exor'
+  Assigned: 'Tu es qui venturus es domine quem exspectamus'
+  Words:    [96..104) consumed=8
+  NW score: k=7 (pre-snap), norm=0.8000
+  Anchor:   word 104 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 vaberis et videbis justum tuum qui venturue est ---in- -te- 
+                      0 -----..
+    query             0 -----Tu e------------s-------- qui venturus es- domine quem 
+    
+    target           54 ex-------or 58
+                      7 ||-------.. 18
+    query            34 exspectamus 45
+
+-- fused_19 --
+  OCR:      ''
+  Assigned: 'ut salvum facias populum tuum euouae Qui post'
+  Words:    [104..112) consumed=8
+
+-- fused_20 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [112..112) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_21 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [112..112) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_22 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [112..112) consumed=0
+  Alignment:
+    (no words left)
+=== END DEBUG ===
+

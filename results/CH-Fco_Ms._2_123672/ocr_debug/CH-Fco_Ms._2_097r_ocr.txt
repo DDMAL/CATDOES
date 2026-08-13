@@ -1,0 +1,167 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'tesccapia mise prevale mus il'
+  [fused_1] 'donemecumtanquam Bella tor for tis.'
+  [fused_2] 'Cadantina um sempinum t iudeam uu'
+  [fused_3] 'dictamine is qma ti bi reve la in'
+  [fused_4] 'can .an nle li dica domine causam'
+  [fused_5] 'anme me redemptor inte me Cadant'
+  [fused_6] ' teresustinu m'
+  [fused_7] 'prope um operiu reverentia faciem incamextrane'
+  [fused_8] 'nonon taci  un  attionis me is et Hospes filiis matris'
+  [fused_9] 'me nomq lus dymis tue comedit'
+  [fused_10] 'mentene anime mee et libera eam pro'
+  [fused_11] 'pter minicos meos Enpe me.'
+  [fused_12] 'Nago ea popilonii ortundecerunt me et non reodioi re'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'tesccapia mise prevale mus il'
+  Assigned: 'decipiamus eum et prevaleamus illi'
+  Words:    [0..5) consumed=5
+  NW score: k=5 (pre-snap), norm=3.2802
+  Anchor:   word 30 (within_chant_7), diff=25, snapped=False, forced=False
+  Alignment:
+    target            0 tesccapia mis-----e- prevale mus il-- 29
+                      0 .|--|.|||-|.|-----|- 20
+    query             0 de--cipia-mus eum et prevaleamus illi 34
+
+-- fused_1 --
+  OCR:      'donemecumtanquam Bella tor for tis.'
+  Assigned: 'sed tu domine mecum es tamquam bellator fortis'
+  Words:    [5..13) consumed=8
+  NW score: k=8 (pre-snap), norm=3.7633
+  Anchor:   word 30 (within_chant_7), diff=17, snapped=False, forced=False
+  Alignment:
+    target            0 -------do--ne-mecum----tanquam Bella tor for tis. 35
+                      0 -------||--||-|||||----||.|||| 30
+    query             0 sed tu domine mecum es tamquam bella-tor for-tis- 46
+
+-- fused_2 --
+  OCR:      'Cadantina um sempinum t iudeam uu'
+  Assigned: 'Cadant in obprobrium sempiternum et videam'
+  Words:    [13..19) consumed=6
+  NW score: k=6 (pre-snap), norm=3.6262
+  Anchor:   word 30 (within_chant_7), diff=11, snapped=False, forced=False
+  Alignment:
+    target            0 Cadant-ina --------um sempi---num -t -iudeam uu 33
+                      0 ||||||-||- 10
+    query             0 Cadant in- obprobrium sempiternum et vi-deam--- 42
+
+-- fused_3 --
+  OCR:      'dictamine is qma ti bi reve la in'
+  Assigned: 'vindictam in eis quia tibi revelavi'
+  Words:    [19..25) consumed=6
+  NW score: k=6 (pre-snap), norm=4.2371
+  Anchor:   word 30 (within_chant_7), diff=5, snapped=False, forced=False
+  Alignment:
+    target            0 ---dictam-in-e is q-ma ti bi reve la in 33
+                      0 ---||||||-||-|-|| 17
+    query             0 vindictam in e-is quia ti-bi reve-lavi- 35
+
+-- fused_4 --
+  OCR:      'can .an nle li dica domine causam'
+  Assigned: 'causam meam Judica domine causam'
+  Words:    [25..30) consumed=5
+  NW score: k=5 (pre-snap), norm=4.0312
+  Anchor:   word 30 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 can .an nle-- li dica domine causam 33
+                      0 ||-..|.  7
+    query             0 ca-usam -meam -Judica domine causam 32
+
+-- fused_5 --
+  OCR:      'anme me redemptor inte me Cadant'
+  Assigned: 'anime mee redemptor vite mee Cadant'
+  Words:    [30..36) consumed=6
+  NW score: k=6 (pre-snap), norm=6.3646
+  Anchor:   word 36 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 an-me m-e redemptor -inte m-e Cadant 32
+                      0 ||-||  5
+    query             0 anime mee redemptor vi-te mee Cadant 35
+
+-- fused_6 --
+  OCR:      'teresustinu m'
+  Assigned: 'Deus israhel propter te sustinui in'
+  Words:    [36..42) consumed=6
+  NW score: k=5 (pre-snap), norm=0.1961
+  Anchor:   word 42 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 -----------------ter--e-sustinu- ----------m 13
+                      0 -----------------|||--|-|||||||- 32
+    query             0 Deus israhel propter te sustinui inproperium 44
+
+-- fused_7 --
+  OCR:      'prope um operiu reverentia faciem incamextrane'
+  Assigned: 'properium operui reverentia faciem meam extrane'
+  Words:    [42..47) consumed=5
+  NW score: k=5 (pre-snap), norm=4.3914
+  Anchor:   word 47 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 prope um operiu reverentia faciem incam-extrane-- 46
+                      0 --|||.|------|- 15
+    query             0 --operu------i- reverentia faciem -meam extraneus 39
+
+-- fused_8 --
+  OCR:      'nonon taci  un  attionis me is et Hospes filiis matris'
+  Assigned: 'us factus sum fratribus meis et hospes filiis matris'
+  Words:    [47..55) consumed=8
+  NW score: k=8 (pre-snap), norm=3.8492
+  Anchor:   word 55 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 nonon tac--i  un - attionis me is et Hospes filiis matris 54
+                      0 ------.||--. 12
+    query             0 ------factus sum fratri-bus me-is et hospes filiis matris 49
+
+-- fused_9 --
+  OCR:      'me nomq lus dymis tue comedit'
+  Assigned: 'mee Quoniam zelus domus tue comedit'
+  Words:    [55..61) consumed=6
+  NW score: k=6 (pre-snap), norm=4.4257
+  Anchor:   word 61 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 m-e ---n-omq --lus dymis tue comedit 29
+                      0 |-|  3
+    query             0 mee Quoniam- zelus domus tue comedit 35
+
+-- fused_10 --
+  OCR:      'mentene anime mee et libera eam pro'
+  Assigned: 'me Intende anime mee et libera eam prop'
+  Words:    [61..69) consumed=8
+  NW score: k=8 (pre-snap), norm=6.4423
+  Anchor:   word 69 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 me--nten-e anime mee et libera eam pro---- 35
+                      0 ||--||||-| 10
+    query             0 me Intende anime mee et libera eam propter 42
+
+-- fused_11 --
+  OCR:      'pter minicos meos Enpe me.'
+  Assigned: 'ter inimicos meos eripe me Quoniam sy'
+  Words:    [69..75) consumed=6
+  NW score: k=4 (pre-snap), norm=3.3450
+  Anchor:   word 75 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 pter min--icos meos -Enpe me----------------. 26
+                      0 ------||--|||| 14
+    query             0 ------inimicos meos eripe me Quoniam Synagoga 39
+
+-- fused_12 --
+  OCR:      'Nago ea popilonii ortundecerunt me et non reodioi re'
+  Assigned: 'nagoga populorum circumdederunt me et non reddidi retribuentibus'
+  Words:    [75..82) consumed=7
+  NW score: k=6 (pre-snap), norm=3.2097
+  Anchor:   word 82 (page_break_77), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 Nago ea popilonii -ortundecerunt me et non reodioi re-------
+                      0 --------|||.||...
+    query             0 --------populorum circumdederunt me et non reddidi retribuen
+    
+    target           52 ----- 52
+                     17 ----- 22
+    query            52 tibus 57
+=== END DEBUG ===
+

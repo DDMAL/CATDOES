@@ -1,0 +1,163 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'sum lon ge fac a medomine Divicias'
+  [fused_1] 'et pauperta tes ne de chi sed tantum vic'
+  [fused_2] 't  mo san. nonenis sania norogam'
+  [fused_3] 'tere deneges michi ante quam mori ar dimicias Re'
+  [fused_4] 'Comine pra u terent de nus mriten deresinquas'
+  [fused_5] 'me i cogita tu ma  pex tolenciam oca'
+  [fused_6] 'orum  deeris mi deside'
+  [fused_7] 'rne aufer a meconcupis'
+  [fused_8] 'cenci am . et a mino irrenerenti et infrumo'
+  [fused_9] 'ne terra . das me icdonnameaedeceli'
+  [fused_10] 'quas me domine ne adcrescant ignorancie me qu et'
+  [fused_11] 'multiplicentur de a et animole'
+  [fused_12] 'detesinqas me comne pater et domma colinte me'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'sum lon ge fac a medomine Divicias'
+  Assigned: 'et dolosum longe fac a me domine Divicias'
+  Words:    [0..8) consumed=8
+  NW score: k=8 (pre-snap), norm=6.0263
+  Anchor:   word 21 (within_chant_7), diff=13, snapped=False, forced=False
+  Alignment:
+    target            0 -------sum lon ge fac a me-domine Divicias 34
+                      0 -------||| 10
+    query             0 et dolosum lon-ge fac a me domine Divicias 41
+
+-- fused_1 --
+  OCR:      'et pauperta tes ne de chi sed tantum vic'
+  Assigned: 'et paupertates ne dederis michi sed tantum victui'
+  Words:    [8..16) consumed=8
+  NW score: k=8 (pre-snap), norm=5.9406
+  Anchor:   word 21 (within_chant_7), diff=5, snapped=False, forced=False
+  Alignment:
+    target            0 et pauperta tes ne de----- --chi sed tantum vic--- 40
+                      0 ||  2
+    query             0 et pauperta-tes ne dederis michi sed tantum victui 49
+
+-- fused_2 --
+  OCR:      't  mo san. nonenis sania norogam'
+  Assigned: 'meo tribue necessaria Duo rogavi'
+  Words:    [16..21) consumed=5
+  NW score: k=5 (pre-snap), norm=0.7188
+  Anchor:   word 21 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 t  m-o --san. nonenis sania -no-roga-m 32
+                      0 ---|-|  6
+    query             0 ---meo tribue --neces-saria Duo rogavi 32
+
+-- fused_3 --
+  OCR:      'tere deneges michi ante quam mori ar dimicias Re'
+  Assigned: 'te ne deneges michi antequam moriar Divicias'
+  Words:    [21..28) consumed=7
+  NW score: k=7 (pre-snap), norm=5.8969
+  Anchor:   word 28 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 te-re deneges michi ante quam mori ar dimicias Re 48
+                      0 ||-.|  5
+    query             0 te ne deneges michi ante-quam mori-ar Divicias--- 44
+
+-- fused_4 --
+  OCR:      'Comine pra u terent de nus mriten deresinquas'
+  Assigned: 'Domine pater et deus vite mee ne derelinquas'
+  Words:    [28..36) consumed=8
+  NW score: k=8 (pre-snap), norm=4.0452
+  Anchor:   word 36 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 Comine pra u ter-ent de nus mrite-----n- deresinquas 45
+                      0 .|||||  6
+    query             0 Domine p-a---ter e-t de--us -vite mee ne derelinquas 44
+
+-- fused_5 --
+  OCR:      'me i cogita tu ma  pex tolenciam oca'
+  Assigned: 'me in cogitatu maligno extollenciam ocu'
+  Words:    [36..42) consumed=6
+  NW score: k=5 (pre-snap), norm=4.2821
+  Anchor:   word 42 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 me i- cogita tu ma----  pex to-lenciam oc-----a 36
+                      0 ||  2
+    query             0 me in cogita-tu maligno -ex-tollenciam oculorum 44
+
+-- fused_6 --
+  OCR:      'orum  deeris mi deside'
+  Assigned: 'lorum meorum ne dederis michi et desiderium malignum'
+  Words:    [42..49) consumed=7
+  NW score: k=6 (pre-snap), norm=3.8905
+  Anchor:   word 49 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 --orum -- de-eris mi------ deside------------- 22
+                      0 --||||  6
+    query             0 meorum ne dederis michi et desiderium malignum 46
+
+-- fused_7 --
+  OCR:      'rne aufer a meconcupis'
+  Assigned: 'averte a me domine aufer a me concupiscenciam Et'
+  Words:    [49..58) consumed=9
+  NW score: k=8 (pre-snap), norm=2.8922
+  Anchor:   word 58 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 ---r------------ne aufer a me-concupis---------- 22
+                      0 ---|------------|| 18
+    query             0 averte a me domine aufer a me concupiscenciam Et 48
+
+-- fused_8 --
+  OCR:      'cenci am . et a mino irrenerenti et infrumo'
+  Assigned: 'animo irreverenti et infrunito ne'
+  Words:    [58..63) consumed=5
+  NW score: k=4 (pre-snap), norm=3.1740
+  Anchor:   word 63 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 cenci am . et a mino irrenerenti et infru--mo--- 43
+                      0 -.|-|-----------|--| 20
+    query             0 -an-i-----------m--o irreverenti et infrunito ne 33
+
+-- fused_9 --
+  OCR:      'ne terra . das me icdonnameaedeceli'
+  Assigned: 'tradas me domine Ne derelin'
+  Words:    [63..68) consumed=5
+  NW score: k=5 (pre-snap), norm=1.4876
+  Anchor:   word 68 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ne terra . das me icdo-nname-ae-deceli----- 35
+                      0 ---|--||---||| 14
+    query             0 ---t--ra---das me --domin--e Ne derelinquas 31
+
+-- fused_10 --
+  OCR:      'quas me domine ne adcrescant ignorancie me qu et'
+  Assigned: 'quas me domine ne adcrescant ignorancie mee et'
+  Words:    [68..75) consumed=7
+  NW score: k=7 (pre-snap), norm=6.4469
+  Anchor:   word 75 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 quas me domine ne adcrescant ignorancie me qu et 48
+                      0 -----||  7
+    query             0 -----me domine ne adcrescant ignorancie me--e et 41
+
+-- fused_11 --
+  OCR:      'multiplicentur de a et animole'
+  Assigned: 'multiplicentur delicta mea Et animo Ne'
+  Words:    [75..81) consumed=6
+  NW score: k=5 (pre-snap), norm=5.3080
+  Anchor:   word 81 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 multiplicentur de----- --a et animo-le 30
+                      0 |||||||||||||| 14
+    query             0 multiplicentur delicta mea Et animo Ne 38
+
+-- fused_12 --
+  OCR:      'detesinqas me comne pater et domma colinte me'
+  Assigned: 'derelinquas me domine pater et dominator vite mee'
+  Words:    [81..89) consumed=8
+  NW score: k=8 (pre-snap), norm=4.5573
+  Anchor:   word 89 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 detesinq-as me com-ne pater et dom-ma co--linte m-e 45
+                      0 ||.|.|||-|| 11
+    query             0 derelinquas me domine pater et domina-tor vi-te mee 49
+=== END DEBUG ===
+

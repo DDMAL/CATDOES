@@ -1,0 +1,191 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'ustodiebant testimonia ejus et precepta ejus V . Ainus honorati s'
+  [fused_1] 'amicitui des XX simis'
+  [fused_2] 'fortatio e prien cipraib eorum e'
+  [fused_3] 'Aavelvya prs dominus Regisiras exovae ssti sunt a'
+  [fused_4] 'iventese plantaveruntccl Laguie'
+  [fused_5] 'ronlait u ce ris corporam eorum separata'
+  [fused_6] 'Quorum merita sunt in celis coequatamne'
+  [fused_7] 'eorum et in fines orbis terre'
+  [fused_8] 'ver .. sti sunt viri sanc'
+  [fused_9] 't moi avgittomimo icntate noi fic'
+  [fused_10] 'gloria sempitera . quorum doctiina'
+  [fused_11] 'ment ecae ies ut .ace  Vancti'
+  [fused_12] 'per fidem vicerunt regna operati sunt justici'
+  [fused_13] 'verunt sine quere'
+  [fused_14] 'et ab mincem non sunt separa ti caui cem tomi'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'ustodiebant testimonia ejus et precepta ejus V . Ainus honorati s'
+  Assigned: '~Dominus regnavit exultet euouae Custodiebant testimonia eius et precepta eius alleluya ~Dominus regnavit'
+  Words:    [0..13) consumed=13
+  NW score: k=13 (pre-snap), norm=2.4693
+  Anchor:   word 10 (within_chant_7), diff=3, snapped=False, forced=False
+  Alignment:
+    target            0 ----------------------------------ustodiebant testimonia eju
+                      0 ----------------------------------|||||||||||
+    query             0 ~Dominus regnavit exultet euouae Custodiebant testimonia eiu
+    
+    target           26 s et precepta ejus -------V -. Ainus -honorati s  65
+                     45 |  46
+    query            60 s et precepta eius alleluya ~Dominus regn--avi-t 105
+
+-- fused_1 --
+  OCR:      'amicitui des XX simis'
+  Assigned: 'irascantur euouae Isti sunt qui'
+  Words:    [13..18) consumed=5
+  NW score: k=3 (pre-snap), norm=-1.2562
+  Anchor:   word 18 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 --amic-itui ----de--s XX s----imis 21
+                      0 --|-.|-.||. 11
+    query             0 ira-scantur euouae Is-ti sunt qui- 31
+
+-- fused_2 --
+  OCR:      'fortatio e prien cipraib eorum e'
+  Assigned: 'viventes in carne plantaverunt ecclesiam sanguine'
+  Words:    [18..24) consumed=6
+  NW score: k=4 (pre-snap), norm=-1.2264
+  Anchor:   word 24 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 fortat---io ----e p----rie--n- --c---ipraib -eorum e 32
+                      0 .....|---|. 11
+    query             0 viventes in carne plantaverunt ecclesi--a-m sanguine 49
+
+-- fused_3 --
+  OCR:      'Aavelvya prs dominus Regisiras exovae ssti sunt a'
+  Assigned: 'suo non sunt de terris corpora eorum separata'
+  Words:    [24..32) consumed=8
+  NW score: k=12 (pre-snap), norm=-0.8726
+  Anchor:   word 32 (within_chant_7), diff=4, snapped=False, forced=True
+  Alignment:
+    target            0 Aavelvya prs-- dominus------ Re-gis-----iras exovae ssti sun
+                      0 -----------|--
+    query             0 -----------suo no--n sunt de terris corpora- e-orum s--epara
+    
+    target           46 t a 49
+                     14 |-| 17
+    query            43 t-a 45
+
+-- fused_4 --
+  OCR:      'iventese plantaveruntccl Laguie'
+  Assigned: 'Quorum merita sunt in celis'
+  Words:    [32..37) consumed=5
+  NW score: k=5 (pre-snap), norm=-1.7283
+  Anchor:   word 40 (within_chant_7), diff=3, snapped=False, forced=False
+  Alignment:
+    target            0 iventese plantaverunt----ccl Laguie 31
+                      0 --......  8
+    query             0 --Quorum merita- sunt in cel-----is 27
+
+-- fused_5 --
+  OCR:      'ronlait u ce ris corporam eorum separata'
+  Assigned: 'coequata In omnem terram exivit sonus eorum et'
+  Words:    [37..45) consumed=8
+  NW score: k=8 (pre-snap), norm=-0.3264
+  Anchor:   word 40 (within_chant_7), diff=5, snapped=False, forced=False
+  Alignment:
+    target            0 ro-nlait- -u --ce ris corporam------------- eorum separata 40
+                      0 .|-..|-|-  9
+    query             0 coequa-ta In omne---m ter--ram exivit sonus eorum -e----t- 46
+
+-- fused_6 --
+  OCR:      'Quorum merita sunt in celis coequatamne'
+  Assigned: 'in fines orbis terre verba eorum Quorum Isti sunt viri sancti quos elegit dominus in caritate'
+  Words:    [45..61) consumed=16
+  NW score: k=16 (pre-snap), norm=-0.8800
+  Anchor:   word 50 (within_chant_7), diff=11, snapped=False, forced=False
+  Alignment:
+    target            0 ---------------------------------Quorum merita sunt ---i---n
+                      0 ---------------------------------||||||
+    query             0 in fines orbis terre verba eorum Quorum --Isti sunt viri san
+    
+    target           21 --- ----cel--is co-equ------a--tamne 39
+                     39 --- 42
+    query            58 cti quos elegit dominus in carita-te 93
+
+-- fused_7 --
+  OCR:      'eorum et in fines orbis terre'
+  Assigned: 'non ficta'
+  Words:    [61..63) consumed=2
+  NW score: k=7 (pre-snap), norm=-0.1960
+  Anchor:   word 63 (within_chant_7), diff=5, snapped=False, forced=True
+  Alignment:
+    target            0 eorum et in fines orbis terre 29
+                      0 .|--------| 11
+    query             0 no--------n fi---------ct---a  9
+
+-- fused_8 --
+  OCR:      'ver .. sti sunt viri sanc'
+  Assigned: 'et dedit illis gloriam sempiternam Quorum'
+  Words:    [63..69) consumed=6
+  NW score: k=4 (pre-snap), norm=-1.4498
+  Anchor:   word 69 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 ver .. st-i-- sunt -viri-- s--------a------nc 25
+                      0 -|.  3
+    query             0 -et dedit illis--- gloriam sempiternam Quorum 41
+
+-- fused_9 --
+  OCR:      't moi avgittomimo icntate noi fic'
+  Assigned: 'doctrina fulget ecclesia ut sol et luna Sancti'
+  Words:    [69..77) consumed=8
+  NW score: k=6 (pre-snap), norm=-1.6121
+  Anchor:   word 77 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 ---t moi a---vgittomimo ic---nta--t-----e- --noi -fic-- 33
+                      0 ---|--.|.|---.|.|------ 23
+    query             0 doct--rina fulget------ ecclesia ut sol et lun-a Sancti 46
+
+-- fused_10 --
+  OCR:      'gloria sempitera . quorum doctiina'
+  Assigned: 'per fidem vicerunt regna operati sunt iusticiam'
+  Words:    [77..84) consumed=7
+  NW score: k=10 (pre-snap), norm=-1.0895
+  Anchor:   word 84 (within_chant_7), diff=3, snapped=False, forced=True
+  Alignment:
+    target            0 glor--ia sem-piter--------a . quo--r-----u-m docti-ina- 34
+                      0 -..|--|--.||-.|.||--------| 27
+    query             0 -per fi--dem vicerunt regna ----operati sunt iustici-am 47
+
+-- fused_11 --
+  OCR:      'ment ecae ies ut .ace  Vancti'
+  Assigned: 'Quorum Fuerunt sine querela ante dominum'
+  Words:    [84..90) consumed=6
+  NW score: k=5 (pre-snap), norm=-0.8207
+  Anchor:   word 90 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 -----m---e--nt ecae -ies ut .a-ce - Vancti 29
+                      0 -----|---|--|| 14
+    query             0 Quorum Fuerunt sine querela -ante domin-um 40
+
+-- fused_12 --
+  OCR:      'per fidem vicerunt regna operati sunt justici'
+  Assigned: 'et ab invicem non sunt separati Calicem'
+  Words:    [90..97) consumed=7
+  NW score: k=7 (pre-snap), norm=0.2387
+  Anchor:   word 97 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 per --fidem vice------runt regna operati sunt justic-i 45
+                      0 -|.  3
+    query             0 -et ab i---nvicem non sunt se-----parati ------Calicem 39
+
+-- fused_13 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [97..97) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_14 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [97..97) consumed=0
+  Alignment:
+    (no words left)
+=== END DEBUG ===
+

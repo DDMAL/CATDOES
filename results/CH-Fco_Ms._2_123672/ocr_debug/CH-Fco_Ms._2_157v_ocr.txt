@@ -1,0 +1,195 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'stidiosos divites dimitteno in anes eoovae inmitator episcopum regems'
+  [fused_1] 'adoremus dominantem gentibus qui se manducantibus dat'
+  [fused_2] 'Guddinoms demtes Oatio solepino'
+  [fused_3] 'gustandum deblit dominus mortis sue'
+  [fused_4] 'munione calicis quo deus ipse sumitur non vitulorum sanguine congrega'
+  [fused_5] 'nosfructu frumenti et vini'
+  [fused_6] 'multiplicati fideles in pace Christi requiescunt pre pane ange'
+  [fused_7] 'oum madi'
+  [fused_8] 'comolibit e cum muillitudo flionium litea '
+  [fused_9] '.  . noo et amos mes d pascra'
+  [fused_10] ' sinceritatis et'
+  [fused_11] 'veritatis  maie ici eit .o l'
+  [fused_12] 'dmin panilu sac es ponio qmen tedlit vobi tam mo aora'
+  [fused_13] 'een dmn ulen moses  noria nnnie'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'stidiosos divites dimitteno in anes eoovae inmitator episcopum regems'
+  Assigned: 'fastidiosos divites dimittens inanes euouae Xpistum regem'
+  Words:    [0..7) consumed=7
+  NW score: k=7 (pre-snap), norm=4.8953
+  Anchor:   word 7 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 --stidiosos divites dimitteno in anes eoovae inmitator episc
+                      0 --|||||||||
+    query             0 fastidiosos divites dimittens in-anes euouae---------- Xpis-
+    
+    target           58 opum regems 69
+                     11 -.|| 15
+    query            48 -tum regem- 57
+
+-- fused_1 --
+  OCR:      'adoremus dominantem gentibus qui se manducantibus dat'
+  Assigned: 'adoremus dominantem gentibus Qui se manducantibus dat spiritus pinguedinem'
+  Words:    [7..16) consumed=9
+  NW score: k=7 (pre-snap), norm=7.7547
+  Anchor:   word 16 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 adoremus dominantem gentibus qui se manducantibus dat-------
+                      0 ||||||||
+    query             0 adoremus dominantem gentibus Qui se manducantibus dat spirit
+    
+    target           53 -------------- 53
+                      8 -------------- 22
+    query            60 us pinguedinem 74
+
+-- fused_2 --
+  OCR:      'Guddinoms demtes Oatio solepino'
+  Assigned: '~Venite ~Sacris sollempnus Fructum salutiferum'
+  Words:    [16..21) consumed=5
+  NW score: k=3 (pre-snap), norm=-0.4579
+  Anchor:   word 21 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 Guddi------noms ---dem-tes --Oatio solepi---no 31
+                      0 ....|------...| 15
+    query             0 ~Venite ~Sacris sollempnus Fructum salutiferum 46
+
+-- fused_3 --
+  OCR:      'gustandum deblit dominus mortis sue'
+  Assigned: 'gustandum dedit dominus mortis sue'
+  Words:    [21..26) consumed=5
+  NW score: k=5 (pre-snap), norm=7.3051
+  Anchor:   word 31 (within_chant_7), diff=5, snapped=False, forced=False
+  Alignment:
+    target            0 gustandum deblit dominus mortis sue 35
+                      0 |||||||||  9
+    query             0 gustandum de-dit dominus mortis sue 34
+
+-- fused_4 --
+  OCR:      'munione calicis quo deus ipse sumitur non vitulorum sanguine congrega'
+  Assigned: 'tempore ~Beatus vir euouae Cumunione calicis quo deus ipse sumitur non vitulorum sanguine congrega'
+  Words:    [26..40) consumed=14
+  NW score: k=14 (pre-snap), norm=5.3665
+  Anchor:   word 31 (within_chant_7), diff=9, snapped=False, forced=False
+  Alignment:
+    target            0 -----------------------------munione calicis quo deus ipse s
+                      0 -----------------------------|||||||
+    query             0 tempore ~Beatus vir euouae Cumunione calicis quo deus ipse s
+    
+    target           31 umitur non vitulorum sanguine congrega---  69
+                     36 ||||||  42
+    query            60 umitur non vitulorum sanguine congregavit 101
+
+-- fused_5 --
+  OCR:      'nosfructu frumenti et vini'
+  Assigned: 'vit nos dominus ~Conserva euouae A fructu frumenti et vini'
+  Words:    [40..49) consumed=9
+  NW score: k=9 (pre-snap), norm=3.2026
+  Anchor:   word 49 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 nos----------------------------fructu frumenti et vini 26
+                      0 |||----------------------------|||||| 37
+    query             0 nos dominus ~Conserva euouae A fructu frumenti et vini 54
+
+-- fused_6 --
+  OCR:      'multiplicati fideles in pace Christi requiescunt pre pane ange'
+  Assigned: 'multiplicati fideles in pace xpisti requiescunt ~Cum'
+  Words:    [49..56) consumed=7
+  NW score: k=6 (pre-snap), norm=5.5019
+  Anchor:   word 56 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 multiplicati fideles in pace Christi requiescunt pre pane an
+                      0 ||||||||||||
+    query             0 multiplicati fideles in pace -xpisti requiescunt--------- ~C
+    
+    target           60 ge 62
+                     12 .. 14
+    query            50 um 52
+
+-- fused_7 --
+  OCR:      'oum madi'
+  Assigned: 'invocarem euouae IMmolabit'
+  Words:    [56..59) consumed=3
+  NW score: k=3 (pre-snap), norm=-2.4962
+  Anchor:   word 65 (within_chant_7), diff=6, snapped=False, forced=False
+  Alignment:
+    target            0 ------------ou-m --m--adi-  8
+                      0 ------------||-. 16
+    query             0 invocarem euouae IMmolabit 26
+
+-- fused_8 --
+  OCR:      'comolibit e cum muillitudo flionium litea'
+  Assigned: 'edum multitudo filiorum israhel ad ve'
+  Words:    [59..65) consumed=6
+  NW score: k=4 (pre-snap), norm=1.9354
+  Anchor:   word 65 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 comolibit e cum muillitudo f-lionium ------l-----ite-a- 41
+                      0 ----------|-.|| 15
+    query             0 ----------e-dum mu-ltitudo filio-rum israhel ad veperam 42
+
+-- fused_9 --
+  OCR:      '.  . noo et amos mes d pascra'
+  Assigned: 'peram pasche Et edent carnes et azimos panes Pascha'
+  Words:    [65..73) consumed=8
+  NW score: k=8 (pre-snap), norm=1.0242
+  Anchor:   word 73 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -----. -- ----. ---noo et a--mos --mes d pascra 29
+                      0 -----.  6
+    query             0 pasche Et edent carnes et azimos panes-- Pascha 45
+
+-- fused_10 --
+  OCR:      'sinceritatis et'
+  Assigned: 'nostrum immolatus est xpistus itaque epulemur in azimis sinceritatis et'
+  Words:    [73..83) consumed=10
+  NW score: k=3 (pre-snap), norm=0.1127
+  Anchor:   word 83 (within_chant_7), diff=7, snapped=False, forced=True
+  Alignment:
+    target            0 --------------------------------------------------------sinc
+                      0 --------------------------------------------------------||||
+    query             0 nostrum immolatus est xpistus itaque epulemur in azimis sinc
+    
+    target            4 eritatis et 15
+                     60 |||||||| 68
+    query            60 eritatis et 71
+
+-- fused_11 --
+  OCR:      'veritatis  maie ici eit .o l'
+  Assigned: 'veritatis {Et} Comedetis carnes et satura'
+  Words:    [83..89) consumed=6
+  NW score: k=5 (pre-snap), norm=1.4909
+  Anchor:   word 89 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 veritatis ---- --maie i--c----i eit --------.o l 28
+                      0 |||||||||  9
+    query             0 veritatis {Et} Comedetis carnes e-t saturabimini 47
+
+-- fused_12 --
+  OCR:      'dmin panilu sac es ponio qmen tedlit vobi tam mo aora'
+  Assigned: 'bimini panibus Iste est panis quem dedit vobis dominus ad'
+  Words:    [89..98) consumed=9
+  NW score: k=9 (pre-snap), norm=2.0786
+  Anchor:   word 98 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 dmin panilu- -sac es- ponio qmen tedlit vobi- tam- mo aora 53
+                      0 -----||||.|- 12
+    query             0 -----panibus Iste est panis quem ded-it vobis dominus a--d 50
+
+-- fused_13 --
+  OCR:      'een dmn ulen moses  noria nnnie'
+  Assigned: 'vescendum Non moyses dedit vobis panem'
+  Words:    [98..104) consumed=6
+  NW score: k=6 (pre-snap), norm=1.1654
+  Anchor:   word 104 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -e--en d-mn ulen mo-ses ----- noria nnnie- 31
+                      0 -|--||-|-|- 11
+    query             0 vescen-dum- -Non moyses dedit vobis pan-em 38
+=== END DEBUG ===
+

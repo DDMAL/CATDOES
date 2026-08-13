@@ -1,0 +1,175 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'Neluya Allelvya Allelvya evovae'
+  [fused_1] 'eluya Alleluya Alleluya evonac'
+  [fused_2] 'uya Allelua Anelnya evor e'
+  [fused_3] 'sum pastor o va et veritasego su'
+  [fused_4] 'pastor bonus et cognosco measet cognoscunt Prt ocbis Pasche'
+  [fused_5] 'Aneluya Aleluya exovac'
+  [fused_6] 'ignus es domine acti rete si vrim et'
+  [fused_7] 'apperire signa cula ius quoniamoctisus'
+  [fused_8] 'es et redemisti nos de Dn Langune tu'
+  [fused_9] 'al  luVaecisancti enim nos de'
+  [fused_10] 'ono licto regnum et Laces co taminsan'
+  [fused_11] 'Ego sicut vutis Fructifi  in suamnitatem'
+  [fused_12] 'Notonis aveni ptransi re ome oi nes aicon'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'Neluya Allelvya Allelvya evovae'
+  Assigned: '~Exultate deo Alleluya alleluya alleluya euouae ~Confitebor al'
+  Words:    [0..8) consumed=8
+  NW score: k=6 (pre-snap), norm=2.7508
+  Anchor:   word 8 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 ----------------Neluya Allelvya Allelvya evovae-------------
+                      0 ----------------.|||||
+    query             0 ~Exultate deo Alleluya alleluya alleluya euouae ~Confitebor 
+    
+    target           31 -------- 31
+                     22 -------- 30
+    query            60 Alleluya 68
+
+-- fused_1 --
+  OCR:      'eluya Alleluya Alleluya evonac'
+  Assigned: 'leluya alleluya alleluya euouae ~Cantate alle'
+  Words:    [8..13) consumed=5
+  NW score: k=3 (pre-snap), norm=4.2485
+  Anchor:   word 13 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 ---eluya Alleluya---------------- Alleluya evonac 30
+                      0 ---|||||  8
+    query             0 alleluya alleluya euouae ~Cantate Alleluya------- 42
+
+-- fused_2 --
+  OCR:      'uya Allelua Anelnya evor e'
+  Assigned: 'luya alleluya alleluya euouae'
+  Words:    [13..16) consumed=3
+  NW score: k=3 (pre-snap), norm=2.5621
+  Anchor:   word 21 (within_chant_7), diff=5, snapped=False, forced=False
+  Alignment:
+    target            0 uya Allelu-a -Anelnya evor e 26
+                      0 --|--|||||-| 12
+    query             0 --a--lleluya alleluya euouae 24
+
+-- fused_3 --
+  OCR:      'sum pastor o va et veritasego su'
+  Assigned: '~Benedictus dominus deus meus Ego sum pastor ovium ego sum via et veritas ego sum'
+  Words:    [16..31) consumed=15
+  NW score: k=15 (pre-snap), norm=1.7481
+  Anchor:   word 21 (within_chant_7), diff=10, snapped=False, forced=False
+  Alignment:
+    target            0 ----------------------------------sum pastor o------------ v
+                      0 ----------------------------------|||
+    query             0 ~Benedictus dominus deus meus Ego sum pastor ovium ego sum v
+    
+    target           14 -a et veritas-ego su- 32
+                     37 -| 39
+    query            60 ia et veritas ego sum 81
+
+-- fused_4 --
+  OCR:      'pastor bonus et cognosco measet cognoscunt Prt ocbis Pasche'
+  Assigned: 'pastor bonus et cognosco meas et cognoscunt me mee'
+  Words:    [31..40) consumed=9
+  NW score: k=8 (pre-snap), norm=5.6434
+  Anchor:   word 40 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 pastor bonus et cognosco meas-et cognoscunt Prt ocbis Pasche
+                      0 ||||||
+    query             0 pastor bonus et cognosco meas et cognoscunt -------me ---mee
+    
+    target           59 
+                      6 
+    query            50 
+
+-- fused_5 --
+  OCR:      'Aneluya Aleluya exovac'
+  Assigned: 'alleluya alleluya euouae'
+  Words:    [40..43) consumed=3
+  NW score: k=3 (pre-snap), norm=3.6556
+  Anchor:   word 43 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -Aneluya -Aleluya exovac 22
+                      0 -..|||||  8
+    query             0 alleluya alleluya euouae 24
+
+-- fused_6 --
+  OCR:      'ignus es domine acti rete si vrim et'
+  Assigned: 'Dignus es domine accipere librum et'
+  Words:    [43..49) consumed=6
+  NW score: k=6 (pre-snap), norm=4.8737
+  Anchor:   word 49 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -ignus es domine acti rete si vrim et 36
+                      0 -|||||  6
+    query             0 Dignus es domine acci-pere li-brum et 35
+
+-- fused_7 --
+  OCR:      'apperire signa cula ius quoniamoctisus'
+  Assigned: 'apperire signacula eius quoniam occisus'
+  Words:    [49..54) consumed=5
+  NW score: k=5 (pre-snap), norm=6.8058
+  Anchor:   word 54 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 apperire signa cula -ius quoniam-octisus 38
+                      0 ||||||||  8
+    query             0 apperire signa-cula eius quoniam occisus 39
+
+-- fused_8 --
+  OCR:      'es et redemisti nos de Dn Langune tu'
+  Assigned: 'es et redemisti nos deo In sanguine tuo alleluya'
+  Words:    [54..63) consumed=9
+  NW score: k=8 (pre-snap), norm=6.4318
+  Anchor:   word 63 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 es et redemisti nos de- Dn Langu-ne tu---------- 36
+                      0 ||  2
+    query             0 es et redemisti nos deo In sanguine tuo alleluya 48
+
+-- fused_9 --
+  OCR:      'al  luVaecisancti enim nos de'
+  Assigned: 'Fecisti enim nos de'
+  Words:    [63..67) consumed=4
+  NW score: k=4 (pre-snap), norm=3.9031
+  Anchor:   word 67 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 al  luVaecisancti enim nos de- 29
+                      0 -------.||||---|| 17
+    query             0 -------Fecis---ti enim nos deo 20
+
+-- fused_10 --
+  OCR:      'ono licto regnum et Laces co taminsan'
+  Assigned: 'o nostro regnum et sacerdotum In sanguine'
+  Words:    [67..73) consumed=6
+  NW score: k=5 (pre-snap), norm=2.7014
+  Anchor:   word 73 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 ono lict-o regnum et Laces co tam-in-san----- 37
+                      0 -||---.|-| 10
+    query             0 -no---stro regnum et sace-rdo-tum In sanguine 39
+
+-- fused_11 --
+  OCR:      'Ego sicut vutis Fructifi  in suamnitatem'
+  Assigned: 'Ego sicut vitis fructificavi suavitatem'
+  Words:    [73..78) consumed=5
+  NW score: k=5 (pre-snap), norm=5.5194
+  Anchor:   word 78 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 Ego sicut vutis Fructifi-  in suamnitatem 40
+                      0 |||  3
+    query             0 Ego sicut vitis fructificavi- sua-vitatem 39
+
+-- fused_12 --
+  OCR:      'Notonis aveni ptransi re ome oi nes aicon'
+  Assigned: 'odoris alleluya Transite ad me omnes qui concupicitis'
+  Words:    [78..86) consumed=8
+  NW score: k=7 (pre-snap), norm=1.6544
+  Anchor:   word 86 (page_break_77), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 Notonis a-ve--ni ptransi re --ome oi nes -ai-con--------- 41
+                      0 -|.|.||  7
+    query             0 -odoris alleluya -Transi-te ad me o-mnes qui concupicitis 53
+=== END DEBUG ===
+

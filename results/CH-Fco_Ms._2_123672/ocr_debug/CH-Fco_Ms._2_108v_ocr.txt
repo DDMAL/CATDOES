@@ -1,0 +1,221 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'bi facta ofessioneoi De madintorium pres consuetri capitlus et nus X n Domini'
+  [fused_1] 'orovisita quos hec oro n mutatiimn omnibus completoris per totum annum dominica in die'
+  [fused_2] 'vitatorium.'
+  [fused_3] 'urrexit dominus vere eu paca venenites Lan'
+  [fused_4] 'Ego suum quim suili et consilium meum non est cum mi'
+  [fused_5] 'presis sed in lege domini voluntas mea est Allesuya ps Bea'
+  [fused_6] 'tus vir exode  ostillami patrem meum Alleluya de'
+  [fused_7] 'dit michi gentes allelupa in hereditatem alieluya po quare'
+  [fused_8] 'et sompnum cepi et re'
+  [fused_9] 'furreri qononiam dominus suscepit me allelupa alselura'
+  [fused_10] ' Surres dominus de Seplctoanapronobis ecundi'
+  [fused_11] 'Marthim In iode Maria magar omni Sancti Gre'
+  [fused_12] 'gorum pape multis nobis lectionibus frates kennsis'
+  [fused_13] 'domine quid exovae.'
+  [fused_14] 'in gelerins domi in descen dit de ce'
+  [fused_15] 'otdens re voluit lapi'
+  [fused_16] 'et super eum sedit et dicit mni lre'
+  [fused_17] 'oin so . e onen do  num quiac'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'bi facta ofessioneoi De madintorium pres consuetri capitlus et nus X n Domini'
+  Assigned: 'Surrexit dominus vere alleluya ~Venite Ego sum qui sum et consilium meum non est cum impiis sed in lege domini'
+  Words:    [0..20) consumed=20
+  NW score: k=20 (pre-snap), norm=-0.5976
+  Anchor:   word 5 (within_chant_7), diff=15, snapped=False, forced=False
+  Alignment:
+    target            0 -----bi facta -ofession----eoi --De- ma--din-t----o------ri-
+                      0 -----.|----|-
+    query             0 Surrexi----t- do---mi-nus vere alleluya ~Venite Ego sum qui 
+    
+    target           33 -um pres cons--------u------e-tri c----apitlus -et -nus -X n
+                     13 -||
+    query            51 sum --et consilium meum non est-- cum impi--is sed in-- lege
+    
+    target           70  Domini  77
+                     16   16
+    query           103  domini 110
+
+-- fused_1 --
+  OCR:      'orovisita quos hec oro n mutatiimn omnibus completoris per totum annum dominica in die'
+  Assigned: 'voluntas mea est alleluia ~Beatus vir euouae Postulavi patrem meum alleluya dedit michi gentes alleluya in hereditatem'
+  Words:    [20..37) consumed=17
+  NW score: k=17 (pre-snap), norm=-0.9133
+  Anchor:   word 25 (within_chant_7), diff=12, snapped=False, forced=False
+  Alignment:
+    target            0 orovisita quos hec oro -------n mutat---iimn --omnibu-s co-m
+                      0 -.|-...||----|
+    query             0 -vo-lunta----s mea est alleluia ~Beatus vi-r euo----uae Post
+    
+    target           46 pletoris p---er totum a--nnu-m domi--nic-----------------a i
+                     14 .|--..|-
+    query            49 ul--avi- patrem -meum alleluya dedit michi gentes alleluya i
+    
+    target           81 n ----di---e-  86
+                     22 |  23
+    query           105 n hereditatem 118
+
+-- fused_2 --
+  OCR:      'vitatorium.'
+  Assigned: 'allelua ~Quare'
+  Words:    [37..39) consumed=2
+  NW score: k=1 (pre-snap), norm=-3.3049
+  Anchor:   word 39 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 vitatoriu------m. 11
+                      0 ---|....|------.. 17
+    query             0 ---allelua ~Quare 14
+
+-- fused_3 --
+  OCR:      'urrexit dominus vere eu paca venenites Lan'
+  Assigned: 'fremuerunt euouae Ego dormivi et somnum'
+  Words:    [39..45) consumed=6
+  NW score: k=6 (pre-snap), norm=-1.1860
+  Anchor:   word 48 (within_chant_7), diff=3, snapped=False, forced=False
+  Alignment:
+    target            0 urrexit dominus ver--e eu pa---ca -----venenites Lan-- 42
+                      0 -.||------|--|---||--. 22
+    query             0 -fre------m--u---erunt euouae Ego dormivi e--t s-omnum 39
+
+-- fused_4 --
+  OCR:      'Ego suum quim suili et consilium meum non est cum mi'
+  Assigned: 'cepi et re'
+  Words:    [45..48) consumed=3
+  NW score: k=7 (pre-snap), norm=-1.0956
+  Anchor:   word 48 (within_chant_7), diff=4, snapped=False, forced=True
+  Alignment:
+    target            0 Ego suum quim suili et consilium meum non est cu-m mi 52
+                      0 ---------------...| 19
+    query             0 ---------------cepi et ------------------res---urrexi 17
+
+-- fused_5 --
+  OCR:      'presis sed in lege domini voluntas mea est Allesuya ps Bea'
+  Assigned: 'surrexi quoniam dominus suscepit me alleluya alleluya'
+  Words:    [48..54) consumed=6
+  NW score: k=6 (pre-snap), norm=-0.0979
+  Anchor:   word 54 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 presis sed in lege domin-i volu----ntas mea est Allesuya ps 
+                      0 ....|-----------..
+    query             0 quoni-----------am dominus --suscepit-- me----- alleluya -al
+    
+    target           55 Be---a 58
+                     18 .|---| 24
+    query            39 leluya 45
+
+-- fused_6 --
+  OCR:      'tus vir exode  ostillami patrem meum Alleluya de'
+  Assigned: '~Domine quid'
+  Words:    [54..56) consumed=2
+  NW score: k=9 (pre-snap), norm=-1.2456
+  Anchor:   word 56 (within_chant_7), diff=7, snapped=False, forced=True
+  Alignment:
+    target            0 tus vir exode  ostillami patrem meum Alleluya de 48
+                      0 -------------..|------||--------.|-- 36
+    query             0 -------------~Do------mi--------ne-- ----qu--id- 12
+
+-- fused_7 --
+  OCR:      'dit michi gentes allelupa in hereditatem alieluya po quare'
+  Assigned: 'euouae Angelus domini descendit de ce'
+  Words:    [56..62) consumed=6
+  NW score: k=7 (pre-snap), norm=-0.6686
+  Anchor:   word 62 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 dit michi ge--ntes allelupa ---in- he-re-ditatem alieluya po
+                      0 -----------|--..|-
+    query             0 -----------euouae- Angelu-s domini descendit de- --cel-----o
+    
+    target           52  quare 58
+                     18 ------ 24
+    query            39 ------ 39
+
+-- fused_8 --
+  OCR:      'et sompnum cepi et re'
+  Assigned: 'lo et accendens revolvit lapidem et super eum sedit et dixit mulie'
+  Words:    [62..73) consumed=11
+  NW score: k=6 (pre-snap), norm=-0.2478
+  Anchor:   word 73 (within_chant_7), diff=5, snapped=False, forced=True
+  Alignment:
+    target            0 et --------s----o-----------m------p---num cepi- et --------
+                      0 ||
+    query             0 et accendens revolvit lapidem et super eum sedit et dixit mu
+    
+    target           19 ---r---e 21
+                      2 ---|---. 10
+    query            60 lieribus 68
+
+-- fused_9 --
+  OCR:      'furreri qononiam dominus suscepit me allelupa alselura'
+  Assigned: 'ribus Nolite timere scio enim quia cru-'
+  Words:    [73..79) consumed=6
+  NW score: k=6 (pre-snap), norm=-1.7056
+  Alignment:
+    target            0 furreri qononiam dominus susc---epit me allelupa alselura 54
+                      0 ----------.|.|.. 16
+    query             0 ----------Nolite tim-ere --scio eni--m- ----quia ---cru-- 33
+
+-- fused_10 --
+  OCR:      'Surres dominus de Seplctoanapronobis ecundi'
+  Assigned: 'LACUNA'
+  Words:    [79..80) consumed=1
+  NW score: k=1 (pre-snap), norm=-9.0273
+  Alignment:
+    target            0 Surres dominus de Seplctoanapronobis ecundi 43
+                      0 -------------------------------------...... 43
+    query             0 -------------------------------------LACUNA  6
+
+-- fused_11 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [80..80) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_12 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [80..80) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_13 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [80..80) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_14 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [80..80) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_15 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [80..80) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_16 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [80..80) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_17 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [80..80) consumed=0
+  Alignment:
+    (no words left)
+=== END DEBUG ===
+

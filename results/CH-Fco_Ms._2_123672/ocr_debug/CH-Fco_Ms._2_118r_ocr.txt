@@ -1,0 +1,163 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'Helal et universa multitudo Jacobcanen bat'
+  [fused_1] 'legit me . et davidcum cantatoribs crchara pertucie'
+  [fused_2] 'in domo domi II et lan bat Allelu va alle'
+  [fused_3] 'inXanctifica sunt Ego sacerdoteste'
+  [fused_4] 'et universus israhei deducebat archani federis'
+  [fused_5] 'donum inm bi et damd e vi tam anica'
+  [fused_6] 'nono oi tam et aposto Lornno'
+  [fused_7] 'cma er amscp ta et cimno'
+  [fused_8] 'nus angelorum custodi'
+  [fused_9] 'ixixi celum novum et terram nonam et'
+  [fused_10] 'cinitatem Sanctam iherusalem descenden tem de celo'
+  [fused_11] 'et suxstendit Michi an seofontem a me'
+  [fused_12] 'i neetorrit ad me Melia . Hictenm ado '
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'Helal et universa multitudo Jacobcanen bat'
+  Assigned: 'alleluya et universa multitudo iacob canebat'
+  Words:    [0..6) consumed=6
+  NW score: k=6 (pre-snap), norm=5.6294
+  Anchor:   word 28 (within_chant_7), diff=22, snapped=False, forced=False
+  Alignment:
+    target            0 --Hel--al et universa multitudo Jacob-canen bat 42
+                      0 --.||--|-  9
+    query             0 alleluya- et universa multitudo iacob cane--bat 44
+
+-- fused_1 --
+  OCR:      'legit me . et davidcum cantatoribs crchara pertucie'
+  Assigned: 'legitime Et david cum cantoribus cythara percuciebat'
+  Words:    [6..13) consumed=7
+  NW score: k=7 (pre-snap), norm=5.1265
+  Anchor:   word 28 (within_chant_7), diff=15, snapped=False, forced=False
+  Alignment:
+    target            0 legit me . et david-cum cantatorib-s crchara pertucie--- 51
+                      0 |||||.||-- 10
+    query             0 legitime-- Et david cum can--toribus cythara percuciebat 52
+
+-- fused_2 --
+  OCR:      'in domo domi II et lan bat Allelu va alle'
+  Assigned: 'in domo domini et laudes deo canebat alleluya alleluya'
+  Words:    [13..22) consumed=9
+  NW score: k=9 (pre-snap), norm=3.8255
+  Anchor:   word 28 (within_chant_7), diff=6, snapped=False, forced=False
+  Alignment:
+    target            0 in domo domi II et l-----------an bat Allelu va alle---- 41
+                      0 ||  2
+    query             0 in domo domi-ni et laudes deo canebat allelu-ya alleluya 54
+
+-- fused_3 --
+  OCR:      'inXanctifica sunt Ego sacerdoteste'
+  Assigned: 'Sanctificati sunt ergo sacerdotes et le'
+  Words:    [22..28) consumed=6
+  NW score: k=4 (pre-snap), norm=5.2842
+  Anchor:   word 28 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 inXanctifica-- sunt -Ego sacerdotes--------te 34
+                      0 --.|||||||||-- 14
+    query             0 --Sanctificati sunt ergo sacerdotes et levite 43
+
+-- fused_4 --
+  OCR:      'et universus israhei deducebat archani federis'
+  Assigned: 'vite et universus israhel deducebat archam federis'
+  Words:    [28..34) consumed=6
+  NW score: k=6 (pre-snap), norm=7.1872
+  Anchor:   word 34 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 et universus israhei deducebat archani federis 46
+                      0 ||  2
+    query             0 et universus israhel deducebat archa-m federis 45
+
+-- fused_5 --
+  OCR:      'donum inm bi et damd e vi tam anica'
+  Assigned: 'domini in iubilo Et david Vidi portam civitatis'
+  Words:    [34..42) consumed=8
+  NW score: k=8 (pre-snap), norm=1.5533
+  Anchor:   word 42 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 do--num inm --bi-- et da-md e vi ---tam -anica--- 35
+                      0 ||--|-.  7
+    query             0 domin-i in- iubilo Et david Vidi portam civitatis 47
+
+-- fused_6 --
+  OCR:      'nono oi tam et aposto Lornno'
+  Assigned: 'ad orientem positam et apostolorum nomina et'
+  Words:    [42..49) consumed=7
+  NW score: k=5 (pre-snap), norm=2.1715
+  Anchor:   word 49 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 --no---n--o -o-i tam et aposto Lor--nno------- 28
+                      0 --.|---|--. 11
+    query             0 ad orientem posi-tam et aposto-lorum nomina et 44
+
+-- fused_7 --
+  OCR:      'cma er amscp ta et cimno'
+  Assigned: 'agni super eam scripta Et super muros'
+  Words:    [49..56) consumed=7
+  NW score: k=6 (pre-snap), norm=0.8432
+  Anchor:   word 56 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 cma--- ---er -am-sc--p ta et ----cim-no- 24
+                      0 --|---  6
+    query             0 --agni super eam scrip-ta Et super muros 37
+
+-- fused_8 --
+  OCR:      'nus angelorum custodi'
+  Assigned: 'eius angelorum custodiam alle'
+  Words:    [56..60) consumed=4
+  NW score: k=3 (pre-snap), norm=6.1470
+  Anchor:   word 60 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 -nus angelorum custodi----------- 21
+                      0 -.||  4
+    query             0 eius angelorum custodiam alleluya 33
+
+-- fused_9 --
+  OCR:      'ixixi celum novum et terram nonam et'
+  Assigned: 'luya Vidi celum novum et terram novam et'
+  Words:    [60..67) consumed=7
+  NW score: k=7 (pre-snap), norm=6.5922
+  Anchor:   word 67 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ixixi celum novum et terram nonam et 36
+                      0 -.|.|  5
+    query             0 -Vidi celum novum et terram novam et 35
+
+-- fused_10 --
+  OCR:      'cinitatem Sanctam iherusalem descenden tem de celo'
+  Assigned: 'civitatem sanctam iherusalem descendentem de celo'
+  Words:    [67..73) consumed=6
+  NW score: k=6 (pre-snap), norm=7.2529
+  Anchor:   word 73 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 cinitatem Sanctam iherusalem descenden tem de celo 50
+                      0 ||.||||||  9
+    query             0 civitatem sanctam iherusalem descenden-tem de celo 49
+
+-- fused_11 --
+  OCR:      'et suxstendit Michi an seofontem a me'
+  Assigned: 'Et super Ostendit michi angelus fontem aque'
+  Words:    [73..80) consumed=7
+  NW score: k=7 (pre-snap), norm=4.0364
+  Anchor:   word 80 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 et su----xstendit Michi an--- seofontem a me 37
+                      0 .|  2
+    query             0 Et super Ostendit michi angelus- fontem aque 43
+
+-- fused_12 --
+  OCR:      'i neetorrit ad me Melia . Hictenm ado'
+  Assigned: 'vive et dixit ad me alleluya Hic deum'
+  Words:    [80..88) consumed=8
+  NW score: k=8 (pre-snap), norm=1.5676
+  Anchor:   word 88 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -i ne-et-orrit ad me --Mel-ia . Hic-tenm ado 37
+                      0 -|-.|-||-...|| 14
+    query             0 vi-ve et dixit ad me alleluya-- Hic deum---- 37
+=== END DEBUG ===
+

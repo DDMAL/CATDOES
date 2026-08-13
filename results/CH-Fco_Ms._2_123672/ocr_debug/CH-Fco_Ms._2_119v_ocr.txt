@@ -1,0 +1,169 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'las oportet me adducere et vocem meam audient et fie'
+  [fused_1] 's pstor Alely o'
+  [fused_2] 'narius autem non est pastor cujus non sunt oves'
+  [fused_3] 'proprie videt lupum venientem et dimittit oves et fugit'
+  [fused_4] 'Allelvya evovac. odicum et non inde'
+  [fused_5] 'bicis me dicit dominus iterum modicum et indebitis me'
+  [fused_6] 'cuia vado ad patrem'
+  [fused_7] ''
+  [fused_8] 'men amen dico vobis quia plorabitis et flebi'
+  [fused_9] 'tis vos mundus autem gaudebit nos autem contrista'
+  [fused_10] 'bimini sed tristicia vestra vertetur in gaudiuma'
+  [fused_11] 'vonar risticia vestra alleluya verteturi'
+  [fused_12] 'nemo tollet a vobis Allelu'
+  [fused_13] 'da Allelnga exonae tsacia vetta impeont corue'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'las oportet me adducere et vocem meam audient et fie'
+  Assigned: 'oportet me adducere et vocem meam audient et fiet'
+  Words:    [0..9) consumed=9
+  NW score: k=9 (pre-snap), norm=7.1517
+  Anchor:   word 17 (within_chant_7), diff=8, snapped=False, forced=False
+  Alignment:
+    target            0 las oportet me adducere et vocem meam audient et fie- 52
+                      0 ----||||||| 11
+    query             0 ----oportet me adducere et vocem meam audient et fiet 49
+
+-- fused_1 --
+  OCR:      's pstor Alely o'
+  Assigned: 'unum ovile et unus pastor alleluya euouae mercen'
+  Words:    [9..17) consumed=8
+  NW score: k=6 (pre-snap), norm=0.1328
+  Anchor:   word 17 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 -----------------s p-stor -Alel-y- --o---------------- 15
+                      0 -----------------| 18
+    query             0 unum ovile et unus pastor alleluya euouae Mercennarius 54
+
+-- fused_2 --
+  OCR:      'narius autem non est pastor cujus non sunt oves'
+  Assigned: 'narius autem et qui non est pastor cuius non sunt oves'
+  Words:    [17..27) consumed=10
+  NW score: k=10 (pre-snap), norm=5.4681
+  Anchor:   word 27 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 narius autem------- non est pastor cujus non sunt oves 47
+                      0 -------|||||------- 19
+    query             0 -------autem et qui non est pastor cuius non sunt oves 47
+
+-- fused_3 --
+  OCR:      'proprie videt lupum venientem et dimittit oves et fugit'
+  Assigned: 'proprie videt lupum venientem et dimittit oves et fugit'
+  Words:    [27..36) consumed=9
+  NW score: k=9 (pre-snap), norm=8.0000
+  Anchor:   word 36 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 proprie videt lupum venientem et dimittit oves et fugit 55
+                      0 |||||||  7
+    query             0 proprie videt lupum venientem et dimittit oves et fugit 55
+
+-- fused_4 --
+  OCR:      'Allelvya evovac. odicum et non inde'
+  Assigned: 'alleluya euouae Modicum et non vide'
+  Words:    [36..42) consumed=6
+  NW score: k=5 (pre-snap), norm=4.1353
+  Anchor:   word 42 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 Allelvya evovac. -odicum et non -inde----- 35
+                      0 .||||.||  8
+    query             0 alleluya euoua-e Modicum et non vi-debitis 40
+
+-- fused_5 --
+  OCR:      'bicis me dicit dominus iterum modicum et indebitis me'
+  Assigned: 'bitis me dicit dominus iterum modicum et videbitis me'
+  Words:    [42..50) consumed=8
+  NW score: k=8 (pre-snap), norm=6.6520
+  Anchor:   word 50 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 bicis me dicit dominus iterum modicum et -indebitis me 53
+                      0 ------||  8
+    query             0 ------me dicit dominus iterum modicum et vi-debitis me 47
+
+-- fused_6 --
+  OCR:      'cuia vado ad patrem'
+  Assigned: 'quia vado ad patrem'
+  Words:    [50..54) consumed=4
+  NW score: k=4 (pre-snap), norm=7.3158
+  Anchor:   word 57 (within_chant_7), diff=3, snapped=False, forced=False
+  Alignment:
+    target            0 cuia vado ad patrem 19
+                      0 .|||  4
+    query             0 quia vado ad patrem 19
+
+-- fused_7 --
+  OCR:      ''
+  Assigned: 'alleluya alleluya euouae'
+  Words:    [54..57) consumed=3
+
+-- fused_8 --
+  OCR:      'men amen dico vobis quia plorabitis et flebi'
+  Assigned: 'Amen amen dico vobis quia plorabitis et flebi'
+  Words:    [57..65) consumed=8
+  NW score: k=8 (pre-snap), norm=7.2242
+  Anchor:   word 65 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -men amen dico vobis quia plorabitis et flebi--- 44
+                      0 -|||  4
+    query             0 Amen amen dico vobis quia plorabitis et flebitis 48
+
+-- fused_9 --
+  OCR:      'tis vos mundus autem gaudebit nos autem contrista'
+  Assigned: 'tis vos mundus autem gaudebit vos autem contrista'
+  Words:    [65..72) consumed=7
+  NW score: k=7 (pre-snap), norm=6.1812
+  Anchor:   word 72 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 tis vos mundus autem gaudebit nos autem contrista------ 49
+                      0 ----|||  7
+    query             0 ----vos mundus autem gaudebit vos autem contristabimini 51
+
+-- fused_10 --
+  OCR:      'bimini sed tristicia vestra vertetur in gaudiuma'
+  Assigned: 'bimini sed tristicia vestra vertetur in gaudium alleluya'
+  Words:    [72..79) consumed=7
+  NW score: k=6 (pre-snap), norm=6.5727
+  Anchor:   word 79 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 bimini sed tristicia vestra vertetur in gaudium--------a 48
+                      0 -------||| 10
+    query             0 -------sed tristicia vestra vertetur in gaudium alleluya 49
+
+-- fused_11 --
+  OCR:      'vonar risticia vestra alleluya verteturi'
+  Assigned: 'euouae Tristicia vestra alleluya vertetur in'
+  Words:    [79..85) consumed=6
+  NW score: k=5 (pre-snap), norm=6.2227
+  Anchor:   word 85 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 -vonar -risticia vestra alleluya vertetur-i- 40
+                      0 -.|.|.  6
+    query             0 euouae Tristicia vestra alleluya vertetur in 44
+
+-- fused_12 --
+  OCR:      'nemo tollet a vobis Allelu'
+  Assigned: 'gaudium et gaudium vestrum nemo tollet a vobis allelu'
+  Words:    [85..94) consumed=9
+  NW score: k=9 (pre-snap), norm=2.6444
+  Anchor:   word 94 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ---------------------------nemo tollet a vobis Allelu-- 26
+                      0 ---------------------------|||| 31
+    query             0 gaudium et gaudium vestrum nemo tollet a vobis alleluya 55
+
+-- fused_13 --
+  OCR:      'da Allelnga exonae tsacia vetta impeont corue'
+  Assigned: 'ya euouae Tristitia implebit cor vestrum'
+  Words:    [94..99) consumed=5
+  NW score: k=4 (pre-snap), norm=0.7474
+  Anchor:   word 99 (page_break_77), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 da Allelnga exonae --tsacia vetta imp-eont co------rue 45
+                      0 ------------|.|.|| 18
+    query             0 ------------euouae Tris-ti----tia implebit cor vestrum 37
+=== END DEBUG ===
+

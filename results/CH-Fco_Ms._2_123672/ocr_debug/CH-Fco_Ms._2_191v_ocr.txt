@@ -1,0 +1,199 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'rum tibi teadidit de us omnia .agn die'
+  [fused_1] 'Deo tradite sunt ti bi claves Reg ce lo'
+  [fused_2] 'rum . uodcumque ligaveris super terram erit'
+  [fused_3] 'ligatum et in celis et quodcumque solveris super terram'
+  [fused_4] 'erit solutum et in ce lis Et Deo .'
+  [fused_5] 'G. Annis honorati sunt amici tui deo X . nims con'
+  [fused_6] 'for secundum Mathun . In ilo ter venit hebein partes'
+  [fused_7] 'Dmni beatiieronim presbtri seVII  prote Roga'
+  [fused_8] 'pe te ils non denera ci em'
+  [fused_9] 'au quando comvent . colie mutai tres'
+  [fused_10] 'tuos  aro et sanguis non revelavit tibi sed pa'
+  [fused_11] 'ter mens qui est in ce neo et tum ali eut uem oi'
+  [fused_12] 'Domins Jehondi cunt homines es se filiumHomi nis dixit'
+  [fused_13] 'nn tu es prpistus famo dei mint Sa ana'
+  [fused_14] 'in eo Petrus et supertunt re ttam coicato edlena'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'rum tibi teadidit de us omnia .agn die'
+  Assigned: 'tibi tradidit deus omnia regna mundi'
+  Words:    [0..6) consumed=6
+  NW score: k=6 (pre-snap), norm=4.5152
+  Anchor:   word 19 (within_chant_7), diff=13, snapped=False, forced=False
+  Alignment:
+    target            0 rum tibi teadidit de us omnia .agn- ---die 38
+                      0 ----||||  8
+    query             0 ----tibi tradidit de-us omnia regna mundi- 36
+
+-- fused_1 --
+  OCR:      'Deo tradite sunt ti bi claves Reg ce lo'
+  Assigned: 'Et ideo tradite sunt tibi claves regni celorum'
+  Words:    [6..14) consumed=8
+  NW score: k=8 (pre-snap), norm=5.1233
+  Anchor:   word 19 (within_chant_7), diff=5, snapped=False, forced=False
+  Alignment:
+    target            0 ----Deo tradite sunt ti bi claves Reg-- ce lo--- 39
+                      0 ----.||  7
+    query             0 Et ideo tradite sunt ti-bi claves regni ce-lorum 46
+
+-- fused_2 --
+  OCR:      'rum . uodcumque ligaveris super terram erit'
+  Assigned: 'Quodcumque ligaveris super terram erit'
+  Words:    [14..19) consumed=5
+  NW score: k=5 (pre-snap), norm=6.7289
+  Anchor:   word 19 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 rum . uodcumque ligaveris super terram erit 43
+                      0 -----.||||||||| 15
+    query             0 -----Quodcumque ligaveris super terram erit 38
+
+-- fused_3 --
+  OCR:      'ligatum et in celis et quodcumque solveris super terram'
+  Assigned: 'ligatum et in celis et quodcumque solveris super terram'
+  Words:    [19..28) consumed=9
+  NW score: k=9 (pre-snap), norm=8.0000
+  Anchor:   word 28 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ligatum et in celis et quodcumque solveris super terram 55
+                      0 |||||||  7
+    query             0 ligatum et in celis et quodcumque solveris super terram 55
+
+-- fused_4 --
+  OCR:      'erit solutum et in ce lis Et Deo .'
+  Assigned: 'erit solutum et in celis Et'
+  Words:    [28..34) consumed=6
+  NW score: k=7 (pre-snap), norm=6.3969
+  Anchor:   word 34 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 erit solutum et in ce lis Et Deo . 34
+                      0 ||||  4
+    query             0 erit solutum et in ce-lis Et------ 27
+
+-- fused_5 --
+  OCR:      'G. Annis honorati sunt amici tui deo X . nims con'
+  Assigned: 'ideo Ego pro te rogavi petre ut non deficiat fides tua Et tu aliquando conversus'
+  Words:    [34..49) consumed=15
+  NW score: k=15 (pre-snap), norm=-1.1500
+  Anchor:   word 39 (within_chant_7), diff=10, snapped=False, forced=False
+  Alignment:
+    target            0 G. Anni--s -ho--no----r--ati -----sunt -----amici t-ui deo -
+                      0 ------|--.
+    query             0 ------ideo Ego pro te rogavi petre u-t non deficiat fi-des t
+    
+    target           37 ----X -. -ni----ms con------ 49
+                     10 ----. 15
+    query            52 ua Et tu aliquando conversus 80
+
+-- fused_6 --
+  OCR:      'for secundum Mathun . In ilo ter venit hebein partes'
+  Assigned: 'confirma'
+  Words:    [49..50) consumed=1
+  NW score: k=11 (pre-snap), norm=-0.5462
+  Anchor:   word 50 (within_chant_7), diff=10, snapped=False, forced=True
+  Alignment:
+    target            0 for secundum Mathun . In ilo ter venit hebein partes 52
+                      0 .|---------------------|.|-----|--------------.|---- 52
+    query             0 co---------------------nfi-----r--------------ma----  8
+
+-- fused_7 --
+  OCR:      'Dmni beatiieronim presbtri seVII  prote Roga'
+  Assigned: 'fratres tuos Caro et sanguis non revelavit tibi sed pa'
+  Words:    [50..60) consumed=10
+  NW score: k=11 (pre-snap), norm=-1.3019
+  Anchor:   word 60 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 Dmni beatiie---------ro------n--im ---pre------sbt-ri seVII 
+                      0 -----..||-.|---------||------|--|.
+    query             0 -----frat-res tuos Caro et sanguis non revelavit tibi se---d
+    
+    target           33  prote Roga 44
+                     34  34
+    query            51  p-ate----r 57
+
+-- fused_8 --
+  OCR:      'pe te ils non denera ci em'
+  Assigned: 'ter meus qui est in celis Et'
+  Words:    [60..66) consumed=6
+  NW score: k=6 (pre-snap), norm=-1.0809
+  Anchor:   word 70 (within_chant_7), diff=4, snapped=False, forced=False
+  Alignment:
+    target            0 pe te ils non de----nera c--i- em 26
+                      0 .|-----.|  9
+    query             0 me-----us qui -est in--- celis Et 24
+
+-- fused_9 --
+  OCR:      'au quando comvent . colie mutai tres'
+  Assigned: 'tu aliquando Quem di'
+  Words:    [66..70) consumed=4
+  NW score: k=5 (pre-snap), norm=0.7955
+  Anchor:   word 70 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 au ---quando comvent . colie mutai tres 36
+                      0 .|  2
+    query             0 tu aliquando --Que-m dic------u---nt--- 24
+
+-- fused_10 --
+  OCR:      'tuos  aro et sanguis non revelavit tibi sed pa'
+  Assigned: 'cunt homines esse filium hominis dixit'
+  Words:    [70..75) consumed=5
+  NW score: k=6 (pre-snap), norm=-1.6552
+  Anchor:   word 75 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 tuo----s  aro et sanguis no--n revelavit tibi sed pa 46
+                      0 -.|----|  8
+    query             0 -homines --esse- filiu-m homin--------is dixi------t 33
+
+-- fused_11 --
+  OCR:      'ter mens qui est in ce neo et tum ali eut uem oi'
+  Assigned: 'ihesus discipu'
+  Words:    [75..77) consumed=2
+  NW score: k=12 (pre-snap), norm=-0.6623
+  Anchor:   word 77 (within_chant_7), diff=10, snapped=False, forced=True
+  Alignment:
+    target            0 ter mens qui est -in ce neo et tum ali eut uem oi 48
+                      0 ---..|-|--|---|- 16
+    query             0 ---ihe-s--u---s- di-sc--------ipu---li----------s 17
+
+-- fused_12 --
+  OCR:      'Domins Jehondi cunt homines es se filiumHomi nis dixit'
+  Assigned: 'lis suis respondens'
+  Words:    [77..79) consumed=2
+  NW score: k=11 (pre-snap), norm=0.2614
+  Anchor:   word 79 (within_chant_7), diff=9, snapped=False, forced=True
+  Alignment:
+    target            0 Domins Je-hondi cunt homines es se filiumHomi nis dixit 54
+                      0 -..|-|  6
+    query             0 -sui-s respond-------------------e------------n-s------ 15
+
+-- fused_13 --
+  OCR:      'nn tu es prpistus famo dei mint Sa ana'
+  Assigned: 'petrus dixit tu es xpistus filius dei vivi Et ego dico tibi'
+  Words:    [79..91) consumed=12
+  NW score: k=10 (pre-snap), norm=1.4600
+  Anchor:   word 91 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 ----------nn tu es prpistus f--amo dei mi---nt ------Sa -ana
+                      0 ----------..
+    query             0 petrus dixit tu es -xpistus filius dei vivi Et ego dico tibi
+    
+    target           38 
+                     12 
+    query            59 
+
+-- fused_14 --
+  OCR:      'in eo Petrus et supertunt re ttam coicato edlena'
+  Assigned: 'quia tu es petrus et super hanc petram edificabo'
+  Words:    [91..100) consumed=9
+  NW score: k=9 (pre-snap), norm=2.1875
+  Anchor:   word 100 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 --i---n eo Petrus et super-tunt re ttam --coicato edlena 48
+                      0 --|---.  7
+    query             0 quia tu es petrus et super hanc pe-tram edificabo------- 48
+=== END DEBUG ===
+

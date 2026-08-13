@@ -1,0 +1,163 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'qm salvum faciepulu Domini eovac'
+  [fused_1] 'est potencia tuum regnum dominem tam es do'
+  [fused_2] 'super omnes gentes da pacem domime in'
+  [fused_3] 'ebus nostris evovae rnaverunt faciem Templi'
+  [fused_4] 'corons auris et dedicaverunt altare domilio eta facta'
+  [fused_5] 'est setcia maga in popi di o n mnms et'
+  [fused_6] 'confessionibus benedicebant devin'
+  [fused_7] 'i inlilbes et avctoriam dedit iliios dominus omimibtens'
+  [fused_8] 'caingimini filii potentes et estote para'
+  [fused_9] 'quoniam melius est nobis mo'
+  [fused_10] 'Bello quam videre mala gentis vo stre et Sancto'
+  [fused_11] 'rum sicut fuerit voluntas in celo sic fiat evovae'
+  [fused_12] 'retum mimicorum ne cinuentis mcmores esto e'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'qm salvum faciepulu Domini eovac'
+  Assigned: 'qui salvum faciebat populum domini euouae Tua'
+  Words:    [0..7) consumed=7
+  NW score: k=6 (pre-snap), norm=4.4449
+  Anchor:   word 7 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 q-m salvum facie------pulu- Domini e-ova----c 32
+                      0 |-.  3
+    query             0 qui salvum faciebat populum domini euouae Tua 45
+
+-- fused_1 --
+  OCR:      'est potencia tuum regnum dominem tam es do'
+  Assigned: 'est potencia tuum regnum domine tu es domine'
+  Words:    [7..15) consumed=8
+  NW score: k=7 (pre-snap), norm=6.4940
+  Anchor:   word 15 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 est potencia tuum regnum dominem tam es do---- 42
+                      0 |||  3
+    query             0 est potencia tuum regnum domine- t-u es domine 44
+
+-- fused_2 --
+  OCR:      'super omnes gentes da pacem domime in'
+  Assigned: 'super omnes gentes da pacem domine in diebus nostris'
+  Words:    [15..24) consumed=9
+  NW score: k=7 (pre-snap), norm=7.6486
+  Anchor:   word 24 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 super omnes gentes da pacem domime in--------------- 37
+                      0 |||||  5
+    query             0 super omnes gentes da pacem domine in diebus nostris 52
+
+-- fused_3 --
+  OCR:      'ebus nostris evovae rnaverunt faciem Templi'
+  Assigned: 'euouae Ornaverunt faciem templi'
+  Words:    [24..28) consumed=4
+  NW score: k=4 (pre-snap), norm=4.3823
+  Anchor:   word 28 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ebus nostris evovae -rnaverunt faciem Templi 43
+                      0 |-|------------|.|| 19
+    query             0 e-u------------ouae Ornaverunt faciem templi 31
+
+-- fused_4 --
+  OCR:      'corons auris et dedicaverunt altare domilio eta facta'
+  Assigned: 'coronis aureis et dedicaverunt altare domino et facta'
+  Words:    [28..36) consumed=8
+  NW score: k=8 (pre-snap), norm=6.9245
+  Anchor:   word 36 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 coron-s aur-is et dedicaverunt altare domilio eta facta 53
+                      0 |||||-|  7
+    query             0 coronis aureis et dedicaverunt altare domi-no et- facta 53
+
+-- fused_5 --
+  OCR:      'est setcia maga in popi di o n mnms et'
+  Assigned: 'est leticia magna in populo euouae In hymnis et'
+  Words:    [36..45) consumed=9
+  NW score: k=9 (pre-snap), norm=4.0226
+  Anchor:   word 45 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 est set-cia mag-a in pop--i di o--- -n --mnms et 38
+                      0 |||  3
+    query             0 est leticia magna in populo -euouae In hymnis et 47
+
+-- fused_6 --
+  OCR:      'confessionibus benedicebant devin'
+  Assigned: 'confessionibus benedicebant deum qui magnalia fecit'
+  Words:    [45..51) consumed=6
+  NW score: k=3 (pre-snap), norm=6.8624
+  Anchor:   word 51 (within_chant_7), diff=3, snapped=False, forced=True
+  Alignment:
+    target            0 confessionibus benedicebant de----vi----n---------- 33
+                      0 |||||||||||||| 14
+    query             0 confessionibus benedicebant deum qui magnalia fecit 51
+
+-- fused_7 --
+  OCR:      'i inlilbes et avctoriam dedit iliios dominus omimibtens'
+  Assigned: 'in israhel et victoriam dedit illis dominus omnipotens'
+  Words:    [51..59) consumed=8
+  NW score: k=8 (pre-snap), norm=4.6791
+  Anchor:   word 59 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 i- inlilbes et av-ctoriam dedit iliios dominus om-imibtens 55
+                      0 |-  2
+    query             0 in i-srahel et -victoriam dedit illi-s dominus omni-potens 54
+
+-- fused_8 --
+  OCR:      'caingimini filii potentes et estote para'
+  Assigned: 'euouae Accingimini filii potentes et estote para'
+  Words:    [59..66) consumed=7
+  NW score: k=7 (pre-snap), norm=6.0150
+  Anchor:   word 66 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 --------caingimini filii potentes et estote para-- 40
+                      0 --------|.|||||||| 18
+    query             0 euouae Accingimini filii potentes et estote parati 50
+
+-- fused_9 --
+  OCR:      'quoniam melius est nobis mo'
+  Assigned: 'ti pugnare in prelio quoniam melius est nobis mo'
+  Words:    [66..74) consumed=8
+  NW score: k=8 (pre-snap), norm=4.1546
+  Anchor:   word 74 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ------------------quoniam melius est nobis mo-- 27
+                      0 ------------------||||||| 25
+    query             0 pugnare in prelio quoniam melius est nobis mori 47
+
+-- fused_10 --
+  OCR:      'Bello quam videre mala gentis vo stre et Sancto'
+  Assigned: 'ri in bello quam videre mala gentis nostre et sancto'
+  Words:    [74..83) consumed=9
+  NW score: k=9 (pre-snap), norm=5.9874
+  Anchor:   word 83 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ---Bello quam videre mala gentis vo stre et Sancto--- 47
+                      0 ---.||||  8
+    query             0 in bello quam videre mala gentis no-stre et sanctorum 52
+
+-- fused_11 --
+  OCR:      'rum sicut fuerit voluntas in celo sic fiat evovae'
+  Assigned: 'rum sicut fuerit voluntas in celo sic fiat euouae'
+  Words:    [83..91) consumed=8
+  NW score: k=8 (pre-snap), norm=6.7721
+  Anchor:   word 91 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 rum sicut fuerit voluntas in celo sic fiat evovae 49
+                      0 ----|||||  9
+    query             0 ----sicut fuerit voluntas in celo sic fiat euouae 45
+
+-- fused_12 --
+  OCR:      'retum mimicorum ne cinuentis mcmores esto e'
+  Assigned: 'Impetum inimicorum ne timueritis memores estote'
+  Words:    [91..97) consumed=6
+  NW score: k=6 (pre-snap), norm=5.0939
+  Anchor:   word 97 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 --retum -mimicorum ne cinue-ntis mcmores esto e 43
+                      0 --.||||  7
+    query             0 Impetum inimicorum ne timueritis memores estote 47
+=== END DEBUG ===
+

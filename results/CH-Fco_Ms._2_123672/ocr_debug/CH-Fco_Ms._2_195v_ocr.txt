@@ -1,0 +1,167 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'amasci prepositus gentis are The regis'
+  [fused_1] 'nolu it me comprehende re afrata bus per mim'
+  [fused_2] 'submissus sum in spor ta et sicevasi'
+  [fused_3] 'jus in nomine domi us et pater domini'
+  [fused_4] 'nostri i  nonp or Submis'
+  [fused_5] 'Sanctus pan ius vas lectio.'
+  [fused_6] 'nis ve re digne est glorificandus . qui et me'
+  [fused_7] 'muni duo de cimum pos sidete.'
+  [fused_8] 'ppeseatio de Celo vocatus et in terram prostratus'
+  [fused_9] 'ex persecurore effectus est vasti mio me'
+  [fused_10] 'Ego plantavi apollo rigavit deus autem incre'
+  [fused_11] 'mentum dedit Aelvya'
+  [fused_12] 'at propniam mercnem accipiet secunoim suum laborem'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'amasci prepositus gentis are The regis'
+  Assigned: 'Intercede Damasci prepositus gentis arethe regis'
+  Words:    [0..6) consumed=6
+  NW score: k=6 (pre-snap), norm=5.5961
+  Anchor:   word 6 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -----------amasci prepositus gentis are The regis 38
+                      0 -----------|||||| 17
+    query             0 Intercede Damasci prepositus gentis are-the regis 48
+
+-- fused_1 --
+  OCR:      'nolu it me comprehende re afrata bus per mim'
+  Assigned: 'voluit me comprehendere a fratribus per murum'
+  Words:    [6..13) consumed=7
+  NW score: k=7 (pre-snap), norm=5.6858
+  Anchor:   word 13 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 nolu it me comprehende re a-frata bus per m--im 44
+                      0 .|||-||  7
+    query             0 volu-it me comprehende-re a fratribus per murum 45
+
+-- fused_2 --
+  OCR:      'submissus sum in spor ta et sicevasi'
+  Assigned: 'Submissus sum in sporta et sic evasi manus'
+  Words:    [13..21) consumed=8
+  NW score: k=7 (pre-snap), norm=7.0278
+  Anchor:   word 21 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 submissus sum in spor ta et sic-evasi------ 36
+                      0 .||||||||  9
+    query             0 Submissus sum in spor-ta et sic evasi manus 42
+
+-- fused_3 --
+  OCR:      'jus in nomine domi us et pater domini'
+  Assigned: 'eius in nomine domini Deus et pater domini'
+  Words:    [21..29) consumed=8
+  NW score: k=8 (pre-snap), norm=6.4940
+  Anchor:   word 29 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -jus in nomine dom--i --us et pater domini 37
+                      0 -.||  4
+    query             0 eius in nomine domini Deus et pater domini 42
+
+-- fused_4 --
+  OCR:      'nostri i  nonp or Submis'
+  Assigned: 'nostri ihesu xpisti scit quia non mencior'
+  Words:    [29..36) consumed=7
+  NW score: k=8 (pre-snap), norm=2.2009
+  Anchor:   word 36 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 nostri i---------------- ---- nonp -----or Submis 24
+                      0 ||||||  6
+    query             0 nostri ihesu xpisti scit quia non- mencior------- 41
+
+-- fused_5 --
+  OCR:      'Sanctus pan ius vas lectio.'
+  Assigned: 'Submissus Magnus sanctus paulus vas electio'
+  Words:    [36..42) consumed=6
+  NW score: k=6 (pre-snap), norm=2.5538
+  Anchor:   word 42 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 S-----------------anctus pan ius vas -lectio--. 27
+                      0 |-----------------|||||| 24
+    query             0 Submissus Magnus sanctus pa-ulus vas electionis 46
+
+-- fused_6 --
+  OCR:      'nis ve re digne est glorificandus . qui et me'
+  Assigned: 'nis vere digne est glorificandus Qui et'
+  Words:    [42..48) consumed=6
+  NW score: k=6 (pre-snap), norm=5.5687
+  Anchor:   word 48 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 nis ve re digne est glorificandus . qui et me 45
+                      0 ----||-||  9
+    query             0 ----ve-re digne est glorificandus-- Qui et--- 35
+
+-- fused_7 --
+  OCR:      'muni duo de cimum pos sidete.'
+  Assigned: 'meruit thronum duodecimum'
+  Words:    [48..51) consumed=3
+  NW score: k=4 (pre-snap), norm=3.2644
+  Anchor:   word 51 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 m--u-------n-i duo de cimum pos sidete. 29
+                      0 |--|-------|-. 14
+    query             0 meruit thronum duo-de-cimum------------ 25
+
+-- fused_8 --
+  OCR:      'ppeseatio de Celo vocatus et in terram prostratus'
+  Assigned: 'possidere A xpisto de celo vocatus et in terram prostratus'
+  Words:    [51..61) consumed=10
+  NW score: k=10 (pre-snap), norm=5.4023
+  Anchor:   word 61 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 p----pese---ati--o de Celo vocatus et in terram prostratus 49
+                      0 |----.|.|---..|--| 18
+    query             0 possidere A xpisto de celo vocatus et in terram prostratus 58
+
+-- fused_9 --
+  OCR:      'ex persecurore effectus est vasti mio me'
+  Assigned: 'ex persecutore effectus est vas electionis Qui et'
+  Words:    [61..69) consumed=8
+  NW score: k=5 (pre-snap), norm=5.7932
+  Anchor:   word 69 (within_chant_7), diff=3, snapped=False, forced=True
+  Alignment:
+    target            0 ex persecurore effectus est vas-----ti mio ---me- 40
+                      0 ||  2
+    query             0 ex persecutore effectus est vas electionis Qui et 49
+
+-- fused_10 --
+  OCR:      'Ego plantavi apollo rigavit deus autem incre'
+  Assigned: 'meruit Ego plantavi apollo rigavit deus autem incre'
+  Words:    [69..77) consumed=8
+  NW score: k=8 (pre-snap), norm=6.0903
+  Anchor:   word 77 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -------Ego plantavi apollo rigavit deus autem incre------ 44
+                      0 -------||| 10
+    query             0 meruit Ego plantavi apollo rigavit deus autem incrementum 57
+
+-- fused_11 --
+  OCR:      'mentum dedit Aelvya'
+  Assigned: 'mentum dedit alleluya'
+  Words:    [77..79) consumed=2
+  NW score: k=2 (pre-snap), norm=2.1460
+  Anchor:   word 83 (within_chant_7), diff=4, snapped=False, forced=False
+  Alignment:
+    target            0 mentum dedit --Aelvya 19
+                      0 -------||||| 12
+    query             0 -------dedit alleluya 14
+
+-- fused_12 --
+  OCR:      'at propniam mercnem accipiet secunoim suum laborem'
+  Assigned: '~Dominus regnavit euouae Unusquisque propriam mercedem accipiet secundum suum laborem'
+  Words:    [79..89) consumed=10
+  NW score: k=10 (pre-snap), norm=3.4820
+  Anchor:   word 83 (within_chant_7), diff=6, snapped=False, forced=False
+  Alignment:
+    target            0 -------------a--t------------------- propniam merc-nem accip
+                      0 -------------|--|-------------------
+    query             0 ~Dominus regnavit euouae Unusquisque propriam mercedem accip
+    
+    target           25 iet secunoim suum laborem 50
+                     36 ||| 39
+    query            60 iet secundum suum laborem 85
+=== END DEBUG ===
+

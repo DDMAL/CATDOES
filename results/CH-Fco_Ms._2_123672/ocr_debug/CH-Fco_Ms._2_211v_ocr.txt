@@ -1,0 +1,227 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'dara a capitl significe'
+  [fused_1] 'do Ymnnus dibi Xist'
+  [fused_2] 'conspetuanglorum ad magi rinceps gloriosissime Michael ar'
+  [fused_3] 'Changele esto memor nostri hic et ubique semperun'
+  [fused_4] 'pro nobis filium Dei aneLuyaale Lya evo'
+  [fused_5] 'oro ut supra pro Sancto Jerovinio et Otogor optine in festo Sanct Jeronimi sc i a'
+  [fused_6] 'rechicem qunt epistola Jehanne ad eustochulse'
+  [fused_7] 'vae ponfessoris lenia Remis set in vigliaafrnicisci inceptoris inceptoris di spetinnior ad vpis'
+  [fused_8] 'canii int extoncis etcoio copostis'
+  [fused_9] 'cslet'
+  [fused_10] 'presoiteros que monvit precunctis revereri  . dicit'
+  [fused_11] 'dominus Covae . epsit sub innoncencio cursumque sub ho'
+  [fused_12] 'norio perfecit gloriosum succedens his gregorius mag'
+  [fused_13] 'nificavit amplius nuraculis famosimi t Conficebor'
+  [fused_14] 'une sanctuo prelegerat in patem ona'
+  [fused_15] 'do preerat ecclesie mmori hunc spiritu prophetico provi'
+  [fused_16] 'lum apostoli co peconerat honori  eatuomnrero'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'dara a capitl significe'
+  Assigned: 'Princeps gloriosissime michael ar'
+  Words:    [0..4) consumed=4
+  NW score: k=2 (pre-snap), norm=-1.2003
+  Anchor:   word 4 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 dara a cap-itl--- signi---fic--------------e 23
+                      0 -.|--..|.|-..|---.||..|---.||--------------| 44
+    query             0 -Pr--inceps gloriosissime michael archangele 41
+
+-- fused_1 --
+  OCR:      'do Ymnnus dibi Xist'
+  Assigned: 'changele esto memor nostri hic et ubique semper pre'
+  Words:    [4..12) consumed=8
+  NW score: k=5 (pre-snap), norm=-0.7024
+  Anchor:   word 12 (within_chant_7), diff=3, snapped=False, forced=True
+  Alignment:
+    target            0 --do -Ym--nnus--- di------bi--- Xis------------t 19
+                      0 --.|  4
+    query             0 esto memor nostri hic et ubique --semper precare 46
+
+-- fused_2 --
+  OCR:      'conspetuanglorum ad magi rinceps gloriosissime Michael ar'
+  Assigned: 'care pro nobis filium dei alleluya alleluya'
+  Words:    [12..18) consumed=6
+  NW score: k=11 (pre-snap), norm=-1.6321
+  Anchor:   word 18 (within_chant_7), diff=5, snapped=False, forced=True
+  Alignment:
+    target            0 -co-n---spetuanglorum ad magi rinceps gloriosissime Micha--e
+                      0 -.|-|---|----...|-.||
+    query             0 pro nobis---- fil-ium -d---ei -alle----l--------uya ----alle
+    
+    target           53 l- ar 57
+                     21 |-.|- 26
+    query            34 luya- 38
+
+-- fused_3 --
+  OCR:      'Changele esto memor nostri hic et ubique semperun'
+  Assigned: 'euouae Franciscus vir catholicus et totus apostoli'
+  Words:    [18..25) consumed=7
+  NW score: k=7 (pre-snap), norm=-1.1185
+  Anchor:   word 25 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 Changele esto memor n----ostri- ---h--ic-- et ubique ---semp
+                      0 ---------|-.|..|..|.|----.|..|-
+    query             0 ---------e-uouae Franciscus vir catholicus et -totus apostol
+    
+    target           45 erun 49
+                     31 ..|. 35
+    query            49 icus 53
+
+-- fused_4 --
+  OCR:      'pro nobis filium Dei aneLuyaale Lya evo'
+  Assigned: 'cus ecclesie teneri fidem romane docuit'
+  Words:    [25..30) consumed=5
+  NW score: k=6 (pre-snap), norm=-1.3587
+  Anchor:   word 30 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 -----pro --nobis filium Dei aneLuyaale Lya evo---- 39
+                      0 -----...  8
+    query             0 ecclesie teneri- fi-dem -romane----------- -docuit 35
+
+-- fused_5 --
+  OCR:      'oro ut supra pro Sancto Jerovinio et Otogor optine in festo Sanct Jeronimi sc i a'
+  Assigned: 'presbyterosque monuit pre cunctis revereri'
+  Words:    [30..35) consumed=5
+  NW score: k=11 (pre-snap), norm=-0.8918
+  Anchor:   word 35 (within_chant_7), diff=6, snapped=False, forced=True
+  Alignment:
+    target            0 oro ut supra pro Sancto Jerovinio et Otogor optine in -festo
+                      0 -------------||--....|---|||---...|-
+    query             0 -------------pr--esbyt---ero---sque- ------mo---n-uit pre---
+    
+    target           59  Sanct-- --Jeronimi sc i a 81
+                     36  36
+    query            25  cunctis revereri--------- 42
+
+-- fused_6 --
+  OCR:      'rechicem qunt epistola Jehanne ad eustochulse'
+  Assigned: '~Dixit dominus euouae Cepit sub innocencio cursumque sub ho'
+  Words:    [35..44) consumed=9
+  NW score: k=7 (pre-snap), norm=-1.3230
+  Anchor:   word 44 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 rechi--cem---- --qunt -epistola -Jehanne ad eusto-chuls----e
+                      0 ....|--..|----
+    query             0 ~Dixit dominus euouae Cepi-t--- sub inn---ocencio c-ursumque
+    
+    target           45 ------------ 45
+                     14 ------------ 26
+    query            52  sub honorio 64
+
+-- fused_7 --
+  OCR:      'vae ponfessoris lenia Remis set in vigliaafrnicisci inceptoris inceptoris di spetinnior ad vpis'
+  Assigned: 'norio perfecit gloriosum succedens hiis gregorius ma'
+  Words:    [44..50) consumed=6
+  NW score: k=12 (pre-snap), norm=-0.8869
+  Anchor:   word 50 (within_chant_7), diff=6, snapped=False, forced=True
+  Alignment:
+    target            0 vae ponfessoris lenia Remis set in vigliaafrnicisci inc---e-
+                      0 ----|---|---|---------.|.|----|
+    query             0 ----p---e---r---------feci----t -----gl---or-i-osum succeden
+    
+    target           56 ptoris inceptori-s di spetinnior ad vpis 95
+                     31 ....|| 37
+    query            27 s hiis -gre-gorius ------magnifica--v-it 56
+
+-- fused_8 --
+  OCR:      'canii int extoncis etcoio copostis'
+  Assigned: 'gnificavit amplius miraculis famosum'
+  Words:    [50..53) consumed=3
+  NW score: k=4 (pre-snap), norm=-1.8608
+  Anchor:   word 53 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 canii int extoncis etc-oio copostis 34
+                      0 -|-...|..  9
+    query             0 -a-mplius -----mi--raculis famos-um 25
+
+-- fused_9 --
+  OCR:      'cslet'
+  Assigned: '~Confitebor'
+  Words:    [53..54) consumed=1
+  NW score: k=1 (pre-snap), norm=-5.1239
+  Anchor:   word 61 (within_chant_7), diff=7, snapped=False, forced=False
+  Alignment:
+    target            0 ----csle--t  5
+                      0 ----...|--. 11
+    query             0 ~Confitebor 11
+
+-- fused_10 --
+  OCR:      'presoiteros que monvit precunctis revereri  . dicit'
+  Assigned: 'euouae Hunc sanctus preelegerat in patrem quan'
+  Words:    [54..61) consumed=7
+  NW score: k=5 (pre-snap), norm=-0.1921
+  Anchor:   word 61 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 presoiteros que monvit precunctis -r-everer---i  -----. ----
+                      0 --|.|..|---
+    query             0 --euouae--- Hu----n--c ---sanctus preelegerat in patrem quan
+    
+    target           46 dicit 51
+                     11 |---. 16
+    query            46 d---o 48
+
+-- fused_11 --
+  OCR:      'dominus Covae . epsit sub innoncencio cursumque sub ho'
+  Assigned: 'do preerat ecclesie minori hunc spiritu prophetico provi'
+  Words:    [61..68) consumed=7
+  NW score: k=8 (pre-snap), norm=-1.3965
+  Anchor:   word 68 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 ---------------dominus Covae ---. ep-sit sub innonce-ncio cu
+                      0 ---------------..|||----|-..
+    query             0 preerat ecclesie min----o-ri hunc spirit--u- -prophetic-o -p
+    
+    target           40 r---sumque sub ho 54
+                     28 |---|||---------- 45
+    query            49 rovisum---------- 56
+
+-- fused_12 --
+  OCR:      'norio perfecit gloriosum succedens his gregorius mag'
+  Assigned: 'sum apostolico predixerat honori ~Beatus'
+  Words:    [68..72) consumed=4
+  NW score: k=4 (pre-snap), norm=-1.2250
+  Anchor:   word 72 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ----nori-o perfeci----t -gloriosum succedens his gregorius m
+                      0 ----.|.|-|
+    query             0 apostolico p-r-edixerat honori------------------ ~Be--atus--
+    
+    target           50 ag 52
+                     10 -- 12
+    query            36 -- 36
+
+-- fused_13 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [72..72) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_14 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [72..72) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_15 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [72..72) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_16 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [72..72) consumed=0
+  Alignment:
+    (no words left)
+=== END DEBUG ===
+

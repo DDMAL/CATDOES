@@ -1,0 +1,171 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'judicum non timuit nec terrene dignitatis glori'
+  [fused_1] 'amoesed ad cele sti regna per ve'
+  [fused_2] 'mntX deduxit dominus per vas rectas et'
+  [fused_3] 'ostendit illiregnum de Qu III omiie'
+  [fused_4] 'prevenisti eum Mcnntio nibus dul cedi'
+  [fused_5] 'nis . posuisti in capite e ius coro nam de'
+  [fused_6] '0 soq vi tam petiit ate et tribu'
+  [fused_7] 'istiqi longitudinem dierum insecu num secu 1.'
+  [fused_8] 'in me confessus fuerit coram homini'
+  [fused_9] 'bus confitebor et ego eum coram patpe meo e dominores'
+  [fused_10] 'evovaeQui sequitur me non ambulat in tenebris'
+  [fused_11] 'No nacebit ummen inte dias dominls di subis erorae'
+  [fused_12] 'inm monimltit melamime etilieto sumu ois'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'judicum non timuit nec terrene dignitatis glori'
+  Assigned: 'minas iudicum non timuit nec terrenee dignitatis gloriam'
+  Words:    [0..8) consumed=8
+  NW score: k=8 (pre-snap), norm=6.3154
+  Anchor:   word 21 (within_chant_7), diff=13, snapped=False, forced=False
+  Alignment:
+    target            0 ------judicum non timuit nec terren-e dignitatis glori-- 47
+                      0 ------.|||||| 13
+    query             0 minas iudicum non timuit nec terrenee dignitatis gloriam 56
+
+-- fused_1 --
+  OCR:      'amoesed ad cele sti regna per ve'
+  Assigned: 'quesivit sed ad celestia regna pervenit'
+  Words:    [8..14) consumed=6
+  NW score: k=6 (pre-snap), norm=4.0479
+  Anchor:   word 21 (within_chant_7), diff=7, snapped=False, forced=False
+  Alignment:
+    target            0 amoe------sed ad cele sti- regna per ve--- 32
+                      0 -..|------||| 13
+    query             0 -quesivit sed ad cele-stia regna per-venit 39
+
+-- fused_2 --
+  OCR:      'mntX deduxit dominus per vas rectas et'
+  Assigned: 'Iustum deduxit dominus per vias rectas et'
+  Words:    [14..21) consumed=7
+  NW score: k=7 (pre-snap), norm=6.1817
+  Anchor:   word 21 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -mnt-X deduxit dominus per v-as rectas et 38
+                      0 -..|-.  6
+    query             0 Iustum deduxit dominus per vias rectas et 41
+
+-- fused_3 --
+  OCR:      'ostendit illiregnum de Qu III omiie'
+  Assigned: 'ostendit illi regnum dei Qui minas Domine'
+  Words:    [21..28) consumed=7
+  NW score: k=5 (pre-snap), norm=5.0791
+  Anchor:   word 28 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 ostendit illi-regnum de- Qu- --III -omiie 35
+                      0 ||||||||  8
+    query             0 ostendit illi regnum dei Qui minas Domine 41
+
+-- fused_4 --
+  OCR:      'prevenisti eum Mcnntio nibus dul cedi'
+  Assigned: 'prevenisti eum in benedictionibus dulcedinis'
+  Words:    [28..33) consumed=5
+  NW score: k=5 (pre-snap), norm=4.8577
+  Anchor:   word 33 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 prevenisti eum Mcn---n----tio nibus dul cedi--- 37
+                      0 |||||||||| 10
+    query             0 prevenisti eum -in benedictio-nibus dul-cedinis 44
+
+-- fused_5 --
+  OCR:      'nis . posuisti in capite e ius coro nam de'
+  Assigned: 'Posuisti in capite eius coronam de la'
+  Words:    [33..40) consumed=7
+  NW score: k=6 (pre-snap), norm=5.9012
+  Anchor:   word 40 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 nis . posuisti in capite e ius coro nam -------de 42
+                      0 ------.||||||| 14
+    query             0 ------Posuisti in capite e-ius coro-nam de lapide 41
+
+-- fused_6 --
+  OCR:      '0 soq vi tam petiit ate et tribu'
+  Assigned: 'pide precioso Vitam petiit ad te et tribu'
+  Words:    [40..47) consumed=7
+  NW score: k=7 (pre-snap), norm=4.0529
+  Anchor:   word 47 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ----0 soq vi tam petiit a--te et tribu---- 32
+                      0 ----..||-  9
+    query             0 precioso- Vi-tam petiit ad te et tribuisti 40
+
+-- fused_7 --
+  OCR:      'istiqi longitudinem dierum insecu num secu 1.'
+  Assigned: 'isti ei longitudinem dierum in seculum seculi'
+  Words:    [47..53) consumed=6
+  NW score: k=6 (pre-snap), norm=5.2562
+  Anchor:   word 53 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 istiqi longitudinem dierum in-secu num secu 1. 45
+                      0 ----.|  6
+    query             0 ----ei longitudinem dierum in secu-lum secu-li 40
+
+-- fused_8 --
+  OCR:      'in me confessus fuerit coram homini'
+  Assigned: 'Posuisti Qui me confessus fuerit coram homini'
+  Words:    [53..60) consumed=7
+  NW score: k=7 (pre-snap), norm=5.2699
+  Anchor:   word 60 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -------i---n me confessus fuerit coram homini--- 35
+                      0 -------|---. 12
+    query             0 Posuisti Qui me confessus fuerit coram hominibus 48
+
+-- fused_9 --
+  OCR:      'bus confitebor et ego eum coram patpe meo e dominores'
+  Assigned: 'bus confitebor et ego eum coram patre meo'
+  Words:    [60..67) consumed=7
+  NW score: k=8 (pre-snap), norm=5.7315
+  Anchor:   word 67 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 bus confitebor et ego eum coram patpe meo e dominores 53
+                      0 ----|||||||||| 14
+    query             0 ----confitebor et ego eum coram patre meo------------ 37
+
+-- fused_10 --
+  OCR:      'evovaeQui sequitur me non ambulat in tenebris'
+  Assigned: '~Dominus regnavit euouae Qui sequitur me non ambulat in tenebris'
+  Words:    [67..77) consumed=10
+  NW score: k=10 (pre-snap), norm=5.1057
+  Anchor:   word 77 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ----------e---v-----ovae-Qui sequitur me non ambulat in tene
+                      0 ----------|---|-----|.||-|||
+    query             0 ~Dominus regnavit euouae Qui sequitur me non ambulat in tene
+    
+    target           41 bris 45
+                     28 |||| 32
+    query            60 bris 64
+
+-- fused_11 --
+  OCR:      'No nacebit ummen inte dias dominls di subis erorae'
+  Assigned: 'sed habebit lumen vite dicit dominus ~Iubilate'
+  Words:    [77..84) consumed=7
+  NW score: k=8 (pre-snap), norm=2.8556
+  Anchor:   word 84 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 -No nacebit -ummen -inte di-as dominls di subis erora-e 50
+                      0 -..  3
+    query             0 sed habebit lu-men vi-te dicit dominus --~Iubi-----late 46
+
+-- fused_12 --
+  OCR:      'inm monimltit melamime etilieto sumu ois'
+  Assigned: 'euouae Qui michi ministrat me sequatur et ubi ego sum ibi sit'
+  Words:    [84..96) consumed=12
+  NW score: k=11 (pre-snap), norm=0.2723
+  Anchor:   word 96 (page_break_77), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 ---------inm---- monimlt-it me----lamime et-ili-eto sum---u 
+                      0 ---------|.|----
+    query             0 euouae Qui michi mini-strat me sequa-tur et ubi ego sum ibi 
+    
+    target           37 ois 40
+                     16 .|. 19
+    query            58 sit 61
+=== END DEBUG ===
+

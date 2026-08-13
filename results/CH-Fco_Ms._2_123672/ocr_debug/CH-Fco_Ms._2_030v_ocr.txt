@@ -1,0 +1,207 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'ingredere tur in ce lumi . remim'
+  [fused_1] 'rex noster trabea carnis induu de Avlauteri virginalise'
+  [fused_2] 'gredi eus in sitare dignatus estmunDomim.'
+  [fused_3] 'apidaverunt Stephanum et ipse invocabat dominumi'
+  [fused_4] 'dicens ne statuas illis hoc pectatum Po . Dominus Regis evovac'
+  [fused_5] 'pides torrentis illi dulces fuerunt ipsum sequuntur omnes anime'
+  [fused_6] 'mnte e sou dhesit anima mea postte quia ca'
+  [fused_7] 'ro mea lapidata est pro te deus meus sdes evovac'
+  [fused_8] 'tephanus jidit celos apertos vidict et introveit beatus Bo'
+  [fused_9] 'mo cui celi patebunt p benedicite Evovae .cte iuDeo'
+  [fused_10] 'los arertos et iesum sacarantem fcerttis Dectianoeorae'
+  [fused_11] 'capillans Stephanus autem Ymius Martyr Dei V . sepelierunt Stephanum  et fece pro M . adbudSte'
+  [fused_12] 'n emme Glamettessis a notum fecit r ante conspectu oro on'
+  [fused_13] ' capillai Stepbanus autees de uno jure ad usicap sumerert autem ad ixa cabo'
+  [fused_14] 'vespas e tetum principium cureliquis et capitu Stephanos ant prmi . dotuorum sen Steplaos'
+  [fused_15] 'excictu it fecesa mori '
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'ingredere tur in ce lumi . remim'
+  Assigned: 'in celum Heri enim'
+  Words:    [0..4) consumed=4
+  NW score: k=4 (pre-snap), norm=0.7917
+  Anchor:   word 4 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ingredere tur in ce lumi . r--emim 32
+                      0 --------------|| 16
+    query             0 --------------in ce-lum- Heri enim 18
+
+-- fused_1 --
+  OCR:      'rex noster trabea carnis induu de Avlauteri virginalise'
+  Assigned: 'rex noster trabea carnis indutus de aula uteri virginalis e'
+  Words:    [4..14) consumed=10
+  NW score: k=9 (pre-snap), norm=6.7511
+  Anchor:   word 14 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 rex noster trabea carnis indu-u- de Avla-uteri virginalis---
+                      0 |||
+    query             0 rex noster trabea carnis indutus de aula uteri virginalis eg
+    
+    target           54 ----e-- 55
+                      3 ----|-- 10
+    query            60 rediens 67
+
+-- fused_2 --
+  OCR:      'gredi eus in sitare dignatus estmunDomim.'
+  Assigned: 'grediens visitare dignatus est mundum Ingressus'
+  Words:    [14..19) consumed=5
+  NW score: k=4 (pre-snap), norm=3.4236
+  Anchor:   word 19 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 gredi eus in sitare dignatus est-munDom-------im. 41
+                      0 ---------.|--|||||| 19
+    query             0 ---------vi--sitare dignatus est mundum Ingressus 38
+
+-- fused_3 --
+  OCR:      'apidaverunt Stephanum et ipse invocabat dominumi'
+  Assigned: 'Lapidaverunt stephanum et ipse invocabat dominum'
+  Words:    [19..25) consumed=6
+  NW score: k=6 (pre-snap), norm=7.2708
+  Anchor:   word 25 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -apidaverunt Stephanum et ipse invocabat dominumi 48
+                      0 -||||||||||| 12
+    query             0 Lapidaverunt stephanum et ipse invocabat dominum- 48
+
+-- fused_4 --
+  OCR:      'dicens ne statuas illis hoc pectatum Po . Dominus Regis evovac'
+  Assigned: 'dicens ne statuas illis hoc peccatum ~Dominus regnavit euouae la'
+  Words:    [25..35) consumed=10
+  NW score: k=9 (pre-snap), norm=5.5937
+  Anchor:   word 35 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 dicens ne statuas illis hoc pectatum Po . Dominus Reg---is e
+                      0 ||||||
+    query             0 dicens ne statuas illis hoc peccatum ----~Dominus regnavit e
+    
+    target           57 vova--------c 62
+                      6 .|.|--------. 19
+    query            56 uouae Lapides 69
+
+-- fused_5 --
+  OCR:      'pides torrentis illi dulces fuerunt ipsum sequuntur omnes anime'
+  Assigned: 'pides torrentis illi dulces fuerunt ipsum sequuntur omnes anime'
+  Words:    [35..43) consumed=8
+  NW score: k=8 (pre-snap), norm=7.2424
+  Anchor:   word 43 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 pides torrentis illi dulces fuerunt ipsum sequuntur omnes an
+                      0 ------|||||||||
+    query             0 ------torrentis illi dulces fuerunt ipsum sequuntur omnes an
+    
+    target           60 ime 63
+                     15 ||| 18
+    query            54 ime 57
+
+-- fused_6 --
+  OCR:      'mnte e sou dhesit anima mea postte quia ca'
+  Assigned: 'iuste ~Iubilate euouae Adhesit anima mea post te quia ca'
+  Words:    [43..53) consumed=10
+  NW score: k=10 (pre-snap), norm=4.4777
+  Anchor:   word 53 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -mnte --------e -sou-- -dhesit anima mea post-te quia ca-- 42
+                      0 -..||  5
+    query             0 iuste ~Iubilate euouae Adhesit anima mea post te quia caro 58
+
+-- fused_7 --
+  OCR:      'ro mea lapidata est pro te deus meus sdes evovac'
+  Assigned: 'ro mea lapidata est pro te deus meus ~Deus deus'
+  Words:    [53..62) consumed=9
+  NW score: k=10 (pre-snap), norm=5.6187
+  Anchor:   word 62 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 ro mea lapidata est pro te deus meus sde-s -evovac 48
+                      0 ---|||  6
+    query             0 ---mea lapidata est pro te deus meus ~Deus de---us 44
+
+-- fused_8 --
+  OCR:      'tephanus jidit celos apertos vidict et introveit beatus Bo'
+  Assigned: 'euouae Stephanus vidit celos apertos vidit et introivit beatus ho'
+  Words:    [62..72) consumed=10
+  NW score: k=10 (pre-snap), norm=5.8231
+  Anchor:   word 72 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 --------tephanus jidit celos apertos vidict et intro-veit be
+                      0 --------||||||||
+    query             0 euouae Stephanus vidit celos apertos vidi-t et introiv-it be
+    
+    target           51 atus --Bo 58
+                     16 |||| 20
+    query            58 atus homo 67
+
+-- fused_9 --
+  OCR:      'mo cui celi patebunt p benedicite Evovae .cte iuDeo'
+  Assigned: 'mo cui celi patebunt ~Benedicite euouae Ecce video ce'
+  Words:    [72..80) consumed=8
+  NW score: k=7 (pre-snap), norm=4.6978
+  Anchor:   word 80 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 mo cui celi patebunt p benedicite Evovae .cte -iuDeo------ 51
+                      0 ---|||  6
+    query             0 ---cui celi patebunt -~Benedicite euouae Ecce vi-deo celos 53
+
+-- fused_10 --
+  OCR:      'los arertos et iesum sacarantem fcerttis Dectianoeorae'
+  Assigned: 'los apertos et ihesum stantem a dextris dei ~Lauda euouae'
+  Words:    [80..89) consumed=9
+  NW score: k=9 (pre-snap), norm=2.7478
+  Anchor:   word 89 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 los arertos et i-esum sacarantem -fcerttis Decti---a--noe-or
+                      0 ----|.|||||
+    query             0 ----apertos et ihesum s---tantem a dextris de--i ~Lauda euou
+    
+    target           52 ae 54
+                     11 || 13
+    query            51 ae 53
+
+-- fused_11 --
+  OCR:      'capillans Stephanus autem Ymius Martyr Dei V . sepelierunt Stephanum  et fece pro M . adbudSte'
+  Assigned: 'Sepelierunt stephanum viri timorati et fecerunt'
+  Words:    [89..95) consumed=6
+  NW score: k=6 (pre-snap), norm=-0.0150
+  Anchor:   word 95 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 capillans Stephanus autem Ymius Martyr Dei V . sepelierunt S
+                      0 ----------|-------------------------------------||||||||||
+    query             0 ----------S-------------------------------------epelierunt s
+    
+    target           60 tephanum ------------- et fece pro M . adbudSte 94
+                     58 |||||||| 66
+    query            13 tephanum viri timorati et fece--r---------u-nt- 47
+
+-- fused_12 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [95..95) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_13 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [95..95) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_14 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [95..95) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_15 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [95..95) consumed=0
+  Alignment:
+    (no words left)
+=== END DEBUG ===
+

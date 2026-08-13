@@ -1,0 +1,187 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'tusestiit autem iustus coram domino et ambula'
+  [fused_1] 'nus e vus. Et Deo. '
+  [fused_2] 'ecundum multitudinem miserationum tuarum domine'
+  [fused_3] 'dele inquitatem meam pres miserere evovaeusme'
+  [fused_4] 'sestu et confiebor tibi deus meus eset exaltabo te pre'
+  [fused_5] '|onfite edec glo deu'
+  [fused_6] 'amte ta . sde evovae ymmini dici'
+  [fused_7] 'te et super exaltate eum in secula bnd Evovae '
+  [fused_8] ' ejus laudate dominum de Celis a'
+  [fused_9] '.a '
+  [fused_10] 'cce ascendiliis Jherosolimam et consummabum'
+  [fused_11] 'tur omnia que scriptam sunt de filio honinus cradetur enim'
+  [fused_12] 'mnibus et eundeci et sagelabtus et conspuetu et pot'
+  [fused_13] 'man fiagelanerint oe cicent clsin et die'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'tusestiit autem iustus coram domino et ambula'
+  Assigned: 'est Fuit autem iustus coram domini et ambula'
+  Words:    [0..8) consumed=8
+  NW score: k=8 (pre-snap), norm=5.9579
+  Anchor:   word 8 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 tusest--iit autem iustus coram domino et ambula--- 45
+                      0 ---|||--.|| 11
+    query             0 ---est Fuit autem iustus coram domini et ambulavit 47
+
+-- fused_1 --
+  OCR:      'nus e vus. Et Deo.'
+  Assigned: 'vit in viis eius Et ideo'
+  Words:    [8..13) consumed=5
+  NW score: k=5 (pre-snap), norm=1.7393
+  Anchor:   word 13 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -n---us e vus. Et -Deo. 18
+                      0 -|---.|  7
+    query             0 in viis e-ius- Et ideo- 20
+
+-- fused_2 --
+  OCR:      'ecundum multitudinem miserationum tuarum domine'
+  Assigned: 'Secundum multitudinem miserationem tuarum domine'
+  Words:    [13..18) consumed=5
+  NW score: k=5 (pre-snap), norm=7.4952
+  Anchor:   word 18 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -ecundum multitudinem miserationum tuarum domine 47
+                      0 -|||||||  8
+    query             0 Secundum multitudinem miserationem tuarum domine 48
+
+-- fused_3 --
+  OCR:      'dele inquitatem meam pres miserere evovaeusme'
+  Assigned: 'dele iniquitatem meam ~Miserere euouae Deus me'
+  Words:    [18..25) consumed=7
+  NW score: k=5 (pre-snap), norm=4.9574
+  Anchor:   word 25 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 dele in-quitatem meam pres miserere evova---eus-me-- 45
+                      0 ||||  4
+    query             0 dele iniquitatem meam ----~Miserere euouae Deus meus 48
+
+-- fused_4 --
+  OCR:      'sestu et confiebor tibi deus meus eset exaltabo te pre'
+  Assigned: 'us es tu et confitebor tibi deus meus es tu et exaltabo te'
+  Words:    [25..37) consumed=12
+  NW score: k=12 (pre-snap), norm=6.2204
+  Anchor:   word 37 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ses-tu et confi-ebor tibi deus meus es----et exaltabo te pre
+                      0 -||-||
+    query             0 -es tu et confitebor tibi deus meus es tu et exaltabo t----e
+    
+    target           54 
+                      6 
+    query            55 
+
+-- fused_5 --
+  OCR:      '|onfite edec glo deu'
+  Assigned: '{Confitebor} euouae Ad te de luce vigilo deus ut vide'
+  Words:    [37..47) consumed=10
+  NW score: k=8 (pre-snap), norm=1.3333
+  Anchor:   word 47 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 -|onfite---- e------------de---c- --g-lo deu----------- 20
+                      0 -.||||||---- 12
+    query             0 {Confitebor} euouae Ad te de luce vigilo deus ut videam 55
+
+-- fused_6 --
+  OCR:      'amte ta . sde evovae ymmini dici'
+  Assigned: 'am virtutem tuam {Deus deus} euouae Hymnum dici'
+  Words:    [47..54) consumed=7
+  NW score: k=7 (pre-snap), norm=1.3293
+  Anchor:   word 54 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ---amte- t-a- --. s-de--- evovae -ymmin-i dici-- 32
+                      0 ---..||-  8
+    query             0 virtutem tuam {Deus deus} euouae Hym--num dicite 46
+
+-- fused_7 --
+  OCR:      'te et super exaltate eum in secula bnd Evovae'
+  Assigned: 'te et superexaltate eum in secula'
+  Words:    [54..59) consumed=5
+  NW score: k=5 (pre-snap), norm=4.9806
+  Anchor:   word 62 (within_chant_7), diff=3, snapped=False, forced=False
+  Alignment:
+    target            0 te et super exaltate eum in secula bnd Evovae 45
+                      0 ---||  5
+    query             0 ---et super-exaltate eum in secula----------- 30
+
+-- fused_8 --
+  OCR:      'ejus laudate dominum de Celis a'
+  Assigned: '{Benedicite} euouae Omnes angeli eius laudate dominum de celis'
+  Words:    [59..68) consumed=9
+  NW score: k=9 (pre-snap), norm=2.1213
+  Anchor:   word 62 (within_chant_7), diff=6, snapped=False, forced=False
+  Alignment:
+    target            0 ---------------------------------ejus laudate dominum de Cel
+                      0 ---------------------------------|.||
+    query             0 {Benedicite} euouae Omnes angeli eius laudate dominum de cel
+    
+    target           27 is a 31
+                     37 ||-- 41
+    query            60 is-- 62
+
+-- fused_9 --
+  OCR:      '.a'
+  Assigned: '~Laudate euouae'
+  Words:    [68..70) consumed=2
+  NW score: k=1 (pre-snap), norm=-5.7500
+  Anchor:   word 70 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 ------------.a-  2
+                      0 ------------.|- 15
+    query             0 ~Laudate euouae 15
+
+-- fused_10 --
+  OCR:      'cce ascendiliis Jherosolimam et consummabum'
+  Assigned: 'Ecce ascendimus iherusolimam et consummabun'
+  Words:    [70..75) consumed=5
+  NW score: k=5 (pre-snap), norm=5.4863
+  Anchor:   word 75 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -cce ascendiliis Jherosolimam et consummab---um 43
+                      0 -|||  4
+    query             0 Ecce ascendi-mus iherusolimam et consummabuntur 46
+
+-- fused_11 --
+  OCR:      'tur omnia que scriptam sunt de filio honinus cradetur enim'
+  Assigned: 'tur omnia que scripta sunt de filio hominis tradetur enim'
+  Words:    [75..84) consumed=9
+  NW score: k=9 (pre-snap), norm=6.5291
+  Anchor:   word 84 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 tur omnia que scriptam sunt de filio honinus cradetur enim 58
+                      0 ----|||||  9
+    query             0 ----omnia que scripta- sunt de filio hominis tradetur enim 53
+
+-- fused_12 --
+  OCR:      'mnibus et eundeci et sagelabtus et conspuetu et pot'
+  Assigned: 'gentibus et illudetur et flagellabitur et conspuetur et po'
+  Words:    [84..93) consumed=9
+  NW score: k=9 (pre-snap), norm=4.0783
+  Anchor:   word 93 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -mn-ibus et --eunde-ci et -sage-lab-tus et conspuetu- et po-
+                      0 -.|-||||
+    query             0 gentibus et illu-detur et flagellabitur et conspuetur et pos
+    
+    target           50 t---- 51
+                      8 |---- 13
+    query            59 tquam 64
+
+-- fused_13 --
+  OCR:      'man fiagelanerint oe cicent clsin et die'
+  Assigned: 'stquam flagellaverint occident eum et die tercia resurget'
+  Words:    [93..100) consumed=7
+  NW score: k=5 (pre-snap), norm=3.6065
+  Anchor:   word 100 (page_break_77), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 man fiage-lanerint oe cicent clsin et die---------------- 40
+                      0 ----|.|||-||.||||| 18
+    query             0 ----flagellaverint o-ccident --eum et die tercia resurget 50
+=== END DEBUG ===
+

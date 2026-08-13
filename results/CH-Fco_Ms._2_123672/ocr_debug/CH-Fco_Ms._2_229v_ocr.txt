@@ -1,0 +1,185 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'biberuntet anici de facti sunt X Lradiden'
+  [fused_1] ''
+  [fused_2] 'palmam Calicem do adlaudes d'
+  [fused_3] 'et est preceptum meum ut diligatis invicem sicut dileri'
+  [fused_4] 'nos q dominus Regis evovaemcaritatem nemo ha'
+  [fused_5] 'bet ut animam suam ponat quis pro amicis suis po'
+  [fused_6] 'vos amici mei estis si feceritis que precipio vo'
+  [fused_7] 'bis dict domiD  eati pacifici be'
+  [fused_8] ' ido corde quoniam ipsi dictum videbunt pres benedic'
+  [fused_9] 'monae et n pacientia vestram possidebitis animas ves'
+  [fused_10] 'capillani eaidt i am n estis Ymuus ex'
+  [fused_11] 'tet celum v. lnnunciaverunt op'
+  [fused_12] 'teras pres Laudunenis evonac etseta cius ad benedicto antem.  os quai reni'
+  [fused_13] 'et sequuti estis me centuplum accipie'
+  [fused_14] ' ttam eteriam posstebitis exorae mon'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'biberuntet anici de facti sunt X Lradiden'
+  Assigned: 'domini biberunt et amici dei facti sunt Tradiderunt'
+  Words:    [0..8) consumed=8
+  NW score: k=8 (pre-snap), norm=4.8111
+  Anchor:   word 8 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -------biberunt-et anici de- facti sunt X Lradide--n- 41
+                      0 -------||||||||-|| 18
+    query             0 domini biberunt et amici dei facti sunt-- Tradiderunt 51
+
+-- fused_1 --
+  OCR:      ''
+  Assigned: 'corpora sua propter deum ad supplicia ideo coronantur et accipiunt'
+  Words:    [8..18) consumed=10
+
+-- fused_2 --
+  OCR:      'palmam Calicem do adlaudes d'
+  Assigned: 'palmam Calicem domini'
+  Words:    [18..21) consumed=3
+  NW score: k=3 (pre-snap), norm=3.7528
+  Anchor:   word 21 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 palmam Calicem do adlaudes d 28
+                      0 ||||||  6
+    query             0 palmam Calicem do-------mini 21
+
+-- fused_3 --
+  OCR:      'et est preceptum meum ut diligatis invicem sicut dileri'
+  Assigned: 'Hoc est preceptum meum ut diligatis invicem sicut dilexi'
+  Words:    [21..30) consumed=9
+  NW score: k=9 (pre-snap), norm=7.0994
+  Anchor:   word 30 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -et est preceptum meum ut diligatis invicem sicut dileri 55
+                      0 -..  3
+    query             0 Hoc est preceptum meum ut diligatis invicem sicut dilexi 56
+
+-- fused_4 --
+  OCR:      'nos q dominus Regis evovaemcaritatem nemo ha'
+  Assigned: 'vos ~Dominus regnavit euouae Maiorem caritatem nemo ha'
+  Words:    [30..38) consumed=8
+  NW score: k=8 (pre-snap), norm=3.7540
+  Anchor:   word 38 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 nos q dominus Reg---is evova-------em-caritatem nemo ha--- 44
+                      0 .||  3
+    query             0 vos -~Dominus regnavit euouae Maiorem caritatem nemo habet 57
+
+-- fused_5 --
+  OCR:      'bet ut animam suam ponat quis pro amicis suis po'
+  Assigned: 'bet ut animam suam ponat quia pro amicis suis'
+  Words:    [38..46) consumed=8
+  NW score: k=8 (pre-snap), norm=6.4469
+  Anchor:   word 46 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 bet ut animam suam ponat quis pro amicis suis po 48
+                      0 ----||  6
+    query             0 ----ut animam suam ponat quia pro amicis suis--- 41
+
+-- fused_6 --
+  OCR:      'vos amici mei estis si feceritis que precipio vo'
+  Assigned: '~Iubilate euouae Vos amici mei estis si feceritis que precipio vo'
+  Words:    [46..57) consumed=11
+  NW score: k=11 (pre-snap), norm=5.3036
+  Anchor:   word 57 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -----------------vos amici mei estis si feceritis que precip
+                      0 -----------------.||
+    query             0 ~Iubilate euouae Vos amici mei estis si feceritis que precip
+    
+    target           43 io vo--- 48
+                     20 || 22
+    query            60 io vobis 68
+
+-- fused_7 --
+  OCR:      'bis dict domiD  eati pacifici be'
+  Assigned: 'bis dicit dominus ~Deus deus euouae Beati pacifici be'
+  Words:    [57..65) consumed=8
+  NW score: k=8 (pre-snap), norm=2.7456
+  Anchor:   word 65 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 bis dic-t domi-----D-------- ------ -eati pacifici be--- 32
+                      0 ----|||-|  9
+    query             0 ----dicit dominus ~Deus deus euouae Beati pacifici beati 52
+
+-- fused_8 --
+  OCR:      'ido corde quoniam ipsi dictum videbunt pres benedic'
+  Assigned: 'ati mundo corde quoniam ipsi deum videbunt'
+  Words:    [65..71) consumed=6
+  NW score: k=7 (pre-snap), norm=5.3358
+  Anchor:   word 71 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 --ido corde quoniam ipsi dictum videbunt pres benedic 51
+                      0 --.||  5
+    query             0 mundo corde quoniam ipsi d--eum videbunt------------- 38
+
+-- fused_9 --
+  OCR:      'monae et n pacientia vestram possidebitis animas ves'
+  Assigned: 'Benedicam euouae In paciencia vestra possidebitis animas ve'
+  Words:    [71..79) consumed=8
+  NW score: k=8 (pre-snap), norm=4.8710
+  Anchor:   word 79 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 mon----ae e----t -n pacientia vestram possidebitis animas ve
+                      0 ..|----|.
+    query             0 Benedicam euouae In paciencia vestra- possidebitis animas ve
+    
+    target           51 ----s 52
+                      9 ----| 14
+    query            59 stras 64
+
+-- fused_10 --
+  OCR:      'capillani eaidt i am n estis Ymuus ex'
+  Assigned: 'stras ~Laudate euouae Vos qui reli'
+  Words:    [79..84) consumed=5
+  NW score: k=7 (pre-snap), norm=-0.4709
+  Anchor:   word 84 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 -capillani e---a--idt --i am n e-----stis Ymuus ex 37
+                      0 -.|--..|.. 10
+    query             0 ~La--udate euouae Vos qui ----reliquistis--------- 35
+
+-- fused_11 --
+  OCR:      'tet celum v. lnnunciaverunt op'
+  Assigned: 'quistis omnia et sequuti estis me centuplum accipie'
+  Words:    [84..91) consumed=7
+  NW score: k=8 (pre-snap), norm=-1.3563
+  Anchor:   word 91 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 -----tet celu--------m v. lnn----u---nciaverunt op 30
+                      0 -----.||  8
+    query             0 omnia et sequuti estis me centuplum accipie---t-is 46
+
+-- fused_12 --
+  OCR:      'teras pres Laudunenis evonac etseta cius ad benedicto antem.  os quai reni'
+  Assigned: 'tis et vitam eternam possidebitis euouae In omnem'
+  Words:    [91..98) consumed=7
+  NW score: k=6 (pre-snap), norm=-1.3589
+  Anchor:   word 98 (page_break_77), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 ----------ter-as pres Laudune--nis evonac etseta cius ad ben
+                      0 ----------|||-|.
+    query             0 et vitam eternam poss---id--ebitis euoua-----e------- In ---
+    
+    target           47 edicto antem.  os quai reni 74
+                     16 -----|-.|-||--------------- 43
+    query            40 -----o-mn-em--------------- 45
+
+-- fused_13 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [98..98) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_14 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [98..98) consumed=0
+  Alignment:
+    (no words left)
+=== END DEBUG ===
+

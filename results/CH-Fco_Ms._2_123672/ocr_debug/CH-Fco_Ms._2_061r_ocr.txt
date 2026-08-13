@@ -1,0 +1,189 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'un et di Xit. videtei esta fraer '
+  [fused_1] 'no dincnno ad Chaym nescio domine'
+  [fused_2] 'tos fratris mei sum e go'
+  [fused_3] 'cum omofecris * Sanguinis fratris tu'
+  [fused_4] 'matad me deterra aledic'
+  [fused_5] 'ris super terram que aperiit os suum et suscepit sanguinem'
+  [fused_6] 'Nona r . cantatur in dominici'
+  [fused_7] 'tntis in deman Ccclesie dani. diebus usque ad Pascha . Qui ane dicitur Te deimilan '
+  [fused_8] 'eres in par '
+  [fused_9] 'post meridiem clamavit et dixit dam ubies alidivi'
+  [fused_10] ''
+  [fused_11] 'domine vocem tu bscondme ocem tua'
+  [fused_12] 'audini in paradiso et timu i eo quod midus'
+  [fused_13] 'etanson in sudo re miltus cuvescens Pane'
+  [fused_14] 'ta  dint dominus 4a dam cam o pera'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'un et di Xit. videtei esta fraer'
+  Assigned: 'eum et dixit Videte Ubi est abel frater tu'
+  Words:    [0..9) consumed=9
+  NW score: k=8 (pre-snap), norm=3.9630
+  Anchor:   word 9 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 -un et di Xit. videte---i est-a--- fra-er----- 32
+                      0 -|.  3
+    query             0 eum et di-xit- Videte Ubi est abel frater tuus 44
+
+-- fused_1 --
+  OCR:      'no dincnno ad Chaym nescio domine'
+  Assigned: 'us dixit dominus ad chaym nescio domine'
+  Words:    [9..15) consumed=6
+  NW score: k=6 (pre-snap), norm=4.3519
+  Anchor:   word 15 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ---no d--incnno ad Chaym nescio domine 33
+                      0 ---..  5
+    query             0 dixit domi--nus ad chaym nescio domine 36
+
+-- fused_2 --
+  OCR:      'tos fratris mei sum e go'
+  Assigned: 'numquid custos fratris mei sum ego et dixit ad eum'
+  Words:    [15..25) consumed=10
+  NW score: k=6 (pre-snap), norm=4.9010
+  Anchor:   word 25 (within_chant_7), diff=4, snapped=False, forced=True
+  Alignment:
+    target            0 -----------tos fratris mei sum e go---------------- 24
+                      0 -----------||| 14
+    query             0 numquid custos fratris mei sum e-go et dixit ad eum 50
+
+-- fused_3 --
+  OCR:      'cum omofecris * Sanguinis fratris tu'
+  Assigned: 'quid fecisti Ecce vox sanguinis fratris tui abel cla'
+  Words:    [25..34) consumed=9
+  NW score: k=7 (pre-snap), norm=3.4312
+  Anchor:   word 34 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 cu-m omofecris------- --* Sanguinis fratris tu-------------
+                      0 .|-.
+    query             0 quid ---fec-isti Ecce vox sanguinis fratris tui abel clamat
+    
+    target           36
+                      4
+    query            55
+
+-- fused_4 --
+  OCR:      'matad me deterra aledic'
+  Assigned: 'mat ad me de terra Maledictus e'
+  Words:    [34..40) consumed=6
+  NW score: k=5 (pre-snap), norm=5.0043
+  Anchor:   word 40 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 matad me de-terra -aledic-------- 23
+                      0 ---||  5
+    query             0 ---ad me de terra Maledictus eris 30
+
+-- fused_5 --
+  OCR:      'ris super terram que aperiit os suum et suscepit sanguinem'
+  Assigned: 'ris super terram que aperuit os suum et suscepit sanguinem'
+  Words:    [40..49) consumed=9
+  NW score: k=9 (pre-snap), norm=7.2010
+  Anchor:   word 49 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ris super terram que aperiit os suum et suscepit sanguinem 58
+                      0 ----|||||  9
+    query             0 ----super terram que aperuit os suum et suscepit sanguinem 54
+
+-- fused_6 --
+  OCR:      'Nona r . cantatur in dominici'
+  Assigned: 'fratris tui de manu tua Ecce'
+  Words:    [49..55) consumed=6
+  NW score: k=4 (pre-snap), norm=-0.8520
+  Anchor:   word 55 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 Nona r . cantatur in d-omin-------ici 29
+                      0 -..|.|..  8
+    query             0 -fratris -----tu--i- de manu tua Ecce 28
+
+-- fused_7 --
+  OCR:      'tntis in deman Ccclesie dani. diebus usque ad Pascha . Qui ane dicitur Te deimilan'
+  Assigned: 'Dum deambularet dominus in paradisum ad auram'
+  Words:    [55..62) consumed=7
+  NW score: k=13 (pre-snap), norm=-0.7073
+  Anchor:   word 62 (within_chant_7), diff=6, snapped=False, forced=True
+  Alignment:
+    target            0 tntis in deman Ccclesie- dani. diebus usque ---ad Pascha . Q
+                      0 -----...
+    query             0 -----Dum de-a--mbul-aret domi-----nus ---in parad--is-------
+    
+    target           56 ui ane dicitur Te deimilan 82
+                      8 |. 10
+    query            34 um a---d-- aur----------am 45
+
+-- fused_8 --
+  OCR:      'eres in par'
+  Assigned: 'post meridiem clamavit et'
+  Words:    [62..66) consumed=4
+  NW score: k=4 (pre-snap), norm=-2.1709
+  Anchor:   word 79 (within_chant_7), diff=13, snapped=False, forced=False
+  Alignment:
+    target            0 ------er---es ------in par 11
+                      0 ------||---|. 13
+    query             0 post meridiem clamavit -et 25
+
+-- fused_9 --
+  OCR:      'post meridiem clamavit et dixit dam ubies alidivi'
+  Assigned: 'dixit adam ubi es audivi'
+  Words:    [66..71) consumed=5
+  NW score: k=5 (pre-snap), norm=1.7496
+  Anchor:   word 79 (within_chant_7), diff=8, snapped=False, forced=False
+  Alignment:
+    target            0 post meridiem clamavit et dixit -dam ubi-es alidivi 49
+                      0 --------------------------||||| 31
+    query             0 --------------------------dixit adam ubi es a-udivi 24
+
+-- fused_10 --
+  OCR:      ''
+  Assigned: 'domine vocem tuam Et abscondi me Vocem tuam'
+  Words:    [71..79) consumed=8
+
+-- fused_11 --
+  OCR:      'domine vocem tu bscondme ocem tua'
+  Assigned: 'audivi in paradiso et timui eo quod nudus essem Et'
+  Words:    [79..89) consumed=10
+  NW score: k=14 (pre-snap), norm=-0.7987
+  Anchor:   word 89 (within_chant_7), diff=4, snapped=False, forced=True
+  Alignment:
+    target            0 --d--omine ------vocem t--u- --bsco--n-dme -ocem -tua 33
+                      0 --|--..||- 10
+    query             0 audivi in- paradiso et timui eo quod nudus essem Et-- 50
+
+-- fused_12 --
+  OCR:      'audini in paradiso et timu i eo quod midus'
+  Assigned: 'abscondi In sudore vultus tui vesceris pane tuo dixit dominus'
+  Words:    [89..99) consumed=10
+  NW score: k=10 (pre-snap), norm=0.0790
+  Anchor:   word 96 (within_chant_7), diff=3, snapped=False, forced=False
+  Alignment:
+    target            0 a-udin-i in paradiso e----t-- t-imu ------i- ---eo quo-d----
+                      0 |-...|-|
+    query             0 abscondi In --sud--ore vultus tui-- vesceris pane- tuo dixit
+    
+    target           36  --midus 42
+                      8   8
+    query            53  dominus 61
+
+-- fused_13 --
+  OCR:      'etanson in sudo re miltus cuvescens Pane'
+  Assigned: 'ad adam cum'
+  Words:    [99..102) consumed=3
+  NW score: k=3 (pre-snap), norm=-3.3848
+  Anchor:   word 102 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 etanson in sudo re miltus cuvescens Pane 40
+                      0 --|----------|- 15
+    query             0 --a----------d- adam----- cu-----------m 11
+
+-- fused_14 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [102..102) consumed=0
+  Alignment:
+    (no words left)
+=== END DEBUG ===
+

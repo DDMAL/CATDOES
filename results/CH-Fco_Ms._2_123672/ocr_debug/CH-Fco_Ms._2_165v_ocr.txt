@@ -1,0 +1,191 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'mit tam et circundm Amo Christistum in cujus'
+  [fused_1] 'thalanum intro bo couius mater virgo est'
+  [fused_2] 'term ct dinis michi orga num modula'
+  [fused_3] 'tis vocibus cantant . Quem cum amave ro casta'
+  [fused_4] 'sum cum tetigero munidae Peno mir'
+  [fused_5] 'Ego sum X el mulo fideim sue sub arravit'
+  [fused_6] 'me et mimensis monilibus ornaintme. Que'
+  [fused_7] 'cum. Iuduit me dominus cyclade de Auro texta et im'
+  [fused_8] 'mensis monilibus ornavit me Lummno Eonae'
+  [fused_9] 'Lt per emo os suscepi et Sangus emo orvavit'
+  [fused_10] 'nerbama eoae psi so servo fi de'
+  [fused_11] 'ipsi me tota devotione committro P Domine'
+  [fused_12] 'V admnabit eam'
+  [fused_13] 'do miltusuoRde'
+  [fused_14] 'normedio cnisim cu. Pioiit meto mi misvestimento sa'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'mit tam et circundm Amo Christistum in cujus'
+  Assigned: 'Et circundedit Amo xpistum in cuius'
+  Words:    [0..6) consumed=6
+  NW score: k=6 (pre-snap), norm=3.4146
+  Anchor:   word 6 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 mit tam et circund---m Amo Christistum in cujus 44
+                      0 --------.| 10
+    query             0 --------Et circundedit Amo ----xpistum in cuius 35
+
+-- fused_1 --
+  OCR:      'thalanum intro bo couius mater virgo est'
+  Assigned: 'thalamum introibo cuius mater virgo est cuius pa'
+  Words:    [6..14) consumed=8
+  NW score: k=6 (pre-snap), norm=7.0639
+  Anchor:   word 14 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 thalanum intro bo couius mater virgo est------------ 40
+                      0 |||||.||  8
+    query             0 thalamum introibo c-uius mater virgo est cuius pater 51
+
+-- fused_2 --
+  OCR:      'term ct dinis michi orga num modula'
+  Assigned: 'ter feminam nescit cuius michi organum modula'
+  Words:    [14..20) consumed=6
+  NW score: k=6 (pre-snap), norm=3.6949
+  Anchor:   word 20 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 te---rm ---c-t -dinis michi orga num modula--- 35
+                      0 .|---.|  7
+    query             0 feminam nescit cui-us michi orga-num modulatis 44
+
+-- fused_3 --
+  OCR:      'tis vocibus cantant . Quem cum amave ro casta'
+  Assigned: 'tis vocibus cantant Quem cum amavero'
+  Words:    [20..25) consumed=5
+  NW score: k=6 (pre-snap), norm=6.5535
+  Anchor:   word 25 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 tis vocibus cantant . Quem cum amave ro casta 45
+                      0 ----||||||| 11
+    query             0 ----vocibus cantant-- Quem cum amave-ro------ 32
+
+-- fused_4 --
+  OCR:      'sum cum tetigero munidae Peno mir'
+  Assigned: 'casta sum cum tetigero munda sum cum accepero'
+  Words:    [25..33) consumed=8
+  NW score: k=6 (pre-snap), norm=3.7851
+  Anchor:   word 33 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 ------sum cum tetigero munidae Peno --m------ir- 33
+                      0 ------|||  9
+    query             0 casta sum cum tetigero mun-da- -sum cum accepero 45
+
+-- fused_5 --
+  OCR:      'Ego sum X el mulo fideim sue sub arravit'
+  Assigned: 'virgo sum Annulo fidei sue subarravit'
+  Words:    [33..39) consumed=6
+  NW score: k=6 (pre-snap), norm=4.9648
+  Anchor:   word 39 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 --Ego sum X el mulo fideim sue sub arravit 40
+                      0 --.||  5
+    query             0 virgo sum ---Annulo fidei- sue sub-arravit 37
+
+-- fused_6 --
+  OCR:      'me et mimensis monilibus ornaintme. Que'
+  Assigned: 'me et immensis monilibus ornavit me'
+  Words:    [39..45) consumed=6
+  NW score: k=7 (pre-snap), norm=6.0511
+  Anchor:   word 45 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 me et -mimensis monilibus orna-intme. Que 39
+                      0 ||  2
+    query             0 me et im-mensis monilibus ornavi-t--- -me 35
+
+-- fused_7 --
+  OCR:      'cum. Iuduit me dominus cyclade de Auro texta et im'
+  Assigned: 'Quem cum Induit me dominus cyclade de auro texta et im'
+  Words:    [45..56) consumed=11
+  NW score: k=10 (pre-snap), norm=6.0003
+  Anchor:   word 56 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 -----cum. Iuduit me dominus cyclade de Auro texta et im-----
+                      0 -----|||-
+    query             0 Quem cum- Induit me dominus cyclade de auro texta et immensi
+    
+    target           50 - 50
+                      9 - 10
+    query            59 s 60
+
+-- fused_8 --
+  OCR:      'mensis monilibus ornavit me Lummno Eonae'
+  Assigned: 'mensis monilibus ornavit me ~Cum'
+  Words:    [56..60) consumed=4
+  NW score: k=4 (pre-snap), norm=3.6682
+  Anchor:   word 74 (within_chant_7), diff=14, snapped=False, forced=False
+  Alignment:
+    target            0 mensis monilibus ornavit me -Lummno Eonae 40
+                      0 -------||||||||| 16
+    query             0 -------monilibus ornavit me ~Cum--------- 25
+
+-- fused_9 --
+  OCR:      'Lt per emo os suscepi et Sangus emo orvavit'
+  Assigned: 'invocaret euouae Mel et lac ex eius ore suscepi et sanguis eius ornavit ge'
+  Words:    [60..74) consumed=14
+  NW score: k=13 (pre-snap), norm=1.9184
+  Anchor:   word 74 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 ---------------------Lt ---per e-mo o-s suscepi et Sangu-s e
+                      0 ---------------------.|
+    query             0 invocaret euouae Mel et lac ex eius ore suscepi et sanguis e
+    
+    target           33 -mo orvavit------ 43
+                     23 -.. 26
+    query            60 ius ornavit genas 77
+
+-- fused_10 --
+  OCR:      'nerbama eoae psi so servo fi de'
+  Assigned: 'nas meas ~Verba mea euouae Ipsi soli servo fidem'
+  Words:    [74..82) consumed=8
+  NW score: k=8 (pre-snap), norm=3.9532
+  Anchor:   word 82 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ------nerba-m-a e-o-ae -psi so-- servo fi de- 31
+                      0 ------.||||-|-| 15
+    query             0 meas ~Verba mea euouae Ipsi soli servo fi-dem 44
+
+-- fused_11 --
+  OCR:      'ipsi me tota devotione committro P Domine'
+  Assigned: 'ipsi me tota devotione committo ~Domine'
+  Words:    [82..88) consumed=6
+  NW score: k=6 (pre-snap), norm=7.1272
+  Anchor:   word 88 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ipsi me tota devotione committro P Domine 41
+                      0 ||||  4
+    query             0 ipsi me tota devotione committ-o -~Domine 39
+
+-- fused_12 --
+  OCR:      'V admnabit eam'
+  Assigned: 'dominus noster euouae'
+  Words:    [88..91) consumed=3
+  NW score: k=3 (pre-snap), norm=-1.5747
+  Anchor:   word 96 (page_break_77), diff=5, snapped=False, forced=False
+  Alignment:
+    target            0 V ad-m-n---abit-- e---am 14
+                      0 ---|-|-|---...|-- 17
+    query             0 ---dominus noster euouae 21
+
+-- fused_13 --
+  OCR:      'do miltusuoRde'
+  Assigned: 'Induit me dominus vestimento salutis'
+  Words:    [91..96) consumed=5
+  NW score: k=3 (pre-snap), norm=-1.5557
+  Anchor:   word 96 (page_break_77), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 ----------do miltus---------uo-----Rde 14
+                      0 ----------||-||-.||---------.|-----... 38
+    query             0 Induit me do-mi-nus vestimento salutis 36
+
+-- fused_14 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [96..96) consumed=0
+  Alignment:
+    (no words left)
+=== END DEBUG ===
+

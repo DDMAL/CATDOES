@@ -1,0 +1,191 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'liesse michi mnea mis parce'
+  [fused_1] 'cha indie ma la confundantur om nes'
+  [fused_2] 'perseqoinitur . et non confinidar o'
+  [fused_3] 'Confundantur omnes mici meqe'
+  [fused_4] 'Secundum Matherui In'
+  [fused_5] 'mo tempor . cum appropome'
+  [fused_6] 'runt in mam me am . ec 1* Setihec Dmilu Sancti Ablati episcopi'
+  [fused_7] 'omminus mecum est tananam bella torfor'
+  [fused_8] ' plitu mtnnaugne r'
+  [fused_9] 'domine probas renesetcorda cibi revela'
+  [fused_10] 'cn le dai soio domine miquitate'
+  [fused_11] 'eorum adversum me judica iudi cium men ibi'
+  [fused_12] 'apud se non recte cogitantes'
+  [fused_13] 'circiminemamus inmcontrarius est operi'
+  [fused_14] 'nostus promitit se saeiciam Dei Batee flim '
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'liesse michi mnea mis parce'
+  Assigned: 'esse michi domine alienus parce'
+  Words:    [0..5) consumed=5
+  NW score: k=5 (pre-snap), norm=4.3206
+  Anchor:   word 24 (within_chant_7), diff=19, snapped=False, forced=False
+  Alignment:
+    target            0 liesse michi --m-ne-a mi---s parce 27
+                      0 --||||  6
+    query             0 --esse michi domine a-lienus parce 31
+
+-- fused_1 --
+  OCR:      'cha indie ma la confundantur om nes'
+  Assigned: 'michi in die mala confundantur omnes'
+  Words:    [5..11) consumed=6
+  NW score: k=6 (pre-snap), norm=6.1978
+  Anchor:   word 24 (within_chant_7), diff=13, snapped=False, forced=False
+  Alignment:
+    target            0 --cha in-die ma la confundantur om nes 35
+                      0 --||.  5
+    query             0 michi in die ma-la confundantur om-nes 36
+
+-- fused_2 --
+  OCR:      'perseqoinitur . et non confinidar o'
+  Assigned: 'qui me persequuntur Et non confundar ego'
+  Words:    [11..18) consumed=7
+  NW score: k=7 (pre-snap), norm=3.6615
+  Anchor:   word 24 (within_chant_7), diff=6, snapped=False, forced=False
+  Alignment:
+    target            0 -------perseqoinitur . et non confinidar --o 35
+                      0 -------||||||..|-|||-- 22
+    query             0 qui me persequun-tur-- Et non confun-dar ego 40
+
+-- fused_3 --
+  OCR:      'Confundantur omnes mici meqe'
+  Assigned: 'Confundantur omnes inimici mei qui que'
+  Words:    [18..24) consumed=6
+  NW score: k=4 (pre-snap), norm=6.3141
+  Anchor:   word 24 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 Confundantur omnes ---mici me------q-e---- 28
+                      0 |||||||||||| 12
+    query             0 Confundantur omnes inimici mei qui querunt 42
+
+-- fused_4 --
+  OCR:      'Secundum Matherui In'
+  Assigned: 'runt animam meam Et non'
+  Words:    [24..28) consumed=4
+  NW score: k=4 (pre-snap), norm=-1.8447
+  Anchor:   word 28 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 Secun-dum -Ma---therui -In 20
+                      0 ---.|-..|  9
+    query             0 ---animam meam Et----- non 18
+
+-- fused_5 --
+  OCR:      'mo tempor . cum appropome'
+  Assigned: 'Dominus mecum est tanquam bellator fortis prop'
+  Words:    [28..35) consumed=7
+  NW score: k=3 (pre-snap), norm=-1.1642
+  Anchor:   word 35 (within_chant_7), diff=4, snapped=False, forced=True
+  Alignment:
+    target            0 mo----- te--mpor --. ---cu-m ----a----------pprop-ome- 25
+                      0 .|-----  7
+    query             0 Dominus mecum--- est tanquam bellator fortis propterea 51
+
+-- fused_6 --
+  OCR:      'runt in mam me am . ec 1* Setihec Dmilu Sancti Ablati episcopi'
+  Assigned: 'terea persecuti sunt me et intellegere non potuerunt'
+  Words:    [35..42) consumed=7
+  NW score: k=13 (pre-snap), norm=-1.3205
+  Anchor:   word 42 (within_chant_7), diff=6, snapped=False, forced=True
+  Alignment:
+    target            0 --r---unt in -mam me am . ec 1* Setihec Dmil----u Sancti Abl
+                      0 --|---|-|-|-
+    query             0 persecu-t-i- sunt me----- e---t int--e----llegere non--- --p
+    
+    target           50 ati episcopi 62
+                     12 .|-.|---.... 24
+    query            38 ot-ue---runt 46
+
+-- fused_7 --
+  OCR:      'omminus mecum est tananam bella torfor'
+  Assigned: 'domine probas renes et corda Tibi revelavi'
+  Words:    [42..49) consumed=7
+  NW score: k=7 (pre-snap), norm=-0.7259
+  Anchor:   word 49 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -ommin------us mecum est ---tananam be-lla torfor 38
+                      0 -|-|||------.| 14
+    query             0 do-mine probas renes e-t corda Tibi revela-----vi 42
+
+-- fused_8 --
+  OCR:      'plitu mtnnaugne r'
+  Assigned: 'causam meam'
+  Words:    [49..51) consumed=2
+  NW score: k=2 (pre-snap), norm=-2.6326
+  Anchor:   word 54 (within_chant_7), diff=3, snapped=False, forced=False
+  Alignment:
+    target            0 plitu--- mtnnaugne r 17
+                      0 --..|---  8
+    query             0 --causam m-------eam 11
+
+-- fused_9 --
+  OCR:      'domine probas renesetcorda cibi revela'
+  Assigned: 'Vidisti domine iniquitatem'
+  Words:    [51..54) consumed=3
+  NW score: k=5 (pre-snap), norm=-1.0641
+  Anchor:   word 54 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 --------domine probas renesetcorda ci-bi revela 38
+                      0 --------|||||| 14
+    query             0 Vidisti domine --------in-----------iqui-tate-m 26
+
+-- fused_10 --
+  OCR:      'cn le dai soio domine miquitate'
+  Assigned: 'eorum adversum me iudica'
+  Words:    [54..58) consumed=4
+  NW score: k=4 (pre-snap), norm=-1.1365
+  Anchor:   word 61 (within_chant_7), diff=3, snapped=False, forced=False
+  Alignment:
+    target            0 cn le---- -dai soio domine miqu-itate 31
+                      0 ----|----  9
+    query             0 ----eorum advers-um --m--e -i-udica-- 24
+
+-- fused_11 --
+  OCR:      'eorum adversum me judica iudi cium men ibi'
+  Assigned: 'iudicium meum Tibi'
+  Words:    [58..61) consumed=3
+  NW score: k=3 (pre-snap), norm=0.5455
+  Anchor:   word 61 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 eorum adversum me judica iudi cium me-n -ibi 42
+                      0 -------------------------||||-|||| 34
+    query             0 -------------------------iudi-cium meum Tibi 18
+
+-- fused_12 --
+  OCR:      'apud se non recte cogitantes'
+  Assigned: 'Dixerunt impii apud se non recte cogitantes'
+  Words:    [61..68) consumed=7
+  NW score: k=7 (pre-snap), norm=5.0434
+  Anchor:   word 68 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ---------------apud se non recte cogitantes 28
+                      0 ---------------|||| 19
+    query             0 Dixerunt impii apud se non recte cogitantes 43
+
+-- fused_13 --
+  OCR:      'circiminemamus inmcontrarius est operi'
+  Assigned: 'circumveniamus iustum quoniam contrarius est operi'
+  Words:    [68..74) consumed=6
+  NW score: k=6 (pre-snap), norm=4.0555
+  Anchor:   word 74 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 circim-inemamus i---------n--m-contrarius est operi--- 38
+                      0 ||||.|-.|-.|||| 15
+    query             0 circumven-iamus iustum quoniam contrarius est operibus 53
+
+-- fused_14 --
+  OCR:      'nostus promitit se saeiciam Dei Batee flim'
+  Assigned: 'bus nostris promittit se scienciam dei habere filium dei'
+  Words:    [74..82) consumed=8
+  NW score: k=7 (pre-snap), norm=4.8107
+  Anchor:   word 82 (page_break_77), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 nost-us promi-tit se s-aeiciam Dei Bate-e f-li-m---- 42
+                      0 ||||-.|  7
+    query             0 nostris promittit se scienciam dei habere filium dei 52
+=== END DEBUG ===
+

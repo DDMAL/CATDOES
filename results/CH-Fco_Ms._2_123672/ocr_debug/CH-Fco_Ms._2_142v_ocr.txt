@@ -1,0 +1,167 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'diant ut addatur graci ca tu '
+  [fused_1] 'tende fili mi sapientiam meam et ad eloquium meum'
+  [fused_2] 'indinaauremtu am . ut addatur. go'
+  [fused_3] 'in altissimis habito et Thromis meus in columpna mibis'
+  [fused_4] 'evovaeis sapiencia  Domnio Deo estet cum'
+  [fused_5] 'o fuit set estante cimeoae apienti'
+  [fused_6] 'clamitat in plateis si quis diligit sapienciam ad me de'
+  [fused_7] 'dinet et eam inveniet et eam cum invenerit beatus est'
+  [fused_8] 'rit si tenuerit eam evovace serva fili precepta'
+  [fused_9] 'patris et le dimintas legem matris tuga '
+  [fused_10] 'corde Budei fili ii disciplinam'
+  [fused_11] 'patris tui et ise dimittas legem matiis'
+  [fused_12] 'eam semper in cordemuo evorasanmentutetua'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'diant ut addatur graci ca tu'
+  Assigned: 'Ut addatur gracia capiti tuo at'
+  Words:    [0..6) consumed=6
+  NW score: k=5 (pre-snap), norm=3.9643
+  Anchor:   word 6 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 diant ut addatur graci- ca---- tu--------- 28
+                      0 ------.|  8
+    query             0 ------Ut addatur gracia capiti tuo Attende 36
+
+-- fused_1 --
+  OCR:      'tende fili mi sapientiam meam et ad eloquium meum'
+  Assigned: 'tende fili mi sapienciam meam et ad eloquium meum'
+  Words:    [6..14) consumed=8
+  NW score: k=8 (pre-snap), norm=6.7317
+  Anchor:   word 14 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 tende fili mi sapientiam meam et ad eloquium meum 49
+                      0 ------|||| 10
+    query             0 ------fili mi sapienciam meam et ad eloquium meum 43
+
+-- fused_2 --
+  OCR:      'indinaauremtu am . ut addatur. go'
+  Assigned: 'inclina aurem tuam Ut addatur Ego'
+  Words:    [14..20) consumed=6
+  NW score: k=6 (pre-snap), norm=4.6667
+  Anchor:   word 20 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 in-dina-aurem-tu am . ut addatur. -go 33
+                      0 ||-.|||-|||||-||-||-- 21
+    query             0 inclina aurem tu-am-- Ut addatur- Ego 33
+
+-- fused_3 --
+  OCR:      'in altissimis habito et Thromis meus in columpna mibis'
+  Assigned: 'in altissimis habito et thronus meus in columpna nubis'
+  Words:    [20..29) consumed=9
+  NW score: k=9 (pre-snap), norm=6.7963
+  Anchor:   word 29 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 in altissimis habito et Thromis meus in columpna mibis 54
+                      0 ||  2
+    query             0 in altissimis habito et thronus meus in columpna nubis 54
+
+-- fused_4 --
+  OCR:      'evovaeis sapiencia  Domnio Deo estet cum'
+  Assigned: 'euouae Omnis sapiencia a domino deo est et cum'
+  Words:    [29..38) consumed=9
+  NW score: k=9 (pre-snap), norm=5.0355
+  Anchor:   word 47 (within_chant_7), diff=9, snapped=False, forced=False
+  Alignment:
+    target            0 evovae----is sapiencia - Dom-nio Deo est-et cum 40
+                      0 |.|.||----|| 12
+    query             0 euouae Omnis sapiencia a domin-o deo est et cum 46
+
+-- fused_5 --
+  OCR:      'o fuit set estante cimeoae apienti'
+  Assigned: 'illo fuit semper et est ante evum euouae sapienti'
+  Words:    [38..47) consumed=9
+  NW score: k=9 (pre-snap), norm=3.9291
+  Anchor:   word 47 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ---o fuit s------et est-ante -cim-e-o-ae -apienti- 34
+                      0 ---|  4
+    query             0 illo fuit semper et est ante evum euouae Sapientia 50
+
+-- fused_6 --
+  OCR:      'clamitat in plateis si quis diligit sapienciam ad me de'
+  Assigned: 'a clamitat in plateis si quis diligit sapienciam ad me de'
+  Words:    [47..57) consumed=10
+  NW score: k=9 (pre-snap), norm=7.5357
+  Anchor:   word 57 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 clamitat in plateis si quis diligit sapienciam ad me de-----
+                      0 ||||||||
+    query             0 clamitat in plateis si quis diligit sapienciam ad me decline
+    
+    target           55 - 55
+                      8 -  9
+    query            60 t 61
+
+-- fused_7 --
+  OCR:      'dinet et eam inveniet et eam cum invenerit beatus est'
+  Assigned: 'clinet et eam inveniet et eam cum invenerit beatus e'
+  Words:    [57..66) consumed=9
+  NW score: k=9 (pre-snap), norm=6.6220
+  Anchor:   word 66 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 dinet et eam inveniet et eam cum invenerit beatus e-st 53
+                      0 ------||  8
+    query             0 ------et eam inveniet et eam cum invenerit beatus erit 48
+
+-- fused_8 --
+  OCR:      'rit si tenuerit eam evovace serva fili precepta'
+  Assigned: 'rit si tenuerit eam euouae Oserva fili precepta'
+  Words:    [66..73) consumed=7
+  NW score: k=7 (pre-snap), norm=6.2284
+  Anchor:   word 73 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 rit si tenuerit eam evovace -serva fili precepta 47
+                      0 ----||  6
+    query             0 ----si tenuerit eam euoua-e Oserva fili precepta 43
+
+-- fused_9 --
+  OCR:      'patris et le dimintas legem matris tuga'
+  Assigned: 'patris et ne dimittas legem matris tue liga eam'
+  Words:    [73..82) consumed=9
+  NW score: k=7 (pre-snap), norm=6.7019
+  Anchor:   word 82 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 patris et le dimintas legem matris tu----ga---- 39
+                      0 ||||||  6
+    query             0 patris et ne dimittas legem matris tue liga eam 47
+
+-- fused_10 --
+  OCR:      'corde Budei fili ii disciplinam'
+  Assigned: 'in corde tuo iugiter euouae Audi fili mi disciplinam'
+  Words:    [82..91) consumed=9
+  NW score: k=9 (pre-snap), norm=3.3375
+  Anchor:   word 91 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ---corde --------------Bude----i fili ii disciplinam 31
+                      0 ---|||||  8
+    query             0 in corde tuo iugiter euouae Audi fili mi disciplinam 52
+
+-- fused_11 --
+  OCR:      'patris tui et ise dimittas legem matiis'
+  Assigned: 'patris tui et ne dimittas legem matris tue set serva'
+  Words:    [91..101) consumed=10
+  NW score: k=7 (pre-snap), norm=7.0396
+  Anchor:   word 101 (within_chant_7), diff=3, snapped=False, forced=True
+  Alignment:
+    target            0 patris tui et ise dimittas legem matiis-------------- 39
+                      0 ||||||  6
+    query             0 patris tui et -ne dimittas legem matris tue set serva 52
+
+-- fused_12 --
+  OCR:      'eam semper in cordemuo evorasanmentutetua'
+  Assigned: 'eam semper in corde tuo euouae Fili a iuventute tua'
+  Words:    [101..111) consumed=10
+  NW score: k=10 (pre-snap), norm=4.4612
+  Anchor:   word 111 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 eam semper in corde-muo evora------sa--nmentute-tua 41
+                      0 |||  3
+    query             0 eam semper in corde tuo euouae Fili a iuventute tua 51
+=== END DEBUG ===
+

@@ -1,0 +1,231 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'mnia quecumque voluit dominus fecit pres Laudis duo'
+  [fused_1] 'm eovanoniani meternum misericordia ejus'
+  [fused_2] 'nfisdc'
+  [fused_3] 'caa Budictis do xiu'
+  [fused_4] 'Magneds Padi'
+  [fused_5] 'rigatur Do ad'
+  [fused_6] 'cis syon p super fm eovae magificat ac deus po'
+  [fused_7] 'tenciam in Brachio tuo disperde superbos et exalta hummiles'
+  [fused_8] 'Come. doremus dominum quonam ipse fecit no'
+  [fused_9] 'ruitate Deo adjutori nostro ipisum evovac'
+  [fused_10] 'i solus altissimus super omnem terram preo ds ques si ex'
+  [fused_11] 'eneditisti domine terram tuam pa ipsum evorae'
+  [fused_12] ' udamenta ejus in montibus Sanctis Ppsum exovac'
+  [fused_13] 'edictusdommisecrioias evovae a'
+  [fused_14] 'antate domino et benedicite nomini ejuscantate eo et orome'
+  [fused_15] 'miare mito in nece orae'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'mnia quecumque voluit dominus fecit pres Laudis duo'
+  Assigned: 'euouae Omnia quecumque voluit dominus fecit ~Laudate'
+  Words:    [0..7) consumed=7
+  NW score: k=8 (pre-snap), norm=4.7398
+  Anchor:   word 7 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 --------mnia quecumque voluit dominus fecit pres Laudis duo
+                      0 --------||||
+    query             0 euouae Omnia quecumque voluit dominus fecit ----~Laud---ate
+    
+    target           51
+                     12
+    query            52
+
+-- fused_1 --
+  OCR:      'm eovanoniani meternum misericordia ejus'
+  Assigned: 'domino meum euouae Quoniam in eternum misericordia eius'
+  Words:    [7..15) consumed=8
+  NW score: k=8 (pre-snap), norm=3.9442
+  Anchor:   word 15 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ----------m e-ova---nonia-ni- meternum misericordia ejus 40
+                      0 ----------| 11
+    query             0 domino meum euouae Quoniam in -eternum misericordia eius 55
+
+-- fused_2 --
+  OCR:      'nfisdc'
+  Assigned: '~Confitemini'
+  Words:    [15..16) consumed=1
+  NW score: k=1 (pre-snap), norm=-2.0035
+  Anchor:   word 22 (within_chant_7), diff=6, snapped=False, forced=False
+  Alignment:
+    target            0 ---nfi---sdc  6
+                      0 ---|||---... 12
+    query             0 ~Confitemini 12
+
+-- fused_3 --
+  OCR:      'caa Budictis do xiu'
+  Assigned: 'euouae Hymnum cantate nobis de canti'
+  Words:    [16..22) consumed=6
+  NW score: k=6 (pre-snap), norm=-1.1755
+  Anchor:   word 22 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ---caa ---Budic----t-----is do -----xiu 19
+                      0 ---.|.  6
+    query             0 euouae Hymnum cantate nobis de canticis 39
+
+-- fused_4 --
+  OCR:      'Magneds Padi'
+  Assigned: 'cis syon ~Super flumina'
+  Words:    [22..25) consumed=3
+  NW score: k=3 (pre-snap), norm=-3.0464
+  Anchor:   word 29 (within_chant_7), diff=4, snapped=False, forced=False
+  Alignment:
+    target            0 Magn-----eds -Padi-- 12
+                      0 ...|-----|-. 12
+    query             0 syon ~Supe-r flumina 19
+
+-- fused_5 --
+  OCR:      'rigatur Do ad'
+  Assigned: 'euouae'
+  Words:    [25..26) consumed=1
+  NW score: k=1 (pre-snap), norm=-2.2646
+  Anchor:   word 29 (within_chant_7), diff=3, snapped=False, forced=False
+  Alignment:
+    target            0 rigatur Do ad 13
+                      0 ----.|---|.|. 13
+    query             0 ----eu---ouae  6
+
+-- fused_6 --
+  OCR:      'cis syon p super fm eovae magificat ac deus po'
+  Assigned: 'Fac deus potenciam in brachio tuo disperde superbos et exalta humiles euouae Adoremus dominum'
+  Words:    [26..40) consumed=14
+  NW score: k=14 (pre-snap), norm=-0.9785
+  Anchor:   word 29 (within_chant_7), diff=11, snapped=False, forced=False
+  Alignment:
+    target            0 --c---is syo---------n ---------------p---- super--- fm eova
+                      0 --|---.|
+    query             0 Fac deus -potenciam in brachio tuo disperde superbos et e-xa
+    
+    target           24 --e --magificat ----ac -d--e-us po----- 46
+                      8 --. 11
+    query            58 lta hum----iles euouae Adoremus dominum 93
+
+-- fused_7 --
+  OCR:      'tenciam in Brachio tuo disperde superbos et exalta hummiles'
+  Assigned: 'quoniam ipse fecit nos'
+  Words:    [40..44) consumed=4
+  NW score: k=7 (pre-snap), norm=-0.5162
+  Anchor:   word 44 (within_chant_7), diff=3, snapped=False, forced=True
+  Alignment:
+    target            0 -tenciam in Brachio tuo disperde superbos -e--t exalta hummi
+                      0 -..|-|||
+    query             0 quon-iam i-----------------p-----s--e---- fecit ------------
+    
+    target           56 les 59
+                      8 ..| 11
+    query            19 nos 22
+
+-- fused_8 --
+  OCR:      'Come. doremus dominum quonam ipse fecit no'
+  Assigned: '~Venite Exultate deo adiutori nostro {Ipsum'
+  Words:    [44..50) consumed=6
+  NW score: k=5 (pre-snap), norm=-1.9545
+  Anchor:   word 50 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 Come. doremus dominum quonam ipse fe---ci-t--- no-----------
+                      0 -..|--...|---
+    query             0 -~Ve--nite--- -------Exulta----te deo adiutori nostro {Ipsum
+    
+    target           42 
+                     13 
+    query            43 
+
+-- fused_9 --
+  OCR:      'ruitate Deo adjutori nostro ipisum evovac'
+  Assigned: '[Exultate]} euouae Tu solus altissimus super'
+  Words:    [50..56) consumed=6
+  NW score: k=6 (pre-snap), norm=-0.6357
+  Anchor:   word 60 (within_chant_7), diff=4, snapped=False, forced=False
+  Alignment:
+    target            0 --ruitate-- De-o a-djutori no--s---tro i-pisum ---evovac 41
+                      0 --.|.||||-- 11
+    query             0 [Exultate]} -euouae Tu---- solus alt---issimus supe----r 44
+
+-- fused_10 --
+  OCR:      'i solus altissimus super omnem terram preo ds ques si ex'
+  Assigned: 'omnem terram ~Deus quis'
+  Words:    [56..60) consumed=4
+  NW score: k=5 (pre-snap), norm=1.0080
+  Anchor:   word 60 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 i solus altissimus super omnem terram preo ds ques si ex 56
+                      0 -------------------------||||| 30
+    query             0 -------------------------omnem terram ~De--us quis------ 23
+
+-- fused_11 --
+  OCR:      'eneditisti domine terram tuam pa ipsum evorae'
+  Assigned: 'similis euouae Benedixisti domine terram tuam ~Ipsum [Benedixisti]'
+  Words:    [60..68) consumed=8
+  NW score: k=7 (pre-snap), norm=3.3489
+  Anchor:   word 68 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 ----------------eneditisti domine terram tuam pa ipsum --evo
+                      0 ----------------|||||.||||
+    query             0 similis euouae Benedixisti domine terram tuam --~Ipsum [Be--
+    
+    target           42 rae-------- 45
+                     26 -.|-------- 37
+    query            56 -nedixisti] 66
+
+-- fused_12 --
+  OCR:      'udamenta ejus in montibus Sanctis Ppsum exovac'
+  Assigned: 'euouae Fundamenta eius in montibus sanctis ~Ipsum [Fundamenta]'
+  Words:    [68..76) consumed=8
+  NW score: k=7 (pre-snap), norm=4.3390
+  Anchor:   word 76 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 --------u-damenta ejus in montibus Sanctis -Ppsum -------exo
+                      0 --------|-|||||||
+    query             0 euouae Fundamenta eius in montibus sanctis ~Ipsum [Fundame-n
+    
+    target           43 vac 46
+                     17 .|. 20
+    query            59 ta] 62
+
+-- fused_13 --
+  OCR:      'edictusdommisecrioias evovae a'
+  Assigned: 'euouae Benedictus dominus in eternum ~Misericordias euouae'
+  Words:    [76..83) consumed=7
+  NW score: k=7 (pre-snap), norm=1.3425
+  Anchor:   word 83 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ----------edictus-dom--------------m---isecri-o--ias evovae 
+                      0 ----------|||||||-|||--------------|---|||-||-|--|||
+    query             0 euouae Benedictus dominus in eternum ~Mise-ricordias euouae-
+    
+    target           29 a 30
+                     52 - 53
+    query            58 - 58
+
+-- fused_14 --
+  OCR:      'antate domino et benedicite nomini ejuscantate eo et orome'
+  Assigned: 'Cantate domino et benedicite nomini eius ~Cantate i'
+  Words:    [83..91) consumed=8
+  NW score: k=9 (pre-snap), norm=5.5862
+  Anchor:   word 91 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 -antate domino et benedicite nomini ejus--cantate eo et orom
+                      0 -||||||
+    query             0 Cantate domino et benedicite nomini eius ~Cantate ----------
+    
+    target           57 e 58
+                      7 .  8
+    query            50 i 51
+
+-- fused_15 --
+  OCR:      'miare mito in nece orae'
+  Assigned: 'euouae Confitebor tibi domine deus in'
+  Words:    [91..97) consumed=6
+  NW score: k=5 (pre-snap), norm=-1.0013
+  Anchor:   word 97 (page_break_77), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 --miare ---mit--o- -i-n ----ne-ce-- orae 23
+                      0 --..|-|  7
+    query             0 euoua-e Confitebor tibi domine deus --in 37
+=== END DEBUG ===
+

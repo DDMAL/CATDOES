@@ -1,0 +1,271 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'Ha de moibus Ulpis salbai usi ad lir or ompisisSempiteue Devide fic comens de apostolis et de pace ad l Juledonne bndicto Noctem cume Le fratris Sobrii . le fininta secutur V. advitorium  '
+  [fused_1] 'dto Pateru seii ofeslio p domit comitenos rx et aute mantuam a nobis v Deo maduito'
+  [fused_2] 'rumm meum intende domine ad annatidum me '
+  [fused_3] 'Ci.'
+  [fused_4] 'iserere michi domine It erandi orationem meam'
+  [fused_5] 'usqt Redemisti mid'
+  [fused_6] 'Cohanitat P. ecclesient Yminis'
+  [fused_7] 'Telucis ante termnnu recum da'
+  [fused_8] 'non manus tuas domine comendo spiritur'
+  [fused_9] 'meum  Nedemisti nos domine Deus veritatis comen Bloria'
+  [fused_10] 'G. Custodinos domine an Po'
+  [fused_11] 'sub umbra alarum et poter nos ad ue dimum a'
+  [fused_12] 'patri et filio et spiritui Sancto In manus'
+  [fused_13] 'alva nos domne vigilantes custodi nos dorimentes ut ningile'
+  [fused_14] ''
+  [fused_15] 'mus in Christisto et recimescamus in pacere evovac'
+  [fused_16] 'orvisito quosd etortoite opletorium suotus p totu'
+  [fused_17] '  ohis Bap aplorum pet e pani aimpi'
+  [fused_18] 'Rynes s nc diminctis . sequi ord visita quis et in eode ordois rater a'
+  [fused_19] 'adpents di Kyriel ameps anseremi . Iu feri alibus vero diebis dioesisuida ver'
+  [fused_20] 'finito et Cleria pariteris dieesi stiusicii Domine Diltutum etcoro supr bendicams'
+  [fused_21] 'bndicat et custodiat ompti parter et filius et R.am super venite dicats'
+  [fused_22] 'en tante muscomino ibacimo des San'
+  [fused_23] ' non sicog Prroipenno Preo cupemus'
+  [fused_24] 'faciem donum  cm pla memonie pmus 17'
+  [fused_25] '  .ananesi cominu '
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'Ha de moibus Ulpis salbai usi ad lir or ompisisSempiteue Devide fic comens de apostolis et de pace ad l Juledonne bndicto Noctem cume Le fratris Sobrii . le fininta secutur V. advitorium'
+  Assigned: 'Miserere michi domine et exaudi orationem meam ~Cum invocarem In te domine speravi Redemisti me domine Qui habitat Ecce nunc In manus tuas domine comendo spiritum meum Redemisti nos domine deus veritatis Comendo Gloria patri et filio et spiritui sancto'
+  Words:    [0..40) consumed=40
+  NW score: k=40 (pre-snap), norm=-0.8314
+  Anchor:   word 26 (within_chant_7), diff=14, snapped=False, forced=False
+  Alignment:
+    target            0 ---Ha de moibus Ulpi-s -salbai usi ad lir or ompisisSempite-
+                      0 ---....|
+    query             0 Miserere m-ichi domine et exa--u----d--i- or----ationem- mea
+    
+    target           54 ----ue Dev--ide- --fic com--ens------ --de apostolis -et d--
+                      8 ----|.
+    query            45 m ~Cum invocarem In te domine speravi Rede--mist--i- me- dom
+    
+    target           92 --e --------pa----ce ---------ad l Ju-ledo-nne ---bndicto --
+                     14 --|
+    query            99 ine Qui habitat Ecce nunc In manus tuas domine comend---o sp
+    
+    target          122 Noctem -cum--------------------e Le-- -fr--atris So--------b
+                     17 ...|.|
+    query           156 iritum meum Redemisti nos domine deus veritat-is Comendo Glo
+    
+    target          148 rii ----. le- fini--nta s-ecutur V. advitorium 186
+                     23 ||.  26
+    query           215 ria patri -et filio et- spiritui --sa-ncto---- 252
+
+-- fused_1 --
+  OCR:      'dto Pateru seii ofeslio p domit comitenos rx et aute mantuam a nobis v Deo maduito'
+  Assigned: 'In manus Salva nos domine vigilantes custodi nos dormientes ut vigilemus in xpisto et requiescamus'
+  Words:    [40..55) consumed=15
+  NW score: k=15 (pre-snap), norm=-0.5912
+  Anchor:   word 42 (within_chant_7), diff=13, snapped=False, forced=False
+  Alignment:
+    target            0 dto Pateru seii ofeslio --p domi----------t-- c---omitenos -
+                      0 -..
+    query             0 -In ma--nu-s--- --Salva nos domine vigilantes custodi- nos d
+    
+    target           42 -rx e-t-- aute mantuam a -n-obis v Deo madui-----to 82
+                      3 -|..|-|-- 12
+    query            50 ormientes -ut- vigilemus in xpisto -et requiescamus 98
+
+-- fused_2 --
+  OCR:      'rumm meum intende domine ad annatidum me'
+  Assigned: 'in pace euouae Venite exultemus domino iubilemus deo'
+  Words:    [55..63) consumed=8
+  NW score: k=8 (pre-snap), norm=-0.7455
+  Anchor:   word 58 (within_chant_7), diff=5, snapped=False, forced=False
+  Alignment:
+    target            0 ---rumm meu---m -in-te----nde--- domine ad annatidu----m-- m
+                      0 ---....
+    query             0 in pace -euouae Venite exultemus domino --------i-ubilemus d
+    
+    target           39 e- 40
+                      7 |-  9
+    query            50 eo 52
+
+-- fused_3 --
+  OCR:      'Ci.'
+  Assigned: 'salutari'
+  Words:    [63..64) consumed=1
+  NW score: k=1 (pre-snap), norm=-5.3072
+  Anchor:   word 64 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ------Ci. 3
+                      0 ------.|- 9
+    query             0 salutari- 8
+
+-- fused_4 --
+  OCR:      'iserere michi domine It erandi orationem meam'
+  Assigned: 'nostro ~Preocupemus Preocupemus faciem domini et in psalmis iubilemus ei'
+  Words:    [64..74) consumed=10
+  NW score: k=10 (pre-snap), norm=-0.6676
+  Anchor:   word 67 (within_chant_7), diff=7, snapped=False, forced=False
+  Alignment:
+    target            0 -iser----------e-----re-------- michi-- domine It--- erandi-
+                      0 -.|.|----------|-----||--------
+    query             0 nostro ~Preocupemus Preocupemus fac-iem domini et in psalmis
+    
+    target           30  orationem-- meam 45
+                     31  31
+    query            59  -iubi-lemus -e-i 72
+
+-- fused_5 --
+  OCR:      'usqt Redemisti mid'
+  Assigned: '~Venite'
+  Words:    [74..75) consumed=1
+  NW score: k=3 (pre-snap), norm=-2.1609
+  Anchor:   word 75 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 usqt Redemisti mid 18
+                      0 ------..|.|-|----. 18
+    query             0 ------~Veni-t----e  7
+
+-- fused_6 --
+  OCR:      'Cohanitat P. ecclesient Yminis'
+  Assigned: 'Quoniam deus magnus dominus et'
+  Words:    [75..80) consumed=5
+  NW score: k=4 (pre-snap), norm=-0.4216
+  Anchor:   word 80 (page_break_77), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 -Cohanitat P. eccles--ien-t -Yminis--- 30
+                      0 -.|--||-|. 10
+    query             0 Quo--ni-am --de---us magnus dominus et 30
+
+-- fused_7 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [80..80) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_8 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [80..80) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_9 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [80..80) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_10 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [80..80) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_11 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [80..80) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_12 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [80..80) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_13 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [80..80) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_14 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [80..80) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_15 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [80..80) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_16 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [80..80) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_17 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [80..80) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_18 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [80..80) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_19 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [80..80) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_20 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [80..80) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_21 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [80..80) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_22 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [80..80) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_23 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [80..80) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_24 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [80..80) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_25 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [80..80) consumed=0
+  Alignment:
+    (no words left)
+=== END DEBUG ===
+

@@ -1,0 +1,167 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'ms e En scs que cogitant in nos quomodo poterimus'
+  [fused_1] 'subsistere ante faciem illorum nisi tu advives'
+  [fused_2] 'n on dinis va est poten cia tuumi reg num do'
+  [fused_3] 'mi ne tum es super omnesgeno'
+  [fused_4] 'muneindi ebusnostris or om de'
+  [fused_5] 'no tembilis et velu neo iitus mensericors.'
+  [fused_6] 'Reful sit sol in dipeos au reos et resplenduerunt mo'
+  [fused_7] 'tes ab  fortitudo genci um dissipa'
+  [fused_8] 'ta num exertitus magnus valde et for'
+  [fused_9] 'tis et appropiavit indas et exercitus ejus in pre'
+  [fused_10] 'o. et fortitudo   Symoni fratri s'
+  [fused_11] 'tos fuate viera frates mos in ga ie an'
+  [fused_12] 'eoo antem et jonahas fraterme modbinns in gala oi'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'ms e En scs que cogitant in nos quomodo poterimus'
+  Assigned: 'Tu scis que cogitant in nos quomodo poterimus'
+  Words:    [0..8) consumed=8
+  NW score: k=8 (pre-snap), norm=6.3888
+  Anchor:   word 8 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ms e En sc-s que cogitant in nos quomodo poterimus 49
+                      0 -----..  7
+    query             0 -----Tu scis que cogitant in nos quomodo poterimus 45
+
+-- fused_1 --
+  OCR:      'subsistere ante faciem illorum nisi tu advives'
+  Assigned: 'subsistere ante faciem illorum nisi tu adiuves'
+  Words:    [8..15) consumed=7
+  NW score: k=7 (pre-snap), norm=7.5217
+  Anchor:   word 15 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 subsistere ante faciem illorum nisi tu advi-ves 46
+                      0 |||||||||| 10
+    query             0 subsistere ante faciem illorum nisi tu ad-iuves 46
+
+-- fused_2 --
+  OCR:      'n on dinis va est poten cia tuumi reg num do'
+  Assigned: 'nos Domine Tua est potencia tuum regnum do'
+  Words:    [15..23) consumed=8
+  NW score: k=8 (pre-snap), norm=4.2677
+  Anchor:   word 23 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 n on --dinis -va est poten cia tuumi reg num do---- 44
+                      0 |-|.  4
+    query             0 n-os Domin-e Tua est poten-cia tuum- reg-num domine 46
+
+-- fused_3 --
+  OCR:      'mi ne tum es super omnesgeno'
+  Assigned: 'mine tu es super omnes gentes Da pacem do'
+  Words:    [23..31) consumed=8
+  NW score: k=5 (pre-snap), norm=4.2048
+  Anchor:   word 31 (within_chant_7), diff=3, snapped=False, forced=True
+  Alignment:
+    target            0 mi ne tum es super omnes-gen--------------o---- 28
+                      0 ------||-  9
+    query             0 ------tu- es super omnes gentes Da pacem domine 40
+
+-- fused_4 --
+  OCR:      'muneindi ebusnostris or om de'
+  Assigned: 'mine in diebus nostris Creator omnium de'
+  Words:    [31..37) consumed=6
+  NW score: k=6 (pre-snap), norm=3.3581
+  Anchor:   word 37 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 munein-di ebus-nostris -----or o----m de-- 29
+                      0 ----||-||-||||-||||||| 22
+    query             0 ----in di-ebus nostris Creator omnium deus 37
+
+-- fused_5 --
+  OCR:      'no tembilis et velu neo iitus mensericors.'
+  Assigned: 'us terribilis et fortis iustus et misericors'
+  Words:    [37..43) consumed=6
+  NW score: k=6 (pre-snap), norm=2.4339
+  Anchor:   word 43 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 no te--mbilis et velu neo---- i-itus--- mensericors. 42
+                      0 ---||--.||||| 13
+    query             0 ---terribilis et ------fortis iustus et m-isericors- 41
+
+-- fused_6 --
+  OCR:      'Reful sit sol in dipeos au reos et resplenduerunt mo'
+  Assigned: '{Da pacem} Refulsit sol in clipeos aureos et resplenduerunt montes'
+  Words:    [43..53) consumed=10
+  NW score: k=10 (pre-snap), norm=5.3428
+  Anchor:   word 53 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -----------Reful sit sol in -dipeos au reos et resplenduerun
+                      0 -----------|||||-|||
+    query             0 {Da pacem} Reful-sit sol in clipeos au-reos et resplenduerun
+    
+    target           48 t mo---- 52
+                     20 | 21
+    query            58 t montes 66
+
+-- fused_7 --
+  OCR:      'tes ab  fortitudo genci um dissipa'
+  Assigned: 'ab eis Et fortitudo gencium dissipata est'
+  Words:    [53..60) consumed=7
+  NW score: k=6 (pre-snap), norm=4.9904
+  Anchor:   word 60 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 tes ab ------ fortitudo genci um dissipa------ 34
+                      0 ----||  6
+    query             0 ----ab eis Et fortitudo genci-um dissipata est 41
+
+-- fused_8 --
+  OCR:      'ta num exertitus magnus valde et for'
+  Assigned: 'Erat enim exercitus magnus valde et for'
+  Words:    [60..67) consumed=7
+  NW score: k=7 (pre-snap), norm=5.5292
+  Anchor:   word 67 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -ta- -num exertitus magnus valde et for--- 36
+                      0 -.|-  4
+    query             0 Erat enim exercitus magnus valde et fortis 42
+
+-- fused_9 --
+  OCR:      'tis et appropiavit indas et exercitus ejus in pre'
+  Assigned: 'tis et appropiavit iudas et exercitus eius in pre'
+  Words:    [67..75) consumed=8
+  NW score: k=8 (pre-snap), norm=6.2890
+  Anchor:   word 75 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 tis et appropiavit indas et exercitus ejus in pre--- 49
+                      0 ----||  6
+    query             0 ----et appropiavit iudas et exercitus eius in prelio 48
+
+-- fused_10 --
+  OCR:      'o. et fortitudo   Symoni fratri s'
+  Assigned: 'lio Et fortitudo Dixit iudas symoni fratri suo'
+  Words:    [75..82) consumed=7
+  NW score: k=7 (pre-snap), norm=4.1097
+  Anchor:   word 82 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 o. et fortitudo ----- ----- Symoni fratri s-- 33
+                      0 ---.|  5
+    query             0 ---Et fortitudo Dixit iudas symoni fratri suo 42
+
+-- fused_11 --
+  OCR:      'tos fuate viera frates mos in ga ie an'
+  Assigned: 'elige tibi viros et vade libera fratres tuos in galileam'
+  Words:    [82..92) consumed=10
+  NW score: k=10 (pre-snap), norm=2.4496
+  Anchor:   word 92 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ------t-------os --fuate vi-era frat-es -mos in ga i-e an 38
+                      0 ------|-------|| 16
+    query             0 elige tibi viros et vade libera fratres tuos in galile-am 56
+
+-- fused_12 --
+  OCR:      'eoo antem et jonahas fraterme modbinns in gala oi'
+  Assigned: 'ego autem et ionathas frater meus ibimus in galadithim'
+  Words:    [92..101) consumed=9
+  NW score: k=9 (pre-snap), norm=4.2963
+  Anchor:   word 101 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 eoo antem et jona-has frater-me-- modbinns in gala-- oi- 49
+                      0 |.|  3
+    query             0 ego autem et ionathas frater meus --ibimus in galadithim 54
+=== END DEBUG ===
+

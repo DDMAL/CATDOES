@@ -1,0 +1,163 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'cce ego mtto nos sicut o ves in medio'
+  [fused_1] 'inpo rum dicit dominus . Esto'
+  [fused_2] 'teergo prudentes sicut serpen tes et simplices si'
+  [fused_3] 'cu co lumeum luem habei'
+  [fused_4] 'credite in Lu Lucis si  stone'
+  [fused_5] 'ollice jugum meum su per nos di ec domi'
+  [fused_6] 'nono et Vali quia muttis sum et humiliscor'
+  [fused_7] 'cee jugum eium meum sua ve est et homis'
+  [fused_8] 'me m netinvenie tisrequi'
+  [fused_9] 'em ammabus ne stris.  dum'
+  [fused_10] 'steteritis ante reges et presi des nolite cogita Reano'
+  [fused_11] 'modo aut qis loquamim . dabitur enim no bis'
+  [fused_12] 'in ila vo in aio Lomann  2'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'cce ego mtto nos sicut o ves in medio'
+  Assigned: '{Eructavit} euouae Ecce ego mitto vos sicut oves in medio'
+  Words:    [0..10) consumed=10
+  NW score: k=10 (pre-snap), norm=4.2897
+  Anchor:   word 10 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 --------------------cce ego m-tto nos sicut o ves in medio 37
+                      0 --------------------||| 23
+    query             0 {Eructavit} euouae Ecce ego mitto vos sicut o-ves in medio 57
+
+-- fused_1 --
+  OCR:      'inpo rum dicit dominus . Esto'
+  Assigned: 'luporum dicit domi'
+  Words:    [10..13) consumed=3
+  NW score: k=4 (pre-snap), norm=5.4394
+  Anchor:   word 13 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 inpo rum dicit dominus . Esto 29
+                      0 ..||-|||  8
+    query             0 lupo-rum dicit dominus------- 21
+
+-- fused_2 --
+  OCR:      'teergo prudentes sicut serpen tes et simplices si'
+  Assigned: 'nus Estote ergo prudentes sicut serpentes et simplices'
+  Words:    [13..20) consumed=7
+  NW score: k=8 (pre-snap), norm=6.5097
+  Anchor:   word 20 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 ----te-ergo prudentes sicut serpen tes et simplices si 49
+                      0 ----||-|||| 11
+    query             0 Estote ergo prudentes sicut serpen-tes et simplices--- 50
+
+-- fused_3 --
+  OCR:      'cu co lumeum luem habei'
+  Assigned: 'sicut columbe Dum lucem habetis'
+  Words:    [20..25) consumed=5
+  NW score: k=5 (pre-snap), norm=4.2693
+  Anchor:   word 25 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 --cu- co lum-e--um lu-em habe-i- 23
+                      0 --||-  5
+    query             0 sicut co-lumbe Dum lucem habetis 31
+
+-- fused_4 --
+  OCR:      'credite in Lu Lucis si  stone'
+  Assigned: 'credite in lucem ut filii lucis sitis'
+  Words:    [25..32) consumed=7
+  NW score: k=8 (pre-snap), norm=3.5553
+  Anchor:   word 32 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 credite in Lu------------ Lucis si  stone 29
+                      0 |||||||  7
+    query             0 credite in lucem ut filii lucis sitis---- 37
+
+-- fused_5 --
+  OCR:      'ollice jugum meum su per nos di ec domi'
+  Assigned: 'Estote Tollite iugum meum super vos dicit dominus'
+  Words:    [32..40) consumed=8
+  NW score: k=8 (pre-snap), norm=4.1405
+  Anchor:   word 40 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 --------ollice jugum meum su per nos di ec-- domi--- 39
+                      0 --------||||.| 14
+    query             0 Estote Tollite iugum meum su-per vos di--cit dominus 49
+
+-- fused_6 --
+  OCR:      'nono et Vali quia muttis sum et humiliscor'
+  Assigned: 'et dicite quia mittis sum et humilis cor'
+  Words:    [40..48) consumed=8
+  NW score: k=8 (pre-snap), norm=4.7143
+  Anchor:   word 48 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 nono et Vali-- quia muttis sum et humilis-cor-- 42
+                      0 -----||  7
+    query             0 -----et dicite quia mittis sum et humilis corde 42
+
+-- fused_7 --
+  OCR:      'cee jugum eium meum sua ve est et homis'
+  Assigned: 'de Iugum enim meum suave est et honus'
+  Words:    [48..55) consumed=7
+  NW score: k=7 (pre-snap), norm=5.1628
+  Anchor:   word 55 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 cee jugum e-ium meum sua ve est et homis 39
+                      0 ----.||||  9
+    query             0 ----Iugum eni-m meum sua-ve est et honus 34
+
+-- fused_8 --
+  OCR:      'me m netinvenie tisrequi'
+  Assigned: 'meum leve Et invenietis requiem'
+  Words:    [55..60) consumed=5
+  NW score: k=5 (pre-snap), norm=4.0695
+  Anchor:   word 60 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 me m ne----t-invenie tis-requi-- 24
+                      0 ||.|  4
+    query             0 meum leve Et invenie-tis requiem 31
+
+-- fused_9 --
+  OCR:      'em ammabus ne stris.  dum'
+  Assigned: 'animabus vestris Iugum Dum'
+  Words:    [60..64) consumed=4
+  NW score: k=3 (pre-snap), norm=2.8569
+  Anchor:   word 64 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 em a-mmabus ne stris. ----- dum 25
+                      0 ---|-.||||| 11
+    query             0 ---animabus ve-stris- Iugum Dum 26
+
+-- fused_10 --
+  OCR:      'steteritis ante reges et presi des nolite cogita Reano'
+  Assigned: 'steteritis ante reges et presides nolite cogitare quo'
+  Words:    [64..72) consumed=8
+  NW score: k=7 (pre-snap), norm=6.8430
+  Anchor:   word 72 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 steteritis ante reges et presi des nolite cogita-- --Reano 54
+                      0 |||||||||| 10
+    query             0 steteritis ante reges et presi-des nolite cogitare quomodo 57
+
+-- fused_11 --
+  OCR:      'modo aut qis loquamim . dabitur enim no bis'
+  Assigned: 'modo aut quid loquamini Dabitur enim'
+  Words:    [72..77) consumed=5
+  NW score: k=6 (pre-snap), norm=4.5879
+  Anchor:   word 77 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 modo aut q-is loquamim . dabitur enim no bis 43
+                      0 -----|||  8
+    query             0 -----aut quid loquami-ni Dabitur enim------- 31
+
+-- fused_12 --
+  OCR:      'in ila vo in aio Lomann  2'
+  Assigned: 'vobis in illa hora quid loquamini Non'
+  Words:    [77..84) consumed=7
+  NW score: k=7 (pre-snap), norm=0.2257
+  Anchor:   word 84 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ------in i-la vo-- --in aio Lomann - 2 26
+                      0 ------||  8
+    query             0 vobis in illa hora quid -loquamini Non 37
+=== END DEBUG ===
+

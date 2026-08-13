@@ -1,0 +1,167 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'Non imperpe audabilis po pulus . Quem domi'
+  [fused_1] 'nus exercitu um benedixit dicens opus manuum men'
+  [fused_2] 'arum tu es hereditas me  isra hel q eata gen'
+  [fused_3] 'cuius dominus deus populus electus in hae redita'
+  [fused_4] 'tem . Quem do  edenit dominus Popu lum'
+  [fused_5] 'vm et liBeravit um et venient et exultabunt'
+  [fused_6] 'in Montem sy on et gaudebunt de bonis domini super fru'
+  [fused_7] 'mento unio Et. tra non esuri'
+  [fused_8] 'ent Xritqu anmaequasi ortus rri'
+  [fused_9] 'gu us stie michi sunt undic et'
+  [fused_10] 'quid eligam ig no ro Melius est enum michi incide'
+  [fused_11] 'iimanus ho num. Anam dereliugnete'
+  [fused_12] 'legem de me ienin no egco moromi'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'Non imperpe audabilis po pulus . Quem domi'
+  Assigned: 'Non in perpetuum Laudabilis populus Quem'
+  Words:    [0..6) consumed=6
+  NW score: k=7 (pre-snap), norm=5.3230
+  Anchor:   word 6 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 Non i-mperpe---- -audabilis po pulus . Quem domi 42
+                      0 |||  3
+    query             0 Non in perpetuum Laudabilis po-pulus-- Quem----- 40
+
+-- fused_1 --
+  OCR:      'nus exercitu um benedixit dicens opus manuum men'
+  Assigned: 'dominus exercituum benedixit dicens opus ma'
+  Words:    [6..12) consumed=6
+  NW score: k=7 (pre-snap), norm=6.4229
+  Anchor:   word 12 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 ----nus exercitu um benedixit dicens opus manuum men 48
+                      0 ----|||  7
+    query             0 dominus exercitu-um benedixit dicens opus manuum---- 47
+
+-- fused_2 --
+  OCR:      'arum tu es hereditas me  isra hel q eata gen'
+  Assigned: 'nuum mearum tu es hereditas mea israhel Beata gens'
+  Words:    [12..20) consumed=8
+  NW score: k=8 (pre-snap), norm=6.2701
+  Anchor:   word 20 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 --arum tu es hereditas me  isra hel q eata gen- 44
+                      0 --||||  6
+    query             0 mearum tu es hereditas mea isra-hel -Beata gens 45
+
+-- fused_3 --
+  OCR:      'cuius dominus deus populus electus in hae redita'
+  Assigned: 'cuius dominus deus populus electus in hereditatem'
+  Words:    [20..27) consumed=7
+  NW score: k=7 (pre-snap), norm=7.0313
+  Anchor:   word 27 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 cuius dominus deus populus electus in hae redita--- 48
+                      0 |||||  5
+    query             0 cuius dominus deus populus electus in h-e-reditatem 49
+
+-- fused_4 --
+  OCR:      'tem . Quem do  edenit dominus Popu lum'
+  Assigned: 'Quem dominus Redemit dominus populum'
+  Words:    [27..32) consumed=5
+  NW score: k=5 (pre-snap), norm=4.3529
+  Anchor:   word 32 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 tem . Quem do-----  edenit dominus Popu lum 38
+                      0 ------|||| 10
+    query             0 ------Quem dominus Redemit dominus popu-lum 36
+
+-- fused_5 --
+  OCR:      'vm et liBeravit um et venient et exultabunt'
+  Assigned: 'suum et liberavit eum et venient et exultabunt'
+  Words:    [32..40) consumed=8
+  NW score: k=8 (pre-snap), norm=6.7679
+  Anchor:   word 40 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 --vm et liBeravit -um et venient et exultabunt 43
+                      0 --.|  4
+    query             0 suum et liberavit eum et venient et exultabunt 46
+
+-- fused_6 --
+  OCR:      'in Montem sy on et gaudebunt de bonis domini super fru'
+  Assigned: 'in montem syon et gaudebunt de bonis domini super fru'
+  Words:    [40..50) consumed=10
+  NW score: k=9 (pre-snap), norm=6.9208
+  Anchor:   word 50 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 in Montem sy on et gaudebunt de bonis domini super fru-----
+                      0 ||
+    query             0 in montem sy-on et gaudebunt de bonis domini super frumento
+    
+    target           54
+                      2
+    query            58
+
+-- fused_7 --
+  OCR:      'mento unio Et. tra non esuri'
+  Assigned: 'mento vino et oleo Et ultra non'
+  Words:    [50..56) consumed=6
+  NW score: k=7 (pre-snap), norm=3.0141
+  Anchor:   word 56 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 men---to unio Et. --tra non esuri 28
+                      0 ..|---|-  8
+    query             0 vino et- oleo Et- ultra non------ 25
+
+-- fused_8 --
+  OCR:      'ent Xritqu anmaequasi ortus rri'
+  Assigned: 'esurient Eritque anima eorum quasi ortus irriguus'
+  Words:    [56..63) consumed=7
+  NW score: k=7 (pre-snap), norm=3.9257
+  Anchor:   word 63 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -----ent Xritqu- an-ma-e-----quasi ortus -rri---- 31
+                      0 -----|||  8
+    query             0 esurient Eritque anima eorum quasi ortus irriguus 49
+
+-- fused_9 --
+  OCR:      'gu us stie michi sunt undic et'
+  Assigned: 'Et ultra Angustie michi sunt undique et'
+  Words:    [63..70) consumed=7
+  NW score: k=7 (pre-snap), norm=4.3561
+  Anchor:   word 70 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 gu u---s ----stie michi sunt undi--c et 30
+                      0 ..  2
+    query             0 Et ultra Angustie michi sunt undique et 39
+
+-- fused_10 --
+  OCR:      'quid eligam ig no ro Melius est enum michi incide'
+  Assigned: 'quid eligam ignoro Melius est enim michi'
+  Words:    [70..77) consumed=7
+  NW score: k=8 (pre-snap), norm=7.2724
+  Anchor:   word 77 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 quid eligam ig no ro Melius est enum michi incide 49
+                      0 ||||  4
+    query             0 quid eligam ig-no-ro Melius est enim michi------- 40
+
+-- fused_11 --
+  OCR:      'iimanus ho num. Anam dereliugnete'
+  Assigned: 'incide in manus hominum quam'
+  Words:    [77..82) consumed=5
+  NW score: k=6 (pre-snap), norm=3.3167
+  Anchor:   word 82 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 i------i--manus ho- num. Anam dereliugnete 33
+                      0 |------|--||||| 15
+    query             0 incide in manus hominum- quam------------- 28
+
+-- fused_12 --
+  OCR:      'legem de me ienin no egco moromi'
+  Assigned: 'derelinquere legem'
+  Words:    [82..84) consumed=2
+  NW score: k=10 (pre-snap), norm=2.3598
+  Anchor:   word 84 (within_chant_7), diff=8, snapped=False, forced=True
+  Alignment:
+    target            0 legem de me ienin no -egco moromi 32
+                      0 ------||-.|.|-|..... 20
+    query             0 ------de-reli-nquere leg------em- 18
+=== END DEBUG ===
+

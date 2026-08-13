@@ -1,0 +1,215 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'stellam in di mus . et veni mius adorare domi'
+  [fused_1] 'mni . vidimus * stellani eius in'
+  [fused_2] 'nen te Et veni. enite adoremus eum qua ipse Postos dominos versus presireitantur hec a'
+  [fused_3] 'venite adoremus si cum veninus ad loo'
+  [fused_4] 'dominus deus noster Usi presi e a seper alters cipiendo ipsum evovae cantat et sempremcipiat a predicto choro prprum predete aute alter chorm hanc eandem'
+  [fused_5] 'su ad gloria pates et ficute'
+  [fused_6] 'ratetiter magis altuis'
+  [fused_7] '.tane dorate dominum Alleluya in aula Sanc'
+  [fused_8] 'ta eius alleluya tedorate de all'
+  [fused_9] 'V adorate dumn alla cato muya omnes Angeli ejus Dominus Regis erul evovac'
+  [fused_10] 'in aula sancta ejus . Le Sancti ei secundum'
+  [fused_11] 'Mathui Cumnatis cetilere in onil'
+  [fused_12] 'Sae paope leVim sit er satre essesi tel la quam viderant magi'
+  [fused_13] 'M onne antecedebat e os to nec nem nest'
+  [fused_14] 'ad locum erat videntes attren'
+  [fused_15] 'gavisi sunt gaudio Magno. t intrantes do'
+  [fused_16] 'mm invenerunt puetum cum matteo et pretten M'
+  [fused_17] 'tes atra verinte i . videntes de'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'stellam in di mus . et veni mius adorare domi'
+  Assigned: 'vidimus Et venimus adorare dominum'
+  Words:    [0..5) consumed=5
+  NW score: k=5 (pre-snap), norm=3.6559
+  Anchor:   word 10 (within_chant_7), diff=5, snapped=False, forced=False
+  Alignment:
+    target            0 stellam in di mus . et veni mius adorare domi--- 45
+                      0 -------.|--||-|||-- 19
+    query             0 -------vi--di-mus-- Et veni-m-us adorare dominum 34
+
+-- fused_1 --
+  OCR:      'mni . vidimus * stellani eius in'
+  Assigned: 'Vidimus stellam eius in o'
+  Words:    [5..10) consumed=5
+  NW score: k=4 (pre-snap), norm=4.3864
+  Anchor:   word 10 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 mni . vidimus * stellani eius in-------- 32
+                      0 ------.||||||-- 15
+    query             0 ------Vidimus-- stella-m eius in oriente 31
+
+-- fused_2 --
+  OCR:      'nen te Et veni. enite adoremus eum qua ipse Postos dominos versus presireitantur hec a'
+  Assigned: 'riente Et venimus Venite adoremus eum quia ipse est dominus deus noster'
+  Words:    [10..21) consumed=11
+  NW score: k=11 (pre-snap), norm=3.4911
+  Anchor:   word 18 (within_chant_7), diff=3, snapped=False, forced=False
+  Alignment:
+    target            0 nen te Et veni--. -enite adoremus eum qu-a ipse Postos domin
+                      0 -------||
+    query             0 -------Et venimus Venite adoremus eum quia ipse -est-- domin
+    
+    target           56 os versus presireitantur hec a 86
+                      9 .| 11
+    query            50 us de--us -nos-------ter------ 64
+
+-- fused_3 --
+  OCR:      'venite adoremus si cum veninus ad loo'
+  Assigned: '{Ipsum'
+  Words:    [21..22) consumed=1
+  NW score: k=8 (pre-snap), norm=-0.3515
+  Anchor:   word 22 (within_chant_7), diff=7, snapped=False, forced=True
+  Alignment:
+    target            0 venite adoremus si cum veninus ad loo 37
+                      0 -------------...|---||--------------- 37
+    query             0 -------------{Ips---um---------------  6
+
+-- fused_4 --
+  OCR:      'dominus deus noster Usi presi e a seper alters cipiendo ipsum evovae cantat et sempremcipiat a predicto choro prprum predete aute alter chorm hanc eandem'
+  Assigned: '[Venite]} euouae Adorate dominum alleluya in aula sancta eius alleluya ~Cantate i euouae Adorate deum alleluya omnes angeli'
+  Words:    [22..40) consumed=18
+  NW score: k=18 (pre-snap), norm=-0.9987
+  Anchor:   word 30 (within_chant_7), diff=10, snapped=False, forced=False
+  Alignment:
+    target            0 dominus deus noster Usi pre-si e a seper alters cipiendo ips
+                      0 -------..|---|-.||---..
+    query             0 -------[Ve---n-ite---]} --euouae ---Ador-a-te-- ------domi-n
+    
+    target           59 um ---evova-------e can-tat et sempremcipiat --a- predicto c
+                     23 ||
+    query            30 um alleluya in aula sancta- eius alle--luya- ~Cantate i--- e
+    
+    target          105 horo prpru-m --predete -aute alte---r chorm han-c eande-m 153
+                     25 .|-------|-.  37
+    query            83 uo-------uae Ador--ate deu-m alleluya --o-m---nes -angeli 123
+
+-- fused_5 --
+  OCR:      'su ad gloria pates et ficute'
+  Assigned: 'eius alleluya ~Dominus regnavit'
+  Words:    [40..44) consumed=4
+  NW score: k=6 (pre-snap), norm=-0.8638
+  Anchor:   word 44 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 -su- ad gloria ---pates -e-t ficute 28
+                      0 -.|-  4
+    query             0 eius allel-uya ~Dominus regnavi--t- 31
+
+-- fused_6 --
+  OCR:      'ratetiter magis altuis'
+  Assigned: 'exultet euouae Stella quam viderant magi'
+  Words:    [44..50) consumed=6
+  NW score: k=7 (pre-snap), norm=-0.9429
+  Anchor:   word 50 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 --ratet---------------------iter--- magis altuis 22
+                      0 --..|||---------------------|.||--- 35
+    query             0 exultet euouae Stella quam viderant magi-------- 40
+
+-- fused_7 --
+  OCR:      '.tane dorate dominum Alleluya in aula Sanc'
+  Assigned: 'in oriente antecedebat eos donec venirent'
+  Words:    [50..56) consumed=6
+  NW score: k=8 (pre-snap), norm=-0.8947
+  Anchor:   word 56 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 -------.t--an-e- dorat-e-- dominum Alleluya in aula Sanc 42
+                      0 -------.|--||-|-.|..||-|-- 26
+    query             0 in oriente antecedebat eos do--nec --ve------n-----irent 41
+
+-- fused_8 --
+  OCR:      'ta eius alleluya tedorate de all'
+  Assigned: 'ad locum ubi puer erat Videntes autem eam'
+  Words:    [56..64) consumed=8
+  NW score: k=7 (pre-snap), norm=-0.6103
+  Anchor:   word 64 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 ta- -eius alleluya tedorate --de---- a------ll 32
+                      0 -|-  3
+    query             0 -ad locum ubi puer -e--rat- Videntes autem eam 41
+
+-- fused_9 --
+  OCR:      'V adorate dumn alla cato muya omnes Angeli ejus Dominus Regis erul evovac'
+  Assigned: 'gavisi sunt gaudio magno Et intrantes domum invenerunt puerum cum'
+  Words:    [64..74) consumed=10
+  NW score: k=10 (pre-snap), norm=-0.9872
+  Anchor:   word 71 (within_chant_7), diff=3, snapped=False, forced=False
+  Alignment:
+    target            0 V adorate dumn alla ca--to muya- omnes Angeli ejus Dominus R
+                      0 -.|--....
+    query             0 -ga--visi su-n----t gaudio m--agno- Et intrante--s dom--um -
+    
+    target           57 egi--s eru-l --evovac-- 73
+                      9 --|--..|||-. 21
+    query            44 --invenerunt puerum cum 65
+
+-- fused_10 --
+  OCR:      'in aula sancta ejus . Le Sancti ei secundum'
+  Assigned: 'maria matre eius et prociden'
+  Words:    [74..79) consumed=5
+  NW score: k=7 (pre-snap), norm=0.0445
+  Anchor:   word 79 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 in aula sanct-a ejus . Le- Sancti ei secundum 43
+                      0 --.|..|  7
+    query             0 --maria ma--tre eius ---et proc-ide------ntes 31
+
+-- fused_11 --
+  OCR:      'Mathui Cumnatis cetilere in onil'
+  Assigned: 'tes adoraverunt eum Videntes Videntes'
+  Words:    [79..83) consumed=4
+  NW score: k=4 (pre-snap), norm=-1.4771
+  Anchor:   word 83 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ---Ma-thu-i Cum-----natis cetilere in onil 32
+                      0 ---.|-..|-. 11
+    query             0 adoraverunt eum Viden-tes --Vide----n--tes 33
+
+-- fused_12 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [83..83) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_13 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [83..83) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_14 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [83..83) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_15 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [83..83) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_16 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [83..83) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_17 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [83..83) consumed=0
+  Alignment:
+    (no words left)
+=== END DEBUG ===
+

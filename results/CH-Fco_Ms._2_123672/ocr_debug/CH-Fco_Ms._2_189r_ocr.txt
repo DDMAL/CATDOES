@@ -1,0 +1,163 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'Mn'
+  [fused_1] 'stiterunt justi ante cominum et abinvicem non suunt'
+  [fused_2] 'pberunt et Amici Dei ape'
+  [fused_3] 'oro . Qd ompendo post ea de Sancto B Johanne an ri in vitat regem'
+  [fused_4] 'nrmnd Yvins a et de com ni st Rome Johannis et Panli '
+  [fused_5] 'iati sunt exovac'
+  [fused_6] 'Snti sunt duo vi ri mise ricor diequ assistunt'
+  [fused_7] 'ante donu . Dominatorem'
+  [fused_8] ' due Olive et duo candela Bra'
+  [fused_9] 'Incentia aute do  num. Domina R Gidi co'
+  [fused_10] 'ctoso haben tes splendi das vestes et'
+  [fused_11] 'min loquutus est ad me dicens ssti sunt ju'
+  [fused_12] 'In sane ti facti a mici de notto Angelum for'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'Mn'
+  Assigned: 'euouae'
+  Words:    [0..1) consumed=1
+  NW score: k=1 (pre-snap), norm=-7.5056
+  Anchor:   word 10 (within_chant_7), diff=9, snapped=False, forced=False
+  Alignment:
+    target            0 ----Mn 2
+                      0 ----.. 6
+    query             0 euouae 6
+
+-- fused_1 --
+  OCR:      'stiterunt justi ante cominum et abinvicem non suunt'
+  Assigned: 'Astiterunt iusti ante dominum et ab invicem non sunt'
+  Words:    [1..10) consumed=9
+  NW score: k=9 (pre-snap), norm=6.8547
+  Anchor:   word 10 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -stiterunt justi ante cominum et ab-invicem non suunt 51
+                      0 -||||||||| 10
+    query             0 Astiterunt iusti ante dominum et ab invicem non s-unt 52
+
+-- fused_2 --
+  OCR:      'pberunt et Amici Dei ape'
+  Assigned: 'separati calicem domini biberunt et amici dei appel'
+  Words:    [10..18) consumed=8
+  NW score: k=8 (pre-snap), norm=1.5689
+  Anchor:   word 18 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 --p-----------------------berunt et Amici Dei a-pe----- 24
+                      0 --|-----------------------|||||| 32
+    query             0 separati calicem domini biberunt et amici dei appellati 55
+
+-- fused_3 --
+  OCR:      'oro . Qd ompendo post ea de Sancto B Johanne an ri in vitat regem'
+  Assigned: 'lati sunt euouae Isti sunt duo viri misericordie qui assistunt ante dominum Dominatorem'
+  Words:    [18..30) consumed=12
+  NW score: k=12 (pre-snap), norm=-1.0821
+  Anchor:   word 19 (within_chant_7), diff=11, snapped=False, forced=False
+  Alignment:
+    target            0 oro . Qd ompendo post- --ea d------e ---Sancto---- --B Joha-
+                      0 -....
+    query             0 -sunt -euouae--- -Isti sunt duo viri miseric-ordie qui ---as
+    
+    target           41 ----nne an-- ri in-- --vitat regem 65
+                      5 ----.|. 12
+    query            50 sistunt ante dominum Dominator--em 82
+
+-- fused_4 --
+  OCR:      'nrmnd Yvins a et de com ni st Rome Johannis et Panli'
+  Assigned: 'universe terre Isti sunt due olive et duo candelabra'
+  Words:    [30..39) consumed=9
+  NW score: k=9 (pre-snap), norm=-0.5769
+  Anchor:   word 39 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 nrmnd Yvins- a et de com ni s--t Rome Johanni-s et---- Pan--
+                      0 --.|--.|..|-
+    query             0 --un--iverse -te-rre --Isti sunt -due -o---live et duo cande
+    
+    target           50 l---i 52
+                     12 |---. 17
+    query            47 labra 52
+
+-- fused_5 --
+  OCR:      'iati sunt exovac'
+  Assigned: 'lucencia ante'
+  Words:    [39..41) consumed=2
+  NW score: k=2 (pre-snap), norm=-1.5254
+  Anchor:   word 45 (within_chant_7), diff=4, snapped=False, forced=False
+  Alignment:
+    target            0 ------iati sunt exovac 16
+                      0 ------||-- 10
+    query             0 lucencia-- -ant-e----- 13
+
+-- fused_6 --
+  OCR:      'Snti sunt duo vi ri mise ricor diequ assistunt'
+  Assigned: 'dominum ~Dominatorem Vidi con'
+  Words:    [41..45) consumed=4
+  NW score: k=4 (pre-snap), norm=-1.2041
+  Anchor:   word 45 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 Snti sunt duo vi ri mise ricor-- --diequ assistun-t-- 46
+                      0 ...|---|---|---. 16
+    query             0 domi---n---u---m ~Domi---natorem Vidi--- coni--unctos 36
+
+-- fused_7 --
+  OCR:      'ante donu . Dominatorem'
+  Assigned: 'iunctos viros habentes splendidas vestes et'
+  Words:    [45..50) consumed=5
+  NW score: k=4 (pre-snap), norm=-1.7693
+  Anchor:   word 50 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 -------a--nte- --donu . Domina-----t-orem 23
+                      0 -------|--|||- 14
+    query             0 viros habentes splen------didas vestes et 35
+
+-- fused_8 --
+  OCR:      'due Olive et duo candela Bra'
+  Assigned: 'angelus domini loquutus est ad me dicens Isti sunt'
+  Words:    [50..59) consumed=9
+  NW score: k=5 (pre-snap), norm=-1.7942
+  Anchor:   word 59 (within_chant_7), diff=4, snapped=False, forced=True
+  Alignment:
+    target            0 ----due ------Ol----ive e-t -duo cand--ela ------Bra 28
+                      0 ----.|.  7
+    query             0 angelus domini loquutus est ad-- me dicens Isti sunt 50
+
+-- fused_9 --
+  OCR:      'Incentia aute do  num. Domina R Gidi co'
+  Assigned: 'viri sancti facti amici dei Vidi angelum fortem'
+  Words:    [59..67) consumed=8
+  NW score: k=6 (pre-snap), norm=-0.6511
+  Anchor:   word 67 (page_break_77), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 ------Incentia -aute do  num. Domina --R Gidi-------- co----
+                      0 ------.||--||-
+    query             0 viri sanc--ti- facti ----------amici dei Vidi angelum fortem
+    
+    target           39 
+                     14 
+    query            47 
+
+-- fused_10 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [67..67) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_11 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [67..67) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_12 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [67..67) consumed=0
+  Alignment:
+    (no words left)
+=== END DEBUG ===
+

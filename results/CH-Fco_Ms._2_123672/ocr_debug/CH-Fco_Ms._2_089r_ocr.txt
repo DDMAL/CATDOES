@@ -1,0 +1,199 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'mei.V me si franca deus aniniam me'
+  [fused_1] 'et de manu canis unncam meam ut narrem.'
+  [fused_2] 'm IIo  dt pronsiunt somelele'
+  [fused_3] 'cum impus et cum vi'
+  [fused_4] 'Johannem imet dicesat ile turebis omn'
+  [fused_5] 'pape pensate fratres linui. contristatus ingredi'
+  [fused_6] 'Bar doe'
+  [fused_7] 'sio ni biis . et ium faciebant quere bant am'
+  [fused_8] 'mam Gamici mei et proximi  adver'
+  [fused_9] 'sum me appropinquar runt et qui juxta me'
+  [fused_10] 'tont e ion ce te runt et num faeaver'
+  [fused_11] 'tas faciem tu am a pue .ono donnne pevom'
+  [fused_12] 'am tri bu citer exaudi menten de'
+  [fused_13] 'et literie an propter minicos mtos'
+  [fused_14] 'me Euomamd  mo dauit capiti me'
+  [fused_15] 'Notuus me is fontem lactina tum et plra'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'mei.V me si franca deus aniniam me'
+  Assigned: 'meis Erue a framea deus animam meam'
+  Words:    [0..7) consumed=7
+  NW score: k=7 (pre-snap), norm=3.7395
+  Anchor:   word 7 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 mei.V --me si franca deus aniniam me-- 34
+                      0 |||-.  5
+    query             0 mei-s Erue -a framea deus ani-mam meam 35
+
+-- fused_1 --
+  OCR:      'et de manu canis unncam meam ut narrem.'
+  Assigned: 'et de manu canis unicam meam Ut narrem'
+  Words:    [7..15) consumed=8
+  NW score: k=8 (pre-snap), norm=7.0396
+  Anchor:   word 15 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 et de manu canis unncam meam ut narrem. 39
+                      0 ||  2
+    query             0 et de manu canis unicam meam Ut narrem- 38
+
+-- fused_2 --
+  OCR:      'm IIo  dt pronsiunt somelele'
+  Assigned: 'Tota die contristatus ingredi'
+  Words:    [15..19) consumed=4
+  NW score: k=5 (pre-snap), norm=-1.4642
+  Anchor:   word 19 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 m IIo-  d-t pron-si-unt s---ome-le-le 28
+                      0 ---.|-.  7
+    query             0 ---Tota die -contristatus ingrediebar 33
+
+-- fused_3 --
+  OCR:      'cum impus et cum vi'
+  Assigned: 'ebar domine quoniam anima mea completa est illu'
+  Words:    [19..26) consumed=7
+  NW score: k=3 (pre-snap), norm=-1.2312
+  Anchor:   word 26 (within_chant_7), diff=4, snapped=False, forced=True
+  Alignment:
+    target            0 -------cu----m --impus -et cum--------- -------vi--- 19
+                      0 -------.|----| 14
+    query             0 domine quoniam anim--a mea completa est illusionibus 50
+
+-- fused_4 --
+  OCR:      'Johannem imet dicesat ile turebis omn'
+  Assigned: 'sionibus Et vim faciebant qui querebant ani'
+  Words:    [26..32) consumed=6
+  NW score: k=5 (pre-snap), norm=-0.3002
+  Anchor:   word 32 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 Johannem -imet dic-esa-t --ile tu-reb-is --om-n 37
+                      0 ------..  8
+    query             0 ------Et vim-- faciebant qui-- querebant animam 37
+
+-- fused_5 --
+  OCR:      'pape pensate fratres linui. contristatus ingredi'
+  Assigned: 'mam meam Amici mei et proximi mei adversum me approprinquaverunt et steterunt et qui'
+  Words:    [32..45) consumed=13
+  NW score: k=13 (pre-snap), norm=-1.6460
+  Anchor:   word 39 (within_chant_7), diff=6, snapped=False, forced=False
+  Alignment:
+    target            0 -pa-----pe pensate fr----------atre-s----- ------lin-ui. con
+                      0 -.|-----..
+    query             0 meam Amici mei et- proximi mei adversum me approprinquaverun
+    
+    target           31 t--ristat--us ingre---di 48
+                     10 |--..||.|--|---|..|---.| 34
+    query            59 t et steteru---nt et qui 80
+
+-- fused_6 --
+  OCR:      'Bar doe'
+  Assigned: 'iuxta me'
+  Words:    [45..47) consumed=2
+  NW score: k=2 (pre-snap), norm=-1.7372
+  Anchor:   word 47 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ---Bar doe 7
+                      0 ---.|- 6
+    query             0 iuxta- -me 8
+
+-- fused_7 --
+  OCR:      'sio ni biis . et ium faciebant quere bant am'
+  Assigned: 'erant a longe steterunt Et vim faciebant Ne aver'
+  Words:    [47..56) consumed=9
+  NW score: k=9 (pre-snap), norm=0.6544
+  Anchor:   word 56 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ----sio --n-i biis------ . et -ium faciebant quere ba--nt am
+                      0 ----...
+    query             0 erant a longe ---steterunt Et vi-m faciebant ---Ne -avert-as
+    
+    target           44 
+                      7 
+    query            51 
+
+-- fused_8 --
+  OCR:      'mam Gamici mei et proximi  adver'
+  Assigned: 'tas faciem tuam a puero tuo domine quoni'
+  Words:    [56..63) consumed=7
+  NW score: k=6 (pre-snap), norm=-0.8391
+  Anchor:   word 63 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 ma---m -Gamici -me-i et-- proximi-- ---- adver 32
+                      0 .|---|  6
+    query             0 faciem tuam- a puero -tuo -do--mine Quonia---m 38
+
+-- fused_9 --
+  OCR:      'sum me appropinquar runt et qui juxta me'
+  Assigned: 'am tribulor velociter exaudi me Intende'
+  Words:    [63..68) consumed=5
+  NW score: k=4 (pre-snap), norm=-1.3446
+  Anchor:   word 68 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 ---su--m me appropinquar runt et qu-i --juxta me 40
+                      0 ---.|--.  8
+    query             0 tribulor ve----loci----ter--- e-xaudi me Intende 36
+
+-- fused_10 --
+  OCR:      'tont e ion ce te runt et num faeaver'
+  Assigned: 'anime mee et libera eam propter inimicos meos eripe'
+  Words:    [68..77) consumed=9
+  NW score: k=6 (pre-snap), norm=-0.4789
+  Anchor:   word 77 (within_chant_7), diff=3, snapped=False, forced=True
+  Alignment:
+    target            0 tont e ion ce- ------te-- -runt et -num---- fae-aver--- 36
+                      0 -.|..|  6
+    query             0 -anime mee -et libera eam propt-er inimicos -meos eripe 51
+
+-- fused_11 --
+  OCR:      'tas faciem tu am a pue .ono donnne pevom'
+  Assigned: 'me Quoniam Quis dabit capiti meo aquam et oculis meis fontem'
+  Words:    [77..88) consumed=11
+  NW score: k=11 (pre-snap), norm=-1.1227
+  Anchor:   word 84 (within_chant_7), diff=4, snapped=False, forced=False
+  Alignment:
+    target            0 -------ta-----s fa----c----i--em -tu am -a -pu--e .ono donnn
+                      0 -------.|-----|
+    query             0 me Quoniam Quis dabit capiti meo aqu-am et oculis meis fon--
+    
+    target           33 e pevom 40
+                     15 --.|--| 22
+    query            57 --te--m 60
+
+-- fused_12 --
+  OCR:      'am tri bu citer exaudi menten de'
+  Assigned: 'lacrimarum et plorabo die'
+  Words:    [88..92) consumed=4
+  NW score: k=4 (pre-snap), norm=-1.4496
+  Anchor:   word 92 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -am tri- bu- citer --exaudi menten d-e 32
+                      0 -|--.||-..|- 12
+    query             0 la--crimarum ---et plora--------bo die 25
+
+-- fused_13 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [92..92) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_14 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [92..92) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_15 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [92..92) consumed=0
+  Alignment:
+    (no words left)
+=== END DEBUG ===
+

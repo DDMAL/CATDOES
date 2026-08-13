@@ -1,0 +1,199 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'de quo non nobis glori acio tibidat'
+  [fused_1] 'per hunc tua nos in vase proprio ferre da liquorem lam'
+  [fused_2] 'pade non vacua Lumen det opinio caritas ardorem frus'
+  [fused_3] 'virgo fatua glorians in alio  queret rem'
+  [fused_4] 'in Sanctorum viti et modesti sunt apud Siliciam or daectemme in Sanctor Mar'
+  [fused_5] 'tMarcelliami Romevia arratina or praas in Sanctorum Gerua'
+  [fused_6] 'Magnifi evovae  repthasii se ambius iisp oro de quos sanctorum. In Sancti Siieru e '
+  [fused_7] ' pse preibit ante illum inspiritu et virtute Helye parare'
+  [fused_8] 'domi non plebem perfectamiu ovae ohan'
+  [fused_9] 'nes est nomen ejus vinum et siceram non bibet et multi'
+  [fused_10] 'in Nativitate ejus gaudebunt onfitebor evovae a'
+  [fused_11] 'utero senectutis et sterili Johannes natus est precursor dommus'
+  [fused_12] 'te puer magnus coram do'
+  [fused_13] 'nimo nam et manus ejus cum ipso est p laudate pue'
+  [fused_14] 'mhateus vocalitur piet ide mnum et siceran'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'de quo non nobis glori acio tibidat'
+  Assigned: 'de quo non incongrua nobis gloriacio tibi dat'
+  Words:    [0..8) consumed=8
+  NW score: k=8 (pre-snap), norm=5.6443
+  Anchor:   word 48 (within_chant_7), diff=40, snapped=False, forced=False
+  Alignment:
+    target            0 de quo non---------- nobis glori acio tibi-dat 35
+                      0 ||  2
+    query             0 de quo non incongrua nobis glori-acio tibi dat 45
+
+-- fused_1 --
+  OCR:      'per hunc tua nos in vase proprio ferre da liquorem lam'
+  Assigned: 'honorem gracia per hunc tua nos in vase proprio ferre da liquorem lampade'
+  Words:    [8..21) consumed=13
+  NW score: k=13 (pre-snap), norm=5.8453
+  Anchor:   word 48 (within_chant_7), diff=27, snapped=False, forced=False
+  Alignment:
+    target            0 ---------------per hunc tua nos in vase proprio ferre da liq
+                      0 ---------------|||
+    query             0 honorem gracia per hunc tua nos in vase proprio ferre da liq
+    
+    target           45 uorem lam---- 54
+                     18 ||||| 23
+    query            60 uorem lampade 73
+
+-- fused_2 --
+  OCR:      'pade non vacua Lumen det opinio caritas ardorem frus'
+  Assigned: 'non vacua lumen det opinio caritas ardorem frustra'
+  Words:    [21..29) consumed=8
+  NW score: k=8 (pre-snap), norm=6.4914
+  Anchor:   word 48 (within_chant_7), diff=19, snapped=False, forced=False
+  Alignment:
+    target            0 pade non vacua Lumen det opinio caritas ardorem frus--- 52
+                      0 -----|||  8
+    query             0 -----non vacua lumen det opinio caritas ardorem frustra 50
+
+-- fused_3 --
+  OCR:      'virgo fatua glorians in alio  queret rem'
+  Assigned: 'virgo fatua glorians in alio queret'
+  Words:    [29..35) consumed=6
+  NW score: k=6 (pre-snap), norm=6.8686
+  Anchor:   word 48 (within_chant_7), diff=13, snapped=False, forced=False
+  Alignment:
+    target            0 virgo fatua glorians in alio  queret rem 40
+                      0 |||||  5
+    query             0 virgo fatua glorians in alio- queret---- 35
+
+-- fused_4 --
+  OCR:      'in Sanctorum viti et modesti sunt apud Siliciam or daectemme in Sanctor Mar'
+  Assigned: 'venditorem {Magnificat} euouae Ipse preibit ante illum in spiritu et virtute helye parare'
+  Words:    [35..48) consumed=13
+  NW score: k=13 (pre-snap), norm=-0.8690
+  Anchor:   word 48 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -in Sanctorum ----viti et- -mo-de---s------ti- sunt- -apud S
+                      0 -.|---..|||.|
+    query             0 ven---ditorem {Magnificat} euouae Ipse preibit -ante illum -
+    
+    target           40 i---liciam or -daectemme in Sanctor Mar- 75
+                     13 |---.|.|.. 23
+    query            55 in spiritu et virtute helye pa----r--are 89
+
+-- fused_5 --
+  OCR:      'tMarcelliami Romevia arratina or praas in Sanctorum Gerua'
+  Assigned: 'domino plebem perfectam ~Dixit dominus euouae Iohannes est nomen eius vinum et siceram'
+  Words:    [48..61) consumed=13
+  NW score: k=13 (pre-snap), norm=-1.5854
+  Anchor:   word 55 (within_chant_7), diff=6, snapped=False, forced=False
+  Alignment:
+    target            0 -------------tMarcelliam-----i- Rom-----e-via- arra-------ti
+                      0 -------------...|.|-..||-----|-
+    query             0 domino plebem perfe-ctam ~Dixit dominus euouae Iohannes est 
+    
+    target           27 na o--r praas -in Sanctorum -----Gerua- 57
+                     31 |--|--. 38
+    query            59 n--omen -eius vin--------um et sicer-am 86
+
+-- fused_6 --
+  OCR:      'Magnifi evovae  repthasii se ambius iisp oro de quos sanctorum. In Sancti Siieru e'
+  Assigned: 'non bibet et multi in nativitate eius gaudebunt ~Confitebor euouae Ex utero senectutis et sterili iohannes natus est'
+  Words:    [61..79) consumed=18
+  NW score: k=18 (pre-snap), norm=-1.0356
+  Anchor:   word 65 (within_chant_7), diff=14, snapped=False, forced=False
+  Alignment:
+    target            0 Magnifi evovae  rept-----hasi-i- se ambius --------------iis
+                      0 -..|..|.|--..|.
+    query             0 -non bibe--t et multi in nativitate --eius gaudebunt ~Confit
+    
+    target           39 p or---o de --qu---os san-ctoru-m. In Sanct----i Si----ie---
+                     15 ..||---|..|
+    query            55 ebor euouae Ex utero- senect--utis et ---sterili -iohannes n
+    
+    target           78 -ru- e--  82
+                     26 -.|-  30
+    query           108 atus est 116
+
+-- fused_7 --
+  OCR:      'pse preibit ante illum inspiritu et virtute Helye parare'
+  Assigned: 'precursor domi'
+  Words:    [79..81) consumed=2
+  NW score: k=7 (pre-snap), norm=-0.5578
+  Anchor:   word 81 (within_chant_7), diff=5, snapped=False, forced=True
+  Alignment:
+    target            0 pse preibit ante illum inspiritu et virtute Helye parare 56
+                      0 |.|..|-------... 16
+    query             0 precur-------sor --dom-in------------i------------------ 16
+
+-- fused_8 --
+  OCR:      'domi non plebem perfectamiu ovae ohan'
+  Assigned: 'ni ~Beatus vir euouae Iste puer magnus coram do'
+  Words:    [81..89) consumed=8
+  NW score: k=8 (pre-snap), norm=-1.1627
+  Anchor:   word 89 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ------domi- -no--n plebem p-erfectamiu- -ovae -ohan- 37
+                      0 ------...|- 11
+    query             0 ~Beatus vir euouae -Iste- puer-- magnus coram domino 48
+
+-- fused_9 --
+  OCR:      'nes est nomen ejus vinum et siceram non bibet et multi'
+  Assigned: 'mino nam et manus eius cum ipso est'
+  Words:    [89..96) consumed=7
+  NW score: k=8 (pre-snap), norm=0.3269
+  Anchor:   word 96 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 nes est nomen ejus vinum et siceram non bibet et multi 54
+                      0 |..  3
+    query             0 nam e-t --man---us ei-u-----s c--um -----ipso e----st- 30
+
+-- fused_10 --
+  OCR:      'in Nativitate ejus gaudebunt onfitebor evovae a'
+  Assigned: '{Laudate pueri} euouae Nazaraeus'
+  Words:    [96..100) consumed=4
+  NW score: k=4 (pre-snap), norm=-1.2893
+  Anchor:   word 106 (page_break_77), diff=6, snapped=False, forced=False
+  Alignment:
+    target            0 in Nativitate ejus gaudebunt onfitebor evovae -----a--- 47
+                      0 --..|---..||| 13
+    query             0 --{La---udate ------pu-e-------ri----} euouae Nazaraeus 32
+
+-- fused_11 --
+  OCR:      'utero senectutis et sterili Johannes natus est precursor dommus'
+  Assigned: 'vocabitur puer iste vinum et siceram'
+  Words:    [100..106) consumed=6
+  NW score: k=6 (pre-snap), norm=-1.2389
+  Anchor:   word 106 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 utero senec---tutis --et -sterili Johannes natus est precurs
+                      0 ---.|-----|---||--.
+    query             0 ---vo-----cabitu--r puer iste---- -------vin--um e-t -sicer-
+    
+    target           54 or dommus 63
+                     19 -----.|-- 28
+    query            34 -----am-- 36
+
+-- fused_12 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [106..106) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_13 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [106..106) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_14 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [106..106) consumed=0
+  Alignment:
+    (no words left)
+=== END DEBUG ===
+

@@ -1,0 +1,203 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'cibus saciavit dominus quinque milia hominum evovae'
+  [fused_1] 'aciavit dominus quinque milia hominum de Cinque panibus'
+  [fused_2] 'et duobus piscibus evovae ii ergo homines cum au'
+  [fused_3] 'quod fecerat ihesus signum intra se dicebant qva'
+  [fused_4] 'hic est vere prophetam qui venturus est in mundum evovae'
+  [fused_5] 'ubliter Ebgo in Montem Jhesus ta in secndui aoh mi discii'
+  [fused_6] 'Immo tempori prope erat'
+  [fused_7] 'is suis eova di dferte ista hinc milanee.'
+  [fused_8] 'nus et volite facere domum patris mei domum negociationis'
+  [fused_9] 'Cnne. olinte templum pe dicit dominus gepost'
+  [fused_10] 'triduum recdificabo illud hoc autem dicebat de Templo corporis'
+  [fused_11] 'oro depcatione fratra i secundum'
+  [fused_12] 'dem in ao ter am die Guild a'
+  [fused_13] 'sui exome deie nnoto e Lmnd me quentis inter'
+  [fused_14] 'a ce re Lommen quive ra No quitus sum'
+  [fused_15] 'no vis . de logitus sum tatimonum per'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'cibus saciavit dominus quinque milia hominum evovae'
+  Assigned: 'saciavit dominus quinque milia hominum euouae'
+  Words:    [0..6) consumed=6
+  NW score: k=6 (pre-snap), norm=6.5127
+  Anchor:   word 14 (within_chant_7), diff=8, snapped=False, forced=False
+  Alignment:
+    target            0 cibus saciavit dominus quinque milia hominum evovae 51
+                      0 ------|||||||| 14
+    query             0 ------saciavit dominus quinque milia hominum euouae 45
+
+-- fused_1 --
+  OCR:      'aciavit dominus quinque milia hominum de Cinque panibus'
+  Assigned: 'Saciavit dominus quinque milia hominum de quinque panibus'
+  Words:    [6..14) consumed=8
+  NW score: k=8 (pre-snap), norm=7.3762
+  Anchor:   word 14 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -aciavit dominus quinque milia hominum de -Cinque panibus 55
+                      0 -|||||||  8
+    query             0 Saciavit dominus quinque milia hominum de quinque panibus 57
+
+-- fused_2 --
+  OCR:      'et duobus piscibus evovae ii ergo homines cum au'
+  Assigned: 'et duobus piscibus euouae Illi ergo homines cum au'
+  Words:    [14..23) consumed=9
+  NW score: k=8 (pre-snap), norm=6.2740
+  Anchor:   word 23 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 et duobus piscibus evovae --ii ergo homines cum au------- 48
+                      0 ||  2
+    query             0 et duobus piscibus euouae Illi ergo homines cum audissent 57
+
+-- fused_3 --
+  OCR:      'quod fecerat ihesus signum intra se dicebant qva'
+  Assigned: 'dissent quod fecerat ihesus signum intra se dicebant quia'
+  Words:    [23..31) consumed=8
+  NW score: k=8 (pre-snap), norm=7.5056
+  Anchor:   word 31 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 quod fecerat ihesus signum intra se dicebant q-va 48
+                      0 ||||  4
+    query             0 quod fecerat ihesus signum intra se dicebant quia 49
+
+-- fused_4 --
+  OCR:      'hic est vere prophetam qui venturus est in mundum evovae'
+  Assigned: 'hic est vere propheta qui venturus est in mundum euouae'
+  Words:    [31..41) consumed=10
+  NW score: k=10 (pre-snap), norm=7.3336
+  Anchor:   word 41 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 hic est vere prophetam qui venturus est in mundum evovae 56
+                      0 |||  3
+    query             0 hic est vere propheta- qui venturus est in mundum euouae 55
+
+-- fused_5 --
+  OCR:      'ubliter Ebgo in Montem Jhesus ta in secndui aoh mi discii'
+  Assigned: 'Subiit ergo in montem ihesus et ibi sedebat cum discipu'
+  Words:    [41..51) consumed=10
+  NW score: k=10 (pre-snap), norm=3.2001
+  Anchor:   word 51 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -ublit-er Ebgo in Montem Jhesus -ta i-n secndui aoh --mi dis
+                      0 -||.||-||---||
+    query             0 Subiit er---go in montem ihesus et- ibi se--d-eba-t cum- dis
+    
+    target           54 ci---i- 57
+                     14 ||---|- 21
+    query            51 cipulis 58
+
+-- fused_6 --
+  OCR:      'Immo tempori prope erat'
+  Assigned: 'lis suis euouae Auferte'
+  Words:    [51..54) consumed=3
+  NW score: k=3 (pre-snap), norm=-1.4829
+  Anchor:   word 58 (within_chant_7), diff=4, snapped=False, forced=False
+  Alignment:
+    target            0 Immo tempori prope ---erat- 23
+                      0 ....  4
+    query             0 suis -e-uo-----uae Aufer-te 19
+
+-- fused_7 --
+  OCR:      'is suis eova di dferte ista hinc milanee.'
+  Assigned: 'ista hinc dicit domi'
+  Words:    [54..58) consumed=4
+  NW score: k=5 (pre-snap), norm=-0.5819
+  Anchor:   word 58 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 is suis eova di dferte ista hinc --------milanee. 41
+                      0 -----------------------|||| 27
+    query             0 -----------------------ista hinc dicit domi--n-us 23
+
+-- fused_8 --
+  OCR:      'nus et volite facere domum patris mei domum negociationis'
+  Assigned: 'nus et nolite facere domum patris me domum negociationis'
+  Words:    [58..66) consumed=8
+  NW score: k=8 (pre-snap), norm=6.9798
+  Anchor:   word 66 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 nus et volite facere domum patris mei domum negociationis 57
+                      0 ----||  6
+    query             0 ----et nolite facere domum patris me- domum negociationis 52
+
+-- fused_9 --
+  OCR:      'Cnne. olinte templum pe dicit dominus gepost'
+  Assigned: 'euouae Solvite templum hoc dicit dominus et post'
+  Words:    [66..74) consumed=8
+  NW score: k=8 (pre-snap), norm=4.3737
+  Anchor:   word 74 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 --Cnne. -ol-inte templum -pe dicit dominus ge--post 44
+                      0 --...|-  7
+    query             0 euouae- Solvi-te templum hoc dicit dominus -et post 48
+
+-- fused_10 --
+  OCR:      'triduum recdificabo illud hoc autem dicebat de Templo corporis'
+  Assigned: 'triduum reedificabo illud hoc autem dicebat de templo corporis'
+  Words:    [74..83) consumed=9
+  NW score: k=9 (pre-snap), norm=7.5806
+  Anchor:   word 83 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 triduum recdificabo illud hoc autem dicebat de Templo corpor
+                      0 |||||||
+    query             0 triduum reedificabo illud hoc autem dicebat de templo corpor
+    
+    target           60 is 62
+                      7 ||  9
+    query            60 is 62
+
+-- fused_11 --
+  OCR:      'oro depcatione fratra i secundum'
+  Assigned: 'sui euouae Quid me queritis inter'
+  Words:    [83..89) consumed=6
+  NW score: k=7 (pre-snap), norm=-1.4698
+  Anchor:   word 89 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 oro de-pca---ti-one --fratra i se---cundum 32
+                      0 ...  3
+    query             0 sui -euouae Quid me queritis interfic--ere 39
+
+-- fused_12 --
+  OCR:      'dem in ao ter am die Guild a'
+  Assigned: 'ficere hominem qui vera loquutus sum'
+  Words:    [89..94) consumed=5
+  NW score: k=3 (pre-snap), norm=-0.6142
+  Anchor:   word 94 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 dem in-- -ao ter am die Guild --a 28
+                      0 ..|-||--  8
+    query             0 hom-inem qui ver-a- -loquutus sum 29
+
+-- fused_13 --
+  OCR:      'sui exome deie nnoto e Lmnd me quentis inter'
+  Assigned: 'vobis Si male loquutus sum testimonium perhibe'
+  Words:    [94..101) consumed=7
+  NW score: k=7 (pre-snap), norm=-1.5559
+  Anchor:   word 101 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ----s-ui exome deie nno---to e Lmnd me quenti-s i--nter----
+                      0 ----|-.|
+    query             0 vobis Si ---m---ale -loquut-us ---sum- -testimonium perhibe
+    
+    target           44
+                      8
+    query            46
+
+-- fused_14 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [101..101) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_15 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [101..101) consumed=0
+  Alignment:
+    (no words left)
+=== END DEBUG ===
+

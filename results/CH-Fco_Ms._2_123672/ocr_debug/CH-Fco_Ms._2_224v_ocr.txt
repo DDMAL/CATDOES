@@ -1,0 +1,171 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'ad tem quasi agnum mansuetissimuni destina vit .'
+  [fused_1] 'Cecilia. redimus Christistum filium Dei verum deum es'
+  [fused_2] 'se qui sibi talem elegit famulam Cantate i evovae e'
+  [fused_3] 'Nos scientes Sanctum Nomen omnino negare non possumus'
+  [fused_4] 'reg exctels oae unc Valerianus perrexit ad a'
+  [fused_5] 'stite t signo qodc'
+  [fused_6] 'num p cantate II eovaeeclia '
+  [fused_7] '. Burti ho dieefae orme'
+  [fused_8] 'se cog ma tum cma amortetesse'
+  [fused_9] 'Contempto rem ydo oscumco cur'
+  [fused_10] 'enim amor Dei michi fratrem tuum conjugem fecit ita te'
+  [fused_11] 'michi cognatum fa cate Contemp'
+  [fused_12] 'ecanilis ao nos ne ostenontis mich'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'ad tem quasi agnum mansuetissimuni destina vit .'
+  Assigned: 'ad te quasi agnum mansuetissimum destinavit'
+  Words:    [0..6) consumed=6
+  NW score: k=6 (pre-snap), norm=6.6034
+  Anchor:   word 14 (within_chant_7), diff=8, snapped=False, forced=False
+  Alignment:
+    target            0 ad tem quasi agnum mansuetissimuni destina vit . 48
+                      0 ||  2
+    query             0 ad te- quasi agnum mansuetissimu-m destina-vit-- 43
+
+-- fused_1 --
+  OCR:      'Cecilia. redimus Christistum filium Dei verum deum es'
+  Assigned: 'Cecilia Credimus xpistum filium dei verum deum es'
+  Words:    [6..14) consumed=8
+  NW score: k=8 (pre-snap), norm=5.8665
+  Anchor:   word 14 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 Cecilia. -redimus Christistum filium Dei verum deum es-- 53
+                      0 |||||||-  8
+    query             0 Cecilia- Credimus ----xpistum filium dei verum deum esse 51
+
+-- fused_2 --
+  OCR:      'se qui sibi talem elegit famulam Cantate i evovae e'
+  Assigned: 'se qui sibi talem elegit famulam ~Cantate'
+  Words:    [14..20) consumed=6
+  NW score: k=8 (pre-snap), norm=6.3727
+  Anchor:   word 20 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 se qui sibi talem elegit famulam -Cantate i evovae e 51
+                      0 ---|||  6
+    query             0 ---qui sibi talem elegit famulam ~Cantat-----------e 38
+
+-- fused_3 --
+  OCR:      'Nos scientes Sanctum Nomen omnino negare non possumus'
+  Assigned: 'i euouae Nos scientes sanctum nomen omnino negare non possumus'
+  Words:    [20..30) consumed=10
+  NW score: k=10 (pre-snap), norm=6.4022
+  Anchor:   word 30 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ---------Nos scientes Sanctum Nomen omnino negare non possum
+                      0 ---------|||
+    query             0 i euouae Nos scientes sanctum nomen omnino negare non possum
+    
+    target           51 us 53
+                     12 || 14
+    query            60 us 62
+
+-- fused_4 --
+  OCR:      'reg exctels oae unc Valerianus perrexit ad a'
+  Assigned: '~Dominus regnavit exultet euouae Tunc valerianus perrexit ad an'
+  Words:    [30..39) consumed=9
+  NW score: k=8 (pre-snap), norm=3.7173
+  Anchor:   word 39 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 ---------reg----- ex-ctels --o-ae -unc Valerianus perrexit a
+                      0 ---------|||-----
+    query             0 ~Dominus regnavit exulte-t euouae Tunc valerianus perrexit a
+    
+    target           41 d a--------- 44
+                     17 | 18
+    query            59 d antistitem 71
+
+-- fused_5 --
+  OCR:      'stite t signo qodc'
+  Assigned: 'tistitem et signo quod acceperat invenit sanctum urba'
+  Words:    [39..46) consumed=7
+  NW score: k=3 (pre-snap), norm=3.8570
+  Anchor:   word 46 (within_chant_7), diff=4, snapped=False, forced=True
+  Alignment:
+    target            0 stite t signo q-od----------------------c----------- 18
+                      0 ----|-|  7
+    query             0 ----e-t signo quod acceperat invenit sanctum urbanum 47
+
+-- fused_6 --
+  OCR:      'num p cantate II eovaeeclia'
+  Assigned: 'num ~Cantate ii euouae Beata cecilia dixit'
+  Words:    [46..52) consumed=6
+  NW score: k=5 (pre-snap), norm=1.7010
+  Anchor:   word 52 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 num p cantate II e-ovae--------ec-lia------ 27
+                      0 -----..|||||| 13
+    query             0 -----~Cantate ii euouae Beata cecilia dixit 38
+
+-- fused_7 --
+  OCR:      '. Burti ho dieefae orme'
+  Assigned: 'tyburcio hodie te fateor meum esse co'
+  Words:    [52..59) consumed=7
+  NW score: k=5 (pre-snap), norm=2.0909
+  Anchor:   word 59 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 . Burti- ho die--e-fa-e or-me---------------- 23
+                      0 ...||.|-  8
+    query             0 tyburcio ho-die te fate-or meum esse cognatum 43
+
+-- fused_8 --
+  OCR:      'se cog ma tum cma amortetesse'
+  Assigned: 'gnatum quia amor dei te fecit esse'
+  Words:    [59..65) consumed=6
+  NW score: k=6 (pre-snap), norm=0.3574
+  Anchor:   word 65 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 se cog ma tum cma amor-----te-----t-esse 29
+                      0 ----------.|---.| 17
+    query             0 ----------qu---ia amor dei te fecit esse 27
+
+-- fused_9 --
+  OCR:      'Contempto rem ydo oscumco cur'
+  Assigned: 'Contemptorem ydolorum Sicut'
+  Words:    [65..68) consumed=3
+  NW score: k=3 (pre-snap), norm=4.5386
+  Anchor:   word 68 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 Contempto rem ydo oscumco --cur 29
+                      0 |||||||||-||| 13
+    query             0 Contempto-rem ydolo-rum-- Sicut 27
+
+-- fused_10 --
+  OCR:      'enim amor Dei michi fratrem tuum conjugem fecit ita te'
+  Assigned: 'enim amor dei michi fratrem tuum coniugem fecit ita te'
+  Words:    [68..78) consumed=10
+  NW score: k=10 (pre-snap), norm=7.5185
+  Anchor:   word 78 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 enim amor Dei michi fratrem tuum conjugem fecit ita te 54
+                      0 ||||  4
+    query             0 enim amor dei michi fratrem tuum coniugem fecit ita te 54
+
+-- fused_11 --
+  OCR:      'michi cognatum fa cate Contemp'
+  Assigned: 'michi cognatum faciat esse'
+  Words:    [78..82) consumed=4
+  NW score: k=5 (pre-snap), norm=5.3501
+  Anchor:   word 82 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 michi cognatum fa c-ate Contemp 30
+                      0 |||||  5
+    query             0 michi cognatum fa-ciat- -esse-- 26
+
+-- fused_12 --
+  OCR:      'ecanilis ao nos ne ostenontis mich'
+  Assigned: 'Contemptorem Cecilia me misit ad vos ut ostendatis michi'
+  Words:    [82..91) consumed=9
+  NW score: k=9 (pre-snap), norm=1.8334
+  Anchor:   word 91 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 --------------ecanil-------is-- ao nos ne ostenontis mich- 34
+                      0 --------------||--||-------||-- 31
+    query             0 Contemptorem Cec--ilia me misit ad vos ut ostendatis michi 56
+=== END DEBUG ===
+

@@ -1,0 +1,173 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'gusti as a ni me  ius dum deprecaretur'
+  [fused_1] 'nos et nos non audivimus dcirto venit super nos'
+  [fused_2] ''
+  [fused_3] 'tonlacOine Ruben fratribus'
+  [fused_4] 'su qu nunquid non dixi vobis nolite peccare in puerum'
+  [fused_5] 'n  inali me . so circo ixit Ruben'
+  [fused_6] 'fratribuson dixi vo bns nohte'
+  [fused_7] 'rum et non audistis me . En'
+  [fused_8] 'sanguis ejus ex quiri tur. Me'
+  [fused_9] 'rito hec patimur quia peccanimus in fratrem nostrum'
+  [fused_10] 'videntes augustiam animee jus dum deprecaretur nos'
+  [fused_11] 'et non audivi .no . e. RLamen'
+  [fused_12] 'talatur jacoo duobus filiis  ioe'
+  [fused_13] 'mecolens sum dejo sext redito ei '
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'gusti as a ni me  ius dum deprecaretur'
+  Assigned: 'anime eius dum deprecaretur'
+  Words:    [0..4) consumed=4
+  NW score: k=4 (pre-snap), norm=4.9327
+  Anchor:   word 17 (within_chant_7), diff=13, snapped=False, forced=False
+  Alignment:
+    target            0 gusti as a ni me  ius dum deprecaretur 38
+                      0 ---------|-||-|| 16
+    query             0 ---------a-ni-me eius dum deprecaretur 27
+
+-- fused_1 --
+  OCR:      'nos et nos non audivimus dcirto venit super nos'
+  Assigned: 'nos et nos non audivimus Idcirco venit super nos'
+  Words:    [4..13) consumed=9
+  NW score: k=9 (pre-snap), norm=7.4952
+  Anchor:   word 17 (within_chant_7), diff=4, snapped=False, forced=False
+  Alignment:
+    target            0 nos et nos non audivimus -dcirto venit super nos 47
+                      0 |||  3
+    query             0 nos et nos non audivimus Idcirco venit super nos 48
+
+-- fused_2 --
+  OCR:      ''
+  Assigned: 'tribulacio Dixit ruben fratribus'
+  Words:    [13..17) consumed=4
+
+-- fused_3 --
+  OCR:      'tonlacOine Ruben fratribus'
+  Assigned: 'suis numquid non dixi vobis nolite peccare in puerum et'
+  Words:    [17..27) consumed=10
+  NW score: k=17 (pre-snap), norm=-1.8148
+  Anchor:   word 27 (within_chant_7), diff=7, snapped=False, forced=True
+  Alignment:
+    target            0 -------------tonlacOi-------n----e ---Rube--n fratribu---s 26
+                      0 -------------.||....|-------|----| 34
+    query             0 suis numquid non dixi vobis nolite peccare in -puer--um et 55
+
+-- fused_4 --
+  OCR:      'su qu nunquid non dixi vobis nolite peccare in puerum'
+  Assigned: 'non audistis me Idcirco Dixit ruben fratribus suis numquid non dixi vobis nolite peccare in puerum'
+  Words:    [27..43) consumed=16
+  NW score: k=16 (pre-snap), norm=3.4273
+  Anchor:   word 33 (within_chant_7), diff=10, snapped=False, forced=False
+  Alignment:
+    target            0 -----------s-------------------------------u- qu-- nunquid n
+                      0 -----------|-------------------------------|-
+    query             0 non audistis me Idcirco Dixit ruben fratribus suis numquid n
+    
+    target           15 on dixi vobis nolite peccare in puerum 53
+                     45 || 47
+    query            60 on dixi vobis nolite peccare in puerum 98
+
+-- fused_5 --
+  OCR:      'n  inali me . so circo ixit Ruben'
+  Assigned: 'et non audistis me En'
+  Words:    [43..48) consumed=5
+  NW score: k=8 (pre-snap), norm=-0.6487
+  Anchor:   word 48 (within_chant_7), diff=3, snapped=False, forced=True
+  Alignment:
+    target            0 -n  in-a----li- me . so circo ixit Ruben 33
+                      0 -.  2
+    query             0 et non audistis me -------------------En 21
+
+-- fused_6 --
+  OCR:      'fratribuson dixi vo bns nohte'
+  Assigned: 'sanguis eius exquiritur me'
+  Words:    [48..52) consumed=4
+  NW score: k=5 (pre-snap), norm=-1.6879
+  Anchor:   word 52 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 fra-tri---buson ---dixi vo bns nohte 29
+                      0 -.|-..|---.||-- 15
+    query             0 -sanguis eius-- exquiritur ---Merito 30
+
+-- fused_7 --
+  OCR:      'rum et non audistis me . En'
+  Assigned: 'rito hec patimur quia peccavimus in fratrem nostrum'
+  Words:    [52..59) consumed=7
+  NW score: k=5 (pre-snap), norm=-1.5109
+  Anchor:   word 59 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 rum -et---- -non ----audi--stis ----me . En------ 27
+                      0 ...  3
+    query             0 hec patimur quia pecca-vimus in fratre-m -nostrum 46
+
+-- fused_8 --
+  OCR:      'sanguis ejus ex quiri tur. Me'
+  Assigned: 'videntes angustiam anime eius dum deprecaretur nos'
+  Words:    [59..66) consumed=7
+  NW score: k=8 (pre-snap), norm=-0.5101
+  Anchor:   word 66 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 -------s-angu--------i-s ejus -ex quir---i tur. -Me 29
+                      0 -------|-||||--------|-. 24
+    query             0 videntes angustiam anime eius dum deprecaretur- nos 50
+
+-- fused_9 --
+  OCR:      'rito hec patimur quia peccanimus in fratrem nostrum'
+  Assigned: 'et non audivimus En lamen'
+  Words:    [66..71) consumed=5
+  NW score: k=5 (pre-snap), norm=-0.6188
+  Anchor:   word 71 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 rito hec patimur quia peccanimus in fratrem n--ostrum 51
+                      0 -.|-  4
+    query             0 -et- non -a---u---di-------vimus En -La---mentabat-ur 32
+
+-- fused_10 --
+  OCR:      'videntes augustiam animee jus dum deprecaretur nos'
+  Assigned: 'tabatur iacob de duobus filiis suis he'
+  Words:    [71..77) consumed=6
+  NW score: k=11 (pre-snap), norm=-0.4005
+  Anchor:   word 77 (within_chant_7), diff=5, snapped=False, forced=True
+  Alignment:
+    target            0 vi-----dentes au-gustiam animee jus du-m deprecaretur nos 50
+                      0 -|-----||---- 13
+    query             0 -iacob de---- duobus---- -fi---liis suis he--------u----- 31
+
+-- fused_11 --
+  OCR:      'et non audivi .no . e. RLamen'
+  Assigned: 'u me dolens sum de ioseph perdito et tri'
+  Words:    [77..85) consumed=8
+  NW score: k=7 (pre-snap), norm=-1.2420
+  Anchor:   word 85 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 -et no--n- au--divi----- ----.no . e. -RLamen 29
+                      0 -|-  3
+    query             0 me- dolens sum de ioseph perdito-- et tristis 42
+
+-- fused_12 --
+  OCR:      'talatur jacoo duobus filiis  ioe'
+  Assigned: 'stis nimis de beniamin ducto pro a'
+  Words:    [85..91) consumed=6
+  NW score: k=7 (pre-snap), norm=-1.3325
+  Anchor:   word 91 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 ----------talatur jacoo duobus -fi--liis  ioe 32
+                      0 ----------...|... 17
+    query             0 nimis de beniamin ducto pro--- alimoniis----- 37
+
+-- fused_13 --
+  OCR:      'mecolens sum dejo sext redito ei'
+  Assigned: 'limoniis Precor celestem regem ut me dolen'
+  Words:    [91..97) consumed=6
+  NW score: k=6 (pre-snap), norm=-0.1768
+  Anchor:   word 97 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -meco----lens sum de-jo sext re-dito--- ei 32
+                      0 -.|||----||-|-..| 17
+    query             0 Precor cele-s-tem regem --ut me d--olentem 36
+=== END DEBUG ===
+

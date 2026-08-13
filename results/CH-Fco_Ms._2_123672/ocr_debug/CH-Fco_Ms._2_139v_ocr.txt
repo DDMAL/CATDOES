@@ -1,0 +1,224 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'non vestitum veste nuptiali et ait illi amice quomodo ulc'
+  [fused_1] 'Dominc '
+  [fused_2] 'ad benea'
+  [fused_3] 'trasti non habens vestem nuptialem exovae rat'
+  [fused_4] 'quidam Regulus cujus filius infirmabatur Capharnaum'
+  [fused_5] 'pendcum audisset quia Jhesus veniret in galileam roga'
+  [fused_6] 'ad'
+  [fused_7] ''
+  [fused_8] 'bat eum ut sanaret filium ejus ex orae'
+  [fused_9] 'autem pater quia illa hora erat in qua dixit Jhe sus fillis'
+  [fused_10] 'tuuis invit et credidit ipse et domus ejus tota exovae'
+  [fused_11] 'dice '
+  [fused_12] 'irit autem dominus servo rede quod debes pro'
+  [fused_13] 'cidens autem servus ille rogabat eum dicens pacienciam'
+  [fused_14] 'habe in me et omnia reddam tibi eovae aut'
+  [fused_15] 'nequam omne debitum divisi tibi quonam Rogasti'
+  [fused_16] 'nommne ergo oportuit et te misereri conserium tlum sicut'
+  [fused_17] 'ego cui misertus sum alleliya exorae'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'non vestitum veste nuptiali et ait illi amice quomodo ulc'
+  Assigned: 'non vestitum veste nuptiali et ait illi amice quomodo huc'
+  Words:    [0..10) consumed=10
+  NW score: k=10 (pre-snap), norm=7.6140
+  Anchor:   word 17 (within_chant_7), diff=7, snapped=False, forced=False
+  Alignment:
+    target            0 non vestitum veste nuptiali et ait illi amice quomodo -ulc 57
+                      0 |||  3
+    query             0 non vestitum veste nuptiali et ait illi amice quomodo hu-c 57
+
+-- fused_1 --
+  OCR:      'Dominc'
+  Assigned: 'intrasti'
+  Words:    [10..11) consumed=1
+  NW score: k=1 (pre-snap), norm=-3.0311
+  Anchor:   word 17 (within_chant_7), diff=6, snapped=False, forced=False
+  Alignment:
+    target            0 Domin-----c  6
+                      0 ---||-----. 11
+    query             0 ---intrasti  8
+
+-- fused_2 --
+  OCR:      'ad benea'
+  Assigned: 'non habens'
+  Words:    [11..13) consumed=2
+  NW score: k=2 (pre-snap), norm=-0.7826
+  Anchor:   word 17 (within_chant_7), diff=4, snapped=False, forced=False
+  Alignment:
+    target            0 -ad --benea  8
+                      0 -..  3
+    query             0 non haben-s 10
+
+-- fused_3 --
+  OCR:      'trasti non habens vestem nuptialem exovae rat'
+  Assigned: 'vestem nuptialem euouae Erat'
+  Words:    [13..17) consumed=4
+  NW score: k=4 (pre-snap), norm=3.5215
+  Anchor:   word 17 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 trasti non habens vestem nuptialem exovae -rat 45
+                      0 ------------------|||||| 24
+    query             0 ------------------vestem nuptialem euouae Erat 28
+
+-- fused_4 --
+  OCR:      'quidam Regulus cujus filius infirmabatur Capharnaum'
+  Assigned: 'quidam regulus cuius filius infirmabatur capharnaum'
+  Words:    [17..23) consumed=6
+  NW score: k=6 (pre-snap), norm=7.2353
+  Anchor:   word 23 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 quidam Regulus cujus filius infirmabatur Capharnaum 51
+                      0 ||||||  6
+    query             0 quidam regulus cuius filius infirmabatur capharnaum 51
+
+-- fused_5 --
+  OCR:      'pendcum audisset quia Jhesus veniret in galileam roga'
+  Assigned: 'hic cum audisset quia ihesus veniret in galileam roga'
+  Words:    [23..32) consumed=9
+  NW score: k=9 (pre-snap), norm=6.3510
+  Anchor:   word 32 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 pendcum audisset quia Jhesus veniret in galileam roga--- 53
+                      0 ....|||  7
+    query             0 hic cum audisset quia ihesus veniret in galileam rogabat 56
+
+-- fused_6 --
+  OCR:      'ad'
+  Assigned: 'bat eum'
+  Words:    [32..33) consumed=1
+  NW score: k=1 (pre-snap), norm=-6.9402
+  Anchor:   word 39 (within_chant_7), diff=6, snapped=False, forced=False
+  Alignment:
+    target            0 -ad 2
+                      0 -.. 3
+    query             0 eum 3
+
+-- fused_7 --
+  OCR:      ''
+  Assigned: 'ut sanaret filium eius euouae Cognovit'
+  Words:    [33..39) consumed=6
+
+-- fused_8 --
+  OCR:      'bat eum ut sanaret filium ejus ex orae'
+  Assigned: 'autem pater quia illa hora erat in qua dixit ihesus filius'
+  Words:    [39..50) consumed=11
+  NW score: k=6 (pre-snap), norm=-0.3496
+  Anchor:   word 50 (within_chant_7), diff=5, snapped=False, forced=True
+  Alignment:
+    target            0 ba-t eum -ut-- --sa---na---r--e--t------- filium --ejus ex o
+                      0 -|-|-|-|
+    query             0 -aut-e-m pater quia illa hora erat in qua dixi-t ihesus -fil
+    
+    target           35 rae 38
+                      8 ... 11
+    query            55 ius 58
+
+-- fused_9 --
+  OCR:      'autem pater quia illa hora erat in qua dixit Jhe sus fillis'
+  Assigned: 'tuus vivit et credidit ipse et domus eius tota euouae Dixit autem dominus servo'
+  Words:    [50..64) consumed=14
+  NW score: k=14 (pre-snap), norm=-0.7470
+  Anchor:   word 60 (within_chant_7), diff=4, snapped=False, forced=False
+  Alignment:
+    target            0 au-------t-em ----------p-ater --quia -illa hora erat in qua
+                      0 .|-------|-|.
+    query             0 tuus vivit et credidit ipse et domu-s ei-us tota e------uoua
+    
+    target           38 - dixit -Jhe- ----sus fillis---- 59
+                     13 - 14
+    query            52 e Dixit autem dominus -----servo 79
+
+-- fused_10 --
+  OCR:      'tuuis invit et credidit ipse et domus ejus tota exovae'
+  Assigned: 'redde quod debes procidens autem servus ille rogabat eum dicens pacienciam habe in me et omnia reddam tibi euouae'
+  Words:    [64..83) consumed=19
+  NW score: k=19 (pre-snap), norm=-1.1777
+  Anchor:   word 68 (within_chant_7), diff=15, snapped=False, forced=False
+  Alignment:
+    target            0 ------tu-----uis ----i--n-----------v---i----------t e-t --c
+                      0 ------.|-----..|
+    query             0 redde quod debes procidens autem servus ille rogabat eum dic
+    
+    target           16 re-----di--di------t i-pse et dom-us -e-jus tota exovae  54
+                     16 -|-----.|--.|------.  36
+    query            60 -ens pacienciam habe in me et -omnia reddam tibi euouae 113
+
+-- fused_11 --
+  OCR:      'dice'
+  Assigned: 'Serve'
+  Words:    [83..84) consumed=1
+  NW score: k=1 (pre-snap), norm=-3.1305
+  Anchor:   word 84 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -dice 4
+                      0 -...| 5
+    query             0 Serve 5
+
+-- fused_12 --
+  OCR:      'irit autem dominus servo rede quod debes pro'
+  Assigned: 'nequam omne debitum dimisi tibi quoniam rogasti me'
+  Words:    [84..92) consumed=8
+  NW score: k=10 (pre-snap), norm=-1.1388
+  Anchor:   word 92 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 -------------irit autem dominus servo rede quo---d debes-- p
+                      0 -------------..||--|--|
+    query             0 nequam omne debit--u--m dimi----s---i tibi quoniam rogasti -
+    
+    target           42 ro 44
+                     23 .. 25
+    query            48 me 50
+
+-- fused_13 --
+  OCR:      'cidens autem servus ille rogabat eum dicens pacienciam'
+  Assigned: 'nonne ergo oportuit et te misereri conservi tui sicut et'
+  Words:    [92..102) consumed=10
+  NW score: k=15 (pre-snap), norm=-0.8951
+  Anchor:   word 102 (within_chant_7), diff=5, snapped=False, forced=True
+  Alignment:
+    target            0 cidens ---------au------te-m servus ille ro-gabat eum dicens
+                      0 -...|.
+    query             0 -nonne ergo oportuit et te miser--eri--- conservi tui sic-ut
+    
+    target           43  pacienciam 54
+                      6   6
+    query            53  ----e----t 56
+
+-- fused_14 --
+  OCR:      'habe in me et omnia reddam tibi eovae aut'
+  Assigned: 'ego tui misertus sum alleluia euouae'
+  Words:    [102..108) consumed=6
+  NW score: k=6 (pre-snap), norm=-0.8069
+  Alignment:
+    target            0 habe-- --in me e-t-- -omnia reddam tibi e-ovae aut 41
+                      0 ---|--  6
+    query             0 ---ego tui- misertus sum- alle----lui-a euouae---- 36
+
+-- fused_15 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [108..108) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_16 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [108..108) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_17 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [108..108) consumed=0
+  Alignment:
+    (no words left)
+=== END DEBUG ===
+

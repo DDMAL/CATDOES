@@ -1,0 +1,239 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'appariit'
+  [fused_1] '.iedepto'
+  [fused_2] 'vovae. rognabit sibe ans'
+  [fused_3] 'm'
+  [fused_4] 'Lum ortus fuerit sol de celo indebitis regem regum proce'
+  [fused_5] 'dentem patre tanquani spensus de Thalanio suo pio Ma'
+  [fused_6] 'Contede quod omni'
+  [fused_7] 'gni evovae  pisttus est nobis'
+  [fused_8] 'dmmi apse rededs'
+  [fused_9] 'torofum In'
+  [fused_10] 'einte adore mus venite no. monoctur Dominus'
+  [fused_11] 'dixit ad me filius meus es hodie gemute p'
+  [fused_12] 'voae Lanquam sponsus dominus procedens de Thu'
+  [fused_13] 'lamo so P Celienar oa.iffusa est gracia in la'
+  [fused_14] 'ono tenmo pecopterea tenedrat iee teno mneccleiim  mca'
+  [fused_15] 'me comies Lanquam spisiousuominus pro Le prima'
+  [fused_16] 'ooi evoni ceceo tenananos licti e temporem alle Primo.'
+  [fused_17] 'celorum rex de me eme nas '
+  [fused_18] 'dis . Connen peditu'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'appariit'
+  Assigned: 'dominum'
+  Words:    [0..1) consumed=1
+  NW score: k=1 (pre-snap), norm=-4.5434
+  Anchor:   word 13 (within_chant_7), diff=12, snapped=False, forced=False
+  Alignment:
+    target            0 appari-it 8
+                      0 --...|-.. 9
+    query             0 --dominum 7
+
+-- fused_1 --
+  OCR:      '.iedepto'
+  Assigned: 'omnes euouae'
+  Words:    [1..3) consumed=2
+  NW score: k=2 (pre-snap), norm=-3.0619
+  Anchor:   word 13 (within_chant_7), diff=10, snapped=False, forced=False
+  Alignment:
+    target            0 -.ie-depto---  8
+                      0 -..|-.|-.|--- 13
+    query             0 omnes e-uouae 12
+
+-- fused_2 --
+  OCR:      'vovae. rognabit sibe ans'
+  Assigned: 'Cum ortus fuerit sol de celo videbitis regem regum proce'
+  Words:    [3..13) consumed=10
+  NW score: k=6 (pre-snap), norm=-1.5430
+  Anchor:   word 13 (within_chant_7), diff=4, snapped=False, forced=True
+  Alignment:
+    target            0 ---vovae. ---rognabit s------------i--b------------e--- ----
+                      0 ---.|....
+    query             0 Cum ortus fuer-----it sol de celo videbitis regem regum proc
+    
+    target           21 --an--s 24
+                      9 --.|--. 16
+    query            55 edentem 62
+
+-- fused_3 --
+  OCR:      'm'
+  Assigned: 'dentem a patre tanquam sponsus de thalamo suo ma'
+  Words:    [13..21) consumed=8
+  NW score: k=1 (pre-snap), norm=-5.0000
+  Anchor:   word 21 (within_chant_7), diff=7, snapped=False, forced=True
+  Alignment:
+    target            0 --------------------------------m-----------------  1
+                      0 --------------------------------|----------------- 50
+    query             0 a patre tanquam sponsus de thalamo suo ~Magnificat 50
+
+-- fused_4 --
+  OCR:      'Lum ortus fuerit sol de celo indebitis regem regum proce'
+  Assigned: 'gnificat euouae Xpistus natus est nobis Venite adoremus ~Venite'
+  Words:    [21..29) consumed=8
+  NW score: k=8 (pre-snap), norm=-0.4364
+  Anchor:   word 26 (within_chant_7), diff=3, snapped=False, forced=False
+  Alignment:
+    target            0 Lu---m --ortus fuerit sol de celo indebitis re--gem ---regum
+                      0 .|---.
+    query             0 euouae Xpistus ---natus----- -est -n-ob--is Venite- adoremus
+    
+    target           50  --proce 56
+                      6   6
+    query            46  ~Venite 54
+
+-- fused_5 --
+  OCR:      'dentem patre tanquani spensus de Thalanio suo pio Ma'
+  Assigned: 'Dominus dixit ad me filius meus es tu ego hodie genui te ~Quare fremuerunt euouae Tamquam sponsus dominus procedens de thalamo suo ~Celi'
+  Words:    [29..52) consumed=23
+  NW score: k=23 (pre-snap), norm=-1.0821
+  Anchor:   word 30 (within_chant_7), diff=22, snapped=False, forced=False
+  Alignment:
+    target            0 --------------------------------------------d----en---tem --
+                      0 --------------------------------------------|----||---||-
+    query             0 Dominus dixit ad me filius meus es tu ego hodie genui te- ~Q
+    
+    target            7 patre ---------t---------anquani spensu------------------s d
+                     57 .|-||
+    query            59 ua-re fremuerunt euouae Tamqua-m sponsus dominus procedens d
+    
+    target           31 e Thalanio suo ---pio Ma  52
+                     62 |  63
+    query           117 e thala-mo suo ~Celi---- 136
+
+-- fused_6 --
+  OCR:      'Contede quod omni'
+  Assigned: 'enarrant euouae Diffusa'
+  Words:    [52..55) consumed=3
+  NW score: k=3 (pre-snap), norm=-1.8712
+  Anchor:   word 59 (within_chant_7), diff=4, snapped=False, forced=False
+  Alignment:
+    target            0 ----Contede quo--d omni----- 17
+                      0 ----..||--- 11
+    query             0 enarrant--- euouae --Diffusa 23
+
+-- fused_7 --
+  OCR:      'gni evovae  pisttus est nobis'
+  Assigned: 'est gracia in la'
+  Words:    [55..59) consumed=4
+  NW score: k=5 (pre-snap), norm=-1.2256
+  Anchor:   word 59 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 gni evovae  pisttus est nob-is 29
+                      0 ...  3
+    query             0 est --gra---ci----a -in labiis 20
+
+-- fused_8 --
+  OCR:      'dmmi apse rededs'
+  Assigned: 'biis tuis propterea benedixit te deus in eternum eructa'
+  Words:    [59..67) consumed=8
+  NW score: k=3 (pre-snap), norm=-1.0717
+  Anchor:   word 67 (within_chant_7), diff=5, snapped=False, forced=True
+  Alignment:
+    target            0 dmmi- --apse--- --red------e-d--s---------------------- 16
+                      0 -..|-  5
+    query             0 -tuis propterea benedixit te deus in eternum ~Eructavit 54
+
+-- fused_9 --
+  OCR:      'torofum In'
+  Assigned: 'vit euouae Tamquam sponsus Dominus pro'
+  Words:    [67..72) consumed=5
+  NW score: k=3 (pre-snap), norm=-2.7642
+  Anchor:   word 72 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 -to-------------ro-fu----m---- ------In- 10
+                      0 -.|-------------.|-.|----|---- 30
+    query             0 euouae Tamquam sponsus Dominus procedens 40
+
+-- fused_10 --
+  OCR:      'einte adore mus venite no. monoctur Dominus'
+  Assigned: 'cedens de thalamo suo Hodie nobis'
+  Words:    [72..77) consumed=5
+  NW score: k=6 (pre-snap), norm=-0.6015
+  Anchor:   word 77 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 einte ----adore mus venite no. monoctur Dominus 43
+                      0 ---.|  5
+    query             0 ---de thalamo-- suo Hodi-e n-------------obi--s 26
+
+-- fused_11 --
+  OCR:      'dixit ad me filius meus es hodie gemute p'
+  Assigned: 'celorum rex de virgine nasci dignatus'
+  Words:    [77..83) consumed=6
+  NW score: k=11 (pre-snap), norm=-0.7028
+  Anchor:   word 83 (within_chant_7), diff=5, snapped=False, forced=True
+  Alignment:
+    target            0 --dixit -ad me fi-lius meus -es-- hodie gemute p 41
+                      0 --.....  7
+    query             0 celorum rex de virgi---ne-- nasci --di--g-nat-us 37
+
+-- fused_12 --
+  OCR:      'voae Lanquam sponsus dominus procedens de Thu'
+  Assigned: 'est ut hominem perditum ad'
+  Words:    [83..88) consumed=5
+  NW score: k=5 (pre-snap), norm=-1.1694
+  Anchor:   word 88 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 voae Lanquam sponsus dominus p-roced-ens -de Thu 45
+                      0 ---|---------|--..|. 20
+    query             0 ---e---------s--t ut hominem per---ditum ad----- 26
+
+-- fused_13 --
+  OCR:      'lamo so P Celienar oa.iffusa est gracia in la'
+  Assigned: 'regna celestia revocaret Gaudet exercitus angelorum quia'
+  Words:    [88..95) consumed=7
+  NW score: k=7 (pre-snap), norm=-1.1155
+  Anchor:   word 95 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ---lamo so P Cel---i---e--nar-- oa.iffusa est --graci--a in-
+                      0 ---.|-------
+    query             0 regna------- celestia revocaret Ga----u--de-t exer-citus ang
+    
+    target           42 ------ --la 45
+                     12 ------ 18
+    query            45 elorum quia 56
+
+-- fused_14 --
+  OCR:      'ono tenmo pecopterea tenedrat iee teno mneccleiim  mca'
+  Assigned: 'salus eterna humano generi apparuit'
+  Words:    [95..101) consumed=6
+  NW score: k=5 (pre-snap), norm=-1.4721
+  Anchor:   word 101 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 ono tenmo pecopterea tenedrat iee teno mneccleiim  mca---- 54
+                      0 ----.....  9
+    query             0 ----salus -e---terna ---huma--------no -ge--neri- apparuit 35
+
+-- fused_15 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [101..101) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_16 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [101..101) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_17 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [101..101) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_18 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [101..101) consumed=0
+  Alignment:
+    (no words left)
+=== END DEBUG ===
+

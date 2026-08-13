@@ -1,0 +1,179 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'a re no caret . Baudet exercitus'
+  [fused_1] 'lo mmsalus etema humano generi'
+  [fused_2] 'pati lorian excelsis de'
+  [fused_3] 'in terra par hominibus bone volunta tis Daudet'
+  [fused_4] 'Comay'
+  [fused_5] 'Diona  Nodie nobis de celo parve'
+  [fused_6] 'Mc per totum numdum mel'
+  [fused_7] 'nn sn it facti sunt Hode illuxit no'
+  [fused_8] 'bis dies redemptionis nostreufelici'
+  [fused_9] 'aece neHooienem moistis'
+  [fused_10] 'pastoresdianunciaten bis in terris quis'
+  [fused_11] 'capatu it pesatum mus et cho ros Angelo '
+  [fused_12] 'acon tea cominineo Dicte quid nam'
+  [fused_13] 'nnto sis et annncate pepsti na tim tatem atum'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'a re no caret . Baudet exercitus'
+  Assigned: 'Gloria in excelsis deo et'
+  Words:    [0..5) consumed=5
+  NW score: k=9 (pre-snap), norm=-1.1227
+  Anchor:   word 5 (within_chant_7), diff=4, snapped=False, forced=True
+  Alignment:
+    target            0 -----a re no --care-t . Baudet exercitus 32
+                      0 -----|  6
+    query             0 Gloria --in- exc--elsis ---deo e-----t-- 25
+
+-- fused_1 --
+  OCR:      'lo mmsalus etema humano generi'
+  Assigned: 'in terra pax hominibus bone voluntatis Gaudet'
+  Words:    [5..12) consumed=7
+  NW score: k=5 (pre-snap), norm=-1.0190
+  Anchor:   word 12 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 lo mmsalus ete----ma- human---o gene--------ri-------- 30
+                      0 ..  2
+    query             0 in ---------terra pax hominibus bone voluntatis Gaudet 45
+
+-- fused_2 --
+  OCR:      'pati lorian excelsis de'
+  Assigned: 'Gloria patri Hodie nobis de'
+  Words:    [12..17) consumed=5
+  NW score: k=5 (pre-snap), norm=0.8828
+  Anchor:   word 20 (within_chant_7), diff=3, snapped=False, forced=False
+  Alignment:
+    target            0 -------pat-i lorian excelsis de 23
+                      0 -------|||-| 12
+    query             0 Gloria patri Hodi---e- nobis de 27
+
+-- fused_3 --
+  OCR:      'in terra par hominibus bone volunta tis Daudet'
+  Assigned: 'celo pax ve'
+  Words:    [17..20) consumed=3
+  NW score: k=11 (pre-snap), norm=-1.0447
+  Anchor:   word 20 (within_chant_7), diff=8, snapped=False, forced=True
+  Alignment:
+    target            0 in terra par hominibus bone volunta tis Daudet 46
+                      0 ---.|-..  8
+    query             0 ---ce-lo pa---------------x v----------era---- 13
+
+-- fused_4 --
+  OCR:      'Comay'
+  Assigned: 'ra descendit Hodie per totum mundum mel'
+  Words:    [20..26) consumed=6
+  NW score: k=2 (pre-snap), norm=-5.3116
+  Anchor:   word 26 (within_chant_7), diff=4, snapped=False, forced=True
+  Alignment:
+    target            0 --------------------Co-----------m------ay  5
+                      0 --------------------.|-----------|------.. 42
+    query             0 descendit Hodie per totum mundum melliflui 42
+
+-- fused_5 --
+  OCR:      'Diona  Nodie nobis de celo parve'
+  Assigned: 'liflui facti sunt celi Hodie illuxit nobis dies redemptionis nostre'
+  Words:    [26..35) consumed=9
+  NW score: k=9 (pre-snap), norm=0.3195
+  Anchor:   word 32 (within_chant_7), diff=3, snapped=False, forced=False
+  Alignment:
+    target            0 ---Di--ona ---- Nodie-------- nobis d-e- ce-----lo--- --parv
+                      0 ---.|--.|.
+    query             0 facti sunt celi Hodie illuxit nobis dies redemptionis nostr-
+    
+    target           31 e 32
+                     10 | 11
+    query            59 e 60
+
+-- fused_6 --
+  OCR:      'Mc per totum numdum mel'
+  Assigned: 'preparationis antique felici'
+  Words:    [35..38) consumed=3
+  NW score: k=3 (pre-snap), norm=-0.9800
+  Anchor:   word 38 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 Mc per t-otum -numdum mel-------- 23
+                      0 ...|.|.|-|... 13
+    query             0 preparationis antique felicitatis 33
+
+-- fused_7 --
+  OCR:      'nn sn it facti sunt Hode illuxit no'
+  Assigned: 'tatis eterne Hodie Quem vidistis pastores dicite annuntiate nobis'
+  Words:    [38..46) consumed=8
+  NW score: k=8 (pre-snap), norm=-1.1443
+  Anchor:   word 42 (within_chant_7), diff=4, snapped=False, forced=False
+  Alignment:
+    target            0 ----nn sn it -------facti- --sunt---- Hod----e illu-xi-t- no
+                      0 ----|.
+    query             0 eterne Hodie Quem vidistis pas--tores --dicite annuntiate no
+    
+    target           35 --- 35
+                      6 ---  9
+    query            56 bis 59
+
+-- fused_8 --
+  OCR:      'bis dies redemptionis nostreufelici'
+  Assigned: 'in terris quis apparuit'
+  Words:    [46..50) consumed=4
+  NW score: k=6 (pre-snap), norm=-1.3338
+  Anchor:   word 50 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 bis ---dies redemptionis nostreufelici 35
+                      0 -|.  3
+    query             0 -in terri-s --------quis appar-u---i-t 23
+
+-- fused_9 --
+  OCR:      'aece neHooienem moistis'
+  Assigned: 'Natum vidimus in choros angelorum collaudantes'
+  Words:    [50..56) consumed=6
+  NW score: k=6 (pre-snap), norm=-1.8446
+  Anchor:   word 56 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -aece ---------n-eHo-o-ien-e----m mo-----istis 23
+                      0 -|...  5
+    query             0 Natum vidimus in choros angelorum collaudantes 46
+
+-- fused_10 --
+  OCR:      'pastoresdianunciaten bis in terris quis'
+  Assigned: 'dominum Dicite quidnam'
+  Words:    [56..59) consumed=3
+  NW score: k=4 (pre-snap), norm=-0.6040
+  Anchor:   word 59 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 pastoresdianunciaten bis in terris qui---s 39
+                      0 ---.|---.|-||------. 20
+    query             0 ---do---mi-nu------m Di-ci--te---- quidnam 22
+
+-- fused_11 --
+  OCR:      'capatu it pesatum mus et cho ros Angelo'
+  Assigned: 'vidistis et annuntiate'
+  Words:    [59..62) consumed=3
+  NW score: k=3 (pre-snap), norm=-2.1166
+  Anchor:   word 65 (page_break_77), diff=3, snapped=False, forced=False
+  Alignment:
+    target            0 capatu it pesatum mus et cho ros An---gelo 39
+                      0 ------.|--..|-|----.| 21
+    query             0 ------vi--dis-t----is et -----annuntiate-- 22
+
+-- fused_12 --
+  OCR:      'acon tea cominineo Dicte quid nam'
+  Assigned: 'xpisti nativitatem Natum'
+  Words:    [62..65) consumed=3
+  NW score: k=3 (pre-snap), norm=-1.8477
+  Anchor:   word 65 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 acon tea cominineo Dicte quid na--m 33
+                      0 -....|-.  8
+    query             0 -xpist-i nativi-----tate----m Natum 24
+
+-- fused_13 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [65..65) consumed=0
+  Alignment:
+    (no words left)
+=== END DEBUG ===
+

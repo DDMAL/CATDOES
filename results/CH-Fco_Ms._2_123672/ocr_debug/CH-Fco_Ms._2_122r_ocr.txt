@@ -1,0 +1,175 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'te Domino Gloriani et hono rem af'
+  [fused_1] 'ferte domino gloriam no Palmu.'
+  [fused_2] 'bado ad eum qui bado ad cum qui misit vie sed'
+  [fused_3] 'cima hec loquitus nobis tristicia implenit cor vestrum al'
+  [fused_4] 'ama exorae Ego veritatem dico vobis expedit'
+  [fused_5] 'dam si enim non abiero paraditus non'
+  [fused_6] 'veniet Allelvya eonacQum venerit paraditus spiri'
+  [fused_7] 'ritus veritatis ipse arguet mundum de peccato et de justici'
+  [fused_8] 'aeiudicio Alleluya eohuc mlta habeo'
+  [fused_9] 'vobis dicere sed non potestis portare modo cum autem vene'
+  [fused_10] 'ipse spiritus veritatis docebit vos omnem veritatem'
+  [fused_11] ' .on enim loquetur a seinet ipso sed'
+  [fused_12] 'quecimq audiet lometur et qne ventura sunit anmincia'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'te Domino Gloriani et hono rem af'
+  Assigned: 'Afferte domino gloriam et honorem af'
+  Words:    [0..6) consumed=6
+  NW score: k=6 (pre-snap), norm=4.2683
+  Anchor:   word 6 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -----te Domino Gloriani et hono rem af----- 33
+                      0 -----||  7
+    query             0 Afferte domino gloria-m et hono-rem afferte 41
+
+-- fused_1 --
+  OCR:      'ferte domino gloriam no Palmu.'
+  Assigned: 'ferte domino gloriam nomini eius Psalmum'
+  Words:    [6..11) consumed=5
+  NW score: k=5 (pre-snap), norm=3.7260
+  Anchor:   word 11 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ferte domino gloriam no--------- P-almu. 30
+                      0 ------|||||| 12
+    query             0 ------domino gloriam nomini eius Psalmum 34
+
+-- fused_2 --
+  OCR:      'bado ad eum qui bado ad cum qui misit vie sed'
+  Assigned: 'Vado ad eum qui Vado ad eum qui misit me sed'
+  Words:    [11..22) consumed=11
+  NW score: k=11 (pre-snap), norm=6.5847
+  Anchor:   word 22 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 bado ad eum qui bado ad cum qui misit vie sed 45
+                      0 .|||  4
+    query             0 Vado ad eum qui Vado ad eum qui misit -me sed 44
+
+-- fused_3 --
+  OCR:      'cima hec loquitus nobis tristicia implenit cor vestrum al'
+  Assigned: 'quia hec loquutus sum vobis tristicia implevit cor vestrum al'
+  Words:    [22..32) consumed=10
+  NW score: k=9 (pre-snap), norm=5.7220
+  Anchor:   word 32 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 -cima hec loquitus---- nobis tristicia implenit cor vestrum 
+                      0 -.|-|
+    query             0 qui-a hec loquutus sum vobis tristicia implevit cor vestrum 
+    
+    target           55 al------ 57
+                      5 ||------ 13
+    query            59 alleluya 67
+
+-- fused_4 --
+  OCR:      'ama exorae Ego veritatem dico vobis expedit'
+  Assigned: 'leluya euouae Ego veritatem dico vobis expedit'
+  Words:    [32..38) consumed=6
+  NW score: k=6 (pre-snap), norm=6.5932
+  Anchor:   word 38 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ama exorae Ego veritatem dico vobis expedit 43
+                      0 ----|.|.|| 10
+    query             0 ----euouae Ego veritatem dico vobis expedit 39
+
+-- fused_5 --
+  OCR:      'dam si enim non abiero paraditus non'
+  Assigned: 'vobis ut ego vadam si enim non abiero paraclitus non'
+  Words:    [38..48) consumed=10
+  NW score: k=10 (pre-snap), norm=5.0616
+  Anchor:   word 48 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ---------------dam si enim non abiero para-ditus non 36
+                      0 ---------------||| 18
+    query             0 vobis ut ego vadam si enim non abiero paraclitus non 52
+
+-- fused_6 --
+  OCR:      'veniet Allelvya eonacQum venerit paraditus spiri'
+  Assigned: 'veniet alleluya euouae Cum venerit paraclitus spi'
+  Words:    [48..55) consumed=7
+  NW score: k=7 (pre-snap), norm=5.3426
+  Anchor:   word 55 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 veniet Allelvya e-ona-cQum venerit para-ditus spiri--- 48
+                      0 ||||||  6
+    query             0 veniet alleluya euouae Cum venerit paraclitus spiritus 54
+
+-- fused_7 --
+  OCR:      'ritus veritatis ipse arguet mundum de peccato et de justici'
+  Assigned: 'ritus veritatis ipse arguet mundum de peccato et de iustici'
+  Words:    [55..64) consumed=9
+  NW score: k=9 (pre-snap), norm=6.7677
+  Anchor:   word 64 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ritus veritatis ipse arguet mundum de peccato et de justici-
+                      0 ------|||||||||
+    query             0 ------veritatis ipse arguet mundum de peccato et de iusticia
+    
+    target           59 
+                     15 
+    query            54 
+
+-- fused_8 --
+  OCR:      'aeiudicio Alleluya eohuc mlta habeo'
+  Assigned: 'a et de iudicio alleluya euouae Adhuc multa habeo'
+  Words:    [64..72) consumed=8
+  NW score: k=8 (pre-snap), norm=4.8818
+  Anchor:   word 72 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ---ae-iudicio Alleluya e-o------huc m-lta habeo 35
+                      0 ---.|-||||||| 13
+    query             0 et de iudicio alleluya euouae Adhuc multa habeo 47
+
+-- fused_9 --
+  OCR:      'vobis dicere sed non potestis portare modo cum autem vene'
+  Assigned: 'vobis dicere sed non potestis portare modo cum autem vene'
+  Words:    [72..82) consumed=10
+  NW score: k=10 (pre-snap), norm=7.5751
+  Anchor:   word 82 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 vobis dicere sed non potestis portare modo cum autem vene---
+                      0 |||||
+    query             0 vobis dicere sed non potestis portare modo cum autem venerit
+    
+    target           57 
+                      5 
+    query            60 
+
+-- fused_10 --
+  OCR:      'ipse spiritus veritatis docebit vos omnem veritatem'
+  Assigned: 'rit ipse spiritus veritatis docebit vos omnem veritatem'
+  Words:    [82..89) consumed=7
+  NW score: k=7 (pre-snap), norm=8.0000
+  Anchor:   word 89 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ipse spiritus veritatis docebit vos omnem veritatem 51
+                      0 ||||  4
+    query             0 ipse spiritus veritatis docebit vos omnem veritatem 51
+
+-- fused_11 --
+  OCR:      '.on enim loquetur a seinet ipso sed'
+  Assigned: 'alleluya euouae Non enim loquetur a semetipso sed'
+  Words:    [89..97) consumed=8
+  NW score: k=8 (pre-snap), norm=4.1533
+  Anchor:   word 97 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ----------------.on enim loquetur a seinet ipso sed 35
+                      0 ----------------.|| 19
+    query             0 alleluya euouae Non enim loquetur a se-met-ipso sed 49
+
+-- fused_12 --
+  OCR:      'quecimq audiet lometur et qne ventura sunit anmincia'
+  Assigned: 'quecumque audiet loquetur et que ventura sunt annunciabit'
+  Words:    [97..105) consumed=8
+  NW score: k=8 (pre-snap), norm=5.6206
+  Anchor:   word 105 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 quecimq-- audiet lo-metur et qne ventura sunit anmincia--- 52
+                      0 ||||.||--  9
+    query             0 quecumque audiet loquetur et que ventura sun-t annunciabit 57
+=== END DEBUG ===
+

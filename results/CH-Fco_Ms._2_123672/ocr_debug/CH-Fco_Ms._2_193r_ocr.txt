@@ -1,0 +1,227 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'cis patibulum Aneluya ho die clavicularius Regni gaudens'
+  [fused_1] 'migravit ad xpitistum hodie Paulus apostoluis Lumen or'
+  [fused_2] 'bis terre indivato capite pro Christisti nominem Martyrio coro'
+  [fused_3] 'oro doqui hodiernam die nota quod esto die n fit ali'
+  [fused_4] 'qua commenio de Sancto Paulo or omro comncuii est in cen'
+  [fused_5] 'natus est Alleluya evovae intatibusillam facinu omemorationem de sancto jo ad ecclesiam Sant Pauii sicut dictum e inistis duabus festi'
+  [fused_6] 'hecu fit offici duplex in festo Sancti Pauli'
+  [fused_7] 'vitatorium regem apostolorum dmmm predt veite'
+  [fused_8] 'Vmil doctor egregieda nnficatimis dant. Qui operatus est Petro in a'
+  [fused_9] 'postolatu operatus est et michi inter gentes et cognoverunt'
+  [fused_10] 'graciam que data est michi a xptisco domino '
+  [fused_11] 'li me segregavit exuntero matris mee et voca'
+  [fused_12] 'pesicli au'
+  [fused_13] 'nnt peraragams vamum cio cui credidi et certus'
+  [fused_14] 'sum quia potens est depositum meum servare in unuvi di'
+  [fused_15] 'emustus iudex  Benedicam eoae. Dereliquo repo'
+  [fused_16] 'sita est michi corona justicieichi vivere Cpistus est'
+  [fused_17] 'et mor juctum ejorian me opor tet in cence dommni mei'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'cis patibulum Aneluya ho die clavicularius Regni gaudens'
+  Assigned: 'patibulum alleluya hodie clavicularius regni gaudens'
+  Words:    [0..6) consumed=6
+  NW score: k=6 (pre-snap), norm=6.2821
+  Anchor:   word 31 (within_chant_7), diff=25, snapped=False, forced=False
+  Alignment:
+    target            0 cis patibulum -Aneluya ho die clavicularius Regni gaudens 56
+                      0 ----||||||||| 13
+    query             0 ----patibulum alleluya ho-die clavicularius regni gaudens 52
+
+-- fused_1 --
+  OCR:      'migravit ad xpitistum hodie Paulus apostoluis Lumen or'
+  Assigned: 'migravit ad xpistum hodie paulus apostolus luminare'
+  Words:    [6..13) consumed=7
+  NW score: k=7 (pre-snap), norm=6.0406
+  Anchor:   word 31 (within_chant_7), diff=18, snapped=False, forced=False
+  Alignment:
+    target            0 migravit ad xpitistum hodie Paulus apostoluis Lumen or- 54
+                      0 ||||||||  8
+    query             0 migravit ad xp--istum hodie paulus apostolu-s lumin-are 51
+
+-- fused_2 --
+  OCR:      'bis terre indivato capite pro Christisti nominem Martyrio coro'
+  Assigned: 'orbis terre inclinato capite pro xpisti nomine martyrio coronatus'
+  Words:    [13..22) consumed=9
+  NW score: k=9 (pre-snap), norm=5.2298
+  Anchor:   word 31 (within_chant_7), diff=9, snapped=False, forced=False
+  Alignment:
+    target            0 --bis terre in-divato capite pro Christisti nominem Martyrio
+                      0 --|||
+    query             0 orbis terre inclinato capite pro ----xpisti nomine- martyrio
+    
+    target           57  coro----- 62
+                      5   5
+    query            55  coronatus 65
+
+-- fused_3 --
+  OCR:      'oro doqui hodiernam die nota quod esto die n fit ali'
+  Assigned: 'est alleluya euouae Qui operatus est petro in a'
+  Words:    [22..31) consumed=9
+  NW score: k=9 (pre-snap), norm=-1.0377
+  Anchor:   word 31 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 oro ----------do----qui hodiernam die nota quod est-----o di
+                      0 ...
+    query             0 est alleluya euouae Qui -o-per-a--------t---u-s est petro -i
+    
+    target           41 e n --fit- ali 52
+                      3 --|  6
+    query            44 --n apostolatu 56
+
+-- fused_4 --
+  OCR:      'qua commenio de Sancto Paulo or omro comncuii est in cen'
+  Assigned: 'postolatu operatus est et michi inter gentes et cognoverunt'
+  Words:    [31..39) consumed=8
+  NW score: k=13 (pre-snap), norm=-1.2876
+  Anchor:   word 39 (within_chant_7), diff=5, snapped=False, forced=True
+  Alignment:
+    target            0 qua commenio de Sancto Paulo -or omro comncui-i---- ----es--
+                      0 -----------|-.|-.|--|----|-.
+    query             0 -----------o-pe-ra--t----u-s est --et --michi inter gentes e
+    
+    target           48 t --in ce--n- 56
+                     28 | 29
+    query            36 t cognoverunt 49
+
+-- fused_5 --
+  OCR:      'natus est Alleluya evovae intatibusillam facinu omemorationem de sancto jo ad ecclesiam Sant Pauii sicut dictum e inistis duabus festi'
+  Assigned: 'graciam que data est michi a xpisto domino ~Celi enarrant euouae Qui me segregavit ex utero matris mee et vocavit per graciam suam Scio cui credidi et certus sum quia potens est'
+  Words:    [39..71) consumed=32
+  NW score: k=32 (pre-snap), norm=-0.8246
+  Anchor:   word 47 (within_chant_7), diff=24, snapped=False, forced=False
+  Alignment:
+    target            0 ------------natus est ---------------------Allel-----uya-- e
+                      0 ------------.||-.
+    query             0 graciam que dat-a est michi a xpisto domino ~Celi enarrant e
+    
+    target           20 vovae intatibusillam- -----faci--nu omemo-rat-ionem de sanct
+                     17 .|.||
+    query            59 uouae ------Qu-i-- me segregavit ex utero matri-s m-ee ---et
+    
+    target           70 o jo a--d -e----cclesiam -Sant Pauii sicut ---dictum e- inis
+                     22 -
+    query           105 - vocavit per grac---iam sua-m -Scio --cui credi--di et -cer
+    
+    target          118 tis du-----a----bus festi 134
+                     23 |.|  26
+    query           154 tus sum quia potens -est- 177
+
+-- fused_6 --
+  OCR:      'hecu fit offici duplex in festo Sancti Pauli'
+  Assigned: 'depositum meum servare in illum di'
+  Words:    [71..77) consumed=6
+  NW score: k=7 (pre-snap), norm=-1.7702
+  Anchor:   word 77 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 hecu fit-- offici --duplex in festo Sancti Pau--li-- 44
+                      0 .|-...||-- 10
+    query             0 de-positum --meum servare- in -----------i-llum diem 36
+
+-- fused_7 --
+  OCR:      'vitatorium regem apostolorum dmmm predt veite'
+  Assigned: 'em iustus iudex ~Benedicam euouae De reliquo repo'
+  Words:    [77..84) consumed=7
+  NW score: k=7 (pre-snap), norm=-0.9908
+  Anchor:   word 84 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 vitat-oriu--m -rege----m apostoloru-m dmmm pre---dt ve---ite
+                      0 -|..|-..||--.
+    query             0 -iustus iudex ~Benedicam euo------uae --De -reliquo reposita
+    
+    target           45 
+                     13 
+    query            50 
+
+-- fused_8 --
+  OCR:      'Vmil doctor egregieda nnficatimis dant. Qui operatus est Petro in a'
+  Assigned: 'sita est michi corona iusticie Michi vivere xpistus est'
+  Words:    [84..92) consumed=8
+  NW score: k=10 (pre-snap), norm=0.0321
+  Anchor:   word 92 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 ---Vmi--l doctor egregieda nnficatimis dant. Qui---- operatu
+                      0 ---.||--.
+    query             0 est michi --c-or-------ona ---iusticie Michi -vivere xp-istu
+    
+    target           51 s est Petro in a 67
+                      9 | 10
+    query            45 s est----------- 50
+
+-- fused_9 --
+  OCR:      'postolatu operatus est et michi inter gentes et cognoverunt'
+  Assigned: 'et mori lucrum gloriari me oportet in cruce domini mei'
+  Words:    [92..102) consumed=10
+  NW score: k=8 (pre-snap), norm=-1.3103
+  Anchor:   word 102 (page_break_77), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 post--o---l-atu- --oper-atus -e----st et michi inter gentes 
+                      0 --.|--|---|-..|-
+    query             0 --et mori lucrum glo--ria-ri me oport-et------ in cruce-----
+    
+    target           45 et co-gn-overunt 59
+                     16 -- 18
+    query            43 -- domini me---i 54
+
+-- fused_10 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [102..102) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_11 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [102..102) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_12 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [102..102) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_13 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [102..102) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_14 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [102..102) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_15 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [102..102) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_16 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [102..102) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_17 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [102..102) consumed=0
+  Alignment:
+    (no words left)
+=== END DEBUG ===
+

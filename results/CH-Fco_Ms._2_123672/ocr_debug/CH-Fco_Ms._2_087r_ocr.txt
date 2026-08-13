@@ -1,0 +1,207 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'hibe de Ma lo si autem be ne cur me ce'
+  [fused_1] 'pera operatus sum vo bis propter'
+  [fused_2] 'quod opus multis occidere . Si male Quid me queritis'
+  [fused_3] 'interficere hominem qui vera Logiltus sum vobis evovac'
+  [fused_4] 'Venerso mn eum misit in anuhi qua nondimi venerat hora e'
+  [fused_5] 'oed ansere domine febaaii se'
+  [fused_6] 'Oodum Johannem in vliter pretiens'
+  [fused_7] 'moenorae in omiluauge Etiens ihee a Nalbi qud pectapt pomo iste'
+  [fused_8] 'qnod ceus natus est resondit melis etorat nea hic pectavit'
+  [fused_9] 'neque parentes ejus opera Dei in illo exor'
+  [fused_10] 'deo  oilgi'
+  [fused_11] 'le homo qui dicitur Jhesus lutum fecit'
+  [fused_12] 'to et linivit oculos meos et modo iuDceo exovae'
+  [fused_13] 'bat Jhesus in civitatem quem vocatur Nayum ecclesie'
+  [fused_14] 'defunctus efferebatur filius uicus matris sue exovac'
+  [fused_15] 'copseta magius surrecit in nobis et quia denoiei'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'hibe de Ma lo si autem be ne cur me ce'
+  Assigned: 'de malo si autem bene cur me cedis'
+  Words:    [0..8) consumed=8
+  NW score: k=8 (pre-snap), norm=5.2581
+  Anchor:   word 15 (within_chant_7), diff=7, snapped=False, forced=False
+  Alignment:
+    target            0 hibe de Ma lo si autem be ne cur me ce--- 38
+                      0 -----||  7
+    query             0 -----de ma-lo si autem be-ne cur me cedis 34
+
+-- fused_1 --
+  OCR:      'pera operatus sum vo bis propter'
+  Assigned: 'Multa bona opera operatus sum vobis propter'
+  Words:    [8..15) consumed=7
+  NW score: k=7 (pre-snap), norm=5.4186
+  Anchor:   word 15 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ------------pera operatus sum vo bis propter 32
+                      0 ------------|||| 16
+    query             0 Multa bona opera operatus sum vo-bis propter 43
+
+-- fused_2 --
+  OCR:      'quod opus multis occidere . Si male Quid me queritis'
+  Assigned: 'quod opus vultis me occidere Si male Quid me queritis'
+  Words:    [15..25) consumed=10
+  NW score: k=10 (pre-snap), norm=6.9336
+  Anchor:   word 25 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 quod opus multis--- occidere . Si male Quid me queritis 52
+                      0 ||||  4
+    query             0 quod opus vultis me occidere-- Si male Quid me queritis 53
+
+-- fused_3 --
+  OCR:      'interficere hominem qui vera Logiltus sum vobis evovac'
+  Assigned: 'interficere hominem qui vera locquutus sum vobis euouae'
+  Words:    [25..33) consumed=8
+  NW score: k=8 (pre-snap), norm=6.1287
+  Anchor:   word 33 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 interficere hominem qui vera Lo-giltus sum vobis evovac 54
+                      0 ||||||||||| 11
+    query             0 interficere hominem qui vera locquutus sum vobis euouae 55
+
+-- fused_4 --
+  OCR:      'Venerso mn eum misit in anuhi qua nondimi venerat hora e'
+  Assigned: 'Nemo in eum misit manum quia nondum venerat hora e'
+  Words:    [33..43) consumed=10
+  NW score: k=10 (pre-snap), norm=4.7174
+  Anchor:   word 43 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 Venerso mn eum misit in anuhi qu-a nondimi venerat hora e---
+                      0 .|---.|
+    query             0 Ne---mo in eum misit --manu-m quia nondum- venerat hora eius
+    
+    target           56 
+                      7 
+    query            53 
+
+-- fused_5 --
+  OCR:      'oed ansere domine febaaii se'
+  Assigned: 'ius euouae Rabbi quis peccavit homo iste'
+  Words:    [43..49) consumed=6
+  NW score: k=6 (pre-snap), norm=-1.2599
+  Anchor:   word 49 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 --o--ed -ansere domine febaaii------ -s-e 28
+                      0 --|--|-  7
+    query             0 euouae- Ra--bbi -qui-s peccavit homo iste 36
+
+-- fused_6 --
+  OCR:      'Oodum Johannem in vliter pretiens'
+  Assigned: 'quod cecus natus est respondit ihesus et dixit neque hic peccavit'
+  Words:    [49..60) consumed=11
+  NW score: k=6 (pre-snap), norm=-1.3164
+  Anchor:   word 60 (within_chant_7), diff=5, snapped=False, forced=True
+  Alignment:
+    target            0 -Ood----------um -------Johannem i-------n -vlit-----e---r p
+                      0 -.||----------|.
+    query             0 quod cecus natus est respo--ndit ihesus et dixit neque hic p
+    
+    target           26 re---tiens 33
+                     16 -|---.|--. 26
+    query            58 -eccavi--t 65
+
+-- fused_7 --
+  OCR:      'moenorae in omiluauge Etiens ihee a Nalbi qud pectapt pomo iste'
+  Assigned: 'neque parentes eius sed ut manifestentur opera dei in illo euouae Ille homo qui'
+  Words:    [60..74) consumed=14
+  NW score: k=14 (pre-snap), norm=-0.9639
+  Anchor:   word 71 (within_chant_7), diff=3, snapped=False, forced=False
+  Alignment:
+    target            0 moenorae ---in--- omiluauge- Et----i----en--s ihe----e- -a N
+                      0 ---|...|
+    query             0 ---neque parentes -ei-us sed ut manifestentur opera dei in -
+    
+    target           37 albi qud pectapt pomo --iste 63
+                      8 .|.. 12
+    query            54 illo euouae Ille homo qui--- 79
+
+-- fused_8 --
+  OCR:      'qnod ceus natus est resondit melis etorat nea hic pectavit'
+  Assigned: 'dicitur ihesus lutum fecit ex spu'
+  Words:    [74..80) consumed=6
+  NW score: k=8 (pre-snap), norm=0.1162
+  Anchor:   word 80 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 qnod c-eus -natus est-- resondit melis etorat nea hic pectav
+                      0 ---|.|-.|.
+    query             0 ---dicitur ihesus lutum fe---cit -ex sputo------------------
+    
+    target           56 it 58
+                     10 -- 12
+    query            35 -- 35
+
+-- fused_9 --
+  OCR:      'neque parentes ejus opera Dei in illo exor'
+  Assigned: 'to et linivit oculos meos et modo video euouae'
+  Words:    [80..88) consumed=8
+  NW score: k=8 (pre-snap), norm=-0.7530
+  Anchor:   word 88 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 neque paren---tes eju--s opera Dei --in -illo exo--r 42
+                      0 -|--.  5
+    query             0 -e--t --linivit-- oculos -meos -et modo video euouae 43
+
+-- fused_10 --
+  OCR:      'deo  oilgi'
+  Assigned: 'Ibat ihesus in civitate que vocatur naym ecce'
+  Words:    [88..96) consumed=8
+  NW score: k=4 (pre-snap), norm=-2.9672
+  Anchor:   word 96 (within_chant_7), diff=4, snapped=False, forced=True
+  Alignment:
+    target            0 ------de--o -- oilgi-------------------------- 10
+                      0 ------.|--. 11
+    query             0 Ibat ihesus in ci-vitate que vocatur naym ecce 45
+
+-- fused_11 --
+  OCR:      'le homo qui dicitur Jhesus lutum fecit'
+  Assigned: 'defunctus efferebatur filius unicus matris sue euouae'
+  Words:    [96..103) consumed=7
+  NW score: k=5 (pre-snap), norm=-1.0763
+  Anchor:   word 103 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 le------- ---homo qui dicitur Jhesus lut-----um fe--cit 38
+                      0 .|-------  9
+    query             0 defunctus efferebatur fili-us unicus matris sue -euouae 53
+
+-- fused_12 --
+  OCR:      'to et linivit oculos meos et modo iuDceo exovae'
+  Assigned: 'Propheta magnus surrexit in nobis et quia deus visitavit'
+  Words:    [103..112) consumed=9
+  NW score: k=9 (pre-snap), norm=-1.2670
+  Anchor:   word 112 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -to- et- -lin-------ivit oculos meo--s et modo -iuDceo exov-
+                      0 -.|-.||-
+    query             0 Propheta magnus surrexit ----in -nobis et quia deu---s ---vi
+    
+    target           45 ---a--e 47
+                      8 ---|--. 15
+    query            49 sitavit 56
+
+-- fused_13 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [112..112) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_14 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [112..112) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_15 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [112..112) consumed=0
+  Alignment:
+    (no words left)
+=== END DEBUG ===
+

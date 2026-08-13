@@ -1,0 +1,231 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'in corde meo consolationes tue letificaverunt a mimam me'
+  [fused_1] 'm. Qiicha Petrum laccimantem suscepisti ao bi'
+  [fused_2] 'misericors domi neEnominisi dictu gressus Jhesus'
+  [fused_3] 'secessit in partes tyri et Sydonis et ecclesie mulier Chavanea a fini'
+  [fused_4] 'egressa clamabat dicens miserere me fi li da'
+  [fused_5] 'vid evovae mulier magna est fides tua fiat tibi si'
+  [fused_6] 'oro dacis domine frea vei Sanctom Johannem snu'
+  [fused_7] 'no eratdies festus omne Sangnti episcopi'
+  [fused_8] 'cut petisti exovae mirum non esse ad bndictus aut Ingelus do'
+  [fused_9] 'o monebatur agna et sanabaturi'
+  [fused_10] 'me Qui me sanum  michi precepit tolle gra oro Erandinos Salbto Sanctonm'
+  [fused_11] 'chun Inioteri assumpsita omni'
+  [fused_12] 'batum tuum et Ambula in pace evovac digns coms i Enanglica se ad b'
+  [fused_13] 'discipulos suos et ascendit in montem et'
+  [fused_14] 'Doo prpluntiium ad res'
+  [fused_15] 'as capitulum Rogamus'
+  [fused_16] 'nos ad magnificat'
+  [fused_17] 'transfiguratus est ante eos exorae antipbona visionem'
+  [fused_18] 'auum indiseum nenam dientio conta mermo resiungat fimo o'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'in corde meo consolationes tue letificaverunt a mimam me'
+  Assigned: 'in corde meo consolationes tue letificaverunt animam meam'
+  Words:    [0..8) consumed=8
+  NW score: k=8 (pre-snap), norm=7.2569
+  Anchor:   word 14 (within_chant_7), diff=6, snapped=False, forced=False
+  Alignment:
+    target            0 in corde meo consolationes tue letificaverunt a mimam me-- 56
+                      0 ||  2
+    query             0 in corde meo consolationes tue letificaverunt a-nimam meam 57
+
+-- fused_1 --
+  OCR:      'm. Qiicha Petrum laccimantem suscepisti ao bi'
+  Assigned: 'Qui chananeam Et etrum lacrimantem suscepisti'
+  Words:    [8..14) consumed=6
+  NW score: k=6 (pre-snap), norm=3.8889
+  Anchor:   word 14 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 m. Q-iicha------ --Petrum laccimantem suscepisti ao bi 45
+                      0 ---|-|.|||------ 16
+    query             0 ---Qui chananeam Et etrum lacrimantem suscepist------i 45
+
+-- fused_2 --
+  OCR:      'misericors domi neEnominisi dictu gressus Jhesus'
+  Assigned: 'misericors domine Tu dixisti Egressus ihesus'
+  Words:    [14..20) consumed=6
+  NW score: k=6 (pre-snap), norm=4.4607
+  Anchor:   word 20 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 misericors domi ne-Enominis-i dictu gressus Jhesus 48
+                      0 |||||||||| 10
+    query             0 misericors domi-ne Tu dixisti -----Egressus ihesus 44
+
+-- fused_3 --
+  OCR:      'secessit in partes tyri et Sydonis et ecclesie mulier Chavanea a fini'
+  Assigned: 'secessit in partes tyri et sydonis et ecce mulier chananea a fini'
+  Words:    [20..32) consumed=12
+  NW score: k=12 (pre-snap), norm=6.5987
+  Anchor:   word 32 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 secessit in partes tyri et Sydonis et ecclesie mulier Chavan
+                      0 ||||||||
+    query             0 secessit in partes tyri et sydonis et ecc----e mulier chanan
+    
+    target           60 ea a fini--- 69
+                      8 || 10
+    query            56 ea a finibus 68
+
+-- fused_4 --
+  OCR:      'egressa clamabat dicens miserere me fi li da'
+  Assigned: 'bus illis egressa clamabat dicens miserere mei fili da'
+  Words:    [32..40) consumed=8
+  NW score: k=8 (pre-snap), norm=6.1088
+  Anchor:   word 40 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ------egressa clamabat dicens miserere me- fi li da--- 44
+                      0 ------||||||| 13
+    query             0 illis egressa clamabat dicens miserere mei fi-li david 53
+
+-- fused_5 --
+  OCR:      'vid evovae mulier magna est fides tua fiat tibi si'
+  Assigned: 'vid euouae O mulier magna est fides tua fiat tibi si'
+  Words:    [40..50) consumed=10
+  NW score: k=10 (pre-snap), norm=6.0003
+  Anchor:   word 50 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 vid evovae-- mulier magna est fides tua fiat tibi si--- 50
+                      0 ----|.|.||-- 12
+    query             0 ----euouae O mulier magna est fides tua fiat tibi sicut 51
+
+-- fused_6 --
+  OCR:      'oro dacis domine frea vei Sanctom Johannem snu'
+  Assigned: 'cut petisti euouae Angelus domini descendebat de celo movebatur aqua'
+  Words:    [50..59) consumed=9
+  NW score: k=9 (pre-snap), norm=-1.0321
+  Anchor:   word 54 (within_chant_7), diff=5, snapped=False, forced=False
+  Alignment:
+    target            0 ----------o-ro --dacis domine -----fre-a- vei Sanc-tom Jo--h
+                      0 ----------|-..
+    query             0 petisti euouae Angelus domini descendebat de- ---celo- moveb
+    
+    target           37 annem snu- 46
+                     14 |-... 19
+    query            55 a-tur aqua 64
+
+-- fused_7 --
+  OCR:      'no eratdies festus omne Sangnti episcopi'
+  Assigned: 'et sanabatur unus euouae Qui me sanum fecit'
+  Words:    [59..67) consumed=8
+  NW score: k=8 (pre-snap), norm=-0.8921
+  Anchor:   word 63 (within_chant_7), diff=4, snapped=False, forced=False
+  Alignment:
+    target            0 no ---erat---dies ----festus omne Sangnti -episcopi- 40
+                      0 ..  2
+    query             0 et sanabatur unus euouae Qui -m-e sa--num fe---c--it 43
+
+-- fused_8 --
+  OCR:      'cut petisti exovae mirum non esse ad bndictus aut Ingelus do'
+  Assigned: 'ille michi precepit tolle gra'
+  Words:    [67..72) consumed=5
+  NW score: k=14 (pre-snap), norm=-0.7403
+  Anchor:   word 72 (within_chant_7), diff=9, snapped=False, forced=True
+  Alignment:
+    target            0 -cut petisti --exovae mirum non esse --ad bndictus aut Ingel
+                      0 -...
+    query             0 ille --michi pre---ce-pi--t to---lle gra--b--------a-t------
+    
+    target           55 us do 60
+                      4 |---.  9
+    query            32 u---m 34
+
+-- fused_9 --
+  OCR:      'o monebatur agna et sanabaturi'
+  Assigned: 'batum tuum et ambula'
+  Words:    [72..75) consumed=3
+  NW score: k=3 (pre-snap), norm=-1.0247
+  Anchor:   word 78 (within_chant_7), diff=3, snapped=False, forced=False
+  Alignment:
+    target            0 o monebatur agna et sanabaturi 30
+                      0 --------||----.. 16
+    query             0 --------tu----um et -a-mb--ula 14
+
+-- fused_10 --
+  OCR:      'me Qui me sanum  michi precepit tolle gra oro Erandinos Salbto Sanctonm'
+  Assigned: 'in pace euouae Assumpsit ihesus discipulos suos et ascendit in montem et transfiguratus est ante'
+  Words:    [75..90) consumed=15
+  NW score: k=15 (pre-snap), norm=-0.8721
+  Anchor:   word 78 (within_chant_7), diff=12, snapped=False, forced=False
+  Alignment:
+    target            0 -----me Qui me -sanum---- ------ mi-chi----- ---pre----ce-pi
+                      0 -----.|
+    query             0 in pace euouae As-sumpsit ihesus disc-ipulos suos et ascendi
+    
+    target           30 t--- tolle gra oro Eran-di----nos Salbto Sanctonm 71
+                      7 |--- 11
+    query            58 t in monte---m -et transfiguratus --est- -an-t--e 96
+
+-- fused_11 --
+  OCR:      'chun Inioteri assumpsita omni'
+  Assigned: 'eos euouae Visionem quam vidistis nemini'
+  Words:    [90..96) consumed=6
+  NW score: k=6 (pre-snap), norm=-1.1451
+  Anchor:   word 93 (within_chant_7), diff=3, snapped=False, forced=False
+  Alignment:
+    target            0 -----chu-n -Inioteri assu-mpsi---t-a -om-ni 29
+                      0 -----..|-. 10
+    query             0 eos euouae Visione-m --quam vidistis nemini 40
+
+-- fused_12 --
+  OCR:      'batum tuum et Ambula in pace evovac digns coms i Enanglica se ad b'
+  Assigned: 'dixeritis donec a mortuis resurgat filius hominis'
+  Words:    [96..103) consumed=7
+  NW score: k=7 (pre-snap), norm=-1.6354
+  Anchor:   word 103 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 batum tuum ---et Ambula -----in pace evovac di-gns coms i En
+                      0 ......|-..
+    query             0 dixerit-is donec -----a mortuis --re-surgat filius hom--i---
+    
+    target           51 anglica se ad b 66
+                     10 -|--|---|------ 25
+    query            46 -n--i---s------ 49
+
+-- fused_13 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [103..103) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_14 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [103..103) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_15 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [103..103) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_16 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [103..103) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_17 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [103..103) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_18 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [103..103) consumed=0
+  Alignment:
+    (no words left)
+=== END DEBUG ===
+

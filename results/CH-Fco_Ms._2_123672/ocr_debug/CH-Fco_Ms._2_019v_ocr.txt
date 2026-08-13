@@ -1,0 +1,243 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'Nonvertere domine aliquantulum et ne tardes venire ad ser'
+  [fused_1] 'nostuos  Domine Refu eovae e Syon veniet qui regnatu'
+  [fused_2] 'rus est dominus Hemanuel i agnum nomen ejusdsds'
+  [fused_3] 'evovae . Note deus meus et honorabo eum Deus patris'
+  [fused_4] 'mci et exaltabo eum pros Lantenius evovae ominus'
+  [fused_5] 'legifer noster dominus rex noster ipse veniet et salvabit nos'
+  [fused_6] 'ad'
+  [fused_7] 'bnd'
+  [fused_8] 'pos laudate evovae ant igilate anioin proximo est'
+  [fused_9] 'oro de Domini'
+  [fused_10] 'ica ad mas'
+  [fused_11] 'dominus deus noster evovae ante ntuemim quant'
+  [fused_12] 'sit gloriosus iste qui ingreditur ad salvandos populos evonae deidi sci sacai e secundum Lucam'
+  [fused_13] 'oio teprs Eturges Maria'
+  [fused_14] 'uesancti absii episcopi Morale est'
+  [fused_15] 'mitte agnum. omnibus .'
+  [fused_16] 'tre dere ma deser ti armontemt'
+  [fused_17] 'steni de nobis domine minsericordiam'
+  [fused_18] ' sabeant taude nobis . deperoo'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'Nonvertere domine aliquantulum et ne tardes venire ad ser'
+  Assigned: 'Convertere domine aliquantulum et ne tardes venire ad ser'
+  Words:    [0..9) consumed=9
+  NW score: k=9 (pre-snap), norm=7.3528
+  Anchor:   word 9 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 Nonvertere domine aliquantulum et ne tardes venire ad ser---
+                      0 .|||||||||
+    query             0 Convertere domine aliquantulum et ne tardes venire ad servos
+    
+    target           57 
+                     10 
+    query            60 
+
+-- fused_1 --
+  OCR:      'nostuos  Domine Refu eovae e Syon veniet qui regnatu'
+  Assigned: 'vos tuos ~Domine refugium euouae De syon veniet qui regnatu'
+  Words:    [9..18) consumed=9
+  NW score: k=9 (pre-snap), norm=5.1713
+  Anchor:   word 18 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 nostuos  Domine Refu---- e-ovae -e Syon veniet qui regnatu--
+                      0 ---||||
+    query             0 ---tuos ~Domine refugium euouae De syon veniet qui regnaturu
+    
+    target           52 - 52
+                      7 -  8
+    query            57 s 58
+
+-- fused_2 --
+  OCR:      'rus est dominus Hemanuel i agnum nomen ejusdsds'
+  Assigned: 'rus est dominus hemanuel magnum nomen eius ~Deus'
+  Words:    [18..25) consumed=7
+  NW score: k=6 (pre-snap), norm=5.3477
+  Anchor:   word 25 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 rus est dominus Hemanuel i agnum nomen ejus--dsds 47
+                      0 ----|||  7
+    query             0 ----est dominus hemanuel -magnum nomen eius ~Deus 44
+
+-- fused_3 --
+  OCR:      'evovae . Note deus meus et honorabo eum Deus patris'
+  Assigned: 'deus euouae Ecce deus meus et honorabo eum deus patris'
+  Words:    [25..35) consumed=10
+  NW score: k=10 (pre-snap), norm=5.4308
+  Anchor:   word 35 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -----evovae . Note deus meus et honorabo eum Deus patris 51
+                      0 -----|.|.||-- 13
+    query             0 deus euouae-- Ecce deus meus et honorabo eum deus patris 54
+
+-- fused_4 --
+  OCR:      'mci et exaltabo eum pros Lantenius evovae ominus'
+  Assigned: 'mei et exaltabo eum ~Cantemus euouae Dominus'
+  Words:    [35..42) consumed=7
+  NW score: k=7 (pre-snap), norm=5.1353
+  Anchor:   word 42 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 mci et exaltabo eum pros Lantenius evovae -ominus 48
+                      0 |.|  3
+    query             0 mei et exaltabo eum ----~Cante-mus euouae Dominus 44
+
+-- fused_5 --
+  OCR:      'legifer noster dominus rex noster ipse veniet et salvabit nos'
+  Assigned: 'legifer noster dominus rex noster ipse veniet et salvabit nos'
+  Words:    [42..52) consumed=10
+  NW score: k=10 (pre-snap), norm=8.0000
+  Anchor:   word 52 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 legifer noster dominus rex noster ipse veniet et salvabit no
+                      0 |||||||
+    query             0 legifer noster dominus rex noster ipse veniet et salvabit no
+    
+    target           60 s 61
+                      7 |  8
+    query            60 s 61
+
+-- fused_6 --
+  OCR:      'ad'
+  Assigned: '~Laudate'
+  Words:    [52..53) consumed=1
+  NW score: k=1 (pre-snap), norm=-3.5000
+  Anchor:   word 59 (within_chant_7), diff=6, snapped=False, forced=False
+  Alignment:
+    target            0 --a-d--- 2
+                      0 --|-|--- 8
+    query             0 ~Laudate 8
+
+-- fused_7 --
+  OCR:      'bnd'
+  Assigned: 'euouae'
+  Words:    [53..54) consumed=1
+  NW score: k=1 (pre-snap), norm=-6.5997
+  Anchor:   word 59 (within_chant_7), diff=5, snapped=False, forced=False
+  Alignment:
+    target            0 ---bnd 3
+                      0 ---... 6
+    query             0 euouae 6
+
+-- fused_8 --
+  OCR:      'pos laudate evovae ant igilate anioin proximo est'
+  Assigned: 'Vigilate animo in proximo est'
+  Words:    [54..59) consumed=5
+  NW score: k=5 (pre-snap), norm=3.1568
+  Anchor:   word 59 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 pos laudate evovae ant igilate ani-o-in proximo est 49
+                      0 ----------------------.||||||| 30
+    query             0 ----------------------Vigilate animo in proximo est 29
+
+-- fused_9 --
+  OCR:      'oro de Domini'
+  Assigned: 'dominus'
+  Words:    [59..60) consumed=1
+  NW score: k=1 (pre-snap), norm=-0.1048
+  Anchor:   word 65 (within_chant_7), diff=5, snapped=False, forced=False
+  Alignment:
+    target            0 oro de Domin-i 13
+                      0 ----|---||||-. 14
+    query             0 ----d---ominus  7
+
+-- fused_10 --
+  OCR:      'ica ad mas'
+  Assigned: 'deus noster'
+  Words:    [60..62) consumed=2
+  NW score: k=2 (pre-snap), norm=-2.9557
+  Anchor:   word 65 (within_chant_7), diff=3, snapped=False, forced=False
+  Alignment:
+    target            0 ica ad--- mas--- 10
+                      0 -----|---  9
+    query             0 -----deus noster 11
+
+-- fused_11 --
+  OCR:      'dominus deus noster evovae ante ntuemim quant'
+  Assigned: 'euouae Intuemini quantus'
+  Words:    [62..65) consumed=3
+  NW score: k=3 (pre-snap), norm=0.8520
+  Anchor:   word 65 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 dominus deus noster evovae ante ntuemi-m quant-- 45
+                      0 ---------||-----------|.|| 26
+    query             0 ---------eu-----------ouae ----Intuemini quantus 24
+
+-- fused_12 --
+  OCR:      'sit gloriosus iste qui ingreditur ad salvandos populos evonae deidi sci sacai e secundum Lucam'
+  Assigned: 'sit gloriosus iste qui ingreditur ad salvandos populos euouae'
+  Words:    [65..74) consumed=9
+  NW score: k=11 (pre-snap), norm=4.9399
+  Anchor:   word 74 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 sit gloriosus iste qui ingreditur ad salvandos populos evona
+                      0 |||
+    query             0 sit gloriosus iste qui ingreditur ad salvandos populos euoua
+    
+    target           60 e deidi sci sacai e secundum Lucam 94
+                      3 |--------------------------------- 37
+    query            60 e--------------------------------- 61
+
+-- fused_13 --
+  OCR:      'oio teprs Eturges Maria'
+  Assigned: 'Emitte agnum domine dominatorem'
+  Words:    [74..78) consumed=4
+  NW score: k=9 (pre-snap), norm=-1.9057
+  Anchor:   word 78 (within_chant_7), diff=5, snapped=False, forced=True
+  Alignment:
+    target            0 -oio teprs -Etu-----rges ----Ma--ria 23
+                      0 -.|-.||--- 10
+    query             0 Emi-tte--- agnum domine- dominatorem 31
+
+-- fused_14 --
+  OCR:      'uesancti absii episcopi Morale est'
+  Assigned: 'terre De petra deserti ad montem filie syon'
+  Words:    [78..86) consumed=8
+  NW score: k=9 (pre-snap), norm=-1.8011
+  Anchor:   word 86 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 uesancti ----absii -episcopi--- Mo-----ral-e es--t 34
+                      0 .|......  8
+    query             0 terre De petra---- de--serti ad montem filie -syon 43
+
+-- fused_15 --
+  OCR:      'mitte agnum. omnibus .'
+  Assigned: 'Ostende nobis domine misericordiam'
+  Words:    [86..90) consumed=4
+  NW score: k=2 (pre-snap), norm=-1.2418
+  Anchor:   word 90 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 mit--te agn-um. -om-n---ibus-------- . 22
+                      0 ..|--.|  7
+    query             0 Ostende --nobis domine mi--sericordiam 34
+
+-- fused_16 --
+  OCR:      'tre dere ma deser ti armontemt'
+  Assigned: 'tuam et salutare tuum da nobis De petra Rorate'
+  Words:    [90..99) consumed=9
+  NW score: k=9 (pre-snap), norm=-0.7807
+  Anchor:   word 99 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 t---re- ----dere ---m--a --des--er --ti armo-ntemt 30
+                      0 |---.|-  7
+    query             0 tuam et salutare tuum da nobis De- pet-ra Rorate-- 46
+
+-- fused_17 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [99..99) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_18 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [99..99) consumed=0
+  Alignment:
+    (no words left)
+=== END DEBUG ===
+

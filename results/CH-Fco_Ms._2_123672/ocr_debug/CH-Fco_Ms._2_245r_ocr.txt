@@ -1,0 +1,171 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'mrundata est domus domini inpra ver'
+  [fused_1] 'um et exaltata est superommesolles'
+  [fused_2] 'et venient ad eum omnes gentesdicent glori'
+  [fused_3] 'atibi domi ne Vemen ces autem venient com'
+  [fused_4] 'ccultatio ne portantes maniulostdi'
+  [fused_5] 'cent enedic domine domum istam quam edi'
+  [fused_6] 'Sans nomin tu o veniencium in loco is to'
+  [fused_7] 'dias preces in excelso solio glo neta'
+  [fused_8] 'omine si conversus fuerit populus tuus et'
+  [fused_9] 'oraverit ad Sanctua mum tuuet erardia'
+  [fused_10] 'Non est hic aliud nisi domus Dei et porta celi pres'
+  [fused_11] 'Quam dilecta eovae vidit Jacobis scalam sumitas'
+  [fused_12] 'ns celos tangebat et descendentes Angelos et doint'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'mrundata est domus domini inpra ver'
+  Assigned: 'Et in ore Fundata est domus domini supra verticem'
+  Words:    [0..9) consumed=9
+  NW score: k=9 (pre-snap), norm=4.5155
+  Anchor:   word 9 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ------mr---undata est domus domini inpra ver----- 35
+                      0 ------.|---|||||| 17
+    query             0 Et in ore Fundata est domus domini supra verticem 49
+
+-- fused_1 --
+  OCR:      'um et exaltata est superommesolles'
+  Assigned: 'moncium et exaltata est super omnes colles et'
+  Words:    [9..17) consumed=8
+  NW score: k=7 (pre-snap), norm=5.9012
+  Anchor:   word 17 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 -----um et exaltata est super-ommes--olles--- 34
+                      0 -----||  7
+    query             0 moncium et exaltata est super omnes colles et 45
+
+-- fused_2 --
+  OCR:      'et venient ad eum omnes gentesdicent glori'
+  Assigned: 'venient ad eam omnes gentes Et dicent glori'
+  Words:    [17..25) consumed=8
+  NW score: k=8 (pre-snap), norm=6.1179
+  Anchor:   word 25 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 et venient ad eum omnes gentes----dicent glori- 42
+                      0 ---||||||| 10
+    query             0 ---venient ad eam omnes gentes Et dicent gloria 44
+
+-- fused_3 --
+  OCR:      'atibi domi ne Vemen ces autem venient com'
+  Assigned: 'a tibi domine Venientes autem venient cum'
+  Words:    [25..31) consumed=6
+  NW score: k=6 (pre-snap), norm=5.9269
+  Anchor:   word 31 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 atibi domi ne Ve-men ces autem venient com 41
+                      0 -||||  5
+    query             0 -tibi domi-ne Venien-tes autem venient cum 39
+
+-- fused_4 --
+  OCR:      'ccultatio ne portantes maniulostdi'
+  Assigned: 'exultatione portantes manipulos suos Et'
+  Words:    [31..36) consumed=5
+  NW score: k=3 (pre-snap), norm=5.7600
+  Anchor:   word 36 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 ccultatio ne portantes mani-ulos-------tdi 34
+                      0 ..|||||||-|| 12
+    query             0 exultatio-ne portantes manipulos suos Et-- 39
+
+-- fused_5 --
+  OCR:      'cent enedic domine domum istam quam edi'
+  Assigned: 'dicent Benedic domine domum istam quam edi'
+  Words:    [36..43) consumed=7
+  NW score: k=6 (pre-snap), norm=6.4161
+  Anchor:   word 43 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 --cent -enedic domine domum istam quam ed------i 39
+                      0 --||||  6
+    query             0 dicent Benedic domine domum istam quam edificavi 48
+
+-- fused_6 --
+  OCR:      'Sans nomin tu o veniencium in loco is to'
+  Assigned: 'ficavi nomini tuo veniencium in loco isto Exaudias preces in excelso solio glorie'
+  Words:    [43..55) consumed=12
+  NW score: k=6 (pre-snap), norm=6.0741
+  Anchor:   word 55 (within_chant_7), diff=6, snapped=False, forced=True
+  Alignment:
+    target            0 Sans nomin- tu o veniencium in loco is----------------------
+                      0 -----|||||-
+    query             0 -----nomini tu-o veniencium in loco isto Exaudias preces in 
+    
+    target           37 ------- to---------- 40
+                     11 ------- 18
+    query            54 excelso solio glorie 74
+
+-- fused_7 --
+  OCR:      'dias preces in excelso solio glo neta'
+  Assigned: 'tue Domine si conversus fuerit populus tuus et'
+  Words:    [55..63) consumed=8
+  NW score: k=8 (pre-snap), norm=-1.6483
+  Anchor:   word 63 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ------dias prec---e---s in excelso so--lio -glo neta 37
+                      0 ------.|.. 10
+    query             0 tue Domine si conversus ----fuerit populus tuus -et- 46
+
+-- fused_8 --
+  OCR:      'omine si conversus fuerit populus tuus et'
+  Assigned: 'oraverit ad sanctuarium tuum Et'
+  Words:    [63..68) consumed=5
+  NW score: k=5 (pre-snap), norm=-0.1402
+  Anchor:   word 68 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 omine--- si conversus fuerit populus tuus et 41
+                      0 |...|---  8
+    query             0 oraverit ad ------sanctuari-------um tuum Et 31
+
+-- fused_9 --
+  OCR:      'oraverit ad Sanctua mum tuuet erardia'
+  Assigned: 'exaudias Non est hic aliud nisi domus dei et porta celi'
+  Words:    [68..79) consumed=11
+  NW score: k=10 (pre-snap), norm=-1.0230
+  Anchor:   word 79 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 ora---------ve---rit a---d Sanctua --mum -tuuet -er-a--rdia
+                      0 ..|---------.|---.|.
+    query             0 exaudias Non est hic aliud --n-isi domus dei et porta celi-
+    
+    target           37
+                     20
+    query            55
+
+-- fused_10 --
+  OCR:      'Non est hic aliud nisi domus Dei et porta celi pres'
+  Assigned: '~Quam dilecta euouae Vidit iacob scalam summitas eius celos tangebat et'
+  Words:    [79..90) consumed=11
+  NW score: k=11 (pre-snap), norm=-1.1633
+  Anchor:   word 87 (within_chant_7), diff=3, snapped=False, forced=False
+  Alignment:
+    target            0 Non est hi--c aliu---d nisi- --do-------m--u-----s Dei-- -et
+                      0 --.....
+    query             0 --~Quam dilecta euouae Vidit iacob scalam summitas -eius ce-
+    
+    target           35  po-rta ce-li pres 51
+                      7 -.|-.||..|-.. 20
+    query            56 -los tangebat --et 71
+
+-- fused_11 --
+  OCR:      'Quam dilecta eovae vidit Jacobis scalam sumitas'
+  Assigned: 'descendentes angelos et dixit'
+  Words:    [90..94) consumed=4
+  NW score: k=4 (pre-snap), norm=-1.9231
+  Anchor:   word 94 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 Quam dile-cta eovae vidit-- Ja---cobis scalam sumitas 47
+                      0 -----|--|-|---|-..|----.|-- 27
+    query             0 -----d--esc---e-nde----ntes -angelo--s ----et dixit-- 29
+
+-- fused_12 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [94..94) consumed=0
+  Alignment:
+    (no words left)
+=== END DEBUG ===
+

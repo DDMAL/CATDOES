@@ -1,0 +1,167 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'Iu tis et indumento leti dime . et'
+  [fused_1] 'tanquam sponsam decora vit me coronaradi'
+  [fused_2] 'dit ribus meis inextimabiles Margaaset'
+  [fused_3] 'circundedit me vernantibus atque coruscantibus gemi mis .'
+  [fused_4] 'et tanquam et lac emoquss'
+  [fused_5] 'Pi et Sanguis e ornaintgenas me'
+  [fused_6] ' sten dit chi thesauros in compa rabi'
+  [fused_7] 'les quos michi se donaturum repro mi sit. et'
+  [fused_8] 'Sanguis Nam corpus ejus coporioo'
+  [fused_9] 'atumest et sanguis e ms omaint genas'
+  [fused_10] 'me ad Cnjus mater nugo cujse '
+  [fused_11] 'nam nos cc. pli sum teponlata ou angen'
+  [fused_12] 'semui unc curis solet iu namiran'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'Iu tis et indumento leti dime . et'
+  Assigned: 'et indumento leticie'
+  Words:    [0..3) consumed=3
+  NW score: k=3 (pre-snap), norm=3.4130
+  Anchor:   word 12 (within_chant_7), diff=9, snapped=False, forced=False
+  Alignment:
+    target            0 Iu tis et indumento leti dime . et 34
+                      0 -------||  9
+    query             0 -------et indumento leti-ci-----e- 20
+
+-- fused_1 --
+  OCR:      'tanquam sponsam decora vit me coronaradi'
+  Assigned: 'circundedit me Et tamquam sponsam decoravit me corona tradi'
+  Words:    [3..12) consumed=9
+  NW score: k=9 (pre-snap), norm=4.2370
+  Anchor:   word 12 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ------------------tanquam sponsam decora vit me corona--radi
+                      0 ------------------||.||||
+    query             0 circundedit me Et tamquam sponsam decora-vit me corona Tradi
+    
+    target           40 --- 40
+                     25 --- 28
+    query            59 dit 62
+
+-- fused_2 --
+  OCR:      'dit ribus meis inextimabiles Margaaset'
+  Assigned: 'dit auribus meis inextimabiles margaritas et'
+  Words:    [12..17) consumed=5
+  NW score: k=5 (pre-snap), norm=5.6172
+  Anchor:   word 17 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 dit ribus meis inextimabiles Marga---as-et 38
+                      0 --..|||||  9
+    query             0 --auribus meis inextimabiles margaritas et 40
+
+-- fused_3 --
+  OCR:      'circundedit me vernantibus atque coruscantibus gemi mis .'
+  Assigned: 'circundedit me vernantibus atque coruscantibus gemmis'
+  Words:    [17..23) consumed=6
+  NW score: k=6 (pre-snap), norm=7.3503
+  Anchor:   word 23 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 circundedit me vernantibus atque coruscantibus gemi mis . 57
+                      0 ||||||||||| 11
+    query             0 circundedit me vernantibus atque coruscantibus gem--mis-- 53
+
+-- fused_4 --
+  OCR:      'et tanquam et lac emoquss'
+  Assigned: 'Et tanquam Mel et lac ex eius ore suscepi'
+  Words:    [23..32) consumed=9
+  NW score: k=7 (pre-snap), norm=4.0853
+  Anchor:   word 32 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 et tanquam---- et lac e------mo---qus---s 25
+                      0 .|  2
+    query             0 Et tanquam Mel et lac ex eius ore suscepi 41
+
+-- fused_5 --
+  OCR:      'Pi et Sanguis e ornaintgenas me'
+  Assigned: 'Et sanguis eius ornavit genas meas'
+  Words:    [32..38) consumed=6
+  NW score: k=6 (pre-snap), norm=4.0967
+  Anchor:   word 38 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 Pi et Sanguis e--- orna-int-genas me-- 31
+                      0 ---.|  5
+    query             0 ---Et sanguis eius ornavi-t genas meas 34
+
+-- fused_6 --
+  OCR:      'sten dit chi thesauros in compa rabi'
+  Assigned: 'Ostendit michi thesauros incomparabiles'
+  Words:    [38..42) consumed=4
+  NW score: k=4 (pre-snap), norm=5.6845
+  Anchor:   word 42 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -sten dit --chi thesauros in compa rabi--- 36
+                      0 -||||-|||  9
+    query             0 Osten-dit michi thesauros in-compa-rabiles 39
+
+-- fused_7 --
+  OCR:      'les quos michi se donaturum repro mi sit. et'
+  Assigned: 'quos michi se donaturum repromisit Et'
+  Words:    [42..48) consumed=6
+  NW score: k=6 (pre-snap), norm=6.0969
+  Anchor:   word 48 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 les quos michi se donaturum repro mi sit. et 44
+                      0 ----||||  8
+    query             0 ----quos michi se donaturum repro-mi-sit- Et 37
+
+-- fused_8 --
+  OCR:      'Sanguis Nam corpus ejus coporioo'
+  Assigned: 'sanguis Iam corpus eius corpori meo soci'
+  Words:    [48..55) consumed=7
+  NW score: k=5 (pre-snap), norm=5.8420
+  Anchor:   word 55 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 Sanguis Nam corpus ejus co-pori---o--o------ 32
+                      0 .||||||  7
+    query             0 sanguis Iam corpus eius corpori meo sociatum 44
+
+-- fused_9 --
+  OCR:      'atumest et sanguis e ms omaint genas'
+  Assigned: 'atum est et sanguis eius ornavit genas'
+  Words:    [55..61) consumed=6
+  NW score: k=6 (pre-snap), norm=4.9902
+  Anchor:   word 61 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 atumest et sanguis e ms o-ma-int genas 36
+                      0 ----|||  7
+    query             0 ----est et sanguis eius ornavi-t genas 33
+
+-- fused_10 --
+  OCR:      'me ad Cnjus mater nugo cujse'
+  Assigned: 'meas Cuius mater virgo est cuius pater'
+  Words:    [61..68) consumed=7
+  NW score: k=5 (pre-snap), norm=3.1503
+  Anchor:   word 68 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 me ad Cnjus mater -nugo---- cu-js----e- 28
+                      0 ||-|.  5
+    query             0 me-as Cuius mater virgo est cuius pater 38
+
+-- fused_11 --
+  OCR:      'nam nos cc. pli sum teponlata ou angen'
+  Assigned: 'feminam nescit Ipsi sum desponsata cui angeli'
+  Words:    [68..75) consumed=7
+  NW score: k=7 (pre-snap), norm=3.4097
+  Anchor:   word 75 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ----nam nos cc. -pli sum te-ponlata ou- ange-n 38
+                      0 ----|||  7
+    query             0 feminam nes-cit Ipsi sum desponsata cui angeli 45
+
+-- fused_12 --
+  OCR:      'semui unc curis solet iu namiran'
+  Assigned: 'serviunt cuius pulchritudinem sol et luna mirantur'
+  Words:    [75..82) consumed=7
+  NW score: k=7 (pre-snap), norm=2.0250
+  Anchor:   word 82 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 semui unc cu---------ri------s sol-et iu na-miran--- 32
+                      0 ||..|-||.  9
+    query             0 servi-unt cuius pulchritudinem sol et lu-na mirantur 50
+=== END DEBUG ===
+

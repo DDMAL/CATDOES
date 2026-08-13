@@ -1,0 +1,219 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'est mulieribus di cens quem queri tis an Jhesim'
+  [fused_1] 'queri tis jam lurretit. venite et inde te Allelum'
+  [fused_2] 'a alleluvahesum queritis Nazarenum crucifi'
+  [fused_3] 'eia cantant qua cantata s'
+  [fused_4] 'per totam ebdomadam precedentem'
+  [fused_5] 'rum surrerit non est hic venite mn noct ante'
+  [fused_6] 'seli pa quem queris mulier Alleluya inventem cum'
+  [fused_7] 'mortius Alleluya Alleluya ps Conserva me evovae diliga te Domine  . Silrretit d'
+  [fused_8] 'le de Smone SanctiLeoiis p'
+  [fused_9] 'Retinet sanctitas vestra iIn mo ant Melupa noli flere Maria Alleli'
+  [fused_10] 'resuexit domsla'
+  [fused_11] 'Exaudiat te preus domine mirture V . Gavilisut discti arra re viso domino aa secundum'
+  [fused_12] ' Johannem inillot cum cst sero . Dmnes dicti Gregorii paope prialecto e Eedmim laudamus ad laudes aut'
+  [fused_13] 'vae.'
+  [fused_14] 'Neluya Alleliya Alleluya Alleluya Alleluya Alleluya'
+  [fused_15] 'p qubilat Alleluya Asleluya Alleluya Allelua po dominus Regis evovac'
+  [fused_16] 'urrexit rpistus de Sepulchro qui liberavit tres'
+  [fused_17] 'pueros de camno ignios ardentis allelupisi denes enor'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'est mulieribus di cens quem queri tis an Jhesim'
+  Assigned: 'est mulieribus dicens quem queritis an ihesum'
+  Words:    [0..7) consumed=7
+  NW score: k=7 (pre-snap), norm=6.9582
+  Anchor:   word 19 (within_chant_7), diff=12, snapped=False, forced=False
+  Alignment:
+    target            0 est mulieribus di cens quem queri tis an Jhesim 47
+                      0 |||  3
+    query             0 est mulieribus di-cens quem queri-tis an ihesum 45
+
+-- fused_1 --
+  OCR:      'queri tis jam lurretit. venite et inde te Allelum'
+  Assigned: 'queritis iam surrexit Venite et videte allelua'
+  Words:    [7..14) consumed=7
+  NW score: k=7 (pre-snap), norm=5.2026
+  Anchor:   word 19 (within_chant_7), diff=5, snapped=False, forced=False
+  Alignment:
+    target            0 queri tis jam lurretit. venite et -inde te Allelum 49
+                      0 |||||-|||  9
+    query             0 queri-tis iam surrexit- Venite et vi-de-te allelua 46
+
+-- fused_2 --
+  OCR:      'a alleluvahesum queritis Nazarenum crucifi'
+  Assigned: 'alleluya Ihesum queritis nazarenum crucifix'
+  Words:    [14..19) consumed=5
+  NW score: k=5 (pre-snap), norm=6.0036
+  Anchor:   word 19 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 a alleluva--hesum queritis Nazarenum crucifi--- 42
+                      0 --||||||.|--||||| 17
+    query             0 --alleluya Ihesum queritis nazarenum crucifixum 45
+
+-- fused_3 --
+  OCR:      'eia cantant qua cantata s'
+  Assigned: 'um surrexit non est hic Venite'
+  Words:    [19..24) consumed=5
+  NW score: k=5 (pre-snap), norm=-1.2702
+  Anchor:   word 24 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ----e-ia cantant qua cantata s 25
+                      0 ----|-|.  8
+    query             0 surrexit non est hic Ven-it--e 27
+
+-- fused_4 --
+  OCR:      'per totam ebdomadam precedentem'
+  Assigned: 'Alleluya quem queris mulier alleluia viventem cum'
+  Words:    [24..31) consumed=7
+  NW score: k=6 (pre-snap), norm=-1.4993
+  Anchor:   word 31 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 --pe---r totam --e-bdom------a-----dam precedente----m 31
+                      0 --.|---.  8
+    query             0 Alleluya -quem queris mulier alleluia- ---viventem cum 49
+
+-- fused_5 --
+  OCR:      'rum surrerit non est hic venite mn noct ante'
+  Assigned: 'mortuis alleluya alleluya ~Conserva me'
+  Words:    [31..36) consumed=5
+  NW score: k=9 (pre-snap), norm=-1.6829
+  Anchor:   word 36 (within_chant_7), diff=4, snapped=False, forced=True
+  Alignment:
+    target            0 rum surrerit non e--st hic venite mn noct ante 44
+                      0 --|---.|..|. 12
+    query             0 --m---ortuis -alleluya --alleluya ~Conserva me 38
+
+-- fused_6 --
+  OCR:      'seli pa quem queris mulier Alleluya inventem cum'
+  Assigned: 'euouae Alleluya noli flere maria allelu'
+  Words:    [36..42) consumed=6
+  NW score: k=8 (pre-snap), norm=-0.1491
+  Anchor:   word 42 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 ---------seli pa quem queris mulier Alleluya inventem cum 48
+                      0 ---------.||-..| 16
+    query             0 euouae Allel-uya noli fler-e mari-a alleluya------------- 41
+
+-- fused_7 --
+  OCR:      'mortius Alleluya Alleluya ps Conserva me evovae diliga te Domine  . Silrretit d'
+  Assigned: 'ya resurrexit dominus alleluya alleluya ~Celi enarrant'
+  Words:    [42..48) consumed=6
+  NW score: k=12 (pre-snap), norm=1.9568
+  Anchor:   word 48 (within_chant_7), diff=6, snapped=False, forced=True
+  Alignment:
+    target            0 ---mor---t----i-us Alleluya Alleluya ps Conserva me evovae d
+                      0 ---..|---|----|-||
+    query             0 resurrexit dominus alleluya alleluya --~C----------------e--
+    
+    target           49 iliga te Domine  . Silrretit d 79
+                     18 -||-- 23
+    query            40 -li-- -e-----n-------arr-ant-- 51
+
+-- fused_8 --
+  OCR:      'le de Smone SanctiLeoiis p'
+  Assigned: 'euouae ~Exaudiat te ~Domine in virtute'
+  Words:    [48..54) consumed=6
+  NW score: k=6 (pre-snap), norm=-1.4316
+  Anchor:   word 60 (within_chant_7), diff=6, snapped=False, forced=False
+  Alignment:
+    target            0 ----le -----d-----e --Smone San---ctiLeoiis p 26
+                      0 ----.|  6
+    query             0 euouae ~Exaudiat te ~Domine -in virtute------ 38
+
+-- fused_9 --
+  OCR:      'Retinet sanctitas vestra iIn mo ant Melupa noli flere Maria Alleli'
+  Assigned: 'Alleluya alleluya alleluya alleluya alleluya alleluya'
+  Words:    [54..60) consumed=6
+  NW score: k=5 (pre-snap), norm=-0.9464
+  Anchor:   word 60 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 Retinet sanctitas vestra iIn mo ant Melupa noli fle--re Ma--
+                      0 --...|...|----.|-..|...|-------
+    query             0 --Alleluya---- a-lleluya------- a--lleluya -al---leluya -all
+    
+    target           56 --ria Allel--i 66
+                     31 --..| 36
+    query            39 eluya alleluya 53
+
+-- fused_10 --
+  OCR:      'resuexit domsla'
+  Assigned: 'alleluya alleluya alleluya alleluya ~Dominus regnavit'
+  Words:    [60..66) consumed=6
+  NW score: k=2 (pre-snap), norm=-1.8787
+  Anchor:   word 66 (within_chant_7), diff=4, snapped=False, forced=True
+  Alignment:
+    target            0 --------------------resu------e-xit -dom---s----la--- 15
+                      0 --------------------.|.|------|-... 35
+    query             0 alleluya alleluya alleluya alleluya ~Dominus regnavit 53
+
+-- fused_11 --
+  OCR:      'Exaudiat te preus domine mirture V . Gavilisut discti arra re viso domino aa secundum'
+  Assigned: 'euouae Surrexit xpistus de sepulchro qui liberavit tres pueros de camino ignis ardencis'
+  Words:    [66..79) consumed=13
+  NW score: k=13 (pre-snap), norm=-0.6512
+  Anchor:   word 74 (within_chant_7), diff=5, snapped=False, forced=False
+  Alignment:
+    target            0 Exaudiat te --pre---------us domine mirtu---re V . ----Gavil
+                      0 --.|..|---|
+    query             0 --euoua---e Surrexit xpistus d----e -sepulchro qui liberavi-
+    
+    target           42 isut discti arra -re viso d---omino -----aa secundum 85
+                     11 ---| 15
+    query            49 ---t ----t---res pue-ros- de camino ignis arde--ncis 87
+
+-- fused_12 --
+  OCR:      'Johannem inillot cum cst sero . Dmnes dicti Gregorii paope prialecto e Eedmim laudamus ad laudes aut'
+  Assigned: 'alleluya ~Benedic euouae'
+  Words:    [79..82) consumed=3
+  NW score: k=3 (pre-snap), norm=-3.6742
+  Anchor:   word 82 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 Johannem inillot cu-m cst sero . Dmnes dicti Gregorii paope 
+                      0 ---|--------||--..|-.
+    query             0 ---a--------ll--eluya ---~Be-------ne--dic------------------
+    
+    target           59 prialecto e Eedmim laudamus ad laudes aut 100
+                     21 ---------  30
+    query            17 --------- e----------u--ou------a--e-----  24
+
+-- fused_13 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [82..82) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_14 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [82..82) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_15 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [82..82) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_16 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [82..82) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_17 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [82..82) consumed=0
+  Alignment:
+    (no words left)
+=== END DEBUG ===
+

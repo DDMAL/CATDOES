@@ -1,0 +1,243 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'Angeli domini dominum benedicite meternum predudn'
+  [fused_1] 'ovae Nngeli Archangeli Throni et dominationes prim'
+  [fused_2] 'iatsettesstsl'
+  [fused_3] 'caslui significavit de Mo . XIII Xp'
+  [fused_4] 'sanctorum  stetit anoso juxta ara templi'
+  [fused_5] 'de Celis Alelya ps Laudunis evovae habis cablim ad undim ante'
+  [fused_6] 'actum est silentium in celo divi dracho committeret'
+  [fused_7] 'bellum et Michael pugnavit cumeoet fecit juctoriam'
+  [fused_8] ' oan'
+  [fused_9] 'Anleluya exovae terit Angelus juxta ara'
+  [fused_10] 'abeus Thuribulum aureum in manu G. alcendit fu'
+  [fused_11] 'ta Bioria patri scendit fimus aroniatum'
+  [fused_12] 'nspetcsl'
+  [fused_13] 'nn conspectu Angelorum psanam tibi Deus'
+  [fused_14] 'dorabo ad Templum Sanctum tuum et confi'
+  [fused_15] 'G. adoratednOmne Angli cjus ad'
+  [fused_16] 'velpe content Anglo per ordine sic sut'
+  [fused_17] 'taud pr. dincp confitebor se'
+  [fused_18] 'tebornonim cuo pro saam Bra'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'Angeli domini dominum benedicite meternum predudn'
+  Assigned: 'deus euouae Angeli domini dominum benedicite in eternum'
+  Words:    [0..8) consumed=8
+  NW score: k=9 (pre-snap), norm=4.5893
+  Anchor:   word 8 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 ------------Angeli domini dominum benedicite --meternum pred
+                      0 ------------||||||
+    query             0 deus euouae Angeli domini dominum benedicite in eternum-----
+    
+    target           46 udn 49
+                     18 --- 21
+    query            55 --- 55
+
+-- fused_1 --
+  OCR:      'ovae Nngeli Archangeli Throni et dominationes prim'
+  Assigned: '~Benedic euouae Angeli archangeli throni et dominationes prin'
+  Words:    [8..16) consumed=8
+  NW score: k=7 (pre-snap), norm=4.7624
+  Anchor:   word 16 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 -----------ovae Nngeli Archangeli Throni et dominationes pri
+                      0 -----------|.||
+    query             0 ~Benedic euouae Angeli archangeli throni et dominationes pri
+    
+    target           49 -------m 50
+                     15 -------. 23
+    query            60 ncipatus 68
+
+-- fused_2 --
+  OCR:      'iatsettesstsl'
+  Assigned: 'cipatus et potestates virtutes celorum laudate dominum'
+  Words:    [16..22) consumed=6
+  NW score: k=2 (pre-snap), norm=0.0769
+  Anchor:   word 22 (within_chant_7), diff=4, snapped=False, forced=True
+  Alignment:
+    target            0 iatset---tes----s------t-s---------l-------------- 13
+                      0 ----||---|||----|------|-|---------|-------------- 50
+    query             0 ----et potestates virtutes celorum laudate dominum 46
+
+-- fused_3 --
+  OCR:      'caslui significavit de Mo . XIII Xp'
+  Assigned: 'de celis allelua'
+  Words:    [22..25) consumed=3
+  NW score: k=7 (pre-snap), norm=-2.3699
+  Anchor:   word 25 (within_chant_7), diff=4, snapped=False, forced=True
+  Alignment:
+    target            0 ---caslui significavit de Mo . XIII Xp 35
+                      0 ---|-.|-|-|------.|---..|----------... 38
+    query             0 de c-el-i-s------ a---lle----------lua 16
+
+-- fused_4 --
+  OCR:      'sanctorum  stetit anoso juxta ara templi'
+  Assigned: '{Laudate} euouae Factum est silentium in celo dum dracho committeret'
+  Words:    [25..35) consumed=10
+  NW score: k=10 (pre-snap), norm=-0.9012
+  Anchor:   word 35 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -------------sa---nctorum  st----e-ti-t an--oso juxta ara---
+                      0 -------------.|---.||--||
+    query             0 {Laudate} euouae Fact--um est silentium in celo du--m dracho
+    
+    target           33  ------templi 40
+                     25  25
+    query            56  committe-ret 68
+
+-- fused_5 --
+  OCR:      'de Celis Alelya ps Laudunis evovae habis cablim ad undim ante'
+  Assigned: 'bellum et michael pugnavit cum eo et fecit victoriam'
+  Words:    [35..44) consumed=9
+  NW score: k=13 (pre-snap), norm=-0.8994
+  Anchor:   word 44 (within_chant_7), diff=4, snapped=False, forced=True
+  Alignment:
+    target            0 de---- Ce--lis Alelya ps Laudun--i----s evovae- habis --cabl
+                      0 .|----
+    query             0 bellum -et mi-chael-- p----u-gnavit cum e-o- et fecit victor
+    
+    target           45 im ad undim ante 61
+                      6 |--|------|----- 22
+    query            49 i--a------m----- 52
+
+-- fused_6 --
+  OCR:      'actum est silentium in celo divi dracho committeret'
+  Assigned: 'alleluya euouae Stetit angelus iuxta aram templi Habens'
+  Words:    [44..52) consumed=8
+  NW score: k=8 (pre-snap), norm=-1.0007
+  Anchor:   word 49 (within_chant_7), diff=3, snapped=False, forced=False
+  Alignment:
+    target            0 a--ctu-m e---st silentium in cel-o di--vi dracho com-mittere
+                      0 |--..|-.
+    query             0 alleluya euouae -Ste-ti-t an-gelus -iuxta ara--m templi Habe
+    
+    target           50 -t 51
+                      8 -. 10
+    query            53 ns 55
+
+-- fused_7 --
+  OCR:      'bellum et Michael pugnavit cumeoet fecit juctoriam'
+  Assigned: 'thuribulum aureum in manu su'
+  Words:    [52..57) consumed=5
+  NW score: k=7 (pre-snap), norm=-0.6983
+  Anchor:   word 57 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 -----bellum et Michael pugnavit cumeoet fecit --juctoriam 50
+                      0 -----|-.||| 11
+    query             0 thurib-ulum -------a----u------reum---- ---in manu-- sua- 29
+
+-- fused_8 --
+  OCR:      'oan'
+  Assigned: 'a Iuxta'
+  Words:    [57..58) consumed=1
+  NW score: k=1 (pre-snap), norm=-4.3894
+  Anchor:   word 63 (within_chant_7), diff=5, snapped=False, forced=False
+  Alignment:
+    target            0 ---oan 3
+                      0 ---.|- 6
+    query             0 Iuxta- 5
+
+-- fused_9 --
+  OCR:      'Anleluya exovae terit Angelus juxta ara'
+  Assigned: 'Gloria patri Ascendit fumus aromatum'
+  Words:    [58..63) consumed=5
+  NW score: k=5 (pre-snap), norm=-0.6138
+  Anchor:   word 63 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 Anleluya exovae terit Ange-lus juxta ar--a--- 39
+                      0 -.|-...|  8
+    query             0 -Gl-oria ---pa--t-ri- Ascendit fumus aromatum 36
+
+-- fused_10 --
+  OCR:      'abeus Thuribulum aureum in manu G. alcendit fu'
+  Assigned: 'in conspectu domini De manu angeli In conspectu Gloria'
+  Words:    [63..72) consumed=9
+  NW score: k=7 (pre-snap), norm=-0.9696
+  Anchor:   word 72 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 abeus Thuribulum aureum in---- manu G. a---l-----cen--dit- -
+                      0 ---..
+    query             0 ---in conspectu- ---dom-ini De manu--- angeli In conspectu G
+    
+    target           44 ---fu 46
+                      5 ---.. 10
+    query            49 loria 54
+
+-- fused_11 --
+  OCR:      'ta Bioria patri scendit fimus aroniatum'
+  Assigned: 'In conspectu angelorum psallam tibi'
+  Words:    [72..77) consumed=5
+  NW score: k=10 (pre-snap), norm=-0.8407
+  Anchor:   word 77 (within_chant_7), diff=5, snapped=False, forced=True
+  Alignment:
+    target            0 ta Bioria p-atri scendit fim-us aronia--t-um 39
+                      0 ..  2
+    query             0 In -co--nspect-u --angelorum ps-a--llam tibi 35
+
+-- fused_12 --
+  OCR:      'nspetcsl'
+  Assigned: 'deus meus'
+  Words:    [77..79) consumed=2
+  NW score: k=2 (pre-snap), norm=-2.5927
+  Anchor:   word 86 (within_chant_7), diff=7, snapped=False, forced=False
+  Alignment:
+    target            0 --ns-petcsl  8
+                      0 --.|-.|-.|- 11
+    query             0 deus me-us-  9
+
+-- fused_13 --
+  OCR:      'nn conspectu Angelorum psanam tibi Deus'
+  Assigned: 'Adorabo ad templum sanctum tuum et confi'
+  Words:    [79..86) consumed=7
+  NW score: k=6 (pre-snap), norm=-0.7140
+  Anchor:   word 86 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 nn conspectu Ange--lorum psan--am tibi --------De-us 39
+                      0 --..|....... 12
+    query             0 --Adorabo ad --templ--um -sanctum tuum et confitebor 45
+
+-- fused_14 --
+  OCR:      'dorabo ad Templum Sanctum tuum et confi'
+  Assigned: 'tebor nomini tuo Psallam Gloria'
+  Words:    [86..90) consumed=4
+  NW score: k=4 (pre-snap), norm=-2.2098
+  Anchor:   word 90 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 dorabo ad Templum Sanctum ---tuum et confi- 39
+                      0 .|----------|-... 17
+    query             0 no----------m-ini ----tuo Psallam --Glo-ria 25
+
+-- fused_15 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [90..90) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_16 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [90..90) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_17 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [90..90) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_18 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [90..90) consumed=0
+  Alignment:
+    (no words left)
+=== END DEBUG ===
+

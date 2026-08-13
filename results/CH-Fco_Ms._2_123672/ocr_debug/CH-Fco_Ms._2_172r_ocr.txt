@@ -1,0 +1,167 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'infancia domino conse cra Impied Gatha'
+  [fused_1] 'letissima et glorianter bat ad rem . Et qua'
+  [fused_2] 'Sepulasinvitata u domino pre'
+  [fused_3] 'cibus commen dabat obilissimis orta'
+  [fused_4] 'bus ad ignobili gaudens trahebatur ad carce tem .'
+  [fused_5] 't qasiQiis estu qui i aome curare'
+  [fused_6] 'mulnera me a ego sum apo stolus sti nichil in'
+  [fused_7] 'teno s   demenuni lit ad te Qnemdi'
+  [fused_8] 'lexisti mente et puro cordeam'
+  [fused_9] 'a postolus ejus sum et in nomine ejus sciaste es'
+  [fused_10] 'c s ini. Quem. gatha Sancta dixit si'
+  [fused_11] 'fe ras michi promittis audito xpiristi nomine mansuescunt'
+  [fused_12] 'Cum nno eroras ugnem aohileas mrem mic'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'infancia domino conse cra Impied Gatha'
+  Assigned: 'ab infancia domino consecravi Impie Agatha'
+  Words:    [0..6) consumed=6
+  NW score: k=6 (pre-snap), norm=5.7822
+  Anchor:   word 6 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ---infancia domino conse cra-- Impied -Gatha 38
+                      0 ---|||||||| 11
+    query             0 ab infancia domino conse-cravi Impie- Agatha 42
+
+-- fused_1 --
+  OCR:      'letissima et glorianter bat ad rem . Et qua'
+  Assigned: 'letissima et glorianter ibat ad carcerem Et'
+  Words:    [6..13) consumed=7
+  NW score: k=8 (pre-snap), norm=6.1435
+  Anchor:   word 13 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 letissima et glorianter -bat ad -----rem . Et qua 43
+                      0 |||||||||  9
+    query             0 letissima et glorianter ibat ad carcerem-- Et---- 43
+
+-- fused_2 --
+  OCR:      'Sepulasinvitata u domino pre'
+  Assigned: 'quasi ad epulas invitata agonem suum do'
+  Words:    [13..20) consumed=7
+  NW score: k=8 (pre-snap), norm=3.1186
+  Anchor:   word 20 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 --------Sepulas-invitata ---------u- domino pre 28
+                      0 --------.||||||-|||||||| 24
+    query             0 quasi ad epulas invitata agonem suum domino---- 43
+
+-- fused_3 --
+  OCR:      'cibus commen dabat obilissimis orta'
+  Assigned: 'mino precibus commendabat Nobilissimis orta'
+  Words:    [20..24) consumed=4
+  NW score: k=4 (pre-snap), norm=6.7180
+  Anchor:   word 24 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ---cibus commen dabat -obilissimis orta 35
+                      0 ---|||||  8
+    query             0 precibus commen-dabat Nobilissimis orta 38
+
+-- fused_4 --
+  OCR:      'bus ad ignobili gaudens trahebatur ad carce tem .'
+  Assigned: 'natalibus ab ignobili gaudens trahebatur ad carcerem'
+  Words:    [24..31) consumed=7
+  NW score: k=7 (pre-snap), norm=6.0026
+  Anchor:   word 31 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ------bus ad ignobili gaudens trahebatur ad carce tem . 49
+                      0 ------|||  9
+    query             0 natalibus ab ignobili gaudens trahebatur ad carce-rem-- 52
+
+-- fused_5 --
+  OCR:      't qasiQiis estu qui i aome curare'
+  Assigned: 'Et quasi Quis es tu qui venisti ad me curare'
+  Words:    [31..41) consumed=10
+  NW score: k=10 (pre-snap), norm=4.7500
+  Anchor:   word 41 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -t q-asi-Qiis es-tu qui ------i a-ome curare 33
+                      0 -|  2
+    query             0 Et quasi Quis es tu qui venisti ad me curare 44
+
+-- fused_6 --
+  OCR:      'mulnera me a ego sum apo stolus sti nichil in'
+  Assigned: 'vulnera mea ego sum apostolus xpisti nichil in'
+  Words:    [41..49) consumed=8
+  NW score: k=8 (pre-snap), norm=6.6817
+  Anchor:   word 49 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 mulnera me a ego sum apo stolus ---sti nichil in 45
+                      0 .||||||  7
+    query             0 vulnera me-a ego sum apo-stolus xpisti nichil in 46
+
+-- fused_7 --
+  OCR:      'teno s   demenuni lit ad te Qnemdi'
+  Assigned: 'me dubites filia ipse me misit ad te Quem'
+  Words:    [49..58) consumed=9
+  NW score: k=9 (pre-snap), norm=1.1785
+  Anchor:   word 58 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 teno ------s ----- - de-menuni lit ad te Qnemdi 34
+                      0 .|--  4
+    query             0 me-- dubites filia ipse me- mi-sit ad te Quem-- 41
+
+-- fused_8 --
+  OCR:      'lexisti mente et puro cordeam'
+  Assigned: 'dilexisti mente et puro corde Nam et ego'
+  Words:    [58..66) consumed=8
+  NW score: k=6 (pre-snap), norm=6.8530
+  Anchor:   word 66 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 --lexisti mente et puro corde--am------- 29
+                      0 --|||||||  9
+    query             0 dilexisti mente et puro corde Nam et ego 40
+
+-- fused_9 --
+  OCR:      'a postolus ejus sum et in nomine ejus sciaste es'
+  Assigned: 'apostolus eius sum et in nomine eius scias te esse sal'
+  Words:    [66..77) consumed=11
+  NW score: k=10 (pre-snap), norm=6.6544
+  Anchor:   word 77 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 a postolus ejus sum et in nomine ejus scias-te es-----------
+                      0 |-||||||||
+    query             0 a-postolus eius sum et in nomine eius scias te esse salvanda
+    
+    target           48 - 48
+                     10 - 11
+    query            59 m 60
+
+-- fused_10 --
+  OCR:      'c s ini. Quem. gatha Sancta dixit si'
+  Assigned: 'vandam Quem Agatha sancta dixit si'
+  Words:    [77..82) consumed=5
+  NW score: k=5 (pre-snap), norm=4.8113
+  Anchor:   word 82 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 c s ini. Quem. -gatha Sancta dixit si 36
+                      0 ---------||||- 14
+    query             0 ---------Quem- Agatha sancta dixit si 27
+
+-- fused_11 --
+  OCR:      'fe ras michi promittis audito xpiristi nomine mansuescunt'
+  Assigned: 'feras michi promittis audito xpristi nomine mansuescunt'
+  Words:    [82..89) consumed=7
+  NW score: k=7 (pre-snap), norm=7.6084
+  Anchor:   word 89 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 fe ras michi promittis audito xpiristi nomine mansuescunt 57
+                      0 ||-|||  6
+    query             0 fe-ras michi promittis audito xp-risti nomine mansuescunt 55
+
+-- fused_12 --
+  OCR:      'Cum nno eroras ugnem aohileas mrem mic'
+  Assigned: '~Cum invocarem euouae Si ignem adhibeas rorem michi'
+  Words:    [89..97) consumed=8
+  NW score: k=8 (pre-snap), norm=3.1120
+  Anchor:   word 97 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -Cum -nno----- erora---s ugnem aohileas -mrem mic-- 38
+                      0 -|||  4
+    query             0 ~Cum invocarem euouae Si ignem adhibeas rorem michi 51
+=== END DEBUG ===
+

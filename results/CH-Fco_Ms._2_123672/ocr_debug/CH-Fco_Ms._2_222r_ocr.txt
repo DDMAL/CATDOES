@@ -1,0 +1,199 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'ter deseris aut cui nos desolatos relinquis invadent enim grecem'
+  [fused_1] 'tuum iupsi Rapaces Dominus Regis evovae '
+  [fused_2] 'populo tuo sum necessarius non recuso laborem fiat'
+  [fused_3] 'voluntas tuabi  o '
+  [fused_4] 'fabilem nec labore victum nec morte vincendum'
+  [fused_5] 'mori tinivit nec vivere recusatut  . evovae .'
+  [fused_6] 'tulis ac manibus in celum senper intentus minctum ab ora'
+  [fused_7] 'tione spiritumrelbat ey alelua'
+  [fused_8] 'vovae .  artinus habrahe sum letus excipitur mar'
+  [fused_9] 'tinus hic pauper et modicus celum dives ingreditur hym'
+  [fused_10] 'pa eccles'
+  [fused_11] 'nis celestibusnoratur aud erorae.'
+  [fused_12] 'quantus luctus homiium quanta precipne lamen'
+  [fused_13] 'et mignum chorus omno pum est guiene'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'ter deseris aut cui nos desolatos relinquis invadent enim grecem'
+  Assigned: 'deseris aut cui nos desolatos relinquis invadent enim gregem'
+  Words:    [0..9) consumed=9
+  NW score: k=9 (pre-snap), norm=7.2780
+  Anchor:   word 16 (within_chant_7), diff=7, snapped=False, forced=False
+  Alignment:
+    target            0 ter deseris aut cui nos desolatos relinquis invadent enim gr
+                      0 ----|||||||
+    query             0 ----deseris aut cui nos desolatos relinquis invadent enim gr
+    
+    target           60 ecem 64
+                     11 |.|| 15
+    query            56 egem 60
+
+-- fused_1 --
+  OCR:      'tuum iupsi Rapaces Dominus Regis evovae'
+  Assigned: 'tuum lupi rapaces ~Dominus regnavit euouae Domine'
+  Words:    [9..16) consumed=7
+  NW score: k=6 (pre-snap), norm=4.9170
+  Anchor:   word 16 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 tuum iupsi Rapaces -Dominus Reg---is evova-------e 39
+                      0 ||||  4
+    query             0 tuum lup-i rapaces ~Dominus regnavit euouae Domine 49
+
+-- fused_2 --
+  OCR:      'populo tuo sum necessarius non recuso laborem fiat'
+  Assigned: 'si adhuc populo tuo sum necessarius non recuso laborem fiat'
+  Words:    [16..26) consumed=10
+  NW score: k=10 (pre-snap), norm=6.7938
+  Anchor:   word 26 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ---------populo tuo sum necessarius non recuso laborem fiat
+                      0 ---------||||||
+    query             0 si adhuc populo tuo sum necessarius non recuso laborem fiat
+    
+    target           50
+                     15
+    query            59
+
+-- fused_3 --
+  OCR:      'voluntas tuabi  o'
+  Assigned: 'voluntas tua'
+  Words:    [26..28) consumed=2
+  NW score: k=2 (pre-snap), norm=5.3911
+  Anchor:   word 33 (within_chant_7), diff=5, snapped=False, forced=False
+  Alignment:
+    target            0 voluntas tuabi  o 17
+                      0 ||||||||  8
+    query             0 voluntas tua----- 12
+
+-- fused_4 --
+  OCR:      'fabilem nec labore victum nec morte vincendum'
+  Assigned: '~Iubilate euouae O virum ineffabilem nec labore victum nec morte vincendum'
+  Words:    [28..39) consumed=11
+  NW score: k=11 (pre-snap), norm=4.6615
+  Anchor:   word 33 (within_chant_7), diff=6, snapped=False, forced=False
+  Alignment:
+    target            0 -----------------------------fabilem nec labore victum nec m
+                      0 -----------------------------|||||||
+    query             0 ~Iubilate euouae O virum ineffabilem nec labore victum nec m
+    
+    target           31 orte vincendum 45
+                     36 |||| 40
+    query            60 orte vincendum 74
+
+-- fused_5 --
+  OCR:      'mori tinivit nec vivere recusatut  . evovae .'
+  Assigned: 'qui nec'
+  Words:    [39..41) consumed=2
+  NW score: k=10 (pre-snap), norm=3.2884
+  Anchor:   word 41 (within_chant_7), diff=8, snapped=False, forced=True
+  Alignment:
+    target            0 mori tinivit nec vivere recusatut  . evovae . 45
+                      0 --------..|- 12
+    query             0 --------qui- nec-----------------------------  7
+
+-- fused_6 --
+  OCR:      'tulis ac manibus in celum senper intentus minctum ab ora'
+  Assigned: 'mori timuit nec vivere recusavit ~Deus deus euouae Oculis ac manibus in celum semper intentus invictum ab ora'
+  Words:    [41..59) consumed=18
+  NW score: k=18 (pre-snap), norm=2.8411
+  Anchor:   word 50 (within_chant_7), diff=9, snapped=False, forced=False
+  Alignment:
+    target            0 -------------------------------t---------------------ulis ac
+                      0 -------------------------------|---------------------||||
+    query             0 mori timuit nec vivere recusavit ~Deus deus euouae Oculis ac
+    
+    target            8  manibus in celum senper intentus min--ctum ab ora-----  56
+                     57   57
+    query            60  manibus in celum semper intentus -invictum ab oratione 114
+
+-- fused_7 --
+  OCR:      'tione spiritumrelbat ey alelua'
+  Assigned: 'tione spiritum non relaxabat alleluya alleluya'
+  Words:    [59..64) consumed=5
+  NW score: k=4 (pre-snap), norm=2.8528
+  Anchor:   word 64 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 tione spiritum-----rel---bat ---e--y- a-lelu-a 30
+                      0 ------||||||||-----|||---||| 28
+    query             0 ------spiritum non relaxabat alleluya alleluya 40
+
+-- fused_8 --
+  OCR:      'vovae .  artinus habrahe sum letus excipitur mar'
+  Assigned: '~Benedic euouae Martinus habrahe sinu letus excipitur mar'
+  Words:    [64..72) consumed=8
+  NW score: k=8 (pre-snap), norm=4.4177
+  Anchor:   word 72 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ----------vovae .  artinus habrahe s--um letus excipitur mar
+                      0 ----------.|.||--
+    query             0 ~Benedic euouae-- Martinus habrahe sinu- letus excipitur mar
+    
+    target           48 ----- 48
+                     17 ----- 22
+    query            57 tinus 62
+
+-- fused_9 --
+  OCR:      'tinus hic pauper et modicus celum dives ingreditur hym'
+  Assigned: 'tinus hic pauper et modicus celum dives ingreditur hym'
+  Words:    [72..80) consumed=8
+  NW score: k=8 (pre-snap), norm=6.6503
+  Anchor:   word 80 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 tinus hic pauper et modicus celum dives ingreditur hym--- 54
+                      0 ------|||  9
+    query             0 ------hic pauper et modicus celum dives ingreditur hymnis 51
+
+-- fused_10 --
+  OCR:      'pa eccles'
+  Assigned: 'nis celestibus honoratur ~Laudate'
+  Words:    [80..83) consumed=3
+  NW score: k=1 (pre-snap), norm=-0.8433
+  Anchor:   word 83 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 pa eccles------------------------  9
+                      0 ----|.|||------------------------ 33
+    query             0 ----celestibus honoratur ~Laudate 29
+
+-- fused_11 --
+  OCR:      'nis celestibusnoratur aud erorae.'
+  Assigned: 'euouae O quantus luctus hominum quanta precipue lamen'
+  Words:    [83..91) consumed=8
+  NW score: k=7 (pre-snap), norm=-1.5743
+  Anchor:   word 91 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 ------------n-is celestibus-noratur au---d er------ora-e--.
+                      0 ------------|-.|
+    query             0 euouae O quantus --luct--us hominum quanta precipue lamenta
+    
+    target           33
+                     16
+    query            55
+
+-- fused_12 --
+  OCR:      'quantus luctus homiium quanta precipne lamen'
+  Assigned: 'ta monachorum et virginum chorus quia pium est gaudere'
+  Words:    [91..99) consumed=8
+  NW score: k=8 (pre-snap), norm=-0.8022
+  Anchor:   word 99 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -qua--ntus luct-------us -homiium quanta preci-pne-- la-me-n
+                      0 -..|--..|.
+    query             0 monachorum --et virginum cho--rus qu--ia p---ium est gaudere
+    
+    target           44 
+                     10 
+    query            51 
+
+-- fused_13 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [99..99) consumed=0
+  Alignment:
+    (no words left)
+=== END DEBUG ===
+

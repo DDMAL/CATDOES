@@ -1,0 +1,179 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'Doremis  Qiia mirabilia fecit dominus'
+  [fused_1] 'antate Eovae ubilate Deo omnis terra ipisum evovac'
+  [fused_2] 'lamor meus ad te veniat deus pres domine Exandi evovae'
+  [fused_3] 'enedic anima mea dominum pr. ipsum evovae et visita'
+  [fused_4] 'nos domne in squintani Consfitenum exonasee Ron'
+  [fused_5] 'fitebor domino miiis in ore meo pres Paratum evovae'
+  [fused_6] 'isericordiam et judicium cantabo ti miio ine  is'
+  [fused_7] 'lam et intelli gan in mo minacuilata mado nemes'
+  [fused_8] 'omm me come pro erdbesabai morca omine exaudi'
+  [fused_9] 'orationem me am et clamor me'
+  [fused_10] 'tePerne at etma non sper mopreces'
+  [fused_11] 'rum g ant anns tue intententes mora'
+  [fused_12] 'tionemn secui tu Ama. delo cate erm'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'Doremis  Qiia mirabilia fecit dominus'
+  Assigned: 'adoremus ~Venite Quia mirabilia fecit dominus'
+  Words:    [0..6) consumed=6
+  NW score: k=6 (pre-snap), norm=5.5141
+  Anchor:   word 6 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -Doremis ------- Qiia mirabilia fecit dominus 37
+                      0 -.||||.|  8
+    query             0 adoremus ~Venite Quia mirabilia fecit dominus 45
+
+-- fused_1 --
+  OCR:      'antate Eovae ubilate Deo omnis terra ipisum evovac'
+  Assigned: '~Cantate euouae Iubilate deo omnis terra {Ipsum'
+  Words:    [6..13) consumed=7
+  NW score: k=7 (pre-snap), norm=4.5589
+  Anchor:   word 13 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 --antate -Eovae -ubilate Deo omnis terra -ipisum evovac 50
+                      0 --||||||  8
+    query             0 ~Cantate euouae Iubilate deo omnis terra {Ip-sum------- 47
+
+-- fused_2 --
+  OCR:      'lamor meus ad te veniat deus pres domine Exandi evovae'
+  Assigned: '[Iubilate]} euouae Clamor meus ad te veniat deus ~Domine exaudi'
+  Words:    [13..23) consumed=10
+  NW score: k=11 (pre-snap), norm=3.9361
+  Anchor:   word 23 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 --------------------lamor meus ad te veniat deus pres domine
+                      0 --------------------|||||
+    query             0 [Iubilate]} euouae Clamor meus ad te veniat deus ----~Domine
+    
+    target           40  Exandi evovae 54
+                     25  25
+    query            56  exaudi------- 63
+
+-- fused_3 --
+  OCR:      'enedic anima mea dominum pr. ipsum evovae et visita'
+  Assigned: 'euouae Benedic anima mea dominum {Ipsum [Benedic]} euouae Visita'
+  Words:    [23..32) consumed=9
+  NW score: k=9 (pre-snap), norm=3.5707
+  Anchor:   word 32 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 --------enedic anima mea dominum pr. ipsum----------- evovae
+                      0 --------||||||
+    query             0 euouae Benedic anima mea dominum ---{Ipsum [Benedic]} euouae
+    
+    target           41  et visita 51
+                     14 --- 17
+    query            57 --- Visita 64
+
+-- fused_4 --
+  OCR:      'nos domne in squintani Consfitenum exonasee Ron'
+  Assigned: 'nos domine in salutari tuo {Confitemini} euouae con'
+  Words:    [32..40) consumed=8
+  NW score: k=7 (pre-snap), norm=2.9787
+  Anchor:   word 40 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 nos dom-ne in s-quintani -----Consfite--num exonasee Ron----
+                      0 |||
+    query             0 nos domine in salu--tari tuo {Con-fitemini} euoua--e Confite
+    
+    target           47 --- 47
+                      3 ---  6
+    query            55 bor 58
+
+-- fused_5 --
+  OCR:      'fitebor domino miiis in ore meo pres Paratum evovae'
+  Assigned: 'fitebor domino nimis in ore meo ~Paratum euouae'
+  Words:    [40..47) consumed=7
+  NW score: k=7 (pre-snap), norm=4.5518
+  Anchor:   word 54 (within_chant_7), diff=7, snapped=False, forced=False
+  Alignment:
+    target            0 fitebor domino miiis in ore meo pres Paratum evovae 51
+                      0 --------|||||| 14
+    query             0 --------domino nimis in ore meo ----~Paratum euouae 39
+
+-- fused_6 --
+  OCR:      'isericordiam et judicium cantabo ti miio ine  is'
+  Assigned: 'Misericordiam et iudicium cantabo tibi domine psal'
+  Words:    [47..54) consumed=7
+  NW score: k=6 (pre-snap), norm=5.4867
+  Anchor:   word 54 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 -isericordiam et judicium cantabo ti mi-io ine  is----- 48
+                      0 -|||||||||||| 13
+    query             0 Misericordiam et iudicium cantabo ti-bi domine- Psallam 53
+
+-- fused_7 --
+  OCR:      'lam et intelli gan in mo minacuilata mado nemes'
+  Assigned: 'lam et intelligam in via immaculata quando venies'
+  Words:    [54..61) consumed=7
+  NW score: k=7 (pre-snap), norm=3.4139
+  Anchor:   word 61 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 lam et intelli gan in -mo -minacuilata -ma-do ne-mes 47
+                      0 ----||  6
+    query             0 ----et intelli-gam in via im-macu-lata quando venies 45
+
+-- fused_8 --
+  OCR:      'omm me come pro erdbesabai morca omine exaudi'
+  Assigned: 'ad me Perambulabam in innocencia cordis mei in medio domus mee Domine exaudi'
+  Words:    [61..74) consumed=13
+  NW score: k=13 (pre-snap), norm=0.1368
+  Anchor:   word 70 (within_chant_7), diff=4, snapped=False, forced=False
+  Alignment:
+    target            0 omm me ---------com--e -pro e-------rdbesabai--- m------orca
+                      0 -..
+    query             0 -ad me Perambulabam in innocencia cord-is mei in medio domus
+    
+    target           32  -----omine exaudi 45
+                      3   3
+    query            58  mee Domine exaudi 76
+
+-- fused_9 --
+  OCR:      'orationem me am et clamor me'
+  Assigned: 'orationem meam et clamor meus ad'
+  Words:    [74..80) consumed=6
+  NW score: k=5 (pre-snap), norm=6.9835
+  Anchor:   word 80 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 orationem me am et clamor me----- 28
+                      0 |||||||||  9
+    query             0 orationem me-am et clamor meus ad 32
+
+-- fused_10 --
+  OCR:      'tePerne at etma non sper mopreces'
+  Assigned: 'te perveniat Quia non spernis deus preces'
+  Words:    [80..87) consumed=7
+  NW score: k=7 (pre-snap), norm=3.2624
+  Anchor:   word 87 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 te-Perne- at etma non sper--- ---mopreces 33
+                      0 ||-.||.|-.|| 12
+    query             0 te perveniat Quia non spernis deus preces 41
+
+-- fused_11 --
+  OCR:      'rum g ant anns tue intententes mora'
+  Assigned: 'pauperum Fiant aures tue intendentes in ora'
+  Words:    [87..94) consumed=7
+  NW score: k=6 (pre-snap), norm=3.7081
+  Anchor:   word 94 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 -----rum g ant a-nns tue intententes --mora------ 35
+                      0 -----|||  8
+    query             0 pauperum Fiant aures tue intendentes in orationem 49
+
+-- fused_12 --
+  OCR:      'tionemn secui tu Ama. delo cate erm'
+  Assigned: 'tionem ferui tui Quia Velociter exaudi'
+  Words:    [94..99) consumed=5
+  NW score: k=4 (pre-snap), norm=0.8626
+  Anchor:   word 99 (page_break_77), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 tionemn secui tu- -Ama. delo cate- e---rm 35
+                      0 --------.|.|| 13
+    query             0 --------ferui tui Quia- Velo-citer exaudi 31
+=== END DEBUG ===
+

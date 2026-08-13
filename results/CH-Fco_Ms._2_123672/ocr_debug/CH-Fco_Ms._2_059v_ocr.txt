@@ -1,0 +1,163 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'iutme mmnem . ad yma  nem pe simlitudine'
+  [fused_1] 'sgitu dominus homne de Lo'
+  [fused_2] 'terre et inspiravit in faciem ejus spira te'
+  [fused_3] 'ureavit celum et ter'
+  [fused_4] 'ram et hi titus domni ta quas et'
+  [fused_5] 'iudit de nno cancta menfete rrat'
+  [fused_6] 'rat nalde perfecti sunt celi'
+  [fused_7] 'et terra et omnio omna tus e tum et m lor'
+  [fused_8] 'mai s hom delio ter e'
+  [fused_9] 'et inspira mmeiifiren e jus spiraculum'
+  [fused_10] 'inte et factus elt mno i ammnamin'
+  [fused_11] 'nen tem e n panaiio feat deus celum et'
+  [fused_12] 'terram et Homn nem etc'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'iutme mmnem . ad yma  nem pe simlitudine'
+  Assigned: 'in ea hominem Ad ymaginem et similitudinem'
+  Words:    [0..7) consumed=7
+  NW score: k=7 (pre-snap), norm=3.6108
+  Anchor:   word 14 (within_chant_7), diff=7, snapped=False, forced=False
+  Alignment:
+    target            0 iutme- --mmnem . ad yma  nem pe- sim-litudine- 40
+                      0 |-..|-  6
+    query             0 i-n ea hominem-- Ad ymaginem -et similitudinem 42
+
+-- fused_1 --
+  OCR:      'sgitu dominus homne de Lo'
+  Assigned: 'suam Formavit igitur dominus hominem de limo'
+  Words:    [7..14) consumed=7
+  NW score: k=7 (pre-snap), norm=3.3166
+  Anchor:   word 14 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 s--------------gitu- dominus hom-ne- de --Lo 25
+                      0 |--------------||||- 20
+    query             0 suam Formavit igitur dominus hominem de limo 44
+
+-- fused_2 --
+  OCR:      'terre et inspiravit in faciem ejus spira te'
+  Assigned: 'terre et inspiravit in faciem eius spiraculum viae'
+  Words:    [14..22) consumed=8
+  NW score: k=7 (pre-snap), norm=6.4107
+  Anchor:   word 22 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 terre et inspiravit in faciem ejus spira----- --te 43
+                      0 |||||  5
+    query             0 terre et inspiravit in faciem eius spiraculum viae 50
+
+-- fused_3 --
+  OCR:      'ureavit celum et ter'
+  Assigned: 'Ad ymaginem In principio deus creavit celum et ter'
+  Words:    [22..31) consumed=9
+  NW score: k=9 (pre-snap), norm=1.5050
+  Anchor:   word 31 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ---------------------------u---reavit celum et ter--- 20
+                      0 ---------------------------|---|||||| 37
+    query             0 Ad ymaginem In principio deus creavit celum et terram 53
+
+-- fused_4 --
+  OCR:      'ram et hi titus domni ta quas et'
+  Assigned: 'ram et spiritus domini ferebatur super aquas Et'
+  Words:    [31..38) consumed=7
+  NW score: k=7 (pre-snap), norm=1.9679
+  Anchor:   word 38 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ram et -hi titus dom-ni ------t-------a -quas et 32
+                      0 ----||  6
+    query             0 ----et spi-ritus domini ferebatur super aquas Et 43
+
+-- fused_5 --
+  OCR:      'iudit de nno cancta menfete rrat'
+  Assigned: 'vidit deus cuncta que fecerat'
+  Words:    [38..43) consumed=5
+  NW score: k=5 (pre-snap), norm=3.1842
+  Anchor:   word 43 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -iudit de nno cancta -menfete rrat 32
+                      0 -|-|||  6
+    query             0 vi-dit de--us cuncta que fece--rat 29
+
+-- fused_6 --
+  OCR:      'rat nalde perfecti sunt celi'
+  Assigned: 'et erat valde bona Igitur perfecti sunt celi'
+  Words:    [43..51) consumed=8
+  NW score: k=8 (pre-snap), norm=4.4160
+  Anchor:   word 51 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ----rat nalde------------ perfecti sunt celi 28
+                      0 ----|||  7
+    query             0 et erat valde bona Igitur perfecti sunt celi 44
+
+-- fused_7 --
+  OCR:      'et terra et omnio omna tus e tum et m lor'
+  Assigned: 'et terra et omnis ornatus eorum Et vidit for'
+  Words:    [51..60) consumed=9
+  NW score: k=7 (pre-snap), norm=4.7675
+  Anchor:   word 60 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 et terra et omnio omna tus e tum et ----m lor----- 41
+                      0 ||  2
+    query             0 et terra et omnis orna-tus eorum Et vidit Formavit 49
+
+-- fused_8 --
+  OCR:      'mai s hom delio ter e'
+  Assigned: 'mavit igitur dominus hominem de limo terre'
+  Words:    [60..66) consumed=6
+  NW score: k=6 (pre-snap), norm=2.3277
+  Anchor:   word 66 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 mai--- ------s ho----m de-li-o ter e 21
+                      0 ..|---  6
+    query             0 igitur dominus hominem de limo terre 36
+
+-- fused_9 --
+  OCR:      'et inspira mmeiifiren e jus spiraculum'
+  Assigned: 'Et inspiravit in faciem eus spiraculum'
+  Words:    [66..72) consumed=6
+  NW score: k=6 (pre-snap), norm=4.1316
+  Anchor:   word 72 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 et inspira--- mmei-if--iren e jus spiraculum 38
+                      0 .|  2
+    query             0 Et inspiravit ---in faci-em e--us spiraculum 38
+
+-- fused_10 --
+  OCR:      'inte et factus elt mno i ammnamin'
+  Assigned: 'vite et factus est homo in animam viventem'
+  Words:    [72..80) consumed=8
+  NW score: k=7 (pre-snap), norm=4.1212
+  Anchor:   word 80 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 -inte et factus elt --mno i- a-mmnam--i--n--- 33
+                      0 -|-||  5
+    query             0 vi-te et factus est hom-o in anim-am viventem 42
+
+-- fused_11 --
+  OCR:      'nen tem e n panaiio feat deus celum et'
+  Assigned: 'In principio fecit deus celum et'
+  Words:    [80..86) consumed=6
+  NW score: k=6 (pre-snap), norm=3.6707
+  Anchor:   word 86 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 nen tem e n p-anai-io fe-at deus celum et 38
+                      0 ---------.| 11
+    query             0 ---------In principio fecit deus celum et 32
+
+-- fused_12 --
+  OCR:      'terram et Homn nem etc'
+  Assigned: 'terram et plasmavit in ea hominem Et inspiravit'
+  Words:    [86..94) consumed=8
+  NW score: k=7 (pre-snap), norm=2.3097
+  Anchor:   word 94 (page_break_77), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 terram et --Hom------n -------nem et----------c 22
+                      0 ||||||  6
+    query             0 terram et plasmavit in ea hominem Et inspiravit 47
+=== END DEBUG ===
+

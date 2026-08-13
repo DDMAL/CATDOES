@@ -1,0 +1,171 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'indliti Ascahel Fete ovae ex autem david'
+  [fused_1] 'coperto capite mncedens lugebat filium dicens Absalon'
+  [fused_2] 'filimi Absalon quis michi det ut ego moriar pro'
+  [fused_3] 'te filimAbsalon eonae ean'
+  [fused_4] 'archam domini et despexit illum uxor sua evovae'
+  [fused_5] 'secro dominem aufer mniquitatem servi trni qua insipienti'
+  [fused_6] 'egi eoeuxerunt Salonionem Sdoch sace'
+  [fused_7] 'doet natha proeta Regen  gra ou et ascenden tes'
+  [fused_8] 'setidixerunt etr  '
+  [fused_9] 'bat Helyseus ad Helyam et dicebat pater ini paterim currus'
+  [fused_10] 'et auriga ejus t auriga eius evovae m'
+  [fused_11] 'tolleret dominus Helyam per turbinem in celum Helose'
+  [fused_12] 'us clamabat dicens pater in pater mi cortus Asrahel e'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'indliti Ascahel Fete ovae ex autem david'
+  Assigned: 'incliti israhel flete euouae Rex autem david'
+  Words:    [0..7) consumed=7
+  NW score: k=7 (pre-snap), norm=5.5062
+  Anchor:   word 7 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 indliti Ascahel -Fete --ovae -ex autem david 40
+                      0 ||.||||  7
+    query             0 incliti israhel flete euouae Rex autem david 44
+
+-- fused_1 --
+  OCR:      'coperto capite mncedens lugebat filium dicens Absalon'
+  Assigned: 'cooperto capite incedens lugebat filium dicens absalon'
+  Words:    [7..14) consumed=7
+  NW score: k=7 (pre-snap), norm=7.3087
+  Anchor:   word 14 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 c-operto capite mncedens lugebat filium dicens Absalon 53
+                      0 |-||||||  8
+    query             0 cooperto capite incedens lugebat filium dicens absalon 54
+
+-- fused_2 --
+  OCR:      'filimi Absalon quis michi det ut ego moriar pro'
+  Assigned: 'fili mi fili mi absalon quis michi det ut ego moriar pro'
+  Words:    [14..26) consumed=12
+  NW score: k=12 (pre-snap), norm=6.4714
+  Anchor:   word 26 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 fili---------mi Absalon quis michi det ut ego moriar pro 47
+                      0 ||||---------|| 15
+    query             0 fili mi fili mi absalon quis michi det ut ego moriar pro 56
+
+-- fused_3 --
+  OCR:      'te filimAbsalon eonae ean'
+  Assigned: 'te fili mi absalon euouae'
+  Words:    [26..31) consumed=5
+  NW score: k=5 (pre-snap), norm=4.0800
+  Anchor:   word 36 (within_chant_7), diff=5, snapped=False, forced=False
+  Alignment:
+    target            0 te fili-m--Absalon e-onae ean 25
+                      0 ||  2
+    query             0 te fili mi absalon euouae---- 25
+
+-- fused_4 --
+  OCR:      'archam domini et despexit illum uxor sua evovae'
+  Assigned: 'Letatus est rex david ante'
+  Words:    [31..36) consumed=5
+  NW score: k=13 (pre-snap), norm=4.2730
+  Anchor:   word 36 (within_chant_7), diff=8, snapped=False, forced=True
+  Alignment:
+    target            0 archam domini et---- despexit illum uxor sua ev-ova--e 47
+                      0 -------------.||---- 20
+    query             0 -------------Letatus -es----t -----rex-- -da--vid ante 26
+
+-- fused_5 --
+  OCR:      'secro dominem aufer mniquitatem servi trni qua insipienti'
+  Assigned: 'archam domini et dispexit illum uxor sua euouae Obsecro domine aufer iniquitatem servi tui quia insipienter'
+  Words:    [36..52) consumed=16
+  NW score: k=16 (pre-snap), norm=2.8042
+  Anchor:   word 45 (within_chant_7), diff=7, snapped=False, forced=False
+  Alignment:
+    target            0 --------------------------------------------------secro domi
+                      0 --------------------------------------------------|||||
+    query             0 archam domini et dispexit illum uxor sua euouae Obsecro domi
+    
+    target           10 nem aufer mniquitatem servi trni qu-a insipient-i  57
+                     55 ||-  58
+    query            60 ne- aufer iniquitatem servi t-ui quia insipienter 107
+
+-- fused_6 --
+  OCR:      'egi eoeuxerunt Salonionem Sdoch sace'
+  Assigned: 'egi euouae Unxerunt salomonem sadoch sacer'
+  Words:    [52..58) consumed=6
+  NW score: k=6 (pre-snap), norm=4.2485
+  Anchor:   word 58 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 egi e-o--e--uxerunt Salonionem -Sdoch sace---- 36
+                      0 |||  3
+    query             0 egi euouae Unxerunt salo-monem sadoch sacerdos 45
+
+-- fused_7 --
+  OCR:      'doet natha proeta Regen  gra ou et ascenden tes'
+  Assigned: 'dos et nathan propheta regem in gyon et ascendentes'
+  Words:    [58..66) consumed=8
+  NW score: k=8 (pre-snap), norm=4.8936
+  Anchor:   word 66 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 doet natha- pro--eta Regen -- gra ou et ascenden tes 47
+                      0 --||  4
+    query             0 --et nathan propheta regem in g--yon et ascenden-tes 47
+
+-- fused_8 --
+  OCR:      'setidixerunt etr'
+  Assigned: 'leti dixerunt'
+  Words:    [66..68) consumed=2
+  NW score: k=2 (pre-snap), norm=4.1603
+  Anchor:   word 74 (within_chant_7), diff=6, snapped=False, forced=False
+  Alignment:
+    target            0 seti-dixerunt etr 16
+                      0 .|||-||||||||---- 17
+    query             0 leti dixerunt---- 13
+
+-- fused_9 --
+  OCR:      'bat Helyseus ad Helyam et dicebat pater ini paterim currus'
+  Assigned: 'vivat rex in eternum euouae Clamabat helyseus ad helyam et dicebat pater mi pater mi currus'
+  Words:    [68..84) consumed=16
+  NW score: k=16 (pre-snap), norm=3.9505
+  Anchor:   word 74 (within_chant_7), diff=10, snapped=False, forced=False
+  Alignment:
+    target            0 ---------------------------------bat Helyseus ad Helyam et d
+                      0 ---------------------------------|||
+    query             0 vivat rex in eternum euouae Clamabat helyseus ad helyam et d
+    
+    target           27 icebat pater ini paterim- currus 58
+                     36 |||||| 42
+    query            60 icebat pater -mi pater mi currus 91
+
+-- fused_10 --
+  OCR:      'et auriga ejus t auriga eius evovae m'
+  Assigned: 'israhel et auriga eius euouae Dum'
+  Words:    [84..90) consumed=6
+  NW score: k=6 (pre-snap), norm=3.2052
+  Anchor:   word 90 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 et auriga ejus -t auriga eius evovae --m 37
+                      0 ---..|--|.|--. 14
+    query             0 ---isr--ahe--l et auriga eius euouae Dum 33
+
+-- fused_11 --
+  OCR:      'tolleret dominus Helyam per turbinem in celum Helose'
+  Assigned: 'tolleret dominus helyam per turbinem in celum helyse'
+  Words:    [90..98) consumed=8
+  NW score: k=8 (pre-snap), norm=6.9258
+  Anchor:   word 98 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 tolleret dominus Helyam per turbinem in celum Helose-- 52
+                      0 ||||||||  8
+    query             0 tolleret dominus helyam per turbinem in celum helyseus 54
+
+-- fused_12 --
+  OCR:      'us clamabat dicens pater in pater mi cortus Asrahel e'
+  Assigned: 'us clamabat dicens pater mi pater mi currus israhel et'
+  Words:    [98..107) consumed=9
+  NW score: k=9 (pre-snap), norm=6.1358
+  Anchor:   word 107 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 us clamabat dicens pater -in pater mi cortus Asrahel e- 53
+                      0 ---|||||||| 11
+    query             0 ---clamabat dicens pater mi- pater mi currus israhel et 51
+=== END DEBUG ===
+

@@ -1,0 +1,171 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'tatibus meis . necinfi mratus Reserves m'
+  [fused_1] 'me a Lon in tres munora umn cum lernotu'
+  [fused_2] 'domne. Paratum cormenni de'
+  [fused_3] 'et salmium dicam domino '
+  [fused_4] 'urge gloria mea exurge psalterium et citha'
+  [fused_5] '. an torum ddoinitor meus tibi psallam'
+  [fused_6] 'deeTormenss |eus meus misericordia'
+  [fused_7] 'me aetator te psallam nomini tuo'
+  [fused_8] 'altissi moi Boni in plusdomine ab'
+  [fused_9] ' Misere Eovae . Le decet Ymius Deus in'
+  [fused_10] 'sor ipisum evorae Labia mea laudabunt te in vita'
+  [fused_11] 'mea deus meus sdes evovae . ominus iudicabit'
+  [fused_12] 'smeoterte pro e tiltavit eroraeielcelor laudatere'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'tatibus meis . necinfi mratus Reserves m'
+  Assigned: 'meis Neque in finem iratus reserves mala'
+  Words:    [0..7) consumed=7
+  NW score: k=7 (pre-snap), norm=2.7500
+  Anchor:   word 16 (within_chant_7), diff=9, snapped=False, forced=False
+  Alignment:
+    target            0 tatibus meis -. necin-fi--- mratus Reserves m--- 40
+                      0 --------|||| 12
+    query             0 --------meis Neque in finem iratus reserves mala 40
+
+-- fused_1 --
+  OCR:      'me a Lon in tres munora umn cum lernotu'
+  Assigned: 'mea Non intres in iudicium cum servo tuo do'
+  Words:    [7..16) consumed=9
+  NW score: k=8 (pre-snap), norm=3.2154
+  Anchor:   word 16 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 me a Lon in tres munora ------umn cum lerno-tu-------- 39
+                      0 ||-|  4
+    query             0 me-a Non in-tres -in--- iudicium- cum servo tuo domine 47
+
+-- fused_2 --
+  OCR:      'domne. Paratum cormenni de'
+  Assigned: 'mine Neque Paratum cor meum deus para'
+  Words:    [16..22) consumed=6
+  NW score: k=5 (pre-snap), norm=3.1326
+  Anchor:   word 22 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 domne. Paratum cor-menni de---------- 26
+                      0 ....|-  6
+    query             0 Neque- Paratum cor me-um deus paratum 35
+
+-- fused_3 --
+  OCR:      'et salmium dicam domino'
+  Assigned: 'tum cor meum Cantabo et psalmum dicam domino ex'
+  Words:    [22..30) consumed=8
+  NW score: k=7 (pre-snap), norm=3.5277
+  Anchor:   word 30 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 -----------------et -salmium dicam domino------- 23
+                      0 -----------------|| 19
+    query             0 cor meum Cantabo et psalm-um dicam domino Exurge 47
+
+-- fused_4 --
+  OCR:      'urge gloria mea exurge psalterium et citha'
+  Assigned: 'urge gloria mea esurge psalterium et cithara esurgam'
+  Words:    [30..37) consumed=7
+  NW score: k=6 (pre-snap), norm=6.2759
+  Anchor:   word 37 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 urge gloria mea exurge psalterium et citha---------- 42
+                      0 -----|||||| 11
+    query             0 -----gloria mea esurge psalterium et cithara esurgam 47
+
+-- fused_5 --
+  OCR:      '. an torum ddoinitor meus tibi psallam'
+  Assigned: 'diluculo Cantabo Adiutor meus tibi psallam'
+  Words:    [37..43) consumed=6
+  NW score: k=6 (pre-snap), norm=3.5294
+  Anchor:   word 43 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -------. -an t--orum ddoinitor meus tibi psallam 38
+                      0 -------.  8
+    query             0 diluculo Can-tabo--- Ad-i-utor meus tibi psallam 42
+
+-- fused_6 --
+  OCR:      'deeTormenss |eus meus misericordia'
+  Assigned: 'quia deus susceptor meus es Deus meus misericordia mea'
+  Words:    [43..52) consumed=9
+  NW score: k=8 (pre-snap), norm=4.0018
+  Anchor:   word 52 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 -----de-------e-Tor-mens--s |eus meus misericordi----a 34
+                      0 -----||-------|-.||-||.|--| 27
+    query             0 quia deus susceptor meus es Deus meus misericordia mea 54
+
+-- fused_7 --
+  OCR:      'me aetator te psallam nomini tuo'
+  Assigned: 'Letabor et exultabo in te psallam nomini tuo'
+  Words:    [52..60) consumed=8
+  NW score: k=8 (pre-snap), norm=4.1574
+  Anchor:   word 60 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 me a-------e---tato--r te psallam nomini tuo 32
+                      0 .|.|-------|---||.|--. 22
+    query             0 Letabor et exultabo in te psallam nomini tuo 44
+
+-- fused_8 --
+  OCR:      'altissi moi Boni in plusdomine ab'
+  Assigned: 'altissime Deus meus Amplius lava me domine ab'
+  Words:    [60..68) consumed=8
+  NW score: k=8 (pre-snap), norm=2.2057
+  Anchor:   word 68 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 altissi moi Boni --in --pl-us---------domine ab 33
+                      0 |||||||-|-. 11
+    query             0 altissi-m-e Deus meus Amplius lava me domine ab 45
+
+-- fused_9 --
+  OCR:      'Misere Eovae . Le decet Ymius Deus in'
+  Assigned: 'iniusticia mea {Misere} euouae Te decet ymnus deus in'
+  Words:    [68..77) consumed=9
+  NW score: k=9 (pre-snap), norm=2.8453
+  Anchor:   word 77 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ----------------Misere- -Eovae . Le decet Ymius Deus in 37
+                      0 ----------------||||||- 23
+    query             0 iniusticia mea {Misere} euouae-- Te decet ymnus deus in 53
+
+-- fused_10 --
+  OCR:      'sor ipisum evorae Labia mea laudabunt te in vita'
+  Assigned: 'syon {Ipsum [Te decet]} euouae Labia mea laudabunt te in vita'
+  Words:    [77..88) consumed=11
+  NW score: k=11 (pre-snap), norm=4.8604
+  Anchor:   word 88 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 s-or -ipisum------------ evorae Labia mea laudabunt te in vi
+                      0 |-|.
+    query             0 syon {Ip-sum [Te decet]} euouae Labia mea laudabunt te in vi
+    
+    target           46 ta 48
+                      4 ||  6
+    query            59 ta 61
+
+-- fused_11 --
+  OCR:      'mea deus meus sdes evovae . ominus iudicabit'
+  Assigned: 'mea deus meus {Deus deus} euouae Dominus iudicabit'
+  Words:    [88..96) consumed=8
+  NW score: k=8 (pre-snap), norm=5.5645
+  Anchor:   word 96 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 mea deus meus ----s-de-s- evovae . ominus iudicabit 44
+                      0 |||  3
+    query             0 mea deus meus {Deus deus} euouae -Dominus iudicabit 50
+
+-- fused_12 --
+  OCR:      'smeoterte pro e tiltavit eroraeielcelor laudatere'
+  Assigned: 'fines terre ~Exultavit euouae Celi celorum laudate deum'
+  Words:    [96..104) consumed=8
+  NW score: k=7 (pre-snap), norm=2.7678
+  Anchor:   word 104 (page_break_77), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 -sme-oterte pro e --tiltavit erorae-iel--celor-- laudate-re-
+                      0 -..|-.|||----|--|
+    query             0 fines ter----r--e ~Exultavit euouae Celi celorum laudate deu
+    
+    target           49 - 49
+                     17 - 18
+    query            54 m 55
+=== END DEBUG ===
+

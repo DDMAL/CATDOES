@@ -1,0 +1,159 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'stismis de ben a duoto pro'
+  [fused_1] 'momis . Precor ce le stem regatm ut me dolen'
+  [fused_2] 'tem inmium fa ciat e os cernere .'
+  [fused_3] 'cobvehementer cum lacrinus promis'
+  [fused_4] 'in terra et Ado rans t. Pr420'
+  [fused_5] 'ra et ite ad dominum ter'
+  [fused_6] 're et cum inveneri orante um su'
+  [fused_7] 'perterram Deus autem me us faciat vobis'
+  [fused_8] 'um pla cabi lem et remittat et hunc fra'
+  [fused_9] 'trem vestrum vobiscum umquem te net'
+  [fused_10] 'in iuncu lis x. de optinis ter'
+  [fused_11] 'terre frugibus in valis vestris et deferte ju'
+  [fused_12] 'neca Deno  fraternester'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'stismis de ben a duoto pro'
+  Assigned: 'nimium faciat eos cernere pro'
+  Words:    [0..5) consumed=5
+  NW score: k=5 (pre-snap), norm=-1.6121
+  Anchor:   word 5 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -stism----i-s de-- be-n- a duo-to pr---o 26
+                      0 -..|.|----|-. 13
+    query             0 nimium faciat -eos cernere Prost--ernens 37
+
+-- fused_1 --
+  OCR:      'momis . Precor ce le stem regatm ut me dolen'
+  Assigned: 'sternens se iacob vehementer cum lacrimis pronus'
+  Words:    [5..11) consumed=6
+  NW score: k=10 (pre-snap), norm=-1.1972
+  Anchor:   word 11 (within_chant_7), diff=4, snapped=False, forced=True
+  Alignment:
+    target            0 momis . Precor ce le stem regat-m -ut -----m-e -dolen-- 44
+                      0 ----|-.  7
+    query             0 ----s-e -iacob ve-----hem--e-nter cum lacrimis pro--nus 39
+
+-- fused_2 --
+  OCR:      'tem inmium fa ciat e os cernere .'
+  Assigned: 'in terra et exorans ait Precor tol'
+  Words:    [11..18) consumed=7
+  NW score: k=6 (pre-snap), norm=-0.6674
+  Anchor:   word 18 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 tem inmium ---fa ciat e o---s cernere--- ------. 33
+                      0 ----||---- 10
+    query             0 ----in---- terra --et exorans ait Precor Tollite 38
+
+-- fused_3 --
+  OCR:      'cobvehementer cum lacrinus promis'
+  Assigned: 'lite hinc vobiscum munera et ite ad dominum terre'
+  Words:    [18..26) consumed=8
+  NW score: k=11 (pre-snap), norm=-0.6799
+  Anchor:   word 26 (within_chant_7), diff=3, snapped=False, forced=True
+  Alignment:
+    target            0 ---c--ob--vehementer---- cum la---crinus -promis 33
+                      0 ---|--||--....|.|-||---- 24
+    query             0 hinc vobiscum mun-era et ite -ad dominum ter--re 44
+
+-- fused_4 --
+  OCR:      'in terra et Ado rans t. Pr420'
+  Assigned: 'et cum inveneritis adorate eum super ter'
+  Words:    [26..33) consumed=7
+  NW score: k=5 (pre-snap), norm=-0.9832
+  Anchor:   word 33 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 -------in- terra et-- Ado ra------ns---- t. Pr420 29
+                      0 -------||-..||---.|-- 21
+    query             0 et cum invener---itis ado-rate eum super t--erram 43
+
+-- fused_5 --
+  OCR:      'ra et ite ad dominum ter'
+  Assigned: 'ram Deus autem meus faciat vobis eum'
+  Words:    [33..39) consumed=6
+  NW score: k=7 (pre-snap), norm=-1.1518
+  Anchor:   word 39 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 ----ra- et ite-- ----ad domi--num ter 24
+                      0 ----.|-.|. 10
+    query             0 Deus autem -meus faciat vobis eum---- 32
+
+-- fused_6 --
+  OCR:      're et cum inveneri orante um su'
+  Assigned: 'placabilem et remittat et hunc fratrem ve'
+  Words:    [39..46) consumed=7
+  NW score: k=7 (pre-snap), norm=-0.5296
+  Anchor:   word 46 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -------re- et cum i---nve----neri orant-e um --s--u- 31
+                      0 -------.|- 10
+    query             0 placabilem et rem-ittat et hun--c fra-tre--m vestrum 46
+
+-- fused_7 --
+  OCR:      'perterram Deus autem me us faciat vobis'
+  Assigned: 'strum vobiscum et eum quem tenet in'
+  Words:    [46..52) consumed=6
+  NW score: k=7 (pre-snap), norm=-0.3637
+  Anchor:   word 52 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 perterram --Deus autem me us faciat vobis 39
+                      0 -.......|  9
+    query             0 -vobiscum et eum qu-em te-------net ---in 29
+
+-- fused_8 --
+  OCR:      'um pla cabi lem et remittat et hunc fra'
+  Assigned: 'vinculis Sumite de optimis'
+  Words:    [52..56) consumed=4
+  NW score: k=6 (pre-snap), norm=-1.4505
+  Anchor:   word 56 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 ----um pla cabi lem et remittat -et hunc fra 39
+                      0 ----|---|-----|------. 22
+    query             0 vincu---l-----i------s Sumit--e de- -optimis 26
+
+-- fused_9 --
+  OCR:      'trem vestrum vobiscum umquem te net'
+  Assigned: 'terre frugibus in vasis vestris et deferte viro'
+  Words:    [56..64) consumed=8
+  NW score: k=6 (pre-snap), norm=-0.3479
+  Anchor:   word 64 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 t--re-----------------m vestrum vobiscum umquem -----te -net
+                      0 |--||-----------------.
+    query             0 terre frugibus in vasis vestr------is--- ----et deferte viro
+    
+    target           35 
+                     23 
+    query            47 
+
+-- fused_10 --
+  OCR:      'in iuncu lis x. de optinis ter'
+  Assigned: 'munera Deus Iste est frater vester'
+  Words:    [64..70) consumed=6
+  NW score: k=5 (pre-snap), norm=-0.5973
+  Anchor:   word 70 (page_break_77), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 in iun-cu -lis --x. de-- -opt--inis ter 30
+                      0 ---.||-..  9
+    query             0 ---munera Deus Iste -est frater ves-ter 34
+
+-- fused_11 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [70..70) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_12 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [70..70) consumed=0
+  Alignment:
+    (no words left)
+=== END DEBUG ===
+

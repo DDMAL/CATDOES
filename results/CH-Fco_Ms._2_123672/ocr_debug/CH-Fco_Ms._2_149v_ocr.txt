@@ -1,0 +1,199 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'tis converte consilium eorum supere os et da '
+  [fused_1] 'psem in a lunm nunquam habui preter us'
+  [fused_2] 'sra ris et propi cius'
+  [fused_3] 'et omnia peccata ho mimuni intribulatio'
+  [fused_4] 'ne dimitmine deus creator celi et ter'
+  [fused_5] 're respice ad humili no stram . Qui iras '
+  [fused_6] 'ementomei des in bo no . et'
+  [fused_7] 'mnserationes me quasfe domo Dei mei et'
+  [fused_8] 'in Cermonis eius dom d'
+  [fused_9] 'het hystori a por in dominica qo minis esin ipis suppl'
+  [fused_10] ' me no et nece octobris ad miio . de  pestor aton ay Domine Deo Salbto quod primi e'
+  [fused_11] 'ad aperiat dominus cor vestrum in lege sua et in preceptis'
+  [fused_12] 'mci.'
+  [fused_13] 'suiset faciat pacem dominus deus noster exovac'
+  [fused_14] 'Chabeorum premus liber lecitur pr duas eb'
+  [fused_15] 'dommadas sanctds voliber per duas alia'
+  [fused_16] 'd omonragn bomne gciate mimo'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'tis converte consilium eorum supere os et da'
+  Assigned: 'Spem in alium numquam habui preter in te deus'
+  Words:    [0..9) consumed=9
+  NW score: k=9 (pre-snap), norm=-0.4719
+  Anchor:   word 9 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 tis converte consilium -eoru-m --su--p-ere- os -et d--a 44
+                      0 ------..|--. 12
+    query             0 ------Spe--m -in alium numquam habui preter in te- deus 45
+
+-- fused_1 --
+  OCR:      'psem in a lunm nunquam habui preter us'
+  Assigned: 'israhel Qui irasceris et propicius eris'
+  Words:    [9..15) consumed=6
+  NW score: k=5 (pre-snap), norm=-1.3632
+  Anchor:   word 15 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 psem in a- lunm nunquam -ha--bui---- pr------eter us 38
+                      0 -----|..|-.|--- 15
+    query             0 -----israhel--- Qu----i irasceris et propicius er-is 39
+
+-- fused_2 --
+  OCR:      'sra ris et propi cius'
+  Assigned: 'et omnia peccata hominum in tribulatio'
+  Words:    [15..21) consumed=6
+  NW score: k=4 (pre-snap), norm=-1.2918
+  Anchor:   word 21 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 sra --ris -e---t- propi------ -ci-u------s 21
+                      0 -..  3
+    query             0 -et omnia peccata -hominum in tribulatione 40
+
+-- fused_3 --
+  OCR:      'et omnia peccata ho mimuni intribulatio'
+  Assigned: 'ne dimittis Domine deus creator celi et terre respice ad humilitatem'
+  Words:    [21..31) consumed=10
+  NW score: k=10 (pre-snap), norm=-1.3903
+  Anchor:   word 28 (within_chant_7), diff=3, snapped=False, forced=False
+  Alignment:
+    target            0 ----et-- -om-nia pe---c-cata ho- mimuni -int-----r---i------
+                      0 ----.|--
+    query             0 dimittis Domin-e deus creat---or --celi et terre respice ad 
+    
+    target           32 bu--l--atio 39
+                      8 .|--|--||.. 19
+    query            54 humilitatem 65
+
+-- fused_4 --
+  OCR:      'ne dimitmine deus creator celi et ter'
+  Assigned: 'nostram Qui irasceris Memento mei'
+  Words:    [31..36) consumed=5
+  NW score: k=5 (pre-snap), norm=-0.4865
+  Anchor:   word 42 (within_chant_7), diff=6, snapped=False, forced=False
+  Alignment:
+    target            0 ne dimit--mine deus creator celi- ---e-t- ter 37
+                      0 |----..|--|--- 14
+    query             0 n----ostram--- -Qui ir-a---sceris Memento mei 33
+
+-- fused_5 --
+  OCR:      're respice ad humili no stram . Qui iras'
+  Assigned: 'deus in bono Et ne deleas'
+  Words:    [36..42) consumed=6
+  NW score: k=8 (pre-snap), norm=-1.0609
+  Anchor:   word 42 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 re respice ad humili --no stram -. Qui iras 40
+                      0 .|--.|------- 13
+    query             0 de--us------- ---i-n bono Et--- ne --deleas 25
+
+-- fused_6 --
+  OCR:      'ementomei des in bo no . et'
+  Assigned: 'miserationes meas quas feci in domo dei mei et'
+  Words:    [42..51) consumed=9
+  NW score: k=9 (pre-snap), norm=0.2270
+  Anchor:   word 51 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 em--e-nt-omei de------s----- in bo no ------. et 27
+                      0 -|--|-.|-|.|. 13
+    query             0 -miserationes meas quas feci in do-mo dei mei et 46
+
+-- fused_7 --
+  OCR:      'mnserationes me quasfe domo Dei mei et'
+  Assigned: 'in cerimoniis eius Recordare mei domine de'
+  Words:    [51..58) consumed=7
+  NW score: k=9 (pre-snap), norm=0.4724
+  Anchor:   word 58 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 mn-serati-on-es me quas-fe-- domo Dei --m--ei -e-t 38
+                      0 .|-.||--|-||-.| 15
+    query             0 in cer--imoniis -e-iu-s Recordare mei domine- deus 44
+
+-- fused_8 --
+  OCR:      'in Cermonis eius dom d'
+  Assigned: 'us meus Et ne'
+  Words:    [58..61) consumed=3
+  NW score: k=6 (pre-snap), norm=-1.1532
+  Anchor:   word 61 (within_chant_7), diff=3, snapped=False, forced=True
+  Alignment:
+    target            0 in Cermonis eius dom -d 22
+                      0 ------|-----|-|| 16
+    query             0 ------m-----e-us -Et ne 10
+
+-- fused_9 --
+  OCR:      'het hystori a por in dominica qo minis esin ipis suppl'
+  Assigned: 'deleas Adaperiat dominus cor vestrum in lege sua et in preceptis'
+  Words:    [61..72) consumed=11
+  NW score: k=12 (pre-snap), norm=0.2457
+  Anchor:   word 72 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 het hystori --a por i-n dominica qo- ------m-in-----is-- e-s
+                      0 .|-...|----
+    query             0 de-leas---- Ada-per-iat domin-us cor vestrum in lege sua et 
+    
+    target           41 in ----ip-is suppl 54
+                     11 || 13
+    query            52 in preceptis------ 64
+
+-- fused_10 --
+  OCR:      'me no et nece octobris ad miio . de  pestor aton ay Domine Deo Salbto quod primi e'
+  Assigned: 'suis et faciat pacem dominus deus noster euouae Venite exsultemus domino'
+  Words:    [72..83) consumed=11
+  NW score: k=11 (pre-snap), norm=-0.4425
+  Anchor:   word 80 (within_chant_7), diff=3, snapped=False, forced=False
+  Alignment:
+    target            0 me no et nec--e -octobris ad miio . de-  pestor aton ay Domi
+                      0 -....
+    query             0 -suis et faciat pac----em -dom-inus deus noster euo-uae Veni
+    
+    target           56 ne Deo Salbto quod primi e 82
+                      5 .|  7
+    query            52 te -e-xsul-t-emu-s -domino 72
+
+-- fused_11 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [83..83) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_12 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [83..83) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_13 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [83..83) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_14 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [83..83) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_15 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [83..83) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_16 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [83..83) consumed=0
+  Alignment:
+    (no words left)
+=== END DEBUG ===
+

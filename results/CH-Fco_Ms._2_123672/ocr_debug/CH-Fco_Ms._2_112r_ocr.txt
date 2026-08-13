@@ -1,0 +1,183 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'gens ex mortu tam non mo ri tur moris illii'
+  [fused_1] 'tur quod autem mortuus est pecca'
+  [fused_2] 'to mortuus est se mel . Quod autem lu vit'
+  [fused_3] 'innit de Alleluya myao'
+  [fused_4] 'cum propter delicta nostra et resurrerit'
+  [fused_5] 'propter iustificatio nes strras . Quod autem'
+  [fused_6] ' snti sunt agni no vel li qui annunciavenm runt.'
+  [fused_7] 'alle pa modo venerunt ad fontes reple'
+  [fused_8] 'sunit cantaAlceli iax. in conspec'
+  [fused_9] 'tug ac sos bis et ale bus'
+  [fused_10] 'Orum Rels urrebantur duo simul et'
+  [fused_11] 'me alius discipulus precucurrit cicius Petro et venit pri'
+  [fused_12] 'ad respe resiimus officiali de'
+  [fused_13] 'me et dicim ad magisturi ad vi'
+  [fused_14] 'et ad monimentilu Alelina conorat e et ad rucdimittis usque ad'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'gens ex mortu tam non mo ri tur moris illii'
+  Assigned: 'ex mortuis iam non moritur mors illi'
+  Words:    [0..7) consumed=7
+  NW score: k=7 (pre-snap), norm=5.1341
+  Anchor:   word 26 (within_chant_7), diff=19, snapped=False, forced=False
+  Alignment:
+    target            0 gens ex mortu-- tam non mo ri tur moris illii 43
+                      0 -----||  7
+    query             0 -----ex mortuis iam non mo-ri-tur mor-s ill-i 36
+
+-- fused_1 --
+  OCR:      'tur quod autem mortuus est pecca'
+  Assigned: 'ultra non dominabitur quod autem mortuus est peccato'
+  Words:    [7..15) consumed=8
+  NW score: k=8 (pre-snap), norm=4.6087
+  Anchor:   word 26 (within_chant_7), diff=11, snapped=False, forced=False
+  Alignment:
+    target            0 ------------------tur quod autem mortuus est pecca-- 32
+                      0 ------------------||| 21
+    query             0 ultra non dominabitur quod autem mortuus est peccato 52
+
+-- fused_2 --
+  OCR:      'to mortuus est se mel . Quod autem lu vit'
+  Assigned: 'mortuus est semel Quod autem vivit'
+  Words:    [15..21) consumed=6
+  NW score: k=6 (pre-snap), norm=5.5978
+  Anchor:   word 26 (within_chant_7), diff=5, snapped=False, forced=False
+  Alignment:
+    target            0 to mortuus est se mel . Quod autem lu vit 41
+                      0 ---||||||| 10
+    query             0 ---mortuus est se-mel-- Quod autem -vivit 34
+
+-- fused_3 --
+  OCR:      'innit de Alleluya myao'
+  Assigned: 'vivit deo alleluya alleluya mor'
+  Words:    [21..26) consumed=5
+  NW score: k=3 (pre-snap), norm=3.1156
+  Anchor:   word 26 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 -innit de- Alleluya -----mya--o----- 22
+                      0 -|-.||  6
+    query             0 vi-vit deo alleluya alleluya Mortuus 35
+
+-- fused_4 --
+  OCR:      'cum propter delicta nostra et resurrerit'
+  Assigned: 'tuus est enim propter delicta nostra et resurrexit'
+  Words:    [26..33) consumed=7
+  NW score: k=7 (pre-snap), norm=6.1754
+  Anchor:   word 33 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -----cum propter delicta nostra et resurrerit 40
+                      0 -----..|  8
+    query             0 est enim propter delicta nostra et resurrexit 45
+
+-- fused_5 --
+  OCR:      'propter iustificatio nes strras . Quod autem'
+  Assigned: 'propter iustificationes nostras Quod autem'
+  Words:    [33..38) consumed=5
+  NW score: k=5 (pre-snap), norm=6.6530
+  Anchor:   word 38 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 propter iustificatio nes --strras . Quod autem 44
+                      0 |||||||  7
+    query             0 propter iustificatio-nes nost-ras-- Quod autem 42
+
+-- fused_6 --
+  OCR:      'snti sunt agni no vel li qui annunciavenm runt.'
+  Assigned: 'Isti sunt agni novelli qui annunciaverunt'
+  Words:    [38..44) consumed=6
+  NW score: k=6 (pre-snap), norm=6.1962
+  Anchor:   word 44 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -snti sunt agni no vel li qui annunciavenm runt. 47
+                      0 -|-||  5
+    query             0 Is-ti sunt agni no-vel-li qui annunciave---runt- 41
+
+-- fused_7 --
+  OCR:      'alle pa modo venerunt ad fontes reple'
+  Assigned: 'alleluya modo venerunt ad fontes Repleti'
+  Words:    [44..50) consumed=6
+  NW score: k=6 (pre-snap), norm=6.2385
+  Anchor:   word 50 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 alle- pa modo venerunt ad fontes reple-- 37
+                      0 ||||-..|  8
+    query             0 alleluya modo venerunt ad fontes Repleti 40
+
+-- fused_8 --
+  OCR:      'sunit cantaAlceli iax. in conspec'
+  Assigned: 'sunt claritate alleluya alleluya In conspec'
+  Words:    [50..56) consumed=6
+  NW score: k=6 (pre-snap), norm=1.9981
+  Anchor:   word 56 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 sunit c-a-nta---Alcel--i ia-----x. in conspec-- 33
+                      0 |||-|  5
+    query             0 sun-t claritate alleluya -alleluya In conspectu 45
+
+-- fused_9 --
+  OCR:      'tug ac sos bis et ale bus'
+  Assigned: 'tu agni amicti stolis albis et palme in manibus'
+  Words:    [56..64) consumed=8
+  NW score: k=8 (pre-snap), norm=2.2915
+  Anchor:   word 64 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 tug-- a--c-- s-o--s --bis et -al-e -------bus 25
+                      0 -.|--  5
+    query             0 -agni amicti stolis albis et palme in manibus 44
+
+-- fused_10 --
+  OCR:      'Orum Rels urrebantur duo simul et'
+  Assigned: 'eorum Repleti Currebant duo simul et'
+  Words:    [64..70) consumed=6
+  NW score: k=6 (pre-snap), norm=5.2513
+  Anchor:   word 70 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -Orum Re-l--s -urrebantur duo simul et 33
+                      0 -.|||  5
+    query             0 eorum Repleti Currebant-- duo simul et 36
+
+-- fused_11 --
+  OCR:      'me alius discipulus precucurrit cicius Petro et venit pri'
+  Assigned: 'ille alius discipulus precucurrit cicius petro et venit pri'
+  Words:    [70..79) consumed=9
+  NW score: k=9 (pre-snap), norm=6.9531
+  Anchor:   word 79 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 --me alius discipulus precucurrit cicius Petro et venit pri-
+                      0 --.|
+    query             0 ille alius discipulus precucurrit cicius petro et venit prio
+    
+    target           57 - 57
+                      4 -  5
+    query            60 r 61
+
+-- fused_12 --
+  OCR:      'ad respe resiimus officiali de'
+  Assigned: 'or ad monumentum alleluya euaouae'
+  Words:    [79..83) consumed=4
+  NW score: k=3 (pre-snap), norm=-1.5959
+  Anchor:   word 83 (page_break_77), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 ad respe resiimus official-----i -----de 30
+                      0 ||  2
+    query             0 ad --monume--ntum ------alleluya euaouae 30
+
+-- fused_13 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [83..83) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_14 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [83..83) consumed=0
+  Alignment:
+    (no words left)
+=== END DEBUG ===
+

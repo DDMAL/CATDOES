@@ -1,0 +1,167 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'domiDeub de fons minise ma'
+  [fused_1] 'nat aunimis impetus letificat canta tem de'
+  [fused_2] 'vi di supra Montem agnum stantem De sub'
+  [fused_3] 'cm prono beani Beate de mens . ut dig in efti'
+  [fused_4] 'cia mur promissi ombus Christi Sti XLu autem'
+  [fused_5] 'martir pepisti Beate deniens ora pro deum . ut'
+  [fused_6] 'dis  a domine habita culummarty ri tuo de'
+  [fused_7] 'menm momo imodum Templi Marmo'
+  [fused_8] 'licis manibus prepa ra camstetpre'
+  [fused_9] 'bens populoter de enarrent mira '
+  [fused_10] 'tu  Dedisti Domine Sanctis tuis viam'
+  [fused_11] 'in man et infuicti bus semi tam. Iter.'
+  [fused_12] 'rante sancto emente apparinit ei Angelus domi'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'domiDeub de fons minise ma'
+  Assigned: 'domini De sub cuius pede fons vivus emanat'
+  Words:    [0..8) consumed=8
+  NW score: k=8 (pre-snap), norm=2.5117
+  Anchor:   word 19 (within_chant_7), diff=11, snapped=False, forced=False
+  Alignment:
+    target            0 domi---De--ub --------de fons minis-e ma--- 26
+                      0 ||||---||--|| 13
+    query             0 domini De sub cuius pede fons vivus e-manat 42
+
+-- fused_1 --
+  OCR:      'nat aunimis impetus letificat canta tem de'
+  Assigned: 'fluminis impetus letificat civitatem dei'
+  Words:    [8..13) consumed=5
+  NW score: k=5 (pre-snap), norm=4.6843
+  Anchor:   word 19 (within_chant_7), diff=6, snapped=False, forced=False
+  Alignment:
+    target            0 nat aunimis impetus letificat c-anta tem de- 42
+                      0 ---..|.|.|| 11
+    query             0 ---fluminis impetus letificat civita-tem dei 40
+
+-- fused_2 --
+  OCR:      'vi di supra Montem agnum stantem De sub'
+  Assigned: 'Vidi supra montem agnum stantem De'
+  Words:    [13..19) consumed=6
+  NW score: k=7 (pre-snap), norm=7.0396
+  Anchor:   word 19 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 vi di supra Montem agnum stantem De sub 39
+                      0 .|-||  5
+    query             0 Vi-di supra montem agnum stantem De---- 34
+
+-- fused_3 --
+  OCR:      'cm prono beani Beate de mens . ut dig in efti'
+  Assigned: 'sub Ora pro nobis beate clemens Ut digni'
+  Words:    [19..27) consumed=8
+  NW score: k=8 (pre-snap), norm=2.0742
+  Anchor:   word 27 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -----cm pro-no beani- Beate -de mens . ut dig in efti 45
+                      0 -----..  7
+    query             0 sub Ora pro no-b---is beate cle-mens-- Ut dig--n----i 40
+
+-- fused_4 --
+  OCR:      'cia mur promissi ombus Christi Sti XLu autem'
+  Assigned: 'efficiamur promissionibus xpisti Tu autem'
+  Words:    [27..32) consumed=5
+  NW score: k=5 (pre-snap), norm=4.0731
+  Anchor:   word 32 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ----cia mur promissi o-mbus Christi Sti XLu autem 44
+                      0 ----|||-||| 11
+    query             0 efficia-mur promissi-onibus -xpisti -----Tu autem 41
+
+-- fused_5 --
+  OCR:      'martir pepisti Beate deniens ora pro deum . ut'
+  Assigned: 'martyr xpisti beate clemens ora pro nobis deum'
+  Words:    [32..40) consumed=8
+  NW score: k=9 (pre-snap), norm=4.3179
+  Anchor:   word 40 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 martir pepisti Beate -deniens ora pro------ deum . ut 46
+                      0 ||||.|  6
+    query             0 martyr -xpisti beate cle-mens ora pro nobis deum----- 46
+
+-- fused_6 --
+  OCR:      'dis  a domine habita culummarty ri tuo de'
+  Assigned: 'Ut digni Dedisti domine habitaculum martyri tuo cle'
+  Words:    [40..48) consumed=8
+  NW score: k=7 (pre-snap), norm=4.0093
+  Anchor:   word 48 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 -----------dis  a domine habita culum-marty ri tuo ---de---
+                      0 -----------|||-..
+    query             0 Ut digni Dedis-ti domine habita-culum marty-ri tuo clementi
+    
+    target           41
+                     17
+    query            56
+
+-- fused_7 --
+  OCR:      'menm momo imodum Templi Marmo'
+  Assigned: 'menti in mari in modum templi marmo'
+  Words:    [48..54) consumed=6
+  NW score: k=6 (pre-snap), norm=3.3155
+  Anchor:   word 54 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 menm momo i--modum Templi Marmo--- 29
+                      0 -.|-  4
+    query             0 -in- mari in modum templi marmorei 32
+
+-- fused_8 --
+  OCR:      'licis manibus prepa ra camstetpre'
+  Assigned: 'rei angelicis manibus preparatum i'
+  Words:    [54..58) consumed=4
+  NW score: k=4 (pre-snap), norm=3.9697
+  Anchor:   word 58 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ----licis manibus prepa ra cam-stetpre 33
+                      0 ----|||||  9
+    query             0 angelicis manibus prepa-ra-tum Ite--r- 33
+
+-- fused_9 --
+  OCR:      'bens populoter de enarrent mira'
+  Assigned: 'ter prebens populo terre ut enarrent'
+  Words:    [58..63) consumed=5
+  NW score: k=6 (pre-snap), norm=4.7945
+  Anchor:   word 63 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 ---bens populo-ter-- de enarrent mira 31
+                      0 ---||||  7
+    query             0 prebens populo terre ut enarrent----- 32
+
+-- fused_10 --
+  OCR:      'tu  Dedisti Domine Sanctis tuis viam'
+  Assigned: 'mirabilia tua Dedisti domine sanctis tuis viam'
+  Words:    [63..70) consumed=7
+  NW score: k=7 (pre-snap), norm=5.2833
+  Anchor:   word 70 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ----------tu  Dedisti Domine Sanctis tuis viam 36
+                      0 ----------||. 13
+    query             0 mirabilia tua Dedisti domine sanctis tuis viam 46
+
+-- fused_11 --
+  OCR:      'in man et infuicti bus semi tam. Iter.'
+  Assigned: 'invari et in fluctibus semitam'
+  Words:    [70..75) consumed=5
+  NW score: k=6 (pre-snap), norm=4.5792
+  Anchor:   word 75 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 in ma-n et in-f-uicti bus semi tam. Iter. 38
+                      0 ||-.|-.  7
+    query             0 in-vari et in flu-cti-bus semi-tam------- 30
+
+-- fused_12 --
+  OCR:      'rante sancto emente apparinit ei Angelus domi'
+  Assigned: 'Iter Orante sancto clemente apparuit ei angelus domini'
+  Words:    [75..83) consumed=8
+  NW score: k=8 (pre-snap), norm=5.6192
+  Anchor:   word 83 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ------rante sancto --emente apparinit ei Angelus dom--i 45
+                      0 ------||||| 11
+    query             0 Iter Orante sancto clemente appar-uit ei angelus domini 54
+=== END DEBUG ===
+

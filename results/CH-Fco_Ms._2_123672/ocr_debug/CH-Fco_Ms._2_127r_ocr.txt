@@ -1,0 +1,183 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'V . pistur domini repleint orbem terrarum'
+  [fused_1] 'illad . Et hoc quod continet omnia so'
+  [fused_2] 'Benedic anima II evovac entia habet ana'
+  [fused_3] 'um complerentur di teco'
+  [fused_4] 'steserant omes  dicensis'
+  [fused_5] 'm alem  vito factus est'
+  [fused_6] 'somisdeceloalleLuya. Tamquam spiritus ve'
+  [fused_7] '. onceana ceiis int totamdo num alelu'
+  [fused_8] 'alle L |aumergo essent in'
+  [fused_9] 'umum discipuli congregati propter metum iudeo per sonus'
+  [fused_10] 'repente de celonemit .ete os Cannquam'
+  [fused_11] 'eepte ci sunt omn moi sancto et'
+  [fused_12] 'mntiouprdinc hemms leantis dabat eleama'
+  [fused_13] 'lis . et convenit multitu dodicenti m alle'
+  [fused_14] 'm a Lomebm curnamo nignis mpolto'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'V . pistur domini repleint orbem terrarum'
+  Assigned: 'Dum complerentur dies penteco'
+  Words:    [0..4) consumed=4
+  NW score: k=5 (pre-snap), norm=-0.0250
+  Anchor:   word 4 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 V . ---p---istur domini repleint orbe-m terrarum 41
+                      0 ...  3
+    query             0 Dum complerentur d--ies --p-e-nt----ecoste-----s 33
+
+-- fused_1 --
+  OCR:      'illad . Et hoc quod continet omnia so'
+  Assigned: 'stes erant omnes pariter dicentes'
+  Words:    [4..8) consumed=4
+  NW score: k=7 (pre-snap), norm=-1.5347
+  Anchor:   word 8 (within_chant_7), diff=3, snapped=False, forced=True
+  Alignment:
+    target            0 illad . Et ho---c -----quod continet omnia so 37
+                      0 -..|----.| 10
+    query             0 -era----nt -omnes pariter dicent--e--------s- 28
+
+-- fused_2 --
+  OCR:      'Benedic anima II evovac entia habet ana'
+  Assigned: 'alleluya et subito factus est sonus'
+  Words:    [8..14) consumed=6
+  NW score: k=6 (pre-snap), norm=-1.5428
+  Anchor:   word 14 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 Benedic anima II ---evo-vac entia habe-t -an-a 39
+                      0 ...|-----...| 13
+    query             0 alle-----luya et subito fac---tus ---est sonus 35
+
+-- fused_3 --
+  OCR:      'um complerentur di teco'
+  Assigned: 'de celo alleluya Tamquam spiritus vehemens re'
+  Words:    [14..21) consumed=7
+  NW score: k=4 (pre-snap), norm=-1.9153
+  Anchor:   word 21 (within_chant_7), diff=3, snapped=False, forced=True
+  Alignment:
+    target            0 um c--o-mple----------------rentur ------di te----co 23
+                      0 ..  2
+    query             0 de celo alleluya Tamquam spir-itus vehemens replevit 51
+
+-- fused_4 --
+  OCR:      'steserant omes  dicensis'
+  Assigned: 'plevit totam domum alleluya alleluya'
+  Words:    [21..25) consumed=4
+  NW score: k=3 (pre-snap), norm=-1.9170
+  Anchor:   word 25 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 steserant -omes -------- dicensis 24
+                      0 -|--..|-.  9
+    query             0 -t--ota-m domum alleluya alleluya 29
+
+-- fused_5 --
+  OCR:      'm alem  vito factus est'
+  Assigned: 'Dum ergo essent in'
+  Words:    [25..29) consumed=4
+  NW score: k=3 (pre-snap), norm=-0.6999
+  Anchor:   word 29 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 --m alem  vito factus est--- 23
+                      0 --|  3
+    query             0 Dum --e----rgo ----essent in 18
+
+-- fused_6 --
+  OCR:      'somisdeceloalleLuya. Tamquam spiritus ve'
+  Assigned: 'unum discipuli congregati propter metum iudaeorum sonus'
+  Words:    [29..36) consumed=7
+  NW score: k=8 (pre-snap), norm=-1.6136
+  Anchor:   word 36 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 -som--isdec--el---oalleLuya---------. --Tam-qu-a----m spirit
+                      0 -..|--||--|--.|---|...|--.|---------.
+    query             0 unum dis--cipuli congre--gati propter metum iudaeorum s---on
+    
+    target           35 us ve 40
+                     37 ||--- 42
+    query            53 us--- 55
+
+-- fused_7 --
+  OCR:      '. onceana ceiis int totamdo num alelu'
+  Assigned: 'repente de celo venit super eos Tanquam Repleti'
+  Words:    [36..44) consumed=8
+  NW score: k=8 (pre-snap), norm=-0.8393
+  Anchor:   word 50 (within_chant_7), diff=6, snapped=False, forced=False
+  Alignment:
+    target            0 -. onceana ceiis -in-t -totamdo- --n-u-m --alelu 37
+                      0 -...|.|... 10
+    query             0 repente de ce-lo venit super eos Tanquam Repleti 47
+
+-- fused_8 --
+  OCR:      'alle L |aumergo essent in'
+  Assigned: 'sunt omnes spiritu sancto et cepe'
+  Words:    [44..50) consumed=6
+  NW score: k=7 (pre-snap), norm=-1.7690
+  Anchor:   word 50 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 -----alle- ------L |aumergo e---sse--nt in 25
+                      0 -----...|- 10
+    query             0 sunt omnes spiritu sa--ncto et ceperunt--- 37
+
+-- fused_9 --
+  OCR:      'umum discipuli congregati propter metum iudeo per sonus'
+  Assigned: 'runt loqui prout spiritus sanctus dabat eloqui illis'
+  Words:    [50..57) consumed=7
+  NW score: k=4 (pre-snap), norm=-1.1722
+  Anchor:   word 57 (within_chant_7), diff=3, snapped=False, forced=True
+  Alignment:
+    target            0 umum discipuli congregati pro----p---ter --metum iud--eo per
+                      0 ------------|---|-----..|
+    query             0 ------------l---o-----qui prout spiritus sanctus --dabat -e-
+    
+    target           49  sonu------s 55
+                     25 -.|.|------| 37
+    query            36 -loqui illis 47
+
+-- fused_10 --
+  OCR:      'repente de celonemit .ete os Cannquam'
+  Assigned: 'Et convenit multitudo dicentium alleluya Loquebantur'
+  Words:    [57..63) consumed=6
+  NW score: k=4 (pre-snap), norm=-0.4724
+  Anchor:   word 63 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 ----repen-te -------de --celonemi-t .ete---- -o-s Cannquam 37
+                      0 ----...||-|- 12
+    query             0 Et convenit- multitudo dice--n-tium alleluya Loqueba-ntu-r 52
+
+-- fused_11 --
+  OCR:      'eepte ci sunt omn moi sancto et'
+  Assigned: 'variis linguis apostoli'
+  Words:    [63..66) consumed=3
+  NW score: k=3 (pre-snap), norm=-1.9474
+  Anchor:   word 66 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 eepte ci sunt omn moi- sa-ncto et 31
+                      0 ----...|.|--- 13
+    query             0 ----variis--- lin-guis -aposto-li 23
+
+-- fused_12 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [66..66) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_13 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [66..66) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_14 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [66..66) consumed=0
+  Alignment:
+    (no words left)
+=== END DEBUG ===
+

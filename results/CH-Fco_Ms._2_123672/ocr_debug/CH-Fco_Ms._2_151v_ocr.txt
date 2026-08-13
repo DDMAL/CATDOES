@@ -1,0 +1,163 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'thin . sicut fuerit voluntas in ce io sic '
+  [fused_1] 'atetingi filii potentes et estotepa'
+  [fused_2] 'rati quoniam melius est nobis mori'
+  [fused_3] 'videre mala gentis nostre et sanctorumi icut et'
+  [fused_4] 'rnave runt faciemtem nis au'
+  [fused_5] 'te io et dencave runt alta re domi no . et'
+  [fused_6] 'dita est leti ciamagnain cor lo'
+  [fused_7] 'Ymnis et confessioni bus benedice baut'
+  [fused_8] 'co mmi et facta m ym nis et confes'
+  [fused_9] 'omino .ncioi cantdonu . Qui mag'
+  [fused_10] 'na fecit in isstrahei eet incoriam do'
+  [fused_11] 'mimus omnipo ternaverunt fa'
+  [fused_12] 'tiem templi coromis aure is et cedienerunt alta re'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'thin . sicut fuerit voluntas in ce io sic'
+  Assigned: 'Sicut fuerit voluntas in celo sic'
+  Words:    [0..6) consumed=6
+  NW score: k=6 (pre-snap), norm=5.6004
+  Anchor:   word 13 (within_chant_7), diff=7, snapped=False, forced=False
+  Alignment:
+    target            0 thin . sicut fuerit voluntas in ce io sic 41
+                      0 -------.|||| 12
+    query             0 -------Sicut fuerit voluntas in ce-lo sic 33
+
+-- fused_1 --
+  OCR:      'atetingi filii potentes et estotepa'
+  Assigned: 'fiat Accingimini filii potentes et estote pa'
+  Words:    [6..13) consumed=7
+  NW score: k=6 (pre-snap), norm=5.0685
+  Anchor:   word 13 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 --at--eting----i filii potentes et estote-pa---- 35
+                      0 --||--..|||----| 16
+    query             0 fiat Accingimini filii potentes et estote parati 48
+
+-- fused_2 --
+  OCR:      'rati quoniam melius est nobis mori'
+  Assigned: 'rati quoniam melius est nobis mori in bello quam'
+  Words:    [13..21) consumed=8
+  NW score: k=5 (pre-snap), norm=6.7833
+  Anchor:   word 21 (within_chant_7), diff=3, snapped=False, forced=True
+  Alignment:
+    target            0 rati quoniam melius est nobis mori-------------- 34
+                      0 -----||||||| 12
+    query             0 -----quoniam melius est nobis mori in bello quam 43
+
+-- fused_3 --
+  OCR:      'videre mala gentis nostre et sanctorumi icut et'
+  Assigned: 'videre mala gentis nostre et sanctorum Sicut'
+  Words:    [21..28) consumed=7
+  NW score: k=7 (pre-snap), norm=6.9708
+  Anchor:   word 28 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 videre mala gentis nostre et sanctorumi -icut et 47
+                      0 ||||||  6
+    query             0 videre mala gentis nostre et sanctorum- Sicu---t 44
+
+-- fused_4 --
+  OCR:      'rnave runt faciemtem nis au'
+  Assigned: 'Ornaverunt faciem templi coronis au'
+  Words:    [28..33) consumed=5
+  NW score: k=3 (pre-snap), norm=4.4391
+  Anchor:   word 33 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 -rnave runt faciem-tem--- ----nis au---- 27
+                      0 -|||||-|||| 11
+    query             0 Ornave-runt faciem templi coronis aureis 39
+
+-- fused_5 --
+  OCR:      'te io et dencave runt alta re domi no . et'
+  Assigned: 'reis et dedicaverunt altare domino Et'
+  Words:    [33..38) consumed=5
+  NW score: k=5 (pre-snap), norm=4.4189
+  Anchor:   word 38 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 te io et de-ncave runt alta re domi no . et 42
+                      0 ------||  8
+    query             0 ------et dedicave-runt alta-re domi-no-- Et 32
+
+-- fused_6 --
+  OCR:      'dita est leti ciamagnain cor lo'
+  Assigned: 'facta est leticia magna in populo'
+  Words:    [38..44) consumed=6
+  NW score: k=6 (pre-snap), norm=4.5960
+  Anchor:   word 44 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -dita est leti cia-magna-in cor lo 31
+                      0 -..||  5
+    query             0 facta est leti-cia magna in populo 33
+
+-- fused_7 --
+  OCR:      'Ymnis et confessioni bus benedice baut'
+  Assigned: 'In ymnis et confessionibus benedicebant'
+  Words:    [44..49) consumed=5
+  NW score: k=5 (pre-snap), norm=6.1044
+  Anchor:   word 49 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ---Ymnis et confessioni bus benedice baut 38
+                      0 ---.||||  8
+    query             0 In ymnis et confessioni-bus benedice-bant 39
+
+-- fused_8 --
+  OCR:      'co mmi et facta m ym nis et confes'
+  Assigned: 'dominum Et facta In ymnis et confessi'
+  Words:    [49..56) consumed=7
+  NW score: k=7 (pre-snap), norm=3.7661
+  Anchor:   word 56 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 co mmi--- et facta -m ym nis et confe--------s 34
+                      0 .|--||---  9
+    query             0 do--minum Et facta In ym-nis et confessionibus 43
+
+-- fused_9 --
+  OCR:      'omino .ncioi cantdonu . Qui mag'
+  Assigned: 'onibus benedicant dominum Qui ma'
+  Words:    [56..60) consumed=4
+  NW score: k=4 (pre-snap), norm=1.7650
+  Anchor:   word 60 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 omino .ncioi cant-do--nu . Qui mag-- 31
+                      0 -----..|-..|-||||-||--||-. 26
+    query             0 -----ben-edi-cant dominu-m Qui magna 28
+
+-- fused_10 --
+  OCR:      'na fecit in isstrahei eet incoriam do'
+  Assigned: 'gna fecit in israhel et victoriam dedit illis do'
+  Words:    [60..68) consumed=8
+  NW score: k=5 (pre-snap), norm=4.2434
+  Anchor:   word 68 (within_chant_7), diff=3, snapped=False, forced=True
+  Alignment:
+    target            0 na fecit in isstrahei eet -inc-oriam------------ do----- 37
+                      0 ---|||||  8
+    query             0 ---fecit in is--rahel -et vi-ctoriam dedit illis dominus 49
+
+-- fused_11 --
+  OCR:      'mimus omnipo ternaverunt fa'
+  Assigned: 'minus omnipotens Ornaverunt fa'
+  Words:    [68..71) consumed=3
+  NW score: k=3 (pre-snap), norm=3.6006
+  Anchor:   word 71 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 mimus omnipo te----rnaverunt fa---- 27
+                      0 ------||||||-||----||||||||| 28
+    query             0 ------omnipo-tens Ornaverunt faciem 28
+
+-- fused_12 --
+  OCR:      'tiem templi coromis aure is et cedienerunt alta re'
+  Assigned: 'ciem templi coronis aureis et dedicaverunt altare'
+  Words:    [71..77) consumed=6
+  NW score: k=6 (pre-snap), norm=5.3727
+  Anchor:   word 77 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 tiem templi coromis aure is et cedi-enerunt alta re 50
+                      0 -----|||||| 11
+    query             0 -----templi coronis aure-is et dedicaverunt alta-re 44
+=== END DEBUG ===
+

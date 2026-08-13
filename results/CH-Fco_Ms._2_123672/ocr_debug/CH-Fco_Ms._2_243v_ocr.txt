@@ -1,0 +1,175 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'tate vestras lampa des . Ecclese. ecta me a et pona'
+  [fused_1] 'ho qu'
+  [fused_2] 'pecietua et pulcritudine tu  prulcr'
+  [fused_3] 'facie sed pulcrior fide beata es go respuens mu'
+  [fused_4] 'dum leta beriscum angelis . interce'
+  [fused_5] 'omni bus nobispecie tua et pulcritudi'
+  [fused_6] 'neca a intende prospere proce de et reg na inter'
+  [fused_7] 'et est virgo sapiens et una de numero pru tesia'
+  [fused_8] 'dentum P dominus Reg  ec est virgo sapienns'
+  [fused_9] 'quam dominus vigilantem invenit ps jubilis exovae'
+  [fused_10] 'ec est quenescivit thorum in delicto habebit fruc'
+  [fused_11] 'tim in respectone animarum sanctarum  s deus evovae'
+  [fused_12] 'n acto mei et conam inte cracionum menuns alie'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'tate vestras lampa des . Ecclese. ecta me a et pona'
+  Assigned: 'vestras lampades Ecce Veni electa mea et ponam'
+  Words:    [0..8) consumed=8
+  NW score: k=8 (pre-snap), norm=4.5628
+  Anchor:   word 8 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 tate vestras lampa des . Eccle-se-. --ecta me a et pona- 51
+                      0 -----||||||| 12
+    query             0 -----vestras lampa-des-- Ecc-e Veni electa me-a et ponam 46
+
+-- fused_1 --
+  OCR:      'ho qu'
+  Assigned: 'in te thronum meum Quia concupivit rex'
+  Words:    [8..15) consumed=7
+  NW score: k=2 (pre-snap), norm=-2.4000
+  Anchor:   word 15 (within_chant_7), diff=5, snapped=False, forced=True
+  Alignment:
+    target            0 -------h-o-------- qu-----------------  5
+                      0 -------|-|-------- 18
+    query             0 in te thronum meum Quia concupivit rex 38
+
+-- fused_2 --
+  OCR:      'pecietua et pulcritudine tu  prulcr'
+  Assigned: 'speciem tuam Specie tua et pulcritudine tua Quia Pulcra'
+  Words:    [15..24) consumed=9
+  NW score: k=9 (pre-snap), norm=3.8519
+  Anchor:   word 24 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 --------------pecie-tua et pulcritudine tu- ---- prulcr- 35
+                      0 --------------|||||-||| 23
+    query             0 speciem tuam Specie tua et pulcritudine tua Quia -Pulcra 55
+
+-- fused_3 --
+  OCR:      'facie sed pulcrior fide beata es go respuens mu'
+  Assigned: 'facie sed pulcrior fide beata es virgo respuens mundum'
+  Words:    [24..33) consumed=9
+  NW score: k=8 (pre-snap), norm=6.9362
+  Anchor:   word 33 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 facie sed pulcrior fide beata es ---go respuens mu---- 47
+                      0 |||||  5
+    query             0 facie sed pulcrior fide beata es virgo respuens mundum 54
+
+-- fused_4 --
+  OCR:      'dum leta beriscum angelis . interce'
+  Assigned: 'letaberis cum angelis Intercede'
+  Words:    [33..37) consumed=4
+  NW score: k=4 (pre-snap), norm=4.8878
+  Anchor:   word 37 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 dum leta beris-cum angelis . interc--e 35
+                      0 ----||||-|||||-||| 18
+    query             0 ----leta-beris cum angelis-- Intercede 31
+
+-- fused_5 --
+  OCR:      'omni bus nobispecie tua et pulcritudi'
+  Assigned: 'pro omnibus nobis Specie tua et pulcritudi'
+  Words:    [37..44) consumed=7
+  NW score: k=7 (pre-snap), norm=6.0721
+  Anchor:   word 44 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ----omni bus nobis--pecie tua et pulcritudi-- 37
+                      0 ----||||-||| 12
+    query             0 pro omni-bus nobis Specie tua et pulcritudine 44
+
+-- fused_6 --
+  OCR:      'neca a intende prospere proce de et reg na inter'
+  Assigned: 'ne tua intende prospere procede et regna'
+  Words:    [44..50) consumed=6
+  NW score: k=7 (pre-snap), norm=5.5161
+  Anchor:   word 50 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 neca a intende prospere proce de et reg na inter 48
+                      0 ---..|  6
+    query             0 ---tua intende prospere proce-de et reg-na------ 37
+
+-- fused_7 --
+  OCR:      'et est virgo sapiens et una de numero pru tesia'
+  Assigned: 'Intercede Hec est virgo sapiens et una de numero pru'
+  Words:    [50..60) consumed=10
+  NW score: k=10 (pre-snap), norm=4.8266
+  Anchor:   word 60 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -----------et est virgo sapiens et una de numero pru te-sia
+                      0 -----------|.
+    query             0 Intercede Hec est virgo sapiens et una de numero pru-dentum
+    
+    target           47
+                     13
+    query            58
+
+-- fused_8 --
+  OCR:      'dentum P dominus Reg  ec est virgo sapienns'
+  Assigned: 'dentum ~Dominus regnavit euouae Hec est virgo sapiens'
+  Words:    [60..67) consumed=7
+  NW score: k=7 (pre-snap), norm=3.3727
+  Anchor:   word 67 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 dentum P dominus Reg----- ------ -ec est virgo sapienns 43
+                      0 --------..|||||| 16
+    query             0 --------~Dominus regnavit euouae Hec est virgo sapie-ns 46
+
+-- fused_9 --
+  OCR:      'quam dominus vigilantem invenit ps jubilis exovae'
+  Assigned: 'quam dominus vigilantem invenit ~Jubilate'
+  Words:    [67..72) consumed=5
+  NW score: k=6 (pre-snap), norm=5.7941
+  Anchor:   word 72 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 quam dominus vigilantem invenit ps jubilis exova-e 49
+                      0 ||||  4
+    query             0 quam dominus vigilantem invenit --~Jubil-------ate 41
+
+-- fused_10 --
+  OCR:      'ec est quenescivit thorum in delicto habebit fruc'
+  Assigned: 'euouae Hec est que nescivit thorum in delicto habebit fruc'
+  Words:    [72..82) consumed=10
+  NW score: k=10 (pre-snap), norm=6.2921
+  Anchor:   word 82 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 --------ec est que-nescivit thorum in delicto habebit fruc--
+                      0 --------||
+    query             0 euouae Hec est que nescivit thorum in delicto habebit fructu
+    
+    target           49 - 49
+                     10 - 11
+    query            60 m 61
+
+-- fused_11 --
+  OCR:      'tim in respectone animarum sanctarum  s deus evovae'
+  Assigned: 'tum in respectione animarum sanctarum ~Deus'
+  Words:    [82..87) consumed=5
+  NW score: k=7 (pre-snap), norm=5.9020
+  Anchor:   word 87 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 tim in respect-one animarum sanctarum  s deus evovae 51
+                      0 ----||  6
+    query             0 ----in respectione animarum sanctarum --~Deus------- 39
+
+-- fused_12 --
+  OCR:      'n acto mei et conam inte cracionum menuns alie'
+  Assigned: 'deus euouae Veni electa mea et ponam in te thronum meum alleluya'
+  Words:    [87..99) consumed=12
+  NW score: k=12 (pre-snap), norm=2.1563
+  Anchor:   word 99 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 --------------n- --acto mei et conam in-te -cracionum menuns
+                      0 --------------|-
+    query             0 deus euouae Veni electa mea et ponam in te thr---onum me-u-m
+    
+    target           41  alie---- 46
+                     16  16
+    query            55  alleluya 64
+=== END DEBUG ===
+

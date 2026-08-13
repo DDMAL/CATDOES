@@ -1,0 +1,215 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'cumbentibus Allelvya Evovae agister quod est'
+  [fused_1] 'mandatum magnum esi lege ait illi Jheesus diliges domnium'
+  [fused_2] 'M'
+  [fused_3] 'deum tuum e pcorde tuo Allelvya evovae'
+  [fused_4] 'no beatis videtur de Christoistero cuius filius est dicunt ei om'
+  [fused_5] 'juddicit eis ihese sus quomodo davidnirtu'
+  [fused_6] 'vocat eum dominum dicens dixit dominius domino me'
+  [fused_7] 'Dominca'
+  [fused_8] 'toi'
+  [fused_9] 'deeis tdominus paraliti'
+  [fused_10] 'co confide fili remittuntur tibi peccata terua evovac'
+  [fused_11] 'Culite elegite pariahiaicalis lectuam suerumm . lacebat mact'
+  [fused_12] 'ficans Deum et omnis plebs ut jidit dedit laudem Deo ex'
+  [fused_13] 'ovae.  ivitatis ecclesie prandium meum'
+  [fused_14] 'in venite ad nuptias Allelvya exovae nntravit'
+  [fused_15] 'auten ret ut videret discummbentes et jndit ibi hominen'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'cumbentibus Allelvya Evovae agister quod est'
+  Assigned: 'alleluya euouae Magister quod est'
+  Words:    [0..5) consumed=5
+  NW score: k=5 (pre-snap), norm=3.7790
+  Anchor:   word 5 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 cumbentibus Allelvya Evovae -agister quod est 44
+                      0 ------------.||||.|| 20
+    query             0 ------------alleluya euouae Magister quod est 33
+
+-- fused_1 --
+  OCR:      'mandatum magnum esi lege ait illi Jheesus diliges domnium'
+  Assigned: 'mandatum magnum in lege ait illi ihesus diliges dominum'
+  Words:    [5..14) consumed=9
+  NW score: k=9 (pre-snap), norm=6.6618
+  Anchor:   word 14 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 mandatum magnum esi- lege ait illi Jheesus diliges dom-nium
+                      0 ||||||||
+    query             0 mandatum magnum --in lege ait illi ih-esus diliges domin-um
+    
+    target           57
+                      8
+    query            55
+
+-- fused_2 --
+  OCR:      'M'
+  Assigned: 'deum'
+  Words:    [14..15) consumed=1
+  NW score: k=1 (pre-snap), norm=-9.0000
+  Anchor:   word 23 (within_chant_7), diff=8, snapped=False, forced=False
+  Alignment:
+    target            0 ---M 1
+                      0 ---. 4
+    query             0 deum 4
+
+-- fused_3 --
+  OCR:      'deum tuum e pcorde tuo Allelvya evovae'
+  Assigned: 'tuum ex toto corde tuo alleluya euouae Quid'
+  Words:    [15..23) consumed=8
+  NW score: k=7 (pre-snap), norm=4.1316
+  Anchor:   word 23 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 deum tuum e- ----pcorde tuo Allelvya evovae----- 38
+                      0 -----||||  9
+    query             0 -----tuum ex toto corde tuo alleluya euouae Quid 43
+
+-- fused_4 --
+  OCR:      'no beatis videtur de Christoistero cuius filius est dicunt ei om'
+  Assigned: 'vobis videtur de christo cuius filius est dicunt ei om'
+  Words:    [23..33) consumed=10
+  NW score: k=10 (pre-snap), norm=5.8114
+  Anchor:   word 33 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 no beatis videtur de Christoistero cuius filius est dicunt e
+                      0 .|-|---||
+    query             0 vo-b---is videtur de christ------o cuius filius est dicunt e
+    
+    target           60 i om--- 64
+                      9 | 10
+    query            50 i omnes 57
+
+-- fused_5 --
+  OCR:      'juddicit eis ihese sus quomodo davidnirtu'
+  Assigned: 'nes david dicit eis ihesus quomodo david in spiritu'
+  Words:    [33..41) consumed=8
+  NW score: k=8 (pre-snap), norm=4.9661
+  Anchor:   word 41 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 --jud-dicit eis ihese sus quomodo david--n---ir-tu 41
+                      0 --..|-||||| 11
+    query             0 david dicit eis ihe---sus quomodo david in spiritu 47
+
+-- fused_6 --
+  OCR:      'vocat eum dominum dicens dixit dominius domino me'
+  Assigned: 'vocat eum dominum dicens dixit dominus domino meo'
+  Words:    [41..49) consumed=8
+  NW score: k=8 (pre-snap), norm=7.5510
+  Anchor:   word 49 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 vocat eum dominum dicens dixit dominius domino me- 49
+                      0 |||||  5
+    query             0 vocat eum dominum dicens dixit domin-us domino meo 49
+
+-- fused_7 --
+  OCR:      'Dominca'
+  Assigned: 'sede a'
+  Words:    [49..51) consumed=2
+  NW score: k=2 (pre-snap), norm=-3.7033
+  Anchor:   word 57 (within_chant_7), diff=6, snapped=False, forced=False
+  Alignment:
+    target            0 Dominca 7
+                      0 -.....| 7
+    query             0 -sede a 6
+
+-- fused_8 --
+  OCR:      'toi'
+  Assigned: 'dexteris'
+  Words:    [51..52) consumed=1
+  NW score: k=1 (pre-snap), norm=-3.2660
+  Anchor:   word 57 (within_chant_7), diff=5, snapped=False, forced=False
+  Alignment:
+    target            0 ---t-oi- 3
+                      0 ---|-.|- 8
+    query             0 dexteris 8
+
+-- fused_9 --
+  OCR:      'deeis tdominus paraliti'
+  Assigned: 'meis euouae Dixit dominus paraliti'
+  Words:    [52..57) consumed=5
+  NW score: k=5 (pre-snap), norm=3.5447
+  Anchor:   word 57 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 deeis -----------t-dominus paraliti-- 23
+                      0 -.|||  5
+    query             0 -meis euouae Dixit dominus paralitico 36
+
+-- fused_10 --
+  OCR:      'co confide fili remittuntur tibi peccata terua evovac'
+  Assigned: 'co confide fili remittuntur tibi peccata tua euouae'
+  Words:    [57..64) consumed=7
+  NW score: k=7 (pre-snap), norm=6.3841
+  Anchor:   word 64 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 co confide fili remittuntur tibi peccata terua evovac 53
+                      0 ---||||||| 10
+    query             0 ---confide fili remittuntur tibi peccata t--ua euouae 48
+
+-- fused_11 --
+  OCR:      'Culite elegite pariahiaicalis lectuam suerumm . lacebat mact'
+  Assigned: 'Tulit ergo paraliticus lectum suum in quo iacebat magni'
+  Words:    [64..73) consumed=9
+  NW score: k=9 (pre-snap), norm=2.6943
+  Anchor:   word 73 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 Culite elegite pariahiaicalis lectuam suerum--m --. lacebat 
+                      0 .||||-
+    query             0 Tulit- e-rg--o par-alitic--us lectu-m su--um in quo iacebat 
+    
+    target           56 ma-----c--t 60
+                      6 ||-----|--. 17
+    query            50 magnificans 61
+
+-- fused_12 --
+  OCR:      'ficans Deum et omnis plebs ut jidit dedit laudem Deo ex'
+  Assigned: 'ficans deum et omnis plebs ut vidit dedit laudem deo euouae'
+  Words:    [73..83) consumed=10
+  NW score: k=9 (pre-snap), norm=5.6885
+  Anchor:   word 83 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 ficans Deum et omnis plebs ut jidit dedit laudem Deo e----x
+                      0 -------.|||
+    query             0 -------deum et omnis plebs ut vidit dedit laudem deo euouae
+    
+    target           55
+                     11
+    query            52
+
+-- fused_13 --
+  OCR:      'ovae.  ivitatis ecclesie prandium meum'
+  Assigned: 'Dicite invitatis ecce prandium meum pa'
+  Words:    [83..89) consumed=6
+  NW score: k=5 (pre-snap), norm=4.7712
+  Anchor:   word 89 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 --ovae.  i-vitatis ecclesie prandium meum------- 38
+                      0 --...|--  8
+    query             0 Dicite-- invitatis ecc----e prandium meum paravi 42
+
+-- fused_14 --
+  OCR:      'in venite ad nuptias Allelvya exovae nntravit'
+  Assigned: 'ravi venite ad nuptias alleluya euouae Intravit'
+  Words:    [89..95) consumed=6
+  NW score: k=6 (pre-snap), norm=5.9346
+  Anchor:   word 95 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 in venite ad nuptias Allelvya exovae nntravit 45
+                      0 ---||||||  9
+    query             0 ---venite ad nuptias alleluya euouae Intravit 42
+
+-- fused_15 --
+  OCR:      'auten ret ut videret discummbentes et jndit ibi hominen'
+  Assigned: 'autem rex ut videret discumbentes et vidit ibi hominem'
+  Words:    [95..104) consumed=9
+  NW score: k=9 (pre-snap), norm=6.6058
+  Anchor:   word 104 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 auten ret ut videret discummbentes et jndit ibi hominen 55
+                      0 ||||.  5
+    query             0 autem rex ut videret discu-mbentes et vidit ibi hominem 54
+=== END DEBUG ===
+

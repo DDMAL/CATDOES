@@ -1,0 +1,239 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'filium hominis in regno suo Dndinis evovae cce Priu'
+  [fused_1] 'et meus electus quem elegi posui super eum splrtum meum'
+  [fused_2] 'e tinetdeu vuius Exult caltic'
+  [fused_3] 'Taudeni evovac commemorato de Nati ut S presacto Stephano Stephanus et Etscimus arver . Ad benedictus .'
+  [fused_4] 'Stephanus vidit celosaptos'
+  [fused_5] 'vidit etinterunt Avele'
+  [fused_6] 'ceum Bicipium Capilli Qu tums domini'
+  [fused_7] '.ade Ronorid eti toi  ad a ut servio inter fratres quod discipulus'
+  [fused_8] 'ille non moritur et non dicit Jhesus non moritur sed sic eum'
+  [fused_9] 'Poluacentis'
+  [fused_10] 're donec nemam evovac .uit'
+  [fused_11] 'qui cum mulieribus non sunt comquina tl virgines e'
+  [fused_12] 'nni sunt et sequuntur agnium quocumque jerit evovae'
+  [fused_13] 'ers it vultos pue inlecoleem vide'
+  [fused_14] 'diermo die . et fit omiemus de nati'
+  [fused_15] 'entum aa .cels'
+  [fused_16] 'ancte'
+  [fused_17] 'Rag ta'
+  [fused_18] 'quatuor d am empti sunt de terra Hu'
+  [fused_19] 'nt onca m m nonorbue comonlio e '
+  [fused_20] 'Gmes eum pemnanserernt res'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'filium hominis in regno suo Dndinis evovae cce Priu'
+  Assigned: 'filium hominis in regno suo ~Benedic euouae Ecce pu'
+  Words:    [0..9) consumed=9
+  NW score: k=8 (pre-snap), norm=4.9922
+  Anchor:   word 9 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 filium hominis in regno suo --Dn-dinis evovae -cce --Priu 51
+                      0 ||||||  6
+    query             0 filium hominis in regno suo ~Bened--ic euouae Ecce puer-- 53
+
+-- fused_1 --
+  OCR:      'et meus electus quem elegi posui super eum splrtum meum'
+  Assigned: 'er meus electus quem elegi posui super eum spiritum meum'
+  Words:    [9..18) consumed=9
+  NW score: k=9 (pre-snap), norm=7.0938
+  Anchor:   word 18 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 et meus electus quem elegi posui super eum splr-tum meum 55
+                      0 ---||||  7
+    query             0 ---meus electus quem elegi posui super eum spiritum meum 53
+
+-- fused_2 --
+  OCR:      'e tinetdeu vuius Exult caltic'
+  Assigned: '~Lauda euouae Exiit sermo inter'
+  Words:    [18..23) consumed=5
+  NW score: k=5 (pre-snap), norm=-1.3674
+  Anchor:   word 26 (within_chant_7), diff=3, snapped=False, forced=False
+  Alignment:
+    target            0 e tinetdeu vuiu-s Exult -----caltic 29
+                      0 ---....|-. 10
+    query             0 ---~Laud-a euouae Exiit sermo inter 31
+
+-- fused_3 --
+  OCR:      'Taudeni evovac commemorato de Nati ut S presacto Stephano Stephanus et Etscimus arver . Ad benedictus .'
+  Assigned: 'fratres quod discipulus ille non moritur et non dixit ihesus non moritur sed sic eum volo manere donec'
+  Words:    [23..41) consumed=18
+  NW score: k=18 (pre-snap), norm=-1.2000
+  Anchor:   word 26 (within_chant_7), diff=15, snapped=False, forced=False
+  Alignment:
+    target            0 -Ta------u-deni-------- ---evovac commemorat-o de- --Nati ut
+                      0 -.|------|-|..|--------
+    query             0 fratres quod discipulus ille----- no-n moritur -et non dixit
+    
+    target           37  S presacto Stephano- ---Stephanus -et Ets-cimus ------arver
+                     23 --
+    query            53 -- ihes--us ------non morit-----ur sed --sic eum volo ma-ner
+    
+    target           85  . Ad benedictus . 103
+                     25 -.  27
+    query            95 -e -d--one--c----- 102
+
+-- fused_4 --
+  OCR:      'Stephanus vidit celosaptos'
+  Assigned: 'veniam euouae Hi sunt'
+  Words:    [41..45) consumed=4
+  NW score: k=3 (pre-snap), norm=-1.9121
+  Anchor:   word 45 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 Stepha----nu-s vidit celosaptos 26
+                      0 -.|..|----.|-. 14
+    query             0 -veniam euouae Hi--- ----sunt-- 21
+
+-- fused_5 --
+  OCR:      'vidit etinterunt Avele'
+  Assigned: 'qui cum mulieribus non sunt coinquinati virgines e'
+  Words:    [45..53) consumed=8
+  NW score: k=5 (pre-snap), norm=-2.0926
+  Anchor:   word 53 (within_chant_7), diff=3, snapped=False, forced=True
+  Alignment:
+    target            0 ----------vi-di-----------t etinteru-n-t- Av-----e-le--- 22
+                      0 ----------.|-.|-----------| 27
+    query             0 qui cum mulieribus non sunt coin--quinati -virgines enim 53
+
+-- fused_6 --
+  OCR:      'ceum Bicipium Capilli Qu tums domini'
+  Assigned: 'nim sunt et sequuntur agnum quocumque ierit euouae'
+  Words:    [53..60) consumed=7
+  NW score: k=9 (pre-snap), norm=-1.3644
+  Anchor:   word 60 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 --------ce-----------um -Bicipium--- Capilli Qu tums domini
+                      0 --------.|-----------||
+    query             0 sunt et sequuntur agnum quoc---umque ---ieri--t eu----o-uae
+    
+    target           36
+                     23
+    query            46
+
+-- fused_7 --
+  OCR:      '.ade Ronorid eti toi  ad a ut servio inter fratres quod discipulus'
+  Assigned: 'Centum quadraginta quatuor milia qui empti sunt de terra hii sunt qui cum mulieribus'
+  Words:    [60..74) consumed=14
+  NW score: k=14 (pre-snap), norm=-0.6178
+  Anchor:   word 62 (within_chant_7), diff=12, snapped=False, forced=False
+  Alignment:
+    target            0 --------.ade Ron--------or----id eti ---toi  ad a u-t servio
+                      0 --------.||....|--------||----|.
+    query             0 Centum quadraginta quatuor milia qui empt-i -----sunt de----
+    
+    target           36  inter fra--tres--- quod disc--ipul-----us 66
+                     32  32
+    query            50  --ter--ra hii sunt qu----i cum mulieribus 84
+
+-- fused_8 --
+  OCR:      'ille non moritur et non dicit Jhesus non moritur sed sic eum'
+  Assigned: 'non sunt coinquinati vir'
+  Words:    [74..78) consumed=4
+  NW score: k=9 (pre-snap), norm=-0.7100
+  Anchor:   word 78 (within_chant_7), diff=5, snapped=False, forced=True
+  Alignment:
+    target            0 ille non moritur et no-n dicit Jhesus non mor-itur sed sic e
+                      0 -----|||
+    query             0 -----non ----su--nt coinquinat----------i Virgi----ne--s----
+    
+    target           58 um 60
+                      8 -- 10
+    query            29 -- 29
+
+-- fused_9 --
+  OCR:      'Poluacentis'
+  Assigned: 'gines enim'
+  Words:    [78..79) consumed=1
+  NW score: k=1 (pre-snap), norm=-1.5076
+  Anchor:   word 83 (page_break_77), diff=4, snapped=False, forced=False
+  Alignment:
+    target            0 Poluacentis 11
+                      0 ------||-|. 11
+    query             0 ------en-im  4
+
+-- fused_10 --
+  OCR:      're donec nemam evovac .uit'
+  Assigned: 'permanserunt ideo regnant cum'
+  Words:    [79..83) consumed=4
+  NW score: k=4 (pre-snap), norm=-1.4931
+  Anchor:   word 83 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 re don-ec n----emam -evova-c .uit 26
+                      0 .|...|-|..|----|--. 19
+    query             0 permanserunt ide--o re-gnant cu-m 29
+
+-- fused_11 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [83..83) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_12 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [83..83) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_13 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [83..83) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_14 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [83..83) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_15 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [83..83) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_16 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [83..83) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_17 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [83..83) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_18 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [83..83) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_19 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [83..83) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_20 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [83..83) consumed=0
+  Alignment:
+    (no words left)
+=== END DEBUG ===
+

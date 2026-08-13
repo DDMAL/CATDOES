@@ -1,0 +1,197 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'qn contempsit vitam mundi et pervenit ad celes'
+  [fused_1] ''
+  [fused_2] 'eg na ipse omiie iste sanctus habitavit vita'
+  [fused_3] 'bernaculo tuo operatus est justiciam requiescet in Monte Sancto'
+  [fused_4] 'tuo  domine qis ovae e vitam petuit a te Tribuisti ei domi'
+  [fused_5] 'ne gloriam et magnum decorem imposuisti super eum posuisti'
+  [fused_6] 'in capite ejus coronavi de lapide precioso po dune iniur evovac'
+  [fused_7] 'Hic accipiet benedictionem a domino et il ace'
+  [fused_8] 'ut hec est generatio querentium domnnim'
+  [fused_9] 'domini est ter evovae. mavit eum dominus et'
+  [fused_10] 'orna vit um stolam glo ri eindunt um'
+  [fused_11] 'Et ad portas paradisi coronavit dint eum'
+  [fused_12] 'dominus Loricani fide navit m et aopr '
+  [fused_13] 'ent iumbri. cmcti et '
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'qn contempsit vitam mundi et pervenit ad celes'
+  Assigned: 'qui contempsit vitam mundi et pervenit ad celestia'
+  Words:    [0..8) consumed=8
+  NW score: k=8 (pre-snap), norm=6.9852
+  Anchor:   word 16 (within_chant_7), diff=8, snapped=False, forced=False
+  Alignment:
+    target            0 q-n contempsit vitam mundi et pervenit ad celes--- 46
+                      0 |-.  3
+    query             0 qui contempsit vitam mundi et pervenit ad celestia 50
+
+-- fused_1 --
+  OCR:      ''
+  Assigned: 'regna Ipse Domine iste sanctus habitavit in ta'
+  Words:    [8..16) consumed=8
+
+-- fused_2 --
+  OCR:      'eg na ipse omiie iste sanctus habitavit vita'
+  Assigned: 'bernaculo tuo operatus est iusticiam requiescet in monte sancto'
+  Words:    [16..24) consumed=8
+  NW score: k=15 (pre-snap), norm=-0.6601
+  Anchor:   word 24 (within_chant_7), diff=7, snapped=False, forced=True
+  Alignment:
+    target            0 ------e----g -na ips-----e -omiie---- i----ste sanctus habit
+                      0 ------|----.
+    query             0 tuo operatus est iusticiam requiescet in monte sanc---------
+    
+    target           35 avit vita 44
+                     12 -------|. 21
+    query            51 -------to 53
+
+-- fused_3 --
+  OCR:      'bernaculo tuo operatus est justiciam requiescet in Monte Sancto'
+  Assigned: 'tuo ~Domine quis euouae Vitam petiit a te tribuisti ei domi'
+  Words:    [24..35) consumed=11
+  NW score: k=9 (pre-snap), norm=-0.5645
+  Anchor:   word 35 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 bernaculo tuo --o--peratu-s e-------st-- justici--a--m -requ
+                      0 ----------|||
+    query             0 ----------tuo ~Domine- quis euouae Vitam -peti-it a te tribu
+    
+    target           41 iescet- -in Mo--nte Sancto 63
+                     13 |-|--|- 20
+    query            47 i-s--ti ei- domin-e------- 61
+
+-- fused_4 --
+  OCR:      'tuo  domine qis ovae e vitam petuit a te Tribuisti ei domi'
+  Assigned: 'ne gloriam et magnum decorem imposuisti super eum posuisti'
+  Words:    [35..43) consumed=8
+  NW score: k=10 (pre-snap), norm=-0.6352
+  Anchor:   word 43 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 tuo  domine qis ovae e vitam petuit -a---- te Tr---i---buist
+                      0 ..|--------------------.|-||
+    query             0 glo--------------------ri-am -e---t magnum decorem imposuist
+    
+    target           49 i ---ei dom--------i 58
+                     28 | 29
+    query            35 i super eum posuisti 55
+
+-- fused_5 --
+  OCR:      'ne gloriam et magnum decorem imposuisti super eum posuisti'
+  Assigned: 'in capite eius coronam de lapide precioso ~Domine'
+  Words:    [43..51) consumed=8
+  NW score: k=12 (pre-snap), norm=-0.5610
+  Anchor:   word 51 (within_chant_7), diff=4, snapped=False, forced=True
+  Alignment:
+    target            0 -ne gloriam e--t -magnum decorem imposuisti super eum pos--u
+                      0 -|-
+    query             0 in- -capite eius coronam de----- lap---i-de --p-r-e--cioso ~
+    
+    target           54 isti-- 58
+                      3 ...|--  9
+    query            43 Domine 49
+
+-- fused_6 --
+  OCR:      'in capite ejus coronavi de lapide precioso po dune iniur evovac'
+  Assigned: 'in virtute euouae Hic accipiet benedictionem a domino et'
+  Words:    [51..60) consumed=9
+  NW score: k=9 (pre-snap), norm=-0.1179
+  Anchor:   word 63 (within_chant_7), diff=3, snapped=False, forced=False
+  Alignment:
+    target            0 in capi---te ejus coronavi de ---la---pide- -pre--c-io-so po
+                      0 ||
+    query             0 in --virtute e-u-----oua----e Hic accipi-et benedictionem -a
+    
+    target           45  dune iniur evovac 63
+                      2   2
+    query            46  d--omin--o e----t 56
+
+-- fused_7 --
+  OCR:      'Hic accipiet benedictionem a domino et il ace'
+  Assigned: 'misericordiam a deo salutari suo quia hec est generatio querentium dominum ~Domini est terra euouae'
+  Words:    [60..75) consumed=15
+  NW score: k=15 (pre-snap), norm=-0.7791
+  Anchor:   word 63 (within_chant_7), diff=12, snapped=False, forced=False
+  Alignment:
+    target            0 ----Hic------ a----------cci------pi------e-t benedictio----
+                      0 ----.||------
+    query             0 misericordiam a deo salutari suo quia hec est gene-ratio que
+    
+    target           23 --n--em a domin-----o---- e-t ---il ----ace 45
+                     13 --|--.|-- 22
+    query            59 rentium-- dominum ~Domini est terra euoua-e 99
+
+-- fused_8 --
+  OCR:      'ut hec est generatio querentium domnnim'
+  Assigned: 'Amavit eum dominus et'
+  Words:    [75..79) consumed=4
+  NW score: k=7 (pre-snap), norm=-0.6583
+  Anchor:   word 79 (within_chant_7), diff=3, snapped=False, forced=True
+  Alignment:
+    target            0 ut hec est generatio querentium domnn---im 39
+                      0 --------------..|.|. 20
+    query             0 --------------Amavit ----e---um dominus et 21
+
+-- fused_9 --
+  OCR:      'domini est ter evovae. mavit eum dominus et'
+  Assigned: 'ornavit eum stolam glorie induit eum'
+  Words:    [79..85) consumed=6
+  NW score: k=7 (pre-snap), norm=0.0244
+  Anchor:   word 85 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 domini est ter evovae. mavit eum -do--m--------in-u-s e-t 43
+                      0 -|-----------|---------.|||| 28
+    query             0 -o-----------r---------navit eum stolam glorie induit eum 36
+
+-- fused_10 --
+  OCR:      'orna vit um stolam glo ri eindunt um'
+  Assigned: 'Et ad portas paradisi coronavit eum Induit eum'
+  Words:    [85..93) consumed=8
+  NW score: k=8 (pre-snap), norm=-0.3686
+  Anchor:   word 93 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -------orna---------- ------vit -um stolam glo ri eindunt -u
+                      0 -------||.|----------
+    query             0 Et ad portas paradisi coronavit eum ---------------Induit eu
+    
+    target           35 m 36
+                     21 | 22
+    query            45 m 46
+
+-- fused_11 --
+  OCR:      'Et ad portas paradisi coronavit dint eum'
+  Assigned: 'dominus loricam fidei et ornavit eum Et ad'
+  Words:    [93..101) consumed=8
+  NW score: k=6 (pre-snap), norm=0.7115
+  Anchor:   word 101 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 Et ad------ por-tas paradisi --coronavit dint eum------ 40
+                      0 ----|------ 11
+    query             0 ----dominus loricam --fid-ei et or-navi-----t eum Et ad 42
+
+-- fused_12 --
+  OCR:      'dominus Loricani fide navit m et aopr'
+  Assigned: 'portas Sint lumbi vestri precincti et lucerne ardentes in'
+  Words:    [101..110) consumed=9
+  NW score: k=7 (pre-snap), norm=-1.2009
+  Anchor:   word 110 (page_break_77), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 do-----min---u--s --Lori----can--i fide navit -m e--t aopr--
+                      0 .|-----.||---|--.
+    query             0 portas Sint lumbi vestri precincti ---e-----t lucerne a--rde
+    
+    target           37 ------- 37
+                     17 ------- 24
+    query            50 ntes in 57
+
+-- fused_13 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [110..110) consumed=0
+  Alignment:
+    (no words left)
+=== END DEBUG ===
+

@@ -1,0 +1,175 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'geni meam indinate aurem vestrami II'
+  [fused_1] 'ba oris me a periam in Parabolis os'
+  [fused_2] 'me nii loqat propositiones absui'
+  [fused_3] 'vos au Mila tis jorda nem e'
+  [fused_4] 'difica no . Delapidibus quos fer'
+  [fused_5] 'rumnon tetigitur et offerte super ulud holo causta'
+  [fused_6] 's tias pa  ficas de'
+  [fused_7] 'umque intraveritis terram quam'
+  [fused_8] 'dominus daturus est no bis edificate ibi alta re domi'
+  [fused_9] 'no |e lapiri idi israhel precepta do'
+  [fused_10] 'muinet ea iconte tupanali m libroscri'
+  [fused_11] 'be et dabo tibi ter ram Fluentem lac'
+  [fused_12] 'et mele Boser va ietur et anoi vocem me am et in'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'geni meam indinate aurem vestrami II'
+  Assigned: 'legem meam Inclinate aurem vestram'
+  Words:    [0..5) consumed=5
+  NW score: k=5 (pre-snap), norm=4.8305
+  Anchor:   word 13 (within_chant_7), diff=8, snapped=False, forced=False
+  Alignment:
+    target            0 --geni meam in-dinate aurem vestrami II 36
+                      0 --||-.  6
+    query             0 lege-m meam Inclinate aurem vestram---- 34
+
+-- fused_1 --
+  OCR:      'ba oris me a periam in Parabolis os'
+  Assigned: 'in verba oris mei Aperiam in parabolis os'
+  Words:    [5..13) consumed=8
+  NW score: k=8 (pre-snap), norm=5.5436
+  Anchor:   word 13 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ------ba oris me- a periam in Parabolis os 35
+                      0 ------||  8
+    query             0 in verba oris mei -Aperiam in parabolis os 41
+
+-- fused_2 --
+  OCR:      'me nii loqat propositiones absui'
+  Assigned: 'meum loquar propositiones ab'
+  Words:    [13..17) consumed=4
+  NW score: k=4 (pre-snap), norm=4.9109
+  Anchor:   word 20 (within_chant_7), diff=3, snapped=False, forced=False
+  Alignment:
+    target            0 me nii loq-at propositiones absui 32
+                      0 ||--..  6
+    query             0 me--um loquar propositiones ab--- 28
+
+-- fused_3 --
+  OCR:      'vos au Mila tis jorda nem e'
+  Assigned: 'inicio seculi Inclinate Vos qui transituri estis iordanem'
+  Words:    [17..25) consumed=8
+  NW score: k=8 (pre-snap), norm=-0.5608
+  Anchor:   word 20 (within_chant_7), diff=5, snapped=False, forced=False
+  Alignment:
+    target            0 ------------------------vos au- ----Mi--la --tis jorda nem e
+                      0 ------------------------.||
+    query             0 inicio seculi Inclinate Vos qui transituri estis iorda-nem--
+    
+    target           27 
+                     27 
+    query            57 
+
+-- fused_4 --
+  OCR:      'difica no . Delapidibus quos fer'
+  Assigned: 'e'
+  Words:    [25..26) consumed=1
+  NW score: k=7 (pre-snap), norm=3.9804
+  Anchor:   word 26 (within_chant_7), diff=6, snapped=False, forced=True
+  Alignment:
+    target            0 -difica no . Delapidibus quos fer 32
+                      0 -||||||-----------------------.|- 33
+    query             0 edifica-----------------------te-  9
+
+-- fused_5 --
+  OCR:      'rumnon tetigitur et offerte super ulud holo causta'
+  Assigned: 'dificate altare domino De lapidibus quos fer'
+  Words:    [26..32) consumed=6
+  NW score: k=13 (pre-snap), norm=3.4410
+  Anchor:   word 32 (within_chant_7), diff=7, snapped=False, forced=True
+  Alignment:
+    target            0 ----r---um-non te---tigitur et o-fferte super ulud holo caus
+                      0 ----|---.|-||-
+    query             0 altare domino- De lapidibus -quos fer-------r-------------u-
+    
+    target           48 ta 50
+                     14 -. 16
+    query            37 -m 38
+
+-- fused_6 --
+  OCR:      's tias pa  ficas de'
+  Assigned: 'rum non tetigit et offerte super illud holocausta'
+  Words:    [32..39) consumed=7
+  NW score: k=11 (pre-snap), norm=-1.1791
+  Anchor:   word 39 (within_chant_7), diff=4, snapped=False, forced=True
+  Alignment:
+    target            0 --s --ti-as pa  f------------i---------ca-s de 19
+                      0 --.  3
+    query             0 non tetigit et offerte super illud holocaus-ta 45
+
+-- fused_7 --
+  OCR:      'umque intraveritis terram quam'
+  Assigned: 'et hostias pacificas deo'
+  Words:    [39..43) consumed=4
+  NW score: k=9 (pre-snap), norm=3.1513
+  Anchor:   word 43 (within_chant_7), diff=5, snapped=False, forced=True
+  Alignment:
+    target            0 umque- -intra--veriti--s terram quam 30
+                      0 ----|-  6
+    query             0 ----et hostias pacificas de--------o 24
+
+-- fused_8 --
+  OCR:      'dominus daturus est no bis edificate ibi alta re domi'
+  Assigned: 'vestro Cumque intraveritis terram quam dominus daturus est vobis edificate ibi altare domino'
+  Words:    [43..56) consumed=13
+  NW score: k=13 (pre-snap), norm=3.5802
+  Anchor:   word 48 (within_chant_7), diff=8, snapped=False, forced=False
+  Alignment:
+    target            0 ---------------------------------------dominus daturus est n
+                      0 ---------------------------------------|||||||
+    query             0 vestro Cumque intraveritis terram quam dominus daturus est v
+    
+    target           21 o bis edificate ibi alta re domi-- 53
+                     46 |-||| 51
+    query            60 o-bis edificate ibi alta-re domino 92
+
+-- fused_9 --
+  OCR:      'no |e lapiri idi israhel precepta do'
+  Assigned: 'De lapidibus Audi israhel precepta do'
+  Words:    [56..62) consumed=6
+  NW score: k=6 (pre-snap), norm=4.5811
+  Anchor:   word 62 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 no |e lapiri--- -idi israhel precepta do---- 36
+                      0 ---.|  5
+    query             0 ---De lapidibus Audi israhel precepta domini 41
+
+-- fused_10 --
+  OCR:      'muinet ea iconte tupanali m libroscri'
+  Assigned: 'mini et ea in corde tuo quasi in libro scribe'
+  Words:    [62..71) consumed=9
+  NW score: k=9 (pre-snap), norm=3.0153
+  Anchor:   word 71 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 muinet ea i--conte tu-panali -m libro-scri-- 37
+                      0 ----||  6
+    query             0 ----et ea in corde tuo quasi in libro scribe 40
+
+-- fused_11 --
+  OCR:      'be et dabo tibi ter ram Fluentem lac'
+  Assigned: 'Et dabo tibi terram fluentem lac et'
+  Words:    [71..78) consumed=7
+  NW score: k=6 (pre-snap), norm=6.1872
+  Anchor:   word 78 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 be et dabo tibi ter ram Fluentem lac--- 36
+                      0 ---.|  5
+    query             0 ---Et dabo tibi ter-ram fluentem lac et 35
+
+-- fused_12 --
+  OCR:      'et mele Boser va ietur et anoi vocem me am et in'
+  Assigned: 'mel Observa igitur et audi vocem meam et inimicus'
+  Words:    [78..87) consumed=9
+  NW score: k=8 (pre-snap), norm=4.4046
+  Anchor:   word 87 (page_break_77), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 et mele Boser va i-etur et anoi vocem me am et in------ 48
+                      0 ---|||-  7
+    query             0 ---mel- Obser-va igitur et audi vocem me-am et inimicus 49
+=== END DEBUG ===
+

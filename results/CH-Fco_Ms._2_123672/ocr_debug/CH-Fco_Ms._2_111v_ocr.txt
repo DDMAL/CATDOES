@@ -1,0 +1,171 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'da noisle si sut discip'
+  [fused_1] 'inlo tom nonon sie ini na'
+  [fused_2] 'ergo sabbatorum cum fores essent clause ubi erant disci'
+  [fused_3] 'congregati ve inte ihesus et stetit in medio corum'
+  [fused_4] 'et omne i. rpurgatevetus'
+  [fused_5] 'fermentum tuntr sito noon na con s eet em'
+  [fused_6] 'Pascha nostrum mmmmolatus est roi sntus taque'
+  [fused_7] 'epulemur in domino .ane Lnaortu'
+  [fused_8] 'us est propter delicta nostra et resurrerit propter justi'
+  [fused_9] 'ficationesnon stras taque. Ludecim discipum'
+  [fused_10] 'in galileam videntes dominum adoraverunt asseluya'
+  [fused_11] 'Carrie tata est mci omnio preresito in closi et'
+  [fused_12] 'in terea alcum exorac pistus resi'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'da noisle si sut discip'
+  Assigned: 'Pax vobis alleluia gavisi sunt discipuli'
+  Words:    [0..6) consumed=6
+  NW score: k=6 (pre-snap), norm=2.6046
+  Anchor:   word 10 (within_chant_7), diff=4, snapped=False, forced=False
+  Alignment:
+    target            0 da- no-is---le---- ----si su-t discip--- 23
+                      0 .|-  3
+    query             0 Pax vobis alleluia gavisi sunt discipuli 40
+
+-- fused_1 --
+  OCR:      'inlo tom nonon sie ini na'
+  Assigned: 'viso domino alleluya Una'
+  Words:    [6..10) consumed=4
+  NW score: k=4 (pre-snap), norm=0.4082
+  Anchor:   word 10 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -inlo tom nonon -sie ini -na 25
+                      0 -|-.|  5
+    query             0 vi-so domino--- alleluya Una 24
+
+-- fused_2 --
+  OCR:      'ergo sabbatorum cum fores essent clause ubi erant disci'
+  Assigned: 'ergo salbatorum cum fores essent clause ubi erant discipuli congre'
+  Words:    [10..20) consumed=10
+  NW score: k=9 (pre-snap), norm=7.2150
+  Anchor:   word 20 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 ergo sabbatorum cum fores essent clause ubi erant disc------
+                      0 ||||
+    query             0 ergo salbatorum cum fores essent clause ubi erant discipuli 
+    
+    target           54 ---------i 55
+                      4 ---------| 14
+    query            60 congregati 70
+
+-- fused_3 --
+  OCR:      'congregati ve inte ihesus et stetit in medio corum'
+  Assigned: 'gati venit ihesus et stetit in medio eorum et'
+  Words:    [20..28) consumed=8
+  NW score: k=7 (pre-snap), norm=5.0916
+  Anchor:   word 28 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 congregati ve inte ihesus et stetit in medio corum--- 50
+                      0 -----------||.|-|- 18
+    query             0 -----------veni-t- ihesus et stetit in medio eorum et 40
+
+-- fused_4 --
+  OCR:      'et omne i. rpurgatevetus'
+  Assigned: 'dixit eis Pax Expurgate vetus'
+  Words:    [28..33) consumed=5
+  NW score: k=5 (pre-snap), norm=2.3501
+  Anchor:   word 33 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ---et omne i. -----rpurgate-vetus 24
+                      0 ---.|  5
+    query             0 dixit ---e-is Pax Expurgate vetus 29
+
+-- fused_5 --
+  OCR:      'fermentum tuntr sito noon na con s eet em'
+  Assigned: 'fermentum ut sitis nova consparsio etenim'
+  Words:    [33..39) consumed=6
+  NW score: k=6 (pre-snap), norm=3.3415
+  Anchor:   word 39 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 fermentum tuntr sit-o noon na con--- s-- eet e--m 41
+                      0 |||||||||  9
+    query             0 fermentum -u-t- sitis no---va consparsio -et-enim 41
+
+-- fused_6 --
+  OCR:      'Pascha nostrum mmmmolatus est roi sntus taque'
+  Assigned: 'pascha nostrum immolatus est xpistus Itaque'
+  Words:    [39..45) consumed=6
+  NW score: k=6 (pre-snap), norm=5.8197
+  Anchor:   word 45 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 Pascha nostrum mmmmolatus est roi sntus -taque 45
+                      0 .|||||  6
+    query             0 pascha nostrum -immolatus est xpi-s-tus Itaque 43
+
+-- fused_7 --
+  OCR:      'epulemur in domino .ane Lnaortu'
+  Assigned: 'epulemur in domino alleluya mortu'
+  Words:    [45..50) consumed=5
+  NW score: k=5 (pre-snap), norm=4.6753
+  Anchor:   word 50 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 epulemur in domino .a-ne Lna--ortu-- 31
+                      0 ||||||||  8
+    query             0 epulemur in domino -alleluya Mortuus 35
+
+-- fused_8 --
+  OCR:      'us est propter delicta nostra et resurrerit propter justi'
+  Assigned: 'us est propter delicta nostra et resurrexit propter iusti'
+  Words:    [50..58) consumed=8
+  NW score: k=7 (pre-snap), norm=6.4236
+  Anchor:   word 58 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 us est propter delicta nostra et resurrerit propter justi---
+                      0 ---|||
+    query             0 ---est propter delicta nostra et resurrexit propter iustific
+    
+    target           57 ------- 57
+                      6 ------- 13
+    query            57 ationes 64
+
+-- fused_9 --
+  OCR:      'ficationesnon stras taque. Ludecim discipum'
+  Assigned: 'ficationes nostras Itaque Undecim discipu'
+  Words:    [58..62) consumed=4
+  NW score: k=4 (pre-snap), norm=3.6663
+  Anchor:   word 62 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ficationesnon stras -taque. Ludecim discipu-m 43
+                      0 ----------||--||||| 19
+    query             0 ----------no--stras Itaque- Undecim discipuli 32
+
+-- fused_10 --
+  OCR:      'in galileam videntes dominum adoraverunt asseluya'
+  Assigned: 'li in galileam videntes dominum adoraverunt alleluya'
+  Words:    [62..68) consumed=6
+  NW score: k=6 (pre-snap), norm=7.4694
+  Anchor:   word 68 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 in galileam videntes dominum adoraverunt asseluya 49
+                      0 ||  2
+    query             0 in galileam videntes dominum adoraverunt alleluya 49
+
+-- fused_11 --
+  OCR:      'Carrie tata est mci omnio preresito in closi et'
+  Assigned: 'euouae Data est michi omnis potestas in celo et'
+  Words:    [68..77) consumed=9
+  NW score: k=9 (pre-snap), norm=3.4894
+  Anchor:   word 77 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ---Carrie tata est m-c-i omnio preresit-o in c-losi et 47
+                      0 ---.|---|  9
+    query             0 euoua---e Data est michi omnis p-otes-tas in celo-- et 47
+
+-- fused_12 --
+  OCR:      'in terea alcum exorac pistus resi'
+  Assigned: 'in terra alleluya euouae Xpistus resurgens'
+  Words:    [77..83) consumed=6
+  NW score: k=6 (pre-snap), norm=3.4919
+  Anchor:   word 83 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 in terea al--cu-m exorac -pistus res-----i 33
+                      0 ||  2
+    query             0 in terra alleluya euouae Xpistus resurgens 42
+=== END DEBUG ===
+

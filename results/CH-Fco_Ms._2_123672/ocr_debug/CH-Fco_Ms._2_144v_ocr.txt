@@ -1,0 +1,167 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'tuam lon ge fac a me . Et formido tu a non me ter'
+  [fused_1] 'reorripe me domine in misericordia et non'
+  [fused_2] 'ne forte ad nichilum me et formi'
+  [fused_3] ' Liis michi tribu nmntero pro te gas me'
+  [fused_4] 'et abscondas me donec Pertranse at furor tuus co'
+  [fused_5] 'minenisituqi so lus es de tconstitu'
+  [fused_6] 'ttenpuo sono recorde ris me Num quoo'
+  [fused_7] 'sicut hominis dies tui ut queras iniquitatem me'
+  [fused_8] 'sit nemo quitua possit eme re. Et con'
+  [fused_9] 'vuai etmme . erorga man'
+  [fused_10] 'men si. dee fenParite inii co'
+  [fused_11] 'ne nichil e m sunt diesme tis mca ce'
+  [fused_12] 'mgrata es super me et olla meaatu .nt'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'tuam lon ge fac a me . Et formido tu a non me ter'
+  Assigned: 'tuam longe fac a me Et formido tua non me terreat'
+  Words:    [0..11) consumed=11
+  NW score: k=11 (pre-snap), norm=6.5306
+  Anchor:   word 18 (within_chant_7), diff=7, snapped=False, forced=False
+  Alignment:
+    target            0 tuam lon ge fac a me . Et formido tu a non me ter---- 49
+                      0 ||||  4
+    query             0 tuam lon-ge fac a me-- Et formido tu-a non me terreat 49
+
+-- fused_1 --
+  OCR:      'reorripe me domine in misericordia et non'
+  Assigned: 'Corripe me domine in misericordia et non'
+  Words:    [11..18) consumed=7
+  NW score: k=7 (pre-snap), norm=7.4080
+  Anchor:   word 18 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 reorripe me domine in misericordia et non 41
+                      0 -.||||||  8
+    query             0 -Corripe me domine in misericordia et non 40
+
+-- fused_2 --
+  OCR:      'ne forte ad nichilum me et formi'
+  Assigned: 'in furore tuo ne forte ad nichilum redigas me Et formido'
+  Words:    [18..29) consumed=11
+  NW score: k=11 (pre-snap), norm=3.7560
+  Anchor:   word 29 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 --------------ne forte ad nichilum-------- me et formi-- 32
+                      0 --------------|| 16
+    query             0 in furore tuo ne forte ad nichilum redigas me Et formido 56
+
+-- fused_3 --
+  OCR:      'Liis michi tribu nmntero pro te gas me'
+  Assigned: 'Quis michi tribuat ut in inferno protegas me'
+  Words:    [29..37) consumed=8
+  NW score: k=8 (pre-snap), norm=4.4510
+  Anchor:   word 37 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 Liis michi tribu----- -n-mnter-o pro te gas me 38
+                      0 ..||  4
+    query             0 Quis michi tribuat ut in inferno pro-te-gas me 44
+
+-- fused_4 --
+  OCR:      'et abscondas me donec Pertranse at furor tuus co'
+  Assigned: 'et abscondas me donec pertranseat furor tuus do'
+  Words:    [37..45) consumed=8
+  NW score: k=7 (pre-snap), norm=6.9413
+  Anchor:   word 45 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 et abscondas me donec Pertranse at furor tuus co---- 48
+                      0 ||  2
+    query             0 et abscondas me donec pertranse-at furor tuus domine 51
+
+-- fused_5 --
+  OCR:      'minenisituqi so lus es de tconstitu'
+  Assigned: 'mine nisi tu qui solus es deus Et constituas'
+  Words:    [45..53) consumed=8
+  NW score: k=8 (pre-snap), norm=4.3848
+  Anchor:   word 53 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 minenisi-tu-q-i so lus es de-- -t-constitu-- 35
+                      0 ----||||-||-|-| 15
+    query             0 ----nisi tu qui so-lus es deus Et constituas 39
+
+-- fused_6 --
+  OCR:      'ttenpuo sono recorde ris me Num quoo'
+  Assigned: 'tempus in quo recorderis mei Numquid'
+  Words:    [53..59) consumed=6
+  NW score: k=6 (pre-snap), norm=3.9722
+  Anchor:   word 59 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ttenpuo son---o recorde ris me- Num quoo 36
+                      0 -||.||.  7
+    query             0 -tempus -in quo recorde-ris mei Num-quid 36
+
+-- fused_7 --
+  OCR:      'sicut hominis dies tui ut queras iniquitatem me'
+  Assigned: 'sicut hominis dies tui ut queras iniquitatem meam cum sit'
+  Words:    [59..69) consumed=10
+  NW score: k=8 (pre-snap), norm=7.6267
+  Anchor:   word 69 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 sicut hominis dies tui ut queras iniquitatem me---------- 47
+                      0 |||||  5
+    query             0 sicut hominis dies tui ut queras iniquitatem meam cum sit 57
+
+-- fused_8 --
+  OCR:      'sit nemo quitua possit eme re. Et con'
+  Assigned: 'nemo qui de manu tua possit eruere Et constituas Versa'
+  Words:    [69..79) consumed=10
+  NW score: k=9 (pre-snap), norm=3.3695
+  Anchor:   word 79 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 sit nemo qui---------tua possit e-me re. Et con-------------
+                      0 ----||||
+    query             0 ----nemo qui de manu tua possit erue-re- Et constituas Versa
+    
+    target           37 
+                      8 
+    query            54 
+
+-- fused_9 --
+  OCR:      'vuai etmme . erorga man'
+  Assigned: 'est in luctum cythara mea et organum'
+  Words:    [79..86) consumed=7
+  NW score: k=9 (pre-snap), norm=-0.6287
+  Anchor:   word 86 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 -vuai- --et-m---------me . e-rorga- man 23
+                      0 -...|-  6
+    query             0 est in luctum cythara me-a et organum-- 36
+
+-- fused_10 --
+  OCR:      'men si. dee fenParite inii co'
+  Assigned: 'meum in vocem flentium Parce michi domi'
+  Words:    [86..93) consumed=7
+  NW score: k=7 (pre-snap), norm=0.9280
+  Anchor:   word 93 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 me-n si. --dee f-en-----Parite -inii co---- 29
+                      0 ||-.  4
+    query             0 meum -in vocem flentium Par-ce michi domine 41
+
+-- fused_11 --
+  OCR:      'ne nichil e m sunt diesme tis mca ce'
+  Assigned: 'ne nichil enim sunt dies mei Cutis mea de'
+  Words:    [93..101) consumed=8
+  NW score: k=7 (pre-snap), norm=4.4230
+  Anchor:   word 101 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 ne nichil e- m sunt dies-me- --tis mca ce------- 36
+                      0 ---||||||  9
+    query             0 ---nichil enim sunt dies mei Cutis mea denigrata 45
+
+-- fused_12 --
+  OCR:      'mgrata es super me et olla meaatu .nt'
+  Assigned: 'nigrata est super me et ossa mea aruerunt'
+  Words:    [101..108) consumed=7
+  NW score: k=7 (pre-snap), norm=3.6917
+  Anchor:   word 108 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 mgrata es- super me et olla mea-atu- .nt 37
+                      0 -------||- 10
+    query             0 -------est super me et ossa mea aruerunt 33
+=== END DEBUG ===
+

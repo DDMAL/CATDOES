@@ -1,0 +1,171 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'enim pisca to res etait  nis venite *ox'
+  [fused_1] 'ut vocem in prediemmaudi vit beatus andre'
+  [fused_2] 'relit tis retibus quorum usu actuque vivebat eter'
+  [fused_3] 'ne inte secatus est premia lar entem  ic et'
+  [fused_4] 'qui pro amore xpitristi pependit in ceuce et pro lege ejus su'
+  [fused_5] 'Sat passionem terne . octor bonus'
+  [fused_6] 'et amicus Dei Andreas ducitur ad Crucem aspiciens a lonce'
+  [fused_7] 'vidit crucem salve crux suscipediscipulum ejus qui pepen'
+  [fused_8] '.tinte magister mepistus alve crux'
+  [fused_9] 'es et ex membris ejus tan'
+  [fused_10] 'quam Margari na tta Susc. ignum'
+  [fused_11] 'sibi dominus computavit martirem quem vocavit a postolum'
+  [fused_12] 'do eset  m  nnes gentes erorae'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'enim pisca to res etait  nis venite *ox'
+  Assigned: 'enim piscatores et ait illis Venite Mox'
+  Words:    [0..7) consumed=7
+  NW score: k=7 (pre-snap), norm=5.5385
+  Anchor:   word 7 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 enim pisca to res et-ait - nis venite *ox 39
+                      0 ||||  4
+    query             0 enim pisca-to-res et ait illis Venite Mox 39
+
+-- fused_1 --
+  OCR:      'ut vocem in prediemmaudi vit beatus andre'
+  Assigned: 'ut vocem domini predicantis audivit beatus andre'
+  Words:    [7..14) consumed=7
+  NW score: k=7 (pre-snap), norm=5.0357
+  Anchor:   word 14 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ut vocem ---in- predi----emmaudi vit beatus andre-- 41
+                      0 ||  2
+    query             0 ut vocem domini predicantis audi-vit beatus andreas 50
+
+-- fused_2 --
+  OCR:      'relit tis retibus quorum usu actuque vivebat eter'
+  Assigned: 'as relictis retibus quorum usu actuque vive'
+  Words:    [14..20) consumed=6
+  NW score: k=7 (pre-snap), norm=6.8892
+  Anchor:   word 20 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 relit tis retibus quorum usu actuque vivebat eter 49
+                      0 ||||-.|||  9
+    query             0 reli-ctis retibus quorum usu actuque vivebat----- 43
+
+-- fused_3 --
+  OCR:      'ne inte secatus est premia lar entem  ic et'
+  Assigned: 'bat Eterne vite secutus est premia largientem Hic est'
+  Words:    [20..28) consumed=8
+  NW score: k=8 (pre-snap), norm=5.5117
+  Anchor:   word 28 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ----ne -inte secatus est premia lar- entem  ic e-t 43
+                      0 ----||  6
+    query             0 Eterne vi-te secutus est premia largientem Hic est 49
+
+-- fused_4 --
+  OCR:      'qui pro amore xpitristi pependit in ceuce et pro lege ejus su'
+  Assigned: 'qui pro amore christe pependit in cruce et pro lege eius sustinuit pas'
+  Words:    [28..41) consumed=13
+  NW score: k=11 (pre-snap), norm=6.1595
+  Anchor:   word 41 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 qui pro amore xpitristi pependit in ceuce et pro lege ejus s
+                      0 |||
+    query             0 qui pro amore --christe pependit in cruce et pro lege eius s
+    
+    target           60 u----------------- 61
+                      3 |----------------- 21
+    query            58 ustinuit passionem 76
+
+-- fused_5 --
+  OCR:      'Sat passionem terne . octor bonus'
+  Assigned: 'sionem Eterne Doctor bonus'
+  Words:    [41..44) consumed=3
+  NW score: k=3 (pre-snap), norm=3.0351
+  Anchor:   word 44 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 Sat passionem terne . octor bonus 33
+                      0 -------------.||||| 19
+    query             0 -------------Eterne -Doctor bonus 19
+
+-- fused_6 --
+  OCR:      'et amicus Dei Andreas ducitur ad Crucem aspiciens a lonce'
+  Assigned: 'et amicus dei andreas ducitur ad crucem aspiciens a longe'
+  Words:    [44..54) consumed=10
+  NW score: k=10 (pre-snap), norm=7.0877
+  Anchor:   word 54 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 et amicus Dei Andreas ducitur ad Crucem aspiciens a lonce 57
+                      0 ||  2
+    query             0 et amicus dei andreas ducitur ad crucem aspiciens a longe 57
+
+-- fused_7 --
+  OCR:      'vidit crucem salve crux suscipediscipulum ejus qui pepen'
+  Assigned: 'vidit crucem salve crux Suscipe discipulum eius qui'
+  Words:    [54..62) consumed=8
+  NW score: k=9 (pre-snap), norm=6.9352
+  Anchor:   word 62 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 vidit crucem salve crux suscipe-discipulum ejus qui pepen 56
+                      0 |||||  5
+    query             0 vidit crucem salve crux Suscipe discipulum eius qui------ 51
+
+-- fused_8 --
+  OCR:      '.tinte magister mepistus alve crux'
+  Assigned: 'pependit in te magister meus xpistus Salve crux'
+  Words:    [62..70) consumed=8
+  NW score: k=8 (pre-snap), norm=5.0031
+  Anchor:   word 70 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ------.t-in-te magister me----pistus -alve crux 34
+                      0 ------.|-||-|| 14
+    query             0 pependit in te magister meus xpistus Salve crux 47
+
+-- fused_9 --
+  OCR:      'es et ex membris ejus tan'
+  Assigned: 'que in corpore xpisti dedicata es et ex membris eius tamquam mar'
+  Words:    [70..82) consumed=12
+  NW score: k=11 (pre-snap), norm=1.5750
+  Anchor:   word 82 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 -------------------------------es et ex membris ejus ta-----
+                      0 -------------------------------||
+    query             0 que in corpore xpisti dedicata es et ex membris eius tamquam
+    
+    target           24 ----------n 25
+                     33 ----------. 44
+    query            60  margaritis 71
+
+-- fused_10 --
+  OCR:      'quam Margari na tta Susc. ignum'
+  Assigned: 'garitis ornata Suscipe Dignum'
+  Words:    [82..85) consumed=3
+  NW score: k=3 (pre-snap), norm=1.9597
+  Anchor:   word 85 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 quam Margari na tta Susc--. -ignum 31
+                      0 ---------.|--||--|| 19
+    query             0 ---------or--na--ta Suscipe Dignum 21
+
+-- fused_11 --
+  OCR:      'sibi dominus computavit martirem quem vocavit a postolum'
+  Assigned: 'sibi dominus computavit martyrem quem vocavit apostolum'
+  Words:    [85..92) consumed=7
+  NW score: k=7 (pre-snap), norm=7.5679
+  Anchor:   word 92 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 sibi dominus computavit martirem quem vocavit a postolum 56
+                      0 ||||  4
+    query             0 sibi dominus computavit martyrem quem vocavit a-postolum 55
+
+-- fused_12 --
+  OCR:      'do eset  m  nnes gentes erorae'
+  Assigned: 'dum esset in mari alleluya ~Omnes gentes'
+  Words:    [92..99) consumed=7
+  NW score: k=7 (pre-snap), norm=1.6743
+  Anchor:   word 99 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 d-o e-set -- m--- -------- --nnes gentes erorae 30
+                      0 |-.  3
+    query             0 dum esset in mari alleluya ~Omnes gentes------- 40
+=== END DEBUG ===
+

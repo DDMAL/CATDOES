@@ -1,0 +1,227 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'e'
+  [fused_1] 'de adis natusest es'
+  [fused_2] 'sanctificatus illuxit nobis ve nite gentes el adora te do'
+  [fused_3] 'Le Sancti Ergi secundum Lucam . Iu'
+  [fused_4] 'illo tempore Pastores Lonielerani'
+  [fused_5] 'mmn . quia capsorlafanor. ter diil Sancti Ambrosu episcopi Quie Per bun caro'
+  [fused_6] 'factume et habita vit in no bis . Et indi'
+  [fused_7] 'mus eloriam e ius gloriam quasi vingeniti a pa'
+  [fused_8] 'plenim gra ven ta tis X'
+  [fused_9] 'ma per ipsum facta sunt et sine ipso fac'
+  [fused_10] 'minum Sancti Erangii secundum Johannem In principo erat . Quits Sacti'
+  [fused_11] 'Augetim episcopi . Nevile aliquid putares quiale postuonam'
+  [fused_12] 'in  chil Et vidi dequi dicto Budicanus domino cofessione celebrat nia  dicitur. Tedomiim laudavis quale . Quo finito dicitu omro . Couce'
+  [fused_13] 'vem indistis pastores dicite annnciate nobis in'
+  [fused_14] 'terris quis apparvit natum vidimus et choros Angelorum con'
+  [fused_15] 'laudantes dominum Allelya Alleluya pts dominus Regis evoraes'
+  [fused_16] 'Nennt puerpera mpem cunonen ecctium et gandi'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'e'
+  Assigned: 'lactaverunt'
+  Words:    [0..1) consumed=1
+  NW score: k=1 (pre-snap), norm=-9.0453
+  Anchor:   word 14 (within_chant_7), diff=13, snapped=False, forced=False
+  Alignment:
+    target            0 ------e----  1
+                      0 ------|---- 11
+    query             0 lactaverunt 11
+
+-- fused_1 --
+  OCR:      'de adis natusest es'
+  Assigned: 'xpistum dominum Quia hodie pro salute mundi de virgine nasci dignatus est Dies'
+  Words:    [1..14) consumed=13
+  NW score: k=13 (pre-snap), norm=-1.5845
+  Anchor:   word 14 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -----------------------d-e -----a--------di--------------s--
+                      0 -----------------------|-|
+    query             0 xpistum dominum Quia hodie pro salute mundi de virgine nasci
+    
+    target            7  ---natus-est --es 19
+                     26  26
+    query            60  dignatus est Dies 78
+
+-- fused_2 --
+  OCR:      'sanctificatus illuxit nobis ve nite gentes el adora te do'
+  Assigned: 'sanctificatus illuxit nobis venite gentes et adorate dominum'
+  Words:    [14..22) consumed=8
+  NW score: k=7 (pre-snap), norm=6.9064
+  Anchor:   word 22 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 sanctificatus illuxit nobis ve nite gentes el adora te do---
+                      0 |||||||||||||
+    query             0 sanctificatus illuxit nobis ve-nite gentes et adora-te domin
+    
+    target           57 -- 57
+                     13 -- 15
+    query            58 um 60
+
+-- fused_3 --
+  OCR:      'Le Sancti Ergi secundum Lucam . Iu'
+  Assigned: 'Quia Verbum caro factum est et'
+  Words:    [22..28) consumed=6
+  NW score: k=6 (pre-snap), norm=-1.6595
+  Anchor:   word 25 (within_chant_7), diff=3, snapped=False, forced=False
+  Alignment:
+    target            0 Le Sancti Ergi secundum Luca--------m --. Iu 34
+                      0 ------..|----. 14
+    query             0 ------Qui----a Ve--rbum --caro factum est et 30
+
+-- fused_4 --
+  OCR:      'illo tempore Pastores Lonielerani'
+  Assigned: 'habitavit in nobis Et vidi'
+  Words:    [28..33) consumed=5
+  NW score: k=10 (pre-snap), norm=-2.0142
+  Anchor:   word 33 (within_chant_7), diff=5, snapped=False, forced=True
+  Alignment:
+    target            0 ---illo tempore Pastores -Lonielerani--- 33
+                      0 ---|....|------ 15
+    query             0 habitavit------ in nobis Et vi-----dimus 29
+
+-- fused_5 --
+  OCR:      'mmn . quia capsorlafanor. ter diil Sancti Ambrosu episcopi Quie Per bun caro'
+  Assigned: 'mus gloriam eius gloriam quasi unigeniti a pa'
+  Words:    [33..40) consumed=7
+  NW score: k=15 (pre-snap), norm=-1.3203
+  Anchor:   word 40 (within_chant_7), diff=8, snapped=False, forced=True
+  Alignment:
+    target            0 mmn . quia- capsorlafanor. ter diil Sancti Ambrosu episcopi 
+                      0 ----....||-
+    query             0 ----gloriam eius gl----or--------i---a------m----- quas---i 
+    
+    target           59 Qu-i-e Per bun ca-ro 76
+                     11 -|-|-|.... 21
+    query            27 -unigeniti --a patre 44
+
+-- fused_6 --
+  OCR:      'factume et habita vit in no bis . Et indi'
+  Assigned: 'tre plenum gracie et veritatis Omnia per ipsum facta sunt et sine'
+  Words:    [40..51) consumed=11
+  NW score: k=11 (pre-snap), norm=-0.1800
+  Anchor:   word 45 (within_chant_7), diff=6, snapped=False, forced=False
+  Alignment:
+    target            0 factum------e et habita vit ---in -no bi-s-------- ---. Et -
+                      0 ....||------|
+    query             0 plenum gracie et verita-tis Omnia per -ipsum facta sunt et s
+    
+    target           37 indi 41
+                     13 ||-. 17
+    query            58 in-e 61
+
+-- fused_7 --
+  OCR:      'mus eloriam e ius gloriam quasi vingeniti a pa'
+  Assigned: 'ipso factum est'
+  Words:    [51..54) consumed=3
+  NW score: k=9 (pre-snap), norm=-0.5911
+  Anchor:   word 54 (within_chant_7), diff=6, snapped=False, forced=True
+  Alignment:
+    target            0 mus eloria---m e ius gloriam quasi vingeniti a pa 46
+                      0 ..|---|..|---| 14
+    query             0 ips---o factum e----------------s---------t------ 15
+
+-- fused_8 --
+  OCR:      'plenim gra ven ta tis X'
+  Assigned: 'nichil Et vidimus'
+  Words:    [54..57) consumed=3
+  NW score: k=5 (pre-snap), norm=-1.4606
+  Anchor:   word 57 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 plenim gra ven ta ti----s X 23
+                      0 ---||-.... 10
+    query             0 ---ni-chil ---Et- vidimus-- 17
+
+-- fused_9 --
+  OCR:      'ma per ipsum facta sunt et sine ipso fac'
+  Assigned: 'Quem vidistis pastores dicite annuntiate nobis in'
+  Words:    [57..64) consumed=7
+  NW score: k=7 (pre-snap), norm=-1.0842
+  Anchor:   word 64 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ma per ------i--p-s---um fac-t--a sunt et- sine ipso fac 40
+                      0 --..|.  6
+    query             0 --Quem vidistis pastores dicite annuntiate --nobi-s- -in 49
+
+-- fused_10 --
+  OCR:      'minum Sancti Erangii secundum Johannem In principo erat . Quits Sacti'
+  Assigned: 'terris quis apparuit natum vidimus in choros angelorum con'
+  Words:    [64..73) consumed=9
+  NW score: k=11 (pre-snap), norm=-1.5466
+  Anchor:   word 73 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 ---minum Sancti- -Erangii secun-dum Johannem-- In princ-ipo-
+                      0 ---.|--.
+    query             0 terri--s ---quis apparuit ----natum ---vidimus in ----choros
+    
+    target           50  ---e--rat . Quits Sacti 69
+                      8   8
+    query            44  angelor------u--m --con 58
+
+-- fused_11 --
+  OCR:      'Augetim episcopi . Nevile aliquid putares quiale postuonam'
+  Assigned: 'laudantes dominum alleluya alleluya ~Dominus regnavit euouae'
+  Words:    [73..80) consumed=7
+  NW score: k=7 (pre-snap), norm=-1.1188
+  Anchor:   word 80 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -Au-getim epis-copi--- . Nevil--e a-liquid -----putares quia
+                      0 -.|-..|---|--|-.|.|---
+    query             0 laudant---e--s dominum alle--luya alleluya ~Dominus regnavit
+    
+    target           46 le postuonam 58
+                     22 .|-----||.|. 34
+    query            53  e-----uouae 60
+
+-- fused_12 --
+  OCR:      'in  chil Et vidi dequi dicto Budicanus domino cofessione celebrat nia  dicitur. Tedomiim laudavis quale . Quo finito dicitu omro . Couce'
+  Assigned: 'Genuit puerpera regem cui nomen eternum et gaudium'
+  Words:    [80..88) consumed=8
+  NW score: k=8 (pre-snap), norm=-2.5588
+  Anchor:   word 88 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -in  chil Et ----vidi dequi dicto Budicanus domino cofession
+                      0 -.|---.|---|
+    query             0 Gen---ui---t puerpera regem --c----u-i----- nom-------e----n
+    
+    target           55 e celebrat nia  dicitur. Tedomiim laudavis quale . Quo finit
+                     12 -
+    query            31 - -ete-r---n---------u-m -e-----t gaud----------------------
+    
+    target          115 o dicitu omro . Couce 136
+                     13 -----|-|--|----------  34
+    query            47 -----i-u--m----------  50
+
+-- fused_13 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [88..88) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_14 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [88..88) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_15 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [88..88) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_16 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [88..88) consumed=0
+  Alignment:
+    (no words left)
+=== END DEBUG ===
+

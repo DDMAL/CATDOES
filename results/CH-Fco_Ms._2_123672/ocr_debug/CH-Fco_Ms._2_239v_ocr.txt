@@ -1,0 +1,179 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'mambus vestris . et vos similes bus ex pectan'
+  [fused_1] 'bus do mnum suum quandorevertatur a'
+  [fused_2] 'mptigilateergo q nescitis'
+  [fused_3] 'qua hora dominus vester venturuis'
+  [fused_4] 'cnnithuno et sintie salito Clento etio or'
+  [fused_5] 'domnis S Cet sibi adsacrificandum'
+  [fused_6] 'Ho stiamlaudis in mola Deo sa'
+  [fused_7] 'trificium laudis et redde altissio vota'
+  [fused_8] 'Hgo  cce sacerdos magnus qui'
+  [fused_9] 'in diebus suis placuit Deo et inventus est justus po dominus'
+  [fused_10] 'reg evonae. Nou est inventus similis illi cuu conser'
+  [fused_11] 'ret legem excelsi p ubil Deo jure jurando'
+  [fused_12] 'teat illum dominus cescere in pletem suam et do do Crore'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'mambus vestris . et vos similes bus ex pectan'
+  Assigned: 'manibus vestris Et vos similes hominibus expectantibus'
+  Words:    [0..7) consumed=7
+  NW score: k=7 (pre-snap), norm=4.9701
+  Anchor:   word 17 (within_chant_7), diff=10, snapped=False, forced=False
+  Alignment:
+    target            0 ma-mbus vestris . et vos similes ------bus ex pectan----- 45
+                      0 ||-.|||  7
+    query             0 manibus vestris-- Et vos similes hominibus ex-pectantibus 54
+
+-- fused_1 --
+  OCR:      'bus do mnum suum quandorevertatur a'
+  Assigned: 'dominum suum Quando revertatur a'
+  Words:    [7..12) consumed=5
+  NW score: k=5 (pre-snap), norm=5.6773
+  Anchor:   word 17 (within_chant_7), diff=5, snapped=False, forced=False
+  Alignment:
+    target            0 bus do m-num suum quando-revertatur a 35
+                      0 ----||-|-||| 12
+    query             0 ----do-minum suum Quando revertatur a 32
+
+-- fused_2 --
+  OCR:      'mptigilateergo q nescitis'
+  Assigned: 'nupciis Vigilate ergo quia nescitis'
+  Words:    [12..17) consumed=5
+  NW score: k=5 (pre-snap), norm=4.3272
+  Anchor:   word 17 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -mp-----tigilate-ergo q--- nescitis 25
+                      0 -.|-----.|||||||-|||| 21
+    query             0 nupciis Vigilate ergo quia nescitis 35
+
+-- fused_3 --
+  OCR:      'qua hora dominus vester venturuis'
+  Assigned: 'qua hora dominus vester venturus'
+  Words:    [17..22) consumed=5
+  NW score: k=5 (pre-snap), norm=7.6624
+  Anchor:   word 26 (within_chant_7), diff=4, snapped=False, forced=False
+  Alignment:
+    target            0 qua hora dominus vester venturuis 33
+                      0 |||  3
+    query             0 qua hora dominus vester venturu-s 32
+
+-- fused_4 --
+  OCR:      'cnnithuno et sintie salito Clento etio or'
+  Assigned: 'sit Et vos Gloria patri et filio et spiritui sancto Quando Elegit te'
+  Words:    [22..35) consumed=13
+  NW score: k=13 (pre-snap), norm=-0.3409
+  Anchor:   word 26 (within_chant_7), diff=9, snapped=False, forced=False
+  Alignment:
+    target            0 cnnit-------------------------huno et s-i-nt-ie salito Clent
+                      0 --.||-------------------------...|
+    query             0 --sit Et vos Gloria patri et filio et spiritui- sancto Quand
+    
+    target           32 o --etio or 41
+                     34 | 35
+    query            57 o Elegit te 68
+
+-- fused_5 --
+  OCR:      'domnis S Cet sibi adsacrificandum'
+  Assigned: 'dominus sacerdotem sibi ad sacrificandum'
+  Words:    [35..40) consumed=5
+  NW score: k=5 (pre-snap), norm=4.8167
+  Anchor:   word 40 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 dom-nis S Ce---t-- sibi ad-sacrificandum 33
+                      0 |||-|.|  7
+    query             0 dominus sacerdotem sibi ad sacrificandum 40
+
+-- fused_6 --
+  OCR:      'Ho stiamlaudis in mola Deo sa'
+  Assigned: 'ei Hostiam laudis Immola deo sa'
+  Words:    [40..46) consumed=6
+  NW score: k=5 (pre-snap), norm=3.7199
+  Anchor:   word 46 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 ---Ho stiam-laudis in mola Deo sa--------- 29
+                      0 ---||-|||||-|||||| 18
+    query             0 ei Ho-stiam laudis -Immola deo sacrificium 40
+
+-- fused_7 --
+  OCR:      'trificium laudis et redde altissio vota'
+  Assigned: 'crificium laudis et redde altissimo nota tua'
+  Words:    [46..52) consumed=6
+  NW score: k=5 (pre-snap), norm=5.2039
+  Anchor:   word 52 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 trificium laudis et redde altissi-o vot----a 39
+                      0 ----------|||||| 16
+    query             0 ----------laudis et redde altissimo nota tua 34
+
+-- fused_8 --
+  OCR:      'Hgo  cce sacerdos magnus qui'
+  Assigned: 'Hostiam Ecce sacerdos magnus qui'
+  Words:    [52..57) consumed=5
+  NW score: k=5 (pre-snap), norm=5.9132
+  Anchor:   word 57 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 Hgo-----  cce sacerdos magnus qui 28
+                      0 |-|-----  8
+    query             0 H-ostiam Ecce sacerdos magnus qui 32
+
+-- fused_9 --
+  OCR:      'in diebus suis placuit Deo et inventus est justus po dominus'
+  Assigned: 'in diebus suis placuit deo et inventus est iustus'
+  Words:    [57..66) consumed=9
+  NW score: k=10 (pre-snap), norm=6.8145
+  Anchor:   word 66 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 in diebus suis placuit Deo et inventus est justus po dominus
+                      0 ||
+    query             0 in diebus suis placuit deo et inventus est iust-----------us
+    
+    target           60 
+                      2 
+    query            49 
+
+-- fused_10 --
+  OCR:      'reg evonae. Nou est inventus similis illi cuu conser'
+  Assigned: '~Dominus regnavit euouae Non est inventus similis illi qui conser'
+  Words:    [66..76) consumed=10
+  NW score: k=10 (pre-snap), norm=4.4255
+  Anchor:   word 76 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ---------reg----- evonae. Nou est inventus similis illi cuu 
+                      0 ---------|||-----
+    query             0 ~Dominus regnavit euouae- Non est inventus similis illi qui 
+    
+    target           46 conser----- 52
+                     17 ||||||----- 28
+    query            59 conservaret 70
+
+-- fused_11 --
+  OCR:      'ret legem excelsi p ubil Deo jure jurando'
+  Assigned: 'varet legem excelsi ~Iubilate euouae Ideo iureiurando'
+  Words:    [76..82) consumed=6
+  NW score: k=6 (pre-snap), norm=3.6221
+  Anchor:   word 82 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ret legem excelsi p ubil---------- -Deo jure jurando 41
+                      0 ----|||||  9
+    query             0 ----legem excelsi ~Iubilate euouae Ideo iure-iurando 47
+
+-- fused_12 --
+  OCR:      'teat illum dominus cescere in pletem suam et do do Crore'
+  Assigned: 'fecit illum dominus crescere in plebem suam ~Deus'
+  Words:    [82..90) consumed=8
+  NW score: k=7 (pre-snap), norm=4.6055
+  Anchor:   word 90 (page_break_77), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 te-at illum dominus c-escere in pletem suam --et do do Crore
+                      0 .|-.|
+    query             0 fecit illum dominus crescere in plebem suam ~De-----------us
+    
+    target           56 
+                      5 
+    query            49 
+=== END DEBUG ===
+

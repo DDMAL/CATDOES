@@ -1,0 +1,175 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'labia mea aperimeum annuncibit laudem tu'
+  [fused_1] 'a eperdas cum impus Deus i'
+  [fused_2] 'mamam et cum juris sanguitam'
+  [fused_3] 'medune me domine Peneto'
+  [fused_4] 'mme ab homine ma te rame .'
+  [fused_5] 'domine afflictionem meam Vi'
+  [fused_6] 'mam ereitus est mimericus mens'
+  [fused_7] 'itribulatione innvocavi dominum et exandiviti'
+  [fused_8] 'atitudine  confiten '
+  [fused_9] 'causam anime mee defensor vute mee domine deus mens pur'
+  [fused_10] 'dions opule meus ano'
+  [fused_11] 'molestus fui sponde michi prs Bendiconis evovac'
+  [fused_12] 'qnno reoditum preolone n alim quia foderunt foncam anm'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'labia mea aperimeum annuncibit laudem tu'
+  Assigned: 'labia mea aperies et os meum annunciabit laudem tuam'
+  Words:    [0..9) consumed=9
+  NW score: k=9 (pre-snap), norm=5.9640
+  Anchor:   word 16 (within_chant_7), diff=7, snapped=False, forced=False
+  Alignment:
+    target            0 labia mea aperi---------meum annunci-bit laudem tu-- 40
+                      0 |||||  5
+    query             0 labia mea aperies et os meum annunciabit laudem tuam 52
+
+-- fused_1 --
+  OCR:      'a eperdas cum impus Deus i'
+  Assigned: 'Libera Ne perdas cum impiis deus ani'
+  Words:    [9..16) consumed=7
+  NW score: k=6 (pre-snap), norm=4.0216
+  Anchor:   word 16 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 -----a -e-perdas cum imp-us Deus --i--- 26
+                      0 -----|  6
+    query             0 Libera Ne perdas cum impiis deus animam 39
+
+-- fused_2 --
+  OCR:      'mamam et cum juris sanguitam'
+  Assigned: 'mam meam et cum viris sanguinum'
+  Words:    [16..21) consumed=5
+  NW score: k=5 (pre-snap), norm=5.2372
+  Anchor:   word 29 (within_chant_7), diff=8, snapped=False, forced=False
+  Alignment:
+    target            0 mamam et cum juris sanguitam 28
+                      0 |-.||  5
+    query             0 m-eam et cum viris sanguinum 27
+
+-- fused_3 --
+  OCR:      'medune me domine Peneto'
+  Assigned: 'vitam meam Redime me domine Eripe me do'
+  Words:    [21..29) consumed=8
+  NW score: k=6 (pre-snap), norm=1.6334
+  Anchor:   word 29 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 ---------m--edune me domin------e Pe-----neto 23
+                      0 ---------|--||..| 17
+    query             0 vitam meam Redime me domine Eripe me domine-- 43
+
+-- fused_4 --
+  OCR:      'mme ab homine ma te rame .'
+  Assigned: 'mine ab homine malo a viro iniquo libera me'
+  Words:    [29..37) consumed=8
+  NW score: k=4 (pre-snap), norm=2.7456
+  Anchor:   word 37 (within_chant_7), diff=4, snapped=False, forced=True
+  Alignment:
+    target            0 mme ab homine ma--------- ----te ----ra-me . 26
+                      0 ----||  6
+    query             0 ----ab homine malo a viro iniquo libera me-- 38
+
+-- fused_5 --
+  OCR:      'domine afflictionem meam Vi'
+  Assigned: 'Redime Vide domine afflictionem meam'
+  Words:    [37..42) consumed=5
+  NW score: k=5 (pre-snap), norm=4.4584
+  Anchor:   word 38 (within_chant_7), diff=4, snapped=False, forced=False
+  Alignment:
+    target            0 ------------domine afflictionem meam Vi 27
+                      0 ------------|||||| 18
+    query             0 Redime Vide domine afflictionem meam--- 36
+
+-- fused_6 --
+  OCR:      'mam ereitus est mimericus mens'
+  Assigned: 'quo'
+  Words:    [42..43) consumed=1
+  NW score: k=5 (pre-snap), norm=4.4177
+  Anchor:   word 43 (within_chant_7), diff=4, snapped=False, forced=True
+  Alignment:
+    target            0 mam ereitus est mimericus mens 30
+                      0 --------.|---------..|---.|--- 30
+    query             0 --------qu---------oni---am---  7
+
+-- fused_7 --
+  OCR:      'itribulatione innvocavi dominum et exandiviti'
+  Assigned: 'niam erectus est inimicus meus {Miserere}'
+  Words:    [43..48) consumed=5
+  NW score: k=12 (pre-snap), norm=2.7021
+  Anchor:   word 48 (within_chant_7), diff=7, snapped=False, forced=True
+  Alignment:
+    target            0 itribulatione-- innvocavi dominum -e-t exandi---viti 45
+                      0 -.|---..|...|-- 15
+    query             0 -er---ectus est in------i---micus meus ---{Miserere} 36
+
+-- fused_8 --
+  OCR:      'atitudine  confiten'
+  Assigned: 'euouae In tribulatione invocavi dominum et'
+  Words:    [48..54) consumed=6
+  NW score: k=6 (pre-snap), norm=-1.2744
+  Anchor:   word 57 (within_chant_7), diff=3, snapped=False, forced=False
+  Alignment:
+    target            0 ----a-----t-itu--di-ne -------- co--nfiten 19
+                      0 ----|-----|-|.|--.|-|| 22
+    query             0 euouae In tribulatione invocavi dominum et 42
+
+-- fused_9 --
+  OCR:      'causam anime mee defensor vute mee domine deus mens pur'
+  Assigned: 'exaudivit me in latitudine ~Confitemini euouae Judicasti domine causam anime mee defensor vite mee domine deus meus {Deus'
+  Words:    [54..72) consumed=18
+  NW score: k=18 (pre-snap), norm=2.2310
+  Anchor:   word 57 (within_chant_7), diff=15, snapped=False, forced=False
+  Alignment:
+    target            0 ------------------------------------------------------------
+                      0 ------------------------------------------------------------
+    query             0 exaudivit me in latitudine ~Confitemini euouae Judicasti dom
+    
+    target            0 ----causam anime mee defensor vute mee domine deus mens --pu
+                     60 ----||||||
+    query            60 ine causam anime mee defensor vite mee domine deus meus {Deu
+    
+    target           54 r  55
+                     70 .  71
+    query           120 s 121
+
+-- fused_10 --
+  OCR:      'dions opule meus ano'
+  Assigned: 'deus meus} euouae Popule meus'
+  Words:    [72..77) consumed=5
+  NW score: k=5 (pre-snap), norm=1.0381
+  Anchor:   word 82 (within_chant_7), diff=5, snapped=False, forced=False
+  Alignment:
+    target            0 dions --------------opule meus ano 20
+                      0 |-..|  5
+    query             0 d-eus meus} euouae Popule meus---- 29
+
+-- fused_11 --
+  OCR:      'molestus fui sponde michi prs Bendiconis evovac'
+  Assigned: 'quid feci tibi aut quid'
+  Words:    [77..82) consumed=5
+  NW score: k=11 (pre-snap), norm=2.4408
+  Anchor:   word 82 (within_chant_7), diff=6, snapped=False, forced=True
+  Alignment:
+    target            0 molestu-s f-ui sponde michi prs Bendiconis evovac 47
+                      0 -----.|-.  9
+    query             0 -----quid feci------- ti-bi aut quid------------- 23
+
+-- fused_12 --
+  OCR:      'qnno reoditum preolone n alim quia foderunt foncam anm'
+  Assigned: 'molestus fui responde michi {Benedicam} euouae Numquid redditur pro bono malum quia foderunt foveam ani'
+  Words:    [82..97) consumed=15
+  NW score: k=15 (pre-snap), norm=1.3015
+  Anchor:   word 89 (within_chant_7), diff=8, snapped=False, forced=False
+  Alignment:
+    target            0 -----------------qn------------n----------o----------- reodi
+                      0 -----------------.|------------|----------|-----------
+    query             0 molestus fui responde michi {Benedicam} euouae Numquid reddi
+    
+    target           10 tum preo-lone n alim quia foderunt foncam an-m-  54
+                     54 ||.  57
+    query            60 tur pr-o bono -malum quia foderunt foveam anime 105
+=== END DEBUG ===
+

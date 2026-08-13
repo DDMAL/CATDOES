@@ -1,0 +1,191 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'num me faco domine bene prosperare p confitenum evovac'
+  [fused_1] 'mea domine et in nomine tuo'
+  [fused_2] 'lenabo manus meas . Ds Deus evovac nspiritu Hu'
+  [fused_3] 'militatis et in animo contrito suscipiamur domine a te et'
+  [fused_4] 'sat sacrificium nostrimi suscipiatur hodie et'
+  [fused_5] 'placebi domine deus Bendininis evovae t Laudate deu'
+  [fused_6] 'celi celorum et aque omnes exovac Ductus'
+  [fused_7] 'est Jhesus in desertum aspi ritu ut temptaretur a diabolo'
+  [fused_8] 'et cum jenmnasset quadraginta diebus eta quadraginta nocti'
+  [fused_9] 'bus postea esuriliter q Bendies Evovac hesus autem'
+  [fused_10] 'cum icumasset quadraginta diebus et quadraginta noctibus'
+  [fused_11] 'ad'
+  [fused_12] 'potssit eum diabolus'
+  [fused_13] 'in sanctam cantatem et statuit eum supra puniaculim tem'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'num me faco domine bene prosperare p confitenum evovac'
+  Assigned: 'me fac o domine bene prosperare {Confitemini} euouae'
+  Words:    [0..8) consumed=8
+  NW score: k=8 (pre-snap), norm=4.9254
+  Anchor:   word 19 (within_chant_7), diff=11, snapped=False, forced=False
+  Alignment:
+    target            0 num me fac-o domine bene prosperare p confite--num evovac 54
+                      0 ----||  6
+    query             0 ----me fac o domine bene prosperare -{Confitemini} euouae 52
+
+-- fused_1 --
+  OCR:      'mea domine et in nomine tuo'
+  Assigned: 'Sic benedicam te in vita mea domine et in nomine tuo'
+  Words:    [8..19) consumed=11
+  NW score: k=11 (pre-snap), norm=3.6563
+  Anchor:   word 19 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -------------------------mea domine et in nomine tuo 27
+                      0 -------------------------||| 28
+    query             0 Sic benedicam te in vita mea domine et in nomine tuo 52
+
+-- fused_2 --
+  OCR:      'lenabo manus meas . Ds Deus evovac nspiritu Hu'
+  Assigned: 'levabo manus meas {Deus deus} euouae In spiritu hu'
+  Words:    [19..28) consumed=9
+  NW score: k=8 (pre-snap), norm=4.4519
+  Anchor:   word 28 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 lenabo manus meas . D--s Deus- evovac -n-spiritu Hu---------
+                      0 ||.|||
+    query             0 levabo manus meas -{Deus deus} euouae In spiritu humilitatis
+    
+    target           46 
+                      6 
+    query            59 
+
+-- fused_3 --
+  OCR:      'militatis et in animo contrito suscipiamur domine a te et'
+  Assigned: 'militatis et in animo contrito suscipiamur domine a te et'
+  Words:    [28..37) consumed=9
+  NW score: k=9 (pre-snap), norm=6.6075
+  Anchor:   word 37 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 militatis et in animo contrito suscipiamur domine a te et 57
+                      0 ----------|| 12
+    query             0 ----------et in animo contrito suscipiamur domine a te et 47
+
+-- fused_4 --
+  OCR:      'sat sacrificium nostrimi suscipiatur hodie et'
+  Assigned: 'sic fiat sacrificium nostrum ut a te suscipiatur hodie et'
+  Words:    [37..47) consumed=10
+  NW score: k=10 (pre-snap), norm=5.7260
+  Anchor:   word 47 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 s-----at sacrificium nostrim-------i suscipiatur hodie et 45
+                      0 |-----||  8
+    query             0 sic fiat sacrificium nostrum ut a te suscipiatur hodie et 57
+
+-- fused_5 --
+  OCR:      'placebi domine deus Bendininis evovae t Laudate deu'
+  Assigned: 'placeat tibi domine deus ~Benedic euouae Laudate deum'
+  Words:    [47..55) consumed=8
+  NW score: k=8 (pre-snap), norm=4.9048
+  Anchor:   word 55 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 place-----bi domine deus -Ben-dininis evovae t Laudate deu-
+                      0 |||||-----||
+    query             0 placeat tibi domine deus ~Bened----ic euouae-- Laudate deum
+    
+    target           51
+                     12
+    query            53
+
+-- fused_6 --
+  OCR:      'celi celorum et aque omnes exovac Ductus'
+  Assigned: 'celi celorum et aque omnes euouae Ductus'
+  Words:    [55..62) consumed=7
+  NW score: k=7 (pre-snap), norm=7.0250
+  Anchor:   word 62 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 celi celorum et aque omnes exovac Ductus 40
+                      0 ||||  4
+    query             0 celi celorum et aque omnes euouae Ductus 40
+
+-- fused_7 --
+  OCR:      'est Jhesus in desertum aspi ritu ut temptaretur a diabolo'
+  Assigned: 'est ihesus in desertum a spiritu ut temptaretur a diabolo'
+  Words:    [62..72) consumed=10
+  NW score: k=10 (pre-snap), norm=7.3860
+  Anchor:   word 72 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 est Jhesus in desertum a-spi ritu ut temptaretur a diabolo 57
+                      0 |||  3
+    query             0 est ihesus in desertum a spi-ritu ut temptaretur a diabolo 57
+
+-- fused_8 --
+  OCR:      'et cum jenmnasset quadraginta diebus eta quadraginta nocti'
+  Assigned: 'et cum ieiunasset quadraginta diebus et quadraginta nocti'
+  Words:    [72..80) consumed=8
+  NW score: k=8 (pre-snap), norm=6.7298
+  Anchor:   word 80 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 et cum jenmnasset quadraginta diebus eta quadraginta nocti--
+                      0 ||
+    query             0 et cum ieiunasset quadraginta diebus et- quadraginta noctibu
+    
+    target           58 - 58
+                      2 -  3
+    query            59 s 60
+
+-- fused_9 --
+  OCR:      'bus postea esuriliter q Bendies Evovac hesus autem'
+  Assigned: 'bus postea esuriit ~Benedictus euouae Ihesus autem'
+  Words:    [80..86) consumed=6
+  NW score: k=6 (pre-snap), norm=4.0452
+  Anchor:   word 86 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 bus postea esuriliter q Ben-di--es Evovac -hesus autem 50
+                      0 ----|||||| 10
+    query             0 ----postea esuri-it-- -~Benedictus euouae Ihesus autem 46
+
+-- fused_10 --
+  OCR:      'cum icumasset quadraginta diebus et quadraginta noctibus'
+  Assigned: 'cum ieiunasset quadraginta diebus et quadraginta noctibus'
+  Words:    [86..93) consumed=7
+  NW score: k=7 (pre-snap), norm=7.3454
+  Anchor:   word 93 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 cum i-cumasset quadraginta diebus et quadraginta noctibus 56
+                      0 |||  3
+    query             0 cum ieiunasset quadraginta diebus et quadraginta noctibus 57
+
+-- fused_11 --
+  OCR:      'ad'
+  Assigned: 'postea'
+  Words:    [93..94) consumed=1
+  NW score: k=1 (pre-snap), norm=-5.1962
+  Anchor:   word 100 (within_chant_7), diff=6, snapped=False, forced=False
+  Alignment:
+    target            0 -----ad 2
+                      0 -----|- 7
+    query             0 postea- 6
+
+-- fused_12 --
+  OCR:      'potssit eum diabolus'
+  Assigned: 'esuriit euouae Tunc assumpsit eum diabolus'
+  Words:    [94..100) consumed=6
+  NW score: k=6 (pre-snap), norm=1.9322
+  Anchor:   word 100 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ---------po----------ts---sit eum diabolus 20
+                      0 ---------.|----------.|---||| 29
+    query             0 esuriit euouae Tunc assumpsit eum diabolus 42
+
+-- fused_13 --
+  OCR:      'in sanctam cantatem et statuit eum supra puniaculim tem'
+  Assigned: 'in sanctam civitatem et statuit eum supra pinnaculum templi'
+  Words:    [100..109) consumed=9
+  NW score: k=9 (pre-snap), norm=6.2319
+  Anchor:   word 109 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 in sanctam c-antatem et statuit eum supra puniaculim tem---
+                      0 ||
+    query             0 in sanctam civitatem et statuit eum supra pinnaculum templi
+    
+    target           55
+                      2
+    query            59
+=== END DEBUG ===
+

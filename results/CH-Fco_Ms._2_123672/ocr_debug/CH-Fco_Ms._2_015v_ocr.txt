@@ -1,0 +1,175 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'lorum Allelvya evovae eatam me dicent omnes genera'
+  [fused_1] 'stuovae'
+  [fused_2] 'Consurge insurge induere fortitudinem Brachium domini'
+  [fused_3] 'evovae . levare clevare consurge Iherusalem solveium'
+  [fused_4] 'dla Colli tui captina filia Syonii evovae Nonam'
+  [fused_5] 'in syon salutem et in iherusalem gloriam meam Avelvya evo'
+  [fused_6] 'core Nonent domino gloriam et laudem ejus mvnsu fr'
+  [fused_7] 'nominciabunt eveniet et non tardabit evovae ad '
+  [fused_8] 'Consolanumi consolanim popule meus dicit Deus ve'
+  [fused_9] 'ser exorae. etanim cum iherusalem et erultate'
+  [fused_10] 'mea omnes au diliatis eam metetmum eroras'
+  [fused_11] 'Piee comini sicit firita in note veilet est vlbs estote pareatus'
+  [fused_12] 'mmeen oea non endeio senio omins ieies cuooie'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'lorum Allelvya evovae eatam me dicent omnes genera'
+  Assigned: 'alleluya euouae Beatam me dicent omnes genera'
+  Words:    [0..7) consumed=7
+  NW score: k=7 (pre-snap), norm=4.9309
+  Anchor:   word 7 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 lorum Allelvya evovae -eatam me dicent omnes genera------ 50
+                      0 ------.||||.|| 14
+    query             0 ------alleluya euouae Beatam me dicent omnes generationes 51
+
+-- fused_1 --
+  OCR:      'stuovae'
+  Assigned: 'tiones quia'
+  Words:    [7..8) consumed=1
+  NW score: k=1 (pre-snap), norm=-2.8347
+  Anchor:   word 13 (within_chant_7), diff=5, snapped=False, forced=False
+  Alignment:
+    target            0 stuovae 7
+                      0 -.|-.|- 7
+    query             0 -qu-ia- 4
+
+-- fused_2 --
+  OCR:      'Consurge insurge induere fortitudinem Brachium domini'
+  Assigned: 'ancillam humilem respexit deus euouae Consurge consurge induere fortitudinem brachium domini'
+  Words:    [8..19) consumed=11
+  NW score: k=11 (pre-snap), norm=3.9096
+  Anchor:   word 13 (within_chant_7), diff=6, snapped=False, forced=False
+  Alignment:
+    target            0 --------------------------------------Consurge -insurge indu
+                      0 --------------------------------------||||||||
+    query             0 ancillam humilem respexit deus euouae Consurge consurge indu
+    
+    target           21 ere fortitudinem Brachium domini 53
+                     46 ||| 49
+    query            60 ere fortitudinem brachium domini 92
+
+-- fused_3 --
+  OCR:      'evovae . levare clevare consurge Iherusalem solveium'
+  Assigned: 'euouae Elevare elevare consurge iherusalem solve vin'
+  Words:    [19..26) consumed=7
+  NW score: k=6 (pre-snap), norm=5.9848
+  Anchor:   word 26 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 evovae . levare clevare consurge Iherusalem solve--i--um 52
+                      0 |.|.||  6
+    query             0 euouae -Elevare elevare consurge iherusalem solve vincla 55
+
+-- fused_4 --
+  OCR:      'dla Colli tui captina filia Syonii evovae Nonam'
+  Assigned: 'cla colli tui captiva filia syon euouae Ponam'
+  Words:    [26..33) consumed=7
+  NW score: k=7 (pre-snap), norm=5.1028
+  Anchor:   word 33 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 dla Colli tui captina filia Syonii evovae Nonam 47
+                      0 ----.||||  9
+    query             0 ----colli tui captiva filia syon-- euouae Ponam 41
+
+-- fused_5 --
+  OCR:      'in syon salutem et in iherusalem gloriam meam Avelvya evo'
+  Assigned: 'in syon salutem et in iherusalem gloriam meam alleluya'
+  Words:    [33..42) consumed=9
+  NW score: k=9 (pre-snap), norm=6.5249
+  Anchor:   word 51 (within_chant_7), diff=9, snapped=False, forced=False
+  Alignment:
+    target            0 in syon salutem et in iherusalem gloriam meam -Avelvya evo 57
+                      0 ||  2
+    query             0 in syon salutem et in iherusalem gloriam meam alleluya---- 54
+
+-- fused_6 --
+  OCR:      'core Nonent domino gloriam et laudem ejus mvnsu fr'
+  Assigned: 'euouae Ponent domino gloriam et laudem eius in insu'
+  Words:    [42..51) consumed=9
+  NW score: k=8 (pre-snap), norm=5.1503
+  Anchor:   word 51 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 -co-re Nonent domino gloriam et laudem ejus --mvnsu fr 50
+                      0 -.|-.|  6
+    query             0 euouae Ponent domino gloriam et laudem eius in insulis 54
+
+-- fused_7 --
+  OCR:      'nominciabunt eveniet et non tardabit evovae ad'
+  Assigned: 'lis nunciabunt quia ecce veniet et non tardabit euouae'
+  Words:    [51..59) consumed=8
+  NW score: k=8 (pre-snap), norm=4.8167
+  Anchor:   word 59 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 nominciabunt --------e-veniet et non tardabit evovae ad 46
+                      0 |--.|||||||| 12
+    query             0 n--unciabunt quia ecce veniet et non tardabit euouae--- 50
+
+-- fused_8 --
+  OCR:      'Consolanumi consolanim popule meus dicit Deus ve'
+  Assigned: 'Consolamini consolamini popule meus dicit deus ve'
+  Words:    [59..66) consumed=7
+  NW score: k=7 (pre-snap), norm=5.8289
+  Anchor:   word 66 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 Consola--numi consola--nim popule meus dicit Deus ve---- 48
+                      0 |||||||--|--| 13
+    query             0 Consolamin--i consolamini- popule meus dicit deus vester 53
+
+-- fused_9 --
+  OCR:      'ser exorae. etanim cum iherusalem et erultate'
+  Assigned: 'ster euouae Letamini cum iherusalem et exultate'
+  Words:    [66..72) consumed=6
+  NW score: k=6 (pre-snap), norm=5.1985
+  Anchor:   word 72 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ser exorae. -eta--nim cum iherusalem et erultate 45
+                      0 ----|.|.||- 11
+    query             0 ----euouae- Letamini- cum iherusalem et exultate 42
+
+-- fused_10 --
+  OCR:      'mea omnes au diliatis eam metetmum eroras'
+  Assigned: 'in ea omnes qui diligitis eam in eternum euouae'
+  Words:    [72..81) consumed=9
+  NW score: k=9 (pre-snap), norm=4.0321
+  Anchor:   word 81 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 --mea omnes au- dili-atis eam --metetmum eroras 41
+                      0 --.||  5
+    query             0 in ea omnes qui diligitis eam in eternum euouae 47
+
+-- fused_11 --
+  OCR:      'Piee comini sicit firita in note veilet est vlbs estote pareatus'
+  Assigned: 'Dies domini sicut fur ita in nocte veni{ et } et vos'
+  Words:    [81..93) consumed=12
+  NW score: k=14 (pre-snap), norm=4.7698
+  Anchor:   word 93 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 Piee comini sicit fir-ita in no-te ve-i-let-- est vlbs estot
+                      0 .||.
+    query             0 Dies domini sicut fur ita in nocte veni{ et } e-t v-------o-
+    
+    target           54 e pareatus 64
+                      4 ---------| 14
+    query            51 ---------s 52
+
+-- fused_12 --
+  OCR:      'mmeen oea non endeio senio omins ieies cuooie'
+  Assigned: 'estote parati quia qua hora non putatis filius hominis'
+  Words:    [93..102) consumed=9
+  NW score: k=9 (pre-snap), norm=-0.9332
+  Anchor:   word 102 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 mme----e---------------n -oea non -endeio seni-o -omins ieie
+                      0 --|----|---------------.
+    query             0 --estote parati quia qua hora non putatis filius homin----i-
+    
+    target           37 s cuooie 45
+                     24 |------- 32
+    query            53 s------- 54
+=== END DEBUG ===
+

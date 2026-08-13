@@ -104,6 +104,16 @@ python fetch_images.py rename \
     --out-dir ~/Downloads/DDMAL/einsiedeln-611/
 ```
 
+#### Folio gaps
+
+Some manuscript pages have no chant-start entry in CantusDB (their text continues from the
+previous page's chant), so they never appear in a source's folio list even though the page
+exists and is imaged (see [DDMAL/mothra#165](https://github.com/DDMAL/mothra/issues/165)).
+Both `fetch` and `rename` log a warning for each such single-step gap detected in the CantusDB
+folio list, without attempting to fetch or guess at the missing folio — download it manually
+and add it to the output directory yourself if needed (e.g. via `rename` with an explicit
+`--folios`).
+
 ### Running the pipeline
 
 ```bash
@@ -154,6 +164,38 @@ dataset under `data/{manuscript}/experiment{N}/`.
 
 ---
 
+## Results
+
+Full-manuscript production runs (as opposed to the ad hoc test runs under `experiments/`) are
+saved to `results/{manuscript}/` in this repo, indexed in
+[`results/manuscripts.csv`](results/manuscripts.csv) — one row per manuscript, holding
+shelfmark/institution/date/language/license metadata plus which debug artifacts were kept.
+
+Each manuscript's directory holds:
+
+| Directory | Contents |
+|-----------|----------|
+| `pipeline_json/` | Custom pipeline JSON (see [Output](#output)) — the format the Pipeline Inspector consumes |
+| `page_xml/` | Stock-schema PAGE XML (`Region > TextLine > Word`), generated from `pipeline_json/` by `export_page_xml.py` |
+| `syllable_layer/` | Companion syllable-level XML cross-referencing `page_xml/`'s Word IDs. Kept as a separate file rather than folded into PAGE XML, so PAGE stays usable by generic tooling (Transkribus, PAGE viewers) that doesn't expect a Syllable level |
+| `ocr_debug/` | NW alignment debug (kept: cheap, and the only place per-line alignment scores exist) |
+| `mothra_json/` | Raw YOLO Stage 0 masking output (kept: useful for diagnosing masking-quality issues) |
+
+`yolo_debug/` is not kept for full-manuscript runs — it's a redundant human-readable rendering of
+`mothra_json/`'s same data.
+
+`page_xml`/`syllable_layer` IDs are `{folio}_l{line}_w{word}_s{syllable}`, computed deterministically
+from each element's position in `pipeline_json`'s own arrays — not from the pipeline JSON's own
+`label` field, which is derived from a per-run temporary file name and is not stable across
+re-exports. Word/syllable geometry follows the line's real polygon rather than assuming a flat
+rectangle (see `export_page_xml.py`'s module docstring for the exact method).
+
+| Manuscript | Source ID | Folios | Path |
+|------------|-----------|--------|------|
+| CH-Fco Ms. 2 | [123672](https://cantusdatabase.org/source/123672) | 490 (001r–245v) | [results/CH-Fco_Ms._2_123672/](results/CH-Fco_Ms._2_123672/) |
+
+---
+
 ## Adding a new image source to fetch_images.py
 
 `fetch_images.py` currently supports e-codices only. The `sources/` package is structured
@@ -192,6 +234,7 @@ developer notes at the top of `fetch_images.py` for the exact steps.
 ```
 run_chain.py              # pipeline CLI
 fetch_images.py           # image fetch/rename CLI (fetch + rename subcommands)
+export_page_xml.py        # pipeline_json -> PAGE XML + SyllableLayer converter
 config.py                 # config loader; injects mothra-text into sys.path
 config.yaml               # local configuration (mothra_text_path, out_dir, model paths)
 requirements.txt          # pip dependencies
@@ -203,6 +246,9 @@ scripts/
 experiments/
   experiment1/            # CH-SGs 390 (source 678936), 20 folios, 2026-07-21
   experiment2/            # CH-Fco Ms. 2 (source 123672), 20 non-contiguous folios
+results/
+  manuscripts.csv         # one row per manuscript: metadata + index
+  CH-Fco_Ms._2_123672/    # CH-Fco Ms. 2 (source 123672), 490 folios, full manuscript
 spike/                    # Research spikes and format notes (not pipeline output)
 Gen_Transkribus/          # Notes on layout model evaluation with Transkribus
 data/                     # Annotation data and notes

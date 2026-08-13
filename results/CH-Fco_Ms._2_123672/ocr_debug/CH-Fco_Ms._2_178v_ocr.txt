@@ -1,0 +1,171 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'vestrm e formidet creisnedite in domo'
+  [fused_1] 'pano nnsiones multe sunt alieluya Alseluya exovae  natutinas suxitas  in tono Palcnalsin fine i'
+  [fused_2] 'o mine ostende nobis patrem et sufficit nobis Allelvya'
+  [fused_3] 'Dominus Regis evovac . Philippe qui me videt videt et patrem'
+  [fused_4] 'meum Allelvya pres jubilate evovacnto tempore vobis'
+  [fused_5] 'cum sum et non cognovistis me phi lippe qui videt me videt'
+  [fused_6] 'et patrem meum Allelvya sdius Evovac '
+  [fused_7] 'seno me et patrem mneum nits cogomeisetis et amoto coanosicte'
+  [fused_8] 'tis eum et indistis cum Alleluya Allelvya Allelvya evovae'
+  [fused_9] 'i diligitis me mandata mea servate Alleluya Alleluya'
+  [fused_10] 'capitulum stabunt'
+  [fused_11] 'Alenya e laudi exorae . ato osea. Gosimmns'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'vestrm e formidet creisnedite in domo'
+  Assigned: 'vestrum neque formidet creditis in deum'
+  Words:    [0..6) consumed=6
+  NW score: k=6 (pre-snap), norm=4.4752
+  Anchor:   word 28 (within_chant_7), diff=22, snapped=False, forced=False
+  Alignment:
+    target            0 vestr-m ----e formidet creisnedit-e in d-omo 37
+                      0 |||||-|  7
+    query             0 vestrum neque formidet cr----editis in deum- 39
+
+-- fused_1 --
+  OCR:      'pano nnsiones multe sunt alieluya Alseluya exovae  natutinas suxitas  in tono Palcnalsin fine i'
+  Assigned: 'et in me credite in domo patris mei mansiones multe sunt alleluya alleluya euouae Domine ostende nobis patrem'
+  Words:    [6..24) consumed=18
+  NW score: k=18 (pre-snap), norm=1.0908
+  Anchor:   word 28 (within_chant_7), diff=4, snapped=False, forced=False
+  Alignment:
+    target            0 -------------------------pa------no -nnsiones multe sunt ali
+                      0 -------------------------||------..
+    query             0 et in me credite in domo patris mei mansiones multe sunt all
+    
+    target           28 eluya Alseluya exovae  natutinas -suxitas  in-- tono Palcnal
+                     35 |||||
+    query            60 eluya alleluya euouae ---Domin-e os---t----ende --no--------
+    
+    target           85 sin -fine i  95
+                     40 .|.  43
+    query            99 bis patre-m 109
+
+-- fused_2 --
+  OCR:      'o mine ostende nobis patrem et sufficit nobis Allelvya'
+  Assigned: 'et sufficit nobis alleluya'
+  Words:    [24..28) consumed=4
+  NW score: k=4 (pre-snap), norm=2.5087
+  Anchor:   word 28 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 o mine ostende nobis patrem et sufficit nobis Allelvya 54
+                      0 ----------------------------|| 30
+    query             0 ----------------------------et sufficit nobis alleluya 26
+
+-- fused_3 --
+  OCR:      'Dominus Regis evovac . Philippe qui me videt videt et patrem'
+  Assigned: '~Dominus regnavit euouae Philippe qui me videt videt et patrem'
+  Words:    [28..38) consumed=10
+  NW score: k=10 (pre-snap), norm=6.0500
+  Anchor:   word 38 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -Dominus Reg---is evovac . Philippe qui me videt videt et pa
+                      0 -|||||||
+    query             0 ~Dominus regnavit euoua--e Philippe qui me videt videt et pa
+    
+    target           56 trem 60
+                      8 |||| 12
+    query            58 trem 62
+
+-- fused_4 --
+  OCR:      'meum Allelvya pres jubilate evovacnto tempore vobis'
+  Assigned: 'meum alleluya ~Iubilate euouae Tanto tempore vobi'
+  Words:    [38..45) consumed=7
+  NW score: k=7 (pre-snap), norm=4.6739
+  Anchor:   word 45 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 meum Allelvya pres jubilate evova---cnto tempore vobis--- 51
+                      0 ||||  4
+    query             0 meum alleluya ----~Iubilate euouae Tanto tempore vobiscum 53
+
+-- fused_5 --
+  OCR:      'cum sum et non cognovistis me phi lippe qui videt me videt'
+  Assigned: 'scum sum et non cognovistis me philippe qui videt me videt'
+  Words:    [45..55) consumed=10
+  NW score: k=10 (pre-snap), norm=7.2326
+  Anchor:   word 55 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 cum sum et non cognovistis me phi lippe qui videt me videt 58
+                      0 ----|||  7
+    query             0 ----sum et non cognovistis me phi-lippe qui videt me videt 53
+
+-- fused_6 --
+  OCR:      'et patrem meum Allelvya sdius Evovac'
+  Assigned: 'et patrem meum alleluya ~Deus deus euouae Si cognovis'
+  Words:    [55..64) consumed=9
+  NW score: k=7 (pre-snap), norm=4.5290
+  Anchor:   word 64 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 et patrem meum Allelvya ----s-dius Evova-----c------------ 36
+                      0 ||  2
+    query             0 et patrem meum alleluya ~Deus deus euouae Si cognovissetis 58
+
+-- fused_7 --
+  OCR:      'seno me et patrem mneum nits cogomeisetis et amoto coanosicte'
+  Assigned: 'setis me et patrem meum utique cognovissetis et amodo cognosce'
+  Words:    [64..73) consumed=9
+  NW score: k=9 (pre-snap), norm=4.1839
+  Anchor:   word 73 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 seno me et patrem mneum -ni-ts cog-omei-setis et amoto coano
+                      0 -----||
+    query             0 -----me et patrem m-eum utique cogno-vissetis et amodo cogno
+    
+    target           56 sic-t-e 61
+                      7 |-|-|-. 14
+    query            53 s-cetis 59
+
+-- fused_8 --
+  OCR:      'tis eum et indistis cum Alleluya Allelvya Allelvya evovae'
+  Assigned: 'tis eum et vidistis eum alleluya alleluya alleluya'
+  Words:    [73..80) consumed=7
+  NW score: k=8 (pre-snap), norm=5.1307
+  Anchor:   word 80 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 tis eum et -indistis cum Alleluya Allelvya Allelvya evovae 57
+                      0 ----|||  7
+    query             0 ----eum et vi-distis eum alleluya alleluya alleluya------- 46
+
+-- fused_9 --
+  OCR:      'i diligitis me mandata mea servate Alleluya Alleluya'
+  Assigned: 'euouae Si diligitis me mandata mea servate alleluya alleluya'
+  Words:    [80..89) consumed=9
+  NW score: k=9 (pre-snap), norm=6.4808
+  Anchor:   word 89 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 --------i diligitis me mandata mea servate Alleluya Alleluya
+                      0 --------|
+    query             0 euouae Si diligitis me mandata mea servate alleluya alleluya
+    
+    target           52 
+                      9 
+    query            60 
+
+-- fused_10 --
+  OCR:      'capitulum stabunt'
+  Assigned: 'alleluya ~Laudate'
+  Words:    [89..91) consumed=2
+  NW score: k=2 (pre-snap), norm=-1.2353
+  Anchor:   word 95 (page_break_77), diff=4, snapped=False, forced=False
+  Alignment:
+    target            0 capitulu-m stabu-nt- 17
+                      0 -|-...||-. 10
+    query             0 -a-lleluya ~La-udate 17
+
+-- fused_11 --
+  OCR:      'Alenya e laudi exorae . ato osea. Gosimmns'
+  Assigned: 'euouae Ego sum via'
+  Words:    [91..95) consumed=4
+  NW score: k=4 (pre-snap), norm=-1.8549
+  Anchor:   word 95 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 Alenya e laudi exorae . ato osea. Gosimmns 42
+                      0 -------|---|-----|.||-- 23
+    query             0 -------e---u-----ouae-- Ego -s-um --vi---a 18
+=== END DEBUG ===
+

@@ -1,0 +1,199 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'phas . en evovae. enedicta tu in mulieribus'
+  [fused_1] 'et benedictus fructus ventris tuiae'
+  [fused_2] 'exaltata es sactad .e'
+  [fused_3] 'mosoad'
+  [fused_4] 'Paula enthochi se'
+  [fused_5] 'di sam sicut co tismeo pamareu'
+  [fused_6] 'umbam ascendentem de super rivos aqua'
+  [fused_7] 'tum cujus in estimabilis otor erat in mis'
+  [fused_8] 'mentis e nis . Et sicut dies verni circundabant'
+  [fused_9] 'cam floresrum etli a conani um .'
+  [fused_10] 'neest sta queq ddesertum sicut vir'
+  [fused_11] 'gula fuim ex aromatibus myr'
+  [fused_12] 'Et sicuticut cedrus erastata sum in'
+  [fused_13] ' no rt ficat cxpres suo ni mon tem sy on quasi'
+  [fused_14] 'myrraelecta. suanitatemodoris.'
+  [fused_15] 't neat cmnamonis et balsamuna'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'phas . en evovae. enedicta tu in mulieribus'
+  Assigned: 'Benedicta tu in mulieribus'
+  Words:    [0..4) consumed=4
+  NW score: k=4 (pre-snap), norm=4.1870
+  Anchor:   word 4 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 phas . en evovae. enedicta tu in mulieribus 43
+                      0 -----------------.|||||||| 26
+    query             0 -----------------Benedicta tu in mulieribus 26
+
+-- fused_1 --
+  OCR:      'et benedictus fructus ventris tuiae'
+  Assigned: 'et benedictus fructus ventris tui ~Domini'
+  Words:    [4..10) consumed=6
+  NW score: k=5 (pre-snap), norm=7.4738
+  Anchor:   word 10 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 et benedictus fructus ventris tu------iae 35
+                      0 ||  2
+    query             0 et benedictus fructus ventris tui ~Domini 41
+
+-- fused_2 --
+  OCR:      'exaltata es sactad .e'
+  Assigned: 'est terra euouae'
+  Words:    [10..13) consumed=3
+  NW score: k=3 (pre-snap), norm=-0.3273
+  Anchor:   word 17 (within_chant_7), diff=4, snapped=False, forced=False
+  Alignment:
+    target            0 exaltat---a es sactad .e 21
+                      0 |--.|.|---| 11
+    query             0 e--st terra euoua------e 16
+
+-- fused_3 --
+  OCR:      'mosoad'
+  Assigned: 'VIdi speciosam sicut co'
+  Words:    [13..17) consumed=4
+  NW score: k=2 (pre-snap), norm=-2.6186
+  Anchor:   word 17 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 -------------mos------o----ad  6
+                      0 -------------|.|------|----|. 29
+    query             0 VIdi speciosam sicut columbam 29
+
+-- fused_4 --
+  OCR:      'Paula enthochi se'
+  Assigned: 'lumbam ascendentem desuper rivos aqua'
+  Words:    [17..21) consumed=4
+  NW score: k=2 (pre-snap), norm=-1.5580
+  Anchor:   word 21 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 Pa-ula enthochi --s--e--------------- 17
+                      0 -|-....|||---.. 15
+    query             0 -ascendent---em desuper rivos aquarum 33
+
+-- fused_5 --
+  OCR:      'di sam sicut co tismeo pamareu'
+  Assigned: 'rum cuius inaestimabilis odor erat nimis in vesti'
+  Words:    [21..28) consumed=7
+  NW score: k=8 (pre-snap), norm=-1.7810
+  Anchor:   word 28 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 -di s---a----m sicut -co- ---t----ismeo ---pamare---u 30
+                      0 -.|.|---|----|..|... 20
+    query             0 cuius inaestimabilis odor erat nimis in vestim--entis 51
+
+-- fused_6 --
+  OCR:      'umbam ascendentem de super rivos aqua'
+  Assigned: 'mentis eius Et sicut dies verni'
+  Words:    [28..33) consumed=5
+  NW score: k=9 (pre-snap), norm=-1.0325
+  Anchor:   word 33 (within_chant_7), diff=4, snapped=False, forced=True
+  Alignment:
+    target            0 --umbam as-cendentem d-e super rivos aqua 37
+                      0 --|....  7
+    query             0 eius Et -sic----ut-- die-s ver-ni-------- 24
+
+-- fused_7 --
+  OCR:      'tum cujus in estimabilis otor erat in mis'
+  Assigned: 'circumdabant eam flores rosarum et lilia'
+  Words:    [33..39) consumed=6
+  NW score: k=6 (pre-snap), norm=-0.7161
+  Anchor:   word 39 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 tum cujus in- estimabil--is -otor-- erat -in mis 41
+                      0 -...||.....|- 13
+    query             0 -circumdabant e--am- flores rosarum e--t li--lia 40
+
+-- fused_8 --
+  OCR:      'mentis e nis . Et sicut dies verni circundabant'
+  Assigned: 'convallium Que est ista que ascendit per desertum sicut vir'
+  Words:    [39..49) consumed=10
+  NW score: k=9 (pre-snap), norm=-0.5310
+  Anchor:   word 49 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 ---------m-----ent-is-- --e ----n-is --. ----Et-- sicut dies
+                      0 ---------|-----|.|-||--
+    query             0 convallium Que est ista que ascendit per desertum sicut-----
+    
+    target           28  verni circundabant 47
+                     23  23
+    query            55  v------irgu---la-- 63
+
+-- fused_9 --
+  OCR:      'cam floresrum etli a conani um .'
+  Assigned: 'gula fumi ex aromatibus myrre et thuris'
+  Words:    [49..55) consumed=6
+  NW score: k=3 (pre-snap), norm=-0.5833
+  Anchor:   word 55 (within_chant_7), diff=3, snapped=False, forced=True
+  Alignment:
+    target            0 cam floresrum- etli a conani u--m------- -----. 32
+                      0 ----|------||- 14
+    query             0 ----f------umi e--x a-romatibus myrre et thuris 34
+
+-- fused_10 --
+  OCR:      'neest sta queq ddesertum sicut vir'
+  Assigned: 'Et sicut Sicut cedrus'
+  Words:    [55..59) consumed=4
+  NW score: k=4 (pre-snap), norm=-0.5614
+  Anchor:   word 63 (within_chant_7), diff=4, snapped=False, forced=False
+  Alignment:
+    target            0 neest sta queq ddesertum sicut -vir-- 34
+                      0 ---.|  5
+    query             0 ---Et s--icu---------t-- Sicut cedrus 21
+
+-- fused_11 --
+  OCR:      'gula fuim ex aromatibus myr'
+  Assigned: 'exaltata sum in li'
+  Words:    [59..63) consumed=4
+  NW score: k=7 (pre-snap), norm=-0.3306
+  Anchor:   word 63 (within_chant_7), diff=3, snapped=False, forced=True
+  Alignment:
+    target            0 -gul---a fuim ex aromatibus myr 27
+                      0 -..|---|  8
+    query             0 exaltata su-m in -----lib---ano 22
+
+-- fused_12 --
+  OCR:      'Et sicuticut cedrus erastata sum in'
+  Assigned: 'bano et sicut cypressus in monte syon quasi'
+  Words:    [63..70) consumed=7
+  NW score: k=4 (pre-snap), norm=2.1394
+  Anchor:   word 70 (within_chant_7), diff=3, snapped=False, forced=True
+  Alignment:
+    target            0 Et sicuticut c---edrus erastata s-----um in 35
+                      0 .|  2
+    query             0 et s----icut cypressus in monte syon quasi- 38
+
+-- fused_13 --
+  OCR:      'no rt ficat cxpres suo ni mon tem sy on quasi'
+  Assigned: 'myrra electa Dedi suavitatem'
+  Words:    [70..74) consumed=4
+  NW score: k=7 (pre-snap), norm=-0.6967
+  Anchor:   word 74 (within_chant_7), diff=3, snapped=False, forced=True
+  Alignment:
+    target            0 no rt -fic-at cxpre-s suo ni mon tem sy on quasi 45
+                      0 ...|.  5
+    query             0 myrra electa- ---Dedi su-avi---tatem------------ 28
+
+-- fused_14 --
+  OCR:      'myrraelecta. suanitatemodoris.'
+  Assigned: 'odoris Et sicut cinnamomum et balsamum aromatizans'
+  Words:    [74..81) consumed=7
+  NW score: k=5 (pre-snap), norm=-2.0003
+  Anchor:   word 81 (page_break_77), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 myrraelecta. s--u------a-----nit-----atem---odori---s. 30
+                      0 ...|-....|-- 12
+    query             0 odor-is Et-- sicut cinnamomum et balsamum aromatizans- 50
+
+-- fused_15 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [81..81) consumed=0
+  Alignment:
+    (no words left)
+=== END DEBUG ===
+

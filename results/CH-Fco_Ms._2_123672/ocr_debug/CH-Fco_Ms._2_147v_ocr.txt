@@ -1,0 +1,199 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'proximo est utadecureris oe'
+  [fused_1] 'otobiam gandium tibi semiper sit at ile respondit malc'
+  [fused_2] 'gaudium michi erit quia lumenro Salbato dominice ilii in'
+  [fused_3] 'is setembris ad'
+  [fused_4] 'in domino quia non me derelinquet evovac magistri aut'
+  [fused_5] 'donay domine Deus magne et mirabilis qui dedisti sa'
+  [fused_6] 'lutem in manu femine exandi preces'
+  [fused_7] 'mnca in mensis septembris legit'
+  [fused_8] 'bvidit et tenetur usque ad finemu'
+  [fused_9] 'Donay co  incipit liber judit arphasatitaco oae .'
+  [fused_10] 'me deus magneet nurabi'
+  [fused_11] 'us qum dedisanti salutem in manu femi ne Exau'
+  [fused_12] 'Ies serno rum tu orum |'
+  [fused_13] 'nedictus es domine qui non derelinquis presumentes'
+  [fused_14] 'et de sua virtute gloriantes humili as xan'
+  [fused_15] ' noulationes civitatum audi in mus'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'proximo est utadecureris oe'
+  Assigned: 'proximo est ut a deo cureris'
+  Words:    [0..6) consumed=6
+  NW score: k=6 (pre-snap), norm=5.6373
+  Anchor:   word 9 (within_chant_7), diff=3, snapped=False, forced=False
+  Alignment:
+    target            0 proximo est ut-a-de--cureris oe 27
+                      0 |||||||  7
+    query             0 proximo est ut a deo cureris--- 28
+
+-- fused_1 --
+  OCR:      'otobiam gandium tibi semiper sit at ile respondit malc'
+  Assigned: 'euouae Dixit angelus ad tobiam gaudium tibi semper sit at ille respondit quale'
+  Words:    [6..19) consumed=13
+  NW score: k=13 (pre-snap), norm=4.4222
+  Anchor:   word 9 (within_chant_7), diff=10, snapped=False, forced=False
+  Alignment:
+    target            0 --o---------------------tobiam gandium tibi semiper sit at i
+                      0 --|---------------------||||||
+    query             0 euouae Dixit angelus ad tobiam gaudium tibi sem-per sit at i
+    
+    target           37 -le respondit -malc 54
+                     30 -|| 33
+    query            59 lle respondit quale 78
+
+-- fused_2 --
+  OCR:      'gaudium michi erit quia lumenro Salbato dominice ilii in'
+  Assigned: 'gaudium michi erit quia lumen celi non video sed spero'
+  Words:    [19..29) consumed=10
+  NW score: k=7 (pre-snap), norm=4.4006
+  Anchor:   word 29 (within_chant_7), diff=3, snapped=False, forced=True
+  Alignment:
+    target            0 gaudium michi erit quia lumenro Salbato domin--ice- ilii ---
+                      0 |||||||
+    query             0 gaudium michi erit quia lumen-- cel---i no--n video -sed spe
+    
+    target           54 in 56
+                      7 ..  9
+    query            52 ro 54
+
+-- fused_3 --
+  OCR:      'is setembris ad'
+  Assigned: 'in domino quia'
+  Words:    [29..32) consumed=3
+  NW score: k=3 (pre-snap), norm=-1.3111
+  Anchor:   word 36 (within_chant_7), diff=4, snapped=False, forced=False
+  Alignment:
+    target            0 is setembri-s ---ad 15
+                      0 |.  2
+    query             0 in --dom--ino quia- 14
+
+-- fused_4 --
+  OCR:      'in domino quia non me derelinquet evovac magistri aut'
+  Assigned: 'non me derinquet euouae'
+  Words:    [32..36) consumed=4
+  NW score: k=5 (pre-snap), norm=1.2790
+  Anchor:   word 36 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 in domino quia non me derelinquet evovac magistri aut 53
+                      0 ---------------||| 18
+    query             0 ---------------non me der--inquet euoua-------------e 23
+
+-- fused_5 --
+  OCR:      'donay domine Deus magne et mirabilis qui dedisti sa'
+  Assigned: 'Adonay domine deus magne et mirabilis qui dedisti sa'
+  Words:    [36..45) consumed=9
+  NW score: k=8 (pre-snap), norm=7.0214
+  Anchor:   word 45 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 -donay domine Deus magne et mirabilis qui dedisti sa----- 51
+                      0 -|||||  6
+    query             0 Adonay domine deus magne et mirabilis qui dedisti salutem 57
+
+-- fused_6 --
+  OCR:      'lutem in manu femine exandi preces'
+  Assigned: 'lutem in manu femine exaudi preces'
+  Words:    [45..50) consumed=5
+  NW score: k=5 (pre-snap), norm=6.1255
+  Anchor:   word 53 (within_chant_7), diff=3, snapped=False, forced=False
+  Alignment:
+    target            0 lutem in manu femine exandi preces 34
+                      0 ------||  8
+    query             0 ------in manu femine exaudi preces 28
+
+-- fused_7 --
+  OCR:      'mnca in mensis septembris legit'
+  Assigned: 'servorum tuorum euouae ADonay domine deus magne et mirabilis qui dedisti'
+  Words:    [50..61) consumed=11
+  NW score: k=11 (pre-snap), norm=-1.5452
+  Anchor:   word 53 (within_chant_7), diff=8, snapped=False, forced=False
+  Alignment:
+    target            0 --------------m-----------nca- ---in- mensis ---se-ptembr---
+                      0 --------------|-----------|-|-
+    query             0 servorum tuorum euouae ADon-ay domine de--us magne et mirabi
+    
+    target           23 -is---- legi-t- 31
+                     30 -||---- 37
+    query            57 lis qui dedisti 72
+
+-- fused_8 --
+  OCR:      'bvidit et tenetur usque ad finemu'
+  Assigned: 'salutem in manu femine exau'
+  Words:    [61..66) consumed=5
+  NW score: k=4 (pre-snap), norm=-1.1134
+  Anchor:   word 66 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 bvidit et tenetur usque ad f--ine---mu-- 33
+                      0 -....|-|.  9
+    query             0 -salut-em -in---- manu---- femine Exaudi 29
+
+-- fused_9 --
+  OCR:      'Donay co  incipit liber judit arphasatitaco oae .'
+  Assigned: 'di preces servorum tuorum Benedictus es domine qui non derelinquis presumentes de te'
+  Words:    [66..78) consumed=12
+  NW score: k=12 (pre-snap), norm=-2.1270
+  Anchor:   word 70 (within_chant_7), diff=8, snapped=False, forced=False
+  Alignment:
+    target            0 ----------Donay -co---  in-cipit----- --liber ju------d-----
+                      0 ----------.|...
+    query             0 preces servorum tuorum Benedi-ctus es domine- qui non dereli
+    
+    target           27 ---it arphas-atitaco oae -. 49
+                     15 ---|. 20
+    query            58 nquis --presument-es -de te 81
+
+-- fused_10 --
+  OCR:      'me deus magneet nurabi'
+  Assigned: 'et de sua virtute gloriantes humilias exau'
+  Words:    [78..85) consumed=7
+  NW score: k=6 (pre-snap), norm=-0.8412
+  Anchor:   word 85 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 me- de--us ------mag-----neet nu--------ra-bi 22
+                      0 -|-  3
+    query             0 -et de sua virtute gloriantes humilias Exaudi 44
+
+-- fused_11 --
+  OCR:      'us qum dedisanti salutem in manu femi ne Exau'
+  Assigned: 'di Tribulationes civitatum audivimus'
+  Words:    [85..88) consumed=3
+  NW score: k=3 (pre-snap), norm=-1.8684
+  Anchor:   word 88 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 us qum dedisanti salutem -in manu femi ne Exau------- 45
+                      0 ....|------.|-||----..|. 24
+    query             0 Tribu------la-ti----ones civitatu---m---- --audivimus 33
+
+-- fused_12 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [88..88) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_13 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [88..88) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_14 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [88..88) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_15 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [88..88) consumed=0
+  Alignment:
+    (no words left)
+=== END DEBUG ===
+

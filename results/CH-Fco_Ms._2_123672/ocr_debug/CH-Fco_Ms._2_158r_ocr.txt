@@ -1,0 +1,209 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] ''
+  [fused_1] 'de ce lo sed pater meus dat vobis panem de Celo ve tm dic'
+  [fused_2] 'perit helas ad cine sum lubanentum panen'
+  [fused_3] 'qui sigat cmne dlit et bibit e ambulajute in forti Tudine ci'
+  [fused_4] 'bi illius us  ad mon tem tei'
+  [fused_5] 'qus monana venit et poc pane in vet in eternum Bam'
+  [fused_6] 'No ria patri et filio et spiritui Sanctio usque'
+  [fused_7] 'emor sit dominus sacrificii nostri et Holo caustum nostrum pin'
+  [fused_8] 'gue fiat . aratur nobis mensa domini'
+  [fused_9] 'advetiu omnes qul tribusant nos uno res ne Coorae iin loce'
+  [fused_10] 'ecultationis resonent epulantes in mensa domini '
+  [fused_11] 'dedd'
+  [fused_12] 'Danis quem e Ego dabo caro me exovae'
+  [fused_13] 'minai inn litigo bant ergo indei diu no oomoto pter'
+  [fused_14] 'fie nobis date atuem fue as manducnndum'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      ''
+  Assigned: 'de celo sed pater meus dat vobis panem de celo verum Iste Respexit helias ad caput suum sub cinericium panem'
+  Words:    [0..20) consumed=20
+
+-- fused_1 --
+  OCR:      'de ce lo sed pater meus dat vobis panem de Celo ve tm dic'
+  Assigned: 'qui surgens comedit et bibit Et ambulavit in for'
+  Words:    [20..29) consumed=9
+  NW score: k=8 (pre-snap), norm=-1.0783
+  Anchor:   word 29 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 -de ---ce-- lo sed pater meus dat vobis --panem de Cel---o v
+                      0 -..
+    query             0 qui surgens co-med--it-- -e-----t bibit Et a--m----bulavit i
+    
+    target           49 e ---t-m di-c 57
+                      3 .  4
+    query            43 n fortitudine 56
+
+-- fused_2 --
+  OCR:      'perit helas ad cine sum lubanentum panen'
+  Assigned: 'titudine cibi illius usque ad montem dei Si quis manducaverit ex hoc pane'
+  Words:    [29..41) consumed=12
+  NW score: k=12 (pre-snap), norm=-0.5534
+  Anchor:   word 36 (within_chant_7), diff=5, snapped=False, forced=False
+  Alignment:
+    target            0 perit hel----as--- ad cin-----e---- ---sum- lubane-nt-----um
+                      0 ...|-
+    query             0 cibi- illius usque ad montem dei Si quis manducaverit ex hoc
+    
+    target           34  panen 40
+                      5   5
+    query            59  pane- 64
+
+-- fused_3 --
+  OCR:      'qui sigat cmne dlit et bibit e ambulajute in forti Tudine ci'
+  Assigned: 'vivet in eternum Et'
+  Words:    [41..45) consumed=4
+  NW score: k=9 (pre-snap), norm=-0.0542
+  Anchor:   word 45 (within_chant_7), diff=5, snapped=False, forced=True
+  Alignment:
+    target            0 qui sigat cmne dlit et bibit e ambulajute in forti Tudine ci
+                      0 ----------------.|-.||
+    query             0 ----------------vi-vet ---in e---------te------r---nu---m Et
+    
+    target           60 
+                     22 
+    query            19 
+
+-- fused_4 --
+  OCR:      'bi illius us  ad mon tem tei'
+  Assigned: 'ambulavit Gloria patri et filio et spiritui sancto'
+  Words:    [45..53) consumed=8
+  NW score: k=7 (pre-snap), norm=-1.3257
+  Anchor:   word 53 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 --b----i- il-lius ---us -- ad mon tem -----tei------- 28
+                      0 --|----|-  9
+    query             0 ambulavit Glori-a patri et filio- -et spiritui sancto 50
+
+-- fused_5 --
+  OCR:      'qus monana venit et poc pane in vet in eternum Bam'
+  Assigned: 'usque Memor sit dominus sacrificii nostri et holocaustum nostrum pin'
+  Words:    [53..63) consumed=10
+  NW score: k=9 (pre-snap), norm=-0.8132
+  Anchor:   word 63 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 --qus --mo----------n----a------na ven-it-- et --poc pane in
+                      0 --||.
+    query             0 usque Memor sit dominus sacrificii --nostri et holoc--a-----
+    
+    target           31  vet-- in eternum ---Bam 50
+                      5 -..|-- 11
+    query            51 -ustum -nost-r-um pingue 71
+
+-- fused_6 --
+  OCR:      'No ria patri et filio et spiritui Sanctio usque'
+  Assigned: 'gue fiat ~Exaudiat te domine euouae Paratur nobis mensa domini'
+  Words:    [63..72) consumed=9
+  NW score: k=8 (pre-snap), norm=-0.8987
+  Anchor:   word 72 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 No ria- --patri-- -et fili-o e----t spiritui Sanctio --us---
+                      0 ---.||-
+    query             0 ---fiat ~Exaudiat te- domine euouae -Paratur --nobis mensa d
+    
+    target           44 --que 47
+                      7 --... 12
+    query            53 omini 58
+
+-- fused_7 --
+  OCR:      'emor sit dominus sacrificii nostri et Holo caustum nostrum pin'
+  Assigned: 'adversus omnes qui tribulant nos ~Dominus'
+  Words:    [72..78) consumed=6
+  NW score: k=6 (pre-snap), norm=-0.3570
+  Anchor:   word 83 (within_chant_7), diff=5, snapped=False, forced=False
+  Alignment:
+    target            0 ---emor sit dominus sacrificii nostri et Holo caustum nos-tr
+                      0 ---|--|-|..
+    query             0 adve--r-sus -om-nes -------qui ---tri----bul---a-nt-- nos ~D
+    
+    target           56 um pin-- 62
+                     11 .|--||-- 19
+    query            35 om--inus 41
+
+-- fused_8 --
+  OCR:      'gue fiat . aratur nobis mensa domini'
+  Assigned: 'regit me euouae In voce exultationis resonent epulantes in mensa domini'
+  Words:    [78..89) consumed=11
+  NW score: k=11 (pre-snap), norm=0.0791
+  Anchor:   word 83 (within_chant_7), diff=6, snapped=False, forced=False
+  Alignment:
+    target            0 --g---ue --fiat ------. -----a-------r-----at---ur n--obis m
+                      0 --|---.|
+    query             0 regit me euouae In voce exultationis resonent epulantes in m
+    
+    target           25 ensa domini 36
+                      8 |||| 12
+    query            60 ensa domini 71
+
+-- fused_9 --
+  OCR:      'advetiu omnes qul tribusant nos uno res ne Coorae iin loce'
+  Assigned: '~Quemadmodum euouae Panis quem ego dabo caro mea est pro mundi vita'
+  Words:    [89..101) consumed=12
+  NW score: k=12 (pre-snap), norm=-0.9946
+  Anchor:   word 90 (within_chant_7), diff=11, snapped=False, forced=False
+  Alignment:
+    target            0 -----ad-----vetiu-- omnes qu-l tribusant nos -uno res ne-- C
+                      0 -----||-----.|..|--
+    query             0 ~Quemadmodum euouae Panis quem -ego da---bo- caro mea -est p
+    
+    target           44 oorae iin-- loce 58
+                     19 .|--- 24
+    query            54 ro--- mundi vita 67
+
+-- fused_10 --
+  OCR:      'ecultationis resonent epulantes in mensa domini'
+  Assigned: 'litigabant ergo iudei dicentes Quomodo'
+  Words:    [101..106) consumed=5
+  NW score: k=5 (pre-snap), norm=-0.9702
+  Anchor:   word 106 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ecultati---onis -reso---nent ---epulantes in mensa domini 47
+                      0 ---|-.||---.|-. 15
+    query             0 ---l-itigaban-t er-go iude-i dice----ntes Quom----odo---- 38
+
+-- fused_11 --
+  OCR:      'dedd'
+  Assigned: 'potest'
+  Words:    [106..107) consumed=1
+  NW score: k=1 (pre-snap), norm=-3.4701
+  Anchor:   word 116 (page_break_77), diff=9, snapped=False, forced=False
+  Alignment:
+    target            0 --dedd 4
+                      0 --.|.. 6
+    query             0 potest 6
+
+-- fused_12 --
+  OCR:      'Danis quem e Ego dabo caro me exovae'
+  Assigned: 'hic vobis dare carnem suam'
+  Words:    [107..112) consumed=5
+  NW score: k=5 (pre-snap), norm=-0.4576
+  Anchor:   word 116 (page_break_77), diff=4, snapped=False, forced=False
+  Alignment:
+    target            0 Danis quem e Ego--- dabo caro me exovae 36
+                      0 --.|.  5
+    query             0 --hic --------vobis dare carnem- --suam 26
+
+-- fused_13 --
+  OCR:      'minai inn litigo bant ergo indei diu no oomoto pter'
+  Assigned: 'ad manducandum Locutus est'
+  Words:    [112..116) consumed=4
+  NW score: k=4 (pre-snap), norm=-2.2793
+  Anchor:   word 116 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 minai inn litigo bant ergo indei diu no oomot-o pte-r 51
+                      0 ---|.  5
+    query             0 ---ad man------ducan-------------d-u--m Locutus --est 26
+
+-- fused_14 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [116..116) consumed=0
+  Alignment:
+    (no words left)
+=== END DEBUG ===
+

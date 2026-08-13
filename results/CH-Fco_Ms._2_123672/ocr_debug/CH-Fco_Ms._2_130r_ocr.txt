@@ -1,0 +1,175 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'cre loria. Ego sum panis us dicit do'
+  [fused_1] 'ad ma. minus qui de Celo descendi'
+  [fused_2] 'antr'
+  [fused_3] 'go sum panis vinus qui de Celo descendi si quis'
+  [fused_4] 'manducaverit ex hoc pane vivet in eternum et pa'
+  [fused_5] 'quem ego dabo Caro mea est pro mundi vita Allelvya evo'
+  [fused_6] 'ne one nnt ignis divi nus non combu'
+  [fused_7] 'teens sends ili nans non consumens sed lucens.'
+  [fused_8] 'et innvent cor da discipulorum receptacu'
+  [fused_9] ' Et tribuit eis karismatum dollelua'
+  [fused_10] 'luVanve eos concordes cari'
+  [fused_11] 'con lustravit eos mundans gracia'
+  [fused_12] 'tatis. Etcpne prtus santus neple'
+  [fused_13] 'int totam domun uubi erant apo   ecapa'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'cre loria. Ego sum panis us dicit do'
+  Assigned: 'credide Gloria Ego sum panis vivus dicit do'
+  Words:    [0..8) consumed=8
+  NW score: k=7 (pre-snap), norm=5.2705
+  Anchor:   word 8 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 cr----e -loria. Ego sum panis ---us dicit do----- 36
+                      0 ||----|  7
+    query             0 credide Gloria- Ego sum panis vivus dicit dominus 48
+
+-- fused_1 --
+  OCR:      'ad ma. minus qui de Celo descendi'
+  Assigned: 'minus qui de celo descendi'
+  Words:    [8..12) consumed=4
+  NW score: k=4 (pre-snap), norm=4.0482
+  Anchor:   word 15 (within_chant_7), diff=3, snapped=False, forced=False
+  Alignment:
+    target            0 ad ma. minus qui de Celo descendi 33
+                      0 -------------||| 16
+    query             0 -------------qui de celo descendi 20
+
+-- fused_2 --
+  OCR:      'antr'
+  Assigned: 'alleluya alleluya euouae'
+  Words:    [12..15) consumed=3
+  NW score: k=1 (pre-snap), norm=-4.0659
+  Anchor:   word 15 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 a--------------------ntr  4
+                      0 |--------------------... 24
+    query             0 alleluya alleluya euouae 24
+
+-- fused_3 --
+  OCR:      'go sum panis vinus qui de Celo descendi si quis'
+  Assigned: 'Ego sum panis vivus qui de celo descendi si quis'
+  Words:    [15..25) consumed=10
+  NW score: k=10 (pre-snap), norm=7.2215
+  Anchor:   word 25 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -go sum panis vinus qui de Celo descendi si quis 47
+                      0 -||  3
+    query             0 Ego sum panis vivus qui de celo descendi si quis 48
+
+-- fused_4 --
+  OCR:      'manducaverit ex hoc pane vivet in eternum et pa'
+  Assigned: 'manducaverit ex hoc pane vivet in eternum et panis'
+  Words:    [25..34) consumed=9
+  NW score: k=9 (pre-snap), norm=7.4881
+  Anchor:   word 34 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 manducaverit ex hoc pane vivet in eternum et pa--- 47
+                      0 |||||||||||| 12
+    query             0 manducaverit ex hoc pane vivet in eternum et panis 50
+
+-- fused_5 --
+  OCR:      'quem ego dabo Caro mea est pro mundi vita Allelvya evo'
+  Assigned: 'quem ego dabo caro mea est pro mundi vita alleluya euouae'
+  Words:    [34..45) consumed=11
+  NW score: k=10 (pre-snap), norm=6.6395
+  Anchor:   word 45 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 quem ego dabo Caro mea est pro mundi vita Allelvya evo--- 54
+                      0 ||||  4
+    query             0 quem ego dabo caro mea est pro mundi vita alleluya euouae 57
+
+-- fused_6 --
+  OCR:      'ne one nnt ignis divi nus non combu'
+  Assigned: 'Advenit ignis divinus non combu'
+  Words:    [45..50) consumed=5
+  NW score: k=5 (pre-snap), norm=4.4571
+  Anchor:   word 50 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ne one nnt ignis divi nus non combu---- 35
+                      0 --...|-|.| 10
+    query             0 --Adve-nit ignis divi-nus non comburens 35
+
+-- fused_7 --
+  OCR:      'teens sends ili nans non consumens sed lucens.'
+  Assigned: 'rens sed illuminans non consumens sed lucens'
+  Words:    [50..56) consumed=6
+  NW score: k=6 (pre-snap), norm=5.3122
+  Anchor:   word 56 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 teens sends il---i nans non consumens sed lucens. 46
+                      0 ------||-|- 11
+    query             0 ------se-d- illumi-nans non consumens sed lucens- 39
+
+-- fused_8 --
+  OCR:      'et innvent cor da discipulorum receptacu'
+  Assigned: 'et invenit corda discipulorum receptacula mun'
+  Words:    [56..62) consumed=6
+  NW score: k=5 (pre-snap), norm=6.7413
+  Anchor:   word 62 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 et innven-t cor da discipulorum receptacu-------- 40
+                      0 ||  2
+    query             0 et i-nvenit cor-da discipulorum receptacula munda 47
+
+-- fused_9 --
+  OCR:      'Et tribuit eis karismatum dollelua'
+  Assigned: 'da Et tribuit eis karismatum dona alleluya'
+  Words:    [62..68) consumed=6
+  NW score: k=6 (pre-snap), norm=6.8380
+  Anchor:   word 68 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 Et tribuit eis karismatum do----llelu-a 34
+                      0 ||  2
+    query             0 Et tribuit eis karismatum dona alleluya 39
+
+-- fused_10 --
+  OCR:      'luVanve eos concordes cari'
+  Assigned: 'alleluya Invenit eos concordes cari'
+  Words:    [68..73) consumed=5
+  NW score: k=5 (pre-snap), norm=4.2482
+  Anchor:   word 73 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ----luVa--nve--- eos concordes cari----- 26
+                      0 ----||.|--|||--- 16
+    query             0 alleluya Invenit eos concordes caritatis 40
+
+-- fused_11 --
+  OCR:      'con lustravit eos mundans gracia'
+  Assigned: 'tatis et con lustravit eos inundans gracia dei'
+  Words:    [73..80) consumed=7
+  NW score: k=6 (pre-snap), norm=6.5702
+  Anchor:   word 80 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 ---con lustravit eos -mundans gracia--------- 32
+                      0 ---|||  6
+    query             0 et con lustravit eos inundans gracia deitatis 45
+
+-- fused_12 --
+  OCR:      'tatis. Etcpne prtus santus neple'
+  Assigned: 'tatis Et tribuit Spiritus sanctus reple'
+  Words:    [80..85) consumed=5
+  NW score: k=5 (pre-snap), norm=2.1508
+  Anchor:   word 85 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -tat-is. Etcpne -p-r-tus san-tus neple--- 32
+                      0 -|.|-|-...|---- 15
+    query             0 Et tri-buit---- Spiritus sanctus replevit 36
+
+-- fused_13 --
+  OCR:      'int totam domun uubi erant apo   ecapa'
+  Assigned: 'vit totam domum ubi erant apostoli et apparuerunt'
+  Words:    [85..92) consumed=7
+  NW score: k=6 (pre-snap), norm=3.9252
+  Anchor:   word 92 (page_break_77), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 int totam domun uubi erant ap---o   e-ca-pa------- 38
+                      0 ----|||||  9
+    query             0 ----totam domum -ubi erant apostoli et apparuerunt 45
+=== END DEBUG ===
+

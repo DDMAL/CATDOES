@@ -1,0 +1,167 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] '.  ms. uius pulchritudinem soi et luna mi'
+  [fused_1] 'rrantur se sou servo fide Pe domine quis oa pistus'
+  [fused_2] 'circundedit me vernantibus atque coruscantibus geminis pre'
+  [fused_3] 'ipsi sum desponsata cui auge'
+  [fused_4] 'i serviunt cuius pulcritudinem et luna nurantur De'
+  [fused_5] 'us noster refugium ex ovae. psi sum desponsata'
+  [fused_6] 'canai n gene dem unt cuum putrum o nem soio'
+  [fused_7] 'et luna mi .u o. n sou semo fictem ipsi'
+  [fused_8] 'meto ta devotione co mtto extram me'
+  [fused_9] 'am et collum meum ciixit lapidibus precio'
+  [fused_10] 'dit auribus meis mextimabiles Margan tas.'
+  [fused_11] 'mne in potens adorande colende tremende be'
+  [fused_12] 'ne noo ce Bana pr  mici nu nte i'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      '.  ms. uius pulchritudinem soi et luna mi'
+  Assigned: 'Cuius Cuius pulchritudinem sol et luna mi'
+  Words:    [0..7) consumed=7
+  NW score: k=6 (pre-snap), norm=5.1683
+  Anchor:   word 7 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 .  ms. -uius pulchritudinem soi et luna mi------ 41
+                      0 ....|-  6
+    query             0 Cuius- Cuius pulchritudinem sol et luna mirantur 47
+
+-- fused_1 --
+  OCR:      'rrantur se sou servo fide Pe domine quis oa pistus'
+  Assigned: 'rantur ipsi soli servo fidem ~Domine quis euouae Xpistus'
+  Words:    [7..15) consumed=8
+  NW score: k=8 (pre-snap), norm=3.6568
+  Anchor:   word 15 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 rrantur se so-u servo fide- Pe domine quis --o-a- -pistus 50
+                      0 ------..|. 10
+    query             0 ------ipsi soli servo fidem --~Domine quis euouae Xpistus 49
+
+-- fused_2 --
+  OCR:      'circundedit me vernantibus atque coruscantibus geminis pre'
+  Assigned: 'circundedit me vernantibus atque coruscantibus gemmis pre'
+  Words:    [15..22) consumed=7
+  NW score: k=6 (pre-snap), norm=6.9981
+  Anchor:   word 22 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 circundedit me vernantibus atque coruscantibus geminis pre--
+                      0 |||||||||||
+    query             0 circundedit me vernantibus atque coruscantibus gem-mis preci
+    
+    target           58 ---- 58
+                     11 ---- 15
+    query            59 osis 63
+
+-- fused_3 --
+  OCR:      'ipsi sum desponsata cui auge'
+  Assigned: 'ciosis ~Eructavit euouae Ipsi sum desponsata cui ange'
+  Words:    [22..29) consumed=7
+  NW score: k=7 (pre-snap), norm=3.7915
+  Anchor:   word 29 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 --------i----------psi sum desponsata cui auge-- 28
+                      0 --------|----------||| 22
+    query             0 ~Eructavit euouae Ipsi sum desponsata cui angeli 48
+
+-- fused_4 --
+  OCR:      'i serviunt cuius pulcritudinem et luna nurantur De'
+  Assigned: 'li serviunt cuius pulcritudinem sol et luna mirantur'
+  Words:    [29..36) consumed=7
+  NW score: k=8 (pre-snap), norm=6.0068
+  Anchor:   word 36 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 i serviunt cuius pulcritudinem---- et luna nurantur De 50
+                      0 --|||||||| 10
+    query             0 --serviunt cuius pulcritudinem sol et luna mirantur--- 49
+
+-- fused_5 --
+  OCR:      'us noster refugium ex ovae. psi sum desponsata'
+  Assigned: '~Deus noster refugium euouae Ipsi sum desponsata'
+  Words:    [36..43) consumed=7
+  NW score: k=7 (pre-snap), norm=6.2142
+  Anchor:   word 43 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ---us noster refugium ex ovae. -psi sum desponsata 46
+                      0 ---||  5
+    query             0 ~Deus noster refugium e-uouae- Ipsi sum desponsata 48
+
+-- fused_6 --
+  OCR:      'canai n gene dem unt cuum putrum o nem soio'
+  Assigned: 'cui angeli serviunt cuius pulchritudinem sol'
+  Words:    [43..49) consumed=6
+  NW score: k=6 (pre-snap), norm=1.7932
+  Anchor:   word 49 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 canai -n gene de-m unt cu-um pu--tr--um o nem soio 43
+                      0 |--.|  5
+    query             0 c--ui an-geli serviunt cuius pulchritu--dinem so-l 44
+
+-- fused_7 --
+  OCR:      'et luna mi .u o. n sou semo fictem ipsi'
+  Assigned: 'et luna mirantur Ipsi soli servo fidem'
+  Words:    [49..56) consumed=7
+  NW score: k=8 (pre-snap), norm=3.6385
+  Anchor:   word 56 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 et luna mi-- .u- o. n so-u se-mo fictem ipsi 39
+                      0 ||  2
+    query             0 et luna mirantur Ipsi soli servo fi-dem----- 38
+
+-- fused_8 --
+  OCR:      'meto ta devotione co mtto extram me'
+  Assigned: 'ipsi me tota devotione comitto Dextram me'
+  Words:    [56..63) consumed=7
+  NW score: k=7 (pre-snap), norm=5.1554
+  Anchor:   word 63 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -----me-to ta devotione co m-tto -extram me-- 35
+                      0 -----||-||-|| 13
+    query             0 ipsi me to-ta devotione co-mitto Dextram meam 43
+
+-- fused_9 --
+  OCR:      'am et collum meum ciixit lapidibus precio'
+  Assigned: 'am et collum meum cinxit lapidibus preciosis tradi'
+  Words:    [63..70) consumed=7
+  NW score: k=6 (pre-snap), norm=6.4634
+  Anchor:   word 70 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 am et collum meum ciixit lapidibus precio------------ 41
+                      0 ---||  5
+    query             0 ---et collum meum cinxit lapidibus preciosis tradidit 50
+
+-- fused_10 --
+  OCR:      'dit auribus meis mextimabiles Margan tas.'
+  Assigned: 'dit auribus meis inextimabiles margaritas'
+  Words:    [70..74) consumed=4
+  NW score: k=4 (pre-snap), norm=5.2890
+  Anchor:   word 74 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 dit auribus meis -mextimabiles Margan tas. 41
+                      0 ----||||||| 11
+    query             0 ----auribus meis inextimabiles margaritas- 37
+
+-- fused_11 --
+  OCR:      'mne in potens adorande colende tremende be'
+  Assigned: 'Ipsi soli Omnipotens adorande colende tremende be'
+  Words:    [74..81) consumed=7
+  NW score: k=6 (pre-snap), norm=4.8687
+  Anchor:   word 81 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 -mne ---i---n potens adorande colende tremende be------ 42
+                      0 -...  4
+    query             0 Ipsi soli Omnipotens adorande colende tremende benedico 55
+
+-- fused_12 --
+  OCR:      'ne noo ce Bana pr  mici nu nte i'
+  Assigned: 'nedico te Quia per filium tuum'
+  Words:    [81..86) consumed=5
+  NW score: k=5 (pre-snap), norm=-0.4423
+  Anchor:   word 86 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ne noo ce Bana p-r  mici nu- nte i 32
+                      0 -------.|  9
+    query             0 -------te Quia per- fili--um -tuum 23
+=== END DEBUG ===
+

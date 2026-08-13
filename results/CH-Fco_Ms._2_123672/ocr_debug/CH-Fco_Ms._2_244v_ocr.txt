@@ -1,0 +1,193 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'naculum suum quia domus deIinqua invocabitr'
+  [fused_1] 'nomen ejus de quo scriptum et et erit nomen meum ibi mmacim '
+  [fused_2] 'dominus eonae C Nomnuni de. decet sancti'
+  [fused_3] 'dosponsum ejus Christi stum adore'
+  [fused_4] ''
+  [fused_5] 'Nollite portas principes vestras et elevamimi'
+  [fused_6] 'pore eternales pDini est ter evovae rit michi'
+  [fused_7] 'dorimus in Deum et lapis ite vocabitur Domus Dei Ps'
+  [fused_8] 'nost refu eoa edificavit moyses altare domino'
+  [fused_9] 'clesia metert anttituco'
+  [fused_10] 'Deo Nagnus dominus Covae'
+  [fused_11] 'e dicatione empip'
+  [fused_12] 'an len etnordulas ne so nabato'
+  [fused_13] 'vix cindata est domus domuni supprnertice'
+  [fused_14] 'Moncan eeu inomnnes gen tes e'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'naculum suum quia domus deIinqua invocabitr'
+  Assigned: 'suum quia hec est domus dei in qua invocatur'
+  Words:    [0..9) consumed=9
+  NW score: k=9 (pre-snap), norm=3.7704
+  Anchor:   word 27 (within_chant_7), diff=18, snapped=False, forced=False
+  Alignment:
+    target            0 naculum suum quia-------- domus de-Iin-qua invocabit-r 43
+                      0 --------|||| 12
+    query             0 --------suum quia hec est domus dei in qua invoca--tur 44
+
+-- fused_1 --
+  OCR:      'nomen ejus de quo scriptum et et erit nomen meum ibi mmacim'
+  Assigned: 'nomen eius de quo scriptum est et erit nomen meum ibi dicit'
+  Words:    [9..21) consumed=12
+  NW score: k=12 (pre-snap), norm=6.7458
+  Anchor:   word 27 (within_chant_7), diff=6, snapped=False, forced=False
+  Alignment:
+    target            0 nomen ejus de quo scriptum e-t et erit nomen meum ibi mmacim
+                      0 |||||
+    query             0 nomen eius de quo scriptum est et erit nomen meum ibi -dicit
+    
+    target           59 
+                      5 
+    query            59 
+
+-- fused_2 --
+  OCR:      'dominus eonae C Nomnuni de. decet sancti'
+  Assigned: 'dominus euouae Domum dei decet sancti'
+  Words:    [21..27) consumed=6
+  NW score: k=6 (pre-snap), norm=4.6670
+  Anchor:   word 27 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 dominus e-onae C Nomnuni de. decet sancti---- 40
+                      0 |||||||  7
+    query             0 dominus euouae-- Dom-u-m dei decet sanctitudo 41
+
+-- fused_3 --
+  OCR:      'dosponsum ejus Christi stum adore'
+  Assigned: 'tudo sponsum eius xpistum adoremus in ea'
+  Words:    [27..33) consumed=6
+  NW score: k=4 (pre-snap), norm=3.9760
+  Anchor:   word 33 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 dosponsum ejus Christi stum adore--------- 33
+                      0 --|||||||  9
+    query             0 --sponsum eius ----xpi-stum adoremus in ea 35
+
+-- fused_4 --
+  OCR:      ''
+  Assigned: 'Venite Tollite portas principes vestras et elevamini'
+  Words:    [33..40) consumed=7
+
+-- fused_5 --
+  OCR:      'Nollite portas principes vestras et elevamimi'
+  Assigned: 'porte eter- {na} -les ~Domini est terra euouae Erit michi'
+  Words:    [40..50) consumed=10
+  NW score: k=10 (pre-snap), norm=-0.1382
+  Anchor:   word 50 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 Nollite -por---ta-----s --principes- vestras e---------t ele
+                      0 .|--.||
+    query             0 po--rte eter- {na} -les ~Domin-i est te-rra- euouae Erit ---
+    
+    target           39 vami-mi 45
+                      7 --||-.| 14
+    query            52 --michi 57
+
+-- fused_6 --
+  OCR:      'pore eternales pDini est ter evovae rit michi'
+  Assigned: 'dominus in deum et lapis iste vocabitur domus dei'
+  Words:    [50..59) consumed=9
+  NW score: k=9 (pre-snap), norm=-0.5324
+  Anchor:   word 59 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 po---------re-- eternales pDini est ter evovae rit-- --m--ic
+                      0 .|---------.|--
+    query             0 dominus in deum et- lapis ----i--s--te- -voca--bitur domus d
+    
+    target           43 hi 45
+                     15 .| 17
+    query            47 ei 49
+
+-- fused_7 --
+  OCR:      'dorimus in Deum et lapis ite vocabitur Domus Dei Ps'
+  Assigned: '~Deus noster refugium euouae Aedificavit moyses altare domino'
+  Words:    [59..67) consumed=8
+  NW score: k=6 (pre-snap), norm=-0.2860
+  Anchor:   word 67 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 dorimus in----- De----um et lapis ite ----vocabitur Do-mus -
+                      0 --...||
+    query             0 --~Deus -noster refugium euoua------e Aedificavit-- moyses a
+    
+    target           45 ---De----i Ps 51
+                      7 ---.|----|-.. 20
+    query            49 ltare domi-no 61
+
+-- fused_8 --
+  OCR:      'nost refu eoa edificavit moyses altare domino'
+  Assigned: 'deo ~Magnus dominus'
+  Words:    [67..70) consumed=3
+  NW score: k=7 (pre-snap), norm=-0.7100
+  Anchor:   word 70 (within_chant_7), diff=4, snapped=False, forced=True
+  Alignment:
+    target            0 nost refu eoa edificavit moyses altare domin-o 45
+                      0 ---------.||- 13
+    query             0 ---------deo- ----~Ma------gnus------- dominus 19
+
+-- fused_9 --
+  OCR:      'clesia metert anttituco'
+  Assigned: 'euouae IN dedicatione templi decantabat populus'
+  Words:    [70..76) consumed=6
+  NW score: k=5 (pre-snap), norm=-1.6027
+  Anchor:   word 76 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 cle-sia---- me----t---ert----- ---ant-tituco----- 23
+                      0 --|-..|---- 11
+    query             0 --euouae IN dedicatione templi decantabat populus 47
+
+-- fused_10 --
+  OCR:      'Deo Nagnus dominus Covae'
+  Assigned: 'laudem Et in ore eorum dulcis resonabat'
+  Words:    [76..83) consumed=7
+  NW score: k=4 (pre-snap), norm=-0.9696
+  Anchor:   word 83 (within_chant_7), diff=3, snapped=False, forced=True
+  Alignment:
+    target            0 ---Deo -Nagn--us do--minu---s --Co--vae 24
+                      0 ---.|.  6
+    query             0 laudem Et in ore eorum dulcis resonabat 39
+
+-- fused_11 --
+  OCR:      'e dicatione empip'
+  Assigned: 'sonus Fundata est'
+  Words:    [83..86) consumed=3
+  NW score: k=3 (pre-snap), norm=-2.0000
+  Anchor:   word 90 (within_chant_7), diff=4, snapped=False, forced=False
+  Alignment:
+    target            0 ----e ---dicatione empip 17
+                      0 ----.  5
+    query             0 sonus Fund--at---a e--st 17
+
+-- fused_12 --
+  OCR:      'an len etnordulas ne so nabato'
+  Assigned: 'domus domini super verticem'
+  Words:    [86..90) consumed=4
+  NW score: k=11 (pre-snap), norm=-2.0226
+  Anchor:   word 90 (within_chant_7), diff=7, snapped=False, forced=True
+  Alignment:
+    target            0 an len etnordulas ----ne s---o nabat---o 30
+                      0 ---------.|-.|--| 17
+    query             0 ---------do-mu--s domini super -verticem 27
+
+-- fused_13 --
+  OCR:      'vix cindata est domus domuni supprnertice'
+  Assigned: 'moncium et venient ad eam omnes gentes'
+  Words:    [90..97) consumed=7
+  NW score: k=7 (pre-snap), norm=-0.9881
+  Anchor:   word 97 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 vix ci-ndata ----est -d--omus domuni supprnertice- 41
+                      0 -...||-...|- 12
+    query             0 -moncium et- venient ad eam-- -om-n-es--- gent--es 38
+
+-- fused_14 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [97..97) consumed=0
+  Alignment:
+    (no words left)
+=== END DEBUG ===
+

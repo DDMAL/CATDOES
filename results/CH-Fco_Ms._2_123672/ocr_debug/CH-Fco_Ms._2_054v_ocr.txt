@@ -1,0 +1,235 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'capellis dor precest XmIIi.'
+  [fused_1] 'tenebreRe'
+  [fused_2] 'mp Laudnis evovae dictus ant pletisumus in adbum e manu omnium'
+  [fused_3] 'qui nos oderunt libera nos domine evovae'
+  [fused_4] 'fundetur cum loquetur inimicis suis in porta et'
+  [fused_5] 'eati omnies qui tuverent dommlimm poo ipsum evore'
+  [fused_6] 'episcopu espungnaverunt me adinventure meam po '
+  [fused_7] 'e profundis clamavi ad te domnine p ipisum evore'
+  [fused_8] 'capi bnd'
+  [fused_9] 'peret Israhel in domluo p eeroraci.'
+  [fused_10] 'especit dominus humilitatem meam et fecit in mevu'
+  [fused_11] 'comma potens est evovae omnium qui'
+  [fused_12] 'mi'
+  [fused_13] 'vorat'
+  [fused_14] 'fecit nos endoremus ps rerum con omnie'
+  [fused_15] 'deners ili advutorium ieuli intende .aluum me evorae'
+  [fused_16] 'sto michi domine in Deum protectorem'
+  [fused_17] 'mibniti vitam pectoitanio men po se namto'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'capellis dor precest XmIIi.'
+  Assigned: '{Laudate} euouae De manu omnium'
+  Words:    [0..5) consumed=5
+  NW score: k=5 (pre-snap), norm=-2.3159
+  Anchor:   word 5 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ----capellis -do--r pre-cest XmIIi-. 27
+                      0 ----.|.|---. 12
+    query             0 {Laudate---} euouae -De manu om-nium 31
+
+-- fused_1 --
+  OCR:      'tenebreRe'
+  Assigned: 'qui nos oderunt'
+  Words:    [5..8) consumed=3
+  NW score: k=3 (pre-snap), norm=-3.1845
+  Anchor:   word 14 (within_chant_7), diff=6, snapped=False, forced=False
+  Alignment:
+    target            0 --ten-----ebreRe  9
+                      0 --..|-----|-|... 16
+    query             0 qui nos ode-runt 15
+
+-- fused_2 --
+  OCR:      'mp Laudnis evovae dictus ant pletisumus in adbum e manu omnium'
+  Assigned: 'libera nos domine euouae Non confundetur cum loquetur inimicis suis in porta ~Nisi dominus euouae Beati omnes qui'
+  Words:    [8..26) consumed=18
+  NW score: k=18 (pre-snap), norm=-0.5257
+  Anchor:   word 14 (within_chant_7), diff=12, snapped=False, forced=False
+  Alignment:
+    target            0 -mp Laudnis------- evovae --dic-------tus ant pl---et-------
+                      0 -....|-.|.|-------
+    query             0 libera- nos domine euouae Non confundetur cum -loquetur inim
+    
+    target           33 --isumu-s in ----a-------d---bum -----e -manu omn---ium  62
+                     18 --||..|-|  27
+    query            58 icis suis in porta ~Nisi dominus euouae Beati omnes qui 113
+
+-- fused_3 --
+  OCR:      'qui nos oderunt libera nos domine evovae'
+  Assigned: 'timent dominum {Ipsum'
+  Words:    [26..29) consumed=3
+  NW score: k=5 (pre-snap), norm=-1.1068
+  Anchor:   word 29 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 qui nos oderunt libera nos domin-e evovae 40
+                      0 --------------|--|.|---|-. 26
+    query             0 --------------t--ime---n-t dominum {Ipsum 21
+
+-- fused_4 --
+  OCR:      'fundetur cum loquetur inimicis suis in porta et'
+  Assigned: '[Beati]} euoue Sepe expugnaverunt me adiuventute mea {Ipsum'
+  Words:    [29..37) consumed=8
+  NW score: k=7 (pre-snap), norm=-1.8003
+  Anchor:   word 37 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 funde-t-ur cum loque--------tu-----r in-imicis suis in---- p
+                      0 --..|-|-..
+    query             0 --[Beati]} eu---o-ue Sepe expugnaver-unt m---e adiuventute -
+    
+    target           40 orta ----et 47
+                     10 -..| 14
+    query            49 -mea {Ipsum 59
+
+-- fused_5 --
+  OCR:      'eati omnies qui tuverent dommlimm poo ipsum evore'
+  Assigned: '[Sepe]} euouae De profundis clamavi ad te domine {Ipsum'
+  Words:    [37..46) consumed=9
+  NW score: k=10 (pre-snap), norm=-0.6137
+  Anchor:   word 46 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 --------e---a--ti --o-mn-ies ----qui--- tuverent dommlimm po
+                      0 --------|---|--..
+    query             0 [Sepe]} euouae De profundi-s clamavi ad t----e-- dom--ine --
+    
+    target           36 o ipsum evore 49
+                     17 -..||||------ 30
+    query            49 -{Ipsum------ 55
+
+-- fused_6 --
+  OCR:      'episcopu espungnaverunt me adinventure meam po'
+  Assigned: '[De profundis]} euoue Speret israhel in domino {Domine'
+  Words:    [46..54) consumed=8
+  NW score: k=7 (pre-snap), norm=-1.1739
+  Anchor:   word 54 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 --e-p------iscopu espungnaverunt ----me- adinventure --meam 
+                      0 --|-|------||--..
+    query             0 [De profundis--]} euou-e Sper-et israhel --in------- domino 
+    
+    target           44 -po---- 46
+                     17 -.|---- 24
+    query            47 {Domine 54
+
+-- fused_7 --
+  OCR:      'e profundis clamavi ad te domnine p ipisum evore'
+  Assigned: 'non} euouae Respexit dominus humilitatem meam et'
+  Words:    [54..61) consumed=7
+  NW score: k=7 (pre-snap), norm=-0.9583
+  Anchor:   word 64 (within_chant_7), diff=3, snapped=False, forced=False
+  Alignment:
+    target            0 ---e profundis clamavi ad te domnin-e -p ipi--sum -evore- 48
+                      0 ---.  4
+    query             0 non} euo-u--ae Respexi----t- dom-inus humilitatem meam et 48
+
+-- fused_8 --
+  OCR:      'capi bnd'
+  Assigned: 'fecit in me'
+  Words:    [61..64) consumed=3
+  NW score: k=2 (pre-snap), norm=-0.8750
+  Anchor:   word 64 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 --capi- bn--d  8
+                      0 --|--|-  7
+    query             0 fec--it in me 11
+
+-- fused_9 --
+  OCR:      'peret Israhel in domluo p eeroraci.'
+  Assigned: 'magna quia potens est euouae Dominum'
+  Words:    [64..70) consumed=6
+  NW score: k=8 (pre-snap), norm=-1.3419
+  Anchor:   word 70 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 peret Israhel --in domluo --p eerora----ci--. 35
+                      0 --------.|... 13
+    query             0 --------magna quia potens est -euouae Dominum 36
+
+-- fused_10 --
+  OCR:      'especit dominus humilitatem meam et fecit in mevu'
+  Assigned: '{qui} fecit nos Venite adoremus ~Venite Domine'
+  Words:    [70..77) consumed=7
+  NW score: k=8 (pre-snap), norm=-0.0600
+  Anchor:   word 77 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 ----especit dominus humilitatem ---meam et -fecit- ---in mev
+                      0 ----...||||
+    query             0 {qui} fecit ----nos Veni----te- adore-m-us ~Venite Domin--e-
+    
+    target           48 u 49
+                     11 - 12
+    query            46 - 46
+
+-- fused_11 --
+  OCR:      'comma potens est evovae omnium qui'
+  Assigned: 'deus in adiutorium meum intende ~Salvum me euouae'
+  Words:    [77..85) consumed=8
+  NW score: k=10 (pre-snap), norm=-1.0940
+  Anchor:   word 85 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 ------------co---m-m--a poten---------s -est evovae omnium q
+                      0 ------------.|---|-|--.
+    query             0 deus in adiutorium meum intende ~Salvum me-- euouae---------
+    
+    target           32 ui 34
+                     23 -- 25
+    query            49 -- 49
+
+-- fused_12 --
+  OCR:      'mi'
+  Assigned: 'Esto mihi domine in deum protectorem ~In te'
+  Words:    [85..93) consumed=8
+  NW score: k=2 (pre-snap), norm=-3.0641
+  Anchor:   word 93 (within_chant_7), diff=6, snapped=False, forced=True
+  Alignment:
+    target            0 ------------mi-----------------------------  2
+                      0 ------------||----------------------------- 43
+    query             0 Esto mihi domine in deum protectorem ~In te 43
+
+-- fused_13 --
+  OCR:      'vorat'
+  Assigned: 'domine euouae'
+  Words:    [93..95) consumed=2
+  NW score: k=2 (pre-snap), norm=-3.3489
+  Anchor:   word 101 (page_break_77), diff=6, snapped=False, forced=False
+  Alignment:
+    target            0 --------vorat  5
+                      0 --------.|.|. 13
+    query             0 domine euouae 13
+
+-- fused_14 --
+  OCR:      'fecit nos endoremus ps rerum con omnie'
+  Assigned: 'Liberasti virgam hereditatis tue ~Quam bonus'
+  Words:    [95..101) consumed=6
+  NW score: k=6 (pre-snap), norm=-1.5652
+  Anchor:   word 101 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 --fe-cit- ---nos -endore-mus ps -re--ru-m con omnie 38
+                      0 --.|-..|-  9
+    query             0 Liberasti virgam he---reditatis tue ~Quam bo----nus 44
+
+-- fused_15 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [101..101) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_16 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [101..101) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_17 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [101..101) consumed=0
+  Alignment:
+    (no words left)
+=== END DEBUG ===
+

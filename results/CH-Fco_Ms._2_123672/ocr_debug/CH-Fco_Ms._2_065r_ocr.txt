@@ -1,0 +1,171 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'terram et mm te sunt aque . Et prohibitesunt'
+  [fused_1] 'plume de everse sunt aque de terra envtes'
+  [fused_2] 'et redeuntes et ceperunt minui post centum quadra gnita'
+  [fused_3] 'cundum magnam misericordiam tuam miserere mei de'
+  [fused_4] 'Misere mei evovaeimichi dominus salvator fue'
+  [fused_5] 'rit non timebo quid faciat michi homo pres confitenum exo'
+  [fused_6] 'n velamento clamam valde diluculo deus deus me'
+  [fused_7] ' ngamndica'
+  [fused_8] 'mus domino Deo nostro  bnd covae a n Tympano ei'
+  [fused_9] 'choro in cordis et organo laudate devn PLand ovac'
+  [fused_10] '* um turba plurima convenirent ad Jhesum et de ci'
+  [fused_11] 'itatis peoperarent ad eum domnit er smmlitudinen eait ami'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'terram et mm te sunt aque . Et prohibitesunt'
+  Assigned: 'terram et imminute sunt aquae Et prohibite sunt'
+  Words:    [0..8) consumed=8
+  NW score: k=8 (pre-snap), norm=6.2012
+  Anchor:   word 17 (within_chant_7), diff=9, snapped=False, forced=False
+  Alignment:
+    target            0 terram et -mm-- te sunt aqu-e . Et prohibite-sunt 44
+                      0 ||||||  6
+    query             0 terram et imminute sunt aquae-- Et prohibite sunt 47
+
+-- fused_1 --
+  OCR:      'plume de everse sunt aque de terra envtes'
+  Assigned: 'pluviae de celis Reverseque sunt aquae de terra euntes'
+  Words:    [8..17) consumed=9
+  NW score: k=9 (pre-snap), norm=5.0581
+  Anchor:   word 17 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 plu--me de -------evers---e sunt aqu-e de terra e-nvtes 41
+                      0 |||--.|  7
+    query             0 pluviae de celis Reverseque sunt aquae de terra eun-tes 54
+
+-- fused_2 --
+  OCR:      'et redeuntes et ceperunt minui post centum quadra gnita'
+  Assigned: 'et redeuntes et ceperunt minui post centum quadraginta'
+  Words:    [17..25) consumed=8
+  NW score: k=8 (pre-snap), norm=7.3948
+  Anchor:   word 25 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 et redeuntes et ceperunt minui post centum quadra g-nita 55
+                      0 ||  2
+    query             0 et redeuntes et ceperunt minui post centum quadra-gin-ta 54
+
+-- fused_3 --
+  OCR:      'cundum magnam misericordiam tuam miserere mei de'
+  Assigned: 'dies Et prohibite Secundum magnam misericordiam tuam miserere mei de'
+  Words:    [25..35) consumed=10
+  NW score: k=10 (pre-snap), norm=5.3480
+  Anchor:   word 28 (within_chant_7), diff=7, snapped=False, forced=False
+  Alignment:
+    target            0 --------------------cundum magnam misericordiam tuam miserer
+                      0 --------------------||||||
+    query             0 dies Et prohibite Secundum magnam misericordiam tuam miserer
+    
+    target           40 e mei de-- 48
+                     26 | 27
+    query            60 e mei deus 70
+
+-- fused_4 --
+  OCR:      'Misere mei evovaeimichi dominus salvator fue'
+  Assigned: 'us ~Miserere mei euouae Si michi dominus salvator fue'
+  Words:    [35..43) consumed=8
+  NW score: k=8 (pre-snap), norm=5.7775
+  Anchor:   word 43 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -Mis--ere mei evovae--i-michi dominus salvator fue--- 44
+                      0 -|||--|||  9
+    query             0 ~Miserere mei euouae Si michi dominus salvator fuerit 53
+
+-- fused_5 --
+  OCR:      'rit non timebo quid faciat michi homo pres confitenum exo'
+  Assigned: 'rit non timebo quid faciat michi homo ~Confitemini euouae'
+  Words:    [43..51) consumed=8
+  NW score: k=7 (pre-snap), norm=4.9604
+  Anchor:   word 51 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 rit non timebo quid faciat michi homo pres confite--num exo-
+                      0 ----|||
+    query             0 ----non timebo quid faciat michi homo ----~Confitemin-i euou
+    
+    target           57 -- 57
+                      7 --  9
+    query            51 ae 53
+
+-- fused_6 --
+  OCR:      'n velamento clamam valde diluculo deus deus me'
+  Assigned: 'In velamento clamavi valde diluculo deus deus me'
+  Words:    [51..59) consumed=8
+  NW score: k=8 (pre-snap), norm=6.9018
+  Anchor:   word 59 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -n velamento clama-m valde diluculo deus deus me-- 46
+                      0 -|  2
+    query             0 In velamento clamavi valde diluculo deus deus meus 50
+
+-- fused_7 --
+  OCR:      'ngamndica'
+  Assigned: 'us ad te'
+  Words:    [59..61) consumed=2
+  NW score: k=2 (pre-snap), norm=-2.8324
+  Anchor:   word 69 (within_chant_7), diff=8, snapped=False, forced=False
+  Alignment:
+    target            0 ngamndica 9
+                      0 --|--|... 9
+    query             0 --a--d te 5
+
+-- fused_8 --
+  OCR:      'mus domino Deo nostro  bnd covae a n Tympano ei'
+  Assigned: 'de luce vigilo {Deus deus} euouae Hymnum dicamus domino deo nostro {Benedic} euouae In tympano et'
+  Words:    [61..77) consumed=16
+  NW score: k=16 (pre-snap), norm=1.3033
+  Anchor:   word 69 (within_chant_7), diff=8, snapped=False, forced=False
+  Alignment:
+    target            0 ---------------------------------------------mus domino Deo 
+                      0 ---------------------------------------------|||
+    query             0 de luce vigilo {Deus deus} euouae Hymnum dicamus domino deo 
+    
+    target           15 nostro - bn-d c----ovae a n Tympano ei 47
+                     48 |||||| 54
+    query            60 nostro {Benedic} euouae -In tympano et 97
+
+-- fused_9 --
+  OCR:      'choro in cordis et organo laudate devn PLand ovac'
+  Assigned: 'choro in cordis et organo laudate deum {Laudate}'
+  Words:    [77..85) consumed=8
+  NW score: k=8 (pre-snap), norm=5.7735
+  Anchor:   word 85 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 choro in cordis et organo laudate devn PLand ova--c 49
+                      0 |||||  5
+    query             0 choro in cordis et organo laudate deum {Laud---ate} 48
+
+-- fused_10 --
+  OCR:      '* um turba plurima convenirent ad Jhesum et de ci'
+  Assigned: 'euouae Cum turba plurima conveniret ad ihesum et de ci'
+  Words:    [85..95) consumed=10
+  NW score: k=9 (pre-snap), norm=5.7612
+  Anchor:   word 95 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 -----* -um turba plurima convenirent ad Jhesum et de ci-----
+                      0 -----.
+    query             0 euouae Cum turba plurima convenire-t ad ihesum et de civitat
+    
+    target           49 ---- 49
+                      6 ---- 10
+    query            59 ibus 63
+
+-- fused_11 --
+  OCR:      'itatis peoperarent ad eum domnit er smmlitudinen eait ami'
+  Assigned: 'vitatibus properarent ad eum dixit per similitudinem exiit qui'
+  Words:    [95..103) consumed=8
+  NW score: k=8 (pre-snap), norm=4.3165
+  Anchor:   word 103 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 itatis peoperarent ad eum domnit -er s-mmlitudinen e-ait ami
+                      0 -------|.|||||||||
+    query             0 -------properarent ad eum d-ixit per similitudinem exiit qui
+    
+    target           57 
+                     18 
+    query            52 
+=== END DEBUG ===
+

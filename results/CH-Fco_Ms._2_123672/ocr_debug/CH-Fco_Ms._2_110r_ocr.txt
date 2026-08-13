@@ -1,0 +1,176 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'um ge I lier quidploras surrex'
+  [fused_1] 'sicut XIt . Precedet nos in galileam nm'
+  [fused_2] 'videbatis Alselvya leluum ergo'
+  [fused_3] 'feret indivavit se et prospexit in monumetum'
+  [fused_4] 'dit duos Angelos in Albis sedentes qui dicunt e'
+  [fused_5] ''
+  [fused_6] 'tetit Jhesus in medio discipulorum'
+  [fused_7] 'suo tum ldint eis par nobis Allelna alelura ex'
+  [fused_8] 'me videte manus meas et aiv . Ganisi'
+  [fused_9] 'sunt discipuli allar'
+  [fused_10] 'go ipse sum Alleluya Alseluya erovae Vilo Domino Aaa '
+  [fused_11] '.Mocie radix apenire librum damo'
+  [fused_12] 'solvere septem signacula jus Anelu'
+  [fused_13] 'ya allejuvaae In Jgoigmma'
+  [fused_14] 'et agmne on ocasum est acquiere intutens m'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'um ge I lier quidploras surrex'
+  Assigned: 'dicunt ei angelui mulier quid ploras surrexit'
+  Words:    [0..7) consumed=7
+  NW score: k=7 (pre-snap), norm=3.5926
+  Anchor:   word 20 (within_chant_7), diff=13, snapped=False, forced=False
+  Alignment:
+    target            0 ---u----m --ge--- I lier quid-ploras surrex-- 30
+                      0 ---|----.  9
+    query             0 dicunt ei angelui mulier quid ploras surrexit 45
+
+-- fused_1 --
+  OCR:      'sicut XIt . Precedet nos in galileam nm'
+  Assigned: 'sicut dixit Precedet vos in galileam'
+  Words:    [7..13) consumed=6
+  NW score: k=6 (pre-snap), norm=5.3376
+  Anchor:   word 20 (within_chant_7), diff=7, snapped=False, forced=False
+  Alignment:
+    target            0 sicut --XIt . Precedet nos in galileam nm 39
+                      0 |||||  5
+    query             0 sicut dixit-- Precedet vos in galilea---m 36
+
+-- fused_2 --
+  OCR:      'videbatis Alselvya leluum ergo'
+  Assigned: 'ibi eum videbitis alleluya alleluya Dum ergo'
+  Words:    [13..20) consumed=7
+  NW score: k=7 (pre-snap), norm=3.6882
+  Anchor:   word 20 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 --------videbatis Alselvya --lelu----um ergo 30
+                      0 --------|||||.||| 17
+    query             0 ibi eum videbitis alleluya alleluya Dum ergo 44
+
+-- fused_3 --
+  OCR:      'feret indivavit se et prospexit in monumetum'
+  Assigned: 'fleret inclinavit se et prospexit in monumentum et vi'
+  Words:    [20..29) consumed=9
+  NW score: k=7 (pre-snap), norm=6.7069
+  Anchor:   word 29 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 f-eret in-divavit se et prospexit in monume-tum--------- 44
+                      0 |-||||  6
+    query             0 fleret inclinavit se et prospexit in monumentum et vidit 56
+
+-- fused_4 --
+  OCR:      'dit duos Angelos in Albis sedentes qui dicunt e'
+  Assigned: 'dit duos angelos in albis sedentes qui dicunt e'
+  Words:    [29..37) consumed=8
+  NW score: k=8 (pre-snap), norm=6.4870
+  Anchor:   word 37 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 dit duos Angelos in Albis sedentes qui dicunt e- 47
+                      0 ----||||  8
+    query             0 ----duos angelos in albis sedentes qui dicunt ei 44
+
+-- fused_5 --
+  OCR:      ''
+  Assigned: 'i Precedet Stetit ihesus in medio discipulorum'
+  Words:    [37..43) consumed=6
+
+-- fused_6 --
+  OCR:      'tetit Jhesus in medio discipulorum'
+  Assigned: 'suorum et dixit eis pax vobis alleluya alleluya euouae'
+  Words:    [43..52) consumed=9
+  NW score: k=7 (pre-snap), norm=-1.2241
+  Anchor:   word 52 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 ------tet----it Jhesus -in medio dis---cipu-------l------oru
+                      0 ------.||----||
+    query             0 suorum et dixit --e-is pax ---vo-bis alleluya alleluya euo-u
+    
+    target           33 -m 34
+                     15 -. 17
+    query            52 ae 54
+
+-- fused_7 --
+  OCR:      'suo tum ldint eis par nobis Allelna alelura ex'
+  Assigned: 'Videte manus meas et pedes meos quia e'
+  Words:    [52..60) consumed=8
+  NW score: k=13 (pre-snap), norm=0.1200
+  Anchor:   word 60 (within_chant_7), diff=5, snapped=False, forced=True
+  Alignment:
+    target            0 suo tum ldin-t -eis par nobis Allelna alelura e-x 46
+                      0 ....|-.  7
+    query             0 Videt-e -manus meas -et pedes --me-os ---quia ego 40
+
+-- fused_8 --
+  OCR:      'me videte manus meas et aiv . Ganisi'
+  Assigned: 'go ipse sum alleluya alleluya euouae'
+  Words:    [60..65) consumed=5
+  NW score: k=7 (pre-snap), norm=-1.5327
+  Anchor:   word 65 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 me videte manus meas e---t a-----iv -. Ganisi 36
+                      0 ----|-..|  9
+    query             0 ----i-pse ----sum alleluya alleluya euoua---e 33
+
+-- fused_9 --
+  OCR:      'sunt discipuli allar'
+  Assigned: 'Ecce vicit leo de tribu iuda radix david aperire librum'
+  Words:    [65..75) consumed=10
+  NW score: k=3 (pre-snap), norm=-1.3148
+  Anchor:   word 75 (within_chant_7), diff=7, snapped=False, forced=True
+  Alignment:
+    target            0 sunt discipul--------------------------i- a-------llar-- 20
+                      0 ....  4
+    query             0 Ecce vi-cit leo de tribu iuda radix david aperire librum 55
+
+-- fused_10 --
+  OCR:      'go ipse sum Alleluya Alseluya erovae Vilo Domino Aaa'
+  Assigned: 'et solvere septem signacula eius Alleluya'
+  Words:    [75..81) consumed=6
+  NW score: k=8 (pre-snap), norm=0.5597
+  Anchor:   word 81 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 go ips-----e s---um ------Al-leluya Alseluya erovae Vilo Dom
+                      0 ..
+    query             0 et --solvere septem signacula eiu-s Alleluy-----------------
+    
+    target           45 ino Aaa 52
+                      2 ------|  9
+    query            40 ------a 41
+
+-- fused_11 --
+  OCR:      '.Mocie radix apenire librum damo'
+  Assigned: 'alleluya alleluya'
+  Words:    [81..83) consumed=2
+  NW score: k=2 (pre-snap), norm=-2.5296
+  Alignment:
+    target            0 .Mocie- radix apenire librum damo 32
+                      0 --...|-..|--- 13
+    query             0 --alleluya--- a---lle-l---u--ya-- 17
+
+-- fused_12 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [83..83) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_13 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [83..83) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_14 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [83..83) consumed=0
+  Alignment:
+    (no words left)
+=== END DEBUG ===
+

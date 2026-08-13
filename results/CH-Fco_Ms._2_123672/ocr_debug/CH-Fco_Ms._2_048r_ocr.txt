@@ -1,0 +1,163 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'o Corripias me. «iserere michido mi'
+  [fused_1] 'ne qnomam infirmus sum XLimor'
+  [fused_2] 't tremor venerunt superme et contexerunt me tenebre'
+  [fused_3] 'e miserero . LDeus qui se des super theo'
+  [fused_4] 'mm cne dicas equitatem esto refugium'
+  [fused_5] 'pan pe cummiti bulanio emim fuano'
+  [fused_6] 'laborem et coloem con sice ns '
+  [fused_7] 'enim derelictus est pauper pupillo tue tis ad utor'
+  [fused_8] 'Amar cex tris est michi do minus ne com'
+  [fused_9] 'monear . Propter hoc dilatatum estcormenni'
+  [fused_10] 'et exultavit lingua me pars'
+  [fused_11] 'hereditatis ltais me Propter.'
+  [fused_12] 'norim meorum non indiges incessera in conseruame co'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'o Corripias me. «iserere michido mi'
+  Assigned: 'tuo corripias me Miserere michi domine'
+  Words:    [0..6) consumed=6
+  NW score: k=6 (pre-snap), norm=5.4018
+  Anchor:   word 10 (within_chant_7), diff=4, snapped=False, forced=False
+  Alignment:
+    --o Corripias me. «iserere michi-do mi--
+    --||.|||||||||||-|.|||||||||||||-||-||--
+    tuo corripias me- Miserere michi do-mine
+
+-- fused_1 --
+  OCR:      'ne qnomam infirmus sum XLimor'
+  Assigned: 'quoniam infirmus sum Timor'
+  Words:    [6..10) consumed=4
+  NW score: k=4 (pre-snap), norm=4.8800
+  Anchor:   word 10 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ne qno-mam infirmus sum XLimor 29
+                      0 ---|.|-.|| 10
+    query             0 ---quoniam infirmus sum -Timor 26
+
+-- fused_2 --
+  OCR:      't tremor venerunt superme et contexerunt me tenebre'
+  Assigned: 'et tremor venerunt super me et contexerunt me tenebre'
+  Words:    [10..19) consumed=9
+  NW score: k=9 (pre-snap), norm=7.5783
+  Anchor:   word 19 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -t tremor venerunt super-me et contexerunt me tenebre 51
+                      0 -|  2
+    query             0 et tremor venerunt super me et contexerunt me tenebre 53
+
+-- fused_3 --
+  OCR:      'e miserero . LDeus qui se des super theo'
+  Assigned: 'et dixi Miserere Deus qui sedes super thronum'
+  Words:    [19..27) consumed=8
+  NW score: k=8 (pre-snap), norm=4.5726
+  Anchor:   word 27 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 e------ miserero . LDeus qui se des super theo--- 40
+                      0 |------  7
+    query             0 et dixi Miserere ---Deus qui se-des super thronum 45
+
+-- fused_4 --
+  OCR:      'mm cne dicas equitatem esto refugium'
+  Assigned: 'et iudicas equitatem esto refugium pauperum'
+  Words:    [27..33) consumed=6
+  NW score: k=5 (pre-snap), norm=6.0596
+  Anchor:   word 33 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 mm cne- --dicas equitatem esto refugi---------um 36
+                      0 -----|-  7
+    query             0 -----et iudicas equitatem esto refugium pauperum 43
+
+-- fused_5 --
+  OCR:      'pan pe cummiti bulanio emim fuano'
+  Assigned: 'in tribulatione Quia tu solus laborem'
+  Words:    [33..39) consumed=6
+  NW score: k=3 (pre-snap), norm=0.5060
+  Anchor:   word 39 (within_chant_7), diff=3, snapped=False, forced=True
+  Alignment:
+    target            0 pan pe cummit-i bulanio-- emim fu--------ano--- 33
+                      0 -.|  3
+    query             0 -in --------tri-bulatione Quia tu solus laborem 37
+
+-- fused_6 --
+  OCR:      'laborem et coloem con sice ns'
+  Assigned: 'et dolorem consideras Tibi'
+  Words:    [39..43) consumed=4
+  NW score: k=3 (pre-snap), norm=2.6745
+  Anchor:   word 43 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 laborem et colo-em con sice ns----- 29
+                      0 --------|| 10
+    query             0 --------et dolorem con-sideras Tibi 26
+
+-- fused_7 --
+  OCR:      'enim derelictus est pauper pupillo tue tis ad utor'
+  Assigned: 'enim derelictus est pauper pupillo tu eris adiutor'
+  Words:    [43..51) consumed=8
+  NW score: k=8 (pre-snap), norm=7.0400
+  Anchor:   word 51 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 enim derelictus est pauper pupillo tu-e tis ad utor 50
+                      0 ||||  4
+    query             0 enim derelictus est pauper pupillo tu e-ris adiutor 50
+
+-- fused_8 --
+  OCR:      'Amar cex tris est michi do minus ne com'
+  Assigned: 'Quia A dextris est michi dominus ne com'
+  Words:    [51..59) consumed=8
+  NW score: k=8 (pre-snap), norm=4.6309
+  Anchor:   word 59 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -Ama-r cex tris est michi do minus ne com------ 39
+                      0 -..|-.  6
+    query             0 Quia A dex-tris est michi do-minus ne commovear 45
+
+-- fused_9 --
+  OCR:      'monear . Propter hoc dilatatum estcormenni'
+  Assigned: 'movear Propter hoc dilatatum est cor meum'
+  Words:    [59..65) consumed=6
+  NW score: k=5 (pre-snap), norm=4.7851
+  Anchor:   word 65 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 monear . Propter hoc dilatatum est-cor-menni 42
+                      0 ---------||||||| 16
+    query             0 ---------Propter hoc dilatatum est cor me-um 34
+
+-- fused_10 --
+  OCR:      'et exultavit lingua me pars'
+  Assigned: 'et exultavit lingua mea Dominus pars'
+  Words:    [65..71) consumed=6
+  NW score: k=4 (pre-snap), norm=6.5811
+  Anchor:   word 71 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 et exultavit lingua me--------- pars 27
+                      0 ||  2
+    query             0 et exultavit lingua mea Dominus pars 36
+
+-- fused_11 --
+  OCR:      'hereditatis ltais me Propter.'
+  Assigned: 'hereditatis mee et calitis mei Propter bo'
+  Words:    [71..78) consumed=7
+  NW score: k=6 (pre-snap), norm=4.7596
+  Anchor:   word 78 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 hereditatis---- lt--a---is me- Propter-------. 29
+                      0 |||||||||||---- 15
+    query             0 hereditatis mee et calitis mei Propter Bonorum 46
+
+-- fused_12 --
+  OCR:      'norim meorum non indiges incessera in conseruame co'
+  Assigned: 'norum meorum non indiges in te speravi conserva me domine'
+  Words:    [78..87) consumed=9
+  NW score: k=8 (pre-snap), norm=4.4964
+  Anchor:   word 87 (page_break_77), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 norim meorum non indiges in-ce-ssera in conserua-me co---- 51
+                      0 ------|||||| 12
+    query             0 ------meorum non indiges in te speravi- conserva me domine 51
+=== END DEBUG ===
+

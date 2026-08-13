@@ -1,0 +1,199 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'prut illum dominus pane vite et'
+  [fused_1] 'netus et aqua sapientie salutaris potavit'
+  [fused_2] 'm'
+  [fused_3] 'lum. Et coro. ominus et justiciam dilexit'
+  [fused_4] 'equitatem vidit nultus ejus  in Domino confi evovae eabita'
+  [fused_5] 'bit in tabernaculo tuo requiescet in Monte Sancto Tuo po domine'
+  [fused_6] 'quis haeovae . Nosuisti domine super caput ejus coronam'
+  [fused_7] 'V Magna egli ejus secundum Lucam'
+  [fused_8] 'e  Domine inr oa nmo teiri diaribe turbis sici dminis vei gitis ppi dei considemus'
+  [fused_9] 'oro naaurea super caput ejus expressa'
+  [fused_10] 'signo sanctitatis glo rie hono noon pus forti t'
+  [fused_11] '.me Qno amprevenisti cum in benedictionibus'
+  [fused_12] 'ducedinis posuisti in capite ejus  telapte preci'
+  [fused_13] 'lo scpella q eic est neremar tyz qu provi'
+  [fused_14] 'Sanonne Langinen te nai troit enunes'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'prut illum dominus pane vite et'
+  Assigned: 'caput eius Cibavit illum dominus pane vite et'
+  Words:    [0..8) consumed=8
+  NW score: k=8 (pre-snap), norm=4.8461
+  Anchor:   word 8 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 --p----ru--------t illum dominus pane vite et 31
+                      0 --|----.|--------| 18
+    query             0 caput eius Cibavit illum dominus pane vite et 45
+
+-- fused_1 --
+  OCR:      'netus et aqua sapientie salutaris potavit'
+  Assigned: 'intellectus et aqua sapientie salutaris potavit il'
+  Words:    [8..15) consumed=7
+  NW score: k=6 (pre-snap), norm=6.7885
+  Anchor:   word 15 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 -n----e-tus et aqua sapientie salutaris potavit------ 41
+                      0 -|----|-||| 11
+    query             0 intellectus et aqua sapientie salutaris potavit illum 53
+
+-- fused_2 --
+  OCR:      'm'
+  Assigned: 'lum Et coronam'
+  Words:    [15..17) consumed=2
+  NW score: k=2 (pre-snap), norm=-7.2732
+  Anchor:   word 22 (within_chant_7), diff=5, snapped=False, forced=False
+  Alignment:
+    target            0 ---------m  1
+                      0 ---------| 10
+    query             0 Et coronam 10
+
+-- fused_3 --
+  OCR:      'lum. Et coro. ominus et justiciam dilexit'
+  Assigned: 'Iustus dominus et iusticiam dilexit'
+  Words:    [17..22) consumed=5
+  NW score: k=5 (pre-snap), norm=4.5141
+  Anchor:   word 22 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 lum. Et coro. -ominus et justiciam dilexit 41
+                      0 .|---.|----.. 13
+    query             0 Iu---st----us dominus et iusticiam dilexit 35
+
+-- fused_4 --
+  OCR:      'equitatem vidit nultus ejus  in Domino confi evovae eabita'
+  Assigned: 'equitatem vidit vultus eius ~In domino confido euouae habita'
+  Words:    [22..31) consumed=9
+  NW score: k=9 (pre-snap), norm=5.5750
+  Anchor:   word 31 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 equitatem vidit nultus ejus  in Domino confi-- evovae eabita
+                      0 |||||||||
+    query             0 equitatem vidit vultus eius ~In domino confido euouae Habita
+    
+    target           58 --- 58
+                      9 --- 12
+    query            60 bit 63
+
+-- fused_5 --
+  OCR:      'bit in tabernaculo tuo requiescet in Monte Sancto Tuo po domine'
+  Assigned: 'bit in tabernaculo tuo requiescet in monte sancto tuo'
+  Words:    [31..39) consumed=8
+  NW score: k=9 (pre-snap), norm=6.0910
+  Anchor:   word 39 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 bit in tabernaculo tuo requiescet in Monte Sancto Tuo po dom
+                      0 ----||
+    query             0 ----in tabernaculo tuo requiescet in monte sancto tuo-------
+    
+    target           60 ine 63
+                      6 ---  9
+    query            49 --- 49
+
+-- fused_6 --
+  OCR:      'quis haeovae . Nosuisti domine super caput ejus coronam'
+  Assigned: '~Domine quis habitabit euouae Posuisti domine super caput eius coronam'
+  Words:    [39..49) consumed=10
+  NW score: k=10 (pre-snap), norm=5.0283
+  Anchor:   word 49 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 --------quis ha--------e-ovae . Nosuisti domine super caput 
+                      0 --------||||
+    query             0 ~Domine quis habitabit euouae-- Posuisti domine super caput 
+    
+    target           43 ejus coronam 55
+                     12 |.|| 16
+    query            58 eius coronam 70
+
+-- fused_7 --
+  OCR:      'V Magna egli ejus secundum Lucam'
+  Assigned: 'de lapide precioso ~Domine'
+  Words:    [49..53) consumed=4
+  NW score: k=7 (pre-snap), norm=-1.8922
+  Anchor:   word 53 (within_chant_7), diff=3, snapped=False, forced=True
+  Alignment:
+    target            0 -V Magna egli ejus -secundum Lucam--- 32
+                      0 -.  2
+    query             0 de la------pide--- prec-ioso -~Domine 26
+
+-- fused_8 --
+  OCR:      'e  Domine inr oa nmo teiri diaribe turbis sici dminis vei gitis ppi dei considemus'
+  Assigned: 'in virtute euouae Corona aurea super caput eius Expressa signo sanctitatis glorie honoris et opus'
+  Words:    [53..68) consumed=15
+  NW score: k=15 (pre-snap), norm=-0.8073
+  Anchor:   word 61 (within_chant_7), diff=7, snapped=False, forced=False
+  Alignment:
+    target            0 ---------e  Domine inr o-a --nmo --teiri dia----ribe -turbis
+                      0 ---------|
+    query             0 in virtute euo-uae Cor-ona aurea supe-r- -caput eius Express
+    
+    target           41 - sici dminis vei gi--tis --ppi dei con-si-de---mus 82
+                     10 - 11
+    query            55 a si-----gn-o sanctitatis glori--e- honoris et opus 97
+
+-- fused_9 --
+  OCR:      'oro naaurea super caput ejus expressa'
+  Assigned: 'fortitudinis Quoniam prevenisti eum in benedictionibus dulcedinis posuisti in capite ejus coronam de lapide preci'
+  Words:    [68..83) consumed=15
+  NW score: k=16 (pre-snap), norm=-1.5734
+  Anchor:   word 83 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 -or--------o ---naa--ure-------------a --------------s--u---
+                      0 -||--------.
+    query             0 fortitudinis Quoniam prevenisti eum in benedictionibus dulce
+    
+    target           14 ------p--------er caput- ejus ----------------expre--ssa  37
+                     12 ------|--------..  29
+    query            60 dinis posuisti in capite ejus coronam de lapide precioso 116
+
+-- fused_10 --
+  OCR:      'signo sanctitatis glo rie hono noon pus forti t'
+  Assigned: 'oso Expressa Hic est vere martyr qui pro xpisti nomine sanguinem suum fudit'
+  Words:    [83..95) consumed=12
+  NW score: k=12 (pre-snap), norm=-1.2291
+  Anchor:   word 91 (within_chant_7), diff=4, snapped=False, forced=False
+  Alignment:
+    target            0 signo sa--nc---t-----ita-t-----is glo -ri--e ho--no --n-oon-
+                      0 ......||--.|---|-----..|-|-----|-
+    query             0 Expressa Hic est vere martyr qui- pro xpisti nomine sanguine
+    
+    target           35 - -pus forti t 47
+                     33 - 34
+    query            59 m suum f-udi-t 71
+
+-- fused_11 --
+  OCR:      '.me Qno amprevenisti cum in benedictionibus'
+  Assigned: 'Qui'
+  Words:    [95..96) consumed=1
+  NW score: k=1 (pre-snap), norm=-9.8611
+  Anchor:   word 96 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 .me Qno amprevenisti cum in benedictionibus 43
+                      0 ----|-----------------|----------------|--- 43
+    query             0 ----Q-----------------u----------------i---  3
+
+-- fused_12 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [96..96) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_13 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [96..96) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_14 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [96..96) consumed=0
+  Alignment:
+    (no words left)
+=== END DEBUG ===
+

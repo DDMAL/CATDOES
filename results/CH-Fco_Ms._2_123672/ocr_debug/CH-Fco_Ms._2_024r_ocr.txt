@@ -1,0 +1,227 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'Dominus Regi evovae a nodie scietis quma veniet dominus et ma'
+  [fused_1] 'ne indebitis gloriam ejus pres jubilate en ovae rastina d'
+  [fused_2] 'delebitur miqnitas terre et regnalit super nos salvator muni rynens'
+  [fused_3] 'eo.ominis nenet ctatnte au dicen ur cas sons'
+  [fused_4] 'tes magnum principium princeps pacis Aleluya Allelua comnndi'
+  [fused_5] 'B evovae Lrastina erit vobis salus dicit dominus'
+  [fused_6] 'capellan Paulus servus ynnus'
+  [fused_7] 'vorclara Crastina die de'
+  [fused_8] 'deus exercituum Landate exovac rognabit super vos salvator mum lebitur iqitas terre V . et'
+  [fused_9] 'rietur sicut sol salvator mundi et descendet in uteri'
+  [fused_10] 'virginis sicut uniber super Gramen Alelvya pres Bendicanis evor'
+  [fused_11] 'Horo ditur ohoras diei ds quinos rederut ad in e Judea et Jhsisin'
+  [fused_12] 'ps do in nomine po Beati imaclati . Sivenerit in dominica vig ii dii'
+  [fused_13] ' domores castlis Regiscorum X Xpiste filidi V quinenturus'
+  [fused_14] 'ad absolutione capituli le . de epsa ad iiio capii paulus serviodie scietis qui'
+  [fused_15] 'avemet ominus Xt debitis gloriam ejus . Qui'
+  [fused_16] 'Vronio x. Lon'
+  [fused_17] 'ttanes clore trebiis ceelue derumnor'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'Dominus Regi evovae a nodie scietis quma veniet dominus et ma'
+  Assigned: '~Dominus regnavit euouae Hodie scietis quia veniet dominus et ma'
+  Words:    [0..10) consumed=10
+  NW score: k=10 (pre-snap), norm=5.6737
+  Anchor:   word 10 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -Dominus Reg---i- evovae a nodie scietis quma veniet dominus
+                      0 -|||||||
+    query             0 ~Dominus regnavit euouae-- Hodie scietis quia veniet dominus
+    
+    target           55  et ma-- 61
+                      8   8
+    query            58  et mane 66
+
+-- fused_1 --
+  OCR:      'ne indebitis gloriam ejus pres jubilate en ovae rastina d'
+  Assigned: 'ne videbitis gloriam eius ~Iubilate euouae Crastina die'
+  Words:    [10..17) consumed=7
+  NW score: k=7 (pre-snap), norm=4.7206
+  Anchor:   word 17 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ne indebitis gloriam ejus pres jubilate en ovae -rastina d--
+                      0 --.|-|||||||
+    query             0 --vi-debitis gloriam eius ----~Iubilate e-uouae Crastina die
+    
+    target           57 
+                     12 
+    query            52 
+
+-- fused_2 --
+  OCR:      'delebitur miqnitas terre et regnalit super nos salvator muni rynens'
+  Assigned: 'delebitur iniquitas terre et regnabit super nos salvator mun'
+  Words:    [17..26) consumed=9
+  NW score: k=10 (pre-snap), norm=6.3557
+  Anchor:   word 26 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 delebitur -miqnitas terre et regnalit super nos salvator mun
+                      0 |||||||||
+    query             0 delebitur iniquitas terre et regnabit super nos salvator mun
+    
+    target           59 -i rynens 67
+                      9 -|------- 18
+    query            60 di------- 62
+
+-- fused_3 --
+  OCR:      'eo.ominis nenet ctatnte au dicen ur cas sons'
+  Assigned: 'di ~Deus deus euouae Dominus veniet occurrite illi dicen'
+  Words:    [26..34) consumed=8
+  NW score: k=9 (pre-snap), norm=0.4938
+  Anchor:   word 34 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 -----------e-o----.ominis nen-et --ctatnte --au dicen ur cas
+                      0 -----------|-|----.||||.|
+    query             0 ~Deus deus euouae Dominus veniet occurrite illi dicen-------
+    
+    target           39  sons 44
+                     25 --..| 30
+    query            53 --tes 56
+
+-- fused_4 --
+  OCR:      'tes magnum principium princeps pacis Aleluya Allelua comnndi'
+  Assigned: 'tes magnum principium et regni eius non erit finis deus fortis dominator princeps pacis alleluya alleluya'
+  Words:    [34..49) consumed=15
+  NW score: k=17 (pre-snap), norm=2.0709
+  Anchor:   word 49 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 tes magnum principium---------------------------------------
+                      0 ----||||||
+    query             0 ----magnum principium et regni eius non erit finis deus fort
+    
+    target           21 ------------ princeps pacis -Aleluya Allelu-a comnndi  60
+                     10 ------------  22
+    query            56 is dominator princeps pacis alleluya alleluya-------- 101
+
+-- fused_5 --
+  OCR:      'B evovae Lrastina erit vobis salus dicit dominus'
+  Assigned: '{ Benedic } euouae Crastina erit vobis salus dicit dominus'
+  Words:    [49..59) consumed=10
+  NW score: k=10 (pre-snap), norm=5.8184
+  Anchor:   word 59 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 --B-------- evovae Lrastina erit vobis salus dicit dominus 48
+                      0 --|-------- 11
+    query             0 { Benedic } euouae Crastina erit vobis salus dicit dominus 58
+
+-- fused_6 --
+  OCR:      'capellan Paulus servus ynnus'
+  Assigned: 'deus exercituum ~Laudate euouae'
+  Words:    [59..63) consumed=4
+  NW score: k=2 (pre-snap), norm=-1.6102
+  Anchor:   word 63 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 capellan Paulus -ser---vus ynnu----------s 28
+                      0 --.|---------|| 15
+    query             0 --de---------us exercituum ~Laudate euouae 31
+
+-- fused_7 --
+  OCR:      'vorclara Crastina die de'
+  Assigned: 'Orietur sicut sol salvator mundi et descendet in uterum'
+  Words:    [63..72) consumed=9
+  NW score: k=7 (pre-snap), norm=-1.7345
+  Anchor:   word 72 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 ----vor---c-----l--a-ra Crastina di-e- de----------------- 24
+                      0 ----..|---|-----|--|-.|..|-...|--||-|- 38
+    query             0 Orietur sicut sol salvator- mun--di et descendet in uterum 55
+
+-- fused_8 --
+  OCR:      'deus exercituum Landate exovac rognabit super vos salvator mum lebitur iqitas terre V . et'
+  Assigned: 'virginis sicut ymber super gramen alleluya ~Benedic euoue Hodie scietis quia veniet dominus Et mane videbitis'
+  Words:    [72..88) consumed=16
+  NW score: k=16 (pre-snap), norm=-1.1510
+  Anchor:   word 80 (within_chant_7), diff=8, snapped=False, forced=False
+  Alignment:
+    target            0 ----deus exercituum--- ----Landate- ---exovac rognabit su-pe
+                      0 ----...|
+    query             0 virginis --sicut ymber super gramen alleluya- ~Benedic euoue
+    
+    target           44 r vo--s salvator mu-m lebi-tur -iqitas -t-erre V . e--t--  90
+                      8 -   9
+    query            57 - Hodie s-cietis quia veniet-- dominus Et mane -videbitis 109
+
+-- fused_9 --
+  OCR:      'rietur sicut sol salvator mundi et descendet in uteri'
+  Assigned: 'gloriam eius Quia Gloria patri et filio et spiritui'
+  Words:    [88..97) consumed=9
+  NW score: k=9 (pre-snap), norm=-0.3847
+  Anchor:   word 91 (within_chant_7), diff=6, snapped=False, forced=False
+  Alignment:
+    target            0 ---ri---etur -sicut -sol salvator mundi et descendet --in ut
+                      0 ---||---|.|.
+    query             0 gloriam eius Qui--a Glo-ria pat-r-----i et -filio et spi-rit
+    
+    target           50 eri 53
+                     12 -.| 15
+    query            49 -ui 51
+
+-- fused_10 --
+  OCR:      'virginis sicut uniber super Gramen Alelvya pres Bendicanis evor'
+  Assigned: 'sancto Hodie Constantes estote Videbitis auxilium domini super vos'
+  Words:    [97..106) consumed=9
+  NW score: k=9 (pre-snap), norm=-1.6904
+  Anchor:   word 100 (within_chant_7), diff=6, snapped=False, forced=False
+  Alignment:
+    target            0 virginis sicut- -uniber ---s--uper Gramen Alelvya -pre----s 
+                      0 -------|-..|-|-
+    query             0 -------s-anc-to Hodi-e- Constantes ----estote---- Videbitis 
+    
+    target           48 ------Bend--icani-s- e--vor 63
+                     15 ------...|--|--||-|-.|--||. 42
+    query            41 auxilium domi--ni super vos 66
+
+-- fused_11 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [106..106) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_12 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [106..106) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_13 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [106..106) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_14 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [106..106) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_15 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [106..106) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_16 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [106..106) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_17 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [106..106) consumed=0
+  Alignment:
+    (no words left)
+=== END DEBUG ===
+

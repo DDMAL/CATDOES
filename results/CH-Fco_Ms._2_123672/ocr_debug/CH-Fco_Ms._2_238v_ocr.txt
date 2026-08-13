@@ -1,0 +1,199 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'rabile est nomen tuum in universa terra gloria et hono'
+  [fused_1] 're coronasti Sanctum tuum et constituisti eum super operama Eiegit en dominos sac'
+  [fused_2] 'tote per ad sactificu'
+  [fused_3] 'dim epostium laudis'
+  [fused_4] 'umtuarumpisum evovae nuem david'
+  [fused_5] 'srm meqeo sancto me'
+  [fused_6] 'Manus emm . aai bitur. ichil'
+  [fused_7] 'Pat oet filius iiquitatis nocebit'
+  [fused_8] 'Manus t Polin admto um super potentem'
+  [fused_9] 'et exaltam electum de ple deme manus enim me'
+  [fused_10] '. eticu Onvem david servum meum'
+  [fused_11] 'oloo Sancto meonuxi um Manuo  ste elt q ante'
+  [fused_12] 'demn magnas virtutesope .omoms est et omns'
+  [fused_13] 'ra doctriia ejus re de sole'
+  [fused_14] 'popetatio omnatum p xi noca e'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'rabile est nomen tuum in universa terra gloria et hono'
+  Assigned: 'est nomen tuum in universa terra quia gloria et honore'
+  Words:    [0..10) consumed=10
+  NW score: k=10 (pre-snap), norm=5.9630
+  Anchor:   word 26 (within_chant_7), diff=16, snapped=False, forced=False
+  Alignment:
+    target            0 rabile est nomen tuum in universa terr-----a gloria et hono-
+                      0 -------|||
+    query             0 -------est nomen tuum in universa terra quia gloria et honor
+    
+    target           54 - 54
+                     10 - 11
+    query            53 e 54
+
+-- fused_1 --
+  OCR:      're coronasti Sanctum tuum et constituisti eum super operama Eiegit en dominos sac'
+  Assigned: 'coronasti sanctum tuum et constituisti eum super opera manuum'
+  Words:    [10..19) consumed=9
+  NW score: k=9 (pre-snap), norm=5.0503
+  Anchor:   word 26 (within_chant_7), diff=7, snapped=False, forced=False
+  Alignment:
+    target            0 re coronasti Sanctum tuum et constituisti eum super opera-ma
+                      0 ---|||||||||
+    query             0 ---coronasti sanctum tuum et constituisti eum super opera ma
+    
+    target           59  Eiegit en dominos sac 81
+                     12 ---------|-..|-------- 34
+    query            57 ---------n-uum-------- 61
+
+-- fused_2 --
+  OCR:      'tote per ad sactificu'
+  Assigned: 'tuarum ~Ipsum [Domine dominus]'
+  Words:    [19..23) consumed=4
+  NW score: k=4 (pre-snap), norm=-2.5100
+  Anchor:   word 26 (within_chant_7), diff=3, snapped=False, forced=False
+  Alignment:
+    target            0 t--ote --p----------er ad sactificu-- 21
+                      0 |--...  6
+    query             0 tuarum ~Ipsum [Domine- -d-----ominus] 30
+
+-- fused_3 --
+  OCR:      'dim epostium laudis'
+  Assigned: 'euouae Inveni david'
+  Words:    [23..26) consumed=3
+  NW score: k=3 (pre-snap), norm=-2.1053
+  Anchor:   word 26 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 dim epo-------stium laudis 19
+                      0 ----|.|-------..|-- 19
+    query             0 ----euouae Inveni-- da-vid 19
+
+-- fused_4 --
+  OCR:      'umtuarumpisum evovae nuem david'
+  Assigned: 'servum meum oleo sancto meo unxi eum'
+  Words:    [26..33) consumed=7
+  NW score: k=8 (pre-snap), norm=-0.6651
+  Anchor:   word 33 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 umtuar-umpisum --evo-va---e nuem davi---d 31
+                      0 ---..|-||...|| 14
+    query             0 ---servum meum ole-o sancto -meo unxi eum 36
+
+-- fused_5 --
+  OCR:      'srm meqeo sancto me'
+  Assigned: 'Manus enim mea auxiliabitur ei Nichil'
+  Words:    [33..39) consumed=6
+  NW score: k=5 (pre-snap), norm=-1.2147
+  Anchor:   word 39 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 ----s---rm meqeo -----sanct-o me-------- 19
+                      0 ----|---.| 10
+    query             0 Manus enim m--ea auxiliabitur -ei Nichil 37
+
+-- fused_6 --
+  OCR:      'Manus emm . aai bitur. ichil'
+  Assigned: 'proficiet inimicus in eo et filius iniquitatis non nocebit eum'
+  Words:    [39..49) consumed=10
+  NW score: k=7 (pre-snap), norm=-1.9226
+  Anchor:   word 49 (within_chant_7), diff=3, snapped=False, forced=True
+  Alignment:
+    target            0 ---------Man----us--- e--mm -----. -------aai----- ----bitur
+                      0 ---------..|----||---
+    query             0 proficiet inimicus in eo et filius iniquitatis non nocebit--
+    
+    target           21 . ichil 28
+                     21 - 22
+    query            58 - --eum 62
+
+-- fused_7 --
+  OCR:      'Pat oet filius iiquitatis nocebit'
+  Assigned: 'Manus Posui adiutorium super potentem'
+  Words:    [49..54) consumed=5
+  NW score: k=5 (pre-snap), norm=-0.9444
+  Anchor:   word 54 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 Pat oet filius iiquita---t--i---s---- nocebit-- 33
+                      0 .|---------.|| 14
+    query             0 Ma---------nus Posui adiutorium super pote-ntem 37
+
+-- fused_8 --
+  OCR:      'Manus t Polin admto um super potentem'
+  Assigned: 'et exaltavi electum de plebe mea Manus enim'
+  Words:    [54..62) consumed=8
+  NW score: k=6 (pre-snap), norm=-1.0172
+  Anchor:   word 62 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 Manus t -Pol---in -admto um super p----ote----n--te--m 37
+                      0 -----.|  7
+    query             0 -----et exaltavi- elect--um --de- plebe mea Manus enim 43
+
+-- fused_9 --
+  OCR:      'et exaltam electum de ple deme manus enim me'
+  Assigned: 'mea auxiliabitur ei Inveni david servum meum'
+  Words:    [62..69) consumed=7
+  NW score: k=7 (pre-snap), norm=-0.3182
+  Anchor:   word 69 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -et -exaltam electum de- -ple-- deme manus -e-nim me-- 44
+                      0 -|.  3
+    query             0 mea auxilia----bitur -ei Inveni d-----avid servum meum 44
+
+-- fused_10 --
+  OCR:      '. eticu Onvem david servum meum'
+  Assigned: 'oleo sancto meo unxi eum Manus'
+  Words:    [69..75) consumed=6
+  NW score: k=6 (pre-snap), norm=-0.9837
+  Anchor:   word 79 (within_chant_7), diff=4, snapped=False, forced=False
+  Alignment:
+    target            0 ---. etic-u Onvem david servum -meum 31
+                      0 ---.  4
+    query             0 oleo sancto --meo unxi- -e--um Manus 30
+
+-- fused_11 --
+  OCR:      'oloo Sancto meonuxi um Manuo  ste elt q ante'
+  Assigned: 'Iste est qui ante'
+  Words:    [75..79) consumed=4
+  NW score: k=4 (pre-snap), norm=-0.2559
+  Anchor:   word 79 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 oloo Sancto meonuxi um Manuo  ste elt q-- ante 44
+                      0 -----------------------------.||| 33
+    query             0 -----------------------------Iste est qui ante 17
+
+-- fused_12 --
+  OCR:      'demn magnas virtutesope .omoms est et omns'
+  Assigned: 'deum magnas virtutes operatus est et omnis'
+  Words:    [79..86) consumed=7
+  NW score: k=7 (pre-snap), norm=5.2857
+  Anchor:   word 86 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 de-mn magnas virtutes-ope .omoms est et omn-s 42
+                      0 ||-|-  5
+    query             0 deum- magnas virtutes ope--ratus est et omnis 42
+
+-- fused_13 --
+  OCR:      'ra doctriia ejus re de sole'
+  Assigned: 'terra doctrina eius repleta est Ipse'
+  Words:    [86..92) consumed=6
+  NW score: k=4 (pre-snap), norm=3.5185
+  Anchor:   word 92 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 ---ra doctriia ejus re----- de-- --sole 27
+                      0 ---||  5
+    query             0 terra doctrina eius repleta -est Ips--e 36
+
+-- fused_14 --
+  OCR:      'popetatio omnatum p xi noca e'
+  Assigned: 'intercedat pro peccatis omnium populorum Iste est'
+  Words:    [92..99) consumed=7
+  NW score: k=6 (pre-snap), norm=0.1938
+  Anchor:   word 99 (page_break_77), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 -----------p-o-pe-tatio omnatum p----- xi noca e-- 29
+                      0 -----------|-|-||-.|||. 23
+    query             0 intercedat pro peccatis omn-ium populorum Iste est 49
+=== END DEBUG ===
+

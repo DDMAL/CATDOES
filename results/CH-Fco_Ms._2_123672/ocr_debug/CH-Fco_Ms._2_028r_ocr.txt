@@ -1,0 +1,251 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'Erunge or Domine des omee'
+  [fused_1] 'qui nos ad principium ad in a'
+  [fused_2] 'Genunt puerpera pos legemp'
+  [fused_3] 'natus es de Maria Virgine Misere Gloria Cap. Mutiphanam ivitisai e'
+  [fused_4] 'erbum caro factum est Alleluya Alleluya t habita'
+  [fused_5] 'vit in nobis Allelvya . dioria patri et filio et Spiritui Sanc'
+  [fused_6] 'pse invocabit me Alleluy.ateBertu Aley'
+  [fused_7] 'ad vi antem.'
+  [fused_8] 'Angulo ad Pas '
+  [fused_9] 'Notum fecit dominus allesuram Alleluya'
+  [fused_10] 'V viderunt os fines terre alla e'
+  [fused_11] 'salutare dei alla ad i d Par'
+  [fused_12] 'tare suimi ploria mone mvlus filius capinitsip sti peribnervenit viderunt omnes'
+  [fused_13] 'fines terre Aneluya Allelvya alutare Dei nostri alla Bla'
+  [fused_14] 'Vosicno fene alla'
+  [fused_15] 'Lecum principium in die virtutis tue in'
+  [fused_16] 'splendoribus sanctorum exutero ante Luciferum genin te'
+  [fused_17] 'ps dixit dominus evovae Nedemptionem misit dominus po'
+  [fused_18] 'pulo suo mandavit in eternumentum suum p'
+  [fused_19] 'Confitebor evovac xortum est in tene bris Lumens'
+  [fused_20] 'netis core insentors et inseratus et justio dominus'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'Erunge or Domine des omee'
+  Assigned: 'natus es de maria virgine Miserere Gloria'
+  Words:    [0..7) consumed=7
+  NW score: k=6 (pre-snap), norm=-0.7889
+  Anchor:   word 7 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 -Erunge- or Dom---------ine des----- --omee 25
+                      0 -..|..|-  8
+    query             0 natus es de --maria virgine Miserere Gloria 41
+
+-- fused_1 --
+  OCR:      'qui nos ad principium ad in a'
+  Assigned: 'Verbum caro factum est alleluya'
+  Words:    [7..12) consumed=5
+  NW score: k=5 (pre-snap), norm=-1.6342
+  Anchor:   word 15 (within_chant_7), diff=3, snapped=False, forced=False
+  Alignment:
+    target            0 ---qui --nos -ad principium---- a-d in a 29
+                      0 ---.|.  6
+    query             0 Verbum caro- fa------c--tum est alleluya 31
+
+-- fused_2 --
+  OCR:      'Genunt puerpera pos legemp'
+  Assigned: 'alleluya Et habitavit in nobis alleluya'
+  Words:    [12..18) consumed=6
+  NW score: k=6 (pre-snap), norm=-1.6330
+  Anchor:   word 15 (within_chant_7), diff=3, snapped=False, forced=False
+  Alignment:
+    target            0 --Genu---nt puerpera------ po--s --legemp 26
+                      0 --.|.|---.| 11
+    query             0 alleluya Et --habitavit in nobis alleluya 39
+
+-- fused_3 --
+  OCR:      'natus es de Maria Virgine Misere Gloria Cap. Mutiphanam ivitisai e'
+  Assigned: 'Gloria patri et filio et spiritui sancto Ipse invocabit me'
+  Words:    [18..28) consumed=10
+  NW score: k=10 (pre-snap), norm=-1.1314
+  Anchor:   word 25 (within_chant_7), diff=3, snapped=False, forced=False
+  Alignment:
+    target            0 natus es de Maria -Virgine- Mi-sere- Gloria Cap. Mutiphan---
+                      0 -----------...|||
+    query             0 -----------Gloria patr-i et filio et spiri-------tu-i sancto
+    
+    target           53 ---am i-v----itisai -e 66
+                     17 ---.. 22
+    query            40  Ipse invocabit---- me 58
+
+-- fused_4 --
+  OCR:      'erbum caro factum est Alleluya Alleluya t habita'
+  Assigned: 'alleluya Pater meus es tu alleluya'
+  Words:    [28..34) consumed=6
+  NW score: k=8 (pre-snap), norm=0.6597
+  Anchor:   word 34 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 ---erbu-m ca--ro factum est Alleluya Alleluya t habita 48
+                      0 ---|-.|-.  9
+    query             0 alle-luya Pater- --meus es- ----tu-- alleluy---------a 34
+
+-- fused_5 --
+  OCR:      'vit in nobis Allelvya . dioria patri et filio et Spiritui Sanc'
+  Assigned: 'Notum fecit dominus alleluya alleluya Salutare suum Gloria Viderunt'
+  Words:    [34..43) consumed=9
+  NW score: k=9 (pre-snap), norm=-0.0776
+  Anchor:   word 40 (within_chant_7), diff=3, snapped=False, forced=False
+  Alignment:
+    target            0 vit-- ---in nobi--s Allelvya . dioria pa--t-ri --et filio et
+                      0 ..|--
+    query             0 Notum fecit dominus alleluya alleluya Salutare suum -Gl-oria
+    
+    target           48  Spi--ritui Sanc 62
+                      5   5
+    query            58  -Vider--u----nt 67
+
+-- fused_6 --
+  OCR:      'pse invocabit me Alleluy.ateBertu Aley'
+  Assigned: 'omnes'
+  Words:    [43..44) consumed=1
+  NW score: k=5 (pre-snap), norm=0.0548
+  Anchor:   word 44 (within_chant_7), diff=4, snapped=False, forced=True
+  Alignment:
+    target            0 pse invocabit me Alleluy.ateBertu Aley 38
+                      0 -------|------|--------------------.|. 38
+    query             0 -------o------m--------------------nes  5
+
+-- fused_7 --
+  OCR:      'ad vi antem.'
+  Assigned: 'fines terre'
+  Words:    [44..46) consumed=2
+  NW score: k=2 (pre-snap), norm=-2.2630
+  Anchor:   word 53 (within_chant_7), diff=7, snapped=False, forced=False
+  Alignment:
+    target            0 ad vi--- ante-m. 12
+                      0 ---.|---  8
+    query             0 ---fines --terre 11
+
+-- fused_8 --
+  OCR:      'Angulo ad Pas'
+  Assigned: 'alleluya alleluya'
+  Words:    [46..48) consumed=2
+  NW score: k=2 (pre-snap), norm=-2.5562
+  Anchor:   word 53 (within_chant_7), diff=5, snapped=False, forced=False
+  Alignment:
+    target            0 --Angulo a---d Pas 13
+                      0 --...|..  8
+    query             0 alleluya alleluya- 17
+
+-- fused_9 --
+  OCR:      'Notum fecit dominus allesuram Alleluya'
+  Assigned: 'Salutare dei nostri alleluya Gloria'
+  Words:    [48..53) consumed=5
+  NW score: k=4 (pre-snap), norm=0.5518
+  Anchor:   word 53 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 Notum fecit domi-nus--- allesuram Alleluya 38
+                      0 ...|...|--- 11
+    query             0 Salutare--- d-ei nostri alleluya- Gl--oria 35
+
+-- fused_10 --
+  OCR:      'V viderunt os fines terre alla e'
+  Assigned: 'Tecum principium in die virtutis tue in'
+  Words:    [53..60) consumed=7
+  NW score: k=7 (pre-snap), norm=-1.7833
+  Anchor:   word 60 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ----V viderun-----t os fine--------s terre alla e 32
+                      0 ----.  5
+    query             0 Tecum ---principium in di-e virtutis t--ue ----in 39
+
+-- fused_11 --
+  OCR:      'salutare dei alla ad i d Par'
+  Assigned: 'splendoribus sanctorum ex utero ante luciferum genui te'
+  Words:    [60..68) consumed=8
+  NW score: k=6 (pre-snap), norm=-1.6718
+  Anchor:   word 68 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 sal-------u------tar---e- -de-i alla ad i----- ----d Par 28
+                      0 |.|-------|------|.|---|- 25
+    query             0 splendoribus sanctorum ex utero ante luciferum genui -te 55
+
+-- fused_12 --
+  OCR:      'tare suimi ploria mone mvlus filius capinitsip sti peribnervenit viderunt omnes'
+  Assigned: '~Dixit dominus euouae Redemptionem misit dominus populo suo mandavit in eternum'
+  Words:    [68..79) consumed=11
+  NW score: k=11 (pre-snap), norm=-0.6835
+  Anchor:   word 75 (within_chant_7), diff=4, snapped=False, forced=False
+  Alignment:
+    target            0 -----tare suimi--- ploria- ----m---one- mvlus-- fili-us capi
+                      0 -----|---
+    query             0 ~Dixit--- -dominus euo-uae Redemptionem m--isit dominus --p-
+    
+    target           40 nitsip--- sti peribnervenit vi---derunt omnes 79
+                      9 ----.|--- 18
+    query            50 ----opulo suo ---mandav--it -in eter-n--um--- 79
+
+-- fused_13 --
+  OCR:      'fines terre Aneluya Allelvya alutare Dei nostri alla Bla'
+  Assigned: 'testamentum suum ~Confitebor euouae Exortum est in tenebris lumen rectis corde misericors et'
+  Words:    [79..92) consumed=13
+  NW score: k=13 (pre-snap), norm=-1.9365
+  Anchor:   word 88 (within_chant_7), diff=4, snapped=False, forced=False
+  Alignment:
+    target            0 fines------------- ------te--r-----------r----e-- Aneluya Al
+                      0 --.||-------------
+    query             0 --testamentum suum ~Confitebor euouae Exortum est in----- te
+    
+    target           22 lelvya alutare- De--i- no------stri alla Bla 56
+                     18 .|.... 24
+    query            53 nebris -lu--men rectis corde miseri-cors -et 92
+
+-- fused_14 --
+  OCR:      'Vosicno fene alla'
+  Assigned: 'miserator et iustus dominus'
+  Words:    [92..96) consumed=4
+  NW score: k=3 (pre-snap), norm=-2.6708
+  Anchor:   word 96 (page_break_77), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 Vos-icno- fe------ne ---alla 17
+                      0 ..|-...|-  9
+    query             0 miserator -et iustus dominus 27
+
+-- fused_15 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [96..96) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_16 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [96..96) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_17 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [96..96) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_18 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [96..96) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_19 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [96..96) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_20 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [96..96) consumed=0
+  Alignment:
+    (no words left)
+=== END DEBUG ===
+

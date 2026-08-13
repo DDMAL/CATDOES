@@ -1,0 +1,167 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'misnarticulo diei illius ingressus est noe in'
+  [fused_1] 'archam et filii e jus uxor illius et uxores filiorum e'
+  [fused_2] 'jus dificavit noe altaredomi'
+  [fused_3] 'non offerens super illud holocaustum odoratus ee est do'
+  [fused_4] 'mnus Oodo rem suavita bene diat eis di'
+  [fused_5] 'cens Cresci teefims cipnecaumm et replete terram .'
+  [fused_6] 'cce ego statuam pactum meum vobiscum'
+  [fused_7] 'et cum semine m esitro posit nos Crela p Pona'
+  [fused_8] 'artum me um qmbibus ce dixit dominus'
+  [fused_9] 'cono recordabor federis mei quod'
+  [fused_10] 'De p glte cumLq obduxero inibibus'
+  [fused_11] 'celum apparebit artus mens nnim bi brs etr.'
+  [fused_12] 'menet in tm jura in comnvon'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'misnarticulo diei illius ingressus est noe in'
+  Assigned: 'In articulo diei illius ingressus est noe in'
+  Words:    [0..8) consumed=8
+  NW score: k=8 (pre-snap), norm=7.0566
+  Anchor:   word 8 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 misn-articulo diei illius ingressus est noe in 45
+                      0 --.|-|||||||| 13
+    query             0 --In articulo diei illius ingressus est noe in 44
+
+-- fused_1 --
+  OCR:      'archam et filii e jus uxor illius et uxores filiorum e'
+  Assigned: 'archam et filii eius uxor illius et uxores filiorum eius'
+  Words:    [8..18) consumed=10
+  NW score: k=9 (pre-snap), norm=7.2029
+  Anchor:   word 18 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 archam et filii e jus uxor illius et uxores filiorum e--- 54
+                      0 ||||||  6
+    query             0 archam et filii e-ius uxor illius et uxores filiorum eius 56
+
+-- fused_2 --
+  OCR:      'jus dificavit noe altaredomi'
+  Assigned: 'Et clausit Edificavit noe altare domino'
+  Words:    [18..24) consumed=6
+  NW score: k=6 (pre-snap), norm=4.7813
+  Anchor:   word 24 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -----jus-- -dificavit noe altare-domi-- 28
+                      0 -----.||-- 10
+    query             0 Et clausit Edificavit noe altare domino 39
+
+-- fused_3 --
+  OCR:      'non offerens super illud holocaustum odoratus ee est do'
+  Assigned: 'offerrens super illud holocaustum odoratus que est dominus o'
+  Words:    [24..33) consumed=9
+  NW score: k=7 (pre-snap), norm=6.2547
+  Anchor:   word 33 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 non offe-rens super illud holocaustum odoratus -ee est do---
+                      0 ----||||-||||
+    query             0 ----offerrens super illud holocaustum odoratus que est domin
+    
+    target           55 --------- 55
+                     13 --------- 22
+    query            56 us odorem 65
+
+-- fused_4 --
+  OCR:      'mnus Oodo rem suavita bene diat eis di'
+  Assigned: 'dorem suavitatis et benedixit eis dicens cre'
+  Words:    [33..39) consumed=6
+  NW score: k=5 (pre-snap), norm=2.0309
+  Anchor:   word 39 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 mnus Oodo rem suavita------ bene di-at eis di------------- 38
+                      0 --------------|||||||------ 27
+    query             0 --------------suavitatis et bene-dixit eis dicens Crescite 43
+
+-- fused_5 --
+  OCR:      'cens Cresci teefims cipnecaumm et replete terram .'
+  Assigned: 'scite et multiplicamini et replete terram Ecce'
+  Words:    [39..45) consumed=6
+  NW score: k=5 (pre-snap), norm=2.1992
+  Anchor:   word 45 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 cens Cresci teefims cipnecaum--m et replete terram ---. 50
+                      0 -------|----|---.|...||..||-|--. 32
+    query             0 -------e----t--- multiplica-mini et replete terram Ecce 40
+
+-- fused_6 --
+  OCR:      'cce ego statuam pactum meum vobiscum'
+  Assigned: 'ego statuam pactum meum vobiscum'
+  Words:    [45..50) consumed=5
+  NW score: k=5 (pre-snap), norm=7.0711
+  Anchor:   word 50 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 cce ego statuam pactum meum vobiscum 36
+                      0 ----|||  7
+    query             0 ----ego statuam pactum meum vobiscum 32
+
+-- fused_7 --
+  OCR:      'et cum semine m esitro posit nos Crela p Pona'
+  Assigned: 'et cum semine vestro post vos Crescite Ponam'
+  Words:    [50..58) consumed=8
+  NW score: k=8 (pre-snap), norm=5.0116
+  Anchor:   word 58 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 et cum semine m esitro posit nos Cre-la p Pona- 45
+                      0 ||  2
+    query             0 et cum semine -ves-tro pos-t vos Crescite Ponam 44
+
+-- fused_8 --
+  OCR:      'artum me um qmbibus ce dixit dominus'
+  Assigned: 'archum meum in nubibus celi dixit dominus'
+  Words:    [58..65) consumed=7
+  NW score: k=7 (pre-snap), norm=5.3099
+  Anchor:   word 65 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ar-tum me um--- qmbibus ce-- dixit dominus 36
+                      0 ||-.||  6
+    query             0 archum me-um in nubibus celi dixit dominus 41
+
+-- fused_9 --
+  OCR:      'cono recordabor federis mei quod'
+  Assigned: 'ad noe Et recordabor federis mei quod'
+  Words:    [65..72) consumed=7
+  NW score: k=7 (pre-snap), norm=6.0158
+  Anchor:   word 72 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -cono---- recordabor federis mei quod 32
+                      0 -..||----  9
+    query             0 ad noe Et recordabor federis mei quod 37
+
+-- fused_10 --
+  OCR:      'De p glte cumLq obduxero inibibus'
+  Assigned: 'pepigi tecum Cumque obduxero nubibus'
+  Words:    [72..77) consumed=5
+  NW score: k=5 (pre-snap), norm=3.5976
+  Anchor:   word 77 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 De p g-lte cum---Lq-- obduxero inibibus 33
+                      0 .|-|.|-.||-|||---.|-- 21
+    query             0 pe-pigi te-cum Cumque obduxero -nubibus 36
+
+-- fused_11 --
+  OCR:      'celum apparebit artus mens nnim bi brs etr.'
+  Assigned: 'celum apparebit arcus meus in nubibus Et recordabor'
+  Words:    [77..85) consumed=8
+  NW score: k=7 (pre-snap), norm=4.8707
+  Anchor:   word 85 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 celum apparebit artus mens nnim --bi brs et-----r----. 43
+                      0 |||||  5
+    query             0 celum apparebit arcus meus --in nubi-bus Et recordabor 51
+
+-- fused_12 --
+  OCR:      'menet in tm jura in comnvon'
+  Assigned: 'Per memetipsum iuravi dicit dominus non'
+  Words:    [85..91) consumed=6
+  NW score: k=6 (pre-snap), norm=1.1710
+  Anchor:   word 91 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ----menet in tm jura-- ---in com-n---von 27
+                      0 ----||.||-|...| 15
+    query             0 Per memet-ipsum iuravi dicit dominus non 39
+=== END DEBUG ===
+

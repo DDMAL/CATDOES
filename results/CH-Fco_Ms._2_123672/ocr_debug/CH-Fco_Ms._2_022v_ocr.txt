@@ -1,0 +1,191 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'bis nos ne et nomen tu bimus'
+  [fused_1] 'ostende nobis faciem tuani in erimus'
+  [fused_2] 'cenco nostri domine in beneplacito populi tu'
+  [fused_3] 'dcanorinsamtancum O. et salinr intuenium quan'
+  [fused_4] 't sit i ste qui vigre ditur ad salvan das gentes'
+  [fused_5] 'ip se etrex justici cujus generatio non ha'
+  [fused_6] 'retfinem  . Pr recursor pro nobis ingreditur secundum'
+  [fused_7] 'ordinem melchisedech pontifex factus est me ter num.'
+  [fused_8] 'dlaudet'
+  [fused_9] 'Liim pelo diaulte on et ad vers a quia prope est do dis'
+  [fused_10] 'im acevenet ad savanorim nos alcluns avempis d'
+  [fused_11] 'prnenettesteratis cmnictio gentibo et teple'
+  [fused_12] 'Alona domis dommi Aleliia pr su '
+  [fused_13] 'Aanas ren'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'bis nos ne et nomen tu bimus'
+  Assigned: 'nos domine et nomen tuum invocabimus'
+  Words:    [0..6) consumed=6
+  NW score: k=6 (pre-snap), norm=4.0316
+  Anchor:   word 21 (within_chant_7), diff=15, snapped=False, forced=False
+  Alignment:
+    target            0 bis nos ----ne et nomen tu-- ------bimus 28
+                      0 ----|||  7
+    query             0 ----nos domine et nomen tuum invocabimus 36
+
+-- fused_1 --
+  OCR:      'ostende nobis faciem tuani in erimus'
+  Assigned: 'ostende nobis faciem tuam Et salvi erimus'
+  Words:    [6..13) consumed=7
+  NW score: k=7 (pre-snap), norm=5.7524
+  Anchor:   word 21 (within_chant_7), diff=8, snapped=False, forced=False
+  Alignment:
+    target            0 ostende nobis faciem tua--ni ----in erimus 36
+                      0 |||||||  7
+    query             0 ostende nobis faciem tuam Et salvi- erimus 41
+
+-- fused_2 --
+  OCR:      'cenco nostri domine in beneplacito populi tu'
+  Assigned: 'Memento nostri domine in beneplacito populi tui vi'
+  Words:    [13..21) consumed=8
+  NW score: k=7 (pre-snap), norm=6.7949
+  Anchor:   word 21 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 --cenco nostri domine in beneplacito populi tu-------- 44
+                      0 --.||.|  7
+    query             0 Memento nostri domine in beneplacito populi tui visita 54
+
+-- fused_3 --
+  OCR:      'dcanorinsamtancum O. et salinr intuenium quan'
+  Assigned: 'sita nos in salutari tuo Et salvi Intuemini quan'
+  Words:    [21..29) consumed=8
+  NW score: k=8 (pre-snap), norm=1.8243
+  Anchor:   word 29 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 dcano-rin-sa-mtancum -O. et sal-inr intue--nium quan--- 45
+                      0 ---||-.||-||-.||--.. 20
+    query             0 ---nos in saluta--ri tuo Et salvi-- Intuemini-- quantus 46
+
+-- fused_4 --
+  OCR:      't sit i ste qui vigre ditur ad salvan das gentes'
+  Assigned: 'tus sit iste qui ingreditur ad salvandas gentes'
+  Words:    [29..36) consumed=7
+  NW score: k=7 (pre-snap), norm=6.4053
+  Anchor:   word 36 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 t sit i ste qui vi-gre ditur ad salvan das gentes 48
+                      0 --|||  5
+    query             0 --sit i-ste qui -ingre-ditur ad salvan-das gentes 43
+
+-- fused_5 --
+  OCR:      'ip se etrex justici cujus generatio non ha'
+  Assigned: 'ipse est rex iusticie Cuius generatio non ha'
+  Words:    [36..44) consumed=8
+  NW score: k=8 (pre-snap), norm=5.5818
+  Anchor:   word 44 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ip se e-t-rex justici- cujus generatio non ha--- 42
+                      0 ||-||  5
+    query             0 ip-se est rex iusticie Cuius generatio non habet 47
+
+-- fused_6 --
+  OCR:      'retfinem  . Pr recursor pro nobis ingreditur secundum'
+  Assigned: 'bet finem Precursor pro nobis ingreditur secundum ordinem'
+  Words:    [44..51) consumed=7
+  NW score: k=6 (pre-snap), norm=6.6344
+  Anchor:   word 51 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 retfinem  . Pr recursor pro nobis ingreditur secundu--------
+                      0 ---|||||---
+    query             0 ---finem--- P--recursor pro nobis ingreditur secundum ordine
+    
+    target           52 m 53
+                     11 | 12
+    query            52 m 53
+
+-- fused_7 --
+  OCR:      'ordinem melchisedech pontifex factus est me ter num.'
+  Assigned: 'melchisedech pontifex factus est in eternum'
+  Words:    [51..57) consumed=6
+  NW score: k=6 (pre-snap), norm=5.5196
+  Anchor:   word 57 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ordinem melchisedech pontifex factus est me -ter num. 52
+                      0 --------|||||||||||| 20
+    query             0 --------melchisedech pontifex factus est in eter-num- 43
+
+-- fused_8 --
+  OCR:      'dlaudet'
+  Assigned: 'Cuius Canite tuba'
+  Words:    [57..60) consumed=3
+  NW score: k=3 (pre-snap), norm=-3.4835
+  Anchor:   word 67 (within_chant_7), diff=7, snapped=False, forced=False
+  Alignment:
+    target            0 dlau------de-t---  7
+                      0 ...|------.|-|--- 17
+    query             0 Cuius Canite tuba 17
+
+-- fused_9 --
+  OCR:      'Liim pelo diaulte on et ad vers a quia prope est do dis'
+  Assigned: 'in syon quia prope est dies do'
+  Words:    [60..67) consumed=7
+  NW score: k=6 (pre-snap), norm=1.5310
+  Anchor:   word 67 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 Liim pelo diaulte on et ad vers a quia prope est d--o d--i-s
+                      0 --|.
+    query             0 --in -----------syon------------- quia prope est dies domini
+    
+    target           55 
+                      4 
+    query            34 
+
+-- fused_10 --
+  OCR:      'im acevenet ad savanorim nos alcluns avempis d'
+  Assigned: 'mini ecce veniet ad salvandum nos alleluya alleluya ~Dominus'
+  Words:    [67..75) consumed=8
+  NW score: k=6 (pre-snap), norm=2.4966
+  Anchor:   word 75 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 im ace-ven-et ad sa-vanorim nos a-lcluns a-ve--------mpi--s 
+                      0 --..||-|||-||
+    query             0 --ecce veniet ad salvan-dum nos alleluya alleluya ~Dom-inus-
+    
+    target           45 d 46
+                     13 - 14
+    query            55 - 55
+
+-- fused_11 --
+  OCR:      'prnenettesteratis cmnictio gentibo et teple'
+  Assigned: 'regnavit euouae Ecce veniet desideratus cunctis gentibus et reple'
+  Words:    [75..84) consumed=9
+  NW score: k=9 (pre-snap), norm=1.9685
+  Anchor:   word 84 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 pr--n------------------en-et-tes-teratis cmnictio gentib-o e
+                      0 -|--|------------------||-||-.||-.||||.|
+    query             0 -regnavit euouae Ecce veniet desideratus cun-ctis gentibus e
+    
+    target           36 t teple----- 43
+                     40 | 41
+    query            58 t replebitur 70
+
+-- fused_12 --
+  OCR:      'Alona domis dommi Aleliia pr su'
+  Assigned: 'bitur gloria domus domini alleluya'
+  Words:    [84..88) consumed=4
+  NW score: k=4 (pre-snap), norm=2.2402
+  Anchor:   word 91 (within_chant_7), diff=3, snapped=False, forced=False
+  Alignment:
+    target            0 Alo-na domis dom-mi -Aleliia pr su 31
+                      0 .||-.|  6
+    query             0 gloria domus domini alleluya------ 28
+
+-- fused_13 --
+  OCR:      'Aanas ren'
+  Assigned: '~Jubilate euouae e'
+  Words:    [88..91) consumed=3
+  NW score: k=3 (pre-snap), norm=-2.4873
+  Anchor:   word 91 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -----Aa------nas -ren-  9
+                      0 -----.|------.|. 16
+    query             0 ~Jubilate euouae Erunt 22
+=== END DEBUG ===
+

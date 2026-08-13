@@ -1,0 +1,271 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'Dominus qnta or familiam tua jucroit eosa'
+  [fused_1] 'pauli ad galatas Le Panliis apstolo sencundu'
+  [fused_2] 'Mathin dixe ihe disciplis  Ps cum negli'
+  [fused_3] 'litatem evovac gentem . ad benedictus autem Nomine nonne'
+  [fused_4] 'bonum semen seminasti in agro tuo unide er'
+  [fused_5] 'ad mag'
+  [fused_6] 'illis hoc fe cit ichom'
+  [fused_7] 'primum ama et avigate ea fasaiculos'
+  [fused_8] 'ad comburendum triticum autem congregate in horreum'
+  [fused_9] 'Si festum pificationis Sancte Marievenerit in Domino'
+  [fused_10] 'septuagesime tantum vl dicitu de Sancta Maria Dcta'
+  [fused_11] 'meum dicit donimus evovac e vesptina orpreces paper postea de Santo Bafilio orione festimitatis agitur a . dic dominus ad Adam'
+  [fused_12] ' vesptinaor finita oraione dica'
+  [fused_13] 'ter alte benedicamus d al V e si alique festi lux beata'
+  [fused_14] 'mntas magna venerit obbuet talii vesptina'
+  [fused_15] 'Sallo  ad d  irit dominus ad Adam'
+  [fused_16] 'de ligno quod est in medio paradisi ne comedas ni qua'
+  [fused_17] 'hora comederis mor teMorieris ae. Vene'
+  [fused_18] 'dicarius Domino Alleluya alle Luya  Deo gratias ac'
+  [fused_19] 'V Venite adoremus minis primo di do'
+  [fused_20] 'teeceterent n prmanocte'
+  [fused_21] 'mum se at nos pe vem mo crmdi cati  poiit libr genelis  . in princi'
+  [fused_22] ' panoqno fecat dena ceum et te et crra'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'Dominus qnta or familiam tua jucroit eosa'
+  Assigned: 'euouae Domine nonne bonum semen seminasti in agro tuo unde ergo'
+  Words:    [0..11) consumed=11
+  NW score: k=11 (pre-snap), norm=-0.7674
+  Anchor:   word 3 (within_chant_7), diff=8, snapped=False, forced=False
+  Alignment:
+    target            0 -------Dominus -qnta -o--------r fam-----ili--a--m tua jucro
+                      0 -------|||||-.
+    query             0 euouae Domin-e nonne bonum semen seminasti in agro tuo -u--n
+    
+    target           34 it e--osa 41
+                     14 .. 16
+    query            56 de ergo-- 63
+
+-- fused_1 --
+  OCR:      'pauli ad galatas Le Panliis apstolo sencundu'
+  Assigned: 'habet zizani'
+  Words:    [11..13) consumed=2
+  NW score: k=8 (pre-snap), norm=-1.0787
+  Anchor:   word 13 (within_chant_7), diff=6, snapped=False, forced=True
+  Alignment:
+    target            0 pauli ad galatas Le Panliis apstolo sencundu 44
+                      0 ---------.|..|-- 16
+    query             0 ---------habet-- -zizan--i--a--------------- 13
+
+-- fused_2 --
+  OCR:      'Mathin dixe ihe disciplis  Ps cum negli'
+  Assigned: 'a et ait illis hoc fecit'
+  Words:    [13..18) consumed=5
+  NW score: k=5 (pre-snap), norm=-0.8535
+  Anchor:   word 21 (within_chant_7), diff=3, snapped=False, forced=False
+  Alignment:
+    target            0 Mathin dixe ihe disciplis  Ps cum negli- 39
+                      0 -.|---  6
+    query             0 -et--- ai-----t ----illis --hoc-- fe-cit 22
+
+-- fused_3 --
+  OCR:      'litatem evovac gentem . ad benedictus autem Nomine nonne'
+  Assigned: 'inimicus homo euouae Colligite primum zizania et alligate ea fasciculos ad comburendum triticum autem congregate in horreum'
+  Words:    [18..35) consumed=17
+  NW score: k=17 (pre-snap), norm=-0.8073
+  Anchor:   word 21 (within_chant_7), diff=14, snapped=False, forced=False
+  Alignment:
+    target            0 ---li--tatem- evovac -----g--e------------n------------t--em
+                      0 ---.|--....|-
+    query             0 inimicus homo euouae Colligite primum zizania et alligate ea
+    
+    target           21  ---------. ad ---b--ened-------ictus autem Nomin------e -n-
+                     13 
+    query            60  fasciculos ad comburen-dum tritic-um autem co--ngregate in 
+    
+    target           52 -onne--  56
+                     13 -|..|--  20
+    query           116 horreum 123
+
+-- fused_4 --
+  OCR:      'bonum semen seminasti in agro tuo unide er'
+  Assigned: 'meum dicit dominus'
+  Words:    [35..38) consumed=3
+  NW score: k=12 (pre-snap), norm=-0.6699
+  Anchor:   word 38 (within_chant_7), diff=9, snapped=False, forced=True
+  Alignment:
+    target            0 bonum semen seminasti in agro tuo unide er 42
+                      0 -..||  5
+    query             0 -meum dicit dominus----------------------- 18
+
+-- fused_5 --
+  OCR:      'ad mag'
+  Assigned: 'euouae'
+  Words:    [38..39) consumed=1
+  NW score: k=1 (pre-snap), norm=-2.8333
+  Anchor:   word 39 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ad mag 6
+                      0 ....|. 6
+    query             0 euouae 6
+
+-- fused_6 --
+  OCR:      'illis hoc fe cit ichom'
+  Assigned: 'Dixit dominus ad adam'
+  Words:    [39..43) consumed=4
+  NW score: k=7 (pre-snap), norm=-1.4775
+  Anchor:   word 43 (within_chant_7), diff=3, snapped=False, forced=True
+  Alignment:
+    target            0 -illis ho----c fe cit ichom 22
+                      0 -|-.|.  6
+    query             0 Di-xit dominus ad -----adam 21
+
+-- fused_7 --
+  OCR:      'primum ama et avigate ea fasaiculos'
+  Assigned: 'de ligno quod est in medio paradisi ne comedas in qua'
+  Words:    [43..54) consumed=11
+  NW score: k=7 (pre-snap), norm=-1.1429
+  Anchor:   word 54 (within_chant_7), diff=4, snapped=False, forced=True
+  Alignment:
+    target            0 --primum -ama e-t ------------avi-gate ---ea fasai--culos 35
+                      0 --..|...  8
+    query             0 de ligno quod est in medio paradisi ne come--das in qu--a 53
+
+-- fused_8 --
+  OCR:      'ad comburendum triticum autem congregate in horreum'
+  Assigned: 'hora comederis morte morieris euouae bene'
+  Words:    [54..60) consumed=6
+  NW score: k=5 (pre-snap), norm=-0.3967
+  Anchor:   word 60 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 ---ad comburendum triticum autem co-ngr---e--gate -in horreu
+                      0 ---|-
+    query             0 hora- com---e-d---er--is m-orte- morieris euoua-e Benedicamu
+    
+    target           50 m 51
+                      5 .  6
+    query            47 s 48
+
+-- fused_9 --
+  OCR:      'Si festum pificationis Sancte Marievenerit in Domino'
+  Assigned: 'dicamus domino alleluya alleluya Deo gratias allelu'
+  Words:    [60..66) consumed=6
+  NW score: k=10 (pre-snap), norm=-1.3190
+  Anchor:   word 66 (within_chant_7), diff=4, snapped=False, forced=True
+  Alignment:
+    target            0 --Si-- --festum pificationis Sancte- Marievenerit i-n ---Dom
+                      0 --.|--
+    query             0 domino alle-lu------ya------ -a-lleluya De-o grat-ias allelu
+    
+    target           49 ino 52
+                      6 |-.  9
+    query            43 i-a 45
+
+-- fused_10 --
+  OCR:      'septuagesime tantum vl dicitu de Sancta Maria Dcta'
+  Assigned: 'ia alleluia Venite adoremus dominum qui fecit nos ~Venite IN principio fecit'
+  Words:    [66..77) consumed=11
+  NW score: k=11 (pre-snap), norm=-0.8276
+  Anchor:   word 71 (within_chant_7), diff=6, snapped=False, forced=False
+  Alignment:
+    target            0 --septu-a-gesime ta------------ntum -vl dicitu -de -Sancta -
+                      0 --.|-.|-|-.|.|.|
+    query             0 alle-luia Venite -adoremus domin-um qui fecit- nos ~Venite I
+    
+    target           40 -Mar-----ia -Dc-ta 50
+                     16 -..|-----|. 27
+    query            56 N principio fecit- 73
+
+-- fused_11 --
+  OCR:      'meum dicit donimus evovac e vesptina orpreces paper postea de Santo Bafilio orione festimitatis agitur a . dic dominus ad Adam'
+  Assigned: 'deus celum et terram et creavit'
+  Words:    [77..83) consumed=6
+  NW score: k=6 (pre-snap), norm=-3.5041
+  Anchor:   word 83 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 meum dicit donimus evovac e vesptina orpreces paper postea d
+                      0 .||.
+    query             0 deus --c------elum e------t te--------r-r------a---------m -
+    
+    target           60 e Santo Bafilio orione festimitatis agitur a . dic dominus a
+                      4 |----|---------
+    query            21 e----t--------- cr------e-----------avit--------------------
+    
+    target          120 d Adam 126
+                     19 ------  25
+    query            31 ------  31
+
+-- fused_12 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [83..83) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_13 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [83..83) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_14 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [83..83) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_15 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [83..83) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_16 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [83..83) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_17 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [83..83) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_18 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [83..83) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_19 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [83..83) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_20 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [83..83) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_21 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [83..83) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_22 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [83..83) consumed=0
+  Alignment:
+    (no words left)
+=== END DEBUG ===
+

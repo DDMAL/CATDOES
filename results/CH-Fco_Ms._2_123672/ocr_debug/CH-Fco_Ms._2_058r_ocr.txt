@@ -1,0 +1,219 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'di defece runt sicut fumus'
+  [fused_1] 'dies me Nies mei sicut umbra dedinave'
+  [fused_2] ' sicut fenum aru Cma. ant'
+  [fused_3] 'enigne fac in bona voluntate tua domine ps misciere'
+  [fused_4] 'onm est confiteri Domino  . ipsum Evovae'
+  [fused_5] ' etuant dominum omnes fines s ds evovae'
+  [fused_6] 'ate Magntudinen Deo nostro po audite celi exovac'
+  [fused_7] 'in cimbalis benesonantibus laudate denui po'
+  [fused_8] 'castais e or precessit Ymi'
+  [fused_9] 'aurora aReple'
+  [fused_10] 'tisimus ad benedots d'
+  [fused_11] 'umnmare domine hiis qui in tenebris sedent'
+  [fused_12] 'et dirige pedes nostros pacis deus Israhel evovac'
+  [fused_13] 'Denedictus dominus Deus meus po evovae.'
+  [fused_14] 'gulos dies benedicam te domine ps Exaltabo te evovac Lau'
+  [fused_15] 'dabo ten menm mu es Lands aini evorarar'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'di defece runt sicut fumus'
+  Assigned: 'me domine Quia defecerunt sicut fumus'
+  Words:    [0..6) consumed=6
+  NW score: k=6 (pre-snap), norm=4.6750
+  Anchor:   word 13 (within_chant_7), diff=7, snapped=False, forced=False
+  Alignment:
+    target            0 ---d--------i- defece runt sicut fumus 26
+                      0 ---|--------|- 14
+    query             0 me domine Quia defece-runt sicut fumus 37
+
+-- fused_1 --
+  OCR:      'dies me Nies mei sicut umbra dedinave'
+  Assigned: 'dies mei Dies mei sicut umbra declinave'
+  Words:    [6..13) consumed=7
+  NW score: k=7 (pre-snap), norm=6.0169
+  Anchor:   word 13 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 dies me- Nies mei sicut umbra de-dinave---- 37
+                      0 ||||  4
+    query             0 dies mei Dies mei sicut umbra declinaverunt 43
+
+-- fused_2 --
+  OCR:      'sicut fenum aru Cma. ant'
+  Assigned: 'runt et ego sicut fenum arui Quia'
+  Words:    [13..19) consumed=6
+  NW score: k=6 (pre-snap), norm=2.6617
+  Anchor:   word 19 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -------sicut fenum aru- Cma. ant 24
+                      0 -------||||| 12
+    query             0 et ego sicut fenum arui --Quia-- 28
+
+-- fused_3 --
+  OCR:      'enigne fac in bona voluntate tua domine ps misciere'
+  Assigned: 'Benigne fac in bona voluntate tua domine'
+  Words:    [19..26) consumed=7
+  NW score: k=8 (pre-snap), norm=6.1961
+  Anchor:   word 26 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 -enigne fac in bona voluntate tua domine ps misciere 51
+                      0 -||||||  7
+    query             0 Benigne fac in bona voluntate tua domin------------e 40
+
+-- fused_4 --
+  OCR:      'onm est confiteri Domino  . ipsum Evovae'
+  Assigned: '{Miserere} euouae Bonum est confiteri domino {Ipsum'
+  Words:    [26..33) consumed=7
+  NW score: k=7 (pre-snap), norm=2.3469
+  Anchor:   word 33 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -------------------on-m est confiteri Domino  . ipsum Evovae
+                      0 -------------------||-|
+    query             0 {Miserere} euouae Bonum est confiteri domino --{Ipsum-------
+    
+    target           40 
+                     23 
+    query            51 
+
+-- fused_5 --
+  OCR:      'etuant dominum omnes fines s ds evovae'
+  Assigned: '[Bonum]} euouae Metuant dominum omnes fines terre {Deus'
+  Words:    [33..41) consumed=8
+  NW score: k=10 (pre-snap), norm=3.3836
+  Anchor:   word 41 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 -----------------etuant dominum omnes fines s ds evovae-- 38
+                      0 -----------------|||||| 23
+    query             0 [Bonum]} euouae Metuant dominum omnes fines -terre- {Deus 55
+
+-- fused_6 --
+  OCR:      'ate Magntudinen Deo nostro po audite celi exovac'
+  Assigned: 'deus} euouae Date magnitudinem deo nostro {Audite'
+  Words:    [41..48) consumed=7
+  NW score: k=9 (pre-snap), norm=3.5562
+  Anchor:   word 48 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 --------------ate Magn-tudinen Deo nostro po audite celi exo
+                      0 --------------|||
+    query             0 deus} euouae Date magnitudinem deo nostro --{Audite---------
+    
+    target           45 vac 48
+                     17 --- 20
+    query            49 --- 49
+
+-- fused_7 --
+  OCR:      'in cimbalis benesonantibus laudate denui po'
+  Assigned: 'celi} euouae In cimbalis benesonantibus laudate deum ~Laudate'
+  Words:    [48..56) consumed=8
+  NW score: k=7 (pre-snap), norm=4.9063
+  Anchor:   word 56 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 ---i----------n cimbalis benesonantibus laudate denui ------
+                      0 ---|----------|
+    query             0 celi} euouae In cimbalis benesonantibus laudate de-um ~Lauda
+    
+    target           41 po 43
+                     15 .. 17
+    query            59 te 61
+
+-- fused_8 --
+  OCR:      'castais e or precessit Ymi'
+  Assigned: 'euouae Illuminare domine hiis qui'
+  Words:    [56..61) consumed=5
+  NW score: k=5 (pre-snap), norm=-1.8094
+  Anchor:   word 64 (within_chant_7), diff=3, snapped=False, forced=False
+  Alignment:
+    target            0 castais e ----or pre-----ce-ssit Ymi 26
+                      0 ....|---|  9
+    query             0 euoua---e Illuminare domine hiis qui 33
+
+-- fused_9 --
+  OCR:      'aurora aReple'
+  Assigned: 'in tenebris sedent'
+  Words:    [61..64) consumed=3
+  NW score: k=3 (pre-snap), norm=-3.2686
+  Anchor:   word 64 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ----auror-a aReple-- 13
+                      0 ----....|-. 11
+    query             0 in tenebris -se-dent 18
+
+-- fused_10 --
+  OCR:      'tisimus ad benedots d'
+  Assigned: 'et dirige pedes nostros in'
+  Words:    [64..69) consumed=5
+  NW score: k=5 (pre-snap), norm=-0.9415
+  Anchor:   word 74 (within_chant_7), diff=5, snapped=False, forced=False
+  Alignment:
+    target            0 -t--isimus ad bene--do-t--s -d 21
+                      0 -|--|.|----.. 13
+    query             0 et diri----ge pedes nostros in 26
+
+-- fused_11 --
+  OCR:      'umnmare domine hiis qui in tenebris sedent'
+  Assigned: 'viam pacis deus israhel euouae Benedictus dominus deus'
+  Words:    [69..77) consumed=8
+  NW score: k=8 (pre-snap), norm=-0.6089
+  Anchor:   word 74 (within_chant_7), diff=3, snapped=False, forced=False
+  Alignment:
+    target            0 --umnma-re domine-- hiis----- qui in tenebri---s ------seden
+                      0 --.|..|-..
+    query             0 viam pacis d----eus --israhel euouae Bene-dictus dominus deu
+    
+    target           41 t 42
+                     10 . 11
+    query            53 s 54
+
+-- fused_12 --
+  OCR:      'et dirige pedes nostros pacis deus Israhel evovac'
+  Assigned: 'meus ~Ipsum [Benedictus] euouae Per sin'
+  Words:    [77..83) consumed=6
+  NW score: k=8 (pre-snap), norm=-1.4321
+  Anchor:   word 83 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 -e-t dirige -pedes nostros- ---pacis deus Israhel evovac 49
+                      0 -|-.  4
+    query             0 meus ~Ipsum [Bene--dict-us] euoua--e Pe-r -singul---o--s 44
+
+-- fused_13 --
+  OCR:      'Denedictus dominus Deus meus po evovae.'
+  Assigned: 'gulos dies benedicam te domine ~Exaltabo te euouae lau'
+  Words:    [83..91) consumed=8
+  NW score: k=7 (pre-snap), norm=0.6518
+  Anchor:   word 91 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 -----Denedic---tus dominus Deus meus po evovae-------. 39
+                      0 -----.||||||---|-. 18
+    query             0 dies benedicam t-e domin-e ~Exaltabo te euouae Laudabo 52
+
+-- fused_14 --
+  OCR:      'gulos dies benedicam te domine ps Exaltabo te evovac Lau'
+  Assigned: 'dabo deum meum in vita mea ~Lauda'
+  Words:    [91..97) consumed=6
+  NW score: k=6 (pre-snap), norm=-1.0607
+  Anchor:   word 100 (page_break_77), diff=3, snapped=False, forced=False
+  Alignment:
+    target            0 gulos die-s benedicam te domine ps Exaltabo te evovac -Lau--
+                      0 ------|-|-.
+    query             0 ------d-eum me-----um ------in---- --vita-- me-----a- ~Lauda
+    
+    target           56 
+                     11 
+    query            28 
+
+-- fused_15 --
+  OCR:      'dabo ten menm mu es Lands aini evorarar'
+  Assigned: 'anima euouae Deo'
+  Words:    [97..100) consumed=3
+  NW score: k=3 (pre-snap), norm=-2.4019
+  Anchor:   word 100 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 dabo ten menm mu es Lands aini evorarar 39
+                      0 -|---------|-.|. 16
+    query             0 -a---------n-ima euoua--e ----De-o----- 16
+=== END DEBUG ===
+

@@ -26,6 +26,16 @@ python fetch_images.py rename \\
     --source ecodices --source-id 678936 \\
     --input-dir ~/Downloads/e-codices-sbe-0611/ \\
     --out-dir ~/Downloads/DDMAL/einsiedeln-611/
+
+Folio gaps
+----------
+Some manuscript pages have no chant-start entry in CantusDB (their text
+continues from the previous page's chant), so they never appear in a
+source's folio list even though the page exists and is imaged (see
+DDMAL/mothra#165). Both subcommands log a warning for each such single-step
+gap detected in the CantusDB folio list; they do not attempt to fetch or
+guess at the missing folio. Download it manually and add it to the output
+directory yourself (e.g. via `rename` with an explicit --folios) if needed.
 """
 
 import argparse
@@ -39,7 +49,7 @@ import sys
 import urllib.request
 from pathlib import Path
 
-from sources.base import folios_match, parse_folio_label
+from sources.base import detect_phantom_gaps, folios_match, parse_folio_label
 from sources.ecodices import ECodiciesSource
 
 # ---------------------------------------------------------------------------
@@ -140,6 +150,20 @@ def _make_prefix_from_rows(rows: "list[dict]") -> str:
     return f"{institution}_{shelfmark}"
 
 
+def _warn_phantom_gaps(cantus_folios: "list[str]") -> None:
+    """Log a warning for each single-step folio-list gap (see DDMAL/mothra#165).
+
+    Purely informational: does not change which folios get fetched/matched.
+    """
+    logger = logging.getLogger(__name__)
+    for candidate, prev_label, next_label in detect_phantom_gaps(cantus_folios):
+        logger.warning(
+            "Folio gap: %s missing from CantusDB (between %s/%s) — add "
+            "manually if it's a real page (see DDMAL/mothra#165)",
+            candidate, prev_label, next_label,
+        )
+
+
 def _safe_output_path(out_dir: Path, name: str) -> "Path | None":
     """Return output path, or None (with a warning) if it already exists."""
     dest = out_dir / name
@@ -165,6 +189,7 @@ def _cmd_fetch(args: argparse.Namespace) -> None:
         "CantusDB folios for source %d: %d unique IDs",
         args.source_id, len(cantus_folios),
     )
+    _warn_phantom_gaps(cantus_folios)
 
     target_folios = args.folios if args.folios else cantus_folios
     if args.folios:
@@ -288,6 +313,7 @@ def _cmd_rename(args: argparse.Namespace) -> None:
         "CantusDB folios for source %d: %d unique IDs",
         args.source_id, len(cantus_folios),
     )
+    _warn_phantom_gaps(cantus_folios)
 
     target_folios = args.folios if args.folios else cantus_folios
     if args.folios:

@@ -1,0 +1,171 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'fec ta prosunit ex lactentis oresi quo chptistus destruit hostem'
+  [fused_1] 'cum ultore  Domine dominus oaiusti no'
+  [fused_2] 'sapien ci pems ar rogan cefstum q'
+  [fused_3] 'timebat libn docti fae tantum Domini gratia'
+  [fused_4] 'cie lu men absconde'
+  [fused_5] 'se pondus glo beati temerarie sumere no'
+  [fused_6] 'lebat tantum ioria pa m ec et spiri'
+  [fused_7] 'Sancto . Cantum es Pan perum conlegio pau'
+  [fused_8] 'per in prin batus verbi ministeri'
+  [fused_9] 'u in jactu peopr odi'
+  [fused_10] 'tane leo vebea quo sit hec daci o fiunt'
+  [fused_11] 'temmonio mors es incolatus non quce a indoctu'
+  [fused_12] 'nex cunio in stus siu asingulis reo'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'fec ta prosunit ex lactentis oresi quo chptistus destruit hostem'
+  Assigned: 'profluit ex lactentis ore in quo christus destruit hostem'
+  Words:    [0..9) consumed=9
+  NW score: k=9 (pre-snap), norm=5.7617
+  Anchor:   word 15 (within_chant_7), diff=6, snapped=False, forced=False
+  Alignment:
+    target            0 fec ta pro-sunit ex lactentis oresi- quo chptistus destruit 
+                      0 -------|||-.|-||
+    query             0 -------proflu-it ex lactentis ore in quo ch-ristus destruit 
+    
+    target           58 hostem 64
+                     16 |||||| 22
+    query            51 hostem 57
+
+-- fused_1 --
+  OCR:      'cum ultore  Domine dominus oaiusti no'
+  Assigned: 'cum ultore ~Domine dominus euouae Dono'
+  Words:    [9..15) consumed=6
+  NW score: k=6 (pre-snap), norm=5.2271
+  Anchor:   word 15 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 cum ultore  Domine dominus --oaiusti --no 37
+                      0 |||  3
+    query             0 cum ultore ~Domine dominus euo--u-ae Dono 38
+
+-- fused_2 --
+  OCR:      'sapien ci pems ar rogan cefstum q'
+  Assigned: 'sapiencie plenus arrogancie fastum qui'
+  Words:    [15..20) consumed=5
+  NW score: k=5 (pre-snap), norm=4.3488
+  Anchor:   word 20 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 sapien ci- p-e-ms ar rogan c-e-f-stum q-- 33
+                      0 ||||||-||- 10
+    query             0 sapien-cie plenus ar-rogan-cie fastum qui 38
+
+-- fused_3 --
+  OCR:      'timebat libn docti fae tantum Domini gratia'
+  Assigned: 'timebat sub indocti facie tan'
+  Words:    [20..25) consumed=5
+  NW score: k=6 (pre-snap), norm=3.9062
+  Anchor:   word 25 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 timebat lib--n docti fa--e tantum Domini gratia 43
+                      0 |||||||  7
+    query             0 timebat sub in-docti facie Tantum-----------diu 35
+
+-- fused_4 --
+  OCR:      'cie lu men absconde'
+  Assigned: 'tumdiu gracie lumen'
+  Words:    [25..27) consumed=2
+  NW score: k=3 (pre-snap), norm=5.1981
+  Anchor:   word 27 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 ---cie lu men absconde 19
+                      0 ---|||  6
+    query             0 gracie lu-men--------- 12
+
+-- fused_5 --
+  OCR:      'se pondus glo beati temerarie sumere no'
+  Assigned: 'abscondebat A se pondus glorie sibi temerarie sumere no'
+  Words:    [27..36) consumed=9
+  NW score: k=9 (pre-snap), norm=3.8657
+  Anchor:   word 36 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 --------------se pondus glo--- --beati temerarie sumere no--
+                      0 --------------||
+    query             0 abscondebat A se pondus glorie sib---i temerarie sumere nole
+    
+    target           39 --- 39
+                     16 --- 19
+    query            57 bat 60
+
+-- fused_6 --
+  OCR:      'lebat tantum ioria pa m ec et spiri'
+  Assigned: 'lebat Tantumdiu Gloria patri et filio et spiri'
+  Words:    [36..43) consumed=7
+  NW score: k=7 (pre-snap), norm=2.2426
+  Anchor:   word 43 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 lebat tantum i----oria pa- m e------c et spir---i 35
+                      0 ------.|||||.|----|||| 22
+    query             0 ------Tantumdiu Gloria patri et filio et spiritui 43
+
+-- fused_7 --
+  OCR:      'Sancto . Cantum es Pan perum conlegio pau'
+  Assigned: 'tui sancto Tantumdiu Pauperum collegio pau'
+  Words:    [43..48) consumed=5
+  NW score: k=5 (pre-snap), norm=4.4634
+  Anchor:   word 48 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 Sancto . Cantum es Pan perum conlegio pau--- 41
+                      0 .|||||--  8
+    query             0 sancto-- Tantumdiu Pa-uperum collegio pauper 41
+
+-- fused_8 --
+  OCR:      'per in prin batus verbi ministeri'
+  Assigned: 'per in principio spiritu probatus verbi ministerio'
+  Words:    [48..54) consumed=6
+  NW score: k=6 (pre-snap), norm=3.9270
+  Anchor:   word 54 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 per in prin------------- ---batus verbi ministeri- 33
+                      0 ----||  6
+    query             0 ----in principio spiritu probatus verbi ministerio 46
+
+-- fused_9 --
+  OCR:      'u in jactu peopr odi'
+  Assigned: 'Non iniectu proprio datur'
+  Words:    [54..58) consumed=4
+  NW score: k=3 (pre-snap), norm=2.2572
+  Anchor:   word 58 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 --u in jactu peopr o-d---i 20
+                      0 --.  3
+    query             0 Non in-iectu proprio datur 25
+
+-- fused_10 --
+  OCR:      'tane leo vebea quo sit hec daci o fiunt'
+  Assigned: 'sed vocatus A quo fit hec dacio fiunt'
+  Words:    [58..66) consumed=8
+  NW score: k=8 (pre-snap), norm=3.6592
+  Anchor:   word 66 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 tane leo vebea----- quo sit hec daci o fiunt 39
+                      0 -----.|.  8
+    query             0 -----sed v-ocatus A quo fit hec daci-o fiunt 37
+
+-- fused_11 --
+  OCR:      'temmonio mors es incolatus non quce a indoctu'
+  Assigned: 'testimonio mors et incolatus Non iniectu In doctri'
+  Words:    [66..74) consumed=8
+  NW score: k=6 (pre-snap), norm=4.8083
+  Anchor:   word 74 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 te--mmonio mors es incolatus non quce- a in-doct---u 45
+                      0 ||--.||||| 10
+    query             0 testimonio mors et incolatus Non iniectu In doctrine 52
+
+-- fused_12 --
+  OCR:      'nex cunio in stus siu asingulis reo'
+  Assigned: 'ne poculis iustus sua singulis reddens'
+  Words:    [74..79) consumed=5
+  NW score: k=5 (pre-snap), norm=3.0857
+  Anchor:   word 79 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 nex cunio in stus siu- asingulis re----o 35
+                      0 --..||.|.  9
+    query             0 --poculis i-ustus s-ua -singulis reddens 35
+=== END DEBUG ===
+

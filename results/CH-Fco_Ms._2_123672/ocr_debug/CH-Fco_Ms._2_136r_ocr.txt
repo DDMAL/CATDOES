@@ -1,0 +1,179 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'rcito in plateas et vicos civitatis et pan'
+  [fused_1] 'peres ac debiles cecos et claudos compelle intrare ut imple'
+  [fused_2] 'adb'
+  [fused_3] 'atur domus mea Allelvya evovae die Qiis ex vo'
+  [fused_4] 'bis ho mo qui habet centum oves et si perdiderit unavi'
+  [fused_5] 'ex illis nomine dimittit non aginta novem in deserto et'
+  [fused_6] 'rot premionis inveniat illam allelum'
+  [fused_7] 'Aancione Lne mulier Habens dragnias decem'
+  [fused_8] 'et si perdide rit draginam unam nonine accendit Lucer'
+  [fused_9] 'nam et evertit domum et querit diligenter donec mue'
+  [fused_10] 'manc comane scendens Jhesus nestr in avims et se'
+  [fused_11] 'dens docebat tlirbas Alleluya eoae ad mareceptor'
+  [fused_12] 'per totam noctem laborantes nichis cepimus in verbo'
+  [fused_13] 'autem tuo laralo reches eronas inolisa'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'rcito in plateas et vicos civitatis et pan'
+  Assigned: 'Exi cito in plateas et vicos civitatis et pau'
+  Words:    [0..9) consumed=9
+  NW score: k=8 (pre-snap), norm=6.3137
+  Anchor:   word 9 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 ---rcito in plateas et vicos civitatis et pa-----n 42
+                      0 ---.||||  8
+    query             0 Exi cito in plateas et vicos civitatis et pauperes 50
+
+-- fused_1 --
+  OCR:      'peres ac debiles cecos et claudos compelle intrare ut imple'
+  Assigned: 'peres ac debiles cecos et claudos compelle intrare ut imple'
+  Words:    [9..18) consumed=9
+  NW score: k=9 (pre-snap), norm=6.6562
+  Anchor:   word 18 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 peres ac debiles cecos et claudos compelle intrare ut imple-
+                      0 ------||
+    query             0 ------ac debiles cecos et claudos compelle intrare ut implea
+    
+    target           59 --- 59
+                      8 --- 11
+    query            54 tur 57
+
+-- fused_2 --
+  OCR:      'adb'
+  Assigned: 'atur domus'
+  Words:    [18..19) consumed=1
+  NW score: k=1 (pre-snap), norm=-4.3894
+  Anchor:   word 25 (within_chant_7), diff=6, snapped=False, forced=False
+  Alignment:
+    target            0 ad---b 3
+                      0 -|---. 6
+    query             0 -domus 5
+
+-- fused_3 --
+  OCR:      'atur domus mea Allelvya evovae die Qiis ex vo'
+  Assigned: 'mea alleluya euouae Quis ex vo'
+  Words:    [19..25) consumed=6
+  NW score: k=6 (pre-snap), norm=2.8285
+  Anchor:   word 25 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 atur domus mea Allelvya evovae die Qiis ex vo--- 45
+                      0 -----------||| 14
+    query             0 -----------mea alleluya euoua----e Quis ex vobis 33
+
+-- fused_4 --
+  OCR:      'bis ho mo qui habet centum oves et si perdiderit unavi'
+  Assigned: 'bis homo qui habet centum oves et si perdiderit unam'
+  Words:    [25..34) consumed=9
+  NW score: k=9 (pre-snap), norm=6.6979
+  Anchor:   word 34 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 bis ho mo qui habet centum oves et si perdiderit unavi 54
+                      0 ----||-||  9
+    query             0 ----ho-mo qui habet centum oves et si perdiderit una-m 48
+
+-- fused_5 --
+  OCR:      'ex illis nomine dimittit non aginta novem in deserto et'
+  Assigned: 'ex illis nonne dimittit nonaginta novem in deserto et'
+  Words:    [34..43) consumed=9
+  NW score: k=9 (pre-snap), norm=7.3531
+  Anchor:   word 43 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ex illis nomine dimittit non aginta novem in deserto et 55
+                      0 ||  2
+    query             0 ex illis no-nne dimittit non-aginta novem in deserto et 53
+
+-- fused_6 --
+  OCR:      'rot premionis inveniat illam allelum'
+  Assigned: 'vadit ad illam que perierat donec inveniat illam allelu'
+  Words:    [43..52) consumed=9
+  NW score: k=9 (pre-snap), norm=2.4945
+  Anchor:   word 52 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 --rot------------- premi------onis inveniat illam allelu-m 36
+                      0 --..|------------- 18
+    query             0 vadit ad illam que p-erierat donec inveniat illam alleluya 57
+
+-- fused_7 --
+  OCR:      'Aancione Lne mulier Habens dragnias decem'
+  Assigned: 'ya euouae Que mulier habens dragmas decem'
+  Words:    [52..58) consumed=6
+  NW score: k=6 (pre-snap), norm=4.5096
+  Anchor:   word 58 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 Aancio-ne Lne mulier Habens dragnias decem 41
+                      0 ---..|-.|  9
+    query             0 ---euouae Que mulier habens drag-mas decem 38
+
+-- fused_8 --
+  OCR:      'et si perdide rit draginam unam nonine accendit Lucer'
+  Assigned: 'et si perdiderit dragmam unam nonne accendit lucer'
+  Words:    [58..66) consumed=8
+  NW score: k=8 (pre-snap), norm=6.4151
+  Anchor:   word 66 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 et si perdide rit draginam unam nonine accendit Lucer--- 53
+                      0 ||  2
+    query             0 et si perdide-rit drag-mam unam non-ne accendit lucernam 53
+
+-- fused_9 --
+  OCR:      'nam et evertit domum et querit diligenter donec mue'
+  Assigned: 'nam et everrit domum et querit diligenter donec inve'
+  Words:    [66..74) consumed=8
+  NW score: k=7 (pre-snap), norm=6.3849
+  Anchor:   word 74 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 nam et evertit domum et querit diligenter donec -mue---- 51
+                      0 ----||  6
+    query             0 ----et everrit domum et querit diligenter donec inveniat 52
+
+-- fused_10 --
+  OCR:      'manc comane scendens Jhesus nestr in avims et se'
+  Assigned: 'niat euouae Ascendens ihesus in navem et se'
+  Words:    [74..81) consumed=7
+  NW score: k=7 (pre-snap), norm=3.1403
+  Anchor:   word 81 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 manc comane -scendens Jhesus nestr in -avims et se---- 48
+                      0 ----..|.|-| 11
+    query             0 ----euoua-e Ascendens ihesus------ in navem- et sedens 42
+
+-- fused_11 --
+  OCR:      'dens docebat tlirbas Alleluya eoae ad mareceptor'
+  Assigned: 'dens docebat turbas alleluya euouae Preceptor'
+  Words:    [81..86) consumed=5
+  NW score: k=5 (pre-snap), norm=4.7698
+  Anchor:   word 86 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 dens docebat tlirbas Alleluya e-o-ae ad mareceptor 48
+                      0 -----||||||| 12
+    query             0 -----docebat t-urbas alleluya euouae ----Preceptor 40
+
+-- fused_12 --
+  OCR:      'per totam noctem laborantes nichis cepimus in verbo'
+  Assigned: 'per totam noctem laborantes nichil cepimus in verbo'
+  Words:    [86..94) consumed=8
+  NW score: k=8 (pre-snap), norm=7.7451
+  Anchor:   word 94 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 per totam noctem laborantes nichis cepimus in verbo 51
+                      0 |||  3
+    query             0 per totam noctem laborantes nichil cepimus in verbo 51
+
+-- fused_13 --
+  OCR:      'autem tuo laralo reches eronas inolisa'
+  Assigned: 'autem tuo laxabo rethe euouae Audistis quia'
+  Words:    [94..101) consumed=7
+  NW score: k=6 (pre-snap), norm=3.7368
+  Anchor:   word 101 (page_break_77), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 autem tuo laralo reches eronas ---inolis----a 38
+                      0 |||||  5
+    query             0 autem tuo laxabo rethe- euouae Audi-stis quia 43
+=== END DEBUG ===
+

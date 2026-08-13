@@ -1,0 +1,191 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'adveniet xtpistus quem Johannes predicavit agnum esse venturum'
+  [fused_1] 'ctevenio cito et merces mea mecum est'
+  [fused_2] 'dicit dominus dare unncu secundum opera sua pro diligamt'
+  [fused_3] 'mite Agnum domine dominatorem terre L . De Petra de secunda absolutio . ipsius pie'
+  [fused_4] 'teeta comiten Jehais tas smo Sancti Seonis p. Le Sancta et desidera  ue Mari'
+  [fused_5] 'Rome tecum spiritus Sanctus'
+  [fused_6] 'veniet inte et i ms atssum .oumba'
+  [fused_7] 'bit tio quodemmnase cur Sanctum vocabitin'
+  [fused_8] 'camo Quo modo fiet istud quamam'
+  [fused_9] 'cognosco et respondens Angelus Somitus XX.'
+  [fused_10] 'vato rem expecta mus A etumm eidei prit ii is'
+  [fused_11] 'reformavit corpus htis nostre confignratum corpori'
+  [fused_12] 'on eetinse et primanno in sitsecue'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'adveniet xtpistus quem Johannes predicavit agnum esse venturum'
+  Assigned: 'adveniet xpistus quem iohannes predicavit agnum esse venturum'
+  Words:    [0..8) consumed=8
+  NW score: k=8 (pre-snap), norm=7.6100
+  Anchor:   word 19 (within_chant_7), diff=11, snapped=False, forced=False
+  Alignment:
+    target            0 adveniet xtpistus quem Johannes predicavit agnum esse ventur
+                      0 ||||||||
+    query             0 adveniet x-pistus quem iohannes predicavit agnum esse ventur
+    
+    target           60 um 62
+                      8 || 10
+    query            59 um 61
+
+-- fused_1 --
+  OCR:      'ctevenio cito et merces mea mecum est'
+  Assigned: '~Exaudi deus euouae Ecce venio cito et merces mea mecum est'
+  Words:    [8..19) consumed=11
+  NW score: k=11 (pre-snap), norm=4.4732
+  Anchor:   word 19 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ---------------------cte-venio cito et merces mea mecum est
+                      0 ---------------------|.|-|||||
+    query             0 ~Exaudi deus euouae Ecce venio cito et merces mea mecum est
+    
+    target           37
+                     30
+    query            59
+
+-- fused_2 --
+  OCR:      'dicit dominus dare unncu secundum opera sua pro diligamt'
+  Assigned: 'dicit dominus dare unicuique secundum opera sua ~Diligam'
+  Words:    [19..27) consumed=8
+  NW score: k=8 (pre-snap), norm=6.0893
+  Anchor:   word 27 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 dicit dominus dare unncu---- secundum opera sua pro diligamt
+                      0 |||||
+    query             0 dicit dominus dare unicuique secundum opera sua ---~Diligam-
+    
+    target           56 
+                      5 
+    query            56 
+
+-- fused_3 --
+  OCR:      'mite Agnum domine dominatorem terre L . De Petra de secunda absolutio . ipsius pie'
+  Assigned: 'te euouae Emitte agnum domine dominatorem terre De petra deserti ad montem filie'
+  Words:    [27..40) consumed=13
+  NW score: k=13 (pre-snap), norm=3.2101
+  Anchor:   word 37 (within_chant_7), diff=3, snapped=False, forced=False
+  Alignment:
+    target            0 -----------mi-te Agnum domine dominatorem terre L . De Petra
+                      0 -----------||-||
+    query             0 te euouae Emitte agnum domine dominatorem terre---- De petra
+    
+    target           48  de secunda a-bsolutio . ipsius pie 82
+                     16  16
+    query            56  de-se--rti ad mo-ntem ----fi---lie 80
+
+-- fused_4 --
+  OCR:      'teeta comiten Jehais tas smo Sancti Seonis p. Le Sancta et desidera  ue Mari'
+  Assigned: 'syon Ave maria gratia plena dominus tecum Spiritus sanctus superveniet in te et virtus altissimi'
+  Words:    [40..55) consumed=15
+  NW score: k=15 (pre-snap), norm=-0.5502
+  Anchor:   word 43 (within_chant_7), diff=12, snapped=False, forced=False
+  Alignment:
+    target            0 ------------------t----eeta comi----te--n Jehais tas smo San
+                      0 ------------------|----.|.|
+    query             0 syon Ave maria gratia plena dominus tecum --Spiritus s----an
+    
+    target           32 ct-i --Se--onis p. Le- Sancta et desidera  ue Ma------ri 76
+                     27 ||-. 31
+    query            54 ctus superveni------et -in te et --vi--r--tus -altissimi 96
+
+-- fused_5 --
+  OCR:      'Rome tecum spiritus Sanctus'
+  Assigned: 'obumbrabit tibi quod'
+  Words:    [55..58) consumed=3
+  NW score: k=8 (pre-snap), norm=-0.4722
+  Anchor:   word 58 (within_chant_7), diff=5, snapped=False, forced=True
+  Alignment:
+    target            0 Rome tecum spir--itus Sanct-----u-s 27
+                      0 -|-----.||---.|--||-- 21
+    query             0 -o-----bum---brabit-- ----tibi quod 20
+
+-- fused_6 --
+  OCR:      'veniet inte et i ms atssum .oumba'
+  Assigned: 'enim ex te nascetur sanctum vocabitur'
+  Words:    [58..64) consumed=6
+  NW score: k=6 (pre-snap), norm=0.7727
+  Anchor:   word 67 (within_chant_7), diff=3, snapped=False, forced=False
+  Alignment:
+    target            0 veni--et inte ----et i ms a--tssum .oumb---a 33
+                      0 -|||--|.  8
+    query             0 -enim ex --te nascetur -s-anct--um vocabitur 37
+
+-- fused_7 --
+  OCR:      'bit tio quodemmnase cur Sanctum vocabitin'
+  Assigned: 'filius dei Quomodo fiet istud quoniam virum non'
+  Words:    [64..72) consumed=8
+  NW score: k=8 (pre-snap), norm=-1.0479
+  Anchor:   word 67 (within_chant_7), diff=5, snapped=False, forced=False
+  Alignment:
+    target            0 bi---t -tio qu--od----emmnas--e cur Sa--nctum vocabitin 41
+                      0 .|---.  6
+    query             0 filius dei- Quomodo fie-t istud quoniam virum no------n 47
+
+-- fused_8 --
+  OCR:      'camo Quo modo fiet istud quamam'
+  Assigned: 'cognosco et respondens angelus'
+  Words:    [72..76) consumed=4
+  NW score: k=4 (pre-snap), norm=-1.2461
+  Anchor:   word 80 (within_chant_7), diff=4, snapped=False, forced=False
+  Alignment:
+    target            0 camo Quo mo-do fiet -is-tud--- qua---mam 31
+                      0 |------|..|-.| 14
+    query             0 c------ognosco --et respondens --angelus 30
+
+-- fused_9 --
+  OCR:      'cognosco et respondens Angelus Somitus XX.'
+  Assigned: 'dixit ei Spiritus Salvatorem expectamus dominum ihesum'
+  Words:    [76..83) consumed=7
+  NW score: k=7 (pre-snap), norm=-1.3019
+  Anchor:   word 80 (within_chant_7), diff=3, snapped=False, forced=False
+  Alignment:
+    target            0 cognosco et ---r--es------pondens Ange---lus Somitus ---XX.
+                      0 ---.....
+    query             0 ---dixit ei Spiritus Salvato-re-m expectamus dominum ihesum
+    
+    target           42
+                      8
+    query            54
+
+-- fused_10 --
+  OCR:      'vato rem expecta mus A etumm eidei prit ii is'
+  Assigned: 'xpistum Qui'
+  Words:    [83..85) consumed=2
+  NW score: k=5 (pre-snap), norm=-1.1408
+  Anchor:   word 85 (within_chant_7), diff=3, snapped=False, forced=True
+  Alignment:
+    target            0 vato rem expecta mus A etumm eidei prit ii is 45
+                      0 ----------||------.|----|||------- 34
+    query             0 ----------xp------is----tum------- Qui------- 11
+
+-- fused_11 --
+  OCR:      'reformavit corpus htis nostre confignratum corpori'
+  Assigned: 'reformavit corpus humilitatis nostre configuratum corpori'
+  Words:    [85..91) consumed=6
+  NW score: k=6 (pre-snap), norm=6.7809
+  Anchor:   word 91 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 reformavit corpus h-------tis nostre confignratum corpori 50
+                      0 |||||||||| 10
+    query             0 reformavit corpus humilitatis nostre configuratum corpori 57
+
+-- fused_12 --
+  OCR:      'on eetinse et primanno in sitsecue'
+  Assigned: 'claritatis sue Sobrie et iuste et pie vivamus in hoc seculo'
+  Words:    [91..102) consumed=11
+  NW score: k=11 (pre-snap), norm=0.2009
+  Anchor:   word 102 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ----------------o-n e-et-ins-e et p---rimanno in -sitsecu-e
+                      0 ----------------|-..|-||-|.|-|
+    query             0 claritatis sue Sobrie et iuste et pie vivamus in hoc seculo
+    
+    target           34
+                     30
+    query            59
+=== END DEBUG ===
+

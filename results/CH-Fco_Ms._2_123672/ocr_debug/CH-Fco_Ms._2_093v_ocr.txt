@@ -1,0 +1,163 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'sit assidiator factus est mi chi'
+  [fused_1] 'si catle omab sscondi to replevit et in ebria'
+  [fused_2] 'vit me mari ne deduxerunt'
+  [fused_3] 'in ictum moris intam me am ent Rosue runt la'
+  [fused_4] 'pidem contra me vide domine miqntates iloe'
+  [fused_5] 'di ca cau mee defensor inte'
+  [fused_6] 'men actus sum in derisu omni populo m'
+  [fused_7] 'canticum eorum cotadi vide alium'
+  [fused_8] 'efac de nomoniammgequetunt ue mensq ad an'
+  [fused_9] 'mam me raventas .a tuam'
+  [fused_10] 'me . Quoniam triBulor ecandime deus'
+  [fused_11] 'meusntende anime mee et libera eavi'
+  [fused_12] 'propterinmicos meos eme me .emosi'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'sit assidiator factus est mi chi'
+  Assigned: 'vias meas inimicus insidiator factus est michi'
+  Words:    [0..7) consumed=7
+  NW score: k=7 (pre-snap), norm=4.1182
+  Anchor:   word 46 (within_chant_7), diff=39, snapped=False, forced=False
+  Alignment:
+    target            0 si-t --as------------sidiator factus est mi chi 32
+                      0 .|-.  4
+    query             0 vias meas inimicus insidiator factus est mi-chi 46
+
+-- fused_1 --
+  OCR:      'si catle omab sscondi to replevit et in ebria'
+  Assigned: 'sicut leo in abscondito replevit et inebriavit'
+  Words:    [7..14) consumed=7
+  NW score: k=7 (pre-snap), norm=4.7475
+  Anchor:   word 46 (within_chant_7), diff=32, snapped=False, forced=False
+  Alignment:
+    target            0 si cat-le- -omab sscondi to replevit et in ebria--- 45
+                      0 ||-|.|-||- 10
+    query             0 si-cut leo in ab--scondi-to replevit et in-ebriavit 46
+
+-- fused_2 --
+  OCR:      'vit me mari ne deduxerunt'
+  Assigned: 'me amaritudine deduxerunt'
+  Words:    [14..17) consumed=3
+  NW score: k=3 (pre-snap), norm=4.7600
+  Anchor:   word 46 (within_chant_7), diff=29, snapped=False, forced=False
+  Alignment:
+    target            0 vit me -mari--- ne deduxerunt 25
+                      0 ----||  6
+    query             0 ----me amaritudine deduxerunt 25
+
+-- fused_3 --
+  OCR:      'in ictum moris intam me am ent Rosue runt la'
+  Assigned: 'in locum mortis vitam meam et posuerunt'
+  Words:    [17..24) consumed=7
+  NW score: k=7 (pre-snap), norm=4.6591
+  Anchor:   word 46 (within_chant_7), diff=22, snapped=False, forced=False
+  Alignment:
+    target            0 in -ictum mor-is -intam me am ent Rosue runt la 44
+                      0 ||  2
+    query             0 in loc-um mortis vi-tam me-am e-t posue-runt--- 39
+
+-- fused_4 --
+  OCR:      'pidem contra me vide domine miqntates iloe'
+  Assigned: 'lapidem contra me Vide domine iniquitates illorum'
+  Words:    [24..31) consumed=7
+  NW score: k=7 (pre-snap), norm=5.3565
+  Anchor:   word 46 (within_chant_7), diff=15, snapped=False, forced=False
+  Alignment:
+    target            0 --pidem contra me vide domine -miq-ntates i-lo--e 42
+                      0 --|||||  7
+    query             0 lapidem contra me Vide domine iniquitates illorum 49
+
+-- fused_5 --
+  OCR:      'di ca cau mee defensor inte'
+  Assigned: 'et iudica causam anime mee defensor vite'
+  Words:    [31..38) consumed=7
+  NW score: k=7 (pre-snap), norm=3.9253
+  Anchor:   word 46 (within_chant_7), diff=8, snapped=False, forced=False
+  Alignment:
+    target            0 -----di ca cau--------- mee defensor -inte 27
+                      0 -----||-|| 10
+    query             0 et iudi-ca causam anime mee defensor vi-te 40
+
+-- fused_6 --
+  OCR:      'men actus sum in derisu omni populo m'
+  Assigned: 'mee Factus sum in derisu omni populo me'
+  Words:    [38..46) consumed=8
+  NW score: k=8 (pre-snap), norm=6.9143
+  Anchor:   word 46 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 men -actus sum in derisu omni populo m-- 37
+                      0 ||.  3
+    query             0 mee Factus sum in derisu omni populo meo 40
+
+-- fused_7 --
+  OCR:      'canticum eorum cotadi vide alium'
+  Assigned: 'o canticum eorum tota die Vide Salvum'
+  Words:    [46..52) consumed=6
+  NW score: k=6 (pre-snap), norm=5.8566
+  Anchor:   word 52 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 canticum eorum cota-di- vide -alium 32
+                      0 ||||||||  8
+    query             0 canticum eorum tota die Vide Salvum 35
+
+-- fused_8 --
+  OCR:      'efac de nomoniammgequetunt ue mensq ad an'
+  Assigned: 'me fac deus quoniam intraverunt aque usque ad ani'
+  Words:    [52..61) consumed=9
+  NW score: k=9 (pre-snap), norm=2.1657
+  Anchor:   word 61 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -e-fac de-- nomoniam--mgequetunt --ue mensq-- ad an---- 41
+                      0 -|-|||  6
+    query             0 me fac deus -quoniam intraverunt aque --usque ad animam 52
+
+-- fused_9 --
+  OCR:      'mam me raventas .a tuam'
+  Assigned: 'mam meam ne avertas faciem tuam a'
+  Words:    [61..67) consumed=6
+  NW score: k=5 (pre-snap), norm=4.2938
+  Anchor:   word 67 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 m-am me raventas .a---- tuam-- 23
+                      0 |-||  4
+    query             0 meam ne -avertas faciem tuam a 29
+
+-- fused_10 --
+  OCR:      'me . Quoniam triBulor ecandime deus'
+  Assigned: 'me Quoniam tribulor exaudi me deus'
+  Words:    [67..73) consumed=6
+  NW score: k=6 (pre-snap), norm=6.0296
+  Anchor:   word 73 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 me . Quoniam triBulor ecandi-me deus 35
+                      0 ||--  4
+    query             0 me-- Quoniam tribulor exaudi me deus 34
+
+-- fused_11 --
+  OCR:      'meusntende anime mee et libera eavi'
+  Assigned: 'meus Intende anime mee et libera eam'
+  Words:    [73..80) consumed=7
+  NW score: k=7 (pre-snap), norm=6.8176
+  Anchor:   word 80 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 meus--ntende anime mee et libera eavi 35
+                      0 ||||--|||||| 12
+    query             0 meus Intende anime mee et libera ea-m 36
+
+-- fused_12 --
+  OCR:      'propterinmicos meos eme me .emosi'
+  Assigned: 'propter inimicos meos eripe me Quoniam Noli'
+  Words:    [80..87) consumed=7
+  NW score: k=5 (pre-snap), norm=4.6402
+  Anchor:   word 87 (page_break_77), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 propter-in-micos meos e--me me ----.em--osi 33
+                      0 |||||||-||-||||| 16
+    query             0 propter inimicos meos eripe me Quoniam Noli 43
+=== END DEBUG ===
+

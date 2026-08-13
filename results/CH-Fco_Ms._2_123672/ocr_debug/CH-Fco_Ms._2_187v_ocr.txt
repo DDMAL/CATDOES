@@ -1,0 +1,167 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'maior internatos mlie rum Johanan ne'
+  [fused_1] 'tta ic est enim propheta et plusquam prophe ta de'
+  [fused_2] 'quo sal .nce it Nuilus Nabrihel angelus'
+  [fused_3] 'apparu ioraca ne cens nascetur tibi fili'
+  [fused_4] 'us nomen ejus Johan nes vocabi tur . Et multi in na'
+  [fused_5] 'tivitate ejus gaude bunt rit enim magnus'
+  [fused_6] 'coram domi no vinum et siceram non bi ret et mul'
+  [fused_7] 'cce constitui te ho di su ttoet'
+  [fused_8] 'Per tos ac nus ut evelias et destru'
+  [fused_9] 'o eet coisicespla teo n nomine'
+  [fused_10] 'domiinX Lu pu propheta altissimi vocabe'
+  [fused_11] 'no ibis ante faciem domini parare mas „'
+  [fused_12] 'mio . v ple prebit ante ilum in puctus'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'maior internatos mlie rum Johanan ne'
+  Assigned: 'Nullus maior inter natos mulierum iohanne'
+  Words:    [0..6) consumed=6
+  NW score: k=6 (pre-snap), norm=4.7893
+  Anchor:   word 16 (within_chant_7), diff=10, snapped=False, forced=False
+  Alignment:
+    target            0 -------maior inter-natos m-lie rum Johanan ne 36
+                      0 -------||||| 12
+    query             0 Nullus maior inter natos mulie-rum iohan---ne 41
+
+-- fused_1 --
+  OCR:      'tta ic est enim propheta et plusquam prophe ta de'
+  Assigned: 'baptista Hic est enim propheta et plus quam propheta de'
+  Words:    [6..16) consumed=10
+  NW score: k=10 (pre-snap), norm=6.5494
+  Anchor:   word 16 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ---t--ta -ic est enim propheta et plus-quam prophe ta de 49
+                      0 ---|--||  8
+    query             0 baptista Hic est enim propheta et plus quam prophe-ta de 55
+
+-- fused_2 --
+  OCR:      'quo sal .nce it Nuilus Nabrihel angelus'
+  Assigned: 'quo salvator ait Nullus Gabrihel angelus'
+  Words:    [16..22) consumed=6
+  NW score: k=6 (pre-snap), norm=5.4182
+  Anchor:   word 22 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 quo sal .nce -it Nuilus Nabrihel angelus 39
+                      0 |||  3
+    query             0 quo salvator ait Nullus Gabrihel angelus 40
+
+-- fused_3 --
+  OCR:      'apparu ioraca ne cens nascetur tibi fili'
+  Assigned: 'apparuit zacharie dicens nascetur tibi filius'
+  Words:    [22..28) consumed=6
+  NW score: k=6 (pre-snap), norm=5.1619
+  Anchor:   word 28 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 apparu i-orac-a ne --cens nascetur tibi fili-- 40
+                      0 ||||||-|-..||-|..| 18
+    query             0 apparu-it zacharie dicens nascetur tibi filius 45
+
+-- fused_4 --
+  OCR:      'us nomen ejus Johan nes vocabi tur . Et multi in na'
+  Assigned: 'nomen eius iohannes vocabitur Et multi in na'
+  Words:    [28..36) consumed=8
+  NW score: k=7 (pre-snap), norm=5.5109
+  Anchor:   word 36 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 us nomen ejus Johan nes vocabi tur . Et multi in na--------
+                      0 ---|||||
+    query             0 ---nomen eius iohan-nes vocabi-tur-- Et multi in nativitate
+    
+    target           51
+                      8
+    query            52
+
+-- fused_5 --
+  OCR:      'tivitate ejus gaude bunt rit enim magnus'
+  Assigned: 'tivitate eius gaudebunt Erit enim magnus'
+  Words:    [36..41) consumed=5
+  NW score: k=5 (pre-snap), norm=5.1685
+  Anchor:   word 41 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 tivitate ejus gaude bunt -rit enim magnus 40
+                      0 ---------|.|| 13
+    query             0 ---------eius gaude-bunt Erit enim magnus 31
+
+-- fused_6 --
+  OCR:      'coram domi no vinum et siceram non bi ret et mul'
+  Assigned: 'coram domino vinum et siceram non bibet Et'
+  Words:    [41..49) consumed=8
+  NW score: k=9 (pre-snap), norm=6.6250
+  Anchor:   word 49 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 coram domi no vinum et siceram non bi ret et mul 48
+                      0 |||||  5
+    query             0 coram domi-no vinum et siceram non bi-bet Et---- 42
+
+-- fused_7 --
+  OCR:      'cce constitui te ho di su ttoet'
+  Assigned: 'multi Ecce constitui te hodie super'
+  Words:    [49..55) consumed=6
+  NW score: k=6 (pre-snap), norm=4.1895
+  Anchor:   word 58 (within_chant_7), diff=3, snapped=False, forced=False
+  Alignment:
+    target            0 -------cce constitui te ho di- su ttoet 31
+                      0 -------||| 10
+    query             0 multi Ecce constitui te ho-die su---per 35
+
+-- fused_8 --
+  OCR:      'Per tos ac nus ut evelias et destru'
+  Assigned: 'gentes et su'
+  Words:    [55..58) consumed=3
+  NW score: k=10 (pre-snap), norm=2.5302
+  Anchor:   word 58 (within_chant_7), diff=7, snapped=False, forced=True
+  Alignment:
+    target            0 Per tos ac nus ut evelias et des--tru 35
+                      0 .|---------|----|---|---| 25
+    query             0 ge---------n----t---e---s et --super- 15
+
+-- fused_9 --
+  OCR:      'o eet coisicespla teo n nomine'
+  Assigned: 'per regna dicit dominus Ut evellas et'
+  Words:    [58..64) consumed=6
+  NW score: k=13 (pre-snap), norm=0.4216
+  Anchor:   word 64 (within_chant_7), diff=7, snapped=False, forced=True
+  Alignment:
+    target            0 o e-et coisicespla teo n nomin--------------e- 30
+                      0 -.|-..  6
+    query             0 -regna ---dic-----it---- dominus Ut evellas et 33
+
+-- fused_10 --
+  OCR:      'domiinX Lu pu propheta altissimi vocabe'
+  Assigned: 'destruas et edifices et plantes in'
+  Words:    [64..70) consumed=6
+  NW score: k=13 (pre-snap), norm=2.2926
+  Anchor:   word 70 (within_chant_7), diff=7, snapped=False, forced=True
+  Alignment:
+    target            0 domiinX Lu-- pu ----propheta --altissimi vocabe 39
+                      0 |----....|-- 12
+    query             0 d----estruas et edifices et- plantes i--------n 34
+
+-- fused_11 --
+  OCR:      'no ibis ante faciem domini parare mas „'
+  Assigned: 'nomine domini Tu puer propheta altissimi vocaberis preibis ante faciem domini parare vias'
+  Words:    [70..83) consumed=13
+  NW score: k=13 (pre-snap), norm=1.7822
+  Anchor:   word 77 (within_chant_7), diff=6, snapped=False, forced=False
+  Alignment:
+    no------------------------------------------------ ---ibis ante faciem domini parare -mas „
+    ||------------------------------------------------|---|||||||||||||||||||||||||||||||-.||--
+    nomine domini Tu puer propheta altissimi vocaberis preibis ante faciem domini parare vias--
+
+-- fused_12 --
+  OCR:      'mio . v ple prebit ante ilum in puctus'
+  Assigned: 'e'
+  Words:    [83..84) consumed=1
+  NW score: k=9 (pre-snap), norm=3.1201
+  Anchor:   word 84 (within_chant_7), diff=8, snapped=False, forced=True
+  Alignment:
+    target            0 mio . v ple prebit ante ilum in puctus 38
+                      0 ----------------------|------|------|| 38
+    query             0 ----------------------e------i------us  4
+=== END DEBUG ===
+

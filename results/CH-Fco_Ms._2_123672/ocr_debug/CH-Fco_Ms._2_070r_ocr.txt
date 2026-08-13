@@ -1,0 +1,167 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'dce nunc tempus accepta ecclesie nunc dies sa'
+  [fused_1] 'lutis commendemus nosniet ipsos in mnula'
+  [fused_2] 'pacien Ieiius multis  istici me'
+  [fused_3] 'tutis bus exibeamus nosniet ipsos si'
+  [fused_4] 'mini stros in multa pa Jneniax'
+  [fused_5] 'omnibus exibeamus n no lanarmn iistros'
+  [fused_6] 'in multa pacien ci tnon intuperetur ministeri'
+  [fused_7] 'm nostrum cce nunc tempus acceptabile'
+  [fused_8] 'ecclesie nunc dies salutis commendemus nosiiet ipsos in multa'
+  [fused_9] '. acan  onveni mo et fietu ora vat'
+  [fused_10] 'Pacato tes Darce domine parce Popi'
+  [fused_11] 'o hherditatem tuan iperoi'
+  [fused_12] 'neg Jnter vestiontum et alta replorabant sa'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'dce nunc tempus accepta ecclesie nunc dies sa'
+  Assigned: 'Ecce nunc tempus acceptabile ecce nunc dies salutis'
+  Words:    [0..8) consumed=8
+  NW score: k=7 (pre-snap), norm=5.4332
+  Anchor:   word 8 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 -dce nunc tempus accepta---- ecclesie nunc dies sa----- 45
+                      0 -.||  4
+    query             0 Ecce nunc tempus acceptabile ecc----e nunc dies salutis 51
+
+-- fused_1 --
+  OCR:      'lutis commendemus nosniet ipsos in mnula'
+  Assigned: 'commendemus nosmetipsos in multa pacientia'
+  Words:    [8..13) consumed=5
+  NW score: k=4 (pre-snap), norm=5.1709
+  Anchor:   word 13 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 lutis commendemus nosniet ipsos in mnul-----------a 40
+                      0 ------||||||||||| 17
+    query             0 ------commendemus nos-met-ipsos in m-ulta pacientia 42
+
+-- fused_2 --
+  OCR:      'pacien Ieiius multis  istici me'
+  Assigned: 'In ieiuniis multis per arma iustitie virtutis dei'
+  Words:    [13..21) consumed=8
+  NW score: k=6 (pre-snap), norm=2.3049
+  Anchor:   word 21 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 pacien Iei--ius multis -------- i-stici---------- me- 31
+                      0 ----.|  6
+    query             0 ----In ieiuniis multis per arma iustitie virtutis dei 49
+
+-- fused_3 --
+  OCR:      'tutis bus exibeamus nosniet ipsos si'
+  Assigned: 'In omnibus exibeamus nosmetipsos si'
+  Words:    [21..26) consumed=5
+  NW score: k=5 (pre-snap), norm=4.1637
+  Anchor:   word 26 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ---tutis bus exibeamus nosniet ipsos si--- 36
+                      0 ---...|--||| 12
+    query             0 In omni--bus exibeamus nos-met-ipsos sicut 38
+
+-- fused_4 --
+  OCR:      'mini stros in multa pa Jneniax'
+  Assigned: 'cut dei ministros in multa paciencia'
+  Words:    [26..31) consumed=5
+  NW score: k=5 (pre-snap), norm=4.7121
+  Anchor:   word 40 (within_chant_7), diff=9, snapped=False, forced=False
+  Alignment:
+    target            0 ----mini stros in multa pa Jnen-iax 30
+                      0 ----||||-||||| 14
+    query             0 dei mini-stros in multa pa-ciencia- 32
+
+-- fused_5 --
+  OCR:      'omnibus exibeamus n no lanarmn iistros'
+  Assigned: 'In ieiunio In omnibus exibeamus nos sicut dei ministros'
+  Words:    [31..40) consumed=9
+  NW score: k=9 (pre-snap), norm=2.4061
+  Anchor:   word 40 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 --------------omnibus exibeamus n no- --lanarmn -i-istros 38
+                      0 --------------||||||| 21
+    query             0 In ieiunio In omnibus exibeamus-- nos sicut dei ministros 55
+
+-- fused_6 --
+  OCR:      'in multa pacien ci tnon intuperetur ministeri'
+  Assigned: 'in multa patientia Ut non vituperetur ministeri'
+  Words:    [40..47) consumed=7
+  NW score: k=7 (pre-snap), norm=5.6647
+  Anchor:   word 47 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 in multa pacien ci- -t-non -intuperetur ministeri-- 45
+                      0 ||  2
+    query             0 in multa patien-tia Ut non vi-tuperetur ministerium 49
+
+-- fused_7 --
+  OCR:      'm nostrum cce nunc tempus acceptabile'
+  Assigned: 'um nostrum Ecce nunc tempus acceptabile'
+  Words:    [47..52) consumed=5
+  NW score: k=5 (pre-snap), norm=7.2062
+  Anchor:   word 52 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 m nostrum -cce nunc tempus acceptabile 37
+                      0 --|||||||  9
+    query             0 --nostrum Ecce nunc tempus acceptabile 36
+
+-- fused_8 --
+  OCR:      'ecclesie nunc dies salutis commendemus nosiiet ipsos in multa'
+  Assigned: 'ecce nunc dies salutis commendemus nosmetipsos in multa'
+  Words:    [52..60) consumed=8
+  NW score: k=8 (pre-snap), norm=6.8540
+  Anchor:   word 60 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ecclesie nunc dies salutis commendemus nosiiet ipsos in mult
+                      0 |||----|
+    query             0 ecc----e nunc dies salutis commendemus nos-met-ipsos in mult
+    
+    target           60 a 61
+                      8 |  9
+    query            54 a 55
+
+-- fused_9 --
+  OCR:      '. acan  onveni mo et fietu ora vat'
+  Assigned: 'paciencia Ut non In ieiunio et fletu orabant'
+  Words:    [60..68) consumed=8
+  NW score: k=8 (pre-snap), norm=2.0942
+  Anchor:   word 68 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 . ac-an--- -- -on----ve--ni mo et fietu ora va-t 34
+                      0 -.||-.|--- 10
+    query             0 -paciencia Ut non In ieiuni--o et fletu ora-bant 44
+
+-- fused_10 --
+  OCR:      'Pacato tes Darce domine parce Popi'
+  Assigned: 'sacerdotes dicentes Parce domine parce populo tuo'
+  Words:    [68..75) consumed=7
+  NW score: k=6 (pre-snap), norm=3.7070
+  Anchor:   word 75 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 Pac---at-o -----tes Darce domine parce Pop------i 34
+                      0 .||---.|-. 10
+    query             0 sacerdotes dicentes Parce domine parce populo tuo 49
+
+-- fused_11 --
+  OCR:      'o hherditatem tuan iperoi'
+  Assigned: 'et ne des hereditatem tuam in perdicione Inter'
+  Words:    [75..83) consumed=8
+  NW score: k=7 (pre-snap), norm=2.6247
+  Anchor:   word 83 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 ----o ---hher-ditatem tuan i--peroi----------- 25
+                      0 ----.  5
+    query             0 et ne des hereditatem tuam in perdicione Inter 46
+
+-- fused_12 --
+  OCR:      'neg Jnter vestiontum et alta replorabant sa'
+  Assigned: 'vestibulum et altare plorabant sacerdotes'
+  Words:    [83..88) consumed=5
+  NW score: k=4 (pre-snap), norm=3.6752
+  Anchor:   word 88 (page_break_77), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 neg Jnter vestiontum et alta re-plorabant sa-------- 43
+                      0 ----------|||||...|| 20
+    query             0 ----------vestibulum et alta-re plorabant sacerdotes 41
+=== END DEBUG ===
+

@@ -1,0 +1,175 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'loquebantur mutuo fratres dicen tes ecclesie sompniator ve'
+  [fused_1] 'nit venite occidamus e um et judeamus si pro'
+  [fused_2] 'tucaom moLumoi'
+  [fused_3] 'dissent Jonsephan fratres sui quod a patre cunctis fratribus'
+  [fused_4] 'plus amaretur oderant eum cpoterant ei quicquam pa'
+  [fused_5] 'cficelo qm vnde et dice bant Veni '
+  [fused_6] 'das fittera trmbus  nn eclei Lyysinahe'
+  [fused_7] 'eca seunt neni tevenunde tur'
+  [fused_8] 'manus no stre non posluantur Caro mu'
+  [fused_9] 'ceclesii  noster est ide num'
+  [fused_10] 'prodest sis'
+  [fused_11] 'ipius me nus est enim utm de'
+  [fused_12] 'tar Canttcabentes ioseptelaci vendide'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'loquebantur mutuo fratres dicen tes ecclesie sompniator ve'
+  Assigned: 'loquebantur mutuo fratres dicentes ecce sompniator venit'
+  Words:    [0..7) consumed=7
+  NW score: k=7 (pre-snap), norm=6.8081
+  Anchor:   word 19 (within_chant_7), diff=12, snapped=False, forced=False
+  Alignment:
+    target            0 loquebantur mutuo fratres dicen tes ecclesie sompniator ve--
+                      0 |||||||||||
+    query             0 loquebantur mutuo fratres dicen-tes ecc----e sompniator veni
+    
+    target           58 - 58
+                     11 - 12
+    query            55 t 56
+
+-- fused_1 --
+  OCR:      'nit venite occidamus e um et judeamus si pro'
+  Assigned: 'Venite occidamus eum et videamus si prosint'
+  Words:    [7..14) consumed=7
+  NW score: k=7 (pre-snap), norm=5.3797
+  Anchor:   word 19 (within_chant_7), diff=5, snapped=False, forced=False
+  Alignment:
+    target            0 nit venite occidamus e um et judeamus si pro---- 44
+                      0 ----.||||| 10
+    query             0 ----Venite occidamus e-um et videamus si prosint 43
+
+-- fused_2 --
+  OCR:      'tucaom moLumoi'
+  Assigned: 'illi sompnia'
+  Words:    [14..16) consumed=2
+  NW score: k=2 (pre-snap), norm=-2.4689
+  Anchor:   word 19 (within_chant_7), diff=3, snapped=False, forced=False
+  Alignment:
+    target            0 tucaom moLum-oi- 14
+                      0 --....  6
+    query             0 --illi so--mpnia 12
+
+-- fused_3 --
+  OCR:      'dissent Jonsephan fratres sui quod a patre cunctis fratribus'
+  Assigned: 'sua Cumque vidissent ioseph fratres sui quod a patre cunctis fratribus'
+  Words:    [16..27) consumed=11
+  NW score: k=11 (pre-snap), norm=5.9098
+  Anchor:   word 19 (within_chant_7), diff=8, snapped=False, forced=False
+  Alignment:
+    target            0 -------------dissent Jonsephan fratres sui quod a patre cunc
+                      0 -------------|||||||
+    query             0 sua Cumque vidissent io-seph-- fratres sui quod a patre cunc
+    
+    target           47 tis fratribus 60
+                     20 ||| 23
+    query            57 tis fratribus 70
+
+-- fused_4 --
+  OCR:      'plus amaretur oderant eum cpoterant ei quicquam pa'
+  Assigned: 'plus amaretur oderant eum nec poterant ei quicquam pa'
+  Words:    [27..36) consumed=9
+  NW score: k=8 (pre-snap), norm=6.9200
+  Anchor:   word 36 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 plus amaretur oderant eum --c-poterant ei quicquam pa------
+                      0 ||||
+    query             0 plus amaretur oderant eum nec poterant ei quicquam pacifice
+    
+    target           50
+                      4
+    query            59
+
+-- fused_5 --
+  OCR:      'cficelo qm vnde et dice bant Veni'
+  Assigned: 'cifice loqui unde et dicebant Venite dix'
+  Words:    [36..42) consumed=6
+  NW score: k=5 (pre-snap), norm=4.2670
+  Anchor:   word 42 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 cficelo q-m vnde et dice bant Veni-------- 33
+                      0 -----||-|-. 11
+    query             0 -----lo-qui unde et dice-bant Venite Dixit 35
+
+-- fused_6 --
+  OCR:      'das fittera trmbus  nn eclei Lyysinahe'
+  Assigned: 'it iudas fratribus suis ecce hysmahe'
+  Words:    [42..47) consumed=5
+  NW score: k=5 (pre-snap), norm=1.9202
+  Anchor:   word 47 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 --das fittera trmbus - nn eclei Lyysinah----e 38
+                      0 --|||  5
+    query             0 iudas f----ra-tribus suis ecce- -hys-mahelite 37
+
+-- fused_7 --
+  OCR:      'eca seunt neni tevenunde tur'
+  Assigned: 'lite transeunt venite venumdetur et'
+  Words:    [47..51) consumed=4
+  NW score: k=3 (pre-snap), norm=4.4371
+  Anchor:   word 51 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 eca seunt neni te-venunde tur--- 28
+                      0 ..|.|||||  9
+    query             0 transeunt veni-te venumde-tur et 30
+
+-- fused_8 --
+  OCR:      'manus no stre non posluantur Caro mu'
+  Assigned: 'manus nostre non polluantur Caro enim'
+  Words:    [51..57) consumed=6
+  NW score: k=5 (pre-snap), norm=6.5702
+  Anchor:   word 57 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 manus no stre non posluantur Caro ---mu 36
+                      0 |||||  5
+    query             0 manus no-stre non polluantur Caro enim- 37
+
+-- fused_9 --
+  OCR:      'ceclesii  noster est ide num'
+  Assigned: 'et frater noster est Quid enim'
+  Words:    [57..63) consumed=6
+  NW score: k=6 (pre-snap), norm=2.4842
+  Anchor:   word 63 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ce----clesii  noster est --id-e num 28
+                      0 -|----..|---. 13
+    query             0 -et frate---r noster est Quid e-nim 30
+
+-- fused_10 --
+  OCR:      'prodest sis'
+  Assigned: 'prodest si occiderimus fratrem nostrum et celaverimus'
+  Words:    [63..70) consumed=7
+  NW score: k=2 (pre-snap), norm=6.9603
+  Anchor:   word 70 (within_chant_7), diff=5, snapped=False, forced=True
+  Alignment:
+    target            0 prodest si------------------------------------------s 11
+                      0 |||||||  7
+    query             0 prodest si occiderimus fratrem nostrum et celaverimus 53
+
+-- fused_11 --
+  OCR:      'ipius me nus est enim utm de'
+  Assigned: 'sanguinem ipsius melius est enim ut venumde'
+  Words:    [70..77) consumed=7
+  NW score: k=6 (pre-snap), norm=3.4819
+  Anchor:   word 77 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 ----------ip-ius me nus est enim ut-----m de--- 28
+                      0 ----------||-||| 16
+    query             0 sanguinem ipsius melius est enim ut venum-detur 46
+
+-- fused_12 --
+  OCR:      'tar Canttcabentes ioseptelaci vendide'
+  Assigned: 'tur Caro Extrahentes ioseph de lacu vendiderunt'
+  Words:    [77..83) consumed=6
+  NW score: k=6 (pre-snap), norm=3.4848
+  Anchor:   word 83 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 tar- Canttcabentes iosep--te-laci vendide---- 37
+                      0 .||-  4
+    query             0 Caro --Extrahentes ioseph de lacu vendiderunt 43
+=== END DEBUG ===
+

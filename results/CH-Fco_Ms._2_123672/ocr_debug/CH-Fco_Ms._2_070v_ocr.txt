@@ -1,0 +1,167 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'cerdo tes dicen tes . Parte'
+  [fused_1] 'de mus in me luus que ignoran mus ne subito pro'
+  [fused_2] 'trore menis ancramus peati uni pentengie et nmnem'
+  [fused_3] 'renon possmus Attende domi misere m'
+  [fused_4] 'a pecta nimusti uina nos deus salutaris'
+  [fused_5] 'ster et propter honorem nominis tui domine'
+  [fused_6] 'oserelinquat impius viani su'
+  [fused_7] 'vurmi quuscogitatio nes su'
+  [fused_8] 'ta tur ad dominum et miserebiture'
+  [fused_9] 'est peestabilis sumra malicia dominis'
+  [fused_10] 'deus noster Xon mult dominus mortem peccato'
+  [fused_11] 'nio sedut conetta tur et in nat Qma'
+  [fused_12] 'eroli tas aemintnobis Son lempnsis'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'cerdo tes dicen tes . Parte'
+  Assigned: 'dicentes Parce ee'
+  Words:    [0..3) consumed=3
+  NW score: k=2 (pre-snap), norm=2.4689
+  Anchor:   word 3 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 cerdo tes dicen tes . Parte----------- 27
+                      0 ----------|||||-|||-- 21
+    query             0 ----------dicen-tes-- Parce Eemendemus 25
+
+-- fused_1 --
+  OCR:      'de mus in me luus que ignoran mus ne subito pro'
+  Assigned: 'mendemus in melius que ignoranter peccavimus ne subito pre'
+  Words:    [3..11) consumed=8
+  NW score: k=7 (pre-snap), norm=3.9357
+  Anchor:   word 11 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 de mus in me luus que ignoran--- -------mus ne subito pr-o--
+                      0 -------||
+    query             0 -------in me-lius que ignoranter peccavimus ne subito preocu
+    
+    target           47 ---- 47
+                      9 ---- 13
+    query            52 pati 56
+
+-- fused_2 --
+  OCR:      'trore menis ancramus peati uni pentengie et nmnem'
+  Assigned: 'ocupati die mortis queramus spacium penitencie et inve'
+  Words:    [11..18) consumed=7
+  NW score: k=7 (pre-snap), norm=2.3840
+  Anchor:   word 18 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 trore m-enis ancramus -peati uni pen-tengie et -n-mn--em 49
+                      0 --..|  5
+    query             0 --die mortis queramus sp-aci-u-m penitencie et invenire- 50
+
+-- fused_3 --
+  OCR:      'renon possmus Attende domi misere m'
+  Assigned: 'nire non possimus Attende domine et miserere qui'
+  Words:    [18..25) consumed=7
+  NW score: k=6 (pre-snap), norm=5.4675
+  Anchor:   word 25 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 renon poss-mus Attende domi----- mis--ere ---m 35
+                      0 --|||  5
+    query             0 --non possimus Attende domine et miserere quia 44
+
+-- fused_4 --
+  OCR:      'a pecta nimusti uina nos deus salutaris'
+  Assigned: 'a peccavimus tibi Adiuva nos deus salutaris'
+  Words:    [25..31) consumed=6
+  NW score: k=6 (pre-snap), norm=4.7015
+  Anchor:   word 31 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 a pecta nimus-t--i -ui-na nos deus salutaris 39
+                      0 --|||.|-.||||-|--| 18
+    query             0 --pecca-vimus tibi Adiuva nos deus salutaris 41
+
+-- fused_5 --
+  OCR:      'ster et propter honorem nominis tui domine'
+  Assigned: 'noster et propter honorem nominis tui domine libera'
+  Words:    [31..39) consumed=8
+  NW score: k=7 (pre-snap), norm=7.5834
+  Anchor:   word 39 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 --ster et propter honorem nominis tui domine------- 42
+                      0 --||||  6
+    query             0 noster et propter honorem nominis tui domine libera 51
+
+-- fused_6 --
+  OCR:      'oserelinquat impius viani su'
+  Assigned: 'nos Attende Derelinquat impius viam suam et'
+  Words:    [39..46) consumed=7
+  NW score: k=6 (pre-snap), norm=4.3327
+  Anchor:   word 46 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 -os----------erelinquat impius viani su----- 28
+                      0 -||----------|||||||||| 23
+    query             0 nos Attende Derelinquat impius via-m suam et 43
+
+-- fused_7 --
+  OCR:      'vurmi quuscogitatio nes su'
+  Assigned: 'vir iniquus cogitationes suas et rever'
+  Words:    [46..52) consumed=6
+  NW score: k=4 (pre-snap), norm=4.7343
+  Anchor:   word 52 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 vurmi- quus-cogitatio nes su---------------- 26
+                      0 |.|.|-.||||-|||||||||-||| 25
+    query             0 vir iniquus cogitatio-nes suas et revertatur 43
+
+-- fused_8 --
+  OCR:      'ta tur ad dominum et miserebiture'
+  Assigned: 'tatur ad dominum et miserebitur eius Quia beni'
+  Words:    [52..59) consumed=7
+  NW score: k=4 (pre-snap), norm=5.8490
+  Anchor:   word 59 (within_chant_7), diff=3, snapped=False, forced=True
+  Alignment:
+    target            0 ta tur ad dominum et miserebitur------------e------ 33
+                      0 -------||  9
+    query             0 -------ad dominum et miserebitur eius Quia benignus 44
+
+-- fused_9 --
+  OCR:      'est peestabilis sumra malicia dominis'
+  Assigned: 'gnus et misericors est prestabilis super maliciam dominus'
+  Words:    [59..66) consumed=7
+  NW score: k=7 (pre-snap), norm=4.1492
+  Anchor:   word 66 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 --------------est peestabilis su-mra malicia- dominis 37
+                      0 --------------||| 17
+    query             0 et misericors est prestabilis super- maliciam dominus 52
+
+-- fused_10 --
+  OCR:      'deus noster Xon mult dominus mortem peccato'
+  Assigned: 'deus noster Non vult dominus mortem peccato'
+  Words:    [66..73) consumed=7
+  NW score: k=7 (pre-snap), norm=6.8578
+  Anchor:   word 73 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 deus noster Xon mult dominus mortem peccato--- 43
+                      0 ||||  4
+    query             0 deus noster Non vult dominus mortem peccatoris 46
+
+-- fused_11 --
+  OCR:      'nio sedut conetta tur et in nat Qma'
+  Assigned: 'ris sed ut convertatur et vivat Quia pa'
+  Words:    [73..80) consumed=7
+  NW score: k=6 (pre-snap), norm=3.7052
+  Anchor:   word 80 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 nio sed-ut con-etta tur et -in nat Q------ma---- 35
+                      0 ----|||-|| 10
+    query             0 ----sed ut converta-tur et vi--vat Quia Paradisi 41
+
+-- fused_12 --
+  OCR:      'eroli tas aemintnobis Son lempnsis'
+  Assigned: 'radisi portas aperuit nobis ieiunii tempus suscipiamus'
+  Words:    [80..86) consumed=6
+  NW score: k=5 (pre-snap), norm=1.6813
+  Anchor:   word 86 (page_break_77), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 eroli tas a-e-mint-nobis --Son-- lempns-------i---s 34
+                      0 -.|--.|||  9
+    query             0 -po--rtas aperui-t nobis ieiunii tempus suscipiamus 47
+=== END DEBUG ===
+

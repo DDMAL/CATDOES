@@ -1,0 +1,163 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'istam insempiternumdeus  omnie'
+  [fused_1] 'qui custodis pactum et misericordiam servis tuis'
+  [fused_2] 'qui ambulant coram te in totocordeic'
+  [fused_3] 'ddi domine Ymnm et oratio nems quam servus'
+  [fused_4] 'tinis orat coram te vel sint oculi tui aper'
+  [fused_5] 'eet antes tu emn teenus te omini do mumstami'
+  [fused_6] ' c nocteXespice domine'
+  [fused_7] 'deSao et de excelso celorum habitacu'
+  [fused_8] 'lo dupe mine si conversus fue'
+  [fused_9] 'preselis ti et oraverit ad sanctuarium'
+  [fused_10] 'tu m Tum exandies in celo comine et libera '
+  [fused_11] 'Nos teremanibus mco rum .'
+  [fused_12] 'reccanen tepulus tius et conver'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'istam insempiternumdeus  omnie'
+  Assigned: 'in sempiternum deus israhel Domine'
+  Words:    [0..5) consumed=5
+  NW score: k=5 (pre-snap), norm=3.2251
+  Anchor:   word 5 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 istam insempiternum-deus ------- -om-nie 30
+                      0 |---.  5
+    query             0 i---n --sempiternum deus israhel Domin-e 34
+
+-- fused_1 --
+  OCR:      'qui custodis pactum et misericordiam servis tuis'
+  Assigned: 'qui custodis pactum et misericordiam servis tuis qui'
+  Words:    [5..13) consumed=8
+  NW score: k=7 (pre-snap), norm=8.0000
+  Anchor:   word 13 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 qui custodis pactum et misericordiam servis tuis---- 48
+                      0 |||  3
+    query             0 qui custodis pactum et misericordiam servis tuis qui 52
+
+-- fused_2 --
+  OCR:      'qui ambulant coram te in totocordeic'
+  Assigned: 'ambulant coram te in toto corde'
+  Words:    [13..19) consumed=6
+  NW score: k=6 (pre-snap), norm=6.1964
+  Anchor:   word 22 (within_chant_7), diff=3, snapped=False, forced=False
+  Alignment:
+    target            0 qui ambulant coram te in toto-cordeic 36
+                      0 ----|||||||| 12
+    query             0 ----ambulant coram te in toto corde-- 31
+
+-- fused_3 --
+  OCR:      'ddi domine Ymnm et oratio nems quam servus'
+  Assigned: 'suo Benedic Audi domine ymnum et orationem quam servus'
+  Words:    [19..28) consumed=9
+  NW score: k=9 (pre-snap), norm=5.0185
+  Anchor:   word 22 (within_chant_7), diff=6, snapped=False, forced=False
+  Alignment:
+    target            0 --------d-----di domine Ymn-m et oratio nems quam servus 42
+                      0 --------|-----|| 16
+    query             0 suo Benedic Audi domine ymnum et oratio-nem- quam servus 54
+
+-- fused_4 --
+  OCR:      'tinis orat coram te vel sint oculi tui aper'
+  Assigned: 'tuus orat coram te hodie ut sint oculi tui aperti'
+  Words:    [28..38) consumed=10
+  NW score: k=10 (pre-snap), norm=5.3157
+  Anchor:   word 38 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 tinis orat coram te ---ve--l sint oculi tui aper-- 43
+                      0 |-..|  5
+    query             0 t-uus orat coram te hodie ut sint oculi tui aperti 49
+
+-- fused_5 --
+  OCR:      'eet antes tu emn teenus te omini do mumstami'
+  Assigned: 'et aures tue intente Super domum istam'
+  Words:    [38..45) consumed=7
+  NW score: k=7 (pre-snap), norm=2.5434
+  Anchor:   word 45 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 eet antes tu- emn teenus te omini do mum--stami 44
+                      0 -||  3
+    query             0 -et aures tue -in-t-en---te Super do-mum istam- 38
+
+-- fused_6 --
+  OCR:      'c nocteXespice domine'
+  Assigned: 'die ac nocte Respice domine'
+  Words:    [45..50) consumed=5
+  NW score: k=5 (pre-snap), norm=5.4175
+  Anchor:   word 50 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -----c nocte-Xespice domine 21
+                      0 -----|  6
+    query             0 die ac nocte Respice domine 27
+
+-- fused_7 --
+  OCR:      'deSao et de excelso celorum habitacu'
+  Assigned: 'de sanctuario tuo et de excelso celorum habitaculo'
+  Words:    [50..58) consumed=8
+  NW score: k=8 (pre-snap), norm=5.2090
+  Anchor:   word 58 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 de------Sa------o et de excelso celorum habitacu-- 36
+                      0 ||------.|------| 17
+    query             0 de sanctuario tuo et de excelso celorum habitaculo 50
+
+-- fused_8 --
+  OCR:      'lo dupe mine si conversus fue'
+  Assigned: 'Super Domine si conversus fuerit populus'
+  Words:    [58..64) consumed=6
+  NW score: k=5 (pre-snap), norm=4.9896
+  Anchor:   word 64 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 lo dupe- --mine si conversus fue----------- 29
+                      0 ---.|||-  8
+    query             0 ---Super Domine si conversus fuerit populus 40
+
+-- fused_9 --
+  OCR:      'preselis ti et oraverit ad sanctuarium'
+  Assigned: 'tuus et oraverit ad sanctuarium tuum'
+  Words:    [64..70) consumed=6
+  NW score: k=5 (pre-snap), norm=5.3610
+  Anchor:   word 70 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 preselis ti et oraverit ad sanctuari-----um 38
+                      0 ...|------- 11
+    query             0 tuus------- et oraverit ad sanctuarium tuum 36
+
+-- fused_10 --
+  OCR:      'tu m Tum exandies in celo comine et libera'
+  Assigned: 'Tu exaudies in celo domine et libera eos'
+  Words:    [70..78) consumed=8
+  NW score: k=7 (pre-snap), norm=6.0693
+  Anchor:   word 78 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 tu m Tum exandies in celo comine et libera---- 42
+                      0 -----||-  8
+    query             0 -----Tu- exaudies in celo domine et libera eos 40
+
+-- fused_11 --
+  OCR:      'Nos teremanibus mco rum .'
+  Assigned: 'de manibus inimicorum suorum Si'
+  Words:    [78..83) consumed=5
+  NW score: k=3 (pre-snap), norm=2.1822
+  Anchor:   word 83 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 Nos teremanibus ---m-co--- ---rum -. 25
+                      0 ----.|-.||||||| 15
+    query             0 ----de- manibus inimicorum suorum Si 31
+
+-- fused_12 --
+  OCR:      'reccanen tepulus tius et conver'
+  Assigned: 'peccaverit in te populus tuus et conversus'
+  Words:    [83..90) consumed=7
+  NW score: k=7 (pre-snap), norm=4.5450
+  Anchor:   word 90 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 reccane-----n te---pulus tius et conver--- 31
+                      0 .||||.|-----| 13
+    query             0 peccaverit in te populus tuus et conversus 42
+=== END DEBUG ===
+

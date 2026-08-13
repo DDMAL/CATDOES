@@ -1,0 +1,163 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'men tuum fratribus me is alle LuVa'
+  [fused_1] 'laudabo alelue uyaConfite'
+  [fused_2] 'populis domi ne et psalmum dicam tibi .igen'
+  [fused_3] 'bns inmedie Ineclesio benedicite dealleli'
+  [fused_4] 'no de Fontibus Asrahel Allelupaalle'
+  [fused_5] 'juram  Palinum dicite nomini ejus date gloriani'
+  [fused_6] 'landie m den toto corde meoalel'
+  [fused_7] 'ra erqisim teli eluya . Ne repellas me amandatis'
+  [fused_8] 'tiis alelu vaalle in p encori'
+  [fused_9] 'domve doce me iustificati ones'
+  [fused_10] 'tantae nobis ane Iuya.'
+  [fused_11] 'Quomodocantabatimus canticim doerra'
+  [fused_12] 'aena alenn a lelian interrga'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'men tuum fratribus me is alle LuVa'
+  Assigned: 'tuum fratribus meis alleluya'
+  Words:    [0..4) consumed=4
+  NW score: k=4 (pre-snap), norm=5.4449
+  Anchor:   word 12 (within_chant_7), diff=8, snapped=False, forced=False
+  Alignment:
+    target            0 men tuum fratribus me is alle LuVa 34
+                      0 ----||||  8
+    query             0 ----tuum fratribus me-is alle-luya 28
+
+-- fused_1 --
+  OCR:      'laudabo alelue uyaConfite'
+  Assigned: 'In medio ecclesie laudabo te alleluya alleluya confite'
+  Words:    [4..12) consumed=8
+  NW score: k=8 (pre-snap), norm=1.7749
+  Anchor:   word 12 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ------------------laudabo--- a-lelu------e uya-Confite--- 25
+                      0 ------------------|||||||--- 28
+    query             0 In medio ecclesie laudabo te alleluya alleluya Confitebor 57
+
+-- fused_2 --
+  OCR:      'populis domi ne et psalmum dicam tibi .igen'
+  Assigned: 'bor tibi in populis domine et psalmum dicam tibi in gen'
+  Words:    [12..22) consumed=10
+  NW score: k=9 (pre-snap), norm=5.7835
+  Anchor:   word 22 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 --------populis domi ne et psalmum dicam tibi .i--gen----- 43
+                      0 --------||||||| 15
+    query             0 tibi in populis domi-ne et psalmum dicam tibi -in gentibus 56
+
+-- fused_3 --
+  OCR:      'bns inmedie Ineclesio benedicite dealleli'
+  Assigned: 'tibus In medio In ecclesiis benedicite deo alleluya'
+  Words:    [22..29) consumed=7
+  NW score: k=7 (pre-snap), norm=4.5165
+  Anchor:   word 29 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 bns inmedie In-e-cles-io benedicite de--allel--i 41
+                      0 .|-  3
+    query             0 In- --medio In ecclesiis benedicite deo alleluya 45
+
+-- fused_4 --
+  OCR:      'no de Fontibus Asrahel Allelupaalle'
+  Assigned: 'Domino de fontibus israhel alleluya alle'
+  Words:    [29..35) consumed=6
+  NW score: k=6 (pre-snap), norm=4.8162
+  Anchor:   word 35 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ----no de Fontibus Asrahel Allelupa-alle---- 35
+                      0 ----||  6
+    query             0 Domino de fontibus israhel alleluya alleluya 44
+
+-- fused_5 --
+  OCR:      'juram  Palinum dicite nomini ejus date gloriani'
+  Assigned: 'luya Psalmum dicite nomini eius date gloriam'
+  Words:    [35..41) consumed=6
+  NW score: k=6 (pre-snap), norm=5.1152
+  Anchor:   word 41 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 juram  P-alinum dicite nomini ejus date gloriani 47
+                      0 -------|-||-.|| 15
+    query             0 -------Psal-mum dicite nomini eius date gloria-m 39
+
+-- fused_6 --
+  OCR:      'landie m den toto corde meoalel'
+  Assigned: 'laudi eius Domino de In toto corde meo alleluya'
+  Words:    [41..50) consumed=9
+  NW score: k=9 (pre-snap), norm=4.0607
+  Anchor:   word 50 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 landi-e--- --m--- de--n toto corde meo-a-lel--- 31
+                      0 ||.||-|--- 10
+    query             0 laudi eius Domino de In toto corde meo alleluya 47
+
+-- fused_7 --
+  OCR:      'ra erqisim teli eluya . Ne repellas me amandatis'
+  Assigned: 'exquisivi te alleluya Ne repellas me a mandatis tuis'
+  Words:    [50..59) consumed=9
+  NW score: k=8 (pre-snap), norm=4.9687
+  Anchor:   word 59 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 ra erq-isi-m te--li eluya . Ne repellas me a-mandat-----is 48
+                      0 ---|.|-|||-. 12
+    query             0 ---exquisivi te al-leluya-- Ne repellas me a mandatis tuis 52
+
+-- fused_8 --
+  OCR:      'tiis alelu vaalle in p encori'
+  Assigned: 'alleluya alleluya Benedictus'
+  Words:    [59..62) consumed=3
+  NW score: k=3 (pre-snap), norm=0.1755
+  Anchor:   word 62 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 tiis a-lelu va-alle- in p en---cori 29
+                      0 -----|-||||-.|-||||-... 23
+    query             0 -----allelu-ya alleluya -Benedictus 28
+
+-- fused_9 --
+  OCR:      'domve doce me iustificati ones'
+  Assigned: 'es tu domine doce me iustificationes tuas Ne'
+  Words:    [62..70) consumed=8
+  NW score: k=6 (pre-snap), norm=5.5685
+  Anchor:   word 70 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 ------dom-ve doce me iustificati ones-------- 30
+                      0 ------|||-.| 12
+    query             0 es tu domine doce me iustificati-ones tuas Ne 44
+
+-- fused_10 --
+  OCR:      'tantae nobis ane Iuya.'
+  Assigned: 'Hymnum cantate nobis alleluya'
+  Words:    [70..74) consumed=4
+  NW score: k=4 (pre-snap), norm=2.6921
+  Anchor:   word 74 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -------tanta-e nobis a-ne Iuya. 22
+                      0 -------.||||-| 14
+    query             0 Hymnum cantate nobis alle-luya- 29
+
+-- fused_11 --
+  OCR:      'Quomodocantabatimus canticim doerra'
+  Assigned: 'Quomodo cantabimus canticum domini in terra'
+  Words:    [74..80) consumed=6
+  NW score: k=4 (pre-snap), norm=5.2759
+  Anchor:   word 80 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 Quomodo-cantabatimus canticim do---------erra 35
+                      0 |||||||-||||||--|||| 20
+    query             0 Quomodo cantab--imus canticum domini in terra 43
+
+-- fused_12 --
+  OCR:      'aena alenn a lelian interrga'
+  Assigned: 'aliena alleluya alleluya Illic interrogaverunt'
+  Words:    [80..85) consumed=5
+  NW score: k=5 (pre-snap), norm=2.1455
+  Anchor:   word 85 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 a--ena a-le--nn a lel-ia-----n interr-ga------ 28
+                      0 |--|||  6
+    query             0 aliena alleluya alleluya Illic interrogaverunt 46
+=== END DEBUG ===
+

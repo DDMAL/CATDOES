@@ -1,0 +1,169 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'mimus de quo dixeratis m cha de s'
+  [fused_1] 'misereatur tibii'
+  [fused_2] 'moetplo vit quia crumpebant cri'
+  [fused_3] 'me et te reXelito lens'
+  [fused_4] 'tem Iosepha oculos vidit benianim stantem commo ta'
+  [fused_5] 'sunt omnia inscera ejus superfratre su testi.'
+  [fused_6] 'at Ioseph undecibus ego sum Joseph'
+  [fused_7] 'quem vendidi stis me Gyptum adhuc'
+  [fused_8] ''
+  [fused_9] 'vivit pater nostersenior de quo dixeratis mihi'
+  [fused_10] 'Ite adducite eum ad me int pos sit'
+  [fused_11] 'vie  ien n est enum quod ce'
+  [fused_12] 'pitqu fdhuc restant anni quinque quibus'
+  [fused_13] 'tte arani pote int nec me 4 egorm'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'mimus de quo dixeratis m cha de s'
+  Assigned: 'minimus de quo dixeratis michi deus'
+  Words:    [0..6) consumed=6
+  NW score: k=6 (pre-snap), norm=6.3263
+  Anchor:   word 25 (within_chant_7), diff=19, snapped=False, forced=False
+  Alignment:
+    target            0 m--imus de quo dixeratis m cha de s 33
+                      0 |--||||  7
+    query             0 minimus de quo dixeratis michi deus 35
+
+-- fused_1 --
+  OCR:      'misereatur tibii'
+  Assigned: 'misereatur tibi'
+  Words:    [6..8) consumed=2
+  NW score: k=2 (pre-snap), norm=7.2941
+  Anchor:   word 25 (within_chant_7), diff=17, snapped=False, forced=False
+  Alignment:
+    target            0 misereatur tibii 16
+                      0 |||||||||| 10
+    query             0 misereatur tib-i 15
+
+-- fused_2 --
+  OCR:      'moetplo vit quia crumpebant cri'
+  Assigned: 'fili mi Festinavitque in domo et ploravit quia erumpebant lacrime'
+  Words:    [8..18) consumed=10
+  NW score: k=10 (pre-snap), norm=2.1386
+  Anchor:   word 25 (within_chant_7), diff=7, snapped=False, forced=False
+  Alignment:
+    target            0 ---------------------------mo-et-plo- vit quia crumpebant --
+                      0 ---------------------------||-||-|||-.|||
+    query             0 fili mi Festinavitque in domo et ploravit quia erumpebant la
+    
+    target           28 cri-- 31
+                     41 |||-- 46
+    query            60 crime 65
+
+-- fused_3 --
+  OCR:      'me et te reXelito lens'
+  Assigned: 'et non poterat se continere Attollens au'
+  Words:    [18..25) consumed=7
+  NW score: k=6 (pre-snap), norm=0.5257
+  Anchor:   word 25 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 me----- ---e--t te -----reXe-lito lens------ 22
+                      0 -|-----  7
+    query             0 -et non poterat se continere Attollens autem 43
+
+-- fused_4 --
+  OCR:      'tem Iosepha oculos vidit benianim stantem commo ta'
+  Assigned: 'tem ioseph oculos vidit beniamin stantem commota'
+  Words:    [25..31) consumed=6
+  NW score: k=6 (pre-snap), norm=6.0336
+  Anchor:   word 31 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 tem Iosepha oculos vidit benianim stantem commo ta 50
+                      0 ----.|||||- 11
+    query             0 ----ioseph- oculos vidit beniamin stantem commo-ta 44
+
+-- fused_5 --
+  OCR:      'sunt omnia inscera ejus superfratre su testi.'
+  Assigned: 'sunt omnia viscera eius super fratre suo Festinavitque'
+  Words:    [31..39) consumed=8
+  NW score: k=7 (pre-snap), norm=5.5390
+  Anchor:   word 39 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 sunt omnia -inscera ejus super-fratre su- testi-------. 45
+                      0 ||||  4
+    query             0 sunt omnia vi-scera eius super fratre suo Festinavitque 54
+
+-- fused_6 --
+  OCR:      'at Ioseph undecibus ego sum Joseph'
+  Assigned: 'Dixit ioseph undecim fratribus ego sum ioseph'
+  Words:    [39..46) consumed=7
+  NW score: k=7 (pre-snap), norm=4.9086
+  Anchor:   word 46 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ---at Ioseph undec--------ibus ego sum Joseph 34
+                      0 ---.|  5
+    query             0 Dixit ioseph undecim fratribus ego sum ioseph 45
+
+-- fused_7 --
+  OCR:      'quem vendidi stis me Gyptum adhuc'
+  Assigned: 'quem vendidistis in egyptum adhuc vivit'
+  Words:    [46..52) consumed=6
+  NW score: k=5 (pre-snap), norm=6.1515
+  Anchor:   word 52 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 quem vendidi stis me -Gyptum adhuc------ 33
+                      0 ||||  4
+    query             0 quem vendidi-stis in egyptum adhuc vivit 39
+
+-- fused_8 --
+  OCR:      ''
+  Assigned: 'pater noster senior de quo dixeratis michi Ite'
+  Words:    [52..60) consumed=8
+
+-- fused_9 --
+  OCR:      'vivit pater nostersenior de quo dixeratis mihi'
+  Assigned: 'adducite eum ad me ut possit vivere Biennum est enim quod cepit esse fames in'
+  Words:    [60..75) consumed=15
+  NW score: k=15 (pre-snap), norm=-0.8401
+  Anchor:   word 67 (within_chant_7), diff=8, snapped=False, forced=False
+  Alignment:
+    target            0 --vivit- ---pa--te--r nos--t----er---senior ---de--- quo dix
+                      0 --...||-
+    query             0 adducite eum ad me ut possit vivere Biennum est enim quo-d c
+    
+    target           35 erat--is- --m-ihi- 46
+                      8 |..|--.|- 17
+    query            59 epit esse fames in 77
+
+-- fused_10 --
+  OCR:      'Ite adducite eum ad me int pos sit'
+  Assigned: 'terra adhuc restant anni quinque quibus'
+  Words:    [75..81) consumed=6
+  NW score: k=4 (pre-snap), norm=-0.1400
+  Anchor:   word 81 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 Ite--- adducite -e---um a--d me int pos -si--t 34
+                      0 -||---  6
+    query             0 -terra adhuc--- restant anni -quin--que quibus 39
+
+-- fused_11 --
+  OCR:      'vie  ien n est enum quod ce'
+  Assigned: 'nec arari poterit nec meti Ite Nunciaverunt'
+  Words:    [81..88) consumed=7
+  NW score: k=6 (pre-snap), norm=-1.1595
+  Anchor:   word 88 (page_break_77), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 vie  ----i----e--n n-- -est- --enum quod c---e---- 27
+                      0 -.|.  4
+    query             0 -nec arari poterit nec me-ti Ite--- Nu--nciaverunt 43
+
+-- fused_12 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [88..88) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_13 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [88..88) consumed=0
+  Alignment:
+    (no words left)
+=== END DEBUG ===
+

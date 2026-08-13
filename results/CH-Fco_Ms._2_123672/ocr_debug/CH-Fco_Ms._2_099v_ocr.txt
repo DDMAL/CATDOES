@@ -1,0 +1,167 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'est caro autem in fir ma fiat volun tua'
+  [fused_1] 'vigilate et qu tut non intretis in temp '
+  [fused_2] 'nonem . iristis est anima me'
+  [fused_3] 'seet ad tem sustinere hic et vngilate'
+  [fused_4] 'cum nunc videbi tis turbam que circundabit'
+  [fused_5] 'vos fu Gam caprie tis et e Ego va dam'
+  [fused_6] 'immola ri pro no bis'
+  [fused_7] 'propinquat bora et filius hominis tradetur in manus'
+  [fused_8] 'Preeictio rum . vose vidimus'
+  [fused_9] 'eum non halentem speaemede co'
+  [fused_10] 'tee nnoi at ne'
+  [fused_11] 'peccata nostra porta vut et pro nobis'
+  [fused_12] 'co cenanuie ies men tem nianera tus est pror'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'est caro autem in fir ma fiat volun tua'
+  Assigned: 'est caro autem infirma fiat voluntas tua'
+  Words:    [0..7) consumed=7
+  NW score: k=7 (pre-snap), norm=6.8107
+  Anchor:   word 15 (within_chant_7), diff=8, snapped=False, forced=False
+  Alignment:
+    target            0 est caro autem in fir ma fiat volun--- tua 39
+                      0 |||  3
+    query             0 est caro autem in-fir-ma fiat voluntas tua 40
+
+-- fused_1 --
+  OCR:      'vigilate et qu tut non intretis in temp'
+  Assigned: 'Vigilate et orate ut non intretis in tempta'
+  Words:    [7..15) consumed=8
+  NW score: k=7 (pre-snap), norm=5.0974
+  Anchor:   word 15 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 vigilate et qu t--ut non intretis in temp-------- 39
+                      0 .|||||||  8
+    query             0 Vigilate et orate ut non intretis in temptationem 49
+
+-- fused_2 --
+  OCR:      'nonem . iristis est anima me'
+  Assigned: 'tionem Spiritus Tristis est anima mea'
+  Words:    [15..20) consumed=5
+  NW score: k=5 (pre-snap), norm=3.6573
+  Anchor:   word 20 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -nonem . iristis est anima me- 28
+                      0 -.......  8
+    query             0 Spiritus Tristis est anima mea 30
+
+-- fused_3 --
+  OCR:      'seet ad tem sustinere hic et vngilate'
+  Assigned: 'usque ad mortem sustinete hic et vigilate'
+  Words:    [20..27) consumed=7
+  NW score: k=7 (pre-snap), norm=5.5201
+  Anchor:   word 27 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -s-eet ad ---tem sustinere hic et vngilate 37
+                      0 -|-.|-  6
+    query             0 usque- ad mortem sustinete hic et vigilate 41
+
+-- fused_4 --
+  OCR:      'cum nunc videbi tis turbam que circundabit'
+  Assigned: 'mecum nunc videbitis turbam que circumdat me'
+  Words:    [27..34) consumed=7
+  NW score: k=6 (pre-snap), norm=6.5547
+  Anchor:   word 34 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 --cum nunc videbi tis turbam que circundabit--- 42
+                      0 --|||  5
+    query             0 mecum nunc videbi-tis turbam que circumda--t me 44
+
+-- fused_5 --
+  OCR:      'vos fu Gam caprie tis et e Ego va dam'
+  Assigned: 'Vos fugam capietis et ego vadam'
+  Words:    [34..40) consumed=6
+  NW score: k=6 (pre-snap), norm=5.4330
+  Anchor:   word 40 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 vos fu Gam caprie tis et e Ego va dam 37
+                      0 .||  3
+    query             0 Vos fu-gam cap-ie-tis et e--go va-dam 31
+
+-- fused_6 --
+  OCR:      'immola ri pro no bis'
+  Assigned: 'immolari pro vobis Ecce ap'
+  Words:    [40..45) consumed=5
+  NW score: k=3 (pre-snap), norm=6.1664
+  Anchor:   word 45 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 immola ri pro no bis------------------ 20
+                      0 ||||||-||  9
+    query             0 immola-ri pro vo-bis Ecce appropinquat 36
+
+-- fused_7 --
+  OCR:      'propinquat bora et filius hominis tradetur in manus'
+  Assigned: 'propinquat hora et filius hominis tradetur in manus'
+  Words:    [45..52) consumed=7
+  NW score: k=7 (pre-snap), norm=5.9779
+  Anchor:   word 52 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 propinquat bora et filius hominis tradetur in manus 51
+                      0 -----------.||| 15
+    query             0 -----------hora et filius hominis tradetur in manus 40
+
+-- fused_8 --
+  OCR:      'Preeictio rum . vose vidimus'
+  Assigned: 'peccatorum Vos Ecce vidimus'
+  Words:    [52..56) consumed=4
+  NW score: k=4 (pre-snap), norm=2.9096
+  Anchor:   word 56 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 Preeic-tio rum . vos----e vidimus 28
+                      0 --.|.|-|-|-|||-- 16
+    query             0 --peccat-o-rum-- Vos Ecce vidimus 27
+
+-- fused_9 --
+  OCR:      'eum non halentem speaemede co'
+  Assigned: 'eum non habentem speciem neque decorem'
+  Words:    [56..62) consumed=6
+  NW score: k=4 (pre-snap), norm=4.8897
+  Anchor:   word 62 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 eum non halentem spe-aem--e-de --co--- 29
+                      0 |||  3
+    query             0 eum non habentem speciem neque decorem 38
+
+-- fused_10 --
+  OCR:      'tee nnoi at ne'
+  Assigned: 'aspectus eius in eo non est hic peccata'
+  Words:    [62..70) consumed=8
+  NW score: k=7 (pre-snap), norm=-1.5360
+  Anchor:   word 70 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 -----t---e--e -n----noi -at---- ne----- 14
+                      0 -----|---|--. 13
+    query             0 aspectus eius in eo non est hic peccata 39
+
+-- fused_11 --
+  OCR:      'peccata nostra porta vut et pro nobis'
+  Assigned: 'nostra portavit et pro nobis dolens ipse'
+  Words:    [70..77) consumed=7
+  NW score: k=5 (pre-snap), norm=5.4681
+  Anchor:   word 77 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 peccata nostra porta vut et pro nobis------------ 37
+                      0 --------|||||| 14
+    query             0 --------nostra porta-vit et pro nobis dolens ipse 40
+
+-- fused_12 --
+  OCR:      'co cenanuie ies men tem nianera tus est pror'
+  Assigned: 'autem vulneratus est propter iniquitates nostras'
+  Words:    [77..83) consumed=6
+  NW score: k=4 (pre-snap), norm=2.1368
+  Anchor:   word 83 (page_break_77), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 co cenanuie ies men tem nianera tus est pro-----------------
+                      0 ------|-|-----------|||
+    query             0 ------a-u-----------tem vulnera-tus est propter iniquitates 
+    
+    target           43 ----r-- 44
+                     23 ----|-- 30
+    query            41 nostras 48
+=== END DEBUG ===
+

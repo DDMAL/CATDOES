@@ -1,0 +1,167 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'capiatis me et a generationibusme Comps'
+  [fused_1] 'mi Luya Yacon me m'
+  [fused_2] 's'
+  [fused_3] 'et iptu tis. mis teudivi voceni de'
+  [fused_4] 'ce lo tamquam vodem conitrui magni alle'
+  [fused_5] 'vuPa regna bit deusnoster meternum al'
+  [fused_6] 'en da quia factanis et jurtus ppot'
+  [fused_7] 'stas xptisti ejus Allelvya ale Iu nox'
+  [fused_8] 'de trono erunt dicensaudem Deo nostro omn'
+  [fused_9] 'nes omnes et qui tine tis deum pusu'
+  [fused_10] 'c ns men omius et admene i mo beliis'
+  [fused_11] 'Angelis cens veostendam tibui novam'
+  [fused_12] 'mp tan spon sai ag nu asin di hemsalem des'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'capiatis me et a generationibusme Comps'
+  Assigned: 'me et a generationibus meis'
+  Words:    [0..5) consumed=5
+  NW score: k=5 (pre-snap), norm=4.3452
+  Anchor:   word 11 (within_chant_7), diff=6, snapped=False, forced=False
+  Alignment:
+    target            0 capiatis me et a generationibus-me Comps 39
+                      0 ---------|| 11
+    query             0 ---------me et a generationibus me----is 27
+
+-- fused_1 --
+  OCR:      'mi Luya Yacon me m'
+  Assigned: 'adimplemini alleluya alleluya In me gra'
+  Words:    [5..11) consumed=6
+  NW score: k=5 (pre-snap), norm=-0.2789
+  Anchor:   word 11 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 -------m--i ----Luya ------Yacon me -----m 18
+                      0 -------|--| 11
+    query             0 adimplemini alleluya alleluya In me gracia 42
+
+-- fused_2 --
+  OCR:      's'
+  Assigned: 'cia omnis vie et veritatis in me omnis spes vite'
+  Words:    [11..20) consumed=9
+  NW score: k=1 (pre-snap), norm=-3.5777
+  Anchor:   word 20 (within_chant_7), diff=8, snapped=False, forced=True
+  Alignment:
+    target            0 --------------------------------------s-----  1
+                      0 --------------------------------------|----- 44
+    query             0 omnis vie et veritatis in me omnis spes vite 44
+
+-- fused_3 --
+  OCR:      'et iptu tis. mis teudivi voceni de'
+  Assigned: 'et virtutis Transite Audivi vocem de'
+  Words:    [20..26) consumed=6
+  NW score: k=6 (pre-snap), norm=3.8587
+  Anchor:   word 26 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 et -iptu tis. --mis te--udivi voceni de 34
+                      0 ||  2
+    query             0 et virtu-tis- Transite Audivi voce-m de 36
+
+-- fused_4 --
+  OCR:      'ce lo tamquam vodem conitrui magni alle'
+  Assigned: 'celo tamquam vocem tonitrui magni alleluya regnabit'
+  Words:    [26..33) consumed=7
+  NW score: k=6 (pre-snap), norm=6.3006
+  Anchor:   word 33 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 ce lo tamquam vodem conitrui magni alle------------- 39
+                      0 ||-||  5
+    query             0 ce-lo tamquam vocem tonitrui magni alleluya regnabit 51
+
+-- fused_5 --
+  OCR:      'vuPa regna bit deusnoster meternum al'
+  Assigned: 'deus noster in eternum alleluya Quia'
+  Words:    [33..39) consumed=6
+  NW score: k=5 (pre-snap), norm=2.2145
+  Anchor:   word 39 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 vuPa regna bit deus-noster --meternum al----------- 37
+                      0 ---------------||||-|||||| 26
+    query             0 ---------------deus noster in eternum alleluya Quia 36
+
+-- fused_6 --
+  OCR:      'en da quia factanis et jurtus ppot'
+  Assigned: 'facta est salus et virtus et potestas xpisti'
+  Words:    [39..47) consumed=8
+  NW score: k=6 (pre-snap), norm=1.0047
+  Anchor:   word 47 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 en da quia fact-------anis et jurtus --ppot------------ 34
+                      0 -----------||||-------|..| 26
+    query             0 -----------facta est salus et virtus et potestas xpisti 44
+
+-- fused_7 --
+  OCR:      'stas xptisti ejus Allelvya ale Iu nox'
+  Assigned: 'eius alleluya alleluya Et vox'
+  Words:    [47..52) consumed=5
+  NW score: k=5 (pre-snap), norm=1.4654
+  Anchor:   word 52 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 stas xptisti ejus Allelvya a-le---- Iu nox 37
+                      0 -------------|.|| 17
+    query             0 -------------eius alleluya alleluya Et vox 29
+
+-- fused_8 --
+  OCR:      'de trono erunt dicensaudem Deo nostro omn'
+  Assigned: 'de throno exivit dicens laudem dicite deo nostro om'
+  Words:    [52..61) consumed=9
+  NW score: k=9 (pre-snap), norm=4.6118
+  Anchor:   word 61 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 de t-rono e-runt dicens--audem------- Deo nostro omn-- 41
+                      0 ||  2
+    query             0 de throno exivit dicens laudem dicite deo nostro omnes 54
+
+-- fused_9 --
+  OCR:      'nes omnes et qui tine tis deum pusu'
+  Assigned: 'nes {omnes} sancti eius et qui timetis deum'
+  Words:    [61..68) consumed=7
+  NW score: k=8 (pre-snap), norm=3.7970
+  Anchor:   word 68 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 ---nes- omn----e--s et qui tine tis deum pusu 35
+                      0 ---|||-  7
+    query             0 {omnes} sancti eius et qui time-tis deum----- 39
+
+-- fused_10 --
+  OCR:      'c ns men omius et admene i mo beliis'
+  Assigned: 'pusilli et magni Loquutus est ad me unus ex septem angelis'
+  Words:    [68..79) consumed=11
+  NW score: k=11 (pre-snap), norm=0.4596
+  Anchor:   word 84 (within_chant_7), diff=5, snapped=False, forced=False
+  Alignment:
+    target            0 ------c ns m-en- -o--mius e-t ad-me--n---e- ---i mo --beliis
+                      0 ------.
+    query             0 pusilli et magni Loquutus est ad me unus ex septem- angel-is
+    
+    target           36 
+                      7 
+    query            58 
+
+-- fused_11 --
+  OCR:      'Angelis cens veostendam tibui novam'
+  Assigned: 'dicens veni ostendam tibi novam'
+  Words:    [79..84) consumed=5
+  NW score: k=5 (pre-snap), norm=5.0092
+  Anchor:   word 84 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 Angelis cens ve---ostendam tibui novam 35
+                      0 ----.|--|||| 12
+    query             0 ----di--cens veni ostendam tib-i novam 31
+
+-- fused_12 --
+  OCR:      'mp tan spon sai ag nu asin di hemsalem des'
+  Assigned: 'nuptam sponsam agni Et vidi iherusalem de'
+  Words:    [84..91) consumed=7
+  NW score: k=7 (pre-snap), norm=2.4200
+  Anchor:   word 91 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -mp tan spon sai ag nu --asin di -he-msalem des--------- 42
+                      0 -.|-||.  7
+    query             0 nup-tam spon-sam ag-ni Et vi--di iherusalem descendentem 51
+=== END DEBUG ===
+

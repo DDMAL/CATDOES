@@ -1,0 +1,199 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'numina domine multum tuum supel nosds'
+  [fused_1] 'omnne audivi auditum tuum et tunni pr ipisum'
+  [fused_2] 'exovae  in Tympano et choro in cordis et organo laudate'
+  [fused_3] 'ca orpre'
+  [fused_4] 'cectumm croe er juscera misericordie'
+  [fused_5] 'nisitavit nos ors eenedictus eovae am'
+  [fused_6] 'nn conspectu Angelorum psallam tibi Deus nicus'
+  [fused_7] 'omine probasti me et cognovis'
+  [fused_8] 'time ipisum evorae viro miquo libera me domine'
+  [fused_9] 'Eripeme evovae  omine clamami adte et exandi'
+  [fused_10] 'eovae Dorto mea domine sit in terra ju'
+  [fused_11] 'ventium pres boce mea evovac Depolint pote'
+  [fused_12] 'tes sanctos persequentes et exaltavit humiles Chpististum co'
+  [fused_13] 'fitentes cromae  ominum decm e alttum veni'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'numina domine multum tuum supel nosds'
+  Assigned: 'exaudi ii euouae Illumina domine vultum tuum super nos ~Deus'
+  Words:    [0..10) consumed=10
+  NW score: k=9 (pre-snap), norm=3.8032
+  Anchor:   word 10 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 -------------------numina domine multum tuum supel nos----ds
+                      0 -------------------.|||||
+    query             0 exaudi ii euouae Illumina domine vultum tuum super nos ~Deus
+    
+    target           37 
+                     25 
+    query            60 
+
+-- fused_1 --
+  OCR:      'omnne audivi auditum tuum et tunni pr ipisum'
+  Assigned: 'deus euouae Domine audivi auditum tuum et timui ~Ipsum'
+  Words:    [10..19) consumed=9
+  NW score: k=9 (pre-snap), norm=3.9594
+  Anchor:   word 19 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -------------omnne audivi auditum tuum et t--unni pr ipisum
+                      0 -------------||.||
+    query             0 deus euouae Domine audivi auditum tuum et timu--i --~Ip-sum
+    
+    target           44
+                     18
+    query            54
+
+-- fused_2 --
+  OCR:      'exovae  in Tympano et choro in cordis et organo laudate'
+  Assigned: '[Domine] euouae In tympano et choro in cordis et organo laudate'
+  Words:    [19..30) consumed=11
+  NW score: k=11 (pre-snap), norm=5.8100
+  Anchor:   word 30 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ---------exovae  in Tympano et choro in cordis et organo lau
+                      0 ---------|.|.||-
+    query             0 [Domine] euouae- In tympano et choro in cordis et organo lau
+    
+    target           51 date 55
+                     16 |||| 20
+    query            59 date 63
+
+-- fused_3 --
+  OCR:      'ca orpre'
+  Assigned: 'deum euouae'
+  Words:    [30..32) consumed=2
+  NW score: k=2 (pre-snap), norm=-2.4518
+  Anchor:   word 37 (within_chant_7), diff=5, snapped=False, forced=False
+  Alignment:
+    target            0 --ca --orpre  8
+                      0 --..  4
+    query             0 deum euo-uae 11
+
+-- fused_4 --
+  OCR:      'cectumm croe er juscera misericordie'
+  Assigned: 'Per viscera misericordie dei nostri'
+  Words:    [32..37) consumed=5
+  NW score: k=3 (pre-snap), norm=3.8443
+  Anchor:   word 37 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 cectumm croe er juscera misericordie----------- 36
+                      0 ------------.|| 15
+    query             0 ------------Per viscera misericordie dei nostri 35
+
+-- fused_5 --
+  OCR:      'nisitavit nos ors eenedictus eovae am'
+  Assigned: 'visitavit nos oriens ex alto ~Benedictus euouae In'
+  Words:    [37..45) consumed=8
+  NW score: k=8 (pre-snap), norm=4.4872
+  Anchor:   word 52 (within_chant_7), diff=7, snapped=False, forced=False
+  Alignment:
+    target            0 nisitavit nos or---s e---------enedictus e-ovae am 37
+                      0 .||||||||  9
+    query             0 visitavit nos oriens ex alto ~Benedictus euouae In 50
+
+-- fused_6 --
+  OCR:      'nn conspectu Angelorum psallam tibi Deus nicus'
+  Assigned: 'conspectu angelorum psallam tibi deus meus ~Confitebor'
+  Words:    [45..52) consumed=7
+  NW score: k=6 (pre-snap), norm=6.0062
+  Anchor:   word 52 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 nn conspectu Angelorum psallam tibi Deus nicus------------ 46
+                      0 ---||||||||| 12
+    query             0 ---conspectu angelorum psallam tibi deus -meus ~Confitebor 54
+
+-- fused_7 --
+  OCR:      'omine probasti me et cognovis'
+  Assigned: 'euouae Domine probasti me et cognovi'
+  Words:    [52..58) consumed=6
+  NW score: k=6 (pre-snap), norm=5.7686
+  Anchor:   word 58 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 --------omine probasti me et cognovis-- 29
+                      0 --------||||| 13
+    query             0 euouae Domine probasti me et cognovisti 39
+
+-- fused_8 --
+  OCR:      'time ipisum evorae viro miquo libera me domine'
+  Assigned: 'sti me ~Ipsum [Domine] euouae A viro iniquo libera me domine'
+  Words:    [58..68) consumed=10
+  NW score: k=10 (pre-snap), norm=4.3346
+  Anchor:   word 68 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 time -ipisum--------- evorae-- viro -miquo libera me domine
+                      0 --||
+    query             0 --me ~Ip-sum [Domine] euouae A viro iniquo libera me domine
+    
+    target           46
+                      4
+    query            56
+
+-- fused_9 --
+  OCR:      'Eripeme evovae  omine clamami adte et exandi'
+  Assigned: '~Eripe me euouae Domine clamavi ad te et exaudi'
+  Words:    [68..77) consumed=9
+  NW score: k=9 (pre-snap), norm=5.8493
+  Anchor:   word 77 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -Eripe-me evovae  omine clamami ad-te et exandi 44
+                      0 -|||||-||  9
+    query             0 ~Eripe me euouae Domine clamavi ad te et exaudi 47
+
+-- fused_10 --
+  OCR:      'eovae Dorto mea domine sit in terra ju'
+  Assigned: 'me {Ipsum [Domine]} euouae Portio mea domine sit in terra vi'
+  Words:    [77..88) consumed=11
+  NW score: k=10 (pre-snap), norm=3.5023
+  Anchor:   word 88 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 --------------------e-ovae Dort-o mea domine sit in terra --
+                      0 --------------------|-|.||
+    query             0 me {Ipsum [Domine]} euouae Portio mea domine sit in terra vi
+    
+    target           36 ----ju- 38
+                     26 ----.|- 33
+    query            60 ventium 67
+
+-- fused_11 --
+  OCR:      'ventium pres boce mea evovac Depolint pote'
+  Assigned: 'ventium ~Voce me euouae Deposuit poten'
+  Words:    [88..93) consumed=5
+  NW score: k=5 (pre-snap), norm=1.8534
+  Anchor:   word 93 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ventium pres boce mea evovac Depo-lint pote---- 42
+                      0 ------------..||| 17
+    query             0 ------------~Voce me- euouae Deposui-t potentes 33
+
+-- fused_12 --
+  OCR:      'tes sanctos persequentes et exaltavit humiles Chpististum co'
+  Assigned: 'tes sanctos persequentes et exaltavit humiles christum con'
+  Words:    [93..100) consumed=7
+  NW score: k=6 (pre-snap), norm=6.0615
+  Anchor:   word 100 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 tes sanctos persequentes et exaltavit humiles Chpististum co
+                      0 ----|||||||
+    query             0 ----sanctos persequentes et exaltavit humiles ch---ristum co
+    
+    target           60 --------- 60
+                     11 --------- 20
+    query            53 nfitentes 62
+
+-- fused_13 --
+  OCR:      'fitentes cromae  ominum decm e alttum veni'
+  Assigned: 'fitentes euouae Dominum deum nostrum venite'
+  Words:    [100..105) consumed=5
+  NW score: k=5 (pre-snap), norm=2.6463
+  Anchor:   word 105 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 fitentes cromae  ominum decm e alttum veni-- 42
+                      0 ------|---.|.|| 15
+    query             0 ------e---uouae Dominum deum -nostrum venite 34
+=== END DEBUG ===
+

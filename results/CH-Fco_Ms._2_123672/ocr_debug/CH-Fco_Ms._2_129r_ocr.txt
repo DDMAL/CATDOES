@@ -1,0 +1,181 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] ''
+  [fused_1] 'vovac . mesermionem meum ser'
+  [fused_2] 'vabit et pater meus diliget eum et ad eum veniemus'
+  [fused_3] 'faciemus Aveluya evonae'
+  [fused_4] 'pparuerunt aposto lis dispertite Lingne tam '
+  [fused_5] 'quamig mis ale juya sedite supra sun gu los co'
+  [fused_6] 'spirtus Sanctus Alleluya alle Myacepe'
+  [fused_7] 'loqui varuis Linguis pro ut spiritus Sanctus da'
+  [fused_8] 'bate   seditque oquebantur va'
+  [fused_9] 'Moli guo a  paitis li Magna pront'
+  [fused_10] 'soiritus Sanctus dabat eloqui i m'
+  [fused_11] 'tisunt omnes spiritu Sancto et e'
+  [fused_12] 'peruntloqui proutgo sum hostium dicit'
+  [fused_13] 'dominis per me siquio intionerit salvabitur et pastua'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      ''
+  Assigned: 'euouae Si quis diligit me sermonem meum ser'
+  Words:    [0..8) consumed=8
+
+-- fused_1 --
+  OCR:      'vovac . mesermionem meum ser'
+  Assigned: 'vabit et pater meus diliget eum et ad eum veniemus'
+  Words:    [8..17) consumed=9
+  NW score: k=6 (pre-snap), norm=0.0714
+  Anchor:   word 17 (within_chant_7), diff=3, snapped=False, forced=True
+  Alignment:
+    target            0 -vovac . me-s---------ermionem --meum se-----r 28
+                      0 -...|...  8
+    query             0 et pater meus diliget eum-- et ad eum veniemus 44
+
+-- fused_2 --
+  OCR:      'vabit et pater meus diliget eum et ad eum veniemus'
+  Assigned: 'et mansionem apud eum faciemus alleluya euouae'
+  Words:    [17..24) consumed=7
+  NW score: k=5 (pre-snap), norm=0.8521
+  Anchor:   word 24 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 vabit et pater meus diliget eum et a--d eum veniemus--------
+                      0 ------||------
+    query             0 ------et------ mans----i--one-m--- apud eum faciemus alleluy
+    
+    target           50 -------- 50
+                     14 -------- 22
+    query            38 a euouae 46
+
+-- fused_3 --
+  OCR:      'faciemus Aveluya evonae'
+  Assigned: 'Apparuerunt apostolis dispertite lingue tam'
+  Words:    [24..29) consumed=5
+  NW score: k=3 (pre-snap), norm=-2.1748
+  Anchor:   word 29 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 --faciemu-----------s -------Ave-l---uya -evonae 23
+                      0 --.|..|.|-----------| 21
+    query             0 Apparuerunt apostolis dispertite lingu-e tamquam 47
+
+-- fused_4 --
+  OCR:      'pparuerunt aposto lis dispertite Lingne tam'
+  Assigned: 'quam ignis alleluya Seditque supra singulos eorum'
+  Words:    [29..35) consumed=6
+  NW score: k=6 (pre-snap), norm=-1.3564
+  Anchor:   word 35 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ----pparuerunt aposto lis dis-pertite Ling----ne tam 43
+                      0 ----..|..|.|.. 14
+    query             0 ignis alleluya Sedit--que --sup-r---a singulos eorum 44
+
+-- fused_5 --
+  OCR:      'quamig mis ale juya sedite supra sun gu los co'
+  Assigned: 'spiritus sanctus alleluya alleluya Et cepe'
+  Words:    [35..41) consumed=6
+  NW score: k=7 (pre-snap), norm=-0.5521
+  Anchor:   word 41 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 quami--g ----mis a-le juya --se----dite sup-ra sun gu los co
+                      0 ....|--.
+    query             0 spiritus sanctus alle-luya alleluya Et- ceper---un---------t
+    
+    target           46 
+                      8 
+    query            46 
+
+-- fused_6 --
+  OCR:      'spirtus Sanctus Alleluya alle Myacepe'
+  Assigned: 'runt loqui variis linguis prout spiritus sanctus da'
+  Words:    [41..48) consumed=7
+  NW score: k=10 (pre-snap), norm=-0.2146
+  Anchor:   word 48 (within_chant_7), diff=3, snapped=False, forced=True
+  Alignment:
+    target            0 ---------------------------spir-tus Sanctus Alleluya alle My
+                      0 ---------------------------||||-|||
+    query             0 loqui variis linguis prout spiritus sanctus ------daba------
+    
+    target           32 acepe 37
+                     35 ----. 40
+    query            48 ----t 49
+
+-- fused_7 --
+  OCR:      'loqui varuis Linguis pro ut spiritus Sanctus da'
+  Assigned: 'bat eloqui illis Seditque Loquebantur variis linguis apostoli magnalia dei Prout spiritus sanctus dabat'
+  Words:    [48..61) consumed=13
+  NW score: k=13 (pre-snap), norm=2.0964
+  Anchor:   word 53 (within_chant_7), diff=8, snapped=False, forced=False
+  Alignment:
+    target            0 -loqui--------------------------- varuis Linguis -p---------
+                      0 -|||||---------------------------
+    query             0 eloqui illis Seditque Loquebantur variis linguis apostoli ma
+    
+    target           22 ------------ro ut spiritus Sanctus da--- 47
+                     33 ------------||-|| 50
+    query            60 gnalia dei Pro-ut spiritus sanctus dabat 99
+
+-- fused_8 --
+  OCR:      'bate   seditque oquebantur va'
+  Assigned: 'eloqui illis alleluya Repleti sunt omnes spiritu sancto'
+  Words:    [61..69) consumed=8
+  NW score: k=8 (pre-snap), norm=-2.0282
+  Anchor:   word 64 (within_chant_7), diff=5, snapped=False, forced=False
+  Alignment:
+    target            0 bate----- ----- -------- ---seditqu-e oque----bantur va----
+                      0 ---|-----
+    query             0 ---eloqui illis alleluya Repleti sunt omnes spiritu- sancto
+    
+    target           29
+                      9
+    query            55
+
+-- fused_9 --
+  OCR:      'Moli guo a  paitis li Magna pront'
+  Assigned: 'et ce'
+  Words:    [69..71) consumed=2
+  NW score: k=4 (pre-snap), norm=-1.5971
+  Anchor:   word 71 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 Moli guo a  paitis li Magna p-ront 33
+                      0 --------------.|----- 21
+    query             0 --------------et----- ----ceperunt 11
+
+-- fused_10 --
+  OCR:      'soiritus Sanctus dabat eloqui i m'
+  Assigned: 'perunt loqui Prout Ego sum hostium dicit dominus per me'
+  Words:    [71..80) consumed=9
+  NW score: k=9 (pre-snap), norm=-0.7789
+  Anchor:   word 77 (within_chant_7), diff=3, snapped=False, forced=False
+  Alignment:
+    target            0 so--i--r-it------us Sanct-us dabat elo--qui --i m- 33
+                      0 .|--|--|-.|------|. 19
+    query             0 loqui Prout Ego sum -hostium dicit -dominus per me 48
+
+-- fused_11 --
+  OCR:      'tisunt omnes spiritu Sancto et e'
+  Assigned: 'si quis introierit salvabitur et pascua inveniet'
+  Words:    [80..87) consumed=7
+  NW score: k=5 (pre-snap), norm=-0.1875
+  Anchor:   word 87 (page_break_77), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 ----tis-unt omne--s s--piritu---- Sancto ---et e- 32
+                      0 ----.||-.||.|-.|--. 19
+    query             0 si quis intro-ierit salvabitur et pascua inveniet 48
+
+-- fused_12 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [87..87) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_13 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [87..87) consumed=0
+  Alignment:
+    (no words left)
+=== END DEBUG ===
+

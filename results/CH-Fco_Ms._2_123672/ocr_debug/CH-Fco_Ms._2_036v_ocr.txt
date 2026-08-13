@@ -1,0 +1,179 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] ' dicebam vo bis qui postme'
+  [fused_1] 'neint ante Me factus est cujus non sum dig'
+  [fused_2] 'nuscor rigiam cal ciamen tisolvere |'
+  [fused_3] 'de terraste terra loq tur q de cel vent sper'
+  [fused_4] 'om nos est  enus  es sanctificatus illuxit'
+  [fused_5] 'bis venite gentes et adorate dominum . Quia hodie des'
+  [fused_6] 'cendit lux mag terris . ec dies'
+  [fused_7] 'man sert i ret eiqui nutemus et ete mur ine'
+  [fused_8] 'Quia |enedictus qui veint'
+  [fused_9] 'mme domi mceco mmnou t'
+  [fused_10] 'no bis Anelnya alle'
+  [fused_11] 'quam fecit dommis erustemus e Insecii'
+  [fused_12] 'do noc'
+  [fused_13] 'Aneme a. Alelia  pas sius forma prefinis'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'dicebam vo bis qui postme'
+  Assigned: 'de quo dicebam vobis qui post me'
+  Words:    [0..7) consumed=7
+  NW score: k=7 (pre-snap), norm=5.4094
+  Anchor:   word 20 (within_chant_7), diff=13, snapped=False, forced=False
+  Alignment:
+    target            0 -------dicebam vo bis qui post-me 25
+                      0 -------||||||| 14
+    query             0 de quo dicebam vo-bis qui post me 32
+
+-- fused_1 --
+  OCR:      'neint ante Me factus est cujus non sum dig'
+  Assigned: 'venit ante me factus est Cuius non sum dignus'
+  Words:    [7..16) consumed=9
+  NW score: k=9 (pre-snap), norm=5.7275
+  Anchor:   word 20 (within_chant_7), diff=4, snapped=False, forced=False
+  Alignment:
+    target            0 ne-int ante Me factus est cujus non sum dig--- 42
+                      0 .|-|-|  6
+    query             0 veni-t ante me factus est Cuius non sum dignus 45
+
+-- fused_2 --
+  OCR:      'nuscor rigiam cal ciamen tisolvere |'
+  Assigned: 'corrigiam calciamenti solvere Qui'
+  Words:    [16..20) consumed=4
+  NW score: k=3 (pre-snap), norm=5.3542
+  Anchor:   word 20 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 nuscor rigiam cal ciamen ti-solvere --| 36
+                      0 ---|||-|||||| 13
+    query             0 ---cor-rigiam cal-ciamen-ti solvere Qui 33
+
+-- fused_3 --
+  OCR:      'de terraste terra loq tur q de cel vent sper'
+  Assigned: 'de terra est de terra loquitur qui de celo venit super'
+  Words:    [20..31) consumed=11
+  NW score: k=11 (pre-snap), norm=5.7648
+  Anchor:   word 31 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 de terra--st--e terra loq- tur q-- de cel- ven-t s-per 44
+                      0 ||  2
+    query             0 de terra est de terra loquitur qui de celo venit super 54
+
+-- fused_4 --
+  OCR:      'om nos est  enus  es sanctificatus illuxit'
+  Assigned: 'omnes est Cuius Dies sanctificatus illuxit'
+  Words:    [31..37) consumed=6
+  NW score: k=6 (pre-snap), norm=5.9286
+  Anchor:   word 37 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 om nos est  enus - es sanctificatus illuxit 42
+                      0 ||-|.|  6
+    query             0 om-nes est Cuius Dies sanctificatus illuxit 42
+
+-- fused_5 --
+  OCR:      'bis venite gentes et adorate dominum . Quia hodie des'
+  Assigned: 'nobis venite gentes et adorate dominum Quia hodie ap'
+  Words:    [37..46) consumed=9
+  NW score: k=8 (pre-snap), norm=6.6718
+  Anchor:   word 46 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 --bis venite gentes et adorate dominum . Quia hodie -----des
+                      0 --|||
+    query             0 nobis venite gentes et adorate dominum-- Quia hodie apparuit
+    
+    target           53 
+                      5 
+    query            58 
+
+-- fused_6 --
+  OCR:      'cendit lux mag terris . ec dies'
+  Assigned: 'paruit lux magna in terris Hec dies'
+  Words:    [46..52) consumed=6
+  NW score: k=6 (pre-snap), norm=4.0731
+  Anchor:   word 52 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 cendit lux mag----- terris . ec dies 31
+                      0 -------||| 10
+    query             0 -------lux magna in terris -Hec dies 28
+
+-- fused_7 --
+  OCR:      'man sert i ret eiqui nutemus et ete mur ine'
+  Assigned: 'quam fecit dominus exultemus et letemur in ea Quia'
+  Words:    [52..61) consumed=9
+  NW score: k=7 (pre-snap), norm=2.5649
+  Anchor:   word 61 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 -man sert i ret --eiqui -nu-temus et -ete mur in-e------ 43
+                      0 -.|.  4
+    query             0 quam fe--ci---t dominus exultemus et lete-mur in ea Quia 50
+
+-- fused_8 --
+  OCR:      'Quia |enedictus qui veint'
+  Assigned: 'Benedictus qui venit in no'
+  Words:    [61..66) consumed=5
+  NW score: k=3 (pre-snap), norm=4.7405
+  Anchor:   word 66 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 Quia |enedictus qui ve----------int 25
+                      0 -----.||||||||| 15
+    query             0 -----Benedictus qui venit in nomine 30
+
+-- fused_9 --
+  OCR:      'mme domi mceco mmnou t'
+  Assigned: 'mine domini deus dominus et illuxit'
+  Words:    [66..71) consumed=5
+  NW score: k=4 (pre-snap), norm=0.5455
+  Anchor:   word 71 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 mme dom--i mceco --mmnou---- ------t 22
+                      0 ----|||--| 10
+    query             0 ----domini -deus domin-us et illuxit 30
+
+-- fused_10 --
+  OCR:      'no bis Anelnya alle'
+  Assigned: 'nobis Alleluya alleluya Hec'
+  Words:    [71..75) consumed=4
+  NW score: k=3 (pre-snap), norm=4.2096
+  Anchor:   word 75 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 no bis A-nelnya alle-------- 19
+                      0 ||-|||  6
+    query             0 no-bis Alleluya alleluya Hec 27
+
+-- fused_11 --
+  OCR:      'quam fecit dommis erustemus e Insecii'
+  Assigned: 'dies quam fecit dominus exultemus et lete'
+  Words:    [75..82) consumed=7
+  NW score: k=6 (pre-snap), norm=3.6168
+  Anchor:   word 82 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 -----quam fecit dommi--s erustemus e- Insecii 37
+                      0 -----||||  9
+    query             0 dies quam fecit do-minus exultemus et letemur 44
+
+-- fused_12 --
+  OCR:      'do noc'
+  Assigned: 'mur in ea'
+  Words:    [82..84) consumed=2
+  NW score: k=2 (pre-snap), norm=-3.4689
+  Anchor:   word 89 (page_break_77), diff=5, snapped=False, forced=False
+  Alignment:
+    target            0 do noc 6
+                      0 .. 2
+    query             0 in -ea 5
+
+-- fused_13 --
+  OCR:      'Aneme a. Alelia  pas sius forma prefinis'
+  Assigned: 'Alleluia Speciosus forma pre filiis'
+  Words:    [84..89) consumed=5
+  NW score: k=5 (pre-snap), norm=2.8597
+  Anchor:   word 89 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 Aneme a. Alel-ia  p-as sius forma pre-fi-nis 40
+                      0 |--------.|||-|| 16
+    query             0 A--------lleluia Specios-us forma pre filiis 35
+=== END DEBUG ===
+

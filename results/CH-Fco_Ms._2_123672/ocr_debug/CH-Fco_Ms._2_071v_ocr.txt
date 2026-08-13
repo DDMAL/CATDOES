@@ -1,0 +1,167 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'umetcarnem tuam ve .chere'
+  [fused_1] 'ris. tuncngelis suis mandavit de te'
+  [fused_2] 'stodi te in omnibus vris tuis in manibus portabunt'
+  [fused_3] 'te ne uniquam offendas ad lapidem pedem tia'
+  [fused_4] 'um eo p uxer aspidem et basiliscum ambulabis et concui'
+  [fused_5] 'cabis Leonemet dracho nem . In mauscondite'
+  [fused_6] 'elemosinam in simu pauperum .o M ncpo'
+  [fused_7] 'nobis ao num . Quia sicut aquaertinguit '
+  [fused_8] ' nem ita elemosina extin . ute se ca'
+  [fused_9] 'cum xate elemosinam et ecclesie omnia mun'
+  [fused_10] 'sunt ViEma.'
+  [fused_11] 'deus et spiritum rectum in vo'
+  [fused_12] 'nam insetions meis i Milerere evorneDomnesa'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'umetcarnem tuam ve .chere'
+  Assigned: 'nudum operi eum et carnem tuam ne despexeris'
+  Words:    [0..8) consumed=8
+  NW score: k=8 (pre-snap), norm=1.7488
+  Anchor:   word 16 (within_chant_7), diff=8, snapped=False, forced=False
+  Alignment:
+    target            0 -------------um-et-carnem tuam ve ---.cher-e 25
+                      0 -------------||-||-|||||| 25
+    query             0 nudum operi eum et carnem tuam ne despexeris 44
+
+-- fused_1 --
+  OCR:      'ris. tuncngelis suis mandavit de te'
+  Assigned: 'Tunc Angelis suis mandavit de te ut cu'
+  Words:    [8..16) consumed=8
+  NW score: k=6 (pre-snap), norm=5.9164
+  Anchor:   word 16 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 ris. tunc--ngelis suis mandavit de te-------------- 35
+                      0 -----.|||--|||||| 17
+    query             0 -----Tunc Angelis suis mandavit de te ut custodiant 46
+
+-- fused_2 --
+  OCR:      'stodi te in omnibus vris tuis in manibus portabunt'
+  Assigned: 'stodiant te in omnibus viis tuis In manibus portabunt'
+  Words:    [16..24) consumed=8
+  NW score: k=8 (pre-snap), norm=6.4813
+  Anchor:   word 24 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 stodi te in omnibus vris tuis in manibus portabunt 50
+                      0 ------||  8
+    query             0 ------te in omnibus viis tuis In manibus portabunt 44
+
+-- fused_3 --
+  OCR:      'te ne uniquam offendas ad lapidem pedem tia'
+  Assigned: 'te ne umquam offendas ad lapidem pedem tu'
+  Words:    [24..32) consumed=8
+  NW score: k=7 (pre-snap), norm=6.6299
+  Anchor:   word 32 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 te ne uniquam offendas ad lapidem pedem t-ia 43
+                      0 ||  2
+    query             0 te ne u-mquam offendas ad lapidem pedem tuum 43
+
+-- fused_4 --
+  OCR:      'um eo p uxer aspidem et basiliscum ambulabis et concui'
+  Assigned: 'um Super aspidem et basiliscum ambulabis et concul'
+  Words:    [32..39) consumed=7
+  NW score: k=7 (pre-snap), norm=5.7746
+  Anchor:   word 39 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -um eo p uxer aspidem et basiliscum ambulabis et concu----i-
+                      0 -|-----|---||
+    query             0 Su-----p---er aspidem et basiliscum ambulabis et conculcabis
+    
+    target           54 
+                     13 
+    query            52 
+
+-- fused_5 --
+  OCR:      'cabis Leonemet dracho nem . In mauscondite'
+  Assigned: 'cabis leonem et drachonem In manibus Abscondite'
+  Words:    [39..45) consumed=6
+  NW score: k=6 (pre-snap), norm=4.2413
+  Anchor:   word 45 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 cabis Leonem-et dracho nem . In ma---u----scondite 42
+                      0 ------.|||||-|| 15
+    query             0 ------leonem et dracho-nem-- In manibus Abscondite 41
+
+-- fused_6 --
+  OCR:      'elemosinam in simu pauperum .o M ncpo'
+  Assigned: 'elemosinam in sinu pauperis et ipsa orat pro'
+  Words:    [45..53) consumed=8
+  NW score: k=4 (pre-snap), norm=4.5243
+  Anchor:   word 53 (within_chant_7), diff=4, snapped=False, forced=True
+  Alignment:
+    target            0 elemosinam in simu pauperum .o ---M ---ncp-o 37
+                      0 |||||||||| 10
+    query             0 elemosinam in sinu pauperis et ipsa orat pro 44
+
+-- fused_7 --
+  OCR:      'nobis ao num . Quia sicut aquaertinguit'
+  Assigned: 'vobis ad dominum Quia sicut aqua extinguit'
+  Words:    [53..60) consumed=7
+  NW score: k=7 (pre-snap), norm=5.5347
+  Anchor:   word 60 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 nobis ao ----num . Quia sicut aqua-ertinguit 39
+                      0 .||||  5
+    query             0 vobis ad dominum-- Quia sicut aqua extinguit 42
+
+-- fused_8 --
+  OCR:      'nem ita elemosina extin . ute se ca'
+  Assigned: 'ignem ita elemosina extinguit pecca'
+  Words:    [60..65) consumed=5
+  NW score: k=5 (pre-snap), norm=4.6615
+  Anchor:   word 65 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 --nem ita elemosina extin . u-te se ca--- 35
+                      0 --|||  5
+    query             0 ignem ita elemosina extin--guit- peccatum 38
+
+-- fused_9 --
+  OCR:      'cum xate elemosinam et ecclesie omnia mun'
+  Assigned: 'tum Date elemosinam et ecce omnia munda'
+  Words:    [65..71) consumed=6
+  NW score: k=6 (pre-snap), norm=5.5172
+  Anchor:   word 71 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 cum xate elemosinam et ecclesie omnia mun-- 41
+                      0 ----.|||  8
+    query             0 ----Date elemosinam et ecc----e omnia munda 35
+
+-- fused_10 --
+  OCR:      'sunt ViEma.'
+  Assigned: 'sunt vobis'
+  Words:    [71..73) consumed=2
+  NW score: k=2 (pre-snap), norm=1.4302
+  Anchor:   word 84 (within_chant_7), diff=11, snapped=False, forced=False
+  Alignment:
+    target            0 sunt --ViEma. 11
+                      0 ||||  4
+    query             0 sunt vobi---s 10
+
+-- fused_11 --
+  OCR:      'deus et spiritum rectum in vo'
+  Assigned: 'Quia Cor mundum crea in me deus et spiritum rectum inno'
+  Words:    [73..84) consumed=11
+  NW score: k=11 (pre-snap), norm=2.8039
+  Anchor:   word 84 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ---------------------------deus et spiritum rectum i-n vo 29
+                      0 ---------------------------|||| 31
+    query             0 Quia Cor mundum crea in me deus et spiritum rectum innova 57
+
+-- fused_12 --
+  OCR:      'nam insetions meis i Milerere evorneDomnesa'
+  Assigned: 'va in visceribus meis {Miserere} euouae O domine salvum'
+  Words:    [84..92) consumed=8
+  NW score: k=7 (pre-snap), norm=2.2051
+  Anchor:   word 92 (page_break_77), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 -nam -ins-etions meis i Milerere- evorne---Dom-ne-sa---- 43
+                      0 -|--  4
+    query             0 in-- vi-sceribus meis -{Miserere} euouae O domine salvum 52
+=== END DEBUG ===
+

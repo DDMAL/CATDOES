@@ -1,0 +1,179 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'interme interterra eqmturba'
+  [fused_1] 'plurima conveni ret ad Jhesum et de'
+  [fused_2] 'vitatibus properarent adeumdi t'
+  [fused_3] 'lumu tu dominem ex ranle Mi'
+  [fused_4] 'minare semen suu Xtdum sem'
+  [fused_5] 'nat aliud cecidit in terram bovam et ortum fecit fruc'
+  [fused_6] 'In loco isto cantat hocrXm de Evangsio'
+  [fused_7] 'Huminfra ebdomadam cum aliis resposoriis re'
+  [fused_8] 'tum centuplum. ex ut capitulatus . respnsum'
+  [fused_9] 'nant ano diei i nomeressio'
+  [fused_10] 'nos ma cham et fi Iu vis ux'
+  [fused_11] 'illius et uxores filio rum est nis '
+  [fused_12] 'universa de terra remansit autem solus noc et qui'
+  [fused_13] 'camqu Rantmar cha. Lecorda'
+  [fused_14] 'tus dominus noe addurit suncti eitum su por'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'interme interterra eqmturba'
+  Assigned: 'me et inter terram Neque Cum turba'
+  Words:    [0..7) consumed=7
+  NW score: k=7 (pre-snap), norm=3.2015
+  Anchor:   word 7 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 interme--- inter-terra- -eq-----m-turba 27
+                      0 -----||--- 10
+    query             0 -----me et inter terram Neque Cum turba 34
+
+-- fused_1 --
+  OCR:      'plurima conveni ret ad Jhesum et de'
+  Assigned: 'plurima conveniret ad ihesum et de'
+  Words:    [7..13) consumed=6
+  NW score: k=6 (pre-snap), norm=7.3051
+  Anchor:   word 13 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 plurima conveni ret ad Jhesum et de 35
+                      0 |||||||  7
+    query             0 plurima conveni-ret ad ihesum et de 34
+
+-- fused_2 --
+  OCR:      'vitatibus properarent adeumdi t'
+  Assigned: 'civitatibus properarent ad eum dixit per'
+  Words:    [13..19) consumed=6
+  NW score: k=5 (pre-snap), norm=6.1066
+  Anchor:   word 19 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 --vitatibus properarent ad-eum-di--- --t 31
+                      0 --||||||||| 11
+    query             0 civitatibus properarent ad eum dixit per 40
+
+-- fused_3 --
+  OCR:      'lumu tu dominem ex ranle Mi'
+  Assigned: 'similitudinem Exiit qui seminat se'
+  Words:    [19..24) consumed=5
+  NW score: k=3 (pre-snap), norm=0.2809
+  Anchor:   word 24 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 lum-u tu dominem ex------- --ranle --Mi---- 27
+                      0 ..|-..||-|--|||| 16
+    query             0 similitu-d--inem Exiit qui seminat seminare 40
+
+-- fused_4 --
+  OCR:      'minare semen suu Xtdum sem'
+  Assigned: 'minare semen suum Et dum semi'
+  Words:    [24..29) consumed=5
+  NW score: k=5 (pre-snap), norm=3.2948
+  Anchor:   word 29 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 minare semen suu- Xt-dum sem---- 26
+                      0 -------||||| 12
+    query             0 -------semen suum Et dum seminat 25
+
+-- fused_5 --
+  OCR:      'nat aliud cecidit in terram bovam et ortum fecit fruc'
+  Assigned: 'nat aliud cecidit in terram bonam et ortum fecit fruc'
+  Words:    [29..38) consumed=9
+  NW score: k=9 (pre-snap), norm=6.6670
+  Anchor:   word 38 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 nat aliud cecidit in terram bovam et ortum fecit fruc--- 53
+                      0 ----|||||  9
+    query             0 ----aliud cecidit in terram bonam et ortum fecit fructum 52
+
+-- fused_6 --
+  OCR:      'In loco isto cantat hocrXm de Evangsio'
+  Assigned: 'tum centuplum Exiit In articulo diei illius ingressus est'
+  Words:    [38..46) consumed=8
+  NW score: k=6 (pre-snap), norm=-1.2728
+  Anchor:   word 46 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 -In-- loco --isto canta-t hocrXm d-e- -----Evang-----s--io 38
+                      0 -.|--.|-.. 10
+    query             0 centupl-um Exiit- -In art--iculo diei illius ingressus est 53
+
+-- fused_7 --
+  OCR:      'Huminfra ebdomadam cum aliis resposoriis re'
+  Assigned: 'noe in archam et filii eius Uxor'
+  Words:    [46..53) consumed=7
+  NW score: k=9 (pre-snap), norm=-0.1647
+  Anchor:   word 53 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 -Huminfra ebdoma--dam cum -aliis resposoriis ---re 43
+                      0 -...||---  9
+    query             0 noe in--- -----archam -et filii- -e------ius Uxor- 32
+
+-- fused_8 --
+  OCR:      'tum centuplum. ex ut capitulatus . respnsum'
+  Assigned: 'illius et uxores filiorum eius Deleta sunt universa de terra remansit'
+  Words:    [53..64) consumed=11
+  NW score: k=11 (pre-snap), norm=-1.0097
+  Anchor:   word 60 (within_chant_7), diff=4, snapped=False, forced=False
+  Alignment:
+    target            0 ---tum cent-u-------pl---um. ex ut capit---ulat-u-----s---- 
+                      0 ---.|.
+    query             0 illius -e-t uxores filiorum- e-ius Deleta su-nt universa de 
+    
+    target           33 ----. respnsum 43
+                      6 ----. 11
+    query            55 terra remansit 69
+
+-- fused_9 --
+  OCR:      'nant ano diei i nomeressio'
+  Assigned: 'solus noe et qui cum'
+  Words:    [64..69) consumed=5
+  NW score: k=6 (pre-snap), norm=-0.5316
+  Anchor:   word 69 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 -nant ano- diei --i nomeressio 26
+                      0 -....  5
+    query             0 solus -noe --et qui cum------- 20
+
+-- fused_10 --
+  OCR:      'nos ma cham et fi Iu vis ux'
+  Assigned: 'eo erant in archa Uxor Recordatus dominus noe adduxit'
+  Words:    [69..78) consumed=9
+  NW score: k=9 (pre-snap), norm=-1.2160
+  Anchor:   word 75 (within_chant_7), diff=3, snapped=False, forced=False
+  Alignment:
+    target            0 nos -ma----- --cha----m -e-----t-- --fi Iu- vis ---ux-- 27
+                      0 .|-  3
+    query             0 eo- erant in archa Uxor Recordatus domi-nus noe adduxit 53
+
+-- fused_11 --
+  OCR:      'illius et uxores filio rum est nis'
+  Assigned: 'spiritum super'
+  Words:    [78..80) consumed=2
+  NW score: k=2 (pre-snap), norm=-2.7043
+  Anchor:   word 80 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 illius et uxores filio rum est nis 34
+                      0 ---------------|-.|.|--.|| 26
+    query             0 ---------------s-piri--tum -s-uper 14
+
+-- fused_12 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [80..80) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_13 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [80..80) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_14 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [80..80) consumed=0
+  Alignment:
+    (no words left)
+=== END DEBUG ===
+

@@ -1,0 +1,171 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'tes steliam magi gavi si sunt gaudio magno et'
+  [fused_1] 'intrantes domum vivenerunt pue'
+  [fused_2] 'a matre ejus et procidentes adorave umet aper'
+  [fused_3] 'the sautis suis obtule runt ei mune ra aurum'
+  [fused_4] 'thus etmyrram lla quam viderant ma'
+  [fused_5] 'gi moriente ante cedebant os usque dum veniens staret su'
+  [fused_6] 'pra ubi erat ii et Emiran. niasunt'
+  [fused_7] 'aque obtulerunt magi dominon'
+  [fused_8] 'c dicta eclsa renti divinamiste'
+  [fused_9] 'a. bus offendatur regis poten aic'
+  [fused_10] 're sacerdotem magnum conside ra etaimy m'
+  [fused_11] 'cominemi Sepul ne ram X alutis noste'
+  [fused_12] 'auctorem magt venerati sunt incinabilis et de'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'tes steliam magi gavi si sunt gaudio magno et'
+  Assigned: 'stellam magi gavisi sunt gaudio magno Et'
+  Words:    [0..7) consumed=7
+  NW score: k=7 (pre-snap), norm=6.3875
+  Anchor:   word 34 (within_chant_7), diff=27, snapped=False, forced=False
+  Alignment:
+    target            0 tes steliam magi gavi si sunt gaudio magno et 45
+                      0 ----||||.|| 11
+    query             0 ----stellam magi gavi-si sunt gaudio magno Et 40
+
+-- fused_1 --
+  OCR:      'intrantes domum vivenerunt pue'
+  Assigned: 'intrantes domum invenerunt puerum'
+  Words:    [7..11) consumed=4
+  NW score: k=4 (pre-snap), norm=6.5153
+  Anchor:   word 34 (within_chant_7), diff=23, snapped=False, forced=False
+  Alignment:
+    target            0 intrantes domum vi-venerunt pue--- 30
+                      0 |||||||||  9
+    query             0 intrantes domum -invenerunt puerum 33
+
+-- fused_2 --
+  OCR:      'a matre ejus et procidentes adorave umet aper'
+  Assigned: 'cum maria matre eius et procidentes adoraverunt eum et apertis'
+  Words:    [11..21) consumed=10
+  NW score: k=10 (pre-snap), norm=5.2252
+  Anchor:   word 34 (within_chant_7), diff=13, snapped=False, forced=False
+  Alignment:
+    target            0 --------a matre ejus et procidentes adorave---- -um-et aper-
+                      0 --------|
+    query             0 cum maria matre eius et procidentes adoraverunt eum et apert
+    
+    target           45 -- 45
+                      9 -- 11
+    query            60 is 62
+
+-- fused_3 --
+  OCR:      'the sautis suis obtule runt ei mune ra aurum'
+  Assigned: 'thesauris suis obtulerunt ei munera aurum'
+  Words:    [21..27) consumed=6
+  NW score: k=6 (pre-snap), norm=6.9220
+  Anchor:   word 34 (within_chant_7), diff=7, snapped=False, forced=False
+  Alignment:
+    target            0 the sautis suis obtule runt ei mune ra aurum 44
+                      0 |||-|||.|| 10
+    query             0 the-sauris suis obtule-runt ei mune-ra aurum 41
+
+-- fused_4 --
+  OCR:      'thus etmyrram lla quam viderant ma'
+  Assigned: 'thus et myrram Stella quam viderant ma'
+  Words:    [27..34) consumed=7
+  NW score: k=7 (pre-snap), norm=6.5621
+  Anchor:   word 34 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 thus et-myrram ---lla quam viderant ma-- 34
+                      0 ||||  4
+    query             0 thus et myrram Stella quam viderant magi 40
+
+-- fused_5 --
+  OCR:      'gi moriente ante cedebant os usque dum veniens staret su'
+  Assigned: 'gi in oriente antecedebat eos usque dum veniens staret su'
+  Words:    [34..43) consumed=9
+  NW score: k=9 (pre-snap), norm=6.3896
+  Anchor:   word 43 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 gi- moriente ante cedebant -os usque dum veniens staret su--
+                      0 -|-
+    query             0 -in -oriente ante-cedeba-t eos usque dum veniens staret supr
+    
+    target           56 - 56
+                      3 -  4
+    query            56 a 57
+
+-- fused_6 --
+  OCR:      'pra ubi erat ii et Emiran. niasunt'
+  Assigned: 'pra ubi erat puer Et intrantes Tria sunt'
+  Words:    [43..50) consumed=7
+  NW score: k=7 (pre-snap), norm=2.5725
+  Anchor:   word 50 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 pra ubi erat ii et E-mi--ran--. -nia-sunt 34
+                      0 ----|||  7
+    query             0 ----ubi erat -puer Et intrantes Tria sunt 36
+
+-- fused_7 --
+  OCR:      'aque obtulerunt magi dominon'
+  Assigned: 'munera preciosa que obtulerunt magi domino in'
+  Words:    [50..57) consumed=7
+  NW score: k=6 (pre-snap), norm=4.5491
+  Anchor:   word 57 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 --------------a-que obtulerunt magi domino--n 28
+                      0 --------------|-||| 19
+    query             0 munera preciosa que obtulerunt magi domino in 45
+
+-- fused_8 --
+  OCR:      'c dicta eclsa renti divinamiste'
+  Assigned: 'die ista et habent in se divina miste'
+  Words:    [57..65) consumed=8
+  NW score: k=8 (pre-snap), norm=2.4706
+  Anchor:   word 65 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 --c dicta eclsa rent-i---- divina-miste--- 31
+                      0 --.  3
+    query             0 die -ista et ha-bent in se divina misteria 40
+
+-- fused_9 --
+  OCR:      'a. bus offendatur regis poten aic'
+  Assigned: 'ria In auro ut ostendatur regis potencia in thu'
+  Words:    [65..73) consumed=8
+  NW score: k=6 (pre-snap), norm=3.8587
+  Anchor:   word 73 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 ---a--. bus offendatur regis poten- a-i------c 33
+                      0 ---|--.  7
+    query             0 In auro -ut ostendatur regis potencia in thure 45
+
+-- fused_10 --
+  OCR:      're sacerdotem magnum conside ra etaimy m'
+  Assigned: 're sacerdotum magnum considera et'
+  Words:    [73..77) consumed=4
+  NW score: k=4 (pre-snap), norm=5.3405
+  Anchor:   word 83 (within_chant_7), diff=6, snapped=False, forced=False
+  Alignment:
+    target            0 re sacerdotem magnum conside ra etaimy m 40
+                      0 ---||||||||.| 13
+    query             0 ---sacerdotum magnum conside-ra et------ 30
+
+-- fused_11 --
+  OCR:      'cominemi Sepul ne ram X alutis noste'
+  Assigned: 'in myrra dominicam sepulturam Salutis nostre'
+  Words:    [77..83) consumed=6
+  NW score: k=6 (pre-snap), norm=2.6634
+  Anchor:   word 83 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ---------comin--emi Sepul ne ram X alutis nost-e 36
+                      0 ---------.||||--.|- 19
+    query             0 in myrra dominicam- sepul--turam -Salutis nostre 44
+
+-- fused_12 --
+  OCR:      'auctorem magt venerati sunt incinabilis et de'
+  Assigned: 'auctorem magi venerati sunt in cunabulis et de thesauris'
+  Words:    [83..92) consumed=9
+  NW score: k=8 (pre-snap), norm=6.9015
+  Anchor:   word 92 (page_break_77), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 auctorem magt venerati sunt in-cinabilis et de---------- 45
+                      0 ||||||||  8
+    query             0 auctorem magi venerati sunt in cunabulis et de thesauris 56
+=== END DEBUG ===
+

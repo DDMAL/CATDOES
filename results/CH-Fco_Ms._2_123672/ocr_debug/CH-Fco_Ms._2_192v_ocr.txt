@@ -1,0 +1,271 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'tum tuum et sequere me dnis eovaei'
+  [fused_1] 'minus angelum suum et liberavit me de manu herodis al'
+  [fused_2] 'lu Ya pr benedicite exovae Ln es Petrus et super'
+  [fused_3] 'hanc Petram edificabo ecclesiam meam Laudais evor'
+  [fused_4] 'ca Misitherotes ymus jam bone pastor x'
+  [fused_5] 'Poctor egregie ditnitati annciave'
+  [fused_6] 'intopadir . et fancta ejus intenexerunt ad'
+  [fused_7] 'ae . undictus ante Quodicumque liga'
+  [fused_8] 'netis super tereram eruit ligatum et in celisdet quodictum'
+  [fused_9] 'at lomenio super tetram ente solutum et in ceis dicait orout supra ad im capilam misitrer'
+  [fused_10] 'rodes  . de coi apostolorum ad coli'
+  [fused_11] 'Petrus quide snabat ad ura capetl'
+  [fused_12] 'ess fuims'
+  [fused_13] 'apud ecclesiam SanctiParli dicenus e Egoplan'
+  [fused_14] '. cum reli pres dixit dominus et in fine dicenus'
+  [fused_15] '.edidacri ecci l pealotad mi landidocgcapitt Goninictam y ancte Paule apostole'
+  [fused_16] 'predicator veritatis et doctor gencium intercede pro no'
+  [fused_17] 'bis addee legitt digi efficia'
+  [fused_18] 'hec aicuv diciti commenione Sancti Pauli cum aliquod festum de Beato'
+  [fused_19] 'Petro celebratur oro nustitudine addits pro Sancto Petri a'
+  [fused_20] 'tor omni dca Peto omnro Noqbentup'
+  [fused_21] 'mur gracia Dei icesps'
+  [fused_22] 'pdicapit m'
+  [fused_23] 'anrea luce Viannciancet'
+  [fused_24] 'di etsta ejus incelle domag en Hodie Hymon Peatus alenoit cau'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'tum tuum et sequere me dnis eovaei'
+  Assigned: 'tuum et sequere me'
+  Words:    [0..4) consumed=4
+  NW score: k=4 (pre-snap), norm=3.5572
+  Anchor:   word 10 (within_chant_7), diff=6, snapped=False, forced=False
+  Alignment:
+    target            0 tum tuum et sequere me dnis eovaei 34
+                      0 ----||||  8
+    query             0 ----tuum et sequere me------------ 18
+
+-- fused_1 --
+  OCR:      'minus angelum suum et liberavit me de manu herodis al'
+  Assigned: '{Deus deus meus} euouae Misit dominus angelum suum et liberavit me de manu herodis'
+  Words:    [4..18) consumed=14
+  NW score: k=14 (pre-snap), norm=4.3535
+  Anchor:   word 10 (within_chant_7), diff=8, snapped=False, forced=False
+  Alignment:
+    target            0 --------------------------------minus angelum suum et libera
+                      0 --------------------------------|||||
+    query             0 {Deus deus meus} euouae Misit dominus angelum suum et libera
+    
+    target           28 vit me de manu herodis al 53
+                     37 ||| 40
+    query            60 vit me de manu herodis--- 82
+
+-- fused_2 --
+  OCR:      'lu Ya pr benedicite exovae Ln es Petrus et super'
+  Assigned: 'al'
+  Words:    [18..19) consumed=1
+  NW score: k=8 (pre-snap), norm=4.5982
+  Anchor:   word 19 (within_chant_7), diff=7, snapped=False, forced=True
+  Alignment:
+    target            0 lu Ya pr benedicite exovae Ln es Petrus et super 48
+                      0 ----|-------------..|...|----------------------- 48
+    query             0 ----a-------------lleluya-----------------------  8
+
+-- fused_3 --
+  OCR:      'hanc Petram edificabo ecclesiam meam Laudais evor'
+  Assigned: 'leluya ~Benedicite euouae Tu es petrus et super hanc petram edificabo ecclesiam meam ~Laudate euouae'
+  Words:    [19..33) consumed=14
+  NW score: k=14 (pre-snap), norm=2.7109
+  Anchor:   word 26 (within_chant_7), diff=7, snapped=False, forced=False
+  Alignment:
+    target            0 -----------------------------------------hanc Petram edifica
+                      0 -----------------------------------------||||
+    query             0 ~Benedicite euouae Tu es petrus et super hanc petram edifica
+    
+    target           19 bo ecclesiam meam -Laudais evo--r 49
+                     45 || 47
+    query            60 bo ecclesiam meam ~Laudate euouae 93
+
+-- fused_4 --
+  OCR:      'ca Misitherotes ymus jam bone pastor x'
+  Assigned: 'Quodcumque liga'
+  Words:    [33..35) consumed=2
+  NW score: k=7 (pre-snap), norm=-1.3441
+  Anchor:   word 35 (within_chant_7), diff=5, snapped=False, forced=True
+  Alignment:
+    target            0 ca Misitherotes ymus jam bone --pastor x 38
+                      0 ---------..|----..|----|--..| 29
+    query             0 ---------Quo----dcu----m--que liga-veris 20
+
+-- fused_5 --
+  OCR:      'Poctor egregie ditnitati annciave'
+  Assigned: 'veris super terram erit ligatum et in celis et quodcum'
+  Words:    [35..44) consumed=9
+  NW score: k=8 (pre-snap), norm=-0.5780
+  Anchor:   word 44 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 Poctor -egregie dit-nitat----i annc--i------------ave 33
+                      0 -....|  6
+    query             0 -super terram e-rit ligatum et in celis et quodcumque 51
+
+-- fused_6 --
+  OCR:      'intopadir . et fancta ejus intenexerunt ad'
+  Assigned: 'que solveris super terram erit solutum et in celis dicit'
+  Words:    [44..53) consumed=9
+  NW score: k=9 (pre-snap), norm=-1.5407
+  Anchor:   word 53 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ------i-ntopadir -----. e--t fanct-a ejus intenexerunt ad---
+                      0 ------|-...|--.|
+    query             0 solveris sup--er terram erit solutum e--t i---n ce-lis -dici
+    
+    target           42 - 42
+                     16 - 17
+    query            51 t 52
+
+-- fused_7 --
+  OCR:      'ae . undictus ante Quodicumque liga'
+  Assigned: 'dominus symoni petro'
+  Words:    [53..56) consumed=3
+  NW score: k=5 (pre-snap), norm=-1.3045
+  Anchor:   word 56 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 ae . und--ictus ante Quodicumque liga 35
+                      0 -------|--|-.|| 15
+    query             0 -------domi-nus ----symoni--- pe--tro 20
+
+-- fused_8 --
+  OCR:      'netis super tereram eruit ligatum et in celisdet quodictum'
+  Assigned: 'euouae Sancte paule apostole predicator veritatis et doctor gencium'
+  Words:    [56..65) consumed=9
+  NW score: k=9 (pre-snap), norm=-0.5294
+  Anchor:   word 60 (within_chant_7), diff=5, snapped=False, forced=False
+  Alignment:
+    target            0 ---------netis -super ----t--e--re--ra--m -eruit ligatum et 
+                      0 ---------|.|-.
+    query             0 euouae Sanct-e paule- apostole predicator ver-it----atis et 
+    
+    target           37 in celisdet-- quodictum 58
+                     14 -..|------|-- 27
+    query            53 -doc------tor --gencium 67
+
+-- fused_9 --
+  OCR:      'at lomenio super tetram ente solutum et in ceis dicait orout supra ad im capilam misitrer'
+  Assigned: 'intercede pro nobis ad deum qui te elegit euouae Ut digni efficiamur gracia dei Hodie symon petrus'
+  Words:    [65..82) consumed=17
+  NW score: k=17 (pre-snap), norm=-0.8994
+  Anchor:   word 68 (within_chant_7), diff=14, snapped=False, forced=False
+  Alignment:
+    target            0 -at------ -lomen--io super tetram --ente sol------utu-m et -
+                      0 -.|------
+    query             0 intercede pro- nobis ---ad de--um qui te -elegit euouae Ut d
+    
+    target           40 i-n- ceis dicait orout supra- a-d im capilam --m--isitrer 89
+                      9 |-|- 13
+    query            53 igni -e--ffic-i---amur --gracia dei- Hodi--e symon petrus 98
+
+-- fused_10 --
+  OCR:      'rodes  . de coi apostolorum ad coli'
+  Assigned: 'ascendit crucis'
+  Words:    [82..84) consumed=2
+  NW score: k=2 (pre-snap), norm=-2.4877
+  Anchor:   word 84 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 rodes  . d-e coi apostolorum ad coli- 35
+                      0 ...|----.|-. 12
+    query             0 asce----ndit c-----------ru-----c--is 15
+
+-- fused_11 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [84..84) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_12 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [84..84) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_13 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [84..84) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_14 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [84..84) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_15 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [84..84) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_16 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [84..84) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_17 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [84..84) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_18 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [84..84) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_19 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [84..84) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_20 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [84..84) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_21 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [84..84) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_22 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [84..84) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_23 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [84..84) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_24 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [84..84) consumed=0
+  Alignment:
+    (no words left)
+=== END DEBUG ===
+

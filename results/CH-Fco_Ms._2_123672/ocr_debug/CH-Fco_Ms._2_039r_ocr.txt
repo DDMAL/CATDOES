@@ -1,0 +1,283 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'clamavit dicens ecclesie Agnus Dei ecclesie qui tossit pectata mundi Anelu'
+  [fused_1] 'cainis appariit egiti Ymnus a sove'
+  [fused_2] 'ortucasii . ubnm caro fac '
+  [fused_3] '|apLaudi evovae aute Et habitavit in nobs ad benedictus irabile misterium'
+  [fused_4] 'declaratur Ho die unnovantur nature deus homo factus est'
+  [fused_5] 'id quod fuit peremansit et quod non erat assumpsit non commissi'
+  [fused_6] 'or do quisalutis eterne Deinde fio'
+  [fused_7] 'commo de Sancto Basilio et Sancta Maria ad an'
+  [fused_8] 'capellani aparint eia  Bbum'
+  [fused_9] 'onem passus neque divisionem evovae caro ad veius t capi deslat'
+  [fused_10] 'ne admagi ante ble comertium pordi ad veus a amura  nnum rendoitato iem donms'
+  [fused_11] 'pium Dei factus estuterus vesciens jurum non est ponutus'
+  [fused_12] 'er ea carnem assimens ommies gentes venient dicentes glo'
+  [fused_13] 'addit a de Sancto Stephano Stephanuos aut titor O'
+  [fused_14] 'prs sempitras sed de aliis oct n facimus tum sacta'
+  [fused_15] 'nantioi do minesers g domi faus ps octnatdomini Incipinus officialis Sancte Marie qued dominu'
+  [fused_16] 'eppsie sciende rostoenatndomni ad pradium diu . Mileremn'
+  [fused_17] 'Geth Yminsude'
+  [fused_18] 'pillo gii die festo ad'
+  [fused_19] 'reiqa in velpis a Lapisti For siipe'
+  [fused_20] 'tceli B. Valdeho'
+  [fused_21] 'emehen ape'
+  [fused_22] ' vcutit pordine'
+  [fused_23] 'tentae qu Herodosira'
+  [fused_24] ' . Notum fec Rihe t oro de'
+  [fused_25] 'dis pe Mua'
+  [fused_26] 'pp 1 1880'
+  [fused_27] '.aginereemar doii sis oni '
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'clamavit dicens ecclesie Agnus Dei ecclesie qui tossit pectata mundi Anelu'
+  Assigned: 'dicens ecce agnus dei ecce qui tollit peccata mundi alleluya'
+  Words:    [0..10) consumed=10
+  NW score: k=10 (pre-snap), norm=4.2771
+  Anchor:   word 14 (within_chant_7), diff=4, snapped=False, forced=False
+  Alignment:
+    target            0 clamavit dicens ecclesie Agnus Dei ecclesie qui tossit pecta
+                      0 ---------||||||
+    query             0 ---------dicens ecc----e agnus dei ecc----e qui tollit pecca
+    
+    target           60 ta mundi -Anelu-- 74
+                     15 || 17
+    query            43 ta mundi alleluya 60
+
+-- fused_1 --
+  OCR:      'cainis appariit egiti Ymnus a sove'
+  Assigned: '~Laudate euouae Mirabile misterium'
+  Words:    [10..14) consumed=4
+  NW score: k=6 (pre-snap), norm=-1.8011
+  Anchor:   word 14 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 cainis appariit egiti Ymnu-s ---a---- --sove---- 34
+                      0 -----..|..|---|-|---- 21
+    query             0 -----~Lauda---t-e---- euouae Mirabile mis-terium 34
+
+-- fused_2 --
+  OCR:      'ortucasii . ubnm caro fac'
+  Assigned: 'declaratur hodie innovantur nature deus homo factus est'
+  Words:    [14..22) consumed=8
+  NW score: k=7 (pre-snap), norm=-1.4843
+  Anchor:   word 22 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 ----or-tu--casi--i . ubn--m ca--r----------o fac------- 25
+                      0 ----.|-||--...|--|.....|--. 27
+    query             0 declaratur hodie innovantur nature deus homo factus est 55
+
+-- fused_3 --
+  OCR:      '|apLaudi evovae aute Et habitavit in nobs ad benedictus irabile misterium'
+  Assigned: 'id quod fuit permansit et quod non erat assumpsit non commissi'
+  Words:    [22..33) consumed=11
+  NW score: k=18 (pre-snap), norm=-0.6465
+  Anchor:   word 33 (within_chant_7), diff=7, snapped=False, forced=True
+  Alignment:
+    target            0 |apLaudi evovae au-te Et ha-bitavit --in nobs --ad benedictu
+                      0 -----.|-
+    query             0 -----id- quo--d fuit- permansit- et quod no-n erat -----assu
+    
+    target           54 --s irabile ---misteri--um 73
+                      8 --|-|-..... 19
+    query            44 mps-i-t non commis--sionem 66
+
+-- fused_4 --
+  OCR:      'declaratur Ho die unnovantur nature deus homo factus est'
+  Assigned: 'onem passus neque divisionem euouae Magnum hereditatis misterium templum dei factus est'
+  Words:    [33..44) consumed=11
+  NW score: k=11 (pre-snap), norm=-0.0885
+  Anchor:   word 37 (within_chant_7), diff=7, snapped=False, forced=False
+  Alignment:
+    target            0 declaratur ---Ho di------e- -unnova-----ntur ------na-------
+                      0 ---.|-..|.
+    query             0 ---pa-ssus neque divisionem eu--ouae Magn-um hereditatis mis
+    
+    target           31 tur--e de---us homo factus est 56
+                     10 |.|--. 16
+    query            53 terium templum -dei factus est 82
+
+-- fused_5 --
+  OCR:      'id quod fuit peremansit et quod non erat assumpsit non commissi'
+  Assigned: 'uterus nesciens virum non est pollutus'
+  Words:    [44..50) consumed=6
+  NW score: k=11 (pre-snap), norm=-0.6203
+  Anchor:   word 50 (within_chant_7), diff=5, snapped=False, forced=True
+  Alignment:
+    target            0 id quod fuit pereman-s-it e-t --quod non erat assumpsit non 
+                      0 ---------|-|--||...|-|-|--|-.
+    query             0 ---------u-t--erus nesci--ens viru-m non e----------s-t po--
+    
+    target           55 commissi 63
+                     29 -.....|- 37
+    query            32 -llutus- 38
+
+-- fused_6 --
+  OCR:      'or do quisalutis eterne Deinde fio'
+  Assigned: 'ex ea carnem assumens omnes gentes venient dicentes glo'
+  Words:    [50..59) consumed=9
+  NW score: k=7 (pre-snap), norm=-1.3496
+  Anchor:   word 59 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 or do ---quisa-lu-tis ---e--tern-e- De-i-n--d-----e- ---fio
+                      0 ..
+    query             0 ex ea carnem assumens omnes ge-ntes venient dicentes gloria
+    
+    target           34
+                      2
+    query            58
+
+-- fused_7 --
+  OCR:      'commo de Sancto Basilio et Sancta Maria ad an'
+  Assigned: 'ria tibi domine euouae'
+  Words:    [59..62) consumed=3
+  NW score: k=3 (pre-snap), norm=-3.5136
+  Anchor:   word 62 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 commo de Sancto Basilio et Sancta Maria ad an 45
+                      0 -....  5
+    query             0 -tibi d-------o---mi-ne e---------------uouae 18
+
+-- fused_8 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [62..62) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_9 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [62..62) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_10 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [62..62) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_11 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [62..62) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_12 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [62..62) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_13 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [62..62) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_14 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [62..62) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_15 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [62..62) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_16 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [62..62) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_17 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [62..62) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_18 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [62..62) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_19 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [62..62) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_20 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [62..62) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_21 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [62..62) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_22 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [62..62) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_23 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [62..62) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_24 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [62..62) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_25 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [62..62) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_26 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [62..62) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_27 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [62..62) consumed=0
+  Alignment:
+    (no words left)
+=== END DEBUG ===
+

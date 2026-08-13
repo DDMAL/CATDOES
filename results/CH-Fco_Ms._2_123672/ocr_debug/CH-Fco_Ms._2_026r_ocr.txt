@@ -1,0 +1,175 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'Bloria patri . ant uscepimus deus misericordiam tuam in'
+  [fused_1] 'medio Templi tui po Magnus dominus ea. rietur diebus'
+  [fused_2] 'domini habundancia pacis et dominabitur p . Ds judicium evo'
+  [fused_3] 'vae veritas de terra orta est et justicia de celo prosperit'
+  [fused_4] 'p Bniisti epecosus forma P'
+  [fused_5] 'gi tius. magnum misterium'
+  [fused_6] 'et adiina buesacaa mentum ut anma lia'
+  [fused_7] 'viderent dominimi Na tum Jacentem in presepi oBea'
+  [fused_8] 'ta vir cinis iuscera merueruntportaredo mi'
+  [fused_9] 'num xpistum |  Maria gracia plena do mi'
+  [fused_10] 'mis cum Jacen Dta Dei genitrix Maria cuins'
+  [fused_11] 'cetPerm nit ege mit sal'
+  [fused_12] 'nato rem se cu  eataque crondit anomam pr'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'Bloria patri . ant uscepimus deus misericordiam tuam in'
+  Assigned: 'Gloria patri Suscepimus deus misericordiam tuam in'
+  Words:    [0..7) consumed=7
+  NW score: k=7 (pre-snap), norm=6.7696
+  Anchor:   word 7 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 Bloria patri . ant uscepimus deus misericordiam tuam in 55
+                      0 .|||||  6
+    query             0 Gloria patri -----Suscepimus deus misericordiam tuam in 50
+
+-- fused_1 --
+  OCR:      'medio Templi tui po Magnus dominus ea. rietur diebus'
+  Assigned: 'medio templi tui ~Magnus dominus euouae Orietur diebus'
+  Words:    [7..15) consumed=8
+  NW score: k=8 (pre-snap), norm=6.2464
+  Anchor:   word 15 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 medio Templi tui po Magnus dominus e---a. -rietur diebus 52
+                      0 |||||  5
+    query             0 medio templi tui --~Magnus dominus euouae Orietur diebus 54
+
+-- fused_2 --
+  OCR:      'domini habundancia pacis et dominabitur p . Ds judicium evo'
+  Assigned: 'domini habundancia pacis et dominabitur ~Deus iudicium'
+  Words:    [15..22) consumed=7
+  NW score: k=7 (pre-snap), norm=6.2185
+  Anchor:   word 22 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 domini habundancia pacis et dominabitur p . D--s judicium ev
+                      0 ||||||
+    query             0 domini habundancia pacis et dominabitur ---~Deus iudicium---
+    
+    target           58 o 59
+                      6 -  7
+    query            54 - 54
+
+-- fused_3 --
+  OCR:      'vae veritas de terra orta est et justicia de celo prosperit'
+  Assigned: 'euouae Veritas de terra orta est et iusticia de celo prospexit'
+  Words:    [22..33) consumed=11
+  NW score: k=11 (pre-snap), norm=6.7293
+  Anchor:   word 33 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ---vae veritas de terra orta est et justicia de celo prosper
+                      0 ---.||
+    query             0 euouae Veritas de terra orta est et iusticia de celo prospex
+    
+    target           57 it 59
+                      6 ||  8
+    query            60 it 62
+
+-- fused_4 --
+  OCR:      'p Bniisti epecosus forma P'
+  Assigned: '~Bendedixisti euouae ~Speciosus forma'
+  Words:    [33..37) consumed=4
+  NW score: k=4 (pre-snap), norm=2.9662
+  Anchor:   word 42 (within_chant_7), diff=5, snapped=False, forced=False
+  Alignment:
+    target            0 p B-n---i-isti e--------pec-osus forma P 26
+                      0 -.|-|---|-|||| 14
+    query             0 -~Bendedixisti euouae ~Speciosus forma-- 37
+
+-- fused_5 --
+  OCR:      'gi tius. magnum misterium'
+  Assigned: 'pre filiis hominum ~Diffusa est'
+  Words:    [37..42) consumed=5
+  NW score: k=12 (pre-snap), norm=-0.0943
+  Anchor:   word 42 (within_chant_7), diff=7, snapped=False, forced=True
+  Alignment:
+    target            0 -gi --tius. --magnum -mi-------sterium 25
+                      0 -..  3
+    query             0 pre filiis- hom-inum ~Diffusa est----- 31
+
+-- fused_6 --
+  OCR:      'et adiina buesacaa mentum ut anma lia'
+  Assigned: 'gratia in labiis tuis O magnum mysterium et admirabile sacramentum ut animalia'
+  Words:    [42..54) consumed=12
+  NW score: k=12 (pre-snap), norm=0.9493
+  Anchor:   word 49 (within_chant_7), diff=5, snapped=False, forced=False
+  Alignment:
+    target            0 -----------------------------------------et adiina b-ue-saca
+                      0 -----------------------------------------||
+    query             0 gratia in labiis tuis O magnum mysterium et admira-bile sacr
+    
+    target           17 a mentum ut an-ma lia 37
+                     43 |-|||||| 51
+    query            59 a-mentum ut anima-lia 78
+
+-- fused_7 --
+  OCR:      'viderent dominimi Na tum Jacentem in presepi oBea'
+  Assigned: 'viderent dominum natum Iacentem in presepio bea'
+  Words:    [54..61) consumed=7
+  NW score: k=6 (pre-snap), norm=5.9039
+  Anchor:   word 61 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 viderent dominimi Na tum Jacentem in presepi- oBe--a 49
+                      0 ||||||||  8
+    query             0 viderent dominum- na-tum Iacentem in presepio -beata 49
+
+-- fused_8 --
+  OCR:      'ta vir cinis iuscera merueruntportaredo mi'
+  Assigned: 'ta virgo cuius viscera meruerunt portare domi'
+  Words:    [61..67) consumed=6
+  NW score: k=6 (pre-snap), norm=4.3704
+  Anchor:   word 67 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ta vir-- c-inis -iuscera meruerunt-portare-do mi--- 42
+                      0 ---|||--  8
+    query             0 ---virgo cui-us vi-scera meruerunt portare do-minum 45
+
+-- fused_9 --
+  OCR:      'num xpistum |  Maria gracia plena do mi'
+  Assigned: 'num xpistum Ave maria gracia plena domi'
+  Words:    [67..73) consumed=6
+  NW score: k=6 (pre-snap), norm=4.9355
+  Anchor:   word 73 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 num xpistum -|  Maria gracia plena do mi--- 39
+                      0 ----||||||| 11
+    query             0 ----xpistum Ave maria gracia plena do-minus 38
+
+-- fused_10 --
+  OCR:      'mis cum Jacen Dta Dei genitrix Maria cuins'
+  Assigned: 'nus tecum Iacentem Beata dei genetrix maria cuius'
+  Words:    [73..80) consumed=7
+  NW score: k=7 (pre-snap), norm=4.2094
+  Anchor:   word 80 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 mis cum Jacen--- --Dta Dei genitrix Maria cuins 42
+                      0 --..|||  7
+    query             0 --tecum Iacentem Beata dei genetrix maria cuius 45
+
+-- fused_11 --
+  OCR:      'cetPerm nit ege mit sal'
+  Assigned: 'viscera intacta permanent Hodie genuit sal'
+  Words:    [80..86) consumed=6
+  NW score: k=6 (pre-snap), norm=0.3872
+  Anchor:   word 86 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ---ce--------t--Perm n-it ----e-ge mit sal------- 23
+                      0 ---||--------|--.|||.|-.| 25
+    query             0 viscera intacta permanent Hodie genuit salvatorem 49
+
+-- fused_12 --
+  OCR:      'nato rem se cu  eataque crondit anomam pr'
+  Assigned: 'vatorem seculi Beata que credidit quoniam perfecta'
+  Words:    [86..92) consumed=6
+  NW score: k=6 (pre-snap), norm=1.8074
+  Anchor:   word 92 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 nato rem se cu--  eata-que cr-ondit ano-mam p-r----- 41
+                      0 ---------||-||-- 16
+    query             0 ---------se-culi Beata que credidit quoniam perfecta 42
+=== END DEBUG ===
+

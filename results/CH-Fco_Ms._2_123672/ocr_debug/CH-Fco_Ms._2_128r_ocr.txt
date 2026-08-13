@@ -1,0 +1,259 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'em terra t hoc quod continet'
+  [fused_1] 'omnia scienciam babet vocis ana . Bloria patri et filio et'
+  [fused_2] 'paradlitur'
+  [fused_3] 'rra docebit'
+  [fused_4] 'nos omnia ad vi'
+  [fused_5] 'spiritui Sancto Spiritusn piritus paraditus alle'
+  [fused_6] 'ocebit vos omnia Avelnya . Bioria pa'
+  [fused_7] 'G Repletesunt'
+  [fused_8] ' spistu Sancto Arra'
+  [fused_9] 'tri. m etcepertid epleti sunt omnes spiritu Sancto Allelu'
+  [fused_10] 'tceperunt Loqui alla Boria patri'
+  [fused_11] 'mnariis Lingnis apistoli alla  magsnalia Deiare ad vespas'
+  [fused_12] 'Dun coplens pdidixit dominos Rinfine in exitu isie et iste pres di'
+  [fused_13] 'totam ebdam omnu veni creator apostoli ana mo Magnalia Dei ad magistri ant doline completi'
+  [fused_14] 'sunt dies pentecostes Alleluya ho die spiritus Sanctus'
+  [fused_15] 'ne deisailis appartiunt et itibernt ejus varsmnacum domina moi'
+  [fused_16] 'sit eos muniversum mundum predicare et testificari qui'
+  [fused_17] 'crediderit et baptizatus fuerit salvus ritalle Luya eo'
+  [fused_18] 'tca i in vitat et psto e sici die domini'
+  [fused_19] 'ca deinceps per totam ebdomadam'
+  [fused_20] 'vae e domini repleuint orbe terarum ansa  dc hoc e  am non dicam vos'
+  [fused_21] 'Semos sedamn cos me os omna omnia cogno'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'em terra t hoc quod continet'
+  Assigned: 'Et hoc quod continet'
+  Words:    [0..4) consumed=4
+  NW score: k=4 (pre-snap), norm=5.0287
+  Anchor:   word 14 (within_chant_7), diff=10, snapped=False, forced=False
+  Alignment:
+    target            0 em terra t hoc quod continet 28
+                      0 --------.| 10
+    query             0 --------Et hoc quod continet 20
+
+-- fused_1 --
+  OCR:      'omnia scienciam babet vocis ana . Bloria patri et filio et'
+  Assigned: 'omnia scienciam habet vocis alleluya Gloria patri et filio et'
+  Words:    [4..14) consumed=10
+  NW score: k=10 (pre-snap), norm=6.3886
+  Anchor:   word 14 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 omnia scienciam babet vocis a-----na . Bloria patri et filio
+                      0 |||||
+    query             0 omnia scienciam habet vocis alleluya-- Gloria patri et filio
+    
+    target           55  et 58
+                      5   5
+    query            58  et 61
+
+-- fused_2 --
+  OCR:      'paradlitur'
+  Assigned: 'spiritui'
+  Words:    [14..15) consumed=1
+  NW score: k=1 (pre-snap), norm=1.1180
+  Anchor:   word 23 (within_chant_7), diff=8, snapped=False, forced=False
+  Alignment:
+    target            0 -paradlitur 10
+                      0 -|.|---|||. 11
+    query             0 spir---itui  8
+
+-- fused_3 --
+  OCR:      'rra docebit'
+  Assigned: 'sancto Spiritus Docebit'
+  Words:    [15..18) consumed=3
+  NW score: k=3 (pre-snap), norm=0.3143
+  Anchor:   word 23 (within_chant_7), diff=5, snapped=False, forced=False
+  Alignment:
+    target            0 ----------r--ra docebit 11
+                      0 ----------|--.. 15
+    query             0 sancto Spiritus Docebit 23
+
+-- fused_4 --
+  OCR:      'nos omnia ad vi'
+  Assigned: 'vos omnia'
+  Words:    [18..20) consumed=2
+  NW score: k=2 (pre-snap), norm=3.1845
+  Anchor:   word 23 (within_chant_7), diff=3, snapped=False, forced=False
+  Alignment:
+    target            0 nos omnia ad vi 15
+                      0 .||  3
+    query             0 vos omnia------  9
+
+-- fused_5 --
+  OCR:      'spiritui Sancto Spiritusn piritus paraditus alle'
+  Assigned: 'alleluya Gloria patri Repleti sunt omnes spiritu sancto alleluya'
+  Words:    [20..29) consumed=9
+  NW score: k=9 (pre-snap), norm=-0.4691
+  Anchor:   word 23 (within_chant_7), diff=6, snapped=False, forced=False
+  Alignment:
+    target            0 ---------------sp-iri------tui Sancto Spiritusn -piritus par
+                      0 ---------------.|-.||------|-|
+    query             0 alleluya Gloria patri Replet-i sun-t- ---omnes- spiritu- --s
+    
+    target           37 aditus alle---- 48
+                     30 |..|-. 36
+    query            50 anct-o alleluya 64
+
+-- fused_6 --
+  OCR:      'ocebit vos omnia Avelnya . Bioria pa'
+  Assigned: 'alleluya Et ceperunt loqui alleluya Gloria patri'
+  Words:    [29..36) consumed=7
+  NW score: k=7 (pre-snap), norm=-0.0722
+  Anchor:   word 36 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -----------oce---bit vos omni-a Avelnya . Bioria pa--- 36
+                      0 -----------.||---..| 20
+    query             0 alleluya Et ceperunt ---loqui a-lleluya-- Gloria patri 48
+
+-- fused_7 --
+  OCR:      'G Repletesunt'
+  Assigned: 'Hodie completi'
+  Words:    [36..38) consumed=2
+  NW score: k=3 (pre-snap), norm=1.3998
+  Anchor:   word 38 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 ----G -Repletesunt 13
+                      0 ----.  5
+    query             0 Hodie complet----i 14
+
+-- fused_8 --
+  OCR:      'spistu Sancto Arra'
+  Assigned: 'sunt dies pentecostes alleluya hodie spiritus sanctus in i'
+  Words:    [38..47) consumed=9
+  NW score: k=4 (pre-snap), norm=-1.6783
+  Anchor:   word 47 (within_chant_7), diff=5, snapped=False, forced=True
+  Alignment:
+    target            0 s---------p-----------------------i--s----tu- Sanct----o Arr
+                      0 |---------|-----------------------|--|----||-
+    query             0 sunt dies pentecostes alleluya hodie spiritus sanctus in ign
+    
+    target           17 a 18
+                     45 . 46
+    query            60 e 61
+
+-- fused_9 --
+  OCR:      'tri. m etcepertid epleti sunt omnes spiritu Sancto Allelu'
+  Assigned: 'gne discipulis apparuit et tribuit eis karismatum dona mi'
+  Words:    [47..55) consumed=8
+  NW score: k=9 (pre-snap), norm=-0.8208
+  Anchor:   word 55 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 ------tri. m etcepertid eplet-i sunt omne-s spiri---tu- Sanc
+                      0 ------..|.
+    query             0 discipulis ----apparuit e-t tri-buit ---eis -karismatum don-
+    
+    target           48 to Allelu 57
+                     10 -. 12
+    query            49 -a -misit 56
+
+-- fused_10 --
+  OCR:      'tceperunt Loqui alla Boria patri'
+  Assigned: 'sit eos in universum mundum predicare et testificari qui'
+  Words:    [55..63) consumed=8
+  NW score: k=7 (pre-snap), norm=-1.7861
+  Anchor:   word 63 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 tce---------per-----un--t Loqui a--lla -Boria patr----i 32
+                      0 --|---------.||-----||--. 25
+    query             0 --eos in universum mundum predicare et testifica-ri qui 52
+
+-- fused_11 --
+  OCR:      'mnariis Lingnis apistoli alla  magsnalia Deiare ad vespas'
+  Assigned: 'crediderit et baptizatus fuerit salvus erit alleluya euouae Iam non dicam vos'
+  Words:    [63..75) consumed=12
+  NW score: k=12 (pre-snap), norm=-1.1774
+  Anchor:   word 71 (within_chant_7), diff=4, snapped=False, forced=False
+  Alignment:
+    target            0 mnar--i---is Lingnis -ap-i----s------t--ol------i- all----a 
+                      0 --.|--|---|.
+    query             0 --crediderit -----et baptizatus fuerit salvus erit alleluya 
+    
+    target           30 ------ magsnalia Deiare ad vespas 57
+                     12 ------ 18
+    query            53 euouae Iam n--on -di---cam v---os 77
+
+-- fused_12 --
+  OCR:      'Dun coplens pdidixit dominos Rinfine in exitu isie et iste pres di'
+  Assigned: 'servos sed amicos meos quia omnia cognovistis'
+  Words:    [75..82) consumed=7
+  NW score: k=7 (pre-snap), norm=-1.4680
+  Anchor:   word 82 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 Dun coplens pdidixit dominos Rinfine in exitu -isie ---et is
+                      0 -....|----|
+    query             0 -servo----s -sed---- -amicos -----me-os qui-a omnia cognovis
+    
+    target           56 te pres di 66
+                     11 |----.|--- 21
+    query            42 t----is--- 45
+
+-- fused_13 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [82..82) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_14 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [82..82) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_15 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [82..82) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_16 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [82..82) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_17 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [82..82) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_18 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [82..82) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_19 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [82..82) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_20 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [82..82) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_21 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [82..82) consumed=0
+  Alignment:
+    (no words left)
+=== END DEBUG ===
+

@@ -1,0 +1,231 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] ' . ave maria in olto beate similiter a rnpossumus propter hunc o alitervenit hoc festi i iant Crienas  predictam a'
+  [fused_1] 'domini si dominica venerit vig . ddominia'
+  [fused_2] 'dla cndebetdio ul eiulmm Aleta tut ora nas lit n di antubba de di admagn'
+  [fused_3] 'aanns oop ce Cum furor .ar ibus clauo'
+  [fused_4] 'ataAgnes mine'
+  [fused_5] 'dio flammarum expansis manibus orabat te de precor adorande'
+  [fused_6] 'colende pater metuen de quia per sanctum filium tu'
+  [fused_7] 'minas ena si sacrilegi Tyranni et carius purticias mmaculato'
+  [fused_8] 'essce venio ad te quem aniavi quem quesim quem'
+  [fused_9] 'ord ompe snctim . Nota quod si festimitas hec in domince veneritin'
+  [fused_10] 'dominica telebrat cum commi dominoea a or romesi n st qnoct'
+  [fused_11] 'fiat commnite festo et te dominica fiant omnia alia dominum XIII'
+  [fused_12] 'semper optavi exovac irvitat regengnu dominum ymis virginis proles qua'
+  [fused_13] ''
+  [fused_14] 'iscede a me pabulum mortis quia jam ab alio'
+  [fused_15] 'amatore preventaum eatus vir eovae extram'
+  [fused_16] 'meam et collum meum cuixit lapidibus preciosis tradidit au'
+  [fused_17] 'ribus meis mextimabiles Margaritas  Quare feao eovae'
+  [fused_18] 'Poserint ligiim in facem mnceam ut imium Pettri cum'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      '. ave maria in olto beate similiter a rnpossumus propter hunc o alitervenit hoc festi i iant Crienas  predictam a'
+  Assigned: 'euouae Beata agnes in medio flammarum expansis manibus orabat te deprecor adorande colende pater metuende quia per sanctum filium tuum minas evasi sacrilegi tyranni'
+  Words:    [0..24) consumed=24
+  NW score: k=24 (pre-snap), norm=-0.7933
+  Anchor:   word 5 (within_chant_7), diff=19, snapped=False, forced=False
+  Alignment:
+    target            0 --. ave -ma-ria---- in -olto beate similiter a rnpos-sum----
+                      0 --..|-|
+    query             0 euoua-e Beata agnes in medio flammarum--- expa--n--sis manib
+    
+    target           46 us pr---------opte--r ---hun-c -o----- -aliter----venit -hoc
+                      7 ||
+    query            52 us orabat te deprecor adorande colende pa--ter metuende quia
+    
+    target           79  fe--s---t-i -i i-ant--- Crienas ----- --pr--edict--am a 113
+                      9    9
+    query           110  per sanctum filium tuum -mi-nas evasi sacrilegi tyranni 164
+
+-- fused_1 --
+  OCR:      'domini si dominica venerit vig . ddominia'
+  Assigned: 'et carnis purcicias immaculato'
+  Words:    [24..28) consumed=4
+  NW score: k=8 (pre-snap), norm=-1.5652
+  Anchor:   word 28 (within_chant_7), diff=4, snapped=False, forced=True
+  Alignment:
+    target            0 --domini si -dominica venerit vig . ddom-inia-- 41
+                      0 --....||-|- 11
+    query             0 et carni-s- purcici-a-------s -i------mmaculato 30
+
+-- fused_2 --
+  OCR:      'dla cndebetdio ul eiulmm Aleta tut ora nas lit n di antubba de di admagn'
+  Assigned: 'calle transivi ecce venio ad te quem amavi quem quesivi quem'
+  Words:    [28..39) consumed=11
+  NW score: k=17 (pre-snap), norm=-1.1426
+  Anchor:   word 39 (within_chant_7), diff=6, snapped=False, forced=True
+  Alignment:
+    target            0 --dl----a----- -cnde-betdio ul -e-iulm--m--- Aleta tut ora n
+                      0 --.|----|-----
+    query             0 calle transivi ec-ce ve-nio ad te quem amavi que-m qu-------
+    
+    target           40 as lit n di antubba de di admagn 72
+                     14 .|--|----.| 25
+    query            50 es--i----vi --qu-----e------m--- 60
+
+-- fused_3 --
+  OCR:      'aanns oop ce Cum furor .ar ibus clauo'
+  Assigned: 'semper optavi'
+  Words:    [39..41) consumed=2
+  NW score: k=12 (pre-snap), norm=-1.2643
+  Anchor:   word 41 (within_chant_7), diff=10, snapped=False, forced=True
+  Alignment:
+    target            0 aanns oop ce Cum furor --.ar ibus clauo 37
+                      0 ----|------|---|---..| 22
+    query             0 ----s------e---m---per opta-vi--------- 13
+
+-- fused_4 --
+  OCR:      'ataAgnes mine'
+  Assigned: 'euouae Discede'
+  Words:    [41..43) consumed=2
+  NW score: k=2 (pre-snap), norm=-1.7049
+  Anchor:   word 51 (within_chant_7), diff=8, snapped=False, forced=False
+  Alignment:
+    target            0 --ataAgnes mi---ne 13
+                      0 --..|---|- 10
+    query             0 euoua---e- Discede 14
+
+-- fused_5 --
+  OCR:      'dio flammarum expansis manibus orabat te de precor adorande'
+  Assigned: 'a me pabulum mortis quia iam ab alio'
+  Words:    [43..51) consumed=8
+  NW score: k=10 (pre-snap), norm=-0.6795
+  Anchor:   word 51 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 dio flamm---a--rum expansis --manibus orabat te de precor a-
+                      0 ------|.|---|--.||
+    query             0 ------a me pabulum --mortis quia i-am --ab--------------- al
+    
+    target           52 dorande 59
+                     18 .|----- 25
+    query            34 io----- 36
+
+-- fused_6 --
+  OCR:      'colende pater metuen de quia per sanctum filium tu'
+  Assigned: 'amatore preventa sum ~Beatus vir euouae Dextram meam et collum meum'
+  Words:    [51..62) consumed=11
+  NW score: k=11 (pre-snap), norm=-0.7084
+  Anchor:   word 58 (within_chant_7), diff=4, snapped=False, forced=False
+  Alignment:
+    target            0 ---colende p-ate--r --m---e-tuen -de qu-ia- pe--r-- -sa-nctu
+                      0 ---.|---.|
+    query             0 amato---re preventa sum ~Beatu-s vir euouae Dextram meam et-
+    
+    target           39 m filium -tu- 50
+                     10 - 11
+    query            55 - collum meum 67
+
+-- fused_7 --
+  OCR:      'minas ena si sacrilegi Tyranni et carius purticias mmaculato'
+  Assigned: 'cinxit lapidibus preciosis tradidit au'
+  Words:    [62..67) consumed=5
+  NW score: k=8 (pre-snap), norm=-0.4382
+  Anchor:   word 67 (within_chant_7), diff=3, snapped=False, forced=True
+  Alignment:
+    target            0 min-as ena- si- sacrilegi---- Tyranni et ca-ri-us purticias 
+                      0 .||-..
+    query             0 cinxit -lapidibus pr--eciosis -tra-didit -auribus-----------
+    
+    target           51 mmaculato 60
+                      6 --------- 15
+    query            43 --------- 43
+
+-- fused_8 --
+  OCR:      'essce venio ad te quem aniavi quem quesim quem'
+  Assigned: 'ribus meis inextimabiles margaritas ~Quare fremuerunt'
+  Words:    [67..72) consumed=5
+  NW score: k=5 (pre-snap), norm=-0.9678
+  Anchor:   word 72 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -essce -ve-nio ad te- quem aniavi--- -qu--em quesim que---m
+                      0 -|.|--
+    query             0 meis-- inexti-mabiles ---m-argaritas ~Quare- fre--m--uerunt
+    
+    target           46
+                      6
+    query            47
+
+-- fused_9 --
+  OCR:      'ord ompe snctim . Nota quod si festimitas hec in domince veneritin'
+  Assigned: 'euouae Posuit signum in faciem meam ut nullum preter eum'
+  Words:    [72..82) consumed=10
+  NW score: k=8 (pre-snap), norm=-1.3946
+  Anchor:   word 82 (page_break_77), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 ord ompe --snctim . Nota ---quod si- festi-mitas he-c in dom
+                      0 --..|..|
+    query             0 --euouae Pos--ui------t- signu-m -in f-aciem---- meam ut ---
+    
+    target           52 in---ce -veneritin 66
+                      8 -|---.. 15
+    query            39 -nullum preter eum 56
+
+-- fused_10 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [82..82) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_11 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [82..82) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_12 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [82..82) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_13 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [82..82) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_14 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [82..82) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_15 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [82..82) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_16 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [82..82) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_17 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [82..82) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_18 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [82..82) consumed=0
+  Alignment:
+    (no words left)
+=== END DEBUG ===
+

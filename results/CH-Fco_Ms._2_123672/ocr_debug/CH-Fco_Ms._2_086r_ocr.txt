@@ -1,0 +1,171 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'apectatis meis ps Miserere evovae'
+  [fused_1] 'num est sperare in domino quam sperare in principi'
+  [fused_2] 'buconfiem  .enedicat nos deus deus'
+  [fused_3] 'nosterseneditat nos dens vorae . Poteno'
+  [fused_4] 'domine erpere nosde mau fortis librr'
+  [fused_5] ' ege terre et omnes populi lauda'
+  [fused_6] 'tecmma larone cipie Lum sublevasset'
+  [fused_7] 'octulos Jhesus et vidisset maximam multitudinem veniene'
+  [fused_8] 'tem ad se dixit ad Philipum unde ememus panes'
+  [fused_9] 'ducent . hii hoc autem dicebat temptans cum ipse emum sancti'
+  [fused_10] 'ebat quid esset facturus evovae ccepit er'
+  [fused_11] 'Ego ihesus panes et cum gracias egisset distribuit discum'
+  [fused_12] 'rentibus evorae De qina panbus et onorus psis'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'apectatis meis ps Miserere evovae'
+  Assigned: 'faciem tuam a peccatis meis ~Miserere euouae bo'
+  Words:    [0..8) consumed=8
+  NW score: k=7 (pre-snap), norm=3.6478
+  Anchor:   word 8 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 ------------a-pectatis meis ps Miserere evovae------ 33
+                      0 ------------|-|||.|||| 22
+    query             0 faciem tuam a peccatis meis --~Miserere euouae Bonum 50
+
+-- fused_1 --
+  OCR:      'num est sperare in domino quam sperare in principi'
+  Assigned: 'num est sperare in domino quam sperare in principi'
+  Words:    [8..16) consumed=8
+  NW score: k=8 (pre-snap), norm=6.8488
+  Anchor:   word 16 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 num est sperare in domino quam sperare in principi--- 50
+                      0 ----|||  7
+    query             0 ----est sperare in domino quam sperare in principibus 49
+
+-- fused_2 --
+  OCR:      'buconfiem  .enedicat nos deus deus'
+  Assigned: 'bus ~Confitemini euouae Benedicat nos deus deus'
+  Words:    [16..22) consumed=6
+  NW score: k=6 (pre-snap), norm=4.6030
+  Anchor:   word 22 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 buconfi-em--- ------ .enedicat nos deus deus 34
+                      0 -..||||-||--- 13
+    query             0 -~Confitemini euouae Benedicat nos deus deus 43
+
+-- fused_3 --
+  OCR:      'nosterseneditat nos dens vorae . Poteno'
+  Assigned: 'noster benedicat nos deus ~Deus deus euouae Potens es'
+  Words:    [22..31) consumed=9
+  NW score: k=8 (pre-snap), norm=3.6459
+  Anchor:   word 31 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 noster-seneditat nos dens ------------vorae . Poten---o 39
+                      0 ||||||-.|||||.|| 16
+    query             0 noster benedicat nos deus ~Deus deus euouae-- Potens es 53
+
+-- fused_4 --
+  OCR:      'domine erpere nosde mau fortis librr'
+  Assigned: 'domine eripere nos de manu fortis liberare nos deus noster'
+  Words:    [31..41) consumed=10
+  NW score: k=7 (pre-snap), norm=6.3264
+  Anchor:   word 41 (within_chant_7), diff=3, snapped=False, forced=True
+  Alignment:
+    target            0 domine er-pere nos-de ma-u fortis lib---r----------------r 36
+                      0 ||||||  6
+    query             0 domine eripere nos de manu fortis liberare nos deus noster 58
+
+-- fused_5 --
+  OCR:      'ege terre et omnes populi lauda'
+  Assigned: '~Benedic euouae Reges terre et omnes populi lauda'
+  Words:    [41..49) consumed=8
+  NW score: k=8 (pre-snap), norm=4.4264
+  Anchor:   word 49 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -----------------ege- terre et omnes populi lauda-- 31
+                      0 -----------------|||- 21
+    query             0 ~Benedic euouae Reges terre et omnes populi laudate 51
+
+-- fused_6 --
+  OCR:      'tecmma larone cipie Lum sublevasset'
+  Assigned: 'te deum ~Laudate euouae Cum sublevasset'
+  Words:    [49..54) consumed=5
+  NW score: k=5 (pre-snap), norm=2.6481
+  Anchor:   word 54 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 tecm--ma larone -cipie Lum sublevasset 35
+                      0 .|.|--.|..|--.| 15
+    query             0 deum ~Lauda--te euouae Cum sublevasset 36
+
+-- fused_7 --
+  OCR:      'octulos Jhesus et vidisset maximam multitudinem veniene'
+  Assigned: 'oculos ihesus et vidisset maximam multitudinem venien'
+  Words:    [54..61) consumed=7
+  NW score: k=7 (pre-snap), norm=7.1715
+  Anchor:   word 61 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 octulos Jhesus et vidisset maximam multitudinem venien-e- 55
+                      0 ||-||||  7
+    query             0 oc-ulos ihesus et vidisset maximam multitudinem venientem 56
+
+-- fused_8 --
+  OCR:      'tem ad se dixit ad Philipum unde ememus panes'
+  Assigned: 'tem ad se dixit ad philipum unde ememus panes ut man'
+  Words:    [61..71) consumed=10
+  NW score: k=8 (pre-snap), norm=6.9610
+  Anchor:   word 71 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 tem ad se dixit ad Philipum unde ememus panes------------- 45
+                      0 ----||  6
+    query             0 ----ad se dixit ad philipum unde ememus panes ut manducent 54
+
+-- fused_9 --
+  OCR:      'ducent . hii hoc autem dicebat temptans cum ipse emum sancti'
+  Assigned: 'ducent hii hoc autem dicebat temptans eum ipse enim sci'
+  Words:    [71..80) consumed=9
+  NW score: k=8 (pre-snap), norm=5.0797
+  Anchor:   word 80 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 ducent . hii hoc autem dicebat temptans cum ipse emum s----a
+                      0 ---------|||
+    query             0 ---------hii hoc autem dicebat temptans eum ipse enim scieba
+    
+    target           56 ncti 60
+                     12 --|- 16
+    query            51 --t- 52
+
+-- fused_10 --
+  OCR:      'ebat quid esset facturus evovae ccepit er'
+  Assigned: 'ebat quid esset facturus euouae Accepit er'
+  Words:    [80..86) consumed=6
+  NW score: k=6 (pre-snap), norm=5.6518
+  Anchor:   word 86 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ebat quid esset facturus evovae -ccepit er-- 41
+                      0 -----||||  9
+    query             0 -----quid esset facturus euouae Accepit ergo 39
+
+-- fused_11 --
+  OCR:      'Ego ihesus panes et cum gracias egisset distribuit discum'
+  Assigned: 'go ihesus panes et cum gracias egisset distribuit discum'
+  Words:    [86..94) consumed=8
+  NW score: k=8 (pre-snap), norm=6.4444
+  Anchor:   word 94 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 Ego ihesus panes et cum gracias egisset distribuit discum---
+                      0 ----||||||
+    query             0 ----ihesus panes et cum gracias egisset distribuit discumben
+    
+    target           57 ----- 57
+                     10 ----- 15
+    query            56 tibus 61
+
+-- fused_12 --
+  OCR:      'rentibus evorae De qina panbus et onorus psis'
+  Assigned: 'bentibus euouae De quinque panibus et duobus piscibus'
+  Words:    [94..101) consumed=7
+  NW score: k=7 (pre-snap), norm=3.0564
+  Anchor:   word 101 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 rentibus evorae De q-in--a pan-bus et onorus p-s-i--s 45
+                      0 -|----|----|.|| 15
+    query             0 -e----u----ouae De quinque panibus et duobus piscibus 44
+=== END DEBUG ===
+

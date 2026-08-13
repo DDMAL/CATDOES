@@ -1,0 +1,275 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'de Fonte salvatoris sanctificavit eum nunic omnem crraturam Christi'
+  [fused_1] 'vor de Celo sonvit et vor patris'
+  [fused_2] 'audita est hic est filius meus in quo michi complacui'
+  [fused_3] 'capillis surge Ymi Emixa cesi'
+  [fused_4] 'V. Hodie celestis C.'
+  [fused_5] 'Quimjordane aec ad'
+  [fused_6] 'dite Laudate Evovac Benedictus antephonarecursor Iohan'
+  [fused_7] 'cum jordane Baptiato domino facta est orbis terrarum'
+  [fused_8] 'erultatio facta est peccatorum nostrorum remissimo sanctificans acuavi'
+  [fused_9] 'capitula ad vell et vi i'
+  [fused_10] 'bran sic predicta sint or'
+  [fused_11] 'ad od horas do curuni'
+  [fused_12] 'ere nobis erovae genertus a vcpa'
+  [fused_13] 'audibi aptietmi'
+  [fused_14] 'les cu tel pres de vii'
+  [fused_15] 'admagni aut e YmiIIococ cipam jordavis stabat beatus Johannes in'
+  [fused_16] 'ndortsalvatorem baptia me Johannes'
+  [fused_17] 'congades suscipe'
+  [fused_18] 'Stiendu que quam dominicus dies primo occurrerit poster octabis epiphune predicti dici officiani te'
+  [fused_19] 'epmagesima Salbeto ad vessas capstlis oaltitudo Ymis olnne eata V ves et ordine scipitur in matutinis et horco officiaorum suat ab octabs epiplne vlus ad'
+  [fused_20] 'me oae Pna oro ascendat rx et cescendat s ad c'
+  [fused_21] 'isepit cenum secarius pop am sanmu seait logntiuo est quo do'
+  [fused_22] 'bam et senen ejus ecclstate hmiles nseuinsituam enonoae'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'de Fonte salvatoris sanctificavit eum nunic omnem crraturam Christi'
+  Assigned: 'de fonte salvatoris sanctificavit eum nunc omnem creaturam xpistus'
+  Words:    [0..9) consumed=9
+  NW score: k=9 (pre-snap), norm=6.5265
+  Anchor:   word 20 (within_chant_7), diff=11, snapped=False, forced=False
+  Alignment:
+    target            0 de Fonte salvatoris sanctificavit eum nunic omnem crraturam 
+                      0 ||
+    query             0 de fonte salvatoris sanctificavit eum nun-c omnem creaturam 
+    
+    target           60 Christ-i 67
+                      2 -..|||-. 10
+    query            59 -xpistus 66
+
+-- fused_1 --
+  OCR:      'vor de Celo sonvit et vor patris'
+  Assigned: 'deus noster ~Benedic euouae Vox de celo sonuit et vox patris'
+  Words:    [9..20) consumed=11
+  NW score: k=11 (pre-snap), norm=2.4648
+  Anchor:   word 20 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -----vo---r-------------------- de Celo sonvit et vor patris
+                      0 -----.|---|--------------------
+    query             0 deus noster ~Benedic euouae Vox de celo sonuit et vox patris
+    
+    target           32 
+                     31 
+    query            60 
+
+-- fused_2 --
+  OCR:      'audita est hic est filius meus in quo michi complacui'
+  Assigned: 'audita est hic est filius meus in quo michi complacui ipsum au'
+  Words:    [20..32) consumed=12
+  NW score: k=10 (pre-snap), norm=8.0000
+  Anchor:   word 32 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 audita est hic est filius meus in quo michi complacui-------
+                      0 ||||||
+    query             0 audita est hic est filius meus in quo michi complacui ipsum 
+    
+    target           53 ------ 53
+                      6 ------ 12
+    query            60 audite 66
+
+-- fused_3 --
+  OCR:      'capillis surge Ymi Emixa cesi'
+  Assigned: 'dite ~Laudate euouae Praecursor iohan'
+  Words:    [32..36) consumed=4
+  NW score: k=4 (pre-snap), norm=-2.0402
+  Anchor:   word 36 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -capillis su------rge-- Ymi Emi-xa cesi 29
+                      0 -.|-.....  9
+    query             0 ~La-udate euouae Praecursor --iohannes- 35
+
+-- fused_4 --
+  OCR:      'V. Hodie celestis C.'
+  Assigned: 'nes exultat cum iordane baptizato domino facta est orbis terrarum'
+  Words:    [36..45) consumed=9
+  NW score: k=4 (pre-snap), norm=-2.2422
+  Anchor:   word 45 (within_chant_7), diff=5, snapped=False, forced=True
+  Alignment:
+    target            0 ---------V. Ho-d-ie -------------------c-elest----is ------C
+                      0 ---------..
+    query             0 exultat cum iordane baptizato domino facta est orbis terraru
+    
+    target           19 . 20
+                     11 . 12
+    query            60 m 61
+
+-- fused_5 --
+  OCR:      'Quimjordane aec ad'
+  Assigned: 'exsultatio facta est peccatorum nostrorum remissio sanctificans aquam'
+  Words:    [45..53) consumed=8
+  NW score: k=4 (pre-snap), norm=-1.6087
+  Anchor:   word 53 (within_chant_7), diff=4, snapped=False, forced=True
+  Alignment:
+    target            0 --Qu----i---------------------m-----jor-dane------ -aec-----
+                      0 --.|----|---------------------|-----.||-...|------
+    query             0 exsultatio facta est peccatorum nostrorum remissio sanctific
+    
+    target           15 --- ---ad 18
+                     50 --- 53
+    query            60 ans aquam 69
+
+-- fused_6 --
+  OCR:      'dite Laudate Evovac Benedictus antephonarecursor Iohan'
+  Assigned: 'ipsi omnes clamemus miserere nobis euouae Super ripam iordanis'
+  Words:    [53..62) consumed=9
+  NW score: k=9 (pre-snap), norm=-1.5209
+  Anchor:   word 59 (within_chant_7), diff=3, snapped=False, forced=False
+  Alignment:
+    target            0 --di---te- Laudate--- Evovac Be-nedictus antephonare-cu--rso
+                      0 --.|---.|-
+    query             0 ipsi omnes --clamemus -miserere nobi---s ---e-uoua-e Super- 
+    
+    target           47 r---- Io-han-- 54
+                     10 |---- 15
+    query            48 ripam iordanis 62
+
+-- fused_7 --
+  OCR:      'cum jordane Baptiato domino facta est orbis terrarum'
+  Assigned: 'stabat beatus iohannes in'
+  Words:    [62..66) consumed=4
+  NW score: k=8 (pre-snap), norm=-0.6657
+  Anchor:   word 66 (within_chant_7), diff=4, snapped=False, forced=True
+  Alignment:
+    target            0 cum jordane Bapt--iat-o domino facta est orbi--s terrarum 52
+                      0 ------..|---.|-|--.||-. 23
+    query             0 ------sta---ba-t beatus ---i-o-ha--nnes- ---induct-----us 31
+
+-- fused_8 --
+  OCR:      'erultatio facta est peccatorum nostrorum remissimo sanctificans acuavi'
+  Assigned: 'ductus est splendore baptizans salvatorem baptiza me iohannes'
+  Words:    [66..73) consumed=7
+  NW score: k=8 (pre-snap), norm=-0.7590
+  Anchor:   word 73 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 e---rultatio-- fact--a est peccatorum nostrorum remissimo sa
+                      0 |---..|-...|--
+    query             0 est spl-endore baptiza-ns- salvatorem bapt--iza me i----o-ha
+    
+    target           53 nctifican-s acuavi 70
+                     14 |-------|-|------- 32
+    query            50 n-------nes------- 54
+
+-- fused_9 --
+  OCR:      'capitula ad vell et vi i'
+  Assigned: 'baptiza benedicam te et tu iordanis congaudens suscipe'
+  Words:    [73..81) consumed=8
+  NW score: k=5 (pre-snap), norm=0.3603
+  Anchor:   word 81 (within_chant_7), diff=3, snapped=False, forced=True
+  Alignment:
+    target            0 capitula -------ad vell et --------vi------------ ----i-- 24
+                      0 .||-|..|  8
+    query             0 bap-tiza benedicam te-- et tu iordanis congaudens suscipe 54
+
+-- fused_10 --
+  OCR:      'bran sic predicta sint or'
+  Assigned: 'me euouae Suscepit deus israel'
+  Words:    [81..86) consumed=5
+  NW score: k=5 (pre-snap), norm=-1.6797
+  Anchor:   word 83 (within_chant_7), diff=3, snapped=False, forced=False
+  Alignment:
+    target            0 -----bran --sic predicta ---s-int or--- 25
+                      0 -----..|.  9
+    query             0 me euouae Sus-c---epi-t- deus i---srael 30
+
+-- fused_11 --
+  OCR:      'ad od horas do curuni'
+  Assigned: 'puerum suum sicut loquutus est ad abra'
+  Words:    [86..93) consumed=7
+  NW score: k=4 (pre-snap), norm=-2.3110
+  Anchor:   word 93 (within_chant_7), diff=3, snapped=False, forced=True
+  Alignment:
+    target            0 ---------ad ---od ho---ras -----do cur-uni 21
+                      0 ---------.. 11
+    query             0 puerum suum sicut loquutus est ad- abraham 41
+
+-- fused_12 --
+  OCR:      'ere nobis erovae genertus a vcpa'
+  Assigned: 'ham et semen eus eexaltare'
+  Words:    [93..97) consumed=4
+  NW score: k=4 (pre-snap), norm=-0.9799
+  Anchor:   word 102 (page_break_77), diff=5, snapped=False, forced=False
+  Alignment:
+    target            0 ere nobis erovae gen-ertus ---a vcpa-- 32
+                      0 |-.  3
+    query             0 e-t ----s------e-men e--us eexa--ltare 22
+
+-- fused_13 --
+  OCR:      'audibi aptietmi'
+  Assigned: 'humiles usque in seculum euouoae'
+  Words:    [97..102) consumed=5
+  NW score: k=3 (pre-snap), norm=-1.6783
+  Anchor:   word 102 (page_break_77), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 audi-bi ---apti---e---tm-------i 15
+                      0 .|.|-..  7
+    query             0 humiles usque in seculum euouoae 32
+
+-- fused_14 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [102..102) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_15 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [102..102) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_16 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [102..102) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_17 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [102..102) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_18 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [102..102) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_19 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [102..102) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_20 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [102..102) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_21 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [102..102) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_22 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [102..102) consumed=0
+  Alignment:
+    (no words left)
+=== END DEBUG ===
+

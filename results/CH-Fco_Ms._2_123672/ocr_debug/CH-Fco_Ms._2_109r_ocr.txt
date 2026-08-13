@@ -1,0 +1,163 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'aari a Magdalene  atera Mariibant dibacu'
+  [fused_1] 'lo ad monumentum besumquem que ritis non'
+  [fused_2] 'est bic surrerit est precedet vos m'
+  [fused_3] 'Gaie videbitis Allelvya alle in'
+  [fused_4] 'Vat Valde mane una sabbatorum veni'
+  [fused_5] 'nt a moenturtlet intrs'
+  [fused_6] 'monumentum viderunt invenem sedentem in dextris qui'
+  [fused_7] ' lis. Jhesim RLongratulamini'
+  [fused_8] 'michi omnes qui diligitisdo'
+  [fused_9] 'qen quereban cpatutin chi et dmim flerem'
+  [fused_10] 'o  iudi dominum me'
+  [fused_11] 'n Ya ecedenti s discpulis non recede'
+  [fused_12] 'bam et amors ejs igne succensa attebam de 14'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'aari a Magdalene  atera Mariibant dibacu'
+  Assigned: 'Maria magdalene et altera maria ibant dilucu'
+  Words:    [0..7) consumed=7
+  NW score: k=7 (pre-snap), norm=4.7325
+  Anchor:   word 7 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 aari a Magdalene -- a-tera Mari--ibant dibacu-- 40
+                      0 .|||-|  6
+    query             0 Mari-a magdalene et altera maria ibant diluculo 46
+
+-- fused_1 --
+  OCR:      'lo ad monumentum besumquem que ritis non'
+  Assigned: 'lo ad monumentum Ihesum quem queritis non'
+  Words:    [7..13) consumed=6
+  NW score: k=6 (pre-snap), norm=6.1815
+  Anchor:   word 13 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 lo ad monumentum -besum-quem que ritis non 40
+                      0 ---||  5
+    query             0 ---ad monumentum Ihesum quem que-ritis non 38
+
+-- fused_2 --
+  OCR:      'est bic surrerit est precedet vos m'
+  Assigned: 'est hic surrexit sicut loquutus est precedet vos in'
+  Words:    [13..22) consumed=9
+  NW score: k=9 (pre-snap), norm=4.3788
+  Anchor:   word 22 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 est bic surrerit--------------- est precedet vos -m 35
+                      0 |||  3
+    query             0 est hic surrexit sicut loquutus est precedet vos in 51
+
+-- fused_3 --
+  OCR:      'Gaie videbitis Allelvya alle in'
+  Assigned: 'galileam ibi eum videbitis alleluya alleluya'
+  Words:    [22..28) consumed=6
+  NW score: k=7 (pre-snap), norm=3.1176
+  Anchor:   word 28 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 Ga---------i-e-- videbitis Allelvya alle- in 31
+                      0 .|---------|-|-- 16
+    query             0 galileam ibi eum videbitis alleluya alleluya 44
+
+-- fused_4 --
+  OCR:      'Vat Valde mane una sabbatorum veni'
+  Assigned: 'Et valde mane una salbatorum veni'
+  Words:    [28..34) consumed=6
+  NW score: k=6 (pre-snap), norm=5.8595
+  Anchor:   word 34 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 Vat Valde mane una sabbatorum veni--- 34
+                      0 -.|  3
+    query             0 -Et valde mane una salbatorum veniunt 36
+
+-- fused_5 --
+  OCR:      'nt a moenturtlet intrs'
+  Assigned: 'unt ad monumentum orto iam sole et introeuntes in'
+  Words:    [34..42) consumed=8
+  NW score: k=7 (pre-snap), norm=1.5133
+  Anchor:   word 42 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 nt a- mo---entu---rt--------l--et intr------s--- 22
+                      0 ---|-  5
+    query             0 ---ad monumentum orto iam sole et introeuntes in 45
+
+-- fused_6 --
+  OCR:      'monumentum viderunt invenem sedentem in dextris qui'
+  Assigned: 'monumentum viderunt iuvenem sedentem in dexteris qui'
+  Words:    [42..49) consumed=7
+  NW score: k=7 (pre-snap), norm=7.5343
+  Anchor:   word 49 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 monumentum viderunt invenem sedentem in dext-ris qui 51
+                      0 |||||||||| 10
+    query             0 monumentum viderunt iuvenem sedentem in dexteris qui 52
+
+-- fused_7 --
+  OCR:      'lis. Jhesim RLongratulamini'
+  Assigned: 'dixit illis Ihesum Congratulamini'
+  Words:    [49..53) consumed=4
+  NW score: k=4 (pre-snap), norm=3.9867
+  Anchor:   word 53 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 --------lis. Jhesim RLongratulamini 27
+                      0 --------|||- 12
+    query             0 dixit illis- Ihesum -Congratulamini 33
+
+-- fused_8 --
+  OCR:      'michi omnes qui diligitisdo'
+  Assigned: 'michi omnes qui diligitis dominum quia'
+  Words:    [53..59) consumed=6
+  NW score: k=4 (pre-snap), norm=7.3131
+  Anchor:   word 59 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 michi omnes qui diligitis-do---------- 27
+                      0 |||||  5
+    query             0 michi omnes qui diligitis dominum quia 38
+
+-- fused_9 --
+  OCR:      'qen quereban cpatutin chi et dmim flerem'
+  Assigned: 'quem querebam apparuit michi Et dum flerem'
+  Words:    [59..66) consumed=7
+  NW score: k=7 (pre-snap), norm=4.2696
+  Anchor:   word 66 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 q-en quereban -cpatutin --chi et dmim flerem 40
+                      0 |-|.  4
+    query             0 quem querebam apparu-it michi Et d-um flerem 42
+
+-- fused_10 --
+  OCR:      'o  iudi dominum me'
+  Assigned: 'ad monumentum vidi dominum meum alleluya'
+  Words:    [66..72) consumed=6
+  NW score: k=5 (pre-snap), norm=2.6247
+  Anchor:   word 72 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 ----o--------  iudi dominum me----------- 18
+                      0 ----|-------- 13
+    query             0 ad monumentum vi-di dominum meum alleluya 40
+
+-- fused_11 --
+  OCR:      'n Ya ecedenti s discpulis non recede'
+  Assigned: 'Recedentibus discipulis non recede'
+  Words:    [72..76) consumed=4
+  NW score: k=4 (pre-snap), norm=5.1238
+  Anchor:   word 76 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 n Ya ecedenti- s disc-pulis non recede--- 36
+                      0 ----.||||||||-.| 16
+    query             0 ----Recedentibus discipulis non recedebam 37
+
+-- fused_12 --
+  OCR:      'bam et amors ejs igne succensa attebam de 14'
+  Assigned: 'bam et amoris eius igne succensa ardebam desiderio'
+  Words:    [76..83) consumed=7
+  NW score: k=6 (pre-snap), norm=4.5478
+  Anchor:   word 83 (page_break_77), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 bam et amor-s e-js igne succensa attebam ----de 14 44
+                      0 ----||  6
+    query             0 ----et amoris eius igne succensa ardebam desiderio 46
+=== END DEBUG ===
+

@@ -1,0 +1,183 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'neniunt intrinesecus autem sunt'
+  [fused_1] 'rapaces a fructibus eolum cognoscetis eos Allelvya e'
+  [fused_2] 'Vovae Non potest arbor bona fructus malos facere'
+  [fused_3] 'e mala fructus bonos facebe omnis arbor que non facit'
+  [fused_4] 'fructum bonum excidetur et in ignem Evovae.'
+  [fused_5] 'cit dominus villito quid hoc audio de te redde rationem'
+  [fused_6] 'mnelitationis terne alcerubi erorae Quid faciam qui'
+  [fused_7] 'us aufert a me villicationem fodere non valeo'
+  [fused_8] 'mendicare Crubesco scio quid faci ami ut cum annuotus fuero'
+  [fused_9] 'a villicatione recipiant me in domos suas exovae'
+  [fused_10] 'Lum appropinquaret dominus Iherusalem videnis civitatem'
+  [fused_11] 'femt suppillam et dmnt aia si cognovises et cu quma'
+  [fused_12] 'ment dieo mnte et cutundabunt temunic c Vallo'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'neniunt intrinesecus autem sunt'
+  Assigned: 'veniunt ad vos in vestimentis ovium intrinsecus autem sunt'
+  Words:    [0..9) consumed=9
+  NW score: k=9 (pre-snap), norm=3.1130
+  Anchor:   word 25 (within_chant_7), diff=16, snapped=False, forced=False
+  Alignment:
+    target            0 neniunt---------------------------- intrinesecus autem sunt
+                      0 .||||||----------------------------
+    query             0 veniunt ad vos in vestimentis ovium intrin-secus autem sunt
+    
+    target           31
+                     35
+    query            58
+
+-- fused_1 --
+  OCR:      'rapaces a fructibus eolum cognoscetis eos Allelvya e'
+  Assigned: 'lupi rapaces a fructibus eorum cognoscetis eos alleluya'
+  Words:    [9..17) consumed=8
+  NW score: k=8 (pre-snap), norm=6.2080
+  Anchor:   word 25 (within_chant_7), diff=8, snapped=False, forced=False
+  Alignment:
+    target            0 -----rapaces a fructibus eolum cognoscetis eos Allelvya e 52
+                      0 -----||||||| 12
+    query             0 lupi rapaces a fructibus eorum cognoscetis eos alleluya-- 55
+
+-- fused_2 --
+  OCR:      'Vovae Non potest arbor bona fructus malos facere'
+  Assigned: 'euouae Non potest arbor bona fructus malos facere'
+  Words:    [17..25) consumed=8
+  NW score: k=8 (pre-snap), norm=7.2375
+  Anchor:   word 25 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -Vovae Non potest arbor bona fructus malos facere 48
+                      0 -.|.||  6
+    query             0 euouae Non potest arbor bona fructus malos facere 49
+
+-- fused_3 --
+  OCR:      'e mala fructus bonos facebe omnis arbor que non facit'
+  Assigned: 'neque arbor mala fructus bonos facere omnis arbor que non facit'
+  Words:    [25..36) consumed=11
+  NW score: k=11 (pre-snap), norm=6.4551
+  Anchor:   word 36 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ----e------ mala fructus bonos facebe omnis arbor que non fa
+                      0 ----|------
+    query             0 neque arbor mala fructus bonos facere omnis arbor que non fa
+    
+    target           50 cit 53
+                     11 ||| 14
+    query            60 cit 63
+
+-- fused_4 --
+  OCR:      'fructum bonum excidetur et in ignem Evovae.'
+  Assigned: 'fructum bonum excidetur et in ignem mittetur euouae'
+  Words:    [36..44) consumed=8
+  NW score: k=6 (pre-snap), norm=6.4958
+  Anchor:   word 44 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 fructum bonum excidetur et in ignem--------- Evovae. 43
+                      0 |||||||  7
+    query             0 fructum bonum excidetur et in ignem mittetur euouae- 51
+
+-- fused_5 --
+  OCR:      'cit dominus villito quid hoc audio de te redde rationem'
+  Assigned: 'Dixit dominus villico quid hoc audio de te redde rationem'
+  Words:    [44..54) consumed=10
+  NW score: k=10 (pre-snap), norm=7.2154
+  Anchor:   word 54 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 --cit dominus villito quid hoc audio de te redde rationem 55
+                      0 --.||  5
+    query             0 Dixit dominus villico quid hoc audio de te redde rationem 57
+
+-- fused_6 --
+  OCR:      'mnelitationis terne alcerubi erorae Quid faciam qui'
+  Assigned: 'villicationis tue alleluya euouae Quid faciam qui'
+  Words:    [54..61) consumed=7
+  NW score: k=7 (pre-snap), norm=4.5943
+  Anchor:   word 61 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 mnelitationis terne alcerubi erorae Quid faciam qui- 51
+                      0 ...||.||||||| 13
+    query             0 villicationis t--ue alleluya euouae Quid faciam quia 50
+
+-- fused_7 --
+  OCR:      'us aufert a me villicationem fodere non valeo'
+  Assigned: 'a dominus meus aufert a me villicationem fodere non valeo'
+  Words:    [61..70) consumed=9
+  NW score: k=9 (pre-snap), norm=6.5528
+  Anchor:   word 70 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ----------us aufert a me villicationem fodere non valeo 45
+                      0 ----------|| 12
+    query             0 dominus meus aufert a me villicationem fodere non valeo 55
+
+-- fused_8 --
+  OCR:      'mendicare Crubesco scio quid faci ami ut cum annuotus fuero'
+  Assigned: 'mendicare erubesco scio quid faciam ut cum ammotus fuero'
+  Words:    [70..79) consumed=9
+  NW score: k=9 (pre-snap), norm=6.7501
+  Anchor:   word 79 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 mendicare Crubesco scio quid faci ami ut cum annuotus fuero
+                      0 |||||||||
+    query             0 mendicare erubesco scio quid faci-am- ut cum a-mmotus fuero
+    
+    target           59
+                      9
+    query            56
+
+-- fused_9 --
+  OCR:      'a villicatione recipiant me in domos suas exovae'
+  Assigned: 'a villicatione recipiant me in domos suas euouae'
+  Words:    [79..87) consumed=8
+  NW score: k=8 (pre-snap), norm=7.4583
+  Anchor:   word 87 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 a villicatione recipiant me in domos suas exovae 48
+                      0 |  1
+    query             0 a villicatione recipiant me in domos suas euouae 48
+
+-- fused_10 --
+  OCR:      'Lum appropinquaret dominus Iherusalem videnis civitatem'
+  Assigned: 'Cum appropinquaret dominus iherusalem videns civitatem'
+  Words:    [87..93) consumed=6
+  NW score: k=6 (pre-snap), norm=7.3214
+  Anchor:   word 93 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 Lum appropinquaret dominus Iherusalem videnis civitatem 55
+                      0 .||  3
+    query             0 Cum appropinquaret dominus iherusalem viden-s civitatem 54
+
+-- fused_11 --
+  OCR:      'femt suppillam et dmnt aia si cognovises et cu quma'
+  Assigned: 'flevit super illam et dixit quia si cognovisses et tu quia ve'
+  Words:    [93..105) consumed=12
+  NW score: k=11 (pre-snap), norm=5.0011
+  Anchor:   word 105 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 f-e-mt sup--pillam et d-mnt -aia si cognovi-ses et cu quma--
+                      0 |-|-.|
+    query             0 flevit super illam et dixit quia si cognovisses et tu quia v
+    
+    target           51 ------ 51
+                      6 ------ 12
+    query            60 enient 66
+
+-- fused_12 --
+  OCR:      'ment dieo mnte et cutundabunt temunic c Vallo'
+  Assigned: 'nient dies in te et circundabunt te inimici tui vallo et circumdabunt'
+  Words:    [105..116) consumed=11
+  NW score: k=9 (pre-snap), norm=3.3921
+  Anchor:   word 116 (page_break_77), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 ment dieo mn-te et c-utundabunt temun--ic- --c Vallo--------
+                      0 -----|||.
+    query             0 -----dies in te et circundabunt te inimici tui vallo et circ
+    
+    target           45 -------- 45
+                      9 -------- 17
+    query            55 umdabunt 63
+=== END DEBUG ===
+

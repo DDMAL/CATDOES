@@ -1,0 +1,179 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'nes emim sunt Ambula Bunt'
+  [fused_1] 'Lautabant sanc ti canti cum nonum antem sedem Dei'
+  [fused_2] 'et ag ni . et re sona terra in vocese'
+  [fused_3] 'rum Ni emoti sunt ex omnibus primicie Deo et ag'
+  [fused_4] 'no et more ipsorum non est inventum menda um . Et'
+  [fused_5] 're So di sub altare Dei animas interfec'
+  [fused_6] 'tum propterverbum de anos ha d bant'
+  [fused_7] 'etam voneoit veeniti viudica do mine Ssangui'
+  [fused_8] 'nem servorum tuorum qui effii.'
+  [fused_9] '. est ub trono Dei omnes Sancti DlaMant'
+  [fused_10] 'Noni resi dei or'
+  [fused_11] 'Vidica csnntaes Eedmin laudami nodiris iti qui amicti sunt stolis albis'
+  [fused_12] 'qm sunt et indene nerunt et drat mi'
+  [fused_13] 't mi sant qu nene runt de muomlani one'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'nes emim sunt Ambula Bunt'
+  Assigned: 'enim sunt Ambulabunt'
+  Words:    [0..3) consumed=3
+  NW score: k=3 (pre-snap), norm=4.9641
+  Anchor:   word 10 (within_chant_7), diff=7, snapped=False, forced=False
+  Alignment:
+    target            0 nes emim sunt Ambula Bunt 25
+                      0 ----|.||  8
+    query             0 ----enim sunt Ambula-bunt 20
+
+-- fused_1 --
+  OCR:      'Lautabant sanc ti canti cum nonum antem sedem Dei'
+  Assigned: 'Cantabant sancti canticum novum ante sedem dei'
+  Words:    [3..10) consumed=7
+  NW score: k=7 (pre-snap), norm=6.2136
+  Anchor:   word 10 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 Lautabant sanc ti canti cum nonum antem sedem Dei 49
+                      0 .|.||||||  9
+    query             0 Cantabant sanc-ti canti-cum novum ante- sedem dei 46
+
+-- fused_2 --
+  OCR:      'et ag ni . et re sona terra in vocese'
+  Assigned: 'et agni Et resonabat terra in voces eo'
+  Words:    [10..18) consumed=8
+  NW score: k=7 (pre-snap), norm=5.5299
+  Anchor:   word 18 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 et ag ni . et re sona--- terra in voces-e---- 37
+                      0 ||  2
+    query             0 et ag-ni-- Et re-sonabat terra in voces eorum 41
+
+-- fused_3 --
+  OCR:      'rum Ni emoti sunt ex omnibus primicie Deo et ag'
+  Assigned: 'rum Hii empti sunt ex omnibus primicie deo et a'
+  Words:    [18..27) consumed=9
+  NW score: k=9 (pre-snap), norm=5.9573
+  Anchor:   word 27 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 rum Ni emoti sunt ex omnibus primicie Deo et ag-- 47
+                      0 ---..|  6
+    query             0 ---Hii empti sunt ex omnibus primicie deo et agno 46
+
+-- fused_4 --
+  OCR:      'no et more ipsorum non est inventum menda um . Et'
+  Assigned: 'gno et in ore ipsorum non est inventum mendacium Et'
+  Words:    [27..36) consumed=9
+  NW score: k=9 (pre-snap), norm=5.9596
+  Anchor:   word 36 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 no et --more ipsorum non est inventum menda- um . Et 49
+                      0 ---||  5
+    query             0 ---et in ore ipsorum non est inventum mendacium-- Et 47
+
+-- fused_5 --
+  OCR:      're So di sub altare Dei animas interfec'
+  Assigned: 'resonabat Vidi sub altare dei animas interfec'
+  Words:    [36..43) consumed=7
+  NW score: k=7 (pre-snap), norm=5.0500
+  Anchor:   word 43 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 re So----- --di sub altare Dei animas interfec----- 39
+                      0 ||-.|----- 10
+    query             0 re-sonabat Vidi sub altare dei animas interfectorum 50
+
+-- fused_6 --
+  OCR:      'tum propterverbum de anos ha d bant'
+  Assigned: 'torum propter verbum dei quod habebant'
+  Words:    [43..48) consumed=5
+  NW score: k=5 (pre-snap), norm=4.1235
+  Anchor:   word 48 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 tum propter-verbum de- anos ha d bant 35
+                      0 ----|||||||-|||||| 18
+    query             0 ----propter verbum dei quod ha-bebant 32
+
+-- fused_7 --
+  OCR:      'etam voneoit veeniti viudica do mine Ssangui'
+  Assigned: 'et clara voce dicebant Vindica domine sangui'
+  Words:    [48..55) consumed=7
+  NW score: k=7 (pre-snap), norm=2.8147
+  Anchor:   word 55 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 et---a-m vone-oit ve-eniti viudica do mine Ssangui--- 44
+                      0 ||---|-.  8
+    query             0 et clara voce di--ceban-t- Vindica do-mine -sanguinem 47
+
+-- fused_8 --
+  OCR:      'nem servorum tuorum qui effii.'
+  Assigned: 'nem servorum tuorum qui effu'
+  Words:    [55..59) consumed=4
+  NW score: k=4 (pre-snap), norm=5.1299
+  Anchor:   word 59 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 nem servorum tuorum qui eff-ii. 30
+                      0 ----|||||||| 12
+    query             0 ----servorum tuorum qui effusus 27
+
+-- fused_9 --
+  OCR:      '. est ub trono Dei omnes Sancti DlaMant'
+  Assigned: 'sus est Sub trono dei omnes sancti clamant'
+  Words:    [59..66) consumed=7
+  NW score: k=7 (pre-snap), norm=5.8966
+  Anchor:   word 66 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 . est -ub trono Dei omnes Sancti DlaMant 39
+                      0 --|||  5
+    query             0 --est Sub trono dei omnes sancti clamant 38
+
+-- fused_10 --
+  OCR:      'Noni resi dei or'
+  Assigned: 'Vindica Isti qui'
+  Words:    [66..69) consumed=3
+  NW score: k=3 (pre-snap), norm=-0.8125
+  Anchor:   word 73 (within_chant_7), diff=4, snapped=False, forced=False
+  Alignment:
+    target            0 Non-i-- res-i dei or 16
+                      0 ..|-|--  7
+    query             0 Vindica -Isti qui--- 16
+
+-- fused_11 --
+  OCR:      'Vidica csnntaes Eedmin laudami nodiris iti qui amicti sunt stolis albis'
+  Assigned: 'amicti sunt stolis albis'
+  Words:    [69..73) consumed=4
+  NW score: k=4 (pre-snap), norm=1.1386
+  Anchor:   word 73 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 Vidica csnntaes Eedmin laudami nodiris iti qui amicti sunt s
+                      0 -----------------------------------------------||||||
+    query             0 -----------------------------------------------amicti sunt s
+    
+    target           60 tolis albis 71
+                     53 ||||| 58
+    query            13 tolis albis 24
+
+-- fused_12 --
+  OCR:      'qm sunt et indene nerunt et drat mi'
+  Assigned: 'qui sunt et unde venerunt Et dixit michi hii'
+  Words:    [73..82) consumed=9
+  NW score: k=8 (pre-snap), norm=4.0891
+  Anchor:   word 82 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 q-m sunt et inde-ne nerunt et d-rat m-------i 35
+                      0 |-.  3
+    query             0 qui sunt et unde ve-nerunt Et dixit michi hii 44
+
+-- fused_13 --
+  OCR:      't mi sant qu nene runt de muomlani one'
+  Assigned: 'sunt qui venerunt de tribulatione magna et'
+  Words:    [82..89) consumed=7
+  NW score: k=5 (pre-snap), norm=3.3040
+  Anchor:   word 89 (page_break_77), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 t mi sant qu- nene runt de ---muomlani one--------- 38
+                      0 -----|.||  9
+    query             0 -----sunt qui vene-runt de tribu--lati-one magna et 42
+=== END DEBUG ===
+

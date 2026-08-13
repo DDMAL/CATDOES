@@ -1,0 +1,195 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'ch dominus in refugium tlapis istein sigm .'
+  [fused_1] 'ungens ergo Jacobs tunt lapidem quem suppo'
+  [fused_2] 'suerat capiti suo et erexit intitulum fundensque oleum de'
+  [fused_3] '. rit eritchi dominus in de'
+  [fused_4] ' et lapis iste quem erexi in titulum vocabitur do'
+  [fused_5] 'mus de et de univer sis que dederis mi'
+  [fused_6] 'Damas et hostias pacificas offeramibi'
+  [fused_7] 'tuero prosiere ad domum'
+  [fused_8] 'secundumMathu . inilleo te alsumpsit'
+  [fused_9] 'ihe Petrum omnis Sancti Ambrosii episcopi L'
+  [fused_10] 'cimaslii VII . dico antem nobis vere sunta ixit Angelus ad Jacob'
+  [fused_11] 'Dmice. m est respondit e non dimintam'
+  [fused_12] 'temesi senditens in donii et denoi nate um'
+  [fused_13] 'meotem nocoum q surrerisset'
+  [fused_14] 'hacob ecclesi ute luctabatur cum eousque mane et cumvide'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'ch dominus in refugium tlapis istein sigm .'
+  Assigned: 'in refugium et lapis iste in signum'
+  Words:    [0..7) consumed=7
+  NW score: k=7 (pre-snap), norm=4.1759
+  Anchor:   word 15 (within_chant_7), diff=8, snapped=False, forced=False
+  Alignment:
+    target            0 ch dominus in refugium -t-lapis iste-in sig--m . 43
+                      0 -----------|| 13
+    query             0 -----------in refugium et lapis iste in signum-- 35
+
+-- fused_1 --
+  OCR:      'ungens ergo Jacobs tunt lapidem quem suppo'
+  Assigned: 'Surgens ergo mane iacob tulit lapidem quem suppo'
+  Words:    [7..15) consumed=8
+  NW score: k=8 (pre-snap), norm=4.7666
+  Anchor:   word 15 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -ungens ergo----- Jacobs tu-nt lapidem quem suppo------ 42
+                      0 -|.||||  7
+    query             0 Surgens ergo mane iacob- tulit lapidem quem supposuerat 54
+
+-- fused_2 --
+  OCR:      'suerat capiti suo et erexit intitulum fundensque oleum de'
+  Assigned: 'suerat capiti suo et erexit in titulum fundensque oleum de'
+  Words:    [15..24) consumed=9
+  NW score: k=8 (pre-snap), norm=6.3281
+  Anchor:   word 24 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 suerat capiti suo et erexit in-titulum fundensque oleum de--
+                      0 -------||||||
+    query             0 -------capiti suo et erexit in titulum fundensque oleum desu
+    
+    target           57 --- 57
+                     13 --- 16
+    query            53 per 56
+
+-- fused_3 --
+  OCR:      '. rit eritchi dominus in de'
+  Assigned: 'super dixit Erit Erit michi dominus in de'
+  Words:    [24..31) consumed=7
+  NW score: k=7 (pre-snap), norm=4.5560
+  Anchor:   word 31 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ----. -rit erit---chi dominus in de-- 27
+                      0 ----.  5
+    query             0 dixit Erit Erit michi dominus in deum 37
+
+-- fused_4 --
+  OCR:      'et lapis iste quem erexi in titulum vocabitur do'
+  Assigned: 'um et lapis iste quem erexi in titulum vocabitur do'
+  Words:    [31..40) consumed=9
+  NW score: k=9 (pre-snap), norm=7.4984
+  Anchor:   word 40 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 et lapis iste quem erexi in titulum vocabitur do--- 48
+                      0 ||  2
+    query             0 et lapis iste quem erexi in titulum vocabitur domus 51
+
+-- fused_5 --
+  OCR:      'mus de et de univer sis que dederis mi'
+  Assigned: 'mus dei et de universis que dederis michi'
+  Words:    [40..47) consumed=7
+  NW score: k=7 (pre-snap), norm=5.8939
+  Anchor:   word 54 (within_chant_7), diff=7, snapped=False, forced=False
+  Alignment:
+    target            0 mus de- et de univer sis que dederis m---i 38
+                      0 ----||-  7
+    query             0 ----dei et de univer-sis que dederis michi 37
+
+-- fused_6 --
+  OCR:      'Damas et hostias pacificas offeramibi'
+  Assigned: 'Decimas et hostias pacificas offeram tibi Si'
+  Words:    [47..54) consumed=7
+  NW score: k=6 (pre-snap), norm=6.7525
+  Anchor:   word 54 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 D--amas et hostias pacificas offeram--ib---i 37
+                      0 |--.|||  7
+    query             0 Decimas et hostias pacificas offeram tibi Si 44
+
+-- fused_7 --
+  OCR:      'tuero prosiere ad domum'
+  Assigned: 'reversus fuero prospere ad domum'
+  Words:    [54..59) consumed=5
+  NW score: k=5 (pre-snap), norm=4.6813
+  Anchor:   word 62 (within_chant_7), diff=3, snapped=False, forced=False
+  Alignment:
+    target            0 ---------tuero prosiere ad domum 23
+                      0 ---------.|||| 14
+    query             0 reversus fuero prospere ad domum 32
+
+-- fused_8 --
+  OCR:      'secundumMathu . inilleo te alsumpsit'
+  Assigned: 'patris mei de'
+  Words:    [59..62) consumed=3
+  NW score: k=5 (pre-snap), norm=-1.5321
+  Anchor:   word 62 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 secundumMathu . inilleo te alsumpsit 36
+                      0 --------.||----.|-...|. 23
+    query             0 --------pat----ri-s mei De---cimas-- 18
+
+-- fused_9 --
+  OCR:      'ihe Petrum omnis Sancti Ambrosii episcopi L'
+  Assigned: 'cimas Dixit angelus ad iacob'
+  Words:    [62..66) consumed=4
+  NW score: k=10 (pre-snap), norm=-1.4139
+  Anchor:   word 66 (within_chant_7), diff=6, snapped=False, forced=True
+  Alignment:
+    target            0 -ihe Petrum omn---is Sancti Ambrosii episcopi L 43
+                      0 -|---..|--- 11
+    query             0 Di---xit--- -angelus -a------------d --iaco---b 22
+
+-- fused_10 --
+  OCR:      'cimaslii VII . dico antem nobis vere sunta ixit Angelus ad Jacob'
+  Assigned: 'Dimitte me aurora est respondit ei non dimittam'
+  Words:    [66..74) consumed=8
+  NW score: k=18 (pre-snap), norm=-0.8703
+  Anchor:   word 74 (within_chant_7), diff=10, snapped=False, forced=True
+  Alignment:
+    target            0 cimaslii VII -. dico antem nobis- vere s-un--ta ixit Angelus
+                      0 .||----|-...
+    query             0 Dim----i-tte me aurora---- ---est --re-spondit- -ei- -n---on
+    
+    target           55  ad--- Jacob 64
+                     12  12
+    query            38  -dimitta--m 47
+
+-- fused_11 --
+  OCR:      'Dmice. m est respondit e non dimintam'
+  Assigned: 'te nisi benedixeris michi et benedixit eum in'
+  Words:    [74..82) consumed=8
+  NW score: k=9 (pre-snap), norm=-0.4834
+  Anchor:   word 82 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 -----------Dmice--. m---- est respon-d--it e non dimintam 37
+                      0 -----------..|.|--. 19
+    query             0 te nisi benedixeris michi e-t be---nedixit e--um ---in--- 45
+
+-- fused_12 --
+  OCR:      'temesi senditens in donii et denoi nate um'
+  Assigned: 'eodem loco Cumque surrexisset iacob ecce vir luctabatur cum'
+  Words:    [82..91) consumed=9
+  NW score: k=9 (pre-snap), norm=-1.0044
+  Anchor:   word 86 (within_chant_7), diff=5, snapped=False, forced=False
+  Alignment:
+    target            0 --tem-----------e-s-----i senditens in donii et denoi- -----
+                      0 --.||-----------|-|-----|.||---|---
+    query             0 eodem loco Cumque surrexisse---t--- i-aco--b e-cce vir lucta
+    
+    target           35 nat-e -um 42
+                     35 .||-. 40
+    query            50 batur cum 59
+
+-- fused_13 --
+  OCR:      'meotem nocoum q surrerisset'
+  Assigned: 'eo usque mane et cum videret'
+  Words:    [91..97) consumed=6
+  NW score: k=6 (pre-snap), norm=-0.1818
+  Anchor:   word 97 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 meo----te-m n----ocoum q surrerisset 27
+                      0 -||----.|-|.|----.|-|| 22
+    query             0 -eo usque mane et c-um ---vider---et 28
+
+-- fused_14 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [97..97) consumed=0
+  Alignment:
+    (no words left)
+=== END DEBUG ===
+

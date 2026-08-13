@@ -1,0 +1,167 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'sum assa tus gracias Ego robasti'
+  [fused_1] 'domine cormeum et insitasti nocte igne me ex aniua'
+  [fused_2] 'sti. In terro . o lint esse hostia lem ta l’an ren'
+  [fused_3] 'mnon c dominum alla re tur non nega intedo minum .'
+  [fused_4] 'Et ideo inventus estsaceii cumi Landis.'
+  [fused_5] 'inmolaeo'
+  [fused_6] 'nota cu Etideo eatus Laurentius'
+  [fused_7] '.i neci a i ser quanta est virtus do mi'
+  [fused_8] 'mecato ii min non lo rem '
+  [fused_9] 'frigeniumm chi stantcce'
+  [fused_10] 'sa na parte regira aliam et manduca nam car'
+  [fused_11] 'Nona patri et fili spiritui Sancto Nam'
+  [fused_12] 'cntentins ingrestis est matti et confestis est nomen'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'sum assa tus gracias Ego robasti'
+  Assigned: 'sum assatus gracias ago Probasti'
+  Words:    [0..5) consumed=5
+  NW score: k=5 (pre-snap), norm=6.9062
+  Anchor:   word 5 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 sum assa tus gracias Ego -robasti 32
+                      0 |||  3
+    query             0 sum assa-tus gracias ago Probasti 32
+
+-- fused_1 --
+  OCR:      'domine cormeum et insitasti nocte igne me ex aniua'
+  Assigned: 'domine cor meum et visitasti nocte igne me examina'
+  Words:    [5..14) consumed=9
+  NW score: k=9 (pre-snap), norm=6.1580
+  Anchor:   word 14 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 domine cor-meum et -insitasti nocte igne me ex aniua--- 50
+                      0 ||||||  6
+    query             0 domine cor meum et vi-sitasti nocte igne me ex-aminasti 53
+
+-- fused_2 --
+  OCR:      'sti. In terro . o lint esse hostia lem ta l’an ren'
+  Assigned: 'sti Interrogatus Voluit esse hostia levita lauren'
+  Words:    [14..20) consumed=6
+  NW score: k=6 (pre-snap), norm=3.1921
+  Anchor:   word 20 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    sti. In terro--- . -o l-int esse hostia lem ta l’an ren----
+    -----||-|||||---..|-|-|-|-||||||||||||||||..||||-|-.|||----
+    -----In-terrogatus Vo-lui-t esse hostia levita l-a-urentius
+
+-- fused_3 --
+  OCR:      'mnon c dominum alla re tur non nega intedo minum .'
+  Assigned: 'tius qui dum assaretur non negavit dominum'
+  Words:    [20..26) consumed=6
+  NW score: k=7 (pre-snap), norm=3.2199
+  Anchor:   word 26 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 mnon c dominum alla re tur non nega intedo minum . 50
+                      0 ---...  6
+    query             0 ---qui d----um assa-re-tur non negavi-t do-minum-- 37
+
+-- fused_4 --
+  OCR:      'Et ideo inventus estsaceii cumi Landis.'
+  Assigned: 'Et ideo inventus et sacrificium'
+  Words:    [26..31) consumed=5
+  NW score: k=6 (pre-snap), norm=4.9874
+  Anchor:   word 31 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 Et ideo inventus est-sacei-i c-umi Landis. 39
+                      0 ||  2
+    query             0 Et ideo inventus e-t sacrifi-cium--------- 31
+
+-- fused_5 --
+  OCR:      'inmolaeo'
+  Assigned: 'laudis Immola deo'
+  Words:    [31..34) consumed=3
+  NW score: k=3 (pre-snap), norm=1.0290
+  Anchor:   word 39 (within_chant_7), diff=5, snapped=False, forced=False
+  Alignment:
+    target            0 ----i---nmola--eo  8
+                      0 ----|---.||||--|| 17
+    query             0 laudis Immola deo 17
+
+-- fused_6 --
+  OCR:      'nota cu Etideo eatus Laurentius'
+  Assigned: 'sacrificium laudis et redde altissimo'
+  Words:    [34..39) consumed=5
+  NW score: k=11 (pre-snap), norm=1.7568
+  Anchor:   word 39 (within_chant_7), diff=6, snapped=False, forced=True
+  Alignment:
+    target            0 nota---- c-u- Etideo eatus Laure-----ntius--- 31
+                      0 --.|----.|-|- 13
+    query             0 --sacrificium laudis e-t-- ---redde altissimo 37
+
+-- fused_7 --
+  OCR:      '.i neci a i ser quanta est virtus do mi'
+  Assigned: 'nota tua Et ideo Beatus laurentius dixit disce miser quanta est virtus domi'
+  Words:    [39..52) consumed=13
+  NW score: k=13 (pre-snap), norm=1.6788
+  Anchor:   word 45 (within_chant_7), diff=7, snapped=False, forced=False
+  Alignment:
+    target            0 -----------.i--- ne-----------ci-- ----a -i--- --ser quanta 
+                      0 -----------.|---
+    query             0 nota tua Et ideo Beatus laurentius dixit disce miser quanta 
+    
+    target           23 est virtus do m--i 39
+                     16 ||| 19
+    query            60 est virtus do-mini 77
+
+-- fused_8 --
+  OCR:      'mecato ii min non lo rem'
+  Assigned: 'ni Nam carbones hii non dolorem sed'
+  Words:    [52..58) consumed=6
+  NW score: k=5 (pre-snap), norm=2.2760
+  Anchor:   word 58 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 --meca-to ii min non --lo rem---- 24
+                      0 --|.||-.|... 12
+    query             0 Nam carbones hii non dolo-rem sed 32
+
+-- fused_9 --
+  OCR:      'frigeniumm chi stantcce'
+  Assigned: 'refrigerium michi prestant Ecce miser as'
+  Words:    [58..64) consumed=6
+  NW score: k=4 (pre-snap), norm=4.4191
+  Anchor:   word 64 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 --frigenium-m chi ---stant--cce-------------- 23
+                      0 --|||||.|||-|.||| 17
+    query             0 refrigerium michi prestant Ecce miser assasti 45
+
+-- fused_10 --
+  OCR:      'sa na parte regira aliam et manduca nam car'
+  Assigned: 'sasti me una parte regira alia et manduca Nam'
+  Words:    [64..72) consumed=8
+  NW score: k=9 (pre-snap), norm=5.8110
+  Anchor:   word 72 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 sa -na parte regira aliam et manduca nam car 43
+                      0 ..  2
+    query             0 me una parte regira alia- et manduca Nam---- 39
+
+-- fused_11 --
+  OCR:      'Nona patri et fili spiritui Sancto Nam'
+  Assigned: 'carbones Gloria patri et filio et spiritui sancto'
+  Words:    [72..80) consumed=8
+  NW score: k=9 (pre-snap), norm=4.9245
+  Anchor:   word 80 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 ---Non--------a patri et fili---- spiritui Sancto Nam 38
+                      0 ---.||--------| 15
+    query             0 carbones Gloria patri et filio et spiritui sancto---- 49
+
+-- fused_12 --
+  OCR:      'cntentins ingrestis est matti et confestis est nomen'
+  Assigned: 'Nam Laurentius ingressus est martyr et confessus est nomen'
+  Words:    [80..89) consumed=9
+  NW score: k=9 (pre-snap), norm=4.7343
+  Anchor:   word 89 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -----cntentins ingrestis est ma-tti et confestis est nomen 52
+                      0 -----...||||.| 14
+    query             0 Nam Laurentius ingressus est martyr et confessus est nomen 58
+=== END DEBUG ===
+

@@ -1,0 +1,223 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'Boro Populitui de ft'
+  [fused_1] 'sadinio murt . Eratquda'
+  [fused_2] 'sitavit plebem suam evovac  .augi episcoi nsuperior Lazarus amics'
+  [fused_3] 'noster dorunt cannus et a sumpno extitemus eum evovae'
+  [fused_4] 'mine si hic fuisses lazarus non esset morilius'
+  [fused_5] 'ecclesie jam feret quatriduanus in monumentio evovac'
+  [fused_6] 'ui sequitur me non ambulat in tenebris sed'
+  [fused_7] 'oro fiat domine quod ad vespa'
+  [fused_8] 'capt depist assistens. E'
+  [fused_9] 'habebit Lumen vite dicit dominus Viro mi ad magister Ant peme domine ab homine ea'
+  [fused_10] 'Ego sum qui testimonium perhibeo de me ipso et testimonium'
+  [fused_11] 'oro . Qud ompcione ab loc salbo'
+  [fused_12] 'usque ad salbaum prepente in fit'
+  [fused_13] 'Phibet de me qui misit me pater exoras an fant sistan diebus feri alibus dominicans mno de apostolis nec de Pace'
+  [fused_14] 'passione domini inritatorium'
+  [fused_15] 'die sivocem domini audien mmens tis'
+  [fused_16] 'volite obdurare totum mitatu et aiqui coroa nestra vente .udetuo um'
+  [fused_17] 'It sint di es quos obsema ce'
+  [fused_18] 'Dele tis tempo nibus suis quarta de'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'Boro Populitui de ft'
+  Assigned: 'plebem suam euouae Lazarus amicus'
+  Words:    [0..5) consumed=5
+  NW score: k=7 (pre-snap), norm=-3.0007
+  Anchor:   word 5 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 --Boro Popu-litui de ------------ft 20
+                      0 --....  6
+    query             0 plebem --suam euouae Lazarus amicus 33
+
+-- fused_1 --
+  OCR:      'sadinio murt . Eratquda'
+  Assigned: 'noster dormit eamus et a'
+  Words:    [5..10) consumed=5
+  NW score: k=5 (pre-snap), norm=-1.4471
+  Anchor:   word 14 (within_chant_7), diff=4, snapped=False, forced=False
+  Alignment:
+    target            0 --s---ad-inio --mu--rt . Eratquda 23
+                      0 --|---.|-..|. 13
+    query             0 noster dormit eamus et ---------a 24
+
+-- fused_2 --
+  OCR:      'sitavit plebem suam evovac  .augi episcoi nsuperior Lazarus amics'
+  Assigned: 'sumpno excitemus eum euouae Domine si hic fuisses lazarus non'
+  Words:    [10..20) consumed=10
+  NW score: k=10 (pre-snap), norm=-0.1112
+  Anchor:   word 14 (within_chant_7), diff=6, snapped=False, forced=False
+  Alignment:
+    target            0 s-----itavit plebem-- suam evovac ------ .augi episcoi nsupe
+                      0 |-----....||-----||--
+    query             0 sumpno excit-----emus eu-m euouae Domine ---si -hi-c-- -fu--
+    
+    target           47 ri--or Lazarus amics 65
+                     21 -|--.. 27
+    query            44 -isses lazarus --non 61
+
+-- fused_3 --
+  OCR:      'noster dorunt cannus et a sumpno extitemus eum evovae'
+  Assigned: 'esset mortuus'
+  Words:    [20..22) consumed=2
+  NW score: k=9 (pre-snap), norm=0.0352
+  Anchor:   word 22 (within_chant_7), diff=7, snapped=False, forced=True
+  Alignment:
+    target            0 noster dorunt cannus et a sumpno extitemus eum evovae 53
+                      0 ----|--------------|.|| 23
+    query             0 ----e--------------sset ----m--o----rt-uus----------- 13
+
+-- fused_4 --
+  OCR:      'mine si hic fuisses lazarus non esset morilius'
+  Assigned: 'ecce iam fetet quatriduanus in monumento euouae'
+  Words:    [22..29) consumed=7
+  NW score: k=7 (pre-snap), norm=-0.7742
+  Anchor:   word 29 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 mine si hic fuisses -la----zarus -n--on- esset- -moriliu-s 46
+                      0 ...|  4
+    query             0 ecce -i--am f--etet quatriduanus in monume--nto euo----uae 47
+
+-- fused_5 --
+  OCR:      'ecclesie jam feret quatriduanus in monumentio evovac'
+  Assigned: 'Qui sequitur me non ambulat in tenebris sed'
+  Words:    [29..37) consumed=8
+  NW score: k=14 (pre-snap), norm=-1.1416
+  Anchor:   word 37 (within_chant_7), diff=6, snapped=False, forced=True
+  Alignment:
+    target            0 ecclesie jam feret quat-riduan------u--s in monumentio -evov
+                      0 ----..|-----
+    query             0 ----Qui----- se----quitur me non ambulat in ten--ebris se---
+    
+    target           50 ac 52
+                     12 -. 14
+    query            42 -d 43
+
+-- fused_6 --
+  OCR:      'ui sequitur me non ambulat in tenebris sed'
+  Assigned: 'habebit lumen vite dicit dominus euouae'
+  Words:    [37..43) consumed=6
+  NW score: k=8 (pre-snap), norm=-1.1704
+  Anchor:   word 43 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 ui sequit--ur me non ambulat- -in tenebri--s se----d 42
+                      0 -...|-.||--|--||---| 20
+    query             0 -habe-bit lu--me---n ----vite dicit- dominus -euouae 39
+
+-- fused_7 --
+  OCR:      'oro fiat domine quod ad vespa'
+  Assigned: 'Ego sum qui testimonium perhibeo de meipso et testimonium'
+  Words:    [43..52) consumed=9
+  NW score: k=7 (pre-snap), norm=-1.2321
+  Anchor:   word 52 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 oro -----fi---at do---m-----i----ne ---quod ad ves------pa 29
+                      0 ..|  3
+    query             0 Ego sum qui testimonium perhibeo de meipso- et testimonium 57
+
+-- fused_8 --
+  OCR:      'capt depist assistens. E'
+  Assigned: 'perhibet de me qui misit me pater euouae'
+  Words:    [52..60) consumed=8
+  NW score: k=6 (pre-snap), norm=-0.9035
+  Anchor:   word 60 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 cap------t de--------pis-t ----assistens. -----E 24
+                      0 --|------| 10
+    query             0 --perhibet de me qui misit me pa----te--r euouae 40
+
+-- fused_9 --
+  OCR:      'habebit Lumen vite dicit dominus Viro mi ad magister Ant peme domine ab homine ea'
+  Assigned: 'Hodie si vocem domini audieritis'
+  Words:    [60..65) consumed=5
+  NW score: k=8 (pre-snap), norm=-0.3931
+  Anchor:   word 65 (within_chant_7), diff=3, snapped=False, forced=True
+  Alignment:
+    target            0 habebit Lumen vite dicit dominus Viro mi a-d magister Ant pe
+                      0 --...|-----|-
+    query             0 --Hodi-----e- si-- vocem domin---------i aud----i--er-------
+    
+    target           59 me domine ab homine ea 81
+                     13 ------|--------.|----. 35
+    query            28 ------i--------ti----s 32
+
+-- fused_10 --
+  OCR:      'Ego sum qui testimonium perhibeo de me ipso et testimonium'
+  Assigned: 'nolite obdurare corda vestra Venite Isti sunt dies quos observare debetis temporibus'
+  Words:    [65..77) consumed=12
+  NW score: k=12 (pre-snap), norm=-0.9312
+  Anchor:   word 70 (within_chant_7), diff=7, snapped=False, forced=False
+  Alignment:
+    target            0 ---------------Ego--- --s-um -qui te--sti-mon---i----u-m --p
+                      0 ---------------..|---
+    query             0 nolite obdurare corda vestra Veni-te Isti sunt dies quos obs
+    
+    target           25 erhibeo de me ipso et testim-oni-um 58
+                     21 ||...|- 28
+    query            59 ervare- de-beti-s---- te---mporibus 84
+
+-- fused_11 --
+  OCR:      'oro . Qud ompcione ab loc salbo'
+  Assigned: 'suis Quartadecima'
+  Words:    [77..79) consumed=2
+  NW score: k=2 (pre-snap), norm=-2.6136
+  Anchor:   word 79 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 oro . Qu----d ompcione ab loc salbo 31
+                      0 -....  5
+    query             0 -suis Quartad--------e------cima--- 17
+
+-- fused_12 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [79..79) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_13 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [79..79) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_14 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [79..79) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_15 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [79..79) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_16 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [79..79) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_17 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [79..79) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_18 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [79..79) consumed=0
+  Alignment:
+    (no words left)
+=== END DEBUG ===
+

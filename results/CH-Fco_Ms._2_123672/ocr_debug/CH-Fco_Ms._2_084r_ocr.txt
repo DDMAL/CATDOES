@@ -1,0 +1,163 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'advutor  mrie tu e et semite tue quis'
+  [fused_1] 'mil co dei sicuto ves populumtumima'
+  [fused_2] 'moysi a a ron WLranstulisti illos Mare'
+  [fused_3] 'in brum et tranveristi  per aquam vn miami De'
+  [fused_4] 'drisiperseqebatur populum tuum domi'
+  [fused_5] 'eceompo fndimi et in coppnmna'
+  [fused_6] 'mi deco domineX Dedu'
+  [fused_7] ' popiuun ta un in mam moili et a'
+  [fused_8] 'ton Et in Columip X oyses fa mulus do'
+  [fused_9] 'm vit quadraginta die bns et anoraginta'
+  [fused_10] 'noctibus Utlegeni domi merere tur.'
+  [fused_11] 'pe sceudeus moyses in Montem Synai'
+  [fused_12] 'm num et flitibi madraginta diebus et quadragim ta'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'advutor  mrie tu e et semite tue quis'
+  Assigned: 'In mari vie tue et semite tue in aquis'
+  Words:    [0..9) consumed=9
+  NW score: k=9 (pre-snap), norm=3.9737
+  Anchor:   word 9 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ----advutor  mrie tu e et semite tue ----quis 37
+                      0 ----|-----|. 12
+    query             0 In ma-----ri -vie tu-e et semite tue in aquis 38
+
+-- fused_1 --
+  OCR:      'mil co dei sicuto ves populumtumima'
+  Assigned: 'multis Deduxisti sicut oves populum tuum in ma'
+  Words:    [9..17) consumed=8
+  NW score: k=6 (pre-snap), norm=3.2339
+  Anchor:   word 17 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 mil co de------i sicut-o ves populum-t-um-i--ma-- 35
+                      0 |.|...  6
+    query             0 multis Deduxisti sicut o-ves populum tuum in manu 48
+
+-- fused_2 --
+  OCR:      'moysi a a ron WLranstulisti illos Mare'
+  Assigned: 'nu moysi et aaron Transtulisti illos mare'
+  Words:    [17..23) consumed=6
+  NW score: k=6 (pre-snap), norm=6.0526
+  Anchor:   word 23 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 moysi -a a ron WLranstulisti illos Mare 38
+                      0 |||||  5
+    query             0 moysi et aaron -Transtulisti illos mare 38
+
+-- fused_3 --
+  OCR:      'in brum et tranveristi  per aquam vn miami De'
+  Assigned: 'rubrum et transvexisti eos per aquam nimiam de'
+  Words:    [23..31) consumed=8
+  NW score: k=7 (pre-snap), norm=4.7740
+  Anchor:   word 31 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 in brum et tran-veristi --- per aquam vn miami De------- 45
+                      0 -..||||  7
+    query             0 -rubrum et transvexisti eos per aquam -nimiam- Deduxisti 53
+
+-- fused_4 --
+  OCR:      'drisiperseqebatur populum tuum domi'
+  Assigned: 'duxisti Qui persequebantur populum tuum domine'
+  Words:    [31..36) consumed=5
+  NW score: k=5 (pre-snap), norm=5.5389
+  Anchor:   word 36 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 drisiperseq-eba-tur populum tuum domi-- 35
+                      0 ..|-.||||||-|||-||| 19
+    query             0 Qui- persequebantur populum tuum domine 38
+
+-- fused_5 --
+  OCR:      'eceompo fndimi et in coppnmna'
+  Assigned: 'demersisti eos in profundum Et in columpna nubis'
+  Words:    [36..44) consumed=8
+  NW score: k=7 (pre-snap), norm=1.0602
+  Anchor:   word 44 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 ---e------ceo----mp-o f-ndimi et in co--ppn-mn---a 29
+                      0 ---|------.||----.|-|-|-||.|- 29
+    query             0 demersisti eos in pro-fundum- Et in columpna nubis 48
+
+-- fused_6 --
+  OCR:      'mi deco domineX Dedu'
+  Assigned: 'ductor eorum fuisti domine Deduxisti'
+  Words:    [44..49) consumed=5
+  NW score: k=5 (pre-snap), norm=0.8572
+  Anchor:   word 49 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 mi dec-----o---------- domineX Dedu----- 20
+                      0 ---|.|-----|---------- 22
+    query             0 ---ductor eorum fuisti domine- Deduxisti 36
+
+-- fused_7 --
+  OCR:      'popiuun ta un in mam moili et a'
+  Assigned: 'sicut oves populum tuum in manu moysi et aaron'
+  Words:    [49..58) consumed=9
+  NW score: k=9 (pre-snap), norm=1.9331
+  Anchor:   word 58 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -----------popiu-un ta un in ma-m moili et a---- 31
+                      0 -----------|||-|-|. 19
+    query             0 sicut oves pop-ulum t-uum in manu moysi et aaron 46
+
+-- fused_8 --
+  OCR:      'ton Et in Columip X oyses fa mulus do'
+  Assigned: 'Et in columpna Moyses famulus do'
+  Words:    [58..64) consumed=6
+  NW score: k=6 (pre-snap), norm=4.2744
+  Anchor:   word 64 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ton Et in Columip X -oyses fa mulus do---- 37
+                      0 ----||  6
+    query             0 ----Et in colum-pna Moyses fa-mulus domini 36
+
+-- fused_9 --
+  OCR:      'm vit quadraginta die bns et anoraginta'
+  Assigned: 'mini ieiunavit quadraginta diebus et quadraginta'
+  Words:    [64..69) consumed=5
+  NW score: k=5 (pre-snap), norm=4.9815
+  Anchor:   word 69 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ----m vit quadraginta die bns et --anoraginta 39
+                      0 ----..|||  9
+    query             0 ieiunavit quadraginta die-bus et qua-draginta 43
+
+-- fused_10 --
+  OCR:      'noctibus Utlegeni domi merere tur.'
+  Assigned: 'noctibus Ut legem domini mereretur acci'
+  Words:    [69..75) consumed=6
+  NW score: k=5 (pre-snap), norm=5.7941
+  Anchor:   word 75 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 noctibus Ut-legeni dom--i merere tu--------r. 34
+                      0 ||||||||  8
+    query             0 noctibus Ut lege-m domini merere-tur accipere 43
+
+-- fused_11 --
+  OCR:      'pe sceudeus moyses in Montem Synai'
+  Assigned: 'pere Ascendens moyses in montem synai ad do'
+  Words:    [75..82) consumed=7
+  NW score: k=5 (pre-snap), norm=5.4874
+  Anchor:   word 82 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 pe sceudeus moyses in Montem Synai----------- 34
+                      0 --.|||.||.| 11
+    query             0 --Ascendens moyses in montem synai ad dominum 43
+
+-- fused_12 --
+  OCR:      'm num et flitibi madraginta diebus et quadragim ta'
+  Assigned: 'minum et fuit ibi quadraginta diebus et quadraginta'
+  Words:    [82..89) consumed=7
+  NW score: k=7 (pre-snap), norm=5.5234
+  Anchor:   word 89 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 m num et flit-ibi -madraginta diebus et quadragim ta 50
+                      0 ------||  8
+    query             0 ------et fuit ibi quadraginta diebus et quadragi-nta 45
+=== END DEBUG ===
+

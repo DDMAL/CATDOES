@@ -1,0 +1,167 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'bo dieac nocte qu a frater propin qus subplantavit me'
+  [fused_1] 'Et omnis ami cus Fraudulenter inceditinme'
+  [fused_2] ' ant rum tenebre et lu bricum et Angelus do'
+  [fused_3] 'mn pemie mende os . Et omnisue'
+  [fused_4] 'ripe mede manupeccato Eemann contea le'
+  [fused_5] 'gem agentis et mmqui . Quomamtuespaciencia'
+  [fused_6] 'meDens me deuds meus'
+  [fused_7] 'in auxilium me main cesiis . Qnnomanin Ho i'
+  [fused_8] 'custodiebant animam meam concilium fecerunt in'
+  [fused_9] 'micen deusdereli quint Persea'
+  [fused_10] 'num et comprehendite um est ut libe'
+  [fused_11] 'um dens moe no ne clonges laue denos menoi'
+  [fused_12] 'cononi mine noni   mneo mno'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'bo dieac nocte qu a frater propin qus subplantavit me'
+  Assigned: 'ac nocte quia frater propinqus subplantavit me'
+  Words:    [0..7) consumed=7
+  NW score: k=7 (pre-snap), norm=6.6024
+  Anchor:   word 23 (within_chant_7), diff=16, snapped=False, forced=False
+  Alignment:
+    target            0 bo dieac nocte qu a frater propin qus subplantavit me 53
+                      0 ------||  8
+    query             0 ------ac nocte quia frater propin-qus subplantavit me 46
+
+-- fused_1 --
+  OCR:      'Et omnis ami cus Fraudulenter inceditinme'
+  Assigned: 'Et omnis amicus fraudulenter incedit in me'
+  Words:    [7..14) consumed=7
+  NW score: k=7 (pre-snap), norm=6.8921
+  Anchor:   word 23 (within_chant_7), diff=9, snapped=False, forced=False
+  Alignment:
+    target            0 Et omnis ami cus Fraudulenter incedit-in-me 41
+                      0 ||  2
+    query             0 Et omnis ami-cus fraudulenter incedit in me 42
+
+-- fused_2 --
+  OCR:      'ant rum tenebre et lu bricum et Angelus do'
+  Assigned: 'Fiant vie eorum tenebre et lubricum et angelus do'
+  Words:    [14..23) consumed=9
+  NW score: k=9 (pre-snap), norm=5.5108
+  Anchor:   word 23 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 --ant ------rum tenebre et lu bricum et Angelus do---- 42
+                      0 --|||  5
+    query             0 Fiant vie eorum tenebre et lu-bricum et angelus domini 53
+
+-- fused_3 --
+  OCR:      'mn pemie mende os . Et omnisue'
+  Assigned: 'mini persequens eos Et omnis Deus meus'
+  Words:    [23..29) consumed=6
+  NW score: k=4 (pre-snap), norm=2.4364
+  Anchor:   word 29 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 mn pemie men-de os . Et omnis---u---e-- 30
+                      0 ---||..|..||-.|-||-- 20
+    query             0 ---persequens e-os-- Et omnis Deus meus 33
+
+-- fused_4 --
+  OCR:      'ripe mede manupeccato Eemann contea le'
+  Assigned: 'eripe me de manu peccatoris et de manu contra le'
+  Words:    [29..39) consumed=10
+  NW score: k=10 (pre-snap), norm=4.5885
+  Anchor:   word 39 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -ripe me-de manu-peccato------ Ee-mann contea le--- 38
+                      0 -||||  5
+    query             0 eripe me de manu peccatoris et de manu contra legem 51
+
+-- fused_5 --
+  OCR:      'gem agentis et mmqui . Quomamtuespaciencia'
+  Assigned: 'gem agentis et iniqui Quoniam tu es paciencia'
+  Words:    [39..46) consumed=7
+  NW score: k=7 (pre-snap), norm=4.5304
+  Anchor:   word 46 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 gem agentis et -mmqui . Quo-mam-tu-es-paciencia 42
+                      0 ----||||||| 11
+    query             0 ----agentis et iniqui-- Quoniam tu es paciencia 41
+
+-- fused_6 --
+  OCR:      'meDens me deuds meus'
+  Assigned: 'mea Deus meus'
+  Words:    [46..49) consumed=3
+  NW score: k=3 (pre-snap), norm=3.0389
+  Anchor:   word 55 (within_chant_7), diff=6, snapped=False, forced=False
+  Alignment:
+    target            0 meDens me deuds meus 20
+                      0 ||------.  9
+    query             0 me------a Deu-s meus 13
+
+-- fused_7 --
+  OCR:      'in auxilium me main cesiis . Qnnomanin Ho i'
+  Assigned: 'ne elongeris a me deus meus'
+  Words:    [49..55) consumed=6
+  NW score: k=12 (pre-snap), norm=0.4575
+  Anchor:   word 55 (within_chant_7), diff=6, snapped=False, forced=True
+  Alignment:
+    target            0 in auxilium me main cesiis . Qnnomanin --Ho ---i 43
+                      0 -|-----------| 14
+    query             0 -n-----------e elon-ge-ris a ----m---e deus meus 27
+
+-- fused_8 --
+  OCR:      'custodiebant animam meam concilium fecerunt in'
+  Assigned: 'in auxilium meum respice Quoniam Qui custodiebant animam meam concilium fecerunt in'
+  Words:    [55..67) consumed=12
+  NW score: k=12 (pre-snap), norm=4.0945
+  Anchor:   word 61 (within_chant_7), diff=6, snapped=False, forced=False
+  Alignment:
+    target            0 -------------------------------------custodiebant animam mea
+                      0 -------------------------------------||||||||||||
+    query             0 in auxilium meum respice Quoniam Qui custodiebant animam mea
+    
+    target           23 m concilium fecerunt in 46
+                     49 | 50
+    query            60 m concilium fecerunt in 83
+
+-- fused_9 --
+  OCR:      'micen deusdereli quint Persea'
+  Assigned: 'unum dicentes deus dereliquit eum Persequimini'
+  Words:    [67..73) consumed=6
+  NW score: k=5 (pre-snap), norm=2.9739
+  Anchor:   word 73 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 ---m--icen--- deus-dereli quint---- Perse------a 29
+                      0 ---|--||||--- 13
+    query             0 unum dicentes deus dereli-qui-t eum Persequimini 46
+
+-- fused_10 --
+  OCR:      'num et comprehendite um est ut libe'
+  Assigned: 'et comprehendite eum quia non est ut liberet eum'
+  Words:    [73..82) consumed=9
+  NW score: k=8 (pre-snap), norm=4.6123
+  Anchor:   word 82 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 num et comprehendite -um--------- est ut libe------- 35
+                      0 ----||  6
+    query             0 ----et comprehendite eum quia non est ut liberet eum 48
+
+-- fused_11 --
+  OCR:      'um dens moe no ne clonges laue denos menoi'
+  Assigned: 'deus meus ne elonges a me deus meus in adiutorium'
+  Words:    [82..92) consumed=10
+  NW score: k=8 (pre-snap), norm=2.9473
+  Anchor:   word 92 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 um dens moe no ne clonges la-ue denos me----n------o-i-- 42
+                      0 ---||.|  7
+    query             0 ---deus m-e-us ne elonges -a me de-us meus in adiutorium 49
+
+-- fused_12 --
+  OCR:      'cononi mine noni   mneo mno'
+  Assigned: 'meum intende Omnes inimici'
+  Words:    [92..96) consumed=4
+  NW score: k=4 (pre-snap), norm=-0.5661
+  Anchor:   word 96 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 cononi min-e noni   mneo mn----o 27
+                      0 --....  6
+    query             0 --meum -inte---nde Omnes inimici 26
+=== END DEBUG ===
+

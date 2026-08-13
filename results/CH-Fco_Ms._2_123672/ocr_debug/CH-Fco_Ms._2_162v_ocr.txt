@@ -1,0 +1,211 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'suscipe me pendentem in patibulo ex ovae . iror eas Chpitisti fa'
+  [fused_1] 'mulus dignus Dei apostolus Germanus Petri et in passione'
+  [fused_2] 'socius eoa aximilla Cpisto amabilis tulit corpus'
+  [fused_3] 'a postoli optimo loco cum aromatibus sepelivit evovac'
+  [fused_4] 'm persequebantur justum demersisti eos domine mmn'
+  [fused_5] 'fermum et in ligno crucis dux justi fuisti evovac'
+  [fused_6] 'Concede nobis hominem justum redde nobis homin'
+  [fused_7] 'nem Sanctum ne interficias hominem Deo carum justum'
+  [fused_8] 'orovts ad in e ad vesper capellam Cordeenim'
+  [fused_9] ' deconi apostolorum ad vi capetlas. don emnm eu'
+  [fused_10] 'distinctio ad ixa capelulam Ysaias enm ad respas'
+  [fused_11] 'Mansuetum et Puini evovae et Salvecrno diel ipsis de apostlis capetlai co'
+  [fused_12] 'mum pemeniletandreas ad locum i'
+  [fused_13] 'pbona crux domini desiderata'
+  [fused_14] 'tiam concupiscenti annmo preparata securus et gaudens'
+  [fused_15] 'nono ad reita et m et atans suscpias me oilapilum emus'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'suscipe me pendentem in patibulo ex ovae . iror eas Chpitisti fa'
+  Assigned: 'suscipe me pendentem in patibulo euouae Andreas xpisti fa'
+  Words:    [0..9) consumed=9
+  NW score: k=8 (pre-snap), norm=5.1711
+  Anchor:   word 9 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 suscipe me pendentem in patibulo ex ovae . iror eas Chpitist
+                      0 |||||||
+    query             0 suscipe me pendentem in patibulo e-uouae Andr---eas -xp--ist
+    
+    target           60 i fa----- 64
+                      7 |  8
+    query            53 i famulus 62
+
+-- fused_1 --
+  OCR:      'mulus dignus Dei apostolus Germanus Petri et in passione'
+  Assigned: 'mulus dignus dei apostolus germanus petri et in passione'
+  Words:    [9..17) consumed=8
+  NW score: k=8 (pre-snap), norm=6.4065
+  Anchor:   word 17 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 mulus dignus Dei apostolus Germanus Petri et in passione 56
+                      0 ------|||||| 12
+    query             0 ------dignus dei apostolus germanus petri et in passione 50
+
+-- fused_2 --
+  OCR:      'socius eoa aximilla Cpisto amabilis tulit corpus'
+  Assigned: 'socius euouae Maximilla xpisto amabilis tulit corpus'
+  Words:    [17..24) consumed=7
+  NW score: k=7 (pre-snap), norm=6.8655
+  Anchor:   word 24 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 socius e-o-a- -aximilla Cpisto amabilis tulit corpus 48
+                      0 ||||||  6
+    query             0 socius euouae Maximilla xpisto amabilis tulit corpus 52
+
+-- fused_3 --
+  OCR:      'a postoli optimo loco cum aromatibus sepelivit evovac'
+  Assigned: 'apostoli optimo loco cum aromatibus sepelivit'
+  Words:    [24..30) consumed=6
+  NW score: k=7 (pre-snap), norm=7.0479
+  Anchor:   word 30 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 a postoli optimo loco cum aromatibus sepelivit evovac 53
+                      0 |-|||||||  9
+    query             0 a-postoli optimo loco cum aromatibus sepelivit------- 45
+
+-- fused_4 --
+  OCR:      'm persequebantur justum demersisti eos domine mmn'
+  Assigned: 'euouae Qui persequebantur iustum demersisti eos domine in in'
+  Words:    [30..39) consumed=9
+  NW score: k=8 (pre-snap), norm=5.8090
+  Anchor:   word 39 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 ---------m persequebantur justum demersisti eos domine -----
+                      0 ---------.
+    query             0 euouae Qui persequebantur iustum demersisti eos domine in in
+    
+    target           46 -mmn-- 49
+                     10 -..|-- 16
+    query            60 fernum 66
+
+-- fused_5 --
+  OCR:      'fermum et in ligno crucis dux justi fuisti evovac'
+  Assigned: 'fernum et in ligno crucis dux iusti fuisti'
+  Words:    [39..46) consumed=7
+  NW score: k=8 (pre-snap), norm=5.7092
+  Anchor:   word 46 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 fermum et in ligno crucis dux justi fuisti evovac 49
+                      0 -------||  9
+    query             0 -------et in ligno crucis dux iusti fuisti------- 35
+
+-- fused_6 --
+  OCR:      'Concede nobis hominem justum redde nobis homin'
+  Assigned: 'euouae Concede nobis hominem iustum redde nobis homi'
+  Words:    [46..54) consumed=8
+  NW score: k=8 (pre-snap), norm=6.3619
+  Anchor:   word 54 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -------Concede nobis hominem justum redde nobis homin-- 46
+                      0 -------||||||| 14
+    query             0 euouae Concede nobis hominem iustum redde nobis hominem 55
+
+-- fused_7 --
+  OCR:      'nem Sanctum ne interficias hominem Deo carum justum'
+  Assigned: 'nem sanctum ne interficias hominem deo carum iustum'
+  Words:    [54..61) consumed=7
+  NW score: k=7 (pre-snap), norm=6.5565
+  Anchor:   word 61 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 nem Sanctum ne interficias hominem Deo carum justum 51
+                      0 ----.|||||| 11
+    query             0 ----sanctum ne interficias hominem deo carum iustum 47
+
+-- fused_8 --
+  OCR:      'orovts ad in e ad vesper capellam Cordeenim'
+  Assigned: 'mansuetum et pium'
+  Words:    [61..64) consumed=3
+  NW score: k=6 (pre-snap), norm=-1.4226
+  Anchor:   word 64 (within_chant_7), diff=3, snapped=False, forced=True
+  Alignment:
+    target            0 orovts ad in e ad vesper capellam Corde-eni-m 43
+                      0 ------.|---|--------|.|-------..| 33
+    query             0 ------ma---n--------sue-------tum ----et pium 17
+
+-- fused_9 --
+  OCR:      'deconi apostolorum ad vi capetlas. don emnm eu'
+  Assigned: 'euouae Cum pervenisset beatus andreas ad locum ubi crux parata erat exclamavit et'
+  Words:    [64..77) consumed=13
+  NW score: k=13 (pre-snap), norm=-1.2287
+  Anchor:   word 73 (within_chant_7), diff=4, snapped=False, forced=False
+  Alignment:
+    target            0 deco-------------ni---- --apostolor-um ad -------vi c-----ap
+                      0 -|.|-------------||----
+    query             0 -euouae Cum pervenisset beatus andreas ad locum ubi crux par
+    
+    target           28 etlas. -don e----m--nm eu 46
+                     23 .|-|-- 29
+    query            59 at-a-- erat exclamavit et 81
+
+-- fused_10 --
+  OCR:      'distinctio ad ixa capelulam Ysaias enm ad respas'
+  Assigned: 'dixit o bona crux diu desiderata'
+  Words:    [77..83) consumed=6
+  NW score: k=11 (pre-snap), norm=-0.3128
+  Anchor:   word 83 (within_chant_7), diff=5, snapped=False, forced=True
+  Alignment:
+    target            0 distinctio ad ixa capelulam Ysaias -enm ad respas 48
+                      0 ||-.|--|.| 10
+    query             0 di-xi--t o --bona c---ru--x --di-u de--sider-ata- 32
+
+-- fused_11 --
+  OCR:      'Mansuetum et Puini evovae et Salvecrno diel ipsis de apostlis capetlai co'
+  Assigned: 'et iam concupiscenti animo preparata securus et gaudens'
+  Words:    [83..91) consumed=8
+  NW score: k=17 (pre-snap), norm=-0.7175
+  Anchor:   word 91 (within_chant_7), diff=9, snapped=False, forced=True
+  Alignment:
+    target            0 Mansuet--um et Pu-i---n-i --evovae --e----t Salvec-rno diel 
+                      0 -----||--.|
+    query             0 -----et iam concupiscenti animo--- preparat--a secur--------
+    
+    target           44 ipsis de apostlis ca-petlai co 73
+                     11 ---.| 16
+    query            42 ---us -e-----t--- gaude-----ns 55
+
+-- fused_12 --
+  OCR:      'mum pemeniletandreas ad locum i'
+  Assigned: 'venio ad te ita'
+  Words:    [91..95) consumed=4
+  NW score: k=4 (pre-snap), norm=-1.1130
+  Anchor:   word 102 (page_break_77), diff=7, snapped=False, forced=False
+  Alignment:
+    target            0 mum pemeniletandreas ad locum i-- 31
+                      0 ------.|||---------. 20
+    query             0 ------veni---------o ad ---te ita 15
+
+-- fused_13 --
+  OCR:      'pbona crux domini desiderata'
+  Assigned: 'et tu exultans suscipias'
+  Words:    [95..99) consumed=4
+  NW score: k=4 (pre-snap), norm=-2.2374
+  Anchor:   word 102 (page_break_77), diff=3, snapped=False, forced=False
+  Alignment:
+    target            0 pbona crux domini des-iderata 28
+                      0 .....  5
+    query             0 et tu exu---ltans susci-pia-s 24
+
+-- fused_14 --
+  OCR:      'tiam concupiscenti annmo preparata securus et gaudens'
+  Assigned: 'me discipulum eius'
+  Words:    [99..102) consumed=3
+  NW score: k=3 (pre-snap), norm=-1.9102
+  Anchor:   word 102 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 tiam- concupiscenti annmo preparata securus et gaudens 53
+                      0 ---|-  5
+    query             0 ---me -----disc---i----------p---------ulum e---iu---s 18
+
+-- fused_15 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [102..102) consumed=0
+  Alignment:
+    (no words left)
+=== END DEBUG ===
+

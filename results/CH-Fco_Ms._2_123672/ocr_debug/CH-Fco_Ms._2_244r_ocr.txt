@@ -1,0 +1,239 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'Benedic eoa ta est speciosa inter filias'
+  [fused_1] 'rusalem .  Laudsis evovae est regnum'
+  [fused_2] 'celorum homini vegniator querente bon ao margartus'
+  [fused_3] 'inventa una preciosa dedit omnia sua et comparavit e'
+  [fused_4] 'm crorne. potie tua et puicatudine tuace i'
+  [fused_5] 'tende prospere procede et regna Bloria'
+  [fused_6] 'ivabit eam deus nultu suoeus in medio e'
+  [fused_7] 'V. Gi'
+  [fused_8] 'Gitea'
+  [fused_9] 'jis non commovebitur Bloria legit eam de'
+  [fused_10] 'ns et preelegit eam X . in tabernaculo suo habitare fa'
+  [fused_11] 'V diffula en gratia ad respasi del'
+  [fused_12] 'domini pos dicit dominus . Plaudate pi'
+  [fused_13] 'cit eam Bleria  disfusa c gra ad magi auteni spon lerantus si pisid p laudeiher'
+  [fused_14] 'sa Cpitisti accipe coronam quam tibi dominus pre'
+  [fused_15] 'indeditatos ecclesie advs'
+  [fused_16] 'mmima cu cetis sicttand'
+  [fused_17] 'paravit meternum eovae peo dintonisine laud'
+  [fused_18] 'Helin orbsbaie'
+  [fused_19] 'B. DeC r * ti ancetienuit dominus '
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'Benedic eoa ta est speciosa inter filias'
+  Assigned: '~Benedicam euouae Ista est speciosa inter filias ihe'
+  Words:    [0..8) consumed=8
+  NW score: k=7 (pre-snap), norm=6.2075
+  Anchor:   word 8 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 -Benedic-- e-o-a- --ta est speciosa inter filias-----------
+                      0 -|||||||--
+    query             0 ~Benedicam euouae Ista est speciosa inter filias iherusalem
+    
+    target           40
+                     10
+    query            59
+
+-- fused_1 --
+  OCR:      'rusalem .  Laudsis evovae est regnum'
+  Assigned: 'rusalem ~Laudate euouae Simile est regnum'
+  Words:    [8..13) consumed=5
+  NW score: k=5 (pre-snap), norm=2.0599
+  Anchor:   word 13 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 rusalem .  Laudsis evova-------e est regnum 36
+                      0 ----------.||||... 18
+    query             0 ----------~Laudate euouae Simile est regnum 33
+
+-- fused_2 --
+  OCR:      'celorum homini vegniator querente bon ao margartus'
+  Assigned: 'celorum homini negociatori querenti bonas margaritas'
+  Words:    [13..19) consumed=6
+  NW score: k=6 (pre-snap), norm=5.8639
+  Anchor:   word 19 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 celorum homini veg-niator- querente bon ao margar-tus 50
+                      0 |||||||  7
+    query             0 celorum homini negociatori querenti bon-as margaritas 52
+
+-- fused_3 --
+  OCR:      'inventa una preciosa dedit omnia sua et comparavit e'
+  Assigned: 'inventa una preciosa dedit omnia sua et comparavit eam'
+  Words:    [19..28) consumed=9
+  NW score: k=9 (pre-snap), norm=7.6617
+  Anchor:   word 28 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 inventa una preciosa dedit omnia sua et comparavit e-- 52
+                      0 |||||||  7
+    query             0 inventa una preciosa dedit omnia sua et comparavit eam 54
+
+-- fused_4 --
+  OCR:      'm crorne. potie tua et puicatudine tuace i'
+  Assigned: 'euouae Specie tua et pulcritudine tua in'
+  Words:    [28..35) consumed=7
+  NW score: k=6 (pre-snap), norm=3.2724
+  Anchor:   word 35 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 m crorne. -potie tua et puic-atudine tua---ce- i 42
+                      0 --..|..|-  9
+    query             0 --euouae- Specie tua et pulcritudine tua Intende 45
+
+-- fused_5 --
+  OCR:      'tende prospere procede et regna Bloria'
+  Assigned: 'tende prospere procede et regna Gloria ad'
+  Words:    [35..41) consumed=6
+  NW score: k=5 (pre-snap), norm=6.3376
+  Anchor:   word 41 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 tende prospere procede et regna Bloria---------- 38
+                      0 ------|||||||| 14
+    query             0 ------prospere procede et regna Gloria Adiuvabit 42
+
+-- fused_6 --
+  OCR:      'ivabit eam deus nultu suoeus in medio e'
+  Assigned: 'iuvabit eam deus vultu suo Deus in medio e'
+  Words:    [41..49) consumed=8
+  NW score: k=7 (pre-snap), norm=5.1519
+  Anchor:   word 49 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 ivabit eam deus nultu suo--eus in medio e--- 39
+                      0 -------||| 10
+    query             0 -------eam deus vultu suo Deus in medio eius 37
+
+-- fused_7 --
+  OCR:      'V. Gi'
+  Assigned: 'ius non commovebitur Gloria'
+  Words:    [49..52) consumed=3
+  NW score: k=3 (pre-snap), norm=-4.8490
+  Anchor:   word 55 (within_chant_7), diff=3, snapped=False, forced=False
+  Alignment:
+    target            0 --------------V. G---i-  5
+                      0 --------------.. 16
+    query             0 non commovebitur Gloria 23
+
+-- fused_8 --
+  OCR:      'Gitea'
+  Assigned: 'Elegit eam de'
+  Words:    [52..55) consumed=3
+  NW score: k=2 (pre-snap), norm=0.0000
+  Anchor:   word 55 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 ---Git-ea------  5
+                      0 ---.||-||------ 15
+    query             0 Elegit eam deus 15
+
+-- fused_9 --
+  OCR:      'jis non commovebitur Bloria legit eam de'
+  Assigned: 'us et preelegit eam In'
+  Words:    [55..59) consumed=4
+  NW score: k=4 (pre-snap), norm=0.1451
+  Anchor:   word 63 (within_chant_7), diff=4, snapped=False, forced=False
+  Alignment:
+    target            0 jis non commovebitur Bloria legit eam de 40
+                      0 --------------|--|-- 20
+    query             0 --------------e--t-- --pr-eelegit eam In 19
+
+-- fused_10 --
+  OCR:      'ns et preelegit eam X . in tabernaculo suo habitare fa'
+  Assigned: 'tabernaculo suo habitare fe'
+  Words:    [59..63) consumed=4
+  NW score: k=3 (pre-snap), norm=2.6111
+  Anchor:   word 63 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 ns et preelegit eam X . in tabernaculo suo habitare f---a 54
+                      0 ---------------------------||||||||||| 38
+    query             0 ---------------------------tabernaculo suo habitare fecit 30
+
+-- fused_11 --
+  OCR:      'V diffula en gratia ad respasi del'
+  Assigned: 'cit eam Gloria Veni spon'
+  Words:    [63..67) consumed=4
+  NW score: k=6 (pre-snap), norm=-1.1560
+  Anchor:   word 67 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 --V ---diffula -en gratia ad resp-asi del 34
+                      0 --.  3
+    query             0 eam Glori----a Ven-----i---- --spons----a 22
+
+-- fused_12 --
+  OCR:      'domini pos dicit dominus . Plaudate pi'
+  Assigned: 'sa christi accipe coronam quam tibi dominus pre'
+  Words:    [67..74) consumed=7
+  NW score: k=8 (pre-snap), norm=0.0883
+  Anchor:   word 74 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 domi-ni ----p-----o-------s dicit dominus . Plaudate pi- 38
+                      0 ...|-.|  7
+    query             0 christi accipe coronam quam tibi- dominus prepa-ra---vit 51
+
+-- fused_13 --
+  OCR:      'cit eam Bleria  disfusa c gra ad magi auteni spon lerantus si pisid p laudeiher'
+  Assigned: 'paravit in eternum'
+  Words:    [74..76) consumed=2
+  NW score: k=6 (pre-snap), norm=-1.7318
+  Anchor:   word 76 (within_chant_7), diff=4, snapped=False, forced=True
+  Alignment:
+    target            0 cit eam Bleria  disfusa c gra ad magi auteni spon lerantus s
+                      0 -|.
+    query             0 -in e-----------------------------------t----------er-n-----
+    
+    target           60 i pisid p laudeiher 79
+                      3 ------------|-----. 22
+    query             8 ------------u-----m 10
+
+-- fused_14 --
+  OCR:      'sa Cpitisti accipe coronam quam tibi dominus pre'
+  Assigned: 'euouae Sanctificavit dominus tabernaculum'
+  Words:    [76..80) consumed=4
+  NW score: k=3 (pre-snap), norm=-0.4637
+  Anchor:   word 80 (page_break_77), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 sa Cpitisti accipe coronam quam tibi----- dominus ---pr-----
+                      0 -----------------|---.|.|.
+    query             0 -----------------e---uouae -Sanctificavit dominus tabernacul
+    
+    target           47 -e 48
+                     26 -. 28
+    query            39 um 41
+
+-- fused_15 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [80..80) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_16 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [80..80) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_17 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [80..80) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_18 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [80..80) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_19 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [80..80) consumed=0
+  Alignment:
+    (no words left)
+=== END DEBUG ===
+

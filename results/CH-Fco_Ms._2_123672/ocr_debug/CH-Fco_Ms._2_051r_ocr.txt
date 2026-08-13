@@ -1,0 +1,181 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'in tua justicia libera me domine evovae aec'
+  [fused_1] 'decet collandatio evovae rpugna impugnantes'
+  [fused_2] ''
+  [fused_3] 'me evovae. . Nevela domino vam Tuam evovae lari'
+  [fused_4] 'nagna multi tu do dulcedinis teuen'
+  [fused_5] 'm ne . quam abscondi sti cimentibus te.'
+  [fused_6] 'tperfecisti eis qui sperant in te domine in conspectu fili'
+  [fused_7] 'per homi num . Quame diutor meus esto de'
+  [fused_8] '|e derelinquasequ despicias me deus salu taris'
+  [fused_9] 'meus edenedicam do momi'
+  [fused_10] 'tempore semper l’aus e ius iore me '
+  [fused_11] 'domino. laudabitur animame audiant mansueti'
+  [fused_12] 'tleten tur Semper  Liserere mei deus . ipsum ex'
+  [fused_13] 'omie a inteslige clamorem menmn domineVerbamea eo'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'in tua justicia libera me domine evovae aec'
+  Assigned: '{Exaltabo te domine quoniam suscepisti} In tua iustitia libera me domine euouae {In'
+  Words:    [0..13) consumed=13
+  NW score: k=13 (pre-snap), norm=2.0924
+  Anchor:   word 18 (within_chant_7), diff=5, snapped=False, forced=False
+  Alignment:
+    target            0 -------------------------------------i---n tua justicia libe
+                      0 -------------------------------------|---|
+    query             0 {Exaltabo te domine quoniam suscepisti} In tua iustitia libe
+    
+    target           20 ra me domine evovae aec 43
+                     42 || 44
+    query            60 ra me domine euouae {In 83
+
+-- fused_1 --
+  OCR:      'decet collandatio evovae rpugna impugnantes'
+  Assigned: 'te domine speravi} {Beati quorum} {Rec} -tos decet collaudatio euouae {Exultate iusti} {Benedicam dominum} Expugna impugnantes'
+  Words:    [13..29) consumed=16
+  NW score: k=16 (pre-snap), norm=0.4755
+  Anchor:   word 18 (within_chant_7), diff=11, snapped=False, forced=False
+  Alignment:
+    target            0 ---------------------------------------------decet collandat
+                      0 ----------------------------------------|----|||||
+    query             0 te domine speravi} {Beati quorum} {Rec} -tos decet collaudat
+    
+    target           15 io evovae --------------------------------------rpugna impug
+                     50 ||
+    query            60 io euouae {Exultate iusti} {Benedicam dominum} Expugna impug
+    
+    target           37 nantes  43
+                     52 ||||||  58
+    query           120 nantes 126
+
+-- fused_2 --
+  OCR:      ''
+  Assigned: 'me euouae {Iudica me domine} {Dixit iniustus} Revela domino viam tuam euouae {Domine in furore} Quam magna multitudo dulcedinis tue'
+  Words:    [29..49) consumed=20
+
+-- fused_3 --
+  OCR:      'me evovae. . Nevela domino vam Tuam evovae lari'
+  Assigned: 'domine Quam abscondisti timentibus te'
+  Words:    [49..54) consumed=5
+  NW score: k=3 (pre-snap), norm=-1.4903
+  Anchor:   word 54 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 me evovae. . Nevela domino vam Tuam --evo---vae ---lari-----
+                      0 --------------------|||||----.
+    query             0 --------------------domin----e Quam abscondisti timentibus t
+    
+    target           47 - 47
+                     30 - 31
+    query            36 e 37
+
+-- fused_4 --
+  OCR:      'nagna multi tu do dulcedinis teuen'
+  Assigned: 'Et perfecisti eis qui sperant in te domine in conspectu'
+  Words:    [54..64) consumed=10
+  NW score: k=9 (pre-snap), norm=-1.3294
+  Anchor:   word 64 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 ------------nagna mu-------lt-i- tu do dulcedin---is-- teuen
+                      0 ------------.....
+    query             0 Et perfecisti eis qui sperant in te do--mine in conspect-u--
+    
+    target           34 
+                     17 
+    query            55 
+
+-- fused_5 --
+  OCR:      'm ne . quam abscondi sti cimentibus te.'
+  Assigned: 'filiorum hominum Quam Adiutor meus esto deus'
+  Words:    [64..71) consumed=7
+  NW score: k=6 (pre-snap), norm=-0.3846
+  Anchor:   word 71 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 -------m ----ne . quam abscondi st-i cimentibus --t---e-. 39
+                      0 -------|  8
+    query             0 filiorum homin-um Quam -----Adi-utor --me----us esto deus 44
+
+-- fused_6 --
+  OCR:      'tperfecisti eis qui sperant in te domine in conspectu fili'
+  Assigned: 'Ne derelinquas me Neque despicias me deus salutaris meus Ne derelinquas Benedicam dominum in omni'
+  Words:    [71..86) consumed=15
+  NW score: k=15 (pre-snap), norm=-0.7599
+  Anchor:   word 79 (within_chant_7), diff=7, snapped=False, forced=False
+  Alignment:
+    target            0 --tperfeci----sti -eis --qui --sp----------e---ra-nt--------
+                      0 --..||-|.|----|--
+    query             0 Ne der-elinquas-- me-- Neque despicias me deus salutaris meu
+    
+    target           27 ---- -----in---- te------- domin-e in co-nspectu fili 58
+                     17 ---- 21
+    query            55 s Ne derelinquas Benedicam dominum in -omn----------i 97
+
+-- fused_7 --
+  OCR:      'per homi num . Quame diutor meus esto de'
+  Assigned: 'tempore Semper laus eius in ore meo In'
+  Words:    [86..94) consumed=8
+  NW score: k=8 (pre-snap), norm=-0.4617
+  Anchor:   word 94 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 per homi num- . Quame diu----tor- meus esto de 40
+                      0 .|-..|..  8
+    query             0 te-mpore Semper -laus eius in ore me------o In 38
+
+-- fused_8 --
+  OCR:      '|e derelinquasequ despicias me deus salu taris'
+  Assigned: 'domino laudabitur anima mea audiant mansueti'
+  Words:    [94..100) consumed=6
+  NW score: k=6 (pre-snap), norm=-1.0002
+  Anchor:   word 100 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 |e derelin---qu-asequ- despicias me- --d-eus sa-lu taris 46
+                      0 ---|--..||---.|-|...|- 22
+    query             0 ---d--omino laudabitur --ani-ma- mea audiant mansuet--i- 44
+
+-- fused_9 --
+  OCR:      'meus edenedicam do momi'
+  Assigned: 'et letentur Semper Miserere mei deus {Ipsum'
+  Words:    [100..107) consumed=7
+  NW score: k=5 (pre-snap), norm=-1.3108
+  Anchor:   word 107 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 meus -eden--------e--di-----cam-- d--o ---momi 23
+                      0 -|-.  4
+    query             0 -e-t letentur Semper Miserere mei deus {Ipsum- 43
+
+-- fused_10 --
+  OCR:      'tempore semper l’aus e ius iore me'
+  Assigned: '[Miserere]} euouae Intellege clamorem meum domine {Verba'
+  Words:    [107..114) consumed=7
+  NW score: k=5 (pre-snap), norm=-0.9527
+  Anchor:   word 114 (page_break_77), diff=2, snapped=True, forced=False
+  Alignment:
+    -------te---mpo-re --sempe-r -l’aus e- -ius io--re -me---
+    -------.|---..|-.||--.|..|-.|-|-|...|-|-.|.|.|--.||-.|---
+    [Miserere]} euouae Intellege cl-amorem meum domine {Verba
+
+-- fused_11 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [114..114) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_12 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [114..114) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_13 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [114..114) consumed=0
+  Alignment:
+    (no words left)
+=== END DEBUG ===
+

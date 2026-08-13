@@ -1,0 +1,267 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'oro omipeseni .'
+  [fused_1] 'o ica . Consi'
+  [fused_2] 'tebort addi'
+  [fused_3] 'tota devocione dilexi evovae  lberastime oudabit ilue ad ueresso aones e sicutin land  . dirit dominus B . Consi'
+  [fused_4] 'trans beata Agnes in medio famme etpausis manibus'
+  [fused_5] 'rabat addoml otes adord le'
+  [fused_6] 'Benedico te et glorifico noment etr e'
+  [fused_7] 'Mn scricen Canastasi.cum apud Cesaream . Lc Vni post hec premotis in festo SancteE Reqire in festo Sancte Presacte Virginis ecn Emerentiane an q in ousione anci pan'
+  [fused_8] 'Sailus adhuc spirans ymuo doctor egregieuesa electionis SanctePau'
+  [fused_9] 'predicator veritatis ad ma. ant'
+  [fused_10] 'et quere saulum ecclesie enim orat qvia vas elec'
+  [fused_11] 'tionis est michi ut portet nomien meum coram gentibus et re ooro . ds onivesum additur et pro sancte'
+  [fused_12] 'Petrues pastor omni Tues pe'
+  [fused_13] 'teus re . et super hac pe oro do cuibeato pe'
+  [fused_14] 'gibus et ni filiis Israhel evovae tanichldicisc'
+  [fused_15] 'Laude mus Deum nostrum in conversi doctoris'
+  [fused_16] 'yuu doctor egregie sittrnitaci in nocterno a p  Xis'
+  [fused_17] 'sitin alia festimitate auc vero dioteui omnes sine us *a'
+  [fused_18] 'Qm operatus cpetro l Saulus adhuc'
+  [fused_19] 'teit hymon Petrusna gencium p venite presbteri Grandis fiducia c Hodie dilectissimi LcVn'
+  [fused_20] 'pi et diei et egoplantavi apollo rigavit. Saul'
+  [fused_21] 'Aadins en esnas electisois oro dos qui universim Lesponsim et . de apostolis qua ca a'
+  [fused_22] ' saulus autemmil coma'
+  [fused_23] 'de cominni ipssorum ca'
+  [fused_24] 'de lacto Petr ut dictum insce .manan caulda'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'oro omipeseni .'
+  Assigned: 'quem in terris posita'
+  Words:    [0..4) consumed=4
+  NW score: k=4 (pre-snap), norm=-2.5918
+  Anchor:   word 17 (within_chant_7), diff=13, snapped=False, forced=False
+  Alignment:
+    target            0 ----oro --omi--peseni . 15
+                      0 ----...  7
+    query             0 quem in terris pos--ita 21
+
+-- fused_1 --
+  OCR:      'o ica . Consi'
+  Assigned: 'tota devocione'
+  Words:    [4..6) consumed=2
+  NW score: k=2 (pre-snap), norm=-1.6307
+  Anchor:   word 17 (within_chant_7), diff=11, snapped=False, forced=False
+  Alignment:
+    target            0 -o ica ---. Consi 13
+                      0 -|--.|  6
+    query             0 to--ta devocion-e 14
+
+-- fused_2 --
+  OCR:      'tebort addi'
+  Assigned: 'dilexi euouae Stans'
+  Words:    [6..9) consumed=3
+  NW score: k=3 (pre-snap), norm=-3.0435
+  Anchor:   word 17 (within_chant_7), diff=8, snapped=False, forced=False
+  Alignment:
+    target            0 ------tebo-rt --addi 11
+                      0 ------.|.|-.. 13
+    query             0 dilexi euouae Sta-ns 19
+
+-- fused_3 --
+  OCR:      'tota devocione dilexi evovae  lberastime oudabit ilue ad ueresso aones e sicutin land  . dirit dominus B . Consi'
+  Assigned: 'beata agnes in medio flamme expansis manibus o'
+  Words:    [9..17) consumed=8
+  NW score: k=11 (pre-snap), norm=-0.6746
+  Anchor:   word 17 (within_chant_7), diff=3, snapped=False, forced=True
+  Alignment:
+    target            0 -tota devocione- dilexi evovae  lberastime oudabit ilue ad u
+                      0 -..||
+    query             0 beata -----agnes -----i-------n --------me---d--io fl---a-mm
+    
+    target           58 eresso aones e sicutin land  . dirit dominus B . Co--nsi 112
+                      5 |.|--..|-|-----|----|.  27
+    query            26 e e--xpa-n-----s----is man--------------ibus -----orabat  51
+
+-- fused_4 --
+  OCR:      'trans beata Agnes in medio famme etpausis manibus'
+  Assigned: 'rabat ad dominum omnipotens adorande colende tremende'
+  Words:    [17..23) consumed=6
+  NW score: k=12 (pre-snap), norm=-1.3172
+  Anchor:   word 23 (within_chant_7), diff=6, snapped=False, forced=True
+  Alignment:
+    target            0 trans --beata Agn----e-s in medio famme ---etpausis ---manib
+                      0 --|-.
+    query             0 --a-d dominum omnipotens ----ad-o-rande cole----nde tremen--
+    
+    target           47 us 49
+                      5 ..  7
+    query            45 de 47
+
+-- fused_5 --
+  OCR:      'rabat addoml otes adord le'
+  Assigned: 'benedico te et glorifico nomen tuum in eternum'
+  Words:    [23..31) consumed=8
+  NW score: k=5 (pre-snap), norm=-1.4680
+  Anchor:   word 31 (within_chant_7), diff=3, snapped=False, forced=True
+  Alignment:
+    target            0 rabat ad-doml ot--es ador------------------d -le---- 26
+                      0 --|-...|-.|-- 13
+    query             0 --b-enedico-- -te et glorifico nomen tuum in eternum 46
+
+-- fused_6 --
+  OCR:      'Benedico te et glorifico noment etr e'
+  Assigned: 'euouae Vade anania et qaere'
+  Words:    [31..36) consumed=5
+  NW score: k=5 (pre-snap), norm=-0.8859
+  Anchor:   word 43 (within_chant_7), diff=7, snapped=False, forced=False
+  Alignment:
+    target            0 Benedico te ---et glorifico noment --etr e 37
+                      0 ---|--.|..| 11
+    query             0 ---e--uouae Vade- anani---a ---e-t qae-r-e 27
+
+-- fused_7 --
+  OCR:      'Mn scricen Canastasi.cum apud Cesaream . Lc Vni post hec premotis in festo SancteE Reqire in festo Sancte Presacte Virginis ecn Emerentiane an q in ousione anci pan'
+  Assigned: 'saulum ecce enim orat quia vas electionis est michi ut portet nomen meum coram gentibus et regibus et filiis israhel euouae Laudemus deum nostrum in conversione doctoris gencium'
+  Words:    [36..64) consumed=28
+  NW score: k=28 (pre-snap), norm=-0.6750
+  Anchor:   word 43 (within_chant_7), diff=21, snapped=False, forced=False
+  Alignment:
+    target            0 ----Mn scricen Canastasi.cum --apud Cesaream . Lc- Vni- post
+                      0 ----..
+    query             0 saulum ec--ce- -en-----i---m ora--t quia vas electionis -est
+    
+    target           52  hec----- p-remotis in festo SancteE Re---qire in fest---o S
+                      6 
+    query            45  michi ut por---t-------e-t- --nomen meum cor--am gentibus -
+    
+    target          100 ancte Pre----sacte Virginis -----ecn Emerentiane -a---------
+                      6 --.|-
+    query            88 --et- -regibus et- fi-li-is israhe-l ----euoua-e Laudemus de
+    
+    target          141 ---n---- q in -o---usione anc---i- pan---- 164
+                     11 ---|----..  21
+    query           135 um nostrum in conversione doctoris gencium 177
+
+-- fused_8 --
+  OCR:      'Sailus adhuc spirans ymuo doctor egregieuesa electionis SanctePau'
+  Assigned: '~Venite Stans a dextris'
+  Words:    [64..68) consumed=4
+  NW score: k=4 (pre-snap), norm=-2.9742
+  Anchor:   word 68 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 --Sailus adhuc spirans ymuo doctor egregieuesa electionis Sa
+                      0 --..|-------..
+    query             0 ~Veni-------te --Stans ----------------------a -dext--ris---
+    
+    target           58 nctePau 65
+                     14 ------- 21
+    query            23 ------- 23
+
+-- fused_9 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [68..68) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_10 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [68..68) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_11 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [68..68) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_12 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [68..68) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_13 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [68..68) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_14 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [68..68) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_15 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [68..68) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_16 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [68..68) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_17 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [68..68) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_18 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [68..68) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_19 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [68..68) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_20 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [68..68) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_21 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [68..68) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_22 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [68..68) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_23 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [68..68) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_24 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [68..68) consumed=0
+  Alignment:
+    (no words left)
+=== END DEBUG ===
+

@@ -1,0 +1,187 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'misve in et cum splendo Redescen dens et Iir'
+  [fused_1] 'tus et moncum visitare populum su umin'
+  [fused_2] 'pace et constituet ternam .'
+  [fused_3] 'dominnus noster cum mitu te veni et'
+  [fused_4] 'viserta mccepanstro vemi oego dominus de'
+  [fused_5] 'ster visitare nos in pace Aspiciamnos'
+  [fused_6] 'et crescere faci am muntiplica i et firmabo pactum me'
+  [fused_7] 'cmno bisnoster adveniet'
+  [fused_8] 'stus . quem Johannes predica vit agnum ess se ve'
+  [fused_9] 'turima  necipsum continebunt reges os suum ip'
+  [fused_10] 'sum gentes de precatur . Quem ioontes isra'
+  [fused_11] '|quire ad laudes et in'
+  [fused_12] 'vespas et per horas diei'
+  [fused_13] 'inciphona cce in mibibus celi dominus ne'
+  [fused_14] 'tut cau penstatunipis aleaiin a d i ni cimilis'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'misve in et cum splendo Redescen dens et Iir'
+  Assigned: 'veniet cum splendore descendens et virtus'
+  Words:    [0..6) consumed=6
+  NW score: k=6 (pre-snap), norm=4.7088
+  Anchor:   word 26 (within_chant_7), diff=20, snapped=False, forced=False
+  Alignment:
+    target            0 misve in et cum splendo Re-descen dens et Iir--- 44
+                      0 ---||--|.|| 11
+    query             0 ---ve--niet cum splendo-re descen-dens et virtus 41
+
+-- fused_1 --
+  OCR:      'tus et moncum visitare populum su umin'
+  Assigned: 'eius cum eo Visitare populum suum in'
+  Words:    [6..13) consumed=7
+  NW score: k=7 (pre-snap), norm=4.4881
+  Anchor:   word 26 (within_chant_7), diff=13, snapped=False, forced=False
+  Alignment:
+    target            0 -tus et moncum--- visitare populum su um-in 38
+                      0 -.||  4
+    query             0 eius ------cum eo Visitare populum su-um in 36
+
+-- fused_2 --
+  OCR:      'pace et constituet ternam .'
+  Assigned: 'pace et constituet super'
+  Words:    [13..17) consumed=4
+  NW score: k=4 (pre-snap), norm=5.2640
+  Anchor:   word 26 (within_chant_7), diff=9, snapped=False, forced=False
+  Alignment:
+    target            0 pace et constituet --ternam . 27
+                      0 ||||  4
+    query             0 pace et constituet super----- 24
+
+-- fused_3 --
+  OCR:      'dominnus noster cum mitu te veni et'
+  Assigned: 'eum vitam sempiternam Ecce dominus noster cum virtute veniet'
+  Words:    [17..26) consumed=9
+  NW score: k=9 (pre-snap), norm=2.8368
+  Anchor:   word 26 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ---------------------------dominnus noster cum mi-tu te veni
+                      0 ---------------------------||||-|||
+    query             0 eum vitam sempiternam Ecce domi-nus noster cum virtu-te veni
+    
+    target           32  et 35
+                     35 -|| 38
+    query            58 -et 60
+
+-- fused_4 --
+  OCR:      'viserta mccepanstro vemi oego dominus de'
+  Assigned: 'Visitare Ecce ab austro venio ego dominus de'
+  Words:    [26..34) consumed=8
+  NW score: k=8 (pre-snap), norm=4.0098
+  Anchor:   word 34 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 viserta-- mcce---panstro vemi- oego dominus de-- 40
+                      0 .||-.||--  9
+    query             0 Vis-itare Ecce ab austro venio -ego dominus deus 46
+
+-- fused_5 --
+  OCR:      'ster visitare nos in pace Aspiciamnos'
+  Assigned: 'us vester Visitare vos in pace Aspiciam vos'
+  Words:    [34..41) consumed=7
+  NW score: k=7 (pre-snap), norm=6.2385
+  Anchor:   word 41 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 --ster visitare nos in pace Aspiciam-nos 37
+                      0 --||||  6
+    query             0 vester Visitare vos in pace Aspiciam vos 40
+
+-- fused_6 --
+  OCR:      'et crescere faci am muntiplica i et firmabo pactum me'
+  Assigned: 'et crescere faciam multiplicabimini et firmabo pactum me'
+  Words:    [41..49) consumed=8
+  NW score: k=8 (pre-snap), norm=6.4390
+  Anchor:   word 49 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 et crescere faci am muntiplica---- i et firmabo pactum me--
+                      0 ||
+    query             0 et crescere faci-am multiplicabimini et firmabo pactum meum
+    
+    target           53
+                      2
+    query            58
+
+-- fused_7 --
+  OCR:      'cmno bisnoster adveniet'
+  Assigned: 'um vobiscum Visitare Rex noster adveniet'
+  Words:    [49..54) consumed=5
+  NW score: k=5 (pre-snap), norm=2.9138
+  Anchor:   word 54 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -----c-mno bis----------noster adveniet 23
+                      0 -----|-|-- 10
+    query             0 vobiscum-- Visitare Rex noster adveniet 37
+
+-- fused_8 --
+  OCR:      'stus . quem Johannes predica vit agnum ess se ve'
+  Assigned: 'xpistus Quem iohannes predicavit agnum esse venturum'
+  Words:    [54..61) consumed=7
+  NW score: k=6 (pre-snap), norm=5.3928
+  Anchor:   word 61 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 ---stus . quem Johannes predica vit agnum ess se ve------ 48
+                      0 ---||||--  9
+    query             0 xpistus-- Quem iohannes predica-vit agnum es--se venturum 52
+
+-- fused_9 --
+  OCR:      'turima  necipsum continebunt reges os suum ip'
+  Assigned: 'Super ipsum continebunt reges os suum ip'
+  Words:    [61..68) consumed=7
+  NW score: k=7 (pre-snap), norm=5.4332
+  Anchor:   word 68 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 tu--rima  necipsum continebunt reges os suum ip--- 45
+                      0 .|--|----  9
+    query             0 Super---- ---ipsum continebunt reges os suum ipsum 43
+
+-- fused_10 --
+  OCR:      'sum gentes de precatur . Quem ioontes isra'
+  Assigned: 'sum gentes deprecabuntur Quem iohannes Montes isra'
+  Words:    [68..74) consumed=6
+  NW score: k=6 (pre-snap), norm=4.2544
+  Anchor:   word 74 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 sum gentes de preca---tur . Quem io--------ontes isra--- 42
+                      0 ----|||||| 10
+    query             0 ----gentes de-precabuntur-- Quem iohannes Montes israhel 49
+
+-- fused_11 --
+  OCR:      '|quire ad laudes et in'
+  Assigned: 'hel Ecce in nubibus celi dominus ve'
+  Words:    [74..80) consumed=6
+  NW score: k=5 (pre-snap), norm=-1.1684
+  Anchor:   word 80 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 |quire ad lau--des -e-t ---in--------- 22
+                      0 --...|  6
+    query             0 --Ecce in -nubibus celi dominus veniet 35
+
+-- fused_12 --
+  OCR:      'vespas et per horas diei'
+  Assigned: 'niet cum potestate magna alleluya ~Dominus regnavit'
+  Words:    [80..86) consumed=6
+  NW score: k=4 (pre-snap), norm=-2.0831
+  Anchor:   word 86 (page_break_77), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 ------vespa-s ---et --pe---r -ho--ras die----i- 24
+                      0 ------.||.|-. 13
+    query             0 cum potestate magna alleluya ~Dominus -regnavit 46
+
+-- fused_13 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [86..86) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_14 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [86..86) consumed=0
+  Alignment:
+    (no words left)
+=== END DEBUG ===
+

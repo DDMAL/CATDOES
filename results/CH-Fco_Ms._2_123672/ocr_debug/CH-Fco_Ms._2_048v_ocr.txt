@@ -1,0 +1,171 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'mineconserva mropterverba'
+  [fused_1] 'tuorm ego ustd Exadides justi eovae Ma'
+  [fused_2] 'argan Jetomintemetus mea ei sipmm eporae'
+  [fused_3] 'Lo tas michi fecisti domine  nte Adi'
+  [fused_4] 'plebis meleticia cummultu tu delectationes'
+  [fused_5] 't eu ta .  nen Eneo qui'
+  [fused_6] 'restitu es hereditatem meecamn .  Adimple'
+  [fused_7] 'Villigamte Domi ne murtus mea dominus firmame'
+  [fused_8] 'tum meum et refuguim meum V Liberator'
+  [fused_9] 'mens advitor me no refu'
+  [fused_10] 'num est tetta et plenitudo ejus . Orbis'
+  [fused_11] 'tam tam et mn ver si qui habitantin'
+  [fused_12] 'v mana furoantea et super'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'mineconserva mropterverba'
+  Assigned: '~Conserva me euouae Propter verba labiorum'
+  Words:    [0..6) consumed=6
+  NW score: k=5 (pre-snap), norm=3.3423
+  Anchor:   word 6 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 mineconserva m----------ropter-verba--------- 25
+                      0 ---..||||||| 12
+    query             0 ---~Conserva me euouae Propter verba labiorum 42
+
+-- fused_1 --
+  OCR:      'tuorm ego ustd Exadides justi eovae Ma'
+  Assigned: 'tuorum ego custodivi vias duras {Exaudi'
+  Words:    [6..12) consumed=6
+  NW score: k=9 (pre-snap), norm=2.8117
+  Anchor:   word 12 (within_chant_7), diff=3, snapped=False, forced=True
+  Alignment:
+    target            0 tuor-m ego -ust-d--- Exadides ju--sti eovae Ma 38
+                      0 ||||-|  6
+    query             0 tuorum ego custodivi via----s duras-- {Exa-udi 39
+
+-- fused_2 --
+  OCR:      'argan Jetomintemetus mea ei sipmm eporae'
+  Assigned: 'deus iusti} euouae Diligam te domine virtus mea {Ipsum'
+  Words:    [12..21) consumed=9
+  NW score: k=11 (pre-snap), norm=0.2422
+  Anchor:   word 21 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 ----------------a-----rgan Je-tominte--metus mea ei sipmm ep
+                      0 ----------------|-----.||.
+    query             0 deus iusti} euouae Diligam te domin-e virtus mea {Ips--um---
+    
+    target           36 orae 40
+                     26 ---- 30
+    query            54 ---- 54
+
+-- fused_3 --
+  OCR:      'Lo tas michi fecisti domine  nte Adi'
+  Assigned: '[Diligam]} euouae Notas michi fecisti domine vias vite adim'
+  Words:    [21..30) consumed=9
+  NW score: k=9 (pre-snap), norm=3.1215
+  Anchor:   word 30 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ------------Lo--- --tas michi fecisti domine ---- -nte Adi--
+                      0 ------------.|---
+    query             0 [Diligam]} euouae Notas michi fecisti domine vias vite Adimp
+    
+    target           36 ----- 36
+                     17 ----- 22
+    query            60 lebis 65
+
+-- fused_4 --
+  OCR:      'plebis meleticia cummultu tu delectationes'
+  Assigned: 'plebis me leticia cum vultu tuo delectationes in dex'
+  Words:    [30..38) consumed=8
+  NW score: k=6 (pre-snap), norm=5.5319
+  Anchor:   word 38 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 plebis me-leticia cum-multu tu- delectationes----------- 42
+                      0 -------||-||||||| 17
+    query             0 -------me leticia cum vultu tuo delectationes in dextera 49
+
+-- fused_5 --
+  OCR:      't eu ta .  nen Eneo qui'
+  Assigned: 'tera tua usque in finem Tu es qui'
+  Words:    [38..45) consumed=7
+  NW score: k=7 (pre-snap), norm=0.9457
+  Anchor:   word 45 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 t eu ta ----. -- --nen -Eneo qui 23
+                      0 |--|--|  7
+    query             0 t--u--a usque in finem Tu es qui 28
+
+-- fused_6 --
+  OCR:      'restitu es hereditatem meecamn .  Adimple'
+  Assigned: 'restitues hereditatem meam michi Adimplebis'
+  Words:    [45..50) consumed=5
+  NW score: k=5 (pre-snap), norm=5.2396
+  Anchor:   word 50 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 restitu es hereditatem meecamn ---.  Adimple--- 41
+                      0 |||||||-|| 10
+    query             0 restitu-es hereditatem me--am- michi Adimplebis 43
+
+-- fused_7 --
+  OCR:      'Villigamte Domi ne murtus mea dominus firmame'
+  Assigned: 'Dilligam te domine virtus mea dominus firmamen'
+  Words:    [50..57) consumed=7
+  NW score: k=7 (pre-snap), norm=5.7499
+  Anchor:   word 57 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 Villigam-te Domi ne murtus mea dominus firmame---- 45
+                      0 .|||||||-|| 11
+    query             0 Dilligam te domi-ne virtus mea dominus firmamentum 49
+
+-- fused_8 --
+  OCR:      'tum meum et refuguim meum V Liberator'
+  Assigned: 'tum meum Et refugium meum Liberator'
+  Words:    [57..62) consumed=5
+  NW score: k=5 (pre-snap), norm=5.5215
+  Anchor:   word 62 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 tum meum et refug-uim meum V Liberator 37
+                      0 ----||||  8
+    query             0 ----meum Et refugiu-m meum-- Liberator 31
+
+-- fused_9 --
+  OCR:      'mens advitor me no refu'
+  Assigned: 'meus deus meus adiutor meus Et refugium do'
+  Words:    [62..70) consumed=8
+  NW score: k=7 (pre-snap), norm=2.1035
+  Anchor:   word 70 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 ----------mens advi-tor me-- no refu----------- 23
+                      0 ----------||.| 14
+    query             0 meus deus meus ad-iutor meus Et refugium Domini 46
+
+-- fused_10 --
+  OCR:      'num est tetta et plenitudo ejus . Orbis'
+  Assigned: 'mini est terra et plenitudo eius Orbis'
+  Words:    [70..76) consumed=6
+  NW score: k=6 (pre-snap), norm=5.5471
+  Anchor:   word 76 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 num est tetta et plenitudo ejus . Orbis 39
+                      0 ----|||  7
+    query             0 ----est terra et plenitudo eius-- Orbis 33
+
+-- fused_11 --
+  OCR:      'tam tam et mn ver si qui habitantin'
+  Assigned: 'terrarum et universi qui habitant in'
+  Words:    [76..82) consumed=6
+  NW score: k=6 (pre-snap), norm=4.7329
+  Anchor:   word 82 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 tam ta--m et mn ver si qui habitant-in 35
+                      0 |-...|--|  9
+    query             0 t-errarum et univer-si qui habitant in 36
+
+-- fused_12 --
+  OCR:      'v mana furoantea et super'
+  Assigned: 'eo Ipse super maria fundavit eam et super'
+  Words:    [82..90) consumed=8
+  NW score: k=8 (pre-snap), norm=2.0927
+  Anchor:   word 90 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ------------v ma-na furoa-nt-ea- et super 25
+                      0 ------------. 13
+    query             0 eo Ipse super maria fundavit eam et super 41
+=== END DEBUG ===
+

@@ -1,0 +1,191 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'no diem festum cele brantes subhonoeAgathe'
+  [fused_1] 'martyris De cujus passione gaudent an et collan'
+  [fused_2] 'dant fi li un mimacula tus dominus'
+  [fused_3] 'miniaculatam sibi famulam tagii copore posi'
+  [fused_4] 'sericorditerconse amo. decuius.'
+  [fused_5] 'vis estu qui venisti ad me curare vulnera mea ego sumi'
+  [fused_6] 'a postolus Christisti nichil in me dubites filia pre evovae .'
+  [fused_7] 'edicinam carnalem corpori meo nunquam exhaibrui'
+  [fused_8] 'seo habeo dominum Jheesum Chpitistum qui solo servione'
+  [fused_9] 'atumena ilate o'
+  [fused_10] 'mifisti ad me apostolum tuimu cura'
+  [fused_11] 're mulvera mea s Deo ovae enedico te'
+  [fused_12] 'patertommi nei Meli piti oa pet apostosum caumi mo'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'no diem festum cele brantes subhonoeAgathe'
+  Assigned: 'diem festum celebrantes sub honore agathe'
+  Words:    [0..6) consumed=6
+  NW score: k=6 (pre-snap), norm=6.0245
+  Anchor:   word 18 (within_chant_7), diff=12, snapped=False, forced=False
+  Alignment:
+    target            0 no diem festum cele brantes sub-hono-e-Agathe 42
+                      0 ---||||  7
+    query             0 ---diem festum cele-brantes sub honore agathe 41
+
+-- fused_1 --
+  OCR:      'martyris De cujus passione gaudent an et collan'
+  Assigned: 'martyris De cuius passione gaudent angeli et collaudant'
+  Words:    [6..14) consumed=8
+  NW score: k=8 (pre-snap), norm=6.4316
+  Anchor:   word 18 (within_chant_7), diff=4, snapped=False, forced=False
+  Alignment:
+    target            0 martyris De cujus passione gaudent an---- et coll---an- 47
+                      0 ||||||||  8
+    query             0 martyris De cuius passione gaudent angeli et collaudant 55
+
+-- fused_2 --
+  OCR:      'dant fi li un mimacula tus dominus'
+  Assigned: 'filium dei Immaculatus dominus'
+  Words:    [14..18) consumed=4
+  NW score: k=4 (pre-snap), norm=3.8200
+  Anchor:   word 18 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 dant fi li un -mi---macula tus dominus 34
+                      0 -----||-||-|. 13
+    query             0 -----fi-li-um dei Immacula-tus dominus 30
+
+-- fused_3 --
+  OCR:      'miniaculatam sibi famulam tagii copore posi'
+  Assigned: 'immaculatam sibi famulam in hoc fragili corpore positam mi'
+  Words:    [18..27) consumed=9
+  NW score: k=8 (pre-snap), norm=4.8323
+  Anchor:   word 27 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 miniaculatam sibi famulam --------tagi-i co-pore posi-------
+                      0 -|..||||||||
+    query             0 -immaculatam sibi famulam in hoc fragili corpore positam mis
+    
+    target           43 ----------- 43
+                     12 ----------- 23
+    query            59 ericorditer 70
+
+-- fused_4 --
+  OCR:      'sericorditerconse amo. decuius.'
+  Assigned: 'sericorditer consecravit De'
+  Words:    [27..29) consumed=2
+  NW score: k=3 (pre-snap), norm=0.7229
+  Anchor:   word 29 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 sericorditerconse- amo. decuius. 31
+                      0 ------------|||||-.|... 23
+    query             0 ------------consecravit De------ 14
+
+-- fused_5 --
+  OCR:      'vis estu qui venisti ad me curare vulnera mea ego sumi'
+  Assigned: 'cuius Quis es tu qui venisti ad me curare vulnera mea ego sum'
+  Words:    [29..42) consumed=13
+  NW score: k=13 (pre-snap), norm=6.4816
+  Anchor:   word 42 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -------vis es-tu qui venisti ad me curare vulnera mea ego su
+                      0 -------.||
+    query             0 cuius Quis es tu qui venisti ad me curare vulnera mea ego su
+    
+    target           52 mi 54
+                     10 |- 12
+    query            60 m- 61
+
+-- fused_6 --
+  OCR:      'a postolus Christisti nichil in me dubites filia pre evovae .'
+  Assigned: 'apostolus xpisti nichil in me dubites filia ~Dominus'
+  Words:    [42..50) consumed=8
+  NW score: k=7 (pre-snap), norm=4.9204
+  Anchor:   word 50 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 a postolus Christisti nichil in me dubites filia pre evovae 
+                      0 |-||||||||
+    query             0 a-postolus ----xpisti nichil in me dubites filia---- ~Dominu
+    
+    target           60 . 61
+                     10 . 11
+    query            51 s 52
+
+-- fused_7 --
+  OCR:      'edicinam carnalem corpori meo nunquam exhaibrui'
+  Assigned: 'regnavit euouae Medicinam carnalem corpori meo numquam exhibui'
+  Words:    [50..58) consumed=8
+  NW score: k=8 (pre-snap), norm=5.1499
+  Anchor:   word 58 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -----------------edicinam carnalem corpori meo nunquam exhai
+                      0 -----------------||||||||
+    query             0 regnavit euouae Medicinam carnalem corpori meo numquam exh-i
+    
+    target           43 brui 47
+                     25 |-|| 29
+    query            59 b-ui 62
+
+-- fused_8 --
+  OCR:      'seo habeo dominum Jheesum Chpitistum qui solo servione'
+  Assigned: 'sed habeo dominum ihesum xpistum qui solo sermone restau'
+  Words:    [58..67) consumed=9
+  NW score: k=8 (pre-snap), norm=6.0071
+  Anchor:   word 67 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 seo habeo dominum Jheesum Chpitistum qui solo servione------
+                      0 ||.
+    query             0 sed habeo dominum ih-esum -xp--istum qui solo ser-mone resta
+    
+    target           54 ---- 54
+                      3 ----  7
+    query            55 urat 59
+
+-- fused_9 --
+  OCR:      'atumena ilate o'
+  Assigned: 'rat universa {Iubilate}'
+  Words:    [67..69) consumed=2
+  NW score: k=2 (pre-snap), norm=0.4146
+  Anchor:   word 74 (within_chant_7), diff=5, snapped=False, forced=False
+  Alignment:
+    target            0 atu--me-na ----ilate o 15
+                      0 --|--.|-.| 10
+    query             0 --universa {Iubilate-} 19
+
+-- fused_10 --
+  OCR:      'mifisti ad me apostolum tuimu cura'
+  Assigned: 'euouae Gratias tibi ago domine quia memor es mei et misisti ad me apostolum tuum cura'
+  Words:    [69..85) consumed=16
+  NW score: k=16 (pre-snap), norm=1.1216
+  Anchor:   word 74 (within_chant_7), diff=11, snapped=False, forced=False
+  Alignment:
+    target            0 ----------------------------------------------------mifisti 
+                      0 ----------------------------------------------------||.||||
+    query             0 euouae Gratias tibi ago domine quia memor es mei et misisti 
+    
+    target            8 ad me apostolum tuimu cura-- 34
+                     59 || 61
+    query            60 ad me apostolum tuum- curare 87
+
+-- fused_11 --
+  OCR:      're mulvera mea s Deo ovae enedico te'
+  Assigned: 're vulnera mea {Deus deus} euouae Benedico te'
+  Words:    [85..92) consumed=7
+  NW score: k=7 (pre-snap), norm=3.6776
+  Anchor:   word 92 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 re mulvera mea ----s De--o --ovae -enedico te 36
+                      0 ---.||.||| 10
+    query             0 ---vulnera mea {Deus deus} euouae Benedico te 42
+
+-- fused_12 --
+  OCR:      'patertommi nei Meli piti oa pet apostosum caumi mo'
+  Assigned: 'pater domini mei ihesu xpisti quia per apostolum tuum mamillam'
+  Words:    [92..102) consumed=10
+  NW score: k=9 (pre-snap), norm=3.1858
+  Anchor:   word 102 (page_break_77), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 pater-tom-mi nei -Meli -pi-ti --oa pet apostosum caumi m----
+                      0 |||||-.||-.|
+    query             0 pater domini mei ihesu xpisti quia per apostolum tuum- mamil
+    
+    target           49 --o 50
+                     12 --. 15
+    query            59 lam 62
+=== END DEBUG ===
+

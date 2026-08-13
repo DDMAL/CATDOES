@@ -1,0 +1,165 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'Lt uem '
+  [fused_1] 'tunt cu mostellam ma i indentes gavi'
+  [fused_2] 'et minera queob tu le runt es'
+  [fused_3] 'bis venite gentes et adora'
+  [fused_4] 'teon numQueminterrogabat mnago'
+  [fused_5] 'Herodes quod signum iidi stis super regem stel'
+  [fused_6] 'tem cujus splendor illuminat mum'
+  [fused_7] ''
+  [fused_8] 'dacconice domi num Xagi veniunt'
+  [fused_9] 'te inquirentes facien domini centes'
+  [fused_10] 'et iood o de cenis aperti sunt et ma'
+  [fused_11] 're duice factum est terra existat montes et col les'
+  [fused_12] 'cecaitis tur . Quia AJohanne miorda nex'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'Lt uem'
+  Assigned: 'Quem'
+  Words:    [0..1) consumed=1
+  NW score: k=1 (pre-snap), norm=1.8371
+  Anchor:   word 16 (within_chant_7), diff=15, snapped=False, forced=False
+  Alignment:
+    target            0 Lt uem 6
+                      0 --.||| 6
+    query             0 --Quem 4
+
+-- fused_1 --
+  OCR:      'tunt cu mostellam ma i indentes gavi'
+  Assigned: 'prophete predixerunt angeli annunciaverunt cuius stellam magi videntes gavisi'
+  Words:    [1..10) consumed=9
+  NW score: k=9 (pre-snap), norm=1.5575
+  Anchor:   word 16 (within_chant_7), diff=6, snapped=False, forced=False
+  Alignment:
+    target            0 -------------------t-------------------unt cu--- mostellam m
+                      0 -------------------|-------------------|||
+    query             0 prophete predixerunt angeli annunciaverunt cuius --stellam m
+    
+    target           19 a i -indentes gav--i 36
+                     42 |.| 45
+    query            58 agi vi-dentes gavisi 77
+
+-- fused_2 --
+  OCR:      'et minera queob tu le runt es'
+  Assigned: 'sunt et munera ei obtulerunt Dies'
+  Words:    [10..16) consumed=6
+  NW score: k=6 (pre-snap), norm=3.5235
+  Anchor:   word 16 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -----et minera que--ob tu le runt --es 29
+                      0 -----||  7
+    query             0 sunt et munera --ei ob-tu-le-runt Dies 33
+
+-- fused_3 --
+  OCR:      'bis venite gentes et adora'
+  Assigned: 'sanctificatus illuxit nobis venite gentes et adorate dominum'
+  Words:    [16..24) consumed=8
+  NW score: k=7 (pre-snap), norm=3.3180
+  Anchor:   word 24 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 ------------------------bis venite gentes et adora----------
+                      0 ------------------------|||
+    query             0 sanctificatus illuxit nobis venite gentes et adorate dominum
+    
+    target           26 
+                     27 
+    query            60 
+
+-- fused_4 --
+  OCR:      'teon numQueminterrogabat mnago'
+  Assigned: 'Quem Interrogabat magos'
+  Words:    [24..27) consumed=3
+  NW score: k=3 (pre-snap), norm=4.0354
+  Anchor:   word 27 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 teon numQuem-interrogabat mnago- 30
+                      0 --------||||-.||||||||||| 25
+    query             0 --------Quem Interrogabat m-agos 23
+
+-- fused_5 --
+  OCR:      'Herodes quod signum iidi stis super regem stel'
+  Assigned: 'herodes quod signum vidistis super regem stel'
+  Words:    [27..34) consumed=7
+  NW score: k=7 (pre-snap), norm=6.6824
+  Anchor:   word 34 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 Herodes quod signum iidi stis super regem stel--- 46
+                      0 .||||||  7
+    query             0 herodes quod signum vidi-stis super regem stellam 48
+
+-- fused_6 --
+  OCR:      'tem cujus splendor illuminat mum'
+  Assigned: 'lam magnam fulgentem cuius splendor illuminat mundum'
+  Words:    [34..40) consumed=6
+  NW score: k=6 (pre-snap), norm=4.7714
+  Anchor:   word 40 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -------------tem cujus splendor illuminat m---um 32
+                      0 -------------||| 16
+    query             0 magnam fulgentem cuius splendor illuminat mundum 48
+
+-- fused_7 --
+  OCR:      ''
+  Assigned: 'Et nos cognovimus et venimus adorare'
+  Words:    [40..46) consumed=6
+
+-- fused_8 --
+  OCR:      'dacconice domi num Xagi veniunt'
+  Assigned: 'dominum Magi veniunt'
+  Words:    [46..49) consumed=3
+  NW score: k=3 (pre-snap), norm=4.2571
+  Anchor:   word 49 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 dacconice domi num Xagi veniunt 31
+                      0 ----------||||-||| 18
+    query             0 ----------domi-num Magi veniunt 20
+
+-- fused_9 --
+  OCR:      'te inquirentes facien domini centes'
+  Assigned: 'ab oriente inquirentes faciem domini et dicentes'
+  Words:    [49..56) consumed=7
+  NW score: k=7 (pre-snap), norm=5.3675
+  Anchor:   word 56 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 --------te inquirentes facien domini -----centes 35
+                      0 --------|| 10
+    query             0 ab oriente inquirentes faciem domini et dicentes 48
+
+-- fused_10 --
+  OCR:      'et iood o de cenis aperti sunt et ma'
+  Assigned: 'Et nos Hodie celi aperti sunt et ma'
+  Words:    [56..64) consumed=8
+  NW score: k=8 (pre-snap), norm=4.5758
+  Anchor:   word 64 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 et iood -o d-e cenis aperti sunt et ma-- 36
+                      0 .|  2
+    query             0 Et -nos Ho-die celi- aperti sunt et mare 37
+
+-- fused_11 --
+  OCR:      're duice factum est terra existat montes et col les'
+  Assigned: 're dulce factum est terra exultat montes et colles'
+  Words:    [64..72) consumed=8
+  NW score: k=8 (pre-snap), norm=6.4748
+  Anchor:   word 79 (page_break_77), diff=7, snapped=False, forced=False
+  Alignment:
+    target            0 re duice factum est terra existat montes et col les 51
+                      0 ---||.||  8
+    query             0 ---dulce factum est terra exultat montes et col-les 47
+
+-- fused_12 --
+  OCR:      'cecaitis tur . Quia AJohanne miorda nex'
+  Assigned: 'letantur Quia a iohanne in iordane xpistus'
+  Words:    [72..79) consumed=7
+  NW score: k=6 (pre-snap), norm=3.1032
+  Anchor:   word 79 (page_break_77), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 cecaitis tur . Quia -AJohanne --miorda ne-x------ 39
+                      0 .|.|----.|||-- 14
+    query             0 leta----ntur-- Quia a iohanne in iorda-ne xpistus 42
+=== END DEBUG ===
+

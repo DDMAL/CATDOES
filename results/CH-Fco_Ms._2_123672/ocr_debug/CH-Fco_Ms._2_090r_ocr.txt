@@ -1,0 +1,171 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'mei adversum me cogitabant mala michi verbum mmiquum man'
+  [fused_1] 'davernt eo cen tes posche par aa lame'
+  [fused_2] 'bantur michi minia me'
+  [fused_3] 'inti rant mi chi vidicti Domine'
+  [fused_4] 'das me go anteni'
+  [fused_5] 'molessi essent induebam me cilicio et hamiliabam in jenimo'
+  [fused_6] 'mimam me am. dintor et susceptorme'
+  [fused_7] 'e domine et in verbum e in doca'
+  [fused_8] 'nate a me malig n et scrutabor mandatade'
+  [fused_9] 'melinquos odio habui et legem tuam di'
+  [fused_10] 'oceam uniquos vas tuas et'
+  [fused_11] 'impu adte comver tur libera me deSangnn'
+  [fused_12] ' tens sa ni me  Comine'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'mei adversum me cogitabant mala michi verbum mmiquum man'
+  Assigned: 'mei adversum me cogitabant mala michi verbum iniquum'
+  Words:    [0..8) consumed=8
+  NW score: k=8 (pre-snap), norm=6.9307
+  Anchor:   word 15 (within_chant_7), diff=7, snapped=False, forced=False
+  Alignment:
+    target            0 mei adversum me cogitabant mala michi verbum mmiquum man 56
+                      0 |||  3
+    query             0 mei adversum me cogitabant mala michi verbum iniquum---- 52
+
+-- fused_1 --
+  OCR:      'davernt eo cen tes posche par aa lame'
+  Assigned: 'mandaverunt adversum me dicentes Persequimini Pacifice loque'
+  Words:    [8..15) consumed=7
+  NW score: k=6 (pre-snap), norm=0.2461
+  Anchor:   word 15 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 ---daver-nt ---e------o --cen tes -posche------- pa--r aa l-
+                      0 ---|||||-||
+    query             0 mandaverunt adversum me dicen-tes Pers--equimini Pacifice lo
+    
+    target           34 ----a--me 37
+                     11 ----|--.. 20
+    query            57 quebantur 66
+
+-- fused_2 --
+  OCR:      'bantur michi minia me'
+  Assigned: 'bantur michi inimici mei et in ira mole'
+  Words:    [15..22) consumed=7
+  NW score: k=3 (pre-snap), norm=2.0641
+  Anchor:   word 22 (within_chant_7), diff=4, snapped=False, forced=True
+  Alignment:
+    target            0 bantur ---michi m------in-i-a m--e--- 21
+                      0 -.....  6
+    query             0 -michi inimic-i mei et in ira molesti 35
+
+-- fused_3 --
+  OCR:      'inti rant mi chi vidicti Domine'
+  Assigned: 'sti erant michi Vidisti domine ne sileas'
+  Words:    [22..28) consumed=6
+  NW score: k=4 (pre-snap), norm=4.6847
+  Anchor:   word 28 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 inti rant mi chi vidicti Domine---------- 31
+                      0 ----.||||  9
+    query             0 ----erant mi-chi Vidisti domine ne sileas 36
+
+-- fused_4 --
+  OCR:      'das me go anteni'
+  Assigned: 'ne discedas a me Ego autem cum michi'
+  Words:    [28..36) consumed=8
+  NW score: k=6 (pre-snap), norm=2.0592
+  Anchor:   word 36 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 --------das-- me -go ante---------ni 16
+                      0 --------|||-- 13
+    query             0 ne discedas a me Ego autem cum michi 36
+
+-- fused_5 --
+  OCR:      'molessi essent induebam me cilicio et hamiliabam in jenimo'
+  Assigned: 'molesti essent induebam me cilicio et humiliabam in ieiunio'
+  Words:    [36..45) consumed=9
+  NW score: k=9 (pre-snap), norm=6.8379
+  Anchor:   word 45 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 molessi essent induebam me cilicio et hamiliabam in je--nimo
+                      0 |||||.|
+    query             0 molesti essent induebam me cilicio et humiliabam in ieiuni-o
+    
+    target           58 
+                      7 
+    query            59 
+
+-- fused_6 --
+  OCR:      'mimam me am. dintor et susceptorme'
+  Assigned: 'animam meam Vidisti Adiutor et susceptor me'
+  Words:    [45..52) consumed=7
+  NW score: k=6 (pre-snap), norm=4.1488
+  Anchor:   word 52 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 -mimam me am-------. -dintor et susceptor-me-- 34
+                      0 -.||||  6
+    query             0 animam me-am Vidisti Adiutor et susceptor meus 45
+
+-- fused_7 --
+  OCR:      'e domine et in verbum e in doca'
+  Assigned: 'us tu es domine et in verbum tuum speravi decli'
+  Words:    [52..61) consumed=9
+  NW score: k=6 (pre-snap), norm=4.0950
+  Anchor:   word 61 (within_chant_7), diff=3, snapped=False, forced=True
+  Alignment:
+    target            0 ---e- domine et in verbum -------e-- in doc---a-- 31
+                      0 ---|-  5
+    query             0 tu es domine et in verbum tuum speravi- Declinate 48
+
+-- fused_8 --
+  OCR:      'nate a me malig n et scrutabor mandatade'
+  Assigned: 'nate a me maligni et scrutabor mandata dei'
+  Words:    [61..68) consumed=7
+  NW score: k=6 (pre-snap), norm=5.8626
+  Anchor:   word 68 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 nate a me malig n- et scrutabor mandata-de- 40
+                      0 -----|  6
+    query             0 -----a me malig-ni et scrutabor mandata dei 37
+
+-- fused_9 --
+  OCR:      'melinquos odio habui et legem tuam di'
+  Assigned: 'mei Iniquos odio habui et legem tuam'
+  Words:    [68..75) consumed=7
+  NW score: k=7 (pre-snap), norm=6.2198
+  Anchor:   word 82 (within_chant_7), diff=7, snapped=False, forced=False
+  Alignment:
+    target            0 meli--n-quos odio habui et legem tuam di 37
+                      0 ||-|--|-|||| 12
+    query             0 me-i Iniquos odio habui et legem tuam--- 36
+
+-- fused_10 --
+  OCR:      'oceam uniquos vas tuas et'
+  Assigned: 'dilexi Declinate Doceam iniquos vias tuas et'
+  Words:    [75..82) consumed=7
+  NW score: k=7 (pre-snap), norm=3.6784
+  Anchor:   word 82 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ------------------oceam uniquos v-as tuas et 25
+                      0 ------------------||||| 23
+    query             0 dilexi Declinate Doceam iniquos vias tuas et 44
+
+-- fused_11 --
+  OCR:      'impu adte comver tur libera me deSangnn'
+  Assigned: 'impii ad te convertentur Libera me de sangui'
+  Words:    [82..90) consumed=8
+  NW score: k=7 (pre-snap), norm=4.3699
+  Anchor:   word 90 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 imp-u ad-te comver-- tur libera me de-Sang--n---n 39
+                      0 |||-.  5
+    query             0 impii ad te convertentur Libera me de sanguinibus 49
+
+-- fused_12 --
+  OCR:      'tens sa ni me  Comine'
+  Assigned: 'nibus deus salutis mee Domine'
+  Words:    [90..94) consumed=4
+  NW score: k=4 (pre-snap), norm=3.4581
+  Anchor:   word 94 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 tens sa- ni- me  Comine 21
+                      0 .|.|  4
+    query             0 deus salutis mee Domine 23
+=== END DEBUG ===
+

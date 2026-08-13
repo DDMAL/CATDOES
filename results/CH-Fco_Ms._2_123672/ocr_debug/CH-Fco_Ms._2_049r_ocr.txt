@@ -1,0 +1,187 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'dlumma preparavit  lam orbis on sunt lo'
+  [fused_1] 'quele neque sermiones quorum non audiantur vo'
+  [fused_2] 'xaudiat te dominus in die Tribula'
+  [fused_3] 'np omine inirt  lt'
+  [fused_4] 'G. exaltare Domine Iaut Cantabi'
+  [fused_5] 'n psale secundum Johannem in illo empori'
+  [fused_6] 'repsum Evovae. |upratie facte unt o anguesti episcopi de do'
+  [fused_7] 'eiaamnemuBeuinenis leice ceniis'
+  [fused_8] 'donon erubescamustodianmani'
+  [fused_9] 'enre me Deus. uo se Railim dlama vant alter'
+  [fused_10] 'ad alte rum Sanc ie tus sanc'
+  [fused_11] 'tue comino de lib cani est om'
+  [fused_12] 'nis terraglo riaejusres sunt'
+  [fused_13] 'pater verbum et sperintus'
+  [fused_14] 'sanctus et mittes in ulum suenit san cns . lona'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'dlumma preparavit  lam orbis on sunt lo'
+  Assigned: 'flumina preparavit illam orbis Non sunt lo'
+  Words:    [0..7) consumed=7
+  NW score: k=6 (pre-snap), norm=5.5128
+  Anchor:   word 7 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 dlum-ma preparavit - lam orbis -on sunt lo----- 39
+                      0 .|||-.|  7
+    query             0 flumina preparavit illam orbis Non sunt loquele 47
+
+-- fused_1 --
+  OCR:      'quele neque sermiones quorum non audiantur vo'
+  Assigned: 'quele neque sermones quorum non audiantur voces eorum ~Celi'
+  Words:    [7..15) consumed=8
+  NW score: k=6 (pre-snap), norm=6.0996
+  Anchor:   word 15 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 quele neque sermiones quorum non audiantur vo---------------
+                      0 ------|||||
+    query             0 ------neque serm-ones quorum non audiantur voces eorum ~Celi
+    
+    target           45 
+                     11 
+    query            53 
+
+-- fused_2 --
+  OCR:      'xaudiat te dominus in die Tribula'
+  Assigned: 'enarrant euouae Exaudiat te dominus in die tribulatio'
+  Words:    [15..23) consumed=8
+  NW score: k=8 (pre-snap), norm=4.0476
+  Anchor:   word 23 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -----------------xaudiat te dominus in die Tribula------ 33
+                      0 -----------------||||||| 24
+    query             0 enarrant euouae Exaudiat te dominus in die tribulationis 56
+
+-- fused_3 --
+  OCR:      'np omine inirt  lt'
+  Assigned: 'nis ~Ipsum [Exaudiat] euouae Domine in virtute tua letabitur'
+  Words:    [23..31) consumed=8
+  NW score: k=6 (pre-snap), norm=-0.2182
+  Anchor:   word 31 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 -np--------------------- -omine in--irt--- --- l-----t-- 18
+                      0 -.|--------------------- 24
+    query             0 ~Ipsum [Exaudiat] euouae Domine in virtute tua letabitur 56
+
+-- fused_4 --
+  OCR:      'G. exaltare Domine Iaut Cantabi'
+  Assigned: 'rex ~Ipsum [Domine] euouae Ad te do'
+  Words:    [31..38) consumed=7
+  NW score: k=6 (pre-snap), norm=-0.6668
+  Anchor:   word 38 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 G. ex-altare -Domine- -Iau-t Cant---abi-- 31
+                      0 --.||-...... 12
+    query             0 --rex ~Ipsum [Domine] euouae Ad te domine 39
+
+-- fused_5 --
+  OCR:      'n psale secundum Johannem in illo empori'
+  Assigned: 'mine levavi animam meam Deus meus in te con'
+  Words:    [38..46) consumed=8
+  NW score: k=8 (pre-snap), norm=-1.3419
+  Anchor:   word 46 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 n psale---- secun-dum Joha-nne---m--- in illo empo-ri-- 40
+                      0 -----||---- 11
+    query             0 -----levavi ---animam -meam Deus meus in ----te confido 42
+
+-- fused_6 --
+  OCR:      'repsum Evovae. |upratie facte unt o anguesti episcopi de do'
+  Assigned: 'fido non erubescam Custodi animam meam et eripe me Deus Duo'
+  Words:    [46..56) consumed=10
+  NW score: k=10 (pre-snap), norm=-1.1161
+  Anchor:   word 52 (within_chant_7), diff=4, snapped=False, forced=False
+  Alignment:
+    target            0 repsum Evovae. |upratie facte -unt o-- an----gue---sti episc
+                      0 --------.|..|-----|-..|--.|..
+    query             0 --------non e-----r-ube--scam Cust-odi animam meam et- eri--
+    
+    target           50 opi de ------do 59
+                     29 -|. 32
+    query            40 -pe me Deus Duo 54
+
+-- fused_7 --
+  OCR:      'eiaamnemuBeuinenis leice ceniis'
+  Assigned: 'seraphin clamabant alter'
+  Words:    [56..59) consumed=3
+  NW score: k=8 (pre-snap), norm=-1.8706
+  Anchor:   word 59 (within_chant_7), diff=5, snapped=False, forced=True
+  Alignment:
+    target            0 -eiaamnemuBeuinenis -l---eice --ceniis 31
+                      0 -|.|-------..||---- 19
+    query             0 sera-------phin---- clamabant alte---r 24
+
+-- fused_8 --
+  OCR:      'donon erubescamustodianmani'
+  Assigned: 'ad alterum Sanctus sanctus sanctus'
+  Words:    [59..64) consumed=5
+  NW score: k=4 (pre-snap), norm=-1.2455
+  Anchor:   word 64 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 -donon ---eru--bescamustodian-----man---i 27
+                      0 -|----  6
+    query             0 ad---- alterum Sanc-tus-- sanctus sanctus 34
+
+-- fused_9 --
+  OCR:      'enre me Deus. uo se Railim dlama vant alter'
+  Assigned: 'dominus deus sabahot Plena est omnis ter'
+  Words:    [64..71) consumed=7
+  NW score: k=7 (pre-snap), norm=-0.7765
+  Anchor:   word 71 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ---enre me Deus. uo se Railim dlama vant ----alter-- 43
+                      0 ---.|---.. 10
+    query             0 domin---us deus---- s-aba-hot Plena -est omnis terra 42
+
+-- fused_10 --
+  OCR:      'ad alte rum Sanc ie tus sanc'
+  Assigned: 'ra gloria eius Tres sunt qui testimonium dant'
+  Words:    [71..78) consumed=7
+  NW score: k=7 (pre-snap), norm=-0.6707
+  Anchor:   word 75 (within_chant_7), diff=3, snapped=False, forced=False
+  Alignment:
+    target            0 -----ad alte--- -rum Sanc --i--e t-----us sanc 28
+                      0 -----|-  7
+    query             0 gloria- ---eius Tres sunt qui testimonium dant 42
+
+-- fused_11 --
+  OCR:      'tue comino de lib cani est om'
+  Assigned: 'in celo pater verbum et spiritus'
+  Words:    [78..84) consumed=6
+  NW score: k=4 (pre-snap), norm=-1.1211
+  Anchor:   word 84 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 tue comino --de- -lib cani est ------om 29
+                      0 -..  3
+    query             0 -in c--elo pater verb---um e-t spiritus 32
+
+-- fused_12 --
+  OCR:      'nis terraglo riaejusres sunt'
+  Assigned: 'sanctus et hii tres unum sunt Sanctus Gloria'
+  Words:    [84..92) consumed=8
+  NW score: k=6 (pre-snap), norm=0.2457
+  Anchor:   word 92 (page_break_77), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 --n--is terraglo riaejusres----- sunt--------------- 28
+                      0 --|--.|  7
+    query             0 sanctus -e-----t hi--i tres unum sunt Sanctus Gloria 44
+
+-- fused_13 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [92..92) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_14 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [92..92) consumed=0
+  Alignment:
+    (no words left)
+=== END DEBUG ===
+

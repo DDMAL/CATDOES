@@ -1,0 +1,175 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'nat tradere men de i Vu dorii'
+  [fused_1] 'surgite et ob non intretis intemptati'
+  [fused_2] 'nem qui ex in puli consi li fece'
+  [fused_3] 'runt . Ut ihesum dolo tenerent etum'
+  [fused_4] 'dodus et tustius eneaic tananon Blato veen'
+  [fused_5] 'ollegerunt pontifices et Pharisei consililium . ut ibus'
+  [fused_6] 'ustificeris domine in sermonibus tuis et jircas cum indi'
+  [fused_7] 'caris p Miserere eovae ominus tanquam omnis'
+  [fused_8] 'aovlitimam ductus eli et non aberiunt eos suum o do'
+  [fused_9] 'refu eovae  Contrictum est cor meum in medio'
+  [fused_10] 'mei contreerunt om oss medes oac'
+  [fused_11] 'cortatus es mnte . Lirefectione santa ua'
+  [fused_12] '. olatus est ama po'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'nat tradere men de i Vu dorii'
+  Assigned: 'tradere me iudeis Qui dormi'
+  Words:    [0..5) consumed=5
+  NW score: k=5 (pre-snap), norm=3.2547
+  Anchor:   word 5 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 nat tradere men --de i- Vu- dor-i-i- 29
+                      0 ----||||||| 11
+    query             0 ----tradere me- iude-is Qui dormitis 30
+
+-- fused_1 --
+  OCR:      'surgite et ob non intretis intemptati'
+  Assigned: 'tis surgite et orate ut non intretis in tentatio'
+  Words:    [5..13) consumed=8
+  NW score: k=8 (pre-snap), norm=5.0358
+  Anchor:   word 13 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 surgite et o------b non intretis in-temptati---- 37
+                      0 |||||||  7
+    query             0 surgite et orate ut non intretis in te-ntationem 47
+
+-- fused_2 --
+  OCR:      'nem qui ex in puli consi li fece'
+  Assigned: 'nem Qui exhortabamini Seniores populi consilium fece'
+  Words:    [13..19) consumed=6
+  NW score: k=6 (pre-snap), norm=1.7650
+  Anchor:   word 19 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 nem qui ex------- in---------- --puli consi li-- fece---- 32
+                      0 ----.||  7
+    query             0 ----Qui exhortabamini Seniores populi consi-lium fecerunt 52
+
+-- fused_3 --
+  OCR:      'runt . Ut ihesum dolo tenerent etum'
+  Assigned: 'runt Ut ihesum dolo tenerent et occiderent cum'
+  Words:    [19..26) consumed=7
+  NW score: k=5 (pre-snap), norm=5.7349
+  Anchor:   word 26 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 runt . Ut ihesum dolo tenerent et-------------um 35
+                      0 -------||  9
+    query             0 -------Ut ihesum dolo tenerent et occiderent cum 41
+
+-- fused_4 --
+  OCR:      'dodus et tustius eneaic tananon Blato veen'
+  Assigned: 'gladiis et fustibus exierunt tamquam ad latronem'
+  Words:    [26..33) consumed=7
+  NW score: k=7 (pre-snap), norm=1.2027
+  Anchor:   word 49 (within_chant_7), diff=16, snapped=False, forced=False
+  Alignment:
+    target            0 -dod-us et tusti-us e-ne-aic ta--na-non Blat-o veen 42
+                      0 -..|-.|  7
+    query             0 gladiis et fustibus exierunt tamquam ad -latro--nem 48
+
+-- fused_5 --
+  OCR:      'ollegerunt pontifices et Pharisei consililium . ut ibus'
+  Assigned: 'Collegerunt pontifices et pharisaei consilium Ut ihesum'
+  Words:    [33..40) consumed=7
+  NW score: k=7 (pre-snap), norm=5.6727
+  Anchor:   word 49 (within_chant_7), diff=9, snapped=False, forced=False
+  Alignment:
+    target            0 -ollegerunt pontifices et Pharis-ei consililium . ut i--bus
+                      0 -||||||||||
+    query             0 Collegerunt pontifices et pharisaei cons--ilium-- Ut ihesum
+    
+    target           55
+                     11
+    query            55
+
+-- fused_6 --
+  OCR:      'ustificeris domine in sermonibus tuis et jircas cum indi'
+  Assigned: 'Iustificeris domine in sermonibus tuis et vincas cum iudi'
+  Words:    [40..49) consumed=9
+  NW score: k=8 (pre-snap), norm=6.5971
+  Anchor:   word 49 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 -ustificeris domine in sermonibus tuis et jircas cum indi---
+                      0 -|||||||||||
+    query             0 Iustificeris domine in sermonibus tuis et vincas cum iudicar
+    
+    target           56 -- 56
+                     12 -- 14
+    query            60 is 62
+
+-- fused_7 --
+  OCR:      'caris p Miserere eovae ominus tanquam omnis'
+  Assigned: 'caris ~Miserere euouae Dominus tamquam ovis'
+  Words:    [49..54) consumed=5
+  NW score: k=5 (pre-snap), norm=4.5629
+  Anchor:   word 54 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 caris p Miserere e-ovae -ominus tanquam omnis 43
+                      0 -------.|||||||| 16
+    query             0 -------~Miserere euouae Dominus tamquam o-vis 37
+
+-- fused_8 --
+  OCR:      'aovlitimam ductus eli et non aberiunt eos suum o do'
+  Assigned: 'ad victimam ductus est et non aperuit os suum ~Domine'
+  Words:    [54..64) consumed=10
+  NW score: k=9 (pre-snap), norm=4.6967
+  Anchor:   word 64 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 a-ovli-timam ductus eli et non aberiunt eos suum --o- do 51
+                      0 |-.|-|-||||| 12
+    query             0 ad v-ictimam ductus est et non aper-uit -os suum ~Domine 53
+
+-- fused_9 --
+  OCR:      'refu eovae  Contrictum est cor meum in medio'
+  Assigned: 'refugium euouae Contrictum est cor meum in medio'
+  Words:    [64..72) consumed=8
+  NW score: k=8 (pre-snap), norm=6.5497
+  Anchor:   word 72 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 refu---- e-ovae  Contrictum est cor meum in medio 44
+                      0 ||||----  8
+    query             0 refugium euouae- Contrictum est cor meum in medio 48
+
+-- fused_10 --
+  OCR:      'mei contreerunt om oss medes oac'
+  Assigned: 'mei contremuerunt omnia ossa mea ~Deus deus'
+  Words:    [72..79) consumed=7
+  NW score: k=5 (pre-snap), norm=4.7500
+  Anchor:   word 79 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 mei contre--erunt om--- oss- me---de-s -oac 32
+                      0 |||  3
+    query             0 mei contremuerunt omnia ossa mea ~Deus deus 43
+
+-- fused_11 --
+  OCR:      'cortatus es mnte . Lirefectione santa ua'
+  Assigned: 'euouae Exhortatus es in virtute tua et in refectione sancta tua'
+  Words:    [79..90) consumed=11
+  NW score: k=11 (pre-snap), norm=3.4064
+  Anchor:   word 90 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ---------cortatus es mn------te --. --Li--refectione san-ta 
+                      0 ---------.|||||||
+    query             0 euouae Exhortatus es in virtute tua et in refectione sancta 
+    
+    target           38 -ua 40
+                     17 -|| 20
+    query            60 tua 63
+
+-- fused_12 --
+  OCR:      '. olatus est ama po'
+  Assigned: 'domine ~Cantemus euouae Oblatus est quia ipse'
+  Words:    [90..97) consumed=7
+  NW score: k=7 (pre-snap), norm=-0.0684
+  Anchor:   word 97 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ---------------. --o------latus est -ama -p-o 19
+                      0 ---------------. 16
+    query             0 domine ~Cantemus euouae Oblatus est quia ipse 45
+=== END DEBUG ===
+

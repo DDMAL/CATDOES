@@ -1,0 +1,213 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'tem ad dominum aspiciam et expectabo Deum salvatorem mcum po'
+  [fused_1] ''
+  [fused_2] 'laudate evovae an x quo facta est vox salutationis tue in'
+  [fused_3] 'auribus meis exultavit in gaudio infaus mutero meo Alleluya'
+  [fused_4] 'orato per omnes horas diei excrnta quis No'
+  [fused_5] 'tandm qud qomque die vigesnatura domini sep hac a'
+  [fused_6] 'Ecclesicompleta sunt dicitur ad lindictonem diei'
+  [fused_7] 'evovac pedentisicompleta sut omni'
+  [fused_8] 'a que dicta sunt per angelum de Virgine Maria evovac anno quinto decim'
+  [fused_9] 'eedietur me Gideradice'
+  [fused_10] 'Nos deiddice ejus acen det . eent jnsic'
+  [fused_11] 'jus et fides cinctorium  te'
+  [fused_12] 'mum mmo Et requiescet supe esi si'
+  [fused_13] 'tus domi iispintus Sapientie et intellectus spiritu consili'
+  [fused_14] 'et for titu dinis et erit Nadix velle'
+  [fused_15] 'Crurget Motie gen tes menmn gentes .era bint'
+  [fused_16] 'etentioneniems renedictum in sec'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'tem ad dominum aspiciam et expectabo Deum salvatorem mcum po'
+  Assigned: 'ad dominum aspiciam et expectabo deum salvatorem meum'
+  Words:    [0..8) consumed=8
+  NW score: k=8 (pre-snap), norm=6.5435
+  Anchor:   word 18 (within_chant_7), diff=10, snapped=False, forced=False
+  Alignment:
+    target            0 tem ad dominum aspiciam et expectabo Deum salvatorem mcum po
+                      0 ----||
+    query             0 ----ad dominum aspiciam et expectabo deum salvatorem meum---
+    
+    target           60 
+                      6 
+    query            53 
+
+-- fused_1 --
+  OCR:      ''
+  Assigned: '~Laudate euouae Ex quo facta est vox salutationis tue in'
+  Words:    [8..18) consumed=10
+
+-- fused_2 --
+  OCR:      'laudate evovae an x quo facta est vox salutationis tue in'
+  Assigned: 'auribus meis exultavit in gaudio infans in utero meo alleluya'
+  Words:    [18..28) consumed=10
+  NW score: k=7 (pre-snap), norm=-0.8175
+  Anchor:   word 28 (within_chant_7), diff=3, snapped=False, forced=True
+  Alignment:
+    target            0 la----udate-- e---vovae an x qu--o --fa--cta --est -vox sa--
+                      0 -|----|...|--
+    query             0 -auribus meis exultavit in -gaudio infans in utero meo- -all
+    
+    target           40 -lutationis tue in 57
+                     13 -||.|------------- 31
+    query            56 eluya------------- 61
+
+-- fused_3 --
+  OCR:      'auribus meis exultavit in gaudio infaus mutero meo Alleluya'
+  Assigned: 'euouae Ecce completa sunt omnia que dicta sunt per angelum'
+  Words:    [28..38) consumed=10
+  NW score: k=10 (pre-snap), norm=-0.6838
+  Anchor:   word 33 (within_chant_7), diff=5, snapped=False, forced=False
+  Alignment:
+    target            0 auribu-s --meis -exul-ta--vit ---in gaudio -infaus mu-tero m
+                      0 .|--.|-.
+    query             0 eu--ouae Ecce-- completa sunt omnia -qu--e dicta-- sunt--- p
+    
+    target           48 eo Alleluya 59
+                      8 |. 10
+    query            48 er angelu-m 58
+
+-- fused_4 --
+  OCR:      'orato per omnes horas diei excrnta quis No'
+  Assigned: 'de virgine maria euouae Egredietur virga de radice iesse et'
+  Words:    [38..48) consumed=10
+  NW score: k=10 (pre-snap), norm=-1.3258
+  Anchor:   word 42 (within_chant_7), diff=6, snapped=False, forced=False
+  Alignment:
+    target            0 orato per omne-----s -horas ----die-----i--- -excrnta---- qu
+                      0 ---..
+    query             0 ---de vir-gine maria euouae Egredietur virga de- r--adice --
+    
+    target           37 i--s- No 42
+                      5 |--|- 10
+    query            51 iesse et 59
+
+-- fused_5 --
+  OCR:      'tandm qud qomque die vigesnatura domini sep hac a'
+  Assigned: 'flos de radice eius ascendet Et erit iusticia'
+  Words:    [48..56) consumed=8
+  NW score: k=8 (pre-snap), norm=-1.1287
+  Anchor:   word 56 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 tandm qud qomque --di-e vigesna------tura domi-ni sep hac a
+                      0 -....
+    query             0 -flos --d------e radice ei-us ascendet Et -erit ius---ticia
+    
+    target           49
+                      5
+    query            45
+
+-- fused_6 --
+  OCR:      'Ecclesicompleta sunt dicitur ad lindictonem diei'
+  Assigned: 'cingulum lumborum eius et fides cinctorium renum eius'
+  Words:    [56..64) consumed=8
+  NW score: k=8 (pre-snap), norm=-0.7534
+  Anchor:   word 64 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 Ecclesi---completa sunt dicitur ad lind----i-cto-------nem d
+                      0 --|---|---..|.|.....|-.
+    query             0 --c---ingulum lumboru-m ei---us et fi-des cinctorium renum -
+    
+    target           45 iei-- 48
+                     23 -||-- 28
+    query            49 -eius 53
+
+-- fused_7 --
+  OCR:      'evovac pedentisicompleta sut omni'
+  Assigned: 'Et requiescet super eum spiri'
+  Words:    [64..69) consumed=5
+  NW score: k=6 (pre-snap), norm=-0.7526
+  Anchor:   word 69 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 evovac pedenti-sicompleta su--t -om----ni--- 33
+                      0 ----..  6
+    query             0 ----Et --requies-c----et- super eum spiritus 32
+
+-- fused_8 --
+  OCR:      'a que dicta sunt per angelum de Virgine Maria evovac anno quinto decim'
+  Assigned: 'tus domini spiritus sapientie et intellectus spiritu consilii'
+  Words:    [69..76) consumed=7
+  NW score: k=11 (pre-snap), norm=-0.8499
+  Anchor:   word 76 (within_chant_7), diff=4, snapped=False, forced=True
+  Alignment:
+    target            0 -a que -di-ct-a s---unt-- per angel----um de Virgine Maria e
+                      0 -.....
+    query             0 domini spiritus sapientie -et intellectus --spir-itu -------
+    
+    target           47 vovac anno quinto decim 70
+                      6 ----|----|----|---...|. 29
+    query            49 ----c----o----n---silii 57
+
+-- fused_9 --
+  OCR:      'eedietur me Gideradice'
+  Assigned: 'et fortitudinis Et erit Radix iesse qui'
+  Words:    [76..83) consumed=7
+  NW score: k=5 (pre-snap), norm=-0.6730
+  Anchor:   word 83 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 e----edietu----r me Gider----adi-----ce---- 22
+                      0 |----..|-||----. 16
+    query             0 et forti-tudinis Et ---erit Radix iesse qui 39
+
+-- fused_10 --
+  OCR:      'Nos deiddice ejus acen det . eent jnsic'
+  Assigned: 'exurget iudicare gentes in eum gentes'
+  Words:    [83..89) consumed=6
+  NW score: k=6 (pre-snap), norm=0.0263
+  Anchor:   word 97 (page_break_77), diff=8, snapped=False, forced=False
+  Alignment:
+    target            0 Nos de--iddic--e -e-jus acen det . eent jnsic 39
+                      0 .....|--|.|||--| 16
+    query             0 exurget iudicare gentes --in -e-um gent--es-- 37
+
+-- fused_11 --
+  OCR:      'jus et fides cinctorium  te'
+  Assigned: 'sperabunt Et erit nomen eius benedictum in secula'
+  Words:    [89..97) consumed=8
+  NW score: k=8 (pre-snap), norm=-0.7698
+  Anchor:   word 97 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -----ju----s e--t fide-----s cin---ctorium -- te---- 27
+                      0 -----.|----. 12
+    query             0 sperabunt Et erit nomen eius benedict---um in secula 49
+
+-- fused_12 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [97..97) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_13 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [97..97) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_14 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [97..97) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_15 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [97..97) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_16 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [97..97) consumed=0
+  Alignment:
+    (no words left)
+=== END DEBUG ===
+

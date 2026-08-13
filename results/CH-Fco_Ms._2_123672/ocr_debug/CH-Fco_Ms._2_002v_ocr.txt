@@ -1,0 +1,207 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'et procidamus ante Deum ploremus coram domino qui fecit nos quia'
+  [fused_1] 'us noster nos autem populus ejus et oves pascu'
+  [fused_2] 'cs  odie si vocem ejus audieritis nolite obdurare corda vestra'
+  [fused_3] 'sicut in eracerbatione secundum diem temptationis in deserto ubi temp'
+  [fused_4] 'tres vestri probaverunt et viderunt opera mea'
+  [fused_5] 'Quaraginta annis proximus fui generationi huic et dixi semper'
+  [fused_6] 'hen errant corde ipsi vero non cognoverunt mas meas quibus juravi'
+  [fused_7] 'inira mea si introibunt in requiem meam oria patri et filio et'
+  [fused_8] 'spiritui Sancto . Sicut erat in principio et nunc et semper et in secula'
+  [fused_9] 'seculorum amen te exuiltemus domino in'
+  [fused_10] 'bilemus Deo salutari no stro preocupemus faciem ejus in confessio ve'
+  [fused_11] 'et in psalmus inbilemus ei Quo mani Deus magnus do'
+  [fused_12] 'mimis et t magino supe omnits de os qonan jon epleto'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'et procidamus ante Deum ploremus coram domino qui fecit nos quia'
+  Assigned: 'et procidamus ante deum ploremus coram domino qui fecit nos quia'
+  Words:    [0..11) consumed=11
+  NW score: k=11 (pre-snap), norm=7.7969
+  Anchor:   word 103 (within_chant_7), diff=92, snapped=False, forced=False
+  Alignment:
+    target            0 et procidamus ante Deum ploremus coram domino qui fecit nos 
+                      0 ||
+    query             0 et procidamus ante deum ploremus coram domino qui fecit nos 
+    
+    target           60 quia 64
+                      2 ||||  6
+    query            60 quia 64
+
+-- fused_1 --
+  OCR:      'us noster nos autem populus ejus et oves pascu'
+  Assigned: 'ipse est dominus deus noster nos autem populus eius et oves pascue'
+  Words:    [11..23) consumed=12
+  NW score: k=12 (pre-snap), norm=5.2087
+  Anchor:   word 103 (within_chant_7), diff=80, snapped=False, forced=False
+  Alignment:
+    target            0 -------------------us noster nos autem populus ejus et oves 
+                      0 -------------------||
+    query             0 ipse est dominus deus noster nos autem populus eius et oves 
+    
+    target           41 pascu- 46
+                     21 |||||- 27
+    query            60 pascue 66
+
+-- fused_2 --
+  OCR:      'cs  odie si vocem ejus audieritis nolite obdurare corda vestra'
+  Assigned: 'eius Hodie si vocem ejus audieritis nolite obdurare corda vestra'
+  Words:    [23..33) consumed=10
+  NW score: k=10 (pre-snap), norm=7.3025
+  Anchor:   word 103 (within_chant_7), diff=70, snapped=False, forced=False
+  Alignment:
+    target            0 --cs  odie si vocem ejus audieritis nolite obdurare corda ve
+                      0 --.|
+    query             0 eius Hodie si vocem ejus audieritis nolite obdurare corda ve
+    
+    target           58 stra 62
+                      4 ||||  8
+    query            60 stra 64
+
+-- fused_3 --
+  OCR:      'sicut in eracerbatione secundum diem temptationis in deserto ubi temp'
+  Assigned: 'sicut in exacerbatione secundum diem temptationis in deserto ubi'
+  Words:    [33..42) consumed=9
+  NW score: k=9 (pre-snap), norm=7.2232
+  Anchor:   word 103 (within_chant_7), diff=61, snapped=False, forced=False
+  Alignment:
+    target            0 sicut in eracerbatione secundum diem temptationis in deserto
+                      0 |||||
+    query             0 sicut in exacerbatione secundum diem temptationis in deserto
+    
+    target           60  ubi temp 69
+                      5   5
+    query            60  ubi----- 64
+
+-- fused_4 --
+  OCR:      'tres vestri probaverunt et viderunt opera mea'
+  Assigned: 'temptaverunt me patres vestri probaverunt et viderunt opera mea'
+  Words:    [42..51) consumed=9
+  NW score: k=9 (pre-snap), norm=5.6719
+  Anchor:   word 103 (within_chant_7), diff=52, snapped=False, forced=False
+  Alignment:
+    target            0 ------------------tres vestri probaverunt et viderunt opera 
+                      0 ------------------||||
+    query             0 temptaverunt me patres vestri probaverunt et viderunt opera 
+    
+    target           42 mea 45
+                     22 ||| 25
+    query            60 mea 63
+
+-- fused_5 --
+  OCR:      'Quaraginta annis proximus fui generationi huic et dixi semper'
+  Assigned: 'Quadraginta annis proximus fui generationi huic et dixi semper'
+  Words:    [51..60) consumed=9
+  NW score: k=9 (pre-snap), norm=7.8214
+  Anchor:   word 103 (within_chant_7), diff=43, snapped=False, forced=False
+  Alignment:
+    target            0 Qua-raginta annis proximus fui generationi huic et dixi semp
+                      0 |||-|||||||
+    query             0 Quadraginta annis proximus fui generationi huic et dixi semp
+    
+    target           59 er 61
+                     11 || 13
+    query            60 er 62
+
+-- fused_6 --
+  OCR:      'hen errant corde ipsi vero non cognoverunt mas meas quibus juravi'
+  Assigned: 'hii errant corde ipsi vero non cognoverunt vias meas quibus iuravi'
+  Words:    [60..71) consumed=11
+  NW score: k=11 (pre-snap), norm=7.0384
+  Anchor:   word 103 (within_chant_7), diff=32, snapped=False, forced=False
+  Alignment:
+    target            0 hen errant corde ipsi vero non cognoverunt -mas meas quibus 
+                      0 |..
+    query             0 hii errant corde ipsi vero non cognoverunt vias meas quibus 
+    
+    target           59 juravi 65
+                      3 .|||||  9
+    query            60 iuravi 66
+
+-- fused_7 --
+  OCR:      'inira mea si introibunt in requiem meam oria patri et filio et'
+  Assigned: 'in ira mea si introibunt in requiem meam Gloria patri et filio et'
+  Words:    [71..84) consumed=13
+  NW score: k=13 (pre-snap), norm=7.5454
+  Anchor:   word 103 (within_chant_7), diff=19, snapped=False, forced=False
+  Alignment:
+    target            0 in-ira mea si introibunt in requiem meam --oria patri et fil
+                      0 ||-|||
+    query             0 in ira mea si introibunt in requiem meam Gloria patri et fil
+    
+    target           57 io et 62
+                      6 ||  8
+    query            60 io et 65
+
+-- fused_8 --
+  OCR:      'spiritui Sancto . Sicut erat in principio et nunc et semper et in secula'
+  Assigned: 'spiritui sancto sicut erat in principio et nunc et semper et in secula'
+  Words:    [84..97) consumed=13
+  NW score: k=13 (pre-snap), norm=7.3810
+  Anchor:   word 103 (within_chant_7), diff=6, snapped=False, forced=False
+  Alignment:
+    target            0 spiritui Sancto . Sicut erat in principio et nunc et semper 
+                      0 ||||||||
+    query             0 spiritui sancto-- sicut erat in principio et nunc et semper 
+    
+    target           60 et in secula 72
+                      8 || 10
+    query            58 et in secula 70
+
+-- fused_9 --
+  OCR:      'seculorum amen te exuiltemus domino in'
+  Assigned: 'seculorum amen Venite exultemus domino iu'
+  Words:    [97..103) consumed=6
+  NW score: k=5 (pre-snap), norm=6.2105
+  Anchor:   word 103 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 seculorum amen ----te exuiltemus domino i-------n 38
+                      0 |||||||||  9
+    query             0 seculorum amen Venite exu-ltemus domino iubilemus 48
+
+-- fused_10 --
+  OCR:      'bilemus Deo salutari no stro preocupemus faciem ejus in confessio ve'
+  Assigned: 'bilemus deo salutari nostro preocupemus faciem eius in confessione'
+  Words:    [103..111) consumed=8
+  NW score: k=8 (pre-snap), norm=6.0986
+  Anchor:   word 111 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 bilemus Deo salutari no stro preocupemus faciem ejus in conf
+                      0 --------.||
+    query             0 --------deo salutari no-stro preocupemus faciem eius in conf
+    
+    target           60 essio ve 68
+                     11 |||||-.| 19
+    query            51 essio-ne 58
+
+-- fused_11 --
+  OCR:      'et in psalmus inbilemus ei Quo mani Deus magnus do'
+  Assigned: 'et in psalmis iubilemus ei Quoniam deus magnus do'
+  Words:    [111..120) consumed=9
+  NW score: k=8 (pre-snap), norm=5.7758
+  Anchor:   word 120 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 et in psalmus inbilemus ei Quo mani-- Deus magnus do----- 50
+                      0 ||  2
+    query             0 et in psalmis iubilemus ei Quo---niam deus magnus dominus 54
+
+-- fused_12 --
+  OCR:      'mimis et t magino supe omnits de os qonan jon epleto'
+  Assigned: 'minus et rex magnus super omnes deos quoniam non repellet dominus'
+  Words:    [120..130) consumed=10
+  NW score: k=9 (pre-snap), norm=3.2235
+  Anchor:   word 130 (page_break_77), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 mimis et --t magin-o supe- omnits de os q-on-an jon -ep--let
+                      0 ------||
+    query             0 ------et rex mag-nus super omn-es de-os quoniam non repellet
+    
+    target           51 --o----- 52
+                      8 --|----- 16
+    query            51  dominus 59
+=== END DEBUG ===
+

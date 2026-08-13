@@ -1,0 +1,203 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'Leva Ihernsalem cculos ei cotenciam regis ecclesie salvator'
+  [fused_1] 'tia an ant eor frea'
+  [fused_2] 'Cinitte Agium Domine dua'
+  [fused_3] 'venit solvere te a vinculo evovae | torem absoluto . ipsius pieta  oi'
+  [fused_4] 'hei ramos vestros ex pandite et'
+  [fused_5] 'Fore fructus facite ut veni at di'
+  [fused_6] 'es dom meli desip et inibero pluiant'
+  [fused_7] 'justum aperiatur terra et gemimet salvato'
+  [fused_8] 'rumpant ocundi ttem et colles justi'
+  [fused_9] ' am . Quia lux mundi doni niis cam Poten cu ne'
+  [fused_10] 'mnt e hon trium responsorium incipimus a secundo exibit lex et verbum domi in de'
+  [fused_11] 'Ystorie s aspiciebam et sic fit semper'
+  [fused_12] 'cherusa lem  Quia an ystorie explentus ad benedictos  incemuali con'
+  [fused_13] 'venirent inventa est maria habens mutero de Spiritum Sanc'
+  [fused_14] 'ad'
+  [fused_15] 'to Aleuina eronae  Avente dominum dum inve'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'Leva Ihernsalem cculos ei cotenciam regis ecclesie salvator'
+  Assigned: 'Leva iherusalem oculos et vide potenciam regis ecce salvator'
+  Words:    [0..9) consumed=9
+  NW score: k=9 (pre-snap), norm=5.8658
+  Anchor:   word 9 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 Leva Ihernsalem cculos e---i-- cotenciam regis ecclesie salv
+                      0 ||||
+    query             0 Leva iherusalem oculos et vide potenciam regis ecc----e salv
+    
+    target           55 ator 59
+                      4 ||||  8
+    query            56 ator 60
+
+-- fused_1 --
+  OCR:      'tia an ant eor frea'
+  Assigned: 'venit solvere te a'
+  Words:    [9..13) consumed=4
+  NW score: k=4 (pre-snap), norm=-0.9733
+  Anchor:   word 16 (within_chant_7), diff=3, snapped=False, forced=False
+  Alignment:
+    target            0 tia an ant eo---r- fre-a 19
+                      0 ---..|--.| 10
+    query             0 ---ven--it solvere -te a 18
+
+-- fused_2 --
+  OCR:      'Cinitte Agium Domine dua'
+  Assigned: 'vinculo euouae mon'
+  Words:    [13..16) consumed=3
+  NW score: k=4 (pre-snap), norm=-1.1751
+  Anchor:   word 16 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 Cinitte Agiu-m Domin-e dua 24
+                      0 .||....  7
+    query             0 vinculo euouae Mo--nte---s 21
+
+-- fused_3 --
+  OCR:      'venit solvere te a vinculo evovae | torem absoluto . ipsius pieta  oi'
+  Assigned: 'tes israhel ramos vestros expandite et'
+  Words:    [16..21) consumed=5
+  NW score: k=15 (pre-snap), norm=-0.8786
+  Anchor:   word 21 (within_chant_7), diff=10, snapped=False, forced=True
+  Alignment:
+    target            0 venit solvere te- -a vinculo- evovae | torem absoluto . ip--
+                      0 ---|--|----|-..|-
+    query             0 ---i--s----r-ahel ra------mos ---v-e--st-r------o---s -expan
+    
+    target           55 sius pieta  oi 69
+                     17 .|.. 21
+    query            27 dite --et----- 34
+
+-- fused_4 --
+  OCR:      'hei ramos vestros ex pandite et'
+  Assigned: 'florete et fructus facite Prope est ut veniat di'
+  Words:    [21..30) consumed=9
+  NW score: k=6 (pre-snap), norm=-1.0018
+  Anchor:   word 30 (within_chant_7), diff=3, snapped=False, forced=True
+  Alignment:
+    target            0 -------hei -r-amos ----vestro----s- ex pandi-te --et 31
+                      0 -------.|. 10
+    query             0 florete et fructus facite Prope est ut ven-iat- dies 50
+
+-- fused_5 --
+  OCR:      'Fore fructus facite ut veni at di'
+  Assigned: 'es domini Rorate celi desuper et nubes pluant'
+  Words:    [30..37) consumed=7
+  NW score: k=8 (pre-snap), norm=-1.2434
+  Anchor:   word 37 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 -------For--e fructus facite- ut --veni ---a-t di 33
+                      0 -------.||--| 13
+    query             0 domini Rorate ---celi desuper et nube-s pluant--- 42
+
+-- fused_6 --
+  OCR:      'es dom meli desip et inibero pluiant'
+  Assigned: 'iustum aperiatur terra et geminet salvatorem Prope'
+  Words:    [37..44) consumed=7
+  NW score: k=8 (pre-snap), norm=-0.2821
+  Anchor:   word 44 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 -es dom -meli---- desip et ---inibero -pluiant---------- 36
+                      0 -.|-..|  7
+    query             0 ius-tum aperiatur terra et gemin--e-t sal-va-torem Prope 50
+
+-- fused_7 --
+  OCR:      'justum aperiatur terra et gemimet salvato'
+  Assigned: 'Erumpant montes jocunditatem et colles iusti'
+  Words:    [44..50) consumed=6
+  NW score: k=5 (pre-snap), norm=-1.0387
+  Anchor:   word 50 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 justum aperia-tur ---terra ------et gemimet -----salvat----o
+                      0 --..||--|---|-|--
+    query             0 --Erum--p---ant-- monte--s jocunditatem- et colles iusticiam
+    
+    target           41 
+                     17 
+    query            48 
+
+-- fused_8 --
+  OCR:      'rumpant ocundi ttem et colles justi'
+  Assigned: 'ciam Quia lux mundi dominus cum potentia venit'
+  Words:    [50..57) consumed=7
+  NW score: k=6 (pre-snap), norm=-0.6857
+  Anchor:   word 57 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 rumpa--nt ocundi ttem---- -et colles justi------- 35
+                      0 .|-.|--..  9
+    query             0 Qu-ia lux -mundi -dominus cum po-te----ntia venit 41
+
+-- fused_9 --
+  OCR:      'am . Quia lux mundi doni niis cam Poten cu ne'
+  Assigned: 'De syon exibit lex et verbum domini de'
+  Words:    [57..65) consumed=8
+  NW score: k=11 (pre-snap), norm=-0.7512
+  Anchor:   word 65 (within_chant_7), diff=3, snapped=False, forced=True
+  Alignment:
+    target            0 am ---. --Quia lux ------mundi doni niis cam Poten cu ne 45
+                      0 ..  2
+    query             0 De syon exibit lex et verbu--m domi-ni--------------- de 38
+
+-- fused_10 --
+  OCR:      'mnt e hon trium responsorium incipimus a secundo exibit lex et verbum domi in de'
+  Assigned: 'iherusalem Quia Antequam convenirent inventa est maria habens in utero de spiritu sancto alleluya euouae Querite dominum dum'
+  Words:    [65..83) consumed=18
+  NW score: k=18 (pre-snap), norm=-0.9137
+  Anchor:   word 69 (within_chant_7), diff=14, snapped=False, forced=False
+  Alignment:
+    target            0 ---------mnt ---e hon triu-m respon--sorium in-cipimus- ----
+                      0 ---------|--
+    query             0 iherusalem-- Quia -An-tequam ---convenirent inventa est mari
+    
+    target           39 a -----s--ecu-ndo -e--xibit-------- --le---x e----t -verbum 
+                     12 |
+    query            53 a habens in utero de spiritu sancto alleluya euouae Querite 
+    
+    target           70 domi in-- d-e  80
+                     13 |||--||--  22
+    query           113 dom--inum dum 124
+
+-- fused_11 --
+  OCR:      'Ystorie s aspiciebam et sic fit semper'
+  Assigned: 'inveniri'
+  Words:    [83..84) consumed=1
+  NW score: k=1 (pre-snap), norm=-5.3913
+  Anchor:   word 84 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 Ystorie s aspiciebam et sic fit semper 38
+                      0 -------------|..|-------.|--.|-------- 38
+    query             0 -------------inve-------ni--ri--------  8
+
+-- fused_12 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [84..84) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_13 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [84..84) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_14 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [84..84) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_15 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [84..84) consumed=0
+  Alignment:
+    (no words left)
+=== END DEBUG ===
+

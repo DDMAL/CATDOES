@@ -1,0 +1,169 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'testes sunt doc tri'
+  [fused_1] 'ne . x.  norum claritas probat hec'
+  [fused_2] 'pro Bancia multiplex in fine zelo ee que'
+  [fused_3] 'miracula mors error calamitas demon cepista tugunt eon'
+  [fused_4] 'surgunt sa in cedunt mare iicula men'
+  [fused_5] 'braresque perditas pe accipiunt iu'
+  [fused_6] 'venes et ca'
+  [fused_7] 'reunt pericula cessat et necessitas narrent'
+  [fused_8] ''
+  [fused_9] 'udi cant padua in eonit Dio'
+  [fused_10] 'ria patam et fino et spirii san ccoe.'
+  [fused_11] 'an .i c tulo ceu cis et suppli'
+  [fused_12] ' rodus co Me mo dilo dii cs pr'
+  [fused_13] 'ca veiti pa termaere defrncis'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'testes sunt doc tri'
+  Assigned: 'testes sunt doctrine'
+  Words:    [0..3) consumed=3
+  NW score: k=3 (pre-snap), norm=6.5150
+  Anchor:   word 8 (within_chant_7), diff=5, snapped=False, forced=False
+  Alignment:
+    target            0 testes sunt doc tri-- 19
+                      0 ||||||  6
+    query             0 testes sunt doc-trine 20
+
+-- fused_1 --
+  OCR:      'ne . x.  norum claritas probat hec'
+  Assigned: 'Sed signorum claritas probat hec'
+  Words:    [3..8) consumed=5
+  NW score: k=5 (pre-snap), norm=5.3661
+  Anchor:   word 8 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ne . x.  norum claritas probat hec 34
+                      0 .|-.  4
+    query             0 Se-d -signorum claritas probat hec 32
+
+-- fused_2 --
+  OCR:      'pro Bancia multiplex in fine zelo ee que'
+  Assigned: 'probancia multiplex in fine Zelo Si queris'
+  Words:    [8..15) consumed=7
+  NW score: k=7 (pre-snap), norm=5.8554
+  Anchor:   word 15 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 pro Bancia multiplex in fine zelo ee que--- 40
+                      0 |||-.||||| 10
+    query             0 pro-bancia multiplex in fine Zelo Si queris 42
+
+-- fused_3 --
+  OCR:      'miracula mors error calamitas demon cepista tugunt eon'
+  Assigned: 'miracula mors error calamitas demon lepra fugiunt egri'
+  Words:    [15..23) consumed=8
+  NW score: k=7 (pre-snap), norm=6.0654
+  Anchor:   word 23 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 miracula mors error calamitas demon cepista tug-unt e-on 54
+                      0 ||||||||  8
+    query             0 miracula mors error calamitas demon lep--ra fugiunt egri 54
+
+-- fused_4 --
+  OCR:      'surgunt sa in cedunt mare iicula men'
+  Assigned: 'surgunt sani Cedunt mare vincula membra'
+  Words:    [23..29) consumed=6
+  NW score: k=6 (pre-snap), norm=5.3643
+  Anchor:   word 29 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 surgunt sa in cedunt mare -iicula me---n 36
+                      0 |||||||  7
+    query             0 surgunt sani- Cedunt mare vincula membra 39
+
+-- fused_5 --
+  OCR:      'braresque perditas pe accipiunt iu'
+  Assigned: 'resque perditas petunt et accipiunt iuvenes'
+  Words:    [29..35) consumed=6
+  NW score: k=5 (pre-snap), norm=5.0150
+  Anchor:   word 35 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 braresque perditas pe------- accipiunt iu----- 34
+                      0 ---||||||  9
+    query             0 ---resque perditas petunt et accipiunt iuvenes 43
+
+-- fused_6 --
+  OCR:      'venes et ca'
+  Assigned: 'et cani'
+  Words:    [35..37) consumed=2
+  NW score: k=2 (pre-snap), norm=0.9117
+  Anchor:   word 37 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 venes et ca-- 11
+                      0 ------||  8
+    query             0 ------et cani  7
+
+-- fused_7 --
+  OCR:      'reunt pericula cessat et necessitas narrent'
+  Assigned: 'Pereunt pericula cessat et necessitas narrent'
+  Words:    [37..43) consumed=6
+  NW score: k=6 (pre-snap), norm=7.5929
+  Anchor:   word 43 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 --reunt pericula cessat et necessitas narrent 43
+                      0 --|||||  7
+    query             0 Pereunt pericula cessat et necessitas narrent 45
+
+-- fused_8 --
+  OCR:      ''
+  Assigned: 'hii qui senciunt dicant paduani Cedunt Gloria'
+  Words:    [43..50) consumed=7
+
+-- fused_9 --
+  OCR:      'udi cant padua in eonit Dio'
+  Assigned: 'patri et filio'
+  Words:    [50..53) consumed=3
+  NW score: k=3 (pre-snap), norm=-0.7201
+  Anchor:   word 57 (within_chant_7), diff=4, snapped=False, forced=False
+  Alignment:
+    target            0 udi cant padua in eonit --Dio 27
+                      0 ---------||--..|- 17
+    query             0 ---------pa--tri- e---t filio 14
+
+-- fused_10 --
+  OCR:      'ria patam et fino et spirii san ccoe.'
+  Assigned: 'et spiritui sancto Cedunt'
+  Words:    [53..57) consumed=4
+  NW score: k=3 (pre-snap), norm=1.1625
+  Anchor:   word 57 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 ria patam et fino et spiri--i san cco--e---. 37
+                      0 ------------------|| 20
+    query             0 ------------------et spiritui san-cto Cedunt 25
+
+-- fused_11 --
+  OCR:      'an .i c tulo ceu cis et suppli'
+  Assigned: 'Sanctus hic de titulo crucis et suppli'
+  Words:    [57..64) consumed=7
+  NW score: k=7 (pre-snap), norm=3.5496
+  Anchor:   word 64 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -an---- .i c -----tulo ceu cis et suppli---- 30
+                      0 -||----  7
+    query             0 Sanctus hi-c de titulo cru-cis et suppliciis 42
+
+-- fused_12 --
+  OCR:      'rodus co Me mo dilo dii cs pr'
+  Assigned: 'ciis dulcis ihesu modulo dulci predi'
+  Words:    [64..69) consumed=5
+  NW score: k=5 (pre-snap), norm=0.6499
+  Anchor:   word 69 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 rodu---s co Me-- mo dilo dii cs pr-------- 29
+                      0 --||---|  8
+    query             0 --dulcis --ihesu mo-dulo d-ulci predicabat 36
+
+-- fused_13 --
+  OCR:      'ca veiti pa termaere defrncis'
+  Assigned: 'cabat cum pater in aere Se'
+  Words:    [69..74) consumed=5
+  NW score: k=5 (pre-snap), norm=0.9550
+  Anchor:   word 74 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ca veiti pa ter---maere defrncis 29
+                      0 |-----..  8
+    query             0 c-----um pa-ter in aere Se------ 20
+=== END DEBUG ===
+

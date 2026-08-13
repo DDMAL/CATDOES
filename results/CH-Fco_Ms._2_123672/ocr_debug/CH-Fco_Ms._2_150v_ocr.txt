@@ -1,0 +1,167 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'tere fortitudinemiserge il los.'
+  [fused_1] 'ut cognoscantconla non est us qui pugnet pro'
+  [fused_2] 'nobis nisi tum deus noster * isperge illos injur'
+  [fused_3] 'tute tua et testrue eos protector noster do'
+  [fused_4] 'cognos mpetum mimico timueri'
+  [fused_5] 'tis memores esto te quomodo salvi facti suntpa'
+  [fused_6] 'tresnoslamemus in ce lumet'
+  [fused_7] 'miserebitur no  nosteremento'
+  [fused_8] ' sqe fcit'
+  [fused_9] 'mari ru bro . et nunc Longrega te sunt ge'
+  [fused_10] 'tes in multitudine ut di micent  contra nos'
+  [fused_11] '. agus ms quid agere cele muo . Domine'
+  [fused_12] 'deus ao te sunt mosti nepere '
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'tere fortitudinemiserge il los.'
+  Assigned: 'fortitudinem illorum'
+  Words:    [0..2) consumed=2
+  NW score: k=2 (pre-snap), norm=2.8514
+  Anchor:   word 24 (within_chant_7), diff=22, snapped=False, forced=False
+  Alignment:
+    target            0 tere fortitudinemiserge il lo-s. 31
+                      0 -----||||||||||||------ 23
+    query             0 -----fortitudinem------ il-lorum 20
+
+-- fused_1 --
+  OCR:      'ut cognoscantconla non est us qui pugnet pro'
+  Assigned: 'domine et disperge illos Ut cognoscant quia non est alius qui pugnet pro'
+  Words:    [2..15) consumed=13
+  NW score: k=13 (pre-snap), norm=3.4645
+  Anchor:   word 24 (within_chant_7), diff=9, snapped=False, forced=False
+  Alignment:
+    target            0 -------------------------ut cognoscantconla non est ---us qu
+                      0 -------------------------.|
+    query             0 domine et disperge illos Ut cognoscant quia non est alius qu
+    
+    target           32 i pugnet pro 44
+                     27 | 28
+    query            60 i pugnet pro 72
+
+-- fused_2 --
+  OCR:      'nobis nisi tum deus noster * isperge illos injur'
+  Assigned: 'nobis nisi tu deus noster Disperge illos in vir'
+  Words:    [15..24) consumed=9
+  NW score: k=8 (pre-snap), norm=6.6914
+  Anchor:   word 24 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 nobis nisi tum deus noster * isperge illos in----ju-r 48
+                      0 |||||  5
+    query             0 nobis nisi tu- deus noster -Disperge illos in virtute 51
+
+-- fused_3 --
+  OCR:      'tute tua et testrue eos protector noster do'
+  Assigned: 'tute tua et destrue eos protector noster domine Ut'
+  Words:    [24..32) consumed=8
+  NW score: k=6 (pre-snap), norm=6.0576
+  Anchor:   word 32 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 tute tua et testrue eos protector noster do------- 43
+                      0 -----|||  8
+    query             0 -----tua et destrue eos protector noster domine Ut 45
+
+-- fused_4 --
+  OCR:      'cognos mpetum mimico timueri'
+  Assigned: 'cognoscant Impetum inimicorum ne timueri'
+  Words:    [32..37) consumed=5
+  NW score: k=5 (pre-snap), norm=4.2077
+  Anchor:   word 37 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 cognos---- -mpetum -mimico------ timueri--- 28
+                      0 ||||||---- 10
+    query             0 cognoscant Impetum inimicorum ne timueritis 43
+
+-- fused_5 --
+  OCR:      'tis memores esto te quomodo salvi facti suntpa'
+  Assigned: 'tis memores estote quomodo salvi facti sunt pa'
+  Words:    [37..44) consumed=7
+  NW score: k=6 (pre-snap), norm=6.5871
+  Anchor:   word 44 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 tis memores esto te quomodo salvi facti sunt-pa---- 46
+                      0 ----||||||| 11
+    query             0 ----memores esto-te quomodo salvi facti sunt patres 46
+
+-- fused_6 --
+  OCR:      'tresnoslamemus in ce lumet'
+  Assigned: 'tres nostri Et nunc clamemus in celum et'
+  Words:    [44..51) consumed=7
+  NW score: k=7 (pre-snap), norm=3.1492
+  Anchor:   word 51 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ---tr-----esn-oslamemus in ce lum-et 26
+                      0 ---||-----..|-..||||||| 23
+    query             0 nostri Et nunc clamemus in ce-lum et 35
+
+-- fused_7 --
+  OCR:      'miserebitur no  nosteremento'
+  Assigned: 'miserebitur nostri deus noster Mementote'
+  Words:    [51..56) consumed=5
+  NW score: k=5 (pre-snap), norm=5.1395
+  Anchor:   word 56 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 miserebitur no---- ---- noster--emento-- 28
+                      0 ||||||||||| 11
+    query             0 miserebitur nostri deus noster Mementote 40
+
+-- fused_8 --
+  OCR:      'sqe fcit'
+  Assigned: 'mirabilium eius que fecit pharaoni et exercitui eius in'
+  Words:    [56..65) consumed=9
+  NW score: k=4 (pre-snap), norm=-0.2121
+  Anchor:   word 65 (within_chant_7), diff=5, snapped=False, forced=True
+  Alignment:
+    target            0 --------------s-q-e f---------------------cit----------  8
+                      0 --------------|-|-| 19
+    query             0 mirabilium eius que fecit pharaoni et exercitui eius in 55
+
+-- fused_9 --
+  OCR:      'mari ru bro . et nunc Longrega te sunt ge'
+  Assigned: 'mari rubro Et nunc Congregate sunt gen'
+  Words:    [65..72) consumed=7
+  NW score: k=7 (pre-snap), norm=5.6098
+  Anchor:   word 72 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 mari ru bro . et nunc Longrega te sunt ge---- 41
+                      0 ||||  4
+    query             0 mari ru-bro-- Et nunc Congrega-te sunt gentes 41
+
+-- fused_10 --
+  OCR:      'tes in multitudine ut di micent  contra nos'
+  Assigned: 'tes in multitudine ut dimicent contra nos'
+  Words:    [72..78) consumed=6
+  NW score: k=6 (pre-snap), norm=6.6688
+  Anchor:   word 78 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 tes in multitudine ut di micent  contra nos 43
+                      0 ----||  6
+    query             0 ----in multitudine ut di-micent- contra nos 37
+
+-- fused_11 --
+  OCR:      '. agus ms quid agere cele muo . Domine'
+  Assigned: 'et ignoramus quid agere debeamus Domine'
+  Words:    [78..84) consumed=6
+  NW score: k=6 (pre-snap), norm=3.6367
+  Anchor:   word 84 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -. ag-us m-s quid agere cele muo . Domine 38
+                      0 -.  2
+    query             0 et ignoramus quid agere debeamu--s Domine 39
+
+-- fused_12 --
+  OCR:      'deus ao te sunt mosti nepere'
+  Assigned: 'deus ad te sunt oculi nostri ne pereamus'
+  Words:    [84..92) consumed=8
+  NW score: k=8 (pre-snap), norm=4.3626
+  Anchor:   word 92 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 deus ao te sunt------ most-i ne-pere---- 28
+                      0 ||||  4
+    query             0 deus ad te sunt oculi nostri ne pereamus 40
+=== END DEBUG ===
+

@@ -1,0 +1,175 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'solvasede super terram enp as mesie'
+  [fused_1] 'Reminisca ris delicta me i parentum meorum'
+  [fused_2] 'neq vindictam mas depeccatis meis qui'
+  [fused_3] 'ruis sustinentes te nemnia emum'
+  [fused_4] 'udijusta sunt et omnes ve tue miser eri'
+  [fused_5] 'tas et nunc domine me mento me Ne reminis .'
+  [fused_6] 'mni tempore benedic deumi pete ab contina'
+  [fused_7] 'tuasgat Et omni tempo re consi'
+  [fused_8] 'in ipso per mane ant X Inquire'
+  [fused_9] 'ut facias que placita sunt i li mueritate et in tota jur'
+  [fused_10] 'mnem Et omina emor esto filion'
+  [fused_11] 'm upetem nitam gen mus habebis multa bona'
+  [fused_12] 'situmens une Inmente habeto'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'solvasede super terram enp as mesie'
+  Assigned: 'me aut certe desuper terram eripias me Ne'
+  Words:    [0..8) consumed=8
+  NW score: k=8 (pre-snap), norm=2.9302
+  Anchor:   word 27 (within_chant_7), diff=19, snapped=False, forced=False
+  Alignment:
+    target            0 solva---se-de --super terram e-np as mesie 35
+                      0 -...|---.|-.| 13
+    query             0 -me aut certe desuper terram eripias me Ne 41
+
+-- fused_1 --
+  OCR:      'Reminisca ris delicta me i parentum meorum'
+  Assigned: 'reminiscaris delicta mea vel parentum meorum'
+  Words:    [8..14) consumed=6
+  NW score: k=6 (pre-snap), norm=6.4669
+  Anchor:   word 27 (within_chant_7), diff=13, snapped=False, forced=False
+  Alignment:
+    target            0 Reminisca ris delicta me- --i parentum meorum 42
+                      0 .||||||||-||| 13
+    query             0 reminisca-ris delicta mea vel parentum meorum 44
+
+-- fused_2 --
+  OCR:      'neq vindictam mas depeccatis meis qui'
+  Assigned: 'neque vindictam sumas de peccatis meis quia'
+  Words:    [14..21) consumed=7
+  NW score: k=7 (pre-snap), norm=6.5685
+  Anchor:   word 27 (within_chant_7), diff=6, snapped=False, forced=False
+  Alignment:
+    target            0 neq-- vindictam --mas de-peccatis meis qui- 37
+                      0 |||--  5
+    query             0 neque vindictam sumas de peccatis meis quia 43
+
+-- fused_3 --
+  OCR:      'ruis sustinentes te nemnia emum'
+  Assigned: 'eruis sustinentes te domine Omnia enim'
+  Words:    [21..27) consumed=6
+  NW score: k=6 (pre-snap), norm=5.5067
+  Anchor:   word 27 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -ruis sustinentes te ----ne--mnia emum 31
+                      0 -||||  5
+    query             0 eruis sustinentes te domine Omnia enim 38
+
+-- fused_4 --
+  OCR:      'udijusta sunt et omnes ve tue miser eri'
+  Assigned: 'iudicia tua iusta sunt et omnes vie tue misericordia et veri'
+  Words:    [27..38) consumed=11
+  NW score: k=9 (pre-snap), norm=4.6632
+  Anchor:   word 38 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 -udi--------justa sunt et omnes v-e tue miser---------- -eri
+                      0 -|||--------.||||
+    query             0 iudicia tua iusta sunt et omnes vie tue misericordia et veri
+    
+    target           39 --- 39
+                     17 --- 20
+    query            60 tas 63
+
+-- fused_5 --
+  OCR:      'tas et nunc domine me mento me Ne reminis .'
+  Assigned: 'tas et nunc domine me memento mei Ne'
+  Words:    [38..45) consumed=7
+  NW score: k=8 (pre-snap), norm=5.4560
+  Anchor:   word 45 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 tas et nunc domine me --mento me- Ne reminis . 43
+                      0 ----||  6
+    query             0 ----et nunc domine me memento mei Ne---------- 32
+
+-- fused_6 --
+  OCR:      'mni tempore benedic deumi pete ab contina'
+  Assigned: 'reminiscaris Omni tempore benedic deum et pete ab eo ut vias'
+  Words:    [45..56) consumed=11
+  NW score: k=9 (pre-snap), norm=4.0499
+  Anchor:   word 56 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 --------------mni tempore benedic deum--i pete ab co-nt--ina
+                      0 --------------|||
+    query             0 reminiscaris Omni tempore benedic deum et pete ab eo ut vi-a
+    
+    target           41 - 41
+                     17 - 18
+    query            59 s 60
+
+-- fused_7 --
+  OCR:      'tuasgat Et omni tempo re consi'
+  Assigned: 'tuas dirigat Et omni tempore consilia'
+  Words:    [56..62) consumed=6
+  NW score: k=6 (pre-snap), norm=5.7929
+  Anchor:   word 62 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 tuas-----gat Et omni tempo re consi--- 30
+                      0 ||||-----||| 12
+    query             0 tuas dirigat Et omni tempo-re consilia 37
+
+-- fused_8 --
+  OCR:      'in ipso per mane ant X Inquire'
+  Assigned: 'tua in ipso permaneant Inquire'
+  Words:    [62..67) consumed=5
+  NW score: k=5 (pre-snap), norm=5.6000
+  Anchor:   word 67 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ----in ipso per mane ant X Inquire 30
+                      0 ----||  6
+    query             0 tua in ipso per-mane-ant-- Inquire 30
+
+-- fused_9 --
+  OCR:      'ut facias que placita sunt i li mueritate et in tota jur'
+  Assigned: 'ut facias que placita sunt illi in veritate et in tota vir'
+  Words:    [67..79) consumed=12
+  NW score: k=11 (pre-snap), norm=6.3829
+  Anchor:   word 79 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 ut facias que placita sunt i li --mueritate et in tota jur--
+                      0 ||
+    query             0 ut facias que placita sunt illi in veritate et in tota virtu
+    
+    target           56 -- 56
+                      2 --  4
+    query            60 te 62
+
+-- fused_10 --
+  OCR:      'mnem Et omina emor esto filion'
+  Assigned: 'tute tua Et omni Memor esto fili quoni'
+  Words:    [79..86) consumed=7
+  NW score: k=6 (pre-snap), norm=4.3921
+  Anchor:   word 86 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 mnem Et omina -emor esto fili---on--- 30
+                      0 -...  4
+    query             0 -tua Et om-ni Memor esto fili quoniam 35
+
+-- fused_11 --
+  OCR:      'm upetem nitam gen mus habebis multa bona'
+  Assigned: 'am pauperem vitam gerimus Habebis multa bona'
+  Words:    [86..92) consumed=6
+  NW score: k=6 (pre-snap), norm=5.7805
+  Anchor:   word 92 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 m upetem nitam gen mus habebis multa bona 41
+                      0 ..|||.||  8
+    query             0 pauperem vitam gerimus Habebis multa bona 41
+
+-- fused_12 --
+  OCR:      'situmens une Inmente habeto'
+  Assigned: 'si timueris deum In mente habeto'
+  Words:    [92..98) consumed=6
+  NW score: k=6 (pre-snap), norm=4.2186
+  Anchor:   word 98 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 si-tum-e-ns --une In-mente habeto 27
+                      0 ||-|.|-|-.| 11
+    query             0 si timueris deu-m In mente habeto 32
+=== END DEBUG ===
+

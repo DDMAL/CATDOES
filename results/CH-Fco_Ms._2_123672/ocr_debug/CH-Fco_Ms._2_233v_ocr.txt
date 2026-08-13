@@ -1,0 +1,213 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'In festo presimorum mten mmus dictorumvertis'
+  [fused_1] 'letamini in Domino ad magnificat et'
+  [fused_2] 'cem suam et sequatur me exovae'
+  [fused_3] 'storum est enim regnum celorum qui c i'
+  [fused_4] 'tam mundi et perveverunt ad premia regni et salerunt'
+  [fused_5] 'ne agni exorae Legem'
+  [fused_6] ''
+  [fused_7] 'etus decursus aquarum plantavit vineam justorum set'
+  [fused_8] 'in lege domini furit voluntas eorum  . Deatus vir evo'
+  [fused_9] 'vae . Lanquam aurum in fornace probavit electos domu'
+  [fused_10] 'nus et quasi holocausta accepit eos ineternum p quare f'
+  [fused_11] 'evovae i coram hominibus Tormenta passi sunt spes elec'
+  [fused_12] 'ls domine quid eovae'
+  [fused_13] 'X. letanum in Domino et ccu'
+  [fused_14] 'tatemti  etglamini'
+  [fused_15] 'omnes recti corte'
+  [fused_16] 'osterget deus oynem'
+  [fused_17] 'de d amatios t o ecan'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'In festo presimorum mten mmus dictorumvertis'
+  Assigned: 'suam et sequatur me euouae Istorum est enim'
+  Words:    [0..8) consumed=8
+  NW score: k=8 (pre-snap), norm=-0.2989
+  Anchor:   word 13 (within_chant_7), diff=5, snapped=False, forced=False
+  Alignment:
+    target            0 --In festo presimorum mten -mmu-s dictorumvert---is 44
+                      0 --..  4
+    query             0 suam -e-t- -se-quatur m-e- euouae -Istorum est enim 43
+
+-- fused_1 --
+  OCR:      'letamini in Domino ad magnificat et'
+  Assigned: 'regnum celorum qui contempserunt vi'
+  Words:    [8..13) consumed=5
+  NW score: k=7 (pre-snap), norm=-0.8876
+  Anchor:   word 13 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 le-tam-----ini --in Domino ad m---agnificat -et-- 35
+                      0 .|-..|-----... 14
+    query             0 regnum celorum qui- co--n---tempserun-----t vitam 38
+
+-- fused_2 --
+  OCR:      'cem suam et sequatur me exovae'
+  Assigned: 'tam mundi et pervenerunt ad premia regni et laverunt'
+  Words:    [13..21) consumed=8
+  NW score: k=5 (pre-snap), norm=-0.7000
+  Anchor:   word 21 (within_chant_7), diff=3, snapped=False, forced=True
+  Alignment:
+    target            0 cem su-am et -----sequat----ur---- me--- exova-e---- 30
+                      0 --|--|-..  9
+    query             0 --m--undi et pervenerunt ad premia regni et laverunt 48
+
+-- fused_3 --
+  OCR:      'storum est enim regnum celorum qui c i'
+  Assigned: 'stolas suas in sanguine agni euouae Regem martyrum dominum Venite'
+  Words:    [21..31) consumed=10
+  NW score: k=10 (pre-snap), norm=-0.7847
+  Anchor:   word 28 (within_chant_7), diff=3, snapped=False, forced=False
+  Alignment:
+    target            0 storum --es--t -------e---ni------m regnum -celorum ----qui 
+                      0 |||...
+    query             0 stolas suas in sanguine agni euouae Reg-em martyrum dominum 
+    
+    target           35 -c i-- 38
+                      6 -..|-- 12
+    query            59 Venite 65
+
+-- fused_4 --
+  OCR:      'tam mundi et perveverunt ad premia regni et salerunt'
+  Assigned: 'adoremus ~Venite Secus decursus aquarum plantavit vineam iustorum set in lege domini fuit voluntas'
+  Words:    [31..45) consumed=14
+  NW score: k=14 (pre-snap), norm=-0.8125
+  Anchor:   word 32 (within_chant_7), diff=13, snapped=False, forced=False
+  Alignment:
+    target            0 ta--m mu-----ndi-- -e--t pe--r----veveru-----n----t ----ad -
+                      0 -|--..||-----|-|--
+    query             0 -adoremus ~Ven-ite Secus decursus aquarum plantavit vineam i
+    
+    target           28 ---prem-----ia reg------ni --et salerunt-- 52
+                     18 ---.|.|-----|. 32
+    query            58 ustorum set in lege domini fuit vol--untas 98
+
+-- fused_5 --
+  OCR:      'ne agni exorae Legem'
+  Assigned: 'eorum ~Beatus'
+  Words:    [45..47) consumed=2
+  NW score: k=5 (pre-snap), norm=-0.7115
+  Anchor:   word 47 (within_chant_7), diff=3, snapped=False, forced=True
+  Alignment:
+    target            0 ne agni exorae -Le-gem 20
+                      0 --------|-||.. 14
+    query             0 --------e-orum ~Beatus 13
+
+-- fused_6 --
+  OCR:      ''
+  Assigned: 'vir euouae Tanquam aurum in fornace probavit electos domi'
+  Words:    [47..56) consumed=9
+
+-- fused_7 --
+  OCR:      'etus decursus aquarum plantavit vineam justorum set'
+  Assigned: 'nus et quasi holocausta accepit eos in eternum'
+  Words:    [56..63) consumed=7
+  NW score: k=8 (pre-snap), norm=-0.3601
+  Anchor:   word 63 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 et--u-s- --decursus aquarum plantavit ---vineam justor-um se
+                      0 ||--|-|-
+    query             0 et quasi holoc--austa------ --accepit eos in--- --eternum---
+    
+    target           50 t 51
+                      8 -  9
+    query            42 - 42
+
+-- fused_8 --
+  OCR:      'in lege domini furit voluntas eorum  . Deatus vir evo'
+  Assigned: '~Quare fremuerunt euouae Si coram hominibus tormenta passi sunt spes electorum est inmortalis in eternum'
+  Words:    [63..78) consumed=15
+  NW score: k=15 (pre-snap), norm=-0.8620
+  Anchor:   word 74 (within_chant_7), diff=4, snapped=False, forced=False
+  Alignment:
+    target            0 --------------in- le---ge--------- domini--- fur--it- ----vo
+                      0 --------------.|-
+    query             0 ~Quare fremuerunt -euouae Si coram hominibus tormenta passi 
+    
+    target           23 lunt---as e----orum --- --. Deatus vir e----vo  53
+                     17 .|||---.|  26
+    query            59 sunt spes electorum est inmortalis -in eternum 104
+
+-- fused_9 --
+  OCR:      'vae . Lanquam aurum in fornace probavit electos domu'
+  Assigned: '~Domine'
+  Words:    [78..79) consumed=1
+  NW score: k=6 (pre-snap), norm=-1.0305
+  Anchor:   word 79 (within_chant_7), diff=5, snapped=False, forced=True
+  Alignment:
+    target            0 vae . Lanquam aurum in fornace probavit electos domu 52
+                      0 ---------------...|-||--------------------|--------- 52
+    query             0 ---------------~Dom-in--------------------e---------  7
+
+-- fused_10 --
+  OCR:      'nus et quasi holocausta accepit eos ineternum p quare f'
+  Assigned: 'quid euouae Absterget deus omnem'
+  Words:    [79..84) consumed=5
+  NW score: k=7 (pre-snap), norm=-0.8131
+  Anchor:   word 84 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 nu-s et quasi holocausta accepit -eos -ineternum p quare f 55
+                      0 .|-.  4
+    query             0 quid e-uoua-e -----Abst--erge--t deus omne-----m---------- 32
+
+-- fused_11 --
+  OCR:      'evovae i coram hominibus Tormenta passi sunt spes elec'
+  Assigned: 'lacrimam ab oculis sanctorum et iam'
+  Words:    [84..90) consumed=6
+  NW score: k=6 (pre-snap), norm=-1.5872
+  Anchor:   word 90 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 evovae i cor--am --hominibus ----Tor-m-enta passi sunt spes 
+                      0 ---.|----|-|--||
+    query             0 ---la----c-rimam ab oculi--s sanctorum e-t- ia--------------
+    
+    target           50 elec 54
+                     16 ---. 20
+    query            34 ---m 35
+
+-- fused_12 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [90..90) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_13 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [90..90) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_14 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [90..90) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_15 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [90..90) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_16 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [90..90) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_17 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [90..90) consumed=0
+  Alignment:
+    (no words left)
+=== END DEBUG ===
+

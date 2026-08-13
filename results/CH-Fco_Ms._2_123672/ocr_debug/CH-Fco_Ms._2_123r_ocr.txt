@@ -1,0 +1,175 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'nomen ombsoddistro s'
+  [fused_1] 'pro mundo quia ad tenemo Aeluya eovae'
+  [fused_2] ' Leluya pistum dominum ascendentem in celum'
+  [fused_3] 'venite adoremusaleete ena'
+  [fused_4] 'ta est magnificencia tua super celos Deus Allelvya . Domine dominus'
+  [fused_5] 'Dominus in Templo Sancto suo dominus in celo'
+  [fused_6] 'Alleluna  In Domino ofi elress'
+  [fused_7] 'o ejus et occursus ejsaat '
+  [fused_8] 'Ascendit deus mi et cominus'
+  [fused_9] 'invoce cure alsena'
+  [fused_10] 'ostpassionem es madragi'
+  [fused_11] 'e apane et Juloaen de mono ce'
+  [fused_12] '  Et incentions '
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'nomen ombsoddistro s'
+  Assigned: 'nomen tuum hominibus quos dedisti'
+  Words:    [0..5) consumed=5
+  NW score: k=5 (pre-snap), norm=1.4791
+  Anchor:   word 26 (within_chant_7), diff=21, snapped=False, forced=False
+  Alignment:
+    target            0 nomen ------om---b-s---o--d-distro s 20
+                      0 |||||  5
+    query             0 nomen tuum hominibus quos dedist---i 33
+
+-- fused_1 --
+  OCR:      'pro mundo quia ad tenemo Aeluya eovae'
+  Assigned: 'michi nunc autem pro eis rogo non pro mundo quia ad te venio alleluya euouae'
+  Words:    [5..20) consumed=15
+  NW score: k=15 (pre-snap), norm=2.0178
+  Anchor:   word 26 (within_chant_7), diff=6, snapped=False, forced=False
+  Alignment:
+    target            0 ----------------------------------pro mundo quia ad te-ne-mo
+                      0 ----------------------------------|||
+    query             0 michi nunc autem pro eis rogo non pro mundo quia ad te venio
+    
+    target           24  --Aeluya e-ovae 37
+                     37  37
+    query            60  alleluya euouae 76
+
+-- fused_2 --
+  OCR:      'Leluya pistum dominum ascendentem in celum'
+  Assigned: 'Alleluia Xpistum dominum ascendentem in celum'
+  Words:    [20..26) consumed=6
+  NW score: k=6 (pre-snap), norm=6.7396
+  Anchor:   word 26 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 --Leluya -pistum dominum ascendentem in celum 42
+                      0 --.|||.|  8
+    query             0 Alleluia Xpistum dominum ascendentem in celum 45
+
+-- fused_3 --
+  OCR:      'venite adoremusaleete ena'
+  Assigned: 'Venite adoremus alleluya ~Venite eleva'
+  Words:    [26..31) consumed=5
+  NW score: k=3 (pre-snap), norm=4.1641
+  Anchor:   word 31 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 venite adoremus-a-le-------e--te --e--na 25
+                      0 .|||||  6
+    query             0 Venite adoremus alleluya ~Venite Elevata 40
+
+-- fused_4 --
+  OCR:      'ta est magnificencia tua super celos Deus Allelvya . Domine dominus'
+  Assigned: 'ta est magnificencia tua super celos deus alleluya ~Domine'
+  Words:    [31..39) consumed=8
+  NW score: k=9 (pre-snap), norm=6.6493
+  Anchor:   word 39 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 ta est magnificencia tua super celos Deus Allelvya . Domine 
+                      0 ---|||
+    query             0 ---est magnificencia tua super celos deus alleluya -~Domine-
+    
+    target           60 dominus 67
+                      6 ------- 13
+    query            55 ------- 55
+
+-- fused_5 --
+  OCR:      'Dominus in Templo Sancto suo dominus in celo'
+  Assigned: 'dominus noster euouae Dominus in templo sancto suo dominus in celo'
+  Words:    [39..50) consumed=11
+  NW score: k=11 (pre-snap), norm=4.7505
+  Anchor:   word 50 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ----------------------Dominus in Templo Sancto suo dominus i
+                      0 ----------------------|||||||
+    query             0 dominus noster euouae Dominus in templo sancto suo dominus i
+    
+    target           38 n celo 44
+                     29 | 30
+    query            60 n celo 66
+
+-- fused_6 --
+  OCR:      'Alleluna  In Domino ofi elress'
+  Assigned: 'alleluya ~In domine confido euouae'
+  Words:    [50..55) consumed=5
+  NW score: k=5 (pre-snap), norm=2.7867
+  Anchor:   word 59 (within_chant_7), diff=4, snapped=False, forced=False
+  Alignment:
+    target            0 Alleluna  In Domino -o-fi-- e--lress 30
+                      0 .|||||.|  8
+    query             0 alleluya ~In domine confido euouae-- 34
+
+-- fused_7 --
+  OCR:      'o ejus et occursus ejsaat'
+  Assigned: 'A summo celo egressi'
+  Words:    [55..59) consumed=4
+  NW score: k=8 (pre-snap), norm=2.0130
+  Anchor:   word 59 (within_chant_7), diff=4, snapped=False, forced=True
+  Alignment:
+    target            0 o eju--s -et occursus ejsaat 25
+                      0 .  1
+    query             0 A -summo ce-lo egr----e-ssio 21
+
+-- fused_8 --
+  OCR:      'Ascendit deus mi et cominus'
+  Assigned: 'o eius et occursus'
+  Words:    [59..62) consumed=3
+  NW score: k=3 (pre-snap), norm=0.4330
+  Anchor:   word 67 (within_chant_7), diff=5, snapped=False, forced=False
+  Alignment:
+    target            0 Ascendit deus mi et -cominus 27
+                      0 ---|--|----||--- 16
+    query             0 ---e--i----us--- et occursus 16
+
+-- fused_9 --
+  OCR:      'invoce cure alsena'
+  Assigned: 'eius alleluia'
+  Words:    [62..64) consumed=2
+  NW score: k=2 (pre-snap), norm=-0.4576
+  Anchor:   word 67 (within_chant_7), diff=3, snapped=False, forced=False
+  Alignment:
+    target            0 invoce cure alse--na 18
+                      0 -----|-.|-. 11
+    query             0 -----e-iu-s alleluia 13
+
+-- fused_10 --
+  OCR:      'ostpassionem es madragi'
+  Assigned: '~Celi enarrant euouae'
+  Words:    [64..67) consumed=3
+  NW score: k=2 (pre-snap), norm=-1.7276
+  Anchor:   word 67 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 ostpassionem es madra-------gi 23
+                      0 ---....|---- 12
+    query             0 ---~Celi---- e--narrant euouae 21
+
+-- fused_11 --
+  OCR:      'e apane et Juloaen de mono ce'
+  Assigned: 'Ascendit deus in iubilatione alleluya Et dominus'
+  Words:    [67..74) consumed=7
+  NW score: k=9 (pre-snap), norm=-1.3896
+  Anchor:   word 74 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 ---e---- apane-- et Ju--l---o---a--e---n de --mono ce 29
+                      0 ---|----  8
+    query             0 Ascendit ---deus in iubilatione alleluya Et domin--us 48
+
+-- fused_12 --
+  OCR:      'Et incentions'
+  Assigned: 'in voce tube alleluya'
+  Words:    [74..78) consumed=4
+  NW score: k=3 (pre-snap), norm=-1.0408
+  Anchor:   word 78 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 Et in---cent--------ions 13
+                      0 ---||---||.|--------.... 24
+    query             0 ---in voce tube alleluya 21
+=== END DEBUG ===
+

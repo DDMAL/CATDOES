@@ -1,0 +1,191 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'Sco vna d qsteses Glaihonore or omno des Aospicis . post ea de dominica Inde diira quod omis deeo dostea de sncti Gantets tces or de Sanctis Tephonis et respicio e p . Laudemus Deum nostrum'
+  [fused_1] 'Decte li epue ponos'
+  [fused_2] 'fessi me ti Martini P .'
+  [fused_3] 'mis adhuc cathetunimus hac me veste contexit  Beatus vir'
+  [fused_4] 'ancte Trinitatis fidem martinus confessus est'
+  [fused_5] 'reatissimus graciam percepit  qQuarFe eovaego sig'
+  [fused_6] 'non ceucis non dppeo protectus aut galea hostium cuneos pe G amanit eum dominori horn amint'
+  [fused_7] 'domine quid eovae'
+  [fused_8] 'ic est marti nus electusd Pon'
+  [fused_9] 'fex cui domi nus post a postolos tantam gra'
+  [fused_10] 'am conter re dig natusest . Ut in virtute'
+  [fused_11] 'trinitatis Dei fice mereretur fie'
+  [fused_12] 'Monno rum suscita tor msi cus  ans'
+  [fused_13] ' titatis fi tem mattums confes sus est'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'Sco vna d qsteses Glaihonore or omno des Aospicis . post ea de dominica Inde diira quod omis deeo dostea de sncti Gantets tces or de Sanctis Tephonis et respicio e p . Laudemus Deum nostrum'
+  Assigned: 'euouae Laudemus deum nostrum in confessione beati martini ~Venite Martinus adhuc cathecumenus hac me veste contexit ~Beatus vir euouae Sancte trinitatis fidem martinus confessus est'
+  Words:    [0..25) consumed=25
+  NW score: k=25 (pre-snap), norm=-0.5515
+  Anchor:   word 6 (within_chant_7), diff=19, snapped=False, forced=False
+  Alignment:
+    target            0 Sco--- vna d qsteses Glaihono--r-e or -omno des Aospicis . p
+                      0 ..|---
+    query             0 euouae -Laud----emus -deum nostrum in co-n--fes---s---i-----
+    
+    target           53 ost -ea de dom---inica --In-de diira quod omis -deeo dost---
+                      6 |..
+    query            40 one bea-ti --martini-- ~Venite -Martinu------s adhuc -cathec
+    
+    target          102 --e-----a- de --sncti Gante--ts tce---s -or ----de Sanctis T
+                      9 --|-----|-
+    query            87 umenus hac me ves--te contexit- ~Beatus vir euouae Sanct----
+    
+    target          142 ephonis et respicio e p . Laudem-------us ---De--um nostrum
+                     19 |------
+    query           140 e------ -t-r---initatis ---fidem martinus confessus -est---
+    
+    target          189
+                     26
+    query           181
+
+-- fused_1 --
+  OCR:      'Decte li epue ponos'
+  Assigned: 'beatissimus'
+  Words:    [25..26) consumed=1
+  NW score: k=1 (pre-snap), norm=-1.5218
+  Anchor:   word 33 (within_chant_7), diff=7, snapped=False, forced=False
+  Alignment:
+    target            0 Decte li epue ponos 19
+                      0 .|.|...|--.|------| 19
+    query             0 beatissi--mu------s 11
+
+-- fused_2 --
+  OCR:      'fessi me ti Martini P .'
+  Assigned: 'graciam percepit ~Quare'
+  Words:    [26..29) consumed=3
+  NW score: k=3 (pre-snap), norm=-2.2174
+  Anchor:   word 33 (within_chant_7), diff=4, snapped=False, forced=False
+  Alignment:
+    target            0 fessi-- me-- ti- --Martini P . 23
+                      0 ....|--  7
+    query             0 graciam percepit ~Quar-------e 23
+
+-- fused_3 --
+  OCR:      'mis adhuc cathetunimus hac me veste contexit  Beatus vir'
+  Assigned: 'fremuerunt euouae Ego signo crucis non clippeo protectus aut'
+  Words:    [29..38) consumed=9
+  NW score: k=9 (pre-snap), norm=-1.3284
+  Anchor:   word 33 (within_chant_7), diff=5, snapped=False, forced=False
+  Alignment:
+    target            0 ---mis adhuc cathetunimus hac -me ves--te c-------ontexi---t
+                      0 ---|------|....|.|-|--.|---|.
+    query             0 frem------uerunt e-u--ou---ae Ego --signo crucis non clippeo
+    
+    target           44  -- Beatus vir 56
+                     29  29
+    query            46  protectus aut 60
+
+-- fused_4 --
+  OCR:      'ancte Trinitatis fidem martinus confessus est'
+  Assigned: 'galea hostium cuneos pe'
+  Words:    [38..42) consumed=4
+  NW score: k=13 (pre-snap), norm=-0.8471
+  Anchor:   word 42 (within_chant_7), diff=9, snapped=False, forced=True
+  Alignment:
+    target            0 -ancte Trinitatis fidem martinus confessus -e-st---- 45
+                      0 -|--.|-------|--------- 23
+    query             0 ga--le-------a--------- hosti-um cun-e--os penetrabo 30
+
+-- fused_5 --
+  OCR:      'reatissimus graciam percepit  qQuarFe eovaego sig'
+  Assigned: 'netrabo securus ~Domine'
+  Words:    [42..44) consumed=2
+  NW score: k=5 (pre-snap), norm=-0.7697
+  Anchor:   word 44 (within_chant_7), diff=3, snapped=False, forced=True
+  Alignment:
+    target            0 reatissimus graciam percepit  qQuarFe eovaego si-g 49
+                      0 ----------|----------|-|--------|-|.. 37
+    query             0 ----------s----------e-c--------u-rus ----~Do-mine 15
+
+-- fused_6 --
+  OCR:      'non ceucis non dppeo protectus aut galea hostium cuneos pe G amanit eum dominori horn amint'
+  Assigned: 'quid euouae Hic est martinus electus dei pontifex cui dominus post apostolos'
+  Words:    [44..56) consumed=12
+  NW score: k=12 (pre-snap), norm=-0.5050
+  Anchor:   word 52 (within_chant_7), diff=4, snapped=False, forced=False
+  Alignment:
+    target            0 non ceucis -non dppeo protectus aut galea hosti-um ---c-uneo
+                      0 -----.|-|.
+    query             0 -----qu-id euo---uae- ---Hic--- est ma------rtinus electu---
+    
+    target           54 s pe G aman-i--t eum dominori horn amint---- 91
+                     10 | 11
+    query            35 s de-i -pontifex cui domin-us post apostolos 76
+
+-- fused_7 --
+  OCR:      'domine quid eovae'
+  Assigned: 'tantam grati'
+  Words:    [56..58) consumed=2
+  NW score: k=3 (pre-snap), norm=-2.3769
+  Anchor:   word 58 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 domin--e --quid eovae 17
+                      0 --..|--.  8
+    query             0 --tantam grati-----am 14
+
+-- fused_8 --
+  OCR:      'ic est marti nus electusd Pon'
+  Assigned: 'am conferre dignatus est Ut in'
+  Words:    [58..63) consumed=5
+  NW score: k=5 (pre-snap), norm=-0.6433
+  Anchor:   word 63 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ic-- e-st marti n--us electusd Pon 29
+                      0 -|--.|-..  9
+    query             0 -conferre ---dignatus --est Ut -in 27
+
+-- fused_9 --
+  OCR:      'fex cui domi nus post a postolos tantam gra'
+  Assigned: 'virtute trinitas deifice mereretur fieri trium'
+  Words:    [63..69) consumed=6
+  NW score: k=11 (pre-snap), norm=-1.5639
+  Anchor:   word 69 (within_chant_7), diff=5, snapped=False, forced=True
+  Alignment:
+    target            0 -----fex cui----- domi nus ---post a postolos tantam gra 43
+                      0 -----.|-  8
+    query             0 virtute- trinitas d-eifice mereretur ---fieri t-rium---- 46
+
+-- fused_10 --
+  OCR:      'am conter re dig natusest . Ut in virtute'
+  Assigned: 'mortuorum suscitator magnificus sanc'
+  Words:    [69..73) consumed=4
+  NW score: k=5 (pre-snap), norm=-1.0160
+  Anchor:   word 73 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 am conter re dig natusest . Ut-- --in virtu------t-e 41
+                      0 -|--|.|-..|---.. 16
+    query             0 -m--ort-uor---um --suscit---ator magnifi-cus Sanctae 39
+
+-- fused_11 --
+  OCR:      'trinitatis Dei fice mereretur fie'
+  Assigned: 'tae trinitatis fidem martinus confessus est'
+  Words:    [73..78) consumed=5
+  NW score: k=3 (pre-snap), norm=2.6112
+  Anchor:   word 78 (page_break_77), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 trinitatis Dei fice- mereret--ur ---f-----ie-- 33
+                      0 ||||||||||---- 14
+    query             0 trinitatis---- fidem mar---tinus confessus est 39
+
+-- fused_12 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [78..78) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_13 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [78..78) consumed=0
+  Alignment:
+    (no words left)
+=== END DEBUG ===
+

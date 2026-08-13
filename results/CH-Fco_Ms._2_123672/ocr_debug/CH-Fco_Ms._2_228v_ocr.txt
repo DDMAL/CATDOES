@@ -1,0 +1,175 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'e me'
+  [fused_1] 'pi come. Gaudete et exultate quomamerces'
+  [fused_2] 'vestra copi Oosa est in celis  . Cum nos'
+  [fused_3] 'demnint homines et cum separaveunt nos et expro'
+  [fused_4] 'baverint etejecerint nomen vestrum tanquam malu'
+  [fused_5] 'propter fiiun nomi mo. Gaude sti sunt'
+  [fused_6] 'Triumphato tos et anilia de i ani contemx tes vulla preains'
+  [fused_7] ' pum merne runt premia eterdo'
+  [fused_8] 'toronam tar es acam vonino palmam sti sunt'
+  [fused_9] 'qui venerunt ex magna tribu latio ne et laverunt'
+  [fused_10] 'stolas suas in SanGuineagm modo . xai'
+  [fused_11] 'tabuntur corma inset alicluya e . onfite eoraea lu'
+  [fused_12] 'tnt eat insto Mleluyimctis corde seticia Allelina pr di'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'e me'
+  Assigned: 'et dixerint omne'
+  Words:    [0..3) consumed=3
+  NW score: k=3 (pre-snap), norm=-2.0000
+  Anchor:   word 21 (within_chant_7), diff=18, snapped=False, forced=False
+  Alignment:
+    target            0 e---------- -m-e  4
+                      0 |---------- 11
+    query             0 et dixerint omne 16
+
+-- fused_1 --
+  OCR:      'pi come. Gaudete et exultate quomamerces'
+  Assigned: 'malum adversum vos mentientes propter me Gaudete et exultate quoniam merces'
+  Words:    [3..14) consumed=11
+  NW score: k=11 (pre-snap), norm=2.5195
+  Anchor:   word 21 (within_chant_7), diff=7, snapped=False, forced=False
+  Alignment:
+    target            0 ----------------------pi----- -co-----me. Gaudete et exultat
+                      0 ----------------------.|-----
+    query             0 malum adversum vos mentientes propter me- Gaudete et exultat
+    
+    target           27 e quo---mamerces 40
+                     29 | 30
+    query            59 e quoniam merces 75
+
+-- fused_2 --
+  OCR:      'vestra copi Oosa est in celis  . Cum nos'
+  Assigned: 'vestra copiosa est in celis Cum vos'
+  Words:    [14..21) consumed=7
+  NW score: k=7 (pre-snap), norm=6.5212
+  Anchor:   word 21 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 vestra copi Oosa est in celis  . Cum nos 40
+                      0 ||||||  6
+    query             0 vestra copi--osa est in celis--- Cum vos 35
+
+-- fused_3 --
+  OCR:      'demnint homines et cum separaveunt nos et expro'
+  Assigned: 'oderint homines et cum separaverint vos et expro'
+  Words:    [21..29) consumed=8
+  NW score: k=7 (pre-snap), norm=5.3568
+  Anchor:   word 29 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 -demnint homines et cum separave-unt nos et expro--------- 47
+                      0 -||-.|||  8
+    query             0 ode-rint homines et cum separaverint vos et exprobraverint 57
+
+-- fused_4 --
+  OCR:      'baverint etejecerint nomen vestrum tanquam malu'
+  Assigned: 'braverint et eiecerint nomen vestrum tanquam malum'
+  Words:    [29..35) consumed=6
+  NW score: k=6 (pre-snap), norm=5.9042
+  Anchor:   word 41 (within_chant_7), diff=6, snapped=False, forced=False
+  Alignment:
+    target            0 baverint etejecerint nomen vestrum tanquam malu- 47
+                      0 ---|---|  8
+    query             0 ---e---t --eiecerint nomen vestrum tanquam malum 40
+
+-- fused_5 --
+  OCR:      'propter fiiun nomi mo. Gaude sti sunt'
+  Assigned: 'propter filium hominis Gaudete Isti sunt'
+  Words:    [35..41) consumed=6
+  NW score: k=6 (pre-snap), norm=4.9908
+  Anchor:   word 41 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 propter fi-iun nomi mo. Gaud--e -sti sunt 37
+                      0 |||||||  7
+    query             0 propter filium homi-nis Gaudete Isti sunt 40
+
+-- fused_6 --
+  OCR:      'Triumphato tos et anilia de i ani contemx tes vulla preains'
+  Assigned: 'triumphatores et amici dei qui contempnentes iussa prin'
+  Words:    [41..49) consumed=8
+  NW score: k=8 (pre-snap), norm=3.4623
+  Anchor:   word 49 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 Triumphato tos et anilia de i ani contem--x tes vulla preain
+                      0 .|||||||||-..|
+    query             0 triumphato-res et amici- de-i qui contempnentes iussa pr--in
+    
+    target           58 ----s 59
+                     14 ----. 19
+    query            55 cipum 60
+
+-- fused_7 --
+  OCR:      'pum merne runt premia eterdo'
+  Assigned: 'cipum meruerunt premia eterna'
+  Words:    [49..52) consumed=3
+  NW score: k=3 (pre-snap), norm=4.8075
+  Anchor:   word 52 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 pum merne runt premia eterdo 28
+                      0 ----|||.|-|||| 14
+    query             0 ----merue-runt premia eterna 23
+
+-- fused_8 --
+  OCR:      'toronam tar es acam vonino palmam sti sunt'
+  Assigned: 'Modo coronantur et accipiunt palmam Isti sunt'
+  Words:    [52..59) consumed=7
+  NW score: k=7 (pre-snap), norm=3.3813
+  Anchor:   word 59 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -----toronam tar es acam voni-no palmam -sti sunt 42
+                      0 -----.|||||-.|.| 16
+    query             0 Modo corona-ntur et ac---cipiunt palmam Isti sunt 45
+
+-- fused_9 --
+  OCR:      'qui venerunt ex magna tribu latio ne et laverunt'
+  Assigned: 'qui venerunt ex magna tribulatione et laverunt stolas'
+  Words:    [59..67) consumed=8
+  NW score: k=7 (pre-snap), norm=7.5336
+  Anchor:   word 67 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 qui venerunt ex magna tribu latio ne et laverunt------- 48
+                      0 |||  3
+    query             0 qui venerunt ex magna tribu-latio-ne et laverunt stolas 53
+
+-- fused_10 --
+  OCR:      'stolas suas in SanGuineagm modo . xai'
+  Assigned: 'suas in sanguine agni Modo exal'
+  Words:    [67..73) consumed=6
+  NW score: k=5 (pre-snap), norm=2.5471
+  Anchor:   word 73 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 stolas suas in SanGuine-ag-m modo . xa--------i 37
+                      0 -------|||| 11
+    query             0 -------suas in sanguine agni Modo -Exaltabuntur 39
+
+-- fused_11 --
+  OCR:      'tabuntur corma inset alicluya e . onfite eoraea lu'
+  Assigned: 'tabuntur cornua iusti alleluya ~Confitebor euouae Lux'
+  Words:    [73..79) consumed=6
+  NW score: k=6 (pre-snap), norm=2.0467
+  Anchor:   word 79 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 tabuntur cor-ma inset- alicluya e . onfite--- e-oraea lu- 50
+                      0 ---------|||-.| 15
+    query             0 ---------cornua ius-ti alleluya-- ~Confitebor euouae- Lux 44
+
+-- fused_12 --
+  OCR:      'tnt eat insto Mleluyimctis corde seticia Allelina pr di'
+  Assigned: 'orta est iusto alleluya rectis corde leticia alleluya'
+  Words:    [79..87) consumed=8
+  NW score: k=8 (pre-snap), norm=3.7599
+  Anchor:   word 87 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 tnt- eat insto -Mleluy--imctis corde seticia Allelina pr di
+                      0 ..|-
+    query             0 orta est iusto alleluya rectis corde leticia alleluya------
+    
+    target           55
+                      4
+    query            53
+=== END DEBUG ===
+

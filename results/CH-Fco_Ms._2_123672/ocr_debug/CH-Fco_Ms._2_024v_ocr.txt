@@ -1,0 +1,195 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'Crastina die delebitur miquitas terre . et regnabit su'
+  [fused_1] 'nos salvator mundi . Iniqui Crastina erit nobis salu'
+  [fused_2] 'icit dominus Deus exercituum rastina'
+  [fused_3] 'erit vobis salus Dicit dominus Deus exercituum . Erit'
+  [fused_4] 'Bioria X Lrastina dieterre ningliana t nos sin nun'
+  [fused_5] 'Atdomini ad ves'
+  [fused_6] 'di . pas ant. ex pacificus magnificatus est cujusu'
+  [fused_7] 'mutum desierat . Dirit dominus Evovae'
+  [fused_8] ' agnificatus est rex pacificus super omnes reges uniuer'
+  [fused_9] 'se terre ps Lonfitebor evovae ompleti sunt die mari'
+  [fused_10] 'e ut pareret filium suum primogenitum Beatus vir'
+  [fused_11] 'eronae atore qua prope est regum dei amerdico nobis'
+  [fused_12] 'qua non tardabit p laudate pue evoae'
+  [fused_13] 'vclimi ecce a propinqant ademno vesia uaomno'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'Crastina die delebitur miquitas terre . et regnabit su'
+  Assigned: 'Crastina die delebitur iniquitas terre Et regnabit su'
+  Words:    [0..8) consumed=8
+  NW score: k=8 (pre-snap), norm=6.5465
+  Anchor:   word 8 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 Crastina die delebitur -miquitas terre . et regnabit su--- 54
+                      0 ||||||||  8
+    query             0 Crastina die delebitur iniquitas terre-- Et regnabit super 56
+
+-- fused_1 --
+  OCR:      'nos salvator mundi . Iniqui Crastina erit nobis salu'
+  Assigned: 'per nos salvator mundi Iniquitas Crastina erit vobis salus'
+  Words:    [8..16) consumed=8
+  NW score: k=8 (pre-snap), norm=6.7370
+  Anchor:   word 16 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 nos salvator mundi . Iniqui--- Crastina erit nobis salu- 52
+                      0 |||  3
+    query             0 nos salvator mundi-- Iniquitas Crastina erit vobis salus 54
+
+-- fused_2 --
+  OCR:      'icit dominus Deus exercituum rastina'
+  Assigned: 'Dicit dominus deus exercituum Crastina'
+  Words:    [16..21) consumed=5
+  NW score: k=5 (pre-snap), norm=7.0566
+  Anchor:   word 21 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -icit dominus Deus exercituum -rastina 36
+                      0 -||||  5
+    query             0 Dicit dominus deus exercituum Crastina 38
+
+-- fused_3 --
+  OCR:      'erit vobis salus Dicit dominus Deus exercituum . Erit'
+  Assigned: 'erit vobis salus Dicit dominus deus exercituum Erit'
+  Words:    [21..29) consumed=8
+  NW score: k=8 (pre-snap), norm=7.4052
+  Anchor:   word 29 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 erit vobis salus Dicit dominus Deus exercituum . Erit 53
+                      0 ||||  4
+    query             0 erit vobis salus Dicit dominus deus exercituum-- Erit 51
+
+-- fused_4 --
+  OCR:      'Bioria X Lrastina dieterre ningliana t nos sin nun'
+  Assigned: 'Gloria ~Crastina die delebitur iniquitas terre ~Et regnabit super nos salvator mun'
+  Words:    [29..41) consumed=12
+  NW score: k=12 (pre-snap), norm=1.0338
+  Anchor:   word 41 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 Bioria X Lrastina die---------------------terre ---ningliana
+                      0 ..||||
+    query             0 Gloria -~Crastina die delebitur iniquitas terre ~Et reg---na
+    
+    target           36 --- ----t nos s-----in nun-- 50
+                      6 ---  9
+    query            56 bit super nos salvator mundi 84
+
+-- fused_5 --
+  OCR:      'Atdomini ad ves'
+  Assigned: 'di Rex pacificus magnificatus est cuius'
+  Words:    [41..46) consumed=5
+  NW score: k=4 (pre-snap), norm=-2.3570
+  Anchor:   word 46 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 ----------Atdom---ini a--d ve-------s 15
+                      0 ----------....|---|.|.|--. 26
+    query             0 Rex pacificus magnificatus -est cuius 36
+
+-- fused_6 --
+  OCR:      'di . pas ant. ex pacificus magnificatus est cujusu'
+  Assigned: 'vultum desiderat universa terra ~Dixit dominus'
+  Words:    [46..52) consumed=6
+  NW score: k=11 (pre-snap), norm=0.2160
+  Anchor:   word 52 (within_chant_7), diff=5, snapped=False, forced=True
+  Alignment:
+    target            0 -------d--i . pas ant. ex pacificus ---ma-gnificatus est --c
+                      0 -------|--|-...|.
+    query             0 vultum desi-derat un-ive-rsa------- terra ~Dixi--------t dom
+    
+    target           45 ujusu 50
+                     17 ..||- 22
+    query            42 inus- 46
+
+-- fused_7 --
+  OCR:      'mutum desierat . Dirit dominus Evovae'
+  Assigned: 'euouae Magnificatus est rex pacificus super omnes reges univer'
+  Words:    [52..61) consumed=9
+  NW score: k=8 (pre-snap), norm=-1.1084
+  Anchor:   word 61 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 mu--------------tum desierat . Diri--t -----dominus --------
+                      0 .|--------------||.
+    query             0 euouae Magnificatus -est rex pacificus super om-nes reges un
+    
+    target           31 Evovae 37
+                     19 .|...| 25
+    query            58 iverse 64
+
+-- fused_8 --
+  OCR:      'agnificatus est rex pacificus super omnes reges uniuer'
+  Assigned: 'se terre ~Confitebor euouae Completi sunt dies mari'
+  Words:    [61..68) consumed=7
+  NW score: k=9 (pre-snap), norm=-1.0717
+  Anchor:   word 68 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 agnificatus est rex pacifi--cus --super -om-ne---s--- reges 
+                      0 --------|---|--.||-
+    query             0 --------t---e--rre- ~Confitebor euouae- Completi sunt -dies 
+    
+    target           48 -uniuer 54
+                     19 -..|-|- 26
+    query            44 mari-e- 49
+
+-- fused_9 --
+  OCR:      'se terre ps Lonfitebor evovae ompleti sunt die mari'
+  Assigned: 'e ut pareret filium suum primogenitum ~Beatus vir euouae Scitote quia prope'
+  Words:    [68..79) consumed=11
+  NW score: k=11 (pre-snap), norm=-0.8031
+  Anchor:   word 85 (within_chant_7), diff=6, snapped=False, forced=False
+  Alignment:
+    target            0 se ter-re- ------ps--- ---Lo--nfit-----e-----bor evovae ----
+                      0 ..
+    query             0 ut pareret filium suum primogen-itum ~Beatus vir euouae Scit
+    
+    target           30 ompleti sunt die mar--i 51
+                      2 |----|.  9
+    query            59 o----te qu----ia -prope 73
+
+-- fused_10 --
+  OCR:      'e ut pareret filium suum primogenitum Beatus vir'
+  Assigned: 'est regnum dei amen dico vobis'
+  Words:    [79..85) consumed=6
+  NW score: k=7 (pre-snap), norm=-0.8295
+  Anchor:   word 85 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 e ut pareret filium suum pri--mogenitum Beatus v--ir 48
+                      0 |-.|  4
+    query             0 e-st ----re---------gnum dei am--en---- --dico vobis 30
+
+-- fused_11 --
+  OCR:      'eronae atore qua prope est regum dei amerdico nobis'
+  Assigned: 'quia non tardabit ~Laudate pueri euouae Levate capita vestra ecce appropinquabit'
+  Words:    [85..96) consumed=11
+  NW score: k=11 (pre-snap), norm=-1.1585
+  Anchor:   word 93 (within_chant_7), diff=3, snapped=False, forced=False
+  Alignment:
+    target            0 ----eron-----a--e -----atore qu--a pro-pe -----e----st- re-g
+                      0 ----..||-----|--.
+    query             0 quia non tardabit ~Laudat--e pueri euouae Levate capita vest
+    
+    target           30 um de--i amerdico- n--obis 51
+                     17 .. 19
+    query            58 ra -ecce appr---opinquabit 80
+
+-- fused_12 --
+  OCR:      'qua non tardabit p laudate pue evoae'
+  Assigned: 'redemptio vestra ~Laudate'
+  Words:    [96..99) consumed=3
+  NW score: k=3 (pre-snap), norm=-1.3333
+  Anchor:   word 99 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ---qua non ---tardabit p laudate pue evoae 36
+                      0 ---.....|- 10
+    query             0 redemptio- vest-r-a--- -~Laudat----------e 25
+
+-- fused_13 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [99..99) consumed=0
+  Alignment:
+    (no words left)
+=== END DEBUG ===
+

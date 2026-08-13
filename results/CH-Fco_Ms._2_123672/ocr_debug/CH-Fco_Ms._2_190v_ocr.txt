@@ -1,0 +1,163 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'super plebem meam principem te consti tui . Et'
+  [fused_1] 'ves regni celo didi ti'
+  [fused_2] 'bi V . uodcumque ligaveris super terram erit'
+  [fused_3] 'quodcumque solveris super terram'
+  [fused_4] 'erit solutum celis. Et cla idiligis'
+  [fused_5] 'moen Symon Pe tane palet  nes me as'
+  [fused_6] 'domi ne tu nosti te Et animam'
+  [fused_7] 'me am po no pro teX'
+  [fused_8] 'portuerit me mori te cum non te ne ga Et'
+  [fused_9] 'animam  itus et supet hanc p'
+  [fused_10] 'tram hedifica bo ecclesiam'
+  [fused_11] 'non prevale vunt aoversuse am et tibi dabo da'
+  [fused_12] 'nn in ce lo tumqo Quodcum'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'super plebem meam principem te consti tui . Et'
+  Assigned: 'super plebem meam principem te constitui Et'
+  Words:    [0..7) consumed=7
+  NW score: k=7 (pre-snap), norm=7.3525
+  Anchor:   word 17 (within_chant_7), diff=10, snapped=False, forced=False
+  Alignment:
+    target            0 super plebem meam principem te consti tui . Et 46
+                      0 |||||  5
+    query             0 super plebem meam principem te consti-tui-- Et 43
+
+-- fused_1 --
+  OCR:      'ves regni celo didi ti'
+  Assigned: 'claves regni celorum tradidi tibi'
+  Words:    [7..12) consumed=5
+  NW score: k=5 (pre-snap), norm=4.7134
+  Anchor:   word 17 (within_chant_7), diff=5, snapped=False, forced=False
+  Alignment:
+    target            0 ---ves regni celo--- ---didi t--i 22
+                      0 ---|||  6
+    query             0 claves regni celorum tradidi tibi 33
+
+-- fused_2 --
+  OCR:      'bi V . uodcumque ligaveris super terram erit'
+  Assigned: 'Quodcumque ligaveris super terram erit'
+  Words:    [12..17) consumed=5
+  NW score: k=5 (pre-snap), norm=6.5786
+  Anchor:   word 17 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 bi V . uodcumque ligaveris super terram erit 44
+                      0 ------.||||||||| 16
+    query             0 ------Quodcumque ligaveris super terram erit 38
+
+-- fused_3 --
+  OCR:      'quodcumque solveris super terram'
+  Assigned: 'ligatum et in celis et quodcumque solveris super terram'
+  Words:    [17..26) consumed=9
+  NW score: k=9 (pre-snap), norm=4.3621
+  Anchor:   word 26 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -----------------------quodcumque solveris super terram 32
+                      0 -----------------------|||||||||| 33
+    query             0 ligatum et in celis et quodcumque solveris super terram 55
+
+-- fused_4 --
+  OCR:      'erit solutum celis. Et cla idiligis'
+  Assigned: 'erit solutum et in celis Et claves Si diligis'
+  Words:    [26..35) consumed=9
+  NW score: k=9 (pre-snap), norm=5.4427
+  Anchor:   word 35 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 erit solutum------ celis. Et cla--- -i-diligis 35
+                      0 ||||  4
+    query             0 erit solutum et in celis- Et claves Si diligis 45
+
+-- fused_5 --
+  OCR:      'moen Symon Pe tane palet  nes me as'
+  Assigned: 'me symon petre pasce oves meas'
+  Words:    [35..41) consumed=6
+  NW score: k=6 (pre-snap), norm=3.2404
+  Anchor:   word 41 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 moen Symon Pe tane pa-let  nes me as 35
+                      0 |-|-  4
+    query             0 m-e- symon pe-t-re pasce- oves me-as 30
+
+-- fused_6 --
+  OCR:      'domi ne tu nosti te Et animam'
+  Assigned: 'domine tu nosti quia amo te Et'
+  Words:    [41..48) consumed=7
+  NW score: k=8 (pre-snap), norm=5.6782
+  Anchor:   word 48 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 domi ne tu nosti--------- te Et animam 29
+                      0 ||||-||  7
+    query             0 domi-ne tu nosti quia amo te Et------- 30
+
+-- fused_7 --
+  OCR:      'me am po no pro teX'
+  Assigned: 'animam meam pono pro te Si o'
+  Words:    [48..55) consumed=7
+  NW score: k=5 (pre-snap), norm=3.9226
+  Anchor:   word 55 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 -------me am po no pro te-------------X 19
+                      0 -------||-|| 12
+    query             0 animam me-am po-no pro te Si oportuerit 37
+
+-- fused_8 --
+  OCR:      'portuerit me mori te cum non te ne ga Et'
+  Assigned: 'portuerit me mori tecum non te negabo'
+  Words:    [55..61) consumed=6
+  NW score: k=7 (pre-snap), norm=4.7920
+  Anchor:   word 61 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 portuerit me mori te cum non te ne ga Et 40
+                      0 ----------|| 12
+    query             0 ----------me mori te-cum non te ne-ga-bo 27
+
+-- fused_9 --
+  OCR:      'animam  itus et supet hanc p'
+  Assigned: 'Et animam Tu es petrus et super hanc pe'
+  Words:    [61..70) consumed=9
+  NW score: k=8 (pre-snap), norm=3.9686
+  Anchor:   word 70 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 ---animam ----- -it-us et supet hanc p----- 28
+                      0 ---||||||  9
+    query             0 Et animam Tu es petrus et super hanc petram 43
+
+-- fused_10 --
+  OCR:      'tram hedifica bo ecclesiam'
+  Assigned: 'tram hedificabo ecclesiam meam et porte inferi'
+  Words:    [70..76) consumed=6
+  NW score: k=2 (pre-snap), norm=5.8763
+  Anchor:   word 76 (within_chant_7), diff=4, snapped=False, forced=True
+  Alignment:
+    target            0 tram hedifica bo ecclesiam--------------------- 26
+                      0 -----||||||||-|| 16
+    query             0 -----hedifica-bo ecclesiam meam et porte inferi 41
+
+-- fused_11 --
+  OCR:      'non prevale vunt aoversuse am et tibi dabo da'
+  Assigned: 'non prevalebunt adversus eam Et tibi da'
+  Words:    [76..83) consumed=7
+  NW score: k=7 (pre-snap), norm=5.7504
+  Anchor:   word 83 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 non prevale vunt aoversus-e am et tibi dabo da 45
+                      0 |||  3
+    query             0 non prevale-bunt adversus e-am Et tibi dabo--- 41
+
+-- fused_12 --
+  OCR:      'nn in ce lo tumqo Quodcum'
+  Assigned: 'bo claves regni celorum Quodcumque'
+  Words:    [83..87) consumed=4
+  NW score: k=4 (pre-snap), norm=1.6524
+  Anchor:   word 87 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ----nn --in- ce lo tumqo Quodcum--- 25
+                      0 ----..  6
+    query             0 claves regni ce-lo-rum-- Quodcumque 31
+=== END DEBUG ===
+

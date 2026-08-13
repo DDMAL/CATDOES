@@ -1,0 +1,167 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'est si autem non egero non effugiam manus ve stras'
+  [fused_1] 'Denusisit do mimis ingelum suum et'
+  [fused_2] 'condusito mie mm . et non me contaii'
+  [fused_3] 'naverunt quia coram eo iusti a mventa'
+  [fused_4] 'es deus misericordiam suamet'
+  [fused_5] 'veritatem su am animam meam eripuit de medio ca'
+  [fused_6] 'tulorum leo mum etme| Nicie furo'
+  [fused_7] 'ris tudes conturbata omusterra sed mise'
+  [fused_8] 're do mine et ne facias consum macionem'
+  [fused_9] 'mine dominus noster quam admurabile est nomni'
+  [fused_10] 'tuui sedmise et ivitatemtam tu cutunda'
+  [fused_11] 'ne et Angelitu ntodiant mitos'
+  [fused_12] 'm ecmm iconne roruicam um cammm'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'est si autem non egero non effugiam manus ve stras'
+  Assigned: 'est si autem non egero non effugiam manus vestras'
+  Words:    [0..9) consumed=9
+  NW score: k=9 (pre-snap), norm=7.7782
+  Anchor:   word 16 (within_chant_7), diff=7, snapped=False, forced=False
+  Alignment:
+    target            0 est si autem non egero non effugiam manus ve stras 50
+                      0 |||  3
+    query             0 est si autem non egero non effugiam manus ve-stras 49
+
+-- fused_1 --
+  OCR:      'Denusisit do mimis ingelum suum et'
+  Assigned: 'Melius est Misit dominus angelum suum et'
+  Words:    [9..16) consumed=7
+  NW score: k=7 (pre-snap), norm=4.4200
+  Anchor:   word 16 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 De-nus------isit do mimis ingelum suum et 34
+                      0 .|-.||------|||| 16
+    query             0 Melius est Misit do-minus angelum suum et 40
+
+-- fused_2 --
+  OCR:      'condusito mie mm . et non me contaii'
+  Assigned: 'conclusit ora leonum Et non me'
+  Words:    [16..22) consumed=6
+  NW score: k=7 (pre-snap), norm=2.7031
+  Anchor:   word 22 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 con-dusit-o-- mie- mm . et non me contaii 36
+                      0 |||-.||||-|-- 13
+    query             0 conclusit ora -leonum-- Et non me-------- 30
+
+-- fused_3 --
+  OCR:      'naverunt quia coram eo iusti a mventa'
+  Assigned: 'contaminaverunt quia coram eo iusticia'
+  Words:    [22..27) consumed=5
+  NW score: k=6 (pre-snap), norm=5.5993
+  Anchor:   word 27 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 -------naverunt quia coram eo iusti a mventa 37
+                      0 -------|||||||| 15
+    query             0 contaminaverunt quia coram eo iusti------cia 38
+
+-- fused_4 --
+  OCR:      'es deus misericordiam suamet'
+  Assigned: 'inventa est in me Misit deus misericordiam suam et'
+  Words:    [27..36) consumed=9
+  NW score: k=9 (pre-snap), norm=3.9020
+  Anchor:   word 36 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 --------es------------- deus misericordiam suam-et 28
+                      0 --------||------------- 23
+    query             0 inventa est in me Misit deus misericordiam suam et 50
+
+-- fused_5 --
+  OCR:      'veritatem su am animam meam eripuit de medio ca'
+  Assigned: 'veritatem suam animam meam eripuit de medio ca'
+  Words:    [36..44) consumed=8
+  NW score: k=7 (pre-snap), norm=7.2071
+  Anchor:   word 44 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 veritatem su am animam meam eripuit de medio ca------- 47
+                      0 |||||||||  9
+    query             0 veritatem su-am animam meam eripuit de medio catulorum 53
+
+-- fused_6 --
+  OCR:      'tulorum leo mum etme| Nicie furo'
+  Assigned: 'tulorum leonum Et non me A facie furo'
+  Words:    [44..51) consumed=7
+  NW score: k=7 (pre-snap), norm=1.4062
+  Anchor:   word 51 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 tul-orum leo mum etme-| Nicie furo--- 32
+                      0 --|-|.||  8
+    query             0 --leonum -Et non --me A facie furoris 32
+
+-- fused_7 --
+  OCR:      'ris tudes conturbata omusterra sed mise'
+  Assigned: 'ris tui deus conturbata est omnis terra Sed'
+  Words:    [51..58) consumed=7
+  NW score: k=8 (pre-snap), norm=4.0447
+  Anchor:   word 58 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 ris tu--de-s conturbata---- om-us-terra sed mise 39
+                      0 ----||--||-| 12
+    query             0 ----tui deus conturbata est omnis terra Sed----- 39
+
+-- fused_8 --
+  OCR:      're do mine et ne facias consum macionem'
+  Assigned: 'miserere domine et ne facias'
+  Words:    [58..63) consumed=5
+  NW score: k=6 (pre-snap), norm=6.3490
+  Anchor:   word 63 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 ------re do mine et ne facias consum macionem 39
+                      0 ------||  8
+    query             0 miserere do-mine et ne facias---------------- 28
+
+-- fused_9 --
+  OCR:      'mine dominus noster quam admurabile est nomni'
+  Assigned: 'consummacionem Domine dominus noster quam admirabile est nomen'
+  Words:    [63..71) consumed=8
+  NW score: k=8 (pre-snap), norm=5.1117
+  Anchor:   word 71 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -----------------mine dominus noster quam admurabile est nom
+                      0 -----------------||||
+    query             0 consummacionem Domine dominus noster quam admirabile est nom
+    
+    target           43 -ni 45
+                     21 -|- 24
+    query            60 en- 62
+
+-- fused_10 --
+  OCR:      'tuui sedmise et ivitatemtam tu cutunda'
+  Assigned: 'tuum Sed miserere Civitatem istam tu circunda'
+  Words:    [71..78) consumed=7
+  NW score: k=7 (pre-snap), norm=4.4738
+  Anchor:   word 78 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 tuui sed-mise e-t -ivitatem---tam tu c-utunda 38
+                      0 |||.  4
+    query             0 tuum Sed miserere Civitatem istam tu circunda 45
+
+-- fused_11 --
+  OCR:      'ne et Angelitu ntodiant mitos'
+  Assigned: 'domine et angeli tui custodiant muros eius'
+  Words:    [78..85) consumed=7
+  NW score: k=6 (pre-snap), norm=4.2739
+  Anchor:   word 85 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 ----ne et Angeli-tu- --ntodiant mito-----s 29
+                      0 ----||  6
+    query             0 domine et angeli tui custodiant muros eius 42
+
+-- fused_12 --
+  OCR:      'm ecmm iconne roruicam um cammm'
+  Assigned: 'Exaudi domine populum tuum cum mi'
+  Words:    [85..91) consumed=6
+  NW score: k=5 (pre-snap), norm=0.3607
+  Anchor:   word 91 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 -----m ecmm iconne roruicam --um cammm----------- 31
+                      0 -----.  6
+    query             0 Exaudi dom--i---ne popu-lum tuum cum misericordia 43
+=== END DEBUG ===
+

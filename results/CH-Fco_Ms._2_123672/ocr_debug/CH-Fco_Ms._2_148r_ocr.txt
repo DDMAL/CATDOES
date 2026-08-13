@@ -1,0 +1,163 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'quas passe sunt et defe mus timor et ebitudo mentis'
+  [fused_1] 'cecidit super nos et super lileros nomo'
+  [fused_2] 'tes volunt recipere fugam vo stram . Dominee'
+  [fused_3] 'te te P cca mnno cum patribus noris'
+  [fused_4] 'injuste egimus iniquita tem fe cmus.'
+  [fused_5] 'neenediitedo minus in virtute su'
+  [fused_6] 'qpercis '
+  [fused_7] 'bet ortes at laus tu a de ore Homi'
+  [fused_8] 'nm  enedictus dominus qui creavit celum et ter'
+  [fused_9] 'ram qia hodie nomen tuum ita magnifica vit Ut'
+  [fused_10] 'non Nos alium deum nescimus preter domi'
+  [fused_11] 'num in quo spera mus. onis Cehpicis  nos'
+  [fused_12] 'nes amonet sa jutem su am age vere no sto .'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'quas passe sunt et defe mus timor et ebitudo mentis'
+  Assigned: 'quas passe sunt et defecimus timor et ebetudo mentis'
+  Words:    [0..9) consumed=9
+  NW score: k=9 (pre-snap), norm=7.2819
+  Anchor:   word 28 (within_chant_7), diff=19, snapped=False, forced=False
+  Alignment:
+    target            0 quas passe sunt et defe- mus timor et ebitudo mentis 51
+                      0 ||||  4
+    query             0 quas passe sunt et defecimus timor et ebetudo mentis 52
+
+-- fused_1 --
+  OCR:      'cecidit super nos et super lileros nomo'
+  Assigned: 'cecidit super nos et super liberos nostros'
+  Words:    [9..16) consumed=7
+  NW score: k=7 (pre-snap), norm=6.6465
+  Anchor:   word 28 (within_chant_7), diff=12, snapped=False, forced=False
+  Alignment:
+    target            0 cecidit super nos et super lileros no--mo- 39
+                      0 |||||||  7
+    query             0 cecidit super nos et super liberos nostros 42
+
+-- fused_2 --
+  OCR:      'tes volunt recipere fugam vo stram . Dominee'
+  Assigned: 'ipsi montes nolunt recipere fugam nostram Domine'
+  Words:    [16..23) consumed=7
+  NW score: k=7 (pre-snap), norm=5.2658
+  Anchor:   word 28 (within_chant_7), diff=5, snapped=False, forced=False
+  Alignment:
+    target            0 --------tes volunt recipere fugam vo stram . Dominee 44
+                      0 --------||| 11
+    query             0 ipsi montes nolunt recipere fugam no-stram-- Domin-e 48
+
+-- fused_3 --
+  OCR:      'te te P cca mnno cum patribus noris'
+  Assigned: 'miserere Peccavimus cum patribus nostris'
+  Words:    [23..28) consumed=5
+  NW score: k=5 (pre-snap), norm=3.7417
+  Anchor:   word 28 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 --te- te P cca- mnno cum patribus no--ris 35
+                      0 --.|-..|  8
+    query             0 miserere Peccavim-us cum patribus nostris 40
+
+-- fused_4 --
+  OCR:      'injuste egimus iniquita tem fe cmus.'
+  Assigned: 'iniuste egimus iniquitatem fecimus domi'
+  Words:    [28..33) consumed=5
+  NW score: k=4 (pre-snap), norm=6.3740
+  Anchor:   word 33 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 injuste egimus iniquita tem fe c-mus------. 36
+                      0 ||.||||  7
+    query             0 iniuste egimus iniquita-tem fe-cimus Domine 41
+
+-- fused_5 --
+  OCR:      'neenediitedo minus in virtute su'
+  Assigned: 'ne Benedixit te dominus in virtute sua'
+  Words:    [33..39) consumed=6
+  NW score: k=6 (pre-snap), norm=5.4383
+  Anchor:   word 39 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 neenedi-i--te-do minus in virtute su- 32
+                      0 -.|||||-|--||-||-||||| 22
+    query             0 -Benedixit te do-minus in virtute sua 35
+
+-- fused_6 --
+  OCR:      'qpercis'
+  Assigned: 'qui per te ad nichilum redegit inimicos nostros'
+  Words:    [39..47) consumed=8
+  NW score: k=2 (pre-snap), norm=0.8571
+  Anchor:   word 47 (within_chant_7), diff=6, snapped=False, forced=True
+  Alignment:
+    target            0 q---per---------c------------------i----------s  7
+                      0 |---|||---------|------------------|----------| 47
+    query             0 qui per te ad nichilum redegit inimicos nostros 47
+
+-- fused_7 --
+  OCR:      'bet ortes at laus tu a de ore Homi'
+  Assigned: 'Ut non deficiat laus tua de ore homi'
+  Words:    [47..55) consumed=8
+  NW score: k=8 (pre-snap), norm=3.4876
+  Anchor:   word 55 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 bet -o-rte--s at laus tu a de ore Homi--- 34
+                      0 -.|  3
+    query             0 -Ut non deficiat laus tu-a de ore hominum 39
+
+-- fused_8 --
+  OCR:      'nm  enedictus dominus qui creavit celum et ter'
+  Assigned: 'num Benedictus dominus qui creavit celum et ter'
+  Words:    [55..62) consumed=7
+  NW score: k=7 (pre-snap), norm=6.6304
+  Anchor:   word 62 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 nm  enedictus dominus qui creavit celum et ter--- 46
+                      0 ---.||||||||| 13
+    query             0 ---Benedictus dominus qui creavit celum et terram 46
+
+-- fused_9 --
+  OCR:      'ram qia hodie nomen tuum ita magnifica vit Ut'
+  Assigned: 'ram quia hodie nomen tuum ita magnificavit Ut'
+  Words:    [62..69) consumed=7
+  NW score: k=7 (pre-snap), norm=6.7515
+  Anchor:   word 69 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ram q-ia hodie nomen tuum ita magnifica vit Ut 45
+                      0 ----|-||  8
+    query             0 ----quia hodie nomen tuum ita magnifica-vit Ut 41
+
+-- fused_10 --
+  OCR:      'non Nos alium deum nescimus preter domi'
+  Assigned: 'non Nos alium deum nescimus preter domi'
+  Words:    [69..76) consumed=7
+  NW score: k=7 (pre-snap), norm=7.3878
+  Anchor:   word 76 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 non Nos alium deum nescimus preter domi--- 39
+                      0 |||  3
+    query             0 non Nos alium deum nescimus preter dominum 42
+
+-- fused_11 --
+  OCR:      'num in quo spera mus. onis Cehpicis  nos'
+  Assigned: 'num in quo speramus Qui non despicit nos'
+  Words:    [76..83) consumed=7
+  NW score: k=7 (pre-snap), norm=3.7947
+  Anchor:   word 83 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 num in quo spera mus---. -onis Cehpicis  nos 40
+                      0 ----||  6
+    query             0 ----in quo spera-mus Qui non-- despici-t nos 36
+
+-- fused_12 --
+  OCR:      'nes amonet sa jutem su am age vere no sto .'
+  Assigned: 'nec amovet salutem suam a genere nostro'
+  Words:    [83..90) consumed=7
+  NW score: k=7 (pre-snap), norm=4.6885
+  Anchor:   word 90 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 nes amonet sa jutem su am a-ge vere no st-o . 43
+                      0 ||.  3
+    query             0 nec amovet sa-lutem su-am a ge-nere no-stro-- 39
+=== END DEBUG ===
+

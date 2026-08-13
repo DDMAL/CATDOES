@@ -1,0 +1,195 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'semimat semniare semen suum evovac emen cecidit in'
+  [fused_1] 'terram bonam et attulit fructum in patiendam exovae'
+  [fused_2] 'verbum Dei retinent corde perfecto et optimo fructum afferunt in'
+  [fused_3] 'pacienda exorae emen cecidit in terram bonam et at'
+  [fused_4] 'tulit fructum aliud centesimum et aliud sexagesimum evo'
+  [fused_5] 'xx '
+  [fused_6] 'mome in vere fratres divites esse cupitis veras ad respas e dix Dominu'
+  [fused_7] 'curelis pres domiiicale'
+  [fused_8] 'divicias amate Cvovae ad magiilicatant Nobis datum est'
+  [fused_9] 'nosse misterium regui Dei ceteris autem in Parabolis '
+  [fused_10] 'Lus osaiins soio croraei i culmen veri hono'
+  [fused_11] 'ris queritis ad illam celestem patriam quam tocius propera'
+  [fused_12] 'eme est vrsator at est Christistus'
+  [fused_13] 'omnis qui invenit cum i anebit in eternum evovac'
+  [fused_14] 'nos antem cadit in terram bonam hi sunt qui'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'semimat semniare semen suum evovac emen cecidit in'
+  Assigned: 'seminat seminare semen suum euouae Semen cecidit in'
+  Words:    [0..8) consumed=8
+  NW score: k=8 (pre-snap), norm=6.3171
+  Anchor:   word 8 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 semimat sem-niare semen suum evovac -emen cecidit in 50
+                      0 ||||.||  7
+    query             0 seminat semin-are semen suum euouae Semen cecidit in 51
+
+-- fused_1 --
+  OCR:      'terram bonam et attulit fructum in patiendam exovae'
+  Assigned: 'terram bonam et attulit fructum in paciencia euouae Qui'
+  Words:    [8..17) consumed=9
+  NW score: k=8 (pre-snap), norm=6.5490
+  Anchor:   word 17 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 terram bonam et attulit fructum in patien-dam exovae---- 51
+                      0 ||||||  6
+    query             0 terram bonam et attulit fructum in paciencia- euouae Qui 55
+
+-- fused_2 --
+  OCR:      'verbum Dei retinent corde perfecto et optimo fructum afferunt in'
+  Assigned: 'verbum dei retinet corde perfecto et optimo fructum afferet in'
+  Words:    [17..27) consumed=10
+  NW score: k=10 (pre-snap), norm=7.2390
+  Anchor:   word 27 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 verbum Dei retinent corde perfecto et optimo fructum afferun
+                      0 ||||||
+    query             0 verbum dei retine-t corde perfecto et optimo fructum affer-e
+    
+    target           60 t in 64
+                      6 |  7
+    query            58 t in 62
+
+-- fused_3 --
+  OCR:      'pacienda exorae emen cecidit in terram bonam et at'
+  Assigned: 'paciencia euouae Semen cecidit in terram bonam et attulit'
+  Words:    [27..36) consumed=9
+  NW score: k=8 (pre-snap), norm=6.2629
+  Anchor:   word 36 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 pacien-da exorae -emen cecidit in terram bonam et a-----t 50
+                      0 ||||||-.|  9
+    query             0 paciencia euouae Semen cecidit in terram bonam et attulit 57
+
+-- fused_4 --
+  OCR:      'tulit fructum aliud centesimum et aliud sexagesimum evo'
+  Assigned: 'fructum aliud cencesimum et aliud sexagesimum euouae'
+  Words:    [36..43) consumed=7
+  NW score: k=6 (pre-snap), norm=6.2111
+  Anchor:   word 43 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 tulit fructum aliud centesimum et aliud sexagesimum evo--- 55
+                      0 ------||||||| 13
+    query             0 ------fructum aliud cencesimum et aliud sexagesimum euouae 52
+
+-- fused_5 --
+  OCR:      'xx'
+  Assigned: 'Si vere fratres divites esse cupitis veras'
+  Words:    [43..50) consumed=7
+  NW score: k=1 (pre-snap), norm=-5.0000
+  Anchor:   word 50 (within_chant_7), diff=6, snapped=False, forced=True
+  Alignment:
+    target            0 ----------------------------------------xx  2
+                      0 ----------------------------------------.. 42
+    query             0 Si vere fratres divites esse cupitis veras 42
+
+-- fused_6 --
+  OCR:      'mome in vere fratres divites esse cupitis veras ad respas e dix Dominu'
+  Assigned: 'divicias amate euouae Vobis datum est nosse misterium regni dei ceteris autem in'
+  Words:    [50..63) consumed=13
+  NW score: k=13 (pre-snap), norm=-0.6548
+  Anchor:   word 56 (within_chant_7), diff=7, snapped=False, forced=False
+  Alignment:
+    target            0 mome i-n ---vere fratre-----s divit---es- -esse cupitis vera
+                      0 .....|-.
+    query             0 divicias amate euoua--e Vobis d--atum est nosse ----mis-ter-
+    
+    target           46 s ad respas -e- ----dix --Dom-inu 70
+                      8 -... 12
+    query            50 -ium re-gni dei ceteris autem in- 80
+
+-- fused_7 --
+  OCR:      'curelis pres domiiicale'
+  Assigned: 'parabolis dixit ihe'
+  Words:    [63..66) consumed=3
+  NW score: k=4 (pre-snap), norm=-0.5445
+  Anchor:   word 66 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 cur--elis pres domi-i--icale--- 23
+                      0 ..|--.||-----| 14
+    query             0 paraboli-----s d--ixit i--hesus 22
+
+-- fused_8 --
+  OCR:      'divicias amate Cvovae ad magiilicatant Nobis datum est'
+  Assigned: 'sus discipulis suis euouae Si culmen veri honoris queritis ad illam celestem'
+  Words:    [66..77) consumed=11
+  NW score: k=11 (pre-snap), norm=-0.6736
+  Anchor:   word 73 (within_chant_7), diff=4, snapped=False, forced=False
+  Alignment:
+    target            0 divici---as amate Cvovae ad ---m----agi------ilicatant Nobis
+                      0 ||-.||---.|
+    query             0 di-scipulis -suis euouae Si culmen veri honoris querit----is
+    
+    target           44  -d----atum ---est-- 54
+                     11  11
+    query            54  ad illa--m celestem 72
+
+-- fused_9 --
+  OCR:      'nosse misterium regui Dei ceteris autem in Parabolis'
+  Assigned: 'patriam quamtocius propera'
+  Words:    [77..80) consumed=3
+  NW score: k=13 (pre-snap), norm=-0.5650
+  Anchor:   word 80 (within_chant_7), diff=10, snapped=False, forced=True
+  Alignment:
+    target            0 nosse misterium regui Dei ceteri-s -autem in Parabolis 52
+                      0 -------..|-||.| 15
+    query             0 -------pat-riam --qu------amtocius prope-------ra---te 28
+
+-- fused_10 --
+  OCR:      'Lus osaiins soio croraei i culmen veri hono'
+  Assigned: 'te euouae Semen est verbum dei sator'
+  Words:    [80..86) consumed=6
+  NW score: k=6 (pre-snap), norm=-0.9291
+  Anchor:   word 89 (within_chant_7), diff=3, snapped=False, forced=False
+  Alignment:
+    target            0 Lus osaiins soio croraei i culmen---- ver------i hono- 43
+                      0 .|-----------------|.||--- 26
+    query             0 eu-----------------ouae--- -Semen est verbum dei sator 33
+
+-- fused_11 --
+  OCR:      'ris queritis ad illam celestem patriam quam tocius propera'
+  Assigned: 'autem est christus omnis qui invenit eum manebit in eternum euouae Quod autem cecidit in terram'
+  Words:    [86..102) consumed=16
+  NW score: k=16 (pre-snap), norm=-0.9430
+  Anchor:   word 89 (within_chant_7), diff=13, snapped=False, forced=False
+  Alignment:
+    target            0 ------------r---------is qu-----erit--is -a----d illam celes
+                      0 ------------|---------||
+    query             0 autem est christus omnis qui invenit eum manebit i---n ---e-
+    
+    target           27 te---m patriam qu---a---m toci-us prope-ra- 58
+                     24 ||---| 30
+    query            53 ternum -euouae Quod autem cecidit in terram 95
+
+-- fused_12 --
+  OCR:      'eme est vrsator at est Christistus'
+  Assigned: 'bonam hii sunt qui'
+  Words:    [102..106) consumed=4
+  NW score: k=4 (pre-snap), norm=-2.3445
+  Anchor:   word 106 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 eme est vrsator at est Christi-s--t--us 34
+                      0 ------------.|-.|. 18
+    query             0 ------------bo-nam -----h-i--i sunt qui 18
+
+-- fused_13 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [106..106) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_14 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [106..106) consumed=0
+  Alignment:
+    (no words left)
+=== END DEBUG ===
+

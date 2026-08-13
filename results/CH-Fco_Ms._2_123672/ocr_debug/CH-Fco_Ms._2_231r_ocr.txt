@@ -1,0 +1,163 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'non tim it udatusesupra fir'
+  [fused_1] 'man pe tramste est qui contempsit vitam mun'
+  [fused_2] 'di pervenit ad celestia reg na tundatus stus'
+  [fused_3] 'germnabit sicut li . Et florebit i numan'
+  [fused_4] 'te domim. lantatus in domo domini'
+  [fused_5] 'atrus domus no stri et flore ste cognovit'
+  [fused_6] 'muli ao dit mirabi lia magna'
+  [fused_7] 'et exoravit al muni . Et inventus est um'
+  [fused_8] 'mero Sanctorumst qui contempsit vitam'
+  [fused_9] 'mundi et pervenit ad cele stiareg na Etm.'
+  [fused_10] 'lii hominum scito te qua dominus Sanctum'
+  [fused_11] 'tenmu mini biennit e l exovaecuto bone'
+  [fused_12] 'nomitatis tue coronasti eum domine e Verbi eroras'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'non tim it udatusesupra fir'
+  Assigned: 'non timuit Fundatus enim erat supra firmam'
+  Words:    [0..7) consumed=7
+  NW score: k=7 (pre-snap), norm=4.0980
+  Anchor:   word 14 (within_chant_7), diff=7, snapped=False, forced=False
+  Alignment:
+    target            0 non tim it -u-datus------e----supra fir--- 27
+                      0 |||  3
+    query             0 non timuit Fundatus enim erat supra firmam 42
+
+-- fused_1 --
+  OCR:      'man pe tramste est qui contempsit vitam mun'
+  Assigned: 'petram Iste est qui contempsit vitam mun'
+  Words:    [7..14) consumed=7
+  NW score: k=7 (pre-snap), norm=6.1416
+  Anchor:   word 14 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 man pe tram--ste est qui contempsit vitam mun-- 43
+                      0 ----||-||||--||| 16
+    query             0 ----pe-tram Iste est qui contempsit vitam mundi 42
+
+-- fused_2 --
+  OCR:      'di pervenit ad celestia reg na tundatus stus'
+  Assigned: 'di et pervenit ad celestia regna Fundatus Iustus'
+  Words:    [14..21) consumed=7
+  NW score: k=7 (pre-snap), norm=6.4723
+  Anchor:   word 21 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 di pervenit ad celestia reg na tundatus --stus 44
+                      0 ..  2
+    query             0 et pervenit ad celestia reg-na Fundatus Iustus 45
+
+-- fused_3 --
+  OCR:      'germnabit sicut li . Et florebit i numan'
+  Assigned: 'germinabit sicut lilium Et florebit in e'
+  Words:    [21..28) consumed=7
+  NW score: k=6 (pre-snap), norm=5.5916
+  Anchor:   word 28 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 germ-nabit sicut --li . Et florebit i- ----numan 40
+                      0 ||||-||||| 10
+    query             0 germinabit sicut lilium Et florebit in eternum-- 46
+
+-- fused_4 --
+  OCR:      'te domim. lantatus in domo domini'
+  Assigned: 'ternum ante dominum Plantatus in domo domini in'
+  Words:    [28..35) consumed=7
+  NW score: k=6 (pre-snap), norm=6.3532
+  Anchor:   word 35 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 --te domi--m. -lantatus in domo domini--- 33
+                      0 --||  4
+    query             0 ante dominum- Plantatus in domo domini in 40
+
+-- fused_5 --
+  OCR:      'atrus domus no stri et flore ste cognovit'
+  Assigned: 'atriis domus dei nostri Et florebit Iste cognovit'
+  Words:    [35..43) consumed=8
+  NW score: k=8 (pre-snap), norm=5.4438
+  Anchor:   word 43 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 atr-us domus---- no stri et flore--- -ste cognovit 41
+                      0 |||-.|  6
+    query             0 atriis domus dei no-stri Et florebit Iste cognovit 49
+
+-- fused_6 --
+  OCR:      'muli ao dit mirabi lia magna'
+  Assigned: 'iusticiam et vidit mirabilia magna'
+  Words:    [43..48) consumed=5
+  NW score: k=5 (pre-snap), norm=4.0189
+  Anchor:   word 48 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 mu---li-- ao --dit mirabi lia magna 28
+                      0 .|---.|--  9
+    query             0 iusticiam et vidit mirabi-lia magna 34
+
+-- fused_7 --
+  OCR:      'et exoravit al muni . Et inventus est um'
+  Assigned: 'et exoravit altissimum Et inventus est in'
+  Words:    [48..55) consumed=7
+  NW score: k=7 (pre-snap), norm=5.3090
+  Anchor:   word 55 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 et exoravit al---- muni . Et inventus est um 40
+                      0 ||  2
+    query             0 et exoravit altissimu---m Et inventus est in 41
+
+-- fused_8 --
+  OCR:      'mero Sanctorumst qui contempsit vitam'
+  Assigned: 'numero sanctorum Iste est qui contempsit vitam'
+  Words:    [55..62) consumed=7
+  NW score: k=7 (pre-snap), norm=6.0113
+  Anchor:   word 62 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 --mero Sanctorum-------st qui contempsit vitam 37
+                      0 --||||  6
+    query             0 numero sanctorum Iste est qui contempsit vitam 46
+
+-- fused_9 --
+  OCR:      'mundi et pervenit ad cele stiareg na Etm.'
+  Assigned: 'mundi et pervenit ad celestia regna'
+  Words:    [62..68) consumed=6
+  NW score: k=7 (pre-snap), norm=6.7137
+  Anchor:   word 68 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 mundi et pervenit ad cele stia-reg na Etm. 41
+                      0 |||||  5
+    query             0 mundi et pervenit ad cele-stia reg-na----- 35
+
+-- fused_10 --
+  OCR:      'lii hominum scito te qua dominus Sanctum'
+  Assigned: 'Et inventus Filii hominum scitote quia dominus sanctum'
+  Words:    [68..76) consumed=8
+  NW score: k=8 (pre-snap), norm=5.1425
+  Anchor:   word 76 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 --------------lii hominum scito te qu-a dominus Sanctum 40
+                      0 --------------||| 17
+    query             0 Et inventus Filii hominum scito-te quia dominus sanctum 54
+
+-- fused_11 --
+  OCR:      'tenmu mini biennit e l exovaecuto bone'
+  Assigned: 'suum mirificavit ~Cum invocarem euouae Scuto bone'
+  Words:    [76..83) consumed=7
+  NW score: k=7 (pre-snap), norm=1.5527
+  Anchor:   word 83 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 tenmu mini biennit ---e --------l exovae--cuto bone 38
+                      0 ...|-  5
+    query             0 suum- miri-ficavit ~Cum invocarem euouae Scuto bone 49
+
+-- fused_12 --
+  OCR:      'nomitatis tue coronasti eum domine e Verbi eroras'
+  Assigned: 'voluntatis tue coronasti eum domine ~Verba'
+  Words:    [83..89) consumed=6
+  NW score: k=6 (pre-snap), norm=5.1361
+  Anchor:   word 89 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 no-mitatis tue coronasti eum domine e Verbi eroras 49
+                      0 .|-..||||| 10
+    query             0 voluntatis tue coronasti eum domine -~Verb------a- 42
+=== END DEBUG ===
+

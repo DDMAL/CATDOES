@@ -1,0 +1,163 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'cendentem de Celo ornatam moni libus suis alle Lya'
+  [fused_1] 'AlleLuya de Lu t substulite'
+  [fused_2] 'me inspir tu in Montem magmettum et vidi'
+  [fused_3] 'aludium nocem in ce no aligelorum multorum dicen'
+  [fused_4] ' um cimete dominum et date clarita tem vlli et adora'
+  [fused_5] 'celum et terraet Fontes'
+  [fused_6] 'cnum dieuira uVavidi ange'
+  [fused_7] 'lum Dei volantem per medium celi voce magna clamantem'
+  [fused_8] 'cen tem emente emenenis a vmo an'
+  [fused_9] 'pul tra facta eet ale Et odor vestimen'
+  [fused_10] 'torum ejus super omni aromarbis alene'
+  [fused_11] ' Tanns distillans labia eius mel et lac sub'
+  [fused_12] 'mgnoe nus et otor qu decantabat popilus libtra'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'cendentem de Celo ornatam moni libus suis alle Lya'
+  Assigned: 'de celo ornatam monilibus suis alleluya'
+  Words:    [0..6) consumed=6
+  NW score: k=6 (pre-snap), norm=5.2538
+  Anchor:   word 10 (within_chant_7), diff=4, snapped=False, forced=False
+  Alignment:
+    target            0 cendentem de Celo ornatam moni libus suis alle Lya 50
+                      0 ----------|| 12
+    query             0 ----------de celo ornatam moni-libus suis alleluya 39
+
+-- fused_1 --
+  OCR:      'AlleLuya de Lu t substulite'
+  Assigned: 'alleluya alleluya Et substulit'
+  Words:    [6..10) consumed=4
+  NW score: k=4 (pre-snap), norm=3.7596
+  Anchor:   word 10 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 AlleLuya --de Lu-- -t substulite 27
+                      0 .|||.|||  8
+    query             0 alleluya alle-luya Et substulit- 30
+
+-- fused_2 --
+  OCR:      'me inspir tu in Montem magmettum et vidi'
+  Assigned: 'me in spiritu in montem magnum et altum Et'
+  Words:    [10..19) consumed=9
+  NW score: k=10 (pre-snap), norm=5.6274
+  Anchor:   word 19 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 me in-spir tu in Montem mag--m-et---tum et vidi 40
+                      0 ||  2
+    query             0 me in spiritu in montem magnum et altum Et----- 42
+
+-- fused_3 --
+  OCR:      'aludium nocem in ce no aligelorum multorum dicen'
+  Assigned: 'vidi Audivi vocem in celo angelorum multorum dicen'
+  Words:    [19..27) consumed=8
+  NW score: k=8 (pre-snap), norm=4.5373
+  Anchor:   word 27 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ----aludium nocem in ce no aligelorum multorum dicen---- 48
+                      0 ----..|||.. 11
+    query             0 vidi Audivi vocem in ce-lo a-ngelorum multorum dicencium 54
+
+-- fused_4 --
+  OCR:      'um cimete dominum et date clarita tem vlli et adora'
+  Assigned: 'cium Timete dominum et date claritatem illi et adora'
+  Words:    [27..35) consumed=8
+  NW score: k=8 (pre-snap), norm=6.4013
+  Anchor:   word 35 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 um cimete dominum et date clarita tem vlli et adora-- 51
+                      0 ---.|||||  9
+    query             0 ---Timete dominum et date clarita-tem illi et adorate 49
+
+-- fused_5 --
+  OCR:      'celum et terraet Fontes'
+  Assigned: 'te eum qui fecit celum et terram mare et fontes aqua'
+  Words:    [35..45) consumed=10
+  NW score: k=9 (pre-snap), norm=3.1435
+  Anchor:   word 45 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 --------------celum et terra-------et Fontes-------- 23
+                      0 --------------||||| 19
+    query             0 eum qui fecit celum et terram mare et fontes aquarum 52
+
+-- fused_6 --
+  OCR:      'cnum dieuira uVavidi ange'
+  Assigned: 'rum alleluya alleluya Vidi ange'
+  Words:    [45..49) consumed=4
+  NW score: k=4 (pre-snap), norm=0.6938
+  Anchor:   word 49 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ---cnu-m -die-uira uVavidi ange--- 25
+                      0 ---..|-.  8
+    query             0 alleluya allelu-ya -V--idi angelum 30
+
+-- fused_7 --
+  OCR:      'lum Dei volantem per medium celi voce magna clamantem'
+  Assigned: 'lum dei volantem per medium celum voce magna clamantem'
+  Words:    [49..57) consumed=8
+  NW score: k=8 (pre-snap), norm=6.6630
+  Anchor:   word 57 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 lum Dei volantem per medium cel-i voce magna clamantem 53
+                      0 ----.||  7
+    query             0 ----dei volantem per medium celum voce magna clamantem 50
+
+-- fused_8 --
+  OCR:      'cen tem emente emenenis a vmo an'
+  Assigned: 'et dicentem Timete Veniens a libano quam'
+  Words:    [57..64) consumed=7
+  NW score: k=6 (pre-snap), norm=2.2709
+  Anchor:   word 64 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 -----cen tem -emente emen-enis a ---vmo --an 32
+                      0 -----|||-||| 12
+    query             0 et dicen-tem Time-te -Venien-s a libano quam 40
+
+-- fused_9 --
+  OCR:      'pul tra facta eet ale Et odor vestimen'
+  Assigned: 'pulchra facta est alleluya Et odor vestimen'
+  Words:    [64..71) consumed=7
+  NW score: k=7 (pre-snap), norm=5.2215
+  Anchor:   word 71 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 pul tra facta eet a-le---- Et odor vestimen----- 38
+                      0 |||..||  7
+    query             0 pulchra facta est alleluya Et odor vestimentorum 48
+
+-- fused_10 --
+  OCR:      'torum ejus super omni aromarbis alene'
+  Assigned: 'torum eius super omnia aromatha alleluya alle'
+  Words:    [71..77) consumed=6
+  NW score: k=4 (pre-snap), norm=3.1236
+  Anchor:   word 77 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 torum ejus super omni- aromarbis a-le-------ne---- 37
+                      0 ------|.|| 10
+    query             0 ------eius super omnia aroma-tha alleluya alleluya 43
+
+-- fused_11 --
+  OCR:      'Tanns distillans labia eius mel et lac sub'
+  Assigned: 'luya Favus distillans labia eius mel et lac sub'
+  Words:    [77..85) consumed=8
+  NW score: k=8 (pre-snap), norm=7.0714
+  Anchor:   word 85 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 Tanns distillans labia eius mel et lac sub 42
+                      0 .|..|  5
+    query             0 Favus distillans labia eius mel et lac sub 42
+
+-- fused_12 --
+  OCR:      'mgnoe nus et otor qu decantabat popilus libtra'
+  Assigned: 'lingua eius Et odor Decantabat populus israhel'
+  Words:    [85..92) consumed=7
+  NW score: k=7 (pre-snap), norm=3.1304
+  Anchor:   word 92 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 mgn-oe -nus et otor qu decantabat popilus libtra--- 46
+                      0 ..|-..  6
+    query             0 lingua eius Et odor--- Decantabat populus -i-srahel 46
+=== END DEBUG ===
+

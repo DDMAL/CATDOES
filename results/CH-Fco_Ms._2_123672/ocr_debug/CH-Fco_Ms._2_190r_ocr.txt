@@ -1,0 +1,221 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] ''
+  [fused_1] 'sanctiq pxpisti amore minas hominum contempserunt'
+  [fused_2] 'Sancti Martyres in regno celorum exultant cum Angelis o'
+  [fused_3] 'quam preciosa est mors sanctorum qui assidue assistunt ante'
+  [fused_4] 'ceme non sunt separati evovae'
+  [fused_5] 'ad respas A . delaudes pres de comni mrin'
+  [fused_6] 'capitua mmr de Sancto Johanne ad magsnr'
+  [fused_7] 'sti sunt due Olilie et duo candela'
+  [fused_8] 'e dominum habent potestatem claudere ce'
+  [fused_9] 'ium nibibus et a perire portas nis quia Liigue eorum'
+  [fused_10] 'lout supra in vig apostolorum Pete Pauli ad'
+  [fused_11] 'visam de Viglia non dicitur gleriam excelsis'
+  [fused_12] 'claves celi facte sunt eovae one invata Sancti Lconis p teon anus in nocte dixerimus ex let pro Sancto Le'
+  [fused_13] 'ornatione in vigil apostolor Petri Pauli ad vespa PetroJohannes erel aliao sic posite sut'
+  [fused_14] 'tp die p Cofitebor P. Bil pratilandate pqu landidor'
+  [fused_15] 'capellani milit herodes Y Aurealuce V . In omnem terram exint so mis eorum ad magstri aut u ed pastor omnim'
+  [fused_16] 'princeps aposto lorum tibi tradite suilt claves Regnn celorum oio dom mnus. Eta '
+  [fused_17] 'Coyae. Aegem apostolo do nomne terram  ti'
+  [fused_18] 'tines orbis . lectos prima '
+  [fused_19] 'teus ante et Johannes ascente'
+  [fused_20] 'y mon pe tre equam vct '
+  [fused_21] 'in vota rem te no inter'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      ''
+  Assigned: 'sancti qui pro xpisti amore minas hominum contempserunt sancti martyres in regno celorum exultant cum angelis o quam preciosa est mors sanctorum qui assidue assistunt ante dominum et ab invicem non sunt separati euouae Isti sunt due olive et duo candela'
+  Words:    [0..41) consumed=41
+
+-- fused_1 --
+  OCR:      'sanctiq pxpisti amore minas hominum contempserunt'
+  Assigned: 'bra lucencia ante dominum habent potestatem claudere ce'
+  Words:    [41..48) consumed=7
+  NW score: k=4 (pre-snap), norm=-0.2160
+  Anchor:   word 48 (within_chant_7), diff=3, snapped=False, forced=True
+  Alignment:
+    target            0 --sanctiq pxpisti amore minas hominum co----ntem----pser----
+                      0 --..||-|.
+    query             0 lucenc-ia ---ante -do---minum haben-t potestatem claudere ce
+    
+    target           46 -unt 49
+                      9 -|-. 13
+    query            51 lu-m 54
+
+-- fused_2 --
+  OCR:      'Sancti Martyres in regno celorum exultant cum Angelis o'
+  Assigned: 'lum nubibus et aperire portas eius quia lingue eorum'
+  Words:    [48..56) consumed=8
+  NW score: k=10 (pre-snap), norm=-0.4874
+  Anchor:   word 56 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 Sancti--- Martyres ----in regno celor-um exultant cu-m -Ang-
+                      0 --|..|---
+    query             0 --nubibus ------et aperi--re--- --portas eiu----s quia lingu
+    
+    target           49 elis -o--- 55
+                      9 |--- 13
+    query            41 e--- eorum 48
+
+-- fused_3 --
+  OCR:      'quam preciosa est mors sanctorum qui assidue assistunt ante'
+  Assigned: 'claves celi facte sunt euouae Tu es pastor ovium princeps apostolorum tibi tradite'
+  Words:    [56..69) consumed=13
+  NW score: k=13 (pre-snap), norm=-0.5032
+  Anchor:   word 61 (within_chant_7), diff=8, snapped=False, forced=False
+  Alignment:
+    target            0 qua--m preciosa- e-s--t -mo-------rs sanctor----um qui----- 
+                      0 ..|--.
+    query             0 claves -celi facte sunt euouae Tu es pa-stor ovium princeps 
+    
+    target           37 a--s--sidue assistunt a-nte 59
+                      6 |--|--...|. 17
+    query            58 apostolorum tibi--- tradite 82
+
+-- fused_4 --
+  OCR:      'ceme non sunt separati evovae'
+  Assigned: 'sunt claves regni celorum'
+  Words:    [69..73) consumed=4
+  NW score: k=5 (pre-snap), norm=-0.3283
+  Anchor:   word 73 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 ceme non sunt ---separ-ati -evovae 29
+                      0 ---------|||| 13
+    query             0 ---------sunt claves regni celorum 25
+
+-- fused_5 --
+  OCR:      'ad respas A . delaudes pres de comni mrin'
+  Assigned: 'euouae Regem apostolorum dominum'
+  Words:    [73..77) consumed=4
+  NW score: k=5 (pre-snap), norm=-1.1907
+  Anchor:   word 77 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 ad re-spas A . delaudes -p------res de comni mrin-- 41
+                      0 ----|-..|----. 14
+    query             0 ----euoua----e Re---gem apostolorum d---om-----inum 32
+
+-- fused_6 --
+  OCR:      'capitua mmr de Sancto Johanne ad magsnr'
+  Assigned: 'Simon petre antequam'
+  Words:    [77..80) consumed=3
+  NW score: k=8 (pre-snap), norm=-0.8449
+  Anchor:   word 80 (within_chant_7), diff=5, snapped=False, forced=True
+  Alignment:
+    target            0 capitua mmr de Sanct-o Johanne- ad magsnr 39
+                      0 --.|----|.. 11
+    query             0 --Si----mon pe-----tre ---antequa--m----- 20
+
+-- fused_7 --
+  OCR:      'sti sunt due Olilie et duo candela'
+  Assigned: 'de navi vocarem te novi te et'
+  Words:    [80..87) consumed=7
+  NW score: k=7 (pre-snap), norm=-1.8471
+  Anchor:   word 87 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ----sti ---sunt due -Olilie et duo candela 34
+                      0 ----..|  7
+    query             0 de navi vocarem -te novi te et------------ 29
+
+-- fused_8 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [87..87) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_9 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [87..87) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_10 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [87..87) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_11 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [87..87) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_12 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [87..87) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_13 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [87..87) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_14 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [87..87) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_15 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [87..87) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_16 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [87..87) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_17 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [87..87) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_18 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [87..87) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_19 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [87..87) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_20 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [87..87) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_21 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [87..87) consumed=0
+  Alignment:
+    (no words left)
+=== END DEBUG ===
+

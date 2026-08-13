@@ -1,0 +1,163 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'menumpermansit ncruce demque moriturus huic ma'
+  [fused_1] 'trem suam virginem virgini vit quia'
+  [fused_2] 'dae teae sieapern itos'
+  [fused_3] 'Etmplennt um dominus ppontu la prena et'
+  [fused_4] 'sectus ocunditatem et exultationem thesau'
+  [fused_5] 'mant suy um et imple. '
+  [fused_6] 'em suscipiam te um et ponam te sicut'
+  [fused_7] 'signa culum in conspect o . Quoni Mego cleg'
+  [fused_8] 'Vito domimisnto fidelis usque'
+  [fused_9] 'aod moos temeu essi pretibince Qnoni a'
+  [fused_10] ' ste est Iohannes qui supra Pectus domi  ce'
+  [fused_11] 're cub eatus apostouscui revelata'
+  [fused_12] 'domnti licte tace aclaaomenta Canse'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'menumpermansit ncruce demque moriturus huic ma'
+  Assigned: 'in evum permansit In cruce denique moriturus huic ma'
+  Words:    [0..9) consumed=9
+  NW score: k=9 (pre-snap), norm=5.4183
+  Anchor:   word 9 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 --menum-permansit -n-cruce de-mque moriturus huic ma---- 46
+                      0 --.|.||-||||||||| 17
+    query             0 in evum permansit In cruce denique moriturus huic matrem 56
+
+-- fused_1 --
+  OCR:      'trem suam virginem virgini vit quia'
+  Assigned: 'trem suam virginem virgini comendavit Quia'
+  Words:    [9..14) consumed=5
+  NW score: k=5 (pre-snap), norm=5.0853
+  Anchor:   word 14 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 trem suam virginem virgini -------vit quia 35
+                      0 -----||||  9
+    query             0 -----suam virginem virgini comendavit Quia 37
+
+-- fused_2 --
+  OCR:      'dae teae sieapern itos'
+  Assigned: 'In medio ecclesie aperuit os eius'
+  Words:    [14..20) consumed=6
+  NW score: k=5 (pre-snap), norm=1.4505
+  Anchor:   word 20 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 -----dae te--ae sie-apern it-o-----s 22
+                      0 -----|..  8
+    query             0 In medio -eccle-sie aper-uit os eius 33
+
+-- fused_3 --
+  OCR:      'Etmplennt um dominus ppontu la prena et'
+  Assigned: 'Et implevit eum dominus spiritu sapiencie et in'
+  Words:    [20..28) consumed=8
+  NW score: k=7 (pre-snap), norm=3.8383
+  Anchor:   word 28 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 Et--mplennt -um dominus -ppontu la pren--a et------------ 39
+                      0 ||--||||..| 11
+    query             0 Et implevit eum dominus spiritu sa-piencie et intellectus 56
+
+-- fused_4 --
+  OCR:      'sectus ocunditatem et exultationem thesau'
+  Assigned: 'tellectus Iocunditatem et exultationem thesau'
+  Words:    [28..32) consumed=4
+  NW score: k=4 (pre-snap), norm=5.3016
+  Anchor:   word 32 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 sectus ocunditatem et exultationem thesau------- 41
+                      0 ------.||||||||||| 18
+    query             0 ------Iocunditatem et exultationem thesaurizavit 42
+
+-- fused_5 --
+  OCR:      'mant suy um et imple.'
+  Assigned: 'rizavit super eum Et implevit In illum'
+  Words:    [32..38) consumed=6
+  NW score: k=4 (pre-snap), norm=2.0476
+  Anchor:   word 38 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 mant su--y -um et imple-----------. 21
+                      0 -----||--. 10
+    query             0 -----super eum Et implevit In illum 30
+
+-- fused_6 --
+  OCR:      'em suscipiam te um et ponam te sicut'
+  Assigned: 'diem suscipiam te servum meum et ponam te sicut'
+  Words:    [38..47) consumed=9
+  NW score: k=9 (pre-snap), norm=6.0048
+  Anchor:   word 47 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 --em suscipiam te ---------um et ponam te sicut 36
+                      0 --||  4
+    query             0 diem suscipiam te servum meum et ponam te sicut 47
+
+-- fused_7 --
+  OCR:      'signa culum in conspect o . Quoni Mego cleg'
+  Assigned: 'signaculum in conspectu meo Quoniam ego elegi'
+  Words:    [47..54) consumed=7
+  NW score: k=7 (pre-snap), norm=5.4787
+  Anchor:   word 54 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 signa culum in conspect- --o . Quoni-- Mego cleg- 43
+                      0 |||||-||||| 11
+    query             0 signa-culum in conspectu meo-- Quoniam -ego elegi 45
+
+-- fused_8 --
+  OCR:      'Vito domimisnto fidelis usque'
+  Assigned: 'te dicit dominus Esto fidelis usque'
+  Words:    [54..60) consumed=6
+  NW score: k=6 (pre-snap), norm=4.2688
+  Anchor:   word 60 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -----Vito domimis--nto fidelis usque 29
+                      0 -----.||-  9
+    query             0 te dicit- dominus Esto fidelis usque 35
+
+-- fused_9 --
+  OCR:      'aod moos temeu essi pretibince Qnoni a'
+  Assigned: 'ad mortem et dabo tibi coronam vite Quoniam'
+  Words:    [60..68) consumed=8
+  NW score: k=8 (pre-snap), norm=1.4596
+  Anchor:   word 68 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 aod moos tem-eu essi pretibinc----------e Qnoni a- 38
+                      0 |-|  3
+    query             0 a-d mo--rtem et dabo ---tibi coronam vite Quoni-am 43
+
+-- fused_10 --
+  OCR:      'ste est Iohannes qui supra Pectus domi  ce'
+  Assigned: 'Iste est iohannes qui supra pectus domini in cena'
+  Words:    [68..77) consumed=9
+  NW score: k=7 (pre-snap), norm=6.0486
+  Anchor:   word 77 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 -ste est Iohannes qui supra Pectus dom--i -- ce-- 42
+                      0 -|||  4
+    query             0 Iste est iohannes qui supra pectus domini in cena 49
+
+-- fused_11 --
+  OCR:      're cub eatus apostouscui revelata'
+  Assigned: 'recubuit Beatus apostolus cui revelata'
+  Words:    [77..82) consumed=5
+  NW score: k=5 (pre-snap), norm=6.0714
+  Anchor:   word 82 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 re cub--- -eatus aposto-us-cui revelata 33
+                      0 ||-|||---  9
+    query             0 re-cubuit Beatus apostolus cui revelata 38
+
+-- fused_12 --
+  OCR:      'domnti licte tace aclaaomenta Canse'
+  Assigned: 'sunt secreta celestia Fluenta evangelii'
+  Words:    [82..87) consumed=5
+  NW score: k=5 (pre-snap), norm=0.4872
+  Anchor:   word 87 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 domnti licte ta-ce acl----a-aomenta -Canse--- 35
+                      0 -..||-  6
+    query             0 -sunt- secre-ta ce---lestia Fluenta evangelii 39
+=== END DEBUG ===
+

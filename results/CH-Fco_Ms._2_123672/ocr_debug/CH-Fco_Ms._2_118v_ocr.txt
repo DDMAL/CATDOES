@@ -1,0 +1,167 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'Alleluya alle Luya ale quam audissem'
+  [fused_1] 'cecidi ut adorarem ante pedes Angeli qui michi hec'
+  [fused_2] 'ostende bat etdicit ma Hic deimi  vidi Jhe'
+  [fused_3] 'Insalem descendentem delo orna tam auro mundo'
+  [fused_4] 'Clapidi bus preciosis intextam Aveluya'
+  [fused_5] 'alle Luastructura ri eus ex'
+  [fused_6] 'lapide Iaspide ipsa vero auro mundo simile introm'
+  [fused_7] 'ndiademate capitis aaron lapides'
+  [fused_8] 'preciosiugebant . Dum perficeretur'
+  [fused_9] 'nun anenis une  '
+  [fused_10] 'poderis quam habebat totus erat orbis terrarum et pa'
+  [fused_11] 'rentum magnalia in quatuor ordinibus lapidum erat'
+  [fused_12] 'sculyta   Nate tu eihemsalemster'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'Alleluya alle Luya ale quam audissem'
+  Assigned: 'alleluya alleluya alleluya Postquam audissem et'
+  Words:    [0..6) consumed=6
+  NW score: k=5 (pre-snap), norm=5.2262
+  Anchor:   word 6 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 Alleluya alle Luya a-le---- ----quam audissem--- 36
+                      0 .|||||||  8
+    query             0 alleluya alle-luya alleluya Postquam audissem et 47
+
+-- fused_1 --
+  OCR:      'cecidi ut adorarem ante pedes Angeli qui michi hec'
+  Assigned: 'vidissem cecidi ut adorarem ante pedes angeli qui michi hec'
+  Words:    [6..16) consumed=10
+  NW score: k=10 (pre-snap), norm=6.5545
+  Anchor:   word 16 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ---------cecidi ut adorarem ante pedes Angeli qui michi hec
+                      0 ---------||||||
+    query             0 vidissem cecidi ut adorarem ante pedes angeli qui michi hec
+    
+    target           50
+                     15
+    query            59
+
+-- fused_2 --
+  OCR:      'ostende bat etdicit ma Hic deimi  vidi Jhe'
+  Assigned: 'ostendebat et dixit michi Hic deum Vidi ihe'
+  Words:    [16..24) consumed=8
+  NW score: k=7 (pre-snap), norm=4.3240
+  Anchor:   word 24 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 ostende bat et-dicit m---a Hic deimi  vidi Jhe------- 42
+                      0 |||||||-||| 11
+    query             0 ostende-bat et dixit michi Hic deum-- Vidi iherusalem 50
+
+-- fused_3 --
+  OCR:      'Insalem descendentem delo orna tam auro mundo'
+  Assigned: 'rusalem descendentem de celo ornatam auro mundo'
+  Words:    [24..30) consumed=6
+  NW score: k=6 (pre-snap), norm=5.7289
+  Anchor:   word 30 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 Insalem descendentem d---elo orna tam auro mundo 45
+                      0 --------|||||||||||| 20
+    query             0 --------descendentem de celo orna-tam auro mundo 39
+
+-- fused_4 --
+  OCR:      'Clapidi bus preciosis intextam Aveluya'
+  Assigned: 'et lapidibus preciosis intextam Alleluya'
+  Words:    [30..35) consumed=5
+  NW score: k=5 (pre-snap), norm=6.3098
+  Anchor:   word 35 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 --Clapidi bus preciosis intextam A-veluya 38
+                      0 --.||||||-||| 13
+    query             0 et lapidi-bus preciosis intextam Alleluya 40
+
+-- fused_5 --
+  OCR:      'alle Luastructura ri eus ex'
+  Assigned: 'alleluya Et erat structura muri eius ex'
+  Words:    [35..42) consumed=7
+  NW score: k=7 (pre-snap), norm=4.2527
+  Anchor:   word 42 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 alle------- Lua--structura --ri e-us ex 27
+                      0 ||||------- 11
+    query             0 alleluya Et erat structura muri eius ex 39
+
+-- fused_6 --
+  OCR:      'lapide Iaspide ipsa vero auro mundo simile introm'
+  Assigned: 'lapide iaspide ipsa vero auro mundo simile vitro mun'
+  Words:    [42..51) consumed=9
+  NW score: k=8 (pre-snap), norm=7.0519
+  Anchor:   word 51 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 lapide Iaspide ipsa vero auro mundo simile -intro-m---- 49
+                      0 ||||||  6
+    query             0 lapide iaspide ipsa vero auro mundo simile vi-tro mundo 54
+
+-- fused_7 --
+  OCR:      'ndiademate capitis aaron lapides'
+  Assigned: 'do Alleluya In diademate capitis aaron lapides'
+  Words:    [51..57) consumed=6
+  NW score: k=6 (pre-snap), norm=5.7960
+  Anchor:   word 57 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ----------n-diademate capitis aaron lapides 32
+                      0 ----------|-||||||||| 21
+    query             0 Alleluya In diademate capitis aaron lapides 43
+
+-- fused_8 --
+  OCR:      'preciosiugebant . Dum perficeretur'
+  Assigned: 'preciosi fulgebant Dum perficeretur opus dei alle'
+  Words:    [57..64) consumed=7
+  NW score: k=4 (pre-snap), norm=6.6384
+  Anchor:   word 64 (within_chant_7), diff=3, snapped=False, forced=True
+  Alignment:
+    target            0 preciosi--u-gebant . Dum perficeretur------------------ 34
+                      0 ||||||||--|-||||||-- 20
+    query             0 preciosi fulgebant-- Dum perficeretur opus dei alleluya 53
+
+-- fused_9 --
+  OCR:      'nun anenis une'
+  Assigned: 'luya alleluya alleluya In veste enim'
+  Words:    [64..69) consumed=5
+  NW score: k=4 (pre-snap), norm=-1.8345
+  Anchor:   word 69 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 ----nu-n a-ne------n--is-- un-e 14
+                      0 ----.|-.  8
+    query             0 alleluya alleluya In veste enim 31
+
+-- fused_10 --
+  OCR:      'poderis quam habebat totus erat orbis terrarum et pa'
+  Assigned: 'poderis quam habebat totus erat orbis terrarum et pa'
+  Words:    [69..78) consumed=9
+  NW score: k=8 (pre-snap), norm=7.5083
+  Anchor:   word 78 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 poderis quam habebat totus erat orbis terrarum et pa------ 52
+                      0 |||||||  7
+    query             0 poderis quam habebat totus erat orbis terrarum et parentum 58
+
+-- fused_11 --
+  OCR:      'rentum magnalia in quatuor ordinibus lapidum erat'
+  Assigned: 'rentum magnalia in quattuor ordinibus lapidum erant'
+  Words:    [78..84) consumed=6
+  NW score: k=6 (pre-snap), norm=6.3963
+  Anchor:   word 84 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 rentum magnalia in qua-tuor ordinibus lapidum era-t 49
+                      0 -------|||||||| 15
+    query             0 -------magnalia in quattuor ordinibus lapidum erant 44
+
+-- fused_12 --
+  OCR:      'sculyta   Nate tu eihemsalemster'
+  Assigned: 'sculpta Dum Platee tue iherusalem sternentur'
+  Words:    [84..90) consumed=6
+  NW score: k=6 (pre-snap), norm=3.3579
+  Anchor:   word 90 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 sculyta ---  Nat-e tu- eihe-msalem-ste------r 32
+                      0 ||||.||  7
+    query             0 sculpta Dum Platee tue -iherusalem sternentur 44
+=== END DEBUG ===
+

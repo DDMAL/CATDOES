@@ -1,0 +1,167 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'maore . Domine quid mulis evovae'
+  [fused_1] 'iem festum sacratissime virginis'
+  [fused_2] 'bre mus qualiter passa sit beata'
+  [fused_3] 'ag nes ad memo nam re vote nns tertio.'
+  [fused_4] 'mo etatis sue anno mortem perdidit et vntam in'
+  [fused_5] 've nnt Quia solum u dile rit au'
+  [fused_6] 'cto rem nfantia quidem compurabatur ii an'
+  [fused_7] 'nis sed erat senectus men .mma Sema'
+  [fused_8] 'Pertram meam et collum menm ciixit lapi'
+  [fused_9] '0 tra didit antibusi is in extimabiles mar'
+  [fused_10] 'gari tas . et circundedit me vernantibus atque'
+  [fused_11] 'coriscantibus gemi mmno. omint signim'
+  [fused_12] 'in faciem mu an nt millum preter eum amatorem ao'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'maore . Domine quid mulis evovae'
+  Assigned: 'amatorem admittam ~Domine quid multiplicati euouae'
+  Words:    [0..6) consumed=6
+  NW score: k=6 (pre-snap), norm=3.0500
+  Anchor:   word 11 (within_chant_7), diff=5, snapped=False, forced=False
+  Alignment:
+    target            0 -ma-ore- -------. -Domine quid mu----li---s evovae 32
+                      0 -||-|||-  8
+    query             0 amatorem admittam ~Domine quid multiplicati euouae 50
+
+-- fused_1 --
+  OCR:      'iem festum sacratissime virginis'
+  Assigned: 'Diem festum sacratissime virginis ce'
+  Words:    [6..11) consumed=5
+  NW score: k=4 (pre-snap), norm=7.6624
+  Anchor:   word 11 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 -iem festum sacratissime virgini-----------s 32
+                      0 -|||  4
+    query             0 Diem festum sacratissime virginis celebremus 44
+
+-- fused_2 --
+  OCR:      'bre mus qualiter passa sit beata'
+  Assigned: 'lebremus qualiter passa sit beata'
+  Words:    [11..15) consumed=4
+  NW score: k=4 (pre-snap), norm=5.9178
+  Anchor:   word 15 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 bre mus qualiter passa sit beata 32
+                      0 --------|||||||| 16
+    query             0 --------qualiter passa sit beata 24
+
+-- fused_3 --
+  OCR:      'ag nes ad memo nam re vote nns tertio.'
+  Assigned: 'agnes ad memoriam revocemus terciodeci'
+  Words:    [15..20) consumed=5
+  NW score: k=5 (pre-snap), norm=3.8218
+  Anchor:   word 20 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ag nes ad memo nam re vote nns tertio-----. 38
+                      0 ||-|||  6
+    query             0 ag-nes ad memoriam re-voce-mus terciodecimo 40
+
+-- fused_4 --
+  OCR:      'mo etatis sue anno mortem perdidit et vntam in'
+  Assigned: 'mo etatis sue anno mortem perdidit et vitam in'
+  Words:    [20..28) consumed=8
+  NW score: k=7 (pre-snap), norm=6.5508
+  Anchor:   word 28 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 mo etatis sue anno mortem perdidit et vntam in----- 46
+                      0 ---||||||  9
+    query             0 ---etatis sue anno mortem perdidit et vitam invenit 48
+
+-- fused_5 --
+  OCR:      've nnt Quia solum u dile rit au'
+  Assigned: 'venit Quia solum vite di'
+  Words:    [28..32) consumed=4
+  NW score: k=5 (pre-snap), norm=2.8893
+  Anchor:   word 32 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 ve nnt Quia solum ---u dile rit au 31
+                      0 -------|||| 11
+    query             0 -------Quia solum vite dile-xit--- 23
+
+-- fused_6 --
+  OCR:      'cto rem nfantia quidem compurabatur ii an'
+  Assigned: 'lexit auctorem Infantia quidem computabatur in an'
+  Words:    [32..38) consumed=6
+  NW score: k=5 (pre-snap), norm=6.0745
+  Anchor:   word 38 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 --cto rem -nfantia quidem compurabatur ii an--- 41
+                      0 --|||-|||  9
+    query             0 aucto-rem Infantia quidem computabatur in annis 46
+
+-- fused_7 --
+  OCR:      'nis sed erat senectus men .mma Sema'
+  Assigned: 'nis sed erat senectus mentis inmensa'
+  Words:    [38..43) consumed=5
+  NW score: k=5 (pre-snap), norm=4.0638
+  Anchor:   word 52 (within_chant_7), diff=9, snapped=False, forced=False
+  Alignment:
+    target            0 nis sed erat senectus men--- .mma Se-ma 35
+                      0 ----|||  7
+    query             0 ----sed erat senectus mentis inm---ensa 32
+
+-- fused_8 --
+  OCR:      'Pertram meam et collum menm ciixit lapi'
+  Assigned: 'Quia Dextram meam et collum meum cinxit lapidibus preciosis'
+  Words:    [43..52) consumed=9
+  NW score: k=8 (pre-snap), norm=5.0784
+  Anchor:   word 52 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 -----Pertram meam et collum menm ciixit lapi---------------
+                      0 -----.|.||||
+    query             0 Quia Dextram meam et collum meum cinxit lapidibus preciosis
+    
+    target           39
+                     12
+    query            59
+
+-- fused_9 --
+  OCR:      '0 tra didit antibusi is in extimabiles mar'
+  Assigned: 'tradidit auribus meis inextimabiles mar'
+  Words:    [52..57) consumed=5
+  NW score: k=4 (pre-snap), norm=4.7208
+  Anchor:   word 57 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 0 tra didit antibusi --is in extimabiles mar------- 42
+                      0 --|||-||||| 11
+    query             0 --tra-didit auribus- meis in-extimabiles margaritas 46
+
+-- fused_10 --
+  OCR:      'gari tas . et circundedit me vernantibus atque'
+  Assigned: 'garitas Et circumdedit me vernantibus atque'
+  Words:    [57..62) consumed=5
+  NW score: k=5 (pre-snap), norm=5.4081
+  Anchor:   word 62 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 gari tas . et circundedit me vernantibus atque 46
+                      0 -----------.| 13
+    query             0 -----------Et circumdedit me vernantibus atque 35
+
+-- fused_11 --
+  OCR:      'coriscantibus gemi mmno. omint signim'
+  Assigned: 'coruscantibus gemmis Posuit signum'
+  Words:    [62..66) consumed=4
+  NW score: k=4 (pre-snap), norm=4.2291
+  Anchor:   word 66 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 coriscantibus ge-mi- mmno. omint signim 37
+                      0 |||.||||||||| 13
+    query             0 coruscantibus gemmis --Po--sui-t signum 34
+
+-- fused_12 --
+  OCR:      'in faciem mu an nt millum preter eum amatorem ao'
+  Assigned: 'in faciem meam ut nullum preter eum amatorem admittam'
+  Words:    [66..75) consumed=9
+  NW score: k=8 (pre-snap), norm=5.8098
+  Anchor:   word 75 (page_break_77), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 in faciem mu an nt millum preter eum amatorem ------ao 48
+                      0 ||  2
+    query             0 in faciem m-eam ut nullum preter eum amatorem admittam 53
+=== END DEBUG ===
+

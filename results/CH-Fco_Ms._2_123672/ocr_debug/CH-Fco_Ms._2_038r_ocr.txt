@@ -1,0 +1,171 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'ato Domino Angelorum chorus canebat dicens salus Deo'
+  [fused_1] 'nostro sedenti surer Thecio et Agno Pt dominusoac hmo'
+  [fused_2] 'Continet in gremio celum terram'
+  [fused_3] 'gentem virgo de igem trix proceres comi'
+  [fused_4] 'tantur lem . Per quos orbis o vans Christisto sub'
+  [fused_5] 'paina pere P c Smo Dei genitrix que'
+  [fused_6] 'tominoneint et beoincns ie consitiusteraolo'
+  [fused_7] '10 perquosesciens mater virgo in'
+  [fused_8] 'e sine re Salvato rem secu'
+  [fused_9] 'Lorimi ipsum regem Angelo rum sola virgo lacta'
+  [fused_10] 'nt c decelo ple noVomus'
+  [fused_11] 'pudici pectori pum repeite fitteim tacta reso'
+  [fused_12] 'enointam .  '
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'ato Domino Angelorum chorus canebat dicens salus Deo'
+  Assigned: 'euouae Nato domino angelorum chorus canebat dicens salus deo'
+  Words:    [0..9) consumed=9
+  NW score: k=9 (pre-snap), norm=6.2481
+  Anchor:   word 9 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 --------ato Domino Angelorum chorus canebat dicens salus Deo
+                      0 --------|||
+    query             0 euouae Nato domino angelorum chorus canebat dicens salus deo
+    
+    target           52 
+                     11 
+    query            60 
+
+-- fused_1 --
+  OCR:      'nostro sedenti surer Thecio et Agno Pt dominusoac hmo'
+  Assigned: 'nostro sedenti super throno et agno ~Dominus regnavit'
+  Words:    [9..17) consumed=8
+  NW score: k=7 (pre-snap), norm=4.4108
+  Anchor:   word 17 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 nostro sedenti surer Thecio et Agno Pt dominus----oac hmo 53
+                      0 ||||||  6
+    query             0 nostro sedenti super throno et agno --~Dominus regna--vit 53
+
+-- fused_2 --
+  OCR:      'Continet in gremio celum terram'
+  Assigned: 'ii euouae Continet in gremio celum terram'
+  Words:    [17..24) consumed=7
+  NW score: k=7 (pre-snap), norm=5.4424
+  Anchor:   word 24 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ----------Continet in gremio celum terram--- 31
+                      0 ----------|||||||| 18
+    query             0 ii euouae Continet in gremio celum terramque 44
+
+-- fused_3 --
+  OCR:      'gentem virgo de igem trix proceres comi'
+  Assigned: 'que regentem virgo dei genetrix proceres comi'
+  Words:    [24..30) consumed=6
+  NW score: k=6 (pre-snap), norm=5.4188
+  Anchor:   word 30 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 --gentem virgo de- igem trix proceres comi------ 39
+                      0 --||||||  8
+    query             0 regentem virgo dei -genetrix proceres comitantur 47
+
+-- fused_4 --
+  OCR:      'tantur lem . Per quos orbis o vans Christisto sub'
+  Assigned: 'tantur herilem Per quos orbis ovans xpisto sub'
+  Words:    [30..37) consumed=7
+  NW score: k=7 (pre-snap), norm=4.5980
+  Anchor:   word 37 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 tantur lem . Per quos orbis o vans Christisto sub 49
+                      0 ---..|.|||-- 12
+    query             0 ---herilem-- Per quos orbis o-vans ----xpisto sub 39
+
+-- fused_5 --
+  OCR:      'paina pere P c Smo Dei genitrix que'
+  Assigned: 'principe pollet Virgo dei genetrix quem'
+  Words:    [37..43) consumed=6
+  NW score: k=6 (pre-snap), norm=2.6796
+  Anchor:   word 43 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 paina pe----re P c Smo Dei genitrix que- 35
+                      0 |.||..||----.|-. 16
+    query             0 principe polle-t Virgo dei genetrix quem 39
+
+-- fused_6 --
+  OCR:      'tominoneint et beoincns ie consitiusteraolo'
+  Assigned: 'totus non capit orbis in tua se clausit viscera factus homo'
+  Words:    [43..54) consumed=11
+  NW score: k=9 (pre-snap), norm=0.6673
+  Anchor:   word 54 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 to--minon---eint et beoincns i-------e c-onsit--iustera-----
+                      0 ||--..|||---.|-|
+    query             0 totus non capi-t -orb--i---s in tua se clausit vi-scera fact
+    
+    target           40 ----olo 43
+                     16 ----|.| 23
+    query            52 us homo 59
+
+-- fused_7 --
+  OCR:      '10 perquosesciens mater virgo in'
+  Assigned: 'Per quos Nesciens mater virgo virum'
+  Words:    [54..60) consumed=6
+  NW score: k=5 (pre-snap), norm=4.9896
+  Anchor:   word 60 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 10 per-quos--esciens mater virgo -i--n 32
+                      0 ---.||-||||--||||||| 20
+    query             0 ---Per quos Nesciens mater virgo virum 35
+
+-- fused_8 --
+  OCR:      'e sine re Salvato rem secu'
+  Assigned: 'peperit sine dolore Salvatorem seculorum ipsum'
+  Words:    [60..66) consumed=6
+  NW score: k=5 (pre-snap), norm=4.0931
+  Anchor:   word 66 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 ---e--- sine ----re Salvato rem secu----------- 26
+                      0 ---|---  7
+    query             0 peperit sine dolore Salvato-rem seculorum ipsum 46
+
+-- fused_9 --
+  OCR:      'Lorimi ipsum regem Angelo rum sola virgo lacta'
+  Assigned: 'regem angelorum sola virgo lactabat ubere'
+  Words:    [66..72) consumed=6
+  NW score: k=5 (pre-snap), norm=4.4860
+  Anchor:   word 72 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 Lorimi ipsum regem Angelo rum sola virgo lacta--------- 46
+                      0 -------------||||| 18
+    query             0 -------------regem angelo-rum sola virgo lactabat ubere 41
+
+-- fused_10 --
+  OCR:      'nt c decelo ple noVomus'
+  Assigned: 'de celo pleno Domus'
+  Words:    [72..76) consumed=4
+  NW score: k=4 (pre-snap), norm=3.9704
+  Anchor:   word 76 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 nt c de-celo ple no-Vomus 23
+                      0 -----||-|||| 12
+    query             0 -----de celo ple-no Domus 19
+
+-- fused_11 --
+  OCR:      'pudici pectori pum repeite fitteim tacta reso'
+  Assigned: 'pudici pectoris templum repente fit dei intacta nesci'
+  Words:    [76..84) consumed=8
+  NW score: k=7 (pre-snap), norm=4.6968
+  Anchor:   word 84 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 pudici pectori- ---p-um repeite fit-teim --tacta res----o 45
+                      0 ||||||  6
+    query             0 pudici pectoris templum repente fit dei- intacta nesciens 56
+
+-- fused_12 --
+  OCR:      'enointam .'
+  Assigned: 'ens virum verbo'
+  Words:    [84..86) consumed=2
+  NW score: k=2 (pre-snap), norm=-2.7650
+  Anchor:   word 89 (page_break_77), diff=3, snapped=False, forced=False
+  Alignment:
+    target            0 enointam ----. 10
+                      0 --.|-..|  8
+    query             0 --vi-rum verbo 11
+=== END DEBUG ===
+

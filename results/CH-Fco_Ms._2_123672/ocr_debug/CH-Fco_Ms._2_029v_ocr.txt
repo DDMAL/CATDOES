@@ -1,0 +1,167 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'centem . Domine ste accipe spiritum meum'
+  [fused_1] 'et ne statuasillis hoc pec catum ositis'
+  [fused_2] 'autem gembes clamavnt voceMagna dicens . Domine'
+  [fused_3] 'impetum fece runt unanimiteri e um et eiece'
+  [fused_4] 'runtes canta tenasiminctantems et dicen'
+  [fused_5] 'mine acare biai mili me un Et testes tepo'
+  [fused_6] 'fuerunt vestimenta sua secus pedes adolescentis qm vocaba'
+  [fused_7] 'tur salus et lapidabant Stephanum invocantemt'
+  [fused_8] 'tem Dominerum impri supstum actuam fecerunt'
+  [fused_9] 'nnt e rent at ille gaudens'
+  [fused_10] 'dem ut mereretur accipe coin'
+  [fused_11] 'nan .o ontinue runt aures suas'
+  [fused_12] 'et impetum fecetunt unamiterm ni atae'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'centem . Domine ste accipe spiritum meum'
+  Assigned: 'Domine ihesu xpiste accipe spiritum meum'
+  Words:    [0..6) consumed=6
+  NW score: k=6 (pre-snap), norm=4.6500
+  Anchor:   word 13 (within_chant_7), diff=7, snapped=False, forced=False
+  Alignment:
+    target            0 centem . Domine ---------ste accipe spiritum meum 40
+                      0 ---------|||||| 15
+    query             0 ---------Domine ihesu xpiste accipe spiritum meum 40
+
+-- fused_1 --
+  OCR:      'et ne statuasillis hoc pec catum ositis'
+  Assigned: 'et ne statuas illis hoc peccatum Positis'
+  Words:    [6..13) consumed=7
+  NW score: k=7 (pre-snap), norm=7.1651
+  Anchor:   word 13 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 et ne statuas-illis hoc pec catum -ositis 39
+                      0 ||  2
+    query             0 et ne statuas illis hoc pec-catum Positis 40
+
+-- fused_2 --
+  OCR:      'autem gembes clamavnt voceMagna dicens . Domine'
+  Assigned: 'autem genibus clamavit voce magna dicens Domine Impetum'
+  Words:    [13..21) consumed=8
+  NW score: k=7 (pre-snap), norm=6.0426
+  Anchor:   word 21 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 autem ge-mbes clamavnt voce-Magna dicens . Domine-------- 47
+                      0 |||||  5
+    query             0 autem genibus clamavit voce magna dicens-- Domine Impetum 55
+
+-- fused_3 --
+  OCR:      'impetum fece runt unanimiteri e um et eiece'
+  Assigned: 'fecerunt unanimiter in eum et eiece'
+  Words:    [21..27) consumed=6
+  NW score: k=6 (pre-snap), norm=4.6885
+  Anchor:   word 27 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 impetum fece runt unanimiter-i- e um et eiece---- 43
+                      0 --------||||-|||| 17
+    query             0 --------fece-runt unanimiter in e-um et eiecerunt 39
+
+-- fused_4 --
+  OCR:      'runtes canta tenasiminctantems et dicen'
+  Assigned: 'runt eum extra civitatem invocantem et dicentem do'
+  Words:    [27..34) consumed=7
+  NW score: k=6 (pre-snap), norm=2.2485
+  Anchor:   word 34 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 ru---ntes c-anta tenasim-in--ctantems et dicen---------- 39
+                      0 .|---.|..  9
+    query             0 eum extra civita-te----m invoc-antem- et dicentem Domine 49
+
+-- fused_5 --
+  OCR:      'mine acare biai mili me un Et testes tepo'
+  Assigned: 'mine accipe spiritum meum Et testes depo'
+  Words:    [34..40) consumed=6
+  NW score: k=6 (pre-snap), norm=1.9279
+  Anchor:   word 40 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 mine a-care -biai- mili me un Et testes tepo------- 41
+                      0 -----|-|..| 11
+    query             0 -----accipe spiritum--- me-um Et testes deposuerunt 42
+
+-- fused_6 --
+  OCR:      'fuerunt vestimenta sua secus pedes adolescentis qm vocaba'
+  Assigned: 'suerunt vestimenta sua secus pedes adolescentis qui vocaba'
+  Words:    [40..47) consumed=7
+  NW score: k=7 (pre-snap), norm=6.0222
+  Anchor:   word 47 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 fuerunt vestimenta sua secus pedes adolescentis q-m vocaba--
+                      0 --------||||||||||
+    query             0 --------vestimenta sua secus pedes adolescentis qui vocabatu
+    
+    target           57 - 57
+                     18 - 19
+    query            52 r 53
+
+-- fused_7 --
+  OCR:      'tur salus et lapidabant Stephanum invocantemt'
+  Assigned: 'tur saulus et lapidabant stephanum invocantem et dicentem'
+  Words:    [47..54) consumed=7
+  NW score: k=5 (pre-snap), norm=6.4488
+  Anchor:   word 54 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 tur sa-lus et lapidabant Stephanum invocantem---------t-- 45
+                      0 ----||-||| 10
+    query             0 ----saulus et lapidabant stephanum invocantem et dicentem 53
+
+-- fused_8 --
+  OCR:      'tem Dominerum impri supstum actuam fecerunt'
+  Assigned: 'Domine Impii super iustum iacturam fecerunt'
+  Words:    [54..60) consumed=6
+  NW score: k=6 (pre-snap), norm=4.6512
+  Anchor:   word 60 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 tem Dominerum impri sup-----stum -actu-am fecerunt 43
+                      0 ----||||||--- 13
+    query             0 ----Domine--- Impii super iustum iacturam fecerunt 43
+
+-- fused_9 --
+  OCR:      'nnt e rent at ille gaudens'
+  Assigned: 'ut eum morti traderent At ille gaudens suscepit'
+  Words:    [60..68) consumed=8
+  NW score: k=7 (pre-snap), norm=3.8177
+  Anchor:   word 68 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 nnt e-------- -----rent at ille gaudens--------- 26
+                      0 -.|  3
+    query             0 -ut eum morti traderent At ille gaudens suscepit 47
+
+-- fused_10 --
+  OCR:      'dem ut mereretur accipe coin'
+  Assigned: 'lapidem ut mereretur accipere coronam glorie Continuerunt'
+  Words:    [68..75) consumed=7
+  NW score: k=5 (pre-snap), norm=5.2195
+  Anchor:   word 75 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 ----dem ut mereretur accip--e co-----------------in------ 28
+                      0 ----|||  7
+    query             0 lapidem ut mereretur accipere coronam glorie Continuerunt 57
+
+-- fused_11 --
+  OCR:      'nan .o ontinue runt aures suas'
+  Assigned: 'aures suas'
+  Words:    [75..77) consumed=2
+  NW score: k=2 (pre-snap), norm=0.9238
+  Anchor:   word 77 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 nan .o ontinue runt aures suas 30
+                      0 --------------------||||| 25
+    query             0 --------------------aures suas 10
+
+-- fused_12 --
+  OCR:      'et impetum fecetunt unamiterm ni atae'
+  Assigned: 'et impetum fecerunt unanimiter in'
+  Words:    [77..82) consumed=5
+  NW score: k=5 (pre-snap), norm=5.2085
+  Anchor:   word 85 (page_break_77), diff=3, snapped=False, forced=False
+  Alignment:
+    target            0 et impetum fecetunt una--miterm ni atae 37
+                      0 ||  2
+    query             0 et impetum fecerunt unanimiter- -i----n 33
+=== END DEBUG ===
+

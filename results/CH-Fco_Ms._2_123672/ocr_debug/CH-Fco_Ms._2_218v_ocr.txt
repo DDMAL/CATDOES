@@ -1,0 +1,211 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'mini in domino et confiterum memoriem sanctitatis ejus pre Domino'
+  [fused_1] 'regiesis exovac . ce idi turbam Magnam quam dimumerare'
+  [fused_2] 'nemo poterat ex omnibus gentibus stanteres ante Thronum pe'
+  [fused_3] 'Dominus Regit evovaomnes Angeli stabant in circuntu'
+  [fused_4] 'thiom et ceciderunt in conspectu Throni in facies suas et adora'
+  [fused_5] 'verunt deum eovac . Redemisti nos domine mn san Gume'
+  [fused_6] 'tuo exom in tribu et lingua et populo et natio ne et fecisti'
+  [fused_7] 'noseost enedicite dominum omnes elec'
+  [fused_8] 'ti ejus agite dies leticie et confite'
+  [fused_9] 'ynnus omnibus Sanctis ejus filiis Israhel populo appro'
+  [fused_10] 'pinquanti sibi gloria hec est omnibus Sanctis ejus '
+  [fused_11] 'casti. ecclesie ego Yniva'
+  [fused_12] 'sulamator seculido G'
+  [fused_13] 'ae egloriosus apostolorum chorus nltabunt Sancti Nigliria'
+  [fused_14] 'te prophietatum landabilis minetus te matirum cororoa'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'mini in domino et confiterum memoriem sanctitatis ejus pre Domino'
+  Assigned: 'Vidi turbam magnam quam dinumerare'
+  Words:    [0..5) consumed=5
+  NW score: k=14 (pre-snap), norm=-0.3778
+  Anchor:   word 5 (within_chant_7), diff=9, snapped=False, forced=True
+  Alignment:
+    target            0 mini in domino et confiter-um m---emoriem sanctitatis ejus p
+                      0 .|------|--|-----
+    query             0 Vi------d--i----- -----turbam magnam quam dinumera----------
+    
+    target           56 re Domino 65
+                     17 ||------- 26
+    query            32 re------- 34
+
+-- fused_1 --
+  OCR:      'regiesis exovac . ce idi turbam Magnam quam dimumerare'
+  Assigned: 'nemo poterat ex omnibus gentibus stantes ante thronum'
+  Words:    [5..13) consumed=8
+  NW score: k=10 (pre-snap), norm=-1.3367
+  Anchor:   word 13 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 re----giesis ex-o-vac . ce- i-di -turba---m Magnam quam dimu
+                      0 .|----..|...
+    query             0 nemo poterat ex omnibus gentibus st---antes -a-nte ---thronu
+    
+    target           48 merare 54
+                     12 |----- 18
+    query            52 m----- 53
+
+-- fused_2 --
+  OCR:      'nemo poterat ex omnibus gentibus stanteres ante Thronum pe'
+  Assigned: '~Dominus regit euouae Et omnes angeli stabant in circuitu'
+  Words:    [13..22) consumed=9
+  NW score: k=11 (pre-snap), norm=0.2567
+  Anchor:   word 22 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 -nem---o poterat e-------x omnibus --gentibus st--anteres an
+                      0 -..|---.
+    query             0 ~Dominus --regit euouae Et omn--es ange-li--- stabant---- in
+    
+    target           45 te Thronum pe 58
+                      8 -- 10
+    query            48 -- cir-cu-itu 57
+
+-- fused_3 --
+  OCR:      'Dominus Regit evovaomnes Angeli stabant in circuntu'
+  Assigned: 'throni et ceciderunt in conspectu throni in facies suas et adora'
+  Words:    [22..33) consumed=11
+  NW score: k=5 (pre-snap), norm=-0.5363
+  Anchor:   word 33 (within_chant_7), diff=6, snapped=False, forced=True
+  Alignment:
+    target            0 --Dominus Regi-----t evovaomnes Ange-li stabant in --ci-----
+                      0 --.|.|...
+    query             0 throni et ceciderunt -in co-n-s---pectu -throni in facies su
+    
+    target           45 ---------r---cuntu 51
+                      9 ---------|---.|||- 27
+    query            53 as et adoraverunt- 70
+
+-- fused_4 --
+  OCR:      'thiom et ceciderunt in conspectu Throni in facies suas et adora'
+  Assigned: 'verunt deum euouae Redemisti nos domino deus in sanguine tuo ex omni'
+  Words:    [33..44) consumed=11
+  NW score: k=11 (pre-snap), norm=-0.3549
+  Anchor:   word 41 (within_chant_7), diff=3, snapped=False, forced=False
+  Alignment:
+    target            0 thiom e----t ceciderunt in conspectu Throni------- in fa--ci
+                      0 -...|
+    query             0 -deum euouae Re--demist-i- no-s----- --domino deus in sangui
+    
+    target           47 -es suas et ado-ra 63
+                      5 -|-  8
+    query            47 ne- tu-o ex --omni 61
+
+-- fused_5 --
+  OCR:      'verunt deum eovac . Redemisti nos domine mn san Gume'
+  Assigned: 'tribu et lingua et populo et natione et fecisti'
+  Words:    [44..53) consumed=9
+  NW score: k=13 (pre-snap), norm=0.0334
+  Anchor:   word 53 (within_chant_7), diff=4, snapped=False, forced=True
+  Alignment:
+    target            0 ver--u-nt --deum e---ovac . Redemisti nos domine mn ----san 
+                      0 -.|--|-.|
+    query             0 -tribu et lingua et po-pulo ---e---t- n-atio--ne et fecis---
+    
+    target           48 Gume 52
+                      9 --.. 13
+    query            45 --ti 47
+
+-- fused_6 --
+  OCR:      'tuo exom in tribu et lingua et populo et natio ne et fecisti'
+  Assigned: 'nos deo nostro regnum ~Deus deus Benedicite dominum omnes elec'
+  Words:    [53..63) consumed=10
+  NW score: k=10 (pre-snap), norm=-0.4196
+  Anchor:   word 63 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 tuo- -exom in- tribu -et lingua --e-t populo ---e----t- ----
+                      0 -.|-
+    query             0 -nos de-o- -nostr--o re---gn-um ~Deus -deu-s Benedicite domi
+    
+    target           41 natio ne- et fecisti 60
+                      4 |...|.||- 13
+    query            48 num omnes e--lec--ti 64
+
+-- fused_7 --
+  OCR:      'noseost enedicite dominum omnes elec'
+  Assigned: 'ti eius agite diem leticie et confitemini illi ~Benedic'
+  Words:    [63..71) consumed=8
+  NW score: k=5 (pre-snap), norm=-0.4249
+  Anchor:   word 71 (within_chant_7), diff=3, snapped=False, forced=True
+  Alignment:
+    target            0 nose-os----t- --e--nedici-te- do-----minum omnes --ele--c 36
+                      0 ---|-.|----|- 13
+    query             0 ---eius agite diem leticie et confitemin-i -illi ~Benedic 52
+
+-- fused_8 --
+  OCR:      'ti ejus agite dies leticie et confite'
+  Assigned: 'euouae Hymnus omnibus sanctis eius filiis'
+  Words:    [71..77) consumed=6
+  NW score: k=6 (pre-snap), norm=-1.2324
+  Anchor:   word 80 (within_chant_7), diff=3, snapped=False, forced=False
+  Alignment:
+    target            0 ti ejus agite --dies leti-------c-ie e--t conf--ite 37
+                      0 ---|-|..|---| 13
+    query             0 ---e-uoua---e Hymnus omnibus sanctis eius ---filiis 41
+
+-- fused_9 --
+  OCR:      'ynnus omnibus Sanctis ejus filiis Israhel populo appro'
+  Assigned: 'israhel populo appro'
+  Words:    [77..80) consumed=3
+  NW score: k=3 (pre-snap), norm=0.4801
+  Anchor:   word 80 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ynnus omnibus Sanctis ejus filiis Israhel populo appro------
+                      0 -------------------------------|---||||||
+    query             0 -------------------------------i---srahel populo appropinqua
+    
+    target           54 --- 54
+                     41 --- 44
+    query            26 nti 29
+
+-- fused_10 --
+  OCR:      'pinquanti sibi gloria hec est omnibus Sanctis ejus'
+  Assigned: 'pinquanti sibi gloria hec est omnibus sanctis eius'
+  Words:    [80..87) consumed=7
+  NW score: k=7 (pre-snap), norm=5.8138
+  Anchor:   word 87 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 pinquanti sibi gloria hec est omnibus Sanctis ejus 50
+                      0 ----------|||| 14
+    query             0 ----------sibi gloria hec est omnibus sanctis eius 40
+
+-- fused_11 --
+  OCR:      'casti. ecclesie ego Yniva'
+  Assigned: '~Laudate euouae Te gloriosus apostolorum chorus'
+  Words:    [87..93) consumed=6
+  NW score: k=4 (pre-snap), norm=-1.5119
+  Anchor:   word 93 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 -ca--sti. e-cclesie eg-o Yni----va----------------- 25
+                      0 -.|--.|-.  9
+    query             0 ~Laudat-e euouae Te -glo--riosus apostolorum chorus 47
+
+-- fused_12 --
+  OCR:      'sulamator seculido G'
+  Assigned: 'te prophetarum laudabilis numerus te martyrum candidatus'
+  Words:    [93..100) consumed=7
+  NW score: k=5 (pre-snap), norm=-2.6460
+  Anchor:   word 100 (page_break_77), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 -----------su--la--------------------ma-tor-- sec-ulid-o G 20
+                      0 -----------.|--||--------------------||-|.|-- 45
+    query             0 te prophetarum laudabilis numerus te martyrum --candidatus 56
+
+-- fused_13 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [100..100) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_14 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [100..100) consumed=0
+  Alignment:
+    (no words left)
+=== END DEBUG ===
+

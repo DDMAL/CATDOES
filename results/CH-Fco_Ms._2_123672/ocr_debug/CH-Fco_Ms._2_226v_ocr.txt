@@ -1,0 +1,219 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'm dominus reg evoa on meis mertis ad nos me misit'
+  [fused_1] 'dominus vestris coronis participem me fieri p .evore'
+  [fused_2] 'e vidi supra Montem Agnum stantem de sub cujus pede fons'
+  [fused_3] ' s deus evovac et Ne sub cujus pedefons'
+  [fused_4] 'ninus emanat fums impetus letificat ciita Dei'
+  [fused_5] 'Bmines gentes argirum crediderunt ipiso'
+  [fused_6] '.'
+  [fused_7] '.ano Laud evoatermare cepisset po'
+  [fused_8] 'pulus voce magna clamabat domi ne ihesu xhrisiste salva il'
+  [fused_9] 'tum et demens cum lacrinlis dicebat suscipe pater speriritum'
+  [fused_10] ' vespai e eante sancto clee'
+  [fused_11] 'mntercum aliis autm po de'
+  [fused_12] 'me Benedictus Evovae nomiee ad magistri Au eduti domi'
+  [fused_13] 'nen habitaculum martiri tuo dementi in mari inmoduu tem'
+  [fused_14] 'pli marmorei agelicis manibus preparatum iter prebens pro'
+  [fused_15] ''
+  [fused_16] 'pnlo rerte nefe ennatrent murabilia ma exorie'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'm dominus reg evoa on meis mertis ad nos me misit'
+  Assigned: '~Dominus regnavit euouae Non meis meritis ad vos me misit'
+  Words:    [0..10) consumed=10
+  NW score: k=10 (pre-snap), norm=5.2603
+  Anchor:   word 10 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 m dominus reg----- evo-a- -on meis mer-tis ad nos me misit 49
+                      0 -..||||||  9
+    query             0 -~Dominus regnavit euouae Non meis meritis ad vos me misit 57
+
+-- fused_1 --
+  OCR:      'dominus vestris coronis participem me fieri p .evore'
+  Assigned: 'dominus vestris coronis participem me fieri ~Iubilate'
+  Words:    [10..17) consumed=7
+  NW score: k=6 (pre-snap), norm=6.6192
+  Anchor:   word 17 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 dominus vestris coronis participem me fieri -p .evore 52
+                      0 |||||||  7
+    query             0 dominus vestris coronis participem me fieri ~Iubilate 53
+
+-- fused_2 --
+  OCR:      'e vidi supra Montem Agnum stantem de sub cujus pede fons'
+  Assigned: 'euouae Vidi supra montem agnum stantem de sub cuius pede fons'
+  Words:    [17..28) consumed=11
+  NW score: k=11 (pre-snap), norm=6.4503
+  Anchor:   word 28 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -----e vidi supra Montem Agnum stantem de sub cujus pede fon
+                      0 -----|
+    query             0 euouae Vidi supra montem agnum stantem de sub cuius pede fon
+    
+    target           55 s 56
+                      6 |  7
+    query            60 s 61
+
+-- fused_3 --
+  OCR:      's deus evovac et Ne sub cujus pedefons'
+  Assigned: 'vivus emanat ~Deus deus euouae De sub cuius pede fons'
+  Words:    [28..38) consumed=10
+  NW score: k=10 (pre-snap), norm=3.3201
+  Anchor:   word 38 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -----------------s deus evovac et Ne sub cujus pede-fons 38
+                      0 -----------------| 18
+    query             0 vivus emanat ~Deus deus euoua--e- De sub cuius pede fons 53
+
+-- fused_4 --
+  OCR:      'ninus emanat fums impetus letificat ciita Dei'
+  Assigned: 'vivus emanat fluminis impetus letificat civitatem dei'
+  Words:    [38..45) consumed=7
+  NW score: k=7 (pre-snap), norm=5.7539
+  Anchor:   word 45 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ninus emanat f-um---s impetus letificat ci-ita--- Dei 45
+                      0 .|.||  5
+    query             0 vivus emanat fluminis impetus letificat civitatem dei 53
+
+-- fused_5 --
+  OCR:      'Bmines gentes argirum crediderunt ipiso'
+  Assigned: '~Benedic euouae Omnes gentes per girum crediderunt xpisto'
+  Words:    [45..53) consumed=8
+  NW score: k=8 (pre-snap), norm=4.1359
+  Anchor:   word 53 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -B---mi-----------nes gentes -ar-girum crediderunt ipis-o 39
+                      0 -|---.|-----------||| 21
+    query             0 ~Benedic euouae Omnes gentes per girum crediderunt xpisto 57
+
+-- fused_6 --
+  OCR:      '.'
+  Assigned: 'domino'
+  Words:    [53..54) consumed=1
+  NW score: k=1 (pre-snap), norm=-9.7980
+  Anchor:   word 61 (within_chant_7), diff=7, snapped=False, forced=False
+  Alignment:
+    target            0 -----. 1
+                      0 -----. 6
+    query             0 domino 6
+
+-- fused_7 --
+  OCR:      '.ano Laud evoatermare cepisset po'
+  Assigned: '~Laudate euouae Dum iter mare cepisset po'
+  Words:    [54..61) consumed=7
+  NW score: k=7 (pre-snap), norm=3.0543
+  Anchor:   word 61 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 .ano Laud--- evo-a-------ter-mare cepisset po----- 33
+                      0 ----.||||--- 12
+    query             0 ----~Laudate euouae Dum iter mare cepisset populus 46
+
+-- fused_8 --
+  OCR:      'pulus voce magna clamabat domi ne ihesu xhrisiste salva il'
+  Assigned: 'pulus voce magna clamabat domine ihesu xpiste salva il'
+  Words:    [61..69) consumed=8
+  NW score: k=8 (pre-snap), norm=5.8102
+  Anchor:   word 69 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 pulus voce magna clamabat domi ne ihesu xhrisiste salva il--
+                      0 ------||||
+    query             0 ------voce magna clamabat domi-ne ihesu x---piste salva illu
+    
+    target           58 - 58
+                     10 - 11
+    query            50 m 51
+
+-- fused_9 --
+  OCR:      'tum et demens cum lacrinlis dicebat suscipe pater speriritum'
+  Assigned: 'lum et clemens cum lacrimis dicebat suscipe pater spiritum'
+  Words:    [69..77) consumed=8
+  NW score: k=8 (pre-snap), norm=6.2894
+  Anchor:   word 77 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 tum et -demens cum lacrinlis dicebat suscipe pater speriritu
+                      0 ----||
+    query             0 ----et clemens cum lacri-mis dicebat suscipe pater sp--iritu
+    
+    target           59 m 60
+                      6 |  7
+    query            53 m 54
+
+-- fused_10 --
+  OCR:      'vespai e eante sancto clee'
+  Assigned: 'meum ~Benedictus euouae Dedisti domi'
+  Words:    [77..82) consumed=5
+  NW score: k=3 (pre-snap), norm=-1.1041
+  Anchor:   word 82 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 vespai ----e------ e---ante ----sancto --clee 26
+                      0 .|--..  6
+    query             0 me--um ~Benedictus euoua--e Dedis---ti domine 38
+
+-- fused_11 --
+  OCR:      'mntercum aliis autm po de'
+  Assigned: 'ne habitaculum martyri tuo clementi in mari in modum tem'
+  Words:    [82..91) consumed=9
+  NW score: k=4 (pre-snap), norm=-1.1314
+  Anchor:   word 91 (within_chant_7), diff=5, snapped=False, forced=True
+  Alignment:
+    target            0 --mnterc--um -a-----------l-----i-is -a--utm po--- de---- 25
+                      0 --..|-.|--|| 12
+    query             0 habit-aculum martyri tuo clementi in mari in modum templi 56
+
+-- fused_12 --
+  OCR:      'me Benedictus Evovae nomiee ad magistri Au eduti domi'
+  Assigned: 'pli marmorei angelicis manibus preparatum iter prebens po'
+  Words:    [91..98) consumed=7
+  NW score: k=7 (pre-snap), norm=-1.2372
+  Anchor:   word 98 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 m-----e- Ben-edictus Evovae nomi------e-e ad magist-ri Au ed
+                      0 |-----|-
+    query             0 marmorei -angelic-is ---ma--n--ibus preparatum- i-ter- -preb
+    
+    target           45 uti do--mi 53
+                      8 ... 11
+    query            47 ens populo 57
+
+-- fused_13 --
+  OCR:      'nen habitaculum martiri tuo dementi in mari inmoduu tem'
+  Assigned: 'pulo terre ut enarrent mirabilia tua'
+  Words:    [98..103) consumed=5
+  NW score: k=5 (pre-snap), norm=-1.0414
+  Anchor:   word 103 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 nen habitaculum martiri tuo de---menti in m--ari inmoduu tem
+                      0 .|----------------|--|.
+    query             0 te----------------r--re -ut -enarrent---- mirabili-----a tua
+    
+    target           55 
+                     23 
+    query            31 
+
+-- fused_14 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [103..103) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_15 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [103..103) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_16 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [103..103) consumed=0
+  Alignment:
+    (no words left)
+=== END DEBUG ===
+

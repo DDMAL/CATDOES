@@ -1,0 +1,195 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'ge turba paupercula ad patrem clama pau perum hod'
+  [fused_1] 'ingubre suspirium pater Francisce suscipe et prode Christisto'
+  [fused_2] 'lateris pedum manuumi ut nobis reddat or'
+  [fused_3] 'pndius tanti patris mea rium eovae '
+  [fused_4] 'Sancte Pater patrie lux forma'
+  [fused_5] 'lum recti vea regula morum carnis ab exilio'
+  [fused_6] 'ad reg na Polorum evovae eelorum'
+  [fused_7] 'anoenoi acer Franc'
+  [fused_8] 'cusdam it cu serapti apu parvit signans enum caracte'
+  [fused_9] 'temuolio prancio late re dominum formam cencis gerere nnscor'
+  [fused_10] 'mlt corteo t Marchiisnatione or Sanctorum mri cote ne opene evorae.'
+  [fused_11] 'tii le apud Parisi ordo qui hodierna'
+  [fused_12] 'ceenagliste ad vus capitlai eate an esti'
+  [fused_13] 'ustus virorum eucas medicus aeeo'
+  [fused_14] ' aon orti in sanctoru Gasanti'
+  [fused_15] 'dins ne hecur tlonis Archicaconi geli'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'ge turba paupercula ad patrem clama pau perum hod'
+  Assigned: 'turba paupercula ad patrem clama pauperum hoc'
+  Words:    [0..7) consumed=7
+  NW score: k=7 (pre-snap), norm=6.9638
+  Anchor:   word 28 (within_chant_7), diff=21, snapped=False, forced=False
+  Alignment:
+    target            0 ge turba paupercula ad patrem clama pau perum hod 49
+                      0 ---|||||  8
+    query             0 ---turba paupercula ad patrem clama pau-perum hoc 45
+
+-- fused_1 --
+  OCR:      'ingubre suspirium pater Francisce suscipe et prode Christisto'
+  Assigned: 'lugubre suspirium pater francisce suscipe et prode xpisto'
+  Words:    [7..15) consumed=8
+  NW score: k=8 (pre-snap), norm=6.3596
+  Anchor:   word 28 (within_chant_7), diff=13, snapped=False, forced=False
+  Alignment:
+    target            0 ingubre suspirium pater Francisce suscipe et prode Christist
+                      0 ..|||||
+    query             0 lugubre suspirium pater francisce suscipe et prode ----xpist
+    
+    target           60 o 61
+                      7 |  8
+    query            56 o 57
+
+-- fused_2 --
+  OCR:      'lateris pedum manuumi ut nobis reddat or'
+  Assigned: 'stingmata lateris pedum manuum ut nobis reddat'
+  Words:    [15..22) consumed=7
+  NW score: k=7 (pre-snap), norm=5.4552
+  Anchor:   word 28 (within_chant_7), diff=6, snapped=False, forced=False
+  Alignment:
+    target            0 ----------lateris pedum manuumi ut nobis reddat or 40
+                      0 ----------||||||| 17
+    query             0 stingmata lateris pedum manuum- ut nobis reddat--- 46
+
+-- fused_3 --
+  OCR:      'pndius tanti patris mea rium eovae'
+  Assigned: 'orphanis tanti patris vicarium euouae Salve'
+  Words:    [22..28) consumed=6
+  NW score: k=5 (pre-snap), norm=4.3419
+  Anchor:   word 28 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 --p--ndius tanti patris -mea rium e-ova------e 34
+                      0 --|--|-|-| 10
+    query             0 orphan-i-s tanti patris vica-rium euouae Salve 43
+
+-- fused_4 --
+  OCR:      'Sancte Pater patrie lux forma'
+  Assigned: 'sancte pater patrie lux forma minorum virtutis specu'
+  Words:    [28..36) consumed=8
+  NW score: k=5 (pre-snap), norm=7.1034
+  Anchor:   word 36 (within_chant_7), diff=3, snapped=False, forced=True
+  Alignment:
+    target            0 Sancte Pater patrie lux forma-------------------------- 29
+                      0 .|||||  6
+    query             0 sancte pater patrie lux forma minorum virtutis speculum 55
+
+-- fused_5 --
+  OCR:      'lum recti vea regula morum carnis ab exilio'
+  Assigned: 'lum recti via regula morum carnis ab exilio duc nos'
+  Words:    [36..45) consumed=9
+  NW score: k=7 (pre-snap), norm=6.9107
+  Anchor:   word 45 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 lum recti vea regula morum carnis ab exilio-------- 43
+                      0 ----|||||  9
+    query             0 ----recti via regula morum carnis ab exilio duc nos 47
+
+-- fused_6 --
+  OCR:      'ad reg na Polorum evovae eelorum'
+  Assigned: 'ad regna polorum euouae Celorum'
+  Words:    [45..50) consumed=5
+  NW score: k=5 (pre-snap), norm=6.0008
+  Anchor:   word 50 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ad reg na Polorum evovae eelorum 32
+                      0 ||  2
+    query             0 ad reg-na polorum euouae Celorum 31
+
+-- fused_7 --
+  OCR:      'anoenoi acer Franc'
+  Assigned: 'candor splenduit novum sydus emicuit sacer franci'
+  Words:    [50..57) consumed=7
+  NW score: k=7 (pre-snap), norm=-0.1943
+  Anchor:   word 57 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -an-o-----e------no---------------i- -acer Franc----- 18
+                      0 -||-|-----|------||---------------|- 36
+    query             0 candor splenduit novum sydus emicuit sacer franciscus 53
+
+-- fused_8 --
+  OCR:      'cusdam it cu serapti apu parvit signans enum caracte'
+  Assigned: 'scus claruit cui seraph apparuit signans euum caracte'
+  Words:    [57..64) consumed=7
+  NW score: k=7 (pre-snap), norm=4.9813
+  Anchor:   word 64 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 cusdam it cu- serapti apu parvit signans enum caract--e 52
+                      0 |--.|..||  9
+    query             0 c--laruit cui serap-h ap--paruit signans euum caractere 50
+
+-- fused_9 --
+  OCR:      'temuolio prancio late re dominum formam cencis gerere nnscor'
+  Assigned: 're in volis plantis latere dum formam crucis gerere'
+  Words:    [64..72) consumed=8
+  NW score: k=8 (pre-snap), norm=3.8386
+  Anchor:   word 72 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 temuolio prancio late re dominum formam cencis gerere nnscor
+                      0 ....|||.
+    query             0 in volis plantis late-re d----um formam crucis gerere-------
+    
+    target           60 
+                      8 
+    query            48 
+
+-- fused_10 --
+  OCR:      'mlt corteo t Marchiisnatione or Sanctorum mri cote ne opene evorae.'
+  Assigned: 'vult corde ore opere'
+  Words:    [72..76) consumed=4
+  NW score: k=5 (pre-snap), norm=0.0235
+  Anchor:   word 76 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 -mlt corteo t Marchiisnatione or Sanctorum mri cote ne opene
+                      0 -.||
+    query             0 vult cor-------------------de or---------------------e ope--
+    
+    target           59  evorae. 67
+                      4 ----|-|- 12
+    query            18 ----r-e- 20
+
+-- fused_11 --
+  OCR:      'tii le apud Parisi ordo qui hodierna'
+  Assigned: 'euouae Angeli archangeli'
+  Words:    [76..79) consumed=3
+  NW score: k=3 (pre-snap), norm=-2.4835
+  Anchor:   word 79 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 tii le apu-d Parisi ordo qui hodierna 36
+                      0 -----|-..|-. 12
+    query             0 -----e-uouae Angeli ar------change-li 24
+
+-- fused_12 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [79..79) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_13 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [79..79) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_14 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [79..79) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_15 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [79..79) consumed=0
+  Alignment:
+    (no words left)
+=== END DEBUG ===
+

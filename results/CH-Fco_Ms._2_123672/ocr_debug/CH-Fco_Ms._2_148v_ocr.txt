@@ -1,0 +1,177 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'indulgentiam ipsius fusis lacrinus postule'
+  [fused_1] 'miliemus unimas no stus qmi'
+  [fused_2] 'omniator domine celo rum et ter re trea'
+  [fused_3] 'tor aqua rum rex universe crea turetae Exan'
+  [fused_4] 'dioratio nem servorum tuo rum X Ludomi'
+  [fused_5] ''
+  [fused_6] 'Preta tio . Exaudi  us qui conte'
+  [fused_7] 'n o i ici oele vaBrachium tu isupet'
+  [fused_8] 'gentes que cogitant servis tius mala et dexte'
+  [fused_9] 'i glorifice tur inno  de Vir'
+  [fused_10] 'acadeat robur eorum in iracim'
+  [fused_11] 'VIi r addit de Hystor sequenti'
+  [fused_12] 'Conforta merex Sanctorum Vnii Xx.'
+  [fused_13] 'diatua . et dextera. Seraphanim ad magistri et per ebedam'
+  [fused_14] 'mento domine et ostende te nobis in tempore mbulat o'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'indulgentiam ipsius fusis lacrinus postule'
+  Assigned: 'Indulgenciam ipsius fusis lacrimis postulemus et hu'
+  Words:    [0..7) consumed=7
+  NW score: k=5 (pre-snap), norm=6.2336
+  Anchor:   word 7 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 indulgentiam ipsius fusis lacrinus postule-----------------
+                      0 .|||||||.|||
+    query             0 Indulgenciam ipsius fusis lacrimis postulemus et humiliemus
+    
+    target           42
+                     12
+    query            59
+
+-- fused_1 --
+  OCR:      'miliemus unimas no stus qmi'
+  Assigned: 'miliemus illi animas nostras Qui non'
+  Words:    [7..12) consumed=5
+  NW score: k=4 (pre-snap), norm=2.8893
+  Anchor:   word 12 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 mi-liemus unimas no st-us qmi---- 27
+                      0 -|-||----  9
+    query             0 -illi---- animas no-stras Qui non 27
+
+-- fused_2 --
+  OCR:      'omniator domine celo rum et ter re trea'
+  Assigned: 'Dominator domine celorum et terre crea'
+  Words:    [12..18) consumed=6
+  NW score: k=6 (pre-snap), norm=5.6768
+  Anchor:   word 18 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -om-niator domine celo rum et ter re trea--- 39
+                      0 -||-|-|||| 10
+    query             0 Domin-ator domine celo-rum et ter-re creator 41
+
+-- fused_3 --
+  OCR:      'tor aqua rum rex universe crea turetae Exan'
+  Assigned: 'tor aquarum rex universe creature tue exau'
+  Words:    [18..24) consumed=6
+  NW score: k=6 (pre-snap), norm=5.3770
+  Anchor:   word 24 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 tor aqua rum rex universe crea ture-tae Exa--n 43
+                      0 ----||||-||| 12
+    query             0 ----aqua-rum rex universe crea-ture tue Exaudi 40
+
+-- fused_4 --
+  OCR:      'dioratio nem servorum tuo rum X Ludomi'
+  Assigned: 'di orationem servorum tuorum Tu domi'
+  Words:    [24..29) consumed=5
+  NW score: k=5 (pre-snap), norm=5.2647
+  Anchor:   word 29 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 dioratio nem servorum tuo rum -X Ludomi-- 38
+                      0 --||||||-||| 12
+    query             0 --oratio-nem servorum tuo-rum Tu --domine 35
+
+-- fused_5 --
+  OCR:      ''
+  Assigned: 'ne cui humilium semper et mansuetorum placuit de'
+  Words:    [29..36) consumed=7
+
+-- fused_6 --
+  OCR:      'Preta tio . Exaudi  us qui conte'
+  Assigned: 'precatio Exaudi Domine deus qui conte'
+  Words:    [36..41) consumed=5
+  NW score: k=5 (pre-snap), norm=2.3813
+  Anchor:   word 41 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 Preta tio . Exaudi ------ --us qui conte--- 32
+                      0 ------------|||||| 18
+    query             0 ------------Exaudi Domine deus qui conteris 31
+
+-- fused_7 --
+  OCR:      'n o i ici oele vaBrachium tu isupet'
+  Assigned: 'ris bella ab inicio eleva brachium tuum super'
+  Words:    [41..48) consumed=7
+  NW score: k=7 (pre-snap), norm=3.2470
+  Anchor:   word 48 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ----n -o i ici- oele va-Brachium tu-- isupet 35
+                      0 ----.  5
+    query             0 bella ab inicio -ele-va brachium tuum -super 41
+
+-- fused_8 --
+  OCR:      'gentes que cogitant servis tius mala et dexte'
+  Assigned: 'gentes que cogitant servis tuis mala Et dexte'
+  Words:    [48..56) consumed=8
+  NW score: k=8 (pre-snap), norm=6.8494
+  Anchor:   word 56 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 gentes que cogitant servis t-ius mala et dexte-- 45
+                      0 ||||||  6
+    query             0 gentes que cogitant servis tui-s mala Et dextera 47
+
+-- fused_9 --
+  OCR:      'i glorifice tur inno  de Vir'
+  Assigned: 'ra tua glorificetur in nobis Allide vir'
+  Words:    [56..62) consumed=6
+  NW score: k=4 (pre-snap), norm=3.5529
+  Anchor:   word 62 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 --i glorifice tur in-no--- --- de Vir----- 28
+                      0 --.  3
+    query             0 tua glorifice-tur in nobis Allide virtutem 41
+
+-- fused_10 --
+  OCR:      'acadeat robur eorum in iracim'
+  Assigned: 'tutem eorum in virtute tua cadat robur eorum in iracun'
+  Words:    [62..71) consumed=9
+  NW score: k=9 (pre-snap), norm=3.1983
+  Anchor:   word 71 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -------------------a-cadeat robur eorum in irac---im 29
+                      0 -------------------|-|||-|| 27
+    query             0 eorum in virtute tua cad-at robur eorum in iracundia 51
+
+-- fused_11 --
+  OCR:      'VIi r addit de Hystor sequenti'
+  Assigned: 'dia tua Et dextera me'
+  Words:    [71..75) consumed=4
+  NW score: k=4 (pre-snap), norm=0.1946
+  Anchor:   word 75 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 VIi r addit de Hystor- sequenti 30
+                      0 ...  3
+    query             0 tua -----Et de---xtera Me-mento 22
+
+-- fused_12 --
+  OCR:      'Conforta merex Sanctorum Vnii Xx.'
+  Assigned: 'mento domine et ostende te nobis in tempore tribulationis'
+  Words:    [75..83) consumed=8
+  NW score: k=6 (pre-snap), norm=-1.5516
+  Anchor:   word 83 (page_break_77), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 Co--n----forta me-rex -----Sanct---orum Vni-----i Xx. 33
+                      0 .|--|----.|.|...|-.|- 21
+    query             0 domine et ostende te- nobis in tempor-e tribulationis 51
+
+-- fused_13 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [83..83) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_14 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [83..83) consumed=0
+  Alignment:
+    (no words left)
+=== END DEBUG ===
+

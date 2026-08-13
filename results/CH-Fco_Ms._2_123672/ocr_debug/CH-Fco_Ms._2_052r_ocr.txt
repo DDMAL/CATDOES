@@ -1,0 +1,291 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'emper laus ejus in ore meo . in omnni Bsia'
+  [fused_1] 'dominus regitine'
+  [fused_2] 'et nichil mon deerit'
+  [fused_3] 'patri Rerns. n loco ad ixta  spice i me et miserere mei domine ps'
+  [fused_4] 'Mirabilia evovac redime me domine et miserere'
+  [fused_5] 'm es enim mens stetit in via recta e Glapaieri.'
+  [fused_6] ' aboctultio merois etabis'
+  [fused_7] 'alienis parte servo tuo'
+  [fused_8] 'ad nelpias ant'
+  [fused_9] 'idinavit dominus aurem suam michi po'
+  [fused_10] 'Dileri quai evovae  Tredidi propter quod loquutus sum'
+  [fused_11] 'pas eoe t Laudate dominim omnes. o.'
+  [fused_12] 'terandunt mede dou  Eovae dunde caius domndicts des yus inmense'
+  [fused_13] 'eli co Dirigat.'
+  [fused_14] 'veniet auxli ich Levani evovae mangnificat ane r sicut incensum ad'
+  [fused_15] 'aagneficat anina mea dominum qua resoeunt tens hennms'
+  [fused_16] '|ro dedominca diitur inrespis'
+  [fused_17] 'turinis prestet e de apilis e  annta'
+  [fused_18] 'tur ad vius a Petro apostolis constitu'
+  [fused_19] 'litatem meam eovaesitatorium ubilemus de'
+  [fused_20] 'ymi . consors'
+  [fused_21] 'pater in ai ie.'
+  [fused_22] 'santa nnostro peo penite  tnon delinquam'
+  [fused_23] 'in inguimes et ifepetans eromaea anotom'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'emper laus ejus in ore meo . in omnni Bsia'
+  Assigned: 'in omni tempore Semper laus eius in ore meo In omni Gloria'
+  Words:    [0..12) consumed=12
+  NW score: k=12 (pre-snap), norm=3.6065
+  Anchor:   word 12 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -----------------emper laus ejus in ore meo . in omnni --Bsi
+                      0 -----------------|||||
+    query             0 in omni tempore Semper laus eius in ore meo-- In om-ni Glori
+    
+    target           41 a 42
+                     22 | 23
+    query            57 a 58
+
+-- fused_1 --
+  OCR:      'dominus regitine'
+  Assigned: 'patri Aspice in me'
+  Words:    [12..16) consumed=4
+  NW score: k=4 (pre-snap), norm=-1.5321
+  Anchor:   word 20 (within_chant_7), diff=4, snapped=False, forced=False
+  Alignment:
+    target            0 -dominus- regitin--e 16
+                      0 -...|..|-..|--.||--| 20
+    query             0 patri Aspice-- in me 18
+
+-- fused_2 --
+  OCR:      'et nichil mon deerit'
+  Assigned: 'et miserere mei domine'
+  Words:    [16..20) consumed=4
+  NW score: k=4 (pre-snap), norm=-0.0953
+  Anchor:   word 20 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 et ni--chil mon deeri-t 20
+                      0 ||  2
+    query             0 et miserere mei d-omine 22
+
+-- fused_3 --
+  OCR:      'patri Rerns. n loco ad ixta  spice i me et miserere mei domine ps'
+  Assigned: '~Mirabilia euouae Redime me domine et miserere'
+  Words:    [20..27) consumed=7
+  NW score: k=9 (pre-snap), norm=1.0634
+  Anchor:   word 27 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 patr----i- Rerns. n loco ad ---ixta  spice i m--e et miserer
+                      0 ...|----|-
+    query             0 ~Mirabilia -e---------uouae Redi--me ---me domine et miserer
+    
+    target           50 e mei domine ps 65
+                     10 |-------------- 25
+    query            45 e-------------- 46
+
+-- fused_4 --
+  OCR:      'Mirabilia evovac redime me domine et miserere'
+  Assigned: 'mei Pes enim meus stetit in via recta Et miserere Gloria patri'
+  Words:    [27..39) consumed=12
+  NW score: k=10 (pre-snap), norm=0.7667
+  Anchor:   word 39 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 Mirabilia -evovac redime me-- ----domin------e--- et miserer
+                      0 -----..|-
+    query             0 -----mei- Pe----s -enim- meus stetit in via recta Et miserer
+    
+    target           44 e------------- 45
+                      9 |------------- 23
+    query            48 e Gloria patri 62
+
+-- fused_5 --
+  OCR:      'm es enim mens stetit in via recta e Glapaieri.'
+  Assigned: 'Inclinavit dominus aurem suam michi'
+  Words:    [39..44) consumed=5
+  NW score: k=5 (pre-snap), norm=-1.2574
+  Anchor:   word 44 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 m es en--im mens stetit ---in-- via recta e Gla-paieri. 47
+                      0 -----.|--|----|----..|| 23
+    query             0 -----Incli----n----avit dominus --aure----m suam michi- 35
+
+-- fused_6 --
+  OCR:      'aboctultio merois etabis'
+  Assigned: '~Dilexi quoniam euouae Credidi'
+  Words:    [44..48) consumed=4
+  NW score: k=4 (pre-snap), norm=-2.1243
+  Anchor:   word 52 (within_chant_7), diff=4, snapped=False, forced=False
+  Alignment:
+    target            0 aboctul-ti---o-- m-ero-is --etabis 24
+                      0 ---...|-.|---|--.|-|.|-.. 25
+    query             0 ---~Dilexi quoniam euouae Credidi- 30
+
+-- fused_7 --
+  OCR:      'alienis parte servo tuo'
+  Assigned: 'propter quod loquutus sum'
+  Words:    [48..52) consumed=4
+  NW score: k=2 (pre-snap), norm=-0.9631
+  Anchor:   word 52 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 alienis par--te- servo- -----t----uo 23
+                      0 --------|-|--||- 16
+    query             0 --------p-ropter --quod loquutus sum 25
+
+-- fused_8 --
+  OCR:      'ad nelpias ant'
+  Assigned: '~Ipsum [Credidi] euouae Laudate'
+  Words:    [52..56) consumed=4
+  NW score: k=4 (pre-snap), norm=-2.6401
+  Anchor:   word 60 (within_chant_7), diff=4, snapped=False, forced=False
+  Alignment:
+    target            0 ------------ad-- nelpias -a--nt- 14
+                      0 ------------.|-- 16
+    query             0 ~Ipsum [Credidi] -euouae Laudate 31
+
+-- fused_9 --
+  OCR:      'idinavit dominus aurem suam michi po'
+  Assigned: 'dominum omnes gentes euouae'
+  Words:    [56..60) consumed=4
+  NW score: k=5 (pre-snap), norm=-0.6860
+  Anchor:   word 60 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 id--inavit dominus -aurem --suam michi po 36
+                      0 -|--||--.. 10
+    query             0 -domin--um -om-nes gentes euoua---------e 27
+
+-- fused_10 --
+  OCR:      'Dileri quai evovae  Tredidi propter quod loquutus sum'
+  Assigned: '{Ipsum [Laudate]} Clamavi et exaudivit me ~Ad dominum'
+  Words:    [60..68) consumed=8
+  NW score: k=8 (pre-snap), norm=-1.4151
+  Anchor:   word 72 (within_chant_7), diff=4, snapped=False, forced=False
+  Alignment:
+    target            0 Dileri --qu-a---i evova---e  Tre---didi- propter quod loquut
+                      0 ......
+    query             0 {Ipsum [Laudate]} Clamavi et --exaudivit ----me- -~Ad do----
+    
+    target           47 us sum 53
+                      6 -...|| 12
+    query            48 -minum 53
+
+-- fused_11 --
+  OCR:      'pas eoe t Laudate dominim omnes. o.'
+  Assigned: 'con tribularer euouae Unde'
+  Words:    [68..72) consumed=4
+  NW score: k=5 (pre-snap), norm=-1.3241
+  Anchor:   word 72 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 pas eoe t Laudate- -dominim omn-es. o. 35
+                      0 ----.|.  7
+    query             0 ----con tribularer euo--uae -Unde----- 26
+
+-- fused_12 --
+  OCR:      'terandunt mede dou  Eovae dunde caius domndicts des yus inmense'
+  Assigned: 'veniet auxilium michi ~Levavi euouae Magnificat anima mea dominum quia respexit deus humi'
+  Words:    [72..85) consumed=13
+  NW score: k=13 (pre-snap), norm=-1.0544
+  Anchor:   word 85 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 te----ra---ndunt m-----ede dou  Eovae -dunde ca----i----us d
+                      0 .|----.|---..|-.
+    query             0 veniet auxiliu-m michi ~Levavi euouae Magnificat anima mea d
+    
+    target           39 om-n----di--cts----- de-s yus inmense- 63
+                     16 ||-|----.|--..|----- 36
+    query            59 ominum quia respexit deus hu-militatem 96
+
+-- fused_13 --
+  OCR:      'eli co Dirigat.'
+  Assigned: 'litatem meam euouae Jubilemus de'
+  Words:    [85..89) consumed=4
+  NW score: k=3 (pre-snap), norm=-2.4791
+  Anchor:   word 89 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 -eli -co--- Diri-----gat. 15
+                      0 -|..  4
+    query             0 meam euouae Jubilemus deo 25
+
+-- fused_14 --
+  OCR:      'veniet auxli ich Levani evovae mangnificat ane r sicut incensum ad'
+  Assigned: 'o salutari nostro ~Venite Ut non delinquam in lingua mea {Ipsum [Ut'
+  Words:    [89..100) consumed=11
+  NW score: k=11 (pre-snap), norm=-1.1145
+  Anchor:   word 95 (within_chant_7), diff=5, snapped=False, forced=False
+  Alignment:
+    target            0 veniet auxli ---ich -Levani evovae mangn----ificat ane r si-
+                      0 -....|-|--.|
+    query             0 -salut-a--ri nostro ~Ve--nite-- Ut --non delinquam in--- lin
+    
+    target           51 cut ince----nsum -ad 66
+                     12 .|. 15
+    query            47 gua --mea {Ipsum [Ut 65
+
+-- fused_15 --
+  OCR:      'aagneficat anina mea dominum qua resoeunt tens hennms'
+  Assigned: 'non]} {Expectans} euouae Sana domine'
+  Words:    [100..105) consumed=5
+  NW score: k=5 (pre-snap), norm=-1.7628
+  Anchor:   word 105 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 aagn-------eficat an-----ina- -mea dominum qua resoeunt tens
+                      0 -..|-------|--|-|-||-----..|-
+    query             0 -non]} {Expe--c-t-ans} euouae Sana domin--------------------
+    
+    target           46  hennms 53
+                     29 --|---- 36
+    query            35 --e---- 36
+
+-- fused_16 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [105..105) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_17 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [105..105) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_18 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [105..105) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_19 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [105..105) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_20 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [105..105) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_21 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [105..105) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_22 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [105..105) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_23 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [105..105) consumed=0
+  Alignment:
+    (no words left)
+=== END DEBUG ===
+

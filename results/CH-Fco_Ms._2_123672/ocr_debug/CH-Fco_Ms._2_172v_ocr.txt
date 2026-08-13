@@ -1,0 +1,175 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'salvificum in celo angeli ministrabunt p verba mea evo'
+  [fused_1] 'vae . Agatha letissima et glorianter ibat ad carterem et quasi'
+  [fused_2] 'taagonem suum domino precibus com'
+  [fused_3] 'mendabat. Dine dominus Nester evovae.go autem ad'
+  [fused_4] 'vinata a domi no peleveri rot confessione'
+  [fused_5] 'ius esa nam fe cit . et consolatus'
+  [fused_6] 'est me  . Dracias domine Jhesu Christe qui'
+  [fused_7] 'misisti ad me apostolum tuum curare vul me'
+  [fused_8] 'pse me curavit am per apostolum pe'
+  [fused_9] 'trum in custodia me con forta nit pro eo quod jussa'
+  [fused_10] 'sum suspen coue Propter fidem castitatis'
+  [fused_11] 'advina me domine deus me us intortu ra ma'
+  [fused_12] 'maa rumme ple me dignans'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'salvificum in celo angeli ministrabunt p verba mea evo'
+  Assigned: 'salvificum in celo angeli ministrabunt ~Verba mea'
+  Words:    [0..7) consumed=7
+  NW score: k=7 (pre-snap), norm=6.6681
+  Anchor:   word 17 (within_chant_7), diff=10, snapped=False, forced=False
+  Alignment:
+    target            0 salvificum in celo angeli ministrabunt p verba mea evo 54
+                      0 |||||||||| 10
+    query             0 salvificum in celo angeli ministrabunt -~Verba mea---- 49
+
+-- fused_1 --
+  OCR:      'vae . Agatha letissima et glorianter ibat ad carterem et quasi'
+  Assigned: 'euouae Agatha letissima et glorianter ibat ad carcerem et quasi'
+  Words:    [7..17) consumed=10
+  NW score: k=10 (pre-snap), norm=6.8962
+  Anchor:   word 17 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ---vae . Agatha letissima et glorianter ibat ad carterem et 
+                      0 ---.||--
+    query             0 euouae-- Agatha letissima et glorianter ibat ad carcerem et 
+    
+    target           57 quasi 62
+                      8 ||||| 13
+    query            58 quasi 63
+
+-- fused_2 --
+  OCR:      'taagonem suum domino precibus com'
+  Assigned: 'ad epulas invitata agonem suum domino precibus com'
+  Words:    [17..25) consumed=8
+  NW score: k=8 (pre-snap), norm=4.0458
+  Anchor:   word 25 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ----------------ta-agonem suum domino precibus com-------- 33
+                      0 ----------------||-|||||| 25
+    query             0 ad epulas invitata agonem suum domino precibus commendabat 58
+
+-- fused_3 --
+  OCR:      'mendabat. Dine dominus Nester evovae.go autem ad'
+  Assigned: 'mendabat ~Domine dominus noster euouae Ego autem ad'
+  Words:    [25..32) consumed=7
+  NW score: k=6 (pre-snap), norm=3.4438
+  Anchor:   word 32 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 mendabat. D--ine dominus Nester evovae-.go autem ad------ 48
+                      0 ---------.|--||| 16
+    query             0 ---------~Domine dominus noster euouae Ego autem adiuvata 48
+
+-- fused_4 --
+  OCR:      'vinata a domi no peleveri rot confessione'
+  Assigned: 'iuvata a domino perseverabo in confessione'
+  Words:    [32..37) consumed=5
+  NW score: k=5 (pre-snap), norm=3.9069
+  Anchor:   word 37 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 vinata a domi no pe-lever--i rot confessione 41
+                      0 -------|  8
+    query             0 -------a domi-no perseverabo -in confessione 35
+
+-- fused_5 --
+  OCR:      'ius esa nam fe cit . et consolatus'
+  Assigned: 'eius qui me salvam fecit Et'
+  Words:    [37..43) consumed=6
+  NW score: k=7 (pre-snap), norm=4.4235
+  Anchor:   word 43 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 -ius -----e-sa nam fe cit . et consolatus 34
+                      0 -|||  4
+    query             0 eius qui me salvam fe-cit -----------Et-- 27
+
+-- fused_6 --
+  OCR:      'est me  . Dracias domine Jhesu Christe qui'
+  Assigned: 'consolatus est me Gracias tibi ago domine ihesu xpiste qui'
+  Words:    [43..53) consumed=10
+  NW score: k=10 (pre-snap), norm=3.3228
+  Anchor:   word 53 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -----------est me  . Dracias--------- domine Jhesu Christe q
+                      0 -----------|||
+    query             0 consolatus est me--- Gracias tibi ago domine ihesu -xpiste q
+    
+    target           40 ui 42
+                     14 || 16
+    query            56 ui 58
+
+-- fused_7 --
+  OCR:      'misisti ad me apostolum tuum curare vul me'
+  Assigned: 'misisti ad me apostolum tuum curare vulnera mea'
+  Words:    [53..61) consumed=8
+  NW score: k=8 (pre-snap), norm=7.0448
+  Anchor:   word 61 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 misisti ad me apostolum tuum curare vul---- me- 42
+                      0 |||||||  7
+    query             0 misisti ad me apostolum tuum curare vulnera mea 47
+
+-- fused_8 --
+  OCR:      'pse me curavit am per apostolum pe'
+  Assigned: 'Et consolatus Ipse me curavit qui per apostolum pe'
+  Words:    [61..70) consumed=9
+  NW score: k=9 (pre-snap), norm=4.0608
+  Anchor:   word 70 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ---------------pse me curavit -am per apostolum pe---- 34
+                      0 ---------------||| 18
+    query             0 Et consolatus Ipse me curavit qui per apostolum petrum 54
+
+-- fused_9 --
+  OCR:      'trum in custodia me con forta nit pro eo quod jussa'
+  Assigned: 'trum in custodia me confortavit pro eo quod iussa'
+  Words:    [70..78) consumed=8
+  NW score: k=8 (pre-snap), norm=6.1852
+  Anchor:   word 78 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 trum in custodia me con forta nit pro eo quod jussa 51
+                      0 -----||  7
+    query             0 -----in custodia me con-forta-vit pro eo quod iussa 44
+
+-- fused_10 --
+  OCR:      'sum suspen coue Propter fidem castitatis'
+  Assigned: 'sum suspendi in eculeo Propter fidem'
+  Words:    [78..84) consumed=6
+  NW score: k=7 (pre-snap), norm=6.1118
+  Anchor:   word 84 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 sum suspe-----n -cou-e- Propter fidem castitatis 40
+                      0 |||  3
+    query             0 sum suspendi in ec-uleo Propter fidem----------- 36
+
+-- fused_11 --
+  OCR:      'advina me domine deus me us intortu ra ma'
+  Assigned: 'castitatis adiuva me domine deus meus in tortura ma'
+  Words:    [84..93) consumed=9
+  NW score: k=8 (pre-snap), norm=4.1026
+  Anchor:   word 93 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 -----------advi-na me domine deus me us in-tortu ra ma------
+                      0 -----------||-|-.|
+    query             0 castitatis ad-iuva me domine deus me-us in tortu-ra mamillar
+    
+    target           41 -- 41
+                     18 -- 20
+    query            57 um 59
+
+-- fused_12 --
+  OCR:      'maa rumme ple me dignans'
+  Assigned: 'millarum mearum Ipse me dignatus'
+  Words:    [93..97) consumed=4
+  NW score: k=4 (pre-snap), norm=4.1712
+  Anchor:   word 97 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 maa rumme -ple me digna-ns 24
+                      0 |.|-|||--  9
+    query             0 mea-rum-- Ipse me dignatus 23
+=== END DEBUG ===
+

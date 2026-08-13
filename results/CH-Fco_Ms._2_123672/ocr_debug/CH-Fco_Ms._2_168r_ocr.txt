@@ -1,0 +1,235 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'tris ejus agnus nive candidior rpristus sibi sponsam et in artyrem'
+  [fused_1] 'oro . ds quinos annua ad mater omnia dinis sic et festo preter'
+  [fused_2] ' ve dicitur decoi V . ad noct relegunttep.'
+  [fused_3] 'consetravit exorascuu prromesie positeorot re atuvita gitur doin perenutes Iu pur fi casusme ad'
+  [fused_4] 'tis dominip . dicit dominus cum aliis capitu'
+  [fused_5] 'ecclesie ego mutto Y ave maris stella'
+  [fused_6] 'responsu accepit Symeon asprium'
+  [fused_7] 'Nomintatia le mort adi nex puerum portabat'
+  [fused_8] 'tem senem regebat quem virgo peperit et post partum virgo'
+  [fused_9] 'pecmnansit rosum adoravit evovae'
+  [fused_10] 'cte vemeit. ad Templum Sanctum su m'
+  [fused_11] 'cominator comi is Gaude et letare on '
+  [fused_12] 'curens teo cu o venerite Venedicta tu'
+  [fused_13] 'in mulietibus et Benedictus fructus ventris tui p. Domine do'
+  [fused_14] 'nst eoae Nitut myrra electa odorem dedisti suavitate'
+  [fused_15] 'arixlarra o horu'
+  [fused_16] 'minis virginis frequentate vobis dulcia cantica dragnia'
+  [fused_17] ''
+  [fused_18] ' domini e terra eoomie apeactus et pulcatuone cuo'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'tris ejus agnus nive candidior rpristus sibi sponsam et in artyrem'
+  Assigned: 'eius agnus nive candidior christus sibi sponsam et martyrem'
+  Words:    [0..9) consumed=9
+  NW score: k=9 (pre-snap), norm=6.2658
+  Anchor:   word 16 (within_chant_7), diff=7, snapped=False, forced=False
+  Alignment:
+    target            0 tris ejus agnus nive candidior rpristus sibi sponsam et in a
+                      0 -----|.||
+    query             0 -----eius agnus nive candidior christus sibi sponsam et --ma
+    
+    target           60 rtyrem 66
+                      9 |||||| 15
+    query            53 rtyrem 59
+
+-- fused_1 --
+  OCR:      'oro . ds quinos annua ad mater omnia dinis sic et festo preter'
+  Assigned: 'consecravit euouae Senex puerum portabat puer autem senem regebat quem virgo peperit et post partum'
+  Words:    [9..24) consumed=15
+  NW score: k=15 (pre-snap), norm=-1.0339
+  Anchor:   word 16 (within_chant_7), diff=8, snapped=False, forced=False
+  Alignment:
+    target            0 -o----ro . ds quino--s ann-------ua ----ad mat---er ---om---
+                      0 -|----|--....
+    query             0 consecr--avit eu--ouae Senex puerum porta--bat puer autem se
+    
+    target           33 n-------ia------ dinis ----sic et festo p-reter 62
+                     13 |-------.|------ 29
+    query            54 nem regebat quem virgo peperit et post- par-tum 99
+
+-- fused_2 --
+  OCR:      've dicitur decoi V . ad noct relegunttep.'
+  Assigned: 'virgo permansit'
+  Words:    [24..26) consumed=2
+  NW score: k=7 (pre-snap), norm=-1.3163
+  Anchor:   word 26 (within_chant_7), diff=5, snapped=False, forced=True
+  Alignment:
+    target            0 ve dicitur decoi V . ad noct relegunttep. 41
+                      0 |-----|--|---.|- 16
+    query             0 v-----i--r---go- perma--nsit------------- 15
+
+-- fused_3 --
+  OCR:      'consetravit exorascuu prromesie positeorot re atuvita gitur doin perenutes Iu pur fi casusme ad'
+  Assigned: 'ipsum quem genuit adoravit euouae Ecce venit ad templum sanctum suum dominator dominus Gaude et'
+  Words:    [26..41) consumed=15
+  NW score: k=15 (pre-snap), norm=-0.6947
+  Anchor:   word 31 (within_chant_7), diff=10, snapped=False, forced=False
+  Alignment:
+    target            0 cons---------e---t----ravit exora--scuu prromesie posite-oro
+                      0 -..|---------|---|----|||||
+    query             0 -ipsum quem genuit adoravit euouae Ecce ----venit -ad templu
+    
+    target           41 t re a--tuvita gitur do-in---- perenutes Iu pur fi casusme a
+                     27 .
+    query            54 m --sanctu---m -suum dominator dominu--s---------- Ga-u-de e
+    
+    target           94 d 95
+                     28 . 29
+    query            94 t 95
+
+-- fused_4 --
+  OCR:      'tis dominip . dicit dominus cum aliis capitu'
+  Assigned: 'letare syon oc'
+  Words:    [41..44) consumed=3
+  NW score: k=11 (pre-snap), norm=-1.0314
+  Anchor:   word 44 (within_chant_7), diff=8, snapped=False, forced=True
+  Alignment:
+    target            0 --t-is -dominip . dicit dominus cum aliis capitu 44
+                      0 --|-..  6
+    query             0 letare syo--n---------- -o-----ccu--rrens------- 21
+
+-- fused_5 --
+  OCR:      'ecclesie ego mutto Y ave maris stella'
+  Assigned: 'currens deo tuo ~Venite Benedicta tu in mulieribus et'
+  Words:    [44..52) consumed=8
+  NW score: k=8 (pre-snap), norm=-1.0783
+  Anchor:   word 49 (within_chant_7), diff=3, snapped=False, forced=False
+  Alignment:
+    target            0 -e-----cclesi-e -ego mut--to Y ave m---ari--s stella 37
+                      0 -|-----...|.|-| 15
+    query             0 deo tuo ~Venite Benedicta tu ---in mulieribus et---- 45
+
+-- fused_6 --
+  OCR:      'responsu accepit Symeon asprium'
+  Assigned: 'benedictus fructus ventris tui'
+  Words:    [52..56) consumed=4
+  NW score: k=4 (pre-snap), norm=-1.5740
+  Anchor:   word 56 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 respon----su- -accepit-- Symeon aspri---um 31
+                      0 .|---|----.|- 13
+    query             0 be---nedictus fruc---tus --ve-n---tris tui 30
+
+-- fused_7 --
+  OCR:      'Nomintatia le mort adi nex puerum portabat'
+  Assigned: '~Domine dominus noster euouae'
+  Words:    [56..60) consumed=4
+  NW score: k=4 (pre-snap), norm=-0.5444
+  Anchor:   word 66 (within_chant_7), diff=6, snapped=False, forced=False
+  Alignment:
+    target            0 -Nomintatia le mort adi--- n---ex puerum portabat 42
+                      0 -.||||-------| 14
+    query             0 ~Domin-------e do----minus noster --e-u---o---uae 29
+
+-- fused_8 --
+  OCR:      'tem senem regebat quem virgo peperit et post partum virgo'
+  Assigned: 'Sicut myrrha electa odorem dedisti suavitatis'
+  Words:    [60..66) consumed=6
+  NW score: k=16 (pre-snap), norm=-1.2157
+  Anchor:   word 66 (within_chant_7), diff=10, snapped=False, forced=True
+  Alignment:
+    target            0 ----tem senem r----ege-bat --quem virgo peperit et post- par
+                      0 ----|--
+    query             0 Sicut-- ----myrrha electa- odorem --------dedi-------sti ---
+    
+    target           48 tum vi--rgo 57
+                      7 .|-.||--... 18
+    query            35 su-avitatis 45
+
+-- fused_9 --
+  OCR:      'pecmnansit rosum adoravit evovae'
+  Assigned: 'sancta dei genetrix ~Celi enarrant euouae Ante thorum'
+  Words:    [66..74) consumed=8
+  NW score: k=6 (pre-snap), norm=-0.6350
+  Anchor:   word 74 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 -pecmna-------n--sit rosum --adoravit evovae------------ 32
+                      0 -..|-.|-------|--.|. 20
+    query             0 sanc-ta dei genetrix ~Celi ena-rra-nt euouae Ante thorum 53
+
+-- fused_10 --
+  OCR:      'cte vemeit. ad Templum Sanctum su m'
+  Assigned: 'huius virginis frequentate nobis dulcia cantica dragma'
+  Words:    [74..81) consumed=7
+  NW score: k=5 (pre-snap), norm=-2.3007
+  Anchor:   word 81 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 --cte v----------e-meit. a-d ----Templ-um Sanct-um -su m----
+                      0 --...
+    query             0 huius virginis frequent--ate nobis dulcia can-tica dragmatis
+    
+    target           35 
+                      5 
+    query            57 
+
+-- fused_11 --
+  OCR:      'cominator comi is Gaude et letare on'
+  Assigned: 'tis ~Domini est terra euouae'
+  Words:    [81..85) consumed=4
+  NW score: k=4 (pre-snap), norm=-0.3742
+  Anchor:   word 90 (page_break_77), diff=5, snapped=False, forced=False
+  Alignment:
+    target            0 -cominator comi is Gaude et le-tare o--n 36
+                      0 -.||||--------| 15
+    query             0 ~Domin--------i es--------t terra euouae 24
+
+-- fused_12 --
+  OCR:      'curens teo cu o venerite Venedicta tu'
+  Assigned: 'Specie tua et pulcritudine tua'
+  Words:    [85..90) consumed=5
+  NW score: k=5 (pre-snap), norm=-0.4502
+  Anchor:   word 90 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ---curens t---eo cu o venerite Venedicta tu- 37
+                      0 ---|-.|--  9
+    query             0 Spec-ie-- tua et pu-----lcrit-----udi-ne tua 30
+
+-- fused_13 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [90..90) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_14 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [90..90) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_15 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [90..90) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_16 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [90..90) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_17 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [90..90) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_18 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [90..90) consumed=0
+  Alignment:
+    (no words left)
+=== END DEBUG ===
+

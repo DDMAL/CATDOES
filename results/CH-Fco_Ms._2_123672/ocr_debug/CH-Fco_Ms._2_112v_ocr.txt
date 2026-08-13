@@ -1,0 +1,291 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'Vn ono osneta invespis de Joco mntiphe ana alsa illa prto bendes cum'
+  [fused_1] 'aliis ymis adcenam agni prvidi manenobilis domine Ansaro . qui'
+  [fused_2] 'tonespascit illa ad magstri . um esset se'
+  [fused_3] 'todie na mra laidtis bitorum et fors essent clamlenos'
+  [fused_4] 'erant discipuli congregati in unum stecit Jheesus in me'
+  [fused_5] 'dicis'
+  [fused_6] 'dio et dixit eis pax vobis Alleluya evovae'
+  [fused_7] 'rucemis sanctam subut qui infermum confrecit actum'
+  [fused_8] 'ctis est potencia surrerit dieell'
+  [fused_9] 'diace inationibus ana r . Quia domnis regnavit aligno ara'
+  [fused_10] 'ooo . do a prnob filiu . Non fit comemorato de apolis ini de pace copl'
+  [fused_11] 'ae. ven sicosuetu e qu et st facimus super psalmos ad elertuan nelupa a'
+  [fused_12] 'e'
+  [fused_13] 'LeLuya Aleluyaalle Luya Eovae responsum'
+  [fused_14] 'In manus tuas domine commendo sorritum meum allelum'
+  [fused_15] 'omro consueta et hicordo obsuatusi ad ctpentsm exceptoeuet infra octabs ascensio'
+  [fused_16] 'ppensnde Hyvel . et notadum quon doitos auctor neni i ymus per asch alibs vi'
+  [fused_17] 'noctanaudi atirespis per alias horas n doinus in festo dominicu s octot'
+  [fused_18] 'a Alleluya odii diebus usque ad ascensi qu vitus unenttne ary Rer eteue de'
+  [fused_19] '*'
+  [fused_20] 'dem ia lapio revionutus elt alceuiam ab rostionus'
+  [fused_21] 'mmenti Aelual p Beatus ureovae'
+  [fused_22] 'la le de actibus apostolorum'
+  [fused_23] 'Ornnum quide s. e Anglo'
+  [fused_24] 'descendit dece et intro ndio aetglis  in lognitus'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'Vn ono osneta invespis de Joco mntiphe ana alsa illa prto bendes cum'
+  Assigned: 'Cum esset se'
+  Words:    [0..3) consumed=3
+  NW score: k=7 (pre-snap), norm=-0.6098
+  Anchor:   word 3 (within_chant_7), diff=4, snapped=False, forced=True
+  Alignment:
+    target            0 Vn ono osneta invespis de Joco mntiphe ana alsa illa prto be
+                      0 ----------...
+    query             0 ----------Cum ---es--s--e--------t-------- --s-------er-o---
+    
+    target           60 ndes cum 68
+                     13 -------- 21
+    query            14 -------- 14
+
+-- fused_1 --
+  OCR:      'aliis ymis adcenam agni prvidi manenobilis domine Ansaro . qui'
+  Assigned: 'ro die illo una sabbatorum et fores essent clause ubi'
+  Words:    [3..12) consumed=9
+  NW score: k=9 (pre-snap), norm=-1.5805
+  Anchor:   word 12 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 aliis ymi--s adcenam -agni prvidi mane--nobilis domine Ansar
+                      0 --.|.
+    query             0 --die --illo ---una- sabbator----um- et fo--res essent -cla-
+    
+    target           55 o . qu-i 62
+                      5 ...  8
+    query            43 use -ubi 50
+
+-- fused_2 --
+  OCR:      'tonespascit illa ad magstri . um esset se'
+  Assigned: 'erant discipuli congregati in unum stetit ihesus in me'
+  Words:    [12..21) consumed=9
+  NW score: k=6 (pre-snap), norm=-0.4878
+  Anchor:   word 21 (within_chant_7), diff=3, snapped=False, forced=True
+  Alignment:
+    target            0 tonespa-----scit illa -ad magstri -. --um esse--t -----s----
+                      0 ---|-.|-----|||--..|.
+    query             0 ---e-rant disci--puli congregat-i in unum -stetit ihesus in 
+    
+    target           40 -e--- 41
+                     21 -|--- 26
+    query            52 medio 57
+
+-- fused_3 --
+  OCR:      'todie na mra laidtis bitorum et fors essent clamlenos'
+  Assigned: 'dio et dixit eis pax vobis alleluya euouae'
+  Words:    [21..28) consumed=7
+  NW score: k=9 (pre-snap), norm=-0.9245
+  Anchor:   word 28 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 -todie na mra laidt--is bitorum et fo-rs essent cl--amleno--
+                      0 -|.||----------.|-|--||
+    query             0 et di----------xi-t eis -------pax vobis alle----luya- euoua
+    
+    target           52 s 53
+                     23 . 24
+    query            37 e 38
+
+-- fused_4 --
+  OCR:      'erant discipuli congregati in unum stecit Jheesus in me'
+  Assigned: 'Crucem sanctam subiit qui infernum confregit accinc'
+  Words:    [28..35) consumed=7
+  NW score: k=11 (pre-snap), norm=0.0452
+  Anchor:   word 35 (within_chant_7), diff=4, snapped=False, forced=True
+  Alignment:
+    target            0 er------an-t-- discipuli-- congregati in- unum ---stecit Jhe
+                      0 .|------||-|--
+    query             0 Crucem sanctam --s---ubiit -------qui infernum confregit ---
+    
+    target           45 esus in- me 55
+                     14 --...||-... 25
+    query            45 --accinctus 54
+
+-- fused_5 --
+  OCR:      'dicis'
+  Assigned: 'tus est potencia'
+  Words:    [35..37) consumed=2
+  NW score: k=2 (pre-snap), norm=-3.0984
+  Anchor:   word 42 (within_chant_7), diff=5, snapped=False, forced=False
+  Alignment:
+    target            0 -------dicis  5
+                      0 -------..||. 12
+    query             0 est potencia 12
+
+-- fused_6 --
+  OCR:      'dio et dixit eis pax vobis Alleluya evovae'
+  Assigned: 'surrexit die tercia alleluya euouae'
+  Words:    [37..42) consumed=5
+  NW score: k=5 (pre-snap), norm=1.7997
+  Anchor:   word 42 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 dio et dixit eis pax vobis Alleluya evovae 42
+                      0 ....|----||| 12
+    query             0 surre----xit die ---tercia alleluya euouae 35
+
+-- fused_7 --
+  OCR:      'rucemis sanctam subut qui infermum confrecit actum'
+  Assigned: 'Alleluya al'
+  Words:    [42..44) consumed=2
+  NW score: k=12 (pre-snap), norm=-1.8147
+  Anchor:   word 44 (within_chant_7), diff=10, snapped=False, forced=True
+  Alignment:
+    target            0 rucemis sanctam subut qui infermum confrecit actum 50
+                      0 ...|--------------.|---.. 25
+    query             0 Alle--------------lu---ya alle-lu-----------ya---- 17
+
+-- fused_8 --
+  OCR:      'ctis est potencia surrerit dieell'
+  Assigned: 'leluya alleluya alleluya euouae In manus tuas domine'
+  Words:    [44..51) consumed=7
+  NW score: k=7 (pre-snap), norm=-1.9981
+  Anchor:   word 47 (within_chant_7), diff=4, snapped=False, forced=False
+  Alignment:
+    target            0 ctis e--st potencia su-rre--------rit--- d--ieell 33
+                      0 --...|--.. 10
+    query             0 --alleluya alleluya euouae In manus tuas domine-- 45
+
+-- fused_9 --
+  OCR:      'diace inationibus ana r . Quia domnis regnavit aligno ara'
+  Assigned: 'commendo spiritum meum allelu'
+  Words:    [51..55) consumed=4
+  NW score: k=11 (pre-snap), norm=-1.0302
+  Anchor:   word 55 (within_chant_7), diff=7, snapped=False, forced=True
+  Alignment:
+    target            0 diac---e inationibus ana r . Quia domnis regnavit aligno ara
+                      0 ---|---|--|--.|-----
+    query             0 ---comme--n--do----- -spir-----i--tum--- me----um al--leluya
+    
+    target           57 
+                     20 
+    query            31 
+
+-- fused_10 --
+  OCR:      'ooo . do a prnob filiu . Non fit comemorato de apolis ini de pace copl'
+  Assigned: 'ya alleluya Alleluya lapis revolutus est alleluya ab hostio monumenti alleluya alleluya ~Beatus vir euouae Angelus'
+  Words:    [55..70) consumed=15
+  NW score: k=15 (pre-snap), norm=-1.7244
+  Anchor:   word 56 (within_chant_7), diff=14, snapped=False, forced=False
+  Alignment:
+    target            0 ooo . do -------a --p---r-no--------b fil-iu-- -. Non fit co
+                      0 ........
+    query             0 alleluya Alleluya lapis revolutus est alleluya ab ho-stio mo
+    
+    target           35 --memorato --de---- a-pol---------is -ini de- pace -copl--
+                      8 --||---.|.
+    query            59 nume---nti alleluya alleluya ~Beatus vi-r -euoua-e Angelus
+    
+    target           70
+                     18
+    query           111
+
+-- fused_11 --
+  OCR:      'ae. ven sicosuetu e qu et st facimus super psalmos ad elertuan nelupa a'
+  Assigned: 'domini loquutus'
+  Words:    [70..72) consumed=2
+  NW score: k=2 (pre-snap), norm=-4.9947
+  Anchor:   word 72 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ae. ven sicosuetu e qu et st facimus super psalmos ad elertu
+                      0 --....|--|-------
+    query             0 --domin--i------- loqu----------------u-------------------tu
+    
+    target           60 an nelupa a 71
+                     17 ----------. 28
+    query            14 ----------s 15
+
+-- fused_12 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [72..72) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_13 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [72..72) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_14 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [72..72) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_15 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [72..72) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_16 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [72..72) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_17 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [72..72) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_18 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [72..72) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_19 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [72..72) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_20 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [72..72) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_21 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [72..72) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_22 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [72..72) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_23 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [72..72) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_24 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [72..72) consumed=0
+  Alignment:
+    (no words left)
+=== END DEBUG ===
+

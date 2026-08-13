@@ -1,0 +1,203 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'bus quia fecit nobiscum miscricor diani'
+  [fused_1] 'deptimit ex additur de Seavent itoria etibrationesi '
+  [fused_2] 'suam eteuuni in dominosemeb madam ad Mco min cempo'
+  [fused_3] 're Benedic Deum et pete ab e ut'
+  [fused_4] 'emor esto filius anvoniam paupem veitam gerihuls hebabe'
+  [fused_5] 'bis multa bona si timineris Deum eovae'
+  [fused_6] 'domine ut de vinculo hujus improperu absolvas me aut cer'
+  [fused_7] 'te de super terram e ripias me ne renimiscaris delicta mea vel'
+  [fused_8] 'parentum meorum neque mndictam sumas de pectatis meis'
+  [fused_9] 'quia erius sustinentes te evovac et ingressus'
+  [fused_10] 'pmuel angelus ad trobiam et salutamt eum diceno'
+  [fused_11] 'dium tibi semper fui tobias respondens aut'
+  [fused_12] 'michi gau dium qua in tenebris sedeo'
+  [fused_13] 'e video cui ingelus ait forti animo'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'bus quia fecit nobiscum miscricor diani'
+  Assigned: 'viventibus quia fecit nobiscum misericordiam'
+  Words:    [0..5) consumed=5
+  NW score: k=5 (pre-snap), norm=5.5764
+  Anchor:   word 10 (within_chant_7), diff=5, snapped=False, forced=False
+  Alignment:
+    target            0 -------bus quia fecit nobiscum miscricor diani 39
+                      0 -------||| 10
+    query             0 viventibus quia fecit nobiscum misericor-dia-m 44
+
+-- fused_1 --
+  OCR:      'deptimit ex additur de Seavent itoria etibrationesi'
+  Assigned: 'suam Et ennarate Omni tempo'
+  Words:    [5..10) consumed=5
+  NW score: k=6 (pre-snap), norm=-0.8748
+  Anchor:   word 10 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 deptim-it ex additur de Seavent itoria etibrationesi 51
+                      0 --...|-.|  9
+    query             0 --suam Et enna-----rate ---Omni -t-----e-----mpore-- 29
+
+-- fused_2 --
+  OCR:      'suam eteuuni in dominosemeb madam ad Mco min cempo'
+  Assigned: 're benedic deum et pete ab eo ut vias tuas dirigat euouae Memor esto'
+  Words:    [10..23) consumed=13
+  NW score: k=13 (pre-snap), norm=-1.0349
+  Anchor:   word 29 (within_chant_7), diff=6, snapped=False, forced=False
+  Alignment:
+    target            0 ---------suam et--euuni in do----minosemeb -ma--d----am ----
+                      0 ---------.|-|
+    query             0 benedic deu-m et pe--te ab eo ut vi-as---- tuas dirigat euou
+    
+    target           34 ad Mco min cempo 50
+                     13 |. 15
+    query            52 ae M--emor -esto 65
+
+-- fused_3 --
+  OCR:      're Benedic Deum et pete ab e ut'
+  Assigned: 'fili quoniam paupem vitam gerimus habe'
+  Words:    [23..29) consumed=6
+  NW score: k=7 (pre-snap), norm=-1.0741
+  Anchor:   word 29 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 --re -Benedi-c Deu--m -et-- pe---te -ab e ut 31
+                      0 --..  4
+    query             0 fili quon--iam paupem vitam gerimus hab-ebis 41
+
+-- fused_4 --
+  OCR:      'emor esto filius anvoniam paupem veitam gerihuls hebabe'
+  Assigned: 'bis multa bona si timueris deum euouae Peto'
+  Words:    [29..36) consumed=7
+  NW score: k=6 (pre-snap), norm=-1.0406
+  Anchor:   word 36 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 emor esto filius anvoniam paupem veitam gerihuls he------ba-
+                      0 -|------------|..|..||-|-
+    query             0 -m------------ulta bon-a- ----si ---tim-ueri---s deum euouae
+    
+    target           53 -be-- 55
+                     25 -.|-- 30
+    query            34  Peto 39
+
+-- fused_5 --
+  OCR:      'bis multa bona si timineris Deum eovae'
+  Assigned: 'domine ut de vinculo huius improperii absolvas me aut cer'
+  Words:    [36..46) consumed=10
+  NW score: k=8 (pre-snap), norm=-0.7879
+  Anchor:   word 46 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 --bi-s mult--a bon---a -si-- tim--ineri---------s De--um -eo
+                      0 --.|-.
+    query             0 domine -u-t de vinculo huius -improperii absolvas me aut ce-
+    
+    target           35 vae 38
+                      6 ..|  9
+    query            56 rte 59
+
+-- fused_6 --
+  OCR:      'domine ut de vinculo hujus improperu absolvas me aut cer'
+  Assigned: 'te desuper terram eripias me ne reminiscaris delicta mea vel'
+  Words:    [46..55) consumed=9
+  NW score: k=9 (pre-snap), norm=-1.3098
+  Anchor:   word 55 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 domine u--t de---- -vinculo hujus imprope-r-----u a-bs--ol--
+                      0 |----|.|--.
+    query             0 d----esuper terram eri-------pias -m-e ne reminiscaris delic
+    
+    target           42 vas me aut cer 56
+                     11 .|- 14
+    query            47 ta- me-a-- vel 57
+
+-- fused_7 --
+  OCR:      'te de super terram e ripias me ne renimiscaris delicta mea vel'
+  Assigned: 'parentum meorum neque vindictam sumas de peccatis meis'
+  Words:    [55..63) consumed=8
+  NW score: k=10 (pre-snap), norm=-0.0788
+  Anchor:   word 63 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 te de super terram ----e ri-pi--a--s m-e ne renimiscaris del
+                      0 -...|..|--.
+    query             0 -parentu--m meorum neque vindictam sumas de pe----ccatis----
+    
+    target           50 icta mea vel 62
+                     11 ---- 15
+    query            49 ---- me---is 54
+
+-- fused_8 --
+  OCR:      'parentum meorum neque mndictam sumas de pectatis meis'
+  Assigned: 'quia eruis sustinentes te euouae Ingressus est raphael'
+  Words:    [63..71) consumed=8
+  NW score: k=9 (pre-snap), norm=-0.9420
+  Anchor:   word 71 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 --pa--r----------entum meorum ne-qu-e mndictam sumas de-- --
+                      0 --.|--|----------|||..
+    query             0 quia eruis sustinentes te---- -euouae In---gressu--s -est ra
+    
+    target           40 pectatis meis 53
+                     22 |--.|-----|-. 35
+    query            49 p--ha-----e-l 54
+
+-- fused_9 --
+  OCR:      'quia erius sustinentes te evovac et ingressus'
+  Assigned: 'angelus ad thobiam salutavit eum dicens gaudium tibi'
+  Words:    [71..79) consumed=8
+  NW score: k=6 (pre-snap), norm=-1.3606
+  Anchor:   word 79 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 quia- erius sust---inentes-- te evovac e-t -i--n--gressu----
+                      0 ---|-.|-.||
+    query             0 ---ange-lus ad thobi--am salut----avit eum dicens gaudium ti
+    
+    target           44 -s 45
+                     11 -. 13
+    query            50 bi 52
+
+-- fused_10 --
+  OCR:      'pmuel angelus ad trobiam et salutamt eum diceno'
+  Assigned: 'semper sit cui tobias respondens ait quale erit michi'
+  Words:    [79..88) consumed=9
+  NW score: k=9 (pre-snap), norm=-0.4408
+  Anchor:   word 88 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -pmuel angelus-- -ad trobiam -------e-----t salutamt e-um di
+                      0 -.|.|.
+    query             0 semper ------sit cui t-obias respondens ait --qu-ale erit mi
+    
+    target           43 ceno 47
+                      6 |-.. 10
+    query            50 c-hi 53
+
+-- fused_11 --
+  OCR:      'dium tibi semper fui tobias respondens aut'
+  Assigned: 'gaudium quia in tenebris sedeo et lumen celi'
+  Words:    [88..96) consumed=8
+  NW score: k=6 (pre-snap), norm=0.1074
+  Anchor:   word 96 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 ---dium -ti-bi- sempe-r fui tobias respo-----ndens -aut 42
+                      0 ---||||  7
+    query             0 gaudium quia in te-nebr--------i-s sedeo et lumen- celi 44
+
+-- fused_12 --
+  OCR:      'michi gau dium qua in tenebris sedeo'
+  Assigned: 'non video cui angelus dixit ait forti animo esto in'
+  Words:    [96..106) consumed=10
+  NW score: k=9 (pre-snap), norm=-0.6736
+  Anchor:   word 106 (page_break_77), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 ----mi----chi --g-au- di-um qua in ---t--enebri-s sedeo--- 36
+                      0 ----.|----|.| 13
+    query             0 non video cui angelus dixit --a-it forti an---imo -esto in 51
+
+-- fused_13 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [106..106) consumed=0
+  Alignment:
+    (no words left)
+=== END DEBUG ===
+

@@ -1,0 +1,187 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'fablimum proprite calcavit evovac Salonionis et legint deliberis ipsius velse ad librseptes DiRal augusti Poiits libris alomonis s pabole'
+  [fused_1] 'Incipit libei primus leca Parabole Sclomonis fi'
+  [fused_2] 'principio deus an'
+  [fused_3] 'fieret priusquam abyssos constitu ret pri'
+  [fused_4] 'usquam produceret fontes aquarum in tequam Montes col'
+  [fused_5] 'erarencur ante ommes col les generavit me'
+  [fused_6] 'domi mis . Quaudo preparabat celos aderam cum e'
+  [fused_7] 'canta com nens anteirimi ceiciru'
+  [fused_8] 'mnlo tin fuctibus marisambula vi in omni'
+  [fused_9] 'gen teet om primatum tenu'
+  [fused_10] 'Dipecto tum et sublimum  ia propriavirtufe Cal'
+  [fused_11] 'ca mclco inaltissimis habito et Thro'
+  [fused_12] 'nuo mens in co lumgna mmi bisupertor qu lnt'
+  [fused_13] 'teco mine Sayenciam celei magultudims'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'fablimum proprite calcavit evovac Salonionis et legint deliberis ipsius velse ad librseptes DiRal augusti Poiits libris alomonis s pabole'
+  Assigned: 'scimus quia verax es et viam dei in veritate doces alleluya euouae IN principio deus an'
+  Words:    [0..16) consumed=16
+  NW score: k=16 (pre-snap), norm=-0.8948
+  Anchor:   word 16 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 fablimum proprite calcavit evovac Salonionis et legint delib
+                      0 --..|||.
+    query             0 --scimus ---qui-------a--- -verax --------es et --viam de---
+    
+    target           60 eris ipsius ve---lse ad librseptes DiRal------ augusti Poiit
+                      8 --|-
+    query            31 --i- i----n veritate -d-------oces ---alleluya euou-ae ----I
+    
+    target          111 s libris alomon---is ---s pabole---- 137
+                     12 .  13
+    query            68 N --pri-------ncipio deus -a-ntequam  93
+
+-- fused_1 --
+  OCR:      'Incipit libei primus leca Parabole Sclomonis fi'
+  Assigned: 'tequam terram fieret priusquam abyssos constitueret pri'
+  Words:    [16..22) consumed=6
+  NW score: k=5 (pre-snap), norm=-0.6157
+  Anchor:   word 22 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 Incipit----- li-bei primus leca- Parab---ole Sclomon--i-----
+                      0 ------|-----
+    query             0 ------terram fieret pri-us--quam ---abysso-s -c---onstituere
+    
+    target           43 s -fi------ 47
+                     12 . 13
+    query            43 t priusquam 54
+
+-- fused_2 --
+  OCR:      'principio deus an'
+  Assigned: 'usquam produceret fontes aquarum antequam montes col'
+  Words:    [22..28) consumed=6
+  NW score: k=3 (pre-snap), norm=-1.0672
+  Anchor:   word 28 (within_chant_7), diff=3, snapped=False, forced=True
+  Alignment:
+    target            0 pr-inc---ipio------------ --de-u--------s ------a--n--- 17
+                      0 ||-..|---...|------------ 25
+    query             0 produceret fontes aquarum antequam montes collocarentur 55
+
+-- fused_3 --
+  OCR:      'fieret priusquam abyssos constitu ret pri'
+  Assigned: 'locarentur Ante omnes colles generavit me'
+  Words:    [28..33) consumed=5
+  NW score: k=6 (pre-snap), norm=-1.6721
+  Anchor:   word 33 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 fieret priusquam abysso---s con--stitu ret pri 41
+                      0 -...|-  6
+    query             0 -Ante- omnes---- ----colles generavit- me----- 30
+
+-- fused_4 --
+  OCR:      'usquam produceret fontes aquarum in tequam Montes col'
+  Assigned: 'dominus Quando preparabat celos aderam cum e'
+  Words:    [33..40) consumed=7
+  NW score: k=9 (pre-snap), norm=-0.2791
+  Anchor:   word 40 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 -----us-qua--m produce--r--et --fontes aquarum in tequam Mon
+                      0 -----||-.||--.
+    query             0 dominus Quando pr----eparabat celo---s a-deram -----cu-m ---
+    
+    target           46 tes col 53
+                     14 -|---|- 21
+    query            43 -e---o- 45
+
+-- fused_5 --
+  OCR:      'erarencur ante ommes col les generavit me'
+  Assigned: 'o cuncta componens Ante'
+  Words:    [40..43) consumed=3
+  NW score: k=3 (pre-snap), norm=-0.8861
+  Anchor:   word 46 (within_chant_7), diff=3, snapped=False, forced=False
+  Alignment:
+    target            0 erarencur an-te -ommes col le-s generavit me 41
+                      0 ------||---|-|. 15
+    query             0 ------cu---ncta com----po--nens -An-----t--e 21
+
+-- fused_6 --
+  OCR:      'domi mis . Quaudo preparabat celos aderam cum e'
+  Assigned: 'Girum celi circui'
+  Words:    [43..46) consumed=3
+  NW score: k=10 (pre-snap), norm=-1.8195
+  Anchor:   word 46 (within_chant_7), diff=7, snapped=False, forced=True
+  Alignment:
+    target            0 domi mis . Quaudo preparabat celos aderam cum e 47
+                      0 -----.|----------------|--.. 28
+    query             0 -----Gi----------------r--um cel-i -cir---cuivi 19
+
+-- fused_7 --
+  OCR:      'canta com nens anteirimi ceiciru'
+  Assigned: 'vi sola et in fluctibus maris ambulavi in omni'
+  Words:    [46..54) consumed=8
+  NW score: k=7 (pre-snap), norm=-1.7206
+  Anchor:   word 54 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 canta com -n-------ens -anteiri---m-----i cei----ciru 32
+                      0 -...|  5
+    query             0 -sola -et in fluctibus ma----ris ambulavi --in omni-- 43
+
+-- fused_8 --
+  OCR:      'mnlo tin fuctibus marisambula vi in omni'
+  Assigned: 'gente et in omni populo primatum tenui'
+  Words:    [54..61) consumed=7
+  NW score: k=4 (pre-snap), norm=-0.6720
+  Anchor:   word 61 (within_chant_7), diff=3, snapped=False, forced=True
+  Alignment:
+    target            0 -mnlo -t-in fucti---bu-s marisambula vi in omn-i 40
+                      0 -.|..  5
+    query             0 gente et in -omni populo -prima-tu-------m tenui 38
+
+-- fused_9 --
+  OCR:      'gen teet om primatum tenu'
+  Assigned: 'Superborum et sublimium colla propria virtute calcavi'
+  Words:    [61..68) consumed=7
+  NW score: k=6 (pre-snap), norm=-0.9839
+  Anchor:   word 68 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 --ge-----n teet -------om ---------prima----tum te------nu 25
+                      0 --.|-----. 10
+    query             0 Superborum --et sublimium colla propri-a virtu--te calcavi 53
+
+-- fused_10 --
+  OCR:      'Dipecto tum et sublimum  ia propriavirtufe Cal'
+  Assigned: 'Ego in altissimis habito et thro'
+  Words:    [68..74) consumed=6
+  NW score: k=5 (pre-snap), norm=-1.5890
+  Anchor:   word 74 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 Dipecto tum -et sublimum  ia propriavirtufe- ----Cal 46
+                      0 ----..|  7
+    query             0 ----Ego -in altis--sim----is -----habi-to et thronus 35
+
+-- fused_11 --
+  OCR:      'ca mclco inaltissimis habito et Thro'
+  Assigned: 'nus meus in columpna nubis Superborum emit'
+  Words:    [74..80) consumed=6
+  NW score: k=5 (pre-snap), norm=-1.5957
+  Anchor:   word 80 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 --ca mclco-- inaltissimis ---hab-------ito et Thro 36
+                      0 --..  4
+    query             0 meus in columpna--- nubis Superborum Emit---t----e 40
+
+-- fused_12 --
+  OCR:      'nuo mens in co lumgna mmi bisupertor qu lnt'
+  Assigned: 'te domine sapienciam de sede magnitudinis'
+  Words:    [80..85) consumed=5
+  NW score: k=5 (pre-snap), norm=-1.6575
+  Anchor:   word 85 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 nuo mens ---i-n---- co ---lum-gna mmi bisupertor qu ln-t 43
+                      0 -.|-|.|.  8
+    query             0 -do-mine sapienciam de sede magn-------i-----t----udinis 38
+
+-- fused_13 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [85..85) consumed=0
+  Alignment:
+    (no words left)
+=== END DEBUG ===
+

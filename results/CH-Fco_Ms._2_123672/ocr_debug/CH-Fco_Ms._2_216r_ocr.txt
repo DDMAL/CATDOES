@@ -1,0 +1,183 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'nirtutum verba loquitur nonumque nova sequitur mi'
+  [fused_1] 'ductorem evovae. res ordines hic ordinat primumque'
+  [fused_2] 'fratrum nominat minorum pauperum qut fit dominarum'
+  [fused_3] 'medius sed penitentum tertius sexum capitur utrumque evor'
+  [fused_4] ' octus doctrite gracia doctus experienci psunt'
+  [fused_5] 'perfectionis hec fratres do cet omnia tam factis quam frare'
+  [fused_6] 'couvencia melli  Sermonis eovae Laudans laudares'
+  [fused_7] 'monnit laus illi semper affuit laus monain salvatoris in'
+  [fused_8] 'et creaturas alias ad laudem conditoris'
+  [fused_9] 'cane mator desiderio Franciscequantostum'
+  [fused_10] 'dio compaciens hunc sequeris quem passum libro'
+  [fused_11] 'quem apervisti tu contuens in serapha incruce'
+  [fused_12] 'positum eccam in palnio lacere et poibus esfigemi fer'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'nirtutum verba loquitur nonumque nova sequitur mi'
+  Assigned: 'virtutum verba loquitur novumque nova sequitur'
+  Words:    [0..6) consumed=6
+  NW score: k=6 (pre-snap), norm=6.9298
+  Anchor:   word 14 (within_chant_7), diff=8, snapped=False, forced=False
+  Alignment:
+    target            0 nirtutum verba loquitur nonumque nova sequitur mi 49
+                      0 .|||||||  8
+    query             0 virtutum verba loquitur novumque nova sequitur--- 46
+
+-- fused_1 --
+  OCR:      'ductorem evovae. res ordines hic ordinat primumque'
+  Assigned: 'milicia ductorem euouae Tres ordines hic ordinat primumque'
+  Words:    [6..14) consumed=8
+  NW score: k=8 (pre-snap), norm=6.0165
+  Anchor:   word 14 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 --------ductorem evovae. -res ordines hic ordinat primumque
+                      0 --------||||||||
+    query             0 milicia ductorem euouae- Tres ordines hic ordinat primumque
+    
+    target           50
+                     16
+    query            58
+
+-- fused_2 --
+  OCR:      'fratrum nominat minorum pauperum qut fit dominarum'
+  Assigned: 'fratrum nominat minorum pauperumque fit dominarum'
+  Words:    [14..20) consumed=6
+  NW score: k=6 (pre-snap), norm=7.5155
+  Anchor:   word 20 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 fratrum nominat minorum pauperum qut fit dominarum 50
+                      0 |||||||  7
+    query             0 fratrum nominat minorum pauperum-que fit dominarum 49
+
+-- fused_3 --
+  OCR:      'medius sed penitentum tertius sexum capitur utrumque evor'
+  Assigned: 'medius sed penitentum tercius sexum capit utrumque'
+  Words:    [20..27) consumed=7
+  NW score: k=7 (pre-snap), norm=6.7060
+  Anchor:   word 27 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 medius sed penitentum tertius sexum capitur utrumque evor 57
+                      0 ||||||  6
+    query             0 medius sed penitentum tercius sexum capit-- utrumque----- 50
+
+-- fused_4 --
+  OCR:      'octus doctrite gracia doctus experienci psunt'
+  Assigned: 'euouae Doctus doctrine gracia doctus experiencia que sunt'
+  Words:    [27..35) consumed=8
+  NW score: k=8 (pre-snap), norm=5.6471
+  Anchor:   word 35 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 --------octus doctrite gracia doctus experienci- ---psunt 45
+                      0 --------||||| 13
+    query             0 euouae Doctus doctrine gracia doctus experiencia que sunt 57
+
+-- fused_5 --
+  OCR:      'perfectionis hec fratres do cet omnia tam factis quam frare'
+  Assigned: 'perfectionis hec fratres docet omnia tam factis quam fre'
+  Words:    [35..44) consumed=9
+  NW score: k=8 (pre-snap), norm=6.9869
+  Anchor:   word 44 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 perfectionis hec fratres do cet omnia tam factis quam fr-are
+                      0 ||||||||||||
+    query             0 perfectionis hec fratres do-cet omnia tam factis quam freque
+    
+    target           59 ---- 59
+                     12 ---- 16
+    query            59 ncia 63
+
+-- fused_6 --
+  OCR:      'couvencia melli  Sermonis eovae Laudans laudares'
+  Assigned: 'quencia melliflui sermonis euouae Laudans laudare'
+  Words:    [44..49) consumed=5
+  NW score: k=5 (pre-snap), norm=4.4182
+  Anchor:   word 49 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 couvencia melli---  Sermonis e-ovae Laudans laudares 48
+                      0 ----------|||||---. 19
+    query             0 ----------melliflui sermonis euouae Laudans laudare- 41
+
+-- fused_7 --
+  OCR:      'monnit laus illi semper affuit laus monain salvatoris in'
+  Assigned: 'monuit laus illi semper affuit laus inquam salvatoris in'
+  Words:    [49..58) consumed=9
+  NW score: k=8 (pre-snap), norm=6.1308
+  Anchor:   word 58 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 monnit laus illi semper affuit laus monain---- salvatoris in
+                      0 |||.||
+    query             0 monuit laus illi semper affuit laus ----inquam salvatoris in
+    
+    target           56 ----- 56
+                      6 ----- 11
+    query            56 vitat 61
+
+-- fused_8 --
+  OCR:      'et creaturas alias ad laudem conditoris'
+  Assigned: 'vitat aves bestias et creaturas alias ad laudem conditoris'
+  Words:    [58..66) consumed=8
+  NW score: k=8 (pre-snap), norm=5.9734
+  Anchor:   word 66 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -------------et creaturas alias ad laudem conditoris 39
+                      0 -------------|| 15
+    query             0 aves bestias et creaturas alias ad laudem conditoris 52
+
+-- fused_9 --
+  OCR:      'cane mator desiderio Franciscequantostum'
+  Assigned: 'euouae O matyr desiderio francisce quanto stu'
+  Words:    [66..73) consumed=7
+  NW score: k=7 (pre-snap), norm=4.7013
+  Anchor:   word 73 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ---cane-- mator desiderio Francisce-quanto-stu--m 40
+                      0 ---.|-|--  9
+    query             0 euoua-e O matyr desiderio francisce quanto studio 48
+
+-- fused_10 --
+  OCR:      'dio compaciens hunc sequeris quem passum libro'
+  Assigned: 'dio compaciens hunc sequeris quem passum libro reperis'
+  Words:    [73..80) consumed=7
+  NW score: k=6 (pre-snap), norm=7.2803
+  Anchor:   word 80 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 dio compaciens hunc sequeris quem passum libro-------- 46
+                      0 ----|||||||||| 14
+    query             0 ----compaciens hunc sequeris quem passum libro reperis 50
+
+-- fused_11 --
+  OCR:      'quem apervisti tu contuens in serapha incruce'
+  Assigned: 'quem aperuisti tu contuens in aere seraph in cruce positum'
+  Words:    [80..90) consumed=10
+  NW score: k=9 (pre-snap), norm=6.4510
+  Anchor:   word 90 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 quem apervisti tu contuens in----- serapha in-cruce--------
+                      0 ||||
+    query             0 quem aperuisti tu contuens in aere seraph- in cruce positum
+    
+    target           45
+                      4
+    query            58
+
+-- fused_12 --
+  OCR:      'positum eccam in palnio lacere et poibus esfigemi fer'
+  Assigned: 'ex tunc in palmis latere et pedibus effigiem fers plagarum'
+  Words:    [90..100) consumed=10
+  NW score: k=9 (pre-snap), norm=3.7872
+  Anchor:   word 100 (page_break_77), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 positum eccam in palnio lacere et p-oibus esfig-emi fer-----
+                      0 -...||---.|--
+    query             0 -ex tu---nc-- in palmis latere et pedibus effigiem- fers pla
+    
+    target           53 ----- 53
+                     13 ----- 18
+    query            53 garum 58
+=== END DEBUG ===
+

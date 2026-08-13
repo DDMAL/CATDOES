@@ -1,0 +1,269 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'fra'
+  [fused_1] 'IIII '
+  [fused_2] 'Egredi'
+  [fused_3] 'niri potest invocate eum dum prope est Aveluya evovae eodde'
+  [fused_4] '.l'
+  [fused_5] 'De boneribit lex etueionm comim de Menisadi'
+  [fused_6] ''
+  [fused_7] 'veniet fortior me post me cujus non sum'
+  [fused_8] 'dignus solve re cornigiam calciamentorum ejus exovae'
+  [fused_9] 'enedicta tu in mulieribus et Benedictiis fractus ventris tui'
+  [fused_10] 'ppectabo dominum salvatorem meum et presto'
+  [fused_11] 'dad'
+  [fused_12] 'labor eum dum prope est Avelnya evovae n Undie ad m.'
+  [fused_13] 'ns'
+  [fused_14] 'comno deus et homo de Domo sedere in tronero alle Luya evovae'
+  [fused_15] 'regipto vocavi filium menm veniet in salvet populum'
+  [fused_16] 'suum exovae Yon noli tinere ecclesie deus trinus'
+  [fused_17] 'ovessepta ymis conditori. Fres ca Rorate celid prn  '
+  [fused_18] 'venet Alleluya evovac oromque en'
+  [fused_19] 'domine mnsitare nos in pacent letevint coram tecoblide peste'
+  [fused_20] 'oro excita domine cor'
+  [fused_21] 'co enome dama dinica secunda .nt tengie monnen de'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'fra'
+  Assigned: 'potest'
+  Words:    [0..1) consumed=1
+  NW score: k=1 (pre-snap), norm=-6.5997
+  Anchor:   word 17 (within_chant_7), diff=16, snapped=False, forced=False
+  Alignment:
+    target            0 ---fra 3
+                      0 ---... 6
+    query             0 potest 6
+
+-- fused_1 --
+  OCR:      'IIII'
+  Assigned: 'invocate'
+  Words:    [1..2) consumed=1
+  NW score: k=1 (pre-snap), norm=-6.3640
+  Anchor:   word 17 (within_chant_7), diff=15, snapped=False, forced=False
+  Alignment:
+    target            0 ----IIII 4
+                      0 ----.... 8
+    query             0 invocate 8
+
+-- fused_2 --
+  OCR:      'Egredi'
+  Assigned: 'eum dum'
+  Words:    [2..4) consumed=2
+  NW score: k=2 (pre-snap), norm=-3.3947
+  Anchor:   word 17 (within_chant_7), diff=13, snapped=False, forced=False
+  Alignment:
+    target            0 Egre---d-i  6
+                      0 ---|---|-. 10
+    query             0 ---eum dum  7
+
+-- fused_3 --
+  OCR:      'niri potest invocate eum dum prope est Aveluya evovae eodde'
+  Assigned: 'prope est alleluya euouae De'
+  Words:    [4..9) consumed=5
+  NW score: k=5 (pre-snap), norm=0.9841
+  Anchor:   word 17 (within_chant_7), diff=8, snapped=False, forced=False
+  Alignment:
+    target            0 niri potest invocate eum dum prope est -Aveluya evovae eodde
+                      0 -----------------------------|||||
+    query             0 -----------------------------prope est alleluya euouae ---De
+    
+    target           59 
+                     34 
+    query            28 
+
+-- fused_4 --
+  OCR:      '.l'
+  Assigned: 'syon exibit lex et verbum domini de iherusalem'
+  Words:    [9..17) consumed=8
+  NW score: k=1 (pre-snap), norm=-7.0711
+  Anchor:   word 17 (within_chant_7), diff=7, snapped=False, forced=True
+  Alignment:
+    target            0 ------------------------------------------.l--  2
+                      0 ------------------------------------------.|-- 46
+    query             0 syon exibit lex et verbum domini de iherusalem 46
+
+-- fused_5 --
+  OCR:      'De boneribit lex etueionm comim de Menisadi'
+  Assigned: 'alleluia euouae Veniet fortior me post me cuius non sum'
+  Words:    [17..27) consumed=10
+  NW score: k=8 (pre-snap), norm=-1.1345
+  Anchor:   word 27 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 --De---- -bo-neribit lex et---ueio-nm- comim de------ Menisa
+                      0 --.|----
+    query             0 alleluia euouae----- Veniet fortior me po-st me cuius non s-
+    
+    target           41 di 43
+                      8 .. 10
+    query            53 um 55
+
+-- fused_6 --
+  OCR:      ''
+  Assigned: 'dignus solvere corrigiam calciamentorum eius euouae Benedicta tu in mulieribus et benedictus fructus ventris tui'
+  Words:    [27..42) consumed=15
+
+-- fused_7 --
+  OCR:      'veniet fortior me post me cujus non sum'
+  Assigned: 'euouae Exspectabo dominum salvatorem meum et presto'
+  Words:    [42..49) consumed=7
+  NW score: k=8 (pre-snap), norm=-1.1163
+  Anchor:   word 49 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 ----ve---nie-t--- fo----------rtior-- me-- post -me cujus no
+                      0 ----.|---..|-|---
+    query             0 euouae Exspectabo dominum salvat-orem meum --et pre-----s-to
+    
+    target           34 n sum 39
+                     17 ..... 22
+    query            51 labor 56
+
+-- fused_8 --
+  OCR:      'dignus solve re cornigiam calciamentorum ejus exovae'
+  Assigned: 'labor eum dum prope est alleluya euouae Ecce veniet deus et homo de'
+  Words:    [49..61) consumed=12
+  NW score: k=12 (pre-snap), norm=-0.8878
+  Anchor:   word 57 (within_chant_7), diff=4, snapped=False, forced=False
+  Alignment:
+    target            0 ----dignus -solve ------re---- -cornigiam -calciamen--torum 
+                      0 ----|---|.
+    query             0 eum d---um pro-pe est alleluya euo----uae Ec--ce veniet---- 
+    
+    target           41 -ejus e----xovae 52
+                     10 -|-|| 15
+    query            46 de-us et homo de 61
+
+-- fused_9 --
+  OCR:      'enedicta tu in mulieribus et Benedictiis fractus ventris tui'
+  Assigned: 'domo david sedere in trono alleluya euouae Ex Egypto vocavi filium meum veniet ut'
+  Words:    [61..75) consumed=14
+  NW score: k=14 (pre-snap), norm=-1.3627
+  Anchor:   word 69 (within_chant_7), diff=6, snapped=False, forced=False
+  Alignment:
+    target            0 --ened--icta ----tu in -----mulieribu-s e-------------t- Ben
+                      0 --...|--|--.
+    query             0 domo davi--d sedere in trono alle--luya euouae Ex Egypto voc
+    
+    target           32 edicti-i-s fractus ventri-s tui 60
+                     12 ..|..|-|-. 22
+    query            56 avi filium ---meum ven--iet -ut 81
+
+-- fused_10 --
+  OCR:      'ppectabo dominum salvatorem meum et presto'
+  Assigned: 'salvet populum'
+  Words:    [75..77) consumed=2
+  NW score: k=4 (pre-snap), norm=-0.8776
+  Anchor:   word 77 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 ppectabo dominum salvatorem meum et presto----- 42
+                      0 -----------------||||------------|| 35
+    query             0 -----------------salv------------et p----opulum 14
+
+-- fused_11 --
+  OCR:      'dad'
+  Assigned: 'suum euouae'
+  Words:    [77..79) consumed=2
+  NW score: k=2 (pre-snap), norm=-5.2223
+  Anchor:   word 85 (within_chant_7), diff=6, snapped=False, forced=False
+  Alignment:
+    target            0 --------dad  3
+                      0 --------.|. 11
+    query             0 suum euouae 11
+
+-- fused_12 --
+  OCR:      'labor eum dum prope est Avelnya evovae n Undie ad m.'
+  Assigned: 'Syon noli timere ecce deus tuus'
+  Words:    [79..85) consumed=6
+  NW score: k=11 (pre-snap), norm=-0.2048
+  Anchor:   word 85 (within_chant_7), diff=5, snapped=False, forced=True
+  Alignment:
+    target            0 labor -eum dum prope est Avelnya evovae n Undie-- ad m. 52
+                      0 -..|.  5
+    query             0 -Syon noli tim-----ere---------- e--cce ----d-eus -tuus 31
+
+-- fused_13 --
+  OCR:      'ns'
+  Assigned: 'veniet'
+  Words:    [85..86) consumed=1
+  NW score: k=1 (pre-snap), norm=-4.9075
+  Anchor:   word 89 (within_chant_7), diff=3, snapped=False, forced=False
+  Alignment:
+    target            0 --n--s 2
+                      0 --|--. 6
+    query             0 veniet 6
+
+-- fused_14 --
+  OCR:      'comno deus et homo de Domo sedere in tronero alle Luya evovae'
+  Assigned: 'alleluya euouae Veni domine visitare nos in pace ut letemur coram te'
+  Words:    [86..98) consumed=12
+  NW score: k=12 (pre-snap), norm=-0.7763
+  Anchor:   word 89 (within_chant_7), diff=9, snapped=False, forced=False
+  Alignment:
+    target            0 comno de-u-s et ho-mo de-- Dom--o --sedere---- in tronero -a
+                      0 ----...|-|-.
+    query             0 ----alleluya e--uouae Veni domine visitare nos in -pace-- ut
+    
+    target           46 lle- Luya evova---e 61
+                     12 .||-..|-. 21
+    query            51  letemu-r -coram te 68
+
+-- fused_15 --
+  OCR:      'regipto vocavi filium menm veniet in salvet populum'
+  Assigned: 'corde perfec'
+  Words:    [98..100) consumed=2
+  NW score: k=7 (pre-snap), norm=-0.4720
+  Anchor:   word 100 (within_chant_7), diff=5, snapped=False, forced=True
+  Alignment:
+    target            0 regipto vocavi filium menm veniet in salvet populum 51
+                      0 ----------|---------...|-- 26
+    query             0 ----------c---------orde-- perfe---------ct--o----- 14
+
+-- fused_16 --
+  OCR:      'suum exovae Yon noli tinere ecclesie deus trinus'
+  Assigned: 'to euouae Surgite vigilemus venite adoremus'
+  Words:    [100..105) consumed=5
+  NW score: k=5 (pre-snap), norm=-0.5934
+  Anchor:   word 105 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 suum exovae Yon noli tinere -eccle--s----i-e -deus trinus 48
+                      0 -----|.|.|| 11
+    query             0 -----euouae ---Surgi-t----e vigilemus venite ad----oremus 40
+
+-- fused_17 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [105..105) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_18 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [105..105) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_19 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [105..105) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_20 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [105..105) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_21 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [105..105) consumed=0
+  Alignment:
+    (no words left)
+=== END DEBUG ===
+

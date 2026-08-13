@@ -30,6 +30,57 @@ def folios_match(cantus_folio: str, source_label: str) -> bool:
     return a is not None and b is not None and a == b
 
 
+def _successor(result: FolioParseResult) -> FolioParseResult:
+    """The single physical page immediately following `result`."""
+    if result.side == "r":
+        return FolioParseResult(result.num, "v")
+    if result.side == "v":
+        return FolioParseResult(result.num + 1, "r")
+    return FolioParseResult(result.num + 1, "")
+
+
+def _format_like(reference_label: str, result: FolioParseResult) -> str:
+    """Format `result` using the same zero-padding width as `reference_label`."""
+    m = re.match(r"^(\d+)", reference_label.strip())
+    width = len(m.group(1)) if m else len(str(result.num))
+    return f"{result.num:0{width}d}{result.side}"
+
+
+def detect_phantom_gaps(
+    canonical_folios: "list[str]",
+) -> "list[tuple[str, str, str]]":
+    """Find single-step gaps in a folio list, e.g. CSV has ...002v, 003v...
+    but not the 003r that sits contiguously between them.
+
+    Real manuscript pages sometimes have no chant-start entry in CantusDB
+    (their text is a continuation of the previous page's chant), so they
+    never appear in a source's folio list even though the page exists and
+    is imaged (see DDMAL/mothra#165). This purely arithmetic check, using
+    the (num, side) model from `parse_folio_label`, flags such gaps without
+    guessing at anything beyond a single missing page between two present,
+    otherwise-matching neighbors.
+
+    Returns a list of (candidate_label, prev_label, next_label) tuples.
+    Unparseable labels are skipped, same as everywhere else in this module.
+    Does not affect which folios get fetched/matched/renamed.
+    """
+    parsed = []
+    for label in canonical_folios:
+        result = parse_folio_label(label)
+        if result is not None:
+            parsed.append((result, label))
+    parsed.sort(key=lambda item: (item[0].num, item[0].side))
+
+    gaps = []
+    for (a, a_label), (b, b_label) in zip(parsed, parsed[1:]):
+        if _successor(a) == b:
+            continue
+        candidate = _successor(a)
+        if _successor(candidate) == b:
+            gaps.append((_format_like(a_label, candidate), a_label, b_label))
+    return gaps
+
+
 class Source(Protocol):
     """Interface for a manuscript image source (e-codices, Gallica, etc.)."""
 

@@ -1,0 +1,187 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'iustis Aleluya Allelvya Lantate I Evovae ata'
+  [fused_1] 'sunt ei incensa multa ut adoleret ea ante altare aureum quod'
+  [fused_2] 'est ante oculos domini . dominus Regis evovae et'
+  [fused_3] 'Magnalia de Nichaele arthangelio qui fortis in preleio secuit ant V. in cospectu agulorum psana adorabo'
+  [fused_4] 'tu secudum Matheu  accesserunt'
+  [fused_5] 'toriam p endic. Eieronum presbiteri vitetene contempne'
+  [fused_6] 'cmenosis comeomibus mi srit io tii'
+  [fused_7] 'Melta ecamio quale non fuit ex'
+  [fused_8] 'gentes esse ceperunt et ad tempus'
+  [fused_9] ' in tempore illo salvabitur populus'
+  [fused_10] 'omnis qui inventus fuerit scriptus in libro in'
+  [fused_11] '. et vem n Michael Arthangelis nem mad'
+  [fused_12] 'nito tum ropilo destetit in auxilium'
+  [fused_13] 'pro ana uno in ts en Angelus'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'iustis Aleluya Allelvya Lantate I Evovae ata'
+  Assigned: 'iustis alleluya alleluya ~Cantate i euouae Data'
+  Words:    [0..7) consumed=7
+  NW score: k=7 (pre-snap), norm=4.9917
+  Anchor:   word 7 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 iustis -Aleluya Allelvya -Lantate I Evovae -ata 44
+                      0 ||||||  6
+    query             0 iustis alleluya alleluya ~Cantate i euouae Data 47
+
+-- fused_1 --
+  OCR:      'sunt ei incensa multa ut adoleret ea ante altare aureum quod'
+  Assigned: 'sunt ei incensa multa ut adoleret ea ante altare aureum quod'
+  Words:    [7..18) consumed=11
+  NW score: k=11 (pre-snap), norm=8.0000
+  Anchor:   word 18 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 sunt ei incensa multa ut adoleret ea ante altare aureum quod
+                      0 ||||
+    query             0 sunt ei incensa multa ut adoleret ea ante altare aureum quod
+    
+    target           60 
+                      4 
+    query            60 
+
+-- fused_2 --
+  OCR:      'est ante oculos domini . dominus Regis evovae et'
+  Assigned: 'est ante oculos domini ~Dominus regnavit euouae Magna'
+  Words:    [18..26) consumed=8
+  NW score: k=7 (pre-snap), norm=5.0740
+  Anchor:   word 26 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 est ante oculos domini . dominus Reg---is evovae ---et 48
+                      0 |||  3
+    query             0 est ante oculos domini -~Dominus regnavit euouae Magna 53
+
+-- fused_3 --
+  OCR:      'Magnalia de Nichaele arthangelio qui fortis in preleio secuit ant V. in cospectu agulorum psana adorabo'
+  Assigned: 'magnalia de michaele archangelo qui fortis in prelio fecit vic'
+  Words:    [26..36) consumed=10
+  NW score: k=10 (pre-snap), norm=3.7758
+  Anchor:   word 36 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 Magnalia de Nichaele arthangelio qui fortis in preleio secui
+                      0 .|||||||
+    query             0 magnalia de michaele archangel-o qui fortis in prel-io fec-i
+    
+    target           60 t ant V. in cospectu agulorum psana adorabo 103
+                      8 |   9
+    query            57 t ------vi-------ct------or------------ia-m  68
+
+-- fused_4 --
+  OCR:      'tu secudum Matheu  accesserunt'
+  Assigned: 'toriam ~Benedic'
+  Words:    [36..37) consumed=1
+  NW score: k=4 (pre-snap), norm=-1.6398
+  Anchor:   word 37 (within_chant_7), diff=3, snapped=False, forced=True
+  Alignment:
+    target            0 tu secudum Matheu  accesserunt 30
+                      0 --..|..|------------.|-------- 30
+    query             0 --~Bened------------ic--------  8
+
+-- fused_5 --
+  OCR:      'toriam p endic. Eieronum presbiteri vitetene contempne'
+  Assigned: 'anima euouae In tempore illo consurget michael qui stat pro filiis vestris Et veniet tempus'
+  Words:    [37..52) consumed=15
+  NW score: k=15 (pre-snap), norm=-1.1412
+  Anchor:   word 48 (within_chant_7), diff=4, snapped=False, forced=False
+  Alignment:
+    target            0 -------toriam -p -e----ndi----c-------. Ei---eronu-----m pr-
+                      0 -------.|-.|.
+    query             0 anima euo-uae In tempore illo consurget michael qui stat pro
+    
+    target           27 ---------esbiteri- viteten-e- contempne 54
+                     13 ---------||--|-||- 31
+    query            59  filiis ves--t-ris -Et veniet ---tempus 91
+
+-- fused_6 --
+  OCR:      'cmenosis comeomibus mi srit io tii'
+  Assigned: 'quale non fuit'
+  Words:    [52..55) consumed=3
+  NW score: k=7 (pre-snap), norm=-1.6633
+  Anchor:   word 55 (within_chant_7), diff=4, snapped=False, forced=True
+  Alignment:
+    target            0 --cme-nosis comeomibus mi srit io tii 34
+                      0 --..|-||--. 11
+    query             0 quale no--n -------fu-------it------- 14
+
+-- fused_7 --
+  OCR:      'Melta ecamio quale non fuit ex'
+  Assigned: 'ex eo quo gentes esse ceperunt usque ad'
+  Words:    [55..63) consumed=8
+  NW score: k=4 (pre-snap), norm=-0.1369
+  Anchor:   word 63 (within_chant_7), diff=4, snapped=False, forced=True
+  Alignment:
+    target            0 Melta ecamio quale non-------- ----fuit ----e--x 30
+                      0 -|--.  5
+    query             0 -e--x e----o qu--o gentes esse ceperunt usque ad 39
+
+-- fused_8 --
+  OCR:      'gentes esse ceperunt et ad tempus'
+  Assigned: 'tempus illud In tempore'
+  Words:    [63..67) consumed=4
+  NW score: k=4 (pre-snap), norm=-0.8348
+  Anchor:   word 71 (within_chant_7), diff=4, snapped=False, forced=False
+  Alignment:
+    target            0 gentes esse ceperunt et ad temp-us 33
+                      0 ---||...|-- 11
+    query             0 ---tempus-- --illu----d In tempore 23
+
+-- fused_9 --
+  OCR:      'in tempore illo salvabitur populus'
+  Assigned: 'illo salvabitur populus tuus'
+  Words:    [67..71) consumed=4
+  NW score: k=3 (pre-snap), norm=5.2567
+  Anchor:   word 71 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 in tempore illo salvabitur popul-----us 34
+                      0 -----------|||| 15
+    query             0 -----------illo salvabitur populus tuus 28
+
+-- fused_10 --
+  OCR:      'omnis qui inventus fuerit scriptus in libro in'
+  Assigned: 'omnis qui inventus fuerit scriptus in libro vi'
+  Words:    [71..79) consumed=8
+  NW score: k=7 (pre-snap), norm=7.4424
+  Anchor:   word 79 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 omnis qui inventus fuerit scriptus in libro -i-n 46
+                      0 |||||  5
+    query             0 omnis qui inventus fuerit scriptus in libro vite 48
+
+-- fused_11 --
+  OCR:      '. et vem n Michael Arthangelis nem mad'
+  Assigned: 'te Et veniet Michael archangelus venit in adiutorum'
+  Words:    [79..86) consumed=7
+  NW score: k=5 (pre-snap), norm=2.9888
+  Anchor:   word 86 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 . et vem n--- Michael Arthangelis --nem --mad------- 38
+                      0 --.|  4
+    query             0 --Et ve--niet Michael archangelus venit in adiutorum 48
+
+-- fused_12 --
+  OCR:      'nito tum ropilo destetit in auxilium'
+  Assigned: 'populo dei Stetit in'
+  Words:    [86..90) consumed=4
+  NW score: k=5 (pre-snap), norm=4.2091
+  Anchor:   word 90 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 nito tum ropilo de--stetit in auxilium 36
+                      0 ---------.||.|| 15
+    query             0 ---------populo dei Stetit in--------- 20
+
+-- fused_13 --
+  OCR:      'pro ana uno in ts en Angelus'
+  Assigned: 'auxilium pro animabus iustis Stetit angelus'
+  Words:    [90..96) consumed=6
+  NW score: k=6 (pre-snap), norm=1.8156
+  Anchor:   word 96 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ---------pro an--a uno in t-s --e--n Angelus 28
+                      0 ---------||| 12
+    query             0 auxilium pro animabu-s iustis Stetit angelus 43
+=== END DEBUG ===
+

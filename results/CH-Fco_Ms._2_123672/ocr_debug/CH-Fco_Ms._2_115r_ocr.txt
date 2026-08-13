@@ -1,0 +1,195 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] '4'
+  [fused_1] 'oronne sic oportuit pati xhpitistimi'
+  [fused_2] 'etntiane in esoran suan aielii crome t incipiens'
+  [fused_3] 'et omnibus prophetis interpretabatur illis scri'
+  [fused_4] 'proturas que de ipso erant Allelvya evonae e t cocgerunnt'
+  [fused_5] 'mum dicelites mane nobiscum domine qma advesperascit ane'
+  [fused_6] 'ane nobiscum quoniam advesperascit et'
+  [fused_7] 'indinata est jam dies Aveluya Aveluyatravit cum'
+  [fused_8] 'vlis et factum est dum recomberet cum ilis accepit panem'
+  [fused_9] 'et benedixit fregit ac porrigebat illis Avelnya exovac a'
+  [fused_10] 'noverunt dominum Alleluya in fractione'
+  [fused_11] 'Lomne cor nostrum ardens erat in nobis de Jhesu dominm loque'
+  [fused_12] 'retur nobis in via Avelnya evovaePex vobis ego sum a'
+  [fused_13] 'lempa nolne miere avelina erorie cauem'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      '4'
+  Assigned: 'mortis'
+  Words:    [0..1) consumed=1
+  NW score: k=1 (pre-snap), norm=-9.7980
+  Anchor:   word 8 (within_chant_7), diff=7, snapped=False, forced=False
+  Alignment:
+    target            0 -----4 1
+                      0 -----. 6
+    query             0 mortis 6
+
+-- fused_1 --
+  OCR:      'oronne sic oportuit pati xhpitistimi'
+  Assigned: 'alleluya euouae Nonne sic oportuit pati xpistum'
+  Words:    [1..8) consumed=7
+  NW score: k=7 (pre-snap), norm=3.7196
+  Anchor:   word 8 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -----------o----ronne sic oportuit pati xhpitistimi 36
+                      0 -----------|----.|||| 21
+    query             0 alleluya euouae Nonne sic oportuit pati x-p--istum- 47
+
+-- fused_2 --
+  OCR:      'etntiane in esoran suan aielii crome t incipiens'
+  Assigned: 'et intrare in gloriam suam alleluya euouae Et incipiens'
+  Words:    [8..17) consumed=9
+  NW score: k=9 (pre-snap), norm=3.5616
+  Anchor:   word 17 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 et--ntiane in esor-an suan a-iel-ii cro-me -t incipiens 48
+                      0 ||--||.|.| 10
+    query             0 et intrare in gloriam suam alleluya euouae Et incipiens 55
+
+-- fused_3 --
+  OCR:      'et omnibus prophetis interpretabatur illis scri'
+  Assigned: 'a moyse et omnibus prophetis interpretabatur illis scrip'
+  Words:    [17..25) consumed=8
+  NW score: k=8 (pre-snap), norm=6.0884
+  Anchor:   word 25 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 --------et omnibus prophetis interpretabatur illis scri-----
+                      0 --------||
+    query             0 a moyse et omnibus prophetis interpretabatur illis scriptura
+    
+    target           47 - 47
+                     10 - 11
+    query            60 s 61
+
+-- fused_4 --
+  OCR:      'proturas que de ipso erant Allelvya evonae e t cocgerunnt'
+  Assigned: 'turas que de ipso erant alleluya euouae Et coegerunt'
+  Words:    [25..33) consumed=8
+  NW score: k=8 (pre-snap), norm=4.7846
+  Anchor:   word 33 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 proturas que de ipso erant Allelvya evonae e t cocgerunnt 57
+                      0 ---------||| 12
+    query             0 ---------que de ipso erant alleluya euouae -Et coegeru-nt 46
+
+-- fused_5 --
+  OCR:      'mum dicelites mane nobiscum domine qma advesperascit ane'
+  Assigned: 'illum dicentes mane nobiscum domine quia advesperascit alle'
+  Words:    [33..41) consumed=8
+  NW score: k=7 (pre-snap), norm=5.9828
+  Anchor:   word 41 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 --mum dicelites mane nobiscum domine q-ma advesperascit a-ne
+                      0 --.||
+    query             0 illum dice-ntes mane nobiscum domine quia advesperascit alle
+    
+    target           56 ---- 56
+                      5 ----  9
+    query            59 luya 63
+
+-- fused_6 --
+  OCR:      'ane nobiscum quoniam advesperascit et'
+  Assigned: 'luya euouae Mane nobiscum quoniam advesperascit et'
+  Words:    [41..47) consumed=6
+  NW score: k=6 (pre-snap), norm=6.5679
+  Anchor:   word 47 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 --------ane nobiscum quoniam advesperascit et 37
+                      0 --------||| 11
+    query             0 euouae Mane nobiscum quoniam advesperascit et 45
+
+-- fused_7 --
+  OCR:      'indinata est jam dies Aveluya Aveluyatravit cum'
+  Assigned: 'inclinata est iam dies alleluya alleluya | Et intravit cum'
+  Words:    [47..57) consumed=10
+  NW score: k=10 (pre-snap), norm=4.7691
+  Anchor:   word 57 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 in-dinata est jam dies -Aveluya -Aveluya--------travit cum 47
+                      0 ||-.|||||  9
+    query             0 inclinata est iam dies alleluya alleluya | Et intravit cum 58
+
+-- fused_8 --
+  OCR:      'vlis et factum est dum recomberet cum ilis accepit panem'
+  Assigned: 'illis et factum est dum recomberet cum illis accepit panem'
+  Words:    [57..67) consumed=10
+  NW score: k=10 (pre-snap), norm=7.3871
+  Anchor:   word 67 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -vlis et factum est dum recomberet cum i-lis accepit panem 56
+                      0 -.|||  5
+    query             0 illis et factum est dum recomberet cum illis accepit panem 58
+
+-- fused_9 --
+  OCR:      'et benedixit fregit ac porrigebat illis Avelnya exovac a'
+  Assigned: 'et benedixit fregit ac porrigebat illis alleluya euouae co'
+  Words:    [67..76) consumed=9
+  NW score: k=8 (pre-snap), norm=6.0723
+  Anchor:   word 76 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 et benedixit fregit ac porrigebat illis -Avelnya exovac ----
+                      0 ||
+    query             0 et benedixit fregit ac porrigebat illis alleluya euouae Cogn
+    
+    target           55 ------a 56
+                      2 ------.  9
+    query            60 overunt 67
+
+-- fused_10 --
+  OCR:      'noverunt dominum Alleluya in fractione'
+  Assigned: 'gnoverunt dominum alleluya in fractione'
+  Words:    [76..80) consumed=4
+  NW score: k=4 (pre-snap), norm=5.6633
+  Anchor:   word 83 (within_chant_7), diff=3, snapped=False, forced=False
+  Alignment:
+    target            0 noverunt dominum Alleluya in fractione 38
+                      0 ---------||||||| 16
+    query             0 ---------dominum alleluya in fractione 29
+
+-- fused_11 --
+  OCR:      'Lomne cor nostrum ardens erat in nobis de Jhesu dominm loque'
+  Assigned: 'panis alleluya | Nonne cor nostrum ardens erat in nobis de ihesu dum loque'
+  Words:    [80..94) consumed=14
+  NW score: k=14 (pre-snap), norm=4.6044
+  Anchor:   word 83 (within_chant_7), diff=11, snapped=False, forced=False
+  Alignment:
+    target            0 -----------------Lomne cor nostrum ardens erat in nobis de J
+                      0 -----------------.|.||
+    query             0 panis alleluya | Nonne cor nostrum ardens erat in nobis de i
+    
+    target           43 hesu dominm loque----- 60
+                     22 |||| 26
+    query            60 hesu d---um loqueretur 79
+
+-- fused_12 --
+  OCR:      'retur nobis in via Avelnya evovaePex vobis ego sum a'
+  Assigned: 'retur nobis in via alleluya euouae Pax vobis ego sum al'
+  Words:    [94..104) consumed=10
+  NW score: k=9 (pre-snap), norm=4.6618
+  Anchor:   word 104 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 retur nobis in via -Avelnya evovae-Pex vobis ego sum -------
+                      0 ------|||||
+    query             0 ------nobis in via alleluya euouae Pax vobis ego sum alleluy
+    
+    target           51 a 52
+                     11 | 12
+    query            54 a 55
+
+-- fused_13 --
+  OCR:      'lempa nolne miere avelina erorie cauem'
+  Assigned: 'leluya nolite timere alleluya euouae Spiritus carnem'
+  Words:    [104..110) consumed=6
+  NW score: k=6 (pre-snap), norm=1.6202
+  Anchor:   word 110 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 lempa nol-ne mi-ere a-velina ero-------ri--e ca-uem 38
+                      0 ------|||-.| 12
+    query             0 ------nolite timere alleluya euouae Spiritus carnem 45
+=== END DEBUG ===
+

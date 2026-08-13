@@ -1,0 +1,167 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'lucece litus fu ra contemplatur inter mino o'
+  [fused_1] 'mus Quiparii gregis ex'
+  [fused_2] 'clare specu latur adrans quoque no'
+  [fused_3] 'vussimus culpbi penitus di i renelatur.'
+  [fused_4] 'lori tri et fili oetspi tui'
+  [fused_5] 'Sancto Quiex Archa na suis re seransoc tanum'
+  [fused_6] 'tandem recipit et ad diversas gen tesinot t'
+  [fused_7] 'dos federans . Hu mmilia cepit et es se pacien'
+  [fused_8] ' rex procidit optempe rans'
+  [fused_9] 'spor erectos suscipit ad oscila gaudelites . Hu mili Dio'
+  [fused_10] 'na patri et fii  spiritui anc HI m.'
+  [fused_11] 'un tes maint in um qui micaet'
+  [fused_12] 'nos dominum jacta te cogitatim sie catbus e'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'lucece litus fu ra contemplatur inter mino o'
+  Assigned: 'luce celitus futura contemplatur inter minores'
+  Words:    [0..6) consumed=6
+  NW score: k=6 (pre-snap), norm=6.1571
+  Anchor:   word 16 (within_chant_7), diff=10, snapped=False, forced=False
+  Alignment:
+    target            0 luce-ce litus fu- ra contemplatur inter mino- o 44
+                      0 ||||-||-||||| 13
+    query             0 luce ce-litus futura contemplatur inter minores 46
+
+-- fused_1 --
+  OCR:      'mus Quiparii gregis ex'
+  Assigned: 'minimus Quis parvi gregis exitus'
+  Words:    [6..11) consumed=5
+  NW score: k=5 (pre-snap), norm=4.5604
+  Anchor:   word 16 (within_chant_7), diff=5, snapped=False, forced=False
+  Alignment:
+    target            0 ----mus Qui--parii gregis ex---- 22
+                      0 ----|||  7
+    query             0 minimus Quis parvi gregis exitus 32
+
+-- fused_2 --
+  OCR:      'clare specu latur adrans quoque no'
+  Assigned: 'preclare speculatur Quadrans quoque no'
+  Words:    [11..16) consumed=5
+  NW score: k=4 (pre-snap), norm=5.7107
+  Anchor:   word 16 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 ---clare specu latur --adrans quoque no-------- 34
+                      0 ---|||||  8
+    query             0 preclare specu-latur Quadrans quoque novissimus 46
+
+-- fused_3 --
+  OCR:      'vussimus culpbi penitus di i renelatur.'
+  Assigned: 'vissimus culparum sibi penitus dimitti revelatur'
+  Words:    [16..21) consumed=5
+  NW score: k=5 (pre-snap), norm=3.3333
+  Anchor:   word 21 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 vussimus culp-------bi penitus di--- i renelatur. 39
+                      0 ---------||||-------|| 22
+    query             0 ---------culparum sibi penitus dimitti revelatur- 39
+
+-- fused_4 --
+  OCR:      'lori tri et fili oetspi tui'
+  Assigned: 'Qui parvi Gloria patri et filio et spiritui'
+  Words:    [21..29) consumed=8
+  NW score: k=8 (pre-snap), norm=3.3164
+  Anchor:   word 29 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -----------lori- --tri et fili- oet-spi- tui 27
+                      0 -----------||||- 16
+    query             0 Qui parvi Gloria patri et filio -et spiritui 43
+
+-- fused_5 --
+  OCR:      'Sancto Quiex Archa na suis re seransoc tanum'
+  Assigned: 'sancto Qui Archana suis reserans octavum'
+  Words:    [29..35) consumed=6
+  NW score: k=6 (pre-snap), norm=5.9115
+  Anchor:   word 35 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 Sancto Quiex Archa na suis re serans-oc tanum 44
+                      0 .|||||  6
+    query             0 sancto Qui-- Archa-na suis re-serans oc-tavum 40
+
+-- fused_6 --
+  OCR:      'tandem recipit et ad diversas gen tesinot t'
+  Assigned: 'tandem recipit et ad diversas gentes binos mitten'
+  Words:    [35..43) consumed=8
+  NW score: k=7 (pre-snap), norm=6.5887
+  Anchor:   word 43 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 tandem recipit et ad diversas gen tes--inot ---t----- 43
+                      0 ||||||  6
+    query             0 tandem recipit et ad diversas gen-tes binos mittendos 52
+
+-- fused_7 --
+  OCR:      'dos federans . Hu mmilia cepit et es se pacien'
+  Assigned: 'dos federans Humiliari precepit et esse'
+  Words:    [43..48) consumed=5
+  NW score: k=6 (pre-snap), norm=4.7695
+  Anchor:   word 48 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 dos federans . Hu mmilia-- ---cepit et es se pacien 46
+                      0 ----||||||||-- 14
+    query             0 ----federans-- Hu--miliari precepit et es-se------- 35
+
+-- fused_8 --
+  OCR:      'rex procidit optempe rans'
+  Assigned: 'pacientes Grex procidit optemperans pa'
+  Words:    [48..53) consumed=5
+  NW score: k=4 (pre-snap), norm=5.0033
+  Anchor:   word 53 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 -----------rex procidit optempe rans------- 25
+                      0 -----------||| 14
+    query             0 pacientes Grex procidit optempe-rans pastor 42
+
+-- fused_9 --
+  OCR:      'spor erectos suscipit ad oscila gaudelites . Hu mili Dio'
+  Assigned: 'stor erectos suscipit ad oscula gaudentes Humiliari glo'
+  Words:    [53..60) consumed=7
+  NW score: k=6 (pre-snap), norm=5.2409
+  Anchor:   word 60 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 spor erectos suscipit ad oscila gaudelites . Hu mil---i ---D
+                      0 -----|||||||
+    query             0 -----erectos suscipit ad oscula gaude-ntes-- Hu-miliari Glor
+    
+    target           54 io 56
+                     12 |. 14
+    query            51 ia 53
+
+-- fused_10 --
+  OCR:      'na patri et fii  spiritui anc HI m.'
+  Assigned: 'ria patri et filio et spiritui sancto'
+  Words:    [60..66) consumed=6
+  NW score: k=6 (pre-snap), norm=4.0606
+  Anchor:   word 66 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 na patri et fi-i- -- spiritui -anc HI m. 35
+                      0 ---|||||  8
+    query             0 ---patri et filio et spiritui sanc----to 33
+
+-- fused_11 --
+  OCR:      'un tes maint in um qui micaet'
+  Assigned: 'Humiliari Euntes inquit in eum qui nutriet'
+  Words:    [66..73) consumed=7
+  NW score: k=7 (pre-snap), norm=2.3496
+  Anchor:   word 73 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -----------un tes main---t in -um qui ---micaet 29
+                      0 -----------||-||| 17
+    query             0 Humiliari Eun-tes --inquit in eum qui nutri--et 42
+
+-- fused_12 --
+  OCR:      'nos dominum jacta te cogitatim sie catbus e'
+  Assigned: 'vos dominum iactate cogitatum sic fratribus et'
+  Words:    [73..80) consumed=7
+  NW score: k=7 (pre-snap), norm=5.3963
+  Anchor:   word 80 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 nos dominum jacta te cogitatim sie -cat--bus e- 43
+                      0 .||  3
+    query             0 vos dominum iacta-te cogitatum sic fratribus et 46
+=== END DEBUG ===
+

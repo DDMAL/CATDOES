@@ -1,0 +1,211 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'magnum pietatis opus mors mortua tunc'
+  [fused_1] 'est quando inligno mortua vita fuit dominus Regis evovae'
+  [fused_2] 'alva nos xptiste salvator per virtutem sancte Crucis qui sal'
+  [fused_3] 'miserere nobis prs ubil eovace'
+  [fused_4] 'trucem domini fugite partes adverse vncit leo de tribu juda radix'
+  [fused_5] 'davidalles dis evovaeosautem gloriario'
+  [fused_6] 'portet icrce domini nostri es pisBendinis evovac er'
+  [fused_7] 'signum crucis de minicis nostris libera nos Deus noster pr. Landus'
+  [fused_8] 'Coonas. uper omnia ligna cedrorum tu sola ex'
+  [fused_9] 'Colcie vita mundi pependit in qua Cptistus triumphavit dort omno tesas'
+  [fused_10] 'tmors motem sipetanit metetium erorue'
+  [fused_11] 'hoc signum cecis adorani tea psio'
+  [fused_12] 'audis psalini dix domini Coltini pd Gaibanosdr . hoc signum certis ad d. Oddominu ad mdicadum ad maita a capellai Hesentite IIII ocru me c ar eii'
+  [fused_13] 'one solafin stdigna peta . rechen am cunics'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'magnum pietatis opus mors mortua tunc'
+  Assigned: 'ii euouae O magnum pietatis opus mors mortua tunc'
+  Words:    [0..9) consumed=9
+  NW score: k=9 (pre-snap), norm=6.0123
+  Anchor:   word 9 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ------------magnum pietatis opus mors mortua tunc 37
+                      0 ------------|||||| 18
+    query             0 ii euouae O magnum pietatis opus mors mortua tunc 49
+
+-- fused_1 --
+  OCR:      'est quando inligno mortua vita fuit dominus Regis evovae'
+  Assigned: 'est quando in ligno mortua vita fuit ~Dominus regnavit'
+  Words:    [9..18) consumed=9
+  NW score: k=10 (pre-snap), norm=6.0910
+  Anchor:   word 18 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 est quando in-ligno mortua vita fuit -dominus Regis evovae 56
+                      0 |||  3
+    query             0 est quando in ligno mortua vita fuit ~Dominus reg----navit 54
+
+-- fused_2 --
+  OCR:      'alva nos xptiste salvator per virtutem sancte Crucis qui sal'
+  Assigned: 'euouae Salva nos xpiste salvator per virtutem {sancte} crucis qui'
+  Words:    [18..28) consumed=10
+  NW score: k=11 (pre-snap), norm=5.8679
+  Anchor:   word 28 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 --------alva nos xptiste salvator per virtutem -sancte- Cruc
+                      0 --------||||
+    query             0 euouae Salva nos xp-iste salvator per virtutem {sancte} cruc
+    
+    target           50 is qui sal 60
+                     12 || 14
+    query            59 is qui---- 65
+
+-- fused_3 --
+  OCR:      'miserere nobis prs ubil eovace'
+  Assigned: 'salvasti petrum in mare miserere nobis ~Iubilate euouae Ecce'
+  Words:    [28..37) consumed=9
+  NW score: k=8 (pre-snap), norm=1.5756
+  Anchor:   word 37 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 ------------------------miserere nobis prs ubil--- e-ova----
+                      0 ------------------------||||||||
+    query             0 salvasti petrum in mare miserere nobis --~Iubilate euouae Ec
+    
+    target           28 ce 30
+                     32 || 34
+    query            58 ce 60
+
+-- fused_4 --
+  OCR:      'trucem domini fugite partes adverse vncit leo de tribu juda radix'
+  Assigned: 'crucem domini fugite partes adverse vicit leo de tribu iuda radix'
+  Words:    [37..48) consumed=11
+  NW score: k=11 (pre-snap), norm=7.4000
+  Anchor:   word 48 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 trucem domini fugite partes adverse vncit leo de tribu juda 
+                      0 .|||||
+    query             0 crucem domini fugite partes adverse vicit leo de tribu iuda 
+    
+    target           60 radix 65
+                      6 ||||| 11
+    query            60 radix 65
+
+-- fused_5 --
+  OCR:      'davidalles dis evovaeosautem gloriario'
+  Assigned: 'david alleluya ~Deus deus euouae Nos autem gloriari o'
+  Words:    [48..57) consumed=9
+  NW score: k=8 (pre-snap), norm=4.2705
+  Anchor:   word 57 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 david-alle---------s d-is evovae--os-autem gloriari---o----
+                      0 |||||-||||---------|
+    query             0 david alleluya ~Deus deus euouae Nos autem gloriari oportet
+    
+    target           38
+                     20
+    query            59
+
+-- fused_6 --
+  OCR:      'portet icrce domini nostri es pisBendinis evovac er'
+  Assigned: 'portet in cruce domini nostri ihesu xpisti ~Benedic euouae Per'
+  Words:    [57..66) consumed=9
+  NW score: k=9 (pre-snap), norm=3.3986
+  Anchor:   word 66 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 portet icr-ce domini nostri --es- -pis----Ben-dinis evovac -
+                      0 ----..
+    query             0 ----in -cruce domini nostri ihesu xpisti ~Bened--ic euouae P
+    
+    target           49 er 51
+                      6 ||  8
+    query            53 er 55
+
+-- fused_7 --
+  OCR:      'signum crucis de minicis nostris libera nos Deus noster pr. Landus'
+  Assigned: 'signum crucis de inimicis nostris libera nos deus noster'
+  Words:    [66..75) consumed=9
+  NW score: k=10 (pre-snap), norm=6.0154
+  Anchor:   word 75 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 signum crucis de min--icis nostris libera nos Deus noster pr
+                      0 ||||||
+    query             0 signum crucis de -inimicis nostris libera nos deus noster---
+    
+    target           58 . Landus 66
+                      6 -------- 14
+    query            56 -------- 56
+
+-- fused_8 --
+  OCR:      'Coonas. uper omnia ligna cedrorum tu sola ex'
+  Assigned: '~Laudate euouae Super omnia ligna cedrorum tu sola ex'
+  Words:    [75..84) consumed=9
+  NW score: k=8 (pre-snap), norm=4.4772
+  Anchor:   word 84 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 ---------Coonas. -uper omnia ligna cedrorum tu sola ex------
+                      0 ---------..|.|-.
+    query             0 ~Laudate euoua-e Super omnia ligna cedrorum tu sola excelsio
+    
+    target           44 - 44
+                     16 - 17
+    query            59 r 60
+
+-- fused_9 --
+  OCR:      'Colcie vita mundi pependit in qua Cptistus triumphavit dort omno tesas'
+  Assigned: 'celsior in qua vita mundi pependit in qua xpistus triumphavit'
+  Words:    [84..93) consumed=9
+  NW score: k=11 (pre-snap), norm=4.9736
+  Anchor:   word 93 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 Colci----e vita mundi pependit in qua Cptistus triumphavit d
+                      0 ----|----.
+    query             0 ----in qua vita mundi pependit in qua xp-istus triumphavit--
+    
+    target           56 ort omno tesas 70
+                     10 -------------- 24
+    query            53 -------------- 53
+
+-- fused_10 --
+  OCR:      'tmors motem sipetanit metetium erorue'
+  Assigned: 'et mors mortem superavit in eternum'
+  Words:    [93..99) consumed=6
+  NW score: k=7 (pre-snap), norm=3.8558
+  Anchor:   word 99 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 -t-mors mo-tem sipetanit metetium erorue 37
+                      0 -|-||||  7
+    query             0 et mors mortem superavit in et----er-num 35
+
+-- fused_11 --
+  OCR:      'hoc signum cecis adorani tea psio'
+  Assigned: 'euouae O crux benedicta'
+  Words:    [99..103) consumed=4
+  NW score: k=6 (pre-snap), norm=-1.4463
+  Anchor:   word 103 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 -ho--c signum cecis adorani tea psio 33
+                      0 -.|--.  6
+    query             0 euouae O crux be---ned----ict-a----- 23
+
+-- fused_12 --
+  OCR:      'audis psalini dix domini Coltini pd Gaibanosdr . hoc signum certis ad d. Oddominu ad mdicadum ad maita a capellai Hesentite IIII ocru me c ar eii'
+  Assigned: 'que sola fuisti digna portare regem celorum et dominum'
+  Words:    [103..112) consumed=9
+  NW score: k=9 (pre-snap), norm=-2.2941
+  Anchor:   word 112 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 audis psal----i-ni dix domini Coltini pd Gaibanosdr . hoc si
+                      0 .|--.
+    query             0 qu--e -sola fuisti di-----gna port-----------a----r-----e re
+    
+    target           55 gnum ce--rtis ad d. Oddominu ad mdicadum ad maita a capellai
+                      5 |-.|
+    query            32 g-em celor----um et --dominu--------------------------------
+    
+    target          113  Hesentite IIII ocru me c ar eii 145
+                      9 ---------------------|----------  41
+    query            53 ---------------------m----------  54
+
+-- fused_13 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [112..112) consumed=0
+  Alignment:
+    (no words left)
+=== END DEBUG ===
+

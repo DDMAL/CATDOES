@@ -1,0 +1,222 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'Sancto non visurum se mortem nisivideret dominum p'
+  [fused_1] 'te eovae Accipiens Symeon puerione in manibus graci'
+  [fused_2] 'as agens benedixit dominum Pre. Ds deus veis evovae e'
+  [fused_3] 'vertere in terram inda mortui sunt eium qui querebant a'
+  [fused_4] 'mna puer  enedicite btulerunt pro'
+  [fused_5] 'eo domino par curturim aut duos pullos columbarum lau'
+  [fused_6] 'date Crorae mnducerent puerum Jhesum'
+  [fused_7] 'pettire eomns acepte umiserme on munas iuenei'
+  [fused_8] 'cens nunc dimitis do ne servum tuum'
+  [fused_9] 'omno ut supra ad mne capetla Eccleiego R . sepetua V. jutcede pro nobis'
+  [fused_10] 'ad Vi capellam ecce venet adjuvabit eam e Elegit ad ix'
+  [fused_11] 'et placebit d Elegit ei e in tabnaclo B . diffunsa c ad vesp'
+  [fused_12] 'evovae . ee per ordine sicu in festum Sancte Marie capilis ecce ego Ymis anemanis'
+  [fused_13] 'Rodie beata virgo Maria puerum puerum Jhesum'
+  [fused_14] 'presenta vit in Templo et Symeon repletus spiritu Sancto'
+  [fused_15] 'atte pit eumm il naoisias et bencomrteum me'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'Sancto non visurum se mortem nisivideret dominum p'
+  Assigned: 'sancto non visurum se mortem nisi videret dominum'
+  Words:    [0..8) consumed=8
+  NW score: k=8 (pre-snap), norm=7.1519
+  Anchor:   word 16 (within_chant_7), diff=8, snapped=False, forced=False
+  Alignment:
+    target            0 Sancto non visurum se mortem nisi-videret dominum p 50
+                      0 .|||||  6
+    query             0 sancto non visurum se mortem nisi videret dominum-- 49
+
+-- fused_1 --
+  OCR:      'te eovae Accipiens Symeon puerione in manibus graci'
+  Assigned: '~Iubilate euouae Accipiens symeon puerum in manibus graci'
+  Words:    [8..16) consumed=8
+  NW score: k=8 (pre-snap), norm=5.2503
+  Anchor:   word 16 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -------te e-ovae Accipiens Symeon puerione in manibus graci-
+                      0 -------||
+    query             0 ~Iubilate euouae Accipiens symeon puer--um in manibus gracia
+    
+    target           51 - 51
+                      9 - 10
+    query            58 s 59
+
+-- fused_2 --
+  OCR:      'as agens benedixit dominum Pre. Ds deus veis evovae e'
+  Assigned: 'as agens benedixit dominum ~Deus deus meus euouae re'
+  Words:    [16..24) consumed=8
+  NW score: k=7 (pre-snap), norm=4.9417
+  Anchor:   word 24 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 as agens benedixit dominum Pre. Ds deus veis evovae --------
+                      0 ---|||||
+    query             0 ---agens benedixit dominum ~De--us deus meus euouae Reverter
+    
+    target           52 e 53
+                      8 |  9
+    query            55 e 56
+
+-- fused_3 --
+  OCR:      'vertere in terram inda mortui sunt eium qui querebant a'
+  Assigned: 'vertere in terram iuda mortui sunt enim qui querebant a'
+  Words:    [24..33) consumed=9
+  NW score: k=8 (pre-snap), norm=5.7689
+  Anchor:   word 33 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 vertere in terram inda mortui sunt e-ium qui querebant a----
+                      0 --------||
+    query             0 --------in terram iuda mortui sunt eni-m qui querebant anima
+    
+    target           55 - 55
+                     10 - 11
+    query            51 m 52
+
+-- fused_4 --
+  OCR:      'mna puer  enedicite btulerunt pro'
+  Assigned: 'nimam pueri ~Benedicite euouae Obtulerunt pro'
+  Words:    [33..38) consumed=5
+  NW score: k=5 (pre-snap), norm=4.5993
+  Anchor:   word 38 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 mna puer  --enedicite --------btulerunt pro 33
+                      0 ----||||.  9
+    query             0 ----pueri ~Benedicite euouae Obtulerunt pro 39
+
+-- fused_5 --
+  OCR:      'eo domino par curturim aut duos pullos columbarum lau'
+  Assigned: 'eo domino par turturum aut duos pullos co'
+  Words:    [38..46) consumed=8
+  NW score: k=8 (pre-snap), norm=6.8680
+  Anchor:   word 46 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 eo domino par curturim aut duos pullos columbarum lau 53
+                      0 ||  2
+    query             0 eo domino par turturum aut duos pullos columbarum---- 49
+
+-- fused_6 --
+  OCR:      'date Crorae mnducerent puerum Jhesum'
+  Assigned: 'lumbarum ~Laudate euouae Cum inducerent puerum ihesum'
+  Words:    [46..52) consumed=6
+  NW score: k=6 (pre-snap), norm=5.0252
+  Anchor:   word 52 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ----date Crorae --m--nducerent puerum Jhesum 36
+                      0 ----||||  8
+    query             0 ~Laudate euouae Cum inducerent puerum ihesum 44
+
+-- fused_7 --
+  OCR:      'pettire eomns acepte umiserme on munas iuenei'
+  Assigned: 'parentes eius accepit eum symeon in ulnas suas et benedix'
+  Words:    [52..62) consumed=10
+  NW score: k=9 (pre-snap), norm=1.7463
+  Anchor:   word 62 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 p--ettire- eomns a-cep-t-e umiserme on --mu-nas iu-------ene
+                      0 |--|.|--|-
+    query             0 parent--es e-ius accepit e-um s-yme-on in ulnas suas et bene
+    
+    target           44 ---i- 45
+                     10 ---|- 15
+    query            54 dixit 59
+
+-- fused_8 --
+  OCR:      'cens nunc dimitis do ne servum tuum'
+  Assigned: 'it deum dicens nunc dimittis domine servum tuum'
+  Words:    [62..69) consumed=7
+  NW score: k=7 (pre-snap), norm=5.8100
+  Anchor:   word 69 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -------cens nunc dimi-tis do- ne servum tuum 35
+                      0 -------|||| 11
+    query             0 deum dicens nunc dimittis domine servum tuum 44
+
+-- fused_9 --
+  OCR:      'omno ut supra ad mne capetla Eccleiego R . sepetua V. jutcede pro nobis'
+  Assigned: 'in pace'
+  Words:    [69..71) consumed=2
+  NW score: k=10 (pre-snap), norm=-0.7566
+  Anchor:   word 71 (within_chant_7), diff=8, snapped=False, forced=True
+  Alignment:
+    target            0 omno ut supra ad mne capetla Eccleiego R . sepetua V. jutced
+                      0 ----------------------------------|------.
+    query             0 ----------------------------------i------n --p---a-------ce-
+    
+    target           60 e pro nobis 71
+                     42 ----------- 53
+    query             7 -----------  7
+
+-- fused_10 --
+  OCR:      'ad Vi capellam ecce venet adjuvabit eam e Elegit ad ix'
+  Assigned: 'euouae Hodie beata virgo maria puerum ihesum'
+  Words:    [71..78) consumed=7
+  NW score: k=9 (pre-snap), norm=-1.0984
+  Anchor:   word 78 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 ad Vi cape-llam -ecce venet adjuvabi--t eam e Elegit ad i---
+                      0 ---------|-..|.
+    query             0 ---------euouae Hodie be-at-a-- v--irgo maria pue---rum ihes
+    
+    target           53 -x 54
+                     15 -. 17
+    query            42 um 44
+
+-- fused_11 --
+  OCR:      'et placebit d Elegit ei e in tabnaclo B . diffunsa c ad vesp'
+  Assigned: 'presentavit in templo et symeon repletus spiritu sancto'
+  Words:    [78..86) consumed=8
+  NW score: k=14 (pre-snap), norm=-0.9156
+  Anchor:   word 86 (within_chant_7), diff=6, snapped=False, forced=True
+  Alignment:
+    target            0 ----e-t placebit -d Ele-git ei ---e in tabnacl-o B . di-ffun
+                      0 ----|-|---|--.||
+    query             0 present---a--vit in -templo et syme-on ---repletus -spiritu 
+    
+    target           48 sa c ad vesp 60
+                     16 ||.|------.. 28
+    query            49 sanc------to 55
+
+-- fused_12 --
+  OCR:      'evovae . ee per ordine sicu in festum Sancte Marie capilis ecce ego Ymis anemanis'
+  Assigned: 'accepit eum in ulnas suas et benedixit deum in e'
+  Words:    [86..96) consumed=10
+  NW score: k=9 (pre-snap), norm=-1.3434
+  Anchor:   word 96 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 evovae . ee per ordine sicu- in festum Sancte Marie -capilis
+                      0 ----|---..|-|..
+    query             0 ----a---cce-pit -----e----um in ----u---ln-----a--s sua----s
+    
+    target           58  e-cce e---go --Ym-is anemanis 81
+                     15  15
+    query            25  et benedixit deum in ete-rnum 54
+
+-- fused_13 --
+  OCR:      'Rodie beata virgo Maria puerum puerum Jhesum'
+  Assigned: 'ternum euouae'
+  Words:    [96..97) consumed=1
+  NW score: k=1 (pre-snap), norm=-6.8931
+  Alignment:
+    target            0 Rodie beata virgo Maria puerum puerum Jhesum 44
+                      0 --------------------------|-----|-.|---.|--- 44
+    query             0 --------------------------e-----u-ou---ae---  6
+
+-- fused_14 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [97..97) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_15 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [97..97) consumed=0
+  Alignment:
+    (no words left)
+=== END DEBUG ===
+

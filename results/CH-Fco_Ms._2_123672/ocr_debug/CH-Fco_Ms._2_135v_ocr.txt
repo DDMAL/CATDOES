@@ -1,0 +1,183 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'auriga eius evovae aoleo supertefratermi onatha'
+  [fused_1] 'amabilis valde super amorem mulierum et sicut mater'
+  [fused_2] 'umita diligebam sagita jonathe muni'
+  [fused_3] 'quam abut retrionrsum nec dedinavit dippens ejus in beno'
+  [fused_4] 't aliti cmo nois est aovetsa exoraeDointes'
+  [fused_5] '.alie ibt ros nec prlunia veniantr supes veons cuim'
+  [fused_6] 'in te abjectus est clippens forcium dipeus saul quasi non'
+  [fused_7] 'modo ceciderunt fortes in Bello'
+  [fused_8] 'nonathas amabiles et decori Valde in vita sua in'
+  [fused_9] 'inferialibus invitats Ymnus e apsts feria'
+  [fused_10] 'morte quoq non sunt divisi evovae et in liespisri ali esii br dsicli ima uus adventa'
+  [fused_11] 'omo quidam fecit cenam magnam et voca'
+  [fused_12] 'tlts et si s se dicere '
+  [fused_13] 'tatis tuemtent quia omnia parata sunt allelihti eror'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'auriga eius evovae aoleo supertefratermi onatha'
+  Assigned: 'auriga eius euouae Doleo super te frater mi ionathas'
+  Words:    [0..9) consumed=9
+  NW score: k=9 (pre-snap), norm=6.1088
+  Anchor:   word 9 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 auriga eius evovae aoleo super-te-frater-mi -onatha- 47
+                      0 ||||||  6
+    query             0 auriga eius euouae Doleo super te frater mi ionathas 52
+
+-- fused_1 --
+  OCR:      'amabilis valde super amorem mulierum et sicut mater'
+  Assigned: 'amabilis valde super amorem mulierum et sicut mater unicum'
+  Words:    [9..18) consumed=9
+  NW score: k=8 (pre-snap), norm=8.0000
+  Anchor:   word 18 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 amabilis valde super amorem mulierum et sicut mater------- 51
+                      0 ||||||||  8
+    query             0 amabilis valde super amorem mulierum et sicut mater unicum 58
+
+-- fused_2 --
+  OCR:      'umita diligebam sagita jonathe muni'
+  Assigned: 'amat filium ita diligebam sagita ionathe numquam ab'
+  Words:    [18..26) consumed=8
+  NW score: k=6 (pre-snap), norm=4.5434
+  Anchor:   word 26 (within_chant_7), diff=2, snapped=True, forced=False
+  Alignment:
+    target            0 ---------um-ita diligebam sagita jonathe --m-u-----ni- 35
+                      0 ---------||-||| 15
+    query             0 amat filium ita diligebam sagita ionathe numquam abiit 54
+
+-- fused_3 --
+  OCR:      'quam abut retrionrsum nec dedinavit dippens ejus in beno'
+  Assigned: 'iit retrorsum nec declinavit clippeus eius in bello et'
+  Words:    [26..34) consumed=8
+  NW score: k=7 (pre-snap), norm=4.2493
+  Anchor:   word 34 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 quam abut retrionrsum nec de-dinavit -dippens ejus in be-no-
+                      0 ----------||||-|-||||
+    query             0 ----------retr-o-rsum nec declinavit clippeus eius in bello 
+    
+    target           56 -- 56
+                     21 -- 23
+    query            48 et 50
+
+-- fused_4 --
+  OCR:      't aliti cmo nois est aovetsa exoraeDointes'
+  Assigned: 'hasta eius non est adversa euouae Montes'
+  Words:    [34..41) consumed=7
+  NW score: k=7 (pre-snap), norm=2.5861
+  Anchor:   word 41 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 t aliti -cmo nois est aovetsa exorae-Dointes 42
+                      0 -.|-.|.  7
+    query             0 -ha-sta eius no-n est adversa euouae Mo-ntes 40
+
+-- fused_5 --
+  OCR:      '.alie ibt ros nec prlunia veniantr supes veons cuim'
+  Assigned: 'gelboe nec ros nec pluvia veniant super vos quia'
+  Words:    [41..50) consumed=9
+  NW score: k=9 (pre-snap), norm=4.2646
+  Anchor:   word 50 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 .al-ie ibt ros nec prlunia veniantr supes veons cuim 51
+                      0 ..|-.|  6
+    query             0 gelboe nec ros nec p-luvia veniant- super v-o-s quia 48
+
+-- fused_6 --
+  OCR:      'in te abjectus est clippens forcium dipeus saul quasi non'
+  Assigned: 'in te abiectus est clippeus forcium clipeus saul quasi non'
+  Words:    [50..60) consumed=10
+  NW score: k=10 (pre-snap), norm=7.1307
+  Anchor:   word 60 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 in te abjectus est clippens forcium -dipeus saul quasi non 57
+                      0 ||  2
+    query             0 in te abiectus est clippeus forcium clipeus saul quasi non 58
+
+-- fused_7 --
+  OCR:      'modo ceciderunt fortes in Bello'
+  Assigned: 'esset unctus oleo quomodo ceciderunt fortes in bello'
+  Words:    [60..68) consumed=8
+  NW score: k=8 (pre-snap), norm=4.1843
+  Anchor:   word 68 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ---------------------modo ceciderunt fortes in Bello 31
+                      0 ---------------------|||| 25
+    query             0 esset unctus oleo quomodo ceciderunt fortes in bello 52
+
+-- fused_8 --
+  OCR:      'nonathas amabiles et decori Valde in vita sua in'
+  Assigned: 'ionathas amabiles et decori valde in vita sua in'
+  Words:    [68..77) consumed=9
+  NW score: k=9 (pre-snap), norm=7.4583
+  Anchor:   word 77 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 nonathas amabiles et decori Valde in vita sua in 48
+                      0 .|||||||  8
+    query             0 ionathas amabiles et decori valde in vita sua in 48
+
+-- fused_9 --
+  OCR:      'inferialibus invitats Ymnus e apsts feria'
+  Assigned: 'morte quoque non sunt divisi euouae Homo quidam fecit'
+  Words:    [77..86) consumed=9
+  NW score: k=9 (pre-snap), norm=-1.5660
+  Anchor:   word 83 (within_chant_7), diff=3, snapped=False, forced=False
+  Alignment:
+    target            0 -inferialibu------s--- -invitats- Ymnus e ---------apsts fer
+                      0 -...|-.....|------|---
+    query             0 morte- quoque non sunt di-vi---si euou-ae Homo quida---m fec
+    
+    target           39 ia 41
+                     22 |. 24
+    query            51 it 53
+
+-- fused_10 --
+  OCR:      'morte quoq non sunt divisi evovae et in liespisri ali esii br dsicli ima uus adventa'
+  Assigned: 'cenam magnam et vocavit multos et misit servum suum hora cene dicere invitatis ut venirent quia omnia parata'
+  Words:    [86..104) consumed=18
+  NW score: k=18 (pre-snap), norm=-0.9239
+  Anchor:   word 90 (within_chant_7), diff=14, snapped=False, forced=False
+  Alignment:
+    target            0 -----------morte quo----q ---non sunt divisi- -e-v---------o
+                      0 -----------|..|-
+    query             0 cenam magnam et- -vocavit multo--s et --misit servum suum ho
+    
+    target           30 va----e ---e-t in liespisri ali -esii br--- dsicli im--a uus
+                     16 .|----|
+    query            54 ra cene dicere in-vitatis-- -ut veni---rent qui--a omnia ---
+    
+    target           76  adventa  84
+                     23 .|--..||  31
+    query           102 pa--rata 108
+
+-- fused_11 --
+  OCR:      'omo quidam fecit cenam magnam et voca'
+  Assigned: 'sunt alleluya euouae'
+  Words:    [104..107) consumed=3
+  NW score: k=3 (pre-snap), norm=-2.1689
+  Anchor:   word 107 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 omo quidam fecit cenam magnam et voca- 37
+                      0 ----.|--------.| 16
+    query             0 ----su--------nt ---alleluya- e--uouae 20
+
+-- fused_12 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [107..107) consumed=0
+  Alignment:
+    (no words left)
+
+-- fused_13 --
+  OCR:      ''
+  Assigned: ''
+  Words:    [107..107) consumed=0
+  Alignment:
+    (no words left)
+=== END DEBUG ===
+

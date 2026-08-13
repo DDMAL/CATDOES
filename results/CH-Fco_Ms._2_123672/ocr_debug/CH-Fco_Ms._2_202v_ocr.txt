@@ -1,0 +1,182 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'ponobis ad dominum de Ui no Attumos pi ne'
+  [fused_1] 'marigrandoms'
+  [fused_2] 'onosa fe mina eccesa su per'
+  [fused_3] 'Sydelem visa es nec habe'
+  [fused_4] 're seqentem solsi ne exem plo placu'
+  [fused_5] 'it mngoioosafuit mmniser patuns'
+  [fused_6] 'qua jania le Tierqua intarediio sola'
+  [fused_7] 'ssumpta est Maria in celum gaudent Angeli lau'
+  [fused_8] 'dantes benedicunt dominum .'
+  [fused_9] 'aria virgo assumpta est ad ethereum thalamum'
+  [fused_10] 'in quo rex regimi steato det sollo p iubilate'
+  [fused_11] 'oae n odorem unguentorum tuorum currimus'
+  [fused_12] '„'
+  [fused_13] 'dolescentule dilererunt teninis e Do dens enorae.'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'ponobis ad dominum de Ui no Attumos pi ne'
+  Assigned: 'Intercede pro nobis ad dominum deum nostrum Ave'
+  Words:    [0..8) consumed=8
+  NW score: k=8 (pre-snap), norm=2.7336
+  Anchor:   word 8 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ----------p-o-nobis ad dominum de Ui no Attumos pi ne 41
+                      0 ----------|-|-||||| 19
+    query             0 Intercede pro nobis ad dominum de-um no-strum-- --Ave 47
+
+-- fused_1 --
+  OCR:      'marigrandoms'
+  Assigned: 'maria gracia plena dominus tecum'
+  Words:    [8..13) consumed=5
+  NW score: k=4 (pre-snap), norm=2.1513
+  Anchor:   word 13 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 mari--gra-------n--dom---s------ 12
+                      0 ||||--|||-------|--|||---|------ 32
+    query             0 maria gracia plena dominus tecum 32
+
+-- fused_2 --
+  OCR:      'onosa fe mina eccesa su per'
+  Assigned: 'Intercede O gloriosa femina excelsa super'
+  Words:    [13..19) consumed=6
+  NW score: k=6 (pre-snap), norm=3.1258
+  Anchor:   word 19 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 on---------------osa fe mina ecce-sa su per 27
+                      0 .|---------------||| 20
+    query             0 Intercede O gloriosa fe-mina excelsa su-per 41
+
+-- fused_3 --
+  OCR:      'Sydelem visa es nec habe'
+  Assigned: 'sydera que nec primam similem visa est nec habe'
+  Words:    [19..28) consumed=9
+  NW score: k=9 (pre-snap), norm=2.6828
+  Anchor:   word 28 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 Syde----------------------lem visa es- nec hab--e 24
+                      0 .|||----------------------||| 29
+    query             0 sydera que nec primam similem visa est nec habere 49
+
+-- fused_4 --
+  OCR:      're seqentem solsi ne exem plo placu'
+  Assigned: 're sequentem Sola sine exem'
+  Words:    [28..32) consumed=4
+  NW score: k=5 (pre-snap), norm=4.9429
+  Anchor:   word 32 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 re seq-entem sol--si ne exem plo placu 35
+                      0 ---|||-||||| 12
+    query             0 ---sequentem Sola si-ne exem-plo------ 27
+
+-- fused_5 --
+  OCR:      'it mngoioosafuit mmniser patuns'
+  Assigned: 'plo placuit virgo xpisto Sola fuit mulier patuit'
+  Words:    [32..39) consumed=7
+  NW score: k=7 (pre-snap), norm=2.0578
+  Anchor:   word 39 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -----it -mngo---i--o--osa-fuit mmniser patuns 31
+                      0 -----||  7
+    query             0 placuit virgo xpisto Sola fuit muli-er patuit 44
+
+-- fused_6 --
+  OCR:      'qua jania le Tierqua intarediio sola'
+  Assigned: 'qua ianua leti ex qua vita reddiit'
+  Words:    [39..46) consumed=7
+  NW score: k=8 (pre-snap), norm=3.8698
+  Anchor:   word 46 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 qua jania le Ti-e-rqua -inta-re-diio sola 36
+                      0 |||  3
+    query             0 qua ianua le-ti ex qua vi-ta reddii-----t 34
+
+-- fused_7 --
+  OCR:      'ssumpta est Maria in celum gaudent Angeli lau'
+  Assigned: 'Sola Assumpta est maria in celum gaudent angeli lau'
+  Words:    [46..55) consumed=9
+  NW score: k=8 (pre-snap), norm=5.7405
+  Anchor:   word 55 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 ------ssumpta est Maria in celum gaudent Angeli lau------ 45
+                      0 ------||||||| 13
+    query             0 Sola Assumpta est maria in celum gaudent angeli laudantes 57
+
+-- fused_8 --
+  OCR:      'dantes benedicunt dominum .'
+  Assigned: 'dantes benedicunt dominum ~Dominus'
+  Words:    [55..58) consumed=3
+  NW score: k=2 (pre-snap), norm=4.9443
+  Anchor:   word 58 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 dantes benedicunt dominum -------. 27
+                      0 -------|||||||||| 17
+    query             0 -------benedicunt dominum ~Dominus 27
+
+-- fused_9 --
+  OCR:      'aria virgo assumpta est ad ethereum thalamum'
+  Assigned: 'regnavit euouae Maria virgo assumpta est ad ethereum thalamum'
+  Words:    [58..67) consumed=9
+  NW score: k=9 (pre-snap), norm=5.7328
+  Anchor:   word 67 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 -----------------aria virgo assumpta est ad ethereum thalamu
+                      0 -----------------||||
+    query             0 regnavit euouae Maria virgo assumpta est ad ethereum thalamu
+    
+    target           43 m 44
+                     21 | 22
+    query            60 m 61
+
+-- fused_10 --
+  OCR:      'in quo rex regimi steato det sollo p iubilate'
+  Assigned: 'in quo rex regum stellato sedet solio'
+  Words:    [67..74) consumed=7
+  NW score: k=8 (pre-snap), norm=5.6100
+  Anchor:   word 74 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 in quo rex regimi ste--ato --det sollo p iubilate 45
+                      0 ||  2
+    query             0 in quo rex regum- stellato sedet solio----------- 37
+
+-- fused_11 --
+  OCR:      'oae n odorem unguentorum tuorum currimus'
+  Assigned: '~Iubilate euouae In odore unguentorum tuorum currimus ad'
+  Words:    [74..82) consumed=8
+  NW score: k=7 (pre-snap), norm=5.4514
+  Anchor:   word 82 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 ------------o-ae -n odorem unguentorum tuorum currimus------
+                      0 ------------|-||
+    query             0 ~Iubilate euouae In odore- unguentorum tuorum currimus adole
+    
+    target           40 -------- 40
+                     16 -------- 24
+    query            59 scentule 67
+
+-- fused_12 --
+  OCR:      '„'
+  Assigned: 'olescentule dilexerunt te nimis ~Deus'
+  Words:    [82..86) consumed=4
+  NW score: k=1 (pre-snap), norm=-11.3842
+  Anchor:   word 86 (within_chant_7), diff=3, snapped=False, forced=True
+  Alignment:
+    ------------------------„
+    ------------------------.
+    dilexerunt te nimis ~Deus
+
+-- fused_13 --
+  OCR:      'dolescentule dilererunt teninis e Do dens enorae.'
+  Assigned: 'deus euouae'
+  Words:    [86..88) consumed=2
+  NW score: k=2 (pre-snap), norm=-2.9290
+  Alignment:
+    target            0 dolescentule dilererunt teninis e Do dens enorae. 49
+                      0 |-----------------|-|-------------------| 41
+    query             0 d-----------------e-u-------------------s euouae- 11
+=== END DEBUG ===
+

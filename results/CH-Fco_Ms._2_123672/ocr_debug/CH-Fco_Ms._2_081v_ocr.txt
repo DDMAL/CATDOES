@@ -1,0 +1,167 @@
+
+=== DEBUG OCR: fused line transcripts ===
+  [fused_0] 'averunt Jacob dicentes «oseph filius tuus vuint et'
+  [fused_1] 'po se comii tur in tota ter rae  ti quo'
+  [fused_2] 'audi to Rem tit spiritus ejus rit sus ficit'
+  [fused_3] 'm anvadimum et nabione umm ane mani mo'
+  [fused_4] 'audisset Jacob quod filius ejus in'
+  [fused_5] 'ne ret qua si de gram sompno cui Gilans it'
+  [fused_6] 'sufficit mi chi . in laudibus antiphona'
+  [fused_7] 'ac benigne in bona voluntate tua ut edificentiu domi'
+  [fused_8] 'ne muri Iherusalem ps misere evovae a ominus mi'
+  [fused_9] 'chi adjitor est non tinebo quid faciat michi homo'
+  [fused_10] 'eus misereatur nobis et benedicat'
+  [fused_11] 'no Dsdeus evovae et vim virtutis sue oblitus'
+  [fused_12] 'aiono de paucta mn jvetitainteilele .eronae'
+
+
+=== DEBUG NW ALIGNMENT ===
+
+-- fused_0 --
+  OCR:      'averunt Jacob dicentes «oseph filius tuus vuint et'
+  Assigned: 'iacob dicentes ioseph filius tuus vivit et'
+  Words:    [0..7) consumed=7
+  NW score: k=7 (pre-snap), norm=5.3900
+  Anchor:   word 35 (within_chant_7), diff=28, snapped=False, forced=False
+  Alignment:
+    averunt Jacob dicentes «oseph filius tuus vui-nt et
+    --------.||||||||||||||.|||||||||||||||||||-|-.||||
+    --------iacob dicentes ioseph filius tuus v-ivit et
+
+-- fused_1 --
+  OCR:      'po se comii tur in tota ter rae  ti quo'
+  Assigned: 'ipse dominatur in tota terra egypti quo'
+  Words:    [7..14) consumed=7
+  NW score: k=7 (pre-snap), norm=4.7436
+  Anchor:   word 35 (within_chant_7), diff=21, snapped=False, forced=False
+  Alignment:
+    target            0 -po se comii tur in tota ter ra-e-  ti quo 39
+                      0 -|--||  6
+    query             0 ip--se dominatur in tota ter-ra egypti quo 39
+
+-- fused_2 --
+  OCR:      'audi to Rem tit spiritus ejus rit sus ficit'
+  Assigned: 'audito revixit spiritus eius et dixit Sufficit'
+  Words:    [14..21) consumed=7
+  NW score: k=7 (pre-snap), norm=4.2946
+  Anchor:   word 35 (within_chant_7), diff=14, snapped=False, forced=False
+  Alignment:
+    target            0 audi to Rem tit spiritus ejus -----rit sus ficit 43
+                      0 ||||-||  7
+    query             0 audi-to revixit spiritus eius et dixit Su-fficit 46
+
+-- fused_3 --
+  OCR:      'm anvadimum et nabione umm ane mani mo'
+  Assigned: 'michi vadam et videbo eum antequam moriar'
+  Words:    [21..28) consumed=7
+  NW score: k=7 (pre-snap), norm=1.3174
+  Anchor:   word 35 (within_chant_7), diff=7, snapped=False, forced=False
+  Alignment:
+    target            0 m---- anvadimum et --nabione umm an-e mani mo---- 38
+                      0 |----  5
+    query             0 michi --vad--am et videb-o e-u-m antequa-m moriar 41
+
+-- fused_4 --
+  OCR:      'audisset Jacob quod filius ejus in'
+  Assigned: 'Cumque audisset iacob quod filius eius vi'
+  Words:    [28..35) consumed=7
+  NW score: k=6 (pre-snap), norm=5.1190
+  Anchor:   word 35 (within_chant_7), diff=1, snapped=True, forced=False
+  Alignment:
+    target            0 -------audisset Jacob quod filius ejus -i----n 34
+                      0 -------|||||||| 15
+    query             0 Cumque audisset iacob quod filius eius viveret 46
+
+-- fused_5 --
+  OCR:      'ne ret qua si de gram sompno cui Gilans it'
+  Assigned: 'veret quasi de gravi sompno evigilans ait'
+  Words:    [35..41) consumed=6
+  NW score: k=6 (pre-snap), norm=4.1470
+  Anchor:   word 41 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ne ret qua si de gra-m sompno cui Gilans -it 42
+                      0 -------|||-|| 13
+    query             0 -------qua-si de gravi sompno evi-gilans ait 35
+
+-- fused_6 --
+  OCR:      'sufficit mi chi . in laudibus antiphona'
+  Assigned: 'Sufficit michi Fac benigne in bona'
+  Words:    [41..47) consumed=6
+  NW score: k=6 (pre-snap), norm=2.1420
+  Anchor:   word 52 (within_chant_7), diff=5, snapped=False, forced=False
+  Alignment:
+    target            0 sufficit mi chi --. -in laudibus antiphona 39
+                      0 .|||||||  8
+    query             0 Sufficit mi-chi Fac ben-----igne in-- bona 34
+
+-- fused_7 --
+  OCR:      'ac benigne in bona voluntate tua ut edificentiu domi'
+  Assigned: 'voluntate tua ut edificentur domi'
+  Words:    [47..52) consumed=5
+  NW score: k=5 (pre-snap), norm=4.0083
+  Anchor:   word 52 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ac benigne in bona voluntate tua ut edificentiu- domi-- 52
+                      0 -------------------||||||||| 28
+    query             0 -------------------voluntate tua ut edificent-ur domine 35
+
+-- fused_8 --
+  OCR:      'ne muri Iherusalem ps misere evovae a ominus mi'
+  Assigned: 'ne muri iherusalem ~Miserere euouae Dominus mi'
+  Words:    [52..58) consumed=6
+  NW score: k=6 (pre-snap), norm=4.2368
+  Anchor:   word 58 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ne muri Iherusalem ps mis--ere evovae a ominus m---i 47
+                      0 ---||||  7
+    query             0 ---muri iherusalem --~Miserere euouae -Dominus michi 46
+
+-- fused_9 --
+  OCR:      'chi adjitor est non tinebo quid faciat michi homo'
+  Assigned: 'chi adiutor est non timebo quid faciat michi homo'
+  Words:    [58..66) consumed=8
+  NW score: k=8 (pre-snap), norm=6.5804
+  Anchor:   word 66 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 chi adji-tor est non tinebo quid faciat michi homo 49
+                      0 ----||-|-||| 12
+    query             0 ----ad-iutor est non timebo quid faciat michi homo 45
+
+-- fused_10 --
+  OCR:      'eus misereatur nobis et benedicat'
+  Assigned: '~Confitebor euouae Deus misereatur nobis et benedicat'
+  Words:    [66..73) consumed=7
+  NW score: k=7 (pre-snap), norm=4.7823
+  Anchor:   word 73 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 --------------------eus misereatur nobis et benedicat 33
+                      0 --------------------||| 23
+    query             0 ~Confitebor euouae Deus misereatur nobis et benedicat 53
+
+-- fused_11 --
+  OCR:      'no Dsdeus evovae et vim virtutis sue oblitus'
+  Assigned: 'nos ~Deus deus euouae Vim virtutis sue oblitus'
+  Words:    [73..81) consumed=8
+  NW score: k=8 (pre-snap), norm=5.4458
+  Anchor:   word 81 (within_chant_7), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 no- -D--s-deus evovae et vim virtutis sue oblitus 44
+                      0 ||-  3
+    query             0 nos ~Deus deus euouae--- Vim virtutis sue oblitus 46
+
+-- fused_12 --
+  OCR:      'aiono de paucta mn jvetitainteilele .eronae'
+  Assigned: 'est ignis ut pueri tui liberarentur illesi ~Benedicam euouae'
+  Words:    [81..90) consumed=9
+  NW score: k=9 (pre-snap), norm=-0.8072
+  Anchor:   word 90 (page_break_77), diff=0, snapped=True, forced=False
+  Alignment:
+    target            0 ---aion-o de paucta -mn -jvetita-int--eilele-- ----------.er
+                      0 ---.|.|-.
+    query             0 est ignis ut p-ueri tui libe--rarentur il-lesi ~Benedicam eu
+    
+    target           39 onae 43
+                      9 |.|| 13
+    query            56 ouae 60
+=== END DEBUG ===
+
